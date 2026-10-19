@@ -20,8 +20,8 @@
       "en": "Magna Carta"
     },
     "description": {
-      "fr": "-2 en Influence pour la carte adverse si la carte adverse est du Moyen Âge.",
-      "en": "The opposing card gets -2 Influence if the opposing card is from the Middle Ages."
+      "fr": "−2 en Influence pour la carte adverse si la carte adverse est du Moyen Âge.",
+      "en": "The opposing card gets −2 Influence if the opposing card is from the Middle Ages."
     },
     "effect": {
       "type": "malus",

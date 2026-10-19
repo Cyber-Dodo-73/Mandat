@@ -20,8 +20,8 @@
       "en": "Rule by Terror"
     },
     "description": {
-      "fr": "-2 en Charisme pour la carte adverse si la carte adverse est de l'époque contemporaine.",
-      "en": "The opposing card gets -2 Charisma if the opposing card is from the contemporary era."
+      "fr": "−2 en Charisme pour la carte adverse si la carte adverse est de l'époque contemporaine.",
+      "en": "The opposing card gets −2 Charisma if the opposing card is from the contemporary era."
     },
     "effect": {
       "type": "malus",

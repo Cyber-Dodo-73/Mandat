@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q182276",
+  "role": {
+    "fr": "Président du Mexique",
+    "en": "President of Mexico"
+  },
+  "bio": {
+    "fr": "Né dans une famille zapotèque pauvre, il devient avocat puis porte les réformes libérales qui séparent l'Église et l'État au Mexique. Président à partir de 1858, il résiste à l'intervention française et fait exécuter l'empereur Maximilien en 1867. Il reste au pouvoir jusqu'à sa mort en 1872.",
+    "en": "Born into a poor Zapotec family, he became a lawyer and led the liberal reforms that separated church and state in Mexico. President from 1858, he resisted the French intervention and had Emperor Maximilian executed in 1867. He stayed in power until his death in 1872."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Lois de Réforme",
+      "en": "Reform Laws"
+    },
+    "description": {
+      "fr": "−2 en Influence pour la carte adverse si la carte adverse est de l'époque moderne.",
+      "en": "The opposing card gets −2 Influence if it is from the modern era."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

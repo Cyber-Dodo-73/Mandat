@@ -20,8 +20,8 @@
       "en": "Fall of Berlin"
     },
     "description": {
-      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse est de l'époque contemporaine.",
-      "en": "-2 Strategy to the opposing card if the opposing card is from the contemporary era."
+      "fr": "−2 en Stratégie pour la carte adverse si la carte adverse est de l'époque contemporaine.",
+      "en": "−2 Strategy to the opposing card if the opposing card is from the contemporary era."
     },
     "effect": {
       "type": "malus",

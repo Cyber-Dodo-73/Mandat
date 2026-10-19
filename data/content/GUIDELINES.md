@@ -52,3 +52,36 @@ Conditions (`kind` → `value`):
 Balance: rarer conditions allow bigger amounts (always = 1, common conditions = 1–2, narrow ones = 2–3).
 The description must say exactly what the effect does, e.g. "+2 en Diplomatie si la carte adverse vient du même continent."
 Vary effects across a batch; don't give every card the same one.
+
+Build-time checks (they fail the build):
+- the condition must be able to trigger for that card: no `opponentRarityHigher` on a mythic, and a
+  bonus/malus on one stat must not be gated by `roundDomain` on another stat (an effect only counts when its
+  stat is the round's domain, so it could never apply);
+- French text says "manche" (never "round"); both languages write negatives with the minus sign "−" (U+2212),
+  e.g. "−2 en Stratégie pour la carte adverse".
+
+## Long-form content (optional, validated when present)
+
+Writers can add, in the same file:
+
+```json
+"story":      { "fr": "…", "en": "…" },
+"highlights": { "fr": ["…", "…", "…"], "en": ["…", "…", "…"] },
+"legacy":     { "fr": "…", "en": "…" }
+```
+
+- **story**: the person's history, 6 to 10 sentences, 600–1600 characters per language. Chronological,
+  factual, original wording (never copied from Wikipedia), same tone rules as the bio (sensitive figures:
+  crimes stated explicitly with events and magnitudes). Use the card's `timeline` in data/cards.season1.json
+  (dated offices, awards, events from Wikidata) as a checklist of facts to cover.
+- **highlights**: 3 to 5 short facts ("ce qu'il/elle a obtenu ou fait"), ≤ 140 characters each, the same number
+  of items in fr and en (one translation per item, same order). Concrete and dated when possible.
+- **legacy**: 1 to 2 sentences (≤ 320 characters) on what remains of them today.
+
+## Timeline (generated, not written by hand)
+
+`npm run build` adds to every card a `timeline` extracted from Wikidata: birth and death (year, place), offices
+held (P39, start/end), awards (P166), notable events (P1344) and education (P69), with fr/en labels, deduped,
+chronological and capped at 12 entries (offices of the person's own country first, then by notability).
+Each entry: `{ "year": 1981, "endYear": 1995, "kind": "office", "label": { "fr": "…", "en": "…" }, "wikidataId": "Q…" }`
+(`kind` ∈ birth, death, office, award, event, education; years are historical, 1 BCE = −1).

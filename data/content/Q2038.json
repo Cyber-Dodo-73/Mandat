@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q2038",
+  "role": {
+    "fr": "Président de la République française",
+    "en": "President of France"
+  },
+  "bio": {
+    "fr": "Résistant puis ministre sous la IVe République, il rassemble la gauche et remporte l'élection présidentielle de 1981. Il fait abolir la peine de mort, lance la décentralisation et pousse la construction européenne jusqu'au traité de Maastricht. Il est le seul président de la Ve République à avoir accompli deux septennats complets, de 1981 à 1995.",
+    "en": "A Resistance member and then a minister under the Fourth Republic, he united the left and won the 1981 presidential election. He abolished the death penalty, launched decentralisation and drove European integration up to the Maastricht Treaty. He remains the only president of the Fifth Republic to have served two full seven-year terms, from 1981 to 1995."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Le Sphinx",
+      "en": "The Sphinx"
+    },
+    "description": {
+      "fr": "Remporte les égalités à la manche 3.",
+      "en": "Wins ties in round 3."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

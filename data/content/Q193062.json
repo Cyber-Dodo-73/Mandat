@@ -20,8 +20,8 @@
       "en": "Trial of the Juntas"
     },
     "description": {
-      "fr": "-2 pour la carte adverse dans le domaine de la manche contre une carte de l'époque contemporaine.",
-      "en": "-2 to the opposing card in the round's domain against a Contemporary card."
+      "fr": "−2 pour la carte adverse dans le domaine de la manche contre une carte de l'époque contemporaine.",
+      "en": "−2 to the opposing card in the round's domain against a Contemporary card."
     },
     "effect": {
       "type": "malus",

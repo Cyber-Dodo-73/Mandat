@@ -20,8 +20,8 @@
       "en": "Presidential Veto"
     },
     "description": {
-      "fr": "-1 dans le domaine de la manche pour la carte adverse.",
-      "en": "The opposing card gets -1 in the round's domain."
+      "fr": "−1 dans le domaine de la manche pour la carte adverse.",
+      "en": "The opposing card gets −1 in the round's domain."
     },
     "effect": {
       "type": "malus",

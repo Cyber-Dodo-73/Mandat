@@ -20,8 +20,8 @@
       "en": "National Firearms Agreement"
     },
     "description": {
-      "fr": "-2 en Stratégie pour la carte adverse lors de la manche 2.",
-      "en": "-2 Strategy to the opposing card in round 2."
+      "fr": "−2 en Stratégie pour la carte adverse lors de la manche 2.",
+      "en": "−2 Strategy to the opposing card in round 2."
     },
     "effect": {
       "type": "malus",

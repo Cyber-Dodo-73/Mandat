@@ -3,7 +3,7 @@
  * mobile app bundles (mobile/assets/portraits/<cardId>.webp). Reads the manifest so only
  * cards with a portrait are converted; truncated downloads are decoded as far as possible.
  */
-import { mkdirSync, readFileSync, statSync } from 'node:fs';
+import { mkdirSync, readdirSync, readFileSync, statSync, unlinkSync } from 'node:fs';
 import path from 'node:path';
 
 import sharp from 'sharp';
@@ -15,6 +15,18 @@ type ManifestEntry = { cardId: string; localFile: string | null };
 export async function portraitsWeb(): Promise<void> {
   const manifest = JSON.parse(readFileSync(PATHS.portraitsManifest, 'utf8')) as { portraits: ManifestEntry[] };
   mkdirSync(PATHS.portraitsWeb, { recursive: true });
+
+  // Card ids follow collector numbers, which change when the catalog is rebuilt: drop every
+  // bundled portrait that the current manifest doesn't produce, so no card keeps someone else's photo.
+  const expected = new Set(manifest.portraits.filter((e) => e.localFile).map((e) => `${e.cardId}.webp`));
+  let removed = 0;
+  for (const name of readdirSync(PATHS.portraitsWeb)) {
+    if (name.endsWith('.webp') && !expected.has(name)) {
+      unlinkSync(path.join(PATHS.portraitsWeb, name));
+      removed += 1;
+    }
+  }
+  if (removed > 0) console.log(`Removed ${removed} stale portrait(s).`);
 
   let converted = 0;
   let bytes = 0;

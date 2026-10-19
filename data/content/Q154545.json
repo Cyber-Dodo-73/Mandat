@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q154545",
+  "role": {
+    "fr": "Président du Sénégal",
+    "en": "President of Senegal"
+  },
+  "bio": {
+    "fr": "Poète et agrégé de grammaire, il est l'un des fondateurs du mouvement de la négritude avec Aimé Césaire. Il devient en 1960 le premier président du Sénégal indépendant et le reste vingt ans. Il quitte volontairement le pouvoir en 1980, chose rare à l'époque, puis entre à l'Académie française en 1983.",
+    "en": "A poet and grammar scholar, he was one of the founders of the négritude movement alongside Aimé Césaire. He became the first president of independent Senegal in 1960 and held the office for twenty years. He stepped down of his own accord in 1980, a rare move at the time, and joined the Académie française in 1983."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 9,
+    "charisma": 8,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Négritude",
+      "en": "Négritude"
+    },
+    "description": {
+      "fr": "+1 en Charisme.",
+      "en": "+1 Charisma."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

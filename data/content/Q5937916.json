@@ -20,8 +20,8 @@
       "en": "Law and Order"
     },
     "description": {
-      "fr": "-2 en Charisme pour la carte adverse lors de la manche 3.",
-      "en": "-2 Charisma to the opposing card in round 3."
+      "fr": "−2 en Charisme pour la carte adverse lors de la manche 3.",
+      "en": "−2 Charisma to the opposing card in round 3."
     },
     "effect": {
       "type": "malus",

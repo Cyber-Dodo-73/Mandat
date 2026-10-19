@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q7226",
+  "name": {
+    "fr": "Jeanne d'Arc",
+    "en": "Joan of Arc"
+  },
+  "role": {
+    "fr": "Cheffe de guerre du royaume de France",
+    "en": "War leader of the Kingdom of France"
+  },
+  "bio": {
+    "fr": "Jeune paysanne de Lorraine, elle affirme entendre des voix qui lui confient la mission de chasser les Anglais du royaume. En 1429, elle fait lever le siège d'Orléans puis conduit Charles VII jusqu'à son sacre à Reims. Capturée, elle est jugée pour hérésie et brûlée vive à Rouen en 1431.",
+    "en": "A peasant girl from Lorraine, she claimed that voices had given her the mission of driving the English out of France. In 1429 she lifted the siege of Orléans and brought Charles VII to his coronation in Reims. Captured, she was tried for heresy and burned at the stake in Rouen in 1431."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 3,
+    "charisma": 9,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Levée du siège",
+      "en": "Lifting the Siege"
+    },
+    "description": {
+      "fr": "+2 en Stratégie quand tu es mené au score.",
+      "en": "+2 Strategy when you are behind on rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

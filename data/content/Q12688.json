@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q12688",
+  "role": {
+    "fr": "Député socialiste français",
+    "en": "French socialist deputy"
+  },
+  "bio": {
+    "fr": "Professeur de philosophie et grand orateur, il devient député du Tarn et la principale figure du socialisme français. Il soutient Alfred Dreyfus, fonde le journal L'Humanité en 1904 et participe l'année suivante à la création de la SFIO. Pacifiste, il est assassiné à Paris le 31 juillet 1914, à la veille de la Première Guerre mondiale.",
+    "en": "A philosophy teacher and great orator, he became a deputy for the Tarn and the leading figure of French socialism. He supported Alfred Dreyfus, founded the newspaper L'Humanité in 1904 and helped create the SFIO the following year. A pacifist, he was assassinated in Paris on 31 July 1914, on the eve of the First World War."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 7,
+    "charisma": 10,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Tribun",
+      "en": "Orator"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Charisma if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

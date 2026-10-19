@@ -20,7 +20,7 @@
       "en": "Philosopher President"
     },
     "description": {
-      "fr": "Remporte les égalités quand le domaine du round est Influence.",
+      "fr": "Remporte les égalités quand le domaine de la manche est Influence.",
       "en": "Wins ties when the round's domain is Influence."
     },
     "effect": {

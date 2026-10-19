@@ -20,8 +20,8 @@
       "en": "Maximum Pressure"
     },
     "description": {
-      "fr": "-2 en Stratégie pour la carte adverse lors des manches de Stratégie.",
-      "en": "Opposing card gets -2 Strategy in Strategy rounds."
+      "fr": "−2 en Stratégie pour la carte adverse lors des manches de Stratégie.",
+      "en": "Opposing card gets −2 Strategy in Strategy rounds."
     },
     "effect": {
       "type": "malus",

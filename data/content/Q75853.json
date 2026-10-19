@@ -20,8 +20,8 @@
       "en": "Junta"
     },
     "description": {
-      "fr": "-1 en Charisme pour la carte adverse en permanence.",
-      "en": "-1 Charisma to the opposing card at all times."
+      "fr": "−1 en Charisme pour la carte adverse en permanence.",
+      "en": "−1 Charisma to the opposing card at all times."
     },
     "effect": {
       "type": "malus",

@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q26702",
+  "name": {
+    "fr": "Cardinal de Richelieu",
+    "en": "Cardinal Richelieu"
+  },
+  "role": {
+    "fr": "Principal ministre du roi de France",
+    "en": "Chief Minister of the King of France"
+  },
+  "bio": {
+    "fr": "Évêque devenu cardinal, il est le principal ministre de Louis XIII de 1624 à sa mort en 1642. Il brise la puissance militaire des protestants au siège de La Rochelle, soumet les grands nobles et engage la France contre les Habsbourg dans la guerre de Trente Ans. Il fonde aussi l'Académie française en 1635.",
+    "en": "A bishop who became a cardinal, he was Louis XIII's chief minister from 1624 until his death in 1642. He broke the military power of the Protestants at the siege of La Rochelle, brought the great nobles to heel and set France against the Habsburgs in the Thirty Years' War. He also founded the Académie française in 1635."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 2,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Raison d'État",
+      "en": "Reason of State"
+    },
+    "description": {
+      "fr": "−2 en Influence pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "The opposing card gets −2 Influence if it is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

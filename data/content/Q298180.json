@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q298180",
+  "role": {
+    "fr": "Présidente du Parlement européen",
+    "en": "President of the European Parliament"
+  },
+  "bio": {
+    "fr": "Déportée à Auschwitz à 16 ans, elle survit à la Shoah, qui coûte la vie à sa mère, à son père et à son frère. Ministre de la Santé, elle fait adopter en 1975 la loi qui dépénalise l'avortement en France. En 1979, elle devient la première présidente du Parlement européen élu au suffrage universel.",
+    "en": "Deported to Auschwitz at 16, she survived the Holocaust, which took the lives of her mother, father and brother. As Health Minister she secured the 1975 law that decriminalised abortion in France. In 1979 she became the first President of the directly elected European Parliament."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 7,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Loi Veil",
+      "en": "The Veil Law"
+    },
+    "description": {
+      "fr": "−2 en Charisme pour la carte adverse quand tu es mené au score.",
+      "en": "The opposing card gets −2 Charisma when you are behind on rounds."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

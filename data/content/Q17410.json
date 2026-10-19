@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q17410",
+  "role": {
+    "fr": "Premier ministre de la République populaire de Chine",
+    "en": "Premier of the People's Republic of China"
+  },
+  "bio": {
+    "fr": "Compagnon de Mao Zedong depuis la Longue Marche, il est Premier ministre de la République populaire de Chine de 1949 à sa mort en 1976. Diplomate habile, il représente la Chine à Genève et à Bandung, puis prépare la visite de Richard Nixon à Pékin en 1972. Il reste au sommet du pouvoir pendant toute la Révolution culturelle.",
+    "en": "A companion of Mao Zedong since the Long March, he was Premier of the People's Republic of China from 1949 until his death in 1976. A skilled diplomat, he represented China at Geneva and Bandung, then prepared Richard Nixon's visit to Beijing in 1972. He stayed at the top of power throughout the Cultural Revolution."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 10,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Diplomatie du ping-pong",
+      "en": "Ping-Pong Diplomacy"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie quand le domaine de la manche est la Diplomatie.",
+      "en": "+3 Diplomacy when the round domain is Diplomacy."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "diplomacy"
+      }
+    }
+  }
+}

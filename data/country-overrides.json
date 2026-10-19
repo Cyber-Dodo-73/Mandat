@@ -5,6 +5,12 @@
     "iso": "US",
     "reason": "US Secretary of State; Czech-born, but her political career is American."
   },
+  "Q205783": {
+    "name": "Toussaint Louverture",
+    "iso": "HT",
+    "continent": "north_america",
+    "reason": "Leader of the Haitian Revolution; Wikidata gives French citizenship (colonial Saint-Domingue)."
+  },
   "Q539": {
     "name": "Giuseppe Garibaldi",
     "iso": "IT",

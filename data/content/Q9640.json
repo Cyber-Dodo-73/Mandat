@@ -20,8 +20,8 @@
       "en": "The Johnson Treatment"
     },
     "description": {
-      "fr": "-2 en Diplomatie à la carte adverse quand le domaine de la manche est Diplomatie.",
-      "en": "-2 Diplomacy to the opposing card when the round's domain is Diplomacy."
+      "fr": "−2 en Diplomatie à la carte adverse quand le domaine de la manche est Diplomatie.",
+      "en": "−2 Diplomacy to the opposing card when the round's domain is Diplomacy."
     },
     "effect": {
       "type": "malus",

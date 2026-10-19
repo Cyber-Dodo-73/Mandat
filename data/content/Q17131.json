@@ -20,8 +20,8 @@
       "en": "Washing of Hands"
     },
     "description": {
-      "fr": "-2 en Charisme pour la carte adverse si la carte adverse est de l'Antiquité.",
-      "en": "-2 Charisma to the opposing card if the opposing card is from Antiquity."
+      "fr": "−2 en Charisme pour la carte adverse si la carte adverse est de l'Antiquité.",
+      "en": "−2 Charisma to the opposing card if the opposing card is from Antiquity."
     },
     "effect": {
       "type": "malus",

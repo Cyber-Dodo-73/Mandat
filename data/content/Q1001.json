@@ -20,15 +20,15 @@
       "en": "Non-Violence"
     },
     "description": {
-      "fr": "−3 en Stratégie à la carte adverse si la carte adverse est plus rare.",
-      "en": "−3 Strategy to the opposing card if the opposing card is rarer."
+      "fr": "−2 en Stratégie à la carte adverse quand tu es mené au score.",
+      "en": "−2 Strategy to the opposing card when you are behind on rounds."
     },
     "effect": {
       "type": "malus",
       "stat": "strategy",
-      "amount": 3,
+      "amount": 2,
       "condition": {
-        "kind": "opponentRarityHigher"
+        "kind": "behind"
       }
     }
   }

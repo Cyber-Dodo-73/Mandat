@@ -20,8 +20,8 @@
       "en": "Illiberal Democracy"
     },
     "description": {
-      "fr": "-1 en Diplomatie pour la carte adverse en permanence.",
-      "en": "-1 Diplomacy to the opposing card at all times."
+      "fr": "−1 en Diplomatie pour la carte adverse en permanence.",
+      "en": "−1 Diplomacy to the opposing card at all times."
     },
     "effect": {
       "type": "malus",

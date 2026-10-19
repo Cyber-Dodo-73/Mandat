@@ -98,3 +98,27 @@ illustrated card made from the photo) be shared under the same license; `other` 
 a case-by-case check. A free copyright license does not clear personality rights: portraits of
 living people may need consent or a legal review before commercial use, whatever the
 copyright status.
+
+## Must-include figures, continent minimums and timelines
+
+- `data/must-include.json` lists documented false negatives of the selection: major figures the fame
+  metric under-ranks (national icons of the French-speaking launch market such as Mitterrand, Clemenceau,
+  Simone Veil) or that the category queries / occupation filter miss (Joan of Arc, Eva Perón), and the
+  sitting UK Prime Minister. They are always selected, in place of the lowest merit picks (never of
+  continent-quota picks), and bypass the scope rules; their rarity is still assigned by fame rank.
+  Keep the list short and give a reason for each entry.
+- `CONTINENT_TOP_TIER_MINIMUMS` (src/config.ts) guarantees every continent some top-tier cards
+  (Africa, Asia and South America ≥ 2 legendary-or-better and ≥ 6 epic-or-better, Oceania ≥ 1 epic).
+  They are applied after the country caps: the continent's best-ranked figure is promoted and every
+  tier in between gives up its lowest-ranked card (`enforceContinentMinimums`, audited as
+  `continentPromotions` in `data/candidates.season1.json`).
+- Every card gets a `timeline` built from Wikidata (src/timeline.ts): birth/death year and place
+  (P569/P19, P570/P20; a building or street climbs to its town), offices with dates (P39, only offices
+  tied to a jurisdiction, the person's own country first), awards (P166), events (P1344) and education
+  (P69). Labels are fr/en (gendered French office labels resolved), deduped, chronological, ≤ 12 entries
+  with per-kind quotas (offices 6, events 3, awards 2, education 1). The build validates it.
+- Content files may carry optional `story`, `highlights` and `legacy` fields (see data/content/GUIDELINES.md),
+  validated when present, and abilities are checked for conditions that can never trigger and for
+  wording ("manche", "−").
+- Local portrait downloads (`data/portraits/`) are keyed by QID; `portraits-web` writes
+  `mobile/assets/portraits/<cardId>.webp` and removes any stale file, since card ids follow collector numbers.

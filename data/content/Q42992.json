@@ -20,8 +20,8 @@
       "en": "Iron Will"
     },
     "description": {
-      "fr": "-1 en Diplomatie pour la carte adverse.",
-      "en": "The opposing card gets -1 Diplomacy."
+      "fr": "−1 en Diplomatie pour la carte adverse.",
+      "en": "The opposing card gets −1 Diplomacy."
     },
     "effect": {
       "type": "malus",

@@ -20,8 +20,8 @@
       "en": "Deterrence"
     },
     "description": {
-      "fr": "-2 à la carte adverse dans le domaine de la manche si la carte adverse est plus rare.",
-      "en": "-2 to the opposing card in the round's domain if the opposing card is rarer."
+      "fr": "−2 à la carte adverse dans le domaine de la manche si la carte adverse est plus rare.",
+      "en": "−2 to the opposing card in the round's domain if the opposing card is rarer."
     },
     "effect": {
       "type": "malus",

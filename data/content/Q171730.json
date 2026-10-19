@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q171730",
+  "role": {
+    "fr": "Président du Conseil de la République française",
+    "en": "Prime Minister of France"
+  },
+  "bio": {
+    "fr": "Médecin et journaliste, il défend Alfred Dreyfus en publiant le « J'accuse » de Zola dans son journal L'Aurore. Président du Conseil en 1906 puis de nouveau en 1917, il mène la France jusqu'à la victoire de 1918, ce qui lui vaut le surnom de « Père la Victoire ». Il négocie ensuite le traité de Versailles.",
+    "en": "A doctor and journalist, he defended Alfred Dreyfus by publishing Zola's \"J'accuse\" in his newspaper L'Aurore. Prime Minister in 1906 and again in 1917, he led France to victory in 1918, earning the nickname \"Father of Victory\". He then negotiated the Treaty of Versailles."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Le Tigre",
+      "en": "The Tiger"
+    },
+    "description": {
+      "fr": "+3 en Stratégie à la manche 3.",
+      "en": "+3 Strategy in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

@@ -20,8 +20,8 @@
       "en": "KGB Files"
     },
     "description": {
-      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse est plus rare.",
-      "en": "-2 Strategy to the opposing card if the opposing card is rarer."
+      "fr": "−2 en Stratégie pour la carte adverse si la carte adverse est plus rare.",
+      "en": "−2 Strategy to the opposing card if the opposing card is rarer."
     },
     "effect": {
       "type": "malus",

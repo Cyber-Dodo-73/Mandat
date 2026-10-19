@@ -20,8 +20,8 @@
       "en": "Golden Ransom"
     },
     "description": {
-      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse vient d'un autre continent.",
-      "en": "-2 Strategy to the opposing card if the opposing card is from another continent."
+      "fr": "−2 en Stratégie pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "−2 Strategy to the opposing card if the opposing card is from another continent."
     },
     "effect": {
       "type": "malus",

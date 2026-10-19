@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q76127",
+  "role": {
+    "fr": "Président de l'Indonésie",
+    "en": "President of Indonesia"
+  },
+  "bio": {
+    "fr": "Figure de la lutte contre la colonisation néerlandaise, il proclame l'indépendance de l'Indonésie en 1945 et en devient le premier président. Il accueille en 1955 la conférence de Bandung, acte fondateur du mouvement des non-alignés. Écarté par le général Suharto après les violences de 1965-1966, il meurt en résidence surveillée en 1970.",
+    "en": "A leader of the struggle against Dutch colonial rule, he proclaimed Indonesia's independence in 1945 and became its first president. In 1955 he hosted the Bandung Conference, a founding moment of the Non-Aligned Movement. Sidelined by General Suharto after the violence of 1965–1966, he died under house arrest in 1970."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 8,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Esprit de Bandung",
+      "en": "Spirit of Bandung"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

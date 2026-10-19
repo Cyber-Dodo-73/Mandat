@@ -20,8 +20,8 @@
       "en": "Year Zero"
     },
     "description": {
-      "fr": "-2 en Influence à la carte adverse lors de la première manche.",
-      "en": "-2 Influence to the opposing card in the first round."
+      "fr": "−2 en Influence à la carte adverse lors de la première manche.",
+      "en": "−2 Influence to the opposing card in the first round."
     },
     "effect": {
       "type": "malus",

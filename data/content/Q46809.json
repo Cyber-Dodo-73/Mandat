@@ -20,7 +20,7 @@
       "en": "Revolutionary Armed Forces"
     },
     "description": {
-      "fr": "Remporte les égalités quand le domaine du round est Stratégie.",
+      "fr": "Remporte les égalités quand le domaine de la manche est Stratégie.",
       "en": "Wins ties when the round's domain is Strategy."
     },
     "effect": {

@@ -20,8 +20,8 @@
       "en": "Apparatus of Terror"
     },
     "description": {
-      "fr": "-2 en Charisme pour la carte adverse lors des manches de Charisme.",
-      "en": "Opposing card gets -2 Charisma in Charisma rounds."
+      "fr": "−2 en Charisme pour la carte adverse lors des manches de Charisme.",
+      "en": "Opposing card gets −2 Charisma in Charisma rounds."
     },
     "effect": {
       "type": "malus",

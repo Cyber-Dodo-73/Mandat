@@ -20,8 +20,8 @@
       "en": "Iron Grip"
     },
     "description": {
-      "fr": "-2 pour la carte adverse dans le domaine de la manche lors de la manche 2.",
-      "en": "-2 to the opposing card in the round's domain in round 2."
+      "fr": "−2 pour la carte adverse dans le domaine de la manche lors de la manche 2.",
+      "en": "−2 to the opposing card in the round's domain in round 2."
     },
     "effect": {
       "type": "malus",

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q2492",
+  "role": {
+    "fr": "Chancelier fédéral d'Allemagne",
+    "en": "Chancellor of West Germany"
+  },
+  "bio": {
+    "fr": "Maire de Cologne destitué par les nazis, il devient en 1949, à 73 ans, le premier chancelier de la République fédérale d'Allemagne. Il ancre le pays à l'Ouest, dans l'OTAN et la Communauté économique européenne, et scelle la réconciliation avec la France par le traité de l'Élysée en 1963. Il quitte la chancellerie la même année, à 87 ans.",
+    "en": "A mayor of Cologne removed from office by the Nazis, he became the first Chancellor of the Federal Republic of Germany in 1949, at 73. He anchored the country in the West, in NATO and the European Economic Community, and sealed reconciliation with France with the 1963 Élysée Treaty. He left the chancellery that same year, aged 87."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 8,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Traité de l'Élysée",
+      "en": "Élysée Treaty"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient du même continent.",
+      "en": "+2 Diplomacy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}
