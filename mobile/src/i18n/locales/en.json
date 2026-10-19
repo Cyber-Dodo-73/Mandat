@@ -2,7 +2,6 @@
   "common": {
     "back": "Back",
     "close": "Close",
-    "comingSoon": "Coming soon",
     "loading": "Loading…",
     "retry": "Try again"
   },
@@ -407,7 +406,8 @@
       "general": "General",
       "feedback": "Sound and haptics",
       "accessibility": "Accessibility",
-      "about": "About"
+      "about": "About",
+      "legal": "Legal"
     },
     "language": {
       "label": "Language",
@@ -442,7 +442,6 @@
       "followSystem": "Follow system"
     },
     "account": "Account",
-    "legal": "Legal notice",
     "version": "Version {{version}}",
     "accountInfo": {
       "friendCode": "Friend code: {{code}}",
@@ -454,6 +453,12 @@
         "confirm": "Delete for good",
         "cancel": "Keep my account"
       }
+    },
+    "blocked": {
+      "title": "Blocked players",
+      "empty": "No blocked players.",
+      "unblock": "Unblock",
+      "unblockA11y": "Unblock {{nickname}}"
     }
   },
   "errors": {
@@ -506,7 +511,10 @@
     "friend_streak_exists": "You already have a friend streak with this friend.",
     "nudge_already_sent": "You already nudged this friend today.",
     "nudge_limit_reached": "You've reached today's nudge limit.",
-    "friend_already_active": "Your friend already played today."
+    "friend_already_active": "Your friend already played today.",
+    "account_banned": "This account is suspended. Contact support if you think this is a mistake.",
+    "terms_not_accepted": "Accept the terms of use to continue.",
+    "invalid_reset_token": "This link is invalid or expired. Ask for a new one."
   },
   "notFound": {
     "title": "Page not found",
@@ -612,7 +620,8 @@
     "login": {
       "title": "Sign in",
       "intro": "Pick up your collection where you left it.",
-      "submit": "Sign in"
+      "submit": "Sign in",
+      "forgot": "Forgot your password?"
     },
     "register": {
       "title": "Create an account",
@@ -632,7 +641,19 @@
       "nicknameInvalid": "Nicknames have 3 to 20 characters: letters, digits, dot, dash or underscore."
     },
     "apple": "Continue with Apple",
-    "google": "Continue with Google"
+    "google": "Continue with Google",
+    "forgot": {
+      "title": "Forgot password",
+      "intro": "Enter your account's email: we'll send you a link to choose a new password.",
+      "submit": "Send the link",
+      "sent": "If an account exists for this address, an email is on its way. The link is valid for 30 minutes.",
+      "back": "Back to sign in"
+    },
+    "consent": {
+      "label": "I accept the terms of use and the privacy policy, and I am at least {{age}} years old.",
+      "required": "Tick the box to create your account.",
+      "social": "By continuing with Apple or Google, you accept the terms of use and the privacy policy, and confirm you are at least {{age}} years old."
+    }
   },
   "offline": {
     "banner": "Offline. Your collection is still here; opening boosters comes back with the network.",
@@ -728,9 +749,7 @@
       "locked": "Tier {{tier}}, locked"
     },
     "tab": "Pass",
-    "upcoming": "Next tiers",
-    "premiumTitle": "Premium track",
-    "premiumBody": "Coming soon: an extra reward on every tier."
+    "upcoming": "Next tiers"
   },
   "progression": {
     "reward": {
@@ -801,7 +820,6 @@
       "explain": "A freeze covers a missed day on its own. One free every week, more from milestones. Max stock: 2.",
       "buy": "Buy · {{price}} Influence",
       "full": "Stock full",
-      "sceauxSoon": "Soon in Seals too",
       "confirmTitle": "Buy a freeze?",
       "confirmBody": "One streak freeze for {{price}} Influence. It's used automatically if you miss a day.",
       "balance": "Influence: {{now}} → {{after}}",
@@ -913,6 +931,13 @@
       "nothing": "Nothing here.",
       "showAll": "See all {{count}} cards",
       "showLess": "See less"
+    },
+    "block": {
+      "open": "Block {{nickname}}",
+      "title": "Block {{nickname}}?",
+      "body": "Your friendship will be removed. You won't see each other's profiles or be able to send requests, nudges or friend streaks. You can unblock from the settings.",
+      "confirm": "Block",
+      "cancel": "Cancel"
     }
   },
   "report": {
@@ -1185,6 +1210,18 @@
       "days_other": "{{value}} days together",
       "body": "You and {{nickname}} are holding strong. Reward sent to both of you!",
       "cta": "Awesome!"
+    }
+  },
+  "legal": {
+    "terms": "Terms of use",
+    "privacy": "Privacy policy",
+    "notice": "Legal notice",
+    "support": "Help and contact",
+    "openHint": "Opens the page in the browser",
+    "gate": {
+      "title": "Our terms have changed",
+      "body": "To keep playing, please review and accept the terms of use and the privacy policy.",
+      "accept": "I accept"
     }
   }
 }

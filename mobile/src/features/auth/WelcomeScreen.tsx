@@ -11,6 +11,7 @@ import { APP_NAME } from '@/constants/app';
 import { sampleCards } from '@/data/catalog';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
+import { LegalLinks, useMinimumAge } from '@/features/legal/LegalComponents';
 import { describeError } from '@/lib/api';
 import { spacing, useTheme } from '@/theme';
 import { springs } from '@/theme/motion';
@@ -32,6 +33,7 @@ export function WelcomeScreen() {
   const { width } = useWindowDimensions();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const minimumAge = useMinimumAge();
   const onError = useCallback((cause: unknown) => setError(describeError(cause, t)), [t]);
 
   const samples = useMemo(() => new Map(sampleCards().map(({ rarity, card }) => [rarity, card])), []);
@@ -64,6 +66,8 @@ export function WelcomeScreen() {
         ) : null}
         <Button3D label={t('auth.welcome.create')} size="lg" fullWidth disabled={busy} onPress={() => router.push('/register')} />
         <SocialSignIn busy={busy} onBusyChange={setBusy} onError={onError} />
+        <Caption>{t('auth.consent.social', { age: minimumAge })}</Caption>
+        <LegalLinks />
         <PressableScale
           accessibilityRole="link"
           hitSlop={10}

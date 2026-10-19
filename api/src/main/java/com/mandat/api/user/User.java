@@ -20,6 +20,9 @@ import org.hibernate.annotations.DynamicUpdate;
 @DynamicUpdate
 public class User {
 
+    public static final String ROLE_PLAYER = "player";
+    public static final String ROLE_ADMIN = "admin";
+
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
@@ -66,6 +69,34 @@ public class User {
 
     @Column(name = "updated_at", nullable = false)
     private Instant updatedAt;
+
+    /** True once a provider vouched for the email or its owner proved control of the mailbox. */
+    @Column(name = "email_verified", nullable = false)
+    private boolean emailVerified;
+
+    /** Version of the terms of service accepted, {@code null} when never accepted (older accounts). */
+    @Column(name = "terms_version")
+    private String termsVersion;
+
+    @Column(name = "terms_accepted_at")
+    private Instant termsAcceptedAt;
+
+    /** When the player confirmed meeting the minimum age. */
+    @Column(name = "age_confirmed_at")
+    private Instant ageConfirmedAt;
+
+    @Column(nullable = false)
+    private String role = ROLE_PLAYER;
+
+    @Column(name = "banned_at")
+    private Instant bannedAt;
+
+    @Column(name = "ban_reason")
+    private String banReason;
+
+    /** Encrypted Apple refresh token, kept only to revoke the Sign in with Apple authorization. */
+    @Column(name = "apple_refresh_token")
+    private String appleRefreshToken;
 
     /** Last nickname change, {@code null} when never changed since sign-up. */
     @Column(name = "nickname_changed_at")
@@ -186,6 +217,78 @@ public class User {
 
     public Instant getCreatedAt() {
         return createdAt;
+    }
+
+    public boolean isEmailVerified() {
+        return emailVerified;
+    }
+
+    void setEmailVerified(boolean emailVerified) {
+        this.emailVerified = emailVerified;
+    }
+
+    public String getTermsVersion() {
+        return termsVersion;
+    }
+
+    public Instant getTermsAcceptedAt() {
+        return termsAcceptedAt;
+    }
+
+    public Instant getAgeConfirmedAt() {
+        return ageConfirmedAt;
+    }
+
+    void acceptTerms(String version, Instant now) {
+        this.termsVersion = version;
+        this.termsAcceptedAt = now;
+        this.ageConfirmedAt = now;
+        this.updatedAt = now;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public boolean isAdmin() {
+        return ROLE_ADMIN.equals(role);
+    }
+
+    public Instant getBannedAt() {
+        return bannedAt;
+    }
+
+    public boolean isBanned() {
+        return bannedAt != null;
+    }
+
+    public String getBanReason() {
+        return banReason;
+    }
+
+    void ban(String reason, Instant now) {
+        this.bannedAt = now;
+        this.banReason = reason;
+        this.updatedAt = now;
+    }
+
+    void unban(Instant now) {
+        this.bannedAt = null;
+        this.banReason = null;
+        this.updatedAt = now;
+    }
+
+    public String getAppleRefreshToken() {
+        return appleRefreshToken;
+    }
+
+    void setAppleRefreshToken(String appleRefreshToken) {
+        this.appleRefreshToken = appleRefreshToken;
+    }
+
+    void forceNickname(String nickname, Instant now) {
+        this.nickname = nickname;
+        this.updatedAt = now;
     }
 
     void touch(Instant now) {

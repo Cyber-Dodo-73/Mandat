@@ -1,10 +1,12 @@
 package com.mandat.api.auth;
 
 import com.mandat.api.auth.dto.AuthDtos.AuthResponse;
+import com.mandat.api.auth.dto.AuthDtos.ForgotPasswordRequest;
 import com.mandat.api.auth.dto.AuthDtos.LoginRequest;
 import com.mandat.api.auth.dto.AuthDtos.LogoutRequest;
 import com.mandat.api.auth.dto.AuthDtos.RefreshRequest;
 import com.mandat.api.auth.dto.AuthDtos.RegisterRequest;
+import com.mandat.api.auth.dto.AuthDtos.ResetPasswordRequest;
 import com.mandat.api.auth.dto.AuthDtos.SocialLoginRequest;
 import com.mandat.api.user.SocialProvider;
 import io.swagger.v3.oas.annotations.Operation;
@@ -28,9 +30,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class AuthController {
 
     private final AuthService authService;
+    private final PasswordResetService passwordReset;
 
-    AuthController(AuthService authService) {
+    AuthController(AuthService authService, PasswordResetService passwordReset) {
         this.authService = authService;
+        this.passwordReset = passwordReset;
     }
 
     @PostMapping("/register")
@@ -70,5 +74,20 @@ public class AuthController {
     @Operation(operationId = "signInWithGoogle", summary = "Sign in (or sign up) with a Google ID token")
     public AuthResponse google(@Valid @RequestBody SocialLoginRequest request, HttpServletRequest http) {
         return authService.social(SocialProvider.GOOGLE, request, http.getRemoteAddr());
+    }
+
+    @PostMapping("/password/forgot")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @Operation(operationId = "forgotPassword",
+            summary = "Email a password reset link (always 204, whether or not the email is known)")
+    public void forgotPassword(@Valid @RequestBody ForgotPasswordRequest request, HttpServletRequest http) {
+        passwordReset.requestReset(request.email(), http.getRemoteAddr());
+    }
+
+    @PostMapping("/password/reset")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @Operation(operationId = "resetPassword", summary = "Choose a new password with a reset link token")
+    public void resetPassword(@Valid @RequestBody ResetPasswordRequest request, HttpServletRequest http) {
+        passwordReset.reset(request.token(), request.password(), http.getRemoteAddr());
     }
 }

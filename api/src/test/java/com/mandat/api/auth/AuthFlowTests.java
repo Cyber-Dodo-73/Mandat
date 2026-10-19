@@ -2,11 +2,14 @@ package com.mandat.api.auth;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.matchesPattern;
+import static org.hamcrest.Matchers.not;
 import static org.hamcrest.Matchers.startsWith;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.BDDMockito.given;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.verify;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.patch;
@@ -16,14 +19,20 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.jayway.jsonpath.JsonPath;
 import com.mandat.api.TestcontainersConfig;
+import com.mandat.api.auth.apple.AppleAuthorizationClient;
 import com.mandat.api.auth.social.SocialIdentity;
 import com.mandat.api.auth.social.SocialTokenVerifier;
+import com.mandat.api.common.email.EmailSender;
 import com.mandat.api.common.error.ApiException;
 import com.mandat.api.common.error.ErrorCode;
 import com.mandat.api.user.SocialProvider;
 import java.nio.charset.StandardCharsets;
+import java.util.Optional;
 import java.util.UUID;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import org.junit.jupiter.api.Test;
+import org.mockito.ArgumentCaptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
@@ -50,6 +59,12 @@ class AuthFlowTests {
 
     @MockitoBean
     SocialTokenVerifier socialVerifier;
+
+    @MockitoBean
+    EmailSender emailSender;
+
+    @MockitoBean
+    AppleAuthorizationClient appleClient;
 
     @Test
     void registerThenReadMe() throws Exception {
@@ -107,7 +122,8 @@ class AuthFlowTests {
     @Test
     void invalidRegistrationReturnsValidationErrors() throws Exception {
         mockMvc.perform(post("/api/v1/auth/register").contentType(MediaType.APPLICATION_JSON)
-                        .content("{\"email\":\"not-an-email\",\"password\":\"short\",\"nickname\":\"a\"}"))
+                        .content("{\"email\":\"not-an-email\",\"password\":\"short\",\"nickname\":\"a\","
+                                + "\"acceptTerms\":true,\"ageConfirmed\":true}"))
                 .andExpect(status().isBadRequest())
                 .andExpect(jsonPath("$.code").value("validation_failed"))
                 .andExpect(jsonPath("$.errors.length()").value(3));
@@ -247,15 +263,44 @@ class AuthFlowTests {
     }
 
     @Test
-    void googleSignInWithVerifiedEmailLinksExistingAccount() throws Exception {
+    void socialSignInNeverLinksToAnAccountWithAnUnverifiedEmail() throws Exception {
         String email = uniqueEmail();
         String registered = register(email, uniqueNickname()).andReturn().getResponse()
                 .getContentAsString(StandardCharsets.UTF_8);
         String userId = JsonPath.read(registered, "$.userId");
-        given(socialVerifier.verify(eq(SocialProvider.GOOGLE), eq("google-token"), any()))
+        given(socialVerifier.verify(eq(SocialProvider.GOOGLE), eq("google-unverified-match"), any()))
                 .willReturn(new SocialIdentity("google-" + UUID.randomUUID(), email, true));
 
-        social("google", "google-token", "{}")
+        String body = social("google", "google-unverified-match", "{}")
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.newUser").value(true))
+                .andExpect(jsonPath("$.userId").value(not(userId)))
+                .andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
+        // The separate account does not take the email; the password account is untouched.
+        mockMvc.perform(get("/api/v1/me").header(HttpHeaders.AUTHORIZATION, bearer(body)))
+                .andExpect(jsonPath("$.account.email").doesNotExist());
+        assertThat(jdbc.sql("select google_sub from users where id = :id").param("id", UUID.fromString(userId))
+                .query(String.class).optional()).isEmpty();
+        login(email, PASSWORD).andExpect(jsonPath("$.userId").value(userId));
+    }
+
+    @Test
+    void socialSignInLinksWhenBothEmailsAreVerified() throws Exception {
+        String email = uniqueEmail();
+        String registered = register(email, uniqueNickname()).andReturn().getResponse()
+                .getContentAsString(StandardCharsets.UTF_8);
+        String userId = JsonPath.read(registered, "$.userId");
+        jdbc.sql("update users set email_verified = true where id = :id").param("id", UUID.fromString(userId)).update();
+        given(socialVerifier.verify(eq(SocialProvider.GOOGLE), eq("google-verified"), any()))
+                .willReturn(new SocialIdentity("google-" + UUID.randomUUID(), email, true));
+        given(socialVerifier.verify(eq(SocialProvider.GOOGLE), eq("google-provider-unverified"), any()))
+                .willReturn(new SocialIdentity("google-" + UUID.randomUUID(), email, false));
+
+        // The provider does not vouch for the email: no link.
+        social("google", "google-provider-unverified", "{}")
+                .andExpect(jsonPath("$.newUser").value(true))
+                .andExpect(jsonPath("$.userId").value(not(userId)));
+        social("google", "google-verified", "{}")
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.newUser").value(false))
                 .andExpect(jsonPath("$.userId").value(userId));
@@ -277,6 +322,132 @@ class AuthFlowTests {
     }
 
     @Test
+    void registrationRequiresTermsAndAge() throws Exception {
+        String base = "{\"email\":\"" + uniqueEmail() + "\",\"password\":\"" + PASSWORD + "\",\"nickname\":\""
+                + uniqueNickname() + "\"";
+        mockMvc.perform(post("/api/v1/auth/register").contentType(MediaType.APPLICATION_JSON).content(base + "}"))
+                .andExpect(status().isBadRequest())
+                .andExpect(jsonPath("$.code").value("validation_failed"));
+        mockMvc.perform(post("/api/v1/auth/register").contentType(MediaType.APPLICATION_JSON)
+                        .content(base + ",\"acceptTerms\":true,\"ageConfirmed\":false}"))
+                .andExpect(status().isBadRequest());
+    }
+
+    @Test
+    void termsAcceptanceIsRecordedAndCanBeRenewed() throws Exception {
+        String body = register(uniqueEmail(), uniqueNickname()).andReturn().getResponse()
+                .getContentAsString(StandardCharsets.UTF_8);
+        UUID userId = UUID.fromString(JsonPath.read(body, "$.userId"));
+        mockMvc.perform(get("/api/v1/me").header(HttpHeaders.AUTHORIZATION, bearer(body)))
+                .andExpect(jsonPath("$.account.needsTermsAcceptance").value(false))
+                .andExpect(jsonPath("$.account.emailVerified").value(false))
+                .andExpect(jsonPath("$.account.admin").value(false));
+        assertThat(jdbc.sql("select age_confirmed_at is not null and terms_accepted_at is not null from users where id = :id")
+                .param("id", userId).query(Boolean.class).single()).isTrue();
+
+        // The terms changed since: the app must ask again.
+        jdbc.sql("update users set terms_version = 'old' where id = :id").param("id", userId).update();
+        mockMvc.perform(get("/api/v1/me").header(HttpHeaders.AUTHORIZATION, bearer(body)))
+                .andExpect(jsonPath("$.account.needsTermsAcceptance").value(true));
+        mockMvc.perform(post("/api/v1/me/terms").header(HttpHeaders.AUTHORIZATION, bearer(body))
+                        .contentType(MediaType.APPLICATION_JSON).content("{\"ageConfirmed\":false}"))
+                .andExpect(status().isBadRequest());
+        mockMvc.perform(post("/api/v1/me/terms").header(HttpHeaders.AUTHORIZATION, bearer(body))
+                        .contentType(MediaType.APPLICATION_JSON).content("{\"ageConfirmed\":true}"))
+                .andExpect(status().isNoContent());
+        mockMvc.perform(get("/api/v1/me").header(HttpHeaders.AUTHORIZATION, bearer(body)))
+                .andExpect(jsonPath("$.account.needsTermsAcceptance").value(false));
+    }
+
+    @Test
+    void passwordResetIsSingleUseAndEndsSessions() throws Exception {
+        String email = uniqueEmail();
+        String body = register(email, uniqueNickname()).andReturn().getResponse()
+                .getContentAsString(StandardCharsets.UTF_8);
+        String refreshToken = JsonPath.read(body, "$.refreshToken");
+
+        // Unknown emails get the same answer and no email.
+        forgot(uniqueEmail()).andExpect(status().isNoContent());
+        verify(emailSender, never()).send(anyString(), anyString(), anyString());
+
+        forgot(email.toUpperCase()).andExpect(status().isNoContent());
+        ArgumentCaptor<String> text = ArgumentCaptor.forClass(String.class);
+        verify(emailSender).send(eq(email), anyString(), text.capture());
+        Matcher link = Pattern.compile("/reset-password\\?token=([A-Za-z0-9_-]+)").matcher(text.getValue());
+        assertThat(link.find()).isTrue();
+        String token = link.group(1);
+
+        reset(token, "short").andExpect(status().isBadRequest());
+        reset("not-a-token", "a brand new password").andExpect(status().isBadRequest())
+                .andExpect(jsonPath("$.code").value("invalid_reset_token"));
+        reset(token, "a brand new password").andExpect(status().isNoContent());
+        reset(token, "another new password").andExpect(status().isBadRequest())
+                .andExpect(jsonPath("$.code").value("invalid_reset_token"));
+
+        login(email, PASSWORD).andExpect(status().isUnauthorized());
+        login(email, "a brand new password").andExpect(status().isOk());
+        refresh(refreshToken).andExpect(status().isUnauthorized());
+        assertThat(jdbc.sql("select email_verified from users where email = cast(:email as citext)")
+                .param("email", email).query(Boolean.class).single()).isTrue();
+
+        mockMvc.perform(get("/reset-password").param("token", token)).andExpect(status().isOk());
+    }
+
+    @Test
+    void bannedAccountsCannotSignInNorRefresh() throws Exception {
+        String email = uniqueEmail();
+        String body = register(email, uniqueNickname()).andReturn().getResponse()
+                .getContentAsString(StandardCharsets.UTF_8);
+        jdbc.sql("update users set banned_at = now() where id = :id")
+                .param("id", UUID.fromString(JsonPath.read(body, "$.userId"))).update();
+
+        login(email, PASSWORD).andExpect(status().isForbidden()).andExpect(jsonPath("$.code").value("account_banned"));
+        refresh(JsonPath.read(body, "$.refreshToken")).andExpect(status().isForbidden())
+                .andExpect(jsonPath("$.code").value("account_banned"));
+    }
+
+    @Test
+    void deletingAnAppleAccountRevokesTheAppleAuthorization() throws Exception {
+        String subject = "apple-" + UUID.randomUUID();
+        given(socialVerifier.verify(eq(SocialProvider.APPLE), eq("apple-revoke"), any()))
+                .willReturn(new SocialIdentity(subject, null, false, "fr.cyberdodo.mandat"));
+        given(appleClient.enabled()).willReturn(true);
+        given(appleClient.exchangeCode("auth-code", "fr.cyberdodo.mandat")).willReturn(Optional.of("apple-refresh"));
+
+        String body = social("apple", "apple-revoke", "{\"authorizationCode\":\"auth-code\",\"acceptTerms\":true}")
+                .andExpect(status().isOk())
+                .andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
+        String stored = jdbc.sql("select apple_refresh_token from users where id = :id")
+                .param("id", UUID.fromString(JsonPath.read(body, "$.userId"))).query(String.class).single();
+        assertThat(stored).isNotBlank().doesNotContain("apple-refresh");
+
+        mockMvc.perform(delete("/api/v1/me").header(HttpHeaders.AUTHORIZATION, bearer(body)))
+                .andExpect(status().isNoContent());
+        verify(appleClient).revoke("apple-refresh", "fr.cyberdodo.mandat");
+    }
+
+    @Test
+    void onlyHealthIsPublicAmongActuatorEndpoints() throws Exception {
+        mockMvc.perform(get("/actuator/health")).andExpect(status().isOk());
+        mockMvc.perform(get("/actuator/metrics")).andExpect(status().is(org.hamcrest.Matchers.oneOf(401, 404)));
+        mockMvc.perform(get("/actuator/env")).andExpect(status().is(org.hamcrest.Matchers.oneOf(401, 404)));
+        String body = register(uniqueEmail(), uniqueNickname()).andReturn().getResponse()
+                .getContentAsString(StandardCharsets.UTF_8);
+        mockMvc.perform(get("/actuator/metrics").header(HttpHeaders.AUTHORIZATION, bearer(body)))
+                .andExpect(status().isNotFound());
+    }
+
+    @Test
+    void legalPagesArePublic() throws Exception {
+        mockMvc.perform(get("/api/v1/legal")).andExpect(status().isOk())
+                .andExpect(jsonPath("$.termsVersion").isNotEmpty());
+        for (String page : new String[] {"/legal/privacy", "/legal/terms", "/legal/notice", "/support"}) {
+            mockMvc.perform(get(page)).andExpect(status().isOk());
+            mockMvc.perform(get(page).param("lang", "en")).andExpect(status().isOk());
+        }
+    }
+
+    @Test
     void rejectedSocialTokenReturnsProblemDetail() throws Exception {
         given(socialVerifier.verify(any(), anyString(), any()))
                 .willThrow(new ApiException(ErrorCode.INVALID_SOCIAL_TOKEN, "Sign-in token was rejected"));
@@ -288,7 +459,17 @@ class AuthFlowTests {
     private ResultActions register(String email, String nickname) throws Exception {
         return mockMvc.perform(post("/api/v1/auth/register").contentType(MediaType.APPLICATION_JSON)
                 .content("{\"email\":\"" + email + "\",\"password\":\"" + PASSWORD + "\",\"nickname\":\"" + nickname
-                        + "\"}"));
+                        + "\",\"acceptTerms\":true,\"ageConfirmed\":true}"));
+    }
+
+    private ResultActions forgot(String email) throws Exception {
+        return mockMvc.perform(post("/api/v1/auth/password/forgot").contentType(MediaType.APPLICATION_JSON)
+                .content(json("email", email)));
+    }
+
+    private ResultActions reset(String token, String password) throws Exception {
+        return mockMvc.perform(post("/api/v1/auth/password/reset").contentType(MediaType.APPLICATION_JSON)
+                .content("{\"token\":\"" + token + "\",\"password\":\"" + password + "\"}"));
     }
 
     private ResultActions login(String email, String password) throws Exception {

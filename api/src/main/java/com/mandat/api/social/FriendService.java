@@ -66,7 +66,7 @@ public class FriendService {
 
     @Transactional
     public AddFriendResponse add(UUID userId, String friendCode) {
-        User target = players.byFriendCode(friendCode);
+        User target = players.visibleTo(userId, friendCode);
         if (target.getId().equals(userId)) {
             throw new ApiException(ErrorCode.CANNOT_TARGET_SELF, "This is your own friend code");
         }
@@ -96,7 +96,7 @@ public class FriendService {
     /** Accepts a pending request received from {@code friendCode}. */
     @Transactional
     public FriendsResponse accept(UUID userId, String friendCode) {
-        User requester = players.byFriendCode(friendCode);
+        User requester = players.visibleTo(userId, friendCode);
         Link link = friendships.between(userId, requester.getId())
                 .filter(l -> l.status() == Status.pending && l.addresseeId().equals(userId))
                 .orElseThrow(() -> new ApiException(ErrorCode.NOT_FOUND, "No pending request from this player"));

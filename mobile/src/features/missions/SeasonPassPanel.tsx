@@ -129,14 +129,6 @@ export function SeasonPassPanel() {
           ))}
         </View>
       ) : null}
-
-      <Card style={styles.premium}>
-        <View style={styles.premiumHead}>
-          <Icon name="diamond" size={22} color={colors.gold} />
-          <Heading>{t('seasonPass.premiumTitle')}</Heading>
-        </View>
-        <Body tone="muted">{t('seasonPass.premiumBody')}</Body>
-      </Card>
     </View>
   );
 }
@@ -223,8 +215,6 @@ const styles = StyleSheet.create({
   },
   upcomingTier: { width: 40, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center' },
   upcomingChips: { flex: 1 },
-  premium: { gap: spacing.xs },
-  premiumHead: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
   centered: { alignItems: 'center', gap: spacing.md, paddingVertical: spacing.xl },
   loader: { paddingVertical: spacing.xl },
 });

@@ -12,11 +12,19 @@ const bundleId = IS_DEV_VARIANT ? `${BUNDLE_ID}.dev` : BUNDLE_ID;
 const googleIosClientId = process.env.EXPO_PUBLIC_GOOGLE_IOS_CLIENT_ID;
 const googleIosScheme = googleIosClientId ? googleIosClientId.split('.').reverse().join('.') : null;
 
+/** Data the app collects, all linked to the account and used for app functionality only; no tracking. */
+const collected = (type: string) => ({
+  NSPrivacyCollectedDataType: type,
+  NSPrivacyCollectedDataTypeLinked: true,
+  NSPrivacyCollectedDataTypeTracking: false,
+  NSPrivacyCollectedDataTypePurposes: ['NSPrivacyCollectedDataTypePurposeAppFunctionality'],
+});
+
 const config: ExpoConfig = {
   name: IS_DEV_VARIANT ? `${APP_NAME} Dev` : APP_NAME,
   slug: APP_SLUG,
   scheme: IS_DEV_VARIANT ? `${APP_SCHEME}-dev` : APP_SCHEME,
-  version: '0.1.0',
+  version: '1.0.0',
   orientation: 'portrait',
   icon: './assets/icon.png',
   userInterfaceStyle: 'automatic',
@@ -26,6 +34,25 @@ const config: ExpoConfig = {
     supportsTablet: false,
     config: { usesNonExemptEncryption: false },
     usesAppleSignIn: true,
+    // Required-reason APIs used by React Native and the Expo modules in this app (their own
+    // PrivacyInfo.xcprivacy files): UserDefaults, file timestamps, boot time, disk space.
+    privacyManifests: {
+      NSPrivacyTracking: false,
+      NSPrivacyTrackingDomains: [],
+      NSPrivacyAccessedAPITypes: [
+        { NSPrivacyAccessedAPIType: 'NSPrivacyAccessedAPICategoryUserDefaults', NSPrivacyAccessedAPITypeReasons: ['CA92.1'] },
+        { NSPrivacyAccessedAPIType: 'NSPrivacyAccessedAPICategoryFileTimestamp', NSPrivacyAccessedAPITypeReasons: ['C617.1'] },
+        { NSPrivacyAccessedAPIType: 'NSPrivacyAccessedAPICategorySystemBootTime', NSPrivacyAccessedAPITypeReasons: ['35F9.1'] },
+        { NSPrivacyAccessedAPIType: 'NSPrivacyAccessedAPICategoryDiskSpace', NSPrivacyAccessedAPITypeReasons: ['E174.1'] },
+      ],
+      NSPrivacyCollectedDataTypes: [
+        collected('NSPrivacyCollectedDataTypeEmailAddress'),
+        collected('NSPrivacyCollectedDataTypeUserID'),
+        collected('NSPrivacyCollectedDataTypeGameplayContent'),
+        // Expo push token.
+        collected('NSPrivacyCollectedDataTypeDeviceID'),
+      ],
+    },
     ...(googleIosScheme ? { infoPlist: { CFBundleURLTypes: [{ CFBundleURLSchemes: [googleIosScheme] }] } } : {}),
   },
   android: {
@@ -48,7 +75,8 @@ const config: ExpoConfig = {
   plugins: [
     ['expo-sensors', { motionPermission: 'MANDAT uses motion to tilt cards and boosters.' }],
     'expo-router',
-    'expo-dev-client',
+    // The dev launcher only belongs to development builds; release builds leave it out.
+    ...(IS_DEV_VARIANT ? ['expo-dev-client'] : []),
     'expo-audio',
     'expo-image',
     'expo-font',

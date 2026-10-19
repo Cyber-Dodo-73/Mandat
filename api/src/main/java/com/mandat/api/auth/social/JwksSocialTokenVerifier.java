@@ -66,7 +66,9 @@ public class JwksSocialTokenVerifier implements SocialTokenVerifier {
         if (subject == null || subject.isBlank()) {
             throw rejected();
         }
-        return new SocialIdentity(subject, jwt.getClaimAsString("email"), isTrue(jwt.getClaims().get("email_verified")));
+        String audience = jwt.getAudience() == null || jwt.getAudience().isEmpty() ? null : jwt.getAudience().get(0);
+        return new SocialIdentity(subject, jwt.getClaimAsString("email"), isTrue(jwt.getClaims().get("email_verified")),
+                audience);
     }
 
     private synchronized JwtDecoder decoder(SocialProvider provider) {

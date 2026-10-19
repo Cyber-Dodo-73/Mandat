@@ -24,6 +24,8 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-validation")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.boot:spring-boot-starter-flyway")
+    // Transactional emails (password reset). Inactive until MANDAT_SMTP_HOST is set.
+    implementation("org.springframework.boot:spring-boot-starter-mail")
     implementation("org.flywaydb:flyway-database-postgresql")
     implementation("org.springframework.boot:spring-boot-starter-security-oauth2-resource-server")
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:3.1.1")

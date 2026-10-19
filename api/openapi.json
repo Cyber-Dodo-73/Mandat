@@ -28,6 +28,9 @@
   }, {
     "description" : "Connectivity and server time",
     "name" : "Meta"
+  }, {
+    "description" : "Moderation: reports, bans, forced renames (admin role only)",
+    "name" : "Admin"
   } ],
   "paths" : {
     "/api/v1/achievements" : {
@@ -50,6 +53,167 @@
         } ],
         "summary" : "Every achievement with the player's progress",
         "tags" : [ "Achievements" ]
+      }
+    },
+    "/api/v1/admin/players/{friendCode}/ban" : {
+      "delete" : {
+        "operationId" : "adminUnbanPlayer",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "friendCode",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ModeratedPlayer"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Lift a ban",
+        "tags" : [ "Admin" ]
+      },
+      "post" : {
+        "operationId" : "adminBanPlayer",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "friendCode",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/BanRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ModeratedPlayer"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Ban a player: no sign-in, sessions ended, profile hidden",
+        "tags" : [ "Admin" ]
+      }
+    },
+    "/api/v1/admin/players/{friendCode}/rename" : {
+      "post" : {
+        "operationId" : "adminRenamePlayer",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "friendCode",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ModeratedPlayer"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Replace a nickname by a generated one",
+        "tags" : [ "Admin" ]
+      }
+    },
+    "/api/v1/admin/reports" : {
+      "get" : {
+        "operationId" : "adminListReports",
+        "parameters" : [ {
+          "in" : "query",
+          "name" : "openOnly",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : true
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ReportsResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Latest reports (open ones only by default)",
+        "tags" : [ "Admin" ]
+      }
+    },
+    "/api/v1/admin/reports/{reportId}/handled" : {
+      "post" : {
+        "operationId" : "adminHandleReport",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "reportId",
+          "required" : true,
+          "schema" : {
+            "type" : "string",
+            "format" : "uuid"
+          }
+        }, {
+          "in" : "query",
+          "name" : "dismissed",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        } ],
+        "responses" : {
+          "204" : {
+            "description" : "No Content"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Mark a report as handled (reviewed, or dismissed)",
+        "tags" : [ "Admin" ]
       }
     },
     "/api/v1/auth/apple" : {
@@ -161,6 +325,50 @@
         "tags" : [ "Auth" ]
       }
     },
+    "/api/v1/auth/password/forgot" : {
+      "post" : {
+        "operationId" : "forgotPassword",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/ForgotPasswordRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "204" : {
+            "description" : "No Content"
+          }
+        },
+        "summary" : "Email a password reset link (always 204, whether or not the email is known)",
+        "tags" : [ "Auth" ]
+      }
+    },
+    "/api/v1/auth/password/reset" : {
+      "post" : {
+        "operationId" : "resetPassword",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/ResetPasswordRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "204" : {
+            "description" : "No Content"
+          }
+        },
+        "summary" : "Choose a new password with a reset link token",
+        "tags" : [ "Auth" ]
+      }
+    },
     "/api/v1/auth/refresh" : {
       "post" : {
         "operationId" : "refreshTokens",
@@ -217,6 +425,97 @@
         },
         "summary" : "Create an account with email and password",
         "tags" : [ "Auth" ]
+      }
+    },
+    "/api/v1/blocks" : {
+      "get" : {
+        "operationId" : "listBlocks",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/BlockedPlayerDto"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Players I blocked",
+        "tags" : [ "Social" ]
+      },
+      "post" : {
+        "operationId" : "blockPlayer",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/BlockRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/BlockedPlayerDto"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Block a player: ends the friendship; neither side can see or contact the other",
+        "tags" : [ "Social" ]
+      }
+    },
+    "/api/v1/blocks/{friendCode}" : {
+      "delete" : {
+        "operationId" : "unblockPlayer",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "friendCode",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "items" : {
+                    "$ref" : "#/components/schemas/BlockedPlayerDto"
+                  }
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Unblock a player",
+        "tags" : [ "Social" ]
       }
     },
     "/api/v1/cards" : {
@@ -806,6 +1105,25 @@
         "tags" : [ "Streaks" ]
       }
     },
+    "/api/v1/legal" : {
+      "get" : {
+        "operationId" : "getLegalInfo",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/LegalInfo"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "summary" : "Current terms version, minimum age and contact (public)",
+        "tags" : [ "Legal" ]
+      }
+    },
     "/api/v1/limits" : {
       "get" : {
         "operationId" : "limits",
@@ -892,6 +1210,31 @@
           "bearerAuth" : [ ]
         } ],
         "summary" : "Partially update the player's settings",
+        "tags" : [ "Me" ]
+      }
+    },
+    "/api/v1/me/terms" : {
+      "post" : {
+        "operationId" : "acceptTerms",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/AcceptTermsRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "204" : {
+            "description" : "No Content"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Accept the current terms of use and confirm the minimum age",
         "tags" : [ "Me" ]
       }
     },
@@ -1651,15 +1994,38 @@
         },
         "required" : [ "condition", "type" ]
       },
+      "AcceptTermsRequest" : {
+        "type" : "object",
+        "properties" : {
+          "ageConfirmed" : {
+            "type" : "boolean"
+          }
+        },
+        "required" : [ "ageConfirmed" ]
+      },
       "Account" : {
         "type" : "object",
         "properties" : {
+          "acceptedTermsVersion" : {
+            "type" : [ "string", "null" ],
+            "description" : "Version of the terms the player accepted"
+          },
+          "admin" : {
+            "type" : "boolean",
+            "description" : "Moderator access to /api/v1/admin"
+          },
           "createdAt" : {
             "type" : "string",
             "format" : "date-time"
           },
+          "currentTermsVersion" : {
+            "type" : "string"
+          },
           "email" : {
             "type" : [ "string", "null" ]
+          },
+          "emailVerified" : {
+            "type" : "boolean"
           },
           "friendCode" : {
             "type" : "string"
@@ -1679,11 +2045,15 @@
               "type" : "string"
             }
           },
+          "needsTermsAcceptance" : {
+            "type" : "boolean",
+            "description" : "The terms changed (or were never accepted): ask the player to accept them"
+          },
           "nickname" : {
             "type" : "string"
           }
         },
-        "required" : [ "createdAt", "friendCode", "hasPassword", "id", "linkedProviders", "nickname" ]
+        "required" : [ "admin", "createdAt", "currentTermsVersion", "emailVerified", "friendCode", "hasPassword", "id", "linkedProviders", "needsTermsAcceptance", "nickname" ]
       },
       "AchievementDto" : {
         "type" : "object",
@@ -1906,6 +2276,44 @@
           }
         },
         "required" : [ "accessToken", "accessTokenExpiresAt", "newUser", "refreshToken", "refreshTokenExpiresAt", "tokenType", "userId" ]
+      },
+      "BanRequest" : {
+        "type" : "object",
+        "properties" : {
+          "reason" : {
+            "type" : "string",
+            "maxLength" : 280,
+            "minLength" : 0
+          }
+        },
+        "required" : [ "reason" ]
+      },
+      "BlockRequest" : {
+        "type" : "object",
+        "properties" : {
+          "friendCode" : {
+            "type" : "string",
+            "maxLength" : 16,
+            "minLength" : 0
+          }
+        },
+        "required" : [ "friendCode" ]
+      },
+      "BlockedPlayerDto" : {
+        "type" : "object",
+        "properties" : {
+          "blockedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "friendCode" : {
+            "type" : "string"
+          },
+          "nickname" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "blockedAt", "friendCode", "nickname" ]
       },
       "CardAbilityDto" : {
         "type" : "object",
@@ -2460,6 +2868,17 @@
         },
         "required" : [ "rarities", "slots" ]
       },
+      "ForgotPasswordRequest" : {
+        "type" : "object",
+        "properties" : {
+          "email" : {
+            "type" : "string",
+            "maxLength" : 254,
+            "minLength" : 0
+          }
+        },
+        "required" : [ "email" ]
+      },
       "FreePacksDto" : {
         "type" : "object",
         "properties" : {
@@ -2664,6 +3083,22 @@
         },
         "required" : [ "friendCode" ]
       },
+      "LegalInfo" : {
+        "type" : "object",
+        "properties" : {
+          "contactEmail" : {
+            "type" : "string"
+          },
+          "minimumAge" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "termsVersion" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "contactEmail", "minimumAge", "termsVersion" ]
+      },
       "LimitsResponse" : {
         "type" : "object",
         "properties" : {
@@ -2857,6 +3292,21 @@
           }
         },
         "required" : [ "daily", "dailyResetAt", "weekly", "weeklyResetAt" ]
+      },
+      "ModeratedPlayer" : {
+        "type" : "object",
+        "properties" : {
+          "banned" : {
+            "type" : "boolean"
+          },
+          "friendCode" : {
+            "type" : "string"
+          },
+          "nickname" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "banned", "friendCode", "nickname" ]
       },
       "MyProfile" : {
         "type" : "object",
@@ -3619,6 +4069,14 @@
       "RegisterRequest" : {
         "type" : "object",
         "properties" : {
+          "acceptTerms" : {
+            "type" : "boolean",
+            "description" : "The player accepted the current terms of use and privacy policy"
+          },
+          "ageConfirmed" : {
+            "type" : "boolean",
+            "description" : "The player confirmed meeting the minimum age (GET /api/v1/legal)"
+          },
           "deviceLabel" : {
             "type" : [ "string", "null" ],
             "maxLength" : 64,
@@ -3652,7 +4110,7 @@
             "minLength" : 0
           }
         },
-        "required" : [ "email", "nickname", "password" ]
+        "required" : [ "acceptTerms", "ageConfirmed", "email", "nickname", "password" ]
       },
       "RepairDto" : {
         "type" : "object",
@@ -3677,6 +4135,50 @@
         },
         "required" : [ "available", "usedThisMonth" ]
       },
+      "ReportDto" : {
+        "type" : "object",
+        "properties" : {
+          "createdAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "handledAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time"
+          },
+          "id" : {
+            "type" : "string",
+            "format" : "uuid"
+          },
+          "note" : {
+            "type" : [ "string", "null" ]
+          },
+          "reason" : {
+            "type" : "string"
+          },
+          "reporterFriendCode" : {
+            "type" : "string"
+          },
+          "resolution" : {
+            "type" : [ "string", "null" ],
+            "enum" : [ "none", "banned", "renamed" ]
+          },
+          "status" : {
+            "type" : "string",
+            "enum" : [ "open", "reviewed", "dismissed" ]
+          },
+          "targetBanned" : {
+            "type" : "boolean"
+          },
+          "targetFriendCode" : {
+            "type" : "string"
+          },
+          "targetNickname" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "createdAt", "id", "reason", "reporterFriendCode", "status", "targetBanned", "targetFriendCode", "targetNickname" ]
+      },
       "ReportRequest" : {
         "type" : "object",
         "properties" : {
@@ -3697,6 +4199,34 @@
           }
         },
         "required" : [ "friendCode", "reason" ]
+      },
+      "ReportsResponse" : {
+        "type" : "object",
+        "properties" : {
+          "reports" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/ReportDto"
+            }
+          }
+        },
+        "required" : [ "reports" ]
+      },
+      "ResetPasswordRequest" : {
+        "type" : "object",
+        "properties" : {
+          "password" : {
+            "type" : "string",
+            "maxLength" : 128,
+            "minLength" : 8
+          },
+          "token" : {
+            "type" : "string",
+            "maxLength" : 128,
+            "minLength" : 0
+          }
+        },
+        "required" : [ "password", "token" ]
       },
       "RewardDto" : {
         "type" : "object",
@@ -3848,6 +4378,16 @@
       "SocialLoginRequest" : {
         "type" : "object",
         "properties" : {
+          "acceptTerms" : {
+            "type" : [ "boolean", "null" ],
+            "description" : "True when the player accepted the current terms and confirmed the minimum age on this screen"
+          },
+          "authorizationCode" : {
+            "type" : [ "string", "null" ],
+            "description" : "Apple only: one-time authorization code, used to revoke the authorization when the account is deleted",
+            "maxLength" : 2048,
+            "minLength" : 0
+          },
           "deviceLabel" : {
             "type" : [ "string", "null" ],
             "maxLength" : 64,

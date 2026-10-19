@@ -2,7 +2,6 @@
   "common": {
     "back": "Retour",
     "close": "Fermer",
-    "comingSoon": "Bientôt disponible",
     "loading": "Chargement…",
     "retry": "Réessayer"
   },
@@ -407,7 +406,8 @@
       "general": "Général",
       "feedback": "Sons et vibrations",
       "accessibility": "Accessibilité",
-      "about": "À propos"
+      "about": "À propos",
+      "legal": "Informations légales"
     },
     "language": {
       "label": "Langue",
@@ -442,7 +442,6 @@
       "followSystem": "Suivre le système"
     },
     "account": "Compte",
-    "legal": "Mentions légales",
     "version": "Version {{version}}",
     "accountInfo": {
       "friendCode": "Code ami : {{code}}",
@@ -454,6 +453,12 @@
         "confirm": "Supprimer définitivement",
         "cancel": "Garder mon compte"
       }
+    },
+    "blocked": {
+      "title": "Joueurs bloqués",
+      "empty": "Aucun joueur bloqué.",
+      "unblock": "Débloquer",
+      "unblockA11y": "Débloquer {{nickname}}"
     }
   },
   "errors": {
@@ -506,7 +511,10 @@
     "friend_streak_exists": "Une série à deux existe déjà avec cet ami.",
     "nudge_already_sent": "Tu as déjà relancé cet ami aujourd’hui.",
     "nudge_limit_reached": "Tu as atteint la limite de relances pour aujourd’hui.",
-    "friend_already_active": "Ton ami a déjà joué aujourd’hui."
+    "friend_already_active": "Ton ami a déjà joué aujourd’hui.",
+    "account_banned": "Ce compte est suspendu. Contacte l'assistance si tu penses qu'il s'agit d'une erreur.",
+    "terms_not_accepted": "Accepte les conditions d'utilisation pour continuer.",
+    "invalid_reset_token": "Ce lien est invalide ou expiré. Redemande-en un."
   },
   "notFound": {
     "title": "Page introuvable",
@@ -612,7 +620,8 @@
     "login": {
       "title": "Connexion",
       "intro": "Retrouve ta collection là où tu l'as laissée.",
-      "submit": "Me connecter"
+      "submit": "Me connecter",
+      "forgot": "Mot de passe oublié ?"
     },
     "register": {
       "title": "Créer un compte",
@@ -632,7 +641,19 @@
       "nicknameInvalid": "Le pseudo doit faire 3 à 20 caractères : lettres, chiffres, point, tiret ou tiret bas."
     },
     "apple": "Continuer avec Apple",
-    "google": "Continuer avec Google"
+    "google": "Continuer avec Google",
+    "forgot": {
+      "title": "Mot de passe oublié",
+      "intro": "Saisis l'email de ton compte : on t'envoie un lien pour choisir un nouveau mot de passe.",
+      "submit": "Envoyer le lien",
+      "sent": "Si un compte existe pour cette adresse, un email vient de partir. Le lien est valable 30 minutes.",
+      "back": "Retour à la connexion"
+    },
+    "consent": {
+      "label": "J'accepte les conditions d'utilisation et la politique de confidentialité, et j'ai au moins {{age}} ans.",
+      "required": "Coche la case pour créer ton compte.",
+      "social": "En continuant avec Apple ou Google, tu acceptes les conditions d'utilisation et la politique de confidentialité, et confirmes avoir au moins {{age}} ans."
+    }
   },
   "offline": {
     "banner": "Hors ligne. Ta collection reste consultable ; l'ouverture de boosters reviendra avec le réseau.",
@@ -728,9 +749,7 @@
       "locked": "Palier {{tier}}, verrouillé"
     },
     "tab": "Pass",
-    "upcoming": "Prochains paliers",
-    "premiumTitle": "Piste Premium",
-    "premiumBody": "Bientôt : une récompense en plus à chaque palier."
+    "upcoming": "Prochains paliers"
   },
   "progression": {
     "reward": {
@@ -801,7 +820,6 @@
       "explain": "Un gel protège un jour manqué tout seul. Un gel offert chaque semaine, d’autres en paliers. Stock max : 2.",
       "buy": "Acheter · {{price}} Influence",
       "full": "Stock plein",
-      "sceauxSoon": "Bientôt aussi en Sceaux",
       "confirmTitle": "Acheter un gel ?",
       "confirmBody": "Un gel de série pour {{price}} Influence. Il sera utilisé automatiquement si tu rates un jour.",
       "balance": "Influence : {{now}} → {{after}}",
@@ -913,6 +931,13 @@
       "nothing": "Rien ici.",
       "showAll": "Voir les {{count}} cartes",
       "showLess": "Voir moins"
+    },
+    "block": {
+      "open": "Bloquer {{nickname}}",
+      "title": "Bloquer {{nickname}} ?",
+      "body": "Votre amitié sera retirée. Vous ne pourrez plus voir vos profils ni vous envoyer de demandes, relances ou séries entre amis. Tu peux débloquer depuis les réglages.",
+      "confirm": "Bloquer",
+      "cancel": "Annuler"
     }
   },
   "report": {
@@ -1185,6 +1210,18 @@
       "days_other": "{{value}} jours ensemble",
       "body": "Toi et {{nickname}} tenez bon. Récompense envoyée à tous les deux !",
       "cta": "Trop fort !"
+    }
+  },
+  "legal": {
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "notice": "Mentions légales",
+    "support": "Aide et contact",
+    "openHint": "Ouvre la page dans le navigateur",
+    "gate": {
+      "title": "Nos conditions ont évolué",
+      "body": "Pour continuer à jouer, relis et accepte les conditions d'utilisation et la politique de confidentialité.",
+      "accept": "J'accepte"
     }
   }
 }

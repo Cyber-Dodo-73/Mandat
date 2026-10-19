@@ -58,11 +58,6 @@ export function FreezeInventory({ streak, online }: { streak: StreakView; online
         disabled={full || !online}
         onPress={open}
       />
-      {streak.freezePrices.sceaux != null ? (
-        <Text variant="caption" tone="muted" align="center">
-          {t('streak.freezes.sceauxSoon')}
-        </Text>
-      ) : null}
 
       <Sheet visible={confirming} onClose={() => setConfirming(false)} title={bought ? t('streak.freezes.boughtTitle') : t('streak.freezes.confirmTitle')}>
         <View style={styles.sheetHero}>

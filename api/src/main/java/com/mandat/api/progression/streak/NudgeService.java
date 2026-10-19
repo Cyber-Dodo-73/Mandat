@@ -57,7 +57,7 @@ public class NudgeService implements FriendActivityProvider {
 
     @Transactional
     public NudgeResponse nudge(UUID senderId, String friendCode) {
-        User target = players.byFriendCode(friendCode);
+        User target = players.visibleTo(senderId, friendCode);
         UUID receiverId = target.getId();
         if (receiverId.equals(senderId)) {
             throw new ApiException(ErrorCode.CANNOT_TARGET_SELF, "This is your own friend code");
