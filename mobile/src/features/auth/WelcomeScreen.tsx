@@ -4,6 +4,7 @@ import { StyleSheet, useWindowDimensions, View } from 'react-native';
 import Animated, { useAnimatedStyle, useSharedValue, withDelay, withSpring } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { Wordmark } from '@/components/brand';
 import { TradingCard } from '@/components/cards';
 import { Body, Button3D, Caption, PressableScale, Text } from '@/components/ui';
 import { APP_NAME } from '@/constants/app';
@@ -51,9 +52,7 @@ export function WelcomeScreen() {
       </View>
 
       <View style={styles.copy}>
-        <Text variant="display" accessibilityRole="header">
-          {APP_NAME}
-        </Text>
+        <Wordmark width={Math.min(width * 0.62, 280)} accessibilityLabel={APP_NAME} />
         <Body tone="muted">{t('auth.welcome.pitch')}</Body>
       </View>
 

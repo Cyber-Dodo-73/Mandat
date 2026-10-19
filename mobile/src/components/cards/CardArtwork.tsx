@@ -44,8 +44,8 @@ const SOBER_GOLD_MATRIX = [
   0, 0, 0, 1, 0,
 ];
 
-const PAPER = '#F4F1EA';
-const INK = '#0B0F1A';
+const PAPER = '#F1E8D4';
+const INK = '#0A0D14';
 
 type CardArtworkProps = {
   card: Card;

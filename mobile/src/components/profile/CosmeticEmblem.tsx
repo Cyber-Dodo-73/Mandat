@@ -7,8 +7,12 @@ import { Icon } from '@/components/ui';
 import { resolveCosmetic, type CosmeticKind } from '@/features/profile/cosmetics';
 import { useTheme } from '@/theme';
 
+import { METAL_COLORS } from '@/features/profile/badges';
+
 import { rosettePath } from './guilloche';
 import { tierPaint } from './tierColors';
+
+const METAL_SILVER = METAL_COLORS.silver;
 
 type CosmeticEmblemProps = {
   kind: Extract<CosmeticKind, 'avatar' | 'badge'>;
@@ -36,9 +40,22 @@ export const CosmeticEmblem = memo(function CosmeticEmblem({ kind, id, size, loc
   );
 
   if (visual.image) {
+    // Badge art is cast in neutral silver: bronze and gold tiers are a color blend on top,
+    // which keeps the engraving's light and shade.
+    const tinted = kind === 'badge' && tint && !locked && tint !== METAL_SILVER;
     return (
-      <View style={[styles.round, { width: size, height: size, borderRadius: size / 2 }, locked && styles.locked]}>
+      <View
+        style={[styles.round, { width: size, height: size, borderRadius: size / 2 }, locked && styles.locked]}
+        accessibilityElementsHidden
+        importantForAccessibility="no"
+      >
         <Image source={visual.image} style={StyleSheet.absoluteFill} contentFit="cover" transition={120} />
+        {tinted ? (
+          <View
+            pointerEvents="none"
+            style={[StyleSheet.absoluteFill, { backgroundColor: tint, borderRadius: size / 2, mixBlendMode: 'color', opacity: 0.85 }]}
+          />
+        ) : null}
       </View>
     );
   }

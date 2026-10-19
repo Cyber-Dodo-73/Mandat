@@ -4,6 +4,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import Animated, { useAnimatedStyle, useSharedValue, withSpring, withTiming } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { Emblem } from '@/components/brand';
 import { Icon, Text, type IconName } from '@/components/ui';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { haptics } from '@/lib/haptics';
@@ -34,7 +35,7 @@ export function TabBar({ state, descriptors, emitter, navigateToTab }: BottomTab
         styles.bar,
         {
           backgroundColor: colors.surface,
-          borderTopColor: colors.border,
+          borderTopColor: colors.hairline,
           paddingBottom: Math.max(insets.bottom, spacing.xs),
         },
       ]}
@@ -79,7 +80,7 @@ function TabItem({ label, icon, focused, onPress }: TabProps) {
   const { colors } = useTheme();
   const progress = useFocusProgress(focused);
   const press = useSharedValue(1);
-  const color = focused ? colors.accent : colors.textMuted;
+  const color = focused ? colors.goldBright : colors.textMuted;
 
   const iconStyle = useAnimatedStyle(() => ({
     transform: [{ translateY: -3 * progress.get() }, { scale: (1 + 0.12 * progress.get()) * press.get() }],
@@ -102,7 +103,7 @@ function TabItem({ label, icon, focused, onPress }: TabProps) {
       onPress={onPress}
       style={styles.tab}
     >
-      <Animated.View style={[styles.indicator, { backgroundColor: colors.accent }, indicatorStyle]} />
+      <Animated.View style={[styles.indicator, { backgroundColor: colors.gold }, indicatorStyle]} />
       <Animated.View style={iconStyle}>
         <Icon name={icon} size={25} color={color} />
       </Animated.View>
@@ -113,7 +114,7 @@ function TabItem({ label, icon, focused, onPress }: TabProps) {
   );
 }
 
-function HubTab({ label, icon, focused, onPress }: TabProps) {
+function HubTab({ label, focused, onPress }: TabProps) {
   const { colors } = useTheme();
   const reduceMotion = useReduceMotion();
   const sink = useSharedValue(0);
@@ -137,13 +138,16 @@ function HubTab({ label, icon, focused, onPress }: TabProps) {
       style={styles.tab}
     >
       <View style={styles.hubWrap}>
-        <Animated.View style={[styles.hubRing, { borderColor: colors.accent }, ringStyle]} />
+        <Animated.View style={[styles.hubRing, { borderColor: colors.goldBright }, ringStyle]} />
         <View style={[styles.hubEdge, { backgroundColor: colors.accentEdge }]} />
-        <Animated.View style={[styles.hubFace, { backgroundColor: colors.accent }, faceStyle]}>
-          <Icon name={icon} size={30} color={colors.onAccent} />
+        {/* The pack hub is the brand's wax seal, pressed into the bar. */}
+        <Animated.View
+          style={[styles.hubFace, { backgroundColor: colors.accent, borderColor: colors.goldBright }, faceStyle]}
+        >
+          <Emblem size={HUB_SIZE - 4} />
         </Animated.View>
       </View>
-      <Text variant="caption" color={focused ? colors.accent : colors.textMuted} numberOfLines={1}>
+      <Text variant="caption" color={focused ? colors.goldBright : colors.textMuted} numberOfLines={1}>
         {label}
       </Text>
     </Pressable>
@@ -181,7 +185,9 @@ const styles = StyleSheet.create({
     width: HUB_SIZE,
     height: HUB_SIZE,
     borderRadius: HUB_SIZE / 2,
+    borderWidth: 1.5,
     alignItems: 'center',
     justifyContent: 'center',
+    overflow: 'hidden',
   },
 });

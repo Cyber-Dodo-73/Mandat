@@ -1,6 +1,6 @@
 import { Canvas, Path, RoundedRect, SweepGradient, vec } from '@shopify/react-native-skia';
 import { memo, useEffect, useMemo } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import Animated, {
   cancelAnimation,
   Easing,
@@ -10,20 +10,19 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 
-import { APP_NAME } from '@/constants/app';
+import { Emblem } from '@/components/brand';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
-import { fontFamilies } from '@/theme';
-import { palettes } from '@/theme/colors';
 import { rarityRank, rarityStyles, type Rarity } from '@/theme/rarity';
 import type { CardFinish } from '@/types/card';
 
 import { cardMetrics, type CardSize } from './cardMetrics';
 import { guillochePath } from './engraving';
 import { GOLD } from './finishes';
-import { CARD_INK, CARD_PAPER } from './RarityFrame';
+import { CARD_INK } from './RarityFrame';
 
-const ACCENT = palettes.dark.accent;
+/** Engraved antique gold of the art pack. */
+const ENGRAVED_GOLD = '#C9A227';
 
 type GlowLevel = { opacity: number; radius: number; pulse: number; pulseMs: number; prismatic: boolean };
 
@@ -52,7 +51,7 @@ type CardBackProps = {
   finish?: CardFinish;
 };
 
-/** MANDAT card back: ink, a red guilloché seal and the wordmark. */
+/** MANDAT card back: black lacquer, gold guilloché rosettes and the vermilion M wax seal. */
 export const CardBack = memo(function CardBack({ size = 'large', width, glow, finish = 'standard' }: CardBackProps) {
   const { t } = useTranslation();
   const metrics = cardMetrics(size, width);
@@ -77,8 +76,8 @@ export const CardBack = memo(function CardBack({ size = 'large', width, glow, fi
   const gold = finish === 'gold';
   const prismatic = level?.prismatic === true;
   const iridescent = finish === 'holo' || finish === 'full_art' || prismatic;
-  const keylineColor = gold ? GOLD.base : level ? glowColor : CARD_PAPER;
-  const sealColor = gold ? GOLD.base : ACCENT;
+  const keylineColor = gold ? GOLD.base : level ? glowColor : ENGRAVED_GOLD;
+  const sealColor = gold ? GOLD.base : ENGRAVED_GOLD;
   const glowStyle = useAnimatedStyle(() => ({
     shadowOpacity: level ? level.opacity + pulse.get() * level.pulse : 0,
     shadowRadius: level ? level.radius + pulse.get() * level.pulse * 30 : 0,
@@ -102,20 +101,15 @@ export const CardBack = memo(function CardBack({ size = 'large', width, glow, fi
           color={keylineColor}
           style="stroke"
           strokeWidth={Math.max(1, frame * (iridescent || gold ? 0.5 : 0.35))}
-          opacity={level || gold || iridescent ? 0.9 : 0.35}
+          opacity={level || gold || iridescent ? 0.9 : 0.7}
         >
           {iridescent ? <SweepGradient c={vec(w / 2, h / 2)} colors={[...rarityStyles.mythic.gradient, rarityStyles.mythic.gradient[0]]} /> : null}
         </RoundedRect>
-        <Path path={outerSeal} style="stroke" strokeWidth={Math.max(0.5, w / 400)} color={CARD_PAPER} opacity={0.18} />
+        <Path path={outerSeal} style="stroke" strokeWidth={Math.max(0.5, w / 400)} color={ENGRAVED_GOLD} opacity={0.32} />
         <Path path={seal} style="stroke" strokeWidth={Math.max(0.6, w / 300)} color={sealColor} opacity={0.85} />
       </Canvas>
       <View style={styles.center} pointerEvents="none">
-        <Text
-          allowFontScaling={false}
-          style={[styles.wordmark, { fontSize: w * 0.13, letterSpacing: w * 0.012, paddingHorizontal: w * 0.04 }]}
-        >
-          {APP_NAME}
-        </Text>
+        <Emblem size={w * 0.44} />
       </View>
     </Animated.View>
   );
@@ -123,9 +117,4 @@ export const CardBack = memo(function CardBack({ size = 'large', width, glow, fi
 
 const styles = StyleSheet.create({
   center: { position: 'absolute', top: 0, right: 0, bottom: 0, left: 0, alignItems: 'center', justifyContent: 'center' },
-  wordmark: {
-    fontFamily: fontFamilies.displayHeavy,
-    color: CARD_PAPER,
-    backgroundColor: CARD_INK,
-  },
 });

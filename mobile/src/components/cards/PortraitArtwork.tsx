@@ -10,8 +10,8 @@ import { engravingPaths } from './engraving';
 import { GOLD } from './finishes';
 import { flagPalette } from './flagColors';
 
-const PAPER = '#F4F1EA';
-const INK = '#0B0F1A';
+const PAPER = '#F1E8D4';
+const INK = '#0A0D14';
 
 /** Faces sit in the upper part of portraits: keep them in frame when cropping. */
 const FOCAL_POINT = { top: '22%', left: '50%' } as const;

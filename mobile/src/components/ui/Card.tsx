@@ -17,7 +17,7 @@ export function Card({ children, style, raised = false, ...rest }: CardProps) {
       {...rest}
       style={[
         styles.card,
-        { backgroundColor: colors.surface, borderColor: colors.border },
+        { backgroundColor: colors.surface, borderColor: colors.hairline },
         raised ? [shadow, { shadowColor: colors.shadow }] : null,
         style,
       ]}

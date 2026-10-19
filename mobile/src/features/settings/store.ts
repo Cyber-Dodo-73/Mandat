@@ -15,6 +15,8 @@ export type SettingsState = {
   notificationsEnabled: boolean;
   /** null follows the OS "reduce motion" setting. */
   reduceMotion: boolean | null;
+  /** The three-screen intro is shown once, before the auth welcome screen. */
+  onboardingSeen: boolean;
 };
 
 type SettingsActions = {
@@ -24,6 +26,7 @@ type SettingsActions = {
   setHapticsEnabled: (enabled: boolean) => void;
   setNotificationsEnabled: (enabled: boolean) => void;
   setReduceMotion: (reduceMotion: boolean | null) => void;
+  completeOnboarding: () => void;
 };
 
 function detectLanguage(): Language {
@@ -40,24 +43,27 @@ export const useSettingsStore = create<SettingsState & SettingsActions>()(
       hapticsEnabled: true,
       notificationsEnabled: true,
       reduceMotion: null,
+      onboardingSeen: false,
       setLanguage: (language) => set({ language }),
       setTheme: (theme) => set({ theme }),
       setSoundEnabled: (soundEnabled) => set({ soundEnabled }),
       setHapticsEnabled: (hapticsEnabled) => set({ hapticsEnabled }),
       setNotificationsEnabled: (notificationsEnabled) => set({ notificationsEnabled }),
       setReduceMotion: (reduceMotion) => set({ reduceMotion }),
+      completeOnboarding: () => set({ onboardingSeen: true }),
     }),
     {
       name: 'settings',
       version: 1,
       storage: createJSONStorage(() => zustandStorage),
-      partialize: ({ language, theme, soundEnabled, hapticsEnabled, notificationsEnabled, reduceMotion }) => ({
+      partialize: ({ language, theme, soundEnabled, hapticsEnabled, notificationsEnabled, reduceMotion, onboardingSeen }) => ({
         language,
         theme,
         soundEnabled,
         hapticsEnabled,
         notificationsEnabled,
         reduceMotion,
+        onboardingSeen,
       }),
     },
   ),

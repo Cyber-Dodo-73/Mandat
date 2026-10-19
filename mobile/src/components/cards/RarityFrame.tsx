@@ -42,6 +42,12 @@ type RarityFrameProps = {
   animated: boolean;
 };
 
+/** Engraved antique gold of the art pack (rims, hairlines, filigree). */
+const ENGRAVED_GOLD = '#C9A227';
+const ENGRAVED_GOLD_LIGHT = '#E7C766';
+/** Black lacquer band used by every rarity below legendary. */
+const LACQUER = ['#1E2330', '#0B0E15', '#171B26'] as const;
+
 /** Filigree scroll in one corner, mirrored to the four corners of premium frames. */
 function cornerOrnament(size: number): string {
   const s = size;
@@ -57,6 +63,10 @@ export const RarityFrame = memo(function RarityFrame({ rarity, finish, width, he
   const gold = finish === 'gold';
   const fullArt = finish === 'full_art';
   const premium = isPremium(rarity);
+  // Epic and better get the engraved gold filigree corners.
+  const ornate = premium || rarity === 'epic';
+  // Below legendary the band is black lacquer and the rarity color becomes an inner keyline.
+  const lacquer = !gold && !premium;
   const progress = useSharedValue(0);
   // Gold prints and premium rarities have a living frame; others stay still.
   const runs = animated && (style.animated || gold);
@@ -77,7 +87,9 @@ export const RarityFrame = memo(function RarityFrame({ rarity, finish, width, he
   const ornamentSize = Math.max(8, width * 0.12);
   const ornament = useMemo(() => cornerOrnament(ornamentSize), [ornamentSize]);
   const ornamentStroke = Math.max(0.6, width / 280);
-  const edge = gold ? GOLD.edge : style.edge;
+  const edge = gold ? GOLD.edge : lacquer ? style.color : style.edge;
+  const ruleInset = Math.max(1, frameWidth * 0.18);
+  const ruleStroke = Math.max(0.6, width / 320);
   const corners: { x: number; y: number; scaleX: number; scaleY: number }[] = [
     { x: inner.x + 2, y: inner.y + 2, scaleX: 1, scaleY: 1 },
     { x: inner.x + inner.width - 2, y: inner.y + 2, scaleX: -1, scaleY: 1 },
@@ -97,10 +109,37 @@ export const RarityFrame = memo(function RarityFrame({ rarity, finish, width, he
             transform={prismTransform}
             origin={vec(width / 2, height / 2)}
           />
+        ) : lacquer ? (
+          <LinearGradient start={vec(0, 0)} end={vec(width, height)} colors={[...LACQUER]} />
         ) : (
           <LinearGradient start={vec(0, 0)} end={vec(width, height)} colors={[...style.gradient]} />
         )}
       </RoundedRect>
+      {/* Banknote double rule: an outer gold hairline and a finer one inside the band. */}
+      <RoundedRect
+        x={ruleInset}
+        y={ruleInset}
+        width={width - ruleInset * 2}
+        height={height - ruleInset * 2}
+        r={Math.max(2, radius - ruleInset)}
+        color={ENGRAVED_GOLD}
+        style="stroke"
+        strokeWidth={ruleStroke}
+        opacity={lacquer ? 0.85 : 0.6}
+      />
+      {lacquer && frameWidth >= 5 ? (
+        <RoundedRect
+          x={frameWidth * 0.55}
+          y={frameWidth * 0.55}
+          width={width - frameWidth * 1.1}
+          height={height - frameWidth * 1.1}
+          r={Math.max(2, radius - frameWidth * 0.55)}
+          color={ENGRAVED_GOLD}
+          style="stroke"
+          strokeWidth={ruleStroke * 0.6}
+          opacity={0.45}
+        />
+      ) : null}
       {runs && (rarity === 'legendary' || gold || rarity === 'mythic') ? (
         <Group blendMode="screen">
           <RoundedRect x={0} y={0} width={width} height={height} r={radius}>
@@ -116,8 +155,8 @@ export const RarityFrame = memo(function RarityFrame({ rarity, finish, width, he
       {/* Full art prints let the illustration fill the face: no solid face behind it. */}
       {fullArt ? null : <RoundedRect {...inner} r={innerRadius} color={CARD_FACE} />}
       {gold && !fullArt ? <EmbossTexture inner={inner} radius={innerRadius} /> : null}
-      <RoundedRect {...inner} r={innerRadius} color={edge} style="stroke" strokeWidth={Math.max(1, frameWidth * 0.25)} />
-      {premium || gold
+      <RoundedRect {...inner} r={innerRadius} color={edge} style="stroke" strokeWidth={Math.max(1, frameWidth * (lacquer ? 0.3 : 0.25))} />
+      {ornate || gold
         ? corners.map((corner, index) => (
             <Group
               key={index}
@@ -127,8 +166,8 @@ export const RarityFrame = memo(function RarityFrame({ rarity, finish, width, he
               <Group transform={[{ translateX: 0.8 }, { translateY: 0.8 }]}>
                 <Path path={ornament} style="stroke" strokeWidth={ornamentStroke * 1.6} color={CARD_INK} opacity={0.55} />
               </Group>
-              <Path path={ornament} style="stroke" strokeWidth={ornamentStroke * 1.6} color={gold ? GOLD.base : style.color} />
-              <Path path={ornament} style="stroke" strokeWidth={ornamentStroke * 0.6} color="#FFFFFF" opacity={0.55} />
+              <Path path={ornament} style="stroke" strokeWidth={ornamentStroke * 1.6} color={gold ? GOLD.base : ENGRAVED_GOLD} />
+              <Path path={ornament} style="stroke" strokeWidth={ornamentStroke * 0.6} color={ENGRAVED_GOLD_LIGHT} opacity={0.7} />
             </Group>
           ))
         : null}

@@ -1,7 +1,8 @@
 /**
  * Generates src/features/profile/cosmetics.generated.ts: one require() per cosmetic image found
- * under assets/images/{avatars,banners,badges}/<id>.png (names from docs/ART_PROMPTS.md). Missing
+ * under assets/images/{avatars,banners,badges}/<id>.webp|png (names from docs/ART_PROMPTS.md). Missing
  * images are simply absent from the maps and the app draws a procedural fallback instead.
+ * WebP (from `npm run art:import`) wins over a PNG of the same name.
  */
 import { existsSync, readdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -14,17 +15,22 @@ const target = join(here, '..', 'src', 'features', 'profile', 'cosmetics.generat
 const KINDS = ['avatars', 'banners', 'badges'] as const;
 type Kind = (typeof KINDS)[number];
 
+const EXTENSIONS = ['.webp', '.png'] as const;
+
+/** One file per id: the first extension found in EXTENSIONS order. */
 function files(kind: Kind): string[] {
   const dir = join(imagesDir, kind);
   if (!existsSync(dir)) return [];
-  return readdirSync(dir)
-    .filter((file) => file.endsWith('.png'))
-    .sort();
+  const all = readdirSync(dir);
+  const ids = new Set(all.filter((f) => EXTENSIONS.some((ext) => f.endsWith(ext))).map((f) => f.replace(/\.(webp|png)$/, '')));
+  return [...ids]
+    .sort()
+    .map((id) => `${id}${EXTENSIONS.find((ext) => all.includes(`${id}${ext}`))}`);
 }
 
 function entries(kind: Kind): string {
   return files(kind)
-    .map((file) => `  '${file.slice(0, -4)}': require('../../../assets/images/${kind}/${file}'),`)
+    .map((file) => `  '${file.replace(/\.(webp|png)$/, '')}': require('../../../assets/images/${kind}/${file}'),`)
     .join('\n');
 }
 

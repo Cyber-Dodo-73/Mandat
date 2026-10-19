@@ -32,9 +32,20 @@ type BoosterArtProps = {
 
 const RIDGE_SPACING = 3;
 
+/** Eight-pointed star of the art pack's booster seal, as an SVG path. */
+function starPath(cx: number, cy: number, outer: number, inner: number, points = 8): string {
+  const parts: string[] = [];
+  for (let i = 0; i < points * 2; i += 1) {
+    const r = i % 2 === 0 ? outer : inner;
+    const angle = (Math.PI * i) / points - Math.PI / 2;
+    parts.push(`${i === 0 ? 'M' : 'L'}${cx + Math.cos(angle) * r} ${cy + Math.sin(angle) * r}`);
+  }
+  return `${parts.join(' ')} Z`;
+}
+
 /**
- * Procedural foil booster: a guilloche rosette and an official seal printed on
- * colored foil, heat-crimped at both ends. Drawn twice (strip and body) and clipped
+ * Procedural foil booster (art pack look): black foil engraved with a gold guilloche
+ * rosette and a star seal ringed in the pack's accent, gold heat-crimps at both ends. Drawn twice (strip and body) and clipped
  * on the seam, so the strip can be torn off without redrawing anything.
  */
 export function BoosterArt({ geometry, palette, part, tiltX, tiltY, children }: BoosterArtProps) {
@@ -56,6 +67,11 @@ export function BoosterArt({ geometry, palette, part, tiltX, tiltY, children }: 
     return path.detach();
   }, [crimp, height, width]);
 
+  const star = useMemo(
+    () => Skia.Path.MakeFromSVGString(starPath(rosetteCenter.x, rosetteCenter.y, rosetteRadius * 0.3, rosetteRadius * 0.12)),
+    [rosetteCenter.x, rosetteCenter.y, rosetteRadius],
+  );
+
   // The light band slides across the foil against the tilt, like a real metallic pouch.
   const sheenStart = useDerivedValue(() => ({ x: width * (-0.6 + tiltX.get() * 0.7), y: height * (-0.1 + tiltY.get() * 0.3) }));
   const sheenEnd = useDerivedValue(() => ({ x: width * (1.0 + tiltX.get() * 0.7), y: height * (1.1 + tiltY.get() * 0.3) }));
@@ -76,7 +92,7 @@ export function BoosterArt({ geometry, palette, part, tiltX, tiltY, children }: 
           />
         </Rect>
 
-        <Path path={guilloche} style="stroke" strokeWidth={0.7} color={palette.light} opacity={0.38} />
+        <Path path={guilloche} style="stroke" strokeWidth={0.7} color={palette.light} opacity={0.5} />
 
         <Circle cx={rosetteCenter.x} cy={rosetteCenter.y} r={rosetteRadius * 0.42} color={palette.deep} />
         <Circle
@@ -98,10 +114,21 @@ export function BoosterArt({ geometry, palette, part, tiltX, tiltY, children }: 
         >
           <DashPathEffect intervals={[3, 3]} />
         </Circle>
+        <Circle
+          cx={rosetteCenter.x}
+          cy={rosetteCenter.y}
+          r={rosetteRadius * 0.48}
+          style="stroke"
+          strokeWidth={2.5}
+          color={palette.accent}
+          opacity={0.9}
+        />
+        {star ? <Path path={star} color={palette.light} /> : null}
 
-        <Rect x={0} y={0} width={width} height={crimp} color={palette.deep} opacity={0.45} />
-        <Rect x={0} y={height - crimp} width={width} height={crimp} color={palette.deep} opacity={0.45} />
-        <Path path={ridges} style="stroke" strokeWidth={1} color={palette.light} opacity={0.22} />
+        {/* Gold heat-crimps, ridged like the pouch in the art. */}
+        <Rect x={0} y={0} width={width} height={crimp} color={palette.light} opacity={0.82} />
+        <Rect x={0} y={height - crimp} width={width} height={crimp} color={palette.light} opacity={0.82} />
+        <Path path={ridges} style="stroke" strokeWidth={1} color={palette.deep} opacity={0.4} />
 
         <Rect x={0} y={0} width={width} height={height} blendMode="screen">
           <LinearGradient

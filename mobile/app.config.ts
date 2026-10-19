@@ -2,7 +2,7 @@ import type { ExpoConfig } from 'expo/config';
 
 import { APP_NAME, APP_SCHEME, APP_SLUG, BUNDLE_ID } from './src/constants/app.ts';
 
-const SPLASH_BACKGROUND = '#0B0F1A';
+const SPLASH_BACKGROUND = '#0A0D14';
 
 /** Dev-client builds install next to the release app under their own bundle id. */
 const IS_DEV_VARIANT = process.env.APP_VARIANT === 'development';

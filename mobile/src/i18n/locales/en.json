@@ -766,5 +766,25 @@
     "noteHint": "Up to {{max}} characters, never shown publicly.",
     "send": "Send report",
     "sent": "Thanks, your report was sent."
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "start": "Get started",
+    "progress": "Screen {{current}} of {{total}}",
+    "pages": {
+      "collect": {
+        "title": "Collect history",
+        "body": "500 political figures, from Cleopatra to Mandela. A free booster is waiting for you every 12 hours."
+      },
+      "learn": {
+        "title": "Learn as you play",
+        "body": "Every card tells a life in a few lines. Test what you remember with 10-question quizzes."
+      },
+      "duel": {
+        "title": "Take on the AI",
+        "body": "Build a team of 3 cards and win the duel round by round."
+      }
+    }
   }
 }

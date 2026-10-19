@@ -766,5 +766,25 @@
     "noteHint": "{{max}} caractères maximum, jamais affichés publiquement.",
     "send": "Envoyer le signalement",
     "sent": "Merci, ton signalement a été envoyé."
+  },
+  "onboarding": {
+    "skip": "Passer",
+    "next": "Suivant",
+    "start": "Commencer",
+    "progress": "Écran {{current}} sur {{total}}",
+    "pages": {
+      "collect": {
+        "title": "Collectionne l'histoire",
+        "body": "500 figures politiques, de Cléopâtre à Mandela. Un booster gratuit t'attend toutes les 12 heures."
+      },
+      "learn": {
+        "title": "Apprends en jouant",
+        "body": "Chaque carte raconte une vie en quelques lignes. Teste ce que tu as retenu avec des quiz de 10 questions."
+      },
+      "duel": {
+        "title": "Affronte l'IA",
+        "body": "Compose une équipe de 3 cartes et remporte le duel manche après manche."
+      }
+    }
   }
 }

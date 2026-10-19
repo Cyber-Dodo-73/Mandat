@@ -164,19 +164,7 @@ export function Booster3D({
               {seasonLabel}
             </Text>
           </View>
-          <View
-            style={[
-              styles.monogramBox,
-              { top: rosetteCenter.y - rosetteRadius * 0.42, height: rosetteRadius * 0.84 },
-            ]}
-          >
-            <Text
-              allowFontScaling={false}
-              style={[styles.monogram, { color: palette.light, fontSize: rosetteRadius * 0.5, lineHeight: rosetteRadius * 0.62 }]}
-            >
-              {wordmark.charAt(0)}
-            </Text>
-          </View>
+          {/* The rosette's centre carries the engraved star seal (drawn in BoosterArt). */}
           <View style={[styles.line, { top: rosetteCenter.y + rosetteRadius + 6 }]}>
             <Text
               allowFontScaling={false}
@@ -231,9 +219,7 @@ export function Booster3D({
 const styles = StyleSheet.create({
   shadow: { position: 'absolute', height: 16, borderRadius: 999 },
   line: { position: 'absolute', left: 0, right: 0, alignItems: 'center' },
-  monogramBox: { position: 'absolute', left: 0, right: 0, alignItems: 'center', justifyContent: 'center' },
   season: { fontFamily: fontFamilies.bodyBold, fontSize: 12, letterSpacing: 1.2 },
-  monogram: { fontFamily: fontFamilies.displayHeavy },
   wordmark: { fontFamily: fontFamilies.displayHeavy, letterSpacing: 3 },
   title: { fontFamily: fontFamilies.bodyBold, fontSize: 14 },
   stripOrigin: { transformOrigin: 'center top' },

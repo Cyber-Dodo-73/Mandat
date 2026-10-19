@@ -1,5 +1,11 @@
 # MANDAT — images à générer
 
+> **Livré le 19/10/2026** : logo, icônes, onboarding, 27 avatars, 15 bannières et 18 badges sont intégrés
+> (sections 1 à 6). Pour importer ou remplacer un pack d'images :
+> `cd mobile && npm run art:import -- <dossier du pack>/mobile/assets && npm run sync:cards`.
+> Le script `mobile/scripts/optimize-art.ts` copie les icônes natives en PNG et convertit les images de l'app
+> en WebP (avatars et badges 512 px, bannières 1500×500, onboarding 1080×1350, logo 1024 px).
+
 Prompts en anglais (meilleurs résultats sur Midjourney, DALL·E, Flux, Ideogram…), consignes en français.
 Chaque section indique **où déposer le fichier**, son **format** et son **prompt**.
 

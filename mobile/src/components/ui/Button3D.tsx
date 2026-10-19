@@ -21,9 +21,11 @@ const PADDING: Record<Button3DSize, number> = { sm: spacing.md, md: spacing.lg, 
 function paletteFor(variant: Button3DVariant, colors: ThemeColors): Palette {
   switch (variant) {
     case 'primary':
-      return { face: colors.accent, edge: colors.accentEdge, label: colors.onAccent };
+      // Vermilion seal face with an engraved gold rim.
+      return { face: colors.accent, edge: colors.accentEdge, label: colors.onAccent, border: colors.goldBright };
     case 'secondary':
-      return { face: colors.neutralButton, edge: colors.neutralButtonEdge, label: colors.text, border: colors.border };
+      // Ink face, gold hairline: the banknote frame.
+      return { face: colors.neutralButton, edge: colors.neutralButtonEdge, label: colors.text, border: colors.hairline };
     case 'danger':
       return { face: colors.danger, edge: colors.dangerEdge, label: colors.onDanger };
     case 'ghost':
