@@ -92,7 +92,8 @@ public class CardCatalogService {
                         card.getStatInfluence(), card.getStatDiplomacy(), card.getStatCharisma(), card.getStatStrategy()),
                 new CardAbilityDto(
                         new LocalizedText(card.getAbilityNameFr(), card.getAbilityNameEn()),
-                        new LocalizedText(card.getAbilityDescFr(), card.getAbilityDescEn())),
+                        new LocalizedText(card.getAbilityDescFr(), card.getAbilityDescEn()),
+                        CardDto.AbilityEffectDto.of(card.getAbilityEffect())),
                 card.isSensitive(),
                 card.getArtwork(),
                 card.isActive());

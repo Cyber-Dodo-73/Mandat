@@ -1,5 +1,6 @@
 package com.mandat.api.card.dto;
 
+import com.mandat.api.card.AbilityEffect;
 import com.mandat.api.card.Continent;
 import com.mandat.api.card.Era;
 import com.mandat.api.card.Rarity;
@@ -32,5 +33,25 @@ public record CardDto(
 
     public record CardStatsDto(int influence, int diplomacy, int charisma, int strategy) {}
 
-    public record CardAbilityDto(LocalizedText name, LocalizedText description) {}
+    public record CardAbilityDto(
+            LocalizedText name,
+            LocalizedText description,
+            @Schema(nullable = true, description = "Machine-readable duel effect") AbilityEffectDto effect) {}
+
+    public record AbilityEffectDto(
+            AbilityEffect.Type type,
+            @Schema(nullable = true, description = "Null for tieBreaker") AbilityEffect.Stat stat,
+            @Schema(nullable = true, minimum = "1", maximum = "3", description = "Null for tieBreaker") Integer amount,
+            EffectConditionDto condition) {
+
+        public static AbilityEffectDto of(AbilityEffect effect) {
+            return effect == null ? null : new AbilityEffectDto(effect.type(), effect.stat(), effect.amount(),
+                    new EffectConditionDto(effect.conditionKind(), effect.conditionValue()));
+        }
+    }
+
+    public record EffectConditionDto(
+            AbilityEffect.ConditionKind kind,
+            @Schema(nullable = true, description = "same|different, an era, a stat, or a round number as text")
+            String value) {}
 }
