@@ -17,6 +17,8 @@ import com.mandat.api.push.ExpoPushClient.Ticket;
 import com.mandat.api.push.PushSender.Outcome;
 import com.mandat.api.support.GameTestConfig;
 import com.mandat.api.support.GameTestConfig.MutableClock;
+import com.mandat.api.support.PushTestSupport.FakeExpoPushClient;
+import com.mandat.api.support.PushTestSupport.PushTestBeans;
 import com.mandat.api.support.TestUsers;
 import java.sql.Timestamp;
 import java.time.Duration;
@@ -45,7 +47,7 @@ import org.springframework.test.web.servlet.MockMvc;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-@Import({GameTestConfig.class, PushIntegrationTest.PushTestBeans.class})
+@Import({GameTestConfig.class, PushTestBeans.class})
 class PushIntegrationTest {
 
     /** 10:00 in Paris (summer time): outside quiet hours. */
@@ -370,65 +372,5 @@ class PushIntegrationTest {
 
     private String nickname(UUID user) {
         return jdbc.sql("select nickname from users where id = :id").param("id", user).query(String.class).single();
-    }
-
-    /** Records sends; per-token errors on tickets or receipts. */
-    static final class FakeExpoPushClient implements ExpoPushClient {
-
-        final List<Message> sent = new CopyOnWriteArrayList<>();
-        final Map<String, String> ticketErrors = new HashMap<>();
-        final Map<String, String> receiptErrors = new HashMap<>();
-        private final Map<String, String> tokenByTicket = new HashMap<>();
-        private final AtomicInteger ids = new AtomicInteger();
-
-        void reset() {
-            sent.clear();
-            ticketErrors.clear();
-            receiptErrors.clear();
-            tokenByTicket.clear();
-        }
-
-        @Override
-        public List<Ticket> send(List<Message> messages) {
-            List<Ticket> tickets = new ArrayList<>();
-            for (Message message : messages) {
-                sent.add(message);
-                String error = ticketErrors.get(message.to());
-                if (error != null) {
-                    tickets.add(new Ticket("error", null, error));
-                } else {
-                    String id = "ticket-" + ids.incrementAndGet();
-                    tokenByTicket.put(id, message.to());
-                    tickets.add(new Ticket("ok", id, null));
-                }
-            }
-            return tickets;
-        }
-
-        @Override
-        public Map<String, Receipt> receipts(List<String> ticketIds) {
-            Map<String, Receipt> receipts = new HashMap<>();
-            for (String id : ticketIds) {
-                String error = receiptErrors.get(tokenByTicket.get(id));
-                receipts.put(id, error == null ? new Receipt("ok", null) : new Receipt("error", error));
-            }
-            return receipts;
-        }
-    }
-
-    @TestConfiguration(proxyBeanMethods = false)
-    static class PushTestBeans {
-
-        @Bean
-        @Primary
-        FakeExpoPushClient fakeExpoPushClient() {
-            return new FakeExpoPushClient();
-        }
-
-        @Bean
-        @Primary
-        PushDispatcher synchronousPushDispatcher() {
-            return new PushDispatcher(Runnable::run);
-        }
     }
 }

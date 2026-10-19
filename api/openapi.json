@@ -17,6 +17,9 @@
     "description" : "Sign-up, sign-in and token lifecycle",
     "name" : "Auth"
   }, {
+    "description" : "Daily streak, freezes, repair, friend streaks and nudges",
+    "name" : "Streaks"
+  }, {
     "description" : "The authenticated player's account, settings and summary",
     "name" : "Me"
   }, {
@@ -446,6 +449,151 @@
         "tags" : [ "Duels" ]
       }
     },
+    "/api/v1/friend-streaks" : {
+      "get" : {
+        "operationId" : "getFriendStreaks",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/FriendStreaksResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Friend streaks and invitations",
+        "tags" : [ "Streaks" ]
+      },
+      "post" : {
+        "operationId" : "inviteFriendStreak",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/InviteFriendStreakRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/FriendStreaksResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Invite a friend to a friend streak (accepts theirs if they invited first)",
+        "tags" : [ "Streaks" ]
+      }
+    },
+    "/api/v1/friend-streaks/{id}" : {
+      "delete" : {
+        "operationId" : "removeFriendStreak",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "string",
+            "format" : "uuid"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/FriendStreaksResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "End a friend streak or cancel an invitation",
+        "tags" : [ "Streaks" ]
+      }
+    },
+    "/api/v1/friend-streaks/{id}/accept" : {
+      "post" : {
+        "operationId" : "acceptFriendStreak",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "string",
+            "format" : "uuid"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/FriendStreaksResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Accept a friend streak invitation",
+        "tags" : [ "Streaks" ]
+      }
+    },
+    "/api/v1/friend-streaks/{id}/decline" : {
+      "post" : {
+        "operationId" : "declineFriendStreak",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "id",
+          "required" : true,
+          "schema" : {
+            "type" : "string",
+            "format" : "uuid"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/FriendStreaksResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Decline a friend streak invitation",
+        "tags" : [ "Streaks" ]
+      }
+    },
     "/api/v1/friends" : {
       "get" : {
         "operationId" : "friends",
@@ -556,6 +704,36 @@
         } ],
         "summary" : "Accept a friend request received from this player",
         "tags" : [ "Social" ]
+      }
+    },
+    "/api/v1/friends/{friendCode}/nudge" : {
+      "post" : {
+        "operationId" : "nudgeFriend",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "friendCode",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/NudgeResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Nudge a friend who hasn't kept their streak today",
+        "tags" : [ "Streaks" ]
       }
     },
     "/api/v1/me" : {
@@ -1234,6 +1412,123 @@
         } ],
         "summary" : "Claim the reward of a reached tier",
         "tags" : [ "Season pass" ]
+      }
+    },
+    "/api/v1/streak" : {
+      "get" : {
+        "operationId" : "getStreak",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/StreakResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Streak, freezes, milestones and repair offer",
+        "tags" : [ "Streaks" ]
+      }
+    },
+    "/api/v1/streak/freezes/purchase" : {
+      "post" : {
+        "operationId" : "purchaseStreakFreeze",
+        "parameters" : [ {
+          "in" : "header",
+          "name" : "Idempotency-Key",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/PurchaseFreezeRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/PurchaseFreezeResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Buy a streak freeze (Influence today; Sceaux once the premium currency exists)",
+        "tags" : [ "Streaks" ]
+      }
+    },
+    "/api/v1/streak/history" : {
+      "get" : {
+        "operationId" : "getStreakHistory",
+        "parameters" : [ {
+          "description" : "Number of days, up to 120",
+          "in" : "query",
+          "name" : "days",
+          "required" : false,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int32",
+            "default" : 60
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/StreakHistoryResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Calendar of the last days (active, frozen, missed)",
+        "tags" : [ "Streaks" ]
+      }
+    },
+    "/api/v1/streak/repair" : {
+      "post" : {
+        "operationId" : "repairStreak",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/StreakResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Repair a streak lost in the last 24 h (once per month)",
+        "tags" : [ "Streaks" ]
       }
     }
   },
@@ -2011,7 +2306,132 @@
         },
         "required" : [ "available", "intervalSeconds", "max" ]
       },
+      "FreezePricesDto" : {
+        "type" : "object",
+        "properties" : {
+          "influence" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "sceaux" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "description" : "Price in Sceaux, null while the premium currency isn't available"
+          }
+        },
+        "required" : [ "influence" ]
+      },
       "FriendDto" : {
+        "type" : "object",
+        "properties" : {
+          "activeToday" : {
+            "type" : "boolean",
+            "description" : "The friend kept their streak today (their local day); false for requests"
+          },
+          "avatarId" : {
+            "type" : "string"
+          },
+          "friendCode" : {
+            "type" : "string"
+          },
+          "nickname" : {
+            "type" : "string"
+          },
+          "nudgedToday" : {
+            "type" : "boolean",
+            "description" : "I already nudged this friend today (my local day)"
+          },
+          "since" : {
+            "type" : "string",
+            "format" : "date-time"
+          }
+        },
+        "required" : [ "activeToday", "avatarId", "friendCode", "nickname", "nudgedToday", "since" ]
+      },
+      "FriendStreakDto" : {
+        "type" : "object",
+        "properties" : {
+          "best" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "current" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Shared streak as of today (0 when broken)"
+          },
+          "friend" : {
+            "$ref" : "#/components/schemas/FriendSummaryDto"
+          },
+          "friendDoneToday" : {
+            "type" : "boolean",
+            "description" : "The friend kept theirs today (their local day)"
+          },
+          "id" : {
+            "type" : "string"
+          },
+          "meDoneToday" : {
+            "type" : "boolean",
+            "description" : "I kept my streak today (my local day)"
+          },
+          "nextMilestone" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32"
+          },
+          "since" : {
+            "type" : "string",
+            "format" : "date-time"
+          }
+        },
+        "required" : [ "best", "current", "friend", "friendDoneToday", "id", "meDoneToday", "since" ]
+      },
+      "FriendStreakInviteDto" : {
+        "type" : "object",
+        "properties" : {
+          "at" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "friend" : {
+            "$ref" : "#/components/schemas/FriendSummaryDto"
+          },
+          "id" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "at", "friend", "id" ]
+      },
+      "FriendStreaksResponse" : {
+        "type" : "object",
+        "properties" : {
+          "incoming" : {
+            "type" : "array",
+            "description" : "Invitations I received",
+            "items" : {
+              "$ref" : "#/components/schemas/FriendStreakInviteDto"
+            }
+          },
+          "maxFriendStreaks" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "outgoing" : {
+            "type" : "array",
+            "description" : "Invitations I sent",
+            "items" : {
+              "$ref" : "#/components/schemas/FriendStreakInviteDto"
+            }
+          },
+          "streaks" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/FriendStreakDto"
+            }
+          }
+        },
+        "required" : [ "incoming", "maxFriendStreaks", "outgoing", "streaks" ]
+      },
+      "FriendSummaryDto" : {
         "type" : "object",
         "properties" : {
           "avatarId" : {
@@ -2022,13 +2442,9 @@
           },
           "nickname" : {
             "type" : "string"
-          },
-          "since" : {
-            "type" : "string",
-            "format" : "date-time"
           }
         },
-        "required" : [ "avatarId", "friendCode", "nickname", "since" ]
+        "required" : [ "avatarId", "friendCode", "nickname" ]
       },
       "FriendsResponse" : {
         "type" : "object",
@@ -2059,6 +2475,17 @@
           }
         },
         "required" : [ "friends", "incoming", "maxFriends", "outgoing" ]
+      },
+      "InviteFriendStreakRequest" : {
+        "type" : "object",
+        "properties" : {
+          "friendCode" : {
+            "type" : "string",
+            "maxLength" : 16,
+            "minLength" : 0
+          }
+        },
+        "required" : [ "friendCode" ]
       },
       "LocalizedText" : {
         "type" : "object",
@@ -2143,6 +2570,28 @@
           }
         },
         "required" : [ "apiVersion", "appName", "serverTime" ]
+      },
+      "MilestoneDto" : {
+        "type" : "object",
+        "properties" : {
+          "days" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "freezes" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Streak freezes added to the inventory"
+          },
+          "reached" : {
+            "type" : "boolean",
+            "description" : "Already reached (rewards are granted once per lifetime)"
+          },
+          "reward" : {
+            "$ref" : "#/components/schemas/RewardDto"
+          }
+        },
+        "required" : [ "days", "freezes", "reached", "reward" ]
       },
       "MissionDto" : {
         "type" : "object",
@@ -2269,6 +2718,39 @@
           }
         },
         "required" : [ "firstPackBestFinishAtLeast", "firstPackDistinctContinents", "firstPackExcludesSensitive", "firstPackMinDistinctEras", "firstPackSlots", "legendaryWithinFirstPacks" ]
+      },
+      "NextMilestoneDto" : {
+        "type" : "object",
+        "properties" : {
+          "days" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "freezes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "remaining" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Days left to reach it"
+          },
+          "reward" : {
+            "$ref" : "#/components/schemas/RewardDto"
+          }
+        },
+        "required" : [ "days", "freezes", "remaining", "reward" ]
+      },
+      "NudgeResponse" : {
+        "type" : "object",
+        "properties" : {
+          "remainingToday" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Nudges I can still send today"
+          }
+        },
+        "required" : [ "remainingToday" ]
       },
       "OddsResponse" : {
         "type" : "object",
@@ -2544,7 +3026,12 @@
           },
           "freezeAvailable" : {
             "type" : "boolean",
-            "description" : "This week's free streak freeze is unused"
+            "description" : "At least one streak freeze is in stock"
+          },
+          "freezes" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Streak freezes in stock (max 2), this week's free one included"
           },
           "influence" : {
             "type" : "integer",
@@ -2590,7 +3077,7 @@
             "description" : "XP earned since the current level was reached"
           }
         },
-        "required" : [ "bestStreak", "bonusPacks", "currentStreak", "dailyResetAt", "freezeAvailable", "influence", "level", "seasonXp", "streakActiveToday", "timezone", "totalXp", "unlocks", "weeklyResetAt", "xpIntoLevel" ]
+        "required" : [ "bestStreak", "bonusPacks", "currentStreak", "dailyResetAt", "freezeAvailable", "freezes", "influence", "level", "seasonXp", "streakActiveToday", "timezone", "totalXp", "unlocks", "weeklyResetAt", "xpIntoLevel" ]
       },
       "PublicProfile" : {
         "type" : "object",
@@ -2632,6 +3119,42 @@
         },
         "required" : [ "achievements", "avatarId", "bannerId", "friend", "friendCode", "nickname", "showcase", "stats" ]
       },
+      "PurchaseFreezeRequest" : {
+        "type" : "object",
+        "properties" : {
+          "currency" : {
+            "type" : "string",
+            "enum" : [ "influence", "sceaux" ]
+          }
+        },
+        "required" : [ "currency" ]
+      },
+      "PurchaseFreezeResponse" : {
+        "type" : "object",
+        "properties" : {
+          "currency" : {
+            "type" : "string",
+            "enum" : [ "influence", "sceaux" ]
+          },
+          "freezes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "influence" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "maxFreezes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "price" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "currency", "freezes", "influence", "maxFreezes", "price" ]
+      },
       "PushPreferencesDto" : {
         "type" : "object",
         "properties" : {
@@ -2647,11 +3170,15 @@
           "marketing" : {
             "type" : "boolean"
           },
+          "nudges" : {
+            "type" : "boolean",
+            "description" : "Nudges from friends (\"X te relance !\")"
+          },
           "streak" : {
             "type" : "boolean"
           }
         },
-        "required" : [ "boosterReady", "events", "friends", "marketing", "streak" ]
+        "required" : [ "boosterReady", "events", "friends", "marketing", "nudges", "streak" ]
       },
       "PushPreferencesPatch" : {
         "type" : "object",
@@ -2666,6 +3193,9 @@
             "type" : [ "boolean", "null" ]
           },
           "marketing" : {
+            "type" : [ "boolean", "null" ]
+          },
+          "nudges" : {
             "type" : [ "boolean", "null" ]
           },
           "streak" : {
@@ -2897,6 +3427,29 @@
         },
         "required" : [ "email", "nickname", "password" ]
       },
+      "RepairDto" : {
+        "type" : "object",
+        "properties" : {
+          "available" : {
+            "type" : "boolean"
+          },
+          "expiresAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "description" : "End of the repair window (player's midnight)"
+          },
+          "restoresTo" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "description" : "Streak after the repair"
+          },
+          "usedThisMonth" : {
+            "type" : "boolean",
+            "description" : "This month's repair is already used"
+          }
+        },
+        "required" : [ "available", "usedThisMonth" ]
+      },
       "ReportRequest" : {
         "type" : "object",
         "properties" : {
@@ -3102,6 +3655,101 @@
           }
         },
         "required" : [ "idToken" ]
+      },
+      "StreakDayDto" : {
+        "type" : "object",
+        "properties" : {
+          "date" : {
+            "type" : "string",
+            "format" : "date"
+          },
+          "status" : {
+            "type" : "string",
+            "enum" : [ "active", "frozen", "missed", "today", "none" ]
+          }
+        },
+        "required" : [ "date", "status" ]
+      },
+      "StreakHistoryResponse" : {
+        "type" : "object",
+        "properties" : {
+          "days" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/StreakDayDto"
+            }
+          },
+          "from" : {
+            "type" : "string",
+            "format" : "date"
+          },
+          "to" : {
+            "type" : "string",
+            "format" : "date"
+          }
+        },
+        "required" : [ "days", "from", "to" ]
+      },
+      "StreakResponse" : {
+        "type" : "object",
+        "properties" : {
+          "activeToday" : {
+            "type" : "boolean",
+            "description" : "A streak activity was already done today"
+          },
+          "best" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "current" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Streak as of today (0 when broken)"
+          },
+          "dayEndsAt" : {
+            "type" : "string",
+            "format" : "date-time",
+            "description" : "Next local midnight: today's activity must happen before it"
+          },
+          "freezePrices" : {
+            "$ref" : "#/components/schemas/FreezePricesDto"
+          },
+          "freezes" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Streak freezes in stock (this week's free one included)"
+          },
+          "influence" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "maxFreezes" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "milestones" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/MilestoneDto"
+            }
+          },
+          "nextMilestone" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/NextMilestoneDto"
+          },
+          "repair" : {
+            "$ref" : "#/components/schemas/RepairDto"
+          },
+          "timezone" : {
+            "type" : "string"
+          },
+          "today" : {
+            "type" : "string",
+            "format" : "date",
+            "description" : "Player's local date"
+          }
+        },
+        "required" : [ "activeToday", "best", "current", "dayEndsAt", "freezePrices", "freezes", "influence", "maxFreezes", "milestones", "repair", "timezone", "today" ]
       },
       "TierDto" : {
         "type" : "object",

@@ -34,6 +34,11 @@ public class PlayerCalendar {
         return parseZone(timezone);
     }
 
+    /** The zone of a stored timezone id, UTC when unknown. */
+    public static ZoneId zone(String timezone) {
+        return parseZone(timezone == null ? "UTC" : timezone);
+    }
+
     static ZoneId parseZone(String timezone) {
         try {
             return ZoneId.of(timezone);

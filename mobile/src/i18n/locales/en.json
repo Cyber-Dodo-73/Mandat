@@ -374,6 +374,7 @@
       "categories": {
         "boosterReady": "Free booster ready",
         "streak": "Streak at risk",
+        "nudges": "Friend nudges",
         "friends": "Friend requests",
         "events": "Rewards to claim",
         "marketing": "News and offers"
@@ -439,7 +440,16 @@
     "quiz_session_expired": "This quiz has expired. Start a new one.",
     "quiz_answer_out_of_order": "This question has already been answered.",
     "duel_finished": "This duel is over.",
-    "duel_card_unavailable": "This card is no longer in your hand."
+    "duel_card_unavailable": "This card is no longer in your hand.",
+    "freeze_stock_full": "Your freeze stock is full.",
+    "currency_unavailable": "This currency isn't available yet.",
+    "streak_repair_unavailable": "Your streak can no longer be repaired.",
+    "not_friends": "You need to be friends to do that.",
+    "friend_streak_limit_reached": "Friend streak limit reached.",
+    "friend_streak_exists": "You already have a friend streak with this friend.",
+    "nudge_already_sent": "You already nudged this friend today.",
+    "nudge_limit_reached": "You've reached today's nudge limit.",
+    "friend_already_active": "Your friend already played today."
   },
   "notFound": {
     "title": "Page not found",
@@ -695,7 +705,77 @@
   "streak": {
     "doneToday": "Streak kept today",
     "pendingToday": "Open a booster or play a quiz to keep your streak",
-    "freezeAvailable": "Streak freeze available this week"
+    "title": "Streak",
+    "openHint": "Opens your streak",
+    "freezesInStock_one": "{{count}} streak freeze in stock",
+    "freezesInStock_other": "{{count}} streak freezes in stock",
+    "days_one": "day",
+    "days_other": "days",
+    "hero": {
+      "done": "Streak kept today!",
+      "atRisk": "At risk: {{time}} left",
+      "start": "Open a booster or play a quiz to light it",
+      "best_one": "Best: {{count}} day",
+      "best_other": "Best: {{count}} days"
+    },
+    "status": {
+      "active": "flame",
+      "frozen": "frozen",
+      "missed": "missed",
+      "today": "today, to do",
+      "none": "no activity",
+      "future": "upcoming"
+    },
+    "calendar": {
+      "previous": "Previous month",
+      "next": "Next month",
+      "kept_one": "{{count}} day kept",
+      "kept_other": "{{count}} days kept"
+    },
+    "freezes": {
+      "title": "Streak freezes",
+      "count": "{{count}}/{{max}}",
+      "explain": "A freeze covers a missed day on its own. One free every week, more from milestones. Max stock: 2.",
+      "buy": "Buy · {{price}} Influence",
+      "full": "Stock full",
+      "sceauxSoon": "Soon in Seals too",
+      "confirmTitle": "Buy a freeze?",
+      "confirmBody": "One streak freeze for {{price}} Influence. It's used automatically if you miss a day.",
+      "balance": "Influence: {{now}} → {{after}}",
+      "confirm": "Buy for {{price}}",
+      "cancel": "Cancel",
+      "boughtTitle": "Freeze added!",
+      "boughtBody": "Your streak is protected. Stock: {{count}}/{{max}}.",
+      "great": "Great!"
+    },
+    "milestones": {
+      "title": "Milestones",
+      "next": "{{count}}-day milestone",
+      "remaining_one": "{{count}} day to go",
+      "remaining_other": "{{count}} days to go",
+      "progressA11y": "{{current}} of {{total}} days",
+      "freezes_one": "+{{count}} freeze",
+      "freezes_other": "+{{count}} freezes",
+      "allDone": "Every milestone reached. Legend!",
+      "reachedA11y": "{{count}}-day milestone reached",
+      "lockedA11y": "{{count}}-day milestone ahead"
+    },
+    "repair": {
+      "title_one": "Your {{count}}-day streak went out",
+      "title_other": "Your {{count}}-day streak went out",
+      "expires": "Repair still possible for {{time}}",
+      "body": "Relight it for free. One repair per month.",
+      "button_one": "Repair ({{count}} day)",
+      "button_other": "Repair ({{count}} days)"
+    },
+    "share": {
+      "button": "Share my streak",
+      "dialog": "Share my streak",
+      "caption_one": "day streak on MANDAT",
+      "caption_other": "day streak on MANDAT",
+      "message_one": "{{count}}-day streak on MANDAT!",
+      "message_other": "{{count}}-day streak on MANDAT!"
+    }
   },
   "notifications": {
     "channel": "Reminders",
@@ -993,6 +1073,53 @@
     "a11y": {
       "tourStep": "Tutorial, step {{current}} of {{total}}: {{title}}",
       "blade": "Hint: swipe across the top of the pack to tear it open"
+    }
+  },
+  "friendStreak": {
+    "title": "Friend streaks",
+    "count": "{{count}}/{{max}}",
+    "empty": "Play on the same day, each on your own, to grow a shared flame.",
+    "invite": "Invite a friend",
+    "invited": "Invitation sent to {{nickname}}",
+    "incoming": "{{nickname}} wants a friend streak with you",
+    "outgoing": "Invitation sent to {{nickname}}",
+    "accept": "Accept",
+    "decline": "Decline",
+    "cancel": "Cancel",
+    "inactiveToday": "Inactive today",
+    "nextMilestone": "Next milestone: {{count}} days",
+    "today": {
+      "bothDone": "You both played today",
+      "waitingFriend": "{{nickname}}'s turn to play today",
+      "waitingMe": "{{nickname}} played: your turn!",
+      "neither": "Nobody has played yet today",
+      "broken": "Streak out: both play to relight it"
+    },
+    "link": {
+      "available": "Start a friend streak with {{nickname}}",
+      "active": "Friend streak running with {{nickname}}",
+      "invited": "Friend streak invitation sent to {{nickname}}",
+      "incoming": "{{nickname}} invited you to a friend streak"
+    },
+    "nudge": {
+      "button": "Nudge",
+      "sent": "Nudged",
+      "done": "{{nickname}} was nudged",
+      "hint": "Sends {{nickname}} a notification"
+    },
+    "end": {
+      "button": "Friend streak options with {{nickname}}",
+      "title": "End the streak with {{nickname}}?",
+      "body": "The shared counter will be lost. Your own streaks don't change.",
+      "confirm": "End the streak",
+      "cancel": "Keep it"
+    },
+    "celebration": {
+      "title": "Shared milestone!",
+      "days_one": "{{value}} day together",
+      "days_other": "{{value}} days together",
+      "body": "You and {{nickname}} are holding strong. Reward sent to both of you!",
+      "cta": "Awesome!"
     }
   }
 }

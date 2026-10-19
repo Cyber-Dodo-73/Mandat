@@ -15,7 +15,7 @@ jest.mock('@/lib/api', () => ({
   },
 }));
 
-const DEFAULTS: PushPreferences = { boosterReady: true, streak: true, friends: true, events: true, marketing: false };
+const DEFAULTS: PushPreferences = { boosterReady: true, streak: true, nudges: true, friends: true, events: true, marketing: false };
 
 async function setup() {
   const client = new QueryClient({ defaultOptions: { mutations: { retry: false } } });

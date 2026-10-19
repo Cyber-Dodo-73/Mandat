@@ -11,6 +11,8 @@ public enum PushCategory {
     BOOSTER_READY("booster_ready", true),
     STREAK("streak", true),
     FRIENDS("friends", true),
+    /** "X te relance !" from a friend; can be muted on its own. */
+    NUDGES("nudges", true),
     EVENTS("events", false),
     MARKETING("marketing", false);
 

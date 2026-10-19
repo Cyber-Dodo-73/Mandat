@@ -5,6 +5,7 @@ import { PUSH_CATEGORIES, usePushPreferencesQuery, useUpdatePushPreference, type
 
 const ICONS: Record<PushCategory, IconName> = {
   boosterReady: 'gift-outline',
+  nudges: 'hand-left-outline',
   streak: 'flame-outline',
   friends: 'people-outline',
   events: 'ribbon-outline',

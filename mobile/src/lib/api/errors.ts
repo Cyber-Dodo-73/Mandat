@@ -31,6 +31,15 @@ export const API_ERROR_CODES = [
   'nickname_change_too_soon',
   'friend_limit_reached',
   'cannot_target_self',
+  'freeze_stock_full',
+  'currency_unavailable',
+  'streak_repair_unavailable',
+  'not_friends',
+  'friend_streak_limit_reached',
+  'friend_streak_exists',
+  'nudge_already_sent',
+  'nudge_limit_reached',
+  'friend_already_active',
   'internal_error',
 ] as const;
 

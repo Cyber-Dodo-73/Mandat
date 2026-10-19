@@ -374,6 +374,7 @@
       "categories": {
         "boosterReady": "Booster gratuit prêt",
         "streak": "Série en danger",
+        "nudges": "Relances d’amis",
         "friends": "Demandes d'amis",
         "events": "Récompenses à récupérer",
         "marketing": "Nouveautés et offres"
@@ -439,7 +440,16 @@
     "quiz_session_expired": "Ce quiz a expiré. Lance-en un nouveau.",
     "quiz_answer_out_of_order": "Cette question a déjà reçu une réponse.",
     "duel_finished": "Ce duel est terminé.",
-    "duel_card_unavailable": "Cette carte n'est plus dans ta main."
+    "duel_card_unavailable": "Cette carte n'est plus dans ta main.",
+    "freeze_stock_full": "Ton stock de gels est plein.",
+    "currency_unavailable": "Cette monnaie n’est pas encore disponible.",
+    "streak_repair_unavailable": "Ta série ne peut plus être réparée.",
+    "not_friends": "Vous devez être amis pour faire ça.",
+    "friend_streak_limit_reached": "Limite de séries à deux atteinte.",
+    "friend_streak_exists": "Une série à deux existe déjà avec cet ami.",
+    "nudge_already_sent": "Tu as déjà relancé cet ami aujourd’hui.",
+    "nudge_limit_reached": "Tu as atteint la limite de relances pour aujourd’hui.",
+    "friend_already_active": "Ton ami a déjà joué aujourd’hui."
   },
   "notFound": {
     "title": "Page introuvable",
@@ -695,7 +705,77 @@
   "streak": {
     "doneToday": "Série validée aujourd’hui",
     "pendingToday": "Ouvre un booster ou fais un quiz pour garder ta série",
-    "freezeAvailable": "Gel de série disponible cette semaine"
+    "title": "Série",
+    "openHint": "Ouvre ta série",
+    "freezesInStock_one": "{{count}} gel de série en stock",
+    "freezesInStock_other": "{{count}} gels de série en stock",
+    "days_one": "jour",
+    "days_other": "jours",
+    "hero": {
+      "done": "Série validée aujourd’hui !",
+      "atRisk": "En danger : il reste {{time}}",
+      "start": "Ouvre un booster ou fais un quiz pour l’allumer",
+      "best_one": "Record : {{count}} jour",
+      "best_other": "Record : {{count}} jours"
+    },
+    "status": {
+      "active": "flamme",
+      "frozen": "gelé",
+      "missed": "manqué",
+      "today": "aujourd’hui, à faire",
+      "none": "aucune activité",
+      "future": "à venir"
+    },
+    "calendar": {
+      "previous": "Mois précédent",
+      "next": "Mois suivant",
+      "kept_one": "{{count}} jour tenu",
+      "kept_other": "{{count}} jours tenus"
+    },
+    "freezes": {
+      "title": "Gels de série",
+      "count": "{{count}}/{{max}}",
+      "explain": "Un gel protège un jour manqué tout seul. Un gel offert chaque semaine, d’autres en paliers. Stock max : 2.",
+      "buy": "Acheter · {{price}} Influence",
+      "full": "Stock plein",
+      "sceauxSoon": "Bientôt aussi en Sceaux",
+      "confirmTitle": "Acheter un gel ?",
+      "confirmBody": "Un gel de série pour {{price}} Influence. Il sera utilisé automatiquement si tu rates un jour.",
+      "balance": "Influence : {{now}} → {{after}}",
+      "confirm": "Acheter pour {{price}}",
+      "cancel": "Annuler",
+      "boughtTitle": "Gel ajouté !",
+      "boughtBody": "Ta série est protégée. Stock : {{count}}/{{max}}.",
+      "great": "Super !"
+    },
+    "milestones": {
+      "title": "Paliers",
+      "next": "Palier des {{count}} jours",
+      "remaining_one": "Encore {{count}} jour",
+      "remaining_other": "Encore {{count}} jours",
+      "progressA11y": "{{current}} jours sur {{total}}",
+      "freezes_one": "+{{count}} gel",
+      "freezes_other": "+{{count}} gels",
+      "allDone": "Tous les paliers sont atteints. Légende !",
+      "reachedA11y": "Palier des {{count}} jours atteint",
+      "lockedA11y": "Palier des {{count}} jours à atteindre"
+    },
+    "repair": {
+      "title_one": "Ta série de {{count}} jour s’est éteinte",
+      "title_other": "Ta série de {{count}} jours s’est éteinte",
+      "expires": "Réparation possible encore {{time}}",
+      "body": "Rallume-la gratuitement. Une réparation par mois.",
+      "button_one": "Réparer ({{count}} jour)",
+      "button_other": "Réparer ({{count}} jours)"
+    },
+    "share": {
+      "button": "Partager ma série",
+      "dialog": "Partager ma série",
+      "caption_one": "jour de série sur MANDAT",
+      "caption_other": "jours de série sur MANDAT",
+      "message_one": "{{count}} jour de série sur MANDAT !",
+      "message_other": "{{count}} jours de série sur MANDAT !"
+    }
   },
   "notifications": {
     "channel": "Rappels",
@@ -993,6 +1073,53 @@
     "a11y": {
       "tourStep": "Tutoriel, étape {{current}} sur {{total}} : {{title}}",
       "blade": "Indication : glisse le doigt sur le haut du booster pour le déchirer"
+    }
+  },
+  "friendStreak": {
+    "title": "Séries à deux",
+    "count": "{{count}}/{{max}}",
+    "empty": "Jouez le même jour, chacun chez soi, pour faire grandir une flamme commune.",
+    "invite": "Inviter un ami",
+    "invited": "Invitation envoyée à {{nickname}}",
+    "incoming": "{{nickname}} te propose une série à deux",
+    "outgoing": "Invitation envoyée à {{nickname}}",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "cancel": "Annuler",
+    "inactiveToday": "Inactif aujourd’hui",
+    "nextMilestone": "Prochain palier : {{count}} jours",
+    "today": {
+      "bothDone": "Vous avez tous les deux joué aujourd’hui",
+      "waitingFriend": "À {{nickname}} de jouer aujourd’hui",
+      "waitingMe": "{{nickname}} a joué : à toi !",
+      "neither": "Personne n’a encore joué aujourd’hui",
+      "broken": "Série éteinte : jouez tous les deux pour la rallumer"
+    },
+    "link": {
+      "available": "Proposer une série à deux à {{nickname}}",
+      "active": "Série à deux en cours avec {{nickname}}",
+      "invited": "Invitation de série envoyée à {{nickname}}",
+      "incoming": "{{nickname}} t’a proposé une série à deux"
+    },
+    "nudge": {
+      "button": "Relancer",
+      "sent": "Relancé",
+      "done": "{{nickname}} a été relancé",
+      "hint": "Envoie une notification à {{nickname}}"
+    },
+    "end": {
+      "button": "Options de la série avec {{nickname}}",
+      "title": "Arrêter la série avec {{nickname}} ?",
+      "body": "Le compteur partagé sera perdu. Vos séries personnelles ne changent pas.",
+      "confirm": "Arrêter la série",
+      "cancel": "Garder"
+    },
+    "celebration": {
+      "title": "Palier à deux !",
+      "days_one": "{{value}} jour ensemble",
+      "days_other": "{{value}} jours ensemble",
+      "body": "Toi et {{nickname}} tenez bon. Récompense envoyée à tous les deux !",
+      "cta": "Trop fort !"
     }
   }
 }

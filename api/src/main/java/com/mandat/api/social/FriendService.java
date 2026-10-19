@@ -4,6 +4,8 @@ import com.mandat.api.common.error.ApiException;
 import com.mandat.api.common.events.FriendAcceptedEvent;
 import com.mandat.api.common.events.FriendRequestedEvent;
 import com.mandat.api.common.error.ErrorCode;
+import com.mandat.api.common.social.FriendActivityProvider;
+import com.mandat.api.common.social.FriendActivityProvider.FriendActivity;
 import com.mandat.api.social.FriendshipRepository.FriendRow;
 import com.mandat.api.social.FriendshipRepository.Link;
 import com.mandat.api.social.FriendshipRepository.Status;
@@ -16,8 +18,10 @@ import java.time.Clock;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
+import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -37,20 +41,26 @@ public class FriendService {
     private final PlayerLookup players;
     private final Clock clock;
     private final ApplicationEventPublisher events;
+    private final ObjectProvider<FriendActivityProvider> activityProvider;
 
-    FriendService(FriendshipRepository friendships, PlayerLookup players, Clock clock, ApplicationEventPublisher events) {
+    FriendService(FriendshipRepository friendships, PlayerLookup players, Clock clock, ApplicationEventPublisher events,
+            ObjectProvider<FriendActivityProvider> activityProvider) {
         this.friendships = friendships;
         this.players = players;
         this.clock = clock;
         this.events = events;
+        this.activityProvider = activityProvider;
     }
 
     @Transactional(readOnly = true)
     public FriendsResponse list(UUID userId) {
+        List<FriendRow> friendRows = friendships.friends(userId);
+        Map<UUID, FriendActivity> activity = activityProvider.getIfAvailable(() -> FriendActivityProvider.NONE)
+                .activity(userId, friendRows.stream().map(FriendRow::userId).toList());
         return new FriendsResponse(
-                dtos(friendships.friends(userId)),
-                dtos(friendships.incoming(userId)),
-                dtos(friendships.outgoing(userId)),
+                dtos(friendRows, activity),
+                dtos(friendships.incoming(userId), Map.of()),
+                dtos(friendships.outgoing(userId), Map.of()),
                 MAX_FRIENDS);
     }
 
@@ -117,7 +127,10 @@ public class FriendService {
         }
     }
 
-    private static List<FriendDto> dtos(List<FriendRow> rows) {
-        return rows.stream().map(r -> new FriendDto(r.nickname(), r.friendCode(), r.avatarId(), r.since())).toList();
+    private static List<FriendDto> dtos(List<FriendRow> rows, Map<UUID, FriendActivity> activity) {
+        return rows.stream().map(r -> {
+            FriendActivity a = activity.getOrDefault(r.userId(), new FriendActivity(false, false));
+            return new FriendDto(r.nickname(), r.friendCode(), r.avatarId(), r.since(), a.activeToday(), a.nudgedToday());
+        }).toList();
     }
 }

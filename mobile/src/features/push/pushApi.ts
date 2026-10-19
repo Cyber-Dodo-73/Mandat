@@ -9,7 +9,7 @@ import { needsRegistration, usePushStore } from './pushStore';
 
 export type PushPreferences = components['schemas']['PushPreferencesDto'];
 export type PushCategory = keyof PushPreferences;
-export const PUSH_CATEGORIES: readonly PushCategory[] = ['boosterReady', 'streak', 'friends', 'events', 'marketing'];
+export const PUSH_CATEGORIES: readonly PushCategory[] = ['boosterReady', 'streak', 'nudges', 'friends', 'events', 'marketing'];
 
 export const pushPreferencesQueryKey = ['push', 'preferences'] as const;
 

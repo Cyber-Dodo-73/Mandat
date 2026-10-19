@@ -62,19 +62,6 @@ public class ProgressRepository {
                 .update();
     }
 
-    public void updateStreak(UUID userId, int current, int best, LocalDate lastActiveDay, String lastFreezeWeek, Instant now) {
-        jdbc.sql("""
-                        update player_progress
-                        set current_streak = :current, best_streak = :best, last_active_day = :day,
-                            last_freeze_week = :freezeWeek, updated_at = :now
-                        where user_id = :id""")
-                .param("current", current).param("best", best)
-                .param("day", lastActiveDay == null ? null : Date.valueOf(lastActiveDay))
-                .param("freezeWeek", lastFreezeWeek)
-                .param("now", Timestamp.from(now)).param("id", userId)
-                .update();
-    }
-
     public PlayerStats stats(UUID userId) {
         return jdbc.sql("""
                         select packs_opened, new_cards, rare_plus_pulled, quizzes_completed, perfect_quizzes,

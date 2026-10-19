@@ -18,14 +18,14 @@ export type HubProgress = {
   streakDays: number;
   /** Today's streak activity (booster or quiz) is done. */
   streakActiveToday: boolean;
-  /** This week's free streak freeze is still available. */
-  freezeAvailable: boolean;
+  /** Streak freezes in stock. */
+  freezes: number;
   influence: number;
 };
 
 export function toHubProgress(progression: Progression | undefined): HubProgress {
   if (!progression) {
-    return { level: 1, xp: 0, xpForNextLevel: 1, streakDays: 0, streakActiveToday: false, freezeAvailable: false, influence: 0 };
+    return { level: 1, xp: 0, xpForNextLevel: 1, streakDays: 0, streakActiveToday: false, freezes: 0, influence: 0 };
   }
   return {
     level: progression.level,
@@ -34,7 +34,7 @@ export function toHubProgress(progression: Progression | undefined): HubProgress
     xpForNextLevel: progression.xpForNextLevel ?? Math.max(1, progression.xpIntoLevel),
     streakDays: progression.currentStreak,
     streakActiveToday: progression.streakActiveToday,
-    freezeAvailable: progression.freezeAvailable,
+    freezes: progression.freezes,
     influence: progression.influence,
   };
 }
@@ -111,7 +111,7 @@ function LevelRing({ ratio, track, fill }: { ratio: number; track: string; fill:
   );
 }
 
-/** Flame growing with the streak; a check once today's activity is done, a snowflake for the freeze. */
+/** Flame growing with the streak; a check once today's activity is done, the freezes in stock. Opens the streak screen. */
 function StreakStat({ progress }: { progress: HubProgress }) {
   const { t } = useTranslation();
   const language = useLanguage();
@@ -119,19 +119,30 @@ function StreakStat({ progress }: { progress: HubProgress }) {
   const label = [
     t('home.topBar.streakA11y', { count: progress.streakDays }),
     progress.streakActiveToday ? t('streak.doneToday') : t('streak.pendingToday'),
-    progress.freezeAvailable ? t('streak.freezeAvailable') : null,
+    progress.freezes > 0 ? t('streak.freezesInStock', { count: progress.freezes }) : null,
   ]
     .filter(Boolean)
     .join('. ');
   return (
-    <View accessible accessibilityLabel={label} style={[styles.stat, { backgroundColor: colors.surface }]}>
+    <PressableScale
+      accessibilityRole="button"
+      accessibilityLabel={label}
+      accessibilityHint={t('streak.openHint')}
+      onPress={() => router.push('/streak')}
+      style={[styles.stat, { backgroundColor: colors.surface }]}
+    >
       <StreakFlame streak={progress.streakDays} activeToday={progress.streakActiveToday} />
       <Text variant="label" allowFontScaling={false}>
         {formatNumber(progress.streakDays, language)}
       </Text>
       {progress.streakActiveToday ? <Icon name="checkmark-circle" size={14} tone="success" /> : null}
-      {progress.freezeAvailable ? <Icon name="snow" size={14} tone="textMuted" /> : null}
-    </View>
+      {progress.freezes > 0 ? <Icon name="snow" size={14} tone="textMuted" /> : null}
+      {progress.freezes > 1 ? (
+        <Text variant="caption" allowFontScaling={false} tone="muted">
+          {formatNumber(progress.freezes, language)}
+        </Text>
+      ) : null}
+    </PressableScale>
   );
 }
 

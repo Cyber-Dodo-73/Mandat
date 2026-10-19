@@ -30,7 +30,7 @@ describe('pathFromNotificationData', () => {
 
   it('maps local reminders to their screen', () => {
     expect(pathFromNotificationData({ kind: 'packReady' })).toBe('/');
-    expect(pathFromNotificationData({ kind: 'streakAtRisk' })).toBe('/');
+    expect(pathFromNotificationData({ kind: 'streakAtRisk' })).toBe('/streak');
   });
 
   it('ignores external links and unknown payloads', () => {
