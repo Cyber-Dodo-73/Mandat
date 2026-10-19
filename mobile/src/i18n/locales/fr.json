@@ -21,6 +21,10 @@
       "streakA11y_other": "Série de {{count}} jours",
       "influenceA11y": "{{amount}} points d'Influence",
       "settings": "Réglages"
+    },
+    "figureOfTheDay": {
+      "title": "Figure du jour",
+      "a11y": "Figure du jour : {{name}}. {{anecdote}}"
     }
   },
   "collection": {
@@ -290,7 +294,37 @@
     "title": "Missions",
     "daily": "Missions du jour",
     "weekly": "Missions de la semaine",
-    "empty": "Tes missions arrivent bientôt. Ouvre un booster ou fais un quiz chaque jour pour garder ta série."
+    "empty": "Tes missions arrivent bientôt. Ouvre un booster ou fais un quiz chaque jour pour garder ta série.",
+    "tab": "Missions",
+    "sectionsA11y": "Sections des missions",
+    "resetIn": "Nouvelles dans {{time}}",
+    "resetInDays_one": "Nouvelles dans {{count}} j {{time}}",
+    "resetInDays_other": "Nouvelles dans {{count}} j {{time}}",
+    "progress": "{{current}} / {{total}}",
+    "progressA11y": "{{label}} : {{current}} sur {{total}}",
+    "claim": "Récupérer",
+    "types": {
+      "OPEN_PACKS_one": "Ouvre {{count}} booster",
+      "OPEN_PACKS_other": "Ouvre {{count}} boosters",
+      "PULL_RARE_OR_BETTER_one": "Obtiens {{count}} carte Rare ou mieux",
+      "PULL_RARE_OR_BETTER_other": "Obtiens {{count}} cartes Rares ou mieux",
+      "NEW_CARDS_one": "Obtiens {{count}} nouvelle carte",
+      "NEW_CARDS_other": "Obtiens {{count}} nouvelles cartes",
+      "NEW_CARDS_FROM_CONTINENT_one": "Obtiens {{count}} nouvelle carte · {{param}}",
+      "NEW_CARDS_FROM_CONTINENT_other": "Obtiens {{count}} nouvelles cartes · {{param}}",
+      "COMPLETE_QUIZ_one": "Termine {{count}} quiz",
+      "COMPLETE_QUIZ_other": "Termine {{count}} quiz",
+      "PERFECT_QUIZ_one": "Réussis {{count}} quiz sans faute",
+      "PERFECT_QUIZ_other": "Réussis {{count}} quiz sans faute",
+      "PLAY_DUEL_one": "Joue {{count}} duel",
+      "PLAY_DUEL_other": "Joue {{count}} duels",
+      "WIN_DUEL_one": "Gagne {{count}} duel",
+      "WIN_DUEL_other": "Gagne {{count}} duels",
+      "RECYCLE_CARDS_one": "Recycle {{count}} doublon",
+      "RECYCLE_CARDS_other": "Recycle {{count}} doublons",
+      "CRAFT_CARD_one": "Fabrique {{count}} carte",
+      "CRAFT_CARD_other": "Fabrique {{count}} cartes"
+    }
   },
   "cards": {
     "a11yLabel": "{{name}}, carte {{rarity}}. {{role}}",
@@ -392,5 +426,130 @@
     "unknownLicense": "licence inconnue",
     "line": "Photo : {{artist}}, {{license}}",
     "empty": "Aucun crédit ne correspond à cette recherche."
+  },
+  "achievements": {
+    "title": "Succès",
+    "count": "{{unlocked}} / {{total}}",
+    "unlockedA11y": "{{label}}, débloqué",
+    "lockedA11y": "{{label}}, verrouillé, {{current}} sur {{total}}",
+    "unlockedOn": "Débloqué le {{date}}",
+    "categories": {
+      "packs": "Boosters",
+      "collection": "Collection",
+      "continents": "Continents",
+      "eras": "Époques",
+      "rarities": "Raretés",
+      "finishes": "Finitions",
+      "streaks": "Séries",
+      "levels": "Niveaux",
+      "quiz": "Quiz",
+      "duels": "Duels",
+      "workshop": "Atelier"
+    },
+    "eras": {
+      "antiquity": "Antiquité",
+      "medieval": "Moyen Âge",
+      "modern": "Époque moderne",
+      "contemporary": "Époque contemporaine"
+    },
+    "metrics": {
+      "PACKS_OPENED_one": "Ouvrir {{count}} booster",
+      "PACKS_OPENED_other": "Ouvrir {{count}} boosters",
+      "DISTINCT_CARDS_one": "Posséder {{count}} carte différente",
+      "DISTINCT_CARDS_other": "Posséder {{count}} cartes différentes",
+      "CARDS_FROM_CONTINENT_one": "{{count}} carte · {{param}}",
+      "CARDS_FROM_CONTINENT_other": "{{count}} cartes · {{param}}",
+      "CARDS_FROM_ERA_one": "{{count}} carte · {{param}}",
+      "CARDS_FROM_ERA_other": "{{count}} cartes · {{param}}",
+      "CARDS_OF_RARITY_one": "{{count}} carte {{param}}",
+      "CARDS_OF_RARITY_other": "{{count}} cartes {{param}}",
+      "CARDS_WITH_FINISH_one": "{{count}} carte en finition {{param}}",
+      "CARDS_WITH_FINISH_other": "{{count}} cartes en finition {{param}}",
+      "BEST_STREAK_one": "Série de {{count}} jour",
+      "BEST_STREAK_other": "Série de {{count}} jours",
+      "LEVEL_one": "Atteindre le niveau {{count}}",
+      "LEVEL_other": "Atteindre le niveau {{count}}",
+      "QUIZZES_COMPLETED_one": "Terminer {{count}} quiz",
+      "QUIZZES_COMPLETED_other": "Terminer {{count}} quiz",
+      "PERFECT_QUIZZES_one": "{{count}} quiz sans faute",
+      "PERFECT_QUIZZES_other": "{{count}} quiz sans faute",
+      "DUELS_WON_one": "Gagner {{count}} duel",
+      "DUELS_WON_other": "Gagner {{count}} duels",
+      "CARDS_RECYCLED_one": "Recycler {{count}} doublon",
+      "CARDS_RECYCLED_other": "Recycler {{count}} doublons",
+      "CARDS_CRAFTED_one": "Fabriquer {{count}} carte",
+      "CARDS_CRAFTED_other": "Fabriquer {{count}} cartes"
+    }
+  },
+  "seasonPass": {
+    "title": "Pass de saison",
+    "tier": "Palier {{current}} / {{total}}",
+    "xpA11y": "{{current}} sur {{total}} XP de saison pour le prochain palier",
+    "nextTier": "Encore {{xp}} XP pour le prochain palier",
+    "complete": "Pass terminé, bravo !",
+    "tierTitle": "Palier {{tier}}",
+    "claim": "Récupérer",
+    "claimed": "Récupéré",
+    "locked": "Débloqué à {{xp}} XP de saison",
+    "nodeA11y": {
+      "claimed": "Palier {{tier}}, récupéré",
+      "claimable": "Palier {{tier}}, à récupérer",
+      "reached": "Palier {{tier}}, atteint",
+      "locked": "Palier {{tier}}, verrouillé"
+    }
+  },
+  "progression": {
+    "reward": {
+      "title": "Récompense",
+      "xp": "+{{count}} XP",
+      "influence": "+{{count}} Influence",
+      "packs_one": "+{{count}} booster",
+      "packs_other": "+{{count}} boosters",
+      "unlock": {
+        "avatar": "Nouvel avatar",
+        "banner": "Nouvelle bannière",
+        "title": "Nouveau titre"
+      }
+    },
+    "levelUp": {
+      "kicker": "Niveau supérieur",
+      "title": "Te voilà niveau {{level}} !",
+      "rewards": "Ce niveau te rapporte",
+      "continue": "Continuer"
+    },
+    "return": {
+      "title": "Bon retour !",
+      "subtitle": "Voici ce qui t’attend.",
+      "packs_one": "{{count}} booster prêt à ouvrir",
+      "packs_other": "{{count}} boosters prêts à ouvrir",
+      "streakKept_one": "Ta série tient bon : {{count}} jour",
+      "streakKept_other": "Ta série tient bon : {{count}} jours",
+      "streakLost": "Ta série repart de zéro. Record : {{best}} jours",
+      "missions_one": "{{count}} mission en cours",
+      "missions_other": "{{count}} missions en cours",
+      "cta": "C’est parti"
+    }
+  },
+  "streak": {
+    "doneToday": "Série validée aujourd’hui",
+    "pendingToday": "Ouvre un booster ou fais un quiz pour garder ta série",
+    "freezeAvailable": "Gel de série disponible cette semaine"
+  },
+  "notifications": {
+    "channel": "Rappels",
+    "packReady": {
+      "title": "Ton booster gratuit est prêt",
+      "body": "De nouvelles figures t’attendent dans MANDAT."
+    },
+    "streakAtRisk": {
+      "title": "Ta série est en danger",
+      "body_one": "Ouvre un booster ce soir pour garder ta série de {{count}} jour.",
+      "body_other": "Ouvre un booster ce soir pour garder ta série de {{count}} jours."
+    },
+    "optIn": {
+      "title": "Ne rate pas tes boosters",
+      "body": "Un rappel quand ton booster gratuit est prêt ou que ta série est en danger. Une notification par jour au maximum.",
+      "cta": "Activer les rappels"
+    }
   }
 }

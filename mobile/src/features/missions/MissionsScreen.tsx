@@ -1,20 +1,34 @@
-import { Card, EmptyState, Heading, ScreenContainer, Title } from '@/components/ui';
+import { useState } from 'react';
+
+import { ScreenContainer, SegmentedControl, Title } from '@/components/ui';
 import { useTranslation } from '@/i18n';
 
-/** Placeholder until missions come from the API (phase 7). */
+import { AchievementsPanel } from './AchievementsPanel';
+import { MissionsPanel } from './MissionsPanel';
+import { SeasonPassPanel } from './SeasonPassPanel';
+
+type Section = 'missions' | 'achievements' | 'pass';
+
+/** Missions tab: daily and weekly missions, achievements and the free season pass. */
 export function MissionsScreen() {
   const { t } = useTranslation();
+  const [section, setSection] = useState<Section>('missions');
   return (
     <ScreenContainer>
       <Title>{t('missions.title')}</Title>
-      <Card>
-        <Heading>{t('missions.daily')}</Heading>
-        <EmptyState icon="checkmark-done-outline" message={t('missions.empty')} />
-      </Card>
-      <Card>
-        <Heading>{t('missions.weekly')}</Heading>
-        <EmptyState icon="calendar-outline" message={t('missions.empty')} />
-      </Card>
+      <SegmentedControl<Section>
+        accessibilityLabel={t('missions.sectionsA11y')}
+        value={section}
+        onChange={setSection}
+        options={[
+          { value: 'missions', label: t('missions.tab') },
+          { value: 'achievements', label: t('achievements.title') },
+          { value: 'pass', label: t('seasonPass.title') },
+        ]}
+      />
+      {section === 'missions' ? <MissionsPanel /> : null}
+      {section === 'achievements' ? <AchievementsPanel /> : null}
+      {section === 'pass' ? <SeasonPassPanel /> : null}
     </ScreenContainer>
   );
 }

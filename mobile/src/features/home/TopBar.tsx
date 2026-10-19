@@ -8,6 +8,7 @@ import { formatNumber, useLanguage, useTranslation } from '@/i18n';
 import { fontFamilies, radius, spacing, useTheme } from '@/theme';
 
 import type { Progression } from '@/features/player/queries';
+import { StreakFlame } from '@/features/progression/StreakFlame';
 
 /** What the hub shows of the player's progress (from `GET /progression`). */
 export type HubProgress = {
@@ -15,17 +16,25 @@ export type HubProgress = {
   xp: number;
   xpForNextLevel: number;
   streakDays: number;
+  /** Today's streak activity (booster or quiz) is done. */
+  streakActiveToday: boolean;
+  /** This week's free streak freeze is still available. */
+  freezeAvailable: boolean;
   influence: number;
 };
 
 export function toHubProgress(progression: Progression | undefined): HubProgress {
-  if (!progression) return { level: 1, xp: 0, xpForNextLevel: 1, streakDays: 0, influence: 0 };
+  if (!progression) {
+    return { level: 1, xp: 0, xpForNextLevel: 1, streakDays: 0, streakActiveToday: false, freezeAvailable: false, influence: 0 };
+  }
   return {
     level: progression.level,
     xp: progression.xpIntoLevel,
     // Max level: the ring stays full.
     xpForNextLevel: progression.xpForNextLevel ?? Math.max(1, progression.xpIntoLevel),
     streakDays: progression.currentStreak,
+    streakActiveToday: progression.streakActiveToday,
+    freezeAvailable: progression.freezeAvailable,
     influence: progression.influence,
   };
 }
@@ -64,12 +73,7 @@ export function TopBar({ progress }: TopBarProps) {
         </View>
       </PressableScale>
 
-      <Stat
-        icon="flame"
-        iconColor={colors.accent}
-        value={formatNumber(progress.streakDays, language)}
-        label={t('home.topBar.streakA11y', { count: progress.streakDays })}
-      />
+      <StreakStat progress={progress} />
       <Stat
         icon="ribbon"
         iconColor={colors.text}
@@ -107,7 +111,31 @@ function LevelRing({ ratio, track, fill }: { ratio: number; track: string; fill:
   );
 }
 
-type StatProps = { icon: 'flame' | 'ribbon'; iconColor: string; value: string; label: string };
+/** Flame growing with the streak; a check once today's activity is done, a snowflake for the freeze. */
+function StreakStat({ progress }: { progress: HubProgress }) {
+  const { t } = useTranslation();
+  const language = useLanguage();
+  const { colors } = useTheme();
+  const label = [
+    t('home.topBar.streakA11y', { count: progress.streakDays }),
+    progress.streakActiveToday ? t('streak.doneToday') : t('streak.pendingToday'),
+    progress.freezeAvailable ? t('streak.freezeAvailable') : null,
+  ]
+    .filter(Boolean)
+    .join('. ');
+  return (
+    <View accessible accessibilityLabel={label} style={[styles.stat, { backgroundColor: colors.surface }]}>
+      <StreakFlame streak={progress.streakDays} activeToday={progress.streakActiveToday} />
+      <Text variant="label" allowFontScaling={false}>
+        {formatNumber(progress.streakDays, language)}
+      </Text>
+      {progress.streakActiveToday ? <Icon name="checkmark-circle" size={14} tone="success" /> : null}
+      {progress.freezeAvailable ? <Icon name="snow" size={14} tone="textMuted" /> : null}
+    </View>
+  );
+}
+
+type StatProps = { icon: 'ribbon'; iconColor: string; value: string; label: string };
 
 function Stat({ icon, iconColor, value, label }: StatProps) {
   const { colors } = useTheme();

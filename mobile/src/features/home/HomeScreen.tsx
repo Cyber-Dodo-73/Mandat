@@ -15,6 +15,7 @@ import { PackCarousel } from '@/features/packs/PackCarousel';
 import { usePacksQuery } from '@/features/packs/queries';
 import type { PackSummary } from '@/features/packs/types';
 import { useProgressionQuery } from '@/features/player/queries';
+import { FigureOfTheDay } from '@/features/progression/FigureOfTheDay';
 import { useIsOnline } from '@/hooks/useIsOnline';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
@@ -54,6 +55,7 @@ export function HomeScreen() {
   return (
     <View style={[styles.root, { backgroundColor: colors.background, paddingTop: insets.top + spacing.xs }]}>
       <TopBar progress={toHubProgress(progression.data)} />
+      <FigureOfTheDay timeZone={progression.data?.timezone} />
 
       <View
         style={styles.stage}
