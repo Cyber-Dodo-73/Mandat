@@ -103,14 +103,45 @@ class CollectionApiTest {
     }
 
     @Test
-    void craftingStaysExpensiveComparedToRecycling() {
-        // Pace target (docs/BUSINESS.md): about one craft every two days for an active free player.
+    void tenDuplicatesOfARarityCraftOneCardOfThatRarity() {
+        // docs/TCG_REVIEW.md §3.4: a flat, legible ratio, finish multipliers on recycling only.
         for (com.mandat.api.card.Rarity rarity : com.mandat.api.card.Rarity.values()) {
-            int craft = EconomyRules.CRAFT_COST.get(rarity);
             int recycle = EconomyRules.RECYCLE_VALUE.get(rarity);
-            assertThat(craft).as(rarity.key()).isGreaterThanOrEqualTo(30 * recycle);
+            assertThat(EconomyRules.CRAFT_COST.get(rarity)).as(rarity.key()).isEqualTo(10 * recycle);
             assertThat(EconomyRules.DUPLICATE_BONUS.get(rarity)).as(rarity.key()).isLessThan(recycle);
+            assertThat(EconomyRules.duplicateBonus(rarity, com.mandat.api.card.CardFinish.GOLD))
+                    .isEqualTo(EconomyRules.DUPLICATE_BONUS.get(rarity));
         }
+    }
+
+    @Test
+    void craftAllowanceIsOneCardEveryTwoDaysWithAStockOfThree() throws Exception {
+        setInfluence(jdbc, user, 100_000);
+        mockMvc.perform(get("/api/v1/limits").with(as(user)))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.crafts.available").value(1))
+                .andExpect(jsonPath("$.crafts.max").value(3))
+                .andExpect(jsonPath("$.crafts.intervalHours").value(48))
+                .andExpect(jsonPath("$.quizRewards.remaining").value(3))
+                .andExpect(jsonPath("$.duelWinRewards.remaining").value(5));
+        craft(RARE).andExpect(status().isOk());
+        mockMvc.perform(get("/api/v1/limits").with(as(user)))
+                .andExpect(jsonPath("$.crafts.available").value(0))
+                .andExpect(jsonPath("$.crafts.nextAt").isNotEmpty());
+        craft(COMMON).andExpect(status().isConflict()).andExpect(jsonPath("$.code").value("craft_limit_reached"));
+        // 10 days later the stock is full (3), not 5: time at full stock is not banked.
+        jdbc.sql("update craft_allowances set anchor = anchor - interval '10 days' where user_id = :id")
+                .param("id", user).update();
+        mockMvc.perform(get("/api/v1/limits").with(as(user)))
+                .andExpect(jsonPath("$.crafts.available").value(3))
+                .andExpect(jsonPath("$.crafts.nextAt").doesNotExist());
+        craft(COMMON).andExpect(status().isOk());
+        mockMvc.perform(get("/api/v1/limits").with(as(user))).andExpect(jsonPath("$.crafts.available").value(2));
+    }
+
+    private void refillCraftAllowance() {
+        jdbc.sql("update craft_allowances set anchor = anchor - interval '48 hours' where user_id = :id")
+                .param("id", user).update();
     }
 
     @Test
@@ -134,6 +165,10 @@ class CollectionApiTest {
         assertThat(influence(jdbc, user)).isEqualTo(50 + progressionInfluence(jdbc, user));
         craft(RARE).andExpect(status().isConflict()).andExpect(jsonPath("$.code").value("card_already_owned"));
         setInfluence(jdbc, user, commonCost);
+        // The starting allowance (1 craft) is used: the next craft waits for the allowance timer.
+        craft(COMMON).andExpect(status().isConflict()).andExpect(jsonPath("$.code").value("craft_limit_reached"));
+        assertThat(influence(jdbc, user)).isEqualTo(commonCost);
+        refillCraftAllowance();
         craft(COMMON).andExpect(status().isOk());
         setInfluence(jdbc, user, 10);
         craft("t-012").andExpect(status().isConflict()).andExpect(jsonPath("$.code").value("insufficient_influence"));

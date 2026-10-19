@@ -52,6 +52,11 @@ export function DuelEnd({ duel }: { duel: Duel }) {
           <Badge label={t('duel.end.xp')} />
         </View>
       ) : null}
+      {duel.reward?.capped ? (
+        <Body tone="muted" align="center">
+          {t('duel.end.rewardCapped')}
+        </Body>
+      ) : null}
       <View style={styles.actions}>
         <Button3D label={t('duel.end.again')} icon="refresh" size="lg" fullWidth onPress={() => router.replace('/duel')} />
         <Button3D label={t('duel.end.done')} variant="secondary" fullWidth onPress={() => router.back()} />

@@ -30,6 +30,7 @@ public enum ErrorCode {
     NOT_ENOUGH_DUPLICATES("not_enough_duplicates", HttpStatus.CONFLICT),
     CARD_ALREADY_OWNED("card_already_owned", HttpStatus.CONFLICT),
     IDEMPOTENCY_KEY_REQUIRED("idempotency_key_required", HttpStatus.BAD_REQUEST),
+    CRAFT_LIMIT_REACHED("craft_limit_reached", HttpStatus.CONFLICT),
 
     // progression
     REWARD_NOT_CLAIMABLE("reward_not_claimable", HttpStatus.CONFLICT),

@@ -46,6 +46,7 @@ function patchCollection(
 async function refreshAfterEconomy(client: QueryClient): Promise<void> {
   await Promise.all([
     client.invalidateQueries({ queryKey: collectionQueryKey }),
+    client.invalidateQueries({ queryKey: ['limits'] }),
     client.invalidateQueries({ queryKey: progressionQueryKey }),
     client.invalidateQueries({ queryKey: meQueryKey }),
   ]);

@@ -17,6 +17,7 @@ import com.mandat.api.duel.engine.DuelAi.Difficulty;
 import com.mandat.api.duel.engine.DuelEngine;
 import com.mandat.api.duel.engine.DuelEngine.RoundOutcome;
 import com.mandat.api.duel.engine.DuelEngine.Winner;
+import com.mandat.api.economy.DailyRewardLimits;
 import java.sql.Array;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -53,6 +54,7 @@ public class DuelService {
     private final RandomGenerator random;
     private final JsonMapper jsonMapper;
     private final Clock clock;
+    private final DailyRewardLimits dailyLimits;
 
     public DuelService(
             JdbcClient jdbc,
@@ -62,7 +64,8 @@ public class DuelService {
             ApplicationEventPublisher events,
             RandomGenerator random,
             JsonMapper jsonMapper,
-            Clock clock) {
+            Clock clock,
+            DailyRewardLimits dailyLimits) {
         this.jdbc = jdbc;
         this.catalog = catalog;
         this.catalogProperties = catalogProperties;
@@ -71,6 +74,7 @@ public class DuelService {
         this.random = random;
         this.jsonMapper = jsonMapper;
         this.clock = clock;
+        this.dailyLimits = dailyLimits;
     }
 
     @Transactional
@@ -180,10 +184,23 @@ public class DuelService {
 
         DuelRewardDto reward = null;
         if (finished) {
-            int influence = DuelRules.influence(duel.difficulty(), winner);
-            wallet.addInfluence(userId, influence, WalletSource.DUEL_REWARD);
+            // Daily cap (RewardLimits): once 5 wins were rewarded today, duels still play but grant no Influence.
+            boolean capped = !dailyLimits.duelRewardAvailable(userId, now);
+            int influence = capped ? 0 : DuelRules.influence(duel.difficulty(), winner);
+            if (influence > 0) {
+                wallet.addInfluence(userId, influence, WalletSource.DUEL_REWARD);
+            }
+            jdbc.sql("""
+                            update duels set rewarded = :rewarded, reward_influence = :influence, reward_capped = :capped
+                            where id = :id
+                            """)
+                    .param("rewarded", !capped)
+                    .param("influence", influence)
+                    .param("capped", capped)
+                    .param("id", duelId)
+                    .update();
             events.publishEvent(new DuelFinishedEvent(userId, duelId, winner == Winner.PLAYER, duel.difficulty().key(), now));
-            reward = new DuelRewardDto(influence);
+            reward = new DuelRewardDto(influence, capped);
         }
         return load(userId, duelId, reward);
     }
@@ -212,7 +229,9 @@ public class DuelService {
         List<RoundOutcome> played = rounds(duelId);
         DuelRewardDto finalReward = reward;
         if (finalReward == null && "finished".equals(duel.status()) && duel.winner() != null) {
-            finalReward = new DuelRewardDto(DuelRules.influence(duel.difficulty(), duel.winner()));
+            finalReward = duel.rewardInfluence() != null
+                    ? new DuelRewardDto(duel.rewardInfluence(), duel.rewardCapped())
+                    : new DuelRewardDto(DuelRules.influence(duel.difficulty(), duel.winner()), false);
         }
         return new DuelResponse(
                 duel.id(), duel.difficulty(), duel.status(), duel.playerCards(), duel.aiCards(),
@@ -254,7 +273,14 @@ public class DuelService {
                 rs.getInt("ai_score"),
                 nextDomain == null ? null : Domain.fromKey(nextDomain),
                 winner == null ? null : Winner.fromKey(winner),
-                rs.getTimestamp("created_at").toInstant());
+                rs.getTimestamp("created_at").toInstant(),
+                rewardInfluence(rs),
+                rs.getBoolean("reward_capped"));
+    }
+
+    private static Integer rewardInfluence(ResultSet rs) throws SQLException {
+        int value = rs.getInt("reward_influence");
+        return rs.wasNull() ? null : value;
     }
 
     private static List<String> strings(Array array) throws SQLException {
@@ -271,5 +297,7 @@ public class DuelService {
             int aiScore,
             Domain nextDomain,
             Winner winner,
-            Instant createdAt) {}
+            Instant createdAt,
+            Integer rewardInfluence,
+            boolean rewardCapped) {}
 }

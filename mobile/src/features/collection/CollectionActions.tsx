@@ -5,8 +5,9 @@ import { OfflineNotice } from '@/components/navigation/OfflineNotice';
 import { Body, Button3D, Caption, Card as Surface, Heading, Icon, PressableScale, Sheet, Text } from '@/components/ui';
 import { useProgressionQuery } from '@/features/player/queries';
 import { ProfileCardActions } from '@/features/profile/ProfileCardActions';
+import { useCountdown } from '@/hooks/useCountdown';
 import { useIsOnline } from '@/hooks/useIsOnline';
-import { formatDate, formatNumber, useLanguage, useTranslation } from '@/i18n';
+import { formatCountdown, formatDate, formatNumber, useLanguage, useTranslation } from '@/i18n';
 import { describeError } from '@/lib/api';
 import { haptics } from '@/lib/haptics';
 import { playSound } from '@/lib/sounds';
@@ -14,7 +15,7 @@ import { parseInstant } from '@/lib/time';
 import { spacing, useTheme } from '@/theme';
 import type { Card, CardFinish } from '@/types/card';
 
-import { craftCostPreview, recyclePreview } from './economy';
+import { craftCostPreview, recyclePreview, useEconomyRules, useLimitsQuery } from './economy';
 import { useCraftMutation, useOwnedCopies, useRecycleMutation, type OwnedCard } from './queries';
 
 type Feedback = { tone: 'success' | 'error'; message: string } | null;
@@ -112,9 +113,10 @@ function RecycleSheet({
   const { t } = useTranslation();
   const language = useLanguage();
   const recycle = useRecycleMutation();
+  const rules = useEconomyRules();
   const [quantity, setQuantity] = useState(1);
   const amount = Math.min(Math.max(1, quantity), Math.max(1, duplicates));
-  const preview = recyclePreview(card.rarity, finish, amount);
+  const preview = recyclePreview(rules, card.rarity, finish, amount);
 
   const confirm = () => {
     recycle.mutate(
@@ -154,11 +156,18 @@ function CraftPanel({ card, online, onFeedback }: { card: Card; online: boolean;
   const { t } = useTranslation();
   const language = useLanguage();
   const progression = useProgressionQuery();
+  const limits = useLimitsQuery();
   const craft = useCraftMutation();
+  const rules = useEconomyRules();
   const [open, setOpen] = useState(false);
-  const cost = craftCostPreview(card.rarity);
+  const cost = craftCostPreview(rules, card.rarity);
   const balance = progression.data?.influence;
   const affordable = balance === undefined || balance >= cost;
+  const allowance = limits.data?.crafts;
+  const craftsLeft = allowance === undefined || allowance.available > 0;
+  const nextCraftIn = useCountdown(allowance && allowance.available === 0 ? (allowance.nextAt ?? null) : null, () => {
+    void limits.refetch();
+  });
 
   const confirm = () => {
     craft.mutate(
@@ -188,15 +197,22 @@ function CraftPanel({ card, online, onFeedback }: { card: Card; online: boolean;
       {balance !== undefined ? (
         <Caption>{t('card.actions.balance', { amount: formatNumber(balance, language) })}</Caption>
       ) : null}
+      {allowance ? (
+        <Caption>{t('collection.craftAllowance.available', { available: allowance.available, max: allowance.max })}</Caption>
+      ) : null}
       <Button3D
         label={t('card.actions.craft')}
         icon="hammer-outline"
         fullWidth
-        disabled={!online || !affordable || craft.isPending}
+        disabled={!online || !affordable || !craftsLeft || craft.isPending}
         loading={craft.isPending}
         onPress={() => setOpen(true)}
       />
-      {affordable ? null : <Caption>{t('card.actions.notEnough')}</Caption>}
+      {!craftsLeft ? (
+        <Caption>{t('collection.craftAllowance.next', { time: formatCountdown(nextCraftIn) })}</Caption>
+      ) : affordable ? null : (
+        <Caption>{t('card.actions.notEnough')}</Caption>
+      )}
       <Sheet visible={open} onClose={() => setOpen(false)} title={t('card.actions.craftTitle')}>
         <View style={styles.sheet}>
           <Body>{t('card.actions.craftExplain')}</Body>

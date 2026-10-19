@@ -66,5 +66,7 @@ public final class QuizDtos {
             int totalQuestions,
             boolean perfect,
             int influence,
-            @Schema(description = "True when this quiz earned a bonus booster (every 5 perfect quizzes)") boolean bonusPack) {}
+            @Schema(description = "True when this quiz earned a bonus booster (every 5 perfect quizzes)") boolean bonusPack,
+            @Schema(description = "True when the daily reward cap was already reached: no Influence nor booster progress")
+                    boolean rewardCapped) {}
 }

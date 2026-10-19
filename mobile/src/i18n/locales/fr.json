@@ -77,6 +77,10 @@
       "reset": "Tout effacer",
       "show_one": "Voir {{count}} carte",
       "show_other": "Voir {{count}} cartes"
+    },
+    "craftAllowance": {
+      "available": "Fabrications disponibles : {{available}}/{{max}}",
+      "next": "Prochaine fabrication dans {{time}}"
     }
   },
   "packs": {
@@ -439,7 +443,8 @@
     "quiz_session_expired": "Ce quiz a expiré. Lance-en un nouveau.",
     "quiz_answer_out_of_order": "Cette question a déjà reçu une réponse.",
     "duel_finished": "Ce duel est terminé.",
-    "duel_card_unavailable": "Cette carte n'est plus dans ta main."
+    "duel_card_unavailable": "Cette carte n'est plus dans ta main.",
+    "craft_limit_reached": "Plus de fabrication disponible pour le moment : une nouvelle arrive toutes les 48 h."
   },
   "notFound": {
     "title": "Page introuvable",
@@ -845,7 +850,8 @@
       "bonusPackTitle": "Booster bonus gagné",
       "bonusPackBody": "Il t'attend sur l'accueil.",
       "retry": "Rejouer",
-      "done": "Terminer"
+      "done": "Terminer",
+      "rewardCapped": "Plafond du jour atteint : ce quiz rapporte de l'XP, mais plus d'Influence. Reviens demain !"
     }
   },
   "duel": {
@@ -907,7 +913,8 @@
       "influence": "+{{amount}} Influence",
       "xp": "XP ajoutée",
       "again": "Rejouer",
-      "done": "Terminer"
+      "done": "Terminer",
+      "rewardCapped": "Plafond du jour atteint (5 victoires récompensées) : ce duel ne rapporte plus d'Influence."
     }
   }
 }

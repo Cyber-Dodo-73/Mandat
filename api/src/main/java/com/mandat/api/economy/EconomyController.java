@@ -1,10 +1,11 @@
-package com.mandat.api.collection;
+package com.mandat.api.economy;
 
 import com.mandat.api.card.CardFinish;
 import com.mandat.api.card.Rarity;
-import com.mandat.api.collection.dto.EconomyDtos.EconomyResponse;
-import com.mandat.api.collection.dto.EconomyDtos.FinishMultiplierDto;
-import com.mandat.api.collection.dto.EconomyDtos.RarityValuesDto;
+import com.mandat.api.collection.EconomyRules;
+import com.mandat.api.economy.dto.EconomyDtos.EconomyResponse;
+import com.mandat.api.economy.dto.EconomyDtos.FinishMultiplierDto;
+import com.mandat.api.economy.dto.EconomyDtos.RarityValuesDto;
 import com.mandat.api.common.config.OpenApiConfig;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;

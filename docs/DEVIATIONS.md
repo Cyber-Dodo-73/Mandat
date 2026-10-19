@@ -25,6 +25,9 @@ Rule: do not target Expo Go again; native libraries are fine as long as they are
   6 legendary per country, max 20% of any other tier; overflow is pushed to the next tier).
 - **First booster** (onboarding): server-side composition rules in `data/firstPackRules.json` — 1 epic+,
   2 rare/uncommon, 2 common, 5 distinct continents, ≥ 3 eras, never sensitive.
+- **Crafting pace** (user request + TCG review, 2026-10-19): "10 duplicates = 1 card of that rarity", a
+  server-side craft allowance (1 every 48 h, stock 3) and daily reward caps (3 quizzes, 5 duel wins).
+  Gold recycles ×5 (not ×10); the duplicate bonus is flat. See docs/BUSINESS.md §3.5.
 - **Card finishes** (user request 2026-10-19, not in the brief): each drawn card gets a finish rolled server-side —
   `holo` 8% (any rarity), `full_art` 3% (rare+, slot 5), `gold` 0.3% (any), else `standard`. The collection
   counts card + finish pairs; odds screens show finish odds. Legendary/mythic get a premium animated frame in every finish.
