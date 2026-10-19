@@ -10,7 +10,7 @@ import { APP_NAME } from '@/constants/app';
 import { sampleCards } from '@/data/catalog';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
-import { errorMessageKey } from '@/lib/api';
+import { describeError } from '@/lib/api';
 import { spacing, useTheme } from '@/theme';
 import { springs } from '@/theme/motion';
 import type { Card } from '@/types/card';
@@ -31,7 +31,7 @@ export function WelcomeScreen() {
   const { width } = useWindowDimensions();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const onError = useCallback((cause: unknown) => setError(t(errorMessageKey(cause))), [t]);
+  const onError = useCallback((cause: unknown) => setError(describeError(cause, t)), [t]);
 
   const samples = useMemo(() => new Map(sampleCards().map(({ rarity, card }) => [rarity, card])), []);
   const cardWidth = Math.round(Math.min(width * 0.36, 168));

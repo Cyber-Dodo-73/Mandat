@@ -3,7 +3,7 @@ import type { TextInput } from 'react-native';
 
 import { Button3D, Caption, TextField } from '@/components/ui';
 import { useTranslation } from '@/i18n';
-import { errorMessageKey } from '@/lib/api';
+import { describeError } from '@/lib/api';
 import { haptics } from '@/lib/haptics';
 
 import { login } from './api';
@@ -28,7 +28,7 @@ export function LoginScreen() {
       await login(email.trim(), password);
     } catch (cause) {
       haptics.error();
-      setError(t(errorMessageKey(cause)));
+      setError(describeError(cause, t));
       setSubmitting(false);
     }
   };

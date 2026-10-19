@@ -8,7 +8,7 @@ import { Platform, StyleSheet, View } from 'react-native';
 import { Button3D } from '@/components/ui';
 import { useTranslation } from '@/i18n';
 import { haptics } from '@/lib/haptics';
-import { radius, spacing, useTheme } from '@/theme';
+import { spacing } from '@/theme';
 
 import { signInWithApple, signInWithGoogle } from './api';
 
@@ -21,8 +21,6 @@ const GOOGLE_CLIENT_IDS = {
 };
 
 const googleConfigured = Boolean(Platform.OS === 'ios' ? GOOGLE_CLIENT_IDS.iosClientId : GOOGLE_CLIENT_IDS.androidClientId);
-
-const BUTTON_HEIGHT = 52;
 
 type SocialSignInProps = {
   /** Disables the buttons while another sign-in runs. */
@@ -50,7 +48,7 @@ export function SocialSignIn(props: SocialSignInProps) {
 }
 
 function AppleButton({ busy, onBusyChange, onError }: SocialSignInProps) {
-  const { scheme } = useTheme();
+  const { t } = useTranslation();
 
   const signIn = async () => {
     if (busy) return;
@@ -77,16 +75,15 @@ function AppleButton({ busy, onBusyChange, onError }: SocialSignInProps) {
     }
   };
 
+  // Custom button allowed by Apple's HIG: Apple logo + "Continue with Apple", black or white,
+  // same size and 3D treatment as the other buttons of the screen.
   return (
-    <AppleAuthentication.AppleAuthenticationButton
-      buttonType={AppleAuthentication.AppleAuthenticationButtonType.CONTINUE}
-      buttonStyle={
-        scheme === 'dark'
-          ? AppleAuthentication.AppleAuthenticationButtonStyle.WHITE
-          : AppleAuthentication.AppleAuthenticationButtonStyle.BLACK
-      }
-      cornerRadius={radius / 2}
-      style={styles.apple}
+    <Button3D
+      label={t('auth.apple')}
+      icon="logo-apple"
+      variant="apple"
+      fullWidth
+      disabled={busy}
       onPress={() => void signIn()}
     />
   );
@@ -131,5 +128,4 @@ function GoogleButton({ busy, onBusyChange, onError }: SocialSignInProps) {
 
 const styles = StyleSheet.create({
   stack: { gap: spacing.sm },
-  apple: { height: BUTTON_HEIGHT, width: '100%' },
 });

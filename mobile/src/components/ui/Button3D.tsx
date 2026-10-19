@@ -10,7 +10,7 @@ import { instant, springs } from '@/theme/motion';
 import { Icon, type IconName } from './Icon';
 import { Text } from './Text';
 
-export type Button3DVariant = 'primary' | 'secondary' | 'danger' | 'ghost';
+export type Button3DVariant = 'primary' | 'secondary' | 'danger' | 'ghost' | 'apple';
 export type Button3DSize = 'sm' | 'md' | 'lg';
 
 type Palette = { face: string; edge: string; label: string; border?: string };
@@ -28,6 +28,8 @@ function paletteFor(variant: Button3DVariant, colors: ThemeColors): Palette {
       return { face: colors.danger, edge: colors.dangerEdge, label: colors.onDanger };
     case 'ghost':
       return { face: 'transparent', edge: 'transparent', label: colors.accent };
+    case 'apple':
+      return { face: colors.appleButton, edge: colors.appleButtonEdge, label: colors.onAppleButton };
   }
 }
 

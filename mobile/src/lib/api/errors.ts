@@ -70,6 +70,31 @@ export function problemToError(status: number, body: unknown): ApiError {
   return new ApiError(status, code, detail, fieldErrors);
 }
 
+/** React Native's fetch rejects with this TypeError when the server can't be reached. */
+const NETWORK_FAILURE = /network request failed|network connection|internet connection|timed out|offline/i;
+export const CLIENT_ERROR = 'client_error';
+
+/**
+ * Only a real transport failure is reported as "no connection"; anything else thrown while
+ * building or reading the request keeps its message so it can be shown and diagnosed.
+ */
+export function toTransportError(cause: unknown): ApiError {
+  const message = cause instanceof Error ? cause.message : String(cause);
+  if (cause instanceof TypeError && NETWORK_FAILURE.test(message)) return new ApiError(0, NETWORK_ERROR, message);
+  return new ApiError(0, CLIENT_ERROR, message);
+}
+
+/** Technical detail appended to the generic message, so unexpected failures can be reported. */
+export function errorDetail(error: unknown): string | null {
+  if (error instanceof ApiError) {
+    if (error.isNetwork) return null;
+    return error.code === CLIENT_ERROR || !(API_ERROR_CODES as readonly string[]).includes(error.code)
+      ? `${error.code}${error.message && error.message !== error.code ? `: ${error.message}` : ''}`
+      : null;
+  }
+  return error instanceof Error ? error.message : null;
+}
+
 export type ErrorMessageKey = `errors.${ApiErrorCode}` | 'errors.network' | 'errors.generic';
 
 /** i18n key of the message to show for any error thrown by the API layer. */
@@ -91,11 +116,18 @@ export async function unwrap<T>(call: Promise<FetchResult<T>>): Promise<T> {
   let result: FetchResult<T>;
   try {
     result = await call;
-  } catch {
-    throw new ApiError(0, NETWORK_ERROR);
+  } catch (cause) {
+    throw toTransportError(cause);
   }
   if (!result.response.ok || result.error !== undefined) {
     throw problemToError(result.response.status, result.error);
   }
   return result.data as T;
+}
+
+/** User-facing message for an error: translated text, plus the technical detail when unexpected. */
+export function describeError(error: unknown, translate: (key: ErrorMessageKey) => string): string {
+  const detail = errorDetail(error);
+  const message = translate(errorMessageKey(error));
+  return detail ? `${message} (${detail})` : message;
 }

@@ -17,6 +17,10 @@ export type ThemeColors = {
   onAccent: string;
   neutralButton: string;
   neutralButtonEdge: string;
+  /** Sign in with Apple: pure white on dark themes, pure black on light ones (Apple HIG). */
+  appleButton: string;
+  appleButtonEdge: string;
+  onAppleButton: string;
   success: string;
   successEdge: string;
   danger: string;
@@ -38,6 +42,9 @@ const dark: ThemeColors = {
   onAccent: '#0B0F1A',
   neutralButton: '#1C2438',
   neutralButtonEdge: '#0F1422',
+  appleButton: '#FFFFFF',
+  appleButtonEdge: '#B9BCC6',
+  onAppleButton: '#000000',
   success: '#3DD68C',
   successEdge: '#23955E',
   danger: '#FF6B6B',
@@ -59,6 +66,9 @@ const light: ThemeColors = {
   onAccent: '#0B0F1A',
   neutralButton: '#FFFFFF',
   neutralButtonEdge: '#D2CABA',
+  appleButton: '#000000',
+  appleButtonEdge: '#3A3A3C',
+  onAppleButton: '#FFFFFF',
   success: '#1FAF6B',
   successEdge: '#13784A',
   danger: '#D93838',

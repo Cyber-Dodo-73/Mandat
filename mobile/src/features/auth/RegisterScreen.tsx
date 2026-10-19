@@ -3,7 +3,7 @@ import type { TextInput } from 'react-native';
 
 import { Button3D, Caption, TextField } from '@/components/ui';
 import { useTranslation } from '@/i18n';
-import { ApiError, errorMessageKey } from '@/lib/api';
+import { ApiError, describeError, errorMessageKey } from '@/lib/api';
 import { haptics } from '@/lib/haptics';
 
 import { register } from './api';
@@ -52,7 +52,7 @@ export function RegisterScreen() {
       haptics.error();
       const field = cause instanceof ApiError ? fieldForErrorCode(cause.code) : null;
       if (field) setFieldErrors({ [field]: t(errorMessageKey(cause)) });
-      else setFormError(t(errorMessageKey(cause)));
+      else setFormError(describeError(cause, t));
       setSubmitting(false);
     }
   };

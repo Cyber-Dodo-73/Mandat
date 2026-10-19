@@ -1,4 +1,4 @@
-import { API_ERROR_CODES, ApiError, errorMessageKey, problemToError, unwrap } from '../errors';
+import { API_ERROR_CODES, ApiError, describeError, errorMessageKey, problemToError, toTransportError, unwrap } from '../errors';
 import fr from '../../../i18n/locales/fr.json';
 
 describe('errorMessageKey', () => {
@@ -54,5 +54,15 @@ describe('unwrap', () => {
     await expect(unwrap(Promise.reject(new TypeError('Network request failed')))).rejects.toMatchObject({
       code: 'network',
     });
+  });
+});
+
+describe('transport errors', () => {
+  it('reports only real network failures as "no connection"', () => {
+    expect(toTransportError(new TypeError('Network request failed')).isNetwork).toBe(true);
+    const other = toTransportError(new Error('Cannot read property x of undefined'));
+    expect(other.isNetwork).toBe(false);
+    expect(errorMessageKey(other)).toBe('errors.generic');
+    expect(describeError(other, (key) => key)).toBe('errors.generic (client_error: Cannot read property x of undefined)');
   });
 });

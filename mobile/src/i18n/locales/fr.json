@@ -299,6 +299,7 @@
       "nicknameHint": "3 à 20 caractères : lettres, chiffres, point, tiret, tiret bas.",
       "nicknameInvalid": "Le pseudo doit faire 3 à 20 caractères : lettres, chiffres, point, tiret ou tiret bas."
     },
+    "apple": "Continuer avec Apple",
     "google": "Continuer avec Google"
   },
   "offline": {

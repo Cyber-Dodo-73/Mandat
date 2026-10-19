@@ -299,6 +299,7 @@
       "nicknameHint": "3 to 20 characters: letters, digits, dot, dash, underscore.",
       "nicknameInvalid": "Nicknames have 3 to 20 characters: letters, digits, dot, dash or underscore."
     },
+    "apple": "Continue with Apple",
     "google": "Continue with Google"
   },
   "offline": {
