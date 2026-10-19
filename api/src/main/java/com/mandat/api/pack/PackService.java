@@ -37,6 +37,7 @@ import com.mandat.api.pack.dto.PackDtos.SlotOddsDto;
 import java.sql.Timestamp;
 import java.time.Clock;
 import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -104,7 +105,7 @@ public class PackService {
 
     @Transactional
     public PacksResponse overview(UUID userId) {
-        Instant now = clock.instant();
+        Instant now = now();
         PackState state = state(userId, now, false);
         int level = level(userId);
         List<PackDto> packs = packCatalog.all().stream()
@@ -133,7 +134,7 @@ public class PackService {
     @Transactional
     public OpenPackResponse open(UUID userId, String packId, String idempotencyKey) {
         PackDefinition pack = pack(packId);
-        Instant now = clock.instant();
+        Instant now = now();
         PackState state = state(userId, now, true);
 
         Optional<PackOpening> previous = openingRepository.findByUserIdAndIdempotencyKey(userId, idempotencyKey);
@@ -196,6 +197,15 @@ public class PackService {
         } else if (!walletService.consumeBonusPack(userId, WalletSource.PACK_OPEN)) {
             throw new ApiException(ErrorCode.NO_PACK_AVAILABLE);
         }
+    }
+
+    /**
+     * Server time at the database's precision: Postgres keeps microseconds and rounds the rest,
+     * so a nanosecond anchor could be stored a hair later than computed and show one free
+     * booster less (and a "next booster now") until the clock moves on.
+     */
+    private Instant now() {
+        return clock.instant().truncatedTo(ChronoUnit.MICROS);
     }
 
     private PackState state(UUID userId, Instant now, boolean lock) {

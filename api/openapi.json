@@ -340,6 +340,118 @@
         "tags" : [ "Collection" ]
       }
     },
+    "/api/v1/friends" : {
+      "get" : {
+        "operationId" : "friends",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/FriendsResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Friends, received requests and sent requests",
+        "tags" : [ "Social" ]
+      },
+      "post" : {
+        "operationId" : "addFriend",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/AddFriendRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/AddFriendResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Add a friend by friend code: sends a request, or accepts theirs if they asked first",
+        "tags" : [ "Social" ]
+      }
+    },
+    "/api/v1/friends/{friendCode}" : {
+      "delete" : {
+        "operationId" : "remove",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "friendCode",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/FriendsResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Remove a friend, cancel a sent request or decline a received one",
+        "tags" : [ "Social" ]
+      }
+    },
+    "/api/v1/friends/{friendCode}/accept" : {
+      "post" : {
+        "operationId" : "accept",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "friendCode",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/FriendsResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Accept a friend request received from this player",
+        "tags" : [ "Social" ]
+      }
+    },
     "/api/v1/me" : {
       "delete" : {
         "operationId" : "deleteMe",
@@ -570,6 +682,150 @@
         "tags" : [ "Packs" ]
       }
     },
+    "/api/v1/profile/me" : {
+      "get" : {
+        "operationId" : "mine",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/MyProfile"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "My profile, its visibility and the cosmetics I can pick",
+        "tags" : [ "Profile" ]
+      },
+      "put" : {
+        "operationId" : "update",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/UpdateProfileRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/MyProfile"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Replace avatar, banner, title, favorite card, showcase (≤ 6 owned cards) and visibility",
+        "tags" : [ "Profile" ]
+      }
+    },
+    "/api/v1/profile/me/nickname" : {
+      "put" : {
+        "operationId" : "changeNickname",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/ChangeNicknameRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/MyProfile"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Change my nickname (moderated; first change free, then one every 30 days)",
+        "tags" : [ "Profile" ]
+      }
+    },
+    "/api/v1/profiles/{friendCode}" : {
+      "get" : {
+        "operationId" : "view",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "friendCode",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/PublicProfile"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "A player's public profile (private profiles: friends only)",
+        "tags" : [ "Profile" ]
+      }
+    },
+    "/api/v1/profiles/{friendCode}/compare" : {
+      "get" : {
+        "operationId" : "compare",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "friendCode",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/CompareResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Compare collections: cards they have that I don't, and the reverse",
+        "tags" : [ "Profile" ]
+      }
+    },
     "/api/v1/progression" : {
       "get" : {
         "operationId" : "getProgression",
@@ -590,6 +846,31 @@
         } ],
         "summary" : "Level, XP, streak, resets and wallet of the player",
         "tags" : [ "Progression" ]
+      }
+    },
+    "/api/v1/reports" : {
+      "post" : {
+        "operationId" : "report",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/ReportRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "204" : {
+            "description" : "No Content"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Report a profile to the moderators (rate-limited, never shown publicly)",
+        "tags" : [ "Social" ]
       }
     },
     "/api/v1/season-pass" : {
@@ -736,6 +1017,50 @@
         },
         "required" : [ "achievements", "totalCount", "unlockedCount" ]
       },
+      "AchievementsSummary" : {
+        "type" : "object",
+        "properties" : {
+          "recent" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "total" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "unlocked" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "recent", "total", "unlocked" ]
+      },
+      "AddFriendRequest" : {
+        "type" : "object",
+        "properties" : {
+          "friendCode" : {
+            "type" : "string",
+            "maxLength" : 16,
+            "minLength" : 0
+          }
+        },
+        "required" : [ "friendCode" ]
+      },
+      "AddFriendResponse" : {
+        "type" : "object",
+        "properties" : {
+          "friends" : {
+            "$ref" : "#/components/schemas/FriendsResponse"
+          },
+          "result" : {
+            "type" : "string",
+            "enum" : [ "requested", "accepted", "unchanged" ]
+          }
+        },
+        "required" : [ "friends", "result" ]
+      },
       "AuthResponse" : {
         "type" : "object",
         "properties" : {
@@ -852,6 +1177,21 @@
         },
         "required" : [ "ability", "active", "bio", "continent", "country", "era", "fameScore", "id", "isLiving", "name", "number", "rarity", "role", "sensitive", "stats", "wikidataId" ]
       },
+      "CardRef" : {
+        "type" : "object",
+        "properties" : {
+          "cardId" : {
+            "type" : "string",
+            "maxLength" : 32,
+            "minLength" : 0
+          },
+          "finish" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          }
+        },
+        "required" : [ "cardId", "finish" ]
+      },
       "CardStatsDto" : {
         "type" : "object",
         "properties" : {
@@ -893,6 +1233,17 @@
           }
         },
         "required" : [ "cards", "season", "version" ]
+      },
+      "ChangeNicknameRequest" : {
+        "type" : "object",
+        "properties" : {
+          "nickname" : {
+            "type" : "string",
+            "minLength" : 1,
+            "pattern" : "^[\\p{L}\\p{N}_.\\-]{3,20}$"
+          }
+        },
+        "required" : [ "nickname" ]
       },
       "ClaimResponse" : {
         "type" : "object",
@@ -941,6 +1292,47 @@
           }
         },
         "required" : [ "distinctCards", "items", "totalCopies" ]
+      },
+      "CompareEntry" : {
+        "type" : "object",
+        "properties" : {
+          "cardId" : {
+            "type" : "string"
+          },
+          "finishes" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string",
+              "enum" : [ "standard", "holo", "full_art", "gold" ]
+            }
+          }
+        },
+        "required" : [ "cardId", "finishes" ]
+      },
+      "CompareResponse" : {
+        "type" : "object",
+        "properties" : {
+          "commonCards" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "friendCode" : {
+            "type" : "string"
+          },
+          "theyHaveYouDont" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/CompareEntry"
+            }
+          },
+          "youHaveTheyDont" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/CompareEntry"
+            }
+          }
+        },
+        "required" : [ "commonCards", "friendCode", "theyHaveYouDont", "youHaveTheyDont" ]
       },
       "CraftResponse" : {
         "type" : "object",
@@ -1043,6 +1435,55 @@
           }
         },
         "required" : [ "available", "intervalSeconds", "max" ]
+      },
+      "FriendDto" : {
+        "type" : "object",
+        "properties" : {
+          "avatarId" : {
+            "type" : "string"
+          },
+          "friendCode" : {
+            "type" : "string"
+          },
+          "nickname" : {
+            "type" : "string"
+          },
+          "since" : {
+            "type" : "string",
+            "format" : "date-time"
+          }
+        },
+        "required" : [ "avatarId", "friendCode", "nickname", "since" ]
+      },
+      "FriendsResponse" : {
+        "type" : "object",
+        "properties" : {
+          "friends" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/FriendDto"
+            }
+          },
+          "incoming" : {
+            "type" : "array",
+            "description" : "Requests other players sent to me",
+            "items" : {
+              "$ref" : "#/components/schemas/FriendDto"
+            }
+          },
+          "maxFriends" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "outgoing" : {
+            "type" : "array",
+            "description" : "Requests I sent, not answered yet",
+            "items" : {
+              "$ref" : "#/components/schemas/FriendDto"
+            }
+          }
+        },
+        "required" : [ "friends", "incoming", "maxFriends", "outgoing" ]
       },
       "LocalizedText" : {
         "type" : "object",
@@ -1195,6 +1636,27 @@
           }
         },
         "required" : [ "daily", "dailyResetAt", "weekly", "weeklyResetAt" ]
+      },
+      "MyProfile" : {
+        "type" : "object",
+        "properties" : {
+          "nicknameChangeAvailableAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "description" : "Next time the nickname can be changed; null = now"
+          },
+          "profile" : {
+            "$ref" : "#/components/schemas/PublicProfile"
+          },
+          "unlocks" : {
+            "$ref" : "#/components/schemas/Unlocks"
+          },
+          "visibility" : {
+            "type" : "string",
+            "enum" : [ "public", "private" ]
+          }
+        },
+        "required" : [ "profile", "unlocks", "visibility" ]
       },
       "OddsResponse" : {
         "type" : "object",
@@ -1370,6 +1832,49 @@
         },
         "required" : [ "epicEveryPacks", "legendaryEveryPacks" ]
       },
+      "ProfileStats" : {
+        "type" : "object",
+        "properties" : {
+          "bestStreak" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "collectionPercent" : {
+            "type" : "number",
+            "format" : "double",
+            "description" : "Distinct cards owned / cards in the season, 0–100"
+          },
+          "distinctCards" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "duelWins" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "legendaryCards" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "level" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "mythicCards" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "packsOpened" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "seasonCards" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "bestStreak", "collectionPercent", "distinctCards", "duelWins", "legendaryCards", "level", "mythicCards", "packsOpened", "seasonCards" ]
+      },
       "ProgressionResponse" : {
         "type" : "object",
         "properties" : {
@@ -1439,6 +1944,46 @@
           }
         },
         "required" : [ "bestStreak", "bonusPacks", "currentStreak", "dailyResetAt", "freezeAvailable", "influence", "level", "seasonXp", "streakActiveToday", "timezone", "totalXp", "unlocks", "weeklyResetAt", "xpIntoLevel" ]
+      },
+      "PublicProfile" : {
+        "type" : "object",
+        "properties" : {
+          "achievements" : {
+            "$ref" : "#/components/schemas/AchievementsSummary"
+          },
+          "avatarId" : {
+            "type" : "string"
+          },
+          "bannerId" : {
+            "type" : "string"
+          },
+          "favoriteCard" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/CardRef"
+          },
+          "friend" : {
+            "type" : "boolean"
+          },
+          "friendCode" : {
+            "type" : "string"
+          },
+          "nickname" : {
+            "type" : "string"
+          },
+          "showcase" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/CardRef"
+            }
+          },
+          "stats" : {
+            "$ref" : "#/components/schemas/ProfileStats"
+          },
+          "titleId" : {
+            "type" : [ "string", "null" ]
+          }
+        },
+        "required" : [ "achievements", "avatarId", "bannerId", "friend", "friendCode", "nickname", "showcase", "stats" ]
       },
       "RarityOddsDto" : {
         "type" : "object",
@@ -1545,6 +2090,27 @@
           }
         },
         "required" : [ "email", "nickname", "password" ]
+      },
+      "ReportRequest" : {
+        "type" : "object",
+        "properties" : {
+          "friendCode" : {
+            "type" : "string",
+            "maxLength" : 16,
+            "minLength" : 0
+          },
+          "note" : {
+            "type" : [ "string", "null" ],
+            "description" : "Private note for moderators",
+            "maxLength" : 280,
+            "minLength" : 0
+          },
+          "reason" : {
+            "type" : "string",
+            "enum" : [ "offensive_nickname", "inappropriate_profile", "cheating", "harassment", "other" ]
+          }
+        },
+        "required" : [ "friendCode", "reason" ]
       },
       "RewardDto" : {
         "type" : "object",
@@ -1714,6 +2280,67 @@
           }
         },
         "required" : [ "itemId", "kind" ]
+      },
+      "Unlocks" : {
+        "type" : "object",
+        "properties" : {
+          "avatars" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "banners" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "titles" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          }
+        },
+        "required" : [ "avatars", "banners", "titles" ]
+      },
+      "UpdateProfileRequest" : {
+        "type" : "object",
+        "properties" : {
+          "avatarId" : {
+            "type" : "string",
+            "maxLength" : 64,
+            "minLength" : 0
+          },
+          "bannerId" : {
+            "type" : "string",
+            "maxLength" : 64,
+            "minLength" : 0
+          },
+          "favoriteCard" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/CardRef"
+          },
+          "showcase" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/CardRef"
+            },
+            "maxItems" : 6,
+            "minItems" : 0
+          },
+          "titleId" : {
+            "type" : [ "string", "null" ],
+            "maxLength" : 64,
+            "minLength" : 0
+          },
+          "visibility" : {
+            "type" : "string",
+            "enum" : [ "public", "private" ]
+          }
+        },
+        "required" : [ "avatarId", "bannerId", "showcase", "visibility" ]
       },
       "UpdateSettingsRequest" : {
         "type" : "object",

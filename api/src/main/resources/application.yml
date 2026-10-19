@@ -83,6 +83,7 @@ mandat:
       auth-login-account: { capacity: 5, period: PT5M }
       auth-refresh-ip: { capacity: 60, period: PT1M }
       auth-social-ip: { capacity: 20, period: PT1M }
+      report-user: { capacity: 5, period: PT1H }
 
 ---
 spring:

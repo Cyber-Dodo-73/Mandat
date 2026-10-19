@@ -6,6 +6,7 @@ import com.mandat.api.user.dto.UpdateSettingsRequest;
 import java.security.SecureRandom;
 import java.time.Clock;
 import java.time.DateTimeException;
+import java.time.Duration;
 import java.time.Instant;
 import java.time.ZoneId;
 import java.util.Optional;
@@ -21,6 +22,9 @@ public class UserService {
     public static final Set<String> SUPPORTED_LANGUAGES = Set.of("fr", "en");
     public static final String DEFAULT_LANGUAGE = "fr";
     public static final String DEFAULT_TIMEZONE = "Europe/Paris";
+
+    /** Minimum delay between two nickname changes (the first one after sign-up is free). */
+    public static final Duration NICKNAME_CHANGE_COOLDOWN = Duration.ofDays(30);
 
     private static final int MAX_GENERATION_ATTEMPTS = 10;
 
@@ -119,6 +123,33 @@ public class UserService {
             user.setReduceMotion(request.reduceMotion().toColumn());
         }
         user.touch(Instant.now(clock));
+        return user;
+    }
+
+    /**
+     * Changes the nickname (moderation policy + uniqueness). The first change after sign-up is free,
+     * later ones respect {@link #NICKNAME_CHANGE_COOLDOWN}.
+     */
+    @Transactional
+    public User changeNickname(UUID userId, String nickname) {
+        User user = require(userId);
+        Instant now = Instant.now(clock);
+        Instant lastChange = user.getNicknameChangedAt();
+        if (lastChange != null && now.isBefore(lastChange.plus(NICKNAME_CHANGE_COOLDOWN))) {
+            throw new ApiException(ErrorCode.NICKNAME_CHANGE_TOO_SOON,
+                    "The nickname can be changed again after " + lastChange.plus(NICKNAME_CHANGE_COOLDOWN));
+        }
+        nicknamePolicy.requireAllowed(nickname);
+        // citext: a change of letter case only is not a conflict with oneself.
+        if (!user.getNickname().equalsIgnoreCase(nickname)) {
+            requireNicknameFree(nickname);
+        }
+        user.changeNickname(nickname, now);
+        try {
+            users.saveAndFlush(user);
+        } catch (DataIntegrityViolationException e) {
+            throw new ApiException(ErrorCode.NICKNAME_TAKEN, "This nickname is already taken");
+        }
         return user;
     }
 

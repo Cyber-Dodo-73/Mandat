@@ -36,6 +36,14 @@ public enum ErrorCode {
     REWARD_ALREADY_CLAIMED("reward_already_claimed", HttpStatus.CONFLICT),
     MISSION_EXPIRED("mission_expired", HttpStatus.CONFLICT),
     SEASON_TIER_NOT_FOUND("season_tier_not_found", HttpStatus.NOT_FOUND),
+
+    // profile / social
+    PROFILE_PRIVATE("profile_private", HttpStatus.FORBIDDEN),
+    COSMETIC_LOCKED("cosmetic_locked", HttpStatus.FORBIDDEN),
+    NICKNAME_CHANGE_TOO_SOON("nickname_change_too_soon", HttpStatus.CONFLICT),
+    FRIEND_LIMIT_REACHED("friend_limit_reached", HttpStatus.CONFLICT),
+    CANNOT_TARGET_SELF("cannot_target_self", HttpStatus.UNPROCESSABLE_CONTENT),
+
     INTERNAL_ERROR("internal_error", HttpStatus.INTERNAL_SERVER_ERROR);
 
     private final String code;

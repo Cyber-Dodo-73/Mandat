@@ -67,6 +67,10 @@ public class User {
     @Column(name = "updated_at", nullable = false)
     private Instant updatedAt;
 
+    /** Last nickname change, {@code null} when never changed since sign-up. */
+    @Column(name = "nickname_changed_at")
+    private Instant nicknameChangedAt;
+
     protected User() {}
 
     User(String nickname, String friendCode, String locale, String timezone, Instant now) {
@@ -100,6 +104,16 @@ public class User {
 
     public String getNickname() {
         return nickname;
+    }
+
+    public Instant getNicknameChangedAt() {
+        return nicknameChangedAt;
+    }
+
+    void changeNickname(String nickname, Instant now) {
+        this.nickname = nickname;
+        this.nicknameChangedAt = now;
+        this.updatedAt = now;
     }
 
     public String getFriendCode() {
