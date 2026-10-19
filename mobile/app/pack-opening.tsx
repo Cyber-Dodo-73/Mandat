@@ -1,14 +1,3 @@
-import { PlaceholderScreen } from '@/components/navigation/PlaceholderScreen';
-import { useTranslation } from '@/i18n';
+import { PackOpeningScreen } from '@/features/packs/PackOpeningScreen';
 
-export default function PackOpeningRoute() {
-  const { t } = useTranslation();
-  return (
-    <PlaceholderScreen
-      title={t('packOpening.title')}
-      message={t('packOpening.placeholder')}
-      icon="gift-outline"
-      dismiss="close"
-    />
-  );
-}
+export default PackOpeningScreen;

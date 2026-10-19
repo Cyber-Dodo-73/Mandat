@@ -9,33 +9,18 @@
   "tabs": {
     "home": "Home",
     "collection": "Collection",
-    "packs": "Packs",
     "play": "Play",
+    "missions": "Missions",
     "profile": "Profile"
   },
   "home": {
-    "greeting": "Welcome back, head of state",
-    "streak": {
-      "label": "Streak",
-      "days_one": "{{count}} day",
-      "days_other": "{{count}} days"
-    },
-    "level": {
-      "label": "Level {{level}}",
-      "xp": "{{current}} / {{total}} XP"
-    },
-    "nextPack": {
-      "title": "Next free pack",
-      "subtitle": "Packs arrive once the server is connected.",
-      "pending": "--:--:--"
-    },
-    "missions": {
-      "title": "Daily missions",
-      "empty": "Your first missions will show up here."
-    },
-    "figureOfTheDay": {
-      "title": "Figure of the day",
-      "empty": "The season 1 catalog is coming soon."
+    "topBar": {
+      "level": "{{level}}",
+      "levelA11y": "Level {{level}}, {{current}} of {{total}} XP",
+      "streakA11y_one": "{{count}}-day streak",
+      "streakA11y_other": "{{count}}-day streak",
+      "influenceA11y": "{{amount}} Influence points",
+      "settings": "Settings"
     }
   },
   "collection": {
@@ -44,14 +29,57 @@
     "empty": "Your collection is empty for now. Open your first pack to get started."
   },
   "packs": {
-    "title": "Packs",
-    "subtitle": "5 cards per pack, including one Rare or better",
+    "seasonLabel": "Season {{season}}",
+    "packA11y": "{{name}} pack, season {{season}}",
+    "names": {
+      "standard": "Standard edition",
+      "africa": "Africa",
+      "asia": "Asia",
+      "europe": "Europe",
+      "north_america": "North America",
+      "south_america": "South America",
+      "oceania": "Oceania"
+    },
+    "lockedLevel": "Requires level {{level}}",
     "openButton": "Open",
-    "oddsButton": "Drop rates"
+    "openHint": "Opens this pack",
+    "freePacks": {
+      "ready_one": "{{count}} free pack ready",
+      "ready_other": "{{count}} free packs ready",
+      "empty": "No free pack",
+      "next": "Next in {{time}}",
+      "full": "Stock full",
+      "stockA11y": "{{stock}} of {{max}} free packs"
+    },
+    "oddsLink": "Pull rates",
+    "odds": {
+      "intro": "5 cards per pack. These are the rates the server applies to every opening.",
+      "slotsRange": "Cards {{from}} to {{to}}",
+      "slotSingle": "Card {{slot}}, Rare or better",
+      "pityTitle": "Guarantees",
+      "pityEpic": "At least one Epic every {{count}} packs",
+      "pityLegendary": "At least one Legendary every {{count}} packs",
+      "pityProgress": "{{current}} / {{total}}",
+      "rarity": {
+        "common": "Common",
+        "uncommon": "Uncommon",
+        "rare": "Rare",
+        "epic": "Epic",
+        "legendary": "Legendary",
+        "mythic": "Mythic"
+      }
+    },
+    "loadError": "Couldn't load the packs."
   },
   "packOpening": {
     "title": "Opening",
-    "placeholder": "Pack opening arrives in an upcoming phase."
+    "preparing": "Getting your pack ready…",
+    "tearHint": "Swipe across the top of the pack to tear it open",
+    "tearAction": "Tear the pack open",
+    "error": "Opening failed. Your pack was not used.",
+    "cardsReady": "Your 5 cards are ready",
+    "influence": "+{{amount}} Influence from duplicates",
+    "done": "Done"
   },
   "play": {
     "title": "Play",
@@ -74,7 +102,15 @@
   },
   "card": {
     "title": "Card",
-    "placeholder": "Card details arrive with the catalog."
+    "placeholder": "Card details arrive with the catalog.",
+    "notFound": "This card is not part of season 1.",
+    "yearBC": "{{year}} BC",
+    "bio": "Biography",
+    "stats": "Stats",
+    "ability": "Ability",
+    "copies": "Copies",
+    "copiesPending": "Your collection syncs with the server in a later phase.",
+    "dragHint": "Drag the card or tilt your phone to see the foil."
   },
   "user": {
     "title": "Player",
@@ -121,5 +157,51 @@
   "notFound": {
     "title": "Page not found",
     "action": "Back to home"
+  },
+  "missions": {
+    "title": "Missions",
+    "daily": "Daily missions",
+    "weekly": "Weekly missions",
+    "empty": "Your missions are coming soon. Open a pack or play a quiz every day to keep your streak."
+  },
+  "cards": {
+    "a11yLabel": "{{name}}, {{rarity}} card. {{role}}",
+    "statsShort": {
+      "influence": "INF",
+      "diplomacy": "DIP",
+      "charisma": "CHA",
+      "strategy": "STR"
+    },
+    "stats": {
+      "influence": "Influence",
+      "diplomacy": "Diplomacy",
+      "charisma": "Charisma",
+      "strategy": "Strategy"
+    },
+    "newBadge": "New",
+    "backA11y": "Face-down card",
+    "revealHint": "Tap or swipe to flip the card",
+    "silhouetteA11y": "Card {{number}}, not collected yet"
+  },
+  "rarity": {
+    "common": "Common",
+    "uncommon": "Uncommon",
+    "rare": "Rare",
+    "epic": "Epic",
+    "legendary": "Legendary",
+    "mythic": "Mythic"
+  },
+  "dev": {
+    "cards": {
+      "title": "Card gallery",
+      "open": "Card gallery (dev)",
+      "reveals": "Reveals",
+      "samples": "One card per rarity",
+      "sensitive": "Sensitive card (sober variant)",
+      "firstTime": "First time (not skippable)",
+      "replay": "Replay",
+      "back": "Card back",
+      "silhouette": "Silhouette"
+    }
   }
 }

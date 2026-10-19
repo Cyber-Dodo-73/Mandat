@@ -9,33 +9,18 @@
   "tabs": {
     "home": "Accueil",
     "collection": "Collection",
-    "packs": "Boosters",
     "play": "Jouer",
+    "missions": "Missions",
     "profile": "Profil"
   },
   "home": {
-    "greeting": "Bon retour, chef d'État",
-    "streak": {
-      "label": "Série",
-      "days_one": "{{count}} jour",
-      "days_other": "{{count}} jours"
-    },
-    "level": {
-      "label": "Niveau {{level}}",
-      "xp": "{{current}} / {{total}} XP"
-    },
-    "nextPack": {
-      "title": "Prochain booster gratuit",
-      "subtitle": "Les boosters arrivent avec la connexion au serveur.",
-      "pending": "--:--:--"
-    },
-    "missions": {
-      "title": "Missions du jour",
-      "empty": "Tes premières missions apparaîtront ici."
-    },
-    "figureOfTheDay": {
-      "title": "Figure du jour",
-      "empty": "Le catalogue de la saison 1 arrive bientôt."
+    "topBar": {
+      "level": "{{level}}",
+      "levelA11y": "Niveau {{level}}, {{current}} sur {{total}} XP",
+      "streakA11y_one": "Série de {{count}} jour",
+      "streakA11y_other": "Série de {{count}} jours",
+      "influenceA11y": "{{amount}} points d'Influence",
+      "settings": "Réglages"
     }
   },
   "collection": {
@@ -44,14 +29,57 @@
     "empty": "Ta collection est vide pour l'instant. Ouvre ton premier booster pour commencer."
   },
   "packs": {
-    "title": "Boosters",
-    "subtitle": "5 cartes par booster, dont une Rare ou mieux",
+    "seasonLabel": "Saison {{season}}",
+    "packA11y": "Booster {{name}}, saison {{season}}",
+    "names": {
+      "standard": "Édition standard",
+      "africa": "Afrique",
+      "asia": "Asie",
+      "europe": "Europe",
+      "north_america": "Amérique du Nord",
+      "south_america": "Amérique du Sud",
+      "oceania": "Océanie"
+    },
+    "lockedLevel": "Niveau {{level}} requis",
     "openButton": "Ouvrir",
-    "oddsButton": "Taux d'obtention"
+    "openHint": "Ouvre ce booster",
+    "freePacks": {
+      "ready_one": "{{count}} booster gratuit prêt",
+      "ready_other": "{{count}} boosters gratuits prêts",
+      "empty": "Aucun booster gratuit",
+      "next": "Prochain dans {{time}}",
+      "full": "Stock plein",
+      "stockA11y": "{{stock}} boosters gratuits sur {{max}}"
+    },
+    "oddsLink": "Taux d'obtention",
+    "odds": {
+      "intro": "5 cartes par booster. Ces taux sont ceux appliqués par le serveur à chaque ouverture.",
+      "slotsRange": "Cartes {{from}} à {{to}}",
+      "slotSingle": "Carte {{slot}}, Rare ou mieux",
+      "pityTitle": "Garanties",
+      "pityEpic": "Une Épique au moins tous les {{count}} boosters",
+      "pityLegendary": "Une Légendaire au moins tous les {{count}} boosters",
+      "pityProgress": "{{current}} / {{total}}",
+      "rarity": {
+        "common": "Commune",
+        "uncommon": "Peu commune",
+        "rare": "Rare",
+        "epic": "Épique",
+        "legendary": "Légendaire",
+        "mythic": "Mythique"
+      }
+    },
+    "loadError": "Impossible de charger les boosters."
   },
   "packOpening": {
     "title": "Ouverture",
-    "placeholder": "L'ouverture de booster arrive dans une prochaine phase."
+    "preparing": "Préparation du booster…",
+    "tearHint": "Glisse le doigt sur le haut du booster pour le déchirer",
+    "tearAction": "Déchirer le booster",
+    "error": "L'ouverture a échoué. Ton booster n'a pas été utilisé.",
+    "cardsReady": "Tes 5 cartes sont prêtes",
+    "influence": "+{{amount}} Influence grâce aux doublons",
+    "done": "Terminer"
   },
   "play": {
     "title": "Jouer",
@@ -74,7 +102,15 @@
   },
   "card": {
     "title": "Carte",
-    "placeholder": "Le détail des cartes arrive avec le catalogue."
+    "placeholder": "Le détail des cartes arrive avec le catalogue.",
+    "notFound": "Cette carte n'existe pas dans la saison 1.",
+    "yearBC": "{{year}} av. J.-C.",
+    "bio": "Biographie",
+    "stats": "Statistiques",
+    "ability": "Capacité",
+    "copies": "Exemplaires",
+    "copiesPending": "Ta collection se synchronise avec le serveur dans une prochaine phase.",
+    "dragHint": "Fais glisser la carte ou incline ton téléphone pour voir les reflets."
   },
   "user": {
     "title": "Joueur",
@@ -121,5 +157,51 @@
   "notFound": {
     "title": "Page introuvable",
     "action": "Retour à l'accueil"
+  },
+  "missions": {
+    "title": "Missions",
+    "daily": "Missions du jour",
+    "weekly": "Missions de la semaine",
+    "empty": "Tes missions arrivent bientôt. Ouvre un booster ou fais un quiz chaque jour pour garder ta série."
+  },
+  "cards": {
+    "a11yLabel": "{{name}}, carte {{rarity}}. {{role}}",
+    "statsShort": {
+      "influence": "INF",
+      "diplomacy": "DIP",
+      "charisma": "CHA",
+      "strategy": "STR"
+    },
+    "stats": {
+      "influence": "Influence",
+      "diplomacy": "Diplomatie",
+      "charisma": "Charisme",
+      "strategy": "Stratégie"
+    },
+    "newBadge": "Nouveau",
+    "backA11y": "Carte face cachée",
+    "revealHint": "Touche ou glisse pour retourner la carte",
+    "silhouetteA11y": "Carte {{number}}, pas encore obtenue"
+  },
+  "rarity": {
+    "common": "Commune",
+    "uncommon": "Peu commune",
+    "rare": "Rare",
+    "epic": "Épique",
+    "legendary": "Légendaire",
+    "mythic": "Mythique"
+  },
+  "dev": {
+    "cards": {
+      "title": "Galerie de cartes",
+      "open": "Galerie de cartes (dev)",
+      "reveals": "Révélations",
+      "samples": "Une carte par rareté",
+      "sensitive": "Carte sensible (variante sobre)",
+      "firstTime": "Première fois (non passable)",
+      "replay": "Rejouer",
+      "back": "Dos de carte",
+      "silhouette": "Silhouette"
+    }
   }
 }

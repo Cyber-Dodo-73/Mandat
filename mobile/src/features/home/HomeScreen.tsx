@@ -1,86 +1,132 @@
+import { Canvas, Rect, RadialGradient } from '@shopify/react-native-skia';
 import { router } from 'expo-router';
-import { StyleSheet, View } from 'react-native';
+import { useState } from 'react';
+import { ActivityIndicator, StyleSheet, useWindowDimensions, View } from 'react-native';
+import Animated, { FadeIn } from 'react-native-reanimated';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import {
-  Badge,
-  Body,
-  Caption,
-  Card,
-  EmptyState,
-  Heading,
-  Icon,
-  PressableScale,
-  ProgressBar,
-  ScreenContainer,
-  Text,
-  Title,
-} from '@/components/ui';
+import { BOOSTER_RATIO, useDeviceTilt } from '@/components/pack';
+import { Body, Button3D, Heading, PressableScale, Text } from '@/components/ui';
+import { FreePackTimer } from '@/features/packs/FreePackTimer';
+import { OddsSheet } from '@/features/packs/OddsSheet';
+import { PackCarousel } from '@/features/packs/PackCarousel';
+import { usePacksQuery } from '@/features/packs/queries';
+import type { PackSummary } from '@/features/packs/types';
+import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
 import { spacing, useTheme } from '@/theme';
+import { packPalettes } from '@/theme/packs';
 
-/** Placeholder values until progression comes from the API (phase 7). */
-const PLACEHOLDER = { streak: 0, level: 1, xp: 0, xpForNext: 100 };
+import { MOCK_PROGRESS } from './mockProgress';
+import { TopBar } from './TopBar';
 
+/** Pack hub: the app opens straight on the boosters, like a pack shelf. */
 export function HomeScreen() {
   const { t } = useTranslation();
   const { colors } = useTheme();
+  const insets = useSafeAreaInsets();
+  const { width, height } = useWindowDimensions();
+  const reduceMotion = useReduceMotion();
+  const tilt = useDeviceTilt(!reduceMotion);
+  const packs = usePacksQuery();
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [oddsVisible, setOddsVisible] = useState(false);
+  const [stage, setStage] = useState({ width: 0, height: 0 });
+
+  const packWidth = Math.round(Math.min(width * 0.56, (height * 0.4) / BOOSTER_RATIO, 240));
+  const data = packs.data;
+  const active = data?.packs[activeIndex];
+  const canOpen = Boolean(active?.unlocked) && (data?.freePacks.stock ?? 0) > 0;
+
+  const open = (pack: PackSummary) => {
+    if (!pack.unlocked || (data?.freePacks.stock ?? 0) === 0) return;
+    router.push({ pathname: '/pack-opening', params: { packId: pack.id, theme: pack.theme } });
+  };
 
   return (
-    <ScreenContainer>
-      <View style={styles.header}>
-        <Title style={styles.flex}>{t('home.greeting')}</Title>
-        <PressableScale
-          accessibilityRole="button"
-          accessibilityLabel={t('settings.title')}
-          hitSlop={12}
-          onPress={() => router.push('/settings')}
-        >
-          <Icon name="settings-outline" size={26} tone="textMuted" />
-        </PressableScale>
+    <View style={[styles.root, { backgroundColor: colors.background, paddingTop: insets.top + spacing.xs }]}>
+      <TopBar progress={MOCK_PROGRESS} />
+
+      <View
+        style={styles.stage}
+        onLayout={(event) => setStage({ width: event.nativeEvent.layout.width, height: event.nativeEvent.layout.height })}
+      >
+        {active ? (
+          <Animated.View key={active.theme} entering={FadeIn.duration(400)} style={StyleSheet.absoluteFill}>
+            <Canvas style={StyleSheet.absoluteFill} pointerEvents="none">
+              <Rect x={0} y={0} width={stage.width} height={stage.height}>
+                <RadialGradient
+                  c={{ x: stage.width / 2, y: stage.height / 2 }}
+                  r={Math.max(stage.width, stage.height) * 0.55}
+                  colors={[`${packPalettes[active.theme].glow}55`, `${packPalettes[active.theme].glow}00`]}
+                />
+              </Rect>
+            </Canvas>
+          </Animated.View>
+        ) : null}
+
+        {data ? (
+          <PackCarousel
+            packs={data.packs}
+            season={data.season}
+            packWidth={packWidth}
+            activeIndex={activeIndex}
+            onActiveChange={setActiveIndex}
+            onOpen={open}
+            tilt={tilt}
+          />
+        ) : packs.isError ? (
+          <View style={styles.centered}>
+            <Body tone="muted" align="center">
+              {t('packs.loadError')}
+            </Body>
+            <Button3D label={t('common.retry')} variant="secondary" onPress={() => void packs.refetch()} />
+          </View>
+        ) : (
+          <ActivityIndicator color={colors.textMuted} />
+        )}
       </View>
 
-      <Card raised>
-        <View style={styles.statsRow}>
-          <View style={styles.stat}>
-            <Icon name="flame" size={28} tone="accent" />
-            <View>
-              <Caption>{t('home.streak.label')}</Caption>
-              <Text variant="heading">{t('home.streak.days', { count: PLACEHOLDER.streak })}</Text>
-            </View>
+      {data && active ? (
+        <View style={styles.panel}>
+          <Heading align="center">{t(`packs.names.${active.theme}`)}</Heading>
+          <FreePackTimer state={data.freePacks} />
+          <View style={styles.cta}>
+            <Button3D
+              label={
+                active.unlocked ? t('packs.openButton') : t('packs.lockedLevel', { level: active.unlockLevel ?? 0 })
+              }
+              icon={active.unlocked ? 'flash' : 'lock-closed'}
+              size="lg"
+              fullWidth
+              disabled={!canOpen}
+              accessibilityHint={t('packs.openHint')}
+              onPress={() => open(active)}
+            />
           </View>
-          <Badge label={t('home.level.label', { level: PLACEHOLDER.level })} color={colors.accent} textColor={colors.onAccent} />
+          <PressableScale
+            accessibilityRole="button"
+            hitSlop={10}
+            onPress={() => setOddsVisible(true)}
+            style={styles.oddsLink}
+          >
+            <Text variant="caption" tone="muted" style={styles.underline}>
+              {t('packs.oddsLink')}
+            </Text>
+          </PressableScale>
+          <OddsSheet visible={oddsVisible} onClose={() => setOddsVisible(false)} odds={data.odds} pity={data.pity} />
         </View>
-        <ProgressBar
-          progress={PLACEHOLDER.xp / PLACEHOLDER.xpForNext}
-          accessibilityLabel={t('home.level.label', { level: PLACEHOLDER.level })}
-        />
-        <Caption>{t('home.level.xp', { current: PLACEHOLDER.xp, total: PLACEHOLDER.xpForNext })}</Caption>
-      </Card>
-
-      <Card>
-        <Heading>{t('home.nextPack.title')}</Heading>
-        <Text variant="display" tone="accent">
-          {t('home.nextPack.pending')}
-        </Text>
-        <Body tone="muted">{t('home.nextPack.subtitle')}</Body>
-      </Card>
-
-      <Card>
-        <Heading>{t('home.missions.title')}</Heading>
-        <EmptyState icon="checkmark-done-outline" message={t('home.missions.empty')} />
-      </Card>
-
-      <Card>
-        <Heading>{t('home.figureOfTheDay.title')}</Heading>
-        <EmptyState icon="sparkles-outline" message={t('home.figureOfTheDay.empty')} />
-      </Card>
-    </ScreenContainer>
+      ) : null}
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  header: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
-  flex: { flex: 1 },
-  statsRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
-  stat: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
+  root: { flex: 1 },
+  stage: { flex: 1, justifyContent: 'center' },
+  centered: { alignItems: 'center', gap: spacing.md, paddingHorizontal: spacing.lg },
+  panel: { alignItems: 'center', gap: spacing.sm, paddingHorizontal: spacing.lg, paddingBottom: spacing.md },
+  cta: { alignSelf: 'stretch', paddingHorizontal: spacing.lg },
+  oddsLink: { paddingVertical: spacing.xxs },
+  underline: { textDecorationLine: 'underline' },
 });

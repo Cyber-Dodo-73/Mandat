@@ -1,4 +1,5 @@
 import Constants from 'expo-constants';
+import { router } from 'expo-router';
 import { StyleSheet, View } from 'react-native';
 import { useReducedMotion } from 'react-native-reanimated';
 
@@ -138,6 +139,15 @@ export function SettingsScreen() {
           />
           <SettingRow icon="document-text-outline" label={t('settings.legal')} hint={t('common.comingSoon')} />
         </Card>
+        {__DEV__ ? (
+          <Button3D
+            label={t('dev.cards.open')}
+            variant="secondary"
+            size="sm"
+            icon="albums-outline"
+            onPress={() => router.push('/dev/cards')}
+          />
+        ) : null}
         <Caption align="center">{t('settings.version', { version })}</Caption>
       </View>
     </ScreenContainer>

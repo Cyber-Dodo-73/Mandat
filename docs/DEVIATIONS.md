@@ -31,6 +31,9 @@ without an Expo Go-compatible fallback, and must be listed in this table.
   6 legendary per country, max 20% of any other tier; overflow is pushed to the next tier).
 - **First booster** (onboarding): server-side composition rules in `data/firstPackRules.json` — 1 epic+,
   2 rare/uncommon, 2 common, 5 distinct continents, ≥ 3 eras, never sensitive.
+- **Card finishes** (user request 2026-10-19, not in the brief): each drawn card gets a finish rolled server-side —
+  `holo` 8% (any rarity), `full_art` 3% (rare+, slot 5), `gold` 0.3% (any), else `standard`. The collection
+  counts card + finish pairs; odds screens show finish odds. Legendary/mythic get a premium animated frame in every finish.
 - **Sensitive figures** keep their rarity but are never "Figure of the day" and never used in onboarding.
 - **Body font**: Figtree instead of Inter (the brief only suggested Inter; the project design rules exclude it).
   Titles stay in Bricolage Grotesque.
