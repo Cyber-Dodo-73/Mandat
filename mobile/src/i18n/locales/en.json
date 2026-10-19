@@ -29,7 +29,51 @@
     "empty": "Your collection is empty for now. Open your first pack to get started.",
     "progress": "{{owned}} of {{total}} cards",
     "copies_one": "{{count}} copy",
-    "copies_other": "{{count}} copies"
+    "copies_other": "{{count}} copies",
+    "offline": "Offline: your collection stays available, actions come back with the network.",
+    "searchPlaceholder": "Search a figure",
+    "results_one": "{{count}} card",
+    "results_other": "{{count}} cards",
+    "noResults": "No card matches these filters.",
+    "openCard": "Opens the card details",
+    "copiesShort": "×{{count}}",
+    "progressA11y": "{{label}}: {{owned}} of {{total}} cards",
+    "continents": {
+      "africa": "Africa",
+      "asia": "Asia",
+      "europe": "Europe",
+      "north_america": "North America",
+      "south_america": "South America",
+      "oceania": "Oceania"
+    },
+    "eras": {
+      "antiquity": "Antiquity",
+      "medieval": "Middle Ages",
+      "modern": "Early modern",
+      "contemporary": "Contemporary"
+    },
+    "sort": {
+      "label": "Sort by",
+      "number": "Number",
+      "rarity": "Rarity",
+      "obtained": "Obtained"
+    },
+    "filters": {
+      "title": "Filters",
+      "open_one": "Filters, {{count}} active",
+      "open_other": "Filters, {{count}} active",
+      "ownership": "Cards",
+      "all": "All",
+      "owned": "Owned",
+      "missing": "Missing",
+      "rarity": "Rarity",
+      "continent": "Continent",
+      "era": "Era",
+      "finish": "Finish",
+      "reset": "Clear all",
+      "show_one": "Show {{count}} card",
+      "show_other": "Show {{count}} cards"
+    }
   },
   "packs": {
     "seasonLabel": "Season {{season}}",
@@ -132,7 +176,31 @@
     "dragHint": "Drag the card or tilt your phone to see the foil.",
     "notOwned": "You don't own this card yet.",
     "copiesOfFinish_one": "{{finish}}: {{count}} copy",
-    "copiesOfFinish_other": "{{finish}}: {{count}} copies"
+    "copiesOfFinish_other": "{{finish}}: {{count}} copies",
+    "firstObtained": "Obtained on {{date}}",
+    "actions": {
+      "offline": "Recycling and crafting need a connection.",
+      "recycle": "Recycle",
+      "recycleTitle": "Recycle duplicates",
+      "recycleExplain": "You always keep one {{finish}} copy. Recycled duplicates turn into Influence.",
+      "recycleConfirm_one": "Recycle {{count}} duplicate",
+      "recycleConfirm_other": "Recycle {{count}} duplicates",
+      "recycled": "+{{amount}} Influence",
+      "gain": "Influence gained (estimate)",
+      "cost": "Cost",
+      "balance": "Your Influence: {{amount}}",
+      "craft": "Craft this card",
+      "craftTitle": "Craft this card",
+      "craftExplain": "The card joins your collection in the standard finish.",
+      "craftConfirm": "Confirm crafting",
+      "crafted": "Card crafted, −{{amount}} Influence",
+      "notEnough": "Not enough Influence: recycle duplicates or open boosters.",
+      "less": "One less",
+      "more": "One more",
+      "showcase": "Showcase",
+      "favorite": "Favorite",
+      "soon": "Showcase and favorite arrive with the profile."
+    }
   },
   "user": {
     "title": "Player",

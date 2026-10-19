@@ -29,7 +29,51 @@
     "empty": "Ta collection est vide pour l'instant. Ouvre ton premier booster pour commencer.",
     "progress": "{{owned}} cartes sur {{total}}",
     "copies_one": "{{count}} exemplaire",
-    "copies_other": "{{count}} exemplaires"
+    "copies_other": "{{count}} exemplaires",
+    "offline": "Hors ligne : ta collection reste consultable, les actions reviendront avec le réseau.",
+    "searchPlaceholder": "Chercher une figure",
+    "results_one": "{{count}} carte",
+    "results_other": "{{count}} cartes",
+    "noResults": "Aucune carte ne correspond à ces filtres.",
+    "openCard": "Ouvre le détail de la carte",
+    "copiesShort": "×{{count}}",
+    "progressA11y": "{{label}} : {{owned}} cartes sur {{total}}",
+    "continents": {
+      "africa": "Afrique",
+      "asia": "Asie",
+      "europe": "Europe",
+      "north_america": "Amérique du Nord",
+      "south_america": "Amérique du Sud",
+      "oceania": "Océanie"
+    },
+    "eras": {
+      "antiquity": "Antiquité",
+      "medieval": "Moyen Âge",
+      "modern": "Époque moderne",
+      "contemporary": "Époque contemporaine"
+    },
+    "sort": {
+      "label": "Trier par",
+      "number": "Numéro",
+      "rarity": "Rareté",
+      "obtained": "Obtention"
+    },
+    "filters": {
+      "title": "Filtres",
+      "open_one": "Filtres, {{count}} actif",
+      "open_other": "Filtres, {{count}} actifs",
+      "ownership": "Cartes",
+      "all": "Toutes",
+      "owned": "Possédées",
+      "missing": "Manquantes",
+      "rarity": "Rareté",
+      "continent": "Continent",
+      "era": "Époque",
+      "finish": "Finition",
+      "reset": "Tout effacer",
+      "show_one": "Voir {{count}} carte",
+      "show_other": "Voir {{count}} cartes"
+    }
   },
   "packs": {
     "seasonLabel": "Saison {{season}}",
@@ -132,7 +176,31 @@
     "dragHint": "Fais glisser la carte ou incline ton téléphone pour voir les reflets.",
     "notOwned": "Tu n'as pas encore cette carte.",
     "copiesOfFinish_one": "{{finish}} : {{count}} exemplaire",
-    "copiesOfFinish_other": "{{finish}} : {{count}} exemplaires"
+    "copiesOfFinish_other": "{{finish}} : {{count}} exemplaires",
+    "firstObtained": "Obtenue le {{date}}",
+    "actions": {
+      "offline": "Recycler et fabriquer demandent une connexion.",
+      "recycle": "Recycler",
+      "recycleTitle": "Recycler des doublons",
+      "recycleExplain": "Tu gardes toujours un exemplaire {{finish}}. Les doublons recyclés deviennent de l'Influence.",
+      "recycleConfirm_one": "Recycler {{count}} doublon",
+      "recycleConfirm_other": "Recycler {{count}} doublons",
+      "recycled": "+{{amount}} Influence",
+      "gain": "Influence gagnée (estimation)",
+      "cost": "Coût",
+      "balance": "Ton Influence : {{amount}}",
+      "craft": "Fabriquer cette carte",
+      "craftTitle": "Fabriquer cette carte",
+      "craftExplain": "La carte rejoint ta collection en finition standard.",
+      "craftConfirm": "Confirmer la fabrication",
+      "crafted": "Carte fabriquée, −{{amount}} Influence",
+      "notEnough": "Pas assez d'Influence : recycle des doublons ou ouvre des boosters.",
+      "less": "Un de moins",
+      "more": "Un de plus",
+      "showcase": "Vitrine",
+      "favorite": "Favorite",
+      "soon": "Vitrine et favorite arrivent avec le profil."
+    }
   },
   "user": {
     "title": "Joueur",
