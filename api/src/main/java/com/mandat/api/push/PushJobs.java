@@ -30,15 +30,17 @@ public class PushJobs {
     static final Duration TICKET_MAX_AGE = Duration.ofHours(24);
 
     private final PushSender sender;
+    private final PushOutbox outbox;
     private final PushDeviceRepository devices;
     private final ExpoPushClient client;
     private final PushProperties properties;
     private final JdbcClient jdbc;
     private final Clock clock;
 
-    PushJobs(PushSender sender, PushDeviceRepository devices, ExpoPushClient client, PushProperties properties,
-            JdbcClient jdbc, Clock clock) {
+    PushJobs(PushSender sender, PushOutbox outbox, PushDeviceRepository devices, ExpoPushClient client,
+            PushProperties properties, JdbcClient jdbc, Clock clock) {
         this.sender = sender;
+        this.outbox = outbox;
         this.devices = devices;
         this.client = client;
         this.properties = properties;
@@ -145,6 +147,59 @@ public class PushJobs {
             }
         }
         return sent;
+    }
+
+    private record FriendStreakSide(UUID streakId, int days, LocalDate lastShared, UUID playerId, String playerTimezone,
+            LocalDate playerLastActive, String partnerNickname, String partnerTimezone, LocalDate partnerLastActive) {}
+
+    /**
+     * Friend streak at risk: at {@code streakReminderHour} local, a player whose friend already
+     * played today (the friend's local day) but who hasn't yet (their local day) is reminded.
+     */
+    public int friendStreakAtRisk() {
+        Instant now = clock.instant();
+        List<FriendStreakSide> sides = jdbc.sql("""
+                select s.id, s.current, s.last_shared_day,
+                       me.id as player_id, me.timezone as player_tz, mp.last_active_day as player_last,
+                       other.nickname as partner_nickname, other.timezone as partner_tz, op.last_active_day as partner_last
+                from friend_streaks s
+                join users me on me.id in (s.user_a, s.user_b)
+                join users other on other.id in (s.user_a, s.user_b) and other.id <> me.id
+                left join player_progress mp on mp.user_id = me.id
+                left join player_progress op on op.user_id = other.id
+                where s.status = 'active' and s.current > 0 and s.last_shared_day is not null
+                  and exists (select 1 from push_devices d where d.user_id = me.id and d.enabled)
+                """)
+                .query((rs, row) -> new FriendStreakSide(rs.getObject("id", UUID.class), rs.getInt("current"),
+                        rs.getObject("last_shared_day", LocalDate.class), rs.getObject("player_id", UUID.class),
+                        rs.getString("player_tz"), rs.getObject("player_last", LocalDate.class),
+                        rs.getString("partner_nickname"), rs.getString("partner_tz"),
+                        rs.getObject("partner_last", LocalDate.class)))
+                .list();
+        int sent = 0;
+        for (FriendStreakSide side : sides) {
+            ZonedDateTime local = now.atZone(zone(side.playerTimezone()));
+            LocalDate today = local.toLocalDate();
+            LocalDate partnerToday = now.atZone(zone(side.partnerTimezone())).toLocalDate();
+            boolean partnerDone = partnerToday.equals(side.partnerLastActive());
+            boolean meDone = today.equals(side.playerLastActive());
+            // Still alive: the last shared day is at most yesterday for the earlier of the two calendars.
+            LocalDate reference = today.isBefore(partnerToday) ? today : partnerToday;
+            boolean alive = !side.lastShared().isBefore(reference.minusDays(1));
+            if (local.getHour() < properties.streakReminderHour() || meDone || !partnerDone || !alive) {
+                continue;
+            }
+            if (sender.send(side.playerId(), new PushNotification.FriendStreakAtRisk(side.partnerNickname(), side.days()),
+                    "friend_streak_risk:" + side.streakId() + ":" + today) == PushSender.Outcome.SENT) {
+                sent++;
+            }
+        }
+        return sent;
+    }
+
+    /** Sends event-driven notifications deferred by quiet hours. */
+    public int flushOutbox() {
+        return outbox.flush();
     }
 
     /** Reads Expo receipts of past sends and disables the tokens Expo reports as not registered. */

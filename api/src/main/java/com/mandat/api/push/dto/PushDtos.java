@@ -19,7 +19,8 @@ public final class PushDtos {
             @Pattern(regexp = "^(fr|en)$") String locale) {}
 
     public record PushPreferencesDto(
-            boolean boosterReady, boolean streak, boolean friends, boolean events, boolean marketing) {}
+            boolean boosterReady, boolean streak, boolean friends, boolean events, boolean marketing,
+            @Schema(description = "Nudges from friends (\"X te relance !\")") boolean nudges) {}
 
     /** Partial update: null fields keep their value. */
     public record PushPreferencesPatch(
@@ -27,5 +28,6 @@ public final class PushDtos {
             @Schema(nullable = true) Boolean streak,
             @Schema(nullable = true) Boolean friends,
             @Schema(nullable = true) Boolean events,
-            @Schema(nullable = true) Boolean marketing) {}
+            @Schema(nullable = true) Boolean marketing,
+            @Schema(nullable = true) Boolean nudges) {}
 }

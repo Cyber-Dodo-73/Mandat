@@ -288,6 +288,75 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/friend-streaks": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Friend streaks and invitations */
+        get: operations["getFriendStreaks"];
+        put?: never;
+        /** Invite a friend to a friend streak (accepts theirs if they invited first) */
+        post: operations["inviteFriendStreak"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/friend-streaks/{id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        /** End a friend streak or cancel an invitation */
+        delete: operations["removeFriendStreak"];
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/friend-streaks/{id}/accept": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Accept a friend streak invitation */
+        post: operations["acceptFriendStreak"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/friend-streaks/{id}/decline": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Decline a friend streak invitation */
+        post: operations["declineFriendStreak"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/friends": {
         parameters: {
             query?: never;
@@ -334,6 +403,23 @@ export interface paths {
         put?: never;
         /** Accept a friend request received from this player */
         post: operations["accept"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/friends/{friendCode}/nudge": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Nudge a friend who hasn't kept their streak today */
+        post: operations["nudgeFriend"];
         delete?: never;
         options?: never;
         head?: never;
@@ -743,6 +829,74 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/streak": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Streak, freezes, milestones and repair offer */
+        get: operations["getStreak"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/streak/freezes/purchase": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Buy a streak freeze (Influence today; Sceaux once the premium currency exists) */
+        post: operations["purchaseStreakFreeze"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/streak/history": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Calendar of the last days (active, frozen, missed) */
+        get: operations["getStreakHistory"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/streak/repair": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Repair a streak lost in the last 24 h (once per month) */
+        post: operations["repairStreak"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
 }
 export type webhooks = Record<string, never>;
 export interface components {
@@ -1097,12 +1251,64 @@ export interface components {
              */
             nextAt?: string | null;
         };
+        FreezePricesDto: {
+            /** Format: int32 */
+            influence: number;
+            /**
+             * Format: int32
+             * @description Price in Sceaux, null while the premium currency isn't available
+             */
+            sceaux?: number | null;
+        };
         FriendDto: {
+            /** @description The friend kept their streak today (their local day); false for requests */
+            activeToday: boolean;
             avatarId: string;
             friendCode: string;
             nickname: string;
+            /** @description I already nudged this friend today (my local day) */
+            nudgedToday: boolean;
             /** Format: date-time */
             since: string;
+        };
+        FriendStreakDto: {
+            /** Format: int32 */
+            best: number;
+            /**
+             * Format: int32
+             * @description Shared streak as of today (0 when broken)
+             */
+            current: number;
+            friend: components["schemas"]["FriendSummaryDto"];
+            /** @description The friend kept theirs today (their local day) */
+            friendDoneToday: boolean;
+            id: string;
+            /** @description I kept my streak today (my local day) */
+            meDoneToday: boolean;
+            /** Format: int32 */
+            nextMilestone?: number | null;
+            /** Format: date-time */
+            since: string;
+        };
+        FriendStreakInviteDto: {
+            /** Format: date-time */
+            at: string;
+            friend: components["schemas"]["FriendSummaryDto"];
+            id: string;
+        };
+        FriendStreaksResponse: {
+            /** @description Invitations I received */
+            incoming: components["schemas"]["FriendStreakInviteDto"][];
+            /** Format: int32 */
+            maxFriendStreaks: number;
+            /** @description Invitations I sent */
+            outgoing: components["schemas"]["FriendStreakInviteDto"][];
+            streaks: components["schemas"]["FriendStreakDto"][];
+        };
+        FriendSummaryDto: {
+            avatarId: string;
+            friendCode: string;
+            nickname: string;
         };
         FriendsResponse: {
             friends: components["schemas"]["FriendDto"][];
@@ -1112,6 +1318,9 @@ export interface components {
             maxFriends: number;
             /** @description Requests I sent, not answered yet */
             outgoing: components["schemas"]["FriendDto"][];
+        };
+        InviteFriendStreakRequest: {
+            friendCode: string;
         };
         LimitsResponse: {
             crafts: components["schemas"]["CraftAllowanceDto"];
@@ -1151,6 +1360,18 @@ export interface components {
             appName: string;
             /** Format: date-time */
             serverTime: string;
+        };
+        MilestoneDto: {
+            /** Format: int32 */
+            days: number;
+            /**
+             * Format: int32
+             * @description Streak freezes added to the inventory
+             */
+            freezes: number;
+            /** @description Already reached (rewards are granted once per lifetime) */
+            reached: boolean;
+            reward: components["schemas"]["RewardDto"];
         };
         MissionDto: {
             claimed: boolean;
@@ -1214,6 +1435,25 @@ export interface components {
              * @description A legendary or better is guaranteed within the player's first N boosters
              */
             legendaryWithinFirstPacks: number;
+        };
+        NextMilestoneDto: {
+            /** Format: int32 */
+            days: number;
+            /** Format: int32 */
+            freezes: number;
+            /**
+             * Format: int32
+             * @description Days left to reach it
+             */
+            remaining: number;
+            reward: components["schemas"]["RewardDto"];
+        };
+        NudgeResponse: {
+            /**
+             * Format: int32
+             * @description Nudges I can still send today
+             */
+            remainingToday: number;
         };
         OddsResponse: {
             /** @description Themed booster: a rarity without any card of the continent is drawn from the whole season */
@@ -1340,8 +1580,13 @@ export interface components {
             currentStreak: number;
             /** Format: date-time */
             dailyResetAt: string;
-            /** @description This week's free streak freeze is unused */
+            /** @description At least one streak freeze is in stock */
             freezeAvailable: boolean;
+            /**
+             * Format: int32
+             * @description Streak freezes in stock (max 2), this week's free one included
+             */
+            freezes: number;
             /** Format: int32 */
             influence: number;
             /** Format: int32 */
@@ -1379,11 +1624,29 @@ export interface components {
             stats: components["schemas"]["ProfileStats"];
             titleId?: string | null;
         };
+        PurchaseFreezeRequest: {
+            /** @enum {string} */
+            currency: "influence" | "sceaux";
+        };
+        PurchaseFreezeResponse: {
+            /** @enum {string} */
+            currency: "influence" | "sceaux";
+            /** Format: int32 */
+            freezes: number;
+            /** Format: int32 */
+            influence: number;
+            /** Format: int32 */
+            maxFreezes: number;
+            /** Format: int32 */
+            price: number;
+        };
         PushPreferencesDto: {
             boosterReady: boolean;
             events: boolean;
             friends: boolean;
             marketing: boolean;
+            /** @description Nudges from friends ("X te relance !") */
+            nudges: boolean;
             streak: boolean;
         };
         PushPreferencesPatch: {
@@ -1391,6 +1654,7 @@ export interface components {
             events?: boolean | null;
             friends?: boolean | null;
             marketing?: boolean | null;
+            nudges?: boolean | null;
             streak?: boolean | null;
         };
         QuestionDto: {
@@ -1495,6 +1759,21 @@ export interface components {
             /** @example Europe/Paris */
             timezone?: string | null;
         };
+        RepairDto: {
+            available: boolean;
+            /**
+             * Format: date-time
+             * @description End of the repair window (player's midnight)
+             */
+            expiresAt?: string | null;
+            /**
+             * Format: int32
+             * @description Streak after the repair
+             */
+            restoresTo?: number | null;
+            /** @description This month's repair is already used */
+            usedThisMonth: boolean;
+        };
         ReportRequest: {
             friendCode: string;
             /** @description Private note for moderators */
@@ -1570,6 +1849,54 @@ export interface components {
             nonce?: string | null;
             /** @example Europe/Paris */
             timezone?: string | null;
+        };
+        StreakDayDto: {
+            /** Format: date */
+            date: string;
+            /** @enum {string} */
+            status: "active" | "frozen" | "missed" | "today" | "none";
+        };
+        StreakHistoryResponse: {
+            days: components["schemas"]["StreakDayDto"][];
+            /** Format: date */
+            from: string;
+            /** Format: date */
+            to: string;
+        };
+        StreakResponse: {
+            /** @description A streak activity was already done today */
+            activeToday: boolean;
+            /** Format: int32 */
+            best: number;
+            /**
+             * Format: int32
+             * @description Streak as of today (0 when broken)
+             */
+            current: number;
+            /**
+             * Format: date-time
+             * @description Next local midnight: today's activity must happen before it
+             */
+            dayEndsAt: string;
+            freezePrices: components["schemas"]["FreezePricesDto"];
+            /**
+             * Format: int32
+             * @description Streak freezes in stock (this week's free one included)
+             */
+            freezes: number;
+            /** Format: int32 */
+            influence: number;
+            /** Format: int32 */
+            maxFreezes: number;
+            milestones: components["schemas"]["MilestoneDto"][];
+            nextMilestone?: components["schemas"]["NextMilestoneDto"];
+            repair: components["schemas"]["RepairDto"];
+            timezone: string;
+            /**
+             * Format: date
+             * @description Player's local date
+             */
+            today: string;
         };
         TierDto: {
             claimable: boolean;
@@ -2029,6 +2356,116 @@ export interface operations {
             };
         };
     };
+    getFriendStreaks: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["FriendStreaksResponse"];
+                };
+            };
+        };
+    };
+    inviteFriendStreak: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["InviteFriendStreakRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["FriendStreaksResponse"];
+                };
+            };
+        };
+    };
+    removeFriendStreak: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["FriendStreaksResponse"];
+                };
+            };
+        };
+    };
+    acceptFriendStreak: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["FriendStreaksResponse"];
+                };
+            };
+        };
+    };
+    declineFriendStreak: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["FriendStreaksResponse"];
+                };
+            };
+        };
+    };
     friends: {
         parameters: {
             query?: never;
@@ -2113,6 +2550,28 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["FriendsResponse"];
+                };
+            };
+        };
+    };
+    nudgeFriend: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                friendCode: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["NudgeResponse"];
                 };
             };
         };
@@ -2676,6 +3135,95 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["ClaimResponse"];
+                };
+            };
+        };
+    };
+    getStreak: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["StreakResponse"];
+                };
+            };
+        };
+    };
+    purchaseStreakFreeze: {
+        parameters: {
+            query?: never;
+            header?: {
+                "Idempotency-Key"?: string;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PurchaseFreezeRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PurchaseFreezeResponse"];
+                };
+            };
+        };
+    };
+    getStreakHistory: {
+        parameters: {
+            query?: {
+                /** @description Number of days, up to 120 */
+                days?: number;
+            };
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["StreakHistoryResponse"];
+                };
+            };
+        };
+    };
+    repairStreak: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["StreakResponse"];
                 };
             };
         };

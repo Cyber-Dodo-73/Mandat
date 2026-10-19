@@ -38,6 +38,16 @@ class PushScheduler {
         lock.runExclusively("push.unclaimed-rewards", LEASE, jobs::unclaimedRewards);
     }
 
+    @Scheduled(initialDelayString = "PT2M", fixedDelayString = "PT10M")
+    void friendStreakAtRisk() {
+        lock.runExclusively("push.friend-streak-at-risk", LEASE, jobs::friendStreakAtRisk);
+    }
+
+    @Scheduled(initialDelayString = "PT1M", fixedDelayString = "PT5M")
+    void outbox() {
+        lock.runExclusively("push.outbox", LEASE, jobs::flushOutbox);
+    }
+
     @Scheduled(initialDelayString = "PT5M", fixedDelayString = "PT15M")
     void receipts() {
         lock.runExclusively("push.receipts", LEASE, jobs::checkReceipts);

@@ -14,7 +14,14 @@ public final class SocialDtos {
 
     private SocialDtos() {}
 
-    public record FriendDto(String nickname, String friendCode, String avatarId, Instant since) {}
+    public record FriendDto(
+            String nickname,
+            String friendCode,
+            String avatarId,
+            Instant since,
+            @Schema(description = "The friend kept their streak today (their local day); false for requests")
+                    boolean activeToday,
+            @Schema(description = "I already nudged this friend today (my local day)") boolean nudgedToday) {}
 
     public record FriendsResponse(
             List<FriendDto> friends,

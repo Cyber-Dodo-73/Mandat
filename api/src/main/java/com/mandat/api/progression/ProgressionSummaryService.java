@@ -6,7 +6,7 @@ import com.mandat.api.progression.level.XpCurve;
 import com.mandat.api.progression.level.XpService;
 import com.mandat.api.progression.streak.StreakRules;
 import com.mandat.api.progression.streak.StreakRules.State;
-import com.mandat.api.progression.streak.StreakService;
+import com.mandat.api.progression.streak.StreakRepository;
 import java.time.Clock;
 import java.time.Instant;
 import java.time.LocalDate;
@@ -25,6 +25,7 @@ public class ProgressionSummaryService {
     private final ProgressRepository progress;
     private final PlayerCalendar calendar;
     private final WalletService wallet;
+    private final StreakRepository streaks;
     private final Clock clock;
 
     public ProgressionSummaryService(
@@ -33,12 +34,14 @@ public class ProgressionSummaryService {
             ProgressRepository progress,
             PlayerCalendar calendar,
             WalletService wallet,
+            StreakRepository streaks,
             Clock clock) {
         this.xp = xp;
         this.curve = curve;
         this.progress = progress;
         this.calendar = calendar;
         this.wallet = wallet;
+        this.streaks = streaks;
         this.clock = clock;
     }
 
@@ -49,7 +52,8 @@ public class ProgressionSummaryService {
         PlayerProgress row = progress.find(userId).orElseThrow();
         ZoneId zone = calendar.zoneOf(userId);
         LocalDate today = PlayerCalendar.localDate(now, zone);
-        State streak = StreakService.stateOf(row);
+        State streak = streaks.find(userId).orElse(State.fresh());
+        int freezes = StreakRules.freezesAvailable(streak, today);
         boolean maxLevel = row.level() >= curve.maxLevel();
         WalletService.Balance balance = wallet.balance(userId);
         return new ProgressionResponse(
@@ -61,7 +65,8 @@ public class ProgressionSummaryService {
                 StreakRules.effectiveStreak(streak, today),
                 row.bestStreak(),
                 StreakRules.activeToday(streak, today),
-                StreakRules.freezeAvailableFor(streak, today),
+                freezes > 0,
+                freezes,
                 zone.getId(),
                 PlayerCalendar.nextDailyReset(now, zone),
                 PlayerCalendar.nextWeeklyReset(now, zone),

@@ -27,7 +27,7 @@ public class PushPreferencesRepository {
     }
 
     public Map<PushCategory, Boolean> find(UUID userId) {
-        return jdbc.sql("select booster_ready, streak, friends, events, marketing from push_preferences where user_id = :id")
+        return jdbc.sql("select booster_ready, streak, friends, events, marketing, nudges from push_preferences where user_id = :id")
                 .param("id", userId)
                 .query((rs, row) -> {
                     Map<PushCategory, Boolean> prefs = new EnumMap<>(PushCategory.class);
@@ -36,6 +36,7 @@ public class PushPreferencesRepository {
                     prefs.put(PushCategory.FRIENDS, rs.getBoolean("friends"));
                     prefs.put(PushCategory.EVENTS, rs.getBoolean("events"));
                     prefs.put(PushCategory.MARKETING, rs.getBoolean("marketing"));
+                    prefs.put(PushCategory.NUDGES, rs.getBoolean("nudges"));
                     return prefs;
                 })
                 .optional()
@@ -44,11 +45,12 @@ public class PushPreferencesRepository {
 
     public void save(UUID userId, Map<PushCategory, Boolean> prefs, Instant now) {
         jdbc.sql("""
-                insert into push_preferences (user_id, booster_ready, streak, friends, events, marketing, updated_at)
-                values (:id, :booster, :streak, :friends, :events, :marketing, :now)
+                insert into push_preferences (user_id, booster_ready, streak, friends, events, marketing, nudges, updated_at)
+                values (:id, :booster, :streak, :friends, :events, :marketing, :nudges, :now)
                 on conflict (user_id) do update set
                     booster_ready = excluded.booster_ready, streak = excluded.streak, friends = excluded.friends,
-                    events = excluded.events, marketing = excluded.marketing, updated_at = excluded.updated_at
+                    events = excluded.events, marketing = excluded.marketing, nudges = excluded.nudges,
+                    updated_at = excluded.updated_at
                 """)
                 .param("id", userId)
                 .param("booster", prefs.get(PushCategory.BOOSTER_READY))
@@ -56,6 +58,7 @@ public class PushPreferencesRepository {
                 .param("friends", prefs.get(PushCategory.FRIENDS))
                 .param("events", prefs.get(PushCategory.EVENTS))
                 .param("marketing", prefs.get(PushCategory.MARKETING))
+                .param("nudges", prefs.get(PushCategory.NUDGES))
                 .param("now", Timestamp.from(now))
                 .update();
     }

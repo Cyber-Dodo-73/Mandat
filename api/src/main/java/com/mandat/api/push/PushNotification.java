@@ -85,6 +85,72 @@ public sealed interface PushNotification {
         }
     }
 
+    record Nudge(String nickname) implements PushNotification {
+        public PushCategory category() {
+            return PushCategory.NUDGES;
+        }
+
+        public String path() {
+            return "/";
+        }
+
+        public Text text(String locale) {
+            return english(locale)
+                    ? new Text(nickname + " is nudging you!", "Your streak is waiting: open a booster or play a quiz today.")
+                    : new Text(nickname + " te relance !", "Ta série t'attend : ouvre un booster ou fais un quiz aujourd'hui.");
+        }
+    }
+
+    record FriendStreakInvite(String nickname) implements PushNotification {
+        public PushCategory category() {
+            return PushCategory.FRIENDS;
+        }
+
+        public String path() {
+            return "/streak";
+        }
+
+        public Text text(String locale) {
+            return english(locale)
+                    ? new Text("Friend streak invitation", nickname + " wants to start a streak with you.")
+                    : new Text("Série entre amis", nickname + " te propose une série à deux. Relève le défi !");
+        }
+    }
+
+    record FriendStreakAtRisk(String nickname, int days) implements PushNotification {
+        public PushCategory category() {
+            return PushCategory.FRIENDS;
+        }
+
+        public String path() {
+            return "/streak";
+        }
+
+        public Text text(String locale) {
+            return english(locale)
+                    ? new Text("Your friend streak is at risk", nickname + " played today. Play too to keep your "
+                            + days + "-day streak together!")
+                    : new Text("Votre série à deux est en danger", nickname + " a joué aujourd'hui. Joue aussi pour garder "
+                            + "vos " + days + " jour" + (days > 1 ? "s" : "") + " de série !");
+        }
+    }
+
+    record FriendStreakMilestone(String nickname, int days) implements PushNotification {
+        public PushCategory category() {
+            return PushCategory.FRIENDS;
+        }
+
+        public String path() {
+            return "/streak";
+        }
+
+        public Text text(String locale) {
+            return english(locale)
+                    ? new Text(days + " days together!", "You and " + nickname + " reached a " + days + "-day friend streak.")
+                    : new Text(days + " jours ensemble !", "Toi et " + nickname + " avez atteint " + days + " jours de série à deux.");
+        }
+    }
+
     record RewardsUnclaimed() implements PushNotification {
         public PushCategory category() {
             return PushCategory.EVENTS;

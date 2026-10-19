@@ -10,7 +10,9 @@ public enum WalletSource {
     LEVEL_REWARD("progression.level"),
     PROGRESSION_REWARD("progression.reward"),
     QUIZ_REWARD("quiz.reward"),
-    DUEL_REWARD("duel.reward");
+    DUEL_REWARD("duel.reward"),
+    STREAK_FREEZE("streak.freeze"),
+    STREAK_MILESTONE("streak.milestone");
 
     private final String key;
 

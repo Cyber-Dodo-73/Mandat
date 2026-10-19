@@ -52,6 +52,17 @@ public enum ErrorCode {
     QUIZ_ANSWER_OUT_OF_ORDER("quiz_answer_out_of_order", HttpStatus.CONFLICT),
     DUEL_FINISHED("duel_finished", HttpStatus.CONFLICT),
     DUEL_CARD_UNAVAILABLE("duel_card_unavailable", HttpStatus.CONFLICT),
+
+    // streaks / friend streaks / nudges
+    FREEZE_STOCK_FULL("freeze_stock_full", HttpStatus.CONFLICT),
+    CURRENCY_UNAVAILABLE("currency_unavailable", HttpStatus.UNPROCESSABLE_CONTENT),
+    STREAK_REPAIR_UNAVAILABLE("streak_repair_unavailable", HttpStatus.CONFLICT),
+    NOT_FRIENDS("not_friends", HttpStatus.CONFLICT),
+    FRIEND_STREAK_LIMIT_REACHED("friend_streak_limit_reached", HttpStatus.CONFLICT),
+    FRIEND_STREAK_EXISTS("friend_streak_exists", HttpStatus.CONFLICT),
+    NUDGE_ALREADY_SENT("nudge_already_sent", HttpStatus.CONFLICT),
+    NUDGE_LIMIT_REACHED("nudge_limit_reached", HttpStatus.CONFLICT),
+    FRIEND_ALREADY_ACTIVE("friend_already_active", HttpStatus.CONFLICT),
     INTERNAL_ERROR("internal_error", HttpStatus.INTERNAL_SERVER_ERROR);
 
     private final String code;

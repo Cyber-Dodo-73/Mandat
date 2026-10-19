@@ -25,6 +25,10 @@ import { describeError } from '@/lib/api';
 import { haptics } from '@/lib/haptics';
 import { radius, spacing, useTheme } from '@/theme';
 
+import { friendStreakLink, nudgeButton } from '@/features/streak/friendStreakView';
+import { streakPalette } from '@/features/streak/palette';
+import { useFriendStreaksQuery, useInviteFriendStreak, useNudgeFriend } from '@/features/streak/queries';
+
 import { isFriendCode, normalizeFriendCode } from './friendCode';
 import {
   useAcceptFriendMutation,
@@ -44,6 +48,9 @@ export function FriendsScreen() {
   const add = useAddFriendMutation();
   const accept = useAcceptFriendMutation();
   const remove = useRemoveFriendMutation();
+  const friendStreaks = useFriendStreaksQuery();
+  const inviteStreak = useInviteFriendStreak();
+  const nudge = useNudgeFriend();
   const [code, setCode] = useState(params.code ?? '');
   const [message, setMessage] = useState<{ tone: 'success' | 'danger'; text: string } | null>(null);
   const [removing, setRemoving] = useState<Friend | null>(null);
@@ -144,7 +151,33 @@ export function FriendsScreen() {
           <EmptyState icon="people-outline" message={t('friends.empty')} />
         ) : (
           data.friends.map((friend) => (
-            <FriendRow key={friend.friendCode} friend={friend} onPress={() => router.push({ pathname: '/user/[id]', params: { id: friend.friendCode } })}>
+            <FriendRow
+              key={friend.friendCode}
+              friend={friend}
+              inactive={!friend.activeToday}
+              onPress={() => router.push({ pathname: '/user/[id]', params: { id: friend.friendCode } })}
+            >
+              <NudgeButton
+                friend={friend}
+                disabled={!online || nudge.isPending}
+                onPress={() =>
+                  nudge.mutate(friend.friendCode, {
+                    onSuccess: () => setMessage({ tone: 'success', text: t('friendStreak.nudge.done', { nickname: friend.nickname }) }),
+                    onError: fail,
+                  })
+                }
+              />
+              <FriendStreakButton
+                state={friendStreakLink(friendStreaks.data, friend.friendCode)}
+                nickname={friend.nickname}
+                disabled={!online || inviteStreak.isPending}
+                onPress={() =>
+                  inviteStreak.mutate(friend.friendCode, {
+                    onSuccess: () => setMessage({ tone: 'success', text: t('friendStreak.invited', { nickname: friend.nickname }) }),
+                    onError: fail,
+                  })
+                }
+              />
               <PressableScale
                 accessibilityRole="button"
                 accessibilityLabel={t('friends.remove.button', { nickname: friend.nickname })}
@@ -194,14 +227,63 @@ export function FriendsScreen() {
   );
 }
 
+/** "Relancer" for a friend who hasn't played their day yet; disabled once sent today. */
+function NudgeButton({ friend, disabled, onPress }: { friend: Friend; disabled: boolean; onPress: () => void }) {
+  const { t } = useTranslation();
+  const state = nudgeButton(friend);
+  if (state === 'hidden') return null;
+  return (
+    <Button3D
+      label={state === 'sent' ? t('friendStreak.nudge.sent') : t('friendStreak.nudge.button')}
+      size="sm"
+      variant={state === 'sent' ? 'secondary' : 'primary'}
+      disabled={disabled || state === 'sent'}
+      accessibilityHint={t('friendStreak.nudge.hint', { nickname: friend.nickname })}
+      onPress={onPress}
+    />
+  );
+}
+
+/** Flame button: invite to a friend streak, or shows that one is running / pending. */
+function FriendStreakButton({
+  state,
+  nickname,
+  disabled,
+  onPress,
+}: {
+  state: ReturnType<typeof friendStreakLink>;
+  nickname: string;
+  disabled: boolean;
+  onPress: () => void;
+}) {
+  const { t } = useTranslation();
+  const { colors } = useTheme();
+  if (state === 'full') return null;
+  if (state !== 'available') {
+    return (
+      <PressableScale accessibilityRole="button" accessibilityLabel={t(`friendStreak.link.${state}`, { nickname })} hitSlop={8} onPress={() => router.push('/streak')}>
+        <Icon name={state === 'active' ? 'flame' : 'hourglass-outline'} size={22} color={state === 'active' ? streakPalette.flame : colors.textMuted} />
+      </PressableScale>
+    );
+  }
+  return (
+    <PressableScale accessibilityRole="button" accessibilityLabel={t('friendStreak.link.available', { nickname })} hitSlop={8} disabled={disabled} onPress={onPress}>
+      <Icon name="flame-outline" size={22} color={streakPalette.flame} />
+    </PressableScale>
+  );
+}
+
 function FriendRow({
   friend,
   pending = false,
+  inactive = false,
   onPress,
   children,
 }: {
   friend: Friend;
   pending?: boolean;
+  /** Hasn't kept their streak yet today (their local day). */
+  inactive?: boolean;
   onPress?: () => void;
   children?: ReactNode;
 }) {
@@ -222,7 +304,13 @@ function FriendRow({
           <Text variant="bodyStrong" numberOfLines={1}>
             {friend.nickname}
           </Text>
-          <Caption>{pending ? t('friends.pending') : friend.friendCode}</Caption>
+          {inactive ? (
+            <Text variant="caption" color={colors.danger}>
+              {t('friendStreak.inactiveToday')}
+            </Text>
+          ) : (
+            <Caption>{pending ? t('friends.pending') : friend.friendCode}</Caption>
+          )}
         </View>
       </PressableScale>
       {children}

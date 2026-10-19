@@ -4,7 +4,7 @@
  */
 const LOCAL_KIND_PATHS: Record<string, string> = {
   packReady: '/',
-  streakAtRisk: '/',
+  streakAtRisk: '/streak',
 };
 
 export function pathFromNotificationData(data: unknown): string | null {

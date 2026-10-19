@@ -20,14 +20,14 @@ export type HubProgress = {
   streakDays: number;
   /** Today's streak activity (booster or quiz) is done. */
   streakActiveToday: boolean;
-  /** This week's free streak freeze is still available. */
-  freezeAvailable: boolean;
+  /** Streak freezes in stock. */
+  freezes: number;
   influence: number;
 };
 
 export function toHubProgress(progression: Progression | undefined): HubProgress {
   if (!progression) {
-    return { level: 1, xp: 0, xpForNextLevel: 1, streakDays: 0, streakActiveToday: false, freezeAvailable: false, influence: 0 };
+    return { level: 1, xp: 0, xpForNextLevel: 1, streakDays: 0, streakActiveToday: false, freezes: 0, influence: 0 };
   }
   return {
     level: progression.level,
@@ -36,7 +36,7 @@ export function toHubProgress(progression: Progression | undefined): HubProgress
     xpForNextLevel: progression.xpForNextLevel ?? Math.max(1, progression.xpIntoLevel),
     streakDays: progression.currentStreak,
     streakActiveToday: progression.streakActiveToday,
-    freezeAvailable: progression.freezeAvailable,
+    freezes: progression.freezes,
     influence: progression.influence,
   };
 }
@@ -117,7 +117,7 @@ function LevelRing({ ratio, track, fill }: { ratio: number; track: string; fill:
   );
 }
 
-/** One counter: the flame grows with the streak and glows once today is done; the freeze is a corner badge. */
+/** One counter: the flame grows with the streak and glows once today is done; freezes in stock as a corner badge. Opens the streak screen. */
 function StreakPill({ progress }: { progress: HubProgress }) {
   const { t } = useTranslation();
   const language = useLanguage();
@@ -125,24 +125,30 @@ function StreakPill({ progress }: { progress: HubProgress }) {
   const label = [
     t('home.topBar.streakA11y', { count: progress.streakDays }),
     progress.streakActiveToday ? t('streak.doneToday') : t('streak.pendingToday'),
-    progress.freezeAvailable ? t('streak.freezeAvailable') : null,
+    progress.freezes > 0 ? t('streak.freezesInStock', { count: progress.freezes }) : null,
   ]
     .filter(Boolean)
     .join('. ');
   return (
-    <HudPill
-      label={label}
-      glow={progress.streakActiveToday ? colors.flame : undefined}
-      icon={<StreakFlame streak={progress.streakDays} activeToday={progress.streakActiveToday} base={18} />}
-      value={formatNumber(progress.streakDays, language)}
-      corner={
-        progress.freezeAvailable ? (
-          <View style={[styles.corner, { backgroundColor: colors.brand, borderColor: colors.background }]}>
-            <Icon name="snow" size={10} color={colors.onBrand} />
-          </View>
-        ) : null
-      }
-    />
+    <PressableScale
+      accessibilityRole="button"
+      accessibilityHint={t('streak.openHint')}
+      onPress={() => router.push('/streak')}
+    >
+      <HudPill
+        label={label}
+        glow={progress.streakActiveToday ? colors.flame : undefined}
+        icon={<StreakFlame streak={progress.streakDays} activeToday={progress.streakActiveToday} base={18} />}
+        value={formatNumber(progress.streakDays, language)}
+        corner={
+          progress.freezes > 0 ? (
+            <View style={[styles.corner, { backgroundColor: colors.brand, borderColor: colors.background }]}>
+              <Icon name="snow" size={10} color={colors.onBrand} />
+            </View>
+          ) : null
+        }
+      />
+    </PressableScale>
   );
 }
 

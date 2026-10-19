@@ -28,6 +28,7 @@ function RootStack() {
           <Stack.Screen name="pack-opening" options={{ presentation: 'fullScreenModal', animation: 'fade' }} />
           <Stack.Screen name="user/[id]" />
           <Stack.Screen name="friends" />
+          <Stack.Screen name="streak" />
           <Stack.Screen name="friend/[code]" />
           <Stack.Screen name="settings" />
           <Stack.Screen name="credits" />

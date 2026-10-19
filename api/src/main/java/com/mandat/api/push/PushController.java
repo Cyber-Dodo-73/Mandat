@@ -77,6 +77,7 @@ public class PushController {
         apply(prefs, PushCategory.FRIENDS, patch.friends());
         apply(prefs, PushCategory.EVENTS, patch.events());
         apply(prefs, PushCategory.MARKETING, patch.marketing());
+        apply(prefs, PushCategory.NUDGES, patch.nudges());
         preferences.save(user.id(), prefs, clock.instant().truncatedTo(ChronoUnit.MICROS));
         return toDto(prefs);
     }
@@ -89,6 +90,7 @@ public class PushController {
 
     private static PushPreferencesDto toDto(Map<PushCategory, Boolean> prefs) {
         return new PushPreferencesDto(prefs.get(PushCategory.BOOSTER_READY), prefs.get(PushCategory.STREAK),
-                prefs.get(PushCategory.FRIENDS), prefs.get(PushCategory.EVENTS), prefs.get(PushCategory.MARKETING));
+                prefs.get(PushCategory.FRIENDS), prefs.get(PushCategory.EVENTS), prefs.get(PushCategory.MARKETING),
+                prefs.get(PushCategory.NUDGES));
     }
 }
