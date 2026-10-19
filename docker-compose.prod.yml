@@ -22,7 +22,9 @@ services:
       - internal
 
   api:
-    build: ./api
+    build:
+      context: .
+      dockerfile: api/Dockerfile
     restart: unless-stopped
     depends_on:
       postgres:
@@ -37,10 +39,6 @@ services:
       MANDAT_JWT_SECRET: ${MANDAT_JWT_SECRET:?Set MANDAT_JWT_SECRET (at least 32 bytes) in .env}
       MANDAT_APPLE_CLIENT_IDS: ${MANDAT_APPLE_CLIENT_IDS:-fr.cyberdodo.mandat,fr.cyberdodo.mandat.dev}
       MANDAT_GOOGLE_CLIENT_IDS: ${MANDAT_GOOGLE_CLIENT_IDS:-}
-      MANDAT_CATALOG_LOCATION: ${MANDAT_CATALOG_LOCATION:-file:/data/cards.season1.json}
-      MANDAT_CATALOG_FIRSTPACKRULESLOCATION: ${MANDAT_CATALOG_FIRSTPACKRULESLOCATION:-file:/data/firstPackRules.json}
-    volumes:
-      - ./data:/data:ro
     expose:
       - "8080"
     networks:

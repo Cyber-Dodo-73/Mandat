@@ -1,0 +1,9 @@
+# Build context is the repo root: only the API sources and the season catalog are needed.
+*
+!api/gradlew
+!api/gradle/
+!api/settings.gradle.kts
+!api/build.gradle.kts
+!api/src/
+!data/cards.season1.json
+!data/firstPackRules.json
