@@ -1,5 +1,6 @@
 import { PATHS } from './config.ts';
 import { build, fetchRaw } from './pipeline.ts';
+import { portraits } from './portraits.ts';
 import { report } from './report.ts';
 
 const USAGE = `Usage: npm run build -- <command> [options]
@@ -9,6 +10,8 @@ Commands:
   build     Resolve, score, select and write data/candidates.season1.json + data/cards.season1.json
   report    Print distribution, top 40 and sensitive cards from data/candidates.season1.json
   all       build then report
+  portraits Download Wikidata (P18) portraits from Commons into data/portraits/ and write
+            data/portraits.manifest.json with license metadata (not used by the app)
 
 Options:
   --allow-missing-content   Emit placeholder content for cards without data/content/<QID>.json
@@ -41,6 +44,9 @@ async function main(): Promise<void> {
       break;
     case 'report':
       await report();
+      break;
+    case 'portraits':
+      await portraits();
       break;
     case 'all':
       await build(options);

@@ -8,6 +8,7 @@ npm install
 npm run build -- all --allow-missing-content   # build + report, placeholders for missing content
 npm run build -- build                          # strict: fails if any card lacks data/content/<QID>.json
 npm run build -- report                         # distribution, top 40, sensitive cards
+npm run build -- portraits                      # reference portraits from Wikimedia Commons
 npm test
 ```
 
@@ -73,3 +74,27 @@ to download everything again. `--as-of YYYY-MM-DD` pins the end of the pageview 
 - `data/firstPackRules.json`: the onboarding pack rules consumed by the API.
 - `data/cards.season1.json`: `{ season, version, cards }` where `version` is a content hash
   used by the API seed and the app to detect catalog changes.
+
+## Reference portraits (`npm run build -- portraits`)
+
+`src/portraits.ts` reads each card's Wikidata image (P18, non-deprecated, preferred rank first;
+no other image is ever guessed), asks the Commons API for a 1024 px thumbnail and the file's
+`extmetadata` (license, license URL, usage terms, artist, credit, attribution required,
+copyrighted, date, object name; HTML stripped), and downloads the thumbnail to
+`data/portraits/<cardId>.<jpg|png|webp>`. Commons snaps thumbnails to its standard widths, so
+most files are 1280 px wide; the manifest records the real pixel size of the local file.
+
+- `data/portraits/` is gitignored (about 230 MB): rerunning the command rebuilds it. An existing
+  file is never downloaded again, and API responses are cached in `.cache/`.
+- `data/portraits.manifest.json` (committed) lists every card with its Commons file, source page,
+  license fields and a `category`: `public_domain` (PD tags, CC0, "Public domain" variants),
+  `cc_by`, `cc_by_sa`, `other` (GODL-India, OGL, custom "Attribution", NC/ND…) or `missing`
+  (no P18). Sensitive cards are downloaded too but flagged (`sensitive: true`) and listed in the
+  summary: the brief forbids heroic imagery for them, so each needs a human decision.
+
+**Licensing caveat.** These images are references only and are **not used by the app yet**.
+CC BY requires attribution; CC BY-SA requires attribution and that any derived work (an
+illustrated card made from the photo) be shared under the same license; `other` licenses need
+a case-by-case check. A free copyright license does not clear personality rights: portraits of
+living people may need consent or a legal review before commercial use, whatever the
+copyright status.

@@ -12,6 +12,8 @@ export const PATHS = {
   candidatesRaw: path.resolve(here, '../.cache/candidates.raw.json'),
   candidatesOut: path.resolve(here, '../../../data/candidates.season1.json'),
   cardsOut: path.resolve(here, '../../../data/cards.season1.json'),
+  portraitsDir: path.resolve(here, '../../../data/portraits'),
+  portraitsManifest: path.resolve(here, '../../../data/portraits.manifest.json'),
   historicStates: path.resolve(here, '../../../data/historic-states.json'),
   sensitive: path.resolve(here, '../../../data/sensitive.json'),
   exclusions: path.resolve(here, '../../../data/exclusions.json'),

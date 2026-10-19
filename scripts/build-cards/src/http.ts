@@ -8,7 +8,7 @@ const MAX_ATTEMPTS = 6;
 const MAX_RATE_LIMITED_ATTEMPTS = 30;
 
 /** Minimum delay between two requests to the same namespace (shared by all workers). */
-const MIN_INTERVAL_MS: Record<string, number> = { wikidata: 1000, pageviews: 250 };
+const MIN_INTERVAL_MS: Record<string, number> = { wikidata: 1000, pageviews: 250, commons: 250, upload: 250 };
 
 type Throttle = { nextAt: number; pausedUntil: number };
 const throttles = new Map<string, Throttle>();
@@ -98,6 +98,44 @@ export async function getJson<T>(
         const retryAfter = Number(res.headers.get('retry-after'));
         pause(namespace, Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 30_000);
         attempt--; // rate limiting does not count as a failed attempt
+        continue;
+      }
+      if (res.status < 500 || attempt >= MAX_ATTEMPTS) throw new HttpError(res.status, url);
+    } catch (error) {
+      if (error instanceof HttpError || attempt >= MAX_ATTEMPTS) throw error;
+    }
+    await sleep(retryAfterMs);
+  }
+}
+
+/**
+ * Downloads a binary resource (no JSON cache: the file itself is the cache), with the same
+ * throttling and retry policy as `getJson`. Returns the body and its Content-Type.
+ */
+export async function getBinary(
+  namespace: string,
+  url: string,
+): Promise<{ body: Buffer; contentType: string }> {
+  let rateLimited = 0;
+  for (let attempt = 1; ; attempt++) {
+    const retryAfterMs = 2000 * 2 ** (attempt - 1);
+    await acquire(namespace);
+    try {
+      const res = await fetch(url, {
+        headers: { 'User-Agent': USER_AGENT, Accept: 'image/*' },
+        signal: AbortSignal.timeout(90_000),
+      });
+      if (res.ok) {
+        return {
+          body: Buffer.from(await res.arrayBuffer()),
+          contentType: (res.headers.get('content-type') ?? '').split(';')[0]?.trim() ?? '',
+        };
+      }
+      if (res.status === 429) {
+        if (++rateLimited >= MAX_RATE_LIMITED_ATTEMPTS) throw new HttpError(res.status, url);
+        const retryAfter = Number(res.headers.get('retry-after'));
+        pause(namespace, Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 30_000);
+        attempt--;
         continue;
       }
       if (res.status < 500 || attempt >= MAX_ATTEMPTS) throw new HttpError(res.status, url);

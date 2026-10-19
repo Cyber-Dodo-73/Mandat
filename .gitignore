@@ -6,3 +6,6 @@ node_modules/
 *.log
 scripts/build-cards/.cache/
 .claude/
+
+# Reference portraits downloaded from Wikimedia Commons (see scripts/build-cards/README.md)
+data/portraits/
