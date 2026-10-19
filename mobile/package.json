@@ -36,10 +36,10 @@
     "react-i18next": "^17.1.0",
     "react-native": "0.88.0",
     "react-native-gesture-handler": "~3.3.0",
-    "react-native-reanimated": "4.7.1",
+    "react-native-reanimated": "4.6.0",
     "react-native-safe-area-context": "~5.10.1",
     "react-native-screens": "~4.30.0",
-    "react-native-worklets": "0.13.0",
+    "react-native-worklets": "0.12.2",
     "zustand": "^5.0.15"
   },
   "devDependencies": {
@@ -65,5 +65,24 @@
     "start:tunnel": "expo start --go --tunnel",
     "start:dev-client": "expo start --dev-client"
   },
-  "private": true
+  "private": true,
+  "expo": {
+    "install": {
+      "exclude": [
+        "react-native-worklets",
+        "react-native-reanimated"
+      ]
+    }
+  },
+  "overrides": {
+    "react-native-reanimated": {
+      "react-native": "$react-native"
+    },
+    "react-native-worklets": {
+      "react-native": "$react-native"
+    },
+    "expo-modules-core": {
+      "react-native-worklets": "$react-native-worklets"
+    }
+  }
 }
