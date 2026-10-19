@@ -4,7 +4,7 @@ import type { CardMetrics } from './cardMetrics';
 
 export type Box = { x: number; y: number; width: number; height: number };
 
-/** Font sizes of the printed text, never below what stays readable on a phone. */
+/** Font sizes of the printed text (reference sizes times the card unit, no floor). */
 export type CardTypeScale = {
   name: number;
   nameLine: number;
@@ -17,109 +17,115 @@ export type CardTypeScale = {
 };
 
 /**
- * Explicit geometry of a card face. Text lives on opaque plates drawn ABOVE the foil, so the
- * holo, glitter and moving light only ever touch the frame and the artwork.
+ * Explicit geometry of a card face, identical at every size (scaled from the 300 px reference).
+ * Text lives on opaque plates drawn ABOVE the foil, so the holo and the moving light only ever
+ * touch the frame and the artwork.
  */
 export type CardLayout = {
   /** Artwork window (the whole inner face on full art prints). */
   art: Box;
-  /** Name plate; absent on minimal (thumb) cards. */
-  header: Box | null;
-  /** Role, stats and ability; only on full-detail cards. */
-  body: Box | null;
-  /** Rarity pips and collector number. */
+  /** Name plate. */
+  header: Box;
+  /** Role, stats and ability. */
+  body: Box;
+  /** Rarity gems and collector number. */
   footer: Box;
+  /** Corner chips (flag, life span) inside the artwork. */
+  chipHeight: number;
   /** Inner padding of every plate. */
   platePadding: number;
   /** Corner radius of the artwork window and the plates. */
   innerRadius: number;
+  /** Plate hairline width. */
+  stroke: number;
   type: CardTypeScale;
-  /** Which printed elements fit at this size (secondary text is dropped, never shrunk). */
-  shows: { name: boolean; number: boolean; flag: boolean; lifespan: boolean; finishLabel: boolean };
+  /**
+   * Below 100 px, plates keep their place and size but print simplified content (stat values
+   * without the ability text) so the card stays the same object, only less detailed.
+   */
+  lowDetail: boolean;
 };
 
-const MIN = { name: 11, role: 10, statValue: 13, statLabel: 8, abilityName: 10, abilityText: 9.5, number: 8 };
+/** The reference card, 300 px wide (419 px high). */
+const REF = {
+  type: { name: 25, role: 13, statValue: 20, statLabel: 9.5, abilityName: 13, abilityText: 11.5, number: 10.5 },
+  gap: 6,
+  platePadding: 8,
+  innerRadius: 8,
+  header: 40,
+  footer: 22,
+  chip: 18,
+  fullArtFrame: 6,
+} as const;
 
-function typeScale(metrics: CardMetrics): CardTypeScale {
-  const unit = metrics.width / 300;
-  const full = metrics.detail === 'full';
-  const name = full ? Math.max(MIN.name, 23 * unit) : Math.max(MIN.name, 26 * unit);
-  return {
-    name,
-    nameLine: Math.round(name * 1.18),
-    role: Math.max(MIN.role, 13 * unit),
-    statValue: Math.max(MIN.statValue, 20 * unit),
-    statLabel: Math.max(MIN.statLabel, 9.5 * unit),
-    abilityName: Math.max(MIN.abilityName, 13 * unit),
-    abilityText: Math.max(MIN.abilityText, 11.5 * unit),
-    number: Math.max(MIN.number, 10.5 * unit),
-  };
-}
-
-/** Height the body plate needs: role, stats row, ability name and two lines of ability text. */
-function bodyHeight(type: CardTypeScale, pad: number, gap: number): number {
+/** Body height at the reference size: role, stats row, ability name and two ability lines. */
+function referenceBodyHeight(): number {
+  const { type, platePadding: pad, gap } = REF;
   const role = type.role * 1.3;
   const stats = type.statValue * 1.15 + type.statLabel * 1.3 + pad;
   const abilityName = type.abilityName * 1.3;
   const abilityText = type.abilityText * 1.3 * 2;
-  return Math.ceil(pad * 2 + role + gap + stats + gap + abilityName + abilityText);
+  return pad * 2 + role + gap + stats + gap + abilityName + abilityText;
 }
 
+const REF_BODY = referenceBodyHeight();
+
 export function cardLayout(metrics: CardMetrics, finish: CardFinish): CardLayout {
-  const { width, height, detail, radius } = metrics;
-  const unit = width / 300;
-  const type = typeScale(metrics);
+  const { width, height, unit } = metrics;
+  const s = (value: number) => value * unit;
   const fullArt = finish === 'full_art';
-  const frame = fullArt ? Math.max(2, Math.round(metrics.frame * 0.6)) : metrics.frame;
-  const inset = fullArt ? frame : frame + metrics.padding;
-  const gap = Math.max(2, Math.round(6 * unit));
-  const platePadding = Math.max(3, Math.round(8 * unit));
-  const innerRadius = Math.max(2, Math.round(radius * 0.45));
-  const innerWidth = width - inset * 2;
 
-  const shows = {
-    name: detail !== 'minimal',
-    number: width >= 100,
-    flag: detail === 'full',
-    lifespan: detail === 'full',
-    finishLabel: detail === 'full' && finish !== 'standard',
+  const type: CardTypeScale = {
+    name: s(REF.type.name),
+    nameLine: s(REF.type.name * 1.18),
+    role: s(REF.type.role),
+    statValue: s(REF.type.statValue),
+    statLabel: s(REF.type.statLabel),
+    abilityName: s(REF.type.abilityName),
+    abilityText: s(REF.type.abilityText),
+    number: s(REF.type.number),
   };
+  const inset = fullArt ? s(REF.fullArtFrame) : metrics.frame + metrics.padding;
+  const gap = s(REF.gap);
+  const innerWidth = width - inset * 2;
+  const headerHeight = s(REF.header);
+  const footerHeight = s(REF.footer);
+  const bodyHeight = s(REF_BODY);
 
-  const footerHeight = detail === 'minimal' ? Math.max(9, Math.round(14 * unit * 1.6)) : Math.max(13, Math.round(type.number * 1.9));
-  const headerHeight = shows.name ? Math.round(type.nameLine + platePadding * 1.4) : 0;
+  const footer: Box = { x: inset, y: height - inset - footerHeight, width: innerWidth, height: footerHeight };
+  const body: Box = { x: inset, y: footer.y - gap - bodyHeight, width: innerWidth, height: bodyHeight };
 
   if (fullArt) {
-    // The illustration covers the face; name, body and footer share one strong bottom plate.
+    // The illustration covers the face; name, body and footer sit on one bottom band.
+    const header: Box = { x: inset, y: body.y - headerHeight, width: innerWidth, height: headerHeight };
     const art: Box = { x: inset, y: inset, width: innerWidth, height: height - inset * 2 };
-    const body = detail === 'full' ? bodyHeight(type, platePadding, gap) : 0;
-    const bandHeight = headerHeight + (body ? body + gap : 0) + footerHeight + platePadding;
-    const bandTop = height - inset - bandHeight;
-    const header = shows.name ? { x: inset, y: bandTop, width: innerWidth, height: headerHeight } : null;
-    const bodyBox = body ? { x: inset, y: bandTop + headerHeight, width: innerWidth, height: body } : null;
-    const footer = { x: inset, y: height - inset - footerHeight - platePadding / 2, width: innerWidth, height: footerHeight };
-    return { art, header, body: bodyBox, footer, platePadding, innerRadius, type, shows };
+    return {
+      art,
+      header,
+      body,
+      footer,
+      chipHeight: s(REF.chip),
+      platePadding: s(REF.platePadding),
+      innerRadius: s(REF.innerRadius),
+      stroke: Math.max(0.5, s(1)),
+      type,
+      lowDetail: metrics.detail === 'minimal',
+    };
   }
 
-  const header = shows.name ? { x: inset, y: inset, width: innerWidth, height: headerHeight } : null;
-  const artTop = inset + (header ? headerHeight + gap : 0);
-  const footer = { x: inset, y: height - inset - footerHeight, width: innerWidth, height: footerHeight };
-
-  if (detail !== 'full') {
-    const art = { x: inset, y: artTop, width: innerWidth, height: footer.y - gap - artTop };
-    return { art, header, body: null, footer, platePadding, innerRadius, type, shows };
-  }
-
-  const body = bodyHeight(type, platePadding, gap);
-  const bodyTop = footer.y - gap - body;
-  const art = { x: inset, y: artTop, width: innerWidth, height: bodyTop - gap - artTop };
+  const header: Box = { x: inset, y: inset, width: innerWidth, height: headerHeight };
+  const artTop = header.y + headerHeight + gap;
+  const art: Box = { x: inset, y: artTop, width: innerWidth, height: body.y - gap - artTop };
   return {
     art,
     header,
-    body: { x: inset, y: bodyTop, width: innerWidth, height: body },
+    body,
     footer,
-    platePadding,
-    innerRadius,
+    chipHeight: s(REF.chip),
+    platePadding: s(REF.platePadding),
+    innerRadius: s(REF.innerRadius),
+    stroke: Math.max(0.5, s(1)),
     type,
-    shows,
+    lowDetail: metrics.detail === 'minimal',
   };
 }

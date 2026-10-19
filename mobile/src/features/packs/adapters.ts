@@ -32,7 +32,12 @@ export function toFreePacks(freePacks: ApiFreePacks): FreePackState {
 }
 
 export function toPity(pity: ApiPity): PityCounters {
-  return { packsSinceEpic: pity.packsSinceEpic, packsSinceLegendary: pity.packsSinceLegendary };
+  return {
+    packsSinceEpic: pity.packsSinceEpic,
+    packsSinceLegendary: pity.packsSinceLegendary,
+    epicIn: pity.epicGuaranteedIn,
+    legendaryIn: pity.legendaryGuaranteedIn,
+  };
 }
 
 export function toPacksView(response: ApiPacksResponse): PacksView {

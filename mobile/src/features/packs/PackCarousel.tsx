@@ -19,7 +19,7 @@ import { packPalettes } from '@/theme/packs';
 import type { PackSummary } from './types';
 
 /** Share of the pack width each carousel step takes: neighbors peek from the sides. */
-const STEP_RATIO = 0.84;
+const STEP_RATIO = 0.9;
 
 type PackCarouselProps = {
   packs: readonly PackSummary[];
@@ -100,13 +100,13 @@ function CarouselItem({ index, step, scrollX, active, onPress, children }: Carou
   const style = useAnimatedStyle(() => {
     const position = scrollX.get() / step - index;
     return {
-      opacity: interpolate(Math.abs(position), [0, 1], [1, 0.5], 'clamp'),
+      opacity: interpolate(Math.abs(position), [0, 1], [1, 0.7], 'clamp'),
       zIndex: Math.round(10 - Math.abs(position) * 5),
       transform: [
         { perspective: 900 },
-        { translateY: interpolate(Math.abs(position), [0, 1], [0, 26], 'clamp') },
-        { rotateY: `${interpolate(position, [-1, 0, 1], [28, 0, -28], 'clamp')}deg` },
-        { scale: interpolate(Math.abs(position), [0, 1], [1, 0.76], 'clamp') },
+        { translateY: interpolate(Math.abs(position), [0, 1], [0, 18], 'clamp') },
+        { rotateY: `${interpolate(position, [-1, 0, 1], [18, 0, -18], 'clamp')}deg` },
+        { scale: interpolate(Math.abs(position), [0, 1], [1, 0.8], 'clamp') },
       ],
     };
   });

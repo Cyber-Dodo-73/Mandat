@@ -1,4 +1,4 @@
-import { ScrollView, StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import { Button3D, SegmentedControl, Sheet, Text } from '@/components/ui';
 import { useTranslation } from '@/i18n';
@@ -41,14 +41,31 @@ export function FilterSheet({
   const active = countActiveFilters(filters);
 
   return (
-    <Sheet visible={visible} onClose={onClose} title={t('collection.filters.title')}>
-      <ScrollView style={styles.scroll} contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-        <Group label={t('collection.sort.label')}>
+    <Sheet
+      visible={visible}
+      onClose={onClose}
+      title={t('collection.filters.title')}
+      footer={
+        <>
+          <Button3D label={t('collection.filters.show', { count: resultCount })} size="lg" fullWidth onPress={onClose} />
+          <Button3D
+            label={t('collection.filters.reset')}
+            variant="ghost"
+            fullWidth
+            disabled={active === 0}
+            onPress={() => onFiltersChange(EMPTY_FILTERS)}
+          />
+        </>
+      }
+    >
+      <View style={styles.content}>
+        <Group label={t('collection.sort.label')} block>
           <SegmentedControl<SortKey>
             accessibilityLabel={t('collection.sort.label')}
             value={sort}
             onChange={onSortChange}
             options={[
+              { value: 'owned', label: t('collection.sort.owned') },
               { value: 'number', label: t('collection.sort.number') },
               { value: 'rarity', label: t('collection.sort.rarity') },
               { value: 'obtained', label: t('collection.sort.obtained') },
@@ -56,7 +73,7 @@ export function FilterSheet({
           />
         </Group>
 
-        <Group label={t('collection.filters.ownership')}>
+        <Group label={t('collection.filters.ownership')} block>
           <SegmentedControl<Ownership>
             accessibilityLabel={t('collection.filters.ownership')}
             value={filters.ownership}
@@ -113,39 +130,23 @@ export function FilterSheet({
             />
           ))}
         </Group>
-      </ScrollView>
-
-      <View style={styles.actions}>
-        <Button3D
-          label={t('collection.filters.reset')}
-          variant="secondary"
-          disabled={active === 0}
-          onPress={() => onFiltersChange(EMPTY_FILTERS)}
-        />
-        <View style={styles.primary}>
-          <Button3D label={t('collection.filters.show', { count: resultCount })} fullWidth onPress={onClose} />
-        </View>
       </View>
     </Sheet>
   );
 }
 
-function Group({ label, children }: { label: string; children: React.ReactNode }) {
+/** A titled group: chips wrap in a row, `block` children (segmented controls) take the full width. */
+function Group({ label, children, block = false }: { label: string; children: React.ReactNode; block?: boolean }) {
   return (
     <View style={styles.group}>
-      <Text variant="label" tone="muted">
-        {label}
-      </Text>
-      <View style={styles.chips}>{children}</View>
+      <Text variant="heading">{label}</Text>
+      {block ? children : <View style={styles.chips}>{children}</View>}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  scroll: { maxHeight: 460 },
-  content: { gap: spacing.lg, paddingBottom: spacing.md },
+  content: { gap: spacing.lg },
   group: { gap: spacing.xs },
   chips: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.xs },
-  actions: { flexDirection: 'row', gap: spacing.sm, paddingTop: spacing.sm },
-  primary: { flex: 1 },
 });

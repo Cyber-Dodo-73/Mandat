@@ -7,7 +7,8 @@ import { CosmeticEmblem } from './CosmeticEmblem';
 import { ProfileBanner } from './ProfileBanner';
 import { TitleStamp } from './TitleStamp';
 
-const AVATAR = 88;
+const AVATAR = 84;
+const RING = 4;
 
 type ProfileHeaderProps = {
   width: number;
@@ -52,7 +53,7 @@ export function ProfileHeader(props: ProfileHeaderProps) {
           onPress={props.onPressAvatar}
           accessibilityRole={props.onPressAvatar ? 'button' : undefined}
           accessibilityHint={props.accessibilityHintAvatar}
-          style={[styles.avatar, { backgroundColor: colors.background, borderColor: colors.background }]}
+          style={[styles.avatar, { backgroundColor: colors.background, borderColor: colors.brand }]}
         >
           <CosmeticEmblem kind="avatar" id={avatarId} size={AVATAR} />
         </PressableScale>
@@ -67,7 +68,7 @@ export function ProfileHeader(props: ProfileHeaderProps) {
         </View>
       </View>
 
-      <View style={[styles.code, { borderColor: colors.border }]}>
+      <View style={[styles.code, { backgroundColor: colors.surfaceRaised, borderBottomColor: colors.neutralButtonEdge }]}>
         <Text variant="caption" tone="muted">
           {codeLabel}
         </Text>
@@ -81,19 +82,19 @@ export function ProfileHeader(props: ProfileHeaderProps) {
 
 const styles = StyleSheet.create({
   root: { gap: spacing.sm },
-  identity: { flexDirection: 'row', alignItems: 'flex-end', gap: spacing.md, marginTop: -AVATAR / 2, paddingHorizontal: spacing.md },
-  avatar: { borderRadius: AVATAR, borderWidth: 4 },
-  names: { flex: 1, gap: spacing.xxs, paddingBottom: spacing.xxs },
+  // The avatar overlaps the banner by a third; the name sits on the line below the banner.
+  identity: { flexDirection: 'row', alignItems: 'flex-end', gap: spacing.md, marginTop: -(AVATAR + RING * 2) / 3, paddingHorizontal: spacing.md },
+  avatar: { borderRadius: AVATAR, borderWidth: RING, overflow: 'hidden' },
+  names: { flex: 1, gap: spacing.xxs, paddingBottom: spacing.xs },
   code: {
     flexDirection: 'row',
-    alignItems: 'baseline',
+    alignItems: 'center',
     gap: spacing.xs,
     alignSelf: 'flex-start',
-    borderTopWidth: StyleSheet.hairlineWidth,
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderRadius: radius / 4,
-    paddingHorizontal: spacing.xs,
-    paddingVertical: 2,
+    borderRadius: radius,
+    borderBottomWidth: 3,
+    paddingHorizontal: spacing.sm,
+    minHeight: 36,
     marginHorizontal: spacing.md,
   },
   codeValue: { letterSpacing: 2, fontVariant: ['tabular-nums'] },

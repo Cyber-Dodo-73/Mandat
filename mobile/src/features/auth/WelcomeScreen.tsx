@@ -98,7 +98,6 @@ function FanCard({ card, index, width, rotate, x, y }: FanCardProps) {
         { translateX: x * width * p },
         { translateY: y + (1 - p) * 120 },
         { rotate: `${rotate * p}deg` },
-        { scale: 0.8 + 0.2 * p },
       ],
     };
   });

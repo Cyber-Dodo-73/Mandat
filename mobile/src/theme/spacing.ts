@@ -12,7 +12,7 @@ export const spacing = {
 export const radius = 20;
 
 /** Height of the bottom "edge" that gives 3D buttons their depth. */
-export const buttonDepth = 5;
+export const buttonDepth = 6;
 
 export const shadow = {
   shadowOffset: { width: 0, height: 6 },

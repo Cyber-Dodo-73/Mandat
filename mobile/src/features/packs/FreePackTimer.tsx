@@ -10,7 +10,7 @@ import { spacing, useTheme } from '@/theme';
 import { packsQueryKey } from './queries';
 import type { FreePackState } from './types';
 
-const PIP = 12;
+const PIP = 14;
 
 /** Free pack stock as pips, plus the countdown to the next one (server time). */
 export function FreePackTimer({ state }: { state: FreePackState }) {
@@ -35,7 +35,7 @@ export function FreePackTimer({ state }: { state: FreePackState }) {
               styles.pip,
               index < state.stock
                 ? { backgroundColor: colors.accent, borderColor: colors.accentEdge }
-                : { backgroundColor: 'transparent', borderColor: colors.border },
+                : { backgroundColor: colors.surfaceRaised, borderColor: colors.border },
             ]}
           />
         ))}

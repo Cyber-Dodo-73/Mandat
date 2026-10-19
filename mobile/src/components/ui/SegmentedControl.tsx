@@ -38,9 +38,9 @@ export function SegmentedControl<T extends string>({
             accessibilityState={{ selected }}
             onPress={() => onChange(option.value)}
             containerStyle={styles.segmentTarget}
-            style={[styles.segment, selected ? { backgroundColor: colors.accent } : null]}
+            style={[styles.segment, selected ? { backgroundColor: colors.brand, borderBottomColor: colors.brandEdge } : null]}
           >
-            <Text variant="label" color={selected ? colors.onAccent : colors.textMuted} numberOfLines={1}>
+            <Text variant="label" color={selected ? colors.onBrand : colors.textMuted} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
               {option.label}
             </Text>
           </PressableScale>
@@ -51,10 +51,13 @@ export function SegmentedControl<T extends string>({
 }
 
 const styles = StyleSheet.create({
-  container: { flexDirection: 'row', borderRadius: radius, padding: spacing.xxs, gap: spacing.xxs },
-  segmentTarget: { flex: 1 },
+  // Full width even inside sheets or centered parents: segments share it equally.
+  container: { flexDirection: 'row', alignSelf: 'stretch', width: '100%', borderRadius: radius, padding: spacing.xxs, gap: spacing.xxs },
+  segmentTarget: { flexGrow: 1, flexBasis: 0, minWidth: 0 },
   segment: {
-    minHeight: 40,
+    minHeight: 44,
+    borderBottomWidth: 4,
+    borderBottomColor: 'transparent',
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: radius,

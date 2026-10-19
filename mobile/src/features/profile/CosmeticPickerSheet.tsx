@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
+import { StyleSheet, useWindowDimensions, View } from 'react-native';
 
 import { CosmeticEmblem } from '@/components/profile/CosmeticEmblem';
 import { ProfileBanner } from '@/components/profile/ProfileBanner';
@@ -22,12 +22,11 @@ type CosmeticPickerSheetProps = {
 /** Pick an unlocked avatar, banner or title. New ones come from levels, achievements and the season pass. */
 export function CosmeticPickerSheet({ kind, options, selected, onSelect, onClose }: CosmeticPickerSheetProps) {
   const { t } = useTranslation();
-  const { height } = useWindowDimensions();
   const title = kind ? t(`profile.picker.${kind}` as 'profile.picker.avatar') : '';
 
   return (
     <Sheet visible={kind !== null} onClose={onClose} title={title}>
-      <ScrollView style={{ maxHeight: height * 0.55 }} contentContainerStyle={styles.content}>
+      <View style={styles.content}>
         {kind === 'avatar' ? (
           <View style={styles.grid}>
             {options.map((id) => (
@@ -47,7 +46,7 @@ export function CosmeticPickerSheet({ kind, options, selected, onSelect, onClose
           </View>
         ) : null}
         <Caption>{t('profile.picker.unlockMore')}</Caption>
-      </ScrollView>
+      </View>
     </Sheet>
   );
 }

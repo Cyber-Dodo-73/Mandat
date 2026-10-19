@@ -1,6 +1,6 @@
 import { useLocalSearchParams } from 'expo-router';
 import { Linking, StyleSheet, View } from 'react-native';
-import Animated, { ZoomIn } from 'react-native-reanimated';
+import Animated, { FadeInDown } from 'react-native-reanimated';
 
 import { CARD_WIDTHS, GOLD, isFinishAvailable, RarityPips, TradingCard } from '@/components/cards';
 import { ScreenHeader } from '@/components/navigation/ScreenHeader';
@@ -76,30 +76,34 @@ function CardDetail({ card, finish }: { card: Card; finish: CardFinish }) {
 
   return (
     <ScreenContainer edges={['bottom']}>
-      <ScreenHeader title={text.name} dismiss="close" />
+      <ScreenHeader title={t('card.title')} dismiss="close" />
 
       <View style={styles.hero}>
         {/* Opening from the binder: the card zooms in from the grid size. */}
-        <Animated.View entering={reduceMotion ? undefined : ZoomIn.springify().damping(16).stiffness(180)}>
+        <Animated.View entering={reduceMotion ? undefined : FadeInDown.springify().damping(16).stiffness(180)}>
           <TradingCard card={card} finish={finish} size="hero" width={CARD_WIDTHS.hero} />
         </Animated.View>
         <Caption align="center">{t('card.dragHint')}</Caption>
-        <PhotoCredit cardId={card.id} />
       </View>
 
       <View style={styles.identity}>
+        <Text variant="title">{text.name}</Text>
         <View style={styles.rarityRow}>
-          <RarityPips rarity={card.rarity} size={9} />
-          <Text variant="label" color={rarity.color}>
-            {t(`rarity.${card.rarity}`)}
-          </Text>
-          {finish === 'standard' ? null : (
-            <Text variant="label" color={finish === 'gold' ? GOLD.base : undefined}>
-              {t(`cards.finish.${finish}`)}
+          <View style={[styles.chip, { backgroundColor: `${rarity.color}26`, borderColor: rarity.color }]}>
+            <RarityPips rarity={card.rarity} size={8} />
+            <Text variant="caption" color={rarity.color}>
+              {t(`rarity.${card.rarity}`)}
             </Text>
+          </View>
+          {finish === 'standard' ? null : (
+            <View style={[styles.chip, { borderColor: finish === 'gold' ? GOLD.base : rarity.color }]}>
+              <Text variant="caption" color={finish === 'gold' ? GOLD.base : undefined}>
+                {t(`cards.finish.${finish}`)}
+              </Text>
+            </View>
           )}
         </View>
-        <Heading>{text.role}</Heading>
+        <Text variant="bodyStrong">{text.role}</Text>
         <Caption>{text.lifespan}</Caption>
       </View>
 
@@ -137,14 +141,16 @@ function CardDetail({ card, finish }: { card: Card; finish: CardFinish }) {
       </Surface>
 
       <CollectionActions card={card} />
+      <PhotoCredit cardId={card.id} />
     </ScreenContainer>
   );
 }
 
 const styles = StyleSheet.create({
   hero: { alignItems: 'center', gap: spacing.md, paddingVertical: spacing.md },
-  identity: { gap: spacing.xxs },
-  rarityRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
+  identity: { gap: spacing.xs },
+  rarityRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs, flexWrap: 'wrap' },
+  chip: { flexDirection: 'row', alignItems: 'center', gap: 6, height: 28, paddingHorizontal: spacing.sm, borderRadius: 14, borderWidth: 1.5 },
   statRow: { gap: spacing.xxs },
   statLabel: { flexDirection: 'row', justifyContent: 'space-between' },
 });

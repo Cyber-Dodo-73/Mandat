@@ -10,22 +10,24 @@ import { instant, springs } from '@/theme/motion';
 import { Icon, type IconName } from './Icon';
 import { Text } from './Text';
 
-export type Button3DVariant = 'primary' | 'secondary' | 'danger' | 'ghost' | 'apple';
+export type Button3DVariant = 'primary' | 'brand' | 'success' | 'secondary' | 'danger' | 'ghost' | 'apple';
 export type Button3DSize = 'sm' | 'md' | 'lg';
 
 type Palette = { face: string; edge: string; label: string; border?: string };
 
-const HEIGHT: Record<Button3DSize, number> = { sm: 40, md: 52, lg: 60 };
+const HEIGHT: Record<Button3DSize, number> = { sm: 44, md: 54, lg: 62 };
 const PADDING: Record<Button3DSize, number> = { sm: spacing.md, md: spacing.lg, lg: spacing.xl };
 
 function paletteFor(variant: Button3DVariant, colors: ThemeColors): Palette {
   switch (variant) {
     case 'primary':
-      // Vermilion seal face with an engraved gold rim.
-      return { face: colors.accent, edge: colors.accentEdge, label: colors.onAccent, border: colors.goldBright };
+      return { face: colors.accent, edge: colors.accentEdge, label: colors.onAccent };
+    case 'brand':
+      return { face: colors.brand, edge: colors.brandEdge, label: colors.onBrand };
+    case 'success':
+      return { face: colors.success, edge: colors.successEdge, label: colors.onAccent };
     case 'secondary':
-      // Ink face, gold hairline: the banknote frame.
-      return { face: colors.neutralButton, edge: colors.neutralButtonEdge, label: colors.text, border: colors.hairline };
+      return { face: colors.neutralButton, edge: colors.neutralButtonEdge, label: colors.text };
     case 'danger':
       return { face: colors.danger, edge: colors.dangerEdge, label: colors.onDanger };
     case 'ghost':
@@ -66,7 +68,11 @@ export function Button3D({
 }: Button3DProps) {
   const { colors } = useTheme();
   const reduceMotion = useReduceMotion();
-  const palette = paletteFor(variant, colors);
+  // Disabled buttons switch to a quiet, legible neutral face instead of a faded accent.
+  const palette: Palette =
+    disabled && variant !== 'ghost'
+      ? { face: colors.surfaceRaised, edge: colors.neutralButtonEdge, label: colors.textMuted, border: colors.hairline }
+      : paletteFor(variant, colors);
   const depth = variant === 'ghost' ? 0 : buttonDepth;
   const height = HEIGHT[size];
   const inactive = disabled || loading;
@@ -95,7 +101,7 @@ export function Button3D({
         playSound('tap');
         onPress();
       }}
-      style={[{ height: height + depth, opacity: disabled ? 0.45 : 1 }, fullWidth ? styles.fullWidth : styles.hug]}
+      style={[{ height: height + depth, opacity: disabled && variant === 'ghost' ? 0.45 : 1 }, fullWidth ? styles.fullWidth : styles.hug]}
     >
       <View style={[styles.edge, { top: depth, height, backgroundColor: palette.edge }]} />
       <Animated.View
@@ -110,12 +116,21 @@ export function Button3D({
           faceStyle,
         ]}
       >
+        {/* Glossy top light, like a candy-shell game button. */}
+        {variant !== 'ghost' && !disabled ? <View pointerEvents="none" style={[styles.gloss, { height: height * 0.34 }]} /> : null}
         {loading ? (
           <ActivityIndicator color={palette.label} />
         ) : (
           <>
             {icon ? <Icon name={icon} size={size === 'sm' ? 18 : 22} color={palette.label} /> : null}
-            <Text variant="label" color={palette.label} numberOfLines={1} style={styles.label}>
+            <Text
+              variant="label"
+              color={palette.label}
+              numberOfLines={1}
+              adjustsFontSizeToFit
+              minimumFontScale={0.75}
+              style={styles.label}
+            >
               {label}
             </Text>
           </>
@@ -140,7 +155,16 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: spacing.xs,
     borderRadius: radius,
-    borderWidth: 2,
+    borderWidth: StyleSheet.hairlineWidth * 2,
+    overflow: 'hidden',
   },
-  label: { textTransform: 'uppercase' },
+  gloss: {
+    position: 'absolute',
+    top: 3,
+    left: 10,
+    right: 10,
+    borderRadius: radius,
+    backgroundColor: 'rgba(255, 255, 255, 0.16)',
+  },
+  label: { flexShrink: 1, textTransform: 'uppercase', fontFamily: 'Nunito_900Black', letterSpacing: 0.6 },
 });

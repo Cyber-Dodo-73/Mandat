@@ -5,6 +5,7 @@
   "dependencies": {
     "@expo-google-fonts/bricolage-grotesque": "^0.4.1",
     "@expo-google-fonts/figtree": "^0.4.1",
+    "@expo-google-fonts/nunito": "^0.4.2",
     "@expo/vector-icons": "^15.0.2",
     "@react-native-community/netinfo": "12.0.1",
     "@shopify/flash-list": "2.3.2",
@@ -58,6 +59,7 @@
     "@testing-library/react-native": "^14.1.0",
     "@types/jest": "^30.0.0",
     "@types/react": "~19.3.0",
+    "country-flag-icons": "^1.6.20",
     "eslint": "^9.39.5",
     "eslint-config-expo": "^58.0.4",
     "jest": "^30.5.2",
@@ -75,10 +77,11 @@
     "check:i18n": "tsx scripts/check-i18n.ts",
     "api:gen": "npm exec --yes -- openapi-typescript@7.13.0 ../api/openapi.json -o src/lib/api/schema.d.ts",
     "start:tunnel": "expo start --dev-client --tunnel",
-    "sync:cards": "tsx scripts/sync-cards.ts && tsx scripts/sync-portraits.ts && tsx scripts/sync-cosmetics.ts",
+    "sync:cards": "tsx scripts/sync-cards.ts && tsx scripts/sync-portraits.ts && tsx scripts/sync-cosmetics.ts && tsx scripts/sync-flags.ts",
     "sync:portraits": "tsx scripts/sync-portraits.ts",
     "sync:cosmetics": "tsx scripts/sync-cosmetics.ts",
-    "art:import": "npm --prefix ../scripts/build-cards run art:import --"
+    "art:import": "npm --prefix ../scripts/build-cards run art:import --",
+    "sync:flags": "tsx scripts/sync-flags.ts"
   },
   "private": true
 }

@@ -25,6 +25,18 @@
     "figureOfTheDay": {
       "title": "Figure du jour",
       "a11y": "Figure du jour : {{name}}. {{anecdote}}"
+    },
+    "noPack": {
+      "quiz": "Joue un quiz",
+      "missions": "Missions",
+      "hint": "Ton prochain booster arrive bientôt. Gagne de l'XP en attendant."
+    },
+    "pity": {
+      "epic_one": "Épique au prochain",
+      "epic_other": "Épique dans {{count}}",
+      "legendary_one": "Légendaire au prochain",
+      "legendary_other": "Légendaire dans {{count}}",
+      "a11y": "Garanties : {{epic}}, {{legendary}}"
     }
   },
   "collection": {
@@ -58,9 +70,10 @@
     },
     "sort": {
       "label": "Trier par",
-      "number": "Numéro",
+      "number": "N°",
       "rarity": "Rareté",
-      "obtained": "Obtention"
+      "obtained": "Récentes",
+      "owned": "Miennes"
     },
     "filters": {
       "title": "Filtres",
@@ -77,6 +90,13 @@
       "reset": "Tout effacer",
       "show_one": "Voir {{count}} carte",
       "show_other": "Voir {{count}} cartes"
+    },
+    "rarityNote": "La rareté reflète la notoriété mondiale actuelle.",
+    "erasShort": {
+      "antiquity": "Antiquité",
+      "medieval": "Moyen Âge",
+      "modern": "Moderne",
+      "contemporary": "Contemporaine"
     }
   },
   "packs": {
@@ -125,7 +145,8 @@
       "continentFallback": "Quand ce continent n'a pas de carte d'une rareté, elle est tirée dans toute la saison."
     },
     "bonusPacks_one": "+ {{count}} booster bonus",
-    "bonusPacks_other": "+ {{count}} boosters bonus"
+    "bonusPacks_other": "+ {{count}} boosters bonus",
+    "waitButton": "Dispo dans {{time}}"
   },
   "packOpening": {
     "title": "Ouverture",
@@ -192,12 +213,12 @@
       "hint": "Choisis la carte mise en avant en haut de ton profil."
     },
     "actions": {
-      "editShowcase": "Modifier la vitrine",
-      "copyCode": "Copier le code",
+      "editShowcase": "Vitrine",
+      "copyCode": "Copier",
       "copied": "Code ami copié.",
       "shareLink": "Inviter",
       "shareMessage": "Ajoute-moi sur MANDAT : je suis {{nickname}}.",
-      "shareImage": "Partager mon profil"
+      "shareImage": "Partager"
     },
     "stats": {
       "title": "Statistiques",
@@ -264,12 +285,12 @@
       "clearFavorite": "Retirer la favorite"
     },
     "cardActions": {
-      "addToShowcase": "Ajouter à la vitrine",
-      "removeFromShowcase": "Retirer de la vitrine",
+      "addToShowcase": "Vitrine",
+      "removeFromShowcase": "Retirer",
       "addedToShowcase": "Ajoutée à ta vitrine.",
       "removedFromShowcase": "Retirée de ta vitrine.",
-      "setFavorite": "Mettre en favorite",
-      "favorite": "Ta favorite",
+      "setFavorite": "Favori",
+      "favorite": "Favori",
       "favoriteSet": "C'est ta nouvelle carte favorite.",
       "favoriteCleared": "Carte favorite retirée."
     },
@@ -305,7 +326,7 @@
     }
   },
   "card": {
-    "title": "Carte",
+    "title": "Fiche",
     "placeholder": "Le détail des cartes arrive avec le catalogue.",
     "notFound": "Cette carte n'existe pas dans la saison 1.",
     "yearBC": "{{year}} av. J.-C.",
@@ -649,7 +670,11 @@
       "claimable": "Palier {{tier}}, à récupérer",
       "reached": "Palier {{tier}}, atteint",
       "locked": "Palier {{tier}}, verrouillé"
-    }
+    },
+    "tab": "Pass",
+    "upcoming": "Prochains paliers",
+    "premiumTitle": "Piste Premium",
+    "premiumBody": "Bientôt : une récompense en plus à chaque palier."
   },
   "progression": {
     "reward": {

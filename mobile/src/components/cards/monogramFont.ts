@@ -2,7 +2,7 @@ import { Skia, type SkFont, type SkTypeface } from '@shopify/react-native-skia';
 import { useEffect, useMemo, useState } from 'react';
 import { Image } from 'react-native';
 
-const FONT_SOURCE = require('@expo-google-fonts/bricolage-grotesque/800ExtraBold/BricolageGrotesque_800ExtraBold.ttf');
+const FONT_SOURCE = require('@expo-google-fonts/nunito/900Black/Nunito_900Black.ttf');
 
 let typeface: SkTypeface | null = null;
 let loading: Promise<SkTypeface | null> | null = null;

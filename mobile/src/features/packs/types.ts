@@ -51,7 +51,13 @@ export type FreePackState = {
   nextFreePackAt: string | null;
 };
 
-export type PityCounters = { packsSinceEpic: number; packsSinceLegendary: number };
+export type PityCounters = {
+  packsSinceEpic: number;
+  packsSinceLegendary: number;
+  /** Boosters left until an epic or better is guaranteed (1 = the next one). */
+  epicIn: number;
+  legendaryIn: number;
+};
 
 export type PacksView = {
   packs: readonly PackSummary[];

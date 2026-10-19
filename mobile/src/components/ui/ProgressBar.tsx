@@ -14,7 +14,7 @@ type ProgressBarProps = {
   accessibilityLabel?: string;
 };
 
-export function ProgressBar({ progress, color, height = 14, accessibilityLabel }: ProgressBarProps) {
+export function ProgressBar({ progress, color, height = 16, accessibilityLabel }: ProgressBarProps) {
   const { colors } = useTheme();
   const reduceMotion = useReduceMotion();
   const clamped = Math.min(1, Math.max(0, progress));
@@ -33,7 +33,7 @@ export function ProgressBar({ progress, color, height = 14, accessibilityLabel }
       accessibilityValue={{ min: 0, max: 100, now: Math.round(clamped * 100) }}
       style={[styles.track, { height, backgroundColor: colors.surfaceRaised }]}
     >
-      <Animated.View style={[styles.fill, { backgroundColor: color ?? colors.accent }, fillStyle]}>
+      <Animated.View style={[styles.fill, { backgroundColor: color ?? colors.brand }, fillStyle]}>
         <View style={[styles.highlight, { height: height / 3 }]} />
       </Animated.View>
     </View>

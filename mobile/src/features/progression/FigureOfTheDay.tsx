@@ -12,7 +12,12 @@ import { radius, spacing, useTheme } from '@/theme';
 import { firstSentence, pickFigureOfTheDay } from './figureOfTheDay';
 import { dayKey } from './zonedTime';
 
-/** Compact "figure of the day" strip under the top bar: the booster hub stays the focus. */
+/** Thumb width: the strip stays one compact row so the booster keeps the screen. */
+const THUMB_WIDTH = 30;
+/** Fixed strip height, reserved by the home layout so the booster never overlaps it. */
+export const FIGURE_STRIP_HEIGHT = 56;
+
+/** Compact "figure of the day" row under the top bar: the booster hub stays the focus. */
 export function FigureOfTheDay({ timeZone }: { timeZone: string | undefined }) {
   const { t } = useTranslation();
   const language = useLanguage();
@@ -30,19 +35,18 @@ export function FigureOfTheDay({ timeZone }: { timeZone: string | undefined }) {
       accessibilityRole="button"
       accessibilityLabel={t('home.figureOfTheDay.a11y', { name, anecdote })}
       onPress={() => router.push({ pathname: '/card/[id]', params: { id: card.id } })}
-      style={[styles.strip, { backgroundColor: colors.surface, borderColor: colors.border }]}
+      style={[styles.strip, { backgroundColor: colors.surfaceRaised, borderBottomColor: colors.neutralButtonEdge }]}
     >
       <View pointerEvents="none">
-        <TradingCard card={card} size="thumb" width={44} />
+        <TradingCard card={card} size="thumb" width={THUMB_WIDTH} />
       </View>
       <View style={styles.texts}>
-        <Caption tone="accent" style={styles.kicker}>
+        <Caption color={colors.gold} numberOfLines={1}>
           {t('home.figureOfTheDay.title')}
         </Caption>
         <Text variant="label" numberOfLines={1}>
           {name}
         </Text>
-        <Caption numberOfLines={2}>{anecdote}</Caption>
       </View>
       <Icon name="chevron-forward" size={18} tone="textMuted" />
     </PressableScale>
@@ -66,13 +70,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: spacing.sm,
+    height: FIGURE_STRIP_HEIGHT,
     marginHorizontal: spacing.md,
     marginTop: spacing.sm,
-    paddingVertical: spacing.xs,
     paddingHorizontal: spacing.sm,
     borderRadius: radius,
-    borderWidth: StyleSheet.hairlineWidth * 2,
+    borderBottomWidth: 3,
   },
-  texts: { flex: 1, gap: 2 },
-  kicker: { textTransform: 'uppercase', letterSpacing: 1 },
+  texts: { flex: 1 },
 });

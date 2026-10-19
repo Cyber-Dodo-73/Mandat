@@ -121,12 +121,13 @@ export function Booster3D({
     );
   }, [bob, float, reduceMotion]);
 
+  // No scale on arrival: scaling a Skia canvas up from below 1 rasterizes it small first (pixelated
+  // first frames on iOS). The pack slides and fades in at its final size instead.
   const packStyle = useAnimatedStyle(() => ({
     opacity: interpolate(arrival.get(), [0, 0.4], [0, 1], 'clamp'),
     transform: [
       { perspective: PERSPECTIVE },
       { translateY: bob.get() + (1 - arrival.get()) * 80 },
-      { scale: 0.7 + arrival.get() * 0.3 },
       { rotateX: `${-tiltY.get() * MAX_ROTATE_X}deg` },
       { rotateY: `${tiltX.get() * MAX_ROTATE_Y}deg` },
     ],

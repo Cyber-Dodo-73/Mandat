@@ -77,7 +77,7 @@ export function ProfileCardActions({ card }: { card: Card }) {
         <View style={styles.flex}>
           <Button3D
             label={inShowcase ? t('profile.cardActions.removeFromShowcase') : t('profile.cardActions.addToShowcase')}
-            icon={inShowcase ? 'albums' : 'albums-outline'}
+            icon={inShowcase ? 'remove-circle' : 'add-circle'}
             variant="secondary"
             size="sm"
             fullWidth

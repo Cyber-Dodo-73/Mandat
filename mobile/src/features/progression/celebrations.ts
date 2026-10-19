@@ -8,6 +8,8 @@ export type Celebration =
 
 type CelebrationState = {
   queue: Celebration[];
+  /** Highest level already celebrated: a level-up seen twice (claim + level watcher) shows once. */
+  topLevel: number;
   push: (celebration: DistributiveOmit<Celebration, 'id'>) => void;
   dismiss: (id: number) => void;
 };
@@ -16,10 +18,21 @@ type DistributiveOmit<T, K extends keyof T> = T extends unknown ? Omit<T, K> : n
 
 let nextId = 1;
 
-/** Celebrations waiting to be shown, oldest first. Shown one at a time by the host. */
+/** Celebrations waiting to be shown, oldest first. The host shows strictly one at a time. */
 export const useCelebrations = create<CelebrationState>((set) => ({
   queue: [],
-  push: (celebration) => set((state) => ({ queue: [...state.queue, { ...celebration, id: nextId++ } as Celebration] })),
+  topLevel: 0,
+  push: (celebration) =>
+    set((state) => {
+      if (celebration.type === 'levelUp') {
+        if (celebration.level <= state.topLevel) return state;
+        return {
+          topLevel: celebration.level,
+          queue: [...state.queue, { ...celebration, id: nextId++ } as Celebration],
+        };
+      }
+      return { queue: [...state.queue, { ...celebration, id: nextId++ } as Celebration] };
+    }),
   dismiss: (id) => set((state) => ({ queue: state.queue.filter((item) => item.id !== id) })),
 }));
 

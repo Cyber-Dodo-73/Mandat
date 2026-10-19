@@ -115,7 +115,8 @@ const ProceduralArtwork = memo(function ProceduralArtwork({ card, name, width, h
     return fullBleed ? (width - textWidth) / 2 : Math.max(width * 0.06, (width - textWidth) * 0.18);
   }, [font, initials, width, fullBleed]);
 
-  const matrix = colorMatrixFor(card.sensitive, gold);
+  // Sensitive figures are printed like every other card (user decision).
+  const matrix = colorMatrixFor(false, gold);
 
   return (
     <Canvas style={{ width, height }} pointerEvents="none">

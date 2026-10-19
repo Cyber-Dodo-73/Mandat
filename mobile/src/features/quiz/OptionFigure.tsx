@@ -21,7 +21,7 @@ export function OptionFigure({ option }: { option: QuizOption }) {
   const language = useLanguage();
   const card = option.cardId ? getCard(option.cardId) : undefined;
   if (!card) return null;
-  const portrait = card.sensitive ? undefined : portraits[card.id];
+  const portrait = portraits[card.id];
   const ring = rarityStyles[card.rarity].color;
   return (
     <View style={[styles.frame, { borderColor: ring, backgroundColor: colors.surface }]}>
