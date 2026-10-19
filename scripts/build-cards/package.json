@@ -6,7 +6,8 @@
     "build": "tsx src/cli.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "check-batch": "tsx src/check-batch.ts"
+    "check-batch": "tsx src/check-batch.ts",
+    "art:import": "tsx src/optimize-art.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",

@@ -1,6 +1,6 @@
 /**
  * Imports the art pack (docs/ART_PROMPTS.md) into the app:
- *   npm run art:import -- <pack>/mobile/assets
+ *   cd scripts/build-cards && npm run art:import -- <pack>/mobile/assets   (or from mobile/: npm run art:import -- <pack>/mobile/assets)
  * App icons, splash and favicon are copied as PNG (native build inputs). In-app images
  * (brand, onboarding, avatars, banners, badges) are resized and re-encoded as WebP so the
  * JS bundle stays small; alpha is kept. Then run `npm run sync:cards` to refresh the registry.
@@ -12,7 +12,8 @@ import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const assetsDir = join(here, '..', 'assets');
+// Lives in scripts/build-cards (which owns sharp) and writes into the mobile app's assets.
+const assetsDir = join(here, '..', '..', '..', 'mobile', 'assets');
 
 /** Native inputs (app.config.ts): kept as PNG, copied untouched. */
 const NATIVE_FILES = [

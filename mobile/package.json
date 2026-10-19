@@ -62,7 +62,6 @@
     "eslint-config-expo": "^58.0.4",
     "jest": "^30.5.2",
     "jest-expo": "^58.0.11",
-    "sharp": "^0.34.5",
     "tsx": "^4.23.15",
     "typescript": "~6.0.3"
   },
@@ -79,7 +78,7 @@
     "sync:cards": "tsx scripts/sync-cards.ts && tsx scripts/sync-portraits.ts && tsx scripts/sync-cosmetics.ts",
     "sync:portraits": "tsx scripts/sync-portraits.ts",
     "sync:cosmetics": "tsx scripts/sync-cosmetics.ts",
-    "art:import": "tsx scripts/optimize-art.ts"
+    "art:import": "npm --prefix ../scripts/build-cards run art:import --"
   },
   "private": true
 }
