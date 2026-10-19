@@ -1,6 +1,6 @@
 {
   "season": 1,
-  "version": "2907fc76b0b05c36",
+  "version": "a648ac9f4d207fd7",
   "cards": [
     {
       "id": "s1-001",
@@ -4057,8 +4057,8 @@
       "fameScore": 82.8,
       "rarity": "epic",
       "bio": {
-        "fr": "Avocat spécialisé dans les droits humains, il dirige le parquet d'Angleterre et du pays de Galles de 2008 à 2013. Député à partir de 2015, il prend la tête du Parti travailliste en 2020. Sa large victoire aux élections de juillet 2024 met fin à quatorze ans de gouvernements conservateurs.",
-        "en": "A human rights barrister, he served as Director of Public Prosecutions for England and Wales from 2008 to 2013. Elected an MP in 2015, he became Labour leader in 2020. His landslide win in the July 2024 election ended fourteen years of Conservative government."
+        "fr": "Avocat spécialisé dans les droits humains, il dirige le parquet d'Angleterre et du pays de Galles de 2008 à 2013. Chef du Parti travailliste à partir de 2020, il remporte largement les élections de juillet 2024, qui mettent fin à quatorze ans de gouvernements conservateurs. Il quitte Downing Street en juillet 2026, remplacé par Andy Burnham.",
+        "en": "A human rights barrister, he served as Director of Public Prosecutions for England and Wales from 2008 to 2013. Labour leader from 2020, he won a landslide in July 2024 that ended fourteen years of Conservative government. He left Downing Street in July 2026 and was succeeded by Andy Burnham."
       },
       "stats": {
         "influence": 6,
@@ -7940,8 +7940,8 @@
       "fameScore": 79.68,
       "rarity": "rare",
       "bio": {
-        "fr": "Économiste formé à Cambridge et Oxford, il lance en 1991, comme ministre des Finances, la libéralisation de l'économie indienne. Il devient en 2004 le premier sikh Premier ministre de l'Inde et reste en poste jusqu'en 2014. Il conclut notamment un accord nucléaire civil avec les États-Unis.",
-        "en": "An economist trained at Cambridge and Oxford, he launched the liberalisation of India's economy as finance minister in 1991. In 2004 he became India's first Sikh prime minister, serving until 2014. His government sealed a civil nuclear agreement with the United States."
+        "fr": "Économiste formé à Cambridge et Oxford, il lance en 1991, comme ministre des Finances, la libéralisation de l'économie indienne. Il devient en 2004 le premier sikh Premier ministre de l'Inde et reste en poste jusqu'en 2014. Son gouvernement conclut un accord nucléaire civil avec les États-Unis ; il meurt en décembre 2024.",
+        "en": "An economist trained at Cambridge and Oxford, he launched the liberalisation of India's economy as finance minister in 1991. In 2004 he became India's first Sikh prime minister, serving until 2014. His government sealed a civil nuclear agreement with the United States; he died in December 2024."
       },
       "stats": {
         "influence": 7,
@@ -10860,8 +10860,8 @@
       "fameScore": 80.25,
       "rarity": "uncommon",
       "bio": {
-        "fr": "Née en 1981 aux Samoa américaines et élevée à Hawaï, elle sert dans la Garde nationale et est déployée en Irak. Représentante démocrate d'Hawaï de 2013 à 2021, elle brigue l'investiture présidentielle en 2020 puis quitte le Parti démocrate et rejoint les républicains. Elle est nommée directrice du renseignement national en 2025.",
-        "en": "Born in American Samoa in 1981 and raised in Hawaii, she served in the Army National Guard, including a deployment to Iraq. A Democratic congresswoman from Hawaii from 2013 to 2021, she ran for the presidential nomination in 2020, later left the party and joined the Republicans. She became Director of National Intelligence in 2025."
+        "fr": "Née en 1981 aux Samoa américaines et élevée à Hawaï, elle sert dans la Garde nationale et est déployée en Irak. Représentante démocrate d'Hawaï de 2013 à 2021, elle brigue l'investiture présidentielle en 2020 puis quitte le Parti démocrate et rejoint les républicains. Elle est directrice du renseignement national de février 2025 à juin 2026.",
+        "en": "Born in American Samoa in 1981 and raised in Hawaii, she served in the Army National Guard, including a deployment to Iraq. A Democratic congresswoman from Hawaii from 2013 to 2021, she ran for the presidential nomination in 2020, later left the party and joined the Republicans. She was Director of National Intelligence from February 2025 to June 2026."
       },
       "stats": {
         "influence": 7,
@@ -13634,8 +13634,8 @@
       "fameScore": 77.01,
       "rarity": "uncommon",
       "bio": {
-        "fr": "Jeune leader étudiant anticommuniste, il se fait connaître en 1989 en réclamant le départ des troupes soviétiques. Fondateur du Fidesz, il est Premier ministre de 1998 à 2002, puis de nouveau à partir de 2010. Il revendique une « démocratie illibérale » et s'oppose régulièrement à l'Union européenne sur l'État de droit et les migrations.",
-        "en": "A young anti-communist student leader, he made his name in 1989 by demanding the withdrawal of Soviet troops. A founder of Fidesz, he was prime minister from 1998 to 2002 and again from 2010. He has championed what he calls 'illiberal democracy' and repeatedly clashed with the European Union over the rule of law and migration."
+        "fr": "Jeune leader étudiant anticommuniste, il se fait connaître en 1989 en réclamant le départ des troupes soviétiques. Fondateur du Fidesz, il est Premier ministre de 1998 à 2002, puis de 2010 à mai 2026. Il revendique une « démocratie illibérale » et s'oppose régulièrement à l'Union européenne sur l'État de droit et les migrations.",
+        "en": "A young anti-communist student leader, he made his name in 1989 by demanding the withdrawal of Soviet troops. A founder of Fidesz, he was prime minister from 1998 to 2002 and again from 2010 to May 2026. He championed what he calls 'illiberal democracy' and repeatedly clashed with the European Union over the rule of law and migration."
       },
       "stats": {
         "influence": 6,
@@ -17560,8 +17560,8 @@
         "fr": "Andy Burnham"
       },
       "role": {
-        "fr": "Maire du Grand Manchester (Royaume-Uni)",
-        "en": "Mayor of Greater Manchester (United Kingdom)"
+        "fr": "Premier ministre du Royaume-Uni",
+        "en": "Prime Minister of the United Kingdom"
       },
       "country": "GB",
       "continent": "europe",
@@ -17572,8 +17572,8 @@
       "fameScore": 75.94,
       "rarity": "common",
       "bio": {
-        "fr": "Député travailliste de Leigh à partir de 2001, il est ministre de la Santé dans le gouvernement de Gordon Brown et se présente deux fois à la direction du Parti travailliste. Élu en 2017 premier maire du Grand Manchester, il devient l’une des voix les plus en vue du pouvoir local au Royaume-Uni.",
-        "en": "Labour MP for Leigh from 2001, he served as Health Secretary under Gordon Brown and twice ran for the party leadership. Elected the first Mayor of Greater Manchester in 2017, he became one of the most prominent figures in British local government."
+        "fr": "Député travailliste de Leigh à partir de 2001, il est ministre de la Santé dans le gouvernement de Gordon Brown. Élu en 2017 premier maire du Grand Manchester, il retrouve les Communes en juin 2026. Chef du Parti travailliste à la mi-juillet, il devient Premier ministre du Royaume-Uni le 20 juillet 2026.",
+        "en": "Labour MP for Leigh from 2001, he served as Health Secretary under Gordon Brown. Elected the first Mayor of Greater Manchester in 2017, he returned to the Commons in June 2026. Chosen as Labour leader in mid-July, he became Prime Minister of the United Kingdom on 20 July 2026."
       },
       "stats": {
         "influence": 6,
@@ -19239,8 +19239,8 @@
       "fameScore": 73.42,
       "rarity": "common",
       "bio": {
-        "fr": "Ancien guérillero des Tupamaros, il passe environ treize ans en prison, en grande partie à l'isolement, sous la dictature militaire. Président de l'Uruguay de 2010 à 2015, il fait légaliser le cannabis et le mariage entre personnes de même sexe. Son mode de vie austère et le don de l'essentiel de son salaire lui valent une notoriété mondiale.",
-        "en": "A former Tupamaros guerrilla, he spent around thirteen years in prison under the military dictatorship, much of it in solitary confinement. As president of Uruguay from 2010 to 2015, he oversaw the legalisation of cannabis and of same-sex marriage. His frugal lifestyle and his habit of giving away most of his salary made him known worldwide."
+        "fr": "Ancien guérillero des Tupamaros, il passe environ treize ans en prison, en grande partie à l'isolement, sous la dictature militaire. Président de l'Uruguay de 2010 à 2015, il fait légaliser le cannabis et le mariage entre personnes de même sexe. Son mode de vie austère et le don de l'essentiel de son salaire lui valent une notoriété mondiale ; il meurt en mai 2025.",
+        "en": "A former Tupamaros guerrilla, he spent around thirteen years in prison under the military dictatorship, much of it in solitary confinement. As president of Uruguay from 2010 to 2015, he oversaw the legalisation of cannabis and of same-sex marriage. His frugal lifestyle and his habit of giving away most of his salary made him known worldwide; he died in May 2025."
       },
       "stats": {
         "influence": 4,
@@ -19441,8 +19441,8 @@
       "fameScore": 72.71,
       "rarity": "common",
       "bio": {
-        "fr": "Agronome d'origine japonaise, il est élu président du Pérou en 1990 et dissout le Congrès lors de son autogolpe de 1992. Son régime vainc le Sentier lumineux mais s'effondre en 2000 dans un scandale de corruption, qui le pousse à fuir au Japon. Il est condamné en 2009 à 25 ans de prison pour des massacres commis par un escadron de la mort et pour corruption.",
-        "en": "An agronomist of Japanese descent, he was elected president of Peru in 1990 and shut down Congress in his 1992 self-coup. His government defeated the Shining Path but collapsed in 2000 amid a corruption scandal, and he fled to Japan. In 2009 he was sentenced to 25 years in prison over massacres carried out by a death squad and for corruption."
+        "fr": "Agronome d'origine japonaise, il est élu président du Pérou en 1990 et dissout le Congrès lors de son autogolpe de 1992. Son régime vainc le Sentier lumineux mais s'effondre en 2000 dans un scandale de corruption, qui le pousse à fuir au Japon. Condamné en 2009 à 25 ans de prison pour des massacres commis par un escadron de la mort et pour corruption, il meurt en septembre 2024.",
+        "en": "An agronomist of Japanese descent, he was elected president of Peru in 1990 and shut down Congress in his 1992 self-coup. His government defeated the Shining Path but collapsed in 2000 amid a corruption scandal, and he fled to Japan. Sentenced in 2009 to 25 years in prison over massacres carried out by a death squad and for corruption, he died in September 2024."
       },
       "stats": {
         "influence": 6,
@@ -21596,8 +21596,8 @@
         "fr": "Keiko Fujimori"
       },
       "role": {
-        "fr": "Dirigeante de Fuerza Popular au Pérou",
-        "en": "Leader of Popular Force in Peru"
+        "fr": "Présidente du Pérou",
+        "en": "President of Peru"
       },
       "country": "PE",
       "continent": "south_america",
@@ -21608,8 +21608,8 @@
       "fameScore": 68.56,
       "rarity": "common",
       "bio": {
-        "fr": "Fille d'Alberto Fujimori, elle tient le rôle de première dame du Pérou dès l'âge de 19 ans. Députée puis cheffe du parti Fuerza Popular, elle échoue au second tour des présidentielles de 2011, 2016 et 2021. Poursuivie pour blanchiment d'argent dans l'affaire Odebrecht, elle passe plusieurs mois en détention provisoire.",
-        "en": "The daughter of Alberto Fujimori, she acted as Peru's first lady from the age of 19. A congresswoman and later leader of the Popular Force party, she lost presidential runoffs in 2011, 2016 and 2021. Prosecuted for money laundering in the Odebrecht affair, she spent several months in pre-trial detention."
+        "fr": "Fille d'Alberto Fujimori, elle tient le rôle de première dame du Pérou dès l'âge de 19 ans. Cheffe du parti Fuerza Popular, elle échoue au second tour des présidentielles de 2011, 2016 et 2021 et passe plusieurs mois en détention provisoire dans l'affaire Odebrecht. Elle devient présidente du Pérou le 28 juillet 2026.",
+        "en": "The daughter of Alberto Fujimori, she acted as Peru's first lady from the age of 19. As leader of the Popular Force party she lost presidential runoffs in 2011, 2016 and 2021, and spent several months in pre-trial detention in the Odebrecht affair. She became President of Peru on 28 July 2026."
       },
       "stats": {
         "influence": 5,
@@ -22152,8 +22152,8 @@
         "en": "Delcy Rodríguez"
       },
       "role": {
-        "fr": "Présidente par intérim du Venezuela",
-        "en": "Acting President of Venezuela"
+        "fr": "Présidente du Venezuela",
+        "en": "President of Venezuela"
       },
       "country": "VE",
       "continent": "south_america",
@@ -22164,8 +22164,8 @@
       "fameScore": 67.97,
       "rarity": "common",
       "bio": {
-        "fr": "Avocate, elle est ministre des Affaires étrangères du Venezuela de 2014 à 2017 puis préside l'Assemblée constituante. Vice-présidente de Nicolás Maduro à partir de 2018, elle cumule des fonctions clés dans l'économie et le pétrole. Elle assure la présidence par intérim après la capture de Maduro par les États-Unis en janvier 2026.",
-        "en": "A lawyer, she was Venezuela's foreign minister from 2014 to 2017 and then presided over the Constituent Assembly. As Nicolás Maduro's vice president from 2018, she also held key economic and oil portfolios. She became acting president after the United States captured Maduro in January 2026."
+        "fr": "Avocate, elle est ministre des Affaires étrangères du Venezuela de 2014 à 2017 puis préside l'Assemblée constituante. Vice-présidente de Nicolás Maduro à partir de 2018, elle cumule des fonctions clés dans l'économie et le pétrole. Après la capture de Maduro par les États-Unis, elle devient présidente du Venezuela le 5 janvier 2026.",
+        "en": "A lawyer, she was Venezuela's foreign minister from 2014 to 2017 and then presided over the Constituent Assembly. As Nicolás Maduro's vice president from 2018, she also held key economic and oil portfolios. After the United States captured Maduro, she became President of Venezuela on 5 January 2026."
       },
       "stats": {
         "influence": 6,
@@ -24690,8 +24690,8 @@
       "fameScore": 61.21,
       "rarity": "common",
       "bio": {
-        "fr": "Ancien chef de la police, il dirige l’enquête sur les meurtres de décembre 1982 imputés à Desi Bouterse. Chef du parti VHP, il est élu président en 2020 et engage un programme d’austérité face à la crise de la dette, avant de céder la place en 2025.",
-        "en": "A former police commissioner, he led the investigation into the December 1982 killings attributed to Desi Bouterse. As head of the VHP party he became president in 2020 and imposed austerity to tackle a debt crisis before stepping down in 2025."
+        "fr": "Ancien chef de la police, il dirige l’enquête sur les meurtres de décembre 1982 imputés à Desi Bouterse. Chef du parti VHP, il est président de 2020 à 2025 et engage un programme d’austérité face à la crise de la dette. Il meurt en mars 2026.",
+        "en": "A former police commissioner, he led the investigation into the December 1982 killings attributed to Desi Bouterse. As head of the VHP party he was president from 2020 to 2025 and imposed austerity to tackle a debt crisis. He died in March 2026."
       },
       "stats": {
         "influence": 5,
@@ -25094,8 +25094,8 @@
       "fameScore": 60.13,
       "rarity": "common",
       "bio": {
-        "fr": "Avocat médiatique connu pour avoir défendu des clients controversés, il se lance en politique comme candidat indépendant de droite. Il fait campagne pour la présidentielle colombienne de 2026 sur un discours de fermeté face au crime et aux groupes armés.",
-        "en": "A high-profile lawyer known for defending controversial clients, he entered politics as an independent right-wing candidate. He ran in Colombia's 2026 presidential election on a tough-on-crime message aimed at armed groups."
+        "fr": "Avocat médiatique connu pour avoir défendu des clients controversés, il se lance en politique comme candidat indépendant de droite. Porté par un discours de fermeté face au crime et aux groupes armés, il remporte la présidentielle colombienne de 2026 et prend ses fonctions le 7 août 2026.",
+        "en": "A high-profile lawyer known for defending controversial clients, he entered politics as an independent right-wing candidate. Campaigning on a tough-on-crime message aimed at armed groups, he won Colombia's 2026 presidential election and took office on 7 August 2026."
       },
       "stats": {
         "influence": 4,
