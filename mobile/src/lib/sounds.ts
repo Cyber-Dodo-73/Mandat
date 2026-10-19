@@ -68,6 +68,19 @@ export function playSound(name: SoundName): void {
     .catch(() => undefined);
 }
 
+/** Delay so the coin jingle follows the main reward sound instead of masking it. */
+const COIN_DELAY_MS = 350;
+
+/** Coin jingle when Influence (or another currency) is credited; no-op for zero. */
+export function playCoin(amount: number | null | undefined, delayMs: number = COIN_DELAY_MS): void {
+  if (!amount || amount <= 0) return;
+  if (delayMs <= 0) {
+    playSound('coin');
+    return;
+  }
+  setTimeout(() => playSound('coin'), delayMs);
+}
+
 /** Stops a sound that may still be playing (e.g. `suspense_build` when the reveal is skipped). */
 export function stopSound(name: SoundName): void {
   const player = players.get(name);

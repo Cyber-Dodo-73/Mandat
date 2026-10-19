@@ -9,6 +9,7 @@ export type CollectionResponse = components['schemas']['CollectionResponse'];
 export type OwnedCard = components['schemas']['OwnedCardDto'];
 export type RecycleResponse = components['schemas']['RecycleResponse'];
 export type CraftResponse = components['schemas']['CraftResponse'];
+export type UpgradeResponse = components['schemas']['UpgradeResponse'];
 
 /** Cards owned by the player, one item per card + finish (persisted for offline use). */
 export function useCollectionQuery() {
@@ -93,6 +94,26 @@ export function useCraftMutation() {
     onError: (_error, _input, snapshot) => {
       if (snapshot?.previous) client.setQueryData(collectionQueryKey, snapshot.previous);
     },
+    onSettled: () => refreshAfterEconomy(client),
+  });
+}
+
+type UpgradeInput = { cardId: string; idempotencyKey: string };
+
+/**
+ * Turns one standard copy into a holo copy with Influence. The key is generated once per attempt by
+ * the caller and reused on retry, so a lost response never spends twice.
+ */
+export function useUpgradeMutation() {
+  const client = useQueryClient();
+  return useMutation<UpgradeResponse, Error, UpgradeInput>({
+    mutationFn: ({ cardId, idempotencyKey }) =>
+      unwrap(
+        api.POST('/api/v1/collection/{cardId}/upgrade', {
+          params: { path: { cardId }, header: { 'Idempotency-Key': idempotencyKey } },
+          body: { from: 'standard', to: 'holo' },
+        }),
+      ),
     onSettled: () => refreshAfterEconomy(client),
   });
 }

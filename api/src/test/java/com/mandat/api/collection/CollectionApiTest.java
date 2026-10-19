@@ -177,6 +177,56 @@ class CollectionApiTest {
         assertThat(influence(jdbc, user)).isEqualTo(10);
     }
 
+    @Test
+    void upgradingAStandardCopyToHoloCostsTwiceTheCraftAndIsIdempotent() throws Exception {
+        int cost = EconomyRules.holoUpgradeCost(com.mandat.api.card.Rarity.RARE);
+        assertThat(cost).isEqualTo(2 * EconomyRules.CRAFT_COST.get(com.mandat.api.card.Rarity.RARE));
+        own(RARE, "standard", 2);
+        setInfluence(jdbc, user, cost + 7);
+        upgrade(RARE, "standard", "holo", "key-1")
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.influenceSpent").value(cost))
+                .andExpect(jsonPath("$.influenceBalance").value(7))
+                .andExpect(jsonPath("$.remainingFrom").value(1))
+                .andExpect(jsonPath("$.quantityTo").value(1));
+        // Same key: same answer, nothing spent twice.
+        upgrade(RARE, "standard", "holo", "key-1").andExpect(status().isOk()).andExpect(jsonPath("$.influenceBalance").value(7));
+        assertThat(influence(jdbc, user)).isEqualTo(7);
+        assertThat(ledger(jdbc, user, "influence", WalletSource.FINISH_UPGRADE)).isEqualTo(-cost);
+        upgrade(COMMON, "standard", "holo", "key-1").andExpect(status().isUnprocessableContent())
+                .andExpect(jsonPath("$.code").value("idempotency_key_reused"));
+        // Not enough Influence: nothing changes.
+        upgrade(RARE, "standard", "holo", "key-2").andExpect(status().isConflict())
+                .andExpect(jsonPath("$.code").value("insufficient_influence"));
+        mockMvc.perform(get("/api/v1/collection").with(as(user)))
+                .andExpect(jsonPath("$.items[?(@.finish == 'standard')].quantity").value(org.hamcrest.Matchers.contains(1)));
+    }
+
+    @Test
+    void upgradingConsumesTheLastStandardCopyAndRejectsOtherFinishes() throws Exception {
+        own(COMMON, "standard", 1);
+        setInfluence(jdbc, user, 100_000);
+        upgrade(COMMON, "standard", "holo", "k-a").andExpect(status().isOk()).andExpect(jsonPath("$.remainingFrom").value(0));
+        mockMvc.perform(get("/api/v1/collection").with(as(user)))
+                .andExpect(jsonPath("$.items", hasSize(1)))
+                .andExpect(jsonPath("$.items[0].finish").value("holo"));
+        upgrade(COMMON, "standard", "holo", "k-b").andExpect(status().isConflict())
+                .andExpect(jsonPath("$.code").value("card_not_owned"));
+        upgrade(COMMON, "holo", "gold", "k-c").andExpect(status().isUnprocessableContent())
+                .andExpect(jsonPath("$.code").value("finish_upgrade_unsupported"));
+        mockMvc.perform(post("/api/v1/collection/" + COMMON + "/upgrade").with(as(user))
+                        .contentType(MediaType.APPLICATION_JSON).content("{\"from\":\"standard\",\"to\":\"holo\"}"))
+                .andExpect(status().isBadRequest())
+                .andExpect(jsonPath("$.code").value("idempotency_key_required"));
+    }
+
+    private ResultActions upgrade(String cardId, String from, String to, String key) throws Exception {
+        return mockMvc.perform(post("/api/v1/collection/" + cardId + "/upgrade").with(as(user))
+                .header("Idempotency-Key", key)
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{\"from\":\"" + from + "\",\"to\":\"" + to + "\"}"));
+    }
+
     private void own(String cardId, String finish, int quantity) {
         jdbc.sql("""
                         insert into collection_items (user_id, card_id, finish, quantity, first_obtained_at, last_obtained_at)

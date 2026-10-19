@@ -31,7 +31,8 @@ public class EconomyController {
                             rarity,
                             EconomyRules.CRAFT_COST.get(rarity),
                             EconomyRules.RECYCLE_VALUE.get(rarity),
-                            EconomyRules.DUPLICATE_BONUS.get(rarity)))
+                            EconomyRules.DUPLICATE_BONUS.get(rarity),
+                            EconomyRules.holoUpgradeCost(rarity)))
                     .toList(),
             Arrays.stream(CardFinish.values())
                     .map(finish -> new FinishMultiplierDto(finish, EconomyRules.FINISH_MULTIPLIER.get(finish)))

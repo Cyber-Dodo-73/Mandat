@@ -47,7 +47,18 @@ public final class EconomyRules {
             Rarity.LEGENDARY, 3000,
             Rarity.MYTHIC, 8000);
 
+    /** Influence to turn one standard copy into a holo copy (twice the craft cost: an Influence sink). */
+    public static final int HOLO_UPGRADE_COST_FACTOR = 2;
+
+    /** The only finish upgrade on sale; full art and gold stay drop-only. */
+    public static final CardFinish UPGRADE_FROM = CardFinish.STANDARD;
+    public static final CardFinish UPGRADE_TO = CardFinish.HOLO;
+
     private EconomyRules() {}
+
+    public static int holoUpgradeCost(Rarity rarity) {
+        return CRAFT_COST.get(rarity) * HOLO_UPGRADE_COST_FACTOR;
+    }
 
     public static int recycleValue(Rarity rarity, CardFinish finish, int quantity) {
         return RECYCLE_VALUE.get(rarity) * FINISH_MULTIPLIER.get(finish) * quantity;

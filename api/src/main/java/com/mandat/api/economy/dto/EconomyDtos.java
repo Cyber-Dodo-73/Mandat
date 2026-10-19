@@ -20,9 +20,10 @@ public final class EconomyDtos {
     /**
      * Values for one rarity, before the finish multiplier. Recycling one copy of a finish yields
      * {@code recycleValue × multiplier}; a duplicate drawn from a booster grants
-     * {@code duplicateBonus × multiplier}; crafting a missing card (standard finish) costs {@code craftCost}.
+     * {@code duplicateBonus}; crafting a missing card (standard finish) costs {@code craftCost};
+     * turning one standard copy into a holo costs {@code holoUpgradeCost}.
      */
-    public record RarityValuesDto(Rarity rarity, int craftCost, int recycleValue, int duplicateBonus) {}
+    public record RarityValuesDto(Rarity rarity, int craftCost, int recycleValue, int duplicateBonus, int holoUpgradeCost) {}
 
     public record FinishMultiplierDto(CardFinish finish, int multiplier) {}
 

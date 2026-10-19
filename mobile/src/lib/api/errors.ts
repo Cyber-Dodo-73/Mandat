@@ -20,6 +20,7 @@ export const API_ERROR_CODES = [
   'idempotency_key_reused',
   'idempotency_key_required',
   'craft_limit_reached',
+  'finish_upgrade_unsupported',
   'card_not_owned',
   'not_enough_duplicates',
   'card_already_owned',

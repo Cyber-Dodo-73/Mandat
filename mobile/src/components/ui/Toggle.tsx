@@ -10,6 +10,7 @@ import Animated, {
 
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { haptics } from '@/lib/haptics';
+import { playSound } from '@/lib/sounds';
 import { radius, useTheme } from '@/theme';
 import { instant, springs } from '@/theme/motion';
 
@@ -35,8 +36,11 @@ export function Toggle({ value, onValueChange, accessibilityLabel, disabled = fa
     position.set(reduceMotion ? withTiming(value ? 1 : 0, instant) : withSpring(value ? 1 : 0, springs.bounce));
   }, [position, reduceMotion, value]);
 
+  // Capture only the two colors: the whole theme object would be copied to the UI thread every render.
+  const offColor = colors.surfaceRaised;
+  const onColor = colors.accent;
   const trackStyle = useAnimatedStyle(() => ({
-    backgroundColor: interpolateColor(position.get(), [0, 1], [colors.surfaceRaised, colors.accent]),
+    backgroundColor: interpolateColor(position.get(), [0, 1], [offColor, onColor]),
   }));
   const knobStyle = useAnimatedStyle(() => ({ transform: [{ translateX: position.get() * TRAVEL }] }));
 
@@ -49,6 +53,7 @@ export function Toggle({ value, onValueChange, accessibilityLabel, disabled = fa
       hitSlop={8}
       onPress={() => {
         haptics.toggle();
+        playSound('toggle');
         onValueChange(!value);
       }}
     >

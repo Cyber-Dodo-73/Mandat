@@ -7,7 +7,7 @@ import { Badge, Body, Button3D, Card, Heading, Icon, Text, Title } from '@/compo
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { formatNumber, useLanguage, useTranslation } from '@/i18n';
 import { haptics } from '@/lib/haptics';
-import { playSound } from '@/lib/sounds';
+import { playCoin, playSound } from '@/lib/sounds';
 import { spacing, useTheme } from '@/theme';
 
 import type { QuizResult } from './api';
@@ -29,7 +29,8 @@ export function QuizEnd({ result, onRetry }: QuizEndProps) {
       haptics.missionComplete();
       playSound('mission_complete');
     }
-  }, [result.bonusPack, result.perfect]);
+    playCoin(result.influence, 600);
+  }, [result.bonusPack, result.influence, result.perfect]);
 
   return (
     <View style={styles.root}>

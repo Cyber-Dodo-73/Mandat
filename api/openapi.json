@@ -340,6 +340,54 @@
         "tags" : [ "Collection" ]
       }
     },
+    "/api/v1/collection/{cardId}/upgrade" : {
+      "post" : {
+        "description" : "Idempotent: replaying the same Idempotency-Key returns the same result without spending again.",
+        "operationId" : "upgrade",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "cardId",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "in" : "header",
+          "name" : "Idempotency-Key",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/UpgradeRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/UpgradeResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Upgrade one standard copy to holo with Influence",
+        "tags" : [ "Collection" ]
+      }
+    },
     "/api/v1/duels" : {
       "post" : {
         "description" : "Takes 3 owned cards; the AI picks its team. Starting a duel abandons the previous active one.",
@@ -2948,6 +2996,10 @@
             "type" : "integer",
             "format" : "int32"
           },
+          "holoUpgradeCost" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
           "rarity" : {
             "type" : "string",
             "enum" : [ "common", "uncommon", "rare", "epic", "legendary", "mythic" ]
@@ -2957,7 +3009,7 @@
             "format" : "int32"
           }
         },
-        "required" : [ "craftCost", "duplicateBonus", "rarity", "recycleValue" ]
+        "required" : [ "craftCost", "duplicateBonus", "holoUpgradeCost", "rarity", "recycleValue" ]
       },
       "RecycleRequest" : {
         "type" : "object",
@@ -3402,6 +3454,57 @@
             "minLength" : 0
           }
         }
+      },
+      "UpgradeRequest" : {
+        "type" : "object",
+        "properties" : {
+          "from" : {
+            "type" : "string",
+            "description" : "Only standard is upgradable",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "to" : {
+            "type" : "string",
+            "description" : "Only holo is on sale",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          }
+        },
+        "required" : [ "from", "to" ]
+      },
+      "UpgradeResponse" : {
+        "type" : "object",
+        "properties" : {
+          "cardId" : {
+            "type" : "string"
+          },
+          "from" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "influenceBalance" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "influenceSpent" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "quantityTo" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Holo copies owned after the upgrade"
+          },
+          "remainingFrom" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Standard copies left (the upgraded copy is removed from them)"
+          },
+          "to" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          }
+        },
+        "required" : [ "cardId", "from", "influenceBalance", "influenceSpent", "quantityTo", "remainingFrom", "to" ]
       },
       "Wallet" : {
         "type" : "object",

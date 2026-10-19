@@ -31,6 +31,7 @@ public enum ErrorCode {
     CARD_ALREADY_OWNED("card_already_owned", HttpStatus.CONFLICT),
     IDEMPOTENCY_KEY_REQUIRED("idempotency_key_required", HttpStatus.BAD_REQUEST),
     CRAFT_LIMIT_REACHED("craft_limit_reached", HttpStatus.CONFLICT),
+    FINISH_UPGRADE_UNSUPPORTED("finish_upgrade_unsupported", HttpStatus.UNPROCESSABLE_CONTENT),
 
     // progression
     REWARD_NOT_CLAIMABLE("reward_not_claimable", HttpStatus.CONFLICT),
