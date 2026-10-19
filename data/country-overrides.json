@@ -1,0 +1,13 @@
+{
+  "_comment": "Per-person country corrections where the citizenship vote picks a country the person is not primarily associated with. Never affects rarity.",
+  "Q174438": {
+    "name": "Madeleine Albright",
+    "iso": "US",
+    "reason": "US Secretary of State; Czech-born, but her political career is American."
+  },
+  "Q539": {
+    "name": "Giuseppe Garibaldi",
+    "iso": "IT",
+    "reason": "Hero of Italian unification; born in Nice (now France) when it belonged to the Kingdom of Sardinia."
+  }
+}

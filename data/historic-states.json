@@ -1,0 +1,358 @@
+{
+  "_comment": "Manual mapping of historic or ambiguous states to a modern-equivalent ISO 3166-1 code. 'continent' overrides the ISO continent; iso null ignores the entity. Applied before Wikidata-derived resolution (own ISO, containing country, capital's country).",
+  "Q8733": {
+    "name": "Qing dynasty",
+    "iso": "CN"
+  },
+  "Q9903": {
+    "name": "Ming dynasty",
+    "iso": "CN"
+  },
+  "Q7313": {
+    "name": "Yuan dynasty",
+    "iso": "CN"
+  },
+  "Q7462": {
+    "name": "Song dynasty",
+    "iso": "CN"
+  },
+  "Q1072949": {
+    "name": "Western Han",
+    "iso": "CN"
+  },
+  "Q5066": {
+    "name": "Jin dynasty",
+    "iso": "CN"
+  },
+  "Q12060881": {
+    "name": "Chinese Empire",
+    "iso": "CN"
+  },
+  "Q7405": {
+    "name": "Sui dynasty",
+    "iso": "CN"
+  },
+  "Q319460": {
+    "name": "Northern Song dynasty",
+    "iso": "CN"
+  },
+  "Q35216": {
+    "name": "Zhou dynasty",
+    "iso": "CN"
+  },
+  "Q1069609": {
+    "name": "Western Zhou",
+    "iso": "CN"
+  },
+  "Q28179": {
+    "name": "Joseon",
+    "iso": "KR"
+  },
+  "Q28233": {
+    "name": "Korean Empire",
+    "iso": "KR"
+  },
+  "Q503585": {
+    "name": "Korea under Japanese rule",
+    "iso": "KR"
+  },
+  "Q18097": {
+    "name": "Korea",
+    "iso": "KR"
+  },
+  "Q28208": {
+    "name": "Goryeo",
+    "iso": "KR",
+    "note": "Capital Kaesong is now in North Korea; mapped to the Korean historiographic tradition."
+  },
+  "Q28370": {
+    "name": "Goguryeo",
+    "iso": "KP",
+    "note": "Capital Pyongyang for most of its history."
+  },
+  "Q2577303": {
+    "name": "Kingdom of Sardinia",
+    "iso": "IT"
+  },
+  "Q204920": {
+    "name": "Crown of Aragon",
+    "iso": "ES"
+  },
+  "Q1206012": {
+    "name": "German Reich",
+    "iso": "DE"
+  },
+  "Q170072": {
+    "name": "Dutch Republic",
+    "iso": "NL"
+  },
+  "Q188553": {
+    "name": "Batavian Republic",
+    "iso": "NL"
+  },
+  "Q774783": {
+    "name": "Sovereign Principality of the United Netherlands",
+    "iso": "NL"
+  },
+  "Q11266977": {
+    "name": "Epirus",
+    "iso": "GR"
+  },
+  "Q530670": {
+    "name": "Kingdom of Burgundy",
+    "iso": "FR"
+  },
+  "Q91329095": {
+    "name": "Kingdom of Burgundy",
+    "iso": "FR"
+  },
+  "Q23693": {
+    "name": "Visigoths",
+    "iso": "ES"
+  },
+  "Q126936": {
+    "name": "Visigothic Kingdom",
+    "iso": "ES"
+  },
+  "Q13403037": {
+    "name": "Period of Appanages",
+    "iso": "RU"
+  },
+  "Q20973653": {
+    "name": "Kingdom of Munster",
+    "iso": "IE"
+  },
+  "Q1051384": {
+    "name": "Catuvellauni",
+    "iso": "GB"
+  },
+  "Q193152": {
+    "name": "Great Moravia",
+    "iso": "CZ"
+  },
+  "Q12548": {
+    "name": "Holy Roman Empire",
+    "iso": "DE"
+  },
+  "Q2277": {
+    "name": "Roman Empire",
+    "iso": "IT"
+  },
+  "Q83958": {
+    "name": "Macedonia (ancient kingdom)",
+    "iso": "GR"
+  },
+  "Q28513": {
+    "name": "Austria-Hungary",
+    "iso": "AT"
+  },
+  "Q172107": {
+    "name": "Polish-Lithuanian Commonwealth",
+    "iso": "PL"
+  },
+  "Q45670": {
+    "name": "Kingdom of Portugal",
+    "iso": "PT"
+  },
+  "Q62651": {
+    "name": "Denmark-Norway",
+    "iso": "DK"
+  },
+  "Q203817": {
+    "name": "First Bulgarian Empire",
+    "iso": "BG"
+  },
+  "Q2415003": {
+    "name": "Kingdom of Serbia",
+    "iso": "RS"
+  },
+  "Q1406298": {
+    "name": "Serbian Empire",
+    "iso": "RS"
+  },
+  "Q426025": {
+    "name": "Duchy of Savoy",
+    "iso": "IT"
+  },
+  "Q38060": {
+    "name": "Gaul",
+    "iso": "FR"
+  },
+  "Q31929": {
+    "name": "Carolingian Empire",
+    "iso": "FR",
+    "note": "Charlemagne's realm is claimed by both France and Germany; France chosen for the Frankish core (Neustria/Austrasia)."
+  },
+  "Q12560": {
+    "name": "Ottoman Empire",
+    "iso": "TR"
+  },
+  "Q93180": {
+    "name": "Seleucid Empire",
+    "iso": "IQ"
+  },
+  "Q83891": {
+    "name": "Sasanian Empire",
+    "iso": "IR"
+  },
+  "Q41137": {
+    "name": "Assyrian Empire",
+    "iso": "IQ"
+  },
+  "Q12536": {
+    "name": "Abbasid Caliphate",
+    "iso": "IQ"
+  },
+  "Q389688": {
+    "name": "Achaemenid Empire",
+    "iso": "IR"
+  },
+  "Q8575586": {
+    "name": "Umayyad Caliphate",
+    "iso": "SY"
+  },
+  "Q3708094": {
+    "name": "Seljuk Empire",
+    "iso": "IR"
+  },
+  "Q12557": {
+    "name": "Mongol Empire",
+    "iso": "MN"
+  },
+  "Q1986139": {
+    "name": "Parthian Empire",
+    "iso": "IR"
+  },
+  "Q12490507": {
+    "name": "Rashidun Caliphate",
+    "iso": "SA"
+  },
+  "Q229411": {
+    "name": "Delhi Sultanate",
+    "iso": "IN"
+  },
+  "Q33296": {
+    "name": "Mughal Empire",
+    "iso": "IN"
+  },
+  "Q484195": {
+    "name": "Timurid Empire",
+    "iso": "UZ"
+  },
+  "Q491106": {
+    "name": "Khanate of Khiva",
+    "iso": "UZ"
+  },
+  "Q63134381": {
+    "name": "Khwarazmian Empire",
+    "iso": "UZ"
+  },
+  "Q2553863": {
+    "name": "White Horde",
+    "iso": "KZ"
+  },
+  "Q644979": {
+    "name": "Blue Horde",
+    "iso": "RU"
+  },
+  "Q188836": {
+    "name": "Xiongnu",
+    "iso": "MN"
+  },
+  "Q379821": {
+    "name": "Massagetae",
+    "iso": "KZ"
+  },
+  "Q2617267": {
+    "name": "Ottoman Iraq",
+    "iso": "IQ"
+  },
+  "Q108865218": {
+    "name": "Lebanese Republic under French mandate",
+    "iso": "LB"
+  },
+  "Q108865226": {
+    "name": "State of Greater Lebanon",
+    "iso": "LB"
+  },
+  "Q1973084": {
+    "name": "Unfederated Malay States",
+    "iso": "MY"
+  },
+  "Q844295": {
+    "name": "Yamatai",
+    "iso": "JP"
+  },
+  "Q137816": {
+    "name": "Taiwan under Japanese rule",
+    "iso": "TW"
+  },
+  "Q63135869": {
+    "name": "Ayyubid Sultanate",
+    "iso": "EG"
+  },
+  "Q35355": {
+    "name": "Sumer",
+    "iso": "IQ"
+  },
+  "Q1193879": {
+    "name": "State of Vietnam",
+    "iso": "VN"
+  },
+  "Q180573": {
+    "name": "South Vietnam",
+    "iso": "VN"
+  },
+  "Q177819": {
+    "name": "Old Kingdom of Egypt",
+    "iso": "EG"
+  },
+  "Q160307": {
+    "name": "Fatimid Caliphate",
+    "iso": "EG"
+  },
+  "Q10416611": {
+    "name": "Vandal Kingdom",
+    "iso": "TN"
+  },
+  "Q729768": {
+    "name": "Zulu Kingdom",
+    "iso": "ZA"
+  },
+  "Q33702": {
+    "name": "Kingdom of Kongo",
+    "iso": "AO",
+    "note": "Capital Mbanza Kongo is in present-day Angola."
+  },
+  "Q179997": {
+    "name": "Thirteen Colonies",
+    "iso": "US"
+  },
+  "Q2047652": {
+    "name": "Texcoco",
+    "iso": "MX"
+  },
+  "Q190025": {
+    "name": "Federal Republic of Central America",
+    "iso": "GT"
+  },
+  "Q156418": {
+    "name": "Kingdom of Hawaii",
+    "iso": "US",
+    "continent": "oceania"
+  },
+  "Q1057542": {
+    "name": "Republic of Hawaii",
+    "iso": "US",
+    "continent": "oceania"
+  },
+  "Q223050": {
+    "name": "statelessness",
+    "iso": null
+  },
+  "Q458": {
+    "name": "European Union",
+    "iso": null,
+    "note": "Supranational body: its offices say nothing about the holder's country."
+  }
+}

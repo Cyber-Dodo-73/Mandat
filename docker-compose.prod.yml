@@ -1,0 +1,66 @@
+# Production stack for Dokploy (Traefik in front, https://mandat.cyber-dodo.fr).
+# Differences with docker-compose.yml: no published ports, the API joins Dokploy's
+# Traefik network and carries its routing labels, docs off by default.
+name: mandat
+
+services:
+  postgres:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-mandat}
+      POSTGRES_USER: ${POSTGRES_USER:-mandat}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - postgres-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - internal
+
+  api:
+    build: ./api
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE:-prod}
+      DATABASE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-mandat}
+      DATABASE_USERNAME: ${POSTGRES_USER:-mandat}
+      DATABASE_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      MANDAT_CORS_ALLOWED_ORIGINS: ${MANDAT_CORS_ALLOWED_ORIGINS:-}
+      MANDAT_API_DOCS_ENABLED: ${MANDAT_API_DOCS_ENABLED:-false}
+      MANDAT_JWT_SECRET: ${MANDAT_JWT_SECRET:?Set MANDAT_JWT_SECRET (at least 32 bytes) in .env}
+      MANDAT_APPLE_CLIENT_IDS: ${MANDAT_APPLE_CLIENT_IDS:-fr.cyberdodo.mandat,fr.cyberdodo.mandat.dev}
+      MANDAT_GOOGLE_CLIENT_IDS: ${MANDAT_GOOGLE_CLIENT_IDS:-}
+      MANDAT_CATALOG_LOCATION: ${MANDAT_CATALOG_LOCATION:-file:/data/cards.season1.json}
+      MANDAT_CATALOG_FIRSTPACKRULESLOCATION: ${MANDAT_CATALOG_FIRSTPACKRULESLOCATION:-file:/data/firstPackRules.json}
+    volumes:
+      - ./data:/data:ro
+    expose:
+      - "8080"
+    networks:
+      - internal
+      - dokploy-network
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=dokploy-network
+      - traefik.http.routers.mandat-api.rule=Host(`${API_DOMAIN:-mandat.cyber-dodo.fr}`)
+      - traefik.http.routers.mandat-api.entrypoints=websecure
+      - traefik.http.routers.mandat-api.tls.certresolver=letsencrypt
+      - traefik.http.routers.mandat-api-http.rule=Host(`${API_DOMAIN:-mandat.cyber-dodo.fr}`)
+      - traefik.http.routers.mandat-api-http.entrypoints=web
+      - traefik.http.routers.mandat-api-http.middlewares=redirect-to-https@file
+      - traefik.http.services.mandat-api.loadbalancer.server.port=8080
+
+networks:
+  internal:
+  dokploy-network:
+    external: true
+
+volumes:
+  postgres-data:

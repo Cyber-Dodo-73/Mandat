@@ -1,0 +1,28 @@
+{
+  "slots": [
+    {
+      "rarities": [
+        "epic",
+        "legendary",
+        "mythic"
+      ],
+      "count": 1
+    },
+    {
+      "rarities": [
+        "rare",
+        "uncommon"
+      ],
+      "count": 2
+    },
+    {
+      "rarities": [
+        "common"
+      ],
+      "count": 2
+    }
+  ],
+  "distinctContinents": 5,
+  "minDistinctEras": 3,
+  "excludeSensitive": true
+}

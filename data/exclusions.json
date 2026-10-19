@@ -1,0 +1,114 @@
+{
+  "_comment": "Scope rules for who counts as a political figure. Exclusions only decide who enters the candidate pool; they never change rarity, which is assigned purely by fame rank. See scripts/build-cards/src/politics.ts for how these rules combine.",
+  "strongCategories": [
+    "revolutionary"
+  ],
+  "leadershipCategories": [
+    "head_of_state",
+    "head_of_government",
+    "monarch_position",
+    "monarch"
+  ],
+  "sovereignPositions": {
+    "Q12097": "king",
+    "Q39018": "emperor",
+    "Q43292": "sultan",
+    "Q44356": "tsar",
+    "Q183318": "dictator",
+    "Q116": "monarch",
+    "Q48352": "head of state",
+    "Q2285706": "head of government",
+    "Q14212": "prime minister",
+    "Q181888": "khan",
+    "Q187878": "khagan",
+    "Q184299": "shah",
+    "Q131767": "shogun",
+    "Q166382": "amir",
+    "Q16511993": "queen",
+    "Q81066": "United Nations Secretary-General",
+    "Q167662": "Secretary General of NATO",
+    "Q1161813": "President of the United Nations General Assembly"
+  },
+  "notablePositionMinSitelinks": 30,
+  "nonPoliticalOccupations": {
+    "Q1028181": "painter",
+    "Q1281618": "sculptor",
+    "Q483501": "artist",
+    "Q36834": "composer",
+    "Q49757": "poet",
+    "Q6625963": "novelist",
+    "Q214917": "playwright",
+    "Q169470": "physicist",
+    "Q593644": "chemist",
+    "Q170790": "mathematician",
+    "Q11063": "astronomer",
+    "Q864503": "biologist",
+    "Q901": "scientist",
+    "Q205375": "inventor",
+    "Q81096": "engineer",
+    "Q82594": "computer scientist",
+    "Q937857": "association football player",
+    "Q33999": "actor",
+    "Q10800557": "film actor",
+    "Q177220": "singer",
+    "Q488205": "singer-songwriter",
+    "Q639669": "musician",
+    "Q2526255": "film director",
+    "Q11631": "astronaut",
+    "Q12634815": "cosmonaut",
+    "Q14467526": "linguist",
+    "Q201788": "historian",
+    "Q188094": "economist",
+    "Q2306091": "sociologist",
+    "Q186360": "nurse",
+    "Q43845": "businessperson",
+    "Q131524": "entrepreneur",
+    "Q1234713": "theologian",
+    "Q488111": "pornographic actor",
+    "Q12299841": "cricketer",
+    "Q10833314": "tennis player",
+    "Q10873124": "chess player",
+    "Q42973": "architect",
+    "Q4964182": "philosopher"
+  },
+  "alwaysExcludedOccupations": {
+    "Q11900058": "explorer",
+    "Q126236": "conquistador",
+    "Q11558933": "navigator",
+    "Q42857": "prophet",
+    "Q2543769": "drug lord",
+    "Q2159907": "criminal"
+  },
+  "positions": {
+    "Q19546": {
+      "name": "Pope",
+      "reason": "religious office; the season covers political figures, not religious leaders"
+    },
+    "Q37349": {
+      "name": "Dalai Lama",
+      "reason": "religious office"
+    },
+    "Q180465": {
+      "name": "Rashidun caliph",
+      "reason": "companions of the Prophet: religious figures whose depiction is widely considered offensive"
+    },
+    "Q130427405": {
+      "name": "Imam of Twelver Shiism",
+      "reason": "religious office"
+    }
+  },
+  "people": {
+    "Q9458": {
+      "name": "Muhammad",
+      "reason": "founder of a religion; depiction is widely considered offensive"
+    },
+    "Q37731": {
+      "name": "Uthman ibn Affan",
+      "reason": "Rashidun caliph (companion of the Prophet), same rule as the Rashidun position"
+    },
+    "Q314492": {
+      "name": "Ragnar Lodbrok",
+      "reason": "semi-legendary saga figure whose historicity is disputed"
+    }
+  }
+}

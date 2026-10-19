@@ -1,0 +1,257 @@
+[
+  {
+    "wikidataId": "Q352",
+    "name": "Adolf Hitler",
+    "reason": "Instigator of the Holocaust (about six million Jews murdered) and of other Nazi genocides and war crimes."
+  },
+  {
+    "wikidataId": "Q855",
+    "name": "Joseph Stalin",
+    "reason": "Responsible for the Great Purge, the Gulag system, mass deportations of peoples and the 1932–33 famine; established crimes against humanity."
+  },
+  {
+    "wikidataId": "Q5816",
+    "name": "Mao Zedong",
+    "reason": "Led the Great Leap Forward (famine killing tens of millions) and the Cultural Revolution's mass persecutions."
+  },
+  {
+    "wikidataId": "Q39464",
+    "name": "Pol Pot",
+    "reason": "Led the Khmer Rouge regime responsible for the Cambodian genocide (about 1.5 to 2 million deaths, 1975–79)."
+  },
+  {
+    "wikidataId": "Q43067",
+    "name": "Heinrich Himmler",
+    "reason": "Head of the SS and chief organizer of the Holocaust."
+  },
+  {
+    "wikidataId": "Q47906",
+    "name": "Hermann Göring",
+    "reason": "Convicted at Nuremberg of war crimes and crimes against humanity."
+  },
+  {
+    "wikidataId": "Q28085",
+    "name": "Adolf Eichmann",
+    "reason": "Organizer of the deportation of Jews to extermination camps; convicted in Jerusalem (1961) of crimes against humanity."
+  },
+  {
+    "wikidataId": "Q60039",
+    "name": "Reinhard Heydrich",
+    "reason": "Chaired the Wannsee Conference and organized the Holocaust and Einsatzgruppen massacres."
+  },
+  {
+    "wikidataId": "Q41749",
+    "name": "Joseph Goebbels",
+    "reason": "Nazi propaganda minister, central to the persecution of Jews and the Holocaust."
+  },
+  {
+    "wikidataId": "Q101886",
+    "name": "Joachim von Ribbentrop",
+    "reason": "Convicted at Nuremberg of war crimes and crimes against humanity."
+  },
+  {
+    "wikidataId": "Q76367",
+    "name": "Martin Bormann",
+    "reason": "Convicted in absentia at Nuremberg of war crimes and crimes against humanity."
+  },
+  {
+    "wikidataId": "Q75866",
+    "name": "Rudolf Hess",
+    "reason": "Convicted at Nuremberg of crimes against peace and conspiracy."
+  },
+  {
+    "wikidataId": "Q57109",
+    "name": "Josef Mengele",
+    "reason": "SS physician at Auschwitz, selected prisoners for gas chambers and carried out lethal experiments."
+  },
+  {
+    "wikidataId": "Q23559",
+    "name": "Benito Mussolini",
+    "reason": "Fascist dictator; war crimes in Ethiopia and Libya (including chemical weapons) and anti-Jewish racial laws."
+  },
+  {
+    "wikidataId": "Q160847",
+    "name": "Hideki Tojo",
+    "reason": "Convicted by the International Military Tribunal for the Far East of war crimes."
+  },
+  {
+    "wikidataId": "Q12967",
+    "name": "Leopold II of Belgium",
+    "reason": "His Congo Free State regime caused mass atrocities and millions of deaths through forced labour."
+  },
+  {
+    "wikidataId": "Q315888",
+    "name": "Talaat Pasha",
+    "reason": "Main architect of the Armenian genocide (1915–1917)."
+  },
+  {
+    "wikidataId": "Q153899",
+    "name": "Enver Pasha",
+    "reason": "Ottoman triumvir co-responsible for the Armenian genocide."
+  },
+  {
+    "wikidataId": "Q65898",
+    "name": "Lothar von Trotha",
+    "reason": "Commanded the genocide of the Herero and Nama peoples (1904–1908)."
+  },
+  {
+    "wikidataId": "Q141829",
+    "name": "Lavrentiy Beria",
+    "reason": "Soviet secret police chief responsible for mass executions (including the Katyn massacre) and deportations."
+  },
+  {
+    "wikidataId": "Q29179",
+    "name": "Francisco Franco",
+    "reason": "His regime carried out mass executions and repression (the White Terror) during and after the Spanish Civil War."
+  },
+  {
+    "wikidataId": "Q36965",
+    "name": "Ante Pavelić",
+    "reason": "Leader of the Ustaše regime responsible for genocide against Serbs, Jews and Roma."
+  },
+  {
+    "wikidataId": "Q152030",
+    "name": "Ion Antonescu",
+    "reason": "Romanian dictator responsible for the deaths of hundreds of thousands of Jews and Roma; executed for war crimes in 1946."
+  },
+  {
+    "wikidataId": "Q5721",
+    "name": "Philippe Pétain",
+    "reason": "Head of the Vichy regime, which collaborated in the deportation of Jews to Nazi death camps; convicted of treason in 1945."
+  },
+  {
+    "wikidataId": "Q151983",
+    "name": "Pierre Laval",
+    "reason": "Vichy head of government who organized the deportation of Jews; executed for treason in 1945."
+  },
+  {
+    "wikidataId": "Q48231",
+    "name": "Idi Amin",
+    "reason": "His regime killed an estimated 100,000 to 500,000 Ugandans."
+  },
+  {
+    "wikidataId": "Q1316",
+    "name": "Saddam Hussein",
+    "reason": "Responsible for the Anfal campaign against the Kurds including the Halabja chemical attack; executed after conviction for crimes against humanity."
+  },
+  {
+    "wikidataId": "Q47139",
+    "name": "Slobodan Milošević",
+    "reason": "Indicted by the ICTY for genocide, crimes against humanity and war crimes; died before the verdict."
+  },
+  {
+    "wikidataId": "Q123923",
+    "name": "Radovan Karadžić",
+    "reason": "Convicted by the ICTY of genocide (Srebrenica) and crimes against humanity."
+  },
+  {
+    "wikidataId": "Q93167",
+    "name": "Ratko Mladić",
+    "reason": "Convicted by the ICTY of genocide (Srebrenica) and crimes against humanity."
+  },
+  {
+    "wikidataId": "Q49090",
+    "name": "Charles Taylor",
+    "reason": "Convicted by the Special Court for Sierra Leone of war crimes and crimes against humanity."
+  },
+  {
+    "wikidataId": "Q591458",
+    "name": "Jean Kambanda",
+    "reason": "Prime minister during the genocide against the Tutsi; convicted of genocide by the ICTR."
+  },
+  {
+    "wikidataId": "Q593198",
+    "name": "Théoneste Bagosora",
+    "reason": "Convicted by the ICTR for his role in the genocide against the Tutsi."
+  },
+  {
+    "wikidataId": "Q192512",
+    "name": "Mengistu Haile Mariam",
+    "reason": "Led the Red Terror in Ethiopia; convicted of genocide in absentia in 2006."
+  },
+  {
+    "wikidataId": "Q152474",
+    "name": "Rafael Trujillo",
+    "reason": "Ordered the 1937 Parsley massacre of thousands of Haitians."
+  },
+  {
+    "wikidataId": "Q368",
+    "name": "Augusto Pinochet",
+    "reason": "His regime killed and disappeared thousands and tortured tens of thousands; charged with crimes against humanity before his death."
+  },
+  {
+    "wikidataId": "Q75853",
+    "name": "Jorge Rafael Videla",
+    "reason": "Convicted of crimes against humanity for the Dirty War disappearances in Argentina."
+  },
+  {
+    "wikidataId": "Q467077",
+    "name": "Efraín Ríos Montt",
+    "reason": "Convicted of genocide against the Maya Ixil in 2013 (verdict later annulled on procedural grounds)."
+  },
+  {
+    "wikidataId": "Q310886",
+    "name": "Hissène Habré",
+    "reason": "Convicted by the Extraordinary African Chambers of crimes against humanity, war crimes and torture."
+  },
+  {
+    "wikidataId": "Q211936",
+    "name": "Francisco Macías Nguema",
+    "reason": "His regime killed or drove into exile a large share of Equatorial Guinea's population; convicted of genocide in 1979."
+  },
+  {
+    "wikidataId": "Q333981",
+    "name": "Yahya Khan",
+    "reason": "Head of state during the 1971 Bangladesh genocide."
+  },
+  {
+    "wikidataId": "Q44819",
+    "name": "Suharto",
+    "reason": "Rose to power through the 1965–66 mass killings in Indonesia; his regime committed atrocities in East Timor."
+  },
+  {
+    "wikidataId": "Q41117",
+    "name": "Kim Il Sung",
+    "reason": "Founded the North Korean system of political prison camps; UN inquiry (2014) found crimes against humanity."
+  },
+  {
+    "wikidataId": "Q10665",
+    "name": "Kim Jong Il",
+    "reason": "Ruled North Korea during the 1990s famine and the prison camp system; UN inquiry (2014) found crimes against humanity."
+  },
+  {
+    "wikidataId": "Q379203",
+    "name": "Khieu Samphan",
+    "reason": "Convicted by the Khmer Rouge Tribunal of genocide and crimes against humanity."
+  },
+  {
+    "wikidataId": "Q379225",
+    "name": "Nuon Chea",
+    "reason": "Convicted by the Khmer Rouge Tribunal of genocide and crimes against humanity."
+  },
+  {
+    "wikidataId": "Q379232",
+    "name": "Ieng Sary",
+    "reason": "Khmer Rouge leader charged with genocide and crimes against humanity; died during trial."
+  },
+  {
+    "wikidataId": "Q2821724",
+    "name": "Abu Bakr al-Baghdadi",
+    "reason": "Leader of the Islamic State, whose genocide of the Yazidis was established by the UN investigative team (UNITAD)."
+  },
+  {
+    "wikidataId": "Q321322",
+    "name": "Abimael Guzmán",
+    "reason": "Founder of the Shining Path, held responsible by Peru's Truth Commission for the largest share of the conflict's deaths; convicted of terrorism and aggravated murder."
+  },
+  {
+    "wikidataId": "Q19878",
+    "name": "Muammar Gaddafi",
+    "reason": "Subject of an ICC arrest warrant for crimes against humanity (2011); his regime carried out mass killings, including the 1996 Abu Salim prison massacre."
+  },
+  {
+    "wikidataId": "Q38823",
+    "name": "Ruhollah Khomeini",
+    "reason": "Ordered the 1988 mass executions of thousands of political prisoners, qualified as crimes against humanity by the UN Special Rapporteur on Iran (2024)."
+  }
+]

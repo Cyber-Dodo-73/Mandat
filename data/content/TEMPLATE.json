@@ -1,0 +1,19 @@
+{
+  "wikidataId": "Q8023",
+  "role": {
+    "fr": "Président de l'Afrique du Sud",
+    "en": "President of South Africa"
+  },
+  "bio": {
+    "fr": "Avocat et militant de l'ANC, il mène la lutte contre l'apartheid en Afrique du Sud. Emprisonné pendant 27 ans, il est libéré en 1990 et devient en 1994 le premier président élu au suffrage universel.",
+    "en": "A lawyer and ANC activist, he led the struggle against apartheid in South Africa. Imprisoned for 27 years, he was released in 1990 and became the first president elected by universal suffrage in 1994."
+  },
+  "stats": { "influence": 9, "diplomacy": 10, "charisma": 9, "strategy": 7 },
+  "ability": {
+    "name": { "fr": "Réconciliation", "en": "Reconciliation" },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient du même continent.",
+      "en": "+2 Diplomacy if the opposing card is from the same continent."
+    }
+  }
+}
