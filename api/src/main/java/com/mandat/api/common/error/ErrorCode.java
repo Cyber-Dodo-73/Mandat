@@ -12,6 +12,26 @@ public enum ErrorCode {
     METHOD_NOT_ALLOWED("method_not_allowed", HttpStatus.METHOD_NOT_ALLOWED),
     CONFLICT("conflict", HttpStatus.CONFLICT),
     RATE_LIMITED("rate_limited", HttpStatus.TOO_MANY_REQUESTS),
+
+    // auth / user
+    INVALID_CREDENTIALS("invalid_credentials", HttpStatus.UNAUTHORIZED),
+    INVALID_REFRESH_TOKEN("invalid_refresh_token", HttpStatus.UNAUTHORIZED),
+    INVALID_SOCIAL_TOKEN("invalid_social_token", HttpStatus.UNAUTHORIZED),
+    EMAIL_TAKEN("email_taken", HttpStatus.CONFLICT),
+    NICKNAME_TAKEN("nickname_taken", HttpStatus.CONFLICT),
+    NICKNAME_FORBIDDEN("nickname_forbidden", HttpStatus.UNPROCESSABLE_CONTENT),
+
+    // wallet / packs / collection
+    INSUFFICIENT_INFLUENCE("insufficient_influence", HttpStatus.CONFLICT),
+    NO_PACK_AVAILABLE("no_pack_available", HttpStatus.CONFLICT),
+    PACK_LOCKED("pack_locked", HttpStatus.FORBIDDEN),
+    IDEMPOTENCY_KEY_REUSED("idempotency_key_reused", HttpStatus.UNPROCESSABLE_CONTENT),
+    CARD_NOT_OWNED("card_not_owned", HttpStatus.CONFLICT),
+    NOT_ENOUGH_DUPLICATES("not_enough_duplicates", HttpStatus.CONFLICT),
+
+    // progression
+    REWARD_NOT_CLAIMABLE("reward_not_claimable", HttpStatus.CONFLICT),
+    REWARD_ALREADY_CLAIMED("reward_already_claimed", HttpStatus.CONFLICT),
     INTERNAL_ERROR("internal_error", HttpStatus.INTERNAL_SERVER_ERROR);
 
     private final String code;
