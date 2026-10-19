@@ -1,6 +1,6 @@
 import { Canvas, RadialGradient, Rect } from '@shopify/react-native-skia';
 import { router, useLocalSearchParams } from 'expo-router';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { ActivityIndicator, StyleSheet, useWindowDimensions, View, type LayoutChangeEvent } from 'react-native';
 import { GestureDetector, usePanGesture } from 'react-native-gesture-handler';
 import Animated, {
@@ -42,8 +42,11 @@ import { instant, springs } from '@/theme/motion';
 import { packPalettes, type PackTheme } from '@/theme/packs';
 
 import { FtueLayer, ftueEvent, useFtueAnchor } from '@/features/ftue';
+import { PerfOverlay } from '@/features/dev/PerfOverlay';
+import { useCelebrations } from '@/features/progression/celebrations';
 
 import { PackRecap } from './PackRecap';
+import { prefetchPackArt } from './prefetchPackArt';
 import { useOpenPackAttempt } from './queries';
 import { RevealStack } from './RevealStack';
 
@@ -51,6 +54,8 @@ import { RevealStack } from './RevealStack';
 const TEAR_TICK = 0.08;
 const PAN_TILT_DISTANCE = 140;
 const STACK_DELAY_MS = 650;
+/** If the pack is still uncut this long after the server answered, offer a plain "open" button. */
+const TEAR_FALLBACK_MS = 8000;
 
 /** ready: cut the pack open; stack: flip the cards one by one; recap: all five. */
 type Phase = 'ready' | 'stack' | 'recap';
@@ -83,11 +88,44 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
   const palette = packPalettes[theme];
 
   const attempt = useOpenPackAttempt(packId);
-  const { mutate, isIdle } = attempt;
+  const { mutate, isIdle, syncAfterReveal } = attempt;
   const [phase, setPhase] = useState<Phase>('ready');
+  const [tearFallbackReady, setTearFallbackReady] = useState(false);
+  const stackTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const boosterAnchor = useFtueAnchor('pack.booster');
   const result = attempt.data;
   const canTear = Boolean(result) && phase === 'ready';
+  const tearFallback = tearFallbackReady && canTear;
+
+  // Nothing may cover the cards while they are revealed: level-ups and toasts wait for the screen to close.
+  useEffect(() => {
+    const { hold, release } = useCelebrations.getState();
+    hold();
+    return () => {
+      release();
+      if (stackTimer.current) clearTimeout(stackTimer.current);
+    };
+  }, []);
+
+  // Collection, progression and /me refresh once the cards are seen (recap) or when leaving.
+  useEffect(() => {
+    if (phase === 'recap') syncAfterReveal();
+  }, [phase, syncAfterReveal]);
+  useEffect(() => syncAfterReveal, [syncAfterReveal]);
+
+  // Decode the five portraits while the player is still cutting the pack.
+  useEffect(() => {
+    if (!result) return undefined;
+    const prefetch = prefetchPackArt(result.cards);
+    return prefetch.release;
+  }, [result]);
+
+  // Never stuck on an uncut pack: after a while a plain button opens it.
+  useEffect(() => {
+    if (!canTear) return undefined;
+    const timer = setTimeout(() => setTearFallbackReady(true), TEAR_FALLBACK_MS);
+    return () => clearTimeout(timer);
+  }, [canTear]);
 
   // The opening request starts with the screen: the pack floats while the server draws.
   useEffect(() => {
@@ -135,7 +173,8 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
     ftueEvent('packTorn');
     playSound('tear');
     haptics.flipRare();
-    setTimeout(() => setPhase('stack'), reduceMotion ? 0 : STACK_DELAY_MS);
+    if (stackTimer.current) clearTimeout(stackTimer.current);
+    stackTimer.current = setTimeout(() => setPhase('stack'), reduceMotion ? 0 : STACK_DELAY_MS);
   };
 
   const finishTear = () => {
@@ -269,9 +308,14 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
             ) : !online && !result ? (
               <OfflineNotice message={t('offline.packOpening')} />
             ) : result ? (
-              <Body tone="muted" align="center">
-                {t('packOpening.tearHint')}
-              </Body>
+              <>
+                <Body tone="muted" align="center">
+                  {t('packOpening.tearHint')}
+                </Body>
+                {tearFallback ? (
+                  <Button3D label={t('packOpening.openWithoutTear')} variant="secondary" onPress={() => scheduleOnUI(finishTear)} />
+                ) : null}
+              </>
             ) : (
               <View style={styles.preparing}>
                 <ActivityIndicator color={colors.textMuted} />
@@ -293,6 +337,8 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
         <PackRecap result={result} onOpenAnother={onOpenAnother} />
       ) : null}
       <FtueLayer scope="pack" />
+      {/* Full-screen modals sit above the root overlay: the dev frame-rate meter is mounted here too. */}
+      <PerfOverlay />
     </View>
   );
 }

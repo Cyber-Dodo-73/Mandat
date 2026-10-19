@@ -64,4 +64,45 @@ describe('revealFlowStep', () => {
   it('a swipe on a face-down card starts its reveal', () => {
     expect(revealFlowStep(initialRevealFlow(5), { type: 'swipe', skippable: true }, 5).effect).toBe('startReveal');
   });
+
+  it('a late "revealed" (animation ending after a skip or a dismiss) changes nothing', () => {
+    const { state, effects } = run(2, [
+      { type: 'tap', skippable: true },
+      { type: 'tap', skippable: true },
+      { type: 'revealed' },
+      { type: 'tap', skippable: true },
+      { type: 'revealed' },
+    ]);
+    expect(effects).toEqual(['startReveal', 'skipReveal', 'none', 'dismiss', 'none']);
+    expect(state).toEqual({ index: 1, top: 'hidden', phase: 'stack' });
+  });
+
+  it('frantic tapping always lands on the summary with every card seen, never past it', () => {
+    const taps = Array.from({ length: 40 }, () => ({ type: 'tap' as const, skippable: true }));
+    const { state, effects } = run(5, taps);
+    expect(effects.filter((effect) => effect === 'dismiss')).toHaveLength(5);
+    expect(effects.filter((effect) => effect === 'startReveal')).toHaveLength(5);
+    expect(state).toEqual({ index: 5, top: 'hidden', phase: 'summary' });
+  });
+
+  it('a non-skippable reveal still completes once its animation reports the end', () => {
+    const { state } = run(1, [
+      { type: 'tap', skippable: false },
+      { type: 'tap', skippable: false },
+      { type: 'revealed' },
+      { type: 'tap', skippable: false },
+    ]);
+    expect(state.phase).toBe('summary');
+  });
+
+  it('the summary absorbs every event', () => {
+    const summary: RevealFlowState = { index: 5, top: 'hidden', phase: 'summary' };
+    for (const event of [{ type: 'tap', skippable: true }, { type: 'swipe', skippable: false }, { type: 'revealed' }] as const) {
+      expect(revealFlowStep(summary, event, 5)).toEqual({ state: summary, effect: 'none' });
+    }
+  });
+
+  it('an empty result goes straight to the summary', () => {
+    expect(initialRevealFlow(0).phase).toBe('summary');
+  });
 });
