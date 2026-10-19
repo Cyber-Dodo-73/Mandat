@@ -340,6 +340,112 @@
         "tags" : [ "Collection" ]
       }
     },
+    "/api/v1/duels" : {
+      "post" : {
+        "description" : "Takes 3 owned cards; the AI picks its team. Starting a duel abandons the previous active one.",
+        "operationId" : "create",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/CreateDuelRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "201" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/DuelResponse"
+                }
+              }
+            },
+            "description" : "Created"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Start a duel against the AI",
+        "tags" : [ "Duels" ]
+      }
+    },
+    "/api/v1/duels/{duelId}" : {
+      "get" : {
+        "operationId" : "get_1",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "duelId",
+          "required" : true,
+          "schema" : {
+            "type" : "string",
+            "format" : "uuid"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/DuelResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Current state of a duel",
+        "tags" : [ "Duels" ]
+      }
+    },
+    "/api/v1/duels/{duelId}/rounds" : {
+      "post" : {
+        "description" : "The server resolves the round in the announced domain (abilities included) and returns the full state; the duel ends at 2 wins or after 3 rounds.",
+        "operationId" : "playRound",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "duelId",
+          "required" : true,
+          "schema" : {
+            "type" : "string",
+            "format" : "uuid"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/PlayRoundRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/DuelResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Play the next round",
+        "tags" : [ "Duels" ]
+      }
+    },
     "/api/v1/me" : {
       "delete" : {
         "operationId" : "deleteMe",
@@ -592,6 +698,110 @@
         "tags" : [ "Progression" ]
       }
     },
+    "/api/v1/quiz/sessions" : {
+      "post" : {
+        "description" : "Questions are generated from the card catalog in the Accept-Language language (fr or en); answers are only revealed after each question is answered.",
+        "operationId" : "start",
+        "parameters" : [ {
+          "in" : "header",
+          "name" : "Accept-Language",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "201" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/QuizSessionResponse"
+                }
+              }
+            },
+            "description" : "Created"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Start a 10-question quiz",
+        "tags" : [ "Quiz" ]
+      }
+    },
+    "/api/v1/quiz/sessions/{sessionId}" : {
+      "get" : {
+        "operationId" : "get",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "sessionId",
+          "required" : true,
+          "schema" : {
+            "type" : "string",
+            "format" : "uuid"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/QuizSessionResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Resume a quiz session (still without answers)",
+        "tags" : [ "Quiz" ]
+      }
+    },
+    "/api/v1/quiz/sessions/{sessionId}/answers" : {
+      "post" : {
+        "description" : "Answers come in order. Re-sending an already answered question returns the stored result.",
+        "operationId" : "answer",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "sessionId",
+          "required" : true,
+          "schema" : {
+            "type" : "string",
+            "format" : "uuid"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/AnswerRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/AnswerResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Answer the next question",
+        "tags" : [ "Quiz" ]
+      }
+    },
     "/api/v1/season-pass" : {
       "get" : {
         "operationId" : "getSeasonPass",
@@ -648,6 +858,31 @@
   },
   "components" : {
     "schemas" : {
+      "AbilityEffectDto" : {
+        "type" : "object",
+        "properties" : {
+          "amount" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "description" : "Null for tieBreaker",
+            "maximum" : 3,
+            "minimum" : 1
+          },
+          "condition" : {
+            "$ref" : "#/components/schemas/EffectConditionDto"
+          },
+          "stat" : {
+            "type" : [ "string", "null" ],
+            "description" : "Null for tieBreaker",
+            "enum" : [ "influence", "diplomacy", "charisma", "strategy", "any" ]
+          },
+          "type" : {
+            "type" : "string",
+            "enum" : [ "bonus", "malus", "tieBreaker" ]
+          }
+        },
+        "required" : [ "condition", "type" ]
+      },
       "Account" : {
         "type" : "object",
         "properties" : {
@@ -736,6 +971,98 @@
         },
         "required" : [ "achievements", "totalCount", "unlockedCount" ]
       },
+      "AnswerRequest" : {
+        "type" : "object",
+        "properties" : {
+          "answer" : {
+            "type" : "array",
+            "description" : "The chosen option id, or every option id in order for chronology questions",
+            "items" : {
+              "type" : "string"
+            },
+            "maxItems" : 4,
+            "minItems" : 0
+          },
+          "questionIndex" : {
+            "type" : "integer",
+            "format" : "int32",
+            "maximum" : 9,
+            "minimum" : 0
+          }
+        },
+        "required" : [ "answer" ]
+      },
+      "AnswerResponse" : {
+        "type" : "object",
+        "properties" : {
+          "answeredCount" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "correct" : {
+            "type" : "boolean"
+          },
+          "correctAnswer" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "correctCount" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "explanation" : {
+            "type" : "string"
+          },
+          "finished" : {
+            "type" : "boolean"
+          },
+          "lives" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "questionIndex" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "result" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/QuizResultDto",
+            "description" : "Set once the session is over"
+          }
+        },
+        "required" : [ "answeredCount", "correct", "correctAnswer", "correctCount", "explanation", "finished", "lives", "questionIndex" ]
+      },
+      "AppliedEffect" : {
+        "type" : "object",
+        "properties" : {
+          "amount" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "cardId" : {
+            "type" : "string"
+          },
+          "condition" : {
+            "type" : "string",
+            "enum" : [ "always", "opponentContinent", "opponentEra", "roundDomain", "round", "behind", "opponentRarityHigher" ]
+          },
+          "side" : {
+            "type" : "string",
+            "enum" : [ "player", "ai" ]
+          },
+          "stat" : {
+            "type" : "string",
+            "enum" : [ "influence", "diplomacy", "charisma", "strategy", "any" ]
+          },
+          "type" : {
+            "type" : "string",
+            "enum" : [ "bonus", "malus", "tieBreaker" ]
+          }
+        },
+        "required" : [ "amount", "cardId", "condition", "side", "stat", "type" ]
+      },
       "AuthResponse" : {
         "type" : "object",
         "properties" : {
@@ -773,6 +1100,11 @@
         "properties" : {
           "description" : {
             "$ref" : "#/components/schemas/LocalizedText"
+          },
+          "effect" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/AbilityEffectDto",
+            "description" : "Machine-readable duel effect"
           },
           "name" : {
             "$ref" : "#/components/schemas/LocalizedText"
@@ -963,6 +1295,26 @@
         },
         "required" : [ "cardId", "finish", "influenceBalance", "influenceSpent" ]
       },
+      "CreateDuelRequest" : {
+        "type" : "object",
+        "properties" : {
+          "cardIds" : {
+            "type" : "array",
+            "description" : "3 distinct cards owned by the player",
+            "items" : {
+              "type" : "string",
+              "minLength" : 1
+            },
+            "maxItems" : 3,
+            "minItems" : 3
+          },
+          "difficulty" : {
+            "type" : "string",
+            "enum" : [ "easy", "normal", "hard" ]
+          }
+        },
+        "required" : [ "cardIds", "difficulty" ]
+      },
       "DrawnCardDto" : {
         "type" : "object",
         "properties" : {
@@ -996,6 +1348,108 @@
           }
         },
         "required" : [ "cardId", "finish", "influenceGained", "isNew", "isNewFinish", "rarity", "slot" ]
+      },
+      "DuelResponse" : {
+        "type" : "object",
+        "properties" : {
+          "aiCards" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "aiCardsLeft" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "aiScore" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "createdAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "difficulty" : {
+            "type" : "string",
+            "enum" : [ "easy", "normal", "hard" ]
+          },
+          "id" : {
+            "type" : "string",
+            "format" : "uuid"
+          },
+          "nextDomain" : {
+            "type" : [ "string", "null" ],
+            "description" : "Domain of the next round, null once the duel is over",
+            "enum" : [ "influence", "diplomacy", "charisma", "strategy" ]
+          },
+          "playerCards" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "playerCardsLeft" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "playerScore" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "reward" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/DuelRewardDto",
+            "description" : "Granted when the duel finishes"
+          },
+          "rounds" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/RoundOutcome"
+            }
+          },
+          "roundsPlayed" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "status" : {
+            "type" : "string",
+            "enum" : [ "active", "finished", "abandoned" ]
+          },
+          "winner" : {
+            "type" : [ "string", "null" ],
+            "enum" : [ "player", "ai", "draw" ]
+          }
+        },
+        "required" : [ "aiCards", "aiCardsLeft", "aiScore", "createdAt", "difficulty", "id", "playerCards", "playerCardsLeft", "playerScore", "rounds", "roundsPlayed", "status" ]
+      },
+      "DuelRewardDto" : {
+        "type" : "object",
+        "properties" : {
+          "influence" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "influence" ]
+      },
+      "EffectConditionDto" : {
+        "type" : "object",
+        "properties" : {
+          "kind" : {
+            "type" : "string",
+            "enum" : [ "always", "opponentContinent", "opponentEra", "roundDomain", "round", "behind", "opponentRarityHigher" ]
+          },
+          "value" : {
+            "type" : [ "string", "null" ],
+            "description" : "same|different, an era, a stat, or a round number as text"
+          }
+        },
+        "required" : [ "kind" ]
       },
       "FinishOddsDto" : {
         "type" : "object",
@@ -1265,6 +1719,23 @@
         },
         "required" : [ "bonusPacks", "cards", "firstPack", "freePacks", "influenceGained", "openedAt", "openingId", "packId", "pity" ]
       },
+      "OptionDto" : {
+        "type" : "object",
+        "properties" : {
+          "cardId" : {
+            "type" : [ "string", "null" ],
+            "description" : "Card shown with the option, when it is a figure"
+          },
+          "id" : {
+            "type" : "string",
+            "description" : "Value to send back: a card id, or an ISO country code"
+          },
+          "label" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "id", "label" ]
+      },
       "OwnedCardDto" : {
         "type" : "object",
         "properties" : {
@@ -1370,6 +1841,16 @@
         },
         "required" : [ "epicEveryPacks", "legendaryEveryPacks" ]
       },
+      "PlayRoundRequest" : {
+        "type" : "object",
+        "properties" : {
+          "cardId" : {
+            "type" : "string",
+            "minLength" : 1
+          }
+        },
+        "required" : [ "cardId" ]
+      },
       "ProgressionResponse" : {
         "type" : "object",
         "properties" : {
@@ -1439,6 +1920,102 @@
           }
         },
         "required" : [ "bestStreak", "bonusPacks", "currentStreak", "dailyResetAt", "freezeAvailable", "influence", "level", "seasonXp", "streakActiveToday", "timezone", "totalXp", "unlocks", "weeklyResetAt", "xpIntoLevel" ]
+      },
+      "QuestionDto" : {
+        "type" : "object",
+        "properties" : {
+          "index" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "options" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/OptionDto"
+            }
+          },
+          "prompt" : {
+            "type" : "string"
+          },
+          "text" : {
+            "type" : [ "string", "null" ],
+            "description" : "Extra text, e.g. a bio with the name masked"
+          },
+          "type" : {
+            "type" : "string",
+            "enum" : [ "whoRole", "whoBio", "whichCountry", "oldest", "chronology" ]
+          }
+        },
+        "required" : [ "index", "options", "prompt", "type" ]
+      },
+      "QuizResultDto" : {
+        "type" : "object",
+        "properties" : {
+          "bonusPack" : {
+            "type" : "boolean",
+            "description" : "True when this quiz earned a bonus booster (every 5 perfect quizzes)"
+          },
+          "correctAnswers" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "influence" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "perfect" : {
+            "type" : "boolean"
+          },
+          "totalQuestions" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "bonusPack", "correctAnswers", "influence", "perfect", "totalQuestions" ]
+      },
+      "QuizSessionResponse" : {
+        "type" : "object",
+        "properties" : {
+          "answeredCount" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "correctCount" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "expiresAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "id" : {
+            "type" : "string",
+            "format" : "uuid"
+          },
+          "lives" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "questions" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/QuestionDto"
+            }
+          },
+          "result" : {
+            "type" : "null",
+            "$ref" : "#/components/schemas/QuizResultDto"
+          },
+          "status" : {
+            "type" : "string",
+            "enum" : [ "active", "completed", "expired" ]
+          },
+          "totalQuestions" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "answeredCount", "correctCount", "expiresAt", "id", "lives", "questions", "status", "totalQuestions" ]
       },
       "RarityOddsDto" : {
         "type" : "object",
@@ -1569,6 +2146,57 @@
           }
         },
         "required" : [ "bonusPacks", "influence", "unlocks", "xp" ]
+      },
+      "RoundOutcome" : {
+        "type" : "object",
+        "properties" : {
+          "aiBase" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "aiCardId" : {
+            "type" : "string"
+          },
+          "aiValue" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "domain" : {
+            "type" : "string",
+            "enum" : [ "influence", "diplomacy", "charisma", "strategy" ]
+          },
+          "effects" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/AppliedEffect"
+            }
+          },
+          "playerBase" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "playerCardId" : {
+            "type" : "string"
+          },
+          "playerValue" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "round" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "tieRule" : {
+            "type" : [ "string", "null" ],
+            "description" : "How a tie on values was settled; null when values differ",
+            "enum" : [ "tieBreaker", "underdog", "draw" ]
+          },
+          "winner" : {
+            "type" : "string",
+            "enum" : [ "player", "ai", "draw" ]
+          }
+        },
+        "required" : [ "aiBase", "aiCardId", "aiValue", "domain", "effects", "playerBase", "playerCardId", "playerValue", "round", "winner" ]
       },
       "SeasonPassResponse" : {
         "type" : "object",

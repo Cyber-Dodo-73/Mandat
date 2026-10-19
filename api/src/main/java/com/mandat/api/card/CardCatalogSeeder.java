@@ -34,8 +34,9 @@ public class CardCatalogSeeder implements ApplicationRunner {
             insert into cards (id, season, number, wikidata_id, name_fr, name_en, role_fr, role_en, country,
                 continent, era, birth_year, death_year, is_living, fame_score, rarity, bio_fr, bio_en,
                 stat_influence, stat_diplomacy, stat_charisma, stat_strategy, ability_name_fr, ability_name_en,
-                ability_desc_fr, ability_desc_en, sensitive, artwork, active)
-            values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, true)
+                ability_desc_fr, ability_desc_en, effect_type, effect_stat, effect_amount, effect_condition,
+                effect_condition_value, sensitive, artwork, active)
+            values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, true)
             on conflict (id) do update set
                 season = excluded.season, number = excluded.number, wikidata_id = excluded.wikidata_id,
                 name_fr = excluded.name_fr, name_en = excluded.name_en, role_fr = excluded.role_fr,
@@ -46,7 +47,10 @@ public class CardCatalogSeeder implements ApplicationRunner {
                 stat_diplomacy = excluded.stat_diplomacy, stat_charisma = excluded.stat_charisma,
                 stat_strategy = excluded.stat_strategy, ability_name_fr = excluded.ability_name_fr,
                 ability_name_en = excluded.ability_name_en, ability_desc_fr = excluded.ability_desc_fr,
-                ability_desc_en = excluded.ability_desc_en, sensitive = excluded.sensitive,
+                ability_desc_en = excluded.ability_desc_en, effect_type = excluded.effect_type,
+                effect_stat = excluded.effect_stat, effect_amount = excluded.effect_amount,
+                effect_condition = excluded.effect_condition, effect_condition_value = excluded.effect_condition_value,
+                sensitive = excluded.sensitive,
                 artwork = excluded.artwork, active = true
             """;
 
@@ -127,7 +131,10 @@ public class CardCatalogSeeder implements ApplicationRunner {
     }
 
     private void upsertCards(CatalogFile file) {
-        List<Object[]> rows = file.cards().stream().map(card -> new Object[] {
+        List<Object[]> rows = file.cards().stream().map(card -> {
+            CatalogFile.Effect effect = card.ability().effect();
+            CatalogFile.Condition condition = effect == null ? null : effect.condition();
+            return new Object[] {
             card.id(), file.season(), card.number(), card.wikidataId(),
             card.name().fr(), card.name().en(), card.role().fr(), card.role().en(), card.country(),
             card.continent().key(), card.era().key(), card.birthYear(), card.deathYear(), card.isLiving(),
@@ -135,7 +142,11 @@ public class CardCatalogSeeder implements ApplicationRunner {
             card.stats().influence(), card.stats().diplomacy(), card.stats().charisma(), card.stats().strategy(),
             card.ability().name().fr(), card.ability().name().en(),
             card.ability().description().fr(), card.ability().description().en(),
+            effect == null ? null : effect.type(), effect == null ? null : effect.stat(),
+            effect == null ? null : effect.amount(), condition == null ? null : condition.kind(),
+            condition == null || condition.value() == null ? null : String.valueOf(condition.value()),
             card.sensitive(), card.artwork()
+            };
         }).toList();
         jdbcTemplate.batchUpdate(UPSERT_CARD, rows);
     }

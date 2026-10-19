@@ -32,5 +32,12 @@ record CatalogFile(int season, String version, List<Entry> cards) {
 
     record Stats(int influence, int diplomacy, int charisma, int strategy) {}
 
-    record Ability(Text name, Text description) {}
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    record Ability(Text name, Text description, Effect effect) {}
+
+    /** {@code condition.value} is a string or a number (round) in the file. */
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    record Effect(String type, String stat, Integer amount, Condition condition) {}
+
+    record Condition(String kind, Object value) {}
 }

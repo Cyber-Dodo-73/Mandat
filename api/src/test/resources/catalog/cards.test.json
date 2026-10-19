@@ -1,3030 +1,3630 @@
 {
- "season": 1,
- "version": "test",
- "cards": [
-  {
-   "id": "t-001",
-   "wikidataId": "Q1001",
-   "number": 1,
-   "name": {
-    "fr": "Figure 1",
-    "en": "Figure 1"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "antiquity",
-   "birthYear": 1001,
-   "deathYear": 1061,
-   "isLiving": false,
-   "fameScore": 99,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-002",
-   "wikidataId": "Q1002",
-   "number": 2,
-   "name": {
-    "fr": "Figure 2",
-    "en": "Figure 2"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "medieval",
-   "birthYear": 1002,
-   "deathYear": 1062,
-   "isLiving": false,
-   "fameScore": 98,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-003",
-   "wikidataId": "Q1003",
-   "number": 3,
-   "name": {
-    "fr": "Figure 3",
-    "en": "Figure 3"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "medieval",
-   "birthYear": 1003,
-   "deathYear": 1063,
-   "isLiving": false,
-   "fameScore": 97,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-004",
-   "wikidataId": "Q1004",
-   "number": 4,
-   "name": {
-    "fr": "Figure 4",
-    "en": "Figure 4"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "modern",
-   "birthYear": 1004,
-   "deathYear": 1064,
-   "isLiving": false,
-   "fameScore": 96,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-005",
-   "wikidataId": "Q1005",
-   "number": 5,
-   "name": {
-    "fr": "Figure 5",
-    "en": "Figure 5"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "modern",
-   "birthYear": 1005,
-   "deathYear": 1065,
-   "isLiving": false,
-   "fameScore": 95,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-006",
-   "wikidataId": "Q1006",
-   "number": 6,
-   "name": {
-    "fr": "Figure 6",
-    "en": "Figure 6"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "contemporary",
-   "birthYear": 1006,
-   "deathYear": 1066,
-   "isLiving": false,
-   "fameScore": 94,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-007",
-   "wikidataId": "Q1007",
-   "number": 7,
-   "name": {
-    "fr": "Figure 7",
-    "en": "Figure 7"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "contemporary",
-   "birthYear": 1007,
-   "deathYear": 1067,
-   "isLiving": false,
-   "fameScore": 93,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-008",
-   "wikidataId": "Q1008",
-   "number": 8,
-   "name": {
-    "fr": "Figure 8",
-    "en": "Figure 8"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "antiquity",
-   "birthYear": 1008,
-   "deathYear": 1068,
-   "isLiving": false,
-   "fameScore": 92,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-009",
-   "wikidataId": "Q1009",
-   "number": 9,
-   "name": {
-    "fr": "Figure 9",
-    "en": "Figure 9"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "antiquity",
-   "birthYear": 1009,
-   "deathYear": 1069,
-   "isLiving": false,
-   "fameScore": 91,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-010",
-   "wikidataId": "Q1010",
-   "number": 10,
-   "name": {
-    "fr": "Figure 10",
-    "en": "Figure 10"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "medieval",
-   "birthYear": 1010,
-   "deathYear": 1070,
-   "isLiving": false,
-   "fameScore": 90,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-011",
-   "wikidataId": "Q1011",
-   "number": 11,
-   "name": {
-    "fr": "Figure 11",
-    "en": "Figure 11"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "medieval",
-   "birthYear": 1011,
-   "deathYear": 1071,
-   "isLiving": false,
-   "fameScore": 89,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-012",
-   "wikidataId": "Q1012",
-   "number": 12,
-   "name": {
-    "fr": "Figure 12",
-    "en": "Figure 12"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "ZA",
-   "continent": "africa",
-   "era": "modern",
-   "birthYear": 1012,
-   "deathYear": 1072,
-   "isLiving": false,
-   "fameScore": 88,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-013",
-   "wikidataId": "Q1013",
-   "number": 13,
-   "name": {
-    "fr": "Figure 13",
-    "en": "Figure 13"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "medieval",
-   "birthYear": 1013,
-   "deathYear": 1073,
-   "isLiving": false,
-   "fameScore": 87,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-014",
-   "wikidataId": "Q1014",
-   "number": 14,
-   "name": {
-    "fr": "Figure 14",
-    "en": "Figure 14"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "modern",
-   "birthYear": 1014,
-   "deathYear": 1074,
-   "isLiving": false,
-   "fameScore": 86,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-015",
-   "wikidataId": "Q1015",
-   "number": 15,
-   "name": {
-    "fr": "Figure 15",
-    "en": "Figure 15"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "modern",
-   "birthYear": 1015,
-   "deathYear": 1075,
-   "isLiving": false,
-   "fameScore": 85,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-016",
-   "wikidataId": "Q1016",
-   "number": 16,
-   "name": {
-    "fr": "Figure 16",
-    "en": "Figure 16"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "contemporary",
-   "birthYear": 1016,
-   "deathYear": 1076,
-   "isLiving": false,
-   "fameScore": 84,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-017",
-   "wikidataId": "Q1017",
-   "number": 17,
-   "name": {
-    "fr": "Figure 17",
-    "en": "Figure 17"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "contemporary",
-   "birthYear": 1017,
-   "deathYear": 1077,
-   "isLiving": false,
-   "fameScore": 83,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-018",
-   "wikidataId": "Q1018",
-   "number": 18,
-   "name": {
-    "fr": "Figure 18",
-    "en": "Figure 18"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "antiquity",
-   "birthYear": 1018,
-   "deathYear": 1078,
-   "isLiving": false,
-   "fameScore": 82,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-019",
-   "wikidataId": "Q1019",
-   "number": 19,
-   "name": {
-    "fr": "Figure 19",
-    "en": "Figure 19"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "antiquity",
-   "birthYear": 1019,
-   "deathYear": 1079,
-   "isLiving": false,
-   "fameScore": 81,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-020",
-   "wikidataId": "Q1020",
-   "number": 20,
-   "name": {
-    "fr": "Figure 20",
-    "en": "Figure 20"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "medieval",
-   "birthYear": 1020,
-   "deathYear": 1080,
-   "isLiving": false,
-   "fameScore": 80,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-021",
-   "wikidataId": "Q1021",
-   "number": 21,
-   "name": {
-    "fr": "Figure 21",
-    "en": "Figure 21"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "medieval",
-   "birthYear": 1021,
-   "deathYear": 1081,
-   "isLiving": false,
-   "fameScore": 79,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-022",
-   "wikidataId": "Q1022",
-   "number": 22,
-   "name": {
-    "fr": "Figure 22",
-    "en": "Figure 22"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "modern",
-   "birthYear": 1022,
-   "deathYear": 1082,
-   "isLiving": false,
-   "fameScore": 78,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-023",
-   "wikidataId": "Q1023",
-   "number": 23,
-   "name": {
-    "fr": "Figure 23",
-    "en": "Figure 23"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "modern",
-   "birthYear": 1023,
-   "deathYear": 1083,
-   "isLiving": false,
-   "fameScore": 77,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-024",
-   "wikidataId": "Q1024",
-   "number": 24,
-   "name": {
-    "fr": "Figure 24",
-    "en": "Figure 24"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "IN",
-   "continent": "asia",
-   "era": "contemporary",
-   "birthYear": 1024,
-   "deathYear": 1084,
-   "isLiving": false,
-   "fameScore": 76,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-025",
-   "wikidataId": "Q1025",
-   "number": 25,
-   "name": {
-    "fr": "Figure 25",
-    "en": "Figure 25"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "modern",
-   "birthYear": 1025,
-   "deathYear": 1085,
-   "isLiving": false,
-   "fameScore": 75,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-026",
-   "wikidataId": "Q1026",
-   "number": 26,
-   "name": {
-    "fr": "Figure 26",
-    "en": "Figure 26"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "contemporary",
-   "birthYear": 1026,
-   "deathYear": 1086,
-   "isLiving": false,
-   "fameScore": 74,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-027",
-   "wikidataId": "Q1027",
-   "number": 27,
-   "name": {
-    "fr": "Figure 27",
-    "en": "Figure 27"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "contemporary",
-   "birthYear": 1027,
-   "deathYear": 1087,
-   "isLiving": false,
-   "fameScore": 73,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-028",
-   "wikidataId": "Q1028",
-   "number": 28,
-   "name": {
-    "fr": "Figure 28",
-    "en": "Figure 28"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "antiquity",
-   "birthYear": 1028,
-   "deathYear": 1088,
-   "isLiving": false,
-   "fameScore": 72,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-029",
-   "wikidataId": "Q1029",
-   "number": 29,
-   "name": {
-    "fr": "Figure 29",
-    "en": "Figure 29"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "antiquity",
-   "birthYear": 1029,
-   "deathYear": 1089,
-   "isLiving": false,
-   "fameScore": 71,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-030",
-   "wikidataId": "Q1030",
-   "number": 30,
-   "name": {
-    "fr": "Figure 30",
-    "en": "Figure 30"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "medieval",
-   "birthYear": 1030,
-   "deathYear": 1090,
-   "isLiving": false,
-   "fameScore": 70,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-031",
-   "wikidataId": "Q1031",
-   "number": 31,
-   "name": {
-    "fr": "Figure 31",
-    "en": "Figure 31"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "medieval",
-   "birthYear": 1031,
-   "deathYear": 1091,
-   "isLiving": false,
-   "fameScore": 69,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-032",
-   "wikidataId": "Q1032",
-   "number": 32,
-   "name": {
-    "fr": "Figure 32",
-    "en": "Figure 32"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "modern",
-   "birthYear": 1032,
-   "deathYear": 1092,
-   "isLiving": false,
-   "fameScore": 68,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": true
-  },
-  {
-   "id": "t-033",
-   "wikidataId": "Q1033",
-   "number": 33,
-   "name": {
-    "fr": "Figure 33",
-    "en": "Figure 33"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "modern",
-   "birthYear": 1033,
-   "deathYear": 1093,
-   "isLiving": false,
-   "fameScore": 67,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-034",
-   "wikidataId": "Q1034",
-   "number": 34,
-   "name": {
-    "fr": "Figure 34",
-    "en": "Figure 34"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "contemporary",
-   "birthYear": 1034,
-   "deathYear": 1094,
-   "isLiving": false,
-   "fameScore": 66,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-035",
-   "wikidataId": "Q1035",
-   "number": 35,
-   "name": {
-    "fr": "Figure 35",
-    "en": "Figure 35"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "contemporary",
-   "birthYear": 1035,
-   "deathYear": 1095,
-   "isLiving": false,
-   "fameScore": 65,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-036",
-   "wikidataId": "Q1036",
-   "number": 36,
-   "name": {
-    "fr": "Figure 36",
-    "en": "Figure 36"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "FR",
-   "continent": "europe",
-   "era": "antiquity",
-   "birthYear": 1036,
-   "deathYear": 1096,
-   "isLiving": false,
-   "fameScore": 64,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": true
-  },
-  {
-   "id": "t-037",
-   "wikidataId": "Q1037",
-   "number": 37,
-   "name": {
-    "fr": "Figure 37",
-    "en": "Figure 37"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "contemporary",
-   "birthYear": 1037,
-   "deathYear": 1097,
-   "isLiving": false,
-   "fameScore": 63,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-038",
-   "wikidataId": "Q1038",
-   "number": 38,
-   "name": {
-    "fr": "Figure 38",
-    "en": "Figure 38"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "antiquity",
-   "birthYear": 1038,
-   "deathYear": 1098,
-   "isLiving": false,
-   "fameScore": 62,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-039",
-   "wikidataId": "Q1039",
-   "number": 39,
-   "name": {
-    "fr": "Figure 39",
-    "en": "Figure 39"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "antiquity",
-   "birthYear": 1039,
-   "deathYear": 1099,
-   "isLiving": false,
-   "fameScore": 61,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-040",
-   "wikidataId": "Q1040",
-   "number": 40,
-   "name": {
-    "fr": "Figure 40",
-    "en": "Figure 40"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "medieval",
-   "birthYear": 1040,
-   "deathYear": 1100,
-   "isLiving": false,
-   "fameScore": 60,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-041",
-   "wikidataId": "Q1041",
-   "number": 41,
-   "name": {
-    "fr": "Figure 41",
-    "en": "Figure 41"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "medieval",
-   "birthYear": 1041,
-   "deathYear": 1101,
-   "isLiving": false,
-   "fameScore": 59,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-042",
-   "wikidataId": "Q1042",
-   "number": 42,
-   "name": {
-    "fr": "Figure 42",
-    "en": "Figure 42"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "modern",
-   "birthYear": 1042,
-   "deathYear": 1102,
-   "isLiving": false,
-   "fameScore": 58,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-043",
-   "wikidataId": "Q1043",
-   "number": 43,
-   "name": {
-    "fr": "Figure 43",
-    "en": "Figure 43"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "modern",
-   "birthYear": 1043,
-   "deathYear": 1103,
-   "isLiving": false,
-   "fameScore": 57,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-044",
-   "wikidataId": "Q1044",
-   "number": 44,
-   "name": {
-    "fr": "Figure 44",
-    "en": "Figure 44"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "contemporary",
-   "birthYear": 1044,
-   "deathYear": 1104,
-   "isLiving": false,
-   "fameScore": 56,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-045",
-   "wikidataId": "Q1045",
-   "number": 45,
-   "name": {
-    "fr": "Figure 45",
-    "en": "Figure 45"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "contemporary",
-   "birthYear": 1045,
-   "deathYear": 1105,
-   "isLiving": false,
-   "fameScore": 55,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-046",
-   "wikidataId": "Q1046",
-   "number": 46,
-   "name": {
-    "fr": "Figure 46",
-    "en": "Figure 46"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "antiquity",
-   "birthYear": 1046,
-   "deathYear": 1106,
-   "isLiving": false,
-   "fameScore": 54,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-047",
-   "wikidataId": "Q1047",
-   "number": 47,
-   "name": {
-    "fr": "Figure 47",
-    "en": "Figure 47"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "antiquity",
-   "birthYear": 1047,
-   "deathYear": 1107,
-   "isLiving": false,
-   "fameScore": 53,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-048",
-   "wikidataId": "Q1048",
-   "number": 48,
-   "name": {
-    "fr": "Figure 48",
-    "en": "Figure 48"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "US",
-   "continent": "north_america",
-   "era": "medieval",
-   "birthYear": 1048,
-   "deathYear": 1108,
-   "isLiving": false,
-   "fameScore": 52,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-049",
-   "wikidataId": "Q1049",
-   "number": 49,
-   "name": {
-    "fr": "Figure 49",
-    "en": "Figure 49"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "antiquity",
-   "birthYear": 1049,
-   "deathYear": 1109,
-   "isLiving": false,
-   "fameScore": 51,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-050",
-   "wikidataId": "Q1050",
-   "number": 50,
-   "name": {
-    "fr": "Figure 50",
-    "en": "Figure 50"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "medieval",
-   "birthYear": 1050,
-   "deathYear": 1110,
-   "isLiving": false,
-   "fameScore": 50,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-051",
-   "wikidataId": "Q1051",
-   "number": 51,
-   "name": {
-    "fr": "Figure 51",
-    "en": "Figure 51"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "medieval",
-   "birthYear": 1051,
-   "deathYear": 1111,
-   "isLiving": false,
-   "fameScore": 49,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-052",
-   "wikidataId": "Q1052",
-   "number": 52,
-   "name": {
-    "fr": "Figure 52",
-    "en": "Figure 52"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "modern",
-   "birthYear": 1052,
-   "deathYear": 1112,
-   "isLiving": false,
-   "fameScore": 48,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-053",
-   "wikidataId": "Q1053",
-   "number": 53,
-   "name": {
-    "fr": "Figure 53",
-    "en": "Figure 53"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "modern",
-   "birthYear": 1053,
-   "deathYear": 1113,
-   "isLiving": false,
-   "fameScore": 47,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-054",
-   "wikidataId": "Q1054",
-   "number": 54,
-   "name": {
-    "fr": "Figure 54",
-    "en": "Figure 54"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "contemporary",
-   "birthYear": 1054,
-   "deathYear": 1114,
-   "isLiving": false,
-   "fameScore": 46,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-055",
-   "wikidataId": "Q1055",
-   "number": 55,
-   "name": {
-    "fr": "Figure 55",
-    "en": "Figure 55"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "contemporary",
-   "birthYear": 1055,
-   "deathYear": 1115,
-   "isLiving": false,
-   "fameScore": 45,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-056",
-   "wikidataId": "Q1056",
-   "number": 56,
-   "name": {
-    "fr": "Figure 56",
-    "en": "Figure 56"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "antiquity",
-   "birthYear": 1056,
-   "deathYear": 1116,
-   "isLiving": false,
-   "fameScore": 44,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-057",
-   "wikidataId": "Q1057",
-   "number": 57,
-   "name": {
-    "fr": "Figure 57",
-    "en": "Figure 57"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "antiquity",
-   "birthYear": 1057,
-   "deathYear": 1117,
-   "isLiving": false,
-   "fameScore": 43,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-058",
-   "wikidataId": "Q1058",
-   "number": 58,
-   "name": {
-    "fr": "Figure 58",
-    "en": "Figure 58"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "medieval",
-   "birthYear": 1058,
-   "deathYear": 1118,
-   "isLiving": false,
-   "fameScore": 42,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-059",
-   "wikidataId": "Q1059",
-   "number": 59,
-   "name": {
-    "fr": "Figure 59",
-    "en": "Figure 59"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "medieval",
-   "birthYear": 1059,
-   "deathYear": 1119,
-   "isLiving": false,
-   "fameScore": 41,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-060",
-   "wikidataId": "Q1060",
-   "number": 60,
-   "name": {
-    "fr": "Figure 60",
-    "en": "Figure 60"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "BR",
-   "continent": "south_america",
-   "era": "modern",
-   "birthYear": 1060,
-   "deathYear": 1120,
-   "isLiving": false,
-   "fameScore": 40,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-061",
-   "wikidataId": "Q1061",
-   "number": 61,
-   "name": {
-    "fr": "Figure 61",
-    "en": "Figure 61"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "medieval",
-   "birthYear": 1061,
-   "deathYear": 1121,
-   "isLiving": false,
-   "fameScore": 39,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-062",
-   "wikidataId": "Q1062",
-   "number": 62,
-   "name": {
-    "fr": "Figure 62",
-    "en": "Figure 62"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "modern",
-   "birthYear": 1062,
-   "deathYear": 1122,
-   "isLiving": false,
-   "fameScore": 38,
-   "rarity": "common",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-063",
-   "wikidataId": "Q1063",
-   "number": 63,
-   "name": {
-    "fr": "Figure 63",
-    "en": "Figure 63"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "modern",
-   "birthYear": 1063,
-   "deathYear": 1123,
-   "isLiving": false,
-   "fameScore": 37,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-064",
-   "wikidataId": "Q1064",
-   "number": 64,
-   "name": {
-    "fr": "Figure 64",
-    "en": "Figure 64"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "contemporary",
-   "birthYear": 1064,
-   "deathYear": 1124,
-   "isLiving": false,
-   "fameScore": 36,
-   "rarity": "uncommon",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-065",
-   "wikidataId": "Q1065",
-   "number": 65,
-   "name": {
-    "fr": "Figure 65",
-    "en": "Figure 65"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "contemporary",
-   "birthYear": 1065,
-   "deathYear": 1125,
-   "isLiving": false,
-   "fameScore": 35,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-066",
-   "wikidataId": "Q1066",
-   "number": 66,
-   "name": {
-    "fr": "Figure 66",
-    "en": "Figure 66"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "antiquity",
-   "birthYear": 1066,
-   "deathYear": 1126,
-   "isLiving": false,
-   "fameScore": 34,
-   "rarity": "rare",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-067",
-   "wikidataId": "Q1067",
-   "number": 67,
-   "name": {
-    "fr": "Figure 67",
-    "en": "Figure 67"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "antiquity",
-   "birthYear": 1067,
-   "deathYear": 1127,
-   "isLiving": false,
-   "fameScore": 33,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-068",
-   "wikidataId": "Q1068",
-   "number": 68,
-   "name": {
-    "fr": "Figure 68",
-    "en": "Figure 68"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "medieval",
-   "birthYear": 1068,
-   "deathYear": 1128,
-   "isLiving": false,
-   "fameScore": 32,
-   "rarity": "epic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-069",
-   "wikidataId": "Q1069",
-   "number": 69,
-   "name": {
-    "fr": "Figure 69",
-    "en": "Figure 69"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "medieval",
-   "birthYear": 1069,
-   "deathYear": 1129,
-   "isLiving": false,
-   "fameScore": 31,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-070",
-   "wikidataId": "Q1070",
-   "number": 70,
-   "name": {
-    "fr": "Figure 70",
-    "en": "Figure 70"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "modern",
-   "birthYear": 1070,
-   "deathYear": 1130,
-   "isLiving": false,
-   "fameScore": 30,
-   "rarity": "legendary",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-071",
-   "wikidataId": "Q1071",
-   "number": 71,
-   "name": {
-    "fr": "Figure 71",
-    "en": "Figure 71"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "modern",
-   "birthYear": 1071,
-   "deathYear": 1131,
-   "isLiving": false,
-   "fameScore": 29,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  },
-  {
-   "id": "t-072",
-   "wikidataId": "Q1072",
-   "number": 72,
-   "name": {
-    "fr": "Figure 72",
-    "en": "Figure 72"
-   },
-   "role": {
-    "fr": "Dirigeant",
-    "en": "Leader"
-   },
-   "country": "AU",
-   "continent": "oceania",
-   "era": "contemporary",
-   "birthYear": 1072,
-   "deathYear": 1132,
-   "isLiving": false,
-   "fameScore": 28,
-   "rarity": "mythic",
-   "bio": {
-    "fr": "Bio de test.",
-    "en": "Test bio."
-   },
-   "stats": {
-    "influence": 5,
-    "diplomacy": 4,
-    "charisma": 6,
-    "strategy": 3
-   },
-   "ability": {
-    "name": {
-     "fr": "Capacité",
-     "en": "Ability"
-    },
-    "description": {
-     "fr": "Description.",
-     "en": "Description."
-    }
-   },
-   "sensitive": false
-  }
- ]
+  "season": 1,
+  "version": "test",
+  "cards": [
+    {
+      "id": "t-001",
+      "wikidataId": "Q1001",
+      "number": 1,
+      "name": {
+        "fr": "Figure 1",
+        "en": "Figure 1"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "antiquity",
+      "birthYear": 1001,
+      "deathYear": 1061,
+      "isLiving": false,
+      "fameScore": 99,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "diplomacy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "same"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-002",
+      "wikidataId": "Q1002",
+      "number": 2,
+      "name": {
+        "fr": "Figure 2",
+        "en": "Figure 2"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "medieval",
+      "birthYear": 1002,
+      "deathYear": 1062,
+      "isLiving": false,
+      "fameScore": 98,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-003",
+      "wikidataId": "Q1003",
+      "number": 3,
+      "name": {
+        "fr": "Figure 3",
+        "en": "Figure 3"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "medieval",
+      "birthYear": 1003,
+      "deathYear": 1063,
+      "isLiving": false,
+      "fameScore": 97,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "strategy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentEra",
+            "value": "modern"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-004",
+      "wikidataId": "Q1004",
+      "number": 4,
+      "name": {
+        "fr": "Figure 4",
+        "en": "Figure 4"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "modern",
+      "birthYear": 1004,
+      "deathYear": 1064,
+      "isLiving": false,
+      "fameScore": 96,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "charisma",
+          "amount": 3,
+          "condition": {
+            "kind": "roundDomain",
+            "value": "charisma"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-005",
+      "wikidataId": "Q1005",
+      "number": 5,
+      "name": {
+        "fr": "Figure 5",
+        "en": "Figure 5"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "modern",
+      "birthYear": 1005,
+      "deathYear": 1065,
+      "isLiving": false,
+      "fameScore": 95,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "round",
+            "value": 3
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-006",
+      "wikidataId": "Q1006",
+      "number": 6,
+      "name": {
+        "fr": "Figure 6",
+        "en": "Figure 6"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "contemporary",
+      "birthYear": 1006,
+      "deathYear": 1066,
+      "isLiving": false,
+      "fameScore": 94,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "behind"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-007",
+      "wikidataId": "Q1007",
+      "number": 7,
+      "name": {
+        "fr": "Figure 7",
+        "en": "Figure 7"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "contemporary",
+      "birthYear": 1007,
+      "deathYear": 1067,
+      "isLiving": false,
+      "fameScore": 93,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "opponentRarityHigher"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-008",
+      "wikidataId": "Q1008",
+      "number": 8,
+      "name": {
+        "fr": "Figure 8",
+        "en": "Figure 8"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "antiquity",
+      "birthYear": 1008,
+      "deathYear": 1068,
+      "isLiving": false,
+      "fameScore": 92,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "tieBreaker",
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-009",
+      "wikidataId": "Q1009",
+      "number": 9,
+      "name": {
+        "fr": "Figure 9",
+        "en": "Figure 9"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "antiquity",
+      "birthYear": 1009,
+      "deathYear": 1069,
+      "isLiving": false,
+      "fameScore": 91,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "influence",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "different"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-010",
+      "wikidataId": "Q1010",
+      "number": 10,
+      "name": {
+        "fr": "Figure 10",
+        "en": "Figure 10"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "medieval",
+      "birthYear": 1010,
+      "deathYear": 1070,
+      "isLiving": false,
+      "fameScore": 90,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "diplomacy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "same"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-011",
+      "wikidataId": "Q1011",
+      "number": 11,
+      "name": {
+        "fr": "Figure 11",
+        "en": "Figure 11"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "medieval",
+      "birthYear": 1011,
+      "deathYear": 1071,
+      "isLiving": false,
+      "fameScore": 89,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-012",
+      "wikidataId": "Q1012",
+      "number": 12,
+      "name": {
+        "fr": "Figure 12",
+        "en": "Figure 12"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "ZA",
+      "continent": "africa",
+      "era": "modern",
+      "birthYear": 1012,
+      "deathYear": 1072,
+      "isLiving": false,
+      "fameScore": 88,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "strategy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentEra",
+            "value": "modern"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-013",
+      "wikidataId": "Q1013",
+      "number": 13,
+      "name": {
+        "fr": "Figure 13",
+        "en": "Figure 13"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "medieval",
+      "birthYear": 1013,
+      "deathYear": 1073,
+      "isLiving": false,
+      "fameScore": 87,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "charisma",
+          "amount": 3,
+          "condition": {
+            "kind": "roundDomain",
+            "value": "charisma"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-014",
+      "wikidataId": "Q1014",
+      "number": 14,
+      "name": {
+        "fr": "Figure 14",
+        "en": "Figure 14"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "modern",
+      "birthYear": 1014,
+      "deathYear": 1074,
+      "isLiving": false,
+      "fameScore": 86,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "round",
+            "value": 3
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-015",
+      "wikidataId": "Q1015",
+      "number": 15,
+      "name": {
+        "fr": "Figure 15",
+        "en": "Figure 15"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "modern",
+      "birthYear": 1015,
+      "deathYear": 1075,
+      "isLiving": false,
+      "fameScore": 85,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "behind"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-016",
+      "wikidataId": "Q1016",
+      "number": 16,
+      "name": {
+        "fr": "Figure 16",
+        "en": "Figure 16"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "contemporary",
+      "birthYear": 1016,
+      "deathYear": 1076,
+      "isLiving": false,
+      "fameScore": 84,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "opponentRarityHigher"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-017",
+      "wikidataId": "Q1017",
+      "number": 17,
+      "name": {
+        "fr": "Figure 17",
+        "en": "Figure 17"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "contemporary",
+      "birthYear": 1017,
+      "deathYear": 1077,
+      "isLiving": false,
+      "fameScore": 83,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "tieBreaker",
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-018",
+      "wikidataId": "Q1018",
+      "number": 18,
+      "name": {
+        "fr": "Figure 18",
+        "en": "Figure 18"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "antiquity",
+      "birthYear": 1018,
+      "deathYear": 1078,
+      "isLiving": false,
+      "fameScore": 82,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "influence",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "different"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-019",
+      "wikidataId": "Q1019",
+      "number": 19,
+      "name": {
+        "fr": "Figure 19",
+        "en": "Figure 19"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "antiquity",
+      "birthYear": 1019,
+      "deathYear": 1079,
+      "isLiving": false,
+      "fameScore": 81,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "diplomacy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "same"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-020",
+      "wikidataId": "Q1020",
+      "number": 20,
+      "name": {
+        "fr": "Figure 20",
+        "en": "Figure 20"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "medieval",
+      "birthYear": 1020,
+      "deathYear": 1080,
+      "isLiving": false,
+      "fameScore": 80,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-021",
+      "wikidataId": "Q1021",
+      "number": 21,
+      "name": {
+        "fr": "Figure 21",
+        "en": "Figure 21"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "medieval",
+      "birthYear": 1021,
+      "deathYear": 1081,
+      "isLiving": false,
+      "fameScore": 79,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "strategy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentEra",
+            "value": "modern"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-022",
+      "wikidataId": "Q1022",
+      "number": 22,
+      "name": {
+        "fr": "Figure 22",
+        "en": "Figure 22"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "modern",
+      "birthYear": 1022,
+      "deathYear": 1082,
+      "isLiving": false,
+      "fameScore": 78,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "charisma",
+          "amount": 3,
+          "condition": {
+            "kind": "roundDomain",
+            "value": "charisma"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-023",
+      "wikidataId": "Q1023",
+      "number": 23,
+      "name": {
+        "fr": "Figure 23",
+        "en": "Figure 23"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "modern",
+      "birthYear": 1023,
+      "deathYear": 1083,
+      "isLiving": false,
+      "fameScore": 77,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "round",
+            "value": 3
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-024",
+      "wikidataId": "Q1024",
+      "number": 24,
+      "name": {
+        "fr": "Figure 24",
+        "en": "Figure 24"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "IN",
+      "continent": "asia",
+      "era": "contemporary",
+      "birthYear": 1024,
+      "deathYear": 1084,
+      "isLiving": false,
+      "fameScore": 76,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "behind"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-025",
+      "wikidataId": "Q1025",
+      "number": 25,
+      "name": {
+        "fr": "Figure 25",
+        "en": "Figure 25"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "modern",
+      "birthYear": 1025,
+      "deathYear": 1085,
+      "isLiving": false,
+      "fameScore": 75,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "opponentRarityHigher"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-026",
+      "wikidataId": "Q1026",
+      "number": 26,
+      "name": {
+        "fr": "Figure 26",
+        "en": "Figure 26"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "contemporary",
+      "birthYear": 1026,
+      "deathYear": 1086,
+      "isLiving": false,
+      "fameScore": 74,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "tieBreaker",
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-027",
+      "wikidataId": "Q1027",
+      "number": 27,
+      "name": {
+        "fr": "Figure 27",
+        "en": "Figure 27"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "contemporary",
+      "birthYear": 1027,
+      "deathYear": 1087,
+      "isLiving": false,
+      "fameScore": 73,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "influence",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "different"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-028",
+      "wikidataId": "Q1028",
+      "number": 28,
+      "name": {
+        "fr": "Figure 28",
+        "en": "Figure 28"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "antiquity",
+      "birthYear": 1028,
+      "deathYear": 1088,
+      "isLiving": false,
+      "fameScore": 72,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "diplomacy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "same"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-029",
+      "wikidataId": "Q1029",
+      "number": 29,
+      "name": {
+        "fr": "Figure 29",
+        "en": "Figure 29"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "antiquity",
+      "birthYear": 1029,
+      "deathYear": 1089,
+      "isLiving": false,
+      "fameScore": 71,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-030",
+      "wikidataId": "Q1030",
+      "number": 30,
+      "name": {
+        "fr": "Figure 30",
+        "en": "Figure 30"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "medieval",
+      "birthYear": 1030,
+      "deathYear": 1090,
+      "isLiving": false,
+      "fameScore": 70,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "strategy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentEra",
+            "value": "modern"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-031",
+      "wikidataId": "Q1031",
+      "number": 31,
+      "name": {
+        "fr": "Figure 31",
+        "en": "Figure 31"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "medieval",
+      "birthYear": 1031,
+      "deathYear": 1091,
+      "isLiving": false,
+      "fameScore": 69,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "charisma",
+          "amount": 3,
+          "condition": {
+            "kind": "roundDomain",
+            "value": "charisma"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-032",
+      "wikidataId": "Q1032",
+      "number": 32,
+      "name": {
+        "fr": "Figure 32",
+        "en": "Figure 32"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "modern",
+      "birthYear": 1032,
+      "deathYear": 1092,
+      "isLiving": false,
+      "fameScore": 68,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "round",
+            "value": 3
+          }
+        }
+      },
+      "sensitive": true
+    },
+    {
+      "id": "t-033",
+      "wikidataId": "Q1033",
+      "number": 33,
+      "name": {
+        "fr": "Figure 33",
+        "en": "Figure 33"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "modern",
+      "birthYear": 1033,
+      "deathYear": 1093,
+      "isLiving": false,
+      "fameScore": 67,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "behind"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-034",
+      "wikidataId": "Q1034",
+      "number": 34,
+      "name": {
+        "fr": "Figure 34",
+        "en": "Figure 34"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "contemporary",
+      "birthYear": 1034,
+      "deathYear": 1094,
+      "isLiving": false,
+      "fameScore": 66,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "opponentRarityHigher"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-035",
+      "wikidataId": "Q1035",
+      "number": 35,
+      "name": {
+        "fr": "Figure 35",
+        "en": "Figure 35"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "contemporary",
+      "birthYear": 1035,
+      "deathYear": 1095,
+      "isLiving": false,
+      "fameScore": 65,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "tieBreaker",
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-036",
+      "wikidataId": "Q1036",
+      "number": 36,
+      "name": {
+        "fr": "Figure 36",
+        "en": "Figure 36"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "FR",
+      "continent": "europe",
+      "era": "antiquity",
+      "birthYear": 1036,
+      "deathYear": 1096,
+      "isLiving": false,
+      "fameScore": 64,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "influence",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "different"
+          }
+        }
+      },
+      "sensitive": true
+    },
+    {
+      "id": "t-037",
+      "wikidataId": "Q1037",
+      "number": 37,
+      "name": {
+        "fr": "Figure 37",
+        "en": "Figure 37"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "contemporary",
+      "birthYear": 1037,
+      "deathYear": 1097,
+      "isLiving": false,
+      "fameScore": 63,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "diplomacy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "same"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-038",
+      "wikidataId": "Q1038",
+      "number": 38,
+      "name": {
+        "fr": "Figure 38",
+        "en": "Figure 38"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "antiquity",
+      "birthYear": 1038,
+      "deathYear": 1098,
+      "isLiving": false,
+      "fameScore": 62,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-039",
+      "wikidataId": "Q1039",
+      "number": 39,
+      "name": {
+        "fr": "Figure 39",
+        "en": "Figure 39"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "antiquity",
+      "birthYear": 1039,
+      "deathYear": 1099,
+      "isLiving": false,
+      "fameScore": 61,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "strategy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentEra",
+            "value": "modern"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-040",
+      "wikidataId": "Q1040",
+      "number": 40,
+      "name": {
+        "fr": "Figure 40",
+        "en": "Figure 40"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "medieval",
+      "birthYear": 1040,
+      "deathYear": 1100,
+      "isLiving": false,
+      "fameScore": 60,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "charisma",
+          "amount": 3,
+          "condition": {
+            "kind": "roundDomain",
+            "value": "charisma"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-041",
+      "wikidataId": "Q1041",
+      "number": 41,
+      "name": {
+        "fr": "Figure 41",
+        "en": "Figure 41"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "medieval",
+      "birthYear": 1041,
+      "deathYear": 1101,
+      "isLiving": false,
+      "fameScore": 59,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "round",
+            "value": 3
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-042",
+      "wikidataId": "Q1042",
+      "number": 42,
+      "name": {
+        "fr": "Figure 42",
+        "en": "Figure 42"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "modern",
+      "birthYear": 1042,
+      "deathYear": 1102,
+      "isLiving": false,
+      "fameScore": 58,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "behind"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-043",
+      "wikidataId": "Q1043",
+      "number": 43,
+      "name": {
+        "fr": "Figure 43",
+        "en": "Figure 43"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "modern",
+      "birthYear": 1043,
+      "deathYear": 1103,
+      "isLiving": false,
+      "fameScore": 57,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "opponentRarityHigher"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-044",
+      "wikidataId": "Q1044",
+      "number": 44,
+      "name": {
+        "fr": "Figure 44",
+        "en": "Figure 44"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "contemporary",
+      "birthYear": 1044,
+      "deathYear": 1104,
+      "isLiving": false,
+      "fameScore": 56,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "tieBreaker",
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-045",
+      "wikidataId": "Q1045",
+      "number": 45,
+      "name": {
+        "fr": "Figure 45",
+        "en": "Figure 45"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "contemporary",
+      "birthYear": 1045,
+      "deathYear": 1105,
+      "isLiving": false,
+      "fameScore": 55,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "influence",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "different"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-046",
+      "wikidataId": "Q1046",
+      "number": 46,
+      "name": {
+        "fr": "Figure 46",
+        "en": "Figure 46"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "antiquity",
+      "birthYear": 1046,
+      "deathYear": 1106,
+      "isLiving": false,
+      "fameScore": 54,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "diplomacy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "same"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-047",
+      "wikidataId": "Q1047",
+      "number": 47,
+      "name": {
+        "fr": "Figure 47",
+        "en": "Figure 47"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "antiquity",
+      "birthYear": 1047,
+      "deathYear": 1107,
+      "isLiving": false,
+      "fameScore": 53,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-048",
+      "wikidataId": "Q1048",
+      "number": 48,
+      "name": {
+        "fr": "Figure 48",
+        "en": "Figure 48"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "US",
+      "continent": "north_america",
+      "era": "medieval",
+      "birthYear": 1048,
+      "deathYear": 1108,
+      "isLiving": false,
+      "fameScore": 52,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "strategy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentEra",
+            "value": "modern"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-049",
+      "wikidataId": "Q1049",
+      "number": 49,
+      "name": {
+        "fr": "Figure 49",
+        "en": "Figure 49"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "antiquity",
+      "birthYear": 1049,
+      "deathYear": 1109,
+      "isLiving": false,
+      "fameScore": 51,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "charisma",
+          "amount": 3,
+          "condition": {
+            "kind": "roundDomain",
+            "value": "charisma"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-050",
+      "wikidataId": "Q1050",
+      "number": 50,
+      "name": {
+        "fr": "Figure 50",
+        "en": "Figure 50"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "medieval",
+      "birthYear": 1050,
+      "deathYear": 1110,
+      "isLiving": false,
+      "fameScore": 50,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "round",
+            "value": 3
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-051",
+      "wikidataId": "Q1051",
+      "number": 51,
+      "name": {
+        "fr": "Figure 51",
+        "en": "Figure 51"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "medieval",
+      "birthYear": 1051,
+      "deathYear": 1111,
+      "isLiving": false,
+      "fameScore": 49,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "behind"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-052",
+      "wikidataId": "Q1052",
+      "number": 52,
+      "name": {
+        "fr": "Figure 52",
+        "en": "Figure 52"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "modern",
+      "birthYear": 1052,
+      "deathYear": 1112,
+      "isLiving": false,
+      "fameScore": 48,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "opponentRarityHigher"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-053",
+      "wikidataId": "Q1053",
+      "number": 53,
+      "name": {
+        "fr": "Figure 53",
+        "en": "Figure 53"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "modern",
+      "birthYear": 1053,
+      "deathYear": 1113,
+      "isLiving": false,
+      "fameScore": 47,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "tieBreaker",
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-054",
+      "wikidataId": "Q1054",
+      "number": 54,
+      "name": {
+        "fr": "Figure 54",
+        "en": "Figure 54"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "contemporary",
+      "birthYear": 1054,
+      "deathYear": 1114,
+      "isLiving": false,
+      "fameScore": 46,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "influence",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "different"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-055",
+      "wikidataId": "Q1055",
+      "number": 55,
+      "name": {
+        "fr": "Figure 55",
+        "en": "Figure 55"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "contemporary",
+      "birthYear": 1055,
+      "deathYear": 1115,
+      "isLiving": false,
+      "fameScore": 45,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "diplomacy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "same"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-056",
+      "wikidataId": "Q1056",
+      "number": 56,
+      "name": {
+        "fr": "Figure 56",
+        "en": "Figure 56"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "antiquity",
+      "birthYear": 1056,
+      "deathYear": 1116,
+      "isLiving": false,
+      "fameScore": 44,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-057",
+      "wikidataId": "Q1057",
+      "number": 57,
+      "name": {
+        "fr": "Figure 57",
+        "en": "Figure 57"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "antiquity",
+      "birthYear": 1057,
+      "deathYear": 1117,
+      "isLiving": false,
+      "fameScore": 43,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "strategy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentEra",
+            "value": "modern"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-058",
+      "wikidataId": "Q1058",
+      "number": 58,
+      "name": {
+        "fr": "Figure 58",
+        "en": "Figure 58"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "medieval",
+      "birthYear": 1058,
+      "deathYear": 1118,
+      "isLiving": false,
+      "fameScore": 42,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "charisma",
+          "amount": 3,
+          "condition": {
+            "kind": "roundDomain",
+            "value": "charisma"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-059",
+      "wikidataId": "Q1059",
+      "number": 59,
+      "name": {
+        "fr": "Figure 59",
+        "en": "Figure 59"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "medieval",
+      "birthYear": 1059,
+      "deathYear": 1119,
+      "isLiving": false,
+      "fameScore": 41,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "round",
+            "value": 3
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-060",
+      "wikidataId": "Q1060",
+      "number": 60,
+      "name": {
+        "fr": "Figure 60",
+        "en": "Figure 60"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "BR",
+      "continent": "south_america",
+      "era": "modern",
+      "birthYear": 1060,
+      "deathYear": 1120,
+      "isLiving": false,
+      "fameScore": 40,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "behind"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-061",
+      "wikidataId": "Q1061",
+      "number": 61,
+      "name": {
+        "fr": "Figure 61",
+        "en": "Figure 61"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "medieval",
+      "birthYear": 1061,
+      "deathYear": 1121,
+      "isLiving": false,
+      "fameScore": 39,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "opponentRarityHigher"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-062",
+      "wikidataId": "Q1062",
+      "number": 62,
+      "name": {
+        "fr": "Figure 62",
+        "en": "Figure 62"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "modern",
+      "birthYear": 1062,
+      "deathYear": 1122,
+      "isLiving": false,
+      "fameScore": 38,
+      "rarity": "common",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "tieBreaker",
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-063",
+      "wikidataId": "Q1063",
+      "number": 63,
+      "name": {
+        "fr": "Figure 63",
+        "en": "Figure 63"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "modern",
+      "birthYear": 1063,
+      "deathYear": 1123,
+      "isLiving": false,
+      "fameScore": 37,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "influence",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "different"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-064",
+      "wikidataId": "Q1064",
+      "number": 64,
+      "name": {
+        "fr": "Figure 64",
+        "en": "Figure 64"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "contemporary",
+      "birthYear": 1064,
+      "deathYear": 1124,
+      "isLiving": false,
+      "fameScore": 36,
+      "rarity": "uncommon",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "diplomacy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "same"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-065",
+      "wikidataId": "Q1065",
+      "number": 65,
+      "name": {
+        "fr": "Figure 65",
+        "en": "Figure 65"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "contemporary",
+      "birthYear": 1065,
+      "deathYear": 1125,
+      "isLiving": false,
+      "fameScore": 35,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-066",
+      "wikidataId": "Q1066",
+      "number": 66,
+      "name": {
+        "fr": "Figure 66",
+        "en": "Figure 66"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "antiquity",
+      "birthYear": 1066,
+      "deathYear": 1126,
+      "isLiving": false,
+      "fameScore": 34,
+      "rarity": "rare",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "strategy",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentEra",
+            "value": "modern"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-067",
+      "wikidataId": "Q1067",
+      "number": 67,
+      "name": {
+        "fr": "Figure 67",
+        "en": "Figure 67"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "antiquity",
+      "birthYear": 1067,
+      "deathYear": 1127,
+      "isLiving": false,
+      "fameScore": 33,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "charisma",
+          "amount": 3,
+          "condition": {
+            "kind": "roundDomain",
+            "value": "charisma"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-068",
+      "wikidataId": "Q1068",
+      "number": 68,
+      "name": {
+        "fr": "Figure 68",
+        "en": "Figure 68"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "medieval",
+      "birthYear": 1068,
+      "deathYear": 1128,
+      "isLiving": false,
+      "fameScore": 32,
+      "rarity": "epic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "round",
+            "value": 3
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-069",
+      "wikidataId": "Q1069",
+      "number": 69,
+      "name": {
+        "fr": "Figure 69",
+        "en": "Figure 69"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "medieval",
+      "birthYear": 1069,
+      "deathYear": 1129,
+      "isLiving": false,
+      "fameScore": 31,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "any",
+          "amount": 2,
+          "condition": {
+            "kind": "behind"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-070",
+      "wikidataId": "Q1070",
+      "number": 70,
+      "name": {
+        "fr": "Figure 70",
+        "en": "Figure 70"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "modern",
+      "birthYear": 1070,
+      "deathYear": 1130,
+      "isLiving": false,
+      "fameScore": 30,
+      "rarity": "legendary",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "malus",
+          "stat": "any",
+          "amount": 1,
+          "condition": {
+            "kind": "opponentRarityHigher"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-071",
+      "wikidataId": "Q1071",
+      "number": 71,
+      "name": {
+        "fr": "Figure 71",
+        "en": "Figure 71"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "modern",
+      "birthYear": 1071,
+      "deathYear": 1131,
+      "isLiving": false,
+      "fameScore": 29,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "tieBreaker",
+          "condition": {
+            "kind": "always"
+          }
+        }
+      },
+      "sensitive": false
+    },
+    {
+      "id": "t-072",
+      "wikidataId": "Q1072",
+      "number": 72,
+      "name": {
+        "fr": "Figure 72",
+        "en": "Figure 72"
+      },
+      "role": {
+        "fr": "Dirigeant",
+        "en": "Leader"
+      },
+      "country": "AU",
+      "continent": "oceania",
+      "era": "contemporary",
+      "birthYear": 1072,
+      "deathYear": 1132,
+      "isLiving": false,
+      "fameScore": 28,
+      "rarity": "mythic",
+      "bio": {
+        "fr": "Bio de test.",
+        "en": "Test bio."
+      },
+      "stats": {
+        "influence": 5,
+        "diplomacy": 4,
+        "charisma": 6,
+        "strategy": 3
+      },
+      "ability": {
+        "name": {
+          "fr": "Capacité",
+          "en": "Ability"
+        },
+        "description": {
+          "fr": "Description.",
+          "en": "Description."
+        },
+        "effect": {
+          "type": "bonus",
+          "stat": "influence",
+          "amount": 2,
+          "condition": {
+            "kind": "opponentContinent",
+            "value": "different"
+          }
+        }
+      },
+      "sensitive": false
+    }
+  ]
 }

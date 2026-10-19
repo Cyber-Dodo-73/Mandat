@@ -7,7 +7,9 @@ public enum WalletSource {
     RECYCLE("collection.recycle"),
     CRAFT("collection.craft"),
     LEVEL_REWARD("progression.level"),
-    PROGRESSION_REWARD("progression.reward");
+    PROGRESSION_REWARD("progression.reward"),
+    QUIZ_REWARD("quiz.reward"),
+    DUEL_REWARD("duel.reward");
 
     private final String key;
 

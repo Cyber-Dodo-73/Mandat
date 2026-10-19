@@ -36,6 +36,13 @@ public enum ErrorCode {
     REWARD_ALREADY_CLAIMED("reward_already_claimed", HttpStatus.CONFLICT),
     MISSION_EXPIRED("mission_expired", HttpStatus.CONFLICT),
     SEASON_TIER_NOT_FOUND("season_tier_not_found", HttpStatus.NOT_FOUND),
+
+    // quiz / duel
+    QUIZ_SESSION_FINISHED("quiz_session_finished", HttpStatus.CONFLICT),
+    QUIZ_SESSION_EXPIRED("quiz_session_expired", HttpStatus.CONFLICT),
+    QUIZ_ANSWER_OUT_OF_ORDER("quiz_answer_out_of_order", HttpStatus.CONFLICT),
+    DUEL_FINISHED("duel_finished", HttpStatus.CONFLICT),
+    DUEL_CARD_UNAVAILABLE("duel_card_unavailable", HttpStatus.CONFLICT),
     INTERNAL_ERROR("internal_error", HttpStatus.INTERNAL_SERVER_ERROR);
 
     private final String code;

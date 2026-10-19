@@ -81,6 +81,21 @@ public class Card {
     @Column(name = "ability_desc_en")
     private String abilityDescEn;
 
+    @Column(name = "effect_type")
+    private String effectType;
+
+    @Column(name = "effect_stat")
+    private String effectStat;
+
+    @Column(name = "effect_amount")
+    private Integer effectAmount;
+
+    @Column(name = "effect_condition")
+    private String effectCondition;
+
+    @Column(name = "effect_condition_value")
+    private String effectConditionValue;
+
     private boolean sensitive;
     private String artwork;
     private boolean active;
@@ -189,6 +204,19 @@ public class Card {
 
     public String getAbilityDescEn() {
         return abilityDescEn;
+    }
+
+    /** Null when the catalog file had no machine-readable effect for this card. */
+    public AbilityEffect getAbilityEffect() {
+        if (effectType == null || effectCondition == null) {
+            return null;
+        }
+        return new AbilityEffect(
+                AbilityEffect.Type.fromKey(effectType),
+                effectStat == null ? null : AbilityEffect.Stat.fromKey(effectStat),
+                effectAmount,
+                AbilityEffect.ConditionKind.fromKey(effectCondition),
+                effectConditionValue);
     }
 
     public boolean isSensitive() {
