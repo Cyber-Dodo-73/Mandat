@@ -194,6 +194,63 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/duels": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Start a duel against the AI
+         * @description Takes 3 owned cards; the AI picks its team. Starting a duel abandons the previous active one.
+         */
+        post: operations["create"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/duels/{duelId}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Current state of a duel */
+        get: operations["get_1"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/duels/{duelId}/rounds": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Play the next round
+         * @description The server resolves the round in the announced domain (abilities included) and returns the full state; the duel ends at 2 wins or after 3 rounds.
+         */
+        post: operations["playRound"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/friends": {
         parameters: {
             query?: never;
@@ -472,6 +529,63 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/quiz/sessions": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Start a 10-question quiz
+         * @description Questions are generated from the card catalog in the Accept-Language language (fr or en); answers are only revealed after each question is answered.
+         */
+        post: operations["start"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/quiz/sessions/{sessionId}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Resume a quiz session (still without answers) */
+        get: operations["get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/quiz/sessions/{sessionId}/answers": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Answer the next question
+         * @description Answers come in order. Re-sending an already answered question returns the stored result.
+         */
+        post: operations["answer"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/reports": {
         parameters: {
             query?: never;
@@ -527,6 +641,21 @@ export interface paths {
 export type webhooks = Record<string, never>;
 export interface components {
     schemas: {
+        AbilityEffectDto: {
+            /**
+             * Format: int32
+             * @description Null for tieBreaker
+             */
+            amount?: number | null;
+            condition: components["schemas"]["EffectConditionDto"];
+            /**
+             * @description Null for tieBreaker
+             * @enum {string|null}
+             */
+            stat?: "influence" | "diplomacy" | "charisma" | "strategy" | "any" | null;
+            /** @enum {string} */
+            type: "bonus" | "malus" | "tieBreaker";
+        };
         Account: {
             /** Format: date-time */
             createdAt: string;
@@ -578,6 +707,41 @@ export interface components {
             /** @enum {string} */
             result: "requested" | "accepted" | "unchanged";
         };
+        AnswerRequest: {
+            /** @description The chosen option id, or every option id in order for chronology questions */
+            answer: string[];
+            /** Format: int32 */
+            questionIndex?: number;
+        };
+        AnswerResponse: {
+            /** Format: int32 */
+            answeredCount: number;
+            correct: boolean;
+            correctAnswer: string[];
+            /** Format: int32 */
+            correctCount: number;
+            explanation: string;
+            finished: boolean;
+            /** Format: int32 */
+            lives: number;
+            /** Format: int32 */
+            questionIndex: number;
+            /** @description Set once the session is over */
+            result?: components["schemas"]["QuizResultDto"];
+        };
+        AppliedEffect: {
+            /** Format: int32 */
+            amount: number;
+            cardId: string;
+            /** @enum {string} */
+            condition: "always" | "opponentContinent" | "opponentEra" | "roundDomain" | "round" | "behind" | "opponentRarityHigher";
+            /** @enum {string} */
+            side: "player" | "ai";
+            /** @enum {string} */
+            stat: "influence" | "diplomacy" | "charisma" | "strategy" | "any";
+            /** @enum {string} */
+            type: "bonus" | "malus" | "tieBreaker";
+        };
         AuthResponse: {
             accessToken: string;
             /** Format: date-time */
@@ -594,6 +758,8 @@ export interface components {
         };
         CardAbilityDto: {
             description: components["schemas"]["LocalizedText"];
+            /** @description Machine-readable duel effect */
+            effect?: components["schemas"]["AbilityEffectDto"];
             name: components["schemas"]["LocalizedText"];
         };
         CardDto: {
@@ -690,6 +856,12 @@ export interface components {
             /** Format: int32 */
             influenceSpent: number;
         };
+        CreateDuelRequest: {
+            /** @description 3 distinct cards owned by the player */
+            cardIds: string[];
+            /** @enum {string} */
+            difficulty: "easy" | "normal" | "hard";
+        };
         DrawnCardDto: {
             cardId: string;
             /** @enum {string} */
@@ -707,6 +879,46 @@ export interface components {
              * @description 1-based slot, 5 is the guaranteed rare-or-better slot
              */
             slot: number;
+        };
+        DuelResponse: {
+            aiCards: string[];
+            aiCardsLeft: string[];
+            /** Format: int32 */
+            aiScore: number;
+            /** Format: date-time */
+            createdAt: string;
+            /** @enum {string} */
+            difficulty: "easy" | "normal" | "hard";
+            /** Format: uuid */
+            id: string;
+            /**
+             * @description Domain of the next round, null once the duel is over
+             * @enum {string|null}
+             */
+            nextDomain?: "influence" | "diplomacy" | "charisma" | "strategy" | null;
+            playerCards: string[];
+            playerCardsLeft: string[];
+            /** Format: int32 */
+            playerScore: number;
+            /** @description Granted when the duel finishes */
+            reward?: components["schemas"]["DuelRewardDto"];
+            rounds: components["schemas"]["RoundOutcome"][];
+            /** Format: int32 */
+            roundsPlayed: number;
+            /** @enum {string} */
+            status: "active" | "finished" | "abandoned";
+            /** @enum {string|null} */
+            winner?: "player" | "ai" | "draw" | null;
+        };
+        DuelRewardDto: {
+            /** Format: int32 */
+            influence: number;
+        };
+        EffectConditionDto: {
+            /** @enum {string} */
+            kind: "always" | "opponentContinent" | "opponentEra" | "roundDomain" | "round" | "behind" | "opponentRarityHigher";
+            /** @description same|different, an era, a stat, or a round number as text */
+            value?: string | null;
         };
         FinishOddsDto: {
             /** @enum {string} */
@@ -845,6 +1057,13 @@ export interface components {
             packId: string;
             pity: components["schemas"]["PityDto"];
         };
+        OptionDto: {
+            /** @description Card shown with the option, when it is a figure */
+            cardId?: string | null;
+            /** @description Value to send back: a card id, or an ISO country code */
+            id: string;
+            label: string;
+        };
         OwnedCardDto: {
             cardId: string;
             /** @enum {string} */
@@ -892,6 +1111,9 @@ export interface components {
             epicEveryPacks: number;
             /** Format: int32 */
             legendaryEveryPacks: number;
+        };
+        PlayRoundRequest: {
+            cardId: string;
         };
         ProfileStats: {
             /** Format: int32 */
@@ -967,6 +1189,45 @@ export interface components {
             stats: components["schemas"]["ProfileStats"];
             titleId?: string | null;
         };
+        QuestionDto: {
+            /** Format: int32 */
+            index: number;
+            options: components["schemas"]["OptionDto"][];
+            prompt: string;
+            /** @description Extra text, e.g. a bio with the name masked */
+            text?: string | null;
+            /** @enum {string} */
+            type: "whoRole" | "whoBio" | "whichCountry" | "oldest" | "chronology";
+        };
+        QuizResultDto: {
+            /** @description True when this quiz earned a bonus booster (every 5 perfect quizzes) */
+            bonusPack: boolean;
+            /** Format: int32 */
+            correctAnswers: number;
+            /** Format: int32 */
+            influence: number;
+            perfect: boolean;
+            /** Format: int32 */
+            totalQuestions: number;
+        };
+        QuizSessionResponse: {
+            /** Format: int32 */
+            answeredCount: number;
+            /** Format: int32 */
+            correctCount: number;
+            /** Format: date-time */
+            expiresAt: string;
+            /** Format: uuid */
+            id: string;
+            /** Format: int32 */
+            lives: number;
+            questions: components["schemas"]["QuestionDto"][];
+            result?: components["schemas"]["QuizResultDto"];
+            /** @enum {string} */
+            status: "active" | "completed" | "expired";
+            /** Format: int32 */
+            totalQuestions: number;
+        };
         RarityOddsDto: {
             /**
              * Format: double
@@ -1025,6 +1286,30 @@ export interface components {
             unlocks: components["schemas"]["UnlockDto"][];
             /** Format: int32 */
             xp: number;
+        };
+        RoundOutcome: {
+            /** Format: int32 */
+            aiBase: number;
+            aiCardId: string;
+            /** Format: int32 */
+            aiValue: number;
+            /** @enum {string} */
+            domain: "influence" | "diplomacy" | "charisma" | "strategy";
+            effects: components["schemas"]["AppliedEffect"][];
+            /** Format: int32 */
+            playerBase: number;
+            playerCardId: string;
+            /** Format: int32 */
+            playerValue: number;
+            /** Format: int32 */
+            round: number;
+            /**
+             * @description How a tie on values was settled; null when values differ
+             * @enum {string|null}
+             */
+            tieRule?: "tieBreaker" | "underdog" | "draw" | null;
+            /** @enum {string} */
+            winner: "player" | "ai" | "draw";
         };
         SeasonPassResponse: {
             /** Format: int32 */
@@ -1363,6 +1648,78 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["RecycleResponse"];
+                };
+            };
+        };
+    };
+    create: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CreateDuelRequest"];
+            };
+        };
+        responses: {
+            /** @description Created */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DuelResponse"];
+                };
+            };
+        };
+    };
+    get_1: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                duelId: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DuelResponse"];
+                };
+            };
+        };
+    };
+    playRound: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                duelId: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PlayRoundRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["DuelResponse"];
                 };
             };
         };
@@ -1774,6 +2131,76 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["ProgressionResponse"];
+                };
+            };
+        };
+    };
+    start: {
+        parameters: {
+            query?: never;
+            header?: {
+                "Accept-Language"?: string;
+            };
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Created */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["QuizSessionResponse"];
+                };
+            };
+        };
+    };
+    get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                sessionId: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["QuizSessionResponse"];
+                };
+            };
+        };
+    };
+    answer: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                sessionId: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AnswerRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AnswerResponse"];
                 };
             };
         };
