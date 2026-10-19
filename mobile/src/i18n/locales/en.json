@@ -82,16 +82,15 @@
   "packOpening": {
     "title": "Opening",
     "preparing": "Getting your pack ready…",
-    "tearHint": "Swipe across the top of the pack to tear it open",
+    "tearHint": "Slice across the top of the pack with your finger, like a blade",
     "tearAction": "Tear the pack open",
     "error": "Opening failed. Your pack was not used.",
-    "cardsReady": "Your 5 cards are ready",
     "influence": "+{{amount}} Influence from duplicates",
     "done": "Done",
-    "reveal": "Reveal my cards",
     "progress": "Card {{current}} of {{total}}",
-    "next_one": "Next card ({{count}} left)",
-    "next_other": "Next card ({{count}} left)",
+    "tapToReveal": "Tap the card to flip it",
+    "tapToNext": "Tap or swipe the card for the next one",
+    "nextCard": "Next card",
     "seeAll": "See my 5 cards",
     "unknownCard": "This card arrives with the next app update. It is already in your collection.",
     "recapTitle_zero": "No new card this time",
@@ -226,6 +225,13 @@
   },
   "cards": {
     "a11yLabel": "{{name}}, {{rarity}} card. {{role}}",
+    "readability": "Readability",
+    "size": {
+      "thumb": "Mini",
+      "grid": "Grid",
+      "large": "Large",
+      "hero": "Hero"
+    },
     "statsShort": {
       "influence": "INF",
       "diplomacy": "DIP",

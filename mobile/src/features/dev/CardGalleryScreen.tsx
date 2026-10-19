@@ -4,7 +4,7 @@ import { Modal, Pressable, StyleSheet, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { availableFinishes, CardBack, CardReveal, CardSilhouette, TradingCard } from '@/components/cards';
+import { availableFinishes, CardBack, CardReveal, CardSilhouette, TradingCard, type CardSize } from '@/components/cards';
 import { ScreenHeader } from '@/components/navigation/ScreenHeader';
 import {
   Button3D,
@@ -38,10 +38,33 @@ export function CardGalleryScreen() {
     value: finish,
     label: t(`cards.finish.${finish}`),
   }));
+  const [readSize, setReadSize] = useState<CardSize>('large');
+  const [readFinish, setReadFinish] = useState<CardFinish>('holo');
+  const sizeOptions: SegmentOption<CardSize>[] = (['thumb', 'grid', 'large', 'hero'] as const).map((size) => ({
+    value: size,
+    label: t(`cards.size.${size}`),
+  }));
 
   return (
     <ScreenContainer edges={['top', 'bottom']}>
       <ScreenHeader title={t('dev.cards.title')} />
+
+      {/* Readability check: every rarity at one size and finish, text must stay crisp over any foil. */}
+      <SectionHeader title={t('cards.readability')} />
+      <Surface>
+        <SegmentedControl accessibilityLabel={t('cards.readability')} options={sizeOptions} value={readSize} onChange={setReadSize} />
+        <SegmentedControl
+          accessibilityLabel={t('dev.cards.finishes')}
+          options={finishOptions}
+          value={readFinish}
+          onChange={setReadFinish}
+        />
+      </Surface>
+      <View style={styles.grid}>
+        {cards.map((card) => (
+          <TradingCard key={`read-${card.id}`} card={card} finish={readFinish} size={readSize} />
+        ))}
+      </View>
 
       {CARD_FINISHES.map((finish) => (
         <View key={finish} style={styles.section}>

@@ -15,7 +15,7 @@ import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
 import { fontFamilies } from '@/theme';
 import { palettes } from '@/theme/colors';
-import { rarityStyles, type Rarity } from '@/theme/rarity';
+import { rarityRank, rarityStyles, type Rarity } from '@/theme/rarity';
 import type { CardFinish } from '@/types/card';
 
 import { cardMetrics, type CardSize } from './cardMetrics';
@@ -25,11 +25,24 @@ import { CARD_INK, CARD_PAPER } from './RarityFrame';
 
 const ACCENT = palettes.dark.accent;
 
+type GlowLevel = { opacity: number; radius: number; pulse: number; pulseMs: number; prismatic: boolean };
+
+/** Suspense on the face-down card, by rarity rank: subtle rare, strong epic, pulsing legendary, prismatic mythic. */
+const GLOW_LEVELS: readonly (GlowLevel | null)[] = [
+  null,
+  null,
+  { opacity: 0.4, radius: 10, pulse: 0, pulseMs: 0, prismatic: false },
+  { opacity: 0.7, radius: 18, pulse: 0.15, pulseMs: 1200, prismatic: false },
+  { opacity: 0.55, radius: 16, pulse: 0.45, pulseMs: 800, prismatic: false },
+  { opacity: 0.6, radius: 18, pulse: 0.4, pulseMs: 650, prismatic: true },
+];
+
 type CardBackProps = {
   size?: CardSize;
   width?: number;
   /**
-   * Hints the rarity with a pulsing glow before the flip (the suspense on the last card).
+   * Hints the rarity with a glow before the flip (the suspense). Ignored for commons and
+   * uncommons; grows from a subtle rare halo to a pulsing, prismatic mythic one.
    */
   glow?: Rarity;
   /**
@@ -50,20 +63,25 @@ export const CardBack = memo(function CardBack({ size = 'large', width, glow, fi
   const seal = useMemo(() => guillochePath(w / 2, h / 2, w * 0.36, 16, 3), [w, h]);
   const outerSeal = useMemo(() => guillochePath(w / 2, h / 2, w * 0.46, 28, 1), [w, h]);
 
-  useEffect(() => {
-    if (!glow || reduceMotion) return;
-    pulse.set(withRepeat(withTiming(1, { duration: 900, easing: Easing.inOut(Easing.quad) }), -1, true));
-    return () => cancelAnimation(pulse);
-  }, [glow, reduceMotion, pulse]);
+  // Commons and uncommons never glow: only rare and better cards give themselves away.
+  const level = glow ? GLOW_LEVELS[rarityRank(glow)] : null;
+  const pulses = Boolean(level?.pulse) && !reduceMotion;
 
-  const glowColor = glow ? rarityStyles[glow].glow.color : 'transparent';
+  useEffect(() => {
+    if (!pulses) return;
+    pulse.set(withRepeat(withTiming(1, { duration: level?.pulseMs ?? 900, easing: Easing.inOut(Easing.quad) }), -1, true));
+    return () => cancelAnimation(pulse);
+  }, [level?.pulseMs, pulses, pulse]);
+
+  const glowColor = level && glow ? rarityStyles[glow].glow.color : 'transparent';
   const gold = finish === 'gold';
-  const iridescent = finish === 'holo' || finish === 'full_art';
-  const keylineColor = gold ? GOLD.base : glow ? glowColor : CARD_PAPER;
+  const prismatic = level?.prismatic === true;
+  const iridescent = finish === 'holo' || finish === 'full_art' || prismatic;
+  const keylineColor = gold ? GOLD.base : level ? glowColor : CARD_PAPER;
   const sealColor = gold ? GOLD.base : ACCENT;
   const glowStyle = useAnimatedStyle(() => ({
-    shadowOpacity: glow ? 0.55 + pulse.get() * 0.45 : 0,
-    shadowRadius: glow ? 14 + pulse.get() * 16 : 0,
+    shadowOpacity: level ? level.opacity + pulse.get() * level.pulse : 0,
+    shadowRadius: level ? level.radius + pulse.get() * level.pulse * 30 : 0,
   }));
 
   return (
@@ -84,7 +102,7 @@ export const CardBack = memo(function CardBack({ size = 'large', width, glow, fi
           color={keylineColor}
           style="stroke"
           strokeWidth={Math.max(1, frame * (iridescent || gold ? 0.5 : 0.35))}
-          opacity={glow || gold || iridescent ? 0.9 : 0.35}
+          opacity={level || gold || iridescent ? 0.9 : 0.35}
         >
           {iridescent ? <SweepGradient c={vec(w / 2, h / 2)} colors={[...rarityStyles.mythic.gradient, rarityStyles.mythic.gradient[0]]} /> : null}
         </RoundedRect>

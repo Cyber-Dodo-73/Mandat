@@ -5,6 +5,7 @@ import Animated, {
   Easing,
   interpolate,
   useAnimatedStyle,
+  useDerivedValue,
   useSharedValue,
   withDelay,
   withRepeat,
@@ -46,8 +47,11 @@ export type Booster3DProps = {
   float?: boolean;
   /** Bouncy arrival when mounted. Ignored when reduce motion is on. */
   entrance?: boolean;
-  /** 0 → 1 while the finger tears the strip. */
-  tearProgress?: SharedValue<number>;
+  /** Cut extent along the seam while the finger tears the strip, as fractions of the width (0 … 1). */
+  tearFrom?: SharedValue<number>;
+  tearTo?: SharedValue<number>;
+  /** +1 / -1: side the strip flies off to (the way the finger cut). */
+  tearDirection?: SharedValue<number>;
   /** 0 → 1 once torn: the strip flies off the pack. */
   stripFlight?: SharedValue<number>;
   /** Shows the dashed "tear here" seam. */
@@ -67,7 +71,9 @@ export function Booster3D({
   tiltY,
   float = false,
   entrance = false,
-  tearProgress,
+  tearFrom,
+  tearTo,
+  tearDirection,
   stripFlight,
   showPerforation = false,
   lockedLabel = null,
@@ -79,9 +85,13 @@ export function Booster3D({
 
   const bob = useSharedValue(0);
   const arrival = useSharedValue(entrance && !reduceMotion ? 0 : 1);
-  const fallbackTear = useSharedValue(0);
-  const tear = tearProgress ?? fallbackTear;
-  const flight = stripFlight ?? fallbackTear;
+  const zero = useSharedValue(0);
+  const one = useSharedValue(1);
+  const cutFrom = tearFrom ?? zero;
+  const cutTo = tearTo ?? zero;
+  const direction = tearDirection ?? one;
+  const flight = stripFlight ?? zero;
+  const cut = useDerivedValue(() => Math.max(0, cutTo.get() - cutFrom.get()));
 
   useEffect(() => {
     if (!entrance || reduceMotion) {
@@ -127,15 +137,18 @@ export function Booster3D({
     transform: [{ scaleX: 1 + bob.get() / (BOB_DISTANCE * 8) - Math.abs(tiltX.get()) * 0.08 }],
   }));
 
-  // The torn part peels up from the still-sealed right end, then flies off.
-  const stripStyle = useAnimatedStyle(() => ({
-    opacity: 1 - flight.get(),
-    transform: [
-      { translateX: flight.get() * width * 1.1 },
-      { translateY: -tear.get() * 5 - flight.get() * height * 0.55 },
-      { rotate: `${-tear.get() * 7 + flight.get() * 38}deg` },
-    ],
-  }));
+  // The cut part peels up as the blade goes, then the strip flies off the way it was cut.
+  const stripStyle = useAnimatedStyle(() => {
+    const side = direction.get() < 0 ? -1 : 1;
+    return {
+      opacity: 1 - flight.get(),
+      transform: [
+        { translateX: side * flight.get() * width * 1.1 },
+        { translateY: -cut.get() * 6 - flight.get() * height * 0.55 },
+        { rotate: `${side * (-cut.get() * 7 + flight.get() * 38)}deg` },
+      ],
+    };
+  });
 
   return (
     <View style={{ width, height: height + 28 }} accessible accessibilityRole="image" accessibilityLabel={accessibilityLabel}>
@@ -183,23 +196,21 @@ export function Booster3D({
           <BoosterArt geometry={geometry} palette={palette} part="strip" tiltX={tiltX} tiltY={tiltY} />
         </Animated.View>
 
-        {showPerforation || tearProgress ? (
+        {showPerforation || tearTo ? (
           <Canvas style={[StyleSheet.absoluteFill, { width, height }]} pointerEvents="none">
             {showPerforation ? (
-              <Path
-                path={geometry.seam}
-                style="stroke"
-                strokeWidth={1.2}
-                color={palette.light}
-                opacity={0.6}
-                start={tear}
-                end={1}
-              >
-                <DashPathEffect intervals={[4, 4]} />
-              </Path>
+              <>
+                {/* Perforation still intact on both sides of the cut. */}
+                <Path path={geometry.seam} style="stroke" strokeWidth={1.4} color={palette.light} opacity={0.7} start={0} end={cutFrom}>
+                  <DashPathEffect intervals={[4, 4]} />
+                </Path>
+                <Path path={geometry.seam} style="stroke" strokeWidth={1.4} color={palette.light} opacity={0.7} start={cutTo} end={1}>
+                  <DashPathEffect intervals={[4, 4]} />
+                </Path>
+              </>
             ) : null}
-            {tearProgress ? (
-              <Path path={geometry.seam} style="stroke" strokeWidth={2.5} color={palette.light} start={0} end={tear} />
+            {tearTo ? (
+              <Path path={geometry.seam} style="stroke" strokeWidth={2.5} color={palette.light} start={cutFrom} end={cutTo} />
             ) : null}
           </Canvas>
         ) : null}
@@ -225,6 +236,6 @@ const styles = StyleSheet.create({
   monogram: { fontFamily: fontFamilies.displayHeavy },
   wordmark: { fontFamily: fontFamilies.displayHeavy, letterSpacing: 3 },
   title: { fontFamily: fontFamilies.bodyBold, fontSize: 14 },
-  stripOrigin: { transformOrigin: 'right top' },
+  stripOrigin: { transformOrigin: 'center top' },
   locked: { alignItems: 'center', justifyContent: 'center', gap: spacing.xs },
 });

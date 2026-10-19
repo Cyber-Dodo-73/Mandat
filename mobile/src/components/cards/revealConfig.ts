@@ -50,6 +50,8 @@ export type RevealTimeline = {
   sound: SoundName;
   /** Whether a tap may jump to the end of the sequence. */
   skippable: boolean;
+  /** Light haptic ticks during the suspense, closer and closer before the flip (rare and up). */
+  suspenseTicksMs: readonly number[];
   /** Extra beat for holo, full art and gold prints; null for standard cards. */
   finishBeat: FinishBeat | null;
 };
@@ -70,6 +72,16 @@ export type RevealOptions = {
 
 const FLIP_MS = 420;
 
+/** Minimum hold before the flip, so rare and better cards always build some suspense. */
+const MIN_SUSPENSE_MS = [0, 0, 450, 850, 1100, 1400] as const;
+
+/** Accelerating ticks: intervals shrink as the flip approaches. */
+export function suspenseTicks(suspenseMs: number, rank: number): number[] {
+  if (rank < 2 || suspenseMs < 300) return [];
+  const count = 2 + rank;
+  return Array.from({ length: count }, (_, index) => Math.round(suspenseMs * Math.sqrt(index / count)));
+}
+
 export function revealTimeline(rarity: Rarity, options: RevealOptions = {}): RevealTimeline {
   const style = rarityStyles[rarity];
   const { reveal } = style;
@@ -89,7 +101,7 @@ export function revealTimeline(rarity: Rarity, options: RevealOptions = {}): Rev
     effects = { ...effects, burst: false, rays: false, prism: false, particles: 0 };
   }
 
-  let suspenseMs = reveal.suspenseMs;
+  let suspenseMs = Math.max(reveal.suspenseMs, MIN_SUSPENSE_MS[rank] ?? 0);
   let flipMs = FLIP_MS;
   if (options.reduceMotion) {
     effects = { flash: false, burst: false, rays: false, prism: false, particles: 0, dim: effects.dim, spin: false };
@@ -125,6 +137,7 @@ export function revealTimeline(rarity: Rarity, options: RevealOptions = {}): Rev
     haptic: style.haptic,
     sound: sober ? 'flip' : style.sound,
     skippable: options.firstTimeForRarity !== true,
+    suspenseTicksMs: options.reduceMotion ? [] : suspenseTicks(suspenseMs, rank),
     finishBeat,
   };
 }

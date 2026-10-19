@@ -52,6 +52,13 @@ export type CardRevealProps = {
   autoStart?: boolean;
   onRevealStart?: () => void;
   onRevealed?: (result: CardRevealResult) => void;
+  /**
+   * Tap or swipe on the face-up card (pack opening: send it away). The direction is the swipe's
+   * horizontal sign, 1 for a tap.
+   */
+  onRevealedTap?: (direction: 1 | -1) => void;
+  /** VoiceOver label of the face-up card when `onRevealedTap` is set. */
+  revealedLabel?: string;
 };
 
 type Phase = 'idle' | 'running' | 'done';
@@ -77,6 +84,8 @@ export function CardReveal({
   autoStart = false,
   onRevealStart,
   onRevealed,
+  onRevealedTap,
+  revealedLabel,
 }: CardRevealProps) {
   const { t } = useTranslation();
   const reduceMotion = useReduceMotion();
@@ -201,6 +210,8 @@ export function CardReveal({
       const swings = Math.max(1, Math.floor(suspenseMs / 90));
       shake.set(withRepeat(withSequence(withTiming(-1, { duration: 45 }), withTiming(1, { duration: 45 })), swings, true));
     }
+    // Building heartbeat: light ticks closer and closer until the flip.
+    for (const tick of timeline.suspenseTicksMs) at(tick, () => haptics.tearTick());
 
     // 2. Flip.
     at(suspenseMs, () => {
@@ -239,10 +250,14 @@ export function CardReveal({
     at(timeline.totalMs, () => finishReveal(false));
   }, [at, beat, burst, dim, finishReveal, flash, flip, onRevealStart, particles, playFinishBeat, pop, prism, rank, rays, raysRotation, reduceMotion, shake, spin, timeline]);
 
-  const handleTap = useCallback(() => {
-    if (phaseRef.current === 'idle') start();
-    else if (phaseRef.current === 'running' && timeline.skippable) finishReveal(true);
-  }, [finishReveal, start, timeline.skippable]);
+  const handleTap = useCallback(
+    (direction: 1 | -1 = 1) => {
+      if (phaseRef.current === 'idle') start();
+      else if (phaseRef.current === 'running' && timeline.skippable) finishReveal(true);
+      else if (phaseRef.current === 'done') onRevealedTap?.(direction);
+    },
+    [finishReveal, onRevealedTap, start, timeline.skippable],
+  );
 
   useEffect(() => {
     if (autoStart) start();
@@ -251,7 +266,7 @@ export function CardReveal({
   const swipe = usePanGesture({
     activeOffsetX: [-12, 12],
     onDeactivate: (event) => {
-      if (Math.abs(event.translationX) > SWIPE_DISTANCE) scheduleOnRN(handleTap);
+      if (Math.abs(event.translationX) > SWIPE_DISTANCE) scheduleOnRN(handleTap, event.translationX < 0 ? -1 : 1);
     },
   });
 
@@ -296,9 +311,11 @@ export function CardReveal({
 
       <GestureDetector gesture={swipe}>
         <Pressable
-          onPress={handleTap}
+          onPress={() => handleTap(1)}
           accessibilityRole="button"
-          accessibilityLabel={phase === 'idle' ? t('cards.revealHint') : undefined}
+          accessibilityLabel={
+            phase === 'idle' ? t('cards.revealHint') : phase === 'done' && onRevealedTap ? revealedLabel : undefined
+          }
           style={styles.center}
         >
           <Animated.View style={cardStyle}>

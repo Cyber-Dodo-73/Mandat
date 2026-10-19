@@ -1,7 +1,7 @@
 import { Canvas, RadialGradient, Rect } from '@shopify/react-native-skia';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
-import { ActivityIndicator, StyleSheet, useWindowDimensions, View } from 'react-native';
+import { ActivityIndicator, StyleSheet, useWindowDimensions, View, type LayoutChangeEvent } from 'react-native';
 import { GestureDetector, usePanGesture } from 'react-native-gesture-handler';
 import Animated, {
   Easing,
@@ -15,15 +15,26 @@ import Animated, {
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { scheduleOnRN, scheduleOnUI } from 'react-native-worklets';
 
-import { CardBack } from '@/components/cards';
 import { OfflineNotice } from '@/components/navigation/OfflineNotice';
-import { Booster3D, BOOSTER_RATIO, boosterGeometry, CardFanStage, useDeviceTilt, type CardSlotRenderer } from '@/components/pack';
-import { Body, Button3D, Caption, Heading, Icon, PressableScale } from '@/components/ui';
+import {
+  Booster3D,
+  BOOSTER_RATIO,
+  boosterGeometry,
+  initialTearState,
+  TEAR_COMPLETE,
+  tearCoverage,
+  tearRelease,
+  tearStep,
+  tearTolerance,
+  useDeviceTilt,
+  type TearArea,
+} from '@/components/pack';
+import { Body, Button3D, Caption, Icon, PressableScale } from '@/components/ui';
 import { APP_NAME } from '@/constants/app';
 import { useIsOnline } from '@/hooks/useIsOnline';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
-import { errorMessageKey } from '@/lib/api';
+import { describeError } from '@/lib/api';
 import { haptics } from '@/lib/haptics';
 import { playSound } from '@/lib/sounds';
 import { spacing, useTheme } from '@/theme';
@@ -32,23 +43,15 @@ import { packPalettes, type PackTheme } from '@/theme/packs';
 
 import { PackRecap } from './PackRecap';
 import { useOpenPackAttempt } from './queries';
-import { RevealSequence } from './RevealSequence';
+import { RevealStack } from './RevealStack';
 
-/** Share of the pack width the finger must cover to tear the strip off. */
-const TEAR_DISTANCE = 0.8;
-/** Releasing past this point finishes the tear instead of springing back. */
-const TEAR_COMMIT = 0.7;
+/** Light haptic tick every time the cut grows by this share of the width. */
 const TEAR_TICK = 0.08;
-/** Extra touch area under the seam that still starts a tear. */
-const TEAR_ZONE_MARGIN = 28;
 const PAN_TILT_DISTANCE = 140;
-const CARDS_DELAY_MS = 850;
+const STACK_DELAY_MS = 650;
 
-const MODE_TILT = 0;
-const MODE_TEAR = 1;
-
-/** ready: tear the pack; fan: the cards leave it; reveal: one by one; recap: all five. */
-type Phase = 'ready' | 'fan' | 'reveal' | 'recap';
+/** ready: cut the pack open; stack: flip the cards one by one; recap: all five. */
+type Phase = 'ready' | 'stack' | 'recap';
 
 const PACK_THEMES: readonly PackTheme[] = ['standard', 'africa', 'asia', 'europe', 'north_america', 'south_america', 'oceania'];
 
@@ -97,29 +100,46 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
   const tiltX = useDerivedValue(() => clampUnit(gyro.x.get() + panX.get()));
   const tiltY = useDerivedValue(() => clampUnit(gyro.y.get() + panY.get()));
 
-  const tear = useSharedValue(0);
+  // Cut extent as fractions of the pack width, fed by the blade gesture.
+  const cutFrom = useSharedValue(0);
+  const cutTo = useSharedValue(0);
+  const cutDirection = useSharedValue(1);
   const stripFlight = useSharedValue(0);
   const packDrop = useSharedValue(0);
-  const mode = useSharedValue(MODE_TILT);
   const torn = useSharedValue(0);
   const lastTick = useSharedValue(0);
   const tearEnabled = useSharedValue(0);
+  const tearState = useSharedValue(initialTearState());
+  const tearArea = useSharedValue<TearArea>({
+    left: 0,
+    top: 0,
+    width: packWidth,
+    seamY: geometry.seamY,
+    tolerance: tearTolerance(geometry.height),
+  });
 
   useEffect(() => {
     tearEnabled.set(canTear ? 1 : 0);
   }, [canTear, tearEnabled]);
 
+  // Where the pack sits inside the gesture area (the whole stage, so a cut can start anywhere).
+  const onPackLayout = (event: LayoutChangeEvent) => {
+    const { x, y } = event.nativeEvent.layout;
+    tearArea.set({ left: x, top: y, width: packWidth, seamY: geometry.seamY, tolerance: tearTolerance(geometry.height) });
+  };
+
   const onTorn = () => {
     playSound('tear');
     haptics.flipRare();
-    setTimeout(() => setPhase('fan'), reduceMotion ? 0 : CARDS_DELAY_MS);
+    setTimeout(() => setPhase('stack'), reduceMotion ? 0 : STACK_DELAY_MS);
   };
 
   const finishTear = () => {
     'worklet';
     if (torn.get() === 1) return;
     torn.set(1);
-    tear.set(withTiming(1, reduceMotion ? instant : { duration: 120 }));
+    cutFrom.set(withTiming(0, reduceMotion ? instant : { duration: 120 }));
+    cutTo.set(withTiming(1, reduceMotion ? instant : { duration: 120 }));
     stripFlight.set(withTiming(1, reduceMotion ? instant : { duration: 480, easing: Easing.out(Easing.cubic) }));
     packDrop.set(
       reduceMotion ? withTiming(1, instant) : withDelay(380, withTiming(1, { duration: 520, easing: Easing.in(Easing.cubic) })),
@@ -129,34 +149,47 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
 
   const tickHaptic = () => haptics.tearTick();
 
-  const pan = usePanGesture({
-    minDistance: 2,
+  const blade = usePanGesture({
+    minDistance: 0,
     onBegin: (event) => {
-      const inStrip = event.y < geometry.seamY + TEAR_ZONE_MARGIN;
-      mode.set(tearEnabled.get() === 1 && torn.get() === 0 && inStrip ? MODE_TEAR : MODE_TILT);
+      tearState.set(initialTearState());
       lastTick.set(0);
+      if (tearEnabled.get() === 1 && torn.get() === 0) tearState.set(tearStep(initialTearState(), event.x, event.y, tearArea.get()));
     },
     onUpdate: (event) => {
-      if (mode.get() === MODE_TEAR) {
-        if (torn.get() === 1) return;
-        const progress = Math.max(0, Math.min(1, event.translationX / (packWidth * TEAR_DISTANCE)));
-        tear.set(progress);
-        const tick = Math.floor(progress / TEAR_TICK);
-        if (tick > lastTick.get()) {
-          lastTick.set(tick);
-          scheduleOnRN(tickHaptic);
+      const area = tearArea.get();
+      if (tearEnabled.get() === 1 && torn.get() === 0) {
+        const next = tearStep(tearState.get(), event.x, event.y, area);
+        tearState.set(next);
+        if (next.active === 1) {
+          cutFrom.set(next.from / area.width);
+          cutTo.set(next.to / area.width);
+          if (next.direction !== 0) cutDirection.set(next.direction);
+          const coverage = tearCoverage(next, area.width);
+          const tick = Math.floor(coverage / TEAR_TICK);
+          if (tick > lastTick.get()) {
+            lastTick.set(tick);
+            scheduleOnRN(tickHaptic);
+          }
+          if (coverage >= TEAR_COMPLETE) finishTear();
+          return;
         }
-        if (progress >= 1) finishTear();
-      } else {
-        panX.set(clampUnit(event.translationX / PAN_TILT_DISTANCE));
-        panY.set(clampUnit(event.translationY / PAN_TILT_DISTANCE));
       }
+      // Not cutting: the finger tilts the pack.
+      panX.set(clampUnit(event.translationX / PAN_TILT_DISTANCE));
+      panY.set(clampUnit(event.translationY / PAN_TILT_DISTANCE));
     },
     onFinalize: () => {
-      if (mode.get() === MODE_TEAR && torn.get() === 0) {
-        if (tear.get() >= TEAR_COMMIT) finishTear();
-        else tear.set(withSpring(0, springs.gentle));
+      if (torn.get() === 0) {
+        const outcome = tearRelease(tearState.get(), tearArea.get().width);
+        if (outcome === 'complete') finishTear();
+        else if (outcome === 'snapBack') {
+          const middle = (cutFrom.get() + cutTo.get()) / 2;
+          cutFrom.set(withSpring(middle, springs.gentle));
+          cutTo.set(withSpring(middle, springs.gentle));
+        }
       }
+      tearState.set(initialTearState());
       panX.set(withSpring(0, springs.gentle));
       panY.set(withSpring(0, springs.gentle));
     },
@@ -180,22 +213,17 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
       </Canvas>
 
       <View style={styles.header}>
-        <PressableScale
-          accessibilityRole="button"
-          accessibilityLabel={t('common.close')}
-          hitSlop={12}
-          onPress={() => router.back()}
-        >
+        <PressableScale accessibilityRole="button" accessibilityLabel={t('common.close')} hitSlop={12} onPress={() => router.back()}>
           <Icon name="close" size={30} />
         </PressableScale>
       </View>
 
       {phase === 'ready' ? (
         <>
-          <View style={styles.stage}>
-            <Animated.View style={dropStyle}>
-              <GestureDetector gesture={pan}>
-                <Animated.View
+          <GestureDetector gesture={blade}>
+            <View style={styles.stage}>
+              <Animated.View style={dropStyle} onLayout={onPackLayout}>
+                <View
                   accessible={canTear}
                   accessibilityRole="button"
                   accessibilityLabel={t('packOpening.tearAction')}
@@ -215,19 +243,21 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
                     tiltY={tiltY}
                     float
                     entrance
-                    tearProgress={tear}
+                    tearFrom={cutFrom}
+                    tearTo={cutTo}
+                    tearDirection={cutDirection}
                     stripFlight={stripFlight}
                     showPerforation={canTear}
                   />
-                </Animated.View>
-              </GestureDetector>
-            </Animated.View>
-          </View>
+                </View>
+              </Animated.View>
+            </View>
+          </GestureDetector>
 
           <View style={styles.footer}>
             {attempt.isError ? (
               <>
-                <Body align="center">{t(errorMessageKey(attempt.error))}</Body>
+                <Body align="center">{describeError(attempt.error, t)}</Body>
                 <Caption align="center">{t('packOpening.error')}</Caption>
                 {/* Same idempotency key: a request that did reach the server returns the same cards. */}
                 <Button3D label={t('common.retry')} variant="secondary" disabled={!online} onPress={() => mutate()} />
@@ -246,24 +276,8 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
             )}
           </View>
         </>
-      ) : result && phase === 'fan' ? (
-        <>
-          <View style={styles.stage}>
-            <CardFanStage cards={result.cards} cardWidth={Math.round(Math.min(screenWidth * 0.3, 132))} renderCard={renderFanCard} />
-          </View>
-          <View style={styles.footer}>
-            <Heading align="center">{t('packOpening.cardsReady')}</Heading>
-            <View style={styles.cta}>
-              <Button3D label={t('packOpening.reveal')} icon="sparkles" size="lg" fullWidth onPress={() => setPhase('reveal')} />
-            </View>
-          </View>
-        </>
-      ) : result && phase === 'reveal' ? (
-        <RevealSequence
-          cards={result.cards}
-          cardWidth={Math.round(Math.min(screenWidth * 0.72, 300))}
-          onDone={() => setPhase('recap')}
-        />
+      ) : result && phase === 'stack' ? (
+        <RevealStack cards={result.cards} cardWidth={Math.round(Math.min(screenWidth * 0.74, 300))} onDone={() => setPhase('recap')} />
       ) : result && phase === 'recap' ? (
         <PackRecap result={result} onOpenAnother={onOpenAnother} />
       ) : null}
@@ -271,16 +285,10 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
   );
 }
 
-/** Face-down backs in the fan; the last one glows with its rarity (the suspense). */
-const renderFanCard: CardSlotRenderer = ({ card, isLast, width }) => (
-  <CardBack width={width} size="grid" glow={isLast ? card.rarity : undefined} />
-);
-
 const styles = StyleSheet.create({
   root: { flex: 1 },
   header: { flexDirection: 'row', paddingHorizontal: spacing.md, paddingTop: spacing.xs },
   stage: { flex: 1, alignItems: 'center', justifyContent: 'center' },
   footer: { alignItems: 'center', gap: spacing.sm, paddingHorizontal: spacing.lg, minHeight: 120 },
   preparing: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
-  cta: { alignSelf: 'stretch', paddingHorizontal: spacing.lg },
 });
