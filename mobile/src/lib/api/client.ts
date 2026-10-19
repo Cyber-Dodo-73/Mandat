@@ -8,6 +8,21 @@ import { tokenStore } from './tokens';
 
 const AUTH_PATHS = '/api/v1/auth/';
 
+/**
+ * React Native's fetch is unreliable with Request objects (what openapi-fetch hands over):
+ * it can fail with "Network request failed" although the server is reachable. Always call it
+ * with a plain URL and init, the body read as text.
+ */
+export async function plainFetch(request: Request): Promise<Response> {
+  const hasBody = request.method !== 'GET' && request.method !== 'HEAD';
+  const body = hasBody ? await request.text() : undefined;
+  const headers: Record<string, string> = {};
+  request.headers.forEach((value, key) => {
+    headers[key] = value;
+  });
+  return fetch(request.url, { method: request.method, headers, body: body || undefined });
+}
+
 /** Untouched copies of authenticated requests, replayed once after a token refresh. */
 const replayable = new WeakMap<Request, Request>();
 
@@ -33,7 +48,7 @@ export const authMiddleware: Middleware = {
     if (!accessToken) return response;
     const retry = new Request(original);
     retry.headers.set('Authorization', `Bearer ${accessToken}`);
-    return fetch(retry);
+    return plainFetch(retry);
   },
 };
 
@@ -41,5 +56,5 @@ export const authMiddleware: Middleware = {
  * Typed client generated from the API OpenAPI spec. Never call fetch by hand:
  * add endpoints to the API, run `npm run api:gen`, then use this client.
  */
-export const api = createClient<paths>({ baseUrl: API_URL });
+export const api = createClient<paths>({ baseUrl: API_URL, fetch: plainFetch });
 api.use(authMiddleware);

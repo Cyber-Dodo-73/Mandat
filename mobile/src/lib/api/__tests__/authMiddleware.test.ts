@@ -49,8 +49,8 @@ describe('authMiddleware', () => {
     });
 
     expect(refreshMock).toHaveBeenCalledTimes(1);
-    const replayed = fetchMock.mock.calls[0][0] as Request;
-    expect(replayed.headers.get('Authorization')).toBe('Bearer access-1');
+    const [, init] = fetchMock.mock.calls[0] as [string, { headers: Record<string, string> }];
+    expect(init.headers.authorization).toBe('Bearer access-1');
     expect((response as Response).status).toBe(200);
   });
 

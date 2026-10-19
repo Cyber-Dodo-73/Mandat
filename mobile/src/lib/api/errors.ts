@@ -87,7 +87,7 @@ export function toTransportError(cause: unknown): ApiError {
 /** Technical detail appended to the generic message, so unexpected failures can be reported. */
 export function errorDetail(error: unknown): string | null {
   if (error instanceof ApiError) {
-    if (error.isNetwork) return null;
+    if (error.isNetwork) return error.message && error.message !== NETWORK_ERROR ? error.message : null;
     return error.code === CLIENT_ERROR || !(API_ERROR_CODES as readonly string[]).includes(error.code)
       ? `${error.code}${error.message && error.message !== error.code ? `: ${error.message}` : ''}`
       : null;
