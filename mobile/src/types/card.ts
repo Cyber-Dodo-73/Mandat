@@ -12,6 +12,17 @@ export type StatKey = 'influence' | 'diplomacy' | 'charisma' | 'strategy';
 
 export type CardStats = Record<StatKey, number>;
 
+export type TimelineKind = 'birth' | 'death' | 'office' | 'award' | 'event' | 'education';
+
+/** One dated fact of the card's Wikidata timeline (years are historical: 1 BCE = −1). */
+export type TimelineEntry = {
+  year: number;
+  endYear?: number;
+  kind: TimelineKind;
+  label: Localized;
+  wikidataId?: string;
+};
+
 export type Card = {
   id: string;
   wikidataId: string;
@@ -28,6 +39,14 @@ export type Card = {
   fameScore: number;
   rarity: Rarity;
   bio: Localized;
+  /** Long-form history: 6–10 sentences. */
+  story?: Localized;
+  /** 3–5 short facts, same count and order in both languages. */
+  highlights?: { fr: string[]; en: string[] };
+  /** What remains of them today, 1–2 sentences. */
+  legacy?: Localized;
+  /** Dated offices, awards and events from Wikidata, chronological. */
+  timeline?: TimelineEntry[];
   stats: CardStats;
   ability: { name: Localized; description: Localized };
   /** Perpetrators of mass crimes: sober visuals and reveal, never featured. */

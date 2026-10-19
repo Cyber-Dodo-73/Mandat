@@ -371,6 +371,27 @@
       "upgradeConfirm": "Upgrade to Holo",
       "upgraded": "Card upgraded to Holo, −{{amount}} Influence",
       "upgradeA11y": "Upgrade one standard copy to Holo"
+    },
+    "history": {
+      "sections": "Card sections",
+      "summary": "Summary",
+      "story": "Story",
+      "timeline": "Timeline",
+      "highlights": "Key facts",
+      "legacy": "Legacy",
+      "storyTitle": "Their story",
+      "readMore": "Read more",
+      "readLess": "Show less",
+      "timelineTitle": "Key dates",
+      "timelineSource": "Offices, awards and events from Wikidata.",
+      "kinds": {
+        "birth": "Birth",
+        "death": "Death",
+        "office": "Office",
+        "award": "Award",
+        "event": "Event",
+        "education": "Education"
+      }
     }
   },
   "user": {

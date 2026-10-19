@@ -23,6 +23,7 @@ import { spacing } from '@/theme';
 import { rarityStyles } from '@/theme/rarity';
 import { CARD_FINISHES, STAT_KEYS, type Card, type CardFinish } from '@/types/card';
 
+import { CardHistory } from './CardHistory';
 import { useCardText } from './cardText';
 import { CollectionActions } from './CollectionActions';
 
@@ -107,10 +108,7 @@ function CardDetail({ card, finish }: { card: Card; finish: CardFinish }) {
         <Caption>{text.lifespan}</Caption>
       </View>
 
-      <Surface>
-        <Heading>{t('card.bio')}</Heading>
-        <Body>{text.bio}</Body>
-      </Surface>
+      <CardHistory cardId={card.id} sober={card.sensitive} />
 
       <Surface>
         <Heading>{t('card.stats')}</Heading>

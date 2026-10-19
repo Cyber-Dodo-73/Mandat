@@ -371,6 +371,27 @@
       "upgradeConfirm": "Améliorer en Holo",
       "upgraded": "Carte améliorée en Holo, −{{amount}} Influence",
       "upgradeA11y": "Améliorer un exemplaire standard en Holo"
+    },
+    "history": {
+      "sections": "Sections de la fiche",
+      "summary": "Résumé",
+      "story": "Histoire",
+      "timeline": "Parcours",
+      "highlights": "Ce qu'il faut retenir",
+      "legacy": "Héritage",
+      "storyTitle": "Son histoire",
+      "readMore": "Lire la suite",
+      "readLess": "Réduire",
+      "timelineTitle": "Les grandes dates",
+      "timelineSource": "Fonctions, distinctions et événements issus de Wikidata.",
+      "kinds": {
+        "birth": "Naissance",
+        "death": "Décès",
+        "office": "Fonction",
+        "award": "Distinction",
+        "event": "Événement",
+        "education": "Études"
+      }
     }
   },
   "user": {
