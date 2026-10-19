@@ -4,6 +4,7 @@ import { StyleSheet, View } from 'react-native';
 import { OfflineNotice } from '@/components/navigation/OfflineNotice';
 import { Body, Button3D, Caption, Card as Surface, Heading, Icon, PressableScale, Sheet, Text } from '@/components/ui';
 import { useProgressionQuery } from '@/features/player/queries';
+import { ProfileCardActions } from '@/features/profile/ProfileCardActions';
 import { useIsOnline } from '@/hooks/useIsOnline';
 import { formatDate, formatNumber, useLanguage, useTranslation } from '@/i18n';
 import { describeError } from '@/lib/api';
@@ -39,7 +40,7 @@ export function CollectionActions({ card }: { card: Card }) {
         )}
         {feedback ? <FeedbackLine feedback={feedback} /> : null}
       </Surface>
-      <SoonActions />
+      <ProfileCardActions card={card} />
     </>
   );
 }
@@ -257,22 +258,6 @@ function FeedbackLine({ feedback }: { feedback: NonNullable<Feedback> }) {
   );
 }
 
-/** Showcase and favorite arrive with the profile (phase 8): visible but disabled. */
-function SoonActions() {
-  const { t } = useTranslation();
-  return (
-    <View style={styles.soon}>
-      <View style={styles.flex}>
-        <Button3D label={t('card.actions.showcase')} icon="albums-outline" variant="secondary" size="sm" fullWidth disabled onPress={() => undefined} />
-      </View>
-      <View style={styles.flex}>
-        <Button3D label={t('card.actions.favorite')} icon="star-outline" variant="secondary" size="sm" fullWidth disabled onPress={() => undefined} />
-      </View>
-      <Caption style={styles.soonHint}>{t('card.actions.soon')}</Caption>
-    </View>
-  );
-}
-
 const styles = StyleSheet.create({
   copyRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
   copyText: { flex: 1, gap: 2 },
@@ -282,7 +267,4 @@ const styles = StyleSheet.create({
   stepValue: { minWidth: 48, textAlign: 'center' },
   influence: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   influenceValue: { flexDirection: 'row', alignItems: 'center', gap: spacing.xxs },
-  soon: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm },
-  soonHint: { width: '100%' },
-  flex: { flex: 1 },
 });

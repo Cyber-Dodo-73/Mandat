@@ -26,6 +26,11 @@ export const API_ERROR_CODES = [
   'reward_already_claimed',
   'mission_expired',
   'season_tier_not_found',
+  'profile_private',
+  'cosmetic_locked',
+  'nickname_change_too_soon',
+  'friend_limit_reached',
+  'cannot_target_self',
   'internal_error',
 ] as const;
 
