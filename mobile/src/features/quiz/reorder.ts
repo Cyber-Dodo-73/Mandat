@@ -8,8 +8,12 @@ export function moveItem<T>(items: readonly T[], from: number, to: number): T[] 
   return next;
 }
 
-/** Index a dragged row lands on, from its start index and vertical travel. */
+/**
+ * Index a dragged row lands on, from its start index and vertical travel.
+ * Called from the pan gesture on the UI thread: it must stay a worklet, or Reanimated crashes the app.
+ */
 export function dropIndex(from: number, translationY: number, rowHeight: number, count: number): number {
+  'worklet';
   if (rowHeight <= 0) return from;
   const target = from + Math.round(translationY / rowHeight);
   return Math.max(0, Math.min(count - 1, target));

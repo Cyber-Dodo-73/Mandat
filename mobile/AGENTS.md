@@ -21,7 +21,9 @@ npx expo-doctor             # diagnose dependency and config issues
 npx expo install --fix      # fix incompatible package versions
 ```
 
-Run lint and typecheck before declaring any task done.
+Run lint, typecheck, tests and `npm run check:worklets` before declaring any task done. Any function called from a
+UI-thread callback (gesture, `useAnimatedStyle`, `useDerivedValue`, `withTiming` callback...) must be a worklet
+(`'worklet'` directive) or go through `scheduleOnRN`: otherwise the release app crashes, and Jest cannot see it.
 
 ## Navigation & Routing
 
