@@ -1967,6 +1967,27 @@
         },
         "required" : [ "finish", "guaranteedSlotOnly", "percent" ]
       },
+      "FirstPackSlotDto" : {
+        "type" : "object",
+        "properties" : {
+          "rarities" : {
+            "type" : "array",
+            "items" : {
+              "type" : "string",
+              "enum" : [ "common", "uncommon", "rare", "epic", "legendary", "mythic" ]
+            }
+          },
+          "slots" : {
+            "type" : "array",
+            "description" : "1-based slot numbers",
+            "items" : {
+              "type" : "integer",
+              "format" : "int32"
+            }
+          }
+        },
+        "required" : [ "rarities", "slots" ]
+      },
       "FreePacksDto" : {
         "type" : "object",
         "properties" : {
@@ -2212,6 +2233,43 @@
         },
         "required" : [ "profile", "unlocks", "visibility" ]
       },
+      "NewPlayerGuaranteesDto" : {
+        "type" : "object",
+        "description" : "Extra guarantees for a new player's first boosters, on top of the regular odds and pity",
+        "properties" : {
+          "firstPackBestFinishAtLeast" : {
+            "type" : "string",
+            "description" : "Minimum finish of the first booster's best card",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "firstPackDistinctContinents" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Distinct continents among the first booster's cards"
+          },
+          "firstPackExcludesSensitive" : {
+            "type" : "boolean"
+          },
+          "firstPackMinDistinctEras" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Minimum distinct eras among the first booster's cards"
+          },
+          "firstPackSlots" : {
+            "type" : "array",
+            "description" : "Composition of the very first booster, in slot order (slot 5 holds the best card)",
+            "items" : {
+              "$ref" : "#/components/schemas/FirstPackSlotDto"
+            }
+          },
+          "legendaryWithinFirstPacks" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "A legendary or better is guaranteed within the player's first N boosters"
+          }
+        },
+        "required" : [ "firstPackBestFinishAtLeast", "firstPackDistinctContinents", "firstPackExcludesSensitive", "firstPackMinDistinctEras", "firstPackSlots", "legendaryWithinFirstPacks" ]
+      },
       "OddsResponse" : {
         "type" : "object",
         "properties" : {
@@ -2224,6 +2282,9 @@
             "items" : {
               "$ref" : "#/components/schemas/FinishOddsDto"
             }
+          },
+          "newPlayerGuarantees" : {
+            "$ref" : "#/components/schemas/NewPlayerGuaranteesDto"
           },
           "packId" : {
             "type" : "string"
@@ -2238,7 +2299,7 @@
             }
           }
         },
-        "required" : [ "continentFallback", "finishes", "packId", "pity", "slots" ]
+        "required" : [ "continentFallback", "finishes", "newPlayerGuarantees", "packId", "pity", "slots" ]
       },
       "OpenPackResponse" : {
         "type" : "object",
@@ -2377,6 +2438,11 @@
           "legendaryGuaranteedIn" : {
             "type" : "integer",
             "format" : "int32"
+          },
+          "newPlayerLegendaryIn" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "description" : "New-player guarantee: boosters left until a legendary or better is guaranteed (1 = the next one); null once the player pulled one or opened enough boosters"
           },
           "packsSinceEpic" : {
             "type" : "integer",

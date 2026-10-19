@@ -155,6 +155,54 @@ class DrawEngineTest {
     }
 
     @Test
+    void firstPackPutsTheBestCardLastWithAtLeastAHoloFinishWhateverTheRulesOrder() {
+        // Same groups as data/firstPackRules.json used to have: the epic+ group listed first.
+        FirstPackRules bestFirst = new FirstPackRules(
+                List.of(
+                        new FirstPackRules.SlotGroup(List.of(Rarity.EPIC, Rarity.LEGENDARY, Rarity.MYTHIC), 1),
+                        new FirstPackRules.SlotGroup(List.of(Rarity.RARE, Rarity.UNCOMMON), 2),
+                        new FirstPackRules.SlotGroup(List.of(Rarity.COMMON), 2)),
+                5, 3, true);
+        DrawEngine engine = new DrawEngine(new SplittableRandom(11));
+        CardPool pool = samplePool();
+        for (int i = 0; i < 2_000; i++) {
+            List<DrawnCard> cards = engine.drawFirstPack(pool, bestFirst, PityCounters.NONE).cards();
+            assertThat(cards).extracting(drawn -> drawn.card().rarity()).isSorted();
+            assertThat(cards.get(0).card().rarity()).isEqualTo(Rarity.COMMON);
+            assertThat(cards.get(4).card().rarity()).isGreaterThanOrEqualTo(Rarity.EPIC);
+            assertThat(cards.get(4).finish()).isNotEqualTo(CardFinish.STANDARD);
+            assertThat(cards.subList(0, 4)).noneMatch(drawn -> drawn.finish() == CardFinish.FULL_ART);
+        }
+    }
+
+    @Test
+    void extraMinimumForcesTheGuaranteedSlot() {
+        DrawEngine engine = new DrawEngine(new SplittableRandom(5));
+        CardPool pool = samplePool();
+        for (int i = 0; i < 2_000; i++) {
+            PackDraw draw = engine.draw(pool, PityCounters.NONE, Rarity.LEGENDARY);
+            assertThat(draw.cards().get(4).card().rarity()).isGreaterThanOrEqualTo(Rarity.LEGENDARY);
+            assertThat(draw.pityAfter().packsSinceLegendary()).isZero();
+        }
+    }
+
+    @Test
+    void newPlayerLegendaryGuaranteeAppliesOnlyToTheThirdBoosterWithoutALegendary() {
+        assertThat(new PityCounters(0, 0).newPlayerMinimum(0)).isNull();
+        assertThat(new PityCounters(0, 1).newPlayerMinimum(1)).isNull();
+        assertThat(new PityCounters(1, 2).newPlayerMinimum(2)).isEqualTo(Rarity.LEGENDARY);
+        // A legendary already pulled (counter reset) cancels the guarantee.
+        assertThat(new PityCounters(0, 1).newPlayerMinimum(2)).isNull();
+        // Veterans are not concerned.
+        assertThat(new PityCounters(3, 3).newPlayerMinimum(3)).isNull();
+
+        assertThat(new PityCounters(0, 0).newPlayerLegendaryIn(0)).isEqualTo(3);
+        assertThat(new PityCounters(0, 2).newPlayerLegendaryIn(2)).isEqualTo(1);
+        assertThat(new PityCounters(0, 0).newPlayerLegendaryIn(1)).isNull();
+        assertThat(new PityCounters(0, 3).newPlayerLegendaryIn(3)).isNull();
+    }
+
+    @Test
     void firstPackFallsBackToARegularDrawWhenRulesCannotBeMet() {
         List<DrawCard> singleContinent = new ArrayList<>();
         for (Rarity rarity : Rarity.values()) {
