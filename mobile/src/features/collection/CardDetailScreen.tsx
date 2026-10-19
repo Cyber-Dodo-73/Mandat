@@ -1,5 +1,6 @@
 import { useLocalSearchParams } from 'expo-router';
 import { Linking, StyleSheet, View } from 'react-native';
+import Animated, { ZoomIn } from 'react-native-reanimated';
 
 import { CARD_WIDTHS, GOLD, isFinishAvailable, RarityPips, TradingCard } from '@/components/cards';
 import { ScreenHeader } from '@/components/navigation/ScreenHeader';
@@ -15,6 +16,7 @@ import {
   Text,
 } from '@/components/ui';
 import { getCard } from '@/data/catalog';
+import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { portraitCreditFor } from '@/features/credits/credits';
 import { useTranslation } from '@/i18n';
 import { spacing } from '@/theme';
@@ -22,7 +24,7 @@ import { rarityStyles } from '@/theme/rarity';
 import { CARD_FINISHES, STAT_KEYS, type Card, type CardFinish } from '@/types/card';
 
 import { useCardText } from './cardText';
-import { useOwnedCopies } from './queries';
+import { CollectionActions } from './CollectionActions';
 
 export function CardDetailScreen() {
   const { id, finish } = useLocalSearchParams<{ id: string; finish?: string }>();
@@ -68,6 +70,7 @@ function PhotoCredit({ cardId }: { cardId: string }) {
 
 function CardDetail({ card, finish }: { card: Card; finish: CardFinish }) {
   const { t } = useTranslation();
+  const reduceMotion = useReduceMotion();
   const text = useCardText(card);
   const rarity = rarityStyles[card.rarity];
 
@@ -76,7 +79,10 @@ function CardDetail({ card, finish }: { card: Card; finish: CardFinish }) {
       <ScreenHeader title={text.name} dismiss="close" />
 
       <View style={styles.hero}>
-        <TradingCard card={card} finish={finish} size="hero" width={CARD_WIDTHS.hero} />
+        {/* Opening from the binder: the card zooms in from the grid size. */}
+        <Animated.View entering={reduceMotion ? undefined : ZoomIn.springify().damping(16).stiffness(180)}>
+          <TradingCard card={card} finish={finish} size="hero" width={CARD_WIDTHS.hero} />
+        </Animated.View>
         <Caption align="center">{t('card.dragHint')}</Caption>
         <PhotoCredit cardId={card.id} />
       </View>
@@ -130,26 +136,8 @@ function CardDetail({ card, finish }: { card: Card; finish: CardFinish }) {
         <Body>{text.abilityDescription}</Body>
       </Surface>
 
-      <Surface>
-        <Heading>{t('card.copies')}</Heading>
-        <OwnedCopies cardId={card.id} />
-      </Surface>
+      <CollectionActions card={card} />
     </ScreenContainer>
-  );
-}
-
-function OwnedCopies({ cardId }: { cardId: string }) {
-  const { t } = useTranslation();
-  const copies = useOwnedCopies(cardId);
-  if (copies.length === 0) return <Caption>{t('card.notOwned')}</Caption>;
-  return (
-    <>
-      {copies.map((copy) => (
-        <Body key={copy.finish}>
-          {t('card.copiesOfFinish', { count: copy.quantity, finish: t(`cards.finish.${copy.finish}`) })}
-        </Body>
-      ))}
-    </>
   );
 }
 
