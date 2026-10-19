@@ -156,12 +156,19 @@
     "title": "Play",
     "quiz": {
       "title": "Quiz",
-      "description": "10 questions about the figures in your collection."
+      "description": "10 questions about history's figures, 3 lives.",
+      "towardsBonus": "Perfect quizzes: {{current}}/{{total}} to the next bonus booster",
+      "bonusRule": "A bonus booster every {{count}} perfect quizzes"
     },
     "duel": {
       "title": "Duel",
-      "description": "3 cards against the AI, best of 3 rounds."
-    }
+      "description": "3 cards against the AI, best of 3 rounds.",
+      "wins_one": "{{value}} duel win",
+      "wins_other": "{{value}} duel wins"
+    },
+    "offline": "Quiz and duel need a connection.",
+    "resume": "Resume",
+    "resumeHint": "A game is in progress"
   },
   "profile": {
     "title": "Profile",
@@ -418,7 +425,12 @@
     "cosmetic_locked": "You haven't unlocked this yet.",
     "nickname_change_too_soon": "You changed your nickname recently. Try again later.",
     "friend_limit_reached": "Friend or request limit reached.",
-    "cannot_target_self": "You can't do that on your own profile."
+    "cannot_target_self": "You can't do that on your own profile.",
+    "quiz_session_finished": "This quiz is over. Start a new one.",
+    "quiz_session_expired": "This quiz has expired. Start a new one.",
+    "quiz_answer_out_of_order": "This question has already been answered.",
+    "duel_finished": "This duel is over.",
+    "duel_card_unavailable": "This card is no longer in your hand."
   },
   "notFound": {
     "title": "Page not found",
@@ -785,6 +797,108 @@
         "title": "Take on the AI",
         "body": "Build a team of 3 cards and win the duel round by round."
       }
+    }
+  },
+  "quiz": {
+    "preparing": "Preparing the questions…",
+    "offline": "The quiz needs a connection to be marked.",
+    "quit": "Quit the quiz",
+    "progressA11y": "Question {{current}} of {{total}}",
+    "livesA11y_one": "{{count}} life left",
+    "livesA11y_other": "{{count}} lives left",
+    "check": "Check",
+    "continue": "Continue",
+    "seeResults": "See the result",
+    "type": {
+      "whoRole": "Who held this office?",
+      "whoBio": "Who is this about?",
+      "whichCountry": "Which country?",
+      "oldest": "Who was born first?",
+      "chronology": "Put them in order"
+    },
+    "order": {
+      "hint": "Drag the figures, from the oldest to the most recent.",
+      "rowA11y": "Position {{position}}: {{label}}",
+      "moveUp": "Move up",
+      "moveDown": "Move down"
+    },
+    "feedback": {
+      "correct": "Correct!",
+      "wrong": "Not quite"
+    },
+    "end": {
+      "scoreA11y": "{{correct}} correct answers out of {{total}}",
+      "perfect": "Flawless!",
+      "good": "Well played",
+      "keepGoing": "Keep going, it's sinking in",
+      "influence": "+{{amount}} Influence",
+      "xp": "XP added",
+      "bonusPackTitle": "Bonus booster earned",
+      "bonusPackBody": "It's waiting on the home screen.",
+      "retry": "Play again",
+      "done": "Done"
+    }
+  },
+  "duel": {
+    "offline": "The duel needs a connection.",
+    "quit": "Quit the duel",
+    "round": "Round {{round}}/{{total}}",
+    "you": "You",
+    "ai": "AI",
+    "versus": "vs",
+    "aiTeam": "AI team",
+    "yourHand": "Your hand",
+    "domain": "Round domain",
+    "domainA11y": "Round domain: {{domain}}",
+    "scoreA11y": "Score: you {{player}}, AI {{ai}}",
+    "valueA11y": "Value {{base}}, after abilities {{value}}",
+    "anyStat": "the domain",
+    "pickCard": "Pick a card",
+    "playFaceDown": "Play face down",
+    "nextRound": "Next round",
+    "seeResult": "See the result",
+    "effect": {
+      "change": "{{delta}} {{stat}}",
+      "tieBreaker": "Wins ties"
+    },
+    "verdict": {
+      "player": "Round won",
+      "ai": "Round lost",
+      "draw": "Tie"
+    },
+    "tieRule": {
+      "tieBreaker": "Tie settled by an ability",
+      "underdog": "Tie: the less rare card wins",
+      "draw": "Perfect tie, nobody scores"
+    },
+    "difficulty": {
+      "easy": "Easy",
+      "normal": "Normal",
+      "hard": "Hard"
+    },
+    "difficultyHint": {
+      "easy": "The AI plays at random with a weaker team.",
+      "normal": "The AI plays its best card in the announced domain.",
+      "hard": "The AI anticipates your cards and saves its best ones."
+    },
+    "setup": {
+      "title": "Build your team",
+      "resume": "Resume the duel in progress",
+      "teamA11y": "{{count}} of {{total}} cards picked",
+      "difficulty": "Difficulty",
+      "search": "Search a card",
+      "notEnoughCards": "You need at least {{count}} cards to play. Open some boosters!",
+      "picked": "{{count}}/{{total}} cards",
+      "start": "Start the duel"
+    },
+    "end": {
+      "player": "Victory",
+      "ai": "Defeat",
+      "draw": "Draw",
+      "influence": "+{{amount}} Influence",
+      "xp": "XP added",
+      "again": "Play again",
+      "done": "Done"
     }
   }
 }
