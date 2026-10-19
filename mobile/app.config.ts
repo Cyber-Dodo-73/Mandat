@@ -56,7 +56,17 @@ const config: ExpoConfig = {
     'expo-secure-store',
     'expo-apple-authentication',
     'expo-web-browser',
-    'expo-notifications',
+    [
+      'expo-notifications',
+      {
+        // Android status-bar icon: white silhouette on transparent, tinted with the brand gold.
+        icon: './assets/android-icon-monochrome.png',
+        color: '#C9A227',
+        // TestFlight and App Store builds (both EAS profiles use store distribution) talk to the
+        // production APNs environment.
+        mode: 'production',
+      },
+    ],
     [
       'expo-splash-screen',
       {

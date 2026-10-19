@@ -1,6 +1,8 @@
 import { getCalendars } from 'expo-localization';
 import { Platform } from 'react-native';
 
+import { unregisterPushToken } from '@/features/push/pushApi';
+import { usePushStore } from '@/features/push/pushStore';
 import { useSettingsStore } from '@/features/settings/store';
 import { api, tokenStore, unwrap } from '@/lib/api';
 
@@ -40,6 +42,8 @@ export async function signInWithGoogle(idToken: string): Promise<void> {
 
 /** Revokes the refresh token on the server (best effort), then forgets the session. */
 export async function logout(): Promise<void> {
+  // Stop pushes to this device for the account that is signing out (needs the access token).
+  await unregisterPushToken();
   const refreshToken = tokenStore.get()?.refreshToken;
   if (refreshToken) {
     await unwrap(api.POST('/api/v1/auth/logout', { body: { refreshToken } })).catch(() => undefined);
@@ -50,5 +54,7 @@ export async function logout(): Promise<void> {
 /** Permanently deletes the account (App Store / GDPR requirement). */
 export async function deleteAccount(): Promise<void> {
   await unwrap(api.DELETE('/api/v1/me'));
+  // The server deleted the devices with the account.
+  usePushStore.getState().clearRegistered();
   await useSessionStore.getState().clear();
 }

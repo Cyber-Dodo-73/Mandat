@@ -35,6 +35,25 @@ After changing `.env`, restart with `npm start -- --clear`.
   **rebuild the dev client** after setting it. Add the same ids to the API's `MANDAT_GOOGLE_CLIENT_IDS`.
   The Google button is hidden while no client id is configured.
 
+## Push notifications
+
+Server pushes go through the Expo push service (no Firebase SDK in the app).
+
+- **iOS**: nothing to code. Let EAS manage the credentials (`eas credentials` → iOS → *Push
+  Notifications: Manage your Apple Push Notifications Key*, or accept when `eas build` offers to
+  create the push key). The `expo-notifications` plugin adds the `aps-environment: production`
+  entitlement (TestFlight and App Store builds). **Rebuild** after enabling it.
+- **Android**: upload an FCM V1 service account key with `eas credentials` → Android (only when an
+  Android build ships).
+- **API**: works without configuration. Set `MANDAT_EXPO_ACCESS_TOKEN` only if "Enhanced push
+  security" is enabled for the project on expo.dev. `MANDAT_PUSH_ENABLED=false` mutes every send.
+- The app registers the device after the player allows notifications (never on first launch),
+  refreshes the token on start and when Expo rotates it, and unregisters it on sign out or when
+  notifications are turned off in Settings. Per-category toggles (booster, streak, friends,
+  rewards, marketing — off by default) sit under the notifications switch.
+- Local reminders (booster ready, streak at risk) remain as an offline fallback and are cancelled
+  as soon as the device is registered for server pushes, so nothing arrives twice.
+
 ## Scripts
 
 | Script | Purpose |

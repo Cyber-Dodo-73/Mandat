@@ -369,7 +369,16 @@
     "haptics": "Haptics",
     "notifications": {
       "label": "Notifications",
-      "hint": "Pack ready, streak at risk. At most once a day."
+      "hint": "Booster ready, streak at risk, friends. Two a day at most, never between 10 pm and 9 am.",
+      "categoriesTitle": "Notify me about",
+      "categories": {
+        "boosterReady": "Free booster ready",
+        "streak": "Streak at risk",
+        "friends": "Friend requests",
+        "events": "Rewards to claim",
+        "marketing": "News and offers"
+      },
+      "marketingHint": "Off by default. Never more than once a day."
     },
     "reduceMotion": {
       "label": "Reduce motion",

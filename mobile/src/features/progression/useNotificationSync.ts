@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { AppState } from 'react-native';
 
 import { usePacksQuery } from '@/features/packs/queries';
+import { usePushStore } from '@/features/push/pushStore';
 import { useProgressionQuery } from '@/features/player/queries';
 import { useSettingsStore } from '@/features/settings/store';
 import { useTranslation } from '@/i18n';
@@ -43,7 +44,9 @@ export function useNotificationPermission() {
 
 /**
  * Keeps local reminders in line with the server state: free booster ready, streak at risk in
- * the evening (player's timezone). Respects the settings toggle and the OS permission.
+ * the evening (player's timezone). Respects the settings toggle and the OS permission. They are
+ * only a fallback: once the device is registered for server pushes, the server sends these
+ * reminders and the local ones are cancelled, so nothing arrives twice.
  */
 export function useNotificationSync() {
   const { t } = useTranslation();
@@ -51,6 +54,7 @@ export function useNotificationSync() {
   const progression = useProgressionQuery().data;
   const packs = usePacksQuery().data;
   const { permission } = useNotificationPermission();
+  const serverPush = usePushStore((state) => state.registeredToken !== null);
 
   const nextFreePackAt = packs?.freePacks.nextFreePackAt ?? null;
   const streak = progression?.currentStreak ?? 0;
@@ -59,7 +63,7 @@ export function useNotificationSync() {
 
   useEffect(() => {
     if (permission === null || !progression) return;
-    const allowed = enabled && permission === 'granted';
+    const allowed = enabled && permission === 'granted' && !serverPush;
     void configureNotifications(t('notifications.channel')).then(() =>
       applyNotificationPlan(
         planNotifications({
@@ -79,5 +83,5 @@ export function useNotificationSync() {
         },
       ),
     );
-  }, [activeToday, enabled, nextFreePackAt, permission, progression, streak, t, timeZone]);
+  }, [activeToday, enabled, nextFreePackAt, permission, progression, serverPush, streak, t, timeZone]);
 }

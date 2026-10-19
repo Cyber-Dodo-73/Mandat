@@ -17,6 +17,7 @@ import {
   Toggle,
   type SegmentOption,
 } from '@/components/ui';
+import { NotificationPreferences } from '@/features/push/NotificationPreferences';
 import { SUPPORTED_LANGUAGES, useTranslation, type Language } from '@/i18n';
 import { spacing } from '@/theme';
 
@@ -103,6 +104,7 @@ export function SettingsScreen() {
               />
             }
           />
+          {settings.notificationsEnabled ? <NotificationPreferences /> : null}
         </Card>
       </View>
 
