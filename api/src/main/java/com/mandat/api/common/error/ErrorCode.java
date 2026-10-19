@@ -32,6 +32,8 @@ public enum ErrorCode {
     // progression
     REWARD_NOT_CLAIMABLE("reward_not_claimable", HttpStatus.CONFLICT),
     REWARD_ALREADY_CLAIMED("reward_already_claimed", HttpStatus.CONFLICT),
+    MISSION_EXPIRED("mission_expired", HttpStatus.CONFLICT),
+    SEASON_TIER_NOT_FOUND("season_tier_not_found", HttpStatus.NOT_FOUND),
     INTERNAL_ERROR("internal_error", HttpStatus.INTERNAL_SERVER_ERROR);
 
     private final String code;

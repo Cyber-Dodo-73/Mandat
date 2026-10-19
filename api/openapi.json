@@ -5,10 +5,44 @@
     "version" : "v1"
   },
   "tags" : [ {
+    "description" : "Level, XP, streak and wallet summary",
+    "name" : "Progression"
+  }, {
+    "description" : "Daily and weekly missions",
+    "name" : "Missions"
+  }, {
+    "description" : "Free season pass",
+    "name" : "Season pass"
+  }, {
+    "description" : "Achievements and their progress",
+    "name" : "Achievements"
+  }, {
     "description" : "Connectivity and server time",
     "name" : "Meta"
   } ],
   "paths" : {
+    "/api/v1/achievements" : {
+      "get" : {
+        "operationId" : "getAchievements",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/AchievementsResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Every achievement with the player's progress",
+        "tags" : [ "Achievements" ]
+      }
+    },
     "/api/v1/meta" : {
       "get" : {
         "operationId" : "getMeta",
@@ -27,10 +61,219 @@
         "summary" : "API name, version and authoritative server time",
         "tags" : [ "Meta" ]
       }
+    },
+    "/api/v1/missions" : {
+      "get" : {
+        "operationId" : "getMissions",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/MissionsResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Current daily and weekly missions with progress",
+        "tags" : [ "Missions" ]
+      }
+    },
+    "/api/v1/missions/{missionId}/claim" : {
+      "post" : {
+        "operationId" : "claimMission",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "missionId",
+          "required" : true,
+          "schema" : {
+            "type" : "string",
+            "format" : "uuid"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ClaimResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Claim the reward of a completed mission",
+        "tags" : [ "Missions" ]
+      }
+    },
+    "/api/v1/progression" : {
+      "get" : {
+        "operationId" : "getProgression",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ProgressionResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Level, XP, streak, resets and wallet of the player",
+        "tags" : [ "Progression" ]
+      }
+    },
+    "/api/v1/season-pass" : {
+      "get" : {
+        "operationId" : "getSeasonPass",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SeasonPassResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Season pass tiers, season XP and claim state",
+        "tags" : [ "Season pass" ]
+      }
+    },
+    "/api/v1/season-pass/{tier}/claim" : {
+      "post" : {
+        "operationId" : "claimSeasonPassTier",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "tier",
+          "required" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/ClaimResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Claim the reward of a reached tier",
+        "tags" : [ "Season pass" ]
+      }
     }
   },
   "components" : {
     "schemas" : {
+      "AchievementDto" : {
+        "type" : "object",
+        "properties" : {
+          "category" : {
+            "type" : "string"
+          },
+          "id" : {
+            "type" : "string",
+            "description" : "Stable key, mapped to i18n by the app"
+          },
+          "metric" : {
+            "type" : "string"
+          },
+          "param" : {
+            "type" : [ "string", "null" ]
+          },
+          "progress" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "reward" : {
+            "$ref" : "#/components/schemas/RewardDto"
+          },
+          "threshold" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "unlockedAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time"
+          }
+        },
+        "required" : [ "category", "id", "metric", "progress", "reward", "threshold" ]
+      },
+      "AchievementsResponse" : {
+        "type" : "object",
+        "properties" : {
+          "achievements" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/AchievementDto"
+            }
+          },
+          "totalCount" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "unlockedCount" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "achievements", "totalCount", "unlockedCount" ]
+      },
+      "ClaimResponse" : {
+        "type" : "object",
+        "properties" : {
+          "level" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "levelRewards" : {
+            "$ref" : "#/components/schemas/RewardDto"
+          },
+          "levelsGained" : {
+            "type" : "array",
+            "items" : {
+              "type" : "integer",
+              "format" : "int32"
+            }
+          },
+          "reward" : {
+            "$ref" : "#/components/schemas/RewardDto"
+          },
+          "totalXp" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "level", "levelRewards", "levelsGained", "reward", "totalXp" ]
+      },
       "MetaResponse" : {
         "type" : "object",
         "properties" : {
@@ -46,6 +289,230 @@
           }
         },
         "required" : [ "apiVersion", "appName", "serverTime" ]
+      },
+      "MissionDto" : {
+        "type" : "object",
+        "properties" : {
+          "claimed" : {
+            "type" : "boolean"
+          },
+          "completed" : {
+            "type" : "boolean"
+          },
+          "id" : {
+            "type" : "string",
+            "format" : "uuid"
+          },
+          "param" : {
+            "type" : [ "string", "null" ],
+            "description" : "Continent key for continent missions"
+          },
+          "period" : {
+            "type" : "string",
+            "enum" : [ "daily", "weekly" ]
+          },
+          "progress" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "reward" : {
+            "$ref" : "#/components/schemas/RewardDto"
+          },
+          "target" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "templateId" : {
+            "type" : "string",
+            "description" : "Stable template key, mapped to i18n by the app"
+          },
+          "type" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "claimed", "completed", "id", "period", "progress", "reward", "target", "templateId", "type" ]
+      },
+      "MissionsResponse" : {
+        "type" : "object",
+        "properties" : {
+          "daily" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/MissionDto"
+            }
+          },
+          "dailyResetAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "weekly" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/MissionDto"
+            }
+          },
+          "weeklyResetAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          }
+        },
+        "required" : [ "daily", "dailyResetAt", "weekly", "weeklyResetAt" ]
+      },
+      "ProgressionResponse" : {
+        "type" : "object",
+        "properties" : {
+          "bestStreak" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "bonusPacks" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "currentStreak" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Streak as of today (0 when broken)"
+          },
+          "dailyResetAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "freezeAvailable" : {
+            "type" : "boolean",
+            "description" : "This week's free streak freeze is unused"
+          },
+          "influence" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "level" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "seasonXp" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "streakActiveToday" : {
+            "type" : "boolean",
+            "description" : "A streak activity was already done today"
+          },
+          "timezone" : {
+            "type" : "string"
+          },
+          "totalXp" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "unlocks" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/UnlockDto"
+            }
+          },
+          "weeklyResetAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "xpForNextLevel" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32",
+            "description" : "XP needed for the next level, null at max level"
+          },
+          "xpIntoLevel" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "XP earned since the current level was reached"
+          }
+        },
+        "required" : [ "bestStreak", "bonusPacks", "currentStreak", "dailyResetAt", "freezeAvailable", "influence", "level", "seasonXp", "streakActiveToday", "timezone", "totalXp", "unlocks", "weeklyResetAt", "xpIntoLevel" ]
+      },
+      "RewardDto" : {
+        "type" : "object",
+        "properties" : {
+          "bonusPacks" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "influence" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "unlocks" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/UnlockDto"
+            }
+          },
+          "xp" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "bonusPacks", "influence", "unlocks", "xp" ]
+      },
+      "SeasonPassResponse" : {
+        "type" : "object",
+        "properties" : {
+          "currentTier" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "seasonId" : {
+            "type" : "string"
+          },
+          "seasonXp" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "tiers" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/TierDto"
+            }
+          },
+          "xpPerTier" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "currentTier", "seasonId", "seasonXp", "tiers", "xpPerTier" ]
+      },
+      "TierDto" : {
+        "type" : "object",
+        "properties" : {
+          "claimable" : {
+            "type" : "boolean"
+          },
+          "claimed" : {
+            "type" : "boolean"
+          },
+          "requiredXp" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "reward" : {
+            "$ref" : "#/components/schemas/RewardDto"
+          },
+          "tier" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "claimable", "claimed", "requiredXp", "reward", "tier" ]
+      },
+      "UnlockDto" : {
+        "type" : "object",
+        "properties" : {
+          "itemId" : {
+            "type" : "string"
+          },
+          "kind" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "itemId", "kind" ]
       }
     },
     "securitySchemes" : {
