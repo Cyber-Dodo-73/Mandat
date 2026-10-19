@@ -1,0 +1,125 @@
+{
+  "common": {
+    "back": "Retour",
+    "close": "Fermer",
+    "comingSoon": "Bientôt disponible",
+    "loading": "Chargement…",
+    "retry": "Réessayer"
+  },
+  "tabs": {
+    "home": "Accueil",
+    "collection": "Collection",
+    "packs": "Boosters",
+    "play": "Jouer",
+    "profile": "Profil"
+  },
+  "home": {
+    "greeting": "Bon retour, chef d'État",
+    "streak": {
+      "label": "Série",
+      "days_one": "{{count}} jour",
+      "days_other": "{{count}} jours"
+    },
+    "level": {
+      "label": "Niveau {{level}}",
+      "xp": "{{current}} / {{total}} XP"
+    },
+    "nextPack": {
+      "title": "Prochain booster gratuit",
+      "subtitle": "Les boosters arrivent avec la connexion au serveur.",
+      "pending": "--:--:--"
+    },
+    "missions": {
+      "title": "Missions du jour",
+      "empty": "Tes premières missions apparaîtront ici."
+    },
+    "figureOfTheDay": {
+      "title": "Figure du jour",
+      "empty": "Le catalogue de la saison 1 arrive bientôt."
+    }
+  },
+  "collection": {
+    "title": "Collection",
+    "subtitle": "500 figures à réunir dans la saison 1",
+    "empty": "Ta collection est vide pour l'instant. Ouvre ton premier booster pour commencer."
+  },
+  "packs": {
+    "title": "Boosters",
+    "subtitle": "5 cartes par booster, dont une Rare ou mieux",
+    "openButton": "Ouvrir",
+    "oddsButton": "Taux d'obtention"
+  },
+  "packOpening": {
+    "title": "Ouverture",
+    "placeholder": "L'ouverture de booster arrive dans une prochaine phase."
+  },
+  "play": {
+    "title": "Jouer",
+    "quiz": {
+      "title": "Quiz",
+      "description": "10 questions sur les figures de ta collection."
+    },
+    "duel": {
+      "title": "Duel",
+      "description": "3 cartes contre l'IA, meilleur des 3 manches."
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "settingsButton": "Réglages",
+    "showcase": {
+      "title": "Vitrine",
+      "empty": "Choisis jusqu'à 6 cartes à exposer ici."
+    }
+  },
+  "card": {
+    "title": "Carte",
+    "placeholder": "Le détail des cartes arrive avec le catalogue."
+  },
+  "user": {
+    "title": "Joueur",
+    "placeholder": "Les profils publics arrivent dans une prochaine phase."
+  },
+  "settings": {
+    "title": "Réglages",
+    "sections": {
+      "general": "Général",
+      "feedback": "Sons et vibrations",
+      "accessibility": "Accessibilité",
+      "about": "À propos"
+    },
+    "language": {
+      "label": "Langue",
+      "fr": "Français",
+      "en": "English"
+    },
+    "theme": {
+      "label": "Thème",
+      "system": "Système",
+      "dark": "Sombre",
+      "light": "Clair"
+    },
+    "sound": "Sons",
+    "haptics": "Vibrations",
+    "notifications": {
+      "label": "Notifications",
+      "hint": "Booster prêt, série en danger. Une par jour au maximum."
+    },
+    "reduceMotion": {
+      "label": "Réduire les animations",
+      "hintSystem": "Suit le réglage du téléphone",
+      "followSystem": "Suivre le système"
+    },
+    "account": "Compte",
+    "legal": "Mentions légales",
+    "version": "Version {{version}}"
+  },
+  "errors": {
+    "generic": "Une erreur est survenue. Réessaie dans un instant.",
+    "network": "Pas de connexion. Vérifie ton réseau."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "action": "Retour à l'accueil"
+  }
+}

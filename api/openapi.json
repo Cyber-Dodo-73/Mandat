@@ -1,0 +1,59 @@
+{
+  "openapi" : "3.1.0",
+  "info" : {
+    "title" : "MANDAT API",
+    "version" : "v1"
+  },
+  "tags" : [ {
+    "description" : "Connectivity and server time",
+    "name" : "Meta"
+  } ],
+  "paths" : {
+    "/api/v1/meta" : {
+      "get" : {
+        "operationId" : "getMeta",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/MetaResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "summary" : "API name, version and authoritative server time",
+        "tags" : [ "Meta" ]
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "MetaResponse" : {
+        "type" : "object",
+        "properties" : {
+          "apiVersion" : {
+            "type" : "string"
+          },
+          "appName" : {
+            "type" : "string"
+          },
+          "serverTime" : {
+            "type" : "string",
+            "format" : "date-time"
+          }
+        },
+        "required" : [ "apiVersion", "appName", "serverTime" ]
+      }
+    },
+    "securitySchemes" : {
+      "bearerAuth" : {
+        "bearerFormat" : "JWT",
+        "scheme" : "bearer",
+        "type" : "http"
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+spring:
+  application:
+    name: mandat-api
+  threads:
+    virtual:
+      enabled: true
+  lifecycle:
+    timeout-per-shutdown-phase: 20s
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/mandat}
+    username: ${DATABASE_USERNAME:mandat}
+    password: ${DATABASE_PASSWORD:mandat}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+  mvc:
+    problemdetails:
+      enabled: true
+
+server:
+  port: ${PORT:8080}
+  shutdown: graceful
+  error:
+    include-message: never
+    include-stacktrace: never
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  info:
+    env:
+      enabled: false
+
+logging:
+  structured:
+    format:
+      console: ecs
+
+springdoc:
+  api-docs:
+    enabled: ${MANDAT_API_DOCS_ENABLED:true}
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: ${MANDAT_API_DOCS_ENABLED:true}
+    path: /swagger-ui.html
+  paths-to-match: /api/**
+  default-produces-media-type: application/json
+  writer-with-default-pretty-printer: true
+  writer-with-order-by-keys: true
+
+mandat:
+  app-name: MANDAT
+  api-version: v1
+  cors:
+    allowed-origins: ${MANDAT_CORS_ALLOWED_ORIGINS:}
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+logging:
+  structured:
+    format:
+      console: ""

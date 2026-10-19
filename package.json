@@ -1,0 +1,11 @@
+{
+  "name": "mandat",
+  "private": true,
+  "scripts": {
+    "mobile": "npm --prefix mobile run start",
+    "api": "cd api && ./gradlew bootRun",
+    "api:test": "cd api && ./gradlew test",
+    "api:spec": "cd api && ./gradlew exportOpenApi",
+    "check:i18n": "npm --prefix mobile run check:i18n"
+  }
+}

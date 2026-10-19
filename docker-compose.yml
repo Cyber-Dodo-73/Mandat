@@ -1,0 +1,38 @@
+name: mandat
+
+services:
+  postgres:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-mandat}
+      POSTGRES_USER: ${POSTGRES_USER:-mandat}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-mandat}
+    volumes:
+      - postgres-data:/var/lib/postgresql
+    ports:
+      - "127.0.0.1:5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: ./api
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE:-prod}
+      DATABASE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-mandat}
+      DATABASE_USERNAME: ${POSTGRES_USER:-mandat}
+      DATABASE_PASSWORD: ${POSTGRES_PASSWORD:-mandat}
+      MANDAT_CORS_ALLOWED_ORIGINS: ${MANDAT_CORS_ALLOWED_ORIGINS:-}
+      MANDAT_API_DOCS_ENABLED: ${MANDAT_API_DOCS_ENABLED:-true}
+    ports:
+      - "8080:8080"
+
+volumes:
+  postgres-data:
