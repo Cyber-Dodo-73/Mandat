@@ -211,11 +211,20 @@ export function ProfileScreen() {
         </View>
       </View>
 
+      {/* Two by two, full-width cells: labels never truncate. */}
       <View style={styles.actions}>
-        <Button3D label={t('profile.actions.editShowcase')} icon="albums-outline" variant="secondary" size="sm" disabled={!online} onPress={() => setCardPicker('showcase')} />
-        <Button3D label={t('profile.actions.copyCode')} icon="copy-outline" variant="secondary" size="sm" onPress={() => void onCopy()} />
-        <Button3D label={t('profile.actions.shareLink')} icon="link-outline" variant="secondary" size="sm" onPress={() => void shareFriendLink(profile.friendCode, t('profile.actions.shareMessage', { nickname: profile.nickname }))} />
-        <Button3D label={t('profile.actions.shareImage')} icon="share-outline" variant="primary" size="sm" onPress={() => void onShareImage()} />
+        <View style={styles.actionCell}>
+          <Button3D label={t('profile.actions.editShowcase')} icon="albums" variant="secondary" size="sm" fullWidth disabled={!online} onPress={() => setCardPicker('showcase')} />
+        </View>
+        <View style={styles.actionCell}>
+          <Button3D label={t('profile.actions.copyCode')} icon="copy" variant="secondary" size="sm" fullWidth onPress={() => void onCopy()} />
+        </View>
+        <View style={styles.actionCell}>
+          <Button3D label={t('profile.actions.shareLink')} icon="person-add" variant="brand" size="sm" fullWidth onPress={() => void shareFriendLink(profile.friendCode, t('profile.actions.shareMessage', { nickname: profile.nickname }))} />
+        </View>
+        <View style={styles.actionCell}>
+          <Button3D label={t('profile.actions.shareImage')} icon="share-social" variant="primary" size="sm" fullWidth onPress={() => void onShareImage()} />
+        </View>
       </View>
 
       {notice ? (
@@ -327,6 +336,7 @@ const styles = StyleSheet.create({
   section: { gap: spacing.sm },
   sectionHead: { flexDirection: 'row', alignItems: 'baseline', justifyContent: 'space-between' },
   actions: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.xs },
+  actionCell: { flexBasis: '48%', flexGrow: 1 },
   privacy: {
     flexDirection: 'row',
     alignItems: 'center',

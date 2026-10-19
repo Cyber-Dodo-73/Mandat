@@ -7,7 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { BOOSTER_RATIO, useDeviceTilt } from '@/components/pack';
 import { OfflineNotice } from '@/components/navigation/OfflineNotice';
-import { Body, Button3D, Heading, PressableScale, Text } from '@/components/ui';
+import { Body, Button3D, Caption, GameBackground, Heading, PressableScale, Text } from '@/components/ui';
 import { seasonNumber } from '@/data/catalog';
 import { useFtueAnchor } from '@/features/ftue';
 import { FreePackTimer } from '@/features/packs/FreePackTimer';
@@ -17,11 +17,12 @@ import { usePacksQuery } from '@/features/packs/queries';
 import type { PackSummary } from '@/features/packs/types';
 import { useProgressionQuery } from '@/features/player/queries';
 import { FigureOfTheDay } from '@/features/progression/FigureOfTheDay';
+import { useCountdown } from '@/hooks/useCountdown';
 import { useIsOnline } from '@/hooks/useIsOnline';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
-import { useTranslation } from '@/i18n';
+import { formatCountdown, useTranslation } from '@/i18n';
 import { errorMessageKey } from '@/lib/api';
-import { spacing, useTheme } from '@/theme';
+import { rarityStyles, spacing, useTheme } from '@/theme';
 import { packPalettes } from '@/theme/packs';
 
 import { toHubProgress, TopBar } from './TopBar';
@@ -31,7 +32,7 @@ export function HomeScreen() {
   const { t } = useTranslation();
   const { colors } = useTheme();
   const insets = useSafeAreaInsets();
-  const { width, height } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const reduceMotion = useReduceMotion();
   const tilt = useDeviceTilt(!reduceMotion);
   const packs = usePacksQuery();
@@ -42,8 +43,11 @@ export function HomeScreen() {
   const [stage, setStage] = useState({ width: 0, height: 0 });
   const openAnchor = useFtueAnchor('home.open');
 
-  const packWidth = Math.round(Math.min(width * 0.56, (height * 0.4) / BOOSTER_RATIO, 240));
+  // The booster is sized from the space actually left between the figure row and the panel,
+  // so it never overlaps them, from iPhone SE to Pro Max (room kept for the tilt and the float).
+  const packWidth = Math.floor(Math.min(width * 0.58, (stage.height * 0.84) / BOOSTER_RATIO, 250));
   const data = packs.data;
+  const secondsLeft = useCountdown(data?.freePacks.nextFreePackAt ?? null);
   const active = data?.packs[activeIndex];
   // Free stock first, then bonus boosters won as rewards: the server applies the same order.
   const packsLeft = (data?.freePacks.stock ?? 0) + (data?.bonusPacks ?? 0);
@@ -56,6 +60,7 @@ export function HomeScreen() {
 
   return (
     <View style={[styles.root, { backgroundColor: colors.background, paddingTop: insets.top + spacing.xs }]}>
+      <GameBackground />
       <TopBar progress={toHubProgress(progression.data)} />
       <FigureOfTheDay timeZone={progression.data?.timezone} />
 
@@ -77,7 +82,7 @@ export function HomeScreen() {
           </Animated.View>
         ) : null}
 
-        {data ? (
+        {data && stage.height > 0 ? (
           <PackCarousel
             packs={data.packs}
             season={seasonNumber}
@@ -104,19 +109,46 @@ export function HomeScreen() {
           <Heading align="center">{t(`packs.names.${active.theme}`)}</Heading>
           <FreePackTimer state={data.freePacks} />
           {data.bonusPacks > 0 ? <Body tone="muted">{t('packs.bonusPacks', { count: data.bonusPacks })}</Body> : null}
+          <PityRow epicIn={data.pity.epicIn} legendaryIn={data.pity.legendaryIn} />
           {online ? null : <OfflineNotice />}
           <View style={styles.cta} ref={openAnchor}>
-            <Button3D
-              label={
-                active.unlocked ? t('packs.openButton') : t('packs.lockedLevel', { level: active.unlockLevel ?? 0 })
-              }
-              icon={active.unlocked ? 'flash' : 'lock-closed'}
-              size="lg"
-              fullWidth
-              disabled={!canOpen}
-              accessibilityHint={t('packs.openHint')}
-              onPress={() => open(active)}
-            />
+            {active.unlocked && packsLeft === 0 && online ? (
+              // No booster left: never a dead end. Something to play now, the timer stays visible.
+              <>
+                <Button3D
+                  label={t('home.noPack.quiz')}
+                  variant="brand"
+                  icon="help-circle"
+                  size="lg"
+                  fullWidth
+                  onPress={() => router.push('/quiz')}
+                />
+                <View style={styles.secondaryRow}>
+                  <Caption align="center" style={styles.flex}>
+                    {data.freePacks.nextFreePackAt
+                      ? t('packs.waitButton', { time: formatCountdown(secondsLeft) })
+                      : t('home.noPack.hint')}
+                  </Caption>
+                  <Button3D
+                    label={t('home.noPack.missions')}
+                    variant="secondary"
+                    size="sm"
+                    icon="checkmark-done-circle"
+                    onPress={() => router.navigate('/missions')}
+                  />
+                </View>
+              </>
+            ) : (
+              <Button3D
+                label={active.unlocked ? t('packs.openButton') : t('packs.lockedLevel', { level: active.unlockLevel ?? 0 })}
+                icon={active.unlocked ? 'flash' : 'lock-closed'}
+                size="lg"
+                fullWidth
+                disabled={!canOpen}
+                accessibilityHint={t('packs.openHint')}
+                onPress={() => open(active)}
+              />
+            )}
           </View>
           <PressableScale
             accessibilityRole="button"
@@ -135,12 +167,40 @@ export function HomeScreen() {
   );
 }
 
+/** Pity guarantees under the booster: how many boosters until an epic / a legendary is certain. */
+function PityRow({ epicIn, legendaryIn }: { epicIn: number; legendaryIn: number }) {
+  const { t } = useTranslation();
+  const { colors } = useTheme();
+  const epic = t('home.pity.epic', { count: epicIn });
+  const legendary = t('home.pity.legendary', { count: legendaryIn });
+  return (
+    <View accessible accessibilityLabel={t('home.pity.a11y', { epic, legendary })} style={styles.pityRow}>
+      {[
+        { label: epic, color: rarityStyles.epic.color },
+        { label: legendary, color: rarityStyles.legendary.color },
+      ].map((item) => (
+        <View key={item.label} style={[styles.pityChip, { backgroundColor: colors.surfaceRaised }]}>
+          <View style={[styles.gem, { backgroundColor: item.color }]} />
+          <Text variant="caption" numberOfLines={1}>
+            {item.label}
+          </Text>
+        </View>
+      ))}
+    </View>
+  );
+}
+
 const styles = StyleSheet.create({
   root: { flex: 1 },
-  stage: { flex: 1, justifyContent: 'center' },
+  pityRow: { flexDirection: 'row', gap: spacing.xs, justifyContent: 'center', flexWrap: 'wrap' },
+  pityChip: { flexDirection: 'row', alignItems: 'center', gap: 6, paddingHorizontal: spacing.sm, height: 28, borderRadius: 14 },
+  gem: { width: 9, height: 9, borderRadius: 2, transform: [{ rotate: '45deg' }] },
+  secondaryRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, marginTop: spacing.xs },
+  flex: { flex: 1 },
+  stage: { flex: 1, justifyContent: 'center', overflow: 'hidden' },
   centered: { alignItems: 'center', gap: spacing.md, paddingHorizontal: spacing.lg },
   panel: { alignItems: 'center', gap: spacing.sm, paddingHorizontal: spacing.lg, paddingBottom: spacing.md },
-  cta: { alignSelf: 'stretch', paddingHorizontal: spacing.lg },
+  cta: { alignSelf: 'stretch' },
   oddsLink: { paddingVertical: spacing.xxs },
   underline: { textDecorationLine: 'underline' },
 });

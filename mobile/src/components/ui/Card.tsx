@@ -17,7 +17,7 @@ export function Card({ children, style, raised = false, ...rest }: CardProps) {
       {...rest}
       style={[
         styles.card,
-        { backgroundColor: colors.surface, borderColor: colors.hairline },
+        { backgroundColor: colors.surface, borderColor: colors.border },
         raised ? [shadow, { shadowColor: colors.shadow }] : null,
         style,
       ]}
@@ -30,7 +30,8 @@ export function Card({ children, style, raised = false, ...rest }: CardProps) {
 const styles = StyleSheet.create({
   card: {
     borderRadius: radius,
-    borderWidth: StyleSheet.hairlineWidth * 2,
+    borderWidth: 0,
+    borderBottomWidth: 4,
     padding: spacing.md,
     gap: spacing.sm,
   },

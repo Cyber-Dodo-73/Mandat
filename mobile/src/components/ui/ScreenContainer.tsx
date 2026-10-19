@@ -4,6 +4,11 @@ import { useSafeAreaInsets, type Edge } from 'react-native-safe-area-context';
 
 import { spacing, useTheme } from '@/theme';
 
+import { GameBackground } from './GameBackground';
+
+/** Bottom room so the last content clears the raised centre tab button. */
+const TAB_CLEARANCE = 72;
+
 type ScreenContainerProps = {
   children: ReactNode;
   scroll?: boolean;
@@ -28,6 +33,7 @@ export function ScreenContainer({ children, scroll = true, edges = ['top'], cont
   };
   return (
     <View style={[styles.root, insetStyle, { backgroundColor: colors.background }]}>
+      <GameBackground />
       {scroll ? (
         <ScrollView
           contentContainerStyle={[styles.content, contentStyle]}
@@ -45,5 +51,5 @@ export function ScreenContainer({ children, scroll = true, edges = ['top'], cont
 const styles = StyleSheet.create({
   root: { flex: 1 },
   fill: { flex: 1 },
-  content: { padding: spacing.md, paddingBottom: spacing.xxl, gap: spacing.lg },
+  content: { padding: spacing.md, paddingBottom: TAB_CLEARANCE, gap: spacing.lg },
 });

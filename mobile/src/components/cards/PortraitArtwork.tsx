@@ -30,9 +30,8 @@ type PortraitArtworkProps = {
 };
 
 /**
- * Real portrait (Wikimedia Commons) printed like the rest of the card: a flag-colored wash,
- * engraved lines and a dark falloff for the text. Sensitive figures are shown in muted
- * grayscale, without any color treatment.
+ * Real portrait (Wikimedia Commons) printed like the rest of the card: a light flag-colored
+ * wash and a dark falloff for the text. Every figure gets the same treatment.
  */
 export const PortraitArtwork = memo(function PortraitArtwork({
   card,
@@ -44,7 +43,6 @@ export const PortraitArtwork = memo(function PortraitArtwork({
   engraved = false,
 }: PortraitArtworkProps) {
   const palette = flagPalette(card.country, card.continent);
-  const sober = card.sensitive;
 
   return (
     <View style={[styles.root, { width, height }]} pointerEvents="none">
@@ -59,13 +57,7 @@ export const PortraitArtwork = memo(function PortraitArtwork({
         accessible={false}
       />
 
-      {sober ? (
-        <>
-          {/* Grayscale, then flatten the contrast: no heroic lighting. */}
-          <View style={[StyleSheet.absoluteFill, styles.desaturate]} />
-          <View style={[StyleSheet.absoluteFill, styles.mute]} />
-        </>
-      ) : gold ? (
+      {gold ? (
         <View style={[StyleSheet.absoluteFill, styles.gold]} />
       ) : (
         <View style={[StyleSheet.absoluteFill, styles.tint, { backgroundColor: palette.primary }]} />
@@ -97,8 +89,6 @@ function Engraving({ card, width, height, fullBleed }: { card: Card; width: numb
 const styles = StyleSheet.create({
   // Blend modes below only mix with the photo, never with the card frame behind it.
   root: { overflow: 'hidden', isolation: 'isolate', backgroundColor: INK },
-  desaturate: { backgroundColor: '#808080', mixBlendMode: 'saturation' },
-  mute: { backgroundColor: 'rgba(11,15,26,0.28)' },
   gold: { backgroundColor: GOLD.base, mixBlendMode: 'color', opacity: 0.85 },
-  tint: { mixBlendMode: 'soft-light', opacity: 0.55 },
+  tint: { mixBlendMode: 'soft-light', opacity: 0.3 },
 });

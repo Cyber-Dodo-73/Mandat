@@ -23,7 +23,7 @@ export function MissionsScreen() {
         options={[
           { value: 'missions', label: t('missions.tab') },
           { value: 'achievements', label: t('achievements.title') },
-          { value: 'pass', label: t('seasonPass.title') },
+          { value: 'pass', label: t('seasonPass.tab') },
         ]}
       />
       {section === 'missions' ? <MissionsPanel /> : null}

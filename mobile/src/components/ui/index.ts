@@ -3,6 +3,7 @@ export { Button3D } from './Button3D';
 export type { Button3DProps, Button3DSize, Button3DVariant } from './Button3D';
 export { Card } from './Card';
 export { EmptyState } from './EmptyState';
+export { GameBackground } from './GameBackground';
 export { Icon } from './Icon';
 export type { IconName } from './Icon';
 export { PressableScale } from './PressableScale';

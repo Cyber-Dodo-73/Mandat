@@ -23,7 +23,7 @@ const result = {
   packId: 's1-standard',
   cards: [],
   influenceGained: 0,
-  pity: { packsSinceEpic: 1, packsSinceLegendary: 1 },
+  pity: { packsSinceEpic: 1, packsSinceLegendary: 1, epicIn: 9, legendaryIn: 39 },
   freePacks: { stock: 0, maxStock: 2, nextFreePackAt: null },
   bonusPacks: 0,
 };

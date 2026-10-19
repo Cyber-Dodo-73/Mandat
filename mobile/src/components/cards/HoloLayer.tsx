@@ -30,6 +30,8 @@ uniform float3 tint;
 uniform float lines;
 uniform float glitter;
 uniform float glint;
+uniform float4 art;
+uniform float artFactor;
 
 float hash(float2 p) {
   return fract(sin(dot(p, float2(127.1, 311.7))) * 43758.5453);
@@ -43,9 +45,10 @@ half4 main(float2 pos) {
   float3 rainbow = 0.5 + 0.5 * cos(6.28318 * (band + float3(0.0, 0.33, 0.67)));
   float3 color = mix(tint, rainbow, prism);
   float sheen = 0.5 + 0.5 * sin(band * 3.14159);
-  float foilLines = 0.5 + 0.5 * sin((uv.x - uv.y) * size.x * 0.8);
+  // Pattern scale follows the card, not the screen: a thumb shows the same foil as the hero.
+  float foilLines = 0.5 + 0.5 * sin((uv.x - uv.y) * 240.0);
 
-  float h = hash(floor(pos / 3.0));
+  float h = hash(floor(uv * float2(100.0, 140.0)));
   float twinkle = 0.5 + 0.5 * sin(h * 40.0 + tilt.x * 9.0 + tilt.y * 7.0);
   float spark = step(0.86, h) * pow(twinkle, 6.0);
   float cosmos = 0.5 + 0.5 * sin(uv.x * 23.0 + sin(uv.y * 17.0 + tilt.x * 2.0) * 2.0);
@@ -55,8 +58,13 @@ half4 main(float2 pos) {
     sweep = smoothstep(0.07, 0.0, abs((uv.x + uv.y) * 0.5 - glint));
   }
 
-  float alpha = intensity * (0.55 * spot + lines * 0.3 * sheen * foilLines + glitter * (0.9 * spark + 0.2 * cosmos * sheen) + 0.05);
-  alpha = clamp(alpha + sweep * 0.65, 0.0, 1.0);
+  // On the artwork the foil stays a light touch so the portrait reads clearly: only the moving
+  // light spot and sparse sparkles, no rainbow wash; the frame carries the full effect.
+  float inArt = step(art.x, uv.x) * step(uv.x, art.x + art.z) * step(art.y, uv.y) * step(uv.y, art.y + art.w);
+  float frameAlpha = intensity * (0.55 * spot + lines * 0.3 * sheen * foilLines + glitter * (0.9 * spark + 0.2 * cosmos * sheen) + 0.05);
+  float artAlpha = intensity * artFactor * (0.5 * spot * spot + glitter * 0.7 * spark);
+  float alpha = mix(frameAlpha, artAlpha, inArt);
+  alpha = clamp(alpha + sweep * mix(0.65, 0.3, inArt), 0.0, 1.0);
   color = mix(color, float3(1.0), clamp(spark * glitter * 0.6 + sweep * 0.5, 0.0, 1.0));
   return half4(color * alpha, alpha);
 }
@@ -80,7 +88,7 @@ const RARITY_FOIL: Partial<Record<Rarity, FoilStyle>> = {
   mythic: { intensity: 0.56, prism: 1, tint: [1, 1, 1], lines: 1, glitter: 0.35, glint: false },
 };
 
-const HOLO_FOIL: FoilStyle = { intensity: 0.5, prism: 0.95, tint: [0.9, 0.95, 1], lines: 0.35, glitter: 1, glint: false };
+const HOLO_FOIL: FoilStyle = { intensity: 0.5, prism: 0.9, tint: [0.9, 0.95, 1], lines: 0.35, glitter: 0.6, glint: false };
 const GOLD_FOIL: FoilStyle = { intensity: 0.42, prism: 0.08, tint: [1, 0.83, 0.42], lines: 0.5, glitter: 0.8, glint: true };
 
 /** Sensitive cards keep their finish, muted: silver, low intensity, no rainbow. */
@@ -110,11 +118,13 @@ type HoloLayerProps = {
   tilt?: DerivedValue<Tilt>;
   /** Runs the gold glint loop. Off for thumbnails. */
   animated: boolean;
+  /** Artwork window, where the foil is kept light so the portrait stays visible. */
+  art?: { x: number; y: number; width: number; height: number };
 };
 
 const STATIC_TILT: Tilt = { x: 0.35, y: -0.25 };
 
-export const HoloLayer = memo(function HoloLayer({ rarity, finish, sober, width, height, radius, tilt, animated }: HoloLayerProps) {
+export const HoloLayer = memo(function HoloLayer({ rarity, finish, sober, width, height, radius, tilt, animated, art }: HoloLayerProps) {
   const foil = foilStyle(rarity, finish, sober);
   const clip = useMemo(() => rrect(rect(0, 0, width, height), radius, radius), [width, height, radius]);
   const glint = useSharedValue(-2);
@@ -138,6 +148,9 @@ export const HoloLayer = memo(function HoloLayer({ rarity, finish, sober, width,
       lines: foil?.lines ?? 0,
       glitter: foil?.glitter ?? 0,
       glint: runsGlint ? glint.get() : -2,
+      art: art ? [art.x / width, art.y / height, art.width / width, art.height / height] : [0, 0, 0, 0],
+      // Holo and mythic prisms are the strongest: keep them lightest over the photo.
+      artFactor: finish === 'holo' || rarity === 'mythic' ? 0.28 : 0.4,
     };
   });
 

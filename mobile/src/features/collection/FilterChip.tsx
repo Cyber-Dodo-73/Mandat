@@ -12,7 +12,7 @@ type FilterChipProps = {
   dotColor?: string;
 };
 
-/** Toggleable chip of the filter sheet: filled with the accent when active. */
+/** Toggleable chunky chip of the filter sheet: filled with the brand blue when active. */
 export function FilterChip({ label, selected, onToggle, dotColor }: FilterChipProps) {
   const { colors } = useTheme();
   return (
@@ -27,12 +27,12 @@ export function FilterChip({ label, selected, onToggle, dotColor }: FilterChipPr
       style={[
         styles.chip,
         selected
-          ? { backgroundColor: colors.accent, borderColor: colors.accent }
-          : { backgroundColor: colors.surfaceRaised, borderColor: colors.border },
+          ? { backgroundColor: colors.brand, borderBottomColor: colors.brandEdge }
+          : { backgroundColor: colors.surfaceRaised, borderBottomColor: colors.neutralButtonEdge },
       ]}
     >
-      {dotColor ? <View style={[styles.dot, { backgroundColor: dotColor }]} /> : null}
-      <Text variant="label" color={selected ? colors.onAccent : colors.text} numberOfLines={1}>
+      {dotColor ? <View style={[styles.gem, { backgroundColor: dotColor }]} /> : null}
+      <Text variant="label" color={selected ? colors.onBrand : colors.text} numberOfLines={1}>
         {label}
       </Text>
     </PressableScale>
@@ -44,10 +44,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: spacing.xxs,
-    paddingHorizontal: spacing.sm,
-    paddingVertical: spacing.xs,
+    minHeight: 44,
+    paddingHorizontal: spacing.md,
     borderRadius: radius,
-    borderWidth: 1,
+    borderBottomWidth: 4,
   },
-  dot: { width: 8, height: 8, borderRadius: 4 },
+  gem: { width: 10, height: 10, borderRadius: 2, transform: [{ rotate: '45deg' }] },
 });

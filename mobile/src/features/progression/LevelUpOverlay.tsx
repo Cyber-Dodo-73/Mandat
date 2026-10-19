@@ -1,9 +1,8 @@
 import { Canvas, Group, Path, Skia, vec } from '@shopify/react-native-skia';
 import { useEffect, useMemo } from 'react';
-import { Pressable, StyleSheet, useWindowDimensions, View } from 'react-native';
+import { Modal, StyleSheet, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Animated, {
-  FadeIn,
-  FadeOut,
   useAnimatedStyle,
   useDerivedValue,
   useSharedValue,
@@ -14,7 +13,7 @@ import Animated, {
   Easing,
 } from 'react-native-reanimated';
 
-import { Body, Button3D, Text, Title } from '@/components/ui';
+import { Body, Button3D, GameBackground, Text, Title } from '@/components/ui';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
 import { haptics } from '@/lib/haptics';
@@ -42,15 +41,21 @@ function raysPath(radius: number) {
 
 type LevelUpOverlayProps = { level: number; rewards: Reward | null; onDone: () => void };
 
-/** Full-screen level-up moment: rays, the new level popping in, the rewards it brought. */
+const BADGE = 132;
+const RAYS_SIZE = BADGE * 2.6;
+
+/**
+ * Full-screen level-up moment, in a native modal so it sits above everything (tab bar included)
+ * on an opaque ground: rays behind the number only, the rewards, one button.
+ */
 export function LevelUpOverlay({ level, rewards, onDone }: LevelUpOverlayProps) {
   const { t } = useTranslation();
   const { colors } = useTheme();
   const reduceMotion = useReduceMotion();
-  const { width, height } = useWindowDimensions();
-  const rays = useMemo(() => raysPath(Math.max(width, height)), [width, height]);
+  const insets = useSafeAreaInsets();
+  const rays = useMemo(() => raysPath(RAYS_SIZE / 2), []);
   const spin = useSharedValue(0);
-  const pop = useSharedValue(reduceMotion ? 1 : 0.4);
+  const pop = useSharedValue(reduceMotion ? 1 : 0);
 
   useEffect(() => {
     haptics.levelUp();
@@ -61,69 +66,57 @@ export function LevelUpOverlay({ level, rewards, onDone }: LevelUpOverlayProps) 
   }, [pop, reduceMotion, spin]);
 
   const raysTransform = useDerivedValue(() => [{ rotate: spin.get() }]);
-  const badgeStyle = useAnimatedStyle(() => ({ transform: [{ scale: pop.get() }] }));
+  // Opacity + a small rise: no scale-up from tiny (keeps the text crisp from the first frame).
+  const badgeStyle = useAnimatedStyle(() => ({ opacity: pop.get(), transform: [{ translateY: (1 - pop.get()) * 24 }] }));
 
   return (
-    <Animated.View
-      entering={FadeIn.duration(reduceMotion ? 0 : 220)}
-      exiting={FadeOut.duration(reduceMotion ? 0 : 200)}
-      style={[StyleSheet.absoluteFill, { backgroundColor: colors.overlay }]}
-      accessibilityViewIsModal
-    >
-      <Pressable style={StyleSheet.absoluteFill} onPress={onDone} accessibilityRole="button" accessibilityLabel={t('progression.levelUp.continue')}>
-        <Canvas style={StyleSheet.absoluteFill} pointerEvents="none">
-          <Group transform={[{ translateX: width / 2 }, { translateY: height * 0.4 }]}>
-            <Group origin={vec(0, 0)} transform={raysTransform}>
-              <Path path={rays} color={colors.accent} opacity={0.18} />
-            </Group>
-          </Group>
-        </Canvas>
-      </Pressable>
-
-      <View style={styles.content} pointerEvents="box-none">
-        <Text variant="label" tone="accent" style={styles.kicker}>
-          {t('progression.levelUp.kicker')}
-        </Text>
-        <Animated.View style={[styles.badge, { backgroundColor: colors.accent, borderColor: colors.accentEdge }, badgeStyle]}>
-          <Text variant="display" color={colors.onAccent} allowFontScaling={false} style={styles.level}>
-            {level}
-          </Text>
-        </Animated.View>
-        <Title align="center">{t('progression.levelUp.title', { level })}</Title>
-        {rewards ? (
-          <View style={styles.rewards}>
-            <Body tone="muted" align="center">
-              {t('progression.levelUp.rewards')}
-            </Body>
-            <RewardChips reward={rewards} />
+    <Modal visible transparent animationType={reduceMotion ? 'none' : 'fade'} statusBarTranslucent onRequestClose={onDone}>
+      <View style={[styles.root, { backgroundColor: colors.background, paddingTop: insets.top + spacing.xl, paddingBottom: insets.bottom + spacing.lg }]} accessibilityViewIsModal>
+        <GameBackground />
+        <View style={styles.center}>
+          <View style={styles.hero}>
+            <Canvas style={styles.rays} pointerEvents="none">
+              <Group transform={[{ translateX: RAYS_SIZE / 2 }, { translateY: RAYS_SIZE / 2 }]}>
+                <Group origin={vec(0, 0)} transform={raysTransform}>
+                  <Path path={rays} color={colors.gold} opacity={0.28} />
+                </Group>
+              </Group>
+            </Canvas>
+            <Animated.View style={[styles.badge, { backgroundColor: colors.brand, borderColor: colors.brandEdge }, badgeStyle]}>
+              <Text variant="display" color={colors.onBrand} allowFontScaling={false} style={styles.level}>
+                {level}
+              </Text>
+            </Animated.View>
           </View>
-        ) : null}
-        <Button3D label={t('progression.levelUp.continue')} onPress={onDone} fullWidth />
+          <Title align="center">{t('progression.levelUp.title', { level })}</Title>
+          {rewards ? (
+            <View style={styles.rewards}>
+              <Body tone="muted" align="center">
+                {t('progression.levelUp.rewards')}
+              </Body>
+              <RewardChips reward={rewards} />
+            </View>
+          ) : null}
+        </View>
+        <Button3D label={t('progression.levelUp.continue')} onPress={onDone} fullWidth size="lg" />
       </View>
-    </Animated.View>
+    </Modal>
   );
 }
 
-const BADGE = 132;
-
 const styles = StyleSheet.create({
-  content: {
-    position: 'absolute',
-    left: spacing.lg,
-    right: spacing.lg,
-    top: '24%',
-    alignItems: 'center',
-    gap: spacing.md,
-  },
-  kicker: { textTransform: 'uppercase', letterSpacing: 2 },
+  root: { flex: 1, paddingHorizontal: spacing.lg, justifyContent: 'space-between' },
+  center: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: spacing.lg },
+  hero: { width: RAYS_SIZE, height: RAYS_SIZE, alignItems: 'center', justifyContent: 'center', marginVertical: -spacing.xl },
+  rays: { position: 'absolute', width: RAYS_SIZE, height: RAYS_SIZE },
   badge: {
     width: BADGE,
     height: BADGE,
     borderRadius: BADGE / 2,
-    borderBottomWidth: 6,
+    borderBottomWidth: 8,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  level: { fontSize: 56, lineHeight: 62 },
+  level: { fontSize: 60, lineHeight: 66 },
   rewards: { alignItems: 'center', gap: spacing.xs },
 });

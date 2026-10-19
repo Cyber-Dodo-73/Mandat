@@ -55,7 +55,8 @@ export const TradingCard = memo(function TradingCard({
   const metrics = cardMetrics(size, width);
   const reduceMotion = useReduceMotion();
   const isLarge = metrics.detail === 'full';
-  const sober = card.sensitive;
+  // Sensitive figures display like every other card (user decision); only their reveal stays sober.
+  const sober = false;
   const { gesture, style: tiltStyle, tilt } = useTilt({
     width: metrics.width,
     pan: interactive ?? isLarge,
@@ -107,6 +108,7 @@ export const TradingCard = memo(function TradingCard({
           radius={metrics.radius}
           tilt={live ? tilt : undefined}
           animated={live}
+          art={layout.art}
         />
         <TextLayer card={card} finish={finish} layout={layout} text={text} />
       </Animated.View>
@@ -130,12 +132,12 @@ function boxStyle(box: Box): ViewStyle {
 type LayerProps = { card: Card; finish: CardFinish; layout: CardLayout };
 
 function ArtLayer({ card, finish, layout, metrics, name }: LayerProps & { metrics: CardMetrics; name: string }) {
-  const { art, innerRadius, shows } = layout;
+  const { art, innerRadius } = layout;
   const fullArt = finish === 'full_art';
   return (
     <View
       pointerEvents="none"
-      style={[boxStyle(art), { borderRadius: fullArt ? Math.max(2, metrics.radius - 2) : innerRadius, overflow: 'hidden' }]}
+      style={[boxStyle(art), { borderRadius: fullArt ? Math.max(1, metrics.radius - layout.stroke * 2) : innerRadius, overflow: 'hidden' }]}
     >
       <CardArtwork
         card={card}
@@ -144,18 +146,17 @@ function ArtLayer({ card, finish, layout, metrics, name }: LayerProps & { metric
         height={art.height}
         fullBleed={fullArt}
         gold={finish === 'gold'}
-        engraved={metrics.detail === 'full'}
+        engraved={false}
       />
-      {shows.flag || shows.lifespan ? <ArtChips card={card} layout={layout} /> : null}
+      <ArtChips card={card} layout={layout} />
     </View>
   );
 }
 
-/** Flag stripes and life span, each on its own small plate in the artwork corner. */
+/** The real flag and the life span, each on its own small plate in the artwork corner. */
 function ArtChips({ card, layout }: { card: Card; layout: CardLayout }) {
   const text = useCardText(card);
-  const { type, platePadding } = layout;
-  const chipHeight = Math.round(type.number * 1.7);
+  const { chipHeight, platePadding, type } = layout;
   const inset = platePadding * 0.75;
   return (
     <View style={[styles.chips, { top: inset, left: inset, right: inset }]}>
@@ -164,7 +165,7 @@ function ArtChips({ card, layout }: { card: Card; layout: CardLayout }) {
       </View>
       {text.lifespan ? (
         <View style={[styles.chip, { height: chipHeight, borderRadius: chipHeight / 2, paddingHorizontal: chipHeight * 0.45 }]}>
-          <Text allowFontScaling={false} style={[styles.chipText, TABULAR, { fontSize: type.number }]}>
+          <Text allowFontScaling={false} numberOfLines={1} style={[styles.chipText, TABULAR, { fontSize: type.number }]}>
             {text.lifespan}
           </Text>
         </View>
@@ -174,73 +175,88 @@ function ArtChips({ card, layout }: { card: Card; layout: CardLayout }) {
 }
 
 function TextLayer({ card, finish, layout, text }: LayerProps & { text: CardText }) {
-  const { header, body, footer, platePadding, innerRadius, type, shows } = layout;
+  const { header, body, footer, platePadding, innerRadius, type, stroke, lowDetail } = layout;
   const accent = accentColor(card, finish);
   const fullArt = finish === 'full_art';
   const plate: ViewStyle = {
     backgroundColor: fullArt ? PLATE_STRONG : PLATE,
     borderColor: `${accent}66`,
     borderRadius: innerRadius,
-    borderWidth: StyleSheet.hairlineWidth,
+    borderWidth: stroke,
   };
   const ownPlate = fullArt ? null : plate;
+  const gap = platePadding * 0.6;
+  const roleLine = type.role * 1.3;
+  const abilityNameLine = type.abilityName * 1.3;
+  const abilityTextLine = type.abilityText * 1.3;
+  const bar = (heightValue: number, widthShare: number, color: string) => (
+    <View style={{ height: heightValue * 0.55, marginVertical: heightValue * 0.225, width: `${widthShare * 100}%`, borderRadius: heightValue, backgroundColor: color }} />
+  );
 
   return (
     <View pointerEvents="none" style={StyleSheet.absoluteFill}>
-      {fullArt && header ? (
+      {fullArt ? (
         // Full art: one continuous band from the name down to the footer.
-        <View style={[plate, boxStyle({ ...header, height: footer.y + footer.height + platePadding / 2 - header.y })]} />
+        <View style={[plate, boxStyle({ ...header, height: footer.y + footer.height - header.y })]} />
       ) : null}
-      {header ? (
-        <View style={[ownPlate, boxStyle(header), styles.headerContent, { paddingHorizontal: platePadding }]}>
-          <Text
-            allowFontScaling={false}
-            numberOfLines={1}
-            adjustsFontSizeToFit
-            minimumFontScale={0.75}
-            style={[styles.name, { fontSize: type.name, lineHeight: type.nameLine }]}
-          >
-            {text.name}
-          </Text>
-        </View>
-      ) : null}
-      {body ? (
-        <View style={[ownPlate, boxStyle(body), { padding: platePadding, gap: platePadding * 0.6 }]}>
-          <Text allowFontScaling={false} numberOfLines={1} style={[styles.role, { fontSize: type.role, lineHeight: type.role * 1.3 }]}>
+      <View style={[ownPlate, boxStyle(header), styles.headerContent, { paddingHorizontal: platePadding }]}>
+        <Text
+          allowFontScaling={false}
+          numberOfLines={1}
+          adjustsFontSizeToFit
+          minimumFontScale={0.7}
+          style={[styles.name, { fontSize: type.name, lineHeight: type.nameLine }]}
+        >
+          {text.name}
+        </Text>
+      </View>
+      <View style={[ownPlate, boxStyle(body), { padding: platePadding, gap }]}>
+        {lowDetail ? (
+          bar(roleLine, 0.7, 'rgba(244, 241, 234, 0.35)')
+        ) : (
+          <Text allowFontScaling={false} numberOfLines={1} style={[styles.role, { fontSize: type.role, lineHeight: roleLine }]}>
             {text.role}
           </Text>
-          <Stats card={card} layout={layout} accent={accent} />
+        )}
+        <Stats card={card} layout={layout} accent={accent} />
+        {lowDetail ? (
+          <View>
+            {bar(abilityNameLine, 0.5, `${accent}AA`)}
+            {bar(abilityTextLine, 0.9, 'rgba(244, 241, 234, 0.25)')}
+            {bar(abilityTextLine, 0.6, 'rgba(244, 241, 234, 0.25)')}
+          </View>
+        ) : (
           <View>
             <Text
               allowFontScaling={false}
               numberOfLines={1}
-              style={[styles.abilityName, { fontSize: type.abilityName, lineHeight: type.abilityName * 1.3, color: accent }]}
+              style={[styles.abilityName, { fontSize: type.abilityName, lineHeight: abilityNameLine, color: accent }]}
             >
               {text.abilityName}
             </Text>
             <Text
               allowFontScaling={false}
               numberOfLines={2}
-              style={[styles.abilityText, { fontSize: type.abilityText, lineHeight: type.abilityText * 1.3 }]}
+              style={[styles.abilityText, { fontSize: type.abilityText, lineHeight: abilityTextLine }]}
             >
               {text.abilityDescription}
             </Text>
           </View>
-        </View>
-      ) : null}
-      <Footer card={card} finish={finish} layout={layout} plated={!fullArt && shows.name} />
+        )}
+      </View>
+      <Footer card={card} finish={finish} layout={layout} plated={!fullArt} />
     </View>
   );
 }
 
 function Stats({ card, layout, accent }: { card: Card; layout: CardLayout; accent: string }) {
   const { t } = useTranslation();
-  const { type, platePadding, innerRadius } = layout;
+  const { type, platePadding, innerRadius, stroke } = layout;
   return (
     <View
       style={[
         styles.stats,
-        { borderColor: `${accent}55`, borderRadius: Math.max(2, innerRadius * 0.7), paddingVertical: platePadding * 0.5 },
+        { borderColor: `${accent}55`, borderWidth: stroke, borderRadius: innerRadius * 0.7, paddingVertical: platePadding * 0.5 },
       ]}
     >
       {STAT_KEYS.map((key) => (
@@ -251,7 +267,11 @@ function Stats({ card, layout, accent }: { card: Card; layout: CardLayout; accen
           >
             {card.stats[key]}
           </Text>
-          <Text allowFontScaling={false} numberOfLines={1} style={[styles.statLabel, { fontSize: type.statLabel }]}>
+          <Text
+            allowFontScaling={false}
+            numberOfLines={1}
+            style={[styles.statLabel, { fontSize: type.statLabel, lineHeight: type.statLabel * 1.3 }]}
+          >
             {t(`cards.statsShort.${key}`)}
           </Text>
         </View>
@@ -262,32 +282,31 @@ function Stats({ card, layout, accent }: { card: Card; layout: CardLayout; accen
 
 function Footer({ card, finish, layout, plated }: { card: Card; finish: CardFinish; layout: CardLayout; plated: boolean }) {
   const { t } = useTranslation();
-  const { footer, type, shows, platePadding, innerRadius } = layout;
-  const pip = Math.max(4, Math.round(footer.height * 0.4));
+  const { footer, type, platePadding, innerRadius } = layout;
+  const pip = footer.height * 0.42;
   return (
     <View
       style={[
         boxStyle(footer),
         styles.footer,
-        { paddingHorizontal: plated ? platePadding : platePadding / 2 },
+        { paddingHorizontal: platePadding },
         plated ? { backgroundColor: PLATE, borderRadius: innerRadius } : null,
       ]}
     >
       <RarityPips rarity={card.rarity} size={pip} />
-      <View style={styles.footerRight}>
-        {shows.finishLabel ? (
+      <View style={[styles.footerRight, { gap: platePadding * 0.75 }]}>
+        {finish !== 'standard' ? (
           <Text
             allowFontScaling={false}
+            numberOfLines={1}
             style={[styles.finish, { fontSize: type.number, color: finish === 'gold' ? GOLD.base : CARD_PAPER }]}
           >
             {t(`cards.finish.${finish}`)}
           </Text>
         ) : null}
-        {shows.number ? (
-          <Text allowFontScaling={false} style={[styles.number, TABULAR, { fontSize: type.number }]}>
-            {formatCollectorNumber(card.number, seasonSize)}
-          </Text>
-        ) : null}
+        <Text allowFontScaling={false} numberOfLines={1} style={[styles.number, TABULAR, { fontSize: type.number }]}>
+          {formatCollectorNumber(card.number, seasonSize)}
+        </Text>
       </View>
     </View>
   );
@@ -300,14 +319,14 @@ const styles = StyleSheet.create({
   chip: { backgroundColor: PLATE, flexDirection: 'row', alignItems: 'center', justifyContent: 'center' },
   chipText: { fontFamily: fontFamilies.bodyBold, color: CARD_PAPER },
   role: { fontFamily: fontFamilies.bodySemiBold, color: CARD_PAPER, opacity: 0.86 },
-  stats: { flexDirection: 'row', borderWidth: 1 },
+  stats: { flexDirection: 'row' },
   stat: { flex: 1, alignItems: 'center' },
   statValue: { fontFamily: fontFamilies.displayHeavy, color: CARD_PAPER },
   statLabel: { fontFamily: fontFamilies.bodyBold, color: CARD_MUTED, letterSpacing: 0.4 },
   abilityName: { fontFamily: fontFamilies.bodyBold },
   abilityText: { fontFamily: fontFamilies.bodyMedium, color: CARD_PAPER, opacity: 0.82 },
   footer: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
-  footerRight: { flexDirection: 'row', alignItems: 'center', gap: 6 },
+  footerRight: { flexDirection: 'row', alignItems: 'center' },
   finish: { fontFamily: fontFamilies.bodyBold, letterSpacing: 0.3 },
   number: { fontFamily: fontFamilies.bodySemiBold, color: CARD_MUTED, letterSpacing: 0.3 },
 });

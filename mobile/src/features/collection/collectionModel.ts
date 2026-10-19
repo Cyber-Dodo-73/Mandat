@@ -25,7 +25,7 @@ export type CollectionEntry = {
 };
 
 export type Ownership = 'all' | 'owned' | 'missing';
-export type SortKey = 'number' | 'rarity' | 'obtained';
+export type SortKey = 'owned' | 'number' | 'rarity' | 'obtained';
 
 export type CollectionFilters = {
   rarities: readonly Rarity[];
@@ -109,13 +109,17 @@ export function filterEntries(
 }
 
 /**
- * Collector number ascending; rarity from mythic down; obtained = newest first, missing cards last.
- * Every order falls back to the collector number so it stays stable.
+ * Owned first (the default: the collection opens on what you have); collector number ascending;
+ * rarity from mythic down; obtained = newest first, missing cards last. Every order falls back
+ * to the collector number so it stays stable.
  */
 export function sortEntries(entries: readonly CollectionEntry[], sort: SortKey): CollectionEntry[] {
   const byNumber = (a: CollectionEntry, b: CollectionEntry) => a.card.number - b.card.number;
   const sorted = [...entries];
   if (sort === 'number') return sorted.sort(byNumber);
+  if (sort === 'owned') {
+    return sorted.sort((a, b) => Number(b.firstObtainedAt !== null) - Number(a.firstObtainedAt !== null) || byNumber(a, b));
+  }
   if (sort === 'rarity') {
     return sorted.sort(
       (a, b) => RARITIES.indexOf(b.card.rarity) - RARITIES.indexOf(a.card.rarity) || byNumber(a, b),

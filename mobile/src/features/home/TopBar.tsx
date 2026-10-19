@@ -3,12 +3,14 @@ import { router } from 'expo-router';
 import { useMemo } from 'react';
 import { StyleSheet, View } from 'react-native';
 
+import { CosmeticEmblem } from '@/components/profile/CosmeticEmblem';
 import { Icon, PressableScale, Text } from '@/components/ui';
-import { formatNumber, useLanguage, useTranslation } from '@/i18n';
-import { fontFamilies, radius, spacing, useTheme } from '@/theme';
-
 import type { Progression } from '@/features/player/queries';
+import { DEFAULT_AVATAR } from '@/features/profile/cosmetics';
+import { useMyProfileQuery } from '@/features/profile/queries';
 import { StreakFlame } from '@/features/progression/StreakFlame';
+import { formatNumber, useLanguage, useTranslation } from '@/i18n';
+import { fontFamilies, spacing, useTheme } from '@/theme';
 
 /** What the hub shows of the player's progress (from `GET /progression`). */
 export type HubProgress = {
@@ -39,16 +41,20 @@ export function toHubProgress(progression: Progression | undefined): HubProgress
   };
 }
 
-const AVATAR = 46;
+const AVATAR = 44;
 const RING_WIDTH = 4;
+const PILL_HEIGHT = 38;
+const PILL_DEPTH = 3;
 
 type TopBarProps = { progress: HubProgress };
 
-/** Compact game HUD: level ring around the avatar, streak, Influence, settings. */
+/** Game HUD: avatar with its XP ring and level badge, streak and Influence counters, settings. */
 export function TopBar({ progress }: TopBarProps) {
   const { t } = useTranslation();
   const language = useLanguage();
   const { colors } = useTheme();
+  const profile = useMyProfileQuery();
+  const avatarId = profile.data?.profile.avatarId ?? DEFAULT_AVATAR;
   const ratio = Math.min(1, progress.xp / Math.max(1, progress.xpForNextLevel));
 
   return (
@@ -62,23 +68,22 @@ export function TopBar({ progress }: TopBarProps) {
         })}
         onPress={() => router.navigate('/profile')}
       >
-        <LevelRing ratio={ratio} track={colors.surfaceRaised} fill={colors.accent} />
-        <View style={[styles.avatar, { backgroundColor: colors.surface }]}>
-          <Icon name="person" size={22} tone="textMuted" />
+        <LevelRing ratio={ratio} track={colors.surfaceRaised} fill={colors.brand} />
+        <View style={styles.avatar}>
+          <CosmeticEmblem kind="avatar" id={avatarId} size={AVATAR} />
         </View>
-        <View style={[styles.levelPill, { backgroundColor: colors.accent }]}>
-          <Text allowFontScaling={false} style={[styles.levelText, { color: colors.onAccent }]}>
+        <View style={[styles.levelBadge, { backgroundColor: colors.brand, borderColor: colors.background }]}>
+          <Text allowFontScaling={false} style={[styles.levelText, { color: colors.onBrand }]}>
             {t('home.topBar.level', { level: progress.level })}
           </Text>
         </View>
       </PressableScale>
 
-      <StreakStat progress={progress} />
-      <Stat
-        icon="ribbon"
-        iconColor={colors.text}
-        value={formatNumber(progress.influence, language)}
+      <StreakPill progress={progress} />
+      <HudPill
         label={t('home.topBar.influenceA11y', { amount: progress.influence })}
+        icon={<Icon name="ribbon" size={20} color={colors.gold} />}
+        value={formatNumber(progress.influence, language)}
       />
 
       <View style={styles.spacer} />
@@ -86,10 +91,11 @@ export function TopBar({ progress }: TopBarProps) {
       <PressableScale
         accessibilityRole="button"
         accessibilityLabel={t('home.topBar.settings')}
-        hitSlop={12}
+        hitSlop={10}
         onPress={() => router.push('/settings')}
+        style={[styles.iconButton, { backgroundColor: colors.surfaceRaised, borderBottomColor: colors.neutralButtonEdge }]}
       >
-        <Icon name="settings-sharp" size={24} tone="textMuted" />
+        <Icon name="settings-sharp" size={22} tone="textMuted" />
       </PressableScale>
     </View>
   );
@@ -111,8 +117,8 @@ function LevelRing({ ratio, track, fill }: { ratio: number; track: string; fill:
   );
 }
 
-/** Flame growing with the streak; a check once today's activity is done, a snowflake for the freeze. */
-function StreakStat({ progress }: { progress: HubProgress }) {
+/** One counter: the flame grows with the streak and glows once today is done; the freeze is a corner badge. */
+function StreakPill({ progress }: { progress: HubProgress }) {
   const { t } = useTranslation();
   const language = useLanguage();
   const { colors } = useTheme();
@@ -124,27 +130,51 @@ function StreakStat({ progress }: { progress: HubProgress }) {
     .filter(Boolean)
     .join('. ');
   return (
-    <View accessible accessibilityLabel={label} style={[styles.stat, { backgroundColor: colors.surface }]}>
-      <StreakFlame streak={progress.streakDays} activeToday={progress.streakActiveToday} />
-      <Text variant="label" allowFontScaling={false}>
-        {formatNumber(progress.streakDays, language)}
-      </Text>
-      {progress.streakActiveToday ? <Icon name="checkmark-circle" size={14} tone="success" /> : null}
-      {progress.freezeAvailable ? <Icon name="snow" size={14} tone="textMuted" /> : null}
-    </View>
+    <HudPill
+      label={label}
+      glow={progress.streakActiveToday ? colors.flame : undefined}
+      icon={<StreakFlame streak={progress.streakDays} activeToday={progress.streakActiveToday} base={18} />}
+      value={formatNumber(progress.streakDays, language)}
+      corner={
+        progress.freezeAvailable ? (
+          <View style={[styles.corner, { backgroundColor: colors.brand, borderColor: colors.background }]}>
+            <Icon name="snow" size={10} color={colors.onBrand} />
+          </View>
+        ) : null
+      }
+    />
   );
 }
 
-type StatProps = { icon: 'ribbon'; iconColor: string; value: string; label: string };
+type HudPillProps = {
+  label: string;
+  icon: React.ReactNode;
+  value: string;
+  /** Colored rim when the counter is "on" (e.g. streak done today). */
+  glow?: string;
+  corner?: React.ReactNode;
+};
 
-function Stat({ icon, iconColor, value, label }: StatProps) {
+function HudPill({ label, icon, value, glow, corner }: HudPillProps) {
   const { colors } = useTheme();
   return (
-    <View accessible accessibilityLabel={label} style={[styles.stat, { backgroundColor: colors.surface }]}>
-      <Icon name={icon} size={18} color={iconColor} />
-      <Text variant="label" allowFontScaling={false}>
+    <View
+      accessible
+      accessibilityLabel={label}
+      style={[
+        styles.pill,
+        {
+          backgroundColor: colors.surfaceRaised,
+          borderBottomColor: colors.neutralButtonEdge,
+          borderColor: glow ?? 'transparent',
+        },
+      ]}
+    >
+      {icon}
+      <Text allowFontScaling={false} style={[styles.pillValue, { color: colors.text }]}>
         {value}
       </Text>
+      {corner}
     </View>
   );
 }
@@ -158,26 +188,48 @@ const styles = StyleSheet.create({
     width: AVATAR,
     height: AVATAR,
     borderRadius: AVATAR / 2,
-    alignItems: 'center',
-    justifyContent: 'center',
+    overflow: 'hidden',
   },
-  levelPill: {
+  levelBadge: {
     position: 'absolute',
     bottom: -6,
     alignSelf: 'center',
-    minWidth: 24,
+    minWidth: 26,
     paddingHorizontal: 6,
-    borderRadius: radius,
+    borderRadius: 12,
+    borderWidth: 2,
     alignItems: 'center',
   },
-  levelText: { fontFamily: fontFamilies.bodyBold, fontSize: 12, lineHeight: 16 },
-  stat: {
+  levelText: { fontFamily: fontFamilies.displayHeavy, fontSize: 12, lineHeight: 16 },
+  pill: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: spacing.xxs,
+    gap: 6,
+    height: PILL_HEIGHT,
     paddingHorizontal: spacing.sm,
-    height: 36,
-    borderRadius: radius,
+    borderRadius: PILL_HEIGHT / 2,
+    borderWidth: 1.5,
+    borderBottomWidth: PILL_DEPTH,
+  },
+  pillValue: { fontFamily: fontFamilies.displayHeavy, fontSize: 18, lineHeight: 22 },
+  corner: {
+    position: 'absolute',
+    top: -6,
+    right: -6,
+    width: 18,
+    height: 18,
+    borderRadius: 9,
+    borderWidth: 2,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconButton: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    borderBottomWidth: PILL_DEPTH,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   spacer: { flex: 1 },
 });

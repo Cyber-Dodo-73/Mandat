@@ -1,9 +1,9 @@
 import { ActivityIndicator, StyleSheet, View } from 'react-native';
 
-import { Body, Button3D, Caption, Heading, Sheet, Text } from '@/components/ui';
+import { Body, Button3D, Caption, Heading, ProgressBar, Sheet, Text } from '@/components/ui';
 import { formatPercent, useLanguage, useTranslation } from '@/i18n';
 import { errorMessageKey } from '@/lib/api';
-import { RARITIES, rarityStyles, spacing, useTheme } from '@/theme';
+import { radius, RARITIES, rarityStyles, spacing, useTheme } from '@/theme';
 
 import { usePackOddsQuery } from './queries';
 import type { FinishOdds, PackOdds, PityCounters, SlotOdds } from './types';
@@ -22,7 +22,12 @@ export function OddsSheet({ visible, onClose, packId, pity }: OddsSheetProps) {
   const odds = usePackOddsQuery(packId, visible);
 
   return (
-    <Sheet visible={visible} onClose={onClose} title={t('packs.oddsLink')}>
+    <Sheet
+      visible={visible}
+      onClose={onClose}
+      title={t('packs.oddsLink')}
+      footer={<Button3D label={t('common.close')} variant="secondary" fullWidth onPress={onClose} />}
+    >
       <Body tone="muted">{t('packs.odds.intro')}</Body>
       {odds.data ? (
         <OddsContent odds={odds.data} pity={pity} />
@@ -31,7 +36,6 @@ export function OddsSheet({ visible, onClose, packId, pity }: OddsSheetProps) {
       ) : (
         <ActivityIndicator color={colors.textMuted} />
       )}
-      <Button3D label={t('common.close')} variant="secondary" fullWidth onPress={onClose} />
     </Sheet>
   );
 }
@@ -45,23 +49,29 @@ function OddsContent({ odds, pity }: { odds: PackOdds; pity: PityCounters }) {
         <SlotGroup key={group.slots.join('-')} group={group} />
       ))}
       {odds.continentFallback ? <Caption>{t('packs.odds.continentFallback')}</Caption> : null}
-      <View style={[styles.divider, { backgroundColor: colors.border }]} />
-      <Heading>{t('packs.odds.finishesTitle')}</Heading>
-      {odds.finishes
-        .filter((finish) => finish.finish !== 'standard')
-        .map((finish) => (
-          <FinishRow key={finish.finish} odds={finish} />
-        ))}
-      <View style={[styles.divider, { backgroundColor: colors.border }]} />
-      <Heading>{t('packs.odds.pityTitle')}</Heading>
-      <PityRow
-        label={t('packs.odds.pityEpic', { count: odds.pity.epicEvery })}
-        value={t('packs.odds.pityProgress', { current: pity.packsSinceEpic, total: odds.pity.epicEvery })}
-      />
-      <PityRow
-        label={t('packs.odds.pityLegendary', { count: odds.pity.legendaryEvery })}
-        value={t('packs.odds.pityProgress', { current: pity.packsSinceLegendary, total: odds.pity.legendaryEvery })}
-      />
+      <View style={[styles.block, { backgroundColor: colors.surfaceRaised }]}>
+        <Heading>{t('packs.odds.finishesTitle')}</Heading>
+        {odds.finishes
+          .filter((finish) => finish.finish !== 'standard')
+          .map((finish) => (
+            <FinishRow key={finish.finish} odds={finish} />
+          ))}
+      </View>
+      <View style={[styles.block, { backgroundColor: colors.surfaceRaised }]}>
+        <Heading>{t('packs.odds.pityTitle')}</Heading>
+        <PityRow
+          label={t('packs.odds.pityEpic', { count: odds.pity.epicEvery })}
+          value={t('packs.odds.pityProgress', { current: pity.packsSinceEpic, total: odds.pity.epicEvery })}
+          progress={pity.packsSinceEpic / Math.max(1, odds.pity.epicEvery)}
+          color={rarityStyles.epic.color}
+        />
+        <PityRow
+          label={t('packs.odds.pityLegendary', { count: odds.pity.legendaryEvery })}
+          value={t('packs.odds.pityProgress', { current: pity.packsSinceLegendary, total: odds.pity.legendaryEvery })}
+          progress={pity.packsSinceLegendary / Math.max(1, odds.pity.legendaryEvery)}
+          color={rarityStyles.legendary.color}
+        />
+      </View>
     </>
   );
 }
@@ -79,7 +89,7 @@ function FinishRow({ odds }: { odds: FinishOdds }) {
         <Body>{t(`cards.finish.${odds.finish}`)}</Body>
         {conditions.length > 0 ? <Caption>{conditions.join(', ')}</Caption> : null}
       </View>
-      <Text variant="bodyStrong">{formatPercent(odds.rate, language)}</Text>
+      <Text variant="heading">{formatPercent(odds.rate, language)}</Text>
     </View>
   );
 }
@@ -94,35 +104,43 @@ function SlotGroup({ group }: { group: SlotOdds }) {
       ? t('packs.odds.slotsRange', { from: first, to: last })
       : t('packs.odds.slotSingle', { slot: first });
 
+  const { colors } = useTheme();
   return (
-    <View style={styles.group}>
-      <Text variant="label">{title}</Text>
+    <View style={[styles.block, { backgroundColor: colors.surfaceRaised }]}>
+      <Heading>{title}</Heading>
       {RARITIES.filter((rarity) => group.rates[rarity] !== undefined).map((rarity) => (
         <View key={rarity} style={styles.rateRow}>
-          <View style={[styles.dot, { backgroundColor: rarityStyles[rarity].color }]} />
-          <Body style={styles.flex}>{t(`packs.odds.rarity.${rarity}`)}</Body>
-          <Text variant="bodyStrong">{formatPercent(group.rates[rarity] ?? 0, language)}</Text>
+          <View style={[styles.gem, { backgroundColor: rarityStyles[rarity].color, borderColor: rarityStyles[rarity].edge }]} />
+          <Text variant="bodyStrong" style={styles.flex}>
+            {t(`packs.odds.rarity.${rarity}`)}
+          </Text>
+          <Text variant="heading" color={rarityStyles[rarity].color}>
+            {formatPercent(group.rates[rarity] ?? 0, language)}
+          </Text>
         </View>
       ))}
     </View>
   );
 }
 
-function PityRow({ label, value }: { label: string; value: string }) {
+function PityRow({ label, value, progress, color }: { label: string; value: string; progress: number; color: string }) {
   return (
-    <View style={styles.rateRow}>
-      <Body style={styles.flex}>{label}</Body>
-      <Caption>{value}</Caption>
+    <View style={styles.pity}>
+      <View style={styles.rateRow}>
+        <Body style={styles.flex}>{label}</Body>
+        <Text variant="bodyStrong">{value}</Text>
+      </View>
+      <ProgressBar progress={progress} color={color} height={12} accessibilityLabel={`${label}, ${value}`} />
     </View>
   );
 }
 
-const DOT = 10;
+const GEM = 14;
 
 const styles = StyleSheet.create({
-  group: { gap: spacing.xxs },
-  rateRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
-  dot: { width: DOT, height: DOT, borderRadius: DOT / 2 },
+  block: { gap: spacing.sm, padding: spacing.md, borderRadius: radius },
+  rateRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
+  gem: { width: GEM, height: GEM, borderRadius: 3, borderWidth: 2, transform: [{ rotate: '45deg' }] },
+  pity: { gap: spacing.xxs },
   flex: { flex: 1 },
-  divider: { height: StyleSheet.hairlineWidth * 2 },
 });

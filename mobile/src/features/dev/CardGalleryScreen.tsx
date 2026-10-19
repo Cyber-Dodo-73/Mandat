@@ -91,7 +91,7 @@ export function CardGalleryScreen() {
         <CardBack size="large" width={160} finish="gold" />
       </View>
       <View style={styles.row}>
-        <CardSilhouette number={42} size="large" width={160} />
+        <CardSilhouette card={cards[0]!} size="large" width={160} />
         {samples[4] ? <TradingCard card={samples[4].card} finish="full_art" size="large" width={160} /> : null}
       </View>
 

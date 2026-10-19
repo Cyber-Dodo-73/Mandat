@@ -1,28 +1,33 @@
 /**
- * Visual direction: "engraved banknote" (from the art pack). Ink black-navy grounds,
- * warm cream ink, antique gold for rims, hairlines and highlights, and a single
- * vermilion accent (the M wax seal) kept for the primary action. Rarity colors live
- * in rarity.ts and are reserved for card content, never for app chrome.
+ * Visual direction: a bright mobile collectible game (Duolingo x TCG Pocket x Ultimate Team).
+ * Deep indigo game ground with a radial light, electric blue as the brand color, a hot
+ * orange for the main call to action, green for success, gold only for rewards and
+ * legendary content. Rarity colors live in rarity.ts and stay on card content.
  */
 export type ColorScheme = 'dark' | 'light';
 
 export type ThemeColors = {
   background: string;
+  /** Centre of the radial light behind screens (gives the ground some depth). */
+  backgroundGlow: string;
   surface: string;
   surfaceRaised: string;
   border: string;
   text: string;
   textMuted: string;
+  /** Electric blue: selection, progress, links, secondary emphasis. */
+  brand: string;
+  brandEdge: string;
+  onBrand: string;
+  /** Hot orange: the primary call to action only. */
   accent: string;
   accentEdge: string;
   onAccent: string;
-  /** Antique gold: frames, hairlines, focus and highlights (second brand color). */
+  /** Reward gold: Influence, rewards, legendary, premium. */
   gold: string;
-  /** Brighter gold for engraved highlights and active states. */
   goldBright: string;
-  /** Dark gold for 3D edges under gold faces. */
   goldEdge: string;
-  /** Fine gold hairline used around surfaces. */
+  /** Neutral separator, used sparingly. */
   hairline: string;
   neutralButton: string;
   neutralButtonEdge: string;
@@ -35,64 +40,76 @@ export type ThemeColors = {
   danger: string;
   dangerEdge: string;
   onDanger: string;
+  /** Streak flame. */
+  flame: string;
   overlay: string;
   shadow: string;
 };
 
 const dark: ThemeColors = {
-  background: '#0A0D14',
-  surface: '#121620',
-  surfaceRaised: '#1A1F2B',
-  border: '#2A2E38',
-  text: '#F1E8D4',
-  textMuted: '#A59E8C',
-  accent: '#F0532F',
-  accentEdge: '#9C2A15',
-  onAccent: '#0A0D14',
-  gold: '#C9A227',
-  goldBright: '#E7C766',
-  goldEdge: '#6E5510',
-  hairline: 'rgba(201, 162, 39, 0.38)',
-  neutralButton: '#1A1F2B',
-  neutralButtonEdge: '#07090E',
+  background: '#0C1033',
+  backgroundGlow: '#24317E',
+  surface: '#171E4E',
+  surfaceRaised: '#222B66',
+  border: '#2E3A80',
+  text: '#F7F8FF',
+  textMuted: '#A9B2E2',
+  brand: '#3B82FF',
+  brandEdge: '#1D4FC4',
+  onBrand: '#FFFFFF',
+  accent: '#F25A13',
+  accentEdge: '#A93A05',
+  onAccent: '#FFFFFF',
+  gold: '#FFC83D',
+  goldBright: '#FFE27A',
+  goldEdge: '#C68800',
+  hairline: 'rgba(255, 255, 255, 0.08)',
+  neutralButton: '#26306F',
+  neutralButtonEdge: '#121845',
   appleButton: '#FFFFFF',
   appleButtonEdge: '#B9BCC6',
   onAppleButton: '#000000',
-  success: '#3DD68C',
-  successEdge: '#23955E',
-  danger: '#FF6B6B',
-  dangerEdge: '#B84444',
-  onDanger: '#0A0D14',
-  overlay: 'rgba(4, 5, 9, 0.76)',
-  shadow: '#000000',
+  success: '#2FCB74',
+  successEdge: '#1A8E4D',
+  danger: '#FF4D67',
+  dangerEdge: '#B4263D',
+  onDanger: '#FFFFFF',
+  flame: '#FF8A1F',
+  overlay: 'rgba(5, 7, 26, 0.86)',
+  shadow: '#03051A',
 };
 
 const light: ThemeColors = {
-  background: '#F3ECDD',
-  surface: '#FBF7EE',
-  surfaceRaised: '#ECE3CF',
-  border: '#D8CCB2',
-  text: '#0E1118',
-  textMuted: '#5B5446',
-  accent: '#F04A2C',
-  accentEdge: '#A8321C',
-  onAccent: '#0E1118',
-  gold: '#9A7A16',
-  goldBright: '#C9A227',
-  goldEdge: '#5E4A0E',
-  hairline: 'rgba(154, 122, 22, 0.45)',
-  neutralButton: '#FBF7EE',
-  neutralButtonEdge: '#CDBF9F',
+  background: '#E9EFFF',
+  backgroundGlow: '#FFFFFF',
+  surface: '#FFFFFF',
+  surfaceRaised: '#F1F4FF',
+  border: '#D3DCF6',
+  text: '#131A40',
+  textMuted: '#58628F',
+  brand: '#2163F2',
+  brandEdge: '#1544AE',
+  onBrand: '#FFFFFF',
+  accent: '#EE5410',
+  accentEdge: '#A93A05',
+  onAccent: '#FFFFFF',
+  gold: '#E7A400',
+  goldBright: '#FFC83D',
+  goldEdge: '#A36F00',
+  hairline: 'rgba(19, 26, 64, 0.08)',
+  neutralButton: '#FFFFFF',
+  neutralButtonEdge: '#C7D1EF',
   appleButton: '#000000',
   appleButtonEdge: '#3A3A3C',
   onAppleButton: '#FFFFFF',
-  success: '#1FAF6B',
-  successEdge: '#13784A',
-  danger: '#D93838',
-  dangerEdge: '#8F2020',
+  success: '#1FB463',
+  successEdge: '#137A42',
+  danger: '#E33452',
+  dangerEdge: '#9C1E33',
   onDanger: '#FFFFFF',
-  overlay: 'rgba(14, 17, 24, 0.5)',
-  shadow: '#0E1118',
+  flame: '#FF7A0A',
+  overlay: 'rgba(19, 26, 64, 0.6)',
+  shadow: '#1B2766',
 };
 
 export const palettes: Record<ColorScheme, ThemeColors> = { dark, light };

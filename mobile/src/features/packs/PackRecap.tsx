@@ -3,7 +3,7 @@ import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native'
 
 import { TradingCard } from '@/components/cards';
 import { OfflineNotice } from '@/components/navigation/OfflineNotice';
-import { Badge, Button3D, Caption, Heading } from '@/components/ui';
+import { Badge, Button3D, Caption, Icon, Text } from '@/components/ui';
 import { getCard } from '@/data/catalog';
 import { useIsOnline } from '@/hooks/useIsOnline';
 import { useTranslation } from '@/i18n';
@@ -28,7 +28,9 @@ export function PackRecap({ result, onOpenAnother }: PackRecapProps) {
   return (
     <View style={styles.root}>
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-        <Heading align="center">{t('packOpening.recapTitle', { count: newCount })}</Heading>
+        <Text variant="title" align="center">
+          {t('packOpening.recapTitle', { count: newCount })}
+        </Text>
         <View style={styles.grid}>
           {result.cards.map((drawn, index) => {
             const card = getCard(drawn.cardId);
@@ -47,7 +49,12 @@ export function PackRecap({ result, onOpenAnother }: PackRecapProps) {
           })}
         </View>
         {result.influenceGained > 0 ? (
-          <Caption align="center">{t('packOpening.influence', { amount: result.influenceGained })}</Caption>
+          <View style={[styles.influence, { backgroundColor: colors.surfaceRaised, borderColor: colors.gold }]}>
+            <Icon name="ribbon" size={18} color={colors.gold} />
+            <Text variant="label" color={colors.gold}>
+              {t('packOpening.influence', { amount: result.influenceGained })}
+            </Text>
+          </View>
         ) : null}
       </ScrollView>
       <View style={styles.footer}>
@@ -76,8 +83,18 @@ export function PackRecap({ result, onOpenAnother }: PackRecapProps) {
 
 const styles = StyleSheet.create({
   root: { flex: 1 },
-  content: { padding: spacing.md, gap: spacing.md },
+  content: { padding: spacing.md, gap: spacing.lg },
   grid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', gap: spacing.sm },
   badge: { alignItems: 'center', marginTop: -spacing.sm },
-  footer: { paddingHorizontal: spacing.lg, gap: spacing.sm },
+  footer: { paddingHorizontal: spacing.lg, paddingTop: spacing.sm, gap: spacing.sm },
+  influence: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignSelf: 'center',
+    gap: spacing.xs,
+    minHeight: 40,
+    paddingHorizontal: spacing.md,
+    borderRadius: 20,
+    borderWidth: 1.5,
+  },
 });

@@ -25,6 +25,18 @@
     "figureOfTheDay": {
       "title": "Figure of the day",
       "a11y": "Figure of the day: {{name}}. {{anecdote}}"
+    },
+    "noPack": {
+      "quiz": "Play a quiz",
+      "missions": "Missions",
+      "hint": "Your next booster is on its way. Earn XP meanwhile."
+    },
+    "pity": {
+      "epic_one": "Epic next pack",
+      "epic_other": "Epic in {{count}}",
+      "legendary_one": "Legendary next pack",
+      "legendary_other": "Legendary in {{count}}",
+      "a11y": "Guarantees: {{epic}}, {{legendary}}"
     }
   },
   "collection": {
@@ -58,9 +70,10 @@
     },
     "sort": {
       "label": "Sort by",
-      "number": "Number",
+      "number": "No.",
       "rarity": "Rarity",
-      "obtained": "Obtained"
+      "obtained": "Recent",
+      "owned": "Mine"
     },
     "filters": {
       "title": "Filters",
@@ -77,6 +90,13 @@
       "reset": "Clear all",
       "show_one": "Show {{count}} card",
       "show_other": "Show {{count}} cards"
+    },
+    "rarityNote": "Rarity reflects current worldwide fame.",
+    "erasShort": {
+      "antiquity": "Antiquity",
+      "medieval": "Middle Ages",
+      "modern": "Modern",
+      "contemporary": "Contemporary"
     }
   },
   "packs": {
@@ -125,7 +145,8 @@
       "continentFallback": "When this continent has no card of a rarity, it is drawn from the whole season."
     },
     "bonusPacks_one": "+ {{count}} bonus booster",
-    "bonusPacks_other": "+ {{count}} bonus boosters"
+    "bonusPacks_other": "+ {{count}} bonus boosters",
+    "waitButton": "Ready in {{time}}"
   },
   "packOpening": {
     "title": "Opening",
@@ -192,12 +213,12 @@
       "hint": "Choose the card featured at the top of your profile."
     },
     "actions": {
-      "editShowcase": "Edit showcase",
-      "copyCode": "Copy code",
+      "editShowcase": "Showcase",
+      "copyCode": "Copy",
       "copied": "Friend code copied.",
       "shareLink": "Invite",
       "shareMessage": "Add me on MANDAT: I'm {{nickname}}.",
-      "shareImage": "Share my profile"
+      "shareImage": "Share"
     },
     "stats": {
       "title": "Stats",
@@ -264,12 +285,12 @@
       "clearFavorite": "Remove favorite"
     },
     "cardActions": {
-      "addToShowcase": "Add to showcase",
-      "removeFromShowcase": "Remove from showcase",
+      "addToShowcase": "Showcase",
+      "removeFromShowcase": "Remove",
       "addedToShowcase": "Added to your showcase.",
       "removedFromShowcase": "Removed from your showcase.",
-      "setFavorite": "Set as favorite",
-      "favorite": "Your favorite",
+      "setFavorite": "Favorite",
+      "favorite": "Favorite",
       "favoriteSet": "This is your new favorite card.",
       "favoriteCleared": "Favorite card removed."
     },
@@ -658,7 +679,11 @@
       "claimable": "Tier {{tier}}, ready to claim",
       "reached": "Tier {{tier}}, reached",
       "locked": "Tier {{tier}}, locked"
-    }
+    },
+    "tab": "Pass",
+    "upcoming": "Next tiers",
+    "premiumTitle": "Premium track",
+    "premiumBody": "Coming soon: an extra reward on every tier."
   },
   "progression": {
     "reward": {

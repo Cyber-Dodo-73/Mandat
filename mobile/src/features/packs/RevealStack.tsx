@@ -4,14 +4,14 @@ import Animated, { Easing, useAnimatedStyle, useSharedValue, withSpring, withTim
 import { scheduleOnRN } from 'react-native-worklets';
 
 import { CardBack, CardReveal, TradingCard } from '@/components/cards';
-import { Body, Button3D, Caption } from '@/components/ui';
+import { Body, Button3D, Icon, Text } from '@/components/ui';
 import { getCard } from '@/data/catalog';
 import { ftueCardRevealed } from '@/features/ftue';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
 import { haptics } from '@/lib/haptics';
 import { playSound } from '@/lib/sounds';
-import { spacing } from '@/theme';
+import { radius, spacing, useTheme } from '@/theme';
 import { springs } from '@/theme/motion';
 import { rarityRank } from '@/theme/rarity';
 import type { CardFinish } from '@/types/card';
@@ -39,6 +39,7 @@ type Leaving = { key: string; drawn: DrawnCard; direction: 1 | -1 };
  */
 export function RevealStack({ cards, cardWidth, onDone }: RevealStackProps) {
   const { t } = useTranslation();
+  const { colors } = useTheme();
   const reduceMotion = useReduceMotion();
   const markSeen = useRevealMemory((state) => state.markSeen);
   const ordered = useMemo(() => revealOrder(cards), [cards]);
@@ -91,7 +92,8 @@ export function RevealStack({ cards, cardWidth, onDone }: RevealStackProps) {
   }, [entrance, reduceMotion]);
   const entranceStyle = useAnimatedStyle(() => ({
     opacity: Math.min(1, entrance.get() * 2),
-    transform: [{ translateY: (1 - entrance.get()) * 220 }, { scale: 0.82 + entrance.get() * 0.18 }],
+    // Translate only: scaling the card canvases up from below 1 would render them pixelated first.
+    transform: [{ translateY: (1 - entrance.get()) * 220 }],
   }));
 
   const index = flow.index;
@@ -102,7 +104,7 @@ export function RevealStack({ cards, cardWidth, onDone }: RevealStackProps) {
 
   return (
     <View style={styles.root}>
-      <Caption align="center">{t('packOpening.progress', { current: Math.min(index + 1, count), total: count })}</Caption>
+      <RevealProgress current={Math.min(index + 1, count)} total={count} label={t('packOpening.progress', { current: Math.min(index + 1, count), total: count })} />
       <Animated.View style={[styles.stage, entranceStyle]}>
         {/* Pile under the top card, deepest first. */}
         {below
@@ -182,9 +184,38 @@ export function RevealStack({ cards, cardWidth, onDone }: RevealStackProps) {
         ))}
       </Animated.View>
       <View style={styles.footer}>
-        <Caption align="center">
-          {flow.top === 'revealed' ? t('packOpening.tapToNext') : t('packOpening.tapToReveal')}
-        </Caption>
+        <View style={[styles.hint, { backgroundColor: colors.surfaceRaised, borderColor: colors.border }]}>
+          <Icon name={flow.top === 'revealed' ? 'arrow-forward-circle' : 'hand-left'} size={18} tone="brand" />
+          <Text variant="caption" color={colors.text} style={styles.hintLabel}>
+            {flow.top === 'revealed' ? t('packOpening.tapToNext') : t('packOpening.tapToReveal')}
+          </Text>
+        </View>
+      </View>
+    </View>
+  );
+}
+
+/** "Carte 2 sur 5" pill with one step per card: filled up to the current one. */
+function RevealProgress({ current, total, label }: { current: number; total: number; label: string }) {
+  const { colors } = useTheme();
+  return (
+    <View style={styles.progressRow} accessibilityRole="text" accessibilityLabel={label}>
+      <View style={[styles.progressPill, { backgroundColor: colors.surfaceRaised, borderColor: colors.border }]}>
+        <Text variant="label" color={colors.text}>
+          {label}
+        </Text>
+        <View style={styles.steps}>
+          {Array.from({ length: total }, (_, step) => (
+            <View
+              key={step}
+              style={[
+                styles.step,
+                { backgroundColor: step < current ? colors.brand : colors.surface },
+                step === current - 1 ? styles.stepCurrent : null,
+              ]}
+            />
+          ))}
+        </View>
       </View>
     </View>
   );
@@ -239,5 +270,31 @@ const styles = StyleSheet.create({
   pile: { position: 'absolute' },
   flying: { position: 'absolute' },
   unknown: { alignItems: 'center', justifyContent: 'center', gap: spacing.md, padding: spacing.md },
+  progressRow: { alignItems: 'center' },
+  progressPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    minHeight: 40,
+    paddingHorizontal: spacing.md,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderBottomWidth: 3,
+  },
+  steps: { flexDirection: 'row', alignItems: 'center', gap: 4 },
+  step: { width: 10, height: 10, borderRadius: 5 },
+  stepCurrent: { width: 18 },
+  hint: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignSelf: 'center',
+    gap: spacing.xs,
+    minHeight: 40,
+    maxWidth: '100%',
+    paddingHorizontal: spacing.md,
+    borderRadius: radius,
+    borderWidth: 1,
+  },
+  hintLabel: { flexShrink: 1 },
   footer: { minHeight: 40, justifyContent: 'center', paddingHorizontal: spacing.lg },
 });

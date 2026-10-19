@@ -62,6 +62,7 @@ export function CardPickerSheet({ mode, showcase, favorite, onToggleShowcase, on
     <Sheet
       visible={mode !== null}
       onClose={onClose}
+      scroll={false}
       title={mode === 'favorite' ? t('profile.cardPicker.favoriteTitle') : t('profile.cardPicker.showcaseTitle', { count, max: SHOWCASE_MAX })}
     >
       <TextField

@@ -23,7 +23,7 @@ import { palettes } from '@/theme/colors';
 import { rarityStyles, type Rarity } from '@/theme/rarity';
 import type { CardFinish } from '@/types/card';
 
-import { GOLD, isPremium } from './finishes';
+import { GOLD } from './finishes';
 
 /** Card faces stay ink-dark in both themes: a card is a physical object, not app chrome. */
 export const CARD_FACE = palettes.dark.surface;
@@ -42,33 +42,12 @@ type RarityFrameProps = {
   animated: boolean;
 };
 
-/** Engraved antique gold of the art pack (rims, hairlines, filigree). */
-const ENGRAVED_GOLD = '#C9A227';
-const ENGRAVED_GOLD_LIGHT = '#E7C766';
-/** Black lacquer band used by every rarity below legendary. */
-const LACQUER = ['#1E2330', '#0B0E15', '#171B26'] as const;
-
-/** Filigree scroll in one corner, mirrored to the four corners of premium frames. */
-function cornerOrnament(size: number): string {
-  const s = size;
-  return [
-    `M0 ${s} C0 ${s * 0.45} ${s * 0.45} 0 ${s} 0`,
-    `M${s * 0.18} ${s} C${s * 0.18} ${s * 0.58} ${s * 0.58} ${s * 0.18} ${s} ${s * 0.18}`,
-    `M${s * 0.32} ${s * 0.32} m-${s * 0.09} 0 a${s * 0.09} ${s * 0.09} 0 1 0 ${s * 0.18} 0 a${s * 0.09} ${s * 0.09} 0 1 0 -${s * 0.18} 0`,
-  ].join(' ');
-}
-
 export const RarityFrame = memo(function RarityFrame({ rarity, finish, width, height, radius, frame, animated }: RarityFrameProps) {
   const style = rarityStyles[rarity];
   const gold = finish === 'gold';
   const fullArt = finish === 'full_art';
-  const premium = isPremium(rarity);
-  // Epic and better get the engraved gold filigree corners.
-  const ornate = premium || rarity === 'epic';
-  // Below legendary the band is black lacquer and the rarity color becomes an inner keyline.
-  const lacquer = !gold && !premium;
   const progress = useSharedValue(0);
-  // Gold prints and premium rarities have a living frame; others stay still.
+  // Gold prints and premium rarities have a living frame; others keep a static gloss.
   const runs = animated && (style.animated || gold);
 
   useEffect(() => {
@@ -81,24 +60,18 @@ export const RarityFrame = memo(function RarityFrame({ rarity, finish, width, he
   const shineEnd = useDerivedValue(() => vec(progress.get() * width * 3, height));
   const prismTransform = useDerivedValue(() => [{ rotate: progress.get() * Math.PI * 2 }]);
 
-  const frameWidth = fullArt ? Math.max(2, Math.round(frame * 0.6)) : frame;
+  // Every dimension follows the card width (see cardMetrics): the frame is identical at any size.
+  const unit = width / 300;
+  const frameWidth = fullArt ? frame * 0.66 : frame;
   const inner = { x: frameWidth, y: frameWidth, width: width - frameWidth * 2, height: height - frameWidth * 2 };
-  const innerRadius = Math.max(2, radius - frameWidth * 0.6);
-  const ornamentSize = Math.max(8, width * 0.12);
-  const ornament = useMemo(() => cornerOrnament(ornamentSize), [ornamentSize]);
-  const ornamentStroke = Math.max(0.6, width / 280);
-  const edge = gold ? GOLD.edge : lacquer ? style.color : style.edge;
-  const ruleInset = Math.max(1, frameWidth * 0.18);
-  const ruleStroke = Math.max(0.6, width / 320);
-  const corners: { x: number; y: number; scaleX: number; scaleY: number }[] = [
-    { x: inner.x + 2, y: inner.y + 2, scaleX: 1, scaleY: 1 },
-    { x: inner.x + inner.width - 2, y: inner.y + 2, scaleX: -1, scaleY: 1 },
-    { x: inner.x + 2, y: inner.y + inner.height - 2, scaleX: 1, scaleY: -1 },
-    { x: inner.x + inner.width - 2, y: inner.y + inner.height - 2, scaleX: -1, scaleY: -1 },
-  ];
+  const innerRadius = Math.max(1, radius - frameWidth * 0.6);
+  const keyline = 2 * unit;
+  const edge = gold ? GOLD.edge : style.edge;
+  const markSize = 14 * unit;
 
   return (
     <Canvas style={{ position: 'absolute', width, height }} pointerEvents="none">
+      {/* Bold rarity band, Ultimate Team style. */}
       <RoundedRect x={0} y={0} width={width} height={height} r={radius}>
         {gold ? (
           <LinearGradient start={vec(0, 0)} end={vec(width, height)} colors={[...GOLD.gradient]} />
@@ -109,44 +82,26 @@ export const RarityFrame = memo(function RarityFrame({ rarity, finish, width, he
             transform={prismTransform}
             origin={vec(width / 2, height / 2)}
           />
-        ) : lacquer ? (
-          <LinearGradient start={vec(0, 0)} end={vec(width, height)} colors={[...LACQUER]} />
         ) : (
           <LinearGradient start={vec(0, 0)} end={vec(width, height)} colors={[...style.gradient]} />
         )}
       </RoundedRect>
-      {/* Banknote double rule: an outer gold hairline and a finer one inside the band. */}
-      <RoundedRect
-        x={ruleInset}
-        y={ruleInset}
-        width={width - ruleInset * 2}
-        height={height - ruleInset * 2}
-        r={Math.max(2, radius - ruleInset)}
-        color={ENGRAVED_GOLD}
-        style="stroke"
-        strokeWidth={ruleStroke}
-        opacity={lacquer ? 0.85 : 0.6}
-      />
-      {lacquer && frameWidth >= 5 ? (
-        <RoundedRect
-          x={frameWidth * 0.55}
-          y={frameWidth * 0.55}
-          width={width - frameWidth * 1.1}
-          height={height - frameWidth * 1.1}
-          r={Math.max(2, radius - frameWidth * 0.55)}
-          color={ENGRAVED_GOLD}
-          style="stroke"
-          strokeWidth={ruleStroke * 0.6}
-          opacity={0.45}
+      {/* Static gloss: a light from the top-left on every card, so thumbs shine like the hero. */}
+      <RoundedRect x={0} y={0} width={width} height={height} r={radius}>
+        <LinearGradient
+          start={vec(0, 0)}
+          end={vec(width * 0.7, height * 0.5)}
+          colors={['rgba(255,255,255,0.45)', 'rgba(255,255,255,0.08)', 'rgba(255,255,255,0)']}
+          positions={[0, 0.45, 1]}
         />
-      ) : null}
-      {runs && (rarity === 'legendary' || gold || rarity === 'mythic') ? (
+      </RoundedRect>
+      {runs ? (
         <Group blendMode="screen">
           <RoundedRect x={0} y={0} width={width} height={height} r={radius}>
             <LinearGradient
               start={shineStart}
               end={shineEnd}
-              colors={['rgba(255,255,255,0)', 'rgba(255,255,255,0.85)', 'rgba(255,255,255,0)']}
+              colors={['rgba(255,255,255,0)', 'rgba(255,255,255,0.8)', 'rgba(255,255,255,0)']}
               positions={[0.42, 0.5, 0.58]}
             />
           </RoundedRect>
@@ -155,22 +110,26 @@ export const RarityFrame = memo(function RarityFrame({ rarity, finish, width, he
       {/* Full art prints let the illustration fill the face: no solid face behind it. */}
       {fullArt ? null : <RoundedRect {...inner} r={innerRadius} color={CARD_FACE} />}
       {gold && !fullArt ? <EmbossTexture inner={inner} radius={innerRadius} /> : null}
-      <RoundedRect {...inner} r={innerRadius} color={edge} style="stroke" strokeWidth={Math.max(1, frameWidth * (lacquer ? 0.3 : 0.25))} />
-      {ornate || gold
-        ? corners.map((corner, index) => (
-            <Group
-              key={index}
-              transform={[{ translateX: corner.x }, { translateY: corner.y }, { scaleX: corner.scaleX }, { scaleY: corner.scaleY }]}
-            >
-              {/* Embossed: dark stroke offset down-right under a light stroke. */}
-              <Group transform={[{ translateX: 0.8 }, { translateY: 0.8 }]}>
-                <Path path={ornament} style="stroke" strokeWidth={ornamentStroke * 1.6} color={CARD_INK} opacity={0.55} />
-              </Group>
-              <Path path={ornament} style="stroke" strokeWidth={ornamentStroke * 1.6} color={gold ? GOLD.base : ENGRAVED_GOLD} />
-              <Path path={ornament} style="stroke" strokeWidth={ornamentStroke * 0.6} color={ENGRAVED_GOLD_LIGHT} opacity={0.7} />
-            </Group>
-          ))
-        : null}
+      <RoundedRect {...inner} r={innerRadius} color={edge} style="stroke" strokeWidth={keyline} />
+      {/* Small rarity mark in the top-right corner of the band. */}
+      <RoundedRect
+        x={width - frameWidth / 2 - markSize / 2}
+        y={frameWidth / 2 - markSize / 2 + markSize * 0.15}
+        width={markSize}
+        height={markSize}
+        r={markSize / 2}
+        color={gold ? GOLD.base : style.color}
+      />
+      <RoundedRect
+        x={width - frameWidth / 2 - markSize / 2}
+        y={frameWidth / 2 - markSize / 2 + markSize * 0.15}
+        width={markSize}
+        height={markSize}
+        r={markSize / 2}
+        color="rgba(255,255,255,0.9)"
+        style="stroke"
+        strokeWidth={1.5 * unit}
+      />
     </Canvas>
   );
 });

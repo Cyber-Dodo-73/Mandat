@@ -54,7 +54,14 @@ export const useSettingsStore = create<SettingsState & SettingsActions>()(
     }),
     {
       name: 'settings',
-      version: 1,
+      // v2: dark is the brand default; installs that never chose a theme (still on the old
+      // 'system' default) move to dark. An explicit choice made later is kept.
+      version: 2,
+      migrate: (persisted, version) => {
+        const state = persisted as Partial<SettingsState>;
+        if (version < 2 && state.theme === 'system') return { ...state, theme: 'dark' };
+        return state;
+      },
       storage: createJSONStorage(() => zustandStorage),
       partialize: ({ language, theme, soundEnabled, hapticsEnabled, notificationsEnabled, reduceMotion, onboardingSeen }) => ({
         language,

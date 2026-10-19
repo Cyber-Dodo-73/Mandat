@@ -34,16 +34,18 @@ export function ProgressionHost() {
     return () => subscription.remove();
   }, []);
 
-  const toast = queue.find((item) => item.type === 'reward');
-  const levelUp = queue.find((item) => item.type === 'levelUp');
+  // One celebration at a time, in order: the next one waits until the current one is done.
+  const current = queue[0];
+  const toast = current?.type === 'reward' ? current : undefined;
+  const levelUp = current?.type === 'levelUp' ? current : undefined;
 
   return (
     <View style={StyleSheet.absoluteFill} pointerEvents="box-none">
-      {toast?.type === 'reward' ? <RewardToast key={toast.id} reward={toast.reward} onDone={() => dismiss(toast.id)} /> : null}
-      {levelUp?.type === 'levelUp' ? (
+      {toast ? <RewardToast key={toast.id} reward={toast.reward} onDone={() => dismiss(toast.id)} /> : null}
+      {levelUp ? (
         <LevelUpOverlay key={levelUp.id} level={levelUp.level} rewards={levelUp.rewards} onDone={() => dismiss(levelUp.id)} />
       ) : null}
-      <ReturnRecapSheet visible={showReturn && !levelUp} onClose={() => setShowReturn(false)} />
+      <ReturnRecapSheet visible={showReturn && !current} onClose={() => setShowReturn(false)} />
     </View>
   );
 }

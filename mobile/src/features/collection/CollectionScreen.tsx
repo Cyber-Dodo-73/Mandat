@@ -6,7 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { CardSilhouette, TradingCard } from '@/components/cards';
 import { OfflineNotice } from '@/components/navigation/OfflineNotice';
-import { Caption, EmptyState, Icon, PressableScale, Text, Title } from '@/components/ui';
+import { Caption, EmptyState, GameBackground, Icon, PressableScale, Text, Title } from '@/components/ui';
 import { allCards } from '@/data/catalog';
 import { useFtueAnchor } from '@/features/ftue';
 import { useIsOnline } from '@/hooks/useIsOnline';
@@ -43,7 +43,7 @@ export function CollectionScreen() {
   const collection = useCollectionQuery();
   const [search, setSearch] = useState('');
   const [filters, setFilters] = useState<CollectionFilters>(EMPTY_FILTERS);
-  const [sort, setSort] = useState<SortKey>('number');
+  const [sort, setSort] = useState<SortKey>('owned');
   const [sheetOpen, setSheetOpen] = useState(false);
 
   const entries = useMemo(() => buildEntries(allCards, collection.data?.items ?? []), [collection.data]);
@@ -67,6 +67,7 @@ export function CollectionScreen() {
       <Title>{t('collection.title')}</Title>
       {online ? null : <OfflineNotice message={t('collection.offline')} />}
       <ProgressLedger progress={progress} />
+      <Caption>{t('collection.rarityNote')}</Caption>
       <View style={styles.toolbar}>
         <View style={[styles.search, { backgroundColor: colors.surfaceRaised, borderColor: colors.border }]}>
           <Icon name="search" size={18} color={colors.textMuted} />
@@ -93,13 +94,13 @@ export function CollectionScreen() {
           style={[
             styles.filterButton,
             activeFilters > 0
-              ? { backgroundColor: colors.accent, borderColor: colors.accent }
-              : { backgroundColor: colors.surfaceRaised, borderColor: colors.border },
+              ? { backgroundColor: colors.brand, borderBottomColor: colors.brandEdge }
+              : { backgroundColor: colors.surfaceRaised, borderBottomColor: colors.neutralButtonEdge },
           ]}
         >
-          <Icon name="options-outline" size={20} color={activeFilters > 0 ? colors.onAccent : colors.text} />
+          <Icon name="options" size={20} color={activeFilters > 0 ? colors.onBrand : colors.text} />
           {activeFilters > 0 ? (
-            <Text variant="label" color={colors.onAccent}>
+            <Text variant="label" color={colors.onBrand}>
               {activeFilters}
             </Text>
           ) : null}
@@ -119,6 +120,7 @@ export function CollectionScreen() {
 
   return (
     <View style={[styles.root, { backgroundColor: colors.background, paddingTop: insets.top }]}>
+      <GameBackground />
       <FlashList
         data={visible}
         renderItem={renderItem}
@@ -161,7 +163,7 @@ const GridCell = memo(function GridCell({ entry, width }: { entry: CollectionEnt
         {owned ? (
           <TradingCard card={card} finish={bestFinish} size="grid" width={width} />
         ) : (
-          <CardSilhouette number={card.number} size="grid" width={width} />
+          <CardSilhouette card={card} size="grid" width={width} />
         )}
         {copies > 1 ? (
           <View style={[styles.copies, { backgroundColor: colors.accent }]}>
@@ -199,7 +201,7 @@ function ProgressLedger({ progress }: { progress: ReturnType<typeof collectionPr
       <View style={[styles.divider, { backgroundColor: colors.border }]} />
       <View style={styles.bars}>
         {ERAS.map((era) => (
-          <MiniBar key={era} label={t(`collection.eras.${era}`)} progress={progress.byEra[era]} />
+          <MiniBar key={era} label={t(`collection.erasShort.${era}`)} progress={progress.byEra[era]} />
         ))}
       </View>
     </View>
@@ -224,7 +226,7 @@ function MiniBar({ label, progress }: { label: string; progress: Progress }) {
         </Caption>
       </View>
       <View style={[styles.track, { backgroundColor: colors.surfaceRaised }]}>
-        <View style={[styles.fill, { width: `${Math.round(progress.ratio * 100)}%`, backgroundColor: colors.accent }]} />
+        <View style={[styles.fill, { width: `${Math.round(progress.ratio * 100)}%`, backgroundColor: colors.brand }]} />
       </View>
     </View>
   );
@@ -232,7 +234,7 @@ function MiniBar({ label, progress }: { label: string; progress: Progress }) {
 
 const styles = StyleSheet.create({
   root: { flex: 1 },
-  list: { paddingHorizontal: spacing.md, paddingBottom: spacing.xxl },
+  list: { paddingHorizontal: spacing.md, paddingBottom: 72 },
   header: { gap: spacing.md, paddingTop: spacing.md, paddingBottom: spacing.md },
   toolbar: { flexDirection: 'row', gap: spacing.xs },
   search: {
@@ -255,7 +257,7 @@ const styles = StyleSheet.create({
     minWidth: 48,
     justifyContent: 'center',
     borderRadius: radius,
-    borderWidth: 1,
+    borderBottomWidth: 4,
   },
   cell: { alignItems: 'center', marginBottom: spacing.sm },
   copies: {
