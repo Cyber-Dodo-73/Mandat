@@ -909,5 +909,90 @@
       "again": "Play again",
       "done": "Done"
     }
+  },
+  "ftue": {
+    "common": {
+      "skip": "Skip",
+      "quit": "Exit tutorial",
+      "stepOf": "Step {{current}}/{{total}}",
+      "next": "Next"
+    },
+    "welcome": {
+      "title": "Welcome, President!",
+      "subtitle": "Your term starts now. Pick your player emblem.",
+      "avatarA11y": "Emblem {{index}}",
+      "nicknameLabel": "Your player name",
+      "nicknameField": "Player name",
+      "edit": "Edit",
+      "save": "Save",
+      "cta": "Let's go!"
+    },
+    "steps": {
+      "openFirstPack": {
+        "title": "Your first pack!",
+        "body": "It always holds an Epic or better. Tap OPEN!"
+      },
+      "tearPack": {
+        "title": "Slice the pack",
+        "body": "Swipe from one edge to the other across the top of the pack, like a blade."
+      },
+      "revealCards": {
+        "title": "Your 5 cards",
+        "body": "Tap a card to flip it, tap again to move on. The best one comes last!"
+      },
+      "collectionIntro": {
+        "title": "Your collection",
+        "body": "Your new cards live here. 500 figures from history to collect!"
+      },
+      "collectionRarity": {
+        "title": "Rarities and finishes",
+        "body": "6 rarities, from Common to Mythic. Some cards also come in Holo, Full Art or Gold: the most wanted ones!"
+      },
+      "collectionProgress": {
+        "title": "Go for 100%",
+        "body": "Track your progress by continent and by era."
+      },
+      "missionsDaily": {
+        "title": "Daily missions",
+        "body": "3 missions a day for XP, Influence and packs. Claim your rewards here!"
+      },
+      "missionsStreak": {
+        "title": "Keep the flame alive",
+        "body": "Open a pack or play a quiz every day and your streak grows. A free freeze each week has your back."
+      },
+      "playQuiz": {
+        "title": "Test yourself!",
+        "body": "10 questions about history's figures. Perfect quizzes earn packs.",
+        "cta": "Start a quiz"
+      }
+    },
+    "goTo": {
+      "title": "Up next",
+      "home": "To the packs",
+      "collection": "See my collection",
+      "missions": "See my missions",
+      "play": "Go play"
+    },
+    "epic": {
+      "title": "Your first Epic!",
+      "body": "A big card to kick off your term."
+    },
+    "finish": {
+      "title": "Your term has begun!",
+      "subtitle": "Here's what's coming:",
+      "packReady": "A free pack is already waiting",
+      "nextPack": "Next free pack in {{time}}",
+      "streak": "Come back tomorrow to grow your streak",
+      "missions": "New missions every day",
+      "notifTitle": "Don't miss a thing",
+      "notifBody": "We'll tell you when a pack is ready or your streak is at risk. Never more than twice a day.",
+      "enable": "Turn on reminders",
+      "later": "Not now",
+      "done": "Let's go!"
+    },
+    "a11y": {
+      "tourStep": "Tutorial, step {{current}} of {{total}}: {{title}}",
+      "blade": "Hint: swipe across the top of the pack to tear it open"
+    }
   }
 }

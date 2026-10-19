@@ -2,6 +2,7 @@ import { Tabs } from 'expo-router/js-tabs';
 import { StyleSheet, View } from 'react-native';
 
 import { TabBar } from '@/components/navigation/TabBar';
+import { FtueLayer } from '@/features/ftue';
 import { ProgressionHost } from '@/features/progression/ProgressionHost';
 import { useTranslation } from '@/i18n';
 
@@ -21,6 +22,7 @@ export default function TabsLayout() {
       </Tabs>
       {/* Celebrations, return recap and reminders: signed-in screens only. */}
       <ProgressionHost />
+      <FtueLayer scope="tabs" />
     </View>
   );
 }

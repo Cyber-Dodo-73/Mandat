@@ -9,6 +9,7 @@ import { BOOSTER_RATIO, useDeviceTilt } from '@/components/pack';
 import { OfflineNotice } from '@/components/navigation/OfflineNotice';
 import { Body, Button3D, Heading, PressableScale, Text } from '@/components/ui';
 import { seasonNumber } from '@/data/catalog';
+import { useFtueAnchor } from '@/features/ftue';
 import { FreePackTimer } from '@/features/packs/FreePackTimer';
 import { OddsSheet } from '@/features/packs/OddsSheet';
 import { PackCarousel } from '@/features/packs/PackCarousel';
@@ -39,6 +40,7 @@ export function HomeScreen() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [oddsVisible, setOddsVisible] = useState(false);
   const [stage, setStage] = useState({ width: 0, height: 0 });
+  const openAnchor = useFtueAnchor('home.open');
 
   const packWidth = Math.round(Math.min(width * 0.56, (height * 0.4) / BOOSTER_RATIO, 240));
   const data = packs.data;
@@ -103,7 +105,7 @@ export function HomeScreen() {
           <FreePackTimer state={data.freePacks} />
           {data.bonusPacks > 0 ? <Body tone="muted">{t('packs.bonusPacks', { count: data.bonusPacks })}</Body> : null}
           {online ? null : <OfflineNotice />}
-          <View style={styles.cta}>
+          <View style={styles.cta} ref={openAnchor}>
             <Button3D
               label={
                 active.unlocked ? t('packs.openButton') : t('packs.lockedLevel', { level: active.unlockLevel ?? 0 })

@@ -909,5 +909,90 @@
       "again": "Rejouer",
       "done": "Terminer"
     }
+  },
+  "ftue": {
+    "common": {
+      "skip": "Passer",
+      "quit": "Quitter le tuto",
+      "stepOf": "Étape {{current}}/{{total}}",
+      "next": "Suivant"
+    },
+    "welcome": {
+      "title": "Bienvenue, Président·e !",
+      "subtitle": "Ton mandat commence maintenant. Choisis ton emblème de joueur.",
+      "avatarA11y": "Emblème {{index}}",
+      "nicknameLabel": "Ton nom de joueur",
+      "nicknameField": "Nom de joueur",
+      "edit": "Modifier",
+      "save": "Valider",
+      "cta": "C'est parti !"
+    },
+    "steps": {
+      "openFirstPack": {
+        "title": "Ton premier booster !",
+        "body": "Il contient forcément une Épique ou mieux. Touche OUVRIR !"
+      },
+      "tearPack": {
+        "title": "Tranche le booster",
+        "body": "Glisse le doigt d'un bord à l'autre sur le haut du paquet, comme une lame."
+      },
+      "revealCards": {
+        "title": "Tes 5 cartes",
+        "body": "Touche une carte pour la retourner, touche encore pour passer. La meilleure arrive en dernier !"
+      },
+      "collectionIntro": {
+        "title": "Ta collection",
+        "body": "Tes nouvelles cartes sont rangées ici. 500 figures de l'histoire à réunir !"
+      },
+      "collectionRarity": {
+        "title": "Raretés et finitions",
+        "body": "6 raretés, de Commune à Mythique. Et certaines cartes sortent en Holo, Full Art ou Or : les plus recherchées !"
+      },
+      "collectionProgress": {
+        "title": "Vise les 100 %",
+        "body": "Suis ta progression par continent et par époque."
+      },
+      "missionsDaily": {
+        "title": "Missions du jour",
+        "body": "3 missions par jour pour gagner de l'XP, de l'Influence et des boosters. Récupère tes récompenses ici !"
+      },
+      "missionsStreak": {
+        "title": "Garde ta flamme",
+        "body": "Ouvre un booster ou fais un quiz chaque jour : ta série grandit. Un gel gratuit par semaine te protège."
+      },
+      "playQuiz": {
+        "title": "Teste-toi !",
+        "body": "10 questions sur les figures de l'histoire. Les quiz parfaits rapportent des boosters.",
+        "cta": "Lancer un quiz"
+      }
+    },
+    "goTo": {
+      "title": "La suite t'attend",
+      "home": "Aux boosters",
+      "collection": "Voir ma collection",
+      "missions": "Voir mes missions",
+      "play": "Aller jouer"
+    },
+    "epic": {
+      "title": "Ta première Épique !",
+      "body": "Une grosse carte pour lancer ton mandat."
+    },
+    "finish": {
+      "title": "Ton mandat est lancé !",
+      "subtitle": "Voilà ce qui t'attend :",
+      "packReady": "Un booster gratuit t'attend déjà",
+      "nextPack": "Prochain booster gratuit dans {{time}}",
+      "streak": "Reviens demain pour faire grandir ta série",
+      "missions": "De nouvelles missions chaque jour",
+      "notifTitle": "Ne rate rien",
+      "notifBody": "On te prévient quand un booster est prêt ou que ta série est en danger. Jamais plus de 2 fois par jour.",
+      "enable": "Activer les rappels",
+      "later": "Pas maintenant",
+      "done": "C'est parti !"
+    },
+    "a11y": {
+      "tourStep": "Tutoriel, étape {{current}} sur {{total}} : {{title}}",
+      "blade": "Indication : glisse le doigt sur le haut du booster pour le déchirer"
+    }
   }
 }
