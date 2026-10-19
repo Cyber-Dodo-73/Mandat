@@ -2,7 +2,9 @@ package com.mandat.api.pack;
 
 import static com.mandat.api.support.GameTestSupport.as;
 import static com.mandat.api.support.GameTestSupport.influence;
+import static com.mandat.api.support.GameTestSupport.ledger;
 import static com.mandat.api.support.GameTestSupport.newUser;
+import static com.mandat.api.support.GameTestSupport.progressionInfluence;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.nullValue;
@@ -13,6 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.jayway.jsonpath.JsonPath;
+import com.mandat.api.common.wallet.WalletSource;
 import com.mandat.api.support.GameTestConfig;
 import com.mandat.api.support.GameTestConfig.FailingPackListener;
 import com.mandat.api.support.GameTestConfig.MutableClock;
@@ -171,12 +174,15 @@ class PackApiTest {
     void stockRunsOutThenBonusBoostersThenTheTimerRefills() throws Exception {
         open(STANDARD, "a").andExpect(status().isOk());
         open(STANDARD, "b").andExpect(status().isOk()).andExpect(jsonPath("$.freePacks.available").value(0));
+        // Progression rewards (level-ups) may have granted bonus boosters: start from none.
+        jdbc.sql("update users set bonus_packs = 0 where id = :id").param("id", user).update();
         open(STANDARD, "c")
                 .andExpect(status().isConflict())
                 .andExpect(jsonPath("$.code").value("no_pack_available"));
 
         jdbc.sql("update users set bonus_packs = 1 where id = :id").param("id", user).update();
-        open(STANDARD, "d").andExpect(status().isOk()).andExpect(jsonPath("$.bonusPacks").value(0));
+        open(STANDARD, "d").andExpect(status().isOk());
+        assertThat(ledger(jdbc, user, "bonus_packs", WalletSource.PACK_OPEN)).isEqualTo(-1);
 
         clock.advance(Duration.ofHours(12));
         mockMvc.perform(get("/api/v1/packs").with(as(user)))
@@ -225,7 +231,9 @@ class PackApiTest {
         List<Boolean> isNew = JsonPath.read(response, "$.cards[*].isNew");
         assertThat(isNew).containsOnly(false);
         assertThat(gained).isPositive();
-        assertThat(influence(jdbc, user)).isEqualTo(gained);
+        assertThat(ledger(jdbc, user, "influence", WalletSource.PACK_DUPLICATES)).isEqualTo(gained);
+        // Progression may add level/achievement rewards on top of the duplicates bonus.
+        assertThat(influence(jdbc, user)).isEqualTo(gained + progressionInfluence(jdbc, user));
     }
 
     @Test

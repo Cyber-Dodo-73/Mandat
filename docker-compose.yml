@@ -34,6 +34,11 @@ services:
       MANDAT_JWT_SECRET: ${MANDAT_JWT_SECRET:?Set MANDAT_JWT_SECRET (at least 32 bytes) in .env}
       MANDAT_APPLE_CLIENT_IDS: ${MANDAT_APPLE_CLIENT_IDS:-fr.cyberdodo.mandat}
       MANDAT_GOOGLE_CLIENT_IDS: ${MANDAT_GOOGLE_CLIENT_IDS:-}
+      # Season catalog and onboarding pack rules, produced by scripts/build-cards into data/.
+      MANDAT_CATALOG_LOCATION: ${MANDAT_CATALOG_LOCATION:-file:/data/cards.season1.json}
+      MANDAT_CATALOG_FIRSTPACKRULESLOCATION: ${MANDAT_CATALOG_FIRSTPACKRULESLOCATION:-file:/data/firstPackRules.json}
+    volumes:
+      - ./data:/data:ro
     ports:
       - "8080:8080"
 

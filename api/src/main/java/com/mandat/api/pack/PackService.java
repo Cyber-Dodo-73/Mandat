@@ -12,7 +12,9 @@ import com.mandat.api.collection.EconomyRules;
 import com.mandat.api.common.error.ApiException;
 import com.mandat.api.common.error.ErrorCode;
 import com.mandat.api.common.events.PackOpenedEvent;
+import com.mandat.api.common.progression.PlayerLevelProvider;
 import com.mandat.api.common.wallet.WalletService;
+import com.mandat.api.common.wallet.WalletSource;
 import com.mandat.api.pack.PackCatalog.PackDefinition;
 import com.mandat.api.pack.draw.CardPool;
 import com.mandat.api.pack.draw.DrawCard;
@@ -168,7 +170,7 @@ public class PackService {
                     result.newCard(), result.newFinish(), bonus));
         }
         if (influence > 0) {
-            walletService.addInfluence(userId, influence);
+            walletService.addInfluence(userId, influence, WalletSource.PACK_DUPLICATES);
         }
         state.recordOpening(draw.pityAfter());
 
@@ -191,7 +193,7 @@ public class PackService {
     private void consumeOneBooster(UUID userId, PackState state, Instant now) {
         if (FreePackTimer.available(state.getFreePacksAnchor(), now) > 0) {
             state.consumeFreePack(FreePackTimer.consume(state.getFreePacksAnchor(), now));
-        } else if (!walletService.consumeBonusPack(userId)) {
+        } else if (!walletService.consumeBonusPack(userId, WalletSource.PACK_OPEN)) {
             throw new ApiException(ErrorCode.NO_PACK_AVAILABLE);
         }
     }
@@ -222,7 +224,7 @@ public class PackService {
 
     private int level(UUID userId) {
         PlayerLevelProvider provider = levelProvider.getIfAvailable();
-        return provider == null ? 1 : provider.level(userId);
+        return provider == null ? 1 : provider.levelOf(userId);
     }
 
     private static FreePacksDto freePacks(PackState state, Instant now) {

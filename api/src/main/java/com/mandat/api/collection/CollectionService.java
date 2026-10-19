@@ -12,6 +12,7 @@ import com.mandat.api.common.error.ErrorCode;
 import com.mandat.api.common.events.CardCraftedEvent;
 import com.mandat.api.common.events.CardsRecycledEvent;
 import com.mandat.api.common.wallet.WalletService;
+import com.mandat.api.common.wallet.WalletSource;
 import java.sql.Timestamp;
 import java.time.Clock;
 import java.time.Instant;
@@ -131,7 +132,7 @@ public class CollectionService {
             throw new ApiException(owned ? ErrorCode.NOT_ENOUGH_DUPLICATES : ErrorCode.CARD_NOT_OWNED);
         }
         int influence = EconomyRules.recycleValue(card.getRarity(), finish, quantity);
-        walletService.addInfluence(userId, influence);
+        walletService.addInfluence(userId, influence, WalletSource.RECYCLE);
         events.publishEvent(new CardsRecycledEvent(userId, cardId, quantity, influence, clock.instant()));
         return new RecycleResponse(cardId, finish, remaining.get(), influence, walletService.balance(userId).influence());
     }
@@ -151,7 +152,7 @@ public class CollectionService {
             throw new ApiException(ErrorCode.CARD_ALREADY_OWNED);
         }
         int cost = EconomyRules.CRAFT_COST.get(card.getRarity());
-        walletService.spendInfluence(userId, cost);
+        walletService.spendInfluence(userId, cost, WalletSource.CRAFT);
         addAll(userId, List.of(new Grant(cardId, CardFinish.STANDARD)));
         events.publishEvent(new CardCraftedEvent(userId, cardId, cost, clock.instant()));
         return new CraftResponse(cardId, CardFinish.STANDARD, cost, walletService.balance(userId).influence());

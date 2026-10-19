@@ -1,6 +1,7 @@
 package com.mandat.api.progression;
 
 import com.mandat.api.common.wallet.WalletService;
+import com.mandat.api.common.wallet.WalletSource;
 import com.mandat.api.progression.Reward.Unlock;
 import com.mandat.api.progression.level.XpService;
 import com.mandat.api.progression.level.XpService.XpGrant;
@@ -29,10 +30,10 @@ public class RewardGranter {
     public Granted grant(UUID userId, Reward reward, String source, Instant now) {
         XpGrant xpGrant = xp.grant(userId, reward.xp(), now);
         if (reward.influence() > 0) {
-            wallet.addInfluence(userId, reward.influence());
+            wallet.addInfluence(userId, reward.influence(), WalletSource.PROGRESSION_REWARD);
         }
         if (reward.bonusPacks() > 0) {
-            wallet.addBonusPacks(userId, reward.bonusPacks());
+            wallet.addBonusPacks(userId, reward.bonusPacks(), WalletSource.PROGRESSION_REWARD);
         }
         for (Unlock unlock : reward.unlocks()) {
             progress.addUnlock(userId, unlock, source, now);

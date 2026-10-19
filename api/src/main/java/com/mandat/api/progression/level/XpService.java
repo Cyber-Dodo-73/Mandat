@@ -2,6 +2,7 @@ package com.mandat.api.progression.level;
 
 import com.mandat.api.common.progression.PlayerLevelProvider;
 import com.mandat.api.common.wallet.WalletService;
+import com.mandat.api.common.wallet.WalletSource;
 import com.mandat.api.progression.PlayerProgress;
 import com.mandat.api.progression.ProgressRepository;
 import com.mandat.api.progression.ProgressionProperties;
@@ -75,10 +76,10 @@ public class XpService implements PlayerLevelProvider {
 
     private void applyLevelReward(UUID userId, int level, Reward reward, Instant now) {
         if (reward.influence() > 0) {
-            wallet.addInfluence(userId, reward.influence());
+            wallet.addInfluence(userId, reward.influence(), WalletSource.LEVEL_REWARD);
         }
         if (reward.bonusPacks() > 0) {
-            wallet.addBonusPacks(userId, reward.bonusPacks());
+            wallet.addBonusPacks(userId, reward.bonusPacks(), WalletSource.LEVEL_REWARD);
         }
         for (Unlock unlock : reward.unlocks()) {
             progress.addUnlock(userId, unlock, "level:" + level, now);

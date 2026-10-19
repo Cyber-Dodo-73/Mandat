@@ -2,7 +2,9 @@ package com.mandat.api.collection;
 
 import static com.mandat.api.support.GameTestSupport.as;
 import static com.mandat.api.support.GameTestSupport.influence;
+import static com.mandat.api.support.GameTestSupport.ledger;
 import static com.mandat.api.support.GameTestSupport.newUser;
+import static com.mandat.api.support.GameTestSupport.progressionInfluence;
 import static com.mandat.api.support.GameTestSupport.setInfluence;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.hasSize;
@@ -11,6 +13,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import com.mandat.api.common.wallet.WalletSource;
 import com.mandat.api.support.GameTestConfig;
 import java.util.UUID;
 import org.junit.jupiter.api.BeforeEach;
@@ -95,12 +98,15 @@ class CollectionApiTest {
         setInfluence(jdbc, user, 250);
         craft(RARE).andExpect(status().isOk())
                 .andExpect(jsonPath("$.finish").value("standard"))
-                .andExpect(jsonPath("$.influenceSpent").value(200))
-                .andExpect(jsonPath("$.influenceBalance").value(50));
+                .andExpect(jsonPath("$.influenceSpent").value(200));
+        // Crafting grants XP: progression rewards may land on top of the remaining 50.
+        assertThat(influence(jdbc, user)).isEqualTo(50 + progressionInfluence(jdbc, user));
         craft(RARE).andExpect(status().isConflict()).andExpect(jsonPath("$.code").value("card_already_owned"));
         craft(COMMON).andExpect(status().isOk());
+        setInfluence(jdbc, user, 10);
         craft("t-012").andExpect(status().isConflict()).andExpect(jsonPath("$.code").value("insufficient_influence"));
         craft("nope").andExpect(status().isNotFound());
+        assertThat(ledger(jdbc, user, "influence", WalletSource.CRAFT)).isEqualTo(-240);
         assertThat(influence(jdbc, user)).isEqualTo(10);
     }
 

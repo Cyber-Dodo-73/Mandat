@@ -435,12 +435,14 @@ class ProgressionIntegrationTest {
         }
 
         @Bean
+        @Primary
         FakeCollectionStats fakeCollectionStats() {
             return new FakeCollectionStats();
         }
 
         /** Card ids "c-<continent>" belong to that continent; everything is rare. */
         @Bean
+        @Primary
         CardInfoProvider fakeCardInfo() {
             Map<String, CardInfo> cache = new HashMap<>();
             return cardId -> Optional.of(cache.computeIfAbsent(cardId,
