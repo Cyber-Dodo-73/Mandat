@@ -87,11 +87,15 @@ describe('filterEntries', () => {
     expect(ids(filterEntries(entries, { ...EMPTY_FILTERS, finishes: ['gold'] }, ''))).toEqual(['s1-003']);
   });
 
-  it('searches FR and EN names, ignoring case and accents', () => {
-    expect(ids(filterEntries(entries, EMPTY_FILTERS, 'elisabeth'))).toEqual(['s1-001']);
-    expect(ids(filterEntries(entries, EMPTY_FILTERS, 'ELIZABETH'))).toEqual(['s1-001']);
+  it('searches owned cards by FR and EN names, ignoring case and accents', () => {
     expect(ids(filterEntries(entries, EMPTY_FILTERS, '  mandela '))).toEqual(['s1-002']);
+    expect(ids(filterEntries(entries, EMPTY_FILTERS, 'MANDELA'))).toEqual(['s1-002']);
     expect(normalizeSearch('Égypte Ñ')).toBe('egypte n');
+  });
+
+  it('never reveals a missing card through a name search', () => {
+    expect(ids(filterEntries(entries, EMPTY_FILTERS, 'elisabeth'))).toEqual([]);
+    expect(ids(filterEntries(entries, EMPTY_FILTERS, 'ELIZABETH'))).toEqual([]);
   });
 });
 

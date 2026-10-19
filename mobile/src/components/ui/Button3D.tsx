@@ -51,8 +51,8 @@ export type Button3DProps = {
 };
 
 /**
- * Duolingo-style button: the face sits on a thick colored edge and sinks into
- * it while pressed, so the edge disappears.
+ * Pressable 3D button: the face sits on a slim colored edge and sinks into it
+ * while pressed, so the edge disappears.
  */
 export function Button3D({
   label,
@@ -166,5 +166,5 @@ const styles = StyleSheet.create({
     borderRadius: radius,
     backgroundColor: 'rgba(255, 255, 255, 0.16)',
   },
-  label: { flexShrink: 1, textTransform: 'uppercase', fontFamily: 'Nunito_900Black', letterSpacing: 0.6 },
+  label: { flexShrink: 1, fontFamily: 'Figtree_700Bold', letterSpacing: 0.2 },
 });

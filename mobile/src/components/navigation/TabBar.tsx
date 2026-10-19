@@ -4,6 +4,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import Animated, { useAnimatedStyle, useSharedValue, withSpring, withTiming } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { Emblem } from '@/components/brand/Brand';
 import { Icon, Text, type IconName } from '@/components/ui';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { haptics } from '@/lib/haptics';
@@ -25,7 +26,7 @@ const HUB_SIZE = 56;
 /** How far the hub rises above the bar; tab screens keep this much extra bottom space. */
 export const TAB_BAR_OVERHANG = 18;
 const INDICATOR_SIZE = 5;
-const HUB_DEPTH = 5;
+const HUB_DEPTH = 3;
 
 export function TabBar({ state, descriptors, emitter, navigateToTab }: BottomTabBarProps) {
   const { colors } = useTheme();
@@ -118,7 +119,7 @@ function TabItem({ label, icon, focused, onPress }: TabProps) {
   );
 }
 
-function HubTab({ label, icon, focused, onPress }: TabProps) {
+function HubTab({ label, focused, onPress }: TabProps) {
   const { colors } = useTheme();
   const reduceMotion = useReduceMotion();
   const sink = useSharedValue(0);
@@ -143,13 +144,15 @@ function HubTab({ label, icon, focused, onPress }: TabProps) {
       style={styles.tab}
     >
       <View style={styles.hubWrap}>
-        <Animated.View style={[styles.hubRing, { borderColor: colors.accent }, ringStyle]} />
-        <View style={[styles.hubEdge, { backgroundColor: colors.accentEdge }]} />
-        <Animated.View style={[styles.hubFace, { backgroundColor: colors.accent }, faceStyle]}>
-          <Icon name={icon} size={26} color={colors.onAccent} />
+        <Animated.View style={[styles.hubRing, { borderColor: colors.gold }, ringStyle]} />
+        <View style={[styles.hubEdge, { backgroundColor: colors.goldEdge }]} />
+        <Animated.View
+          style={[styles.hubFace, { backgroundColor: colors.surfaceRaised, borderColor: colors.gold }, faceStyle]}
+        >
+          <Emblem size={HUB_SIZE - 14} />
         </Animated.View>
       </View>
-      <Text variant="caption" color={focused ? colors.accent : colors.textMuted} numberOfLines={1}>
+      <Text variant="caption" color={focused ? colors.gold : colors.textMuted} numberOfLines={1}>
         {label}
       </Text>
     </Pressable>
@@ -180,6 +183,7 @@ const styles = StyleSheet.create({
     width: HUB_SIZE,
     height: HUB_SIZE,
     borderRadius: HUB_SIZE / 2,
+    borderWidth: StyleSheet.hairlineWidth * 2,
     alignItems: 'center',
     justifyContent: 'center',
   },

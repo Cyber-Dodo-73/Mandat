@@ -43,7 +43,7 @@ export function CollectionScreen() {
   const collection = useCollectionQuery();
   const [search, setSearch] = useState('');
   const [filters, setFilters] = useState<CollectionFilters>(EMPTY_FILTERS);
-  const [sort, setSort] = useState<SortKey>('owned');
+  const [sort, setSort] = useState<SortKey>('number');
   const [sheetOpen, setSheetOpen] = useState(false);
 
   const entries = useMemo(() => buildEntries(allCards, collection.data?.items ?? []), [collection.data]);

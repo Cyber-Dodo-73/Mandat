@@ -1,8 +1,9 @@
 import { memo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import { Emblem } from '@/components/brand/Brand';
 import { seasonSize } from '@/data/catalog';
-import { formatCollectorNumber, monogram, useCardText } from '@/features/collection/cardText';
+import { formatCollectorNumber } from '@/features/collection/cardText';
 import { useTranslation } from '@/i18n';
 import { fontFamilies } from '@/theme';
 import { palettes } from '@/theme/colors';
@@ -10,7 +11,6 @@ import { rarityStyles } from '@/theme/rarity';
 import type { Card } from '@/types/card';
 
 import { cardMetrics, type CardSize } from './cardMetrics';
-import { FlagChip } from './FlagChip';
 
 type CardSilhouetteProps = {
   card: Card;
@@ -19,19 +19,18 @@ type CardSilhouetteProps = {
 };
 
 /**
- * A card the player does not own yet: the same silhouette as a real card (proportional to its
- * width), dimmed, with a faint monogram, its rarity gem, name, flag and collector number, so the
- * gap in the collection says who is missing. The photo is never revealed.
+ * A card the player does not own yet: a sealed card back, proportional to its width, with the
+ * dimmed emblem, a small rarity gem and the collector number only. Who is missing stays a mystery
+ * until the card is pulled (no name, country or portrait).
  */
 export const CardSilhouette = memo(function CardSilhouette({ card, size = 'grid', width }: CardSilhouetteProps) {
   const { t } = useTranslation();
-  const text = useCardText(card);
   const metrics = cardMetrics(size, width);
   const { width: w, height: h, radius, unit } = metrics;
   const colors = palettes.dark;
   const rarity = rarityStyles[card.rarity];
   const inset = metrics.frame;
-  const gem = 16 * unit;
+  const gem = 12 * unit;
 
   return (
     <View
@@ -49,15 +48,13 @@ export const CardSilhouette = memo(function CardSilhouette({ card, size = 'grid'
             right: inset,
             bottom: inset,
             borderRadius: radius * 0.7,
-            borderWidth: Math.max(1, 3 * unit),
-            borderColor: `${rarity.color}55`,
+            borderWidth: Math.max(1, 1.5 * unit),
+            borderColor: `${colors.gold}40`,
             backgroundColor: colors.background,
           },
         ]}
       />
-      <Text allowFontScaling={false} style={[styles.monogram, { fontSize: 96 * unit, lineHeight: 110 * unit, color: `${rarity.color}26` }]}>
-        {monogram(text.name)}
-      </Text>
+      <Emblem size={w * 0.42} style={styles.emblem} />
       <View
         style={[
           styles.gem,
@@ -66,38 +63,26 @@ export const CardSilhouette = memo(function CardSilhouette({ card, size = 'grid'
             right: inset + 10 * unit,
             width: gem,
             height: gem,
-            borderRadius: 3 * unit,
-            backgroundColor: rarity.color,
-            borderColor: rarity.edge,
-            borderWidth: Math.max(0.5, 2 * unit),
+            borderRadius: 2 * unit,
+            backgroundColor: `${rarity.color}B3`,
           },
         ]}
       />
-      <View style={[styles.bottom, { left: inset + 12 * unit, right: inset + 12 * unit, bottom: inset + 12 * unit, gap: 6 * unit }]}>
-        <Text allowFontScaling={false} numberOfLines={2} style={[styles.name, { fontSize: 25 * unit, lineHeight: 29 * unit, color: colors.textMuted }]}>
-          {text.name}
-        </Text>
-        <View style={[styles.meta, { gap: 8 * unit }]}>
-          <View style={styles.flag}>
-            <FlagChip country={card.country} continent={card.continent} height={16 * unit} />
-          </View>
-          <Text allowFontScaling={false} numberOfLines={1} style={[styles.number, { fontSize: 13 * unit, color: colors.textMuted }]}>
-            {formatCollectorNumber(card.number, seasonSize)}
-          </Text>
-        </View>
-      </View>
+      <Text
+        allowFontScaling={false}
+        numberOfLines={1}
+        style={[styles.number, { bottom: inset + 12 * unit, fontSize: 15 * unit, color: colors.textMuted }]}
+      >
+        {formatCollectorNumber(card.number, seasonSize)}
+      </Text>
     </View>
   );
 });
 
 const styles = StyleSheet.create({
   slot: { alignItems: 'center', justifyContent: 'center', overflow: 'hidden' },
-  inner: { position: 'absolute', borderStyle: 'dashed' },
-  monogram: { fontFamily: fontFamilies.displayHeavy, marginTop: '-20%' },
+  inner: { position: 'absolute' },
+  emblem: { opacity: 0.22 },
   gem: { position: 'absolute', transform: [{ rotate: '45deg' }] },
-  bottom: { position: 'absolute' },
-  name: { fontFamily: fontFamilies.displayHeavy },
-  meta: { flexDirection: 'row', alignItems: 'center' },
-  flag: { opacity: 0.7 },
-  number: { fontFamily: fontFamilies.bodySemiBold },
+  number: { position: 'absolute', alignSelf: 'center', fontFamily: fontFamilies.displayBold, letterSpacing: 0.5 },
 });

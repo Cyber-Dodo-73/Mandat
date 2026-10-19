@@ -30,8 +30,7 @@ export function Card({ children, style, raised = false, ...rest }: CardProps) {
 const styles = StyleSheet.create({
   card: {
     borderRadius: radius,
-    borderWidth: 0,
-    borderBottomWidth: 4,
+    borderWidth: StyleSheet.hairlineWidth * 2,
     padding: spacing.md,
     gap: spacing.sm,
   },
