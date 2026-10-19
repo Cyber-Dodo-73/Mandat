@@ -194,6 +194,58 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/friends": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Friends, received requests and sent requests */
+        get: operations["friends"];
+        put?: never;
+        /** Add a friend by friend code: sends a request, or accepts theirs if they asked first */
+        post: operations["addFriend"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/friends/{friendCode}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        /** Remove a friend, cancel a sent request or decline a received one */
+        delete: operations["remove"];
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/friends/{friendCode}/accept": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Accept a friend request received from this player */
+        post: operations["accept"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/me": {
         parameters: {
             query?: never;
@@ -334,6 +386,75 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/profile/me": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** My profile, its visibility and the cosmetics I can pick */
+        get: operations["mine"];
+        /** Replace avatar, banner, title, favorite card, showcase (≤ 6 owned cards) and visibility */
+        put: operations["update"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/profile/me/nickname": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        /** Change my nickname (moderated; first change free, then one every 30 days) */
+        put: operations["changeNickname"];
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/profiles/{friendCode}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** A player's public profile (private profiles: friends only) */
+        get: operations["view"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/profiles/{friendCode}/compare": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Compare collections: cards they have that I don't, and the reverse */
+        get: operations["compare"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/progression": {
         parameters: {
             query?: never;
@@ -345,6 +466,23 @@ export interface paths {
         get: operations["getProgression"];
         put?: never;
         post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/reports": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Report a profile to the moderators (rate-limited, never shown publicly) */
+        post: operations["report"];
         delete?: never;
         options?: never;
         head?: never;
@@ -425,6 +563,21 @@ export interface components {
             /** Format: int32 */
             unlockedCount: number;
         };
+        AchievementsSummary: {
+            recent: string[];
+            /** Format: int32 */
+            total: number;
+            /** Format: int32 */
+            unlocked: number;
+        };
+        AddFriendRequest: {
+            friendCode: string;
+        };
+        AddFriendResponse: {
+            friends: components["schemas"]["FriendsResponse"];
+            /** @enum {string} */
+            result: "requested" | "accepted" | "unchanged";
+        };
         AuthResponse: {
             accessToken: string;
             /** Format: date-time */
@@ -473,6 +626,11 @@ export interface components {
             stats: components["schemas"]["CardStatsDto"];
             wikidataId: string;
         };
+        CardRef: {
+            cardId: string;
+            /** @enum {string} */
+            finish: "standard" | "holo" | "full_art" | "gold";
+        };
         CardStatsDto: {
             /** Format: int32 */
             charisma: number;
@@ -489,6 +647,9 @@ export interface components {
             season: number;
             /** @description Content hash of the seeded catalog file, also sent as the ETag */
             version: string;
+        };
+        ChangeNicknameRequest: {
+            nickname: string;
         };
         ClaimResponse: {
             /** Format: int32 */
@@ -508,6 +669,17 @@ export interface components {
             items: components["schemas"]["OwnedCardDto"][];
             /** Format: int32 */
             totalCopies: number;
+        };
+        CompareEntry: {
+            cardId: string;
+            finishes: ("standard" | "holo" | "full_art" | "gold")[];
+        };
+        CompareResponse: {
+            /** Format: int32 */
+            commonCards: number;
+            friendCode: string;
+            theyHaveYouDont: components["schemas"]["CompareEntry"][];
+            youHaveTheyDont: components["schemas"]["CompareEntry"][];
         };
         CraftResponse: {
             cardId: string;
@@ -565,6 +737,22 @@ export interface components {
              */
             nextAt?: string | null;
         };
+        FriendDto: {
+            avatarId: string;
+            friendCode: string;
+            nickname: string;
+            /** Format: date-time */
+            since: string;
+        };
+        FriendsResponse: {
+            friends: components["schemas"]["FriendDto"][];
+            /** @description Requests other players sent to me */
+            incoming: components["schemas"]["FriendDto"][];
+            /** Format: int32 */
+            maxFriends: number;
+            /** @description Requests I sent, not answered yet */
+            outgoing: components["schemas"]["FriendDto"][];
+        };
         LocalizedText: {
             en: string;
             fr: string;
@@ -619,6 +807,17 @@ export interface components {
             weekly: components["schemas"]["MissionDto"][];
             /** Format: date-time */
             weeklyResetAt: string;
+        };
+        MyProfile: {
+            /**
+             * Format: date-time
+             * @description Next time the nickname can be changed; null = now
+             */
+            nicknameChangeAvailableAt?: string | null;
+            profile: components["schemas"]["PublicProfile"];
+            unlocks: components["schemas"]["Unlocks"];
+            /** @enum {string} */
+            visibility: "public" | "private";
         };
         OddsResponse: {
             /** @description Themed booster: a rarity without any card of the continent is drawn from the whole season */
@@ -694,6 +893,29 @@ export interface components {
             /** Format: int32 */
             legendaryEveryPacks: number;
         };
+        ProfileStats: {
+            /** Format: int32 */
+            bestStreak: number;
+            /**
+             * Format: double
+             * @description Distinct cards owned / cards in the season, 0–100
+             */
+            collectionPercent: number;
+            /** Format: int32 */
+            distinctCards: number;
+            /** Format: int32 */
+            duelWins: number;
+            /** Format: int32 */
+            legendaryCards: number;
+            /** Format: int32 */
+            level: number;
+            /** Format: int32 */
+            mythicCards: number;
+            /** Format: int32 */
+            packsOpened: number;
+            /** Format: int32 */
+            seasonCards: number;
+        };
         ProgressionResponse: {
             /** Format: int32 */
             bestStreak: number;
@@ -732,6 +954,18 @@ export interface components {
              * @description XP earned since the current level was reached
              */
             xpIntoLevel: number;
+        };
+        PublicProfile: {
+            achievements: components["schemas"]["AchievementsSummary"];
+            avatarId: string;
+            bannerId: string;
+            favoriteCard?: components["schemas"]["CardRef"];
+            friend: boolean;
+            friendCode: string;
+            nickname: string;
+            showcase: components["schemas"]["CardRef"][];
+            stats: components["schemas"]["ProfileStats"];
+            titleId?: string | null;
         };
         RarityOddsDto: {
             /**
@@ -775,6 +1009,13 @@ export interface components {
             password: string;
             /** @example Europe/Paris */
             timezone?: string | null;
+        };
+        ReportRequest: {
+            friendCode: string;
+            /** @description Private note for moderators */
+            note?: string | null;
+            /** @enum {string} */
+            reason: "offensive_nickname" | "inappropriate_profile" | "cheating" | "harassment" | "other";
         };
         RewardDto: {
             /** Format: int32 */
@@ -833,6 +1074,20 @@ export interface components {
         UnlockDto: {
             itemId: string;
             kind: string;
+        };
+        Unlocks: {
+            avatars: string[];
+            banners: string[];
+            titles: string[];
+        };
+        UpdateProfileRequest: {
+            avatarId: string;
+            bannerId: string;
+            favoriteCard?: components["schemas"]["CardRef"];
+            showcase: components["schemas"]["CardRef"][];
+            titleId?: string | null;
+            /** @enum {string} */
+            visibility: "public" | "private";
         };
         UpdateSettingsRequest: {
             haptics?: boolean | null;
@@ -1112,6 +1367,94 @@ export interface operations {
             };
         };
     };
+    friends: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["FriendsResponse"];
+                };
+            };
+        };
+    };
+    addFriend: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AddFriendRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AddFriendResponse"];
+                };
+            };
+        };
+    };
+    remove: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                friendCode: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["FriendsResponse"];
+                };
+            };
+        };
+    };
+    accept: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                friendCode: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["FriendsResponse"];
+                };
+            };
+        };
+    };
     getMe: {
         parameters: {
             query?: never;
@@ -1303,6 +1646,118 @@ export interface operations {
             };
         };
     };
+    mine: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MyProfile"];
+                };
+            };
+        };
+    };
+    update: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["UpdateProfileRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MyProfile"];
+                };
+            };
+        };
+    };
+    changeNickname: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ChangeNicknameRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MyProfile"];
+                };
+            };
+        };
+    };
+    view: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                friendCode: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PublicProfile"];
+                };
+            };
+        };
+    };
+    compare: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                friendCode: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompareResponse"];
+                };
+            };
+        };
+    };
     getProgression: {
         parameters: {
             query?: never;
@@ -1320,6 +1775,28 @@ export interface operations {
                 content: {
                     "application/json": components["schemas"]["ProgressionResponse"];
                 };
+            };
+        };
+    };
+    report: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ReportRequest"];
+            };
+        };
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
             };
         };
     };
