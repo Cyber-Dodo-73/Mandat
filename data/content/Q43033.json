@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q43033",
+  "role": {
+    "fr": "Archevêque anglican du Cap (Afrique du Sud)",
+    "en": "Anglican Archbishop of Cape Town, South Africa"
+  },
+  "bio": {
+    "fr": "Secrétaire général du Conseil sud-africain des Églises à partir de 1978, il dénonce l'apartheid et reçoit le prix Nobel de la paix en 1984. Premier archevêque noir du Cap, de 1986 à 1996, il préside ensuite la Commission vérité et réconciliation et popularise l'expression « nation arc-en-ciel ».",
+    "en": "General secretary of the South African Council of Churches from 1978, he campaigned against apartheid and won the Nobel Peace Prize in 1984. The first Black Archbishop of Cape Town, from 1986 to 1996, he went on to chair the Truth and Reconciliation Commission and popularised the phrase 'Rainbow Nation'."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 8,
+    "charisma": 8,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Nation arc-en-ciel",
+      "en": "Rainbow Nation"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si vous êtes mené au score.",
+      "en": "+2 Diplomacy when you are behind on rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

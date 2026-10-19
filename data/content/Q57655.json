@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q57655",
+  "role": {
+    "fr": "Émir de Dubaï et Premier ministre des Émirats arabes unis",
+    "en": "Ruler of Dubai and Prime Minister of the UAE"
+  },
+  "bio": {
+    "fr": "Longtemps chargé de la défense et de l'économie de Dubaï, il en devient l'émir en 2006, tout en étant vice-président et Premier ministre des Émirats arabes unis. Il pilote la transformation de la ville en place financière, touristique et aérienne mondiale. Il est aussi cavalier d'endurance.",
+    "en": "Long in charge of Dubai's defence and economy, he became its ruler in 2006 and at the same time Vice President and Prime Minister of the United Arab Emirates. He drove the city's growth into a global hub for finance, tourism and air travel, and is also a keen endurance rider."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 6,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Cité-vitrine",
+      "en": "Showcase City"
+    },
+    "description": {
+      "fr": "+2 en Influence au round 1.",
+      "en": "+2 Influence in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

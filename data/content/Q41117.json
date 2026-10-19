@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q41117",
+  "role": {
+    "fr": "Dirigeant suprême de la Corée du Nord",
+    "en": "Supreme Leader of North Korea"
+  },
+  "bio": {
+    "fr": "Ancien guérillero contre l'occupant japonais, il est placé au pouvoir par les Soviétiques et fonde la Corée du Nord en 1948. En juin 1950, il envahit le Sud et déclenche la guerre de Corée, qui fait plusieurs millions de morts. Il bâtit un culte de la personnalité, élimine ses rivaux et enferme des centaines de milliers de personnes dans des camps, avant de transmettre le pouvoir à son fils.",
+    "en": "A former guerrilla against Japanese rule, he was installed by the Soviets and founded North Korea in 1948. In June 1950 he invaded the South, starting the Korean War, which killed several million people. He built a personality cult, purged rivals and held hundreds of thousands in prison camps before passing power to his son."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Juche",
+      "en": "Juche"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "-2 Diplomacy to the opposing card if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

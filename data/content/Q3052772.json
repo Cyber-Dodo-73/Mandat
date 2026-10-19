@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q3052772",
+  "role": {
+    "fr": "Président de la République française",
+    "en": "President of the French Republic"
+  },
+  "bio": {
+    "fr": "Banquier d'affaires puis ministre de l'Économie, il fonde le mouvement En Marche et remporte la présidentielle de 2017 à 39 ans, devenant le plus jeune chef d'État de l'histoire de la Ve République. Il est réélu en 2022 face à Marine Le Pen.",
+    "en": "An investment banker who became economy minister, he founded the En Marche movement and won the 2017 presidential election at 39, the youngest head of state in the history of the Fifth Republic. He was re-elected in 2022 against Marine Le Pen."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 7,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "En même temps",
+      "en": "At the Same Time"
+    },
+    "description": {
+      "fr": "Remporte les égalités lors des manches de Diplomatie.",
+      "en": "Wins ties in Diplomacy rounds."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "roundDomain",
+        "value": "diplomacy"
+      }
+    }
+  }
+}

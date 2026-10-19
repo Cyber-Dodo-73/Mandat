@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q34417",
+  "name": {
+    "fr": "Philippe II d'Espagne",
+    "en": "Philip II of Spain"
+  },
+  "role": {
+    "fr": "Roi d'Espagne",
+    "en": "King of Spain"
+  },
+  "bio": {
+    "fr": "Roi d'Espagne de 1556 à 1598 et du Portugal à partir de 1580, il règne sur un empire qui s'étend jusqu'aux Amériques et aux Philippines. Sa flotte participe à la victoire de Lépante en 1571, mais son Invincible Armada échoue contre l'Angleterre en 1588. Il doit aussi affronter la révolte des Pays-Bas.",
+    "en": "King of Spain from 1556 to 1598 and of Portugal from 1580, he ruled an empire stretching to the Americas and the Philippines. His fleet shared in the victory at Lepanto in 1571, but his Armada failed against England in 1588. He also faced a long revolt in the Netherlands."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Empire planétaire",
+      "en": "Worldwide Empire"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient d'un autre continent.",
+      "en": "+2 Influence if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

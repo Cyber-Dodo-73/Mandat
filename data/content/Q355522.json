@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q355522",
+  "role": {
+    "fr": "Chef de la majorité au Sénat des États-Unis",
+    "en": "Majority Leader of the United States Senate"
+  },
+  "bio": {
+    "fr": "Sénateur républicain du Kentucky depuis 1985, il dirige les républicains du Sénat de 2007 à 2025, plus longtemps que tout autre chef de parti dans l'histoire de la chambre. En 2016, il bloque la nomination de Merrick Garland à la Cour suprême, puis fait confirmer trois juges choisis par Donald Trump.",
+    "en": "A Republican senator from Kentucky since 1985, he led his party in the Senate from 2007 to 2025, longer than any other party leader in the chamber's history. In 2016 he blocked Merrick Garland's Supreme Court nomination, then steered three of Donald Trump's justices to confirmation."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 1,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Obstruction",
+      "en": "Obstruction"
+    },
+    "description": {
+      "fr": "-2 dans le domaine de la manche pour la carte adverse si la carte adverse est plus rare.",
+      "en": "The opposing card gets -2 in the round's domain if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

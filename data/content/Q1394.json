@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q1394",
+  "role": {
+    "fr": "Dirigeant de la Russie soviétique",
+    "en": "Leader of Soviet Russia"
+  },
+  "bio": {
+    "fr": "Chef de la faction bolchevique, il prend le pouvoir en Russie lors de la révolution d'Octobre 1917. Il impose un régime de parti unique, remporte la guerre civile au prix de la Terreur rouge et fonde l'Union soviétique en 1922, deux ans avant sa mort.",
+    "en": "Head of the Bolshevik faction, he seized power in Russia in the October Revolution of 1917. He imposed one-party rule, won the civil war at the cost of the Red Terror and founded the Soviet Union in 1922, two years before his death."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 2,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Tout le pouvoir aux soviets",
+      "en": "All Power to the Soviets"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Strategy when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

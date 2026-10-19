@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q38370",
+  "role": {
+    "fr": "Roi d'Angleterre",
+    "en": "King of England"
+  },
+  "bio": {
+    "fr": "Roi de 1509 à 1547, il se marie six fois. Pour faire annuler son union avec Catherine d'Aragon, il rompt avec Rome et se fait reconnaître en 1534 chef suprême de l'Église d'Angleterre, avant de dissoudre les monastères. Deux de ses épouses, Anne Boleyn et Catherine Howard, sont décapitées.",
+    "en": "King from 1509 to 1547, he married six times. To end his marriage to Catherine of Aragon he broke with Rome, had himself named Supreme Head of the Church of England in 1534 and went on to dissolve the monasteries. Two of his wives, Anne Boleyn and Catherine Howard, were beheaded."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 6,
+    "charisma": 8,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Acte de suprématie",
+      "en": "Act of Supremacy"
+    },
+    "description": {
+      "fr": "-2 en Charisme à la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Charisma to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

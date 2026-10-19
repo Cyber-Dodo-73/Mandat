@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q156349",
+  "role": {
+    "fr": "Président de l'Inde",
+    "en": "President of India"
+  },
+  "bio": {
+    "fr": "Philosophe réputé, il enseigne les religions orientales à Oxford et fait connaître la pensée indienne en Occident. Ambassadeur en URSS, il est le premier vice-président de l'Inde de 1952 à 1962, puis président de 1962 à 1967. Son anniversaire, le 5 septembre, est célébré comme la Journée des enseignants.",
+    "en": "A renowned philosopher, he held a chair in Eastern religions at Oxford and introduced Indian thought to Western readers. After serving as ambassador to the Soviet Union, he became India's first vice president from 1952 to 1962 and then president until 1967. His birthday, 5 September, is marked as Teachers' Day."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 8,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Philosophe-président",
+      "en": "Philosopher President"
+    },
+    "description": {
+      "fr": "Remporte les égalités quand le domaine du round est Influence.",
+      "en": "Wins ties when the round's domain is Influence."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "roundDomain",
+        "value": "influence"
+      }
+    }
+  }
+}

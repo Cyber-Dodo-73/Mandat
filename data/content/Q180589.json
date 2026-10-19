@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q180589",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Journaliste puis maire de Londres de 2008 à 2016, il devient la figure de proue de la campagne pour le Brexit. Premier ministre à partir de 2019, il remporte une large majorité aux élections de décembre et fait sortir le Royaume-Uni de l'Union européenne, avant de démissionner en 2022 sur fond de scandales.",
+    "en": "A journalist who became mayor of London from 2008 to 2016, he was the leading face of the Brexit campaign. Prime minister from 2019, he won a large majority that December and took the UK out of the European Union, before resigning in 2022 amid a series of scandals."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 2,
+    "charisma": 7,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Get Brexit Done",
+      "en": "Get Brexit Done"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

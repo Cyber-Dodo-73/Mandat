@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q561837",
+  "role": {
+    "fr": "Président de l'Argentine",
+    "en": "President of Argentina"
+  },
+  "bio": {
+    "fr": "Homme d'affaires et président du club de football Boca Juniors, il dirige ensuite la ville de Buenos Aires de 2007 à 2015. Président de l'Argentine de 2015 à 2019, il libéralise l'économie mais doit solliciter en 2018 un prêt record du FMI. Il est battu par Alberto Fernández en 2019.",
+    "en": "A businessman and president of the Boca Juniors football club, he went on to run the city of Buenos Aires from 2007 to 2015. As president of Argentina from 2015 to 2019, he opened up the economy but had to seek a record IMF loan in 2018. Alberto Fernández defeated him in 2019."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "La Bombonera",
+      "en": "La Bombonera"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse lors de la manche 1.",
+      "en": "-2 Charisma to the opposing card in round 1."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

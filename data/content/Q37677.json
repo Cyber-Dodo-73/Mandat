@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q37677",
+  "role": {
+    "fr": "Président du Paraguay",
+    "en": "President of Paraguay"
+  },
+  "bio": {
+    "fr": "Fils et successeur de Carlos Antonio López, il dirige le Paraguay à partir de 1862. Il entraîne le pays dans la guerre de la Triple-Alliance contre le Brésil, l’Argentine et l’Uruguay, qui coûte au Paraguay une grande partie de sa population, et meurt au combat à Cerro Corá en 1870.",
+    "en": "Son and successor of Carlos Antonio López, he ruled Paraguay from 1862. He led the country into the War of the Triple Alliance against Brazil, Argentina and Uruguay, which cost Paraguay a large share of its population, and was killed in battle at Cerro Corá in 1870."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 7,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Jusqu’au dernier",
+      "en": "To the Last Man"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche si vous êtes mené au score.",
+      "en": "+2 in the round's domain when you are behind in rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

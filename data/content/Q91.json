@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q91",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Avocat autodidacte de l'Illinois, il est élu président en 1860, ce qui précipite la sécession des États du Sud. Il conduit l'Union pendant la guerre de Sécession, proclame l'émancipation des esclaves en 1863 et soutient le 13e amendement qui abolit l'esclavage. Il est assassiné en avril 1865, quelques jours après la reddition confédérée.",
+    "en": "A self-taught Illinois lawyer, he was elected president in 1860, prompting the secession of the Southern states. He led the Union through the Civil War, issued the Emancipation Proclamation in 1863 and pushed for the 13th Amendment abolishing slavery. He was assassinated in April 1865, days after the main Confederate surrender."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 8,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Maison divisée",
+      "en": "House Divided"
+    },
+    "description": {
+      "fr": "Remporte les égalités si vous avez perdu plus de manches que l'adversaire.",
+      "en": "Wins ties when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

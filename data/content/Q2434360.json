@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q2434360",
+  "role": {
+    "fr": "Gouverneur du Minnesota",
+    "en": "Governor of Minnesota"
+  },
+  "bio": {
+    "fr": "Professeur et ancien sous-officier de la Garde nationale, il représente le Minnesota à la Chambre de 2007 à 2019 puis devient gouverneur de l’État. Kamala Harris le choisit comme colistier pour l’élection présidentielle de 2024, perdue face à Donald Trump.",
+    "en": "A schoolteacher and former Army National Guard sergeant, he represented Minnesota in the House from 2007 to 2019 before becoming the state’s governor. Kamala Harris chose him as her running mate in 2024, a race lost to Donald Trump."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 8,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Coach du Midwest",
+      "en": "Midwest Coach"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche lors de la manche 3.",
+      "en": "+2 in the round’s domain in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

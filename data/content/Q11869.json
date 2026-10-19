@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q11869",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Gouverneur du territoire de l'Indiana, il s'illustre contre la confédération de Tecumseh à Tippecanoe en 1811 puis à la bataille de la Thames en 1813. Élu président en 1840 sur le slogan « Tippecanoe and Tyler too », il meurt de maladie 31 jours après son investiture, le plus court mandat de l'histoire américaine.",
+    "en": "Governor of Indiana Territory, he fought Tecumseh's confederacy at Tippecanoe in 1811 and won the Battle of the Thames in 1813. Elected president in 1840 under the slogan Tippecanoe and Tyler Too, he died of illness 31 days after his inauguration, the shortest presidency in US history."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Tippecanoe",
+      "en": "Tippecanoe"
+    },
+    "description": {
+      "fr": "+3 en Stratégie lors de la 1re manche.",
+      "en": "+3 Strategy in the first round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

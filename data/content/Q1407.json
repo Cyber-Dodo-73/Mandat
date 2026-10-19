@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q1407",
+  "role": {
+    "fr": "Empereur romain",
+    "en": "Roman emperor"
+  },
+  "bio": {
+    "fr": "Beau-fils et héritier adoptif d'Auguste, il s'impose d'abord comme général en Germanie et en Pannonie. Empereur de 14 à 37 apr. J.-C., il se retire à Capri à partir de 26, laissant le préfet Séjan gouverner Rome jusqu'à ce qu'il le fasse exécuter en 31.",
+    "en": "Augustus's stepson and adopted heir, he first made his name as a general in Germania and Pannonia. Emperor from AD 14 to 37, he withdrew to Capri in 26, leaving the prefect Sejanus to run Rome until he had him executed in 31."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 2,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Retraite de Capri",
+      "en": "Retreat to Capri"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse est de l'Antiquité.",
+      "en": "Wins ties if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1500",
+  "role": {
+    "fr": "Écrivain et réformiste des Philippines",
+    "en": "Philippine writer and reformist"
+  },
+  "bio": {
+    "fr": "Médecin ophtalmologiste et polyglotte, il dénonce les abus de la colonisation espagnole dans ses romans Noli me tangere (1887) et El filibusterismo (1891). Fondateur de la Liga Filipina, il est exilé à Dapitan, puis fusillé à Manille le 30 décembre 1896. Il est considéré comme le héros national des Philippines.",
+    "en": "An eye doctor and polyglot, he exposed the abuses of Spanish colonial rule in his novels Noli Me Tángere (1887) and El filibusterismo (1891). After founding La Liga Filipina he was exiled to Dapitan, then shot by a firing squad in Manila on 30 December 1896. He is regarded as the national hero of the Philippines."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Noli me tangere",
+      "en": "Noli Me Tángere"
+    },
+    "description": {
+      "fr": "+2 en Charisme au round 3.",
+      "en": "+2 Charisma in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

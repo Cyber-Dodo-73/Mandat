@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q10664",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Ancien chancelier de l'Échiquier, ce conservateur devient Premier ministre en 1937. Partisan de l'apaisement, il signe en 1938 les accords de Munich qui livrent les Sudètes à Hitler, puis déclare la guerre à l'Allemagne en septembre 1939. Fragilisé par l'échec de la campagne de Norvège, il démissionne en mai 1940 et meurt quelques mois plus tard.",
+    "en": "A former Chancellor of the Exchequer, the Conservative became Prime Minister in 1937. Committed to appeasement, he signed the 1938 Munich Agreement that handed the Sudetenland to Hitler, then declared war on Germany in September 1939. Weakened by the failed Norway campaign, he resigned in May 1940 and died later that year."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 10,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "La paix pour notre temps",
+      "en": "Peace for Our Time"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie lors de la 1re manche.",
+      "en": "+3 Diplomacy in the first round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

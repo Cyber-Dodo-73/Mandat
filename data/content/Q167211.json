@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q167211",
+  "role": {
+    "fr": "Président du Pérou",
+    "en": "President of Peru"
+  },
+  "bio": {
+    "fr": "Orateur brillant de l’APRA, il devient président en 1985 à 36 ans, mais son premier mandat finit dans l’hyperinflation et la violence du Sentier lumineux. Réélu en 2006, il préside à une forte croissance, puis se donne la mort en 2019 au moment d’être arrêté dans l’affaire Odebrecht.",
+    "en": "A gifted APRA orator, he became president in 1985 at 36, but his first term ended in hyperinflation amid Shining Path violence. Re-elected in 2006, he oversaw strong growth, and in 2019 he took his own life as police arrived to arrest him in the Odebrecht case."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 10,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Tribun de l’APRA",
+      "en": "APRA Orator"
+    },
+    "description": {
+      "fr": "+3 en Charisme si vous êtes mené au score.",
+      "en": "+3 Charisma when you are behind in rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 3,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q202006",
+  "role": {
+    "fr": "Président du Nigeria",
+    "en": "President of Nigeria"
+  },
+  "bio": {
+    "fr": "Général, il dirige le Nigeria de 1976 à 1979 puis remet le pouvoir aux civils, un geste rare à l'époque. Emprisonné sous Sani Abacha, il est libéré en 1998 et élu président l'année suivante. Il gouverne de 1999 à 2007.",
+    "en": "A general, he ruled Nigeria from 1976 to 1979 and then handed power to civilians, a rare move at the time. Jailed under Sani Abacha, he was freed in 1998 and elected president the following year. He governed from 1999 to 2007."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Retour aux civils",
+      "en": "Return to Civilian Rule"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors de la manche 2.",
+      "en": "+2 Diplomacy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

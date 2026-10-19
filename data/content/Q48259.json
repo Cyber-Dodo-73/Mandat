@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q48259",
+  "role": {
+    "fr": "Vice-président des États-Unis",
+    "en": "Vice President of the United States"
+  },
+  "bio": {
+    "fr": "Chef de cabinet de Gerald Ford puis élu du Wyoming, il est secrétaire à la Défense pendant la guerre du Golfe de 1991. Vice-président de George W. Bush de 2001 à 2009, il est l'un des principaux promoteurs de l'invasion de l'Irak en 2003 et des méthodes d'interrogatoire dites « renforcées ». Il meurt en novembre 2025.",
+    "en": "Gerald Ford's chief of staff and later a congressman from Wyoming, he was defense secretary during the 1991 Gulf War. As George W. Bush's vice president from 2001 to 2009, he was a leading advocate of the 2003 invasion of Iraq and of 'enhanced interrogation' methods. He died in November 2025."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Dans l'ombre",
+      "en": "Behind the Curtain"
+    },
+    "description": {
+      "fr": "-2 en Influence à la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "-2 Influence to the opposing card if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

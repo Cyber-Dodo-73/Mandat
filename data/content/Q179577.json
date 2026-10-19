@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q179577",
+  "role": {
+    "fr": "Sapa Inca de l’Empire inca",
+    "en": "Sapa Inca of the Inca Empire"
+  },
+  "bio": {
+    "fr": "Fils de Huayna Capac, il l’emporte sur son demi-frère Huáscar dans la guerre de succession qui déchire l’empire. Capturé par Francisco Pizarro à Cajamarca en 1532, il fait remplir une salle d’or et d’argent pour sa rançon, mais les Espagnols l’exécutent en 1533.",
+    "en": "A son of Huayna Capac, he defeated his half-brother Huáscar in the succession war that split the empire. Seized by Francisco Pizarro at Cajamarca in 1532, he had a room filled with gold and silver as his ransom, yet the Spaniards executed him in 1533."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 5,
+    "charisma": 8,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Rançon d’or",
+      "en": "Golden Ransom"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "-2 Strategy to the opposing card if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

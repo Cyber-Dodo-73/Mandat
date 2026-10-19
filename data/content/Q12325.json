@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q12325",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Diplomate expérimenté, ambassadeur en Russie puis au Royaume-Uni et secrétaire d'État sous Polk, il est le 15e président de 1857 à 1861. Il soutient l'arrêt Dred Scott et ne parvient pas à empêcher la sécession : sept États du Sud quittent l'Union avant la fin de son mandat. Il est le seul président resté célibataire.",
+    "en": "A seasoned diplomat who had served as minister to Russia and Britain and as Polk's Secretary of State, he was the 15th President from 1857 to 1861. He backed the Dred Scott decision and failed to stop secession, with seven Southern states leaving the Union before his term ended. He is the only president who never married."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 9,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Ministre plénipotentiaire",
+      "en": "Envoy Extraordinary"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse est plus rare.",
+      "en": "+2 Diplomacy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

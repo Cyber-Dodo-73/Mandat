@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q22316",
+  "role": {
+    "fr": "Secrétaire d’État des États-Unis",
+    "en": "United States Secretary of State"
+  },
+  "bio": {
+    "fr": "Vétéran du Viêt Nam devenu opposant à la guerre, il représente le Massachusetts au Sénat de 1985 à 2013 et perd l’élection présidentielle de 2004 face à George W. Bush. Secrétaire d’État de 2013 à 2017, il négocie l’accord sur le nucléaire iranien et s’engage pour l’accord de Paris sur le climat.",
+    "en": "A Vietnam veteran who later campaigned against the war, he sat in the Senate for Massachusetts from 1985 to 2013 and lost the 2004 presidential race to George W. Bush. As Secretary of State from 2013 to 2017 he negotiated the Iran nuclear deal and championed the Paris climate agreement."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 9,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Navette diplomatique",
+      "en": "Shuttle Diplomacy"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d’un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

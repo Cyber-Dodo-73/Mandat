@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q32620",
+  "role": {
+    "fr": "Directrice du renseignement national des États-Unis",
+    "en": "Director of National Intelligence of the United States"
+  },
+  "bio": {
+    "fr": "Née en 1981 aux Samoa américaines et élevée à Hawaï, elle sert dans la Garde nationale et est déployée en Irak. Représentante démocrate d'Hawaï de 2013 à 2021, elle brigue l'investiture présidentielle en 2020 puis quitte le Parti démocrate et rejoint les républicains. Elle est nommée directrice du renseignement national en 2025.",
+    "en": "Born in American Samoa in 1981 and raised in Hawaii, she served in the Army National Guard, including a deployment to Iraq. A Democratic congresswoman from Hawaii from 2013 to 2021, she ran for the presidential nomination in 2020, later left the party and joined the Republicans. She became Director of National Intelligence in 2025."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Renseignement",
+      "en": "Intelligence Brief"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse lors de la 2e manche.",
+      "en": "The opposing card gets -2 Strategy in the second round."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

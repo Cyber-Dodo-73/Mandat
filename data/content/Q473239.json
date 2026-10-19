@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q473239",
+  "role": {
+    "fr": "Secrétaire d’État des États-Unis",
+    "en": "United States Secretary of State"
+  },
+  "bio": {
+    "fr": "Diplômé de West Point et élu du Kansas à la Chambre, il dirige la CIA en 2017-2018 avant de devenir secrétaire d’État jusqu’en 2021. Il mène la politique de « pression maximale » contre l’Iran et accompagne les sommets entre Donald Trump et Kim Jong-un.",
+    "en": "A West Point graduate and Kansas congressman, he ran the CIA in 2017–2018 before serving as Secretary of State until 2021. He drove the “maximum pressure” campaign against Iran and was involved in Donald Trump’s summits with Kim Jong-un."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Pression maximale",
+      "en": "Maximum Pressure"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse lors des manches de Stratégie.",
+      "en": "Opposing card gets -2 Strategy in Strategy rounds."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "strategy"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q6892571",
+  "name": {
+    "fr": "Mohammed ben Salmane",
+    "en": "Mohammed bin Salman"
+  },
+  "role": {
+    "fr": "Prince héritier d'Arabie saoudite",
+    "en": "Crown Prince of Saudi Arabia"
+  },
+  "bio": {
+    "fr": "Fils du roi Salmane, il devient prince héritier en 2017 et Premier ministre en 2022. Il lance le programme Vision 2030 pour diversifier l'économie et autorise les femmes à conduire en 2018, tout en réprimant ses opposants. En tant que ministre de la Défense, il engage le pays au Yémen dès 2015, et le renseignement américain estime qu'il a approuvé l'opération qui a tué le journaliste Jamal Khashoggi en 2018, ce qu'il nie.",
+    "en": "A son of King Salman, he became Crown Prince in 2017 and Prime Minister in 2022. He launched the Vision 2030 plan to diversify the economy and let women drive from 2018, while cracking down on dissent. As defence minister he took the kingdom to war in Yemen in 2015, and US intelligence concluded he approved the 2018 operation that killed journalist Jamal Khashoggi, which he denies."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Vision 2030",
+      "en": "Vision 2030"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la 3e manche.",
+      "en": "+2 Influence in the third round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q83396",
+  "role": {
+    "fr": "Première dame des États-Unis",
+    "en": "First Lady of the United States"
+  },
+  "bio": {
+    "fr": "Épouse de Franklin D. Roosevelt, elle est Première dame de 1933 à 1945 et transforme ce rôle en tenant conférences de presse et chronique quotidienne. Déléguée américaine aux Nations unies après la guerre, elle préside la Commission des droits de l'homme qui rédige la Déclaration universelle adoptée en 1948.",
+    "en": "Wife of Franklin D. Roosevelt and First Lady from 1933 to 1945, she remade the role with her own press conferences and a daily newspaper column. As a US delegate to the United Nations after the war, she chaired the Human Rights Commission that drafted the Universal Declaration of Human Rights, adopted in 1948."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Déclaration universelle",
+      "en": "Universal Declaration"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q8023",
+  "role": {
+    "fr": "Président de l'Afrique du Sud",
+    "en": "President of South Africa"
+  },
+  "bio": {
+    "fr": "Avocat et dirigeant de l'ANC, il combat le régime d'apartheid et passe 27 ans en prison. Libéré en 1990, il négocie la fin de la ségrégation, reçoit le prix Nobel de la paix en 1993 et devient l'année suivante le premier président élu au suffrage universel.",
+    "en": "A lawyer and ANC leader, he fought the apartheid regime and spent 27 years in prison. Released in 1990, he negotiated the end of segregation, shared the 1993 Nobel Peace Prize and the next year became the country's first president elected by universal suffrage."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 8,
+    "charisma": 7,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Réconciliation",
+      "en": "Reconciliation"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient du même continent.",
+      "en": "+2 Diplomacy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

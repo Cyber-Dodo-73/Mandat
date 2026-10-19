@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q58833335",
+  "role": {
+    "fr": "Président de l'Assemblée nationale du Venezuela",
+    "en": "President of the National Assembly of Venezuela"
+  },
+  "bio": {
+    "fr": "Ingénieur et député d'opposition, il prend la tête de l'Assemblée nationale du Venezuela en janvier 2019 et se proclame président par intérim face à Nicolás Maduro. Reconnu par une soixantaine de pays dont les États-Unis, il ne parvient pas à prendre le contrôle de l'État. L'opposition dissout son gouvernement intérimaire fin 2022 et il s'exile en 2023.",
+    "en": "An engineer and opposition lawmaker, he took over Venezuela's National Assembly in January 2019 and declared himself interim president in a challenge to Nicolás Maduro. Recognised by around sixty countries including the United States, he never gained control of the state. The opposition dissolved his interim government at the end of 2022 and he went into exile in 2023."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Reconnaissance internationale",
+      "en": "International Recognition"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient d'un autre continent.",
+      "en": "+2 Influence if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

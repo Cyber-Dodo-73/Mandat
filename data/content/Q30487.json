@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q30487",
+  "role": {
+    "fr": "Président de l'Union soviétique",
+    "en": "President of the Soviet Union"
+  },
+  "bio": {
+    "fr": "Arrivé à la tête de l'URSS en 1985, il lance la perestroïka et la glasnost pour réformer un système à bout de souffle. Il négocie le désarmement avec les États-Unis et laisse tomber le rideau de fer sans intervenir, ce qui lui vaut le prix Nobel de la paix en 1990. L'Union soviétique se dissout en décembre 1991.",
+    "en": "He took charge of the USSR in 1985 and launched perestroika and glasnost to reform an exhausted system. He negotiated disarmament with the United States and let the Iron Curtain fall without intervening, earning the 1990 Nobel Peace Prize. The Soviet Union dissolved in December 1991."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 3,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Perestroïka",
+      "en": "Perestroika"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie si la carte adverse est plus rare.",
+      "en": "+3 Diplomacy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

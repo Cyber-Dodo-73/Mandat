@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q43274",
+  "role": {
+    "fr": "Roi du Royaume-Uni",
+    "en": "King of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Héritier du trône pendant plus de soixante-dix ans, un record, il s'engage très tôt pour l'environnement et l'architecture. Il succède à sa mère Élisabeth II en septembre 2022 et est couronné à Westminster en mai 2023.",
+    "en": "Heir to the throne for more than seventy years, a record, he championed environmental and architectural causes long before it was common. He succeeded his mother Elizabeth II in September 2022 and was crowned at Westminster in May 2023."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Longue patience",
+      "en": "Long Wait"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche lors de la 3e manche.",
+      "en": "+2 in the round's domain in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

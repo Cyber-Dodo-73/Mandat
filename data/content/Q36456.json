@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q36456",
+  "role": {
+    "fr": "Général de Carthage",
+    "en": "General of Carthage"
+  },
+  "bio": {
+    "fr": "Général carthaginois, il traverse les Alpes avec son armée et ses éléphants en 218 av. J.-C. pour envahir l'Italie. Il écrase les Romains à Cannes en 216 av. J.-C., mais est battu à Zama en 202 av. J.-C. Devenu magistrat suprême de Carthage, il finit sa vie en exil et s'empoisonne pour échapper aux Romains.",
+    "en": "A Carthaginian general, he crossed the Alps with his army and elephants in 218 BC to invade Italy. He crushed the Romans at Cannae in 216 BC but was defeated at Zama in 202 BC. Later Carthage's chief magistrate, he died in exile, taking poison to avoid capture by Rome."
+  },
+  "stats": {
+    "influence": 2,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Traversée des Alpes",
+      "en": "Crossing the Alps"
+    },
+    "description": {
+      "fr": "+3 en Stratégie si la carte adverse est de l'Antiquité.",
+      "en": "+3 Strategy if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

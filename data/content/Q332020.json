@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q332020",
+  "role": {
+    "fr": "Président de la Colombie",
+    "en": "President of Colombia"
+  },
+  "bio": {
+    "fr": "Élu en 1990 après l’assassinat du candidat Luis Carlos Galán, dont il dirigeait la campagne, il fait adopter la Constitution de 1991. Son mandat est marqué par la traque de Pablo Escobar, abattu en 1993, puis il devient secrétaire général de l’Organisation des États américains.",
+    "en": "Elected in 1990 after the assassination of Luis Carlos Galán, whose campaign he had been running, he oversaw the adoption of the 1991 Constitution. His term was dominated by the hunt for Pablo Escobar, killed in 1993, after which he became Secretary General of the Organization of American States."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Constituante",
+      "en": "Constituent Assembly"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si vous êtes mené au score.",
+      "en": "+2 Diplomacy when you are behind in rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

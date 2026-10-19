@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q39524",
+  "role": {
+    "fr": "Président de l'Égypte",
+    "en": "President of Egypt"
+  },
+  "bio": {
+    "fr": "Meneur des Officiers libres qui renversent le roi Farouk en 1952, il préside l'Égypte de 1956 à sa mort en 1970. Il nationalise le canal de Suez en 1956, fait construire le haut barrage d'Assouan et porte le panarabisme, notamment avec la République arabe unie formée avec la Syrie. La défaite de la guerre des Six Jours en 1967 ébranle son prestige.",
+    "en": "A leader of the Free Officers who toppled King Farouk in 1952, he was Egypt's president from 1956 until his death in 1970. He nationalized the Suez Canal in 1956, built the Aswan High Dam and championed pan-Arabism, including the short-lived United Arab Republic with Syria. Defeat in the 1967 Six-Day War badly damaged his standing."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 6,
+    "charisma": 9,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Canal de Suez",
+      "en": "Suez Canal"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "The opposing card gets -2 Influence if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

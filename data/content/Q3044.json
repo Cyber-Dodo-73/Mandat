@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q3044",
+  "role": {
+    "fr": "Roi des Francs et empereur d'Occident",
+    "en": "King of the Franks and Emperor of the West"
+  },
+  "bio": {
+    "fr": "Roi des Francs à partir de 768, il soumet le royaume lombard, mène plus de trente ans de campagnes contre les Saxons et étend son autorité sur une grande partie de l'Europe occidentale. Le pape Léon III le couronne empereur à Rome le jour de Noël 800. Sa cour d'Aix-la-Chapelle encourage l'enseignement et la copie des manuscrits.",
+    "en": "King of the Franks from 768, he conquered the Lombard kingdom, fought the Saxons for over thirty years and brought much of western Europe under his rule. Pope Leo III crowned him emperor in Rome on Christmas Day 800. His court at Aachen promoted schooling and the copying of manuscripts."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Renouveau impérial",
+      "en": "Imperial Revival"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est de l'Antiquité.",
+      "en": "+2 Influence if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

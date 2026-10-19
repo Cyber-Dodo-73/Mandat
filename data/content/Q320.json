@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q320",
+  "role": {
+    "fr": "Présidente du Chili",
+    "en": "President of Chile"
+  },
+  "bio": {
+    "fr": "Médecin, elle est détenue et torturée sous la dictature de Pinochet avant de partir en exil. Première femme présidente du Chili, elle gouverne de 2006 à 2010 puis de 2014 à 2018. Elle dirige aussi ONU Femmes, puis le Haut-Commissariat des Nations unies aux droits de l'homme de 2018 à 2022.",
+    "en": "A physician, she was detained and tortured under the Pinochet dictatorship before going into exile. Chile's first female president, she served from 2006 to 2010 and again from 2014 to 2018. She also headed UN Women and later served as UN High Commissioner for Human Rights from 2018 to 2022."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 8,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "ONU Femmes",
+      "en": "UN Women"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Diplomacy if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

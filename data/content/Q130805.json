@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q130805",
+  "name": {
+    "fr": "George Ier",
+    "en": "George I of Great Britain"
+  },
+  "role": {
+    "fr": "Roi de Grande-Bretagne",
+    "en": "King of Great Britain"
+  },
+  "bio": {
+    "fr": "Électeur de Hanovre, il hérite de la couronne britannique en 1714 en tant que plus proche héritier protestant désigné par l'Acte d'établissement. Premier roi de la maison de Hanovre, il fait face au soulèvement jacobite de 1715. Son règne voit grandir le rôle du cabinet et de Robert Walpole, souvent considéré comme le premier Premier ministre.",
+    "en": "Elector of Hanover, he inherited the British crown in 1714 as the nearest Protestant heir under the Act of Settlement. The first Hanoverian king, he saw off the Jacobite rising of 1715. His reign saw the cabinet grow in power, along with Robert Walpole, often regarded as the first prime minister."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 8,
+    "charisma": 4,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Acte d'établissement",
+      "en": "Act of Settlement"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est plus rare.",
+      "en": "+2 Influence if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q548733",
+  "role": {
+    "fr": "Roi de Thaïlande",
+    "en": "King of Thailand"
+  },
+  "bio": {
+    "fr": "Fils unique du roi Bhumibol Adulyadej, Maha Vajiralongkorn monte sur le trône à la mort de son père en 2016 et est couronné sous le nom de Rama X en 2019. Dixième souverain de la dynastie Chakri, il règne sur un pays où la loi de lèse-majesté est parmi les plus sévères au monde.",
+    "en": "The only son of King Bhumibol Adulyadej, Maha Vajiralongkorn succeeded his father in 2016 and was crowned as Rama X in 2019. The tenth monarch of the Chakri dynasty, he reigns over a country with one of the world's strictest lese-majesty laws."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Dynastie Chakri",
+      "en": "Chakri Dynasty"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse vient d'un autre continent.",
+      "en": "Wins ties if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

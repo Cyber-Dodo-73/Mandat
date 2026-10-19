@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q57641",
+  "role": {
+    "fr": "Premier ministre de Hongrie",
+    "en": "Prime Minister of Hungary"
+  },
+  "bio": {
+    "fr": "Jeune leader étudiant anticommuniste, il se fait connaître en 1989 en réclamant le départ des troupes soviétiques. Fondateur du Fidesz, il est Premier ministre de 1998 à 2002, puis de nouveau à partir de 2010. Il revendique une « démocratie illibérale » et s'oppose régulièrement à l'Union européenne sur l'État de droit et les migrations.",
+    "en": "A young anti-communist student leader, he made his name in 1989 by demanding the withdrawal of Soviet troops. A founder of Fidesz, he was prime minister from 1998 to 2002 and again from 2010. He has championed what he calls 'illiberal democracy' and repeatedly clashed with the European Union over the rule of law and migration."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Démocratie illibérale",
+      "en": "Illiberal Democracy"
+    },
+    "description": {
+      "fr": "-1 en Diplomatie pour la carte adverse en permanence.",
+      "en": "-1 Diplomacy to the opposing card at all times."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

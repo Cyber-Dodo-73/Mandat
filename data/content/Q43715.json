@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q43715",
+  "role": {
+    "fr": "Voïvode de Valachie",
+    "en": "Voivode of Wallachia"
+  },
+  "bio": {
+    "fr": "Prince de Valachie à plusieurs reprises entre 1448 et 1476, il combat l'Empire ottoman et ses rivaux boyards. Il est réputé pour la cruauté de ses châtiments, notamment le supplice du pal infligé à des milliers de prisonniers. Son surnom de Dracula a inspiré le vampire du roman de Bram Stoker.",
+    "en": "Prince of Wallachia several times between 1448 and 1476, he fought the Ottoman Empire and rival boyars. He was notorious for his cruel punishments, above all impaling thousands of prisoners. His nickname Dracula inspired the vampire of Bram Stoker's novel."
+  },
+  "stats": {
+    "influence": 2,
+    "diplomacy": 1,
+    "charisma": 4,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Attaque nocturne",
+      "en": "Night Attack"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse lors de la manche 2.",
+      "en": "-2 Strategy to the opposing card in round 2."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

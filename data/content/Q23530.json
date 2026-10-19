@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q23530",
+  "role": {
+    "fr": "Président de la Russie",
+    "en": "President of Russia"
+  },
+  "bio": {
+    "fr": "Juriste de Saint-Pétersbourg et proche collaborateur de Vladimir Poutine, il préside le conseil d'administration de Gazprom avant d'être élu président de la Russie en 2008. Son mandat est marqué par la guerre contre la Géorgie la même année. Il occupe ensuite le poste de Premier ministre de 2012 à 2020, puis devient vice-président du Conseil de sécurité.",
+    "en": "A St Petersburg lawyer and close associate of Vladimir Putin, he chaired Gazprom's board before winning the Russian presidency in 2008. His term saw the war with Georgia that same year. He then served as prime minister from 2012 to 2020 before becoming deputy chairman of the Security Council."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 8,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Tandem",
+      "en": "Tandem"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors de la manche 2.",
+      "en": "+2 Diplomacy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

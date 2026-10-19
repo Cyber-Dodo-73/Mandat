@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q57783",
+  "role": {
+    "fr": "Premier ministre de Nouvelle-Zélande",
+    "en": "Prime Minister of New Zealand"
+  },
+  "bio": {
+    "fr": "Ancien cambiste chez Merrill Lynch, il prend la tête du Parti national et devient Premier ministre en 2008. Il gère la crise financière et la reconstruction après les séismes de Christchurch, organise deux référendums sur le drapeau, puis démissionne par surprise en 2016.",
+    "en": "A former currency trader at Merrill Lynch, he took over the National Party and became prime minister in 2008. He steered the country through the financial crisis and the rebuilding after the Christchurch earthquakes, held two referendums on the flag, and stepped down unexpectedly in 2016."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 4,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Sourire du cambiste",
+      "en": "Trader's Smile"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie contre une carte de l'époque contemporaine.",
+      "en": "+2 Diplomacy against a Contemporary card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

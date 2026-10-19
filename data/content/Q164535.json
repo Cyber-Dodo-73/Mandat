@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q164535",
+  "role": {
+    "fr": "Président du Zaïre",
+    "en": "President of Zaire"
+  },
+  "bio": {
+    "fr": "Officier de l'armée congolaise, il s'empare du pouvoir par un coup d'État en 1965 et rebaptise le pays Zaïre en 1971. Son régime de parti unique, marqué par le culte de la personnalité et un détournement massif des richesses nationales, dure plus de trente ans. Chassé en 1997 par la rébellion de Laurent-Désiré Kabila, il meurt en exil au Maroc la même année.",
+    "en": "An officer in the Congolese army, he seized power in a 1965 coup and renamed the country Zaire in 1971. His one-party rule, built on a personality cult and the large-scale plunder of national wealth, lasted more than three decades. Driven out in 1997 by Laurent-Désiré Kabila's rebellion, he died in exile in Morocco that same year."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Toque de léopard",
+      "en": "Leopard-Skin Hat"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la manche 1.",
+      "en": "+2 Influence in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

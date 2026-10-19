@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q192",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Chef du Parti conservateur à partir de 2005, il devient Premier ministre en 2010, d'abord en coalition avec les libéraux-démocrates. Il organise en 2016 le référendum sur l'appartenance à l'Union européenne et démissionne après la victoire du « Leave ». Il revient au gouvernement comme ministre des Affaires étrangères de 2023 à 2024.",
+    "en": "Conservative leader from 2005, he became Prime Minister in 2010, at first in coalition with the Liberal Democrats. He called the 2016 referendum on EU membership and resigned after Leave won. He returned to government as Foreign Secretary from 2023 to 2024."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 4,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Pari du référendum",
+      "en": "Referendum Gamble"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse est de l'époque contemporaine.",
+      "en": "Wins ties if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

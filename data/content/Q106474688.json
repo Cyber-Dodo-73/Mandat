@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q106474688",
+  "role": {
+    "fr": "Présidente du Pérou",
+    "en": "President of Peru"
+  },
+  "bio": {
+    "fr": "Avocate et vice-présidente de Pedro Castillo, elle lui succède en décembre 2022 après sa tentative de dissolution du Congrès. La répression des manifestations qui suivent fait des dizaines de morts, et sa présidence très impopulaire s’achève par sa destitution par le Congrès en 2025.",
+    "en": "A lawyer serving as Pedro Castillo's vice president, she replaced him in December 2022 after his attempt to dissolve Congress. The crackdown on the ensuing protests left dozens dead, and her deeply unpopular presidency ended when Congress removed her in 2025."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Succession constitutionnelle",
+      "en": "Constitutional Succession"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité lors de la manche 3.",
+      "en": "Wins tied rounds in round 3."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

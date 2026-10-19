@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q11881",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Élu vice-président avec Harrison en 1840, il est le premier à accéder à la présidence à la mort du titulaire, en 1841, et impose d'en exercer tous les pouvoirs. Exclu par les whigs après plusieurs vetos, il obtient en 1845 l'annexion du Texas. Rallié à la Confédération, il meurt en 1862.",
+    "en": "Elected vice president alongside Harrison in 1840, he became the first to inherit the presidency on the incumbent's death in 1841, insisting on wielding its full powers. Expelled by the Whigs after a string of vetoes, he secured the annexation of Texas in 1845. He later sided with the Confederacy and died in 1862."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 3,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Précédent Tyler",
+      "en": "Tyler Precedent"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la 2e manche.",
+      "en": "+2 Influence in the second round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

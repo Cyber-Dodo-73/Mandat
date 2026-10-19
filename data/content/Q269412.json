@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q269412",
+  "role": {
+    "fr": "Roi du Royaume-Uni",
+    "en": "King of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Roi de 1910 à 1936, il règne sur l'Empire britannique durant la Première Guerre mondiale. En 1917, face au sentiment antiallemand, il renomme la maison royale en maison de Windsor. Son règne voit aussi l'indépendance de l'Irlande et l'arrivée des travaillistes au gouvernement.",
+    "en": "King from 1910 to 1936, he reigned over the British Empire through the First World War. In 1917, amid anti-German feeling, he renamed the royal house the House of Windsor. His reign also saw Irish independence and the first Labour governments."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Maison de Windsor",
+      "en": "House of Windsor"
+    },
+    "description": {
+      "fr": "+2 en Stratégie contre une carte de l'époque contemporaine.",
+      "en": "+2 Strategy against a Contemporary-era card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

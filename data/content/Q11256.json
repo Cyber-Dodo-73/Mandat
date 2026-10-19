@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q11256",
+  "role": {
+    "fr": "Président de Cuba",
+    "en": "President of Cuba"
+  },
+  "bio": {
+    "fr": "Avocat devenu chef de guérilla, il renverse le dictateur Fulgencio Batista en 1959 et dirige Cuba pendant près de cinquante ans. Il instaure un État communiste à parti unique allié de l'URSS, emprisonne ou pousse à l'exil de nombreux opposants et résiste au débarquement de la baie des Cochons comme à l'embargo américain.",
+    "en": "A lawyer turned guerrilla leader, he overthrew the dictator Fulgencio Batista in 1959 and ruled Cuba for nearly fifty years. He built a one-party communist state allied with the USSR, jailing or driving into exile many opponents, and withstood both the Bay of Pigs invasion and the US embargo."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Discours fleuve",
+      "en": "Marathon Speech"
+    },
+    "description": {
+      "fr": "+3 en Charisme lors de la 3e manche.",
+      "en": "+3 Charisma in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q7173106",
+  "role": {
+    "fr": "Secrétaire aux Transports des États-Unis",
+    "en": "United States Secretary of Transportation"
+  },
+  "bio": {
+    "fr": "Maire de South Bend, dans l’Indiana, de 2012 à 2020, il se fait connaître lors des primaires démocrates de 2020. Secrétaire aux Transports de 2021 à 2025 sous Joe Biden, il est le premier membre ouvertement gay d’un cabinet confirmé par le Sénat.",
+    "en": "Mayor of South Bend, Indiana, from 2012 to 2020, he rose to national prominence in the 2020 Democratic primaries. As Joe Biden’s Transportation Secretary from 2021 to 2025, he was the first openly gay cabinet member confirmed by the Senate."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 9,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Débatteur hors pair",
+      "en": "Master Debater"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est plus rare.",
+      "en": "+2 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

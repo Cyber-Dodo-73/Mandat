@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q367825",
+  "role": {
+    "fr": "Roi d'Arabie saoudite",
+    "en": "King of Saudi Arabia"
+  },
+  "bio": {
+    "fr": "Fils du fondateur du royaume, il est gouverneur de la province de Riyad pendant près de cinquante ans. Il devient roi d'Arabie saoudite en 2015. En 2017, il nomme son fils Mohammed ben Salmane prince héritier, lui confiant l'essentiel du pouvoir.",
+    "en": "A son of the kingdom's founder, he governed Riyadh province for almost fifty years. He became King of Saudi Arabia in 2015. In 2017 he named his son Mohammed bin Salman crown prince, handing him most of the day-to-day power."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 2,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Gardien des Lieux saints",
+      "en": "Custodian of the Holy Mosques"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la manche 1.",
+      "en": "+2 Influence in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

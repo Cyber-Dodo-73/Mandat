@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q184650",
+  "role": {
+    "fr": "Secrétaire à la Défense des États-Unis",
+    "en": "United States Secretary of Defense"
+  },
+  "bio": {
+    "fr": "Secrétaire à la Défense une première fois sous Gerald Ford, puis de 2001 à 2006 sous George W. Bush, il conduit les guerres d’Afghanistan et d’Irak. Son second mandat est entaché par le scandale des tortures de la prison d’Abou Ghraib. Entre-temps, il dirige de grandes entreprises privées.",
+    "en": "Secretary of Defense first under Gerald Ford and again from 2001 to 2006 under George W. Bush, he led the wars in Afghanistan and Iraq. His second tenure was tarnished by the torture scandal at Abu Ghraib prison. In between, he ran major private companies."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Inconnues inconnues",
+      "en": "Unknown Unknowns"
+    },
+    "description": {
+      "fr": "-1 en Stratégie pour la carte adverse.",
+      "en": "Opposing card gets -1 Strategy."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q134160",
+  "role": {
+    "fr": "Libérateur de l'Argentine, du Chili et du Pérou",
+    "en": "Liberator of Argentina, Chile and Peru"
+  },
+  "bio": {
+    "fr": "Officier formé dans l'armée espagnole, il rejoint la lutte pour l'indépendance de l'Amérique du Sud en 1812. En 1817, il franchit les Andes avec l'armée des Andes et libère le Chili, puis proclame l'indépendance du Pérou à Lima en 1821, dont il devient le Protecteur. Après son entrevue avec Bolívar en 1822, il se retire et finit sa vie en France.",
+    "en": "An officer trained in the Spanish army, he joined South America's fight for independence in 1812. In 1817 he crossed the Andes with the Army of the Andes and freed Chile, then proclaimed Peru's independence in Lima in 1821 and became its Protector. After meeting Bolívar in 1822 he withdrew and spent his last years in France."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 6,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Traversée des Andes",
+      "en": "Crossing of the Andes"
+    },
+    "description": {
+      "fr": "+2 en Stratégie lors de la manche 2.",
+      "en": "+2 Strategy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

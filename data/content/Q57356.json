@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q57356",
+  "role": {
+    "fr": "Président de la Gambie",
+    "en": "President of the Gambia"
+  },
+  "bio": {
+    "fr": "Jeune lieutenant, il prend le pouvoir par un coup d’État en 1994 et gouverne la Gambie pendant 22 ans par la peur, avec disparitions et tortures d’opposants. Battu par Adama Barrow en 2016, il refuse d’abord sa défaite puis s’exile en Guinée équatoriale en 2017 sous la pression de la CEDEAO.",
+    "en": "A young lieutenant, he seized power in a 1994 coup and ruled the Gambia for 22 years through fear, with opponents disappeared and tortured. Defeated by Adama Barrow in 2016, he first refused to concede, then left for exile in Equatorial Guinea in 2017 under pressure from West African troops."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 4,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Coup de 1994",
+      "en": "1994 Coup"
+    },
+    "description": {
+      "fr": "+3 en Stratégie lors de la manche 1.",
+      "en": "+3 Strategy in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

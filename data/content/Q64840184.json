@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q64840184",
+  "role": {
+    "fr": "Président du Guyana",
+    "en": "President of Guyana"
+  },
+  "bio": {
+    "fr": "Urbaniste de formation et ancien ministre du Logement, il devient président en 2020 après une longue bataille électorale. Il gère l’arrivée massive de revenus pétroliers offshore et défend la région de l’Essequibo face aux revendications du Venezuela, avant d’être réélu en 2025.",
+    "en": "A trained urban planner and former housing minister, he became president in 2020 after a drawn-out election dispute. He has managed the influx of offshore oil revenue and defended the Essequibo region against Venezuela's claims, winning re-election in 2025."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 5,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Défense de l’Essequibo",
+      "en": "Essequibo Defence"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Diplomacy to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

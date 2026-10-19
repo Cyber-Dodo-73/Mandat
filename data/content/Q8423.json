@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q8423",
+  "name": {
+    "fr": "Cyrus le Grand",
+    "en": "Cyrus the Great"
+  },
+  "role": {
+    "fr": "Roi de l'Empire perse achéménide",
+    "en": "King of the Achaemenid Persian Empire"
+  },
+  "bio": {
+    "fr": "Fondateur de l'Empire achéménide, il soumet les Mèdes, la Lydie puis Babylone en 539 av. J.-C., bâtissant le plus vaste empire connu à son époque. Il laisse les peuples conquis conserver leurs cultes et permet aux Juifs déportés à Babylone de rentrer à Jérusalem. Le cylindre de Cyrus garde la trace de cette politique.",
+    "en": "Founder of the Achaemenid Empire, he conquered the Medes, Lydia and then Babylon in 539 BC, building the largest empire the world had yet seen. He let conquered peoples keep their religions and allowed the Jews exiled in Babylon to return to Jerusalem. The Cyrus Cylinder records this policy."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 3,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Cylindre de Cyrus",
+      "en": "Cyrus Cylinder"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

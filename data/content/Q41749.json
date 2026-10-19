@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q41749",
+  "role": {
+    "fr": "Ministre de la Propagande du Reich",
+    "en": "Reich Minister of Propaganda of Nazi Germany"
+  },
+  "bio": {
+    "fr": "Ministre de la Propagande de 1933 à 1945, il contrôle la presse, la radio et le cinéma au service du régime nazi. Il attise la haine antisémite, orchestre le pogrom de la Nuit de cristal en novembre 1938 et soutient la persécution qui aboutit à la Shoah, l'assassinat de six millions de Juifs. En mai 1945, dans le bunker de Berlin, il fait tuer ses six enfants avant de se suicider avec sa femme.",
+    "en": "Propaganda minister from 1933 to 1945, he controlled the press, radio and cinema on behalf of the Nazi regime. He stoked antisemitic hatred, orchestrated the Kristallnacht pogrom of November 1938 and drove the persecution that culminated in the Holocaust, the murder of six million Jews. In May 1945, in the Berlin bunker, he had his six children killed before he and his wife took their own lives."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 2,
+    "charisma": 7,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Propagande",
+      "en": "Propaganda"
+    },
+    "description": {
+      "fr": "-2 en Charisme à la carte adverse lors de la deuxième manche.",
+      "en": "-2 Charisma to the opposing card in the second round."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

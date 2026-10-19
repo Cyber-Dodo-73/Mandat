@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q9559",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Successeur de Margaret Thatcher, ce conservateur est Premier ministre de 1990 à 1997 et remporte l'élection de 1992. Il négocie le traité de Maastricht avec des dérogations, subit la sortie de la livre du SME lors du « mercredi noir » et pose les bases du processus de paix en Irlande du Nord. Il est battu en 1997 par Tony Blair.",
+    "en": "Succeeding Margaret Thatcher, the Conservative was Prime Minister from 1990 to 1997, winning the 1992 election. He negotiated the Maastricht Treaty with opt-outs, endured sterling's exit from the ERM on Black Wednesday and laid groundwork for the Northern Ireland peace process. He lost heavily to Tony Blair in 1997."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 4,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Maastricht",
+      "en": "Maastricht"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient du même continent.",
+      "en": "+2 Diplomacy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

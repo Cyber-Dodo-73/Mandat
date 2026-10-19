@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q16297876",
+  "role": {
+    "fr": "Président du Chili",
+    "en": "President of Chile"
+  },
+  "bio": {
+    "fr": "Figure des manifestations étudiantes de 2011, il est élu député puis remporte la présidentielle chilienne de 2021, à 35 ans. Président de 2022 à 2026, il voit le projet de nouvelle Constitution rejeté par référendum en 2022.",
+    "en": "A leader of the 2011 student protests, he became a member of Congress and won Chile's 2021 presidential election at the age of 35. During his 2022–2026 term, voters rejected a proposed new constitution in a 2022 referendum."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 8,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Mouvement étudiant",
+      "en": "Student Movement"
+    },
+    "description": {
+      "fr": "+2 en Charisme lors de la manche 1.",
+      "en": "+2 Charisma in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

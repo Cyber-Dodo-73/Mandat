@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q44071",
+  "role": {
+    "fr": "Secrétaire général du Parti communiste de l'Union soviétique",
+    "en": "General Secretary of the Communist Party of the Soviet Union"
+  },
+  "bio": {
+    "fr": "Ambassadeur en Hongrie lors de l'écrasement de l'insurrection de 1956, il dirige le KGB de 1967 à 1982 et réprime les dissidents, parfois internés en hôpital psychiatrique. Secrétaire général à la mort de Brejnev en 1982, il lance une campagne contre la corruption mais meurt quinze mois plus tard.",
+    "en": "Ambassador to Hungary when the 1956 uprising was crushed, he ran the KGB from 1967 to 1982 and persecuted dissidents, some of whom were locked in psychiatric hospitals. Made general secretary on Brezhnev's death in 1982, he launched an anti-corruption drive but died fifteen months later."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 2,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Dossiers du KGB",
+      "en": "KGB Files"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse est plus rare.",
+      "en": "-2 Strategy to the opposing card if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

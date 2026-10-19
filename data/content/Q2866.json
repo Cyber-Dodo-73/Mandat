@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q2866",
+  "role": {
+    "fr": "Président de la Biélorussie",
+    "en": "President of Belarus"
+  },
+  "bio": {
+    "fr": "Ancien directeur de sovkhoze, il est élu président de la Biélorussie en 1994 et n'a jamais quitté le pouvoir depuis. Sa réélection contestée de 2020 déclenche des manifestations massives, réprimées par des milliers d'arrestations. Proche allié de Moscou, il laisse l'armée russe utiliser son territoire pour envahir l'Ukraine en 2022.",
+    "en": "A former state farm director, he was elected President of Belarus in 1994 and has held power ever since. His disputed 2020 re-election set off mass protests, met with thousands of arrests. A close ally of Moscow, he let Russian troops use Belarusian soil to invade Ukraine in 2022."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 2,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Dernier dictateur",
+      "en": "Last Dictator"
+    },
+    "description": {
+      "fr": "+2 en Influence si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Influence if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

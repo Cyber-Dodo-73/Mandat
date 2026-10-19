@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q7742",
+  "role": {
+    "fr": "Roi de France",
+    "en": "King of France"
+  },
+  "bio": {
+    "fr": "Roi à quatre ans en 1643, il règne soixante-douze ans, le plus long règne de l'histoire européenne. À la mort de Mazarin en 1661, il gouverne sans principal ministre et installe la cour à Versailles. Ses guerres agrandissent le royaume mais épuisent les finances, et il révoque l'édit de Nantes en 1685.",
+    "en": "King at four in 1643, he reigned for seventy-two years, the longest reign in European history. After Mazarin died in 1661 he ruled without a chief minister and moved the court to Versailles. His wars enlarged the kingdom but drained the treasury, and in 1685 he revoked the Edict of Nantes."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Roi-Soleil",
+      "en": "Sun King"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est de l'époque moderne.",
+      "en": "+2 Influence if the opposing card is from the early modern era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

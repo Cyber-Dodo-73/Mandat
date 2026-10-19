@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q150782",
+  "name": {
+    "fr": "Élisabeth d'Autriche (Sissi)",
+    "en": "Empress Elisabeth of Austria"
+  },
+  "role": {
+    "fr": "Impératrice d'Autriche",
+    "en": "Empress of Austria"
+  },
+  "bio": {
+    "fr": "Duchesse bavaroise, elle épouse en 1854 l'empereur François-Joseph. Attachée à la Hongrie, elle soutient le compromis de 1867 et est couronnée reine de Hongrie la même année. Après le suicide de son fils Rodolphe à Mayerling en 1889, elle voyage sans cesse jusqu'à son assassinat à Genève en 1898 par un anarchiste.",
+    "en": "A Bavarian duchess, she married Emperor Franz Joseph in 1854. Devoted to Hungary, she backed the Compromise of 1867 and was crowned Queen of Hungary that year. After her son Rudolf's suicide at Mayerling in 1889 she travelled restlessly until an anarchist stabbed her to death in Geneva in 1898."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 7,
+    "charisma": 8,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Reine de Hongrie",
+      "en": "Queen of Hungary"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

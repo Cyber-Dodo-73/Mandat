@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q174438",
+  "role": {
+    "fr": "Secrétaire d’État des États-Unis",
+    "en": "United States Secretary of State"
+  },
+  "bio": {
+    "fr": "Née à Prague en 1937, elle arrive aux États-Unis avec sa famille après le coup communiste de 1948. Ambassadrice auprès de l’ONU, elle devient en 1997 la première femme secrétaire d’État et soutient l’intervention de l’OTAN au Kosovo en 1999.",
+    "en": "Born in Prague in 1937, she reached the United States with her family after the 1948 communist takeover. A former UN ambassador, she became the first woman Secretary of State in 1997 and pressed for NATO’s 1999 intervention in Kosovo."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Diplomatie de la broche",
+      "en": "Brooch Diplomacy"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d’un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

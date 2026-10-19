@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q1149",
+  "role": {
+    "fr": "Première ministre de l'Inde",
+    "en": "Prime Minister of India"
+  },
+  "bio": {
+    "fr": "Fille de Jawaharlal Nehru, elle dirige l'Inde de 1966 à 1977 puis de 1980 à 1984. Elle mène la guerre de 1971 qui aboutit à l'indépendance du Bangladesh et gouverne par décret pendant l'état d'urgence de 1975 à 1977. Elle est assassinée en 1984 par deux de ses gardes du corps sikhs.",
+    "en": "Jawaharlal Nehru's daughter, she led India from 1966 to 1977 and again from 1980 to 1984. She fought the 1971 war that led to Bangladesh's independence and ruled by decree during the Emergency of 1975–77. She was assassinated in 1984 by two of her Sikh bodyguards."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "État d'urgence",
+      "en": "State of Emergency"
+    },
+    "description": {
+      "fr": "−3 à la carte adverse dans le domaine de la manche si vous avez perdu plus de manches que l'adversaire.",
+      "en": "−3 to the opposing card in the round's domain when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 3,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q34836",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Commandant en chef des armées de l'Union, il reçoit la reddition du général Lee à Appomattox en 1865. Président de 1869 à 1877, il soutient la Reconstruction et poursuit le Ku Klux Klan. Son administration est entachée de scandales de corruption, et ses mémoires, écrits à la fin de sa vie, connaissent un grand succès.",
+    "en": "Commander of the Union armies, he accepted General Lee's surrender at Appomattox in 1865. As president from 1869 to 1877 he backed Reconstruction and moved against the Ku Klux Klan. His administration was marred by corruption scandals, and the memoirs he wrote at the end of his life became a bestseller."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Reddition sans condition",
+      "en": "Unconditional Surrender"
+    },
+    "description": {
+      "fr": "-2 en Stratégie à la carte adverse lors de la troisième manche.",
+      "en": "-2 Strategy to the opposing card in the third round."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

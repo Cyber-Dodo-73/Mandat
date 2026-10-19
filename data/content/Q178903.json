@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q178903",
+  "role": {
+    "fr": "Secrétaire au Trésor des États-Unis",
+    "en": "United States Secretary of the Treasury"
+  },
+  "bio": {
+    "fr": "Né aux Antilles, il devient aide de camp de George Washington pendant la guerre d'indépendance et coécrit les Federalist Papers. Premier secrétaire au Trésor de 1789 à 1795, il fait reprendre les dettes des États par le gouvernement fédéral et crée une banque nationale. Il meurt en 1804 des suites d'un duel avec Aaron Burr.",
+    "en": "Born in the Caribbean, he served as George Washington's aide-de-camp in the War of Independence and co-wrote the Federalist Papers. As the first Treasury Secretary from 1789 to 1795, he had the federal government take on the states' debts and set up a national bank. He died in 1804 after a duel with Aaron Burr."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Crédit public",
+      "en": "Public Credit"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la deuxième manche.",
+      "en": "+2 Influence in the second round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

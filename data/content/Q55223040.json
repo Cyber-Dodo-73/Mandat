@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q55223040",
+  "role": {
+    "fr": "Représentante des États-Unis pour New York",
+    "en": "United States Representative from New York"
+  },
+  "bio": {
+    "fr": "Ancienne serveuse et militante de la campagne de Bernie Sanders, elle bat en 2018 un cacique démocrate lors d'une primaire dans le Bronx et le Queens. Élue à 29 ans, elle est alors la plus jeune femme jamais entrée au Congrès. Elle défend le Green New Deal et s'appuie fortement sur les réseaux sociaux.",
+    "en": "A former bartender and Bernie Sanders campaign organiser, she unseated a senior Democrat in a 2018 primary in the Bronx and Queens. Elected at 29, she became the youngest woman ever to serve in Congress at the time. She champions the Green New Deal and makes heavy use of social media."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 10,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Viralité",
+      "en": "Going Viral"
+    },
+    "description": {
+      "fr": "-2 en Charisme à la carte adverse si la carte adverse est de l'époque contemporaine.",
+      "en": "-2 Charisma to the opposing card if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

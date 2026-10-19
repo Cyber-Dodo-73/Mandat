@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q43144",
+  "role": {
+    "fr": "Gouverneure de l’Alaska",
+    "en": "Governor of Alaska"
+  },
+  "bio": {
+    "fr": "Première femme gouverneure de l’Alaska à partir de 2006, elle est choisie en 2008 par John McCain comme colistière, devenant la première femme candidate à la vice-présidence sur un ticket républicain. Elle démissionne de son poste en 2009 et devient une figure médiatique de la droite américaine.",
+    "en": "Alaska’s first female governor from 2006, she was picked by John McCain as his running mate in 2008, the first woman on a Republican presidential ticket. She resigned the governorship in 2009 and became a media personality on the American right."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 2,
+    "charisma": 7,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Hockey mom",
+      "en": "Hockey Mom"
+    },
+    "description": {
+      "fr": "+1 en Charisme.",
+      "en": "+1 Charisma."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

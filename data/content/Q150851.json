@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q150851",
+  "role": {
+    "fr": "Secrétaire d’État des États-Unis",
+    "en": "United States Secretary of State"
+  },
+  "bio": {
+    "fr": "Général quatre étoiles, il dirige l’état-major interarmées des États-Unis pendant la guerre du Golfe de 1991. Premier Afro-Américain secrétaire d’État, de 2001 à 2005, il présente en 2003 devant l’ONU des preuves d’armes de destruction massive en Irak qui se révéleront fausses.",
+    "en": "A four-star general, he chaired the Joint Chiefs of Staff during the 1991 Gulf War. The first African American Secretary of State, from 2001 to 2005, he made the 2003 case at the UN that Iraq held weapons of mass destruction, claims that later proved false."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Doctrine Powell",
+      "en": "Powell Doctrine"
+    },
+    "description": {
+      "fr": "+2 en Stratégie lors des manches de Stratégie.",
+      "en": "+2 Strategy in Strategy rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "strategy"
+      }
+    }
+  }
+}

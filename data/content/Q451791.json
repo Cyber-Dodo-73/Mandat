@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q451791",
+  "role": {
+    "fr": "Présidente du Conseil des ministres d'Italie",
+    "en": "Prime Minister of Italy"
+  },
+  "bio": {
+    "fr": "Militante de droite depuis l'adolescence, elle cofonde en 2012 le parti Frères d'Italie. Après la victoire de sa coalition aux élections de 2022, elle devient la première femme à diriger le gouvernement italien. Elle s'aligne sur ses partenaires européens et atlantiques dans le soutien à l'Ukraine.",
+    "en": "Active on the right since her teens, she co-founded the Brothers of Italy party in 2012. After her coalition won the 2022 election, she became the first woman to lead an Italian government. She has sided with her European and NATO partners in backing Ukraine."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 8,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Coalition",
+      "en": "Coalition"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient du même continent.",
+      "en": "+2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

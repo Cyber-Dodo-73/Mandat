@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q9582",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Chef des républicains à la Chambre, il est nommé vice-président en 1973 puis devient président en 1974 après la démission de Richard Nixon, sans avoir jamais été élu à l'un de ces deux postes. Il accorde à Nixon une grâce présidentielle très critiquée. Il signe les accords d'Helsinki en 1975 et perd l'élection de 1976 face à Jimmy Carter.",
+    "en": "The Republican leader in the House, he was appointed vice president in 1973 and became president in 1974 when Richard Nixon resigned, without ever having been elected to either office. He granted Nixon a much-criticised pardon. He signed the Helsinki Accords in 1975 and lost the 1976 election to Jimmy Carter."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 7,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Apaisement",
+      "en": "Healing the Nation"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Diplomacy if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

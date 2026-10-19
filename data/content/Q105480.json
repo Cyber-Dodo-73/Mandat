@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q105480",
+  "role": {
+    "fr": "Président de la Zambie",
+    "en": "President of Zambia"
+  },
+  "bio": {
+    "fr": "Instituteur devenu chef du mouvement indépendantiste, il est le premier président de la Zambie de 1964 à 1991. Il impose le parti unique en 1972 et soutient les mouvements de libération d’Afrique australe, puis accepte sa défaite face à Frederick Chiluba lors des élections pluralistes de 1991.",
+    "en": "A schoolteacher turned independence leader, he was Zambia's first president from 1964 to 1991. He imposed one-party rule in 1972 and backed liberation movements across southern Africa, then accepted defeat by Frederick Chiluba when multiparty elections returned in 1991."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Humanisme zambien",
+      "en": "Zambian Humanism"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

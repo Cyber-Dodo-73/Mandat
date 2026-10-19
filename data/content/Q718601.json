@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q718601",
+  "role": {
+    "fr": "Président du Ghana",
+    "en": "President of Ghana"
+  },
+  "bio": {
+    "fr": "Avocat et militant des droits de l'homme, il est ministre des Affaires étrangères du Ghana avant de remporter la présidentielle de 2016 à sa troisième tentative. Président de 2017 à 2025, il instaure la gratuité du lycée public et défend l'idée d'un « Ghana au-delà de l'aide ».",
+    "en": "A lawyer and human rights campaigner, he served as Ghana's foreign minister before winning the 2016 presidential election on his third attempt. President from 2017 to 2025, he made public senior high school free and promoted the idea of a \"Ghana Beyond Aid\"."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Ghana au-delà de l'aide",
+      "en": "Ghana Beyond Aid"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche si la carte adverse vient d'un autre continent.",
+      "en": "+2 in the round's domain if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

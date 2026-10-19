@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q34296",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Ancien président de l'université de Princeton, il est président de 1913 à 1921 et crée la Réserve fédérale. Il fait entrer les États-Unis dans la Première Guerre mondiale en 1917 et présente ses Quatorze Points pour la paix. Prix Nobel de la paix 1919, il échoue à faire ratifier par le Sénat l'adhésion à la Société des Nations ; son administration étend aussi la ségrégation dans la fonction publique fédérale.",
+    "en": "A former president of Princeton University, he led the country from 1913 to 1921 and created the Federal Reserve. He brought the United States into the First World War in 1917 and set out his Fourteen Points for peace. Awarded the 1919 Nobel Peace Prize, he failed to get the Senate to join the League of Nations; his administration also extended segregation in the federal civil service."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 6,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Quatorze Points",
+      "en": "Fourteen Points"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors de la troisième manche.",
+      "en": "+2 Diplomacy in the third round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q152534",
+  "role": {
+    "fr": "Président du Paraguay",
+    "en": "President of Paraguay"
+  },
+  "bio": {
+    "fr": "Général, il prend le pouvoir par un coup d’État en 1954 et gouverne le Paraguay pendant 35 ans avec le Parti colorado. Son régime emprisonne, torture et fait disparaître des opposants, participe au plan Condor et accueille d’anciens nazis, jusqu’à son renversement en 1989.",
+    "en": "A general who seized power in a 1954 coup, he ruled Paraguay for 35 years through the Colorado Party. His regime jailed, tortured and disappeared opponents, joined Operation Condor and sheltered former Nazis, until he was overthrown in 1989."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Le stronato",
+      "en": "The Stronato"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient du même continent.",
+      "en": "+2 Strategy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

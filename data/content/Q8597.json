@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q8597",
+  "role": {
+    "fr": "Empereur moghol de l'Inde",
+    "en": "Mughal Emperor of India"
+  },
+  "bio": {
+    "fr": "Monté sur le trône en 1556 à l'âge de treize ans, il étend l'Empire moghol à la majeure partie du nord de l'Inde. Il réorganise l'administration et supprime l'impôt prélevé sur les non-musulmans. Curieux des religions, il organise des débats entre théologiens de différentes confessions à Fatehpur Sikri.",
+    "en": "Taking the throne in 1556 at just thirteen, he extended the Mughal Empire over most of northern India. He overhauled the administration and abolished the poll tax levied on non-Muslims. Curious about faith, he hosted debates between scholars of different religions at Fatehpur Sikri."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 2,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Paix universelle",
+      "en": "Universal Peace"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

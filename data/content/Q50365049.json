@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q50365049",
+  "role": {
+    "fr": "Premier ministre de l'Éthiopie",
+    "en": "Prime Minister of Ethiopia"
+  },
+  "bio": {
+    "fr": "Ancien officier du renseignement, il devient Premier ministre de l'Éthiopie en 2018 et conclut rapidement la paix avec l'Érythrée, ce qui lui vaut le prix Nobel de la paix en 2019. Dès 2020, la guerre du Tigré oppose son gouvernement aux forces tigréennes. Ce conflit, marqué par des atrocités de toutes parts, fait des centaines de milliers de morts avant l'accord de 2022.",
+    "en": "A former intelligence officer, he became Ethiopia's prime minister in 2018 and quickly made peace with Eritrea, earning the 2019 Nobel Peace Prize. From 2020 his government fought Tigrayan forces in the Tigray war. That conflict, marked by atrocities on all sides, killed hundreds of thousands before a 2022 truce."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 5,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Paix avec l'Érythrée",
+      "en": "Peace with Eritrea"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient du même continent.",
+      "en": "+2 Diplomacy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q936976",
+  "role": {
+    "fr": "Roi de France",
+    "en": "King of France"
+  },
+  "bio": {
+    "fr": "Roi de Navarre et chef du parti protestant pendant les guerres de Religion, il hérite de la couronne de France en 1589 et se convertit au catholicisme en 1593 pour se faire accepter. Par l'édit de Nantes de 1598, il accorde aux protestants la liberté de culte. Il est assassiné par Ravaillac à Paris en 1610.",
+    "en": "King of Navarre and leader of the Protestant side in the Wars of Religion, he inherited the French crown in 1589 and converted to Catholicism in 1593 to win acceptance. His 1598 Edict of Nantes granted Protestants freedom of worship. He was stabbed to death by Ravaillac in Paris in 1610."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 8,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Édit de Nantes",
+      "en": "Edict of Nantes"
+    },
+    "description": {
+      "fr": "+2 en Charisme au round 2.",
+      "en": "+2 Charisma in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q129165",
+  "role": {
+    "fr": "Roi des rois de Perse",
+    "en": "King of Kings of Persia"
+  },
+  "bio": {
+    "fr": "Fils de Darius Ier, il règne sur l’Empire perse achéménide de 486 à 465 av. J.-C. Il lance en 480 av. J.-C. une immense invasion de la Grèce, force le passage des Thermopyles et incendie Athènes, avant d’être battu à Salamine puis à Platées. Il meurt assassiné.",
+    "en": "The son of Darius I, he ruled the Achaemenid Persian Empire from 486 to 465 BC. In 480 BC he launched a huge invasion of Greece, broke through at Thermopylae and burned Athens, but was defeated at Salamis and then at Plataea. He was murdered at court."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Armée innombrable",
+      "en": "Countless Host"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient d’un autre continent.",
+      "en": "+2 Influence if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

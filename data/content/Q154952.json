@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q154952",
+  "role": {
+    "fr": "Roi des Pays-Bas",
+    "en": "King of the Netherlands"
+  },
+  "bio": {
+    "fr": "Fils aîné de la reine Beatrix, il monte sur le trône en avril 2013 après l’abdication de sa mère et devient le premier roi des Pays-Bas depuis plus d’un siècle. Passionné de gestion de l’eau, il a longtemps présidé un comité consultatif des Nations unies sur ce sujet.",
+    "en": "The eldest son of Queen Beatrix, he took the throne in April 2013 when his mother abdicated, the first Dutch king in over a century. Long interested in water management, he chaired a United Nations advisory board on water and sanitation."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 7,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Maître des digues",
+      "en": "Master of the Dikes"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient du même continent.",
+      "en": "+2 Diplomacy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q41866",
+  "role": {
+    "fr": "Empereur romain d'Orient",
+    "en": "Eastern Roman emperor"
+  },
+  "bio": {
+    "fr": "Empereur à Constantinople de 527 à 565, il survit à la sédition Nika de 532 et fait ensuite bâtir Sainte-Sophie. Ses généraux reprennent l'Afrique du Nord et l'Italie, et son code de lois, le Corpus juris civilis, inspirera durablement le droit européen. Son règne est aussi frappé par une grande épidémie de peste en 541.",
+    "en": "Emperor in Constantinople from 527 to 565, he survived the Nika riots of 532 and then built the Hagia Sophia. His generals won back North Africa and Italy, and his law code, the Corpus Juris Civilis, shaped European law for centuries. His reign was also struck by a great plague in 541."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 3,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Corpus juris",
+      "en": "Corpus Juris"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse est de l'Antiquité.",
+      "en": "Wins ties if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

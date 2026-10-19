@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q210435",
+  "role": {
+    "fr": "Directeur du FBI (États-Unis)",
+    "en": "Director of the FBI (United States)"
+  },
+  "bio": {
+    "fr": "À la tête du Bureau of Investigation dès 1924, il en fait le FBI moderne, doté de fichiers d’empreintes et de laboratoires scientifiques, et le dirige jusqu’à sa mort en 1972. Il utilise aussi le bureau pour surveiller et harceler des opposants politiques et le mouvement des droits civiques, Martin Luther King en tête, notamment via le programme COINTELPRO.",
+    "en": "Head of the Bureau of Investigation from 1924, he built it into the modern FBI, with fingerprint archives and forensic labs, and ran it until his death in 1972. He also turned the bureau against political dissenters and the civil rights movement, Martin Luther King above all, notably through the COINTELPRO program."
+  },
+  "stats": {
+    "influence": 10,
+    "diplomacy": 4,
+    "charisma": 6,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Dossiers secrets",
+      "en": "Secret Files"
+    },
+    "description": {
+      "fr": "-3 en Influence pour la carte adverse si la carte adverse est plus rare.",
+      "en": "Opposing card gets -3 Influence if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

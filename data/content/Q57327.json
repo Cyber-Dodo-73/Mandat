@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q57327",
+  "name": {
+    "fr": "Hassanal Bolkiah",
+    "en": "Hassanal Bolkiah"
+  },
+  "role": {
+    "fr": "Sultan de Brunei",
+    "en": "Sultan of Brunei"
+  },
+  "bio": {
+    "fr": "Sultan depuis 1967, il conduit le Brunei à l'indépendance vis-à-vis du Royaume-Uni en 1984 et cumule les fonctions de chef de l'État, de Premier ministre et de ministre de la Défense. Les revenus du pétrole et du gaz font de lui l'un des monarques les plus riches du monde. Il introduit un code pénal fondé sur la charia à partir de 2014.",
+    "en": "Sultan since 1967, he led Brunei to independence from Britain in 1984 and serves at once as head of state, prime minister and defence minister. Oil and gas revenues have made him one of the world's richest monarchs. From 2014 he introduced a penal code based on sharia law."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Manne pétrolière",
+      "en": "Oil Wealth"
+    },
+    "description": {
+      "fr": "+1 en Influence en permanence.",
+      "en": "+1 Influence at all times."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

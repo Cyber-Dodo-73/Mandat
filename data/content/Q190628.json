@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q190628",
+  "role": {
+    "fr": "Première dame des États-Unis",
+    "en": "First Lady of the United States"
+  },
+  "bio": {
+    "fr": "Épouse de George H. W. Bush, elle est première dame de 1989 à 1993 et consacre son action à l’alphabétisation des familles. Elle est aussi la mère du président George W. Bush et de Jeb Bush, gouverneur de Floride.",
+    "en": "Married to George H. W. Bush, she was First Lady from 1989 to 1993 and devoted her public work to family literacy. She was also the mother of President George W. Bush and of Jeb Bush, governor of Florida."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Matriarche",
+      "en": "Matriarch"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité si la carte adverse vient du même continent.",
+      "en": "Wins tied rounds if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q9696",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Élu en 1960 à 43 ans, il est le plus jeune président élu de l'histoire américaine. Il affronte l'URSS lors de la crise des missiles de Cuba en 1962 et lance le programme d'envoi d'hommes sur la Lune. Il est assassiné à Dallas en novembre 1963.",
+    "en": "Elected in 1960 at 43, he was the youngest person ever elected US president. He faced down the USSR in the 1962 Cuban Missile Crisis and committed the country to landing a man on the Moon. He was assassinated in Dallas in November 1963."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 6,
+    "charisma": 8,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Nouvelle Frontière",
+      "en": "New Frontier"
+    },
+    "description": {
+      "fr": "+2 en Charisme contre une carte de l'époque contemporaine.",
+      "en": "+2 Charisma against a Contemporary-era card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

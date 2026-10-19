@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1523",
+  "role": {
+    "fr": "Pharaon d'Égypte",
+    "en": "Pharaoh of Egypt"
+  },
+  "bio": {
+    "fr": "Pharaon de la XIXe dynastie, il règne environ 66 ans, d'environ 1279 à 1213 av. J.-C. Il affronte les Hittites à Qadesh puis conclut avec eux l'un des plus anciens traités de paix connus. Grand bâtisseur, il fait élever les temples d'Abou Simbel et le Ramesseum.",
+    "en": "A pharaoh of the 19th Dynasty, he reigned for some 66 years, from around 1279 to 1213 BC. He fought the Hittites at Kadesh and later concluded one of the oldest known peace treaties with them. A prolific builder, he raised the temples of Abu Simbel and the Ramesseum."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Traité de Qadesh",
+      "en": "Treaty of Kadesh"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse est de l'Antiquité.",
+      "en": "+2 Diplomacy if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

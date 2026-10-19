@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q83672",
+  "role": {
+    "fr": "Empereur moghol de l'Inde",
+    "en": "Mughal Emperor of India"
+  },
+  "bio": {
+    "fr": "Cinquième empereur moghol, il règne de 1628 à 1658, à l'apogée de l'architecture moghole. Il fait construire le Taj Mahal à Agra en mémoire de son épouse Mumtaz Mahal, ainsi que le Fort rouge de Delhi. Déposé par son fils Aurangzeb, il finit ses jours enfermé dans le fort d'Agra.",
+    "en": "The fifth Mughal emperor, he reigned from 1628 to 1658, the high point of Mughal architecture. He built the Taj Mahal in Agra as a tomb for his wife Mumtaz Mahal, as well as Delhi's Red Fort. Deposed by his son Aurangzeb, he spent his last years confined in Agra Fort."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Taj Mahal",
+      "en": "Taj Mahal"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est de l'époque moderne.",
+      "en": "+2 Charisma if the opposing card is from the modern era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

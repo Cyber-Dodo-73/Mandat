@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q1316",
+  "role": {
+    "fr": "Président de l'Irak",
+    "en": "President of Iraq"
+  },
+  "bio": {
+    "fr": "Homme fort du parti Baas, il gouverne l'Irak de 1979 à 2003 par la terreur, la torture et les exécutions de masse. Il déclenche la guerre contre l'Iran (1980-1988), qui fait des centaines de milliers de morts, et mène contre les Kurdes la campagne d'Anfal, dont le gazage de Halabja en 1988 qui tue environ 5 000 civils. Renversé par l'invasion américaine de 2003, il est jugé et pendu en 2006.",
+    "en": "The strongman of the Baath Party, he ruled Iraq from 1979 to 2003 through terror, torture and mass executions. He started the war with Iran (1980–88), which killed hundreds of thousands, and waged the Anfal campaign against the Kurds, including the 1988 gas attack on Halabja that killed about 5,000 civilians. Toppled by the 2003 US-led invasion, he was tried and hanged in 2006."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 1,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Mère des batailles",
+      "en": "Mother of All Battles"
+    },
+    "description": {
+      "fr": "−1 en Stratégie à la carte adverse.",
+      "en": "−1 Strategy to the opposing card."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

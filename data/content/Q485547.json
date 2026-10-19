@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q485547",
+  "name": {
+    "fr": "Aurangzeb",
+    "en": "Aurangzeb"
+  },
+  "role": {
+    "fr": "Empereur moghol de l'Inde",
+    "en": "Mughal Emperor of India"
+  },
+  "bio": {
+    "fr": "Il s'empare du trône en 1658 en emprisonnant son père Shah Jahan et en éliminant ses frères. Sous son règne, jusqu'en 1707, l'Empire moghol atteint sa plus grande extension, mais le rétablissement de la jizya en 1679 et des décennies de guerre contre les Marathes dans le Deccan épuisent l'État.",
+    "en": "He seized the throne in 1658 by imprisoning his father Shah Jahan and eliminating his brothers. Under his rule, which lasted until 1707, the Mughal Empire reached its greatest extent, but the reimposition of the jizya tax in 1679 and decades of war against the Marathas in the Deccan drained the state."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 5,
+    "charisma": 5,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Campagnes du Deccan",
+      "en": "Deccan Campaigns"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "The opposing card gets -2 Strategy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

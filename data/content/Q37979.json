@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q37979",
+  "role": {
+    "fr": "Empereur du Japon",
+    "en": "Emperor of Japan"
+  },
+  "bio": {
+    "fr": "Fils de Hirohito, il monte sur le trône en 1989, ouvrant l'ère Heisei. Il multiplie les gestes de réconciliation envers les pays victimes de la guerre et se rend auprès des sinistrés après les grandes catastrophes. En 2019, il abdique, une première au Japon depuis plus de deux siècles.",
+    "en": "The son of Hirohito, he took the throne in 1989, opening the Heisei era. He made repeated gestures of reconciliation toward countries Japan had harmed in the war and visited survivors after major disasters. In 2019 he abdicated, the first Japanese emperor to do so in over two centuries."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 8,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Ère Heisei",
+      "en": "Heisei Era"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

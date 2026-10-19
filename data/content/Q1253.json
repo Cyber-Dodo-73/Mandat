@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q1253",
+  "role": {
+    "fr": "Secrétaire général des Nations unies",
+    "en": "Secretary-General of the United Nations"
+  },
+  "bio": {
+    "fr": "Diplomate de carrière sud-coréen, il dirige la diplomatie de son pays de 2004 à 2006. Huitième secrétaire général de l'ONU de 2007 à 2016, il fait du climat une priorité et accompagne la conclusion de l'accord de Paris en 2015.",
+    "en": "A career South Korean diplomat, he served as his country's foreign minister from 2004 to 2006. As the eighth UN Secretary-General from 2007 to 2016, he put climate change at the top of the agenda and helped steer the world toward the 2015 Paris Agreement."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 10,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Diplomatie discrète",
+      "en": "Quiet Diplomacy"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse est plus rare.",
+      "en": "+2 Diplomacy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

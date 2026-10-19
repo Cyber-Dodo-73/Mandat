@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q42305",
+  "name": {
+    "fr": "Richard Cœur de Lion",
+    "en": "Richard the Lionheart"
+  },
+  "role": {
+    "fr": "Roi d'Angleterre",
+    "en": "King of England"
+  },
+  "bio": {
+    "fr": "Roi d'Angleterre de 1189 à 1199, il passe l'essentiel de son règne hors du royaume. Chef de la troisième croisade, il prend Acre et bat Saladin à Arsouf, sans reprendre Jérusalem. Capturé au retour par l'empereur Henri VI et libéré contre une énorme rançon, il meurt d'une blessure de flèche au siège de Châlus.",
+    "en": "King of England from 1189 to 1199, he spent most of his reign abroad. As a leader of the Third Crusade he took Acre and beat Saladin at Arsuf, but did not retake Jerusalem. Captured on his way home by Emperor Henry VI and freed for a huge ransom, he died of a crossbow wound at the siege of Châlus."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 2,
+    "charisma": 6,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Croisade",
+      "en": "Crusade"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Strategy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

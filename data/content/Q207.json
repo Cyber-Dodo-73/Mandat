@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q207",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Fils de George H. W. Bush et ancien gouverneur du Texas, il remporte de justesse la présidentielle de 2000. Après les attentats du 11 septembre 2001, il engage les États-Unis dans la guerre en Afghanistan puis dans l'invasion de l'Irak en 2003.",
+    "en": "The son of George H. W. Bush and a former governor of Texas, he won the 2000 presidential election by a razor-thin margin. After the attacks of 11 September 2001, he took the United States to war in Afghanistan and then into the 2003 invasion of Iraq."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Guerre contre la terreur",
+      "en": "War on Terror"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Strategy if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

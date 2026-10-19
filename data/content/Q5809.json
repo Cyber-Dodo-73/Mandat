@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q5809",
+  "role": {
+    "fr": "Commandant de la révolution cubaine",
+    "en": "Commander of the Cuban Revolution"
+  },
+  "bio": {
+    "fr": "Médecin argentin, il rejoint Fidel Castro et devient l'un des chefs de la guérilla qui renverse le régime de Batista à Cuba en 1959. Il dirige ensuite des tribunaux révolutionnaires qui font exécuter des opposants, puis occupe des postes économiques comme ministre de l'Industrie. Parti exporter la révolution, il est capturé et exécuté en Bolivie en 1967.",
+    "en": "An Argentine doctor, he joined Fidel Castro and became one of the guerrilla leaders who overthrew Batista's regime in Cuba in 1959. He then oversaw revolutionary tribunals that executed opponents and held economic posts, including minister of industry. Having left to spread revolution abroad, he was captured and executed in Bolivia in 1967."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 2,
+    "charisma": 8,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Guérilla",
+      "en": "Guerrilla Warfare"
+    },
+    "description": {
+      "fr": "+3 en Stratégie si la carte adverse est plus rare.",
+      "en": "+3 Strategy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

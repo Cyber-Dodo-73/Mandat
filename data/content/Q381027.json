@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q381027",
+  "role": {
+    "fr": "Président du Pérou",
+    "en": "President of Peru"
+  },
+  "bio": {
+    "fr": "Économiste passé par la Banque mondiale et ministre sous plusieurs gouvernements, il remporte de justesse la présidentielle de 2016 face à Keiko Fujimori. Fragilisé par un Congrès hostile et des liens avec Odebrecht, il démissionne en mars 2018 après la diffusion de vidéos d’achat de votes.",
+    "en": "An economist who worked at the World Bank and served as a minister in several governments, he narrowly beat Keiko Fujimori for the presidency in 2016. Weakened by a hostile Congress and ties to Odebrecht, he resigned in March 2018 after videos of vote-buying surfaced."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 8,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Technocrate",
+      "en": "Technocrat"
+    },
+    "description": {
+      "fr": "+2 en Stratégie contre une carte de l'époque contemporaine.",
+      "en": "+2 Strategy against a Contemporary card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

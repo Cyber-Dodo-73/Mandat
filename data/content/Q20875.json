@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q20875",
+  "role": {
+    "fr": "Roi du Royaume-Uni",
+    "en": "King of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Fils aîné de la reine Victoria, il reste prince de Galles pendant près de soixante ans avant de monter sur le trône en 1901. Son règne, jusqu'en 1910, donne son nom à l'époque édouardienne. Francophile, il contribue par sa visite à Paris en 1903 au rapprochement qui aboutit à l'Entente cordiale de 1904.",
+    "en": "Queen Victoria's eldest son waited nearly sixty years as Prince of Wales before taking the throne in 1901. His reign, which lasted until 1910, gave its name to the Edwardian era. A lover of France, his 1903 visit to Paris helped pave the way for the Entente Cordiale of 1904."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 6,
+    "charisma": 4,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Entente cordiale",
+      "en": "Entente Cordiale"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient du même continent.",
+      "en": "+2 Diplomacy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

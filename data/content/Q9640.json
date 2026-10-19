@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q9640",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Chef de la majorité au Sénat puis vice-président, il devient président après l'assassinat de John F. Kennedy en novembre 1963. Il fait voter le Civil Rights Act de 1964, le Voting Rights Act de 1965 et les programmes de la « Grande Société », dont Medicare. L'escalade de la guerre du Viêt Nam le conduit à renoncer à se représenter en 1968.",
+    "en": "Senate majority leader and then vice president, he became president after John F. Kennedy was assassinated in November 1963. He secured the Civil Rights Act of 1964, the Voting Rights Act of 1965 and the 'Great Society' programmes, including Medicare. The escalating Vietnam War led him to decide against running again in 1968."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Traitement Johnson",
+      "en": "The Johnson Treatment"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie à la carte adverse quand le domaine de la manche est Diplomatie.",
+      "en": "-2 Diplomacy to the opposing card when the round's domain is Diplomacy."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "diplomacy"
+      }
+    }
+  }
+}

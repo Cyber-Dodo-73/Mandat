@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q191014",
+  "role": {
+    "fr": "Présidente de l’Argentine",
+    "en": "President of Argentina"
+  },
+  "bio": {
+    "fr": "Danseuse devenue la troisième épouse de Juan Perón, elle est élue vice-présidente à ses côtés en 1973. À sa mort en juillet 1974, elle devient la première femme présidente d’une république au monde, mais son gouvernement sombre dans la crise et la violence politique jusqu’au coup d’État de mars 1976.",
+    "en": "A dancer who became Juan Perón's third wife, she was elected his vice president in 1973. On his death in July 1974 she became the world's first woman president of a republic, but her government sank into economic crisis and political violence until the military coup of March 1976."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Succession",
+      "en": "Succession"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la manche 1.",
+      "en": "+2 Influence in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

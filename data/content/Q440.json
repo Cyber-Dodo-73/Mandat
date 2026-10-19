@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q440",
+  "role": {
+    "fr": "Président du Chili",
+    "en": "President of Chile"
+  },
+  "bio": {
+    "fr": "Médecin et cofondateur du Parti socialiste chilien, il est élu président du Chili en 1970, premier marxiste porté au pouvoir par les urnes en Amérique latine. Il nationalise le cuivre et accélère la réforme agraire. Il meurt le 11 septembre 1973 dans le palais de la Moneda lors du coup d’État du général Pinochet.",
+    "en": "A physician and co-founder of Chile’s Socialist Party, he won the presidency in 1970, the first Marxist in Latin America to gain power through the ballot box. He nationalised copper and sped up land reform. He died on 11 September 1973 in La Moneda palace during General Pinochet’s coup."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 8,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Voie chilienne",
+      "en": "Chilean Way"
+    },
+    "description": {
+      "fr": "+2 en Charisme si vous avez perdu plus de manches que l’adversaire.",
+      "en": "+2 Charisma when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

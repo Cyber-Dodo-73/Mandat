@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q141829",
+  "role": {
+    "fr": "Chef du NKVD (Union soviétique)",
+    "en": "Head of the NKVD (Soviet Union)"
+  },
+  "bio": {
+    "fr": "Chef de la police politique de Staline à partir de 1938, il dirige la machine répressive des purges et du Goulag, où des centaines de milliers de détenus meurent. En 1940, il propose et organise le massacre de Katyń, l’exécution d’environ 22 000 officiers et notables polonais, puis supervise en 1944 la déportation de peuples entiers comme les Tchétchènes, les Ingouches et les Tatars de Crimée. Arrêté après la mort de Staline, il est fusillé en décembre 1953.",
+    "en": "Stalin’s secret police chief from 1938, he ran the apparatus of purges and the Gulag, where hundreds of thousands of prisoners died. In 1940 he proposed and organised the Katyn massacre, the shooting of some 22,000 Polish officers and civilians, and in 1944 oversaw the deportation of whole peoples such as the Chechens, Ingush and Crimean Tatars. Arrested after Stalin’s death, he was executed in December 1953."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 2,
+    "charisma": 2,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Appareil de terreur",
+      "en": "Apparatus of Terror"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse lors des manches de Charisme.",
+      "en": "Opposing card gets -2 Charisma in Charisma rounds."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "charisma"
+      }
+    }
+  }
+}

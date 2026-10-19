@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q57254",
+  "role": {
+    "fr": "Président du Pérou",
+    "en": "President of Peru"
+  },
+  "bio": {
+    "fr": "Officier de l’armée, il mène en 2000 un soulèvement contre le régime d’Alberto Fujimori, puis fonde un parti nationaliste. Élu président en 2011, il gouverne au centre jusqu’en 2016 avant d’être rattrapé avec son épouse par des poursuites sur le financement de ses campagnes.",
+    "en": "An army officer, he led a 2000 uprising against Alberto Fujimori's regime and went on to found a nationalist party. Elected president in 2011, he governed from the centre until 2016, after which he and his wife faced prosecution over the funding of his campaigns."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Soulèvement de Locumba",
+      "en": "Locumba Uprising"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si vous êtes mené au score.",
+      "en": "+2 Strategy when you are behind in rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

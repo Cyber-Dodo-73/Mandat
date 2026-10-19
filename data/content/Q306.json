@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q306",
+  "role": {
+    "fr": "Président du Chili",
+    "en": "President of Chile"
+  },
+  "bio": {
+    "fr": "Homme d'affaires parmi les plus riches du Chili, il préside le pays de 2010 à 2014 puis de 2018 à 2022. Son premier mandat est marqué par le sauvetage des 33 mineurs de San José, son second par la vague de contestation sociale de 2019. Il meurt en 2024 dans un accident d'hélicoptère.",
+    "en": "One of Chile's wealthiest businessmen, he was president from 2010 to 2014 and again from 2018 to 2022. His first term saw the rescue of the 33 San José miners, his second the wave of social unrest of 2019. He died in a helicopter crash in 2024."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 6,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Sauvetage des 33",
+      "en": "Rescue of the 33"
+    },
+    "description": {
+      "fr": "Remporte les égalités si vous avez perdu plus de manches que l'adversaire.",
+      "en": "Wins tied rounds if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

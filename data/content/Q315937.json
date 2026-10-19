@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q315937",
+  "role": {
+    "fr": "Chef de la révolte indigène du Pérou",
+    "en": "Leader of the Indigenous revolt in Peru"
+  },
+  "bio": {
+    "fr": "José Gabriel Condorcanqui, curaca descendant des derniers Incas, prend le nom de Túpac Amaru II et lance en 1780 la plus grande révolte contre la domination espagnole dans les Andes. Capturé, il est exécuté à Cuzco en 1781 avec une grande partie de sa famille.",
+    "en": "José Gabriel Condorcanqui, a local chief descended from the last Incas, took the name Túpac Amaru II and in 1780 launched the largest uprising against Spanish rule in the Andes. Captured, he was executed in Cuzco in 1781 along with much of his family."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 5,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Soulèvement andin",
+      "en": "Andean Uprising"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient d'un autre continent.",
+      "en": "+2 Charisma if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

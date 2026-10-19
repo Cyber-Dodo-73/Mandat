@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q8612",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Seul sénateur sudiste resté fidèle à l'Union pendant la guerre de Sécession, ce démocrate du Tennessee devient vice-président de Lincoln en 1865 puis président à son assassinat. Sa Reconstruction indulgente envers le Sud l'oppose aux républicains radicaux. En 1868, il est le premier président mis en accusation et échappe à la destitution à une voix près.",
+    "en": "The only Southern senator to stay loyal to the Union during the Civil War, the Tennessee Democrat became Lincoln's vice president in 1865 and succeeded him after the assassination. His lenient Reconstruction policy put him at war with the Radical Republicans. In 1868 he became the first president to be impeached, escaping removal by a single Senate vote."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Sauvé d'une voix",
+      "en": "Saved by One Vote"
+    },
+    "description": {
+      "fr": "Remporte les égalités si vous avez perdu plus de manches que l'adversaire.",
+      "en": "Wins ties if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

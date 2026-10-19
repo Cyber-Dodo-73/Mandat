@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q8605",
+  "role": {
+    "fr": "Président de la Grande Colombie",
+    "en": "President of Gran Colombia"
+  },
+  "bio": {
+    "fr": "Officier vénézuélien, il conduit les guerres d'indépendance contre l'Espagne et libère le Venezuela, la Colombie, l'Équateur, le Pérou et la future Bolivie, qui prend son nom. Il préside la Grande Colombie à partir de 1819. Son rêve d'une Amérique du Sud unie se brise avant sa mort, en 1830.",
+    "en": "A Venezuelan officer, he led the wars of independence against Spain and freed Venezuela, Colombia, Ecuador, Peru and the future Bolivia, which was named after him. He was president of Gran Colombia from 1819. His dream of a united South America fell apart before he died in 1830."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Libertador",
+      "en": "Libertador"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est de l'époque moderne.",
+      "en": "+2 Charisma if the opposing card is from the modern era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

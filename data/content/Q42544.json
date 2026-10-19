@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q42544",
+  "role": {
+    "fr": "Lord chancelier d'Angleterre",
+    "en": "Lord Chancellor of England"
+  },
+  "bio": {
+    "fr": "Juriste humaniste, ami d'Érasme, il publie en 1516 L'Utopie, description d'une île imaginaire à la société idéale. Lord chancelier d'Henri VIII de 1529 à 1532, il refuse de reconnaître le roi comme chef de l'Église d'Angleterre. Condamné pour trahison, il est décapité en 1535, puis canonisé par l'Église catholique en 1935.",
+    "en": "A humanist lawyer and friend of Erasmus, he published Utopia in 1516, describing an imaginary island with an ideal society. Henry VIII's Lord Chancellor from 1529 to 1532, he refused to accept the king as head of the Church of England. Convicted of treason, he was beheaded in 1535 and made a Catholic saint in 1935."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Utopie",
+      "en": "Utopia"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité si la carte adverse est de l'époque moderne.",
+      "en": "Wins tied rounds if the opposing card is from the modern era."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q12312",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Quatorzième président des États-Unis de 1853 à 1857, il signe la loi Kansas-Nebraska de 1854, qui laisse les nouveaux territoires décider de l’esclavage et déclenche de violents affrontements au Kansas. Il conclut aussi l’achat Gadsden au Mexique. Son propre parti refuse de le désigner pour un second mandat.",
+    "en": "Fourteenth president from 1853 to 1857, he signed the 1854 Kansas–Nebraska Act, which let new territories choose on slavery and set off bloodshed in Kansas. He also secured the Gadsden Purchase from Mexico. His own party declined to renominate him."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 8,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Souveraineté populaire",
+      "en": "Popular Sovereignty"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche contre une carte de l’époque moderne.",
+      "en": "+2 in the round’s domain against a modern-era card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

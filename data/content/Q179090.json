@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q179090",
+  "role": {
+    "fr": "Vice-président des États-Unis",
+    "en": "Vice President of the United States"
+  },
+  "bio": {
+    "fr": "Troisième vice-président des États-Unis sous Thomas Jefferson, il tue en duel Alexander Hamilton, son vieux rival, en 1804. Accusé ensuite de comploter pour détacher des territoires de l’Ouest, il est jugé pour trahison en 1807 puis acquitté.",
+    "en": "Thomas Jefferson’s first vice president, he shot and killed his longtime rival Alexander Hamilton in a duel in 1804. Later accused of plotting to carve out a separate state in the West, he stood trial for treason in 1807 and was acquitted."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 7,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Duel de Weehawken",
+      "en": "Weehawken Duel"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse lors de la manche 1.",
+      "en": "Opposing card gets -2 Charisma in round 1."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

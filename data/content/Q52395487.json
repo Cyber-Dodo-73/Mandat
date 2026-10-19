@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q52395487",
+  "role": {
+    "fr": "Président de l’Argentine",
+    "en": "President of Argentina"
+  },
+  "bio": {
+    "fr": "Économiste libertarien devenu célèbre comme polémiste à la télévision, il est élu député en 2021. Président de l’Argentine depuis décembre 2023, il applique une politique d’austérité drastique, symbolisée par une tronçonneuse, pour réduire l’inflation et le déficit public.",
+    "en": "A libertarian economist who made his name as a combative TV pundit, he entered Congress in 2021. President of Argentina since December 2023, he has imposed sweeping austerity, symbolised by a chainsaw, to bring down inflation and the budget deficit."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Tronçonneuse",
+      "en": "Chainsaw"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse lors de la manche 1.",
+      "en": "Opposing card gets -2 Influence in round 1."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

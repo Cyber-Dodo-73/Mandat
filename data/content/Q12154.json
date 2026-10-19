@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q12154",
+  "role": {
+    "fr": "Pharaon d'Égypte",
+    "en": "Pharaoh of Egypt"
+  },
+  "bio": {
+    "fr": "Monté sur le trône enfant vers 1332 av. J.-C., ce pharaon de la XVIIIe dynastie rétablit le culte d'Amon abandonné sous Akhénaton. Il meurt vers l'âge de dix-neuf ans. La découverte de son tombeau presque intact par Howard Carter en 1922 en fait le plus célèbre des rois d'Égypte.",
+    "en": "Crowned as a child around 1332 BC, this Eighteenth Dynasty pharaoh restored the worship of Amun that Akhenaten had abandoned. He died at about nineteen. Howard Carter's discovery of his nearly intact tomb in 1922 made him the best-known of all Egyptian kings."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Masque d'or",
+      "en": "Golden Mask"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est plus rare.",
+      "en": "+2 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

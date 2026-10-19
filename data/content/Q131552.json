@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q131552",
+  "role": {
+    "fr": "Reine de France",
+    "en": "Queen of France"
+  },
+  "bio": {
+    "fr": "Florentine de la famille Médicis, elle épouse le futur Henri II et devient reine de France en 1547. Veuve en 1559, elle exerce la régence pour Charles IX puis pèse sur les règnes de trois de ses fils. Son nom reste associé aux guerres de Religion et au massacre de la Saint-Barthélemy en 1572.",
+    "en": "A Florentine of the Medici family, she married the future Henry II and became Queen of France in 1547. Widowed in 1559, she ruled as regent for Charles IX and held sway over the reigns of three of her sons. Her name remains linked to the Wars of Religion and the St Bartholomew's Day massacre of 1572."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 8,
+    "charisma": 3,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Reine mère",
+      "en": "Queen Mother"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "The opposing card gets -2 Diplomacy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

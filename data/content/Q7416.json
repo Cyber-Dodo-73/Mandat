@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q7416",
+  "role": {
+    "fr": "Première ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Première femme à diriger le gouvernement britannique, elle occupe le poste de 1979 à 1990. Elle privatise de nombreuses entreprises publiques, affronte les syndicats lors de la grande grève des mineurs et mène la guerre des Malouines contre l'Argentine en 1982.",
+    "en": "The first woman to lead a British government, she held office from 1979 to 1990. She privatised many state-owned companies, took on the unions during the long miners' strike and fought the 1982 Falklands War against Argentina."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Dame de fer",
+      "en": "Iron Lady"
+    },
+    "description": {
+      "fr": "−2 à la carte adverse lors des manches de Diplomatie.",
+      "en": "−2 to the opposing card in Diplomacy rounds."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "diplomacy"
+      }
+    }
+  }
+}

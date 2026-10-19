@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q6279",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Sénateur du Delaware pendant plus de trente-cinq ans puis vice-président de Barack Obama, il est élu président en 2020. Son mandat est marqué par la sortie de la pandémie, de vastes plans d'investissement et le soutien à l'Ukraine. Il renonce en 2024 à briguer un second mandat.",
+    "en": "A senator from Delaware for over thirty-five years and then Barack Obama's vice president, he was elected president in 2020. His term was shaped by the end of the pandemic, large investment programmes and support for Ukraine. In 2024 he withdrew from the race for a second term."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Vieux routier du Sénat",
+      "en": "Senate Veteran"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

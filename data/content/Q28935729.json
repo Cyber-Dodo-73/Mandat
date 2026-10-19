@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q28935729",
+  "role": {
+    "fr": "Vice-président des États-Unis",
+    "en": "Vice President of the United States"
+  },
+  "bio": {
+    "fr": "Né en 1984 dans l'Ohio, ancien marine déployé en Irak, il se fait connaître en 2016 avec Hillbilly Elegy, récit de son enfance dans une Amérique ouvrière en déclin. Élu sénateur républicain de l'Ohio en 2022, il devient vice-président aux côtés de Donald Trump en janvier 2025.",
+    "en": "Born in Ohio in 1984 and a Marine veteran of Iraq, he rose to prominence in 2016 with Hillbilly Elegy, a memoir of growing up in struggling working-class America. Elected Republican senator for Ohio in 2022, he became Vice President alongside Donald Trump in January 2025."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Hillbilly Elegy",
+      "en": "Hillbilly Elegy"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

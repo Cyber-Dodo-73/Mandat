@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q35041",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Vétéran de la guerre de Sécession et représentant de l'Ohio, il attache son nom au tarif douanier protectionniste de 1890. Président de 1897 à 1901, il mène la guerre hispano-américaine de 1898, à l'issue de laquelle les États-Unis obtiennent Porto Rico, Guam et les Philippines, et annexe Hawaï. Il est assassiné à Buffalo en septembre 1901 par un anarchiste.",
+    "en": "A Civil War veteran and Ohio congressman, he gave his name to the protectionist tariff of 1890. As President from 1897 to 1901 he waged the Spanish–American War of 1898, which brought Puerto Rico, Guam and the Philippines under US control, and annexed Hawaii. He was assassinated by an anarchist in Buffalo in September 1901."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 6,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Tarif McKinley",
+      "en": "McKinley Tariff"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient du même continent.",
+      "en": "+2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

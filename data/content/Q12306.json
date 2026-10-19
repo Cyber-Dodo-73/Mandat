@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q12306",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Vice-président devenu président en 1850 à la mort de Zachary Taylor, il signe le compromis de 1850, dont la loi renforçant la traque des esclaves fugitifs. Il envoie aussi l’expédition du commodore Perry vers le Japon. En 1856, il se présente sans succès sous la bannière du parti nativiste Know Nothing.",
+    "en": "Vice president when Zachary Taylor died in 1850, he took office and signed the Compromise of 1850, including a harsher Fugitive Slave Act. He also dispatched Commodore Perry’s expedition to Japan. In 1856 he ran unsuccessfully as the candidate of the nativist Know Nothing movement."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 2,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Compromis de 1850",
+      "en": "Compromise of 1850"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité.",
+      "en": "Wins tied rounds."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

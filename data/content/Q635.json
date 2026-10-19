@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q635",
+  "role": {
+    "fr": "Reine d'Égypte",
+    "en": "Queen of Egypt"
+  },
+  "bio": {
+    "fr": "Dernière souveraine de la dynastie ptolémaïque, elle gouverne l'Égypte en s'alliant successivement à Jules César puis à Marc Antoine. Vaincue avec Antoine par Octavien à la bataille d'Actium en 31 av. J.-C., elle se donne la mort l'année suivante et l'Égypte devient une province romaine.",
+    "en": "The last ruler of the Ptolemaic dynasty, she held Egypt by allying first with Julius Caesar and then with Mark Antony. After she and Antony were defeated by Octavian at Actium in 31 BC, she took her own life the following year and Egypt became a Roman province."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Alliance romaine",
+      "en": "Roman Alliance"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie contre une carte de l'Antiquité.",
+      "en": "+3 Diplomacy against an Antiquity card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

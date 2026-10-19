@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q37610",
+  "role": {
+    "fr": "Premier ministre d'Israël",
+    "en": "Prime Minister of Israel"
+  },
+  "bio": {
+    "fr": "Né en Pologne russe, il s'installe en Palestine ottomane en 1906 et dirige l'Agence juive. Le 14 mai 1948, il proclame l'indépendance de l'État d'Israël, dont il est le premier chef de gouvernement, de 1948 à 1954 puis de 1955 à 1963. Il finit sa vie dans un kibboutz du Néguev.",
+    "en": "Born in Russian-ruled Poland, he settled in Ottoman Palestine in 1906 and went on to lead the Jewish Agency. On 14 May 1948 he declared the independence of Israel and became its first prime minister, serving from 1948 to 1954 and from 1955 to 1963. He spent his last years on a kibbutz in the Negev."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Proclamation",
+      "en": "Declaration"
+    },
+    "description": {
+      "fr": "+2 dans le domaine du round au round 1.",
+      "en": "+2 in the round's domain in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

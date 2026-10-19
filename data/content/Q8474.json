@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q8474",
+  "role": {
+    "fr": "Sultan de l'Empire ottoman",
+    "en": "Sultan of the Ottoman Empire"
+  },
+  "bio": {
+    "fr": "Sultan de 1520 à 1566, il mène l'Empire ottoman à son apogée en prenant Belgrade, Rhodes et une grande partie de la Hongrie après la victoire de Mohács en 1526. Il assiège Vienne en 1529 sans parvenir à la prendre. Surnommé « le Législateur » par les Turcs, il fait harmoniser le droit de l'empire et protège les arts et l'architecture.",
+    "en": "Sultan from 1520 to 1566, he took the Ottoman Empire to its height, capturing Belgrade, Rhodes and much of Hungary after the victory at Mohács in 1526. He besieged Vienna in 1529 but failed to take it. Known to Turks as 'the Lawgiver', he oversaw a codification of imperial law and was a lavish patron of art and architecture."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Kanuni",
+      "en": "The Lawgiver"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient d'un autre continent.",
+      "en": "+2 Influence if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

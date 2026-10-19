@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q444",
+  "role": {
+    "fr": "Président de la Pologne",
+    "en": "President of Poland"
+  },
+  "bio": {
+    "fr": "Électricien aux chantiers navals de Gdańsk, il mène les grèves de 1980 et fonde Solidarność, premier syndicat indépendant du bloc soviétique. Prix Nobel de la paix en 1983, il négocie la sortie du communisme et devient en 1990 le premier président de la Pologne élu au suffrage universel, jusqu'en 1995.",
+    "en": "An electrician at the Gdańsk shipyard, he led the 1980 strikes and founded Solidarity, the first independent trade union in the Soviet bloc. Awarded the Nobel Peace Prize in 1983, he helped negotiate the end of communism and in 1990 became Poland's first popularly elected president, serving until 1995."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 6,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Solidarność",
+      "en": "Solidarity"
+    },
+    "description": {
+      "fr": "+2 en Charisme si vous êtes mené au score.",
+      "en": "+2 Charisma when you are behind on rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

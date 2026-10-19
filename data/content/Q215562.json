@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q215562",
+  "role": {
+    "fr": "Abolitionniste et diplomate américain",
+    "en": "American abolitionist and diplomat"
+  },
+  "bio": {
+    "fr": "Né esclave dans le Maryland, il s’évade en 1838 et devient l’un des orateurs les plus écoutés du mouvement abolitionniste. Son autobiographie de 1845 et son journal The North Star dénoncent l’esclavage auprès d’un large public. Il représente plus tard les États-Unis en Haïti.",
+    "en": "Born into slavery in Maryland, he escaped in 1838 and became one of the abolitionist movement’s most compelling speakers. His 1845 autobiography and his newspaper, The North Star, carried the case against slavery to a wide readership. Later in life he served as the US envoy to Haiti."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 10,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Voix de la liberté",
+      "en": "Voice of Freedom"
+    },
+    "description": {
+      "fr": "+3 en Charisme si vous avez perdu plus de manches que l’adversaire.",
+      "en": "+3 Charisma when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 3,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

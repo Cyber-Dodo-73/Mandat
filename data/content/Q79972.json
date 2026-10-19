@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q79972",
+  "role": {
+    "fr": "Roi d'Écosse et d'Angleterre",
+    "en": "King of Scotland and England"
+  },
+  "bio": {
+    "fr": "Roi d'Écosse dès 1567, alors qu'il n'a qu'un an, il hérite en 1603 des couronnes d'Angleterre et d'Irlande à la mort d'Élisabeth Ire. Il échappe en 1605 à la conspiration des Poudres. Il fait réaliser la traduction anglaise de la Bible publiée en 1611 et défend la monarchie de droit divin.",
+    "en": "King of Scotland from 1567, when he was just one year old, he inherited the crowns of England and Ireland on the death of Elizabeth I in 1603. He survived the Gunpowder Plot in 1605. He sponsored the English translation of the Bible published in 1611 and championed the divine right of kings."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 6,
+    "charisma": 2,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Union des couronnes",
+      "en": "Union of the Crowns"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse vient du même continent.",
+      "en": "Wins ties if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q51673",
+  "role": {
+    "fr": "Triumvir de la République romaine",
+    "en": "Triumvir of the Roman Republic"
+  },
+  "bio": {
+    "fr": "Lieutenant de César, il est consul en 44 av. J.-C. et prononce l'éloge funèbre du dictateur assassiné. Allié à Octavien et Lépide dans le second triumvirat, il gouverne l'Orient aux côtés de Cléopâtre, puis se donne la mort à Alexandrie en 30 av. J.-C., un an après la défaite d'Actium.",
+    "en": "One of Caesar's chief lieutenants, he held the consulship in 44 BC and delivered the funeral speech for the murdered dictator. As part of the Second Triumvirate with Octavian and Lepidus he ruled the East alongside Cleopatra, and he took his own life in Alexandria in 30 BC, a year after losing at Actium."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Éloge funèbre",
+      "en": "Funeral Oration"
+    },
+    "description": {
+      "fr": "+2 en Charisme au round 1.",
+      "en": "+2 Charisma in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

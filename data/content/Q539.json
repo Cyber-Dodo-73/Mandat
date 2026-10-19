@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q539",
+  "role": {
+    "fr": "Général de l'unification italienne",
+    "en": "General of Italian unification"
+  },
+  "bio": {
+    "fr": "Exilé en Amérique du Sud, il y combat pour la république du Rio Grande et pour l'Uruguay. En 1860, son expédition des Mille conquiert la Sicile et Naples, qu'il remet à Victor-Emmanuel II, ouvrant la voie au royaume d'Italie. Il combat ensuite pour la France en 1870-1871 et est élu à l'Assemblée nationale.",
+    "en": "Exiled to South America, he fought there for the Riograndense Republic and for Uruguay. In 1860 his Expedition of the Thousand took Sicily and Naples, which he handed to Victor Emmanuel II, paving the way for the Kingdom of Italy. He later fought for France in 1870–1871 and was elected to its National Assembly."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 10,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Expédition des Mille",
+      "en": "Expedition of the Thousand"
+    },
+    "description": {
+      "fr": "+2 dans le domaine du round si la carte adverse est plus rare.",
+      "en": "+2 in the round's domain if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

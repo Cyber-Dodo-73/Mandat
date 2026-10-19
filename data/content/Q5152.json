@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q5152",
+  "role": {
+    "fr": "Président de la République de Turquie",
+    "en": "President of Turkey"
+  },
+  "bio": {
+    "fr": "Officier ottoman remarqué à Gallipoli en 1915, il dirige ensuite la guerre d'indépendance turque contre les puissances occupantes. Il proclame la République en 1923 et la préside jusqu'à sa mort en 1938. Il abolit le califat, impose l'alphabet latin et accorde le droit de vote aux femmes.",
+    "en": "An Ottoman officer who made his name at Gallipoli in 1915, he went on to lead the Turkish war of independence against the occupying powers. He proclaimed the Republic in 1923 and served as its president until his death in 1938. He abolished the caliphate, introduced the Latin alphabet and gave women the vote."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Gallipoli",
+      "en": "Gallipoli"
+    },
+    "description": {
+      "fr": "+2 en Stratégie lors de la première manche.",
+      "en": "+2 Strategy in the first round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q9513",
+  "role": {
+    "fr": "Président de l'Inde",
+    "en": "President of India"
+  },
+  "bio": {
+    "fr": "Ingénieur aérospatial, il dirige le lanceur SLV-3 qui place le satellite Rohini en orbite en 1980, puis joue un rôle central dans le programme de missiles et les essais nucléaires de 1998. Élu président de l'Inde en 2002, il exerce un mandat jusqu'en 2007. Très populaire auprès des jeunes, il est surnommé « le président du peuple ».",
+    "en": "An aerospace engineer, he led the SLV-3 rocket project that put the Rohini satellite into orbit in 1980, then played a central role in India's missile programme and its 1998 nuclear tests. Elected President of India in 2002, he served one term until 2007. Hugely popular with students, he became known as the 'People's President'."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 6,
+    "charisma": 8,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Ailes de feu",
+      "en": "Wings of Fire"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient du même continent.",
+      "en": "+2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q163225",
+  "role": {
+    "fr": "Présidente du Congrès national indien",
+    "en": "President of the Indian National Congress"
+  },
+  "bio": {
+    "fr": "Née en Italie, elle épouse Rajiv Gandhi et entre en politique après l'assassinat de celui-ci en 1991. Présidente du Congrès de 1998 à 2017 puis de 2019 à 2022, elle mène le parti à la victoire en 2004 mais laisse le poste de Premier ministre à Manmohan Singh.",
+    "en": "Born in Italy, she married Rajiv Gandhi and went into politics after his assassination in 1991. She led the Congress party from 1998 to 2017 and again from 2019 to 2022, winning the 2004 election but handing the premiership to Manmohan Singh."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Pas de côté",
+      "en": "Stepping Aside"
+    },
+    "description": {
+      "fr": "Remporte les égalités si vous êtes mené au score.",
+      "en": "Wins ties when you are behind on rounds."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

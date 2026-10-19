@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q3510872",
+  "role": {
+    "fr": "Président du Nigeria",
+    "en": "President of Nigeria"
+  },
+  "bio": {
+    "fr": "Gouverneur de l'État de Lagos de 1999 à 2007, il devient l'un des principaux artisans de la coalition APC formée en 2013. Surnommé le faiseur de rois, il remporte lui-même la présidentielle de 2023. Dès son investiture, il supprime la subvention aux carburants.",
+    "en": "Governor of Lagos State from 1999 to 2007, he became a chief architect of the APC coalition formed in 2013. Known as a kingmaker, he won the presidency himself in 2023. On taking office he scrapped the fuel subsidy."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Faiseur de rois",
+      "en": "Kingmaker"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est plus rare.",
+      "en": "+2 Influence if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

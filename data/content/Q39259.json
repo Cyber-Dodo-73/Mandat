@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q39259",
+  "role": {
+    "fr": "Président de la Turquie",
+    "en": "President of Turkey"
+  },
+  "bio": {
+    "fr": "Maire d'Istanbul dans les années 1990, il cofonde l'AKP et devient Premier ministre en 2003, puis président en 2014. Après la tentative de coup d'État de 2016, des dizaines de milliers de personnes sont arrêtées ou limogées. Le référendum de 2017 instaure un régime présidentiel qui renforce ses pouvoirs.",
+    "en": "Mayor of Istanbul in the 1990s, he co-founded the AKP, became Prime Minister in 2003 and President in 2014. After the failed coup of 2016, tens of thousands of people were detained or dismissed. A 2017 referendum created an executive presidency that expanded his powers."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Hyperprésidence",
+      "en": "Executive Presidency"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche lors de la troisième manche.",
+      "en": "+2 in the round's domain in the third round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

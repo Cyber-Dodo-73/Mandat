@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q128985",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Ministre du Logement ambitieux, il devient Premier ministre conservateur en 1957 après la crise de Suez. Il accompagne la décolonisation, annoncée par son discours du « vent du changement » au Cap en 1960, et voit son gouvernement ébranlé par l'affaire Profumo avant de démissionner en 1963.",
+    "en": "An ambitious housing minister, he became Conservative prime minister in 1957 in the wake of the Suez crisis. He oversaw decolonisation, signalled in his 1960 'Wind of Change' speech in Cape Town, and saw his government shaken by the Profumo affair before resigning in 1963."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 3,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Vent du changement",
+      "en": "Wind of Change"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse si la carte adverse est de l'époque moderne.",
+      "en": "-2 Influence to the opposing card if the opposing card is from the modern era."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

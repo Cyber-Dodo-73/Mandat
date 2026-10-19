@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q236503",
+  "name": {
+    "fr": "Fernando Collor",
+    "en": "Fernando Collor"
+  },
+  "role": {
+    "fr": "Président du Brésil",
+    "en": "President of Brazil"
+  },
+  "bio": {
+    "fr": "Jeune gouverneur d’Alagoas, il devient en 1989 le premier président élu au suffrage direct depuis la dictature. Son plan contre l’inflation gèle l’épargne des Brésiliens, puis un scandale de corruption entraîne une procédure de destitution et sa démission en décembre 1992.",
+    "en": "A young governor of Alagoas, he became in 1989 the first president chosen by direct vote since the dictatorship. His anti-inflation plan froze Brazilians' savings, and a corruption scandal led to impeachment proceedings and his resignation in December 1992."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 2,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Plan Collor",
+      "en": "Collor Plan"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse lors de la manche 1.",
+      "en": "-2 Influence to the opposing card in round 1."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q15193",
+  "role": {
+    "fr": "Empereur de Russie",
+    "en": "Emperor of Russia"
+  },
+  "bio": {
+    "fr": "Tsar de 1801 à 1825, il résiste à l'invasion de Napoléon en 1812 et ses troupes entrent dans Paris en 1814. Acteur majeur du congrès de Vienne, il inspire la Sainte-Alliance des monarchies. Sa mort soudaine à Taganrog est suivie de l'insurrection décembriste.",
+    "en": "Tsar from 1801 to 1825, he withstood Napoleon's invasion of 1812, and his troops entered Paris in 1814. A leading figure at the Congress of Vienna, he inspired the Holy Alliance of monarchs. His sudden death at Taganrog was followed by the Decembrist revolt."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 8,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Sainte-Alliance",
+      "en": "Holy Alliance"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient du même continent.",
+      "en": "+2 Diplomacy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

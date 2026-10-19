@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q6800406",
+  "name": {
+    "fr": "Luis Lacalle Pou",
+    "en": "Luis Lacalle Pou"
+  },
+  "role": {
+    "fr": "Président de l’Uruguay",
+    "en": "President of Uruguay"
+  },
+  "bio": {
+    "fr": "Fils de l’ancien président Luis Alberto Lacalle, il mène le Parti national à la victoire en 2019 et met fin à quinze ans de gouvernements du Frente Amplio. Président de 2020 à 2025, il gère la pandémie en misant sur la « liberté responsable » plutôt que sur le confinement obligatoire.",
+    "en": "Son of former president Luis Alberto Lacalle, he led the National Party to victory in 2019, ending fifteen years of Frente Amplio rule. President from 2020 to 2025, he handled the pandemic through what he called responsible freedom rather than mandatory lockdowns."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Liberté responsable",
+      "en": "Responsible Freedom"
+    },
+    "description": {
+      "fr": "+1 en Charisme en permanence.",
+      "en": "+1 Charisma at all times."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

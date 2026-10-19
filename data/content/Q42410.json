@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q42410",
+  "role": {
+    "fr": "Président de la Bolivie",
+    "en": "President of Bolivia"
+  },
+  "bio": {
+    "fr": "Dirigeant du syndicat des cultivateurs de coca, il devient en 2006 le premier président autochtone de la Bolivie. Il nationalise les hydrocarbures et fait adopter en 2009 une Constitution qui fonde l’État plurinational. Il démissionne en 2019 après une élection contestée, des manifestations et la pression de l’armée.",
+    "en": "A leader of the coca growers’ union, he became Bolivia’s first Indigenous president in 2006. He nationalised the oil and gas sector and in 2009 brought in a constitution founding a plurinational state. He resigned in 2019 after a disputed election, mass protests and pressure from the army."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Feuille de coca",
+      "en": "Coca Leaf"
+    },
+    "description": {
+      "fr": "+3 en Influence lors des manches de Influence.",
+      "en": "+3 Influence in Influence rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 3,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "influence"
+      }
+    }
+  }
+}

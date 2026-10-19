@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q83171",
+  "role": {
+    "fr": "Empereur de Russie",
+    "en": "Emperor of Russia"
+  },
+  "bio": {
+    "fr": "Monté sur le trône en 1855 en pleine guerre de Crimée, il abolit le servage en 1861, libérant plus de vingt millions de paysans, et réforme la justice et l'administration locale. Il vend l'Alaska aux États-Unis en 1867. Il est tué en 1881 à Saint-Pétersbourg par une bombe de révolutionnaires.",
+    "en": "Taking the throne in 1855 during the Crimean War, he abolished serfdom in 1861, freeing more than twenty million peasants, and overhauled the courts and local government. He sold Alaska to the United States in 1867 and was killed by a revolutionary's bomb in St Petersburg in 1881."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Tsar libérateur",
+      "en": "Tsar Liberator"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est de l'époque moderne.",
+      "en": "+2 Influence if the opposing card is from the modern era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

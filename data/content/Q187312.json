@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q187312",
+  "role": {
+    "fr": "Roi d'Écosse",
+    "en": "King of Scots"
+  },
+  "bio": {
+    "fr": "Couronné en 1306 en pleine guerre contre l'Angleterre, il mène une longue guérilla avant d'écraser l'armée d'Édouard II à Bannockburn en 1314. La déclaration d'Arbroath de 1320 défend sa cause auprès du pape, et le traité d'Édimbourg-Northampton reconnaît l'indépendance écossaise en 1328.",
+    "en": "Crowned in 1306 in the middle of war with England, he waged a long guerrilla campaign before routing Edward II's army at Bannockburn in 1314. The 1320 Declaration of Arbroath pressed his case with the Pope, and the 1328 Treaty of Edinburgh–Northampton recognised Scottish independence."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Persévérance",
+      "en": "Try, Try Again"
+    },
+    "description": {
+      "fr": "+2 dans le domaine du round si vous êtes mené au score.",
+      "en": "+2 in the round's domain when you are behind on rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

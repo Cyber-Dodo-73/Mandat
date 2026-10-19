@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q6294",
+  "role": {
+    "fr": "Secrétaire d'État des États-Unis",
+    "en": "United States Secretary of State"
+  },
+  "bio": {
+    "fr": "Avocate et première dame pendant la présidence de Bill Clinton, elle est ensuite sénatrice de New York puis secrétaire d'État de 2009 à 2013. En 2016, elle devient la première femme investie par un grand parti à la présidentielle et remporte le vote populaire, mais perd face à Donald Trump au collège électoral.",
+    "en": "A lawyer and First Lady during Bill Clinton's presidency, she went on to serve as senator for New York and as secretary of state from 2009 to 2013. In 2016 she became the first woman nominated for president by a major party and won the popular vote, but lost to Donald Trump in the Electoral College."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 7,
+    "charisma": 4,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Diplomatie de terrain",
+      "en": "Shuttle Diplomacy"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors de la 1re manche.",
+      "en": "+2 Diplomacy in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

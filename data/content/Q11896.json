@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q11896",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Officier de carrière surnommé « Old Rough and Ready », il remporte plusieurs victoires pendant la guerre américano-mexicaine, dont Buena Vista en 1847. Élu 12e président sous l'étiquette whig en 1848, il meurt en juillet 1850 après seize mois de mandat.",
+    "en": "A career army officer nicknamed Old Rough and Ready, he won several victories in the Mexican–American War, including Buena Vista in 1847. Elected the 12th President as a Whig in 1848, he died in July 1850 after just sixteen months in office."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 5,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Buena Vista",
+      "en": "Buena Vista"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse est plus rare.",
+      "en": "+2 Strategy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

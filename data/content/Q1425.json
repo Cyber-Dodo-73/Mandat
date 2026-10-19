@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1425",
+  "role": {
+    "fr": "Empereur romain",
+    "en": "Roman emperor"
+  },
+  "bio": {
+    "fr": "Né en Hispanie, il est le premier empereur issu des provinces et règne de 98 à 117. Il conquiert la Dacie, célébrée par la colonne Trajane, puis mène contre les Parthes une campagne qui porte l'Empire à son extension maximale. Le Sénat le surnomme « le meilleur des princes ».",
+    "en": "Born in Hispania, he was the first emperor from the provinces and ruled from 98 to 117. He conquered Dacia, commemorated by Trajan's Column, then campaigned against Parthia, bringing the Empire to its greatest extent. The Senate hailed him as 'the best of rulers'."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Colonne Trajane",
+      "en": "Trajan's Column"
+    },
+    "description": {
+      "fr": "+2 en Stratégie au round 2.",
+      "en": "+2 Strategy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

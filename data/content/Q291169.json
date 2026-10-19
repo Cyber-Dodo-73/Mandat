@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q291169",
+  "role": {
+    "fr": "Chef du Parti travailliste au Royaume-Uni",
+    "en": "Leader of the Labour Party in the United Kingdom"
+  },
+  "bio": {
+    "fr": "Député d'Islington North depuis 1983 et figure de l'aile gauche, longtemps opposé aux interventions militaires, il est élu chef du Parti travailliste en 2015. Il gagne des sièges en 2017 mais subit une lourde défaite en 2019. Exclu du groupe travailliste par la suite, il est réélu en 2024 comme indépendant.",
+    "en": "MP for Islington North since 1983 and a long-standing figure of the left, often opposed to military interventions, he was elected Labour leader in 2015. He gained seats in 2017 but suffered a heavy defeat in 2019. Later barred from standing for Labour, he was re-elected as an independent in 2024."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Base militante",
+      "en": "Grassroots"
+    },
+    "description": {
+      "fr": "+2 en Charisme lors de la 2e manche.",
+      "en": "+2 Charisma in the second round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

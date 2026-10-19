@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q192533",
+  "role": {
+    "fr": "Premier ministre du Canada",
+    "en": "Prime Minister of Canada"
+  },
+  "bio": {
+    "fr": "Économiste, il gouverne la Banque du Canada pendant la crise de 2008, puis devient en 2013 le premier non-Britannique à la tête de la Banque d'Angleterre. Élu chef du Parti libéral, il devient Premier ministre en mars 2025 et remporte les élections fédérales le mois suivant.",
+    "en": "An economist, he ran the Bank of Canada through the 2008 crisis and in 2013 became the first non-Briton to lead the Bank of England. Chosen as Liberal leader, he became prime minister in March 2025 and won a federal election the following month."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 4,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Garde-fou monétaire",
+      "en": "Monetary Backstop"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse si la carte adverse est plus rare.",
+      "en": "-2 Influence to the opposing card if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

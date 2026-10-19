@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q156844",
+  "role": {
+    "fr": "Président du Brésil",
+    "en": "President of Brazil"
+  },
+  "bio": {
+    "fr": "Porté au pouvoir par la révolution de 1930, il instaure en 1937 l’Estado Novo, un régime autoritaire et centralisateur qui crée aussi un droit du travail. Écarté par l’armée en 1945, il revient par les urnes en 1951, puis se suicide au palais présidentiel en 1954 en pleine crise politique.",
+    "en": "Brought to power by the 1930 revolution, he set up the Estado Novo in 1937, an authoritarian, centralising regime that also introduced labour laws. Removed by the army in 1945, he returned through the ballot box in 1951 and shot himself in the presidential palace in 1954 amid a political crisis."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Père des pauvres",
+      "en": "Father of the Poor"
+    },
+    "description": {
+      "fr": "+2 en Charisme lors de la manche 3.",
+      "en": "+2 Charisma in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q9916",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Commandant suprême des forces alliées en Europe, il dirige le débarquement de Normandie en juin 1944. Élu président en 1952, il met fin à la guerre de Corée et lance le réseau d'autoroutes inter-États, puis met en garde contre le poids du complexe militaro-industriel en quittant ses fonctions.",
+    "en": "Supreme Allied Commander in Europe, he directed the Normandy landings in June 1944. Elected president in 1952, he brought the Korean War to an end and launched the interstate highway system, then warned against the power of the military-industrial complex as he left office."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Jour J",
+      "en": "D-Day"
+    },
+    "description": {
+      "fr": "+3 en Stratégie lors de la 1re manche.",
+      "en": "+3 Strategy in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

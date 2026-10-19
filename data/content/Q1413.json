@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q1413",
+  "role": {
+    "fr": "Empereur romain",
+    "en": "Roman Emperor"
+  },
+  "bio": {
+    "fr": "Dernier empereur de la dynastie julio-claudienne, il règne de 54 à 68. Il fait assassiner sa mère Agrippine en 59. Après le grand incendie de Rome en 64, il fait persécuter les chrétiens et lance la construction de la Maison dorée ; confronté aux révoltes, il se suicide en 68.",
+    "en": "The last emperor of the Julio-Claudian dynasty, he ruled from 54 to 68. He had his mother Agrippina murdered in 59. After the Great Fire of Rome in 64 he persecuted Christians and built his Golden House; facing revolts, he took his own life in 68."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Rome en flammes",
+      "en": "Rome Ablaze"
+    },
+    "description": {
+      "fr": "-1 à la carte adverse dans le domaine de la manche.",
+      "en": "-1 to the opposing card in the round's domain."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

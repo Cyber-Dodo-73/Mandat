@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q36014",
+  "role": {
+    "fr": "Président du Viêt Nam",
+    "en": "President of Vietnam"
+  },
+  "bio": {
+    "fr": "Militant communiste formé en France et à Moscou, il fonde le Viêt Minh en 1941 et proclame l'indépendance du Viêt Nam le 2 septembre 1945. Il dirige la guerre contre la France, conclue par la victoire de Diên Biên Phu en 1954. Président du Nord-Viêt Nam, il soutient la lutte contre le Sud et les États-Unis jusqu'à sa mort en 1969.",
+    "en": "A communist activist who trained in France and Moscow, he founded the Viet Minh in 1941 and declared Vietnam's independence on 2 September 1945. He led the war against France, won at Dien Bien Phu in 1954. As president of North Vietnam, he backed the fight against the South and the United States until his death in 1969."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Oncle Hô",
+      "en": "Uncle Ho"
+    },
+    "description": {
+      "fr": "+3 dans le domaine de la manche si la carte adverse est plus rare.",
+      "en": "+3 in the round's domain if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

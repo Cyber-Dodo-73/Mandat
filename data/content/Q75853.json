@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q75853",
+  "role": {
+    "fr": "Président de facto de l’Argentine (junte militaire)",
+    "en": "De facto President of Argentina (military junta)"
+  },
+  "bio": {
+    "fr": "Commandant de l’armée, il renverse Isabel Perón en mars 1976 et préside la junte jusqu’en 1981. Sous son régime, la « guerre sale » fait disparaître des milliers d’opposants, jusqu’à 30 000 selon les organisations de droits humains, torturés dans des centres clandestins, et des centaines de bébés sont volés à des détenues. Condamné à perpétuité en 1985, gracié en 1990, il est de nouveau condamné et meurt en prison en 2013.",
+    "en": "As army commander he overthrew Isabel Perón in March 1976 and led the junta until 1981. Under his rule the Dirty War made thousands of opponents disappear, up to 30,000 according to human rights groups, many tortured in secret detention centres, while hundreds of babies were taken from imprisoned mothers. Sentenced to life in 1985 and pardoned in 1990, he was convicted again and died in prison in 2013."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Junte",
+      "en": "Junta"
+    },
+    "description": {
+      "fr": "-1 en Charisme pour la carte adverse en permanence.",
+      "en": "-1 Charisma to the opposing card at all times."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

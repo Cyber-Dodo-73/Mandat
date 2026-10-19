@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q5771800",
+  "role": {
+    "fr": "Présidente du Mexique",
+    "en": "President of Mexico"
+  },
+  "bio": {
+    "fr": "Physicienne spécialiste de l'énergie, elle contribue aux travaux du GIEC avant de gouverner la ville de Mexico de 2018 à 2023. Candidate du parti Morena, elle remporte la présidentielle de 2024 et devient en octobre la première femme à diriger le Mexique.",
+    "en": "A physicist specialising in energy, she contributed to IPCC reports before governing Mexico City from 2018 to 2023. Running for the Morena party, she won the 2024 presidential election and in October became the first woman to lead Mexico."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 6,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Première présidente",
+      "en": "First Woman President"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie au round 2.",
+      "en": "+2 Diplomacy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

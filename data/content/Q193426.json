@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q193426",
+  "role": {
+    "fr": "Première dame des États-Unis",
+    "en": "First Lady of the United States"
+  },
+  "bio": {
+    "fr": "Actrice de cinéma avant d’épouser Ronald Reagan, elle est première dame de 1981 à 1989 et lance la campagne antidrogue « Just Say No ». Conseillère très écoutée de son mari, elle défend après la maladie d’Alzheimer de celui-ci la recherche sur les cellules souches.",
+    "en": "A film actress before marrying Ronald Reagan, she was First Lady from 1981 to 1989 and fronted the “Just Say No” anti-drug campaign. A closely heeded adviser to her husband, she later backed stem-cell research after his Alzheimer’s diagnosis."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 7,
+    "charisma": 9,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Just Say No",
+      "en": "Just Say No"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "Opposing card gets -2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

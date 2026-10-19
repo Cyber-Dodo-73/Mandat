@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q1257",
+  "role": {
+    "fr": "Secrétaire général des Nations unies",
+    "en": "Secretary-General of the United Nations"
+  },
+  "bio": {
+    "fr": "Juriste et diplomate égyptien, il participe aux négociations de paix entre l'Égypte et Israël à la fin des années 1970. Secrétaire général de l'ONU de 1992 à 1996, il publie l'Agenda pour la paix et affronte les crises de Somalie, du Rwanda et de Bosnie. Les États-Unis bloquent son second mandat.",
+    "en": "An Egyptian jurist and diplomat, he took part in the Egypt–Israel peace negotiations of the late 1970s. As UN Secretary-General from 1992 to 1996, he issued An Agenda for Peace and faced crises in Somalia, Rwanda and Bosnia. The United States vetoed his bid for a second term."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 6,
+    "charisma": 2,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Agenda pour la paix",
+      "en": "An Agenda for Peace"
+    },
+    "description": {
+      "fr": "-1 en Stratégie pour la carte adverse.",
+      "en": "-1 Strategy to the opposing card."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

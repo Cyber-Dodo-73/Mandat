@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q36740",
+  "role": {
+    "fr": "Conseillère d'État de Birmanie",
+    "en": "State Counsellor of Myanmar"
+  },
+  "bio": {
+    "fr": "Fille du héros de l'indépendance Aung San, elle dirige la Ligue nationale pour la démocratie et passe une quinzaine d'années en résidence surveillée entre 1989 et 2010 ; elle reçoit le prix Nobel de la paix en 1991. Cheffe de facto du gouvernement de 2016 à 2021, elle est critiquée pour avoir défendu l'armée après les violences contre les Rohingyas en 2017. Elle est de nouveau détenue depuis le coup d'État de 2021.",
+    "en": "The daughter of independence hero Aung San, she led the National League for Democracy and spent about fifteen years under house arrest between 1989 and 2010, winning the Nobel Peace Prize in 1991. As de facto head of government from 2016 to 2021, she drew criticism for defending the army after the 2017 violence against the Rohingya. She has been detained again since the 2021 coup."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Résistance pacifique",
+      "en": "Peaceful Resistance"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse est plus rare.",
+      "en": "Wins ties if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

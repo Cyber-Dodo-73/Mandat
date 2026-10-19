@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q130822",
+  "role": {
+    "fr": "Roi du Royaume-Uni",
+    "en": "King of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Troisième fils de George III, il sert de longues années dans la Royal Navy, d'où son surnom de « roi marin ». Roi de 1830 à 1837, il voit adopter le Reform Act de 1832 et l'abolition de l'esclavage dans la plupart de l'Empire britannique en 1833. Sa nièce Victoria lui succède.",
+    "en": "The third son of George III, he spent years in the Royal Navy, earning the nickname Sailor King. During his reign from 1830 to 1837, the Reform Act of 1832 passed and slavery was abolished across most of the British Empire in 1833. He was succeeded by his niece Victoria."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Le roi marin",
+      "en": "The Sailor King"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Strategy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q155164",
+  "role": {
+    "fr": "Premier ministre du Pakistan",
+    "en": "Prime Minister of Pakistan"
+  },
+  "bio": {
+    "fr": "Capitaine de l'équipe de cricket du Pakistan victorieuse de la Coupe du monde 1992, il fonde le parti PTI en 1996. Il devient Premier ministre en 2018 et est renversé par une motion de censure en avril 2022. Condamné dans plusieurs affaires, il est emprisonné à partir de 2023.",
+    "en": "Captain of the Pakistan cricket side that won the 1992 World Cup, he founded the PTI party in 1996. He became prime minister in 2018 and was removed by a no-confidence vote in April 2022. Convicted in several cases, he has been in prison since 2023."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 10,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Capitaine",
+      "en": "Captain"
+    },
+    "description": {
+      "fr": "+2 en Charisme si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Charisma if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

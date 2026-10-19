@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q42013",
+  "role": {
+    "fr": "Président de l'Égypte",
+    "en": "President of Egypt"
+  },
+  "bio": {
+    "fr": "Membre des Officiers libres de 1952, il succède à Nasser en 1970 et lance en octobre 1973 la traversée du canal de Suez contre Israël. Son voyage à Jérusalem en 1977 mène aux accords de Camp David et au traité de paix de 1979, qui lui valent le prix Nobel. Il est assassiné lors d'un défilé militaire en 1981.",
+    "en": "One of the Free Officers of 1952, he succeeded Nasser in 1970 and in October 1973 sent his army across the Suez Canal against Israel. His 1977 trip to Jerusalem led to the Camp David Accords and the 1979 peace treaty, earning him the Nobel Peace Prize. He was assassinated during a military parade in 1981."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 6,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Voyage à Jérusalem",
+      "en": "Journey to Jerusalem"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie au round 2.",
+      "en": "+3 Diplomacy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

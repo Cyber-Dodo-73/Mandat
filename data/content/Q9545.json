@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q9545",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Artisan du « New Labour », il mène les travaillistes à trois victoires électorales consécutives et gouverne de 1997 à 2007. Il contribue à l'accord du Vendredi saint de 1998 en Irlande du Nord. Son engagement aux côtés des États-Unis dans l'invasion de l'Irak en 2003 reste très controversé.",
+    "en": "The architect of 'New Labour', he led his party to three straight general election wins and governed from 1997 to 2007. He helped broker the 1998 Good Friday Agreement in Northern Ireland. His decision to join the US-led invasion of Iraq in 2003 remains deeply contested."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 8,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Troisième voie",
+      "en": "Third Way"
+    },
+    "description": {
+      "fr": "+1 en Charisme.",
+      "en": "+1 Charisma."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q23685",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Cultivateur d'arachides et gouverneur de Géorgie, il est président de 1977 à 1981. Il négocie les accords de Camp David entre l'Égypte et Israël, mais son mandat est assombri par l'inflation et la crise des otages en Iran. Il reçoit le prix Nobel de la paix en 2002 et meurt en 2024 à 100 ans.",
+    "en": "A peanut farmer and governor of Georgia, he was president from 1977 to 1981. He brokered the Camp David Accords between Egypt and Israel, though his term was clouded by inflation and the Iran hostage crisis. He received the Nobel Peace Prize in 2002 and died in 2024 at the age of 100."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 9,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Camp David",
+      "en": "Camp David"
+    },
+    "description": {
+      "fr": "+2 lors des manches de Diplomatie.",
+      "en": "+2 in Diplomacy rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "diplomacy"
+      }
+    }
+  }
+}

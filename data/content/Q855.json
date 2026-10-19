@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q855",
+  "role": {
+    "fr": "Dirigeant de l'Union soviétique",
+    "en": "Leader of the Soviet Union"
+  },
+  "bio": {
+    "fr": "Successeur de Lénine, il impose à partir de la fin des années 1920 une dictature personnelle sur l'URSS. La collectivisation forcée provoque des famines qui tuent des millions de personnes, dont l'Holodomor en Ukraine, et la Grande Terreur de 1937-1938 fait environ 750 000 exécutions tandis que des millions de détenus passent par le Goulag. Il dirige le pays pendant la Seconde Guerre mondiale jusqu'à la victoire sur l'Allemagne nazie.",
+    "en": "Lenin's successor, he imposed a personal dictatorship on the USSR from the late 1920s. Forced collectivisation caused famines that killed millions, including the Holodomor in Ukraine, while the Great Terror of 1937–38 brought some 750,000 executions and millions of prisoners passed through the Gulag. He led the country through the Second World War to victory over Nazi Germany."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Plan quinquennal",
+      "en": "Five-Year Plan"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la 3e manche.",
+      "en": "+2 Influence in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

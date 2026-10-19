@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q162819",
+  "role": {
+    "fr": "Reine d'Angleterre",
+    "en": "Queen of England"
+  },
+  "bio": {
+    "fr": "Fille des Rois catholiques, elle épouse le prince Arthur puis son frère Henri VIII, et sert un temps d'ambassadrice de l'Espagne à Londres. Régente en 1513, elle supervise la défense contre l'Écosse, battue à Flodden. Le refus du pape d'annuler son mariage conduit Henri VIII à rompre avec Rome.",
+    "en": "The daughter of Spain's Catholic Monarchs, she married Prince Arthur and then his brother Henry VIII, and for a time acted as Spain's ambassador in London. As regent in 1513 she oversaw the defence against Scotland, defeated at Flodden. The pope's refusal to annul her marriage led Henry VIII to break with Rome."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 9,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Ambassadrice",
+      "en": "Ambassador"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité si la carte adverse est plus rare.",
+      "en": "Wins tied rounds if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

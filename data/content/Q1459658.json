@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1459658",
+  "role": {
+    "fr": "Président de l’Ukraine",
+    "en": "President of Ukraine"
+  },
+  "bio": {
+    "fr": "Plusieurs fois Premier ministre, il est élu président de l’Ukraine en 2010. Son refus de signer l’accord d’association avec l’Union européenne fin 2013 déclenche la révolution de Maïdan, dont la répression fait une centaine de morts. Il s’enfuit en Russie en février 2014 et sera condamné par contumace pour haute trahison.",
+    "en": "A former prime minister, he won Ukraine’s presidency in 2010. His refusal to sign an association agreement with the European Union in late 2013 sparked the Maidan protests, whose repression left around a hundred dead. He fled to Russia in February 2014 and was later convicted of treason in absentia."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Volte-face",
+      "en": "U-Turn"
+    },
+    "description": {
+      "fr": "+2 en Stratégie lors de la manche 2.",
+      "en": "+2 Strategy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

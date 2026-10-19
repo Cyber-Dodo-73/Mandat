@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q36724",
+  "role": {
+    "fr": "Roi des Huns",
+    "en": "King of the Huns"
+  },
+  "bio": {
+    "fr": "Seul maître de l'empire hunnique à partir de 445, il ravage les Balkans et impose de lourds tributs à l'Empire romain d'Orient. En 451, il envahit la Gaule mais est repoussé à la bataille des champs Catalauniques. Il lance une campagne en Italie en 452 et meurt l'année suivante.",
+    "en": "Sole ruler of the Hunnic empire from 445, he ravaged the Balkans and extracted heavy tribute from the Eastern Roman Empire. In 451 he invaded Gaul but was driven back at the Battle of the Catalaunian Plains. He campaigned in Italy in 452 and died the following year."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Fléau de Dieu",
+      "en": "Scourge of God"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse est de l'Antiquité.",
+      "en": "-2 Strategy to the opposing card if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

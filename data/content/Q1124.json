@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q1124",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Gouverneur de l'Arkansas, il est élu président en 1992 et réélu en 1996. Ses mandats sont marqués par une forte croissance économique et un budget fédéral redevenu excédentaire. Mis en accusation en 1998 dans l'affaire Lewinsky, il est acquitté par le Sénat.",
+    "en": "Governor of Arkansas, he was elected president in 1992 and re-elected in 1996. His terms saw strong economic growth and a return to a federal budget surplus. Impeached in 1998 over the Lewinsky affair, he was acquitted by the Senate."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 8,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Retour gagnant",
+      "en": "Comeback Kid"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 in the round's domain when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

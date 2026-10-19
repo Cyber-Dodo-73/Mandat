@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q43989",
+  "role": {
+    "fr": "Conseiller de la famille impériale de Russie",
+    "en": "Adviser to the Russian imperial family"
+  },
+  "bio": {
+    "fr": "Paysan sibérien se présentant comme guérisseur, il gagne la confiance de Nicolas II et d'Alexandra, car il semble soulager l'hémophilie de leur fils Alexis. Son influence sur les nominations pendant la Première Guerre mondiale discrédite la monarchie. Il est assassiné en décembre 1916 par un groupe d'aristocrates, dont le prince Ioussoupov.",
+    "en": "A Siberian peasant who claimed healing powers, he won the trust of Nicholas II and Alexandra because he seemed to ease their son Alexei's haemophilia. His sway over appointments during the First World War badly damaged the monarchy's standing. He was murdered in December 1916 by a group of aristocrats including Prince Yusupov."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 9,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Emprise",
+      "en": "Hold over the Court"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie à la carte adverse si la carte adverse est plus rare.",
+      "en": "-2 Diplomacy to the opposing card if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

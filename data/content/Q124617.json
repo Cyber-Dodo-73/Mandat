@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q124617",
+  "role": {
+    "fr": "Maréchal de l'Union soviétique",
+    "en": "Marshal of the Soviet Union"
+  },
+  "bio": {
+    "fr": "Vainqueur des Japonais à Khalkhin Gol en 1939, il organise la défense de Moscou en 1941, contribue à la victoire de Stalingrad et commande l'assaut final sur Berlin en 1945, où il reçoit la capitulation allemande. Ministre de la Défense à partir de 1955, il est écarté par Khrouchtchev en 1957.",
+    "en": "After beating the Japanese at Khalkhin Gol in 1939, he organised the defence of Moscow in 1941, helped secure victory at Stalingrad and led the final assault on Berlin in 1945, where he accepted the German surrender. Made defence minister in 1955, he was pushed aside by Khrushchev in 1957."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 3,
+    "charisma": 5,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Prise de Berlin",
+      "en": "Fall of Berlin"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse est de l'époque contemporaine.",
+      "en": "-2 Strategy to the opposing card if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

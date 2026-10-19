@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q57272",
+  "role": {
+    "fr": "Président du Cameroun",
+    "en": "President of Cameroon"
+  },
+  "bio": {
+    "fr": "Premier ministre à partir de 1975, il succède à Ahmadou Ahidjo à la présidence du Cameroun en 1982. Il conserve le pouvoir au fil d'élections contestées et fait supprimer la limite des mandats en 2008. En 2025, à 92 ans, il est proclamé vainqueur d'une nouvelle présidentielle contestée par l'opposition.",
+    "en": "Prime minister from 1975, he succeeded Ahmadou Ahidjo as president of Cameroon in 1982. He has held on to power through disputed elections and had presidential term limits scrapped in 2008. In 2025, at the age of 92, he was declared the winner of another presidential election contested by the opposition."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 6,
+    "charisma": 3,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Longévité",
+      "en": "Longevity"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la manche 3.",
+      "en": "+2 Influence in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

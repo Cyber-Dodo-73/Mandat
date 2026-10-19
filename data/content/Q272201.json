@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q272201",
+  "role": {
+    "fr": "Première ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Ancienne secrétaire d'État aux Affaires étrangères, elle succède à Boris Johnson à la tête du Parti conservateur et du gouvernement en septembre 2022. Son « mini-budget » de baisses d'impôts non financées provoque une chute de la livre et une crise sur le marché obligataire. Elle démissionne après 49 jours, le mandat le plus court de l'histoire britannique.",
+    "en": "A former Foreign Secretary, she succeeded Boris Johnson as Conservative leader and prime minister in September 2022. Her 'mini-budget' of unfunded tax cuts sent the pound tumbling and shook the bond market. She resigned after 49 days, the shortest tenure of any British prime minister."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 7,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Mini-budget",
+      "en": "Mini-Budget"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche lors de la manche 1.",
+      "en": "+2 in the round's domain in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

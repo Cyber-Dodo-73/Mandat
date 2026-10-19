@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q34060",
+  "role": {
+    "fr": "Premier ministre d’Israël",
+    "en": "Prime Minister of Israel"
+  },
+  "bio": {
+    "fr": "Chef d’état-major pendant la guerre des Six Jours en 1967, il est deux fois Premier ministre d’Israël. Il signe en 1993 les accords d’Oslo avec Yasser Arafat, puis la paix avec la Jordanie, et reçoit le prix Nobel de la paix en 1994. Il est assassiné en 1995 par un extrémiste israélien.",
+    "en": "Army chief of staff during the 1967 Six-Day War, he twice served as Israel’s prime minister. He signed the Oslo Accords with Yasser Arafat in 1993, followed by peace with Jordan, and shared the 1994 Nobel Peace Prize. An Israeli extremist assassinated him in 1995."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Accords d’Oslo",
+      "en": "Oslo Accords"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient du même continent.",
+      "en": "+2 Diplomacy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

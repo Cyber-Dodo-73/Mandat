@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1058",
+  "role": {
+    "fr": "Premier ministre de l'Inde",
+    "en": "Prime Minister of India"
+  },
+  "bio": {
+    "fr": "Militant nationaliste hindou issu du RSS, il gouverne l'État du Gujarat de 2001 à 2014. À la tête du BJP, il remporte les élections législatives de 2014 et devient Premier ministre de l'Inde, fonction dans laquelle il est reconduit en 2019 puis en 2024.",
+    "en": "A Hindu nationalist activist from the RSS, he governed the state of Gujarat from 2001 to 2014. Leading the BJP, he won the 2014 general election to become prime minister of India and was returned to office in 2019 and again in 2024."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 8,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Grand rassemblement",
+      "en": "Mass Rally"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

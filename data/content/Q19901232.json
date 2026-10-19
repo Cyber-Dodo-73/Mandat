@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q19901232",
+  "role": {
+    "fr": "Présidente de l'Inde",
+    "en": "President of India"
+  },
+  "bio": {
+    "fr": "Issue de la communauté tribale santal de l'Odisha, elle est enseignante avant d'entrer en politique et de devenir ministre régionale. Gouverneure du Jharkhand de 2015 à 2021, elle est élue présidente de l'Inde en 2022, première personne issue d'un peuple adivasi et deuxième femme à ce poste.",
+    "en": "Born into the Santal tribal community of Odisha, she worked as a teacher before entering politics and serving as a state minister. Governor of Jharkhand from 2015 to 2021, she was elected President of India in 2022, the first from an Adivasi community and the second woman in the post."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 6,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Voix des Adivasis",
+      "en": "Adivasi Voice"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Diplomacy if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q38823",
+  "role": {
+    "fr": "Guide suprême de l'Iran",
+    "en": "Supreme Leader of Iran"
+  },
+  "bio": {
+    "fr": "Ayatollah exilé pour son opposition au chah, il prend la tête de la révolution de 1979 et fonde la République islamique, dont il devient le Guide suprême. Son régime emprisonne, torture et exécute des milliers d'opposants ; à l'été 1988, il ordonne l'exécution sommaire de plusieurs milliers de prisonniers politiques. En 1989, il lance une fatwa appelant au meurtre de l'écrivain Salman Rushdie.",
+    "en": "An ayatollah exiled for opposing the Shah, he led the 1979 revolution and founded the Islamic Republic, becoming its Supreme Leader. His regime imprisoned, tortured and executed thousands of opponents, and in the summer of 1988 he ordered the summary execution of several thousand political prisoners. In 1989 he issued a fatwa calling for the killing of the writer Salman Rushdie."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 3,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Fatwa",
+      "en": "Fatwa"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "-2 Charisma to the opposing card if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

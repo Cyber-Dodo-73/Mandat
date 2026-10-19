@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q1001",
+  "role": {
+    "fr": "Leader de l'indépendance de l'Inde",
+    "en": "Leader of India's independence movement"
+  },
+  "bio": {
+    "fr": "Avocat formé à Londres, il forge en Afrique du Sud sa méthode de résistance non violente avant de prendre la tête du mouvement national indien. Il mobilise des millions de personnes contre la domination britannique, notamment lors de la marche du sel en 1930, et l'Inde obtient son indépendance en 1947. Il est assassiné l'année suivante par un nationaliste hindou.",
+    "en": "A London-trained lawyer, he developed his method of non-violent resistance in South Africa before taking the lead of the Indian national movement. He rallied millions against British rule, notably with the 1930 Salt March, and India won its independence in 1947. He was assassinated the following year by a Hindu nationalist."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 9,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Non-violence",
+      "en": "Non-Violence"
+    },
+    "description": {
+      "fr": "−3 en Stratégie à la carte adverse si la carte adverse est plus rare.",
+      "en": "−3 Strategy to the opposing card if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

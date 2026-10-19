@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q181383",
+  "role": {
+    "fr": "Premier ministre de Malaisie",
+    "en": "Prime Minister of Malaysia"
+  },
+  "bio": {
+    "fr": "Médecin de formation, il dirige la Malaisie de 1981 à 2003 et en fait une économie industrielle exportatrice. Pendant la crise financière asiatique de 1997-1998, il impose un contrôle des capitaux contre l'avis du FMI. Revenu au pouvoir en 2018 à 92 ans, il devient le plus vieux chef de gouvernement en exercice au monde.",
+    "en": "A doctor by training, he led Malaysia from 1981 to 2003 and turned it into an industrial export economy. During the 1997–1998 Asian financial crisis he imposed capital controls against IMF advice. Back in power in 2018 at the age of 92, he became the world's oldest serving head of government."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 7,
+    "charisma": 6,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Regarder vers l'Est",
+      "en": "Look East"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient du même continent.",
+      "en": "+2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

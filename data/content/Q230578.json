@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q230578",
+  "role": {
+    "fr": "Président du Brésil",
+    "en": "President of Brazil"
+  },
+  "bio": {
+    "fr": "Sociologue exilé sous la dictature, il devient ministre des Finances en 1993 et lance le plan Real, qui met fin à l’hyperinflation. Élu président en 1994 puis réélu, il gouverne de 1995 à 2002 en stabilisant l’économie et en privatisant de grandes entreprises publiques.",
+    "en": "A sociologist forced into exile under the dictatorship, he became finance minister in 1993 and launched the Real Plan, which ended hyperinflation. Elected president in 1994 and re-elected, he governed from 1995 to 2002, stabilising the economy and privatising major state firms."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Plan Real",
+      "en": "Real Plan"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "-2 Strategy to the opposing card if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

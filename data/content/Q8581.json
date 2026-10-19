@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q8581",
+  "role": {
+    "fr": "Sultan d'Égypte et de Syrie",
+    "en": "Sultan of Egypt and Syria"
+  },
+  "bio": {
+    "fr": "Officier kurde, il met fin au califat fatimide en 1171 et fonde la dynastie ayyoubide, réunissant l'Égypte et la Syrie sous son autorité. En 1187, il écrase les croisés à Hattin et reprend Jérusalem. Face à la troisième croisade, il conclut en 1192 une trêve avec Richard Cœur de Lion.",
+    "en": "A Kurdish officer, he ended the Fatimid caliphate in 1171 and founded the Ayyubid dynasty, bringing Egypt and Syria under his rule. In 1187 he crushed the crusaders at Hattin and retook Jerusalem. Facing the Third Crusade, he agreed a truce with Richard the Lionheart in 1192."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Hattin",
+      "en": "Hattin"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Strategy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

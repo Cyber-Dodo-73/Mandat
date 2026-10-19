@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q204487",
+  "role": {
+    "fr": "Président de la Tunisie",
+    "en": "President of Tunisia"
+  },
+  "bio": {
+    "fr": "Militaire nommé Premier ministre, il écarte Habib Bourguiba pour sénilité en novembre 1987 et prend la présidence de la Tunisie. Son régime autoritaire, marqué par la répression et la corruption, dure 23 ans. Après l'immolation de Mohamed Bouazizi, la révolution le pousse à fuir en Arabie saoudite en janvier 2011.",
+    "en": "A military man appointed prime minister, he removed Habib Bourguiba on grounds of senility in November 1987 and took over as president of Tunisia. His authoritarian rule, marked by repression and corruption, lasted 23 years. After Mohamed Bouazizi set himself on fire, the revolution drove him to flee to Saudi Arabia in January 2011."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 6,
+    "charisma": 4,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Coup médical",
+      "en": "Medical Coup"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la manche 2.",
+      "en": "+2 Influence in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

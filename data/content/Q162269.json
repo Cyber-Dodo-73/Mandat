@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q162269",
+  "role": {
+    "fr": "Président des États confédérés d’Amérique",
+    "en": "President of the Confederate States of America"
+  },
+  "bio": {
+    "fr": "Officier de West Point et secrétaire à la Guerre de 1853 à 1857, il devient en 1861 président des États confédérés, sécession fondée sur la défense de l’esclavage. Après la défaite du Sud, il est capturé en 1865 et emprisonné deux ans, sans jamais être jugé.",
+    "en": "A West Point officer and Secretary of War from 1853 to 1857, he became president in 1861 of the Confederate States, which broke away to preserve slavery. Captured after the South’s defeat in 1865, he spent two years in prison but was never tried."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Cause sécessionniste",
+      "en": "Secession"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "Opposing card gets -2 Diplomacy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

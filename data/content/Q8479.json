@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q8479",
+  "role": {
+    "fr": "Tsar et empereur de Russie",
+    "en": "Tsar and Emperor of Russia"
+  },
+  "bio": {
+    "fr": "Tsar à partir de 1682, il voyage incognito en Europe occidentale et entreprend de moderniser l'armée, la marine et l'administration russes. Il fonde Saint-Pétersbourg en 1703 et en fait sa capitale. Vainqueur de la Suède dans la grande guerre du Nord, notamment à Poltava en 1709, il prend le titre d'empereur en 1721.",
+    "en": "Tsar from 1682, he travelled incognito through western Europe and set about modernising Russia's army, navy and government. He founded Saint Petersburg in 1703 and made it his capital. Victorious over Sweden in the Great Northern War, notably at Poltava in 1709, he took the title of emperor in 1721."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Fenêtre sur l'Europe",
+      "en": "Window on Europe"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient du même continent.",
+      "en": "+2 Strategy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

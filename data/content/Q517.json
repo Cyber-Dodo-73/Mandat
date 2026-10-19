@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q517",
+  "role": {
+    "fr": "Empereur des Français",
+    "en": "Emperor of the French"
+  },
+  "bio": {
+    "fr": "Général révolutionnaire couvert de victoires, il prend le pouvoir par le coup d'État de 1799 puis se fait sacrer empereur en 1804. Il dote la France du Code civil et domine l'Europe continentale par une série de guerres, avant d'être défait à Waterloo en 1815 et exilé à Sainte-Hélène, où il meurt en 1821.",
+    "en": "A revolutionary general with a string of victories, he seized power in the 1799 coup and was crowned emperor in 1804. He gave France its Civil Code and dominated continental Europe through a series of wars before his defeat at Waterloo in 1815 and exile on Saint Helena, where he died in 1821."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Soleil d'Austerlitz",
+      "en": "Sun of Austerlitz"
+    },
+    "description": {
+      "fr": "+2 lors des manches de Stratégie.",
+      "en": "+2 in Strategy rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "strategy"
+      }
+    }
+  }
+}

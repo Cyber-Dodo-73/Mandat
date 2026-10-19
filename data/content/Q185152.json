@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q185152",
+  "role": {
+    "fr": "Empereur de Chine",
+    "en": "Emperor of China"
+  },
+  "bio": {
+    "fr": "Couronné en 1908 à l’âge de deux ans, le dernier empereur de la dynastie Qing doit abdiquer en 1912 après la révolution républicaine. Le Japon l’installe ensuite à la tête du Mandchoukouo, État fantoche dont il devient empereur en 1934. Prisonnier après 1945 puis « rééduqué » par la République populaire, il finit sa vie comme simple citoyen à Pékin.",
+    "en": "Enthroned in 1908 at the age of two, the last Qing emperor was forced to abdicate in 1912 after the republican revolution. Japan later made him ruler of its puppet state of Manchukuo, where he took the imperial title in 1934. Imprisoned after 1945 and put through communist re-education, he ended his days as an ordinary citizen in Beijing."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Dernier Fils du Ciel",
+      "en": "Last Son of Heaven"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité si la carte adverse est plus rare.",
+      "en": "Wins tied rounds if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

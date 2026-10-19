@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q313424",
+  "name": {
+    "fr": "Ian Smith",
+    "en": "Ian Smith"
+  },
+  "role": {
+    "fr": "Premier ministre de la Rhodésie",
+    "en": "Prime Minister of Rhodesia"
+  },
+  "bio": {
+    "fr": "Ancien pilote de la RAF, il devient Premier ministre de la Rhodésie du Sud en 1964. En 1965, il proclame unilatéralement l'indépendance pour maintenir le pouvoir de la minorité blanche, malgré les sanctions de l'ONU. La guerre contre les mouvements nationalistes noirs fait des dizaines de milliers de morts avant les accords de Lancaster House en 1979.",
+    "en": "A former RAF pilot, he became prime minister of Southern Rhodesia in 1964. In 1965 he unilaterally declared independence to preserve white minority rule, defying UN sanctions. The war against Black nationalist movements killed tens of thousands before the Lancaster House Agreement of 1979."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 7,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Déclaration unilatérale",
+      "en": "Unilateral Declaration"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse lors de la manche 1.",
+      "en": "-2 Diplomacy to the opposing card in round 1."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

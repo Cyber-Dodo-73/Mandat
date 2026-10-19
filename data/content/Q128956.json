@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q128956",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Chef travailliste, il est Premier ministre de 1964 à 1970 puis de 1974 à 1976 et remporte quatre élections générales. Il tient le Royaume-Uni à l'écart de la guerre du Viêt Nam, crée l'Open University et dévalue la livre en 1967. En 1975, il organise le premier référendum national, sur le maintien dans la Communauté européenne.",
+    "en": "The Labour leader was Prime Minister from 1964 to 1970 and again from 1974 to 1976, winning four general elections. He kept Britain out of the Vietnam War, founded the Open University and devalued the pound in 1967. In 1975 he held the country's first national referendum, on staying in the European Community."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 6,
+    "charisma": 3,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Référendum de 1975",
+      "en": "1975 Referendum"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors de la 2e manche.",
+      "en": "+2 Diplomacy in the second round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

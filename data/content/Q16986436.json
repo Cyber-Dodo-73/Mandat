@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q16986436",
+  "role": {
+    "fr": "Première ministre de Finlande",
+    "en": "Prime Minister of Finland"
+  },
+  "bio": {
+    "fr": "Issue du Parti social-démocrate, elle devient en décembre 2019, à 34 ans, l’une des plus jeunes cheffes de gouvernement au monde. Elle conduit la Finlande pendant la pandémie de Covid-19 puis porte, après l’invasion russe de l’Ukraine en 2022, la candidature du pays à l’OTAN. Son parti perd les élections législatives de 2023.",
+    "en": "A Social Democrat, she became one of the world’s youngest heads of government in December 2019, aged 34. She steered Finland through the Covid-19 pandemic and, after Russia invaded Ukraine in 2022, led the country’s bid to join NATO. Her party was defeated in the 2023 parliamentary election."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 9,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Cap sur l’OTAN",
+      "en": "Northern Alliance"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie contre une carte de l’époque contemporaine.",
+      "en": "+2 Diplomacy against a contemporary card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

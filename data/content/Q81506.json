@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q81506",
+  "role": {
+    "fr": "Roi d'Angleterre, d'Écosse et d'Irlande",
+    "en": "King of England, Scotland and Ireland"
+  },
+  "bio": {
+    "fr": "Roi à partir de 1625, il gouverne sans Parlement de 1629 à 1640 et s'oppose aux députés sur l'impôt et la religion. Ces conflits débouchent en 1642 sur la guerre civile anglaise. Vaincu, il est jugé et décapité à Londres en janvier 1649, et la monarchie est abolie jusqu'en 1660.",
+    "en": "King from 1625, he ruled without Parliament from 1629 to 1640 and clashed with MPs over taxation and religion. The quarrel led to the English Civil War in 1642. Defeated, he was tried and beheaded in London in January 1649, and the monarchy was abolished until 1660."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Droit divin",
+      "en": "Divine Right"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la première manche.",
+      "en": "+2 Influence in the first round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

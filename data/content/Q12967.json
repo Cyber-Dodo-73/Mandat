@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q12967",
+  "role": {
+    "fr": "Roi des Belges",
+    "en": "King of the Belgians"
+  },
+  "bio": {
+    "fr": "Roi de 1865 à 1909, il se fait attribuer le Congo comme possession personnelle en 1885. Pour récolter le caoutchouc, son régime y impose le travail forcé, les prises d'otages et les mutilations : des millions de Congolais meurent de violences, de famine et de maladies. Le scandale international contraint la Belgique à reprendre la colonie en 1908.",
+    "en": "King from 1865 to 1909, he obtained the Congo as his personal possession in 1885. To extract rubber, his regime relied on forced labour, hostage-taking and mutilation, and millions of Congolese died from violence, famine and disease. An international outcry forced Belgium to take over the colony in 1908."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Conférence de Berlin",
+      "en": "Berlin Conference"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

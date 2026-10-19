@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q43179",
+  "role": {
+    "fr": "Présidente du Liberia",
+    "en": "President of Liberia"
+  },
+  "bio": {
+    "fr": "Économiste passée par la Banque mondiale et les Nations unies, elle devient en 2006 la première femme élue cheffe d'État en Afrique. Présidente du Liberia jusqu'en 2018, elle conduit la reconstruction du pays après la guerre civile et affronte l'épidémie d'Ebola. Elle reçoit le prix Nobel de la paix en 2011.",
+    "en": "An economist with a career at the World Bank and the United Nations, she became Africa's first elected female head of state in 2006. As president of Liberia until 2018, she led the country's rebuilding after civil war and faced the Ebola epidemic. She shared the Nobel Peace Prize in 2011."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Dame de fer du Liberia",
+      "en": "Liberia's Iron Lady"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 in the round's domain if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

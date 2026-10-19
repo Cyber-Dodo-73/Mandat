@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q41178",
+  "role": {
+    "fr": "Empereur d'Éthiopie",
+    "en": "Emperor of Ethiopia"
+  },
+  "bio": {
+    "fr": "Couronné empereur d'Éthiopie en 1930, il dénonce en 1936 devant la Société des Nations l'invasion italienne de son pays. Rentré d'exil en 1941, il modernise l'État et accueille en 1963 la fondation de l'Organisation de l'unité africaine à Addis-Abeba. Déposé par la junte du Derg en 1974, il meurt en détention l'année suivante.",
+    "en": "Crowned Emperor of Ethiopia in 1930, he denounced Italy's invasion of his country before the League of Nations in 1936. Back from exile in 1941, he modernised the state and hosted the founding of the Organisation of African Unity in Addis Ababa in 1963. Deposed by the Derg junta in 1974, he died in custody the following year."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Discours de Genève",
+      "en": "Geneva Speech"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse est plus rare.",
+      "en": "+2 Diplomacy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q7231",
+  "role": {
+    "fr": "Cofondatrice du Parti communiste d'Allemagne",
+    "en": "Co-founder of the Communist Party of Germany"
+  },
+  "bio": {
+    "fr": "Née en 1871 en Pologne russe, cette théoricienne marxiste milite au Parti social-démocrate allemand et s'oppose à la Première Guerre mondiale, ce qui lui vaut la prison. Elle cofonde la Ligue spartakiste puis le Parti communiste d'Allemagne fin 1918. Après l'insurrection spartakiste, elle est assassinée par des corps francs à Berlin en janvier 1919.",
+    "en": "Born in Russian-ruled Poland in 1871, the Marxist theorist was active in the German Social Democratic Party and was jailed for opposing the First World War. She co-founded the Spartacus League and then, at the end of 1918, the Communist Party of Germany. After the Spartacist uprising she was murdered by Freikorps soldiers in Berlin in January 1919."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Spartakus",
+      "en": "Spartacus"
+    },
+    "description": {
+      "fr": "+2 en Influence si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Influence if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

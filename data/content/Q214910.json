@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q214910",
+  "role": {
+    "fr": "Roi d'Hawaï",
+    "en": "King of Hawaii"
+  },
+  "bio": {
+    "fr": "Chef de guerre de l'île d'Hawaï, il conquiert la plupart de l'archipel, notamment après la bataille de Nuʻuanu en 1795. Kauaʻi se soumet par accord en 1810, et il fonde ainsi le royaume d'Hawaï. Sa « loi de la pagaie brisée » protège les civils en temps de guerre.",
+    "en": "A war chief from the island of Hawaiʻi, he conquered most of the archipelago, notably after the Battle of Nuʻuanu in 1795. Kauaʻi submitted by agreement in 1810, completing the founding of the Kingdom of Hawaii. His Law of the Splintered Paddle protected civilians in wartime."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 6,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Unification de l'archipel",
+      "en": "Unifier of the Islands"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient du même continent.",
+      "en": "+2 Strategy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

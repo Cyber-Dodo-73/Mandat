@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q132345",
+  "role": {
+    "fr": "Premier ministre du Japon",
+    "en": "Prime Minister of Japan"
+  },
+  "bio": {
+    "fr": "Premier ministre en 2006–2007 puis de 2012 à 2020, il est le chef de gouvernement resté le plus longtemps en poste au Japon. Il lance les « Abenomics » et fait réinterpréter la Constitution pour autoriser la défense collective. Il est assassiné par balle en juillet 2022 lors d'un discours de campagne à Nara.",
+    "en": "Prime Minister in 2006–2007 and again from 2012 to 2020, he was Japan's longest-serving head of government. He launched 'Abenomics' and had the constitution reinterpreted to allow collective self-defence. He was shot dead in July 2022 while giving a campaign speech in Nara."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 2,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Trois flèches",
+      "en": "Three Arrows"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Strategy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "wikidataId": "Q16769592",
+  "name": {
+    "fr": "Amal Clooney",
+    "en": "Amal Clooney"
+  },
+  "role": {
+    "fr": "Avocate britanno-libanaise des droits humains",
+    "en": "British-Lebanese human rights lawyer"
+  },
+  "bio": {
+    "fr": "Née au Liban et formée à Oxford et New York, elle plaide devant les juridictions internationales en droit international et droits humains. Elle a défendu des journalistes et opposants emprisonnés et représenté des victimes yézidies de l'État islamique. Elle cofonde en 2016 la Clooney Foundation for Justice.",
+    "en": "Born in Lebanon and educated at Oxford and New York University, she argues cases in international law and human rights before international courts. She has defended jailed journalists and opposition figures and represented Yazidi survivors of the Islamic State. In 2016 she co-founded the Clooney Foundation for Justice."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 9,
+    "charisma": 8,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Plaidoirie finale",
+      "en": "Closing Argument"
+    },
+    "description": {
+      "fr": "Remporte les égalités au round 3.",
+      "en": "Wins ties in round 3."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

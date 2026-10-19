@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q32732",
+  "role": {
+    "fr": "Militante pakistanaise pour l'éducation des filles",
+    "en": "Pakistani activist for girls' education"
+  },
+  "bio": {
+    "fr": "Originaire de la vallée de Swat, elle témoigne dès l'adolescence, sous pseudonyme, de la vie sous le contrôle des talibans et défend le droit des filles à l'école. En octobre 2012, un taliban lui tire une balle dans la tête dans son bus scolaire ; elle survit après des soins au Royaume-Uni. En 2014, à 17 ans, elle devient la plus jeune lauréate du prix Nobel de la paix.",
+    "en": "Raised in Pakistan's Swat Valley, she wrote anonymously as a young teenager about life under Taliban control and spoke up for girls' right to attend school. In October 2012 a Taliban gunman shot her in the head on her school bus; she survived after treatment in Britain. In 2014, aged 17, she became the youngest ever Nobel Peace Prize laureate."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 8,
+    "charisma": 10,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Un livre, un stylo",
+      "en": "One Book, One Pen"
+    },
+    "description": {
+      "fr": "+3 en Charisme si la carte adverse est plus rare.",
+      "en": "+3 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

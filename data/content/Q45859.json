@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q45859",
+  "role": {
+    "fr": "Reine de Castille",
+    "en": "Queen of Castile"
+  },
+  "bio": {
+    "fr": "Reine de Castille à partir de 1474, elle forme avec son époux Ferdinand d'Aragon le couple des Rois catholiques. Elle établit l'Inquisition espagnole en 1478 et, en 1492, achève la conquête de Grenade, expulse les Juifs du royaume et finance le voyage de Christophe Colomb.",
+    "en": "Queen of Castile from 1474, she and her husband Ferdinand of Aragon ruled as the Catholic Monarchs. She set up the Spanish Inquisition in 1478, and in 1492 completed the conquest of Granada, expelled the Jews from her realm and backed Christopher Columbus's voyage."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Rois catholiques",
+      "en": "Catholic Monarchs"
+    },
+    "description": {
+      "fr": "+2 dans le domaine du round si la carte adverse est du Moyen Âge.",
+      "en": "+2 in the round's domain if the opposing card is from the Middle Ages."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "medieval"
+      }
+    }
+  }
+}

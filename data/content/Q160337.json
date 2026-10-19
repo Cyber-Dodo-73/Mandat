@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q160337",
+  "role": {
+    "fr": "Roi d'Angleterre",
+    "en": "King of England"
+  },
+  "bio": {
+    "fr": "Roi à neuf mois en 1422, il est aussi couronné roi de France à Paris en 1431, mais l'Angleterre perd presque toutes ses terres françaises en 1453. Ses crises de démence ouvrent la guerre des Deux-Roses ; détrôné, brièvement rétabli, il meurt à la Tour de Londres en 1471. Il fonde Eton et le King's College de Cambridge.",
+    "en": "King at nine months old in 1422, he was also crowned King of France in Paris in 1431, yet England had lost almost all its French lands by 1453. His bouts of mental illness helped trigger the Wars of the Roses; deposed and briefly restored, he died in the Tower of London in 1471. He founded Eton and King's College, Cambridge."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Fondateur d'Eton",
+      "en": "Founder of Eton"
+    },
+    "description": {
+      "fr": "Remporte les égalités quand le domaine du round est Diplomatie.",
+      "en": "Wins ties when the round's domain is Diplomacy."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "roundDomain",
+        "value": "diplomacy"
+      }
+    }
+  }
+}

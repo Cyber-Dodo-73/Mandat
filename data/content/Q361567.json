@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q361567",
+  "role": {
+    "fr": "Président du Nigeria",
+    "en": "President of Nigeria"
+  },
+  "bio": {
+    "fr": "Général, il dirige le Nigeria après le coup d’État de décembre 1983 jusqu’à son propre renversement en 1985. Élu président en 2015, il est le premier candidat d’opposition à battre un président sortant dans le pays et gouverne jusqu’en 2023. Il meurt en 2025.",
+    "en": "An army general, he ruled Nigeria after the December 1983 coup until he was himself overthrown in 1985. Elected president in 2015, he became the first opposition candidate to unseat a sitting Nigerian president, and served until 2023. He died in 2025."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Guerre contre l’indiscipline",
+      "en": "War Against Indiscipline"
+    },
+    "description": {
+      "fr": "+2 en Influence si vous avez perdu plus de manches que l’adversaire.",
+      "en": "+2 Influence when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q56226",
+  "role": {
+    "fr": "Dirigeant suprême de la Corée du Nord",
+    "en": "Supreme Leader of North Korea"
+  },
+  "bio": {
+    "fr": "Petit-fils de Kim Il-sung, il succède à son père Kim Jong-il fin 2011 à la tête de la Corée du Nord. Il accélère les programmes nucléaire et balistique et élimine des rivaux, dont son oncle Jang Song-thaek, exécuté en 2013. Il rencontre Donald Trump à trois reprises en 2018 et 2019 sans accord sur la dénucléarisation.",
+    "en": "Grandson of Kim Il-sung, he succeeded his father Kim Jong-il as North Korea's leader at the end of 2011. He sped up the nuclear and missile programmes and purged rivals, including his uncle Jang Song-thaek, executed in 2013. He met Donald Trump three times in 2018 and 2019 without any deal on denuclearisation."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Dissuasion",
+      "en": "Deterrence"
+    },
+    "description": {
+      "fr": "-2 à la carte adverse dans le domaine de la manche si la carte adverse est plus rare.",
+      "en": "-2 to the opposing card in the round's domain if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

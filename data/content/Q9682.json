@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q9682",
+  "role": {
+    "fr": "Reine du Royaume-Uni",
+    "en": "Queen of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Montée sur le trône en 1952 à l'âge de 25 ans, elle règne plus de soixante-dix ans, le plus long règne de l'histoire britannique. Elle accompagne la décolonisation et la transformation de l'Empire en Commonwealth, tout en incarnant une monarchie constitutionnelle neutre jusqu'à sa mort en 2022.",
+    "en": "Crowned queen in 1952 at the age of 25, she reigned for more than seventy years, the longest reign in British history. She presided over decolonisation and the shift from Empire to Commonwealth, embodying a politically neutral constitutional monarchy until her death in 2022."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 9,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Soixante-dix ans de règne",
+      "en": "Seventy Years on the Throne"
+    },
+    "description": {
+      "fr": "Remporte les égalités.",
+      "en": "Wins ties."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

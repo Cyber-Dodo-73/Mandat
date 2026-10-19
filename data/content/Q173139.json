@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q173139",
+  "role": {
+    "fr": "Président du Liberia",
+    "en": "President of Liberia"
+  },
+  "bio": {
+    "fr": "Attaquant passé par Monaco, le PSG et l'AC Milan, il devient en 1995 le premier Africain lauréat du Ballon d'or. Reconverti en politique, il est sénateur puis président du Liberia de 2018 à 2024, avant d'être battu de justesse par Joseph Boakai.",
+    "en": "A striker who played for Monaco, Paris Saint-Germain and AC Milan, he became the first African to win the Ballon d'Or in 1995. Turning to politics, he served as a senator and then as President of Liberia from 2018 to 2024, before narrowly losing to Joseph Boakai."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 10,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Ballon d'or",
+      "en": "Ballon d'Or"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est plus rare.",
+      "en": "+2 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

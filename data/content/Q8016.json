@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q8016",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Nommé Premier ministre en mai 1940, il refuse toute paix séparée avec l'Allemagne nazie et mène le Royaume-Uni jusqu'à la victoire de 1945. Revenu au pouvoir de 1951 à 1955, il reçoit aussi le prix Nobel de littérature en 1953 pour ses écrits historiques et ses discours.",
+    "en": "Appointed prime minister in May 1940, he refused any separate peace with Nazi Germany and led Britain through to victory in 1945. Back in office from 1951 to 1955, he also won the 1953 Nobel Prize in Literature for his historical writing and speeches."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 5,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Du sang et des larmes",
+      "en": "Blood, Toil and Tears"
+    },
+    "description": {
+      "fr": "+3 en Charisme si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+3 Charisma when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 3,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

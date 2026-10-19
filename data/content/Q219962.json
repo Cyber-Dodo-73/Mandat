@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q219962",
+  "role": {
+    "fr": "Président du Botswana",
+    "en": "President of Botswana"
+  },
+  "bio": {
+    "fr": "Héritier de la chefferie bamangwato, il est exilé par les autorités britanniques après son mariage avec une Anglaise, Ruth Williams. Revenu en politique, il conduit le Botswana à l’indépendance en 1966 et le préside jusqu’à sa mort, en gérant les revenus du diamant de façon prudente et démocratique.",
+    "en": "Heir to the Bamangwato chieftaincy, he was exiled by the British after marrying an Englishwoman, Ruth Williams. Back in politics, he led Botswana to independence in 1966 and governed until his death, steering the new diamond revenues with notable prudence inside a working democracy."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 6,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Kgotla",
+      "en": "Kgotla"
+    },
+    "description": {
+      "fr": "+1 en Diplomatie en permanence.",
+      "en": "+1 Diplomacy at all times."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

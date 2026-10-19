@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q368",
+  "role": {
+    "fr": "Président du Chili",
+    "en": "President of Chile"
+  },
+  "bio": {
+    "fr": "Commandant de l'armée chilienne, il renverse le président Salvador Allende par le coup d'État du 11 septembre 1973. Sa dictature fait plus de 3 000 morts et disparus et soumet des dizaines de milliers de personnes à la détention politique et à la torture. Il quitte la présidence en 1990, est arrêté à Londres en 1998 et meurt en 2006 sans avoir été jugé.",
+    "en": "Commander of the Chilean army, he overthrew President Salvador Allende in the coup of 11 September 1973. His dictatorship killed or disappeared more than 3,000 people and subjected tens of thousands to political imprisonment and torture. He left the presidency in 1990, was arrested in London in 1998 and died in 2006 without being tried."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Junte",
+      "en": "Junta"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Strategy to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

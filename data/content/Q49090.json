@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q49090",
+  "role": {
+    "fr": "Président du Liberia",
+    "en": "President of Liberia"
+  },
+  "bio": {
+    "fr": "Chef de guerre, il déclenche en 1989 la guerre civile libérienne, dont les deux phases font environ 250 000 morts jusqu'en 2003, et devient président du Liberia en 1997. Il arme les rebelles du RUF en Sierra Leone en échange de diamants, une guerre marquée par des meurtres de masse, des mutilations, des viols et l'enrôlement d'enfants soldats. Il est condamné en 2012 à 50 ans de prison pour crimes de guerre et crimes contre l'humanité.",
+    "en": "A warlord, he launched the Liberian civil war in 1989; its two phases killed some 250,000 people by 2003, and he became president of Liberia in 1997. He armed Sierra Leone's RUF rebels in exchange for diamonds, in a war of mass killings, mutilations, rape and child soldier recruitment. In 2012 he was sentenced to 50 years in prison for war crimes and crimes against humanity."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Diamants du sang",
+      "en": "Blood Diamonds"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Diplomacy to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

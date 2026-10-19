@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q7721",
+  "role": {
+    "fr": "Empereur des Français",
+    "en": "Emperor of the French"
+  },
+  "bio": {
+    "fr": "Neveu de Napoléon Ier, il est élu président de la République en 1848, puis se maintient par le coup d'État de 1851 et se proclame empereur en 1852. Le Second Empire voit l'industrialisation du pays et la transformation de Paris par Haussmann. Capturé à Sedan en 1870 pendant la guerre contre la Prusse, il meurt en exil en Angleterre.",
+    "en": "Napoleon I's nephew, he was elected president in 1848, held on to power through a coup in 1851 and declared himself emperor in 1852. The Second Empire brought industrialisation and Haussmann's rebuilding of Paris. Captured at Sedan in 1870 during the war with Prussia, he died in exile in England."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 7,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Coup du 2 décembre",
+      "en": "December Coup"
+    },
+    "description": {
+      "fr": "+3 en Influence, uniquement lors d'une manche de Influence.",
+      "en": "+3 Influence, only in a Influence round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 3,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "influence"
+      }
+    }
+  }
+}

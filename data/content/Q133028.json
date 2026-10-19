@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q133028",
+  "role": {
+    "fr": "Roi d'Angleterre",
+    "en": "King of England"
+  },
+  "bio": {
+    "fr": "Dernier roi de la maison d'York, il monte sur le trône en 1483 après que ses neveux ont été déclarés illégitimes ; les deux princes disparaissent ensuite dans la tour de Londres. Il est tué en 1485 à la bataille de Bosworth face à Henri Tudor. Ses restes sont retrouvés en 2012 sous un parking de Leicester.",
+    "en": "The last king of the House of York, he took the throne in 1483 after his nephews were declared illegitimate; the two princes then vanished in the Tower of London. He was killed at the Battle of Bosworth in 1485, fighting Henry Tudor. His remains were found under a Leicester car park in 2012."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Mon royaume pour un cheval",
+      "en": "A Horse, a Horse"
+    },
+    "description": {
+      "fr": "+2 en Stratégie lors de la 3e manche.",
+      "en": "+2 Strategy in the third round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

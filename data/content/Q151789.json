@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q151789",
+  "role": {
+    "fr": "Empereur de Russie",
+    "en": "Emperor of Russia"
+  },
+  "bio": {
+    "fr": "Petit-fils de Pierre le Grand élevé en Holstein, il devient empereur de Russie en janvier 1762. Admirateur de Frédéric II, il fait aussitôt la paix avec la Prusse et retire la Russie de la guerre de Sept Ans. Renversé six mois plus tard par un coup d’État de son épouse Catherine, il meurt en captivité quelques jours après.",
+    "en": "A grandson of Peter the Great raised in Holstein, he became emperor of Russia in January 1762. An admirer of Frederick II, he promptly made peace with Prussia and pulled Russia out of the Seven Years’ War. Six months later his wife Catherine overthrew him, and he died in custody days afterwards."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Paix avec la Prusse",
+      "en": "Peace with Prussia"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "Opposing card gets -2 Strategy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

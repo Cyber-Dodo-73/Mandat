@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q10853588",
+  "role": {
+    "fr": "Vice-présidente des États-Unis",
+    "en": "Vice President of the United States"
+  },
+  "bio": {
+    "fr": "Procureure générale de Californie puis sénatrice, elle devient en 2021 la première femme vice-présidente des États-Unis, aux côtés de Joe Biden. Désignée candidate démocrate en 2024 après le retrait de celui-ci, elle est battue par Donald Trump.",
+    "en": "A former attorney general of California and US senator, she became the first woman vice president of the United States in 2021, serving under Joe Biden. Nominated as the Democratic candidate in 2024 after his withdrawal, she lost to Donald Trump."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Réquisitoire",
+      "en": "Closing Argument"
+    },
+    "description": {
+      "fr": "−2 en Charisme à la carte adverse lors de la 3e manche.",
+      "en": "−2 Charisma to the opposing card in round 3."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

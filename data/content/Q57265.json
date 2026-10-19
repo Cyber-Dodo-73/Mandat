@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q57265",
+  "role": {
+    "fr": "Président du Soudan",
+    "en": "President of Sudan"
+  },
+  "bio": {
+    "fr": "Officier, il prend le pouvoir au Soudan par un coup d'État soutenu par les islamistes en 1989 et le garde trente ans. La Cour pénale internationale émet contre lui en 2009 et 2010 des mandats d'arrêt pour crimes de guerre, crimes contre l'humanité et génocide au Darfour. Le Soudan du Sud fait sécession en 2011, et l'armée le destitue en 2019 après des mois de manifestations.",
+    "en": "An army officer, he seized power in Sudan in an Islamist-backed coup in 1989 and held it for thirty years. In 2009 and 2010 the International Criminal Court issued arrest warrants against him for war crimes, crimes against humanity and genocide in Darfur. South Sudan seceded in 2011, and the army removed him in 2019 after months of protests."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Coup de 1989",
+      "en": "The 1989 Coup"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "-2 Charisma to the opposing card if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

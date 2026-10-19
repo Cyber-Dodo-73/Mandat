@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q269909",
+  "role": {
+    "fr": "Maire du Grand Manchester (Royaume-Uni)",
+    "en": "Mayor of Greater Manchester (United Kingdom)"
+  },
+  "bio": {
+    "fr": "Député travailliste de Leigh à partir de 2001, il est ministre de la Santé dans le gouvernement de Gordon Brown et se présente deux fois à la direction du Parti travailliste. Élu en 2017 premier maire du Grand Manchester, il devient l’une des voix les plus en vue du pouvoir local au Royaume-Uni.",
+    "en": "Labour MP for Leigh from 2001, he served as Health Secretary under Gordon Brown and twice ran for the party leadership. Elected the first Mayor of Greater Manchester in 2017, he became one of the most prominent figures in British local government."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Roi du Nord",
+      "en": "King of the North"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q137204778",
+  "role": {
+    "fr": "Président de la Colombie",
+    "en": "President of Colombia"
+  },
+  "bio": {
+    "fr": "Avocat médiatique connu pour avoir défendu des clients controversés, il se lance en politique comme candidat indépendant de droite. Il fait campagne pour la présidentielle colombienne de 2026 sur un discours de fermeté face au crime et aux groupes armés.",
+    "en": "A high-profile lawyer known for defending controversial clients, he entered politics as an independent right-wing candidate. He ran in Colombia's 2026 presidential election on a tough-on-crime message aimed at armed groups."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Plaidoirie",
+      "en": "Closing Argument"
+    },
+    "description": {
+      "fr": "+3 en Charisme si la carte adverse est plus rare.",
+      "en": "+3 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

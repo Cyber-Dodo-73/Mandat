@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q57313",
+  "role": {
+    "fr": "Président de l’Angola",
+    "en": "President of Angola"
+  },
+  "bio": {
+    "fr": "Ingénieur formé en Union soviétique et cadre du MPLA, il succède à Agostinho Neto en 1979 et dirige l’Angola pendant 38 ans. Sa présidence traverse une longue guerre civile contre l’UNITA, achevée en 2002, puis un boom pétrolier qui enrichit surtout le cercle du pouvoir et sa famille.",
+    "en": "A Soviet-trained engineer and MPLA official, he took over from Agostinho Neto in 1979 and ruled Angola for 38 years. His tenure spanned a long civil war against UNITA that ended in 2002, followed by an oil boom whose wealth flowed largely to the ruling circle and his own family."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Pétro-pouvoir",
+      "en": "Petro-Power"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient du même continent.",
+      "en": "+2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

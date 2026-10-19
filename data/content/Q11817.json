@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q11817",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Général vainqueur des Britanniques à La Nouvelle-Orléans en 1815, il est président de 1829 à 1837 et donne naissance au Parti démocrate moderne. Il combat la Banque des États-Unis et signe en 1830 l'Indian Removal Act. Cette loi entraîne la déportation de dizaines de milliers d'Amérindiens, dont la « Piste des larmes », qui fait des milliers de morts.",
+    "en": "The general who beat the British at New Orleans in 1815, he served as president from 1829 to 1837 and shaped the modern Democratic Party. He fought the Bank of the United States and signed the Indian Removal Act in 1830. That law led to the forced removal of tens of thousands of Native Americans, including the Trail of Tears, in which thousands died."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 7,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Old Hickory",
+      "en": "Old Hickory"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si vous êtes mené au score.",
+      "en": "+2 Strategy when you are behind in rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

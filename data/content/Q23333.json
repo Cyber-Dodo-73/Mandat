@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q23333",
+  "role": {
+    "fr": "Premier ministre d’Australie",
+    "en": "Prime Minister of Australia"
+  },
+  "bio": {
+    "fr": "Il ramène le Parti travailliste au pouvoir en 1972 après 23 ans d’opposition et mène en trois ans des réformes rapides : fin de la conscription, reconnaissance de la Chine, assurance maladie universelle. En novembre 1975, le gouverneur général John Kerr le révoque, un fait sans précédent dans l’histoire australienne.",
+    "en": "He brought Labor back to power in 1972 after 23 years in opposition and pushed through a burst of reforms: ending conscription, recognising China and creating universal health insurance. In November 1975 Governor-General John Kerr dismissed him, an event without precedent in Australian history."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "C’est le moment",
+      "en": "It's Time"
+    },
+    "description": {
+      "fr": "+2 en Charisme lors de la manche 1.",
+      "en": "+2 Charisma in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

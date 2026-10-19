@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q10648",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Chancelier de l'Échiquier de 1997 à 2007, un record de longévité dans l'histoire moderne, il succède à Tony Blair comme Premier ministre. Face à la crise financière de 2008, il recapitalise les banques britanniques et accueille le sommet du G20 de Londres en 2009. Les travaillistes perdent le pouvoir aux élections de 2010.",
+    "en": "Chancellor of the Exchequer from 1997 to 2007, the longest stint in modern times, he succeeded Tony Blair as prime minister. Facing the 2008 financial crisis, he recapitalised Britain's banks and hosted the 2009 London G20 summit. Labour lost power at the 2010 election."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 3,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Plan de sauvetage",
+      "en": "Bailout"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Strategy if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

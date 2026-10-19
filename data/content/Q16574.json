@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q16574",
+  "role": {
+    "fr": "Président de la république de Chine",
+    "en": "President of the Republic of China"
+  },
+  "bio": {
+    "fr": "Successeur de Sun Yat-sen à la tête du Kuomintang, il réunifie une grande partie de la Chine en 1928 et dirige la résistance contre le Japon. Vaincu par les communistes en 1949, il se replie à Taïwan avec son gouvernement. Il y gouverne sous la loi martiale jusqu'à sa mort en 1975, période marquée par la répression de la « Terreur blanche ».",
+    "en": "Sun Yat-sen's successor at the head of the Kuomintang, he reunified much of China in 1928 and led the resistance to Japan. Defeated by the Communists in 1949, he withdrew with his government to Taiwan. He ruled there under martial law until his death in 1975, a period marked by the repression of the White Terror."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Repli sur Taïwan",
+      "en": "Retreat to Taiwan"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité si vous avez perdu plus de manches que l'adversaire.",
+      "en": "Wins tied rounds if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

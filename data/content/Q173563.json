@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q173563",
+  "role": {
+    "fr": "Président du Kenya",
+    "en": "President of Kenya"
+  },
+  "bio": {
+    "fr": "Militant nationaliste et auteur d'une étude ethnographique sur les Kikuyu, il est emprisonné par les Britanniques de 1952 à 1961, accusé de diriger les Mau Mau. Premier ministre à l'indépendance en 1963, il devient l'année suivante le premier président du Kenya. Il exerce un pouvoir de plus en plus personnel jusqu'à sa mort en 1978.",
+    "en": "A nationalist campaigner and author of an ethnographic study of the Kikuyu, he was held by the British from 1952 to 1961 on charges of leading the Mau Mau. Prime minister at independence in 1963, he became Kenya's first president the following year. He ruled in an increasingly personal style until his death in 1978."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 4,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Harambee",
+      "en": "Harambee"
+    },
+    "description": {
+      "fr": "+1 dans le domaine de la manche.",
+      "en": "+1 in the round's domain."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

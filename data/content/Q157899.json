@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q157899",
+  "role": {
+    "fr": "Pharaon d'Égypte",
+    "en": "Pharaoh of Egypt"
+  },
+  "bio": {
+    "fr": "Roi de la XVIIIe dynastie, il partage d'abord le trône avec sa tante Hatchepsout avant de régner seul. Il mène de nombreuses campagnes au Proche-Orient, dont la victoire de Megiddo, et porte l'empire égyptien à son extension maximale. Son règne dure plus d'un demi-siècle et s'achève vers 1425 av. J.-C.",
+    "en": "A king of the Eighteenth Dynasty, he first shared the throne with his aunt Hatshepsut before ruling alone. He led many campaigns in the Near East, including the victory at Megiddo, and extended Egypt's empire to its greatest reach. His reign lasted more than half a century and ended around 1425 BC."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Bataille de Megiddo",
+      "en": "Battle of Megiddo"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse est de l'Antiquité.",
+      "en": "+2 Strategy if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

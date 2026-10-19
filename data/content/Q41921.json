@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q41921",
+  "role": {
+    "fr": "Militante des droits civiques aux États-Unis",
+    "en": "American civil rights activist"
+  },
+  "bio": {
+    "fr": "Secrétaire de la section de l'Association nationale pour l'avancement des gens de couleur à Montgomery, en Alabama, elle refuse le 1er décembre 1955 de céder sa place à un passager blanc dans un bus et est arrêtée. Son geste déclenche un boycott des bus de 381 jours mené par Martin Luther King. En 1956, la Cour suprême déclare la ségrégation dans les bus contraire à la Constitution.",
+    "en": "Secretary of the NAACP chapter in Montgomery, Alabama, she was arrested on 1 December 1955 for refusing to give up her bus seat to a white passenger. Her stand sparked a 381-day bus boycott led by Martin Luther King Jr. In 1956 the Supreme Court ruled segregation on the city's buses unconstitutional."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 9,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Rester assise",
+      "en": "Staying Seated"
+    },
+    "description": {
+      "fr": "+3 en Charisme si la carte adverse est plus rare.",
+      "en": "+3 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q133040",
+  "role": {
+    "fr": "Président du Pérou",
+    "en": "President of Peru"
+  },
+  "bio": {
+    "fr": "Agronome d'origine japonaise, il est élu président du Pérou en 1990 et dissout le Congrès lors de son autogolpe de 1992. Son régime vainc le Sentier lumineux mais s'effondre en 2000 dans un scandale de corruption, qui le pousse à fuir au Japon. Il est condamné en 2009 à 25 ans de prison pour des massacres commis par un escadron de la mort et pour corruption.",
+    "en": "An agronomist of Japanese descent, he was elected president of Peru in 1990 and shut down Congress in his 1992 self-coup. His government defeated the Shining Path but collapsed in 2000 amid a corruption scandal, and he fled to Japan. In 2009 he was sentenced to 25 years in prison over massacres carried out by a death squad and for corruption."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Autogolpe",
+      "en": "Self-Coup"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse lors de la manche 2.",
+      "en": "-2 Influence to the opposing card in round 2."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

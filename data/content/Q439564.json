@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q439564",
+  "role": {
+    "fr": "Cheffe de l'opposition vénézuélienne",
+    "en": "Leader of the Venezuelan opposition"
+  },
+  "bio": {
+    "fr": "Ingénieure, elle cofonde l'association électorale Súmate puis siège à l'Assemblée nationale du Venezuela de 2011 à 2014. Vainqueure de la primaire de l'opposition en 2023, elle est déclarée inéligible et soutient Edmundo González à la présidentielle de 2024. Elle reçoit le prix Nobel de la paix en 2025.",
+    "en": "An engineer, she co-founded the election-monitoring group Súmate and sat in Venezuela's National Assembly from 2011 to 2014. After winning the opposition primary in 2023, she was barred from running and backed Edmundo González in the 2024 presidential election. She was awarded the Nobel Peace Prize in 2025."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 7,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Primaire de l'opposition",
+      "en": "Opposition Primary"
+    },
+    "description": {
+      "fr": "+2 en Influence si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Influence if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

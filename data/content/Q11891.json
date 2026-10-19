@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q11891",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Onzième président des États-Unis de 1845 à 1849, il mène une politique d’expansion territoriale sans précédent. Il conclut avec le Royaume-Uni le partage de l’Oregon en 1846 et conduit la guerre contre le Mexique, qui cède en 1848 la Californie et une grande partie du Sud-Ouest. Fidèle à sa promesse, il ne brigue pas de second mandat.",
+    "en": "The eleventh president, serving from 1845 to 1849, he presided over a vast territorial expansion. He settled the Oregon boundary with Britain in 1846 and waged war on Mexico, which surrendered California and much of the Southwest in 1848. True to his word, he did not seek a second term."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Destinée manifeste",
+      "en": "Manifest Destiny"
+    },
+    "description": {
+      "fr": "+3 en Stratégie si la carte adverse vient du même continent.",
+      "en": "+3 Strategy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

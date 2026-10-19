@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q2821724",
+  "role": {
+    "fr": "Chef de l'État islamique",
+    "en": "Leader of the Islamic State"
+  },
+  "bio": {
+    "fr": "Chef de l'État islamique en Irak à partir de 2010, il proclame en 2014 un « califat » sur de vastes territoires d'Irak et de Syrie. Son organisation commet des crimes de masse : génocide des Yézidis avec des milliers de morts et des milliers de femmes réduites en esclavage, massacre d'environ 1 700 recrues au camp Speicher, attentats comme ceux de Paris en novembre 2015 (130 morts). Il meurt en 2019 lors d'un raid américain en Syrie, en déclenchant sa ceinture explosive.",
+    "en": "He led the Islamic State in Iraq from 2010 and in 2014 proclaimed a so-called caliphate over large parts of Iraq and Syria. His group carried out mass atrocities: the genocide of the Yazidis, with thousands killed and thousands of women enslaved, the massacre of about 1,700 recruits at Camp Speicher, and attacks abroad such as the November 2015 Paris attacks that killed 130 people. He died in a US raid in Syria in 2019 by detonating his suicide vest."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 1,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Règne de la terreur",
+      "en": "Rule by Terror"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse si la carte adverse est de l'époque contemporaine.",
+      "en": "The opposing card gets -2 Charisma if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

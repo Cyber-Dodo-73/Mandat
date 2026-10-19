@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q1231345",
+  "role": {
+    "fr": "Président du Rwanda",
+    "en": "President of Rwanda"
+  },
+  "bio": {
+    "fr": "Chef militaire du Front patriotique rwandais, il met fin en 1994 au génocide des Tutsi, qui a fait environ 800 000 morts. Président depuis 2000, il préside à une forte croissance économique, mais son régime réprime l’opposition et des experts de l’ONU accusent le Rwanda de soutenir des groupes armés dans l’est de la RD Congo.",
+    "en": "Military commander of the Rwandan Patriotic Front, he ended the 1994 genocide against the Tutsi, in which some 800,000 people were killed. President since 2000, he has overseen strong economic growth, but his government suppresses opposition and UN experts accuse Rwanda of backing armed groups in eastern DR Congo."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Front patriotique",
+      "en": "Patriotic Front"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité si la carte adverse vient d’un autre continent.",
+      "en": "Wins tied rounds if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q188541",
+  "role": {
+    "fr": "Empereur maurya (Inde)",
+    "en": "Maurya Emperor (India)"
+  },
+  "bio": {
+    "fr": "Vers 320 av. J.-C., il renverse la dynastie Nanda et fonde l’Empire maurya, conseillé selon la tradition par le stratège Chanakya. Il affronte Séleucos Ier puis conclut avec lui un traité lui cédant des territoires à l’ouest. La tradition jaïne affirme qu’il abdiqua pour finir sa vie en ascète.",
+    "en": "Around 320 BC he overthrew the Nanda dynasty and founded the Maurya Empire, guided, tradition says, by the strategist Chanakya. After fighting Seleucus I he made a treaty that won him territory in the west. Jain sources hold that he gave up the throne to end his life as an ascetic."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Leçons de Chanakya",
+      "en": "Chanakya’s Counsel"
+    },
+    "description": {
+      "fr": "+3 en Stratégie contre une carte de l’Antiquité.",
+      "en": "+3 Strategy against an Antiquity card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

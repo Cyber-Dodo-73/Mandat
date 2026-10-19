@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q590227",
+  "role": {
+    "fr": "Roi du Royaume-Uni",
+    "en": "King of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Prince de Galles populaire, il devient roi en janvier 1936 à la mort de son père George V. Décidé à épouser l'Américaine divorcée Wallis Simpson, ce que refusent le gouvernement et l'Église, il abdique en décembre de la même année. Il vit ensuite en exil sous le titre de duc de Windsor.",
+    "en": "A popular Prince of Wales, he became king in January 1936 on the death of his father George V. Determined to marry the divorced American Wallis Simpson, against the wishes of the government and the Church, he abdicated in December that year. He then lived abroad as Duke of Windsor."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 9,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Abdication",
+      "en": "Abdication"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est plus rare.",
+      "en": "+2 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

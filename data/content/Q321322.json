@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q321322",
+  "role": {
+    "fr": "Chef du Sentier lumineux au Pérou",
+    "en": "Leader of the Shining Path in Peru"
+  },
+  "bio": {
+    "fr": "Professeur de philosophie maoïste, il fonde le Sentier lumineux et déclenche en 1980 une insurrection armée contre l’État péruvien. Le conflit fait environ 70 000 morts, dont près de la moitié attribuée à son organisation, qui pratique massacres de paysans, comme à Lucanamarca en 1983, et attentats à la bombe. Capturé en 1992, il est condamné à la perpétuité et meurt en prison en 2021.",
+    "en": "A Maoist philosophy professor, he founded the Shining Path and launched an armed insurgency against the Peruvian state in 1980. The conflict killed around 70,000 people, nearly half of them attributed to his movement, which massacred peasants, as at Lucanamarca in 1983, and carried out bombings. Captured in 1992, he was sentenced to life and died in prison in 2021."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 1,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Guerre populaire",
+      "en": "People's War"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse lors de la manche 1.",
+      "en": "-2 Diplomacy to the opposing card in round 1."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

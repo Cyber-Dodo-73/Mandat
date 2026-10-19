@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q33391",
+  "role": {
+    "fr": "Commissaire du peuple à la Guerre de la Russie soviétique",
+    "en": "People's Commissar for War of Soviet Russia"
+  },
+  "bio": {
+    "fr": "Révolutionnaire marxiste, il préside le soviet de Petrograd et organise l'insurrection bolchevique d'octobre 1917. Commissaire à la Guerre, il crée l'Armée rouge et la conduit à la victoire dans la guerre civile, au prix d'une répression sévère. Évincé par Staline, expulsé d'URSS en 1929, il est assassiné au Mexique en 1940 par un agent soviétique.",
+    "en": "A Marxist revolutionary, he chaired the Petrograd Soviet and organised the Bolshevik seizure of power in October 1917. As war commissar he built the Red Army and led it to victory in the civil war, using harsh repression along the way. Sidelined by Stalin and deported from the USSR in 1929, he was murdered in Mexico in 1940 by a Soviet agent."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Train blindé",
+      "en": "Armoured Train"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Strategy if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q333135",
+  "role": {
+    "fr": "Président du Suriname",
+    "en": "President of Suriname"
+  },
+  "bio": {
+    "fr": "Ancien chef de la police, il dirige l’enquête sur les meurtres de décembre 1982 imputés à Desi Bouterse. Chef du parti VHP, il est élu président en 2020 et engage un programme d’austérité face à la crise de la dette, avant de céder la place en 2025.",
+    "en": "A former police commissioner, he led the investigation into the December 1982 killings attributed to Desi Bouterse. As head of the VHP party he became president in 2020 and imposed austerity to tackle a debt crisis before stepping down in 2025."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Le shérif",
+      "en": "The Sheriff"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse lors de la manche 2.",
+      "en": "-2 Strategy to the opposing card in round 2."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

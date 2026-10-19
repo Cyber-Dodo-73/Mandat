@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q12927",
+  "role": {
+    "fr": "Présidente du Rassemblement national (France)",
+    "en": "President of the National Rally (France)"
+  },
+  "bio": {
+    "fr": "Avocate et fille de Jean-Marie Le Pen, elle préside le Front national de 2011 à 2022 et le rebaptise Rassemblement national en 2018. Elle accède au second tour de l'élection présidentielle en 2017 et en 2022, perdant à chaque fois face à Emmanuel Macron. En 2025, elle est condamnée en première instance pour détournement de fonds du Parlement européen et fait appel.",
+    "en": "A lawyer and the daughter of Jean-Marie Le Pen, she led the National Front from 2011 to 2022, renaming it the National Rally in 2018. She reached the presidential run-off in 2017 and 2022, losing both times to Emmanuel Macron. In 2025 she was convicted at first instance of misusing European Parliament funds and appealed."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 3,
+    "charisma": 8,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Second tour",
+      "en": "Run-off"
+    },
+    "description": {
+      "fr": "Remporte les égalités lors de la 2e manche.",
+      "en": "Wins ties in the second round."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

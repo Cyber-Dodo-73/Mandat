@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q16845347",
+  "role": {
+    "fr": "Président de l’Inde",
+    "en": "President of India"
+  },
+  "bio": {
+    "fr": "Avocat et membre du BJP, il est gouverneur du Bihar avant d’être élu président de l’Inde en 2017. Issu d’une communauté dalit, il est le deuxième dalit à occuper cette fonction, qu’il quitte en 2022.",
+    "en": "A lawyer and BJP politician, he was governor of Bihar before being elected President of India in 2017. From a Dalit community, he was only the second Dalit to hold the office, which he left in 2022."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 6,
+    "charisma": 3,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Gardien de la Constitution",
+      "en": "Guardian of the Constitution"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité lors des manches de Diplomatie.",
+      "en": "Wins tied rounds in Diplomacy rounds."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "roundDomain",
+        "value": "diplomacy"
+      }
+    }
+  }
+}

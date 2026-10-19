@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q231690",
+  "role": {
+    "fr": "Président du comité de rédaction de la Constitution de l'Inde",
+    "en": "Chairman of the Drafting Committee of the Constitution of India"
+  },
+  "bio": {
+    "fr": "Issu d'une caste considérée comme intouchable, il étudie le droit et l'économie à New York et à Londres, puis consacre sa vie au combat contre les discriminations de caste. Premier ministre de la Justice de l'Inde indépendante, il préside le comité qui rédige la Constitution adoptée en 1949. En 1956, peu avant sa mort, il se convertit au bouddhisme avec des centaines de milliers de partisans.",
+    "en": "Born into a caste treated as untouchable, he earned degrees in New York and London and spent his life fighting caste discrimination. As independent India's first law minister, he chaired the committee that drafted the Constitution adopted in 1949. Shortly before his death in 1956, he embraced Buddhism alongside hundreds of thousands of followers."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Annihilation des castes",
+      "en": "Annihilation of Caste"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est plus rare.",
+      "en": "+2 Influence if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

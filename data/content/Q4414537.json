@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q4414537",
+  "role": {
+    "fr": "Président de l'Équateur",
+    "en": "President of Ecuador"
+  },
+  "bio": {
+    "fr": "Banquier de Guayaquil, il remporte la présidentielle équatorienne en 2021 après deux échecs. Menacé de destitution en 2023, il dissout l'Assemblée nationale grâce à la procédure de « mort croisée », ce qui provoque des élections anticipées auxquelles il ne se présente pas.",
+    "en": "A Guayaquil banker, he won Ecuador's presidency in 2021 after two failed bids. Facing impeachment in 2023, he dissolved the National Assembly through the \"mutual death\" clause, triggering early elections in which he did not run."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Mort croisée",
+      "en": "Mutual Death"
+    },
+    "description": {
+      "fr": "-2 pour la carte adverse dans le domaine de la manche si vous avez perdu plus de manches que l'adversaire.",
+      "en": "-2 to the opposing card in the round's domain if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

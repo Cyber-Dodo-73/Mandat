@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q58132",
+  "role": {
+    "fr": "Président du Venezuela",
+    "en": "President of Venezuela"
+  },
+  "bio": {
+    "fr": "Ancien chauffeur de bus et syndicaliste, ministre des Affaires étrangères de Hugo Chávez, il lui succède à sa mort en 2013. Sous sa présidence, l'effondrement économique et l'hyperinflation poussent des millions de Vénézuéliens à l'exil, et ses réélections de 2018 et 2024 sont contestées. En janvier 2026, il est capturé lors d'une opération militaire américaine et transféré aux États-Unis pour y être jugé.",
+    "en": "A former bus driver and union activist who served as Hugo Chávez's foreign minister, he succeeded him on his death in 2013. Under his rule, economic collapse and hyperinflation drove millions of Venezuelans abroad, and his re-elections in 2018 and 2024 were widely disputed. In January 2026 he was seized in a US military operation and flown to the United States to stand trial."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Siège de Miraflores",
+      "en": "Holding Miraflores"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie à la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "-2 Diplomacy to the opposing card if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

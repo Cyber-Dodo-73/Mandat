@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q129308",
+  "role": {
+    "fr": "Roi d'Angleterre",
+    "en": "King of England"
+  },
+  "bio": {
+    "fr": "Plus jeune fils d'Henri II, il succède à son frère Richard Cœur de Lion en 1199. Il perd la Normandie et l'essentiel des terres angevines face à Philippe Auguste, défaite confirmée à Bouvines en 1214. L'année suivante, ses barons révoltés lui imposent la Magna Carta.",
+    "en": "The youngest son of Henry II, he succeeded his brother Richard the Lionheart in 1199. He lost Normandy and most of the Angevin lands to Philip Augustus, a defeat sealed at Bouvines in 1214. The following year his rebellious barons forced him to accept Magna Carta."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 3,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Magna Carta",
+      "en": "Magna Carta"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse si la carte adverse est du Moyen Âge.",
+      "en": "The opposing card gets -2 Influence if the opposing card is from the Middle Ages."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "medieval"
+      }
+    }
+  }
+}

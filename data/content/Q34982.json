@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q34982",
+  "role": {
+    "fr": "Président du Brésil",
+    "en": "President of Brazil"
+  },
+  "bio": {
+    "fr": "Héritier politique de Getúlio Vargas, il est vice-président puis accède à la présidence en 1961 après la démission de Jânio Quadros. Ses « réformes de base », dont une réforme agraire, inquiètent l’armée et les milieux conservateurs, qui le renversent en 1964 ; il meurt en exil en Argentine en 1976.",
+    "en": "Political heir to Getúlio Vargas, he was vice president and took over in 1961 when Jânio Quadros resigned. His basic reforms, including land reform, alarmed the military and conservatives, who overthrew him in 1964, and he died in exile in Argentina in 1976."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 8,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Réformes de base",
+      "en": "Basic Reforms"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

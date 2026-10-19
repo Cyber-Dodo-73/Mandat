@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q36450",
+  "role": {
+    "fr": "Impératrice de Russie",
+    "en": "Empress of Russia"
+  },
+  "bio": {
+    "fr": "Princesse allemande, elle s'empare du trône de Russie en 1762 en renversant son mari Pierre III. Correspondante de Voltaire et de Diderot, elle se veut souveraine éclairée tout en renforçant le servage. Elle étend l'empire avec la Crimée et les partages de la Pologne, et règne jusqu'en 1796.",
+    "en": "A German princess, she seized the Russian throne in 1762 by overthrowing her husband Peter III. A correspondent of Voltaire and Diderot, she presented herself as an enlightened ruler while tightening serfdom. She expanded the empire with Crimea and the partitions of Poland, reigning until 1796."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Despote éclairée",
+      "en": "Enlightened Despot"
+    },
+    "description": {
+      "fr": "+2 lors des manches de Influence.",
+      "en": "+2 in Influence rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "influence"
+      }
+    }
+  }
+}

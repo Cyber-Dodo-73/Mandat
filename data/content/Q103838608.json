@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q103838608",
+  "role": {
+    "fr": "Président du Pérou",
+    "en": "President of Peru"
+  },
+  "bio": {
+    "fr": "Instituteur rural et syndicaliste, il remporte de justesse la présidentielle de 2021 sous la bannière de gauche de Perú Libre. En décembre 2022, il tente de dissoudre le Congrès ; destitué le jour même, il est arrêté et poursuivi pour rébellion.",
+    "en": "A rural schoolteacher and union leader, he narrowly won the 2021 presidential election for the left-wing Perú Libre party. In December 2022 he tried to dissolve Congress, was removed from office that same day, and was arrested and prosecuted for rebellion."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Le chapeau du maître",
+      "en": "The Teacher's Hat"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est plus rare.",
+      "en": "+2 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

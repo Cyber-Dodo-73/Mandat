@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q25310",
+  "role": {
+    "fr": "Procureur général des États-Unis",
+    "en": "United States Attorney General"
+  },
+  "bio": {
+    "fr": "Frère cadet de John F. Kennedy, il est procureur général de 1961 à 1964 et s'attaque au crime organisé tout en jouant un rôle clé pendant la crise des missiles de Cuba. Élu sénateur de New York en 1965, il se lance dans la course à la présidence en 1968. Il est assassiné à Los Angeles en juin 1968, juste après sa victoire à la primaire de Californie.",
+    "en": "The younger brother of John F. Kennedy, he served as Attorney General from 1961 to 1964, going after organized crime and acting as a key adviser during the Cuban Missile Crisis. Elected senator for New York in 1965, he ran for president in 1968. He was shot dead in Los Angeles in June 1968, moments after winning the California primary."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Treize jours",
+      "en": "Thirteen Days"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Diplomacy if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

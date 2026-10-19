@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q131581",
+  "name": {
+    "fr": "Henri V d'Angleterre",
+    "en": "Henry V of England"
+  },
+  "role": {
+    "fr": "Roi d'Angleterre",
+    "en": "King of England"
+  },
+  "bio": {
+    "fr": "Roi d'Angleterre de 1413 à 1422, il relance la guerre de Cent Ans et remporte la bataille d'Azincourt en 1415 face à une armée française plus nombreuse. Le traité de Troyes de 1420 fait de lui l'héritier du trône de France, et il épouse Catherine de Valois. Il meurt de maladie à 35 ans, avant d'avoir pu régner sur la France.",
+    "en": "King of England from 1413 to 1422, he reopened the Hundred Years' War and won at Agincourt in 1415 against a larger French army. The 1420 Treaty of Troyes named him heir to the French throne, and he married Catherine of Valois. He died of illness at 35, before he could rule France."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 7,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Azincourt",
+      "en": "Agincourt"
+    },
+    "description": {
+      "fr": "+3 en Stratégie si la carte adverse est plus rare.",
+      "en": "+3 Strategy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

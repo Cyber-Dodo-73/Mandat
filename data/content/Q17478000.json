@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q17478000",
+  "role": {
+    "fr": "Président de la Colombie",
+    "en": "President of Colombia"
+  },
+  "bio": {
+    "fr": "Ancien fonctionnaire de la Banque interaméricaine de développement et protégé d’Álvaro Uribe, il est élu en 2018 à 42 ans. Critique de l’accord de paix avec les FARC, il affronte la pandémie puis la grève nationale de 2021, réprimée avec violence.",
+    "en": "A former Inter-American Development Bank official and protégé of Álvaro Uribe, he was elected in 2018 at the age of 42. A critic of the peace deal with the FARC, he faced the pandemic and then the 2021 national strike, which was violently repressed."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Économie orange",
+      "en": "Orange Economy"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité si vous êtes mené au score.",
+      "en": "Wins tied rounds when you are behind in rounds."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

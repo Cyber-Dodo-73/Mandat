@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q4593",
+  "role": {
+    "fr": "Premier ministre de l'Inde",
+    "en": "Prime Minister of India"
+  },
+  "bio": {
+    "fr": "Pilote de ligne entré tardivement en politique, il devient Premier ministre de l'Inde en 1984 après l'assassinat de sa mère, Indira Gandhi, à 40 ans. Il pousse la modernisation des télécommunications et de l'informatique, mais son gouvernement est terni par le scandale Bofors. Il est tué en 1991 par une kamikaze des Tigres tamouls pendant la campagne électorale.",
+    "en": "An airline pilot who came late to politics, he became India's prime minister at 40 in 1984, after the assassination of his mother, Indira Gandhi. He pushed to modernise telecommunications and computing, but the Bofors scandal tarnished his government. He was killed in 1991 by a Tamil Tiger suicide bomber during an election campaign."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Révolution numérique",
+      "en": "Digital Push"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Influence if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

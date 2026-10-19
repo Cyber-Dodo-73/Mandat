@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q76",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Ancien avocat et sénateur de l'Illinois, il devient en 2009 le premier Afro-Américain élu à la présidence des États-Unis. Il gère la sortie de la crise financière, fait adopter une réforme de l'assurance maladie et reçoit le prix Nobel de la paix dès sa première année de mandat.",
+    "en": "A former civil-rights lawyer and senator from Illinois, he became the first African American president of the United States in 2009. He steered the recovery from the financial crisis, passed a major health-care reform and received the Nobel Peace Prize in his first year in office."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Yes We Can",
+      "en": "Yes We Can"
+    },
+    "description": {
+      "fr": "+2 en Charisme si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Charisma when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q2153",
+  "role": {
+    "fr": "Chef de l'Armée nationale indienne",
+    "en": "Leader of the Indian National Army"
+  },
+  "bio": {
+    "fr": "Président du Congrès national indien en 1938-1939, il rompt avec Gandhi en prônant une lutte armée contre la domination britannique. Pendant la Seconde Guerre mondiale, il cherche l'appui de l'Allemagne nazie puis du Japon et prend la tête de l'Armée nationale indienne aux côtés des forces japonaises. Il meurt en 1945 dans un accident d'avion à Taïwan.",
+    "en": "President of the Indian National Congress in 1938-39, he broke with Gandhi by calling for armed struggle against British rule. During the Second World War he sought backing from Nazi Germany and then Japan, leading the Indian National Army alongside Japanese forces. He died in a plane crash in Taiwan in 1945."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Netaji",
+      "en": "Netaji"
+    },
+    "description": {
+      "fr": "+2 en Charisme si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Charisma if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

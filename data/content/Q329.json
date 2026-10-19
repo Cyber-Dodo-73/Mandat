@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q329",
+  "role": {
+    "fr": "Président de la République française",
+    "en": "President of the French Republic"
+  },
+  "bio": {
+    "fr": "Maire de Neuilly puis ministre de l'Intérieur, il est élu président de la République en 2007. Son quinquennat est marqué par la crise financière de 2008 et la médiation européenne dans la guerre russo-géorgienne. Battu en 2012, il a depuis été condamné définitivement dans plusieurs affaires judiciaires.",
+    "en": "Mayor of Neuilly and later interior minister, he was elected President of France in 2007. His term was shaped by the 2008 financial crisis and his European mediation in the Russia-Georgia war. Defeated in 2012, he has since received final convictions in several court cases."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Hyperprésident",
+      "en": "Hyper-President"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche lors de la manche 3.",
+      "en": "+2 in the round's domain in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

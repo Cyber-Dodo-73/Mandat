@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q30121972",
+  "role": {
+    "fr": "Fondateur de l'organisation américaine Turning Point USA",
+    "en": "Founder of Turning Point USA"
+  },
+  "bio": {
+    "fr": "En 2012, à 18 ans, il cofonde Turning Point USA, une organisation conservatrice active sur les campus américains. Animateur d'émissions et proche allié de Donald Trump, il s'efforce de mobiliser les jeunes électeurs républicains. Il est tué par balle le 10 septembre 2025 lors d'un débat public à l'université d'Utah Valley.",
+    "en": "In 2012, aged 18, he co-founded Turning Point USA, a conservative group active on American campuses. A podcast host and close ally of Donald Trump, he worked to mobilise young Republican voters. He was shot dead on 10 September 2025 during a public debate at Utah Valley University."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Tournée des campus",
+      "en": "Campus Tour"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Influence if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

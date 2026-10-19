@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q2036942",
+  "role": {
+    "fr": "Sénateur du Texas (États-Unis)",
+    "en": "United States Senator from Texas"
+  },
+  "bio": {
+    "fr": "Ancien solliciteur général du Texas, il plaide à plusieurs reprises devant la Cour suprême avant d’être élu au Sénat en 2012. Figure de l’aile conservatrice du Parti républicain, il termine deuxième des primaires présidentielles de 2016 derrière Donald Trump.",
+    "en": "A former Solicitor General of Texas who argued several cases before the Supreme Court, he won a Senate seat in 2012. A leading voice of the Republican Party’s conservative wing, he finished runner-up to Donald Trump in the 2016 presidential primaries."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 5,
+    "charisma": 8,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Obstruction parlementaire",
+      "en": "Filibuster"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse lors des manches de Diplomatie.",
+      "en": "Opposing card gets -2 Diplomacy in Diplomacy rounds."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "diplomacy"
+      }
+    }
+  }
+}

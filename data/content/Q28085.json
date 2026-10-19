@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q28085",
+  "role": {
+    "fr": "Chef du bureau des affaires juives du RSHA (Allemagne nazie)",
+    "en": "Head of the RSHA Jewish Affairs Office, Nazi Germany"
+  },
+  "bio": {
+    "fr": "Officier SS, il est l'un des principaux organisateurs de la Shoah, qui coûte la vie à six millions de Juifs. Il participe à la conférence de Wannsee en 1942 et coordonne la déportation de millions de personnes vers les camps d'extermination, dont environ 440 000 Juifs de Hongrie en 1944. Enlevé en Argentine par le Mossad en 1960, il est jugé à Jérusalem et pendu en 1962.",
+    "en": "An SS officer, he was one of the chief organisers of the Holocaust, in which six million Jews were murdered. He took part in the 1942 Wannsee Conference and coordinated the deportation of millions to the death camps, including some 440,000 Hungarian Jews in 1944. Seized in Argentina by Mossad in 1960, he was tried in Jerusalem and hanged in 1962."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Logistique",
+      "en": "Logistics"
+    },
+    "description": {
+      "fr": "+2 en Stratégie lors de la manche 2.",
+      "en": "+2 Strategy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

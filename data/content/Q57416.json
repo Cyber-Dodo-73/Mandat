@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q57416",
+  "role": {
+    "fr": "Président de la République démocratique du Congo",
+    "en": "President of the Democratic Republic of the Congo"
+  },
+  "bio": {
+    "fr": "Fils de Laurent-Désiré Kabila, il lui succède à 29 ans après son assassinat en janvier 2001. Il préside la république démocratique du Congo jusqu'en 2019, sur fond de conflits persistants dans l'Est. Le report répété des élections prévues en 2016 provoque des manifestations durement réprimées avant la passation de pouvoir à Félix Tshisekedi.",
+    "en": "The son of Laurent-Désiré Kabila, he succeeded him at 29 after his assassination in January 2001. He led the Democratic Republic of the Congo until 2019 amid ongoing conflict in the east. Repeated delays to elections due in 2016 sparked protests that were harshly repressed before he handed over to Félix Tshisekedi."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 2,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Héritier",
+      "en": "Heir"
+    },
+    "description": {
+      "fr": "+1 en Influence.",
+      "en": "+1 Influence."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

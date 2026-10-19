@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q7436908",
+  "role": {
+    "fr": "Premier ministre d’Australie",
+    "en": "Prime Minister of Australia"
+  },
+  "bio": {
+    "fr": "Ministre de l’Immigration chargé de la politique de refoulement des bateaux de migrants, puis ministre des Finances, il devient Premier ministre en 2018. Il signe en 2021 le pacte AUKUS avec les États-Unis et le Royaume-Uni et perd les élections de 2022.",
+    "en": "As immigration minister he enforced the policy of turning back asylum-seeker boats, then served as treasurer before becoming prime minister in 2018. He signed the AUKUS pact with the United States and Britain in 2021 and lost the 2022 election."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Pacte AUKUS",
+      "en": "AUKUS Pact"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient d’un autre continent.",
+      "en": "+2 Strategy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

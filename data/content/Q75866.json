@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q75866",
+  "role": {
+    "fr": "Adjoint du Führer de l'Allemagne nazie",
+    "en": "Deputy Führer of Nazi Germany"
+  },
+  "bio": {
+    "fr": "Fidèle de Hitler dès les années 1920, il devient son adjoint à la tête du parti nazi en 1933 et cosigne en 1935 les lois de Nuremberg qui privent les Juifs allemands de leurs droits, première étape vers la Shoah et le meurtre de six millions de Juifs. Parti seul en avion pour l'Écosse en 1941, il est condamné à la prison à vie à Nuremberg et meurt à Spandau en 1987.",
+    "en": "One of Hitler's earliest followers, he became his deputy at the head of the Nazi party in 1933 and co-signed the 1935 Nuremberg Laws stripping German Jews of their rights, an early step toward the Holocaust and the murder of six million Jews. After flying alone to Scotland in 1941, he was sentenced to life imprisonment at Nuremberg and died in Spandau prison in 1987."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 4,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Vol vers l'Écosse",
+      "en": "Flight to Scotland"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse vient du même continent.",
+      "en": "Wins ties if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q17131",
+  "role": {
+    "fr": "Préfet romain de Judée",
+    "en": "Roman Prefect of Judaea"
+  },
+  "bio": {
+    "fr": "Gouverneur de la Judée pour l'empereur Tibère, vers 26 à 36 apr. J.-C., il est connu par les Évangiles comme le magistrat qui ordonne la crucifixion de Jésus. Une inscription découverte à Césarée confirme sa fonction. Il est rappelé à Rome après la répression sanglante d'un rassemblement de Samaritains.",
+    "en": "Governor of Judaea under the emperor Tiberius from around AD 26 to 36, he is known from the Gospels as the official who ordered the crucifixion of Jesus. An inscription found at Caesarea confirms his office. He was recalled to Rome after the bloody suppression of a Samaritan gathering."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 2,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Se laver les mains",
+      "en": "Washing of Hands"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse si la carte adverse est de l'Antiquité.",
+      "en": "-2 Charisma to the opposing card if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

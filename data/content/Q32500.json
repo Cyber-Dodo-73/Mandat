@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q32500",
+  "name": {
+    "fr": "Charles Quint",
+    "en": "Charles V"
+  },
+  "role": {
+    "fr": "Empereur du Saint-Empire romain germanique",
+    "en": "Holy Roman Emperor"
+  },
+  "bio": {
+    "fr": "Héritier des Habsbourg, de la Bourgogne et des couronnes espagnoles, il règne sur un empire « sur lequel le soleil ne se couche jamais », de l'Europe aux Amériques. Élu empereur en 1519, il affronte la Réforme de Luther, la France de François Ier et les Ottomans. Épuisé, il abdique en 1556 et se retire dans un monastère espagnol.",
+    "en": "Heir to the Habsburg lands, Burgundy and the Spanish crowns, he ruled an empire 'on which the sun never set', from Europe to the Americas. Elected emperor in 1519, he faced Luther's Reformation, Francis I's France and the Ottomans. Worn out, he abdicated in 1556 and withdrew to a Spanish monastery."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 2,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Empire sans couchant",
+      "en": "Sunless Empire"
+    },
+    "description": {
+      "fr": "+3 en Influence si la carte adverse est plus rare.",
+      "en": "+3 Influence if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q128245",
+  "name": {
+    "fr": "Mohammad Reza Pahlavi",
+    "en": "Mohammad Reza Pahlavi"
+  },
+  "role": {
+    "fr": "Chah d'Iran",
+    "en": "Shah of Iran"
+  },
+  "bio": {
+    "fr": "Dernier chah d'Iran, il succède à son père en 1941 et lance en 1963 la « révolution blanche » de réformes agraires et sociales. Son pouvoir s'appuie sur la SAVAK, police politique qui emprisonne et torture des opposants. Renversé par la révolution de 1979, il meurt en exil au Caire en 1980.",
+    "en": "Iran's last shah, he succeeded his father in 1941 and launched the 'White Revolution' of land and social reforms in 1963. His rule relied on the SAVAK, a secret police that jailed and tortured opponents. Toppled by the 1979 revolution, he died in exile in Cairo in 1980."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Révolution blanche",
+      "en": "White Revolution"
+    },
+    "description": {
+      "fr": "+1 en Influence.",
+      "en": "+1 Influence."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

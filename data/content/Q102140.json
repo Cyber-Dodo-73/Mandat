@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q102140",
+  "role": {
+    "fr": "Roi d'Angleterre",
+    "en": "King of England"
+  },
+  "bio": {
+    "fr": "Premier roi Plantagenêt, de 1154 à 1189, il règne avec Aliénor d'Aquitaine sur un ensemble allant de l'Écosse aux Pyrénées. Ses réformes judiciaires posent les bases de la common law. Son conflit avec Thomas Becket s'achève par le meurtre de l'archevêque en 1170, et ses fils se révoltent contre lui.",
+    "en": "The first Plantagenet king, ruling from 1154 to 1189, he held with Eleanor of Aquitaine lands stretching from the Scottish border to the Pyrenees. His legal reforms laid the groundwork of English common law. His feud with Thomas Becket ended in the archbishop's murder in 1170, and his own sons rose against him."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Assises de Clarendon",
+      "en": "Assize of Clarendon"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est du Moyen Âge.",
+      "en": "+2 Influence if the opposing card is from the Middle Ages."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "medieval"
+      }
+    }
+  }
+}

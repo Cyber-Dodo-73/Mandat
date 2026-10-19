@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q34503",
+  "role": {
+    "fr": "Sultan de l’Empire ottoman",
+    "en": "Sultan of the Ottoman Empire"
+  },
+  "bio": {
+    "fr": "Sultan ottoman, il s’empare de Constantinople le 29 mai 1453, mettant fin à l’Empire byzantin, et en fait sa capitale. Surnommé « le Conquérant », il étend ensuite son empire dans les Balkans et en Anatolie jusqu’à sa mort en 1481.",
+    "en": "As Ottoman sultan he captured Constantinople on 29 May 1453, ending the Byzantine Empire, and made the city his capital. Known as “the Conqueror”, he went on to expand his realm across the Balkans and Anatolia until his death in 1481."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Chute de Constantinople",
+      "en": "Fall of Constantinople"
+    },
+    "description": {
+      "fr": "+3 en Stratégie contre une carte du Moyen Âge.",
+      "en": "+3 Strategy against a medieval card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "medieval"
+      }
+    }
+  }
+}

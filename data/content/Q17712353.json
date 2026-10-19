@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q17712353",
+  "role": {
+    "fr": "Président du Salvador",
+    "en": "President of El Salvador"
+  },
+  "bio": {
+    "fr": "Ancien maire de San Salvador, il est élu président du Salvador en 2019. À partir de 2022, un régime d’exception permet l’arrestation de dizaines de milliers de personnes accusées d’appartenir aux gangs, tandis que les homicides chutent fortement et que des ONG dénoncent des violations des droits humains. Il est réélu en 2024 malgré l’interdiction constitutionnelle d’un second mandat consécutif.",
+    "en": "A former mayor of San Salvador, he won El Salvador’s presidency in 2019. From 2022 a state of emergency allowed the arrest of tens of thousands of alleged gang members, as homicides fell sharply and rights groups reported serious abuses. He was re-elected in 2024 despite a constitutional ban on consecutive terms."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Régime d’exception",
+      "en": "State of Exception"
+    },
+    "description": {
+      "fr": "-1 pour la carte adverse dans le domaine de la manche.",
+      "en": "Opposing card gets -1 in the round’s domain."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

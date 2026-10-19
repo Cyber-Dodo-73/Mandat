@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q155979",
+  "role": {
+    "fr": "Chef de l'opposition russe",
+    "en": "Russian opposition leader"
+  },
+  "bio": {
+    "fr": "Avocat et blogueur, il fonde en 2011 la Fondation anticorruption, dont les enquêtes visent les élites russes. Empoisonné au Novitchok en 2020, il est soigné en Allemagne puis arrêté dès son retour en Russie en janvier 2021. Il meurt en février 2024 dans une colonie pénitentiaire de l'Arctique.",
+    "en": "A lawyer and blogger, he founded the Anti-Corruption Foundation in 2011, whose investigations targeted Russia's elite. Poisoned with Novichok in 2020, he was treated in Germany and arrested as soon as he flew back to Russia in January 2021. He died in an Arctic penal colony in February 2024."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 10,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Enquête",
+      "en": "Investigation"
+    },
+    "description": {
+      "fr": "-3 en Influence pour la carte adverse si la carte adverse est plus rare.",
+      "en": "-3 Influence to the opposing card if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

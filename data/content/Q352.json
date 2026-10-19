@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q352",
+  "role": {
+    "fr": "Dictateur de l'Allemagne nazie",
+    "en": "Dictator of Nazi Germany"
+  },
+  "bio": {
+    "fr": "Chef du parti nazi, il est nommé chancelier en 1933 et transforme l'Allemagne en dictature totalitaire et raciste. Il déclenche la Seconde Guerre mondiale en envahissant la Pologne en 1939, conflit qui fait plus de 50 millions de morts. Il organise la Shoah, l'extermination de six millions de Juifs d'Europe, ainsi que le massacre de centaines de milliers de Roms, de handicapés et d'autres victimes.",
+    "en": "Leader of the Nazi Party, he was appointed chancellor in 1933 and turned Germany into a totalitarian, racist dictatorship. He started the Second World War by invading Poland in 1939, a conflict that killed more than 50 million people. He directed the Holocaust, the murder of six million European Jews, along with hundreds of thousands of Roma, disabled people and other victims."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 1,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Guerre totale",
+      "en": "Total War"
+    },
+    "description": {
+      "fr": "−2 en Diplomatie à la carte adverse si la carte adverse vient du même continent.",
+      "en": "−2 Diplomacy to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

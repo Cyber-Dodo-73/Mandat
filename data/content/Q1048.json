@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1048",
+  "role": {
+    "fr": "Dictateur de la République romaine",
+    "en": "Dictator of the Roman Republic"
+  },
+  "bio": {
+    "fr": "Général et homme politique romain, il conquiert la Gaule entre 58 et 50 av. J.-C. En franchissant le Rubicon en 49 av. J.-C., il déclenche une guerre civile dont il sort maître de Rome avec le titre de dictateur. Il est assassiné en plein Sénat aux ides de mars 44 av. J.-C.",
+    "en": "A Roman general and politician, he conquered Gaul between 58 and 50 BC. By crossing the Rubicon in 49 BC he started a civil war that left him master of Rome with the title of dictator. He was stabbed to death in the Senate on the Ides of March, 44 BC."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 7,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Alea jacta est",
+      "en": "Alea Iacta Est"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche lors de la 1re manche.",
+      "en": "+2 in the round's domain in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

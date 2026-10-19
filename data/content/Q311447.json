@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q311447",
+  "role": {
+    "fr": "Généralissime de la Première République du Venezuela",
+    "en": "Generalissimo of the First Republic of Venezuela"
+  },
+  "bio": {
+    "fr": "Officier vénézuélien, il combat dans la guerre d’indépendance américaine puis dans les armées de la Révolution française, où son nom figure sur l’Arc de triomphe. Précurseur de l’indépendance hispano-américaine, il dirige la Première République en 1812, capitule et meurt prisonnier à Cadix en 1816.",
+    "en": "A Venezuelan officer, he fought in the American War of Independence and then in the armies of the French Revolution, earning his name on the Arc de Triomphe. A forerunner of Spanish American independence, he led the First Republic in 1812, surrendered and died a prisoner in Cádiz in 1816."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Précurseur",
+      "en": "The Forerunner"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie contre une carte de l'époque moderne.",
+      "en": "+2 Diplomacy against a Modern-era card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q7996",
+  "name": {
+    "fr": "Ivan le Terrible",
+    "en": "Ivan the Terrible"
+  },
+  "role": {
+    "fr": "Tsar de Russie",
+    "en": "Tsar of Russia"
+  },
+  "bio": {
+    "fr": "Grand-prince de Moscou dès 1533, il est le premier souverain couronné tsar, en 1547. Il conquiert les khanats de Kazan et d'Astrakhan, mais l'opritchnina qu'il instaure fait régner la terreur, notamment lors du massacre de Novgorod en 1570. En 1581, il tue son propre fils dans un accès de colère.",
+    "en": "Grand Prince of Moscow from 1533, he was the first ruler crowned tsar, in 1547. He conquered the khanates of Kazan and Astrakhan, but his oprichnina unleashed a reign of terror, including the massacre of Novgorod in 1570. In 1581 he killed his own son in a fit of rage."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Opritchnina",
+      "en": "Oprichnina"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "The opposing card gets -2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

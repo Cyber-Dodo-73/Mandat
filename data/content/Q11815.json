@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q11815",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Diplomate à Paris, il participe en 1803 à la négociation de l’achat de la Louisiane. Cinquième président des États-Unis de 1817 à 1825, il gouverne durant une période de relative unité politique et énonce en 1823 la doctrine qui porte son nom, hostile à toute nouvelle colonisation européenne des Amériques.",
+    "en": "As an envoy in Paris he helped negotiate the Louisiana Purchase in 1803. Fifth president from 1817 to 1825, he governed during a spell of relative partisan calm and set out, in 1823, the doctrine bearing his name that warned Europe against further colonisation in the Americas."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 3,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Doctrine Monroe",
+      "en": "Monroe Doctrine"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse si la carte adverse vient d’un autre continent.",
+      "en": "Opposing card gets -2 Influence if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

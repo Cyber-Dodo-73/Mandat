@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q51330",
+  "role": {
+    "fr": "Premier ministre de l'Australie",
+    "en": "Prime Minister of Australia"
+  },
+  "bio": {
+    "fr": "Chef du Parti libéral, il est Premier ministre de l'Australie de 1996 à 2007, l'un des mandats les plus longs du pays. Après la tuerie de Port Arthur en 1996, il impose un strict contrôle des armes à feu, puis introduit une taxe sur les biens et services. Il engage aussi des troupes au Timor oriental et en Irak avant de perdre son propre siège en 2007.",
+    "en": "Leader of the Liberal Party, he was prime minister of Australia from 1996 to 2007, one of the longest tenures in the country's history. After the 1996 Port Arthur massacre he pushed through strict gun controls, and he later brought in a goods and services tax. He also sent troops to East Timor and Iraq before losing his own seat in 2007."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Accord sur les armes",
+      "en": "National Firearms Agreement"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse lors de la manche 2.",
+      "en": "-2 Strategy to the opposing card in round 2."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

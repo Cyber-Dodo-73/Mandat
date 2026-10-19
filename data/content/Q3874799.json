@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q3874799",
+  "role": {
+    "fr": "Président de l'Ukraine",
+    "en": "President of Ukraine"
+  },
+  "bio": {
+    "fr": "Comédien et producteur connu pour la série « Serviteur du peuple », il est élu président de l'Ukraine en 2019 avec plus de 70 % des voix. Resté à Kyiv lors de l'invasion russe de février 2022, il dirige depuis l'effort de guerre et la mobilisation du soutien international.",
+    "en": "A comedian and producer known for the TV series Servant of the People, he was elected president of Ukraine in 2019 with over 70% of the vote. He stayed in Kyiv when Russia invaded in February 2022 and has since led the war effort and the drive for international support."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 8,
+    "charisma": 9,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Je reste à Kyiv",
+      "en": "Staying in Kyiv"
+    },
+    "description": {
+      "fr": "+3 dans le domaine de la manche si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+3 in the round's domain when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 3,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q5937916",
+  "role": {
+    "fr": "Président du Chili",
+    "en": "President of Chile"
+  },
+  "bio": {
+    "fr": "Avocat et ancien député, il quitte l’UDI pour fonder en 2019 le Parti républicain, à la droite de l’échiquier chilien. Battu par Gabriel Boric en 2021, il remporte la présidentielle de 2025 sur un programme centré sur la sécurité et l’immigration, et entre en fonction en mars 2026.",
+    "en": "A lawyer and former congressman, he left the UDI to found the Republican Party in 2019 on the Chilean hard right. Beaten by Gabriel Boric in 2021, he won the 2025 presidential election on a platform focused on crime and immigration, taking office in March 2026."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Ordre et sécurité",
+      "en": "Law and Order"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse lors de la manche 3.",
+      "en": "-2 Charisma to the opposing card in round 3."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

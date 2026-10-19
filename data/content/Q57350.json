@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q57350",
+  "role": {
+    "fr": "Président du Tchad",
+    "en": "President of Chad"
+  },
+  "bio": {
+    "fr": "Ancien commandant de l'armée, il renverse Hissène Habré en 1990 et dirige le Tchad pendant plus de trente ans. Il fait de son armée un acteur majeur de la lutte contre les groupes djihadistes au Sahel. Il meurt en 2021 lors de combats contre des rebelles, et son fils lui succède.",
+    "en": "A former army commander, he overthrew Hissène Habré in 1990 and ruled Chad for more than three decades. He made his army a major force against jihadist groups in the Sahel. He died in 2021 during fighting with rebels, and his son took over."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Chef de guerre",
+      "en": "Warlord"
+    },
+    "description": {
+      "fr": "+3 en Stratégie si la carte adverse est plus rare.",
+      "en": "+3 Strategy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

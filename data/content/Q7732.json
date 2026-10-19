@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q7732",
+  "role": {
+    "fr": "Roi de France",
+    "en": "King of France"
+  },
+  "bio": {
+    "fr": "Roi de France à partir de 1774, il convoque les États généraux en 1789 pour sortir d'une grave crise financière, ce qui ouvre la Révolution. Sa fuite à Varennes en 1791 ruine la confiance du pays envers lui. Déchu en 1792, il est jugé par la Convention et guillotiné le 21 janvier 1793.",
+    "en": "King of France from 1774, he summoned the Estates-General in 1789 to deal with a severe financial crisis, setting off the Revolution. His flight to Varennes in 1791 destroyed the nation's trust in him. Deposed in 1792, he was tried by the Convention and guillotined on 21 January 1793."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "États généraux",
+      "en": "Estates-General"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors de la manche 2.",
+      "en": "+2 Diplomacy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

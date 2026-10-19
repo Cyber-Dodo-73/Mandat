@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q2105",
+  "role": {
+    "fr": "Président de la République française",
+    "en": "President of the French Republic"
+  },
+  "bio": {
+    "fr": "Premier ministre à deux reprises et maire de Paris de 1977 à 1995, il est élu président de la République en 1995 et réélu en 2002. Il reconnaît la responsabilité de l'État français dans la rafle du Vél' d'Hiv et s'oppose en 2003 à la guerre en Irak.",
+    "en": "Twice prime minister and mayor of Paris from 1977 to 1995, he was elected President of France in 1995 and re-elected in 2002. He acknowledged the French state's responsibility for the 1942 Vel' d'Hiv round-up of Jews and opposed the Iraq War in 2003."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 4,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Bain de foule",
+      "en": "Working the Crowd"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

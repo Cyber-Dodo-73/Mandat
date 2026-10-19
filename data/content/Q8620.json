@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q8620",
+  "role": {
+    "fr": "Président du Ghana",
+    "en": "President of Ghana"
+  },
+  "bio": {
+    "fr": "Il conduit la Côte-de-l'Or à l'indépendance en 1957, faisant du Ghana la première colonie d'Afrique subsaharienne libérée. Premier ministre puis président à partir de 1960, chantre du panafricanisme, il contribue à fonder l'Organisation de l'unité africaine en 1963. Il instaure un parti unique et est renversé par un coup d'État en 1966.",
+    "en": "He led the Gold Coast to independence in 1957, making Ghana the first sub-Saharan colony to break free. Prime minister and then president from 1960, a leading voice of pan-Africanism, he helped found the Organisation of African Unity in 1963. He imposed one-party rule and was overthrown in a 1966 coup."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Panafricanisme",
+      "en": "Pan-Africanism"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

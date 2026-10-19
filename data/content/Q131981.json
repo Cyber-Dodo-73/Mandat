@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q131981",
+  "name": {
+    "fr": "George II",
+    "en": "George II of Great Britain"
+  },
+  "role": {
+    "fr": "Roi de Grande-Bretagne",
+    "en": "King of Great Britain"
+  },
+  "bio": {
+    "fr": "Né à Hanovre, il est roi de Grande-Bretagne et électeur de Hanovre de 1727 à 1760. Il est le dernier monarque britannique à mener ses troupes au combat, à Dettingen en 1743. Son règne voit l'écrasement du soulèvement jacobite à Culloden en 1746 et le début de la guerre de Sept Ans.",
+    "en": "Born in Hanover, he was King of Great Britain and Elector of Hanover from 1727 to 1760. He was the last British monarch to lead troops into battle, at Dettingen in 1743. His reign saw the Jacobite rising crushed at Culloden in 1746 and the start of the Seven Years' War."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 2,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Dettingen",
+      "en": "Dettingen"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient du même continent.",
+      "en": "+2 Strategy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

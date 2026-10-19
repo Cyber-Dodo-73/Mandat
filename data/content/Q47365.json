@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q47365",
+  "role": {
+    "fr": "Reine de France",
+    "en": "Queen of France"
+  },
+  "bio": {
+    "fr": "Archiduchesse d'Autriche et fille de Marie-Thérèse, elle épouse en 1770 le futur Louis XVI et devient reine en 1774. Impopulaire, accusée de dépenses et d'intrigues, elle est éclaboussée par l'affaire du collier. Arrêtée après la fuite manquée à Varennes et la chute de la monarchie, elle est guillotinée à Paris en octobre 1793.",
+    "en": "An Austrian archduchess and daughter of Maria Theresa, she married the future Louis XVI in 1770 and became queen in 1774. Widely resented for her spending and supposed scheming, she was tarnished by the diamond necklace affair. After the failed flight to Varennes and the fall of the monarchy, she was guillotined in Paris in October 1793."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 4,
+    "charisma": 7,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Fastes de Versailles",
+      "en": "Splendour of Versailles"
+    },
+    "description": {
+      "fr": "Remporte les égalités quand le domaine de la manche est Charisme.",
+      "en": "Wins ties when the round's domain is Charisma."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "roundDomain",
+        "value": "charisma"
+      }
+    }
+  }
+}

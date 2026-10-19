@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q675493",
+  "name": {
+    "fr": "Henri VII d'Angleterre",
+    "en": "Henry VII of England"
+  },
+  "role": {
+    "fr": "Roi d'Angleterre",
+    "en": "King of England"
+  },
+  "bio": {
+    "fr": "Héritier lancastrien exilé en Bretagne, il bat Richard III à Bosworth en 1485 et met fin à la guerre des Deux-Roses. En épousant Élisabeth d'York, il réunit les deux maisons rivales et fonde la dynastie Tudor. Gestionnaire prudent, il laisse à son fils Henri VIII un trésor bien rempli.",
+    "en": "A Lancastrian heir exiled in Brittany, he defeated Richard III at Bosworth in 1485 and ended the Wars of the Roses. Marrying Elizabeth of York united the rival houses and founded the Tudor dynasty. A careful manager, he left his son Henry VIII a full treasury."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 6,
+    "charisma": 2,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Rose Tudor",
+      "en": "Tudor Rose"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse est du Moyen Âge.",
+      "en": "+2 Diplomacy if the opposing card is from the Middle Ages."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "medieval"
+      }
+    }
+  }
+}

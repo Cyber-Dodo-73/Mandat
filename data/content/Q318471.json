@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q318471",
+  "role": {
+    "fr": "Chef de Reform UK, député britannique",
+    "en": "Leader of Reform UK and British MP"
+  },
+  "bio": {
+    "fr": "Député européen de 1999 à 2020, il dirige le UKIP et fait campagne pendant des années pour la sortie du Royaume-Uni de l'Union européenne, approuvée par référendum en 2016. Chef du Parti du Brexit puis de Reform UK, il est élu à la Chambre des communes en 2024.",
+    "en": "A Member of the European Parliament from 1999 to 2020, he led UKIP and campaigned for years for Britain to leave the European Union, which voters approved in the 2016 referendum. Later at the head of the Brexit Party and then Reform UK, he won a seat in the House of Commons in 2024."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 1,
+    "charisma": 8,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Sortie de l'Union",
+      "en": "Leave Campaign"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Diplomacy to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

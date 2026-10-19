@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q23505",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Pilote pendant la Seconde Guerre mondiale, puis directeur de la CIA et vice-président de Ronald Reagan, il est élu président en 1988. Il accompagne la fin de la guerre froide et la réunification allemande, et mène en 1991 la coalition internationale qui chasse l'armée irakienne du Koweït.",
+    "en": "A Navy pilot in the Second World War, later CIA director and Ronald Reagan's vice president, he was elected president in 1988. He oversaw the end of the Cold War and German reunification, and in 1991 led the international coalition that drove Iraqi forces out of Kuwait."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 7,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Coalition",
+      "en": "Coalition"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

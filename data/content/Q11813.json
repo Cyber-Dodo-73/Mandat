@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q11813",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Principal artisan de la Constitution américaine et de la Déclaration des droits, il coécrit aussi les Federalist Papers. Quatrième président des États-Unis de 1809 à 1817, il conduit le pays dans la guerre de 1812 contre le Royaume-Uni, durant laquelle les Britanniques incendient Washington en 1814.",
+    "en": "The chief architect of the US Constitution and the Bill of Rights, he also co-wrote the Federalist Papers. As the fourth President, from 1809 to 1817, he led the country through the War of 1812 against Britain, during which British troops burned Washington in 1814."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 2,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Père de la Constitution",
+      "en": "Father of the Constitution"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse est de l'époque moderne.",
+      "en": "+2 Strategy if the opposing card is from the modern era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q119702",
+  "role": {
+    "fr": "Reine de Grande-Bretagne",
+    "en": "Queen of Great Britain"
+  },
+  "bio": {
+    "fr": "Dernière souveraine de la maison Stuart, elle monte sur le trône d'Angleterre, d'Écosse et d'Irlande en 1702. Les Actes d'Union de 1707 créent sous son règne le royaume de Grande-Bretagne. Ses armées, menées par Marlborough, triomphent à Blenheim en 1704 pendant la guerre de Succession d'Espagne ; sans enfant survivant, elle laisse la couronne aux Hanovre.",
+    "en": "The last Stuart monarch, she came to the thrones of England, Scotland and Ireland in 1702. The Acts of Union of 1707 created the Kingdom of Great Britain during her reign. Her armies under Marlborough won at Blenheim in 1704 in the War of the Spanish Succession; with no surviving children, she left the crown to the House of Hanover."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 6,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Actes d'Union",
+      "en": "Acts of Union"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors de la deuxième manche.",
+      "en": "+2 Diplomacy in the second round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

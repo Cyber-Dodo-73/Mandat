@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q16149892",
+  "role": {
+    "fr": "Président de la Bolivie",
+    "en": "President of Bolivia"
+  },
+  "bio": {
+    "fr": "Économiste, il est le ministre de l’Économie d’Evo Morales pendant plus d’une décennie de forte croissance. Élu président en 2020 pour le MAS, il se brouille avec Morales et affronte une pénurie de dollars et de carburant, avant de quitter le pouvoir en 2025.",
+    "en": "An economist, he served as Evo Morales's economy minister through more than a decade of strong growth. Elected president for MAS in 2020, he fell out with Morales and faced shortages of dollars and fuel before leaving office in 2025."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Modèle économique",
+      "en": "Economic Model"
+    },
+    "description": {
+      "fr": "-1 en Influence pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-1 Influence to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 1,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

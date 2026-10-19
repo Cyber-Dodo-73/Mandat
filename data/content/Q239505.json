@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q239505",
+  "role": {
+    "fr": "Chhatrapati de l'Empire marathe",
+    "en": "Chhatrapati of the Maratha Empire"
+  },
+  "bio": {
+    "fr": "Chef marathe, il se taille un royaume aux dépens du sultanat de Bijapur et tient tête aux Moghols dans le Deccan grâce à la guérilla, aux forts de montagne et à une marine. Retenu à Agra par Aurangzeb en 1666, il parvient à s'échapper. Il est couronné Chhatrapati à Raigad en 1674.",
+    "en": "A Maratha leader, he carved out a kingdom from the Bijapur Sultanate and held off the Mughals in the Deccan with guerrilla tactics, hill forts and a navy of his own. Held at Agra by Aurangzeb in 1666, he managed to escape. He was crowned Chhatrapati at Raigad in 1674."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 6,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Guérilla des forts",
+      "en": "Hill-Fort Warfare"
+    },
+    "description": {
+      "fr": "+3 en Stratégie si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+3 Strategy if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

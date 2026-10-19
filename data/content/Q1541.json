@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1541",
+  "role": {
+    "fr": "Consul de la République romaine",
+    "en": "Consul of the Roman Republic"
+  },
+  "bio": {
+    "fr": "Avocat et orateur, il devient consul en 63 av. J.-C. et dénonce la conjuration de Catilina dans des discours célèbres. Défenseur de la République, il attaque Marc Antoine dans les Philippiques après l'assassinat de César. Inscrit sur les listes de proscription, il est tué en 43 av. J.-C.",
+    "en": "A lawyer and orator, he became consul in 63 BC and exposed the Catilinarian conspiracy in a series of famous speeches. A defender of the Republic, he assailed Mark Antony in the Philippics after Caesar's murder. Placed on the proscription lists, he was killed in 43 BC."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Catilinaires",
+      "en": "Against Catiline"
+    },
+    "description": {
+      "fr": "-2 en Charisme à la carte adverse si la carte adverse est de l'Antiquité.",
+      "en": "-2 Charisma to the opposing card if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

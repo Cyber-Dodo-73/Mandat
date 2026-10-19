@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q3606816",
+  "role": {
+    "fr": "Première ministre de Nouvelle-Zélande",
+    "en": "Prime Minister of New Zealand"
+  },
+  "bio": {
+    "fr": "Devenue cheffe du Parti travailliste quelques semaines avant les élections, elle forme un gouvernement en 2017, à 37 ans. Après l'attentat contre deux mosquées de Christchurch en 2019, elle fait interdire la plupart des armes semi-automatiques. Saluée pour sa gestion du Covid-19, elle démissionne en janvier 2023.",
+    "en": "Made Labour leader just weeks before the vote, she formed a government in 2017 at the age of 37. After the 2019 attack on two Christchurch mosques, she had most semi-automatic weapons banned. Praised for her handling of Covid-19, she stepped down in January 2023."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 8,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Empathie",
+      "en": "Empathy"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient d'un autre continent.",
+      "en": "+2 Charisma if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

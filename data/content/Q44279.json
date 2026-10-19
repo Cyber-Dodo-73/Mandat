@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q44279",
+  "role": {
+    "fr": "Lord-protecteur du Commonwealth d'Angleterre",
+    "en": "Lord Protector of the Commonwealth of England"
+  },
+  "bio": {
+    "fr": "Député puritain, il s'impose comme chef militaire du camp parlementaire pendant les guerres civiles anglaises et contribue à faire juger et exécuter Charles Ier en 1649. Sa campagne en Irlande s'accompagne des massacres de Drogheda et de Wexford. De 1653 à sa mort en 1658, il gouverne l'Angleterre, l'Écosse et l'Irlande avec le titre de lord-protecteur.",
+    "en": "A Puritan member of Parliament, he rose to lead the parliamentary forces in the English Civil Wars and helped bring Charles I to trial and execution in 1649. His campaign in Ireland included the massacres at Drogheda and Wexford. From 1653 until his death in 1658 he ruled England, Scotland and Ireland as Lord Protector."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Nouvelle Armée",
+      "en": "New Model Army"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Strategy if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

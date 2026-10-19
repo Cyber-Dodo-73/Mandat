@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q704022",
+  "role": {
+    "fr": "Président de la Colombie",
+    "en": "President of Colombia"
+  },
+  "bio": {
+    "fr": "Ancien membre de la guérilla du M-19, il devient sénateur puis maire de Bogotá de 2012 à 2015. Élu en 2022, il est le premier président de gauche de la Colombie et gouverne jusqu'en 2026. Il défend une politique de « paix totale » avec les groupes armés.",
+    "en": "A former member of the M-19 guerrilla group, he became a senator and then mayor of Bogotá from 2012 to 2015. Elected in 2022, he was Colombia's first left-wing president and served until 2026. He pursued a \"total peace\" policy towards the country's armed groups."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Paix totale",
+      "en": "Total Peace"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Diplomacy if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

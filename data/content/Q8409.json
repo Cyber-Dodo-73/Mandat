@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q8409",
+  "role": {
+    "fr": "Roi de Macédoine",
+    "en": "King of Macedon"
+  },
+  "bio": {
+    "fr": "Roi de Macédoine à 20 ans en 336 av. J.-C., il s'attaque à l'Empire perse et le renverse après une série de victoires, dont Gaugamèles en 331 av. J.-C. Ses conquêtes s'étendent de l'Égypte jusqu'à l'Indus et diffusent la culture grecque en Orient. Il meurt à Babylone en 323 av. J.-C., à 32 ans.",
+    "en": "King of Macedon at 20 in 336 BC, he attacked the Persian Empire and brought it down after a run of victories, including Gaugamela in 331 BC. His conquests stretched from Egypt to the Indus and spread Greek culture across the East. He died in Babylon in 323 BC, aged 32."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Nœud gordien",
+      "en": "Gordian Knot"
+    },
+    "description": {
+      "fr": "+3 en Stratégie si la carte adverse est plus rare.",
+      "en": "+3 Strategy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

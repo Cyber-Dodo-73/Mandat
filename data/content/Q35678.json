@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q35678",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Petit-fils du président William Henry Harrison, il remporte l’élection de 1888 grâce au collège électoral bien que Grover Cleveland ait obtenu davantage de voix. Son mandat, de 1889 à 1893, voit l’adoption de la loi antitrust Sherman et de tarifs douaniers élevés. Cleveland le bat en 1892.",
+    "en": "A grandson of President William Henry Harrison, he won the 1888 election through the Electoral College despite Grover Cleveland taking more votes. His 1889–1893 term saw the Sherman Antitrust Act and steep protective tariffs. Cleveland beat him in a rematch in 1892."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Collège électoral",
+      "en": "Electoral College"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité lors de la manche 3.",
+      "en": "Wins tied rounds in round 3."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

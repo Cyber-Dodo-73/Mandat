@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q37594",
+  "role": {
+    "fr": "Roi d'Angleterre",
+    "en": "King of England"
+  },
+  "bio": {
+    "fr": "Duc de Normandie, il revendique la couronne d'Angleterre et débarque en 1066 ; sa victoire à Hastings, où meurt le roi Harold, lui ouvre le trône. Il remplace largement l'aristocratie anglo-saxonne par des seigneurs normands et réprime durement les révoltes du Nord. En 1086, il fait dresser le Domesday Book, vaste inventaire des terres du royaume.",
+    "en": "Duke of Normandy, he claimed the English crown and landed in 1066; victory at Hastings, where King Harold was killed, won him the throne. He largely replaced the Anglo-Saxon nobility with Norman lords and crushed northern revolts with great brutality. In 1086 he ordered the Domesday Book, a sweeping survey of the kingdom's land."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Hastings",
+      "en": "Hastings"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient du même continent.",
+      "en": "+2 Strategy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q34211",
+  "role": {
+    "fr": "Président de l'Autorité palestinienne",
+    "en": "President of the Palestinian Authority"
+  },
+  "bio": {
+    "fr": "Cofondateur du Fatah, il préside l'Organisation de libération de la Palestine à partir de 1969. En 1993, il signe les accords d'Oslo avec Israël, ce qui lui vaut le prix Nobel de la paix en 1994 avec Yitzhak Rabin et Shimon Peres. Il dirige l'Autorité palestinienne de sa création jusqu'à sa mort en 2004.",
+    "en": "A co-founder of Fatah, he chaired the Palestine Liberation Organization from 1969. In 1993 he signed the Oslo Accords with Israel, sharing the 1994 Nobel Peace Prize with Yitzhak Rabin and Shimon Peres. He led the Palestinian Authority from its creation until his death in 2004."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 7,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Keffieh",
+      "en": "Keffiyeh"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

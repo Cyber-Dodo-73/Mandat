@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1405",
+  "role": {
+    "fr": "Empereur romain",
+    "en": "Roman Emperor"
+  },
+  "bio": {
+    "fr": "Petit-neveu et fils adoptif de Jules César, Octavien triomphe de Marc Antoine et de Cléopâtre à Actium en 31 av. J.-C. Le Sénat lui confère en 27 av. J.-C. le titre d'Auguste et il devient le premier empereur romain. Son long règne, jusqu'en 14 apr. J.-C., ouvre une période de stabilité appelée la Pax Romana.",
+    "en": "Julius Caesar's great-nephew and adopted son, Octavian defeated Mark Antony and Cleopatra at Actium in 31 BC. In 27 BC the Senate granted him the name Augustus and he became the first Roman emperor. His long reign, lasting until AD 14, opened the era of relative stability known as the Pax Romana."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Pax Romana",
+      "en": "Pax Romana"
+    },
+    "description": {
+      "fr": "−2 en Stratégie à la carte adverse contre une carte de l'Antiquité.",
+      "en": "−2 Strategy to the opposing card against an Antiquity card."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

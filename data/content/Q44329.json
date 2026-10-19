@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q44329",
+  "role": {
+    "fr": "Président de la Syrie",
+    "en": "President of Syria"
+  },
+  "bio": {
+    "fr": "Ophtalmologue formé à Londres, il succède à son père Hafez à la tête de la Syrie en 2000. À partir de 2011, la répression violente du soulèvement par son régime débouche sur une guerre civile qui fait plusieurs centaines de milliers de morts et des millions de déplacés, marquée par des attaques chimiques attribuées à ses forces. Renversé par une offensive rebelle en décembre 2024, il s'enfuit en Russie.",
+    "en": "A London-trained ophthalmologist, he succeeded his father Hafez as Syria's ruler in 2000. From 2011 his regime's violent crackdown on the uprising led to a civil war that killed hundreds of thousands and displaced millions, including chemical attacks attributed to his forces. Toppled by a rebel offensive in December 2024, he fled to Russia."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Guerre d'usure",
+      "en": "War of Attrition"
+    },
+    "description": {
+      "fr": "-2 en Stratégie à la carte adverse lors de la troisième manche.",
+      "en": "-2 Strategy to the opposing card in the third round."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

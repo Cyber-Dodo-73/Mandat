@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q160554",
+  "role": {
+    "fr": "Gouverneur général du Pakistan",
+    "en": "Governor-General of Pakistan"
+  },
+  "bio": {
+    "fr": "Avocat formé à Londres, il dirige la Ligue musulmane et réclame à partir de 1940 un État séparé pour les musulmans d'Inde. Il obtient la création du Pakistan en août 1947 et en devient le premier gouverneur général. Il meurt un an plus tard, en septembre 1948.",
+    "en": "A London-trained barrister, he led the Muslim League and from 1940 demanded a separate state for India's Muslims. He secured the creation of Pakistan in August 1947 and became its first governor-general. He died a year later, in September 1948."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 8,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Père de la nation",
+      "en": "Father of the Nation"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie lors de la manche 3.",
+      "en": "+3 Diplomacy in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

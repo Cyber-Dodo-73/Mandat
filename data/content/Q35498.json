@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q35498",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Produit de la machine républicaine new-yorkaise, il dirige les douanes du port de New York avant d'être élu vice-président en 1880. Président après l'assassinat de James Garfield en 1881, il surprend en signant en 1883 la loi Pendleton, qui fonde le recrutement des fonctionnaires fédéraux sur le mérite.",
+    "en": "A product of New York's Republican machine, he ran the city's customs house before being elected vice president in 1880. Elevated to the presidency by James Garfield's assassination in 1881, he surprised critics by signing the 1883 Pendleton Act, which based federal hiring on merit."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 3,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Loi Pendleton",
+      "en": "Pendleton Act"
+    },
+    "description": {
+      "fr": "-1 en Influence pour la carte adverse.",
+      "en": "The opposing card gets -1 Influence."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

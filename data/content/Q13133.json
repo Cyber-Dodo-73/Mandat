@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q13133",
+  "role": {
+    "fr": "Première dame des États-Unis",
+    "en": "First Lady of the United States"
+  },
+  "bio": {
+    "fr": "Avocate formée à Princeton et Harvard, elle travaille à Chicago, où elle rencontre Barack Obama. Première dame de 2009 à 2017, la première afro-américaine dans ce rôle, elle mène une campagne contre l'obésité infantile. Ses mémoires, parus en 2018, deviennent un succès mondial.",
+    "en": "A lawyer educated at Princeton and Harvard, she worked in Chicago, where she met Barack Obama. First Lady from 2009 to 2017, the first African American in the role, she campaigned against childhood obesity. Her 2018 memoir became a global bestseller."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 10,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Toujours plus haut",
+      "en": "When They Go Low"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Charisma if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

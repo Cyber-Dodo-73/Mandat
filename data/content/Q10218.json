@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q10218",
+  "role": {
+    "fr": "Chef de l'opposition à la Lok Sabha (Inde)",
+    "en": "Leader of the Opposition in India's Lok Sabha"
+  },
+  "bio": {
+    "fr": "Fils de Rajiv et Sonia Gandhi, il entre à la Lok Sabha en 2004 et préside le Congrès national indien de 2017 à 2019. En 2022-2023, il parcourt à pied environ 4 000 kilomètres du sud au nord du pays. Il devient chef de l'opposition parlementaire après les élections de 2024.",
+    "en": "The son of Rajiv and Sonia Gandhi, he entered the Lok Sabha in 2004 and led the Indian National Congress from 2017 to 2019. In 2022–2023 he walked some 4,000 kilometres from India's southern tip to Kashmir, and he became Leader of the Opposition after the 2024 election."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 8,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Marche pour l'unité",
+      "en": "Unity March"
+    },
+    "description": {
+      "fr": "+1 en Charisme en permanence.",
+      "en": "+1 Charisma at all times."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

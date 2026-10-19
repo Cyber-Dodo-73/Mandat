@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q213001",
+  "role": {
+    "fr": "Roi d'Égypte",
+    "en": "King of Egypt"
+  },
+  "bio": {
+    "fr": "Monté sur le trône en 1936 à 16 ans, il incarne une monarchie de plus en plus discréditée par son train de vie fastueux. La défaite de 1948 contre Israël et la corruption alimentent la colère contre son règne. Renversé en 1952 par les Officiers libres, il abdique et finit ses jours en exil en Italie.",
+    "en": "Taking the throne in 1936 at 16, he came to embody a monarchy increasingly discredited by his lavish lifestyle. The 1948 defeat against Israel and widespread corruption fuelled anger at his rule. Overthrown by the Free Officers in 1952, he abdicated and lived out his life in exile in Italy."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 5,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Train de vie royal",
+      "en": "Royal Extravagance"
+    },
+    "description": {
+      "fr": "-1 en Charisme pour la carte adverse.",
+      "en": "-1 Charisma to the opposing card."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q124993",
+  "role": {
+    "fr": "Président de facto de l’Argentine (junte militaire)",
+    "en": "De facto President of Argentina (military junta)"
+  },
+  "bio": {
+    "fr": "Commandant de l’armée, il prend la tête de la junte militaire en décembre 1981. En avril 1982, il fait envahir les îles Malouines pour raviver le soutien au régime ; la défaite face au Royaume-Uni, en juin, le contraint à démissionner et précipite la fin de la dictature.",
+    "en": "As army commander he became head of the military junta in December 1981. In April 1982 he ordered the invasion of the Falkland Islands to rally support for the regime, and defeat by Britain in June forced him out and hastened the end of the dictatorship."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 5,
+    "charisma": 7,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Opération Rosario",
+      "en": "Operation Rosario"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche lors de la manche 1.",
+      "en": "+2 in the round's domain in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

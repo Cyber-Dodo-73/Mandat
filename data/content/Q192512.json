@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q192512",
+  "role": {
+    "fr": "Chef de l'État éthiopien",
+    "en": "Head of State of Ethiopia"
+  },
+  "bio": {
+    "fr": "Officier du Derg, la junte qui renverse Haïlé Sélassié en 1974, il s'impose à sa tête et dirige l'Éthiopie jusqu'en 1991. Sa « Terreur rouge » de 1977-1978 fait des dizaines de milliers de morts, et ses réinstallations forcées aggravent la famine de 1983-1985, qui tue environ un million de personnes. Réfugié au Zimbabwe, il est condamné à mort par contumace pour génocide en 2008.",
+    "en": "An officer of the Derg, the junta that toppled Haile Selassie in 1974, he rose to lead it and ruled Ethiopia until 1991. His Red Terror of 1977–78 killed tens of thousands, and his forced resettlements worsened the 1983–85 famine, which killed around a million people. Sheltering in Zimbabwe, he was sentenced to death in absentia for genocide in 2008."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Junte du Derg",
+      "en": "Derg Junta"
+    },
+    "description": {
+      "fr": "-1 en Influence pour la carte adverse.",
+      "en": "-1 Influence to the opposing card."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

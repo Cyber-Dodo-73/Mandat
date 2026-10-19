@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1047",
+  "role": {
+    "fr": "Premier ministre de l'Inde",
+    "en": "Prime Minister of India"
+  },
+  "bio": {
+    "fr": "Compagnon de lutte de Gandhi au sein du Congrès national indien, il devient en 1947 le premier Premier ministre de l'Inde indépendante et le reste jusqu'à sa mort en 1964. Il bâtit un État laïc et planificateur et fait de son pays un pilier du mouvement des non-alignés.",
+    "en": "Gandhi's ally in the Indian National Congress, he became the first prime minister of independent India in 1947 and held the post until his death in 1964. He built a secular state with a planned economy and made India a pillar of the Non-Aligned Movement."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 6,
+    "charisma": 3,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Non-alignement",
+      "en": "Non-Alignment"
+    },
+    "description": {
+      "fr": "−2 en Influence à la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "−2 Influence to the opposing card if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

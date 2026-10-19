@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q29032770",
+  "role": {
+    "fr": "Président de la république démocratique du Congo",
+    "en": "President of the Democratic Republic of the Congo"
+  },
+  "bio": {
+    "fr": "Fils de l’opposant historique Étienne Tshisekedi, il prend la tête de l’UDPS et est proclamé vainqueur de la présidentielle de 2018, une élection contestée. Son investiture en 2019 marque la première passation de pouvoir pacifique du pays ; il est réélu en 2023 alors que la guerre se poursuit dans l’Est.",
+    "en": "Son of veteran opposition leader Étienne Tshisekedi, he took over the UDPS and was declared winner of the disputed 2018 presidential election. His 2019 inauguration was the country's first peaceful handover of power, and he was re-elected in 2023 as fighting continued in the east."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 7,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Héritage de l’UDPS",
+      "en": "UDPS Legacy"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité si la carte adverse vient du même continent.",
+      "en": "Wins tied rounds if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

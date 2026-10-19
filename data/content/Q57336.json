@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q57336",
+  "role": {
+    "fr": "Guide suprême de l'Iran",
+    "en": "Supreme Leader of Iran"
+  },
+  "bio": {
+    "fr": "Religieux chiite proche de l'ayatollah Khomeini, il est président de l'Iran de 1981 à 1989. Il succède ensuite à Khomeini comme Guide suprême, la plus haute autorité de la République islamique, et conserve cette fonction jusqu'à sa mort en 2026.",
+    "en": "A Shia cleric close to Ayatollah Khomeini, he served as president of Iran from 1981 to 1989. He then succeeded Khomeini as Supreme Leader, the highest authority in the Islamic Republic, and held the post until his death in 2026."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Velayat-e faqih",
+      "en": "Guardianship of the Jurist"
+    },
+    "description": {
+      "fr": "−2 en Influence à la carte adverse lors de la 2e manche.",
+      "en": "−2 Influence to the opposing card in round 2."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q19581",
+  "role": {
+    "fr": "Président de l'Équateur",
+    "en": "President of Ecuador"
+  },
+  "bio": {
+    "fr": "Économiste formé aux États-Unis, il préside l'Équateur de 2007 à 2017 au nom d'une « révolution citoyenne » et fait adopter une nouvelle Constitution en 2008. Il suspend une partie du remboursement de la dette extérieure et accorde l'asile à Julian Assange dans l'ambassade de Londres. Condamné par contumace pour corruption en 2020, il vit en Belgique.",
+    "en": "A US-trained economist, he governed Ecuador from 2007 to 2017 under the banner of a \"Citizens' Revolution\" and pushed through a new constitution in 2008. He defaulted on part of the foreign debt and granted Julian Assange asylum in the London embassy. Convicted of corruption in absentia in 2020, he lives in Belgium."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Révolution citoyenne",
+      "en": "Citizens' Revolution"
+    },
+    "description": {
+      "fr": "+2 en Charisme lors de la manche 2.",
+      "en": "+2 Charisma in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

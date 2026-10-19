@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q43723",
+  "role": {
+    "fr": "Premier ministre d'Israël",
+    "en": "Prime Minister of Israel"
+  },
+  "bio": {
+    "fr": "Chef du Likoud, il est le Premier ministre resté le plus longtemps au pouvoir en Israël, avec un premier mandat de 1996 à 1999 puis de longues périodes depuis 2009. Il dirige le pays pendant la guerre à Gaza qui suit l'attaque du Hamas du 7 octobre 2023, et la Cour pénale internationale émet contre lui un mandat d'arrêt en 2024.",
+    "en": "Leader of Likud, he is Israel's longest-serving prime minister, with a first term from 1996 to 1999 and long spells in office since 2009. He has led the country through the war in Gaza that followed the Hamas attack of 7 October 2023, and the International Criminal Court issued an arrest warrant against him in 2024."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Survivant politique",
+      "en": "Political Survivor"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse vient du même continent.",
+      "en": "Wins ties if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

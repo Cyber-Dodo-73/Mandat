@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q15029",
+  "role": {
+    "fr": "Président de la République populaire de Chine",
+    "en": "President of the People's Republic of China"
+  },
+  "bio": {
+    "fr": "Ingénieur hydraulicien, il dirige le parti au Tibet lorsque la loi martiale y est proclamée en 1989. Secrétaire général du Parti communiste de 2002 à 2012 et président de 2003 à 2013, il prône une « société harmonieuse » pendant une décennie de forte croissance couronnée par les Jeux de Pékin en 2008.",
+    "en": "A hydraulic engineer, he was party chief in Tibet when martial law was declared there in 1989. As Communist Party general secretary from 2002 to 2012 and president from 2003 to 2013, he promoted a 'harmonious society' through a decade of rapid growth capped by the 2008 Beijing Olympics."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 3,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Société harmonieuse",
+      "en": "Harmonious Society"
+    },
+    "description": {
+      "fr": "Remporte les égalités en permanence.",
+      "en": "Wins ties at all times."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

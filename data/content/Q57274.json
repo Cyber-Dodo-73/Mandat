@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q57274",
+  "role": {
+    "fr": "Président de l'Ouganda",
+    "en": "President of Uganda"
+  },
+  "bio": {
+    "fr": "Chef de l'Armée de résistance nationale, il mène une guérilla de plusieurs années et prend Kampala en janvier 1986. Président de l'Ouganda depuis lors, il stabilise une grande partie du pays après des décennies de violences. Les limites du nombre de mandats puis de l'âge des candidats sont supprimées de la Constitution sous sa présidence.",
+    "en": "Leader of the National Resistance Army, he waged a years-long bush war and captured Kampala in January 1986. President of Uganda ever since, he brought relative stability to much of a country scarred by decades of violence. Under his rule, both presidential term limits and the age cap for candidates were removed from the constitution."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Guerre de brousse",
+      "en": "Bush War"
+    },
+    "description": {
+      "fr": "+2 en Stratégie lors de la manche 1.",
+      "en": "+2 Strategy in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q311440",
+  "role": {
+    "fr": "Secrétaire général des Nations unies",
+    "en": "Secretary-General of the United Nations"
+  },
+  "bio": {
+    "fr": "Socialiste portugais, il est Premier ministre de son pays de 1995 à 2002, puis haut-commissaire des Nations unies pour les réfugiés de 2005 à 2015. Secrétaire général de l'ONU depuis 2017, il multiplie les alertes sur le climat et les conflits.",
+    "en": "A Portuguese socialist, he was prime minister of Portugal from 1995 to 2002, then UN High Commissioner for Refugees from 2005 to 2015. UN Secretary-General since 2017, he has repeatedly sounded the alarm over climate change and armed conflicts."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 8,
+    "charisma": 3,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Multilatéralisme",
+      "en": "Multilateralism"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

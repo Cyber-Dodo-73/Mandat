@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q186525",
+  "role": {
+    "fr": "Président de la Tanzanie",
+    "en": "President of Tanzania"
+  },
+  "bio": {
+    "fr": "Ancien instituteur surnommé « Mwalimu », il conduit le Tanganyika à l'indépendance en 1961 et l'unit à Zanzibar en 1964 pour former la Tanzanie. Président jusqu'en 1985, il lance le socialisme africain de l'ujamaa et soutient les mouvements de libération d'Afrique australe. Il quitte volontairement le pouvoir.",
+    "en": "A former schoolteacher known as \"Mwalimu\", he led Tanganyika to independence in 1961 and merged it with Zanzibar in 1964 to create Tanzania. President until 1985, he launched the African socialism of ujamaa and backed liberation movements across southern Africa. He stepped down of his own accord."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Ujamaa",
+      "en": "Ujamaa"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche si la carte adverse vient du même continent.",
+      "en": "+2 in the round's domain if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q43303",
+  "role": {
+    "fr": "Militant des droits civiques aux États-Unis",
+    "en": "American civil rights activist"
+  },
+  "bio": {
+    "fr": "Né Malcolm Little, il rejoint en prison la Nation of Islam et en devient le porte-parole le plus en vue, prônant l'autodéfense et la fierté noire. Il rompt avec le mouvement en 1964, accomplit le pèlerinage à La Mecque et fonde sa propre organisation. Il est assassiné en février 1965 à Harlem, lors d'un discours.",
+    "en": "Born Malcolm Little, he joined the Nation of Islam while in prison and became its best-known spokesman, preaching self-defence and Black pride. He broke with the movement in 1964, made the pilgrimage to Mecca and founded his own organisation. He was shot dead while speaking in Harlem in February 1965."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 8,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Par tous les moyens",
+      "en": "By Any Means Necessary"
+    },
+    "description": {
+      "fr": "+2 en Charisme lors de la première manche.",
+      "en": "+2 Charisma in the first round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

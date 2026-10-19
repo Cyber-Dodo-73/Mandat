@@ -1,0 +1,38 @@
+{
+  "wikidataId": "Q855252",
+  "name": {
+    "fr": "Bhumibol Adulyadej",
+    "en": "Bhumibol Adulyadej"
+  },
+  "role": {
+    "fr": "Roi de Thaïlande",
+    "en": "King of Thailand"
+  },
+  "bio": {
+    "fr": "Né aux États-Unis, il monte sur le trône de Thaïlande en 1946 sous le nom de Rama IX. Pendant ses 70 ans de règne, il traverse de nombreux coups d'État et intervient à plusieurs reprises comme arbitre des crises politiques. À sa mort en 2016, il était le monarque en exercice depuis le plus longtemps au monde.",
+    "en": "Born in the United States, he took the Thai throne in 1946 as Rama IX. Over a 70-year reign he lived through numerous coups and several times stepped in to settle political crises. When he died in 2016 he was the world's longest-reigning monarch."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Soixante-dix ans",
+      "en": "Seventy Years"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité si la carte adverse est de l'époque contemporaine.",
+      "en": "Wins tied rounds if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

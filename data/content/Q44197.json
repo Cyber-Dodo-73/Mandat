@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q44197",
+  "role": {
+    "fr": "Membre du Comité de salut public (France)",
+    "en": "Member of the Committee of Public Safety, France"
+  },
+  "bio": {
+    "fr": "Avocat d'Arras élu aux États généraux de 1789, il devient la figure dominante des Jacobins. Membre du Comité de salut public à partir de juillet 1793, il est l'un des principaux artisans de la Terreur, qui fait des dizaines de milliers de victimes. Renversé le 9 Thermidor, il est guillotiné le lendemain, le 28 juillet 1794.",
+    "en": "A lawyer from Arras elected to the Estates-General in 1789, he became the leading figure of the Jacobins. A member of the Committee of Public Safety from July 1793, he was a chief architect of the Terror, which claimed tens of thousands of lives. Overthrown on 9 Thermidor, he was guillotined the next day, 28 July 1794."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 2,
+    "charisma": 8,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "L'Incorruptible",
+      "en": "The Incorruptible"
+    },
+    "description": {
+      "fr": "-2 à la carte adverse dans le domaine de la manche lors de la manche 3.",
+      "en": "-2 to the opposing card in the round's domain in round 3."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q120180",
+  "role": {
+    "fr": "Empereur de Russie",
+    "en": "Emperor of Russia"
+  },
+  "bio": {
+    "fr": "Monté sur le trône en 1881 après l’assassinat de son père Alexandre II, il revient sur une partie des réformes libérales et renforce l’autocratie. Son règne voit une politique de russification et des mesures antisémites, mais aussi l’alliance franco-russe et le lancement du Transsibérien en 1891.",
+    "en": "Taking the throne in 1881 after the assassination of his father, Alexander II, he rolled back several liberal reforms and tightened autocratic rule. His reign brought Russification and antisemitic laws, as well as the Franco-Russian alliance and the start of the Trans-Siberian Railway in 1891."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 2,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Contre-réformes",
+      "en": "Counter-Reforms"
+    },
+    "description": {
+      "fr": "-1 en Diplomatie pour la carte adverse.",
+      "en": "Opposing card gets -1 Diplomacy."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

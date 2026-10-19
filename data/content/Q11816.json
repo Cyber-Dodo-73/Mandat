@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q11816",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Fils du président John Adams, il est secrétaire d'État sous James Monroe, dont il façonne la doctrine, et obtient la Floride de l'Espagne. Sixième président de 1825 à 1829, il siège ensuite à la Chambre des représentants, où il combat la règle interdisant les pétitions contre l'esclavage. En 1841, il défend devant la Cour suprême les captifs africains de l'Amistad.",
+    "en": "The son of President John Adams, he served as Secretary of State under James Monroe, shaping the Monroe Doctrine and securing Florida from Spain. After his single term as sixth President (1825–1829), he sat in the House, where he fought the gag rule against anti-slavery petitions. In 1841 he defended the African captives of the Amistad before the Supreme Court."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 10,
+    "charisma": 2,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Doctrine Monroe",
+      "en": "Monroe Doctrine"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "The opposing card gets -2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

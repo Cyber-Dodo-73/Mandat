@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q348577",
+  "role": {
+    "fr": "Premier ministre de l'Australie",
+    "en": "Prime Minister of Australia"
+  },
+  "bio": {
+    "fr": "Né à Londres et ancien boursier Rhodes, il prend la tête du Parti libéral et remporte les élections de 2013. Premier ministre de l'Australie jusqu'en 2015, il abroge la taxe carbone et durcit la politique d'interception des bateaux de migrants. Il est renversé par Malcolm Turnbull lors d'un vote interne à son parti.",
+    "en": "Born in London and a former Rhodes scholar, he took over the Liberal Party and won the 2013 election. As prime minister of Australia until 2015, he repealed the carbon tax and hardened the policy of turning back migrant boats. He was toppled by Malcolm Turnbull in a party-room vote."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 6,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Stop the Boats",
+      "en": "Stop the Boats"
+    },
+    "description": {
+      "fr": "-1 pour la carte adverse dans le domaine de la manche.",
+      "en": "-1 to the opposing card in the round's domain."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

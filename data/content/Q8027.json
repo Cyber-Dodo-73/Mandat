@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q8027",
+  "role": {
+    "fr": "Militant des droits civiques américain",
+    "en": "American civil rights leader"
+  },
+  "bio": {
+    "fr": "Pasteur baptiste, il s'impose lors du boycott des bus de Montgomery en 1955 comme la grande voix du mouvement des droits civiques. Son discours « I Have a Dream » lors de la marche sur Washington de 1963 et son action non violente lui valent le prix Nobel de la paix en 1964. Il est assassiné à Memphis en 1968.",
+    "en": "A Baptist minister, he emerged during the 1955 Montgomery bus boycott as the leading voice of the civil rights movement. His \"I Have a Dream\" speech at the 1963 March on Washington and his non-violent campaigning earned him the 1964 Nobel Peace Prize. He was assassinated in Memphis in 1968."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "J'ai un rêve",
+      "en": "I Have a Dream"
+    },
+    "description": {
+      "fr": "+3 en Charisme si la carte adverse est plus rare.",
+      "en": "+3 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

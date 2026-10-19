@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q29179",
+  "role": {
+    "fr": "Chef de l'État espagnol",
+    "en": "Head of State of Spain"
+  },
+  "bio": {
+    "fr": "Général putschiste en 1936, il remporte la guerre civile espagnole avec l'appui de l'Allemagne nazie et de l'Italie fasciste, un conflit qui fait plusieurs centaines de milliers de morts. Pendant et après la guerre, son régime exécute des dizaines de milliers d'opposants et en enferme des centaines de milliers dans des camps et des prisons. Il gouverne l'Espagne en dictateur jusqu'à sa mort en 1975.",
+    "en": "A general who led the 1936 military uprising, he won the Spanish Civil War with help from Nazi Germany and Fascist Italy, a conflict that killed several hundred thousand people. During and after the war his regime executed tens of thousands of opponents and held hundreds of thousands in camps and prisons. He ruled Spain as a dictator until his death in 1975."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Guerre d'usure",
+      "en": "War of Attrition"
+    },
+    "description": {
+      "fr": "+2 en Stratégie lors de la manche 3.",
+      "en": "+2 Strategy in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

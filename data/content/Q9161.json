@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q9161",
+  "role": {
+    "fr": "Président de la Yougoslavie",
+    "en": "President of Yugoslavia"
+  },
+  "bio": {
+    "fr": "Chef des partisans communistes, il libère la Yougoslavie de l'occupation allemande en 1945 et prend la tête du pays. En 1948, il rompt avec Staline et développe un socialisme autogestionnaire. Cofondateur du Mouvement des non-alignés en 1961, il gouverne jusqu'à sa mort en 1980.",
+    "en": "Leader of the communist Partisans, he drove the German occupiers out of Yugoslavia in 1945 and took charge of the country. In 1948 he broke with Stalin and developed a self-managed form of socialism. A co-founder of the Non-Aligned Movement in 1961, he ruled until his death in 1980."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Non-alignement",
+      "en": "Non-Alignment"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse est plus rare.",
+      "en": "+2 Diplomacy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

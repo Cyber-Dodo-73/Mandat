@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q112075625",
+  "role": {
+    "fr": "Président de l’Équateur",
+    "en": "President of Ecuador"
+  },
+  "bio": {
+    "fr": "Héritier d’un empire bananier, il est élu en 2023 à 35 ans, devenant l’un des plus jeunes présidents de l’histoire équatorienne. Face à l’explosion de la violence des cartels, il déclare un « conflit armé interne » en 2024 et est réélu en 2025.",
+    "en": "Heir to a banana fortune, he was elected in 2023 at the age of 35, one of the youngest presidents in Ecuador's history. Confronting a surge in cartel violence, he declared an internal armed conflict in 2024 and won re-election in 2025."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Conflit armé interne",
+      "en": "Internal Armed Conflict"
+    },
+    "description": {
+      "fr": "+2 en Stratégie lors de la manche 2.",
+      "en": "+2 Strategy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

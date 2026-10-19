@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q101547",
+  "role": {
+    "fr": "Président de l'Afrique du Sud",
+    "en": "President of South Africa"
+  },
+  "bio": {
+    "fr": "Diplomate de l'ANC durant l'exil, il devient vice-président sous Nelson Mandela puis président de l'Afrique du Sud de 1999 à 2008. Promoteur d'une « renaissance africaine », il est vivement critiqué pour son refus de reconnaître le lien entre VIH et sida, qui retarde l'accès aux traitements. Désavoué par l'ANC, il démissionne en 2008.",
+    "en": "The ANC's chief diplomat in exile, he served as deputy to Nelson Mandela before becoming president of South Africa from 1999 to 2008. He championed an \"African Renaissance\" but drew heavy criticism for questioning the link between HIV and AIDS, which delayed access to treatment. Recalled by the ANC, he resigned in 2008."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Renaissance africaine",
+      "en": "African Renaissance"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient du même continent.",
+      "en": "+2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

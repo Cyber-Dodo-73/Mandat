@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q463533",
+  "role": {
+    "fr": "Président du Brésil",
+    "en": "President of Brazil"
+  },
+  "bio": {
+    "fr": "Juriste constitutionnaliste et cadre du PMDB, il est le vice-président de Dilma Rousseff. Il lui succède en 2016 après sa destitution et gouverne le Brésil jusqu'à la fin de 2018. Il fait adopter un plafonnement des dépenses publiques et une réforme du travail, malgré une popularité très faible.",
+    "en": "A constitutional lawyer and PMDB stalwart, he served as Dilma Rousseff's vice president. He took over after her impeachment in 2016 and governed Brazil until the end of 2018. He pushed through a public spending cap and a labour reform despite very low approval ratings."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 2,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Plafond des dépenses",
+      "en": "Spending Cap"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse si vous avez perdu plus de manches que l'adversaire.",
+      "en": "-2 Charisma to the opposing card if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

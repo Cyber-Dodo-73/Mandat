@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q19673",
+  "role": {
+    "fr": "Vice-président des États-Unis",
+    "en": "Vice President of the United States"
+  },
+  "bio": {
+    "fr": "Représentant puis sénateur du Tennessee, il est vice-président sous Bill Clinton de 1993 à 2001. Candidat démocrate en 2000, il remporte le vote populaire mais perd face à George W. Bush après un recomptage en Floride interrompu par la Cour suprême. Militant du climat, il reçoit en 2007 le prix Nobel de la paix avec le GIEC.",
+    "en": "A congressman and then senator from Tennessee, he was Bill Clinton's vice president from 1993 to 2001. As the Democratic nominee in 2000 he won the popular vote but lost to George W. Bush after the Supreme Court halted the Florida recount. A climate campaigner, he shared the 2007 Nobel Peace Prize with the IPCC."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Recomptage",
+      "en": "Recount"
+    },
+    "description": {
+      "fr": "Remporte les égalités lors de la 3e manche.",
+      "en": "Wins ties in the third round."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

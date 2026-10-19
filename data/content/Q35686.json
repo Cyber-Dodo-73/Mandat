@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q35686",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Général de l’Union pendant la guerre de Sécession, il devient président des États-Unis à l’issue de l’élection contestée de 1876. Le compromis qui lui assure la victoire entraîne le retrait des troupes fédérales du Sud et met fin à la Reconstruction. Il s’attache ensuite à réformer la fonction publique fédérale.",
+    "en": "A Union general in the Civil War, he reached the White House after the bitterly disputed election of 1876. The deal that settled the result withdrew federal troops from the South and brought Reconstruction to an end. In office from 1877 to 1881, he pushed to reform the federal civil service."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 6,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Compromis de 1877",
+      "en": "Compromise of 1877"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie si vous avez perdu plus de manches que l’adversaire.",
+      "en": "+3 Diplomacy when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

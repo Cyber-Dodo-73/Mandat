@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q196070",
+  "role": {
+    "fr": "Président du Kenya",
+    "en": "President of Kenya"
+  },
+  "bio": {
+    "fr": "Fils du premier président Jomo Kenyatta, il préside le Kenya de 2013 à 2022. Poursuivi par la Cour pénale internationale pour les violences post-électorales de 2007-2008, il voit les charges abandonnées en 2014. Sa réélection de 2017 est annulée par la Cour suprême, puis confirmée lors d'un nouveau scrutin.",
+    "en": "The son of founding president Jomo Kenyatta, he led Kenya from 2013 to 2022. Charged by the International Criminal Court over the 2007–08 post-election violence, he saw the case dropped in 2014. His 2017 re-election was annulled by the Supreme Court, then confirmed in a rerun."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 4,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Fils du fondateur",
+      "en": "Founder's Son"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Influence if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

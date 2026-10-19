@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q28930",
+  "role": {
+    "fr": "Directeur suprême du Chili",
+    "en": "Supreme Director of Chile"
+  },
+  "bio": {
+    "fr": "Fils naturel d’un vice-roi du Pérou d’origine irlandaise, il combat pour l’indépendance chilienne et triomphe avec San Martín à Chacabuco en 1817. Directeur suprême jusqu’en 1823, il proclame l’indépendance en 1818, puis, contesté, finit ses jours en exil au Pérou.",
+    "en": "The illegitimate son of an Irish-born viceroy of Peru, he fought for Chilean independence and won at Chacabuco alongside San Martín in 1817. As Supreme Director until 1823 he proclaimed independence in 1818, then, facing opposition, spent his last years in exile in Peru."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Passage des Andes",
+      "en": "Crossing the Andes"
+    },
+    "description": {
+      "fr": "+2 en Stratégie contre une carte de l'époque moderne.",
+      "en": "+2 Strategy against a Modern-era card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

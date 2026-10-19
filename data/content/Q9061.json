@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q9061",
+  "role": {
+    "fr": "Philosophe et révolutionnaire allemand",
+    "en": "German philosopher and revolutionary"
+  },
+  "bio": {
+    "fr": "Philosophe et économiste allemand, il rédige avec Friedrich Engels le Manifeste du Parti communiste en 1848. Exilé à Londres, il publie en 1867 le premier livre du Capital, critique du capitalisme qui inspirera les mouvements socialistes et communistes du monde entier.",
+    "en": "A German philosopher and economist, he co-wrote The Communist Manifesto with Friedrich Engels in 1848. In exile in London he published the first volume of Capital in 1867, a critique of capitalism that went on to inspire socialist and communist movements worldwide."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 2,
+    "charisma": 4,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Lutte des classes",
+      "en": "Class Struggle"
+    },
+    "description": {
+      "fr": "−3 en Influence à la carte adverse si la carte adverse est plus rare.",
+      "en": "−3 Influence to the opposing card if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

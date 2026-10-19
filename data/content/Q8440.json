@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q8440",
+  "role": {
+    "fr": "Président du Venezuela",
+    "en": "President of Venezuela"
+  },
+  "bio": {
+    "fr": "Officier parachutiste, il mène un coup d'État manqué en 1992 avant d'être élu président en 1998. Il fait adopter une nouvelle Constitution et finance avec la rente pétrolière des programmes sociaux de sa « révolution bolivarienne ». Il survit à un coup d'État en 2002 et gouverne jusqu'à sa mort d'un cancer en 2013.",
+    "en": "A paratrooper officer, he led a failed coup in 1992 and was then elected president in 1998. He pushed through a new constitution and used oil revenue to fund the social programmes of his 'Bolivarian revolution'. He survived a coup attempt in 2002 and governed until he died of cancer in 2013."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 8,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Aló Presidente",
+      "en": "Aló Presidente"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q122553",
+  "role": {
+    "fr": "Roi d'Angleterre, d'Écosse et d'Irlande",
+    "en": "King of England, Scotland and Ireland"
+  },
+  "bio": {
+    "fr": "Fils de Charles Ier, il vit en exil après l'exécution de son père et la défaite de Worcester en 1651. Rappelé en 1660, il restaure la monarchie et règne jusqu'en 1685. Son règne voit la grande peste de Londres, l'incendie de 1666 et la fondation de la Royal Society, qu'il patronne.",
+    "en": "The son of Charles I, he lived in exile after his father's execution and his own defeat at Worcester in 1651. Recalled in 1660, he restored the monarchy and reigned until 1685. His reign saw the Great Plague of London, the fire of 1666 and the founding of the Royal Society under his patronage."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Restauration",
+      "en": "Restoration"
+    },
+    "description": {
+      "fr": "+3 en Charisme, uniquement lors d'une manche de Charisme.",
+      "en": "+3 Charisma, only in a Charisma round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 3,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "charisma"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q213758",
+  "name": {
+    "fr": "Pachacútec",
+    "en": "Pachacuti"
+  },
+  "role": {
+    "fr": "Sapa Inca de l’Empire inca",
+    "en": "Sapa Inca of the Inca Empire"
+  },
+  "bio": {
+    "fr": "Après avoir repoussé une attaque des Chancas contre Cuzco, il prend le pouvoir vers 1438 et transforme un petit royaume andin en vaste empire, le Tawantinsuyu. On lui attribue la reconstruction de Cuzco et la fondation du domaine royal de Machu Picchu.",
+    "en": "After driving back a Chanka assault on Cuzco, he took power around 1438 and turned a small Andean kingdom into a vast empire, Tawantinsuyu. He is credited with rebuilding Cuzco and founding the royal estate of Machu Picchu."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Celui qui change le monde",
+      "en": "World Shaker"
+    },
+    "description": {
+      "fr": "+3 en Stratégie contre une carte du Moyen Âge.",
+      "en": "+3 Strategy against a Medieval card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "medieval"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q129987",
+  "name": {
+    "fr": "Guillaume III d'Orange",
+    "en": "William III of England"
+  },
+  "role": {
+    "fr": "Roi d'Angleterre, d'Écosse et d'Irlande",
+    "en": "King of England, Scotland and Ireland"
+  },
+  "bio": {
+    "fr": "Stathouder des Provinces-Unies à partir de 1672, il mène la résistance contre Louis XIV. En 1688, il débarque en Angleterre et renverse Jacques II lors de la Glorieuse Révolution, puis règne à partir de 1689 avec son épouse Marie II. Il bat les jacobites à la bataille de la Boyne en 1690.",
+    "en": "Stadtholder of the Dutch Republic from 1672, he led the resistance to Louis XIV. In 1688 he landed in England and ousted James II in the Glorious Revolution, reigning from 1689 jointly with his wife Mary II. He defeated the Jacobites at the Battle of the Boyne in 1690."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 3,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Glorieuse Révolution",
+      "en": "Glorious Revolution"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse est de l'époque moderne.",
+      "en": "The opposing card gets -2 Strategy if the opposing card is from the modern era."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

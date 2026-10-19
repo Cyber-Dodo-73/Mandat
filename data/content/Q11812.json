@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q11812",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Principal rédacteur de la Déclaration d'indépendance de 1776, ce planteur virginien, lui-même propriétaire de centaines d'esclaves, est le troisième président des États-Unis de 1801 à 1809. Il double la superficie du pays en achetant la Louisiane à la France en 1803.",
+    "en": "The principal author of the 1776 Declaration of Independence, this Virginia planter, who himself enslaved hundreds of people, was the third president of the United States from 1801 to 1809. He doubled the country's size with the Louisiana Purchase from France in 1803."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Achat de la Louisiane",
+      "en": "Louisiana Purchase"
+    },
+    "description": {
+      "fr": "+3 en Influence contre une carte de l'époque moderne.",
+      "en": "+3 Influence against a Modern-era card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q20055561",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Ancien banquier, il est chancelier de l'Échiquier pendant la pandémie de Covid-19 et finance le chômage partiel. Premier ministre d'octobre 2022 à juillet 2024, il est le premier chef de gouvernement britannique d'origine indienne et de confession hindoue, avant la lourde défaite des conservateurs aux législatives de 2024.",
+    "en": "A former banker, he was Chancellor of the Exchequer during the Covid-19 pandemic and funded the furlough scheme. Prime minister from October 2022 to July 2024, he was Britain's first head of government of Indian heritage and Hindu faith, until the Conservatives' heavy defeat at the 2024 election."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Chancelier de l'Échiquier",
+      "en": "Chancellor of the Exchequer"
+    },
+    "description": {
+      "fr": "+2 lors des manches de Stratégie.",
+      "en": "+2 in Strategy rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "strategy"
+      }
+    }
+  }
+}

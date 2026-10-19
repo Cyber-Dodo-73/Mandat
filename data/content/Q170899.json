@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q170899",
+  "role": {
+    "fr": "Président de l’Argentine",
+    "en": "President of Argentina"
+  },
+  "bio": {
+    "fr": "Gouverneur de la province de Santa Cruz, il accède à la présidence en 2003 dans une Argentine encore sonnée par la crise de 2001. Il restructure la dette, solde les créances du FMI en 2006 et relance les procès de la dictature, avant de laisser la place à son épouse Cristina en 2007.",
+    "en": "Governor of Santa Cruz province, he won the presidency in 2003 while Argentina was still reeling from the 2001 crash. He restructured the debt, paid off the IMF in 2006 and reopened trials of the dictatorship's officers, then handed over to his wife Cristina in 2007."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Relance",
+      "en": "Recovery"
+    },
+    "description": {
+      "fr": "+2 en Influence si vous êtes mené au score.",
+      "en": "+2 Influence when you are behind in rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

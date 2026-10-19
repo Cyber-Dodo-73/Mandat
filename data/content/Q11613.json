@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q11613",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Vice-président, il succède à Franklin Roosevelt à sa mort en avril 1945 et ordonne en août les bombardements atomiques d'Hiroshima et de Nagasaki. Il lance la doctrine d'endiguement, le plan Marshall et l'OTAN, puis engage les États-Unis dans la guerre de Corée. En 1948, il ordonne la déségrégation des forces armées.",
+    "en": "Vice president when Franklin Roosevelt died in April 1945, he took over and in August ordered the atomic bombings of Hiroshima and Nagasaki. He launched the containment doctrine, the Marshall Plan and NATO, then took the United States into the Korean War. In 1948 he ordered the desegregation of the armed forces."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "La responsabilité",
+      "en": "The Buck Stops Here"
+    },
+    "description": {
+      "fr": "Remporte les égalités quand le domaine de la manche est Influence.",
+      "en": "Wins ties when the round's domain is Influence."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "roundDomain",
+        "value": "influence"
+      }
+    }
+  }
+}

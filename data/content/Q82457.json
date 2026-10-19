@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q82457",
+  "role": {
+    "fr": "Gardien du royaume d'Écosse",
+    "en": "Guardian of the Kingdom of Scotland"
+  },
+  "bio": {
+    "fr": "Chef de la résistance écossaise lors de la première guerre d'indépendance, il bat les Anglais au pont de Stirling en 1297 et est nommé Gardien du royaume. Vaincu à Falkirk l'année suivante, il est capturé en 1305 et exécuté à Londres pour trahison.",
+    "en": "A leader of Scottish resistance in the First War of Independence, he defeated the English at Stirling Bridge in 1297 and was named Guardian of the Kingdom. Beaten at Falkirk the following year, he was captured in 1305 and executed in London for treason."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 9,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Pont de Stirling",
+      "en": "Stirling Bridge"
+    },
+    "description": {
+      "fr": "+3 en Charisme si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+3 Charisma if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 3,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

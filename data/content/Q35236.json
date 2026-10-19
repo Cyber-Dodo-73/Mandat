@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q35236",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Ingénieur des mines, il organise pendant la Première Guerre mondiale l'aide alimentaire à la Belgique occupée, puis devient secrétaire au Commerce. Président de 1929 à 1933, il est confronté au krach de Wall Street et à la Grande Dépression, et sa réponse est jugée insuffisante. Il est battu en 1932 par Franklin Roosevelt.",
+    "en": "A mining engineer, he ran food relief for occupied Belgium during the First World War and went on to serve as Commerce Secretary. President from 1929 to 1933, he faced the Wall Street Crash and the Great Depression, and his response was widely seen as inadequate. He lost the 1932 election to Franklin Roosevelt."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 2,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Ingénieur",
+      "en": "The Engineer"
+    },
+    "description": {
+      "fr": "+1 en Stratégie.",
+      "en": "+1 Strategy."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

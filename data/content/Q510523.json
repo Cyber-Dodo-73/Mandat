@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q510523",
+  "role": {
+    "fr": "Président du Zimbabwe",
+    "en": "President of Zimbabwe"
+  },
+  "bio": {
+    "fr": "Vétéran de la guerre de libération surnommé « le Crocodile », il occupe pendant des décennies des postes clés dans la sécurité sous Robert Mugabe, notamment lors des massacres du Gukurahundi dans les années 1980. Limogé en 2017, il prend le pouvoir quelques semaines plus tard après l'intervention de l'armée qui pousse Mugabe à démissionner.",
+    "en": "A liberation war veteran nicknamed \"the Crocodile\", he held key security posts under Robert Mugabe for decades, including during the Gukurahundi massacres of the 1980s. Sacked in 2017, he took power weeks later after an army intervention forced Mugabe to resign."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Le Crocodile",
+      "en": "The Crocodile"
+    },
+    "description": {
+      "fr": "+3 en Stratégie si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+3 Strategy if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

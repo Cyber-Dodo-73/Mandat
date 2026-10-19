@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q34105",
+  "role": {
+    "fr": "Président de l'Égypte",
+    "en": "President of Egypt"
+  },
+  "bio": {
+    "fr": "Commandant de l'armée de l'air pendant la guerre de 1973, il devient vice-président puis succède à Sadate, assassiné, en octobre 1981. Il gouverne près de trente ans sous l'état d'urgence, allié des États-Unis, avant d'être chassé du pouvoir en février 2011 par la révolte de la place Tahrir.",
+    "en": "Commander of the air force in the 1973 war, he became vice president and then succeeded the assassinated Sadat in October 1981. He ruled for nearly thirty years under emergency law as a close US ally, until the Tahrir Square uprising forced him out in February 2011."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "État d'urgence",
+      "en": "State of Emergency"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Charisma to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q49214",
+  "role": {
+    "fr": "Vice-président des États-Unis",
+    "en": "Vice President of the United States"
+  },
+  "bio": {
+    "fr": "Sénateur de l’Indiana, il est vice-président des États-Unis de 1989 à 1993 sous George H. W. Bush. Il préside alors le Conseil national de l’espace, mais ses maladresses verbales marquent durablement son image publique.",
+    "en": "A senator from Indiana, he served as vice president under George H. W. Bush from 1989 to 1993. He chaired the National Space Council, though his verbal slips came to define much of his public image."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Conseil de l’espace",
+      "en": "Space Council"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité si vous avez perdu plus de manches que l’adversaire.",
+      "en": "Wins tied rounds when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

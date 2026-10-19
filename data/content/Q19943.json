@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q19943",
+  "role": {
+    "fr": "Roi d’Espagne",
+    "en": "King of Spain"
+  },
+  "bio": {
+    "fr": "Désigné par Franco comme successeur, il devient roi en 1975 mais accompagne la transition démocratique et la Constitution de 1978. En 1981, il s’oppose publiquement à la tentative de coup d’État militaire. Fragilisé par des scandales, il abdique en 2014 en faveur de son fils Felipe VI.",
+    "en": "Picked by Franco as his successor, he became king in 1975 but steered the transition to democracy and the 1978 constitution. In 1981 he publicly stood against an attempted military coup. Weakened by scandals, he abdicated in 2014 in favour of his son, Felipe VI."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Nuit du 23-F",
+      "en": "Night of 23-F"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie si vous avez perdu plus de manches que l’adversaire.",
+      "en": "+3 Diplomacy when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

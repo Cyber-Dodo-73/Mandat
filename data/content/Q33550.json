@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q33550",
+  "role": {
+    "fr": "Roi de Prusse",
+    "en": "King of Prussia"
+  },
+  "bio": {
+    "fr": "Roi de 1740 à 1786, il s'empare de la Silésie autrichienne dès son avènement et tient tête à une coalition européenne pendant la guerre de Sept Ans. Despote éclairé, il correspond avec Voltaire, joue de la flûte et fait bâtir le palais de Sans-Souci à Potsdam.",
+    "en": "King from 1740 to 1786, he seized Austrian Silesia at the start of his reign and held out against a European coalition throughout the Seven Years' War. An enlightened absolutist, he corresponded with Voltaire, played the flute and built the Sanssouci palace at Potsdam."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Ordre oblique",
+      "en": "Oblique Order"
+    },
+    "description": {
+      "fr": "+3 en Stratégie si la carte adverse est de l'époque moderne.",
+      "en": "+3 Strategy if the opposing card is from the modern era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q41914",
+  "role": {
+    "fr": "Premier ministre de l'Inde",
+    "en": "Prime Minister of India"
+  },
+  "bio": {
+    "fr": "Économiste formé à Cambridge et Oxford, il lance en 1991, comme ministre des Finances, la libéralisation de l'économie indienne. Il devient en 2004 le premier sikh Premier ministre de l'Inde et reste en poste jusqu'en 2014. Il conclut notamment un accord nucléaire civil avec les États-Unis.",
+    "en": "An economist trained at Cambridge and Oxford, he launched the liberalisation of India's economy as finance minister in 1991. In 2004 he became India's first Sikh prime minister, serving until 2014. His government sealed a civil nuclear agreement with the United States."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 3,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Réformes de 1991",
+      "en": "1991 Reforms"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie, uniquement lors d'une manche de Diplomatie.",
+      "en": "+3 Diplomacy, only in a Diplomacy round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "diplomacy"
+      }
+    }
+  }
+}

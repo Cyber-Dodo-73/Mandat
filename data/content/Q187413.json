@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q187413",
+  "name": {
+    "fr": "Álvaro Uribe",
+    "en": "Álvaro Uribe"
+  },
+  "role": {
+    "fr": "Président de la Colombie",
+    "en": "President of Colombia"
+  },
+  "bio": {
+    "fr": "Ancien gouverneur d’Antioquia, il est élu en 2002 et réélu en 2006 sur une ligne de fermeté contre les FARC, la « sécurité démocratique ». Son offensive affaiblit fortement la guérilla, mais ses mandats sont entachés par le scandale des « faux positifs », des civils tués par l’armée et présentés comme rebelles.",
+    "en": "A former governor of Antioquia, he was elected in 2002 and again in 2006 on a hard line against the FARC known as Democratic Security. His offensive badly weakened the guerrillas, but his years in office were stained by the false positives scandal, in which the army killed civilians and passed them off as rebels."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Sécurité démocratique",
+      "en": "Democratic Security"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si vous êtes mené au score.",
+      "en": "-2 Strategy to the opposing card when you are behind in rounds."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

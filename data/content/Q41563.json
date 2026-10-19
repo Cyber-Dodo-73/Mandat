@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q41563",
+  "role": {
+    "fr": "Première ministre d’Australie",
+    "en": "Prime Minister of Australia"
+  },
+  "bio": {
+    "fr": "Née au pays de Galles et arrivée enfant en Australie, elle devient en 2010 la première femme Première ministre du pays après avoir évincé Kevin Rudd. Son discours de 2012 contre la misogynie au Parlement a un large retentissement. Rudd reprend la direction travailliste en 2013.",
+    "en": "Born in Wales and brought to Australia as a child, she became the country’s first woman prime minister in 2010 after ousting Kevin Rudd. Her 2012 speech on misogyny in parliament drew worldwide attention. Rudd took back the Labor leadership in 2013."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Discours sur la misogynie",
+      "en": "Misogyny Speech"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient d’un autre continent.",
+      "en": "+2 Charisma if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

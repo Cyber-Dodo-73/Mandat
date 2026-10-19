@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q57348",
+  "role": {
+    "fr": "Président de l'Érythrée",
+    "en": "President of Eritrea"
+  },
+  "bio": {
+    "fr": "Chef du Front populaire de libération de l'Érythrée, il conduit la guerre d'indépendance contre l'Éthiopie et dirige le pays depuis 1991. Aucune élection présidentielle n'a eu lieu, et la Constitution adoptée en 1997 n'est jamais entrée en vigueur. Son régime impose un service national à durée indéterminée qui pousse de nombreux jeunes à l'exil.",
+    "en": "Leader of the Eritrean People's Liberation Front, he led the independence war against Ethiopia and has ruled the country since 1991. No presidential election has ever been held, and the constitution adopted in 1997 has never taken effect. His government enforces open-ended national service that has driven many young people into exile."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Service national",
+      "en": "National Service"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse lors de la manche 3.",
+      "en": "-2 Diplomacy to the opposing card in round 3."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

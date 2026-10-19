@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q206",
+  "role": {
+    "fr": "Premier ministre du Canada",
+    "en": "Prime Minister of Canada"
+  },
+  "bio": {
+    "fr": "Artisan de la fusion qui crée en 2003 le Parti conservateur du Canada, il devient Premier ministre en 2006. Il remporte trois élections, dont une majoritaire en 2011, avant d’être battu en 2015 par Justin Trudeau.",
+    "en": "A driving force behind the 2003 merger that created the Conservative Party of Canada, he became prime minister in 2006. He won three elections, including a majority in 2011, before Justin Trudeau defeated him in 2015."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Unir la droite",
+      "en": "Unite the Right"
+    },
+    "description": {
+      "fr": "+2 en Stratégie lors de la manche 3.",
+      "en": "+2 Strategy in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

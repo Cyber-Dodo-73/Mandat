@@ -1,0 +1,38 @@
+{
+  "wikidataId": "Q57308",
+  "name": {
+    "fr": "Abdelaziz Bouteflika",
+    "en": "Abdelaziz Bouteflika"
+  },
+  "role": {
+    "fr": "Président de l'Algérie",
+    "en": "President of Algeria"
+  },
+  "bio": {
+    "fr": "Ministre des Affaires étrangères de 1963 à 1979, il préside l'Assemblée générale des Nations unies en 1974. Élu président de l'Algérie en 1999, il fait adopter une politique de concorde civile pour sortir de la guerre civile. Affaibli par un AVC en 2013, il renonce en 2019 face au Hirak, qui s'oppose à son cinquième mandat.",
+    "en": "Foreign minister from 1963 to 1979, he presided over the UN General Assembly in 1974. Elected president of Algeria in 1999, he introduced a civil concord policy to end the civil war. Weakened by a stroke in 2013, he resigned in 2019 in the face of the Hirak protests against a fifth term."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Concorde civile",
+      "en": "Civil Concord"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse vient d'un autre continent.",
+      "en": "Wins tied rounds if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

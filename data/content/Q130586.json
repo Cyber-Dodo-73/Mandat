@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q130586",
+  "role": {
+    "fr": "Roi du Royaume-Uni",
+    "en": "King of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Fils aîné de George III, il exerce la régence à partir de 1811 lorsque la maladie de son père l'empêche de régner. Roi de 1820 à 1830, il est surtout connu pour ses dépenses fastueuses, comme le pavillon de Brighton, et pour sa tentative de divorce avec la reine Caroline.",
+    "en": "The eldest son of George III, he ruled as Prince Regent from 1811 while his father was incapacitated by illness. King from 1820 to 1830, he is remembered mostly for his lavish spending, including the Brighton Pavilion, and his attempt to divorce Queen Caroline."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Faste de la Régence",
+      "en": "Regency Splendour"
+    },
+    "description": {
+      "fr": "+1 en Charisme.",
+      "en": "+1 Charisma."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

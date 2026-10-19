@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q2667",
+  "role": {
+    "fr": "Président du Reich allemand",
+    "en": "President of the German Reich"
+  },
+  "bio": {
+    "fr": "Maréchal vainqueur des Russes à Tannenberg en 1914, il dirige avec Ludendorff l'effort de guerre allemand à partir de 1916. Élu président de la République de Weimar en 1925 et réélu en 1932, il nomme Adolf Hitler chancelier en janvier 1933 et meurt en fonctions l'année suivante.",
+    "en": "The field marshal who defeated the Russians at Tannenberg in 1914, he ran Germany's war effort with Ludendorff from 1916. Elected president of the Weimar Republic in 1925 and re-elected in 1932, he appointed Adolf Hitler chancellor in January 1933 and died in office the following year."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 4,
+    "charisma": 6,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Tannenberg",
+      "en": "Tannenberg"
+    },
+    "description": {
+      "fr": "+3 en Stratégie au round 1.",
+      "en": "+3 Strategy in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

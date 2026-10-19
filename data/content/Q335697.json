@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q335697",
+  "role": {
+    "fr": "Premier ministre d’Australie",
+    "en": "Prime Minister of Australia"
+  },
+  "bio": {
+    "fr": "Élevé par une mère seule dans un logement social de Sydney, il entre au Parlement en 1996. Chef du Parti travailliste, il devient Premier ministre de l’Australie en 2022 et remporte un second mandat avec une majorité renforcée en 2025.",
+    "en": "Raised by a single mother in Sydney public housing, he entered parliament in 1996. As Labor leader he became prime minister of Australia in 2022 and won a second term with a larger majority in 2025."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Gars du quartier",
+      "en": "Local Lad"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient du même continent.",
+      "en": "+2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

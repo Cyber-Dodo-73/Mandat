@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q48231",
+  "role": {
+    "fr": "Président de l'Ouganda",
+    "en": "President of Uganda"
+  },
+  "bio": {
+    "fr": "Officier de l'armée ougandaise, il prend le pouvoir par un coup d'État en 1971 et instaure une dictature militaire. En 1972, il expulse la communauté asiatique du pays, soit des dizaines de milliers de personnes, et son régime tue entre 100 000 et 500 000 Ougandais selon les estimations. Chassé en 1979 après une guerre avec la Tanzanie, il meurt en exil en Arabie saoudite en 2003.",
+    "en": "An officer in the Ugandan army, he seized power in a 1971 coup and set up a military dictatorship. In 1972 he expelled the country's Asian community, tens of thousands of people, and his regime killed an estimated 100,000 to 500,000 Ugandans. Driven out in 1979 after a war with Tanzania, he died in exile in Saudi Arabia in 2003."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 1,
+    "charisma": 6,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Coup d'État",
+      "en": "Coup"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la manche 1.",
+      "en": "+2 Influence in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q235349",
+  "role": {
+    "fr": "Première dame des États-Unis",
+    "en": "First Lady of the United States"
+  },
+  "bio": {
+    "fr": "Enseignante titulaire d'un doctorat en éducation, elle enseigne l'anglais en community college pendant des décennies. Seconde dame de 2009 à 2017 puis Première dame de 2021 à 2025, elle continue d'enseigner pendant ses années à la Maison-Blanche, une première pour une Première dame.",
+    "en": "A teacher with a doctorate in education, she taught English at community colleges for decades. Second Lady from 2009 to 2017 and First Lady from 2021 to 2025, she kept teaching throughout her time in the White House, a first for a First Lady."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 8,
+    "charisma": 8,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Salle de classe",
+      "en": "Classroom"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Diplomacy if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

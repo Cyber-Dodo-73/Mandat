@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q217096",
+  "role": {
+    "fr": "Empereur du Japon",
+    "en": "Emperor of Japan"
+  },
+  "bio": {
+    "fr": "Fils aîné d'Akihito, il a étudié à Oxford, où il a consacré ses recherches au transport fluvial sur la Tamise. Il monte sur le trône du chrysanthème le 1er mai 2019, inaugurant l'ère Reiwa. Son rôle reste strictement symbolique, comme le prévoit la Constitution d'après-guerre.",
+    "en": "The eldest son of Akihito, he studied at Oxford, where his research focused on river transport on the Thames. He acceded to the Chrysanthemum Throne on 1 May 2019, opening the Reiwa era. His role is purely symbolic, as set out in Japan's postwar constitution."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Ère Reiwa",
+      "en": "Reiwa Era"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité.",
+      "en": "Wins tied rounds."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q35286",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Patron de presse et sénateur de l'Ohio, il est élu président en 1920 en promettant un « retour à la normale » après la Première Guerre mondiale. Son administration est entachée de scandales, dont celui du Teapot Dome. Il meurt en fonction à San Francisco en août 1923.",
+    "en": "An Ohio newspaper publisher and senator, he won the 1920 presidential election promising a return to normalcy after the First World War. His administration was tarnished by scandals, most notoriously Teapot Dome. He died in office in San Francisco in August 1923."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 9,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Retour à la normale",
+      "en": "Return to Normalcy"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Charisma if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

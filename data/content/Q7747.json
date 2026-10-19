@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q7747",
+  "role": {
+    "fr": "Président de la Russie",
+    "en": "President of Russia"
+  },
+  "bio": {
+    "fr": "Ancien officier du KGB, il accède à la présidence de la Russie en 2000 et domine depuis la vie politique du pays, alternant les fonctions de président et de Premier ministre. Il annexe la Crimée en 2014 puis lance en 2022 une invasion à grande échelle de l'Ukraine, qui provoque des sanctions occidentales massives.",
+    "en": "A former KGB officer, he became president of Russia in 2000 and has dominated the country's politics ever since, moving between the presidency and the premiership. He annexed Crimea in 2014 and in 2022 launched a full-scale invasion of Ukraine, triggering sweeping Western sanctions."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Verticale du pouvoir",
+      "en": "Power Vertical"
+    },
+    "description": {
+      "fr": "−2 en Influence à la carte adverse si la carte adverse vient du même continent.",
+      "en": "−2 Influence to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

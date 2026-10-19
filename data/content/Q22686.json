@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q22686",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Promoteur immobilier new-yorkais devenu vedette de la téléréalité avec « The Apprentice », il remporte la présidentielle de 2016 sans avoir jamais exercé de mandat électif. Battu en 2020, il est réélu en 2024 et entame en 2025 un second mandat non consécutif, ce qui n'était plus arrivé depuis Grover Cleveland.",
+    "en": "A New York real-estate developer who became a reality-TV star with The Apprentice, he won the 2016 presidential election without ever having held elected office. Defeated in 2020, he won again in 2024 and began a non-consecutive second term in 2025, something unseen since Grover Cleveland."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 3,
+    "charisma": 7,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Coup médiatique",
+      "en": "Media Blitz"
+    },
+    "description": {
+      "fr": "+2 en Charisme lors de la 1re manche.",
+      "en": "+2 Charisma in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

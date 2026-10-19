@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q114341246",
+  "role": {
+    "fr": "Président de la transition du Burkina Faso",
+    "en": "Transitional President of Burkina Faso"
+  },
+  "bio": {
+    "fr": "Capitaine de l'armée, il renverse le lieutenant-colonel Damiba en septembre 2022 et devient, à 34 ans, l'un des plus jeunes chefs d'État au monde. Il rompt la coopération militaire avec la France et se rapproche de la Russie. Avec le Mali et le Niger, il forme en 2023 l'Alliance des États du Sahel.",
+    "en": "An army captain, he overthrew Lieutenant Colonel Damiba in September 2022 and, at 34, became one of the world's youngest heads of state. He ended military cooperation with France and turned towards Russia. In 2023 he formed the Alliance of Sahel States with Mali and Niger."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Jeune capitaine",
+      "en": "Young Captain"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse est plus rare.",
+      "en": "+2 Strategy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

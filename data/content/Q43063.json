@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q43063",
+  "role": {
+    "fr": "Archiduc héritier d'Autriche-Hongrie",
+    "en": "Heir to the throne of Austria-Hungary"
+  },
+  "bio": {
+    "fr": "Neveu de l'empereur François-Joseph, il devient l'héritier du trône austro-hongrois après la mort de l'archiduc Rodolphe en 1889. Le 28 juin 1914, il est assassiné à Sarajevo avec son épouse Sophie par le nationaliste serbe de Bosnie Gavrilo Princip. Cet attentat déclenche la crise de juillet qui mène à la Première Guerre mondiale.",
+    "en": "A nephew of Emperor Franz Joseph, he became heir to the Austro-Hungarian throne after Crown Prince Rudolf's death in 1889. On 28 June 1914 he and his wife Sophie were shot dead in Sarajevo by the Bosnian Serb nationalist Gavrilo Princip. The killing set off the July Crisis that led to the First World War."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Étincelle de Sarajevo",
+      "en": "Sarajevo Spark"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse est de l'époque contemporaine.",
+      "en": "Wins ties if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

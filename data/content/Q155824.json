@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q155824",
+  "role": {
+    "fr": "Président du Brésil",
+    "en": "President of Brazil"
+  },
+  "bio": {
+    "fr": "Médecin et ancien gouverneur du Minas Gerais, il préside le Brésil de 1956 à 1961 avec la promesse de « cinquante ans de progrès en cinq ». Il industrialise le pays et fait construire Brasília, la nouvelle capitale inaugurée en 1960, au prix d’une forte dette.",
+    "en": "A physician and former governor of Minas Gerais, he led Brazil from 1956 to 1961, promising fifty years of progress in five. He drove industrialisation and built Brasília, the new capital inaugurated in 1960, at the cost of heavy borrowing."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Cinquante ans en cinq",
+      "en": "Fifty Years in Five"
+    },
+    "description": {
+      "fr": "+3 en Influence lors de la manche 2.",
+      "en": "+3 Influence in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

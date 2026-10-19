@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q151813",
+  "role": {
+    "fr": "Président de l'Afrique du Sud",
+    "en": "State President of South Africa"
+  },
+  "bio": {
+    "fr": "Dirigeant du Parti national, il devient président de l'Afrique du Sud en 1989. En février 1990, il légalise l'ANC et fait libérer Nelson Mandela, ouvrant les négociations qui mettent fin à l'apartheid. Colauréat du prix Nobel de la paix en 1993 avec Mandela, il est ensuite son vice-président jusqu'en 1996.",
+    "en": "Leader of the National Party, he became South Africa's state president in 1989. In February 1990 he lifted the ban on the ANC and freed Nelson Mandela, opening the talks that ended apartheid. He shared the 1993 Nobel Peace Prize with Mandela and then served as his deputy president until 1996."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 2,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Discours du 2 février",
+      "en": "February Speech"
+    },
+    "description": {
+      "fr": "Remporte toutes les égalités.",
+      "en": "Wins every tied round."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

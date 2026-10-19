@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q34969",
+  "role": {
+    "fr": "Père fondateur des États-Unis",
+    "en": "Founding Father of the United States"
+  },
+  "bio": {
+    "fr": "Imprimeur, écrivain et savant célèbre pour ses expériences sur la foudre, il signe la Déclaration d'indépendance. Envoyé à Paris, il obtient en 1778 l'alliance de la France avec les insurgés américains, puis participe à la rédaction de la Constitution.",
+    "en": "A printer, writer and scientist famous for his experiments with lightning, he signed the Declaration of Independence. Sent to Paris, he secured the 1778 alliance between France and the American rebels and later took part in drafting the Constitution."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 10,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Paratonnerre",
+      "en": "Lightning Rod"
+    },
+    "description": {
+      "fr": "−2 en Diplomatie à la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "−2 Diplomacy to the opposing card if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

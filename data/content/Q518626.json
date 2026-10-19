@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q518626",
+  "role": {
+    "fr": "Président de l’Équateur",
+    "en": "President of Ecuador"
+  },
+  "bio": {
+    "fr": "Paraplégique depuis une agression en 1998, il est vice-président de Rafael Correa puis lui succède en 2017. Il rompt rapidement avec son mentor, se rapproche des États-Unis et affronte en 2019 de vastes manifestations contre la fin des subventions aux carburants.",
+    "en": "A wheelchair user since being shot in a 1998 robbery, he served as Rafael Correa's vice president and succeeded him in 2017. He soon broke with his mentor, moved closer to the United States and faced mass protests in 2019 over the end of fuel subsidies."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Rupture",
+      "en": "Clean Break"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Influence to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

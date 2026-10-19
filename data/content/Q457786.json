@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q457786",
+  "role": {
+    "fr": "Président des Philippines",
+    "en": "President of the Philippines"
+  },
+  "bio": {
+    "fr": "Maire de Davao pendant plus de vingt ans, il est élu président des Philippines en 2016. Sa « guerre contre la drogue » fait des milliers de morts, plus de 6 000 selon la police et bien davantage selon les ONG. Arrêté en 2025, il est remis à la Cour pénale internationale, qui le poursuit pour crimes contre l'humanité.",
+    "en": "Mayor of Davao for more than two decades, he was elected President of the Philippines in 2016. His 'war on drugs' left thousands dead, over 6,000 according to police and far more according to rights groups. Arrested in 2025, he was handed over to the International Criminal Court on charges of crimes against humanity."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 1,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Le Punisseur",
+      "en": "The Punisher"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Diplomacy to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

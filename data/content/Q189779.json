@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q189779",
+  "role": {
+    "fr": "Président de la Bolivie",
+    "en": "President of Bolivia"
+  },
+  "bio": {
+    "fr": "Bras droit de Simón Bolívar, il remporte les batailles de Pichincha en 1822 et d’Ayacucho en 1824, qui scellent l’indépendance de l’Amérique du Sud espagnole. Premier président de la Bolivie, il quitte le pays en 1828, puis est assassiné dans une embuscade en Colombie en 1830.",
+    "en": "Simón Bolívar's right-hand man, he won the battles of Pichincha in 1822 and Ayacucho in 1824, which sealed the independence of Spanish South America. He became Bolivia's first president, left the country in 1828 and was killed in an ambush in Colombia in 1830."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Maréchal d’Ayacucho",
+      "en": "Marshal of Ayacucho"
+    },
+    "description": {
+      "fr": "+3 en Stratégie lors de la manche 3.",
+      "en": "+3 Strategy in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

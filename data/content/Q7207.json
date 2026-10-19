@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q7207",
+  "role": {
+    "fr": "Reine d'Angleterre",
+    "en": "Queen of England"
+  },
+  "bio": {
+    "fr": "Fille d'Henri VIII et d'Anne Boleyn, elle règne de 1558 à 1603 et rétablit durablement l'Église anglicane. Son règne voit la défaite de l'Invincible Armada espagnole en 1588 et l'essor du théâtre élisabéthain. Restée sans enfant, elle est la dernière souveraine de la dynastie Tudor.",
+    "en": "The daughter of Henry VIII and Anne Boleyn, she reigned from 1558 to 1603 and settled the Church of England on a lasting footing. Her reign saw the defeat of the Spanish Armada in 1588 and the flowering of Elizabethan theatre. Childless, she was the last Tudor monarch."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Reine vierge",
+      "en": "Virgin Queen"
+    },
+    "description": {
+      "fr": "−2 en Stratégie à la carte adverse si la carte adverse vient du même continent.",
+      "en": "−2 Strategy to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

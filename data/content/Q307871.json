@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q307871",
+  "role": {
+    "fr": "Président de l’Égypte",
+    "en": "President of Egypt"
+  },
+  "bio": {
+    "fr": "Chef de l’armée égyptienne, il mène en juillet 2013 le renversement du président Mohamed Morsi. La dispersion des sit-in de la place Rabaa, en août 2013, fait plus de 800 morts selon Human Rights Watch. Élu président en 2014, il dirige depuis un régime qui réprime durement l’opposition.",
+    "en": "As head of Egypt’s armed forces he led the ousting of President Mohamed Morsi in July 2013. The breakup of the Rabaa sit-in that August killed more than 800 people according to Human Rights Watch. Elected president in 2014, he has since run a government that harshly suppresses dissent."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 4,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Pouvoir militaire",
+      "en": "Military Rule"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient du même continent.",
+      "en": "+2 Strategy if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

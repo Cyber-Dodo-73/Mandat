@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q39589",
+  "name": {
+    "fr": "Césarion",
+    "en": "Caesarion"
+  },
+  "role": {
+    "fr": "Pharaon d'Égypte",
+    "en": "Pharaoh of Egypt"
+  },
+  "bio": {
+    "fr": "Fils de Cléopâtre VII, présenté comme l'enfant de Jules César, il règne avec sa mère sous le nom de Ptolémée XV à partir de 44 av. J.-C. Après la défaite d'Actium et la prise d'Alexandrie par Octave en 30 av. J.-C., il est exécuté sur ordre du vainqueur. Il est le dernier pharaon de la dynastie lagide.",
+    "en": "The son of Cleopatra VII, presented as Julius Caesar's child, he reigned alongside his mother as Ptolemy XV from 44 BC. After the defeat at Actium and Octavian's capture of Alexandria in 30 BC, he was put to death on the victor's orders. He was the last pharaoh of the Ptolemaic dynasty."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Fils de César",
+      "en": "Son of Caesar"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est de l'Antiquité.",
+      "en": "+2 Influence if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

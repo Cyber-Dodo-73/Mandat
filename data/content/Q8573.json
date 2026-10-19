@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q8573",
+  "role": {
+    "fr": "Président provisoire de la République de Chine",
+    "en": "Provisional President of the Republic of China"
+  },
+  "bio": {
+    "fr": "Médecin devenu révolutionnaire, il fonde en 1905 la Ligue jurée et défend ses Trois principes du peuple : nationalisme, démocratie et bien-être du peuple. Après la chute des Qing, il est président provisoire de la République de Chine en 1912 avant de céder la place à Yuan Shikai. Fondateur du Kuomintang, il reste honoré à la fois en Chine populaire et à Taïwan.",
+    "en": "A physician turned revolutionary, he founded the Tongmenghui in 1905 and set out his Three Principles of the People: nationalism, democracy and the people's livelihood. After the fall of the Qing he briefly served as provisional president of the Republic of China in 1912, then stepped aside for Yuan Shikai. He founded the Kuomintang and is honoured in both the People's Republic and Taiwan."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Trois principes du peuple",
+      "en": "Three Principles"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse vient du même continent.",
+      "en": "Wins ties if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

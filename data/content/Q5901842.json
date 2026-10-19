@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q5901842",
+  "role": {
+    "fr": "Président du Paraguay",
+    "en": "President of Paraguay"
+  },
+  "bio": {
+    "fr": "Homme d’affaires enrichi notamment dans le tabac, il entre en politique tardivement et ramène le Parti colorado au pouvoir en 2013. Président jusqu’en 2018, il reste ensuite l’homme fort de son parti, malgré des sanctions américaines pour corruption en 2023.",
+    "en": "A businessman whose fortune came largely from tobacco, he entered politics late and brought the Colorado Party back to power in 2013. President until 2018, he remained his party's dominant figure despite US corruption sanctions in 2023."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Machine colorada",
+      "en": "Colorado Machine"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient du même continent.",
+      "en": "+2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

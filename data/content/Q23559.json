@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q23559",
+  "role": {
+    "fr": "Dictateur de l'Italie fasciste",
+    "en": "Dictator of Fascist Italy"
+  },
+  "bio": {
+    "fr": "Fondateur du fascisme, il prend le pouvoir après la marche sur Rome de 1922 et installe une dictature de parti unique marquée par la violence contre les opposants. Il envahit l'Éthiopie en 1935 en employant des armes chimiques contre civils et soldats, adopte des lois antisémites en 1938 et s'allie à Hitler dans la Seconde Guerre mondiale. Il est exécuté par des partisans italiens en 1945.",
+    "en": "The founder of Fascism, he took power after the 1922 March on Rome and set up a one-party dictatorship that used violence against its opponents. He invaded Ethiopia in 1935, using chemical weapons on soldiers and civilians, passed antisemitic racial laws in 1938 and allied with Hitler in the Second World War. He was executed by Italian partisans in 1945."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 7,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Propagande",
+      "en": "Propaganda"
+    },
+    "description": {
+      "fr": "+2 lors des manches de Charisme.",
+      "en": "+2 in Charisma rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "charisma"
+      }
+    }
+  }
+}

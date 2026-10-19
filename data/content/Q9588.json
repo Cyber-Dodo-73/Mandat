@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q9588",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Ancien vice-président d'Eisenhower, il est élu président en 1968. Il se rend en Chine en 1972 et signe avec l'URSS des accords de limitation des armements, mais le scandale du Watergate le contraint en 1974 à devenir le seul président américain à démissionner.",
+    "en": "Eisenhower's former vice president, he was elected president in 1968. He visited China in 1972 and signed arms-control agreements with the USSR, but the Watergate scandal forced him in 1974 to become the only US president to resign."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 6,
+    "charisma": 2,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Voyage à Pékin",
+      "en": "Trip to Beijing"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+3 Diplomacy if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

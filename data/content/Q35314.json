@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q35314",
+  "role": {
+    "fr": "Premier secrétaire du Parti communiste de l'Union soviétique",
+    "en": "First Secretary of the Communist Party of the Soviet Union"
+  },
+  "bio": {
+    "fr": "Successeur de Staline à la tête du parti, il dénonce ses crimes et son culte de la personnalité dans le « rapport secret » de 1956, la même année où l'Armée rouge écrase l'insurrection hongroise. Son mandat voit le lancement de Spoutnik, la construction du mur de Berlin et la crise des missiles de Cuba en 1962. Ses collègues l'écartent du pouvoir en 1964.",
+    "en": "Stalin's successor as party leader, he denounced the dictator's crimes and personality cult in the 1956 'secret speech', the same year Soviet troops crushed the Hungarian uprising. His time in power saw the launch of Sputnik, the building of the Berlin Wall and the Cuban Missile Crisis of 1962. His colleagues removed him from office in 1964."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Crise des missiles",
+      "en": "Missile Crisis"
+    },
+    "description": {
+      "fr": "-2 en Stratégie à la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "-2 Strategy to the opposing card if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

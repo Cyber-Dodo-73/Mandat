@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q4631",
+  "role": {
+    "fr": "Président de l’Égypte",
+    "en": "President of Egypt"
+  },
+  "bio": {
+    "fr": "Cadre des Frères musulmans, il devient en 2012 le premier président démocratiquement élu de l’Égypte. Un décret élargissant ses pouvoirs provoque de vastes manifestations, et l’armée le renverse en juillet 2013. Emprisonné, il meurt en 2019 lors d’une audience au tribunal.",
+    "en": "A senior Muslim Brotherhood figure, he became Egypt’s first democratically elected president in 2012. A decree expanding his powers set off mass protests, and the army overthrew him in July 2013. Held in prison, he died in 2019 while appearing in court."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Mandat des urnes",
+      "en": "Ballot Mandate"
+    },
+    "description": {
+      "fr": "+2 en Influence contre une carte de l’époque contemporaine.",
+      "en": "+2 Influence against a contemporary card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

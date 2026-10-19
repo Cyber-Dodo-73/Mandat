@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q37388",
+  "role": {
+    "fr": "Lord chancelier d'Angleterre",
+    "en": "Lord Chancellor of England"
+  },
+  "bio": {
+    "fr": "Juriste et homme d'État sous Jacques Ier, il devient lord chancelier en 1618. Destitué en 1621 après avoir reconnu avoir accepté des présents de plaideurs, il se consacre à la philosophie. Ses écrits, dont le Novum Organum, défendent une connaissance fondée sur l'observation et l'induction, préfigurant la méthode scientifique.",
+    "en": "A lawyer and statesman under James I, he became Lord Chancellor in 1618. Removed from office in 1621 after admitting he had taken gifts from litigants, he devoted himself to philosophy. His writings, including the Novum Organum, argued for knowledge built on observation and induction, foreshadowing the scientific method."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 5,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Novum Organum",
+      "en": "Novum Organum"
+    },
+    "description": {
+      "fr": "+3 en Stratégie, uniquement lors d'une manche de Stratégie.",
+      "en": "+3 Strategy, only in a Strategy round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "strategy"
+      }
+    }
+  }
+}

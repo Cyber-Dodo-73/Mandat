@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q34479",
+  "role": {
+    "fr": "Empereur du Japon",
+    "en": "Emperor of Japan"
+  },
+  "bio": {
+    "fr": "Empereur de 1926 à 1989, il règne durant l'expansion militaire japonaise en Chine et la guerre du Pacifique. Après les bombardements atomiques d'août 1945, il annonce à la radio la reddition du Japon. Maintenu sur le trône par l'occupation américaine, il renonce à son caractère divin et devient un monarque symbolique.",
+    "en": "Emperor from 1926 to 1989, he reigned through Japan's military expansion in China and the Pacific War. After the atomic bombings of August 1945, he announced Japan's surrender in a radio broadcast. Kept on the throne by the American occupation, he renounced his divine status and became a symbolic monarch."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Voix du trône",
+      "en": "Voice of the Throne"
+    },
+    "description": {
+      "fr": "Remporte les égalités lors de la troisième manche.",
+      "en": "Wins ties in the third round."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

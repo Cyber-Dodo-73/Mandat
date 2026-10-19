@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q34453",
+  "role": {
+    "fr": "Président de la Fédération de Russie",
+    "en": "President of Russia"
+  },
+  "bio": {
+    "fr": "Élu président de la Russie soviétique en juin 1991, il s'oppose en août, juché sur un char, au putsch des conservateurs contre Gorbatchev. Il négocie en décembre la dissolution de l'URSS et lance une libéralisation brutale de l'économie. Après le bombardement du Parlement en 1993 et la première guerre de Tchétchénie, il démissionne le 31 décembre 1999 au profit de Vladimir Poutine.",
+    "en": "Elected president of Soviet Russia in June 1991, he defied the hardliners' coup against Gorbachev that August by climbing onto a tank. In December he negotiated the break-up of the USSR, then launched a harsh shock-therapy reform of the economy. After shelling parliament in 1993 and waging the first Chechen war, he resigned on 31 December 1999, handing power to Vladimir Putin."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Sur le char",
+      "en": "On the Tank"
+    },
+    "description": {
+      "fr": "+2 en Charisme si vous êtes mené au score.",
+      "en": "+2 Charisma when you are behind in rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

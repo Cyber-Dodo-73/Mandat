@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q195725",
+  "role": {
+    "fr": "Président du Kenya",
+    "en": "President of Kenya"
+  },
+  "bio": {
+    "fr": "Issu d’une famille modeste de la vallée du Rift, il devient vice-président d’Uhuru Kenyatta en 2013 alors que la CPI le poursuit pour les violences post-électorales de 2007-2008, charges abandonnées en 2016. Se présentant comme le champion des « débrouillards », il remporte la présidentielle de 2022.",
+    "en": "Raised in modest circumstances in the Rift Valley, he became Uhuru Kenyatta's deputy president in 2013 while facing ICC charges over the 2007–2008 post-election violence, a case dropped in 2016. Campaigning as the champion of ordinary hustlers, he won the 2022 presidential election."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 8,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Nation des débrouillards",
+      "en": "Hustler Nation"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est plus rare.",
+      "en": "+2 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

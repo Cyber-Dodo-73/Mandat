@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q13898",
+  "role": {
+    "fr": "Conjuré de la Conspiration des poudres en Angleterre",
+    "en": "Gunpowder Plot conspirator in England"
+  },
+  "bio": {
+    "fr": "Catholique anglais ayant combattu pour l'Espagne aux Pays-Bas, il rejoint le complot de Robert Catesby visant à faire sauter la Chambre des lords et à tuer Jacques Ier lors de l'ouverture du Parlement. Arrêté le 5 novembre 1605 en gardant les barils de poudre, il est torturé puis condamné à mort et meurt lors de son exécution en janvier 1606.",
+    "en": "An English Catholic who had fought for Spain in the Low Countries, he joined Robert Catesby's plot to blow up the House of Lords and kill James I at the opening of Parliament. Caught guarding the gunpowder on 5 November 1605, he was tortured, sentenced to death and died at his execution in January 1606."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 8,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Cinq novembre",
+      "en": "Fifth of November"
+    },
+    "description": {
+      "fr": "-2 dans le domaine de la manche pour la carte adverse lors de la 3e manche.",
+      "en": "The opposing card gets -2 in the round's domain in the third round."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q1430",
+  "role": {
+    "fr": "Empereur romain",
+    "en": "Roman Emperor"
+  },
+  "bio": {
+    "fr": "Empereur de 161 à 180, d'abord aux côtés de Lucius Verus, il passe une grande partie de son règne à défendre la frontière du Danube lors des guerres marcomanniques. L'Empire est alors frappé par une grave épidémie, la peste antonine. Adepte du stoïcisme, il rédige en grec des réflexions personnelles connues sous le nom de Pensées.",
+    "en": "Emperor from 161 to 180, initially sharing power with Lucius Verus, he spent much of his reign defending the Danube frontier in the Marcomannic Wars. His empire was also struck by a devastating epidemic, the Antonine Plague. A follower of Stoicism, he wrote private reflections in Greek now known as the Meditations."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Pensées stoïciennes",
+      "en": "Stoic Meditations"
+    },
+    "description": {
+      "fr": "Remporte les égalités.",
+      "en": "Wins ties."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

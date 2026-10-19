@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q1259",
+  "role": {
+    "fr": "Secrétaire général des Nations unies",
+    "en": "Secretary-General of the United Nations"
+  },
+  "bio": {
+    "fr": "Diplomate péruvien, il est secrétaire général de l’ONU de 1982 à 1991. Il négocie le cessez-le-feu de 1988 entre l’Iran et l’Irak et accompagne la fin de plusieurs conflits de la guerre froide, puis préside brièvement le gouvernement péruvien après la chute de Fujimori.",
+    "en": "A Peruvian diplomat, he was UN Secretary-General from 1982 to 1991. He brokered the 1988 ceasefire between Iran and Iraq and helped wind down several Cold War conflicts, later serving briefly as Peru's prime minister after Fujimori's fall."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 9,
+    "charisma": 3,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Bons offices",
+      "en": "Good Offices"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie si la carte adverse est plus rare.",
+      "en": "+3 Diplomacy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

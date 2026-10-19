@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q107288",
+  "role": {
+    "fr": "Reine d'Hawaï",
+    "en": "Queen of Hawaii"
+  },
+  "bio": {
+    "fr": "Dernière souveraine du royaume d'Hawaï à partir de 1891, elle cherche à rétablir l'autorité royale par une nouvelle Constitution. En 1893, des colons américains soutenus par des marines des États-Unis la renversent. Après l'échec d'un soulèvement royaliste, elle est contrainte d'abdiquer en 1895 et compose le chant Aloha ʻOe.",
+    "en": "The last monarch of the Kingdom of Hawaii from 1891, she sought to restore royal authority through a new constitution. In 1893 American settlers backed by US Marines overthrew her. After a failed royalist uprising she was forced to abdicate in 1895, and she wrote the song Aloha ʻOe."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 6,
+    "charisma": 6,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Aloha ʻOe",
+      "en": "Aloha ʻOe"
+    },
+    "description": {
+      "fr": "+2 en Charisme lors de la manche 3.",
+      "en": "+2 Charisma in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

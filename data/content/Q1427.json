@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1427",
+  "role": {
+    "fr": "Empereur romain",
+    "en": "Roman emperor"
+  },
+  "bio": {
+    "fr": "Empereur de 117 à 138, il renonce à certaines conquêtes de Trajan pour consolider les frontières, dont le mur qui porte son nom en Bretagne. Grand voyageur et amateur de culture grecque, il fait reconstruire le Panthéon de Rome. Il écrase la révolte juive de Bar Kokhba (132-135) au prix de pertes massives.",
+    "en": "Emperor from 117 to 138, he gave up some of Trajan's conquests to secure the frontiers, including the wall in Britain that bears his name. A tireless traveller and lover of Greek culture, he rebuilt the Pantheon in Rome. He crushed the Bar Kokhba Jewish revolt of 132–135 at a terrible human cost."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Mur d'Hadrien",
+      "en": "Hadrian's Wall"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "-2 Strategy to the opposing card if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q83476",
+  "role": {
+    "fr": "Roi du Wessex",
+    "en": "King of Wessex"
+  },
+  "bio": {
+    "fr": "Roi du Wessex à partir de 871, il résiste aux invasions vikings et remporte en 878 la bataille d'Edington contre le chef danois Guthrum. Il fortifie son royaume par un réseau de bourgs défensifs et crée une flotte. Il promulgue un code de lois et encourage la traduction d'ouvrages latins en vieil anglais.",
+    "en": "King of Wessex from 871, he held off the Viking invasions and defeated the Danish leader Guthrum at Edington in 878. He protected his kingdom with a network of fortified towns and built up a fleet. He issued a law code and promoted the translation of Latin works into Old English."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Burhs",
+      "en": "Burhs"
+    },
+    "description": {
+      "fr": "+3 en Stratégie si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+3 Strategy if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

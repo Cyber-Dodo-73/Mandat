@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q35171",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Ancien maire de Buffalo et gouverneur de New York, ce démocrate est le seul président à avoir exercé deux mandats non consécutifs, de 1885 à 1889 puis de 1893 à 1897. Il use abondamment de son droit de veto. Son second mandat est marqué par la panique de 1893 et l'envoi de troupes fédérales contre la grève Pullman.",
+    "en": "A former mayor of Buffalo and governor of New York, the Democrat is the only president to have served two non-consecutive terms, from 1885 to 1889 and from 1893 to 1897. He wielded the veto more than almost any predecessor. His second term was dominated by the Panic of 1893 and his use of federal troops to break the Pullman Strike."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Veto présidentiel",
+      "en": "Presidential Veto"
+    },
+    "description": {
+      "fr": "-1 dans le domaine de la manche pour la carte adverse.",
+      "en": "The opposing card gets -1 in the round's domain."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

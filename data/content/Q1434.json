@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1434",
+  "role": {
+    "fr": "Empereur romain",
+    "en": "Roman emperor"
+  },
+  "bio": {
+    "fr": "Fils de Marc Aurèle, associé au pouvoir dès 177, il règne seul de 180 à 192 et met fin aux guerres sur le Danube par une paix négociée. Il se présente en nouvel Hercule et descend combattre dans l'arène, avant d'être étranglé par un lutteur lors d'un complot de palais.",
+    "en": "The son of Marcus Aurelius, he shared power from 177 and ruled alone from 180 to 192, ending the Danube wars with a negotiated peace. Styling himself a new Hercules, he fought in the arena as a gladiator, and a palace plot ended with him strangled by a wrestler."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 8,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Hercule romain",
+      "en": "Roman Hercules"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est de l'Antiquité.",
+      "en": "+2 Charisma if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

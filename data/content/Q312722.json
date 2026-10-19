@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q312722",
+  "role": {
+    "fr": "Premier ministre d’Australie",
+    "en": "Prime Minister of Australia"
+  },
+  "bio": {
+    "fr": "Longtemps trésorier dans les gouvernements Menzies, il lui succède en 1966 à la tête du Parti libéral et du pays. Il engage davantage l’Australie au Viêt Nam et organise le référendum de 1967 sur les Aborigènes, avant de disparaître en mer en se baignant près de Portsea en décembre 1967.",
+    "en": "After years as Treasurer under Robert Menzies, he succeeded him as Liberal leader and prime minister in 1966. He deepened Australia's commitment in Vietnam and held the 1967 referendum on Aboriginal Australians, then vanished while swimming off Cheviot Beach in December 1967."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Toutes voiles dehors",
+      "en": "All the Way"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

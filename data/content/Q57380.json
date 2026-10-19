@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q57380",
+  "role": {
+    "fr": "Président du Nigeria",
+    "en": "President of Nigeria"
+  },
+  "bio": {
+    "fr": "Docteur en zoologie et gouverneur de l'État de Bayelsa, il devient vice-président puis succède à Umaru Yar'Adua à sa mort en 2010. Président du Nigeria jusqu'en 2015, il affronte l'insurrection de Boko Haram, dont l'enlèvement des lycéennes de Chibok. Il est le premier président sortant du pays à reconnaître sa défaite électorale.",
+    "en": "A zoologist with a doctorate and governor of Bayelsa State, he became vice president and took over when Umaru Yar'Adua died in 2010. President of Nigeria until 2015, he faced the Boko Haram insurgency, including the Chibok schoolgirls kidnapping. He was the first sitting president in the country to concede an election defeat."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 9,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Défaite reconnue",
+      "en": "Conceding Defeat"
+    },
+    "description": {
+      "fr": "Remporte les égalités lors de la manche 3.",
+      "en": "Wins tied rounds in round 3."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

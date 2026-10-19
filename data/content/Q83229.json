@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q83229",
+  "role": {
+    "fr": "Roi d'Angleterre",
+    "en": "King of England"
+  },
+  "bio": {
+    "fr": "Fils d'Henri VIII et de Jane Seymour, il devient roi à neuf ans en 1547 sous la tutelle de régents. Son règne enracine la Réforme protestante, avec le Livre de la prière commune de 1549. Malade, il tente d'écarter sa demi-sœur Marie au profit de Jane Grey et meurt à quinze ans en 1553.",
+    "en": "The son of Henry VIII and Jane Seymour, he became king at nine in 1547 under the guidance of regents. His reign entrenched the Protestant Reformation, notably through the 1549 Book of Common Prayer. Gravely ill, he tried to bypass his half-sister Mary in favour of Lady Jane Grey, and died aged fifteen in 1553."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Prière commune",
+      "en": "Common Prayer"
+    },
+    "description": {
+      "fr": "+2 en Influence au round 3.",
+      "en": "+2 Influence in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

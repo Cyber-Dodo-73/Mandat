@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q10390",
+  "role": {
+    "fr": "Sénateur des États-Unis pour l'Arizona",
+    "en": "United States Senator from Arizona"
+  },
+  "bio": {
+    "fr": "Pilote de la marine abattu au-dessus de Hanoï en 1967, il passe plus de cinq ans en captivité au Nord-Viêt Nam. Sénateur de l'Arizona de 1987 à sa mort en 2018, il est connu pour son indépendance vis-à-vis de son parti et sa loi sur le financement des campagnes. Candidat républicain à la présidence en 2008, il est battu par Barack Obama.",
+    "en": "A Navy pilot shot down over Hanoi in 1967, he spent more than five years as a prisoner of war in North Vietnam. Senator for Arizona from 1987 until his death in 2018, he was known for breaking with his party and for his campaign finance reform law. He was the Republican presidential nominee in 2008 and lost to Barack Obama."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 6,
+    "charisma": 6,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Franc-tireur",
+      "en": "Maverick"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Diplomacy if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

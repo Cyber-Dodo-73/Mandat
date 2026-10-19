@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q40649",
+  "role": {
+    "fr": "Présidente de l'Argentine",
+    "en": "President of Argentina"
+  },
+  "bio": {
+    "fr": "Avocate et sénatrice péroniste, elle succède à son mari Néstor Kirchner et devient en 2007 la première femme élue présidente de l'Argentine, fonction qu'elle occupe jusqu'en 2015. Vice-présidente de 2019 à 2023, elle est condamnée en 2022 pour administration frauduleuse dans l'attribution de marchés publics, peine confirmée par la Cour suprême en 2025.",
+    "en": "A lawyer and Peronist senator, she followed her husband Néstor Kirchner into the presidency, becoming in 2007 the first woman elected to lead Argentina and serving until 2015. Vice president from 2019 to 2023, she was convicted in 2022 of fraudulent administration over public works contracts, a sentence the Supreme Court upheld in 2025."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 6,
+    "charisma": 9,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Kirchnérisme",
+      "en": "Kirchnerism"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient du même continent.",
+      "en": "+2 Charisma if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

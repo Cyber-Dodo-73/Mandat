@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q126188",
+  "role": {
+    "fr": "Roi d'Angleterre",
+    "en": "King of England"
+  },
+  "bio": {
+    "fr": "Duc d'York et amiral sous le règne de son frère Charles II, il donne son nom à New York, prise aux Hollandais en 1664. Roi catholique à partir de 1685, il est renversé en 1688 par la Glorieuse Révolution au profit de Guillaume d'Orange, et meurt en exil à Saint-Germain-en-Laye.",
+    "en": "As Duke of York and admiral under his brother Charles II, he lent his name to New York, taken from the Dutch in 1664. A Catholic king from 1685, he was ousted by the Glorious Revolution of 1688 in favour of William of Orange and died in exile at Saint-Germain-en-Laye."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Amiral d'York",
+      "en": "Admiral of York"
+    },
+    "description": {
+      "fr": "+2 en Stratégie au round 1.",
+      "en": "+2 Strategy in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

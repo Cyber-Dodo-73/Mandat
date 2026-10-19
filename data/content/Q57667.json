@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q57667",
+  "role": {
+    "fr": "Président du Suriname",
+    "en": "President of Suriname"
+  },
+  "bio": {
+    "fr": "Sergent-chef, il mène le coup d’État de 1980 et domine le Suriname dans les années 1980 ; en décembre 1982, quinze opposants sont exécutés sur ses ordres. Revenu au pouvoir par les urnes de 2010 à 2020, il est condamné pour ces meurtres et meurt en 2024 alors qu’il se soustrait à sa peine.",
+    "en": "A sergeant major, he led the 1980 coup and dominated Suriname through the 1980s, and in December 1982 fifteen opponents were executed on his orders. Elected president from 2010 to 2020, he was convicted of those killings and died in 2024 while evading his sentence."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Coup des sergents",
+      "en": "Sergeants' Coup"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche lors de la manche 2.",
+      "en": "+2 in the round's domain in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q82006",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Romancier devenu chef des conservateurs, il fait voter l'élargissement du droit de vote en 1867 et dirige le gouvernement en 1868 puis de 1874 à 1880. Il rachète les parts égyptiennes du canal de Suez, fait proclamer Victoria impératrice des Indes et ramène du congrès de Berlin, en 1878, une « paix dans l'honneur ».",
+    "en": "A novelist who rose to lead the Conservatives, he pushed through the 1867 Reform Act and was prime minister in 1868 and from 1874 to 1880. He bought Egypt's shares in the Suez Canal, had Victoria proclaimed Empress of India and returned from the 1878 Congress of Berlin claiming 'peace with honour'."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 8,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Paix dans l'honneur",
+      "en": "Peace with Honour"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie au round 3.",
+      "en": "+2 Diplomacy in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

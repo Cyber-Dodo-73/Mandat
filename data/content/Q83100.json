@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q83100",
+  "role": {
+    "fr": "Fondateur de l'Empire ottoman",
+    "en": "Founder of the Ottoman Empire"
+  },
+  "bio": {
+    "fr": "Chef d'une principauté turque du nord-ouest de l'Anatolie, à la frontière byzantine, il étend son territoire par des raids et des alliances vers 1300. Il donne son nom à la dynastie ottomane, et son fils Orhan prend Bursa vers la fin de sa vie, en 1326.",
+    "en": "Leader of a small Turkish principality in north-western Anatolia on the Byzantine frontier, he expanded his lands through raids and alliances around 1300. The Ottoman dynasty takes its name from him, and his son Orhan captured Bursa around the time of his death in 1326."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Rêve d'Osman",
+      "en": "Osman's Dream"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse est du Moyen Âge.",
+      "en": "+2 Strategy if the opposing card is from the Middle Ages."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "medieval"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q129006",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Chef du Parti travailliste de 1935 à 1955, il est vice-Premier ministre de Churchill pendant la guerre, puis le bat aux élections de 1945. Son gouvernement crée le National Health Service, nationalise de grandes industries et accorde l'indépendance à l'Inde en 1947.",
+    "en": "Labour leader from 1935 to 1955, he served as Churchill's deputy in the wartime coalition and then beat him in the 1945 election. His government created the National Health Service, nationalised key industries and granted India independence in 1947."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 1,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Victoire de 1945",
+      "en": "Landslide of 1945"
+    },
+    "description": {
+      "fr": "+3 en Influence au round 3.",
+      "en": "+3 Influence in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

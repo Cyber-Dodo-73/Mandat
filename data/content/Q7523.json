@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q7523",
+  "role": {
+    "fr": "Empereur de Chine et Grand Khan des Mongols",
+    "en": "Emperor of China and Great Khan of the Mongols"
+  },
+  "bio": {
+    "fr": "Petit-fils de Gengis Khan, il devient Grand Khan en 1260 et fonde en 1271 la dynastie Yuan. Il achève en 1279 la conquête de la Chine des Song et installe sa capitale à Khanbaliq, l'actuelle Pékin. Ses deux tentatives d'invasion du Japon, en 1274 et 1281, échouent.",
+    "en": "A grandson of Genghis Khan, he became Great Khan in 1260 and proclaimed the Yuan dynasty in 1271. By 1279 he had completed the conquest of Song China, ruling from Khanbaliq, today's Beijing. His two attempts to invade Japan, in 1274 and 1281, both failed."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Dynastie Yuan",
+      "en": "Yuan Dynasty"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse est du Moyen Âge.",
+      "en": "+2 Strategy if the opposing card is from the Middle Ages."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "medieval"
+      }
+    }
+  }
+}

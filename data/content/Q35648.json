@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q35648",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Gouverneur civil des Philippines puis secrétaire à la Guerre, il est le successeur désigné de Theodore Roosevelt et préside les États-Unis de 1909 à 1913. Sa rupture avec Roosevelt divise les républicains et lui coûte sa réélection en 1912. Nommé juge en chef de la Cour suprême en 1921, il est le seul à avoir occupé ces deux fonctions.",
+    "en": "After governing the Philippines and serving as Secretary of War, he was Theodore Roosevelt's hand-picked successor and held the presidency from 1909 to 1913. His break with Roosevelt split the Republicans and cost him re-election in 1912. Appointed Chief Justice in 1921, he remains the only person to have held both offices."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 9,
+    "charisma": 4,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Juge en chef",
+      "en": "Chief Justice"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse est plus rare.",
+      "en": "Wins ties if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

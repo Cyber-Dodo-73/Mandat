@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q151754",
+  "role": {
+    "fr": "Princesse royale du Royaume-Uni",
+    "en": "Princess Royal of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Fille unique d'Élisabeth II et du prince Philip, elle porte le titre de princesse royale depuis 1987. Cavalière de concours complet, elle participe aux Jeux olympiques de Montréal en 1976. Elle est connue pour le nombre élevé de ses engagements officiels et son soutien à de nombreuses associations caritatives.",
+    "en": "The only daughter of Elizabeth II and Prince Philip, she has held the title of Princess Royal since 1987. An eventing rider, she competed at the 1976 Montreal Olympics. She is known for carrying out an unusually heavy load of official engagements and supporting a long list of charities."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 7,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Infatigable",
+      "en": "Tireless"
+    },
+    "description": {
+      "fr": "+1 dans le domaine de la manche.",
+      "en": "+1 in the round's domain."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

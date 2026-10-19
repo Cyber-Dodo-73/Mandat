@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q676301",
+  "role": {
+    "fr": "Roi du Royaume-Uni de Portugal, du Brésil et des Algarves",
+    "en": "King of the United Kingdom of Portugal, Brazil and the Algarves"
+  },
+  "bio": {
+    "fr": "Régent pour sa mère, il fuit l’invasion napoléonienne en 1807 et installe la cour portugaise à Rio de Janeiro. Il élève le Brésil au rang de royaume en 1815 et devient roi en 1816, puis rentre à Lisbonne en 1821, peu avant que son fils Pierre ne proclame l’indépendance brésilienne.",
+    "en": "Ruling as regent for his mother, he fled Napoleon's invasion in 1807 and moved the Portuguese court to Rio de Janeiro. He raised Brazil to a kingdom in 1815 and became king in 1816, then returned to Lisbon in 1821, shortly before his son Pedro declared Brazil independent."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 6,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Cour sous les tropiques",
+      "en": "Tropical Court"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q24030720",
+  "role": {
+    "fr": "Président du Pérou",
+    "en": "President of Peru"
+  },
+  "bio": {
+    "fr": "Ingénieur et ancien gouverneur de Moquegua, il succède à Pedro Pablo Kuczynski en 2018. Populaire pour sa lutte affichée contre la corruption, il dissout le Congrès en 2019, mais le nouveau Parlement le destitue en novembre 2020 pour « incapacité morale ».",
+    "en": "An engineer and former governor of Moquegua, he succeeded Pedro Pablo Kuczynski in 2018. Popular for his anti-corruption stance, he dissolved Congress in 2019, but the new legislature removed him in November 2020 on grounds of moral incapacity."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 7,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Dissolution",
+      "en": "Dissolution"
+    },
+    "description": {
+      "fr": "-3 en Influence pour la carte adverse si la carte adverse est plus rare.",
+      "en": "-3 Influence to the opposing card if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

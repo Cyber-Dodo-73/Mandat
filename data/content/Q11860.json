@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q11860",
+  "role": {
+    "fr": "Président du Conseil des ministres d'Italie",
+    "en": "Prime Minister of Italy"
+  },
+  "bio": {
+    "fr": "Magnat de l'immobilier et des médias, propriétaire des principales chaînes privées italiennes et du Milan AC, il fonde Forza Italia en 1994. Il dirige quatre gouvernements entre 1994 et 2011. Plusieurs fois poursuivi en justice, il est condamné définitivement pour fraude fiscale en 2013.",
+    "en": "A property and media tycoon who owned Italy's main private TV channels and AC Milan, he founded Forza Italia in 1994. He led four governments between 1994 and 2011. Repeatedly taken to court, he received a final conviction for tax fraud in 2013."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 8,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Empire télévisuel",
+      "en": "TV Empire"
+    },
+    "description": {
+      "fr": "+3 en Charisme, uniquement lors d'une manche de Charisme.",
+      "en": "+3 Charisma, only in a Charisma round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 3,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "charisma"
+      }
+    }
+  }
+}

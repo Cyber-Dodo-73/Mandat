@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q80504",
+  "role": {
+    "fr": "Président de la Roumanie",
+    "en": "President of Romania"
+  },
+  "bio": {
+    "fr": "Secrétaire général du Parti communiste roumain à partir de 1965 puis président de la République en 1974, il impose un culte de la personnalité et une surveillance de masse par la Securitate. Dans les années 1980, sa politique d'austérité plonge le pays dans les pénuries. Renversé par la révolution de décembre 1989, il est exécuté avec son épouse Elena le 25 décembre après un procès expéditif.",
+    "en": "Head of the Romanian Communist Party from 1965 and president from 1974, he built a personality cult and ran a pervasive surveillance state through the Securitate. His austerity drive in the 1980s left Romanians facing chronic shortages. Toppled by the December 1989 revolution, he and his wife Elena were executed on 25 December after a summary trial."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Culte de la personnalité",
+      "en": "Personality Cult"
+    },
+    "description": {
+      "fr": "+1 en Influence.",
+      "en": "+1 Influence."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

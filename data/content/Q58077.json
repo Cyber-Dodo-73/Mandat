@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q58077",
+  "role": {
+    "fr": "Président de l’Ukraine",
+    "en": "President of Ukraine"
+  },
+  "bio": {
+    "fr": "Homme d’affaires enrichi dans la confiserie, il est élu président de l’Ukraine en mai 2014, après la révolution de Maïdan. Son mandat est marqué par la guerre dans le Donbass, les accords de Minsk et le rapprochement avec l’Union européenne. Il perd l’élection de 2019 face à Volodymyr Zelensky.",
+    "en": "A businessman who made his fortune in confectionery, he was elected president of Ukraine in May 2014 after the Maidan revolution. His term was defined by war in the Donbas, the Minsk agreements and closer ties with the European Union. He lost the 2019 election to Volodymyr Zelensky."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 2,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Accords de Minsk",
+      "en": "Minsk Agreements"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors de la manche 1.",
+      "en": "+2 Diplomacy in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

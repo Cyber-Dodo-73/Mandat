@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q11806",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Avocat du Massachusetts, il siège au Congrès continental puis représente les insurgés américains en Europe, participant à la négociation du traité de Paris de 1783. Premier vice-président, il est le deuxième président de 1797 à 1801 et évite une guerre ouverte avec la France. Il meurt le 4 juillet 1826, le même jour que Thomas Jefferson.",
+    "en": "A Massachusetts lawyer, he sat in the Continental Congress and then represented the American cause in Europe, helping negotiate the 1783 Treaty of Paris. The first vice president, he served as second president from 1797 to 1801 and kept the country out of open war with France. He died on 4 July 1826, the same day as Thomas Jefferson."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 6,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Traité de Paris",
+      "en": "Treaty of Paris"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

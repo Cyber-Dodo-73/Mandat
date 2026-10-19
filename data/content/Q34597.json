@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q34597",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Originaire de l'Ohio, général de l'Union pendant la guerre de Sécession, il siège près de dix-huit ans à la Chambre des représentants. Élu président en 1880, il est blessé par balle par Charles Guiteau en juillet 1881 et meurt en septembre. Sa mort favorise l'adoption en 1883 d'une réforme de la fonction publique fondée sur le mérite.",
+    "en": "An Ohioan who served as a Union general in the Civil War, he spent nearly eighteen years in the House of Representatives. Elected president in 1880, he was shot by Charles Guiteau in July 1881 and died that September. His death helped bring about the 1883 civil service reform based on merit."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 7,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Cheval noir",
+      "en": "Dark Horse"
+    },
+    "description": {
+      "fr": "Remporte les égalités lors de la première manche.",
+      "en": "Wins ties in the first round."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

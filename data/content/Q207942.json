@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q207942",
+  "role": {
+    "fr": "Chef de l’État du Nigeria",
+    "en": "Head of State of Nigeria"
+  },
+  "bio": {
+    "fr": "Général pivot de plusieurs coups d’État, il s’empare du pouvoir en 1993 et dirige le Nigeria d’une main de fer jusqu’à sa mort en 1998. Son régime emprisonne les opposants, fait pendre l’écrivain Ken Saro-Wiwa et huit militants ogonis en 1995 et détourne des milliards de dollars.",
+    "en": "A general at the heart of several coups, he seized power in 1993 and ruled Nigeria with an iron grip until his death in 1998. His regime jailed opponents, hanged the writer Ken Saro-Wiwa and eight Ogoni activists in 1995, and siphoned off billions of dollars."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 5,
+    "charisma": 5,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Main de fer",
+      "en": "Iron Grip"
+    },
+    "description": {
+      "fr": "-2 pour la carte adverse dans le domaine de la manche lors de la manche 2.",
+      "en": "-2 to the opposing card in the round's domain in round 2."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

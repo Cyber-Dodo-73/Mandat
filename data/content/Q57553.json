@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q57553",
+  "role": {
+    "fr": "Roi du Maroc",
+    "en": "King of Morocco"
+  },
+  "bio": {
+    "fr": "Il succède à son père Hassan II en 1999. Son règne voit la réforme du code de la famille en 2004 et une nouvelle Constitution en 2011, adoptée après des manifestations. Le Maroc réintègre l’Union africaine en 2017.",
+    "en": "He succeeded his father, Hassan II, in 1999. His reign brought a reformed family code in 2004 and a new constitution in 2011, adopted after street protests. Morocco rejoined the African Union in 2017."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 8,
+    "charisma": 5,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Commandeur des croyants",
+      "en": "Commander of the Faithful"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie si la carte adverse est plus rare.",
+      "en": "+3 Diplomacy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q34448",
+  "role": {
+    "fr": "Président de l'Iran",
+    "en": "President of Iran"
+  },
+  "bio": {
+    "fr": "Maire de Téhéran à partir de 2003, il est élu président en 2005 et le reste jusqu'en 2013. Ses mandats sont marqués par l'accélération du programme nucléaire, les sanctions de l'ONU et des propos niant la Shoah. Sa réélection contestée de 2009 déclenche le Mouvement vert, durement réprimé.",
+    "en": "Mayor of Tehran from 2003, he won the presidency in 2005 and held it until 2013. His tenure saw an expanding nuclear programme, UN sanctions and repeated Holocaust denial. His disputed re-election in 2009 sparked the Green Movement protests, which were harshly put down."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 4,
+    "charisma": 9,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Tribune populiste",
+      "en": "Populist Pulpit"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient d'un autre continent.",
+      "en": "+2 Charisma if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q40722",
+  "role": {
+    "fr": "Présidente du Brésil",
+    "en": "President of Brazil"
+  },
+  "bio": {
+    "fr": "Ancienne militante de la guérilla, emprisonnée et torturée sous la dictature militaire, elle devient cheffe de cabinet de Lula. Élue en 2010, elle est la première femme présidente du Brésil, avant d’être destituée par le Congrès en 2016 pour des manipulations budgétaires.",
+    "en": "A former guerrilla who was jailed and tortured under the military dictatorship, she rose to become Lula’s chief of staff. Elected in 2010 as Brazil’s first woman president, she was removed by Congress in 2016 over budget manoeuvres."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Résistante",
+      "en": "Resistance Fighter"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité lors des manches de Stratégie.",
+      "en": "Wins tied rounds in Strategy rounds."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "roundDomain",
+        "value": "strategy"
+      }
+    }
+  }
+}

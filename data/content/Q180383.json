@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q180383",
+  "role": {
+    "fr": "Première ministre de Nouvelle-Zélande",
+    "en": "Prime Minister of New Zealand"
+  },
+  "bio": {
+    "fr": "Universitaire et figure du Parti travailliste, elle devient en 1999 la première femme élue à la tête du gouvernement néo-zélandais et le reste neuf ans. Elle maintient le pays hors de la guerre d’Irak, puis dirige le Programme des Nations unies pour le développement de 2009 à 2017.",
+    "en": "An academic and Labour stalwart, she became New Zealand's first elected woman prime minister in 1999 and held the post for nine years. She kept the country out of the Iraq war, then led the United Nations Development Programme from 2009 to 2017."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Voie multilatérale",
+      "en": "Multilateral Path"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

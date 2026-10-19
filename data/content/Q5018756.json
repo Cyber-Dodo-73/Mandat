@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q5018756",
+  "role": {
+    "fr": "Président de la Tanzanie",
+    "en": "President of Tanzania"
+  },
+  "bio": {
+    "fr": "Ministre des Travaux publics surnommé « le Bulldozer », il est élu président de la Tanzanie en 2015. Il lance une campagne contre la corruption et le gaspillage, mais restreint fortement la presse et l'opposition. Il minimise la pandémie de Covid-19 et meurt en fonction en 2021.",
+    "en": "A works minister nicknamed \"the Bulldozer\", he was elected president of Tanzania in 2015. He waged a campaign against corruption and waste but sharply curtailed the press and the opposition. He played down the Covid-19 pandemic and died in office in 2021."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 5,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Le Bulldozer",
+      "en": "The Bulldozer"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "-2 Diplomacy to the opposing card if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

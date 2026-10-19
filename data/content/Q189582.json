@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q189582",
+  "role": {
+    "fr": "Pharaon d'Égypte",
+    "en": "Pharaoh of Egypt"
+  },
+  "bio": {
+    "fr": "Souverain de la fin du IVe millénaire av. J.-C., il est traditionnellement crédité de l'unification de la Haute et de la Basse-Égypte. La palette de Narmer le montre coiffé des deux couronnes du pays. Il est souvent considéré comme le fondateur de la Ire dynastie.",
+    "en": "A ruler at the end of the 4th millennium BC, he is traditionally credited with uniting Upper and Lower Egypt. The Narmer Palette shows him wearing both of the country's crowns. He is often regarded as the founder of the First Dynasty."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Deux couronnes",
+      "en": "Two Crowns"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche lors de la manche 1.",
+      "en": "+2 in the round's domain in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

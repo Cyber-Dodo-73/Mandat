@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q131412",
+  "role": {
+    "fr": "Reine d'Écosse",
+    "en": "Queen of Scots"
+  },
+  "bio": {
+    "fr": "Reine d'Écosse à six jours, en 1542, elle est élevée à la cour de France et brièvement reine de France. Contrainte d'abdiquer en 1567 au profit de son fils Jacques VI, elle se réfugie en Angleterre, où Élisabeth Ire la tient captive près de vingt ans avant de la faire exécuter en 1587.",
+    "en": "Queen of Scotland at six days old in 1542, she was raised at the French court and was briefly queen of France. Forced to abdicate in 1567 in favour of her son James VI, she fled to England, where Elizabeth I held her captive for almost twenty years before having her executed in 1587."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 5,
+    "charisma": 8,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Couronne contestée",
+      "en": "Contested Crown"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse est plus rare.",
+      "en": "Wins ties if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

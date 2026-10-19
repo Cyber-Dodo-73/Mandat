@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q3099714",
+  "role": {
+    "fr": "Premier ministre du Canada",
+    "en": "Prime Minister of Canada"
+  },
+  "bio": {
+    "fr": "Fils de l'ancien Premier ministre Pierre Elliott Trudeau, il mène le Parti libéral à la victoire en 2015. Durant ses près de dix ans au pouvoir, il légalise le cannabis et instaure une taxe carbone fédérale, avant de quitter ses fonctions en 2025.",
+    "en": "The son of former prime minister Pierre Elliott Trudeau, he led the Liberal Party to victory in 2015. During nearly ten years in power he legalised cannabis and brought in a federal carbon price, before stepping down in 2025."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 6,
+    "charisma": 6,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Voies ensoleillées",
+      "en": "Sunny Ways"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors de la 2e manche.",
+      "en": "+2 Diplomacy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

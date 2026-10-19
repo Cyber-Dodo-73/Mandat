@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q8589",
+  "role": {
+    "fr": "Empereur de l'Empire maurya",
+    "en": "Emperor of the Maurya Empire"
+  },
+  "bio": {
+    "fr": "Petit-fils de Chandragupta, il règne vers 268–232 av. J.-C. sur la plus grande partie du sous-continent indien. Selon ses propres inscriptions, la conquête du Kalinga fait plus de cent mille morts et le pousse vers le bouddhisme. Il fait graver sur des rochers et des piliers des édits prônant la non-violence et la tolérance.",
+    "en": "Grandson of Chandragupta, he ruled most of the Indian subcontinent from about 268 to 232 BC. By his own inscriptions, the conquest of Kalinga left more than a hundred thousand dead and turned him towards Buddhism. He had edicts urging non-violence and tolerance carved on rocks and pillars across his realm."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Remords du Kalinga",
+      "en": "Kalinga Remorse"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si vous êtes mené au score.",
+      "en": "+2 Diplomacy when you are behind in rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

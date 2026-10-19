@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q52183",
+  "role": {
+    "fr": "Première ministre du Bangladesh",
+    "en": "Prime Minister of Bangladesh"
+  },
+  "bio": {
+    "fr": "Fille du père de l'indépendance Sheikh Mujibur Rahman, elle survit au coup d'État de 1975 qui décime sa famille. Première ministre de 1996 à 2001 puis de 2009 à 2024, elle est accusée de dérive autoritaire et doit fuir en Inde en août 2024 après la répression meurtrière d'un soulèvement étudiant.",
+    "en": "Daughter of independence leader Sheikh Mujibur Rahman, she survived the 1975 coup that killed most of her family. Prime minister from 1996 to 2001 and from 2009 to 2024, she was accused of growing authoritarianism and fled to India in August 2024 after a deadly crackdown on a student uprising."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Ligue Awami",
+      "en": "Awami League"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient du même continent.",
+      "en": "+2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

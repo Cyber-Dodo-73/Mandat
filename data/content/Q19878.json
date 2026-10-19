@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q19878",
+  "role": {
+    "fr": "Dirigeant de la Libye",
+    "en": "Leader of Libya"
+  },
+  "bio": {
+    "fr": "Officier arrivé au pouvoir par un coup d'État en 1969, il gouverne la Libye pendant 42 ans en écrasant toute opposition. Son régime est responsable du massacre de la prison d'Abou Salim en 1996, où environ 1 200 détenus sont tués, et de l'attentat de Lockerbie en 1988, qui fait 270 morts. Il est tué en 2011 pendant le soulèvement qui le renverse.",
+    "en": "An army officer who seized power in a 1969 coup, he ruled Libya for 42 years and crushed all opposition. His regime was responsible for the 1996 Abu Salim prison massacre, in which some 1,200 inmates were killed, and for the 1988 Lockerbie bombing that killed 270 people. He was killed in 2011 during the uprising that overthrew him."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Livre vert",
+      "en": "Green Book"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient du même continent.",
+      "en": "+2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

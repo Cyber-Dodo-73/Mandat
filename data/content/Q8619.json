@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q8619",
+  "role": {
+    "fr": "Premier ministre du Canada",
+    "en": "Prime Minister of Canada"
+  },
+  "bio": {
+    "fr": "Premier ministre libéral de 1968 à 1979 puis de 1980 à 1984, il fait adopter la Loi sur les langues officielles en 1969. Pendant la crise d'Octobre 1970, il recourt à la Loi sur les mesures de guerre. Il rapatrie la Constitution en 1982 en y ajoutant la Charte canadienne des droits et libertés.",
+    "en": "Liberal prime minister from 1968 to 1979 and again from 1980 to 1984, he passed the Official Languages Act in 1969 and invoked the War Measures Act during the 1970 October Crisis. In 1982 he brought the constitution home from Britain, adding the Canadian Charter of Rights and Freedoms."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 8,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Charte des droits",
+      "en": "Charter of Rights"
+    },
+    "description": {
+      "fr": "+2 en Influence au round 2.",
+      "en": "+2 Influence in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

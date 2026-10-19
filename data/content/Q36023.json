@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q36023",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Gouverneur du Massachusetts, il se fait connaître lors de la grève de la police de Boston en 1919. Vice-président de Warren Harding, il lui succède à sa mort en 1923 puis est élu en 1924, restant en poste jusqu'en 1929. Surnommé « Silent Cal » pour sa sobriété, il baisse les impôts pendant la prospérité des années 1920.",
+    "en": "As governor of Massachusetts he made his name during the 1919 Boston police strike. Warren Harding's vice president, he took over on Harding's death in 1923, won election in 1924 and served until 1929. Nicknamed Silent Cal for his terse manner, he cut taxes during the boom of the 1920s."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 8,
+    "charisma": 3,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Silent Cal",
+      "en": "Silent Cal"
+    },
+    "description": {
+      "fr": "Remporte toutes les égalités.",
+      "en": "Wins every tie."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

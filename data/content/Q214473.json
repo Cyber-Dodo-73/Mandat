@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q214473",
+  "role": {
+    "fr": "Militant anti-apartheid sud-africain",
+    "en": "South African anti-apartheid activist"
+  },
+  "bio": {
+    "fr": "Étudiant en médecine, il fonde le mouvement de la Conscience noire, qui appelle les Noirs sud-africains à s'affranchir de toute tutelle. Frappé d'une interdiction de s'exprimer en 1973, il est arrêté en août 1977. Il meurt en septembre des suites des coups reçus en détention policière, ce qui provoque une indignation internationale.",
+    "en": "A medical student, he founded the Black Consciousness Movement, urging Black South Africans to free themselves from any form of tutelage. Placed under a banning order in 1973, he was arrested in August 1977. He died that September from injuries inflicted in police custody, sparking worldwide outrage."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 8,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Conscience noire",
+      "en": "Black Consciousness"
+    },
+    "description": {
+      "fr": "+2 en Charisme si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Charisma if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q129234",
+  "role": {
+    "fr": "Pharaonne d'Égypte",
+    "en": "Pharaoh of Egypt"
+  },
+  "bio": {
+    "fr": "Fille de Thoutmôsis Ier et épouse de Thoutmôsis II, elle exerce d'abord la régence pour le jeune Thoutmôsis III avant de prendre tous les titres de pharaon vers 1479 av. J.-C. Son règne prospère est marqué par l'expédition au pays de Pount et par son temple funéraire de Deir el-Bahari. Après sa mort, nombre de ses images sont martelées.",
+    "en": "Daughter of Thutmose I and wife of Thutmose II, she first ruled as regent for the young Thutmose III, then took the full titles of pharaoh around 1479 BC. Her prosperous reign is remembered for the trading expedition to the land of Punt and her mortuary temple at Deir el-Bahari. After her death, many of her images were defaced."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 6,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Expédition vers Pount",
+      "en": "Voyage to Punt"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Diplomacy if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

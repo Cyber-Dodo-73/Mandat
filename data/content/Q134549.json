@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q134549",
+  "name": {
+    "fr": "Ted Kennedy",
+    "en": "Ted Kennedy"
+  },
+  "role": {
+    "fr": "Sénateur du Massachusetts (États-Unis)",
+    "en": "United States Senator from Massachusetts"
+  },
+  "bio": {
+    "fr": "Frère cadet de John et Robert Kennedy, il siège au Sénat pour le Massachusetts de 1962 à sa mort en 2009, l’un des plus longs mandats de l’histoire de l’institution. L’accident de Chappaquiddick, en 1969, où meurt une jeune femme, pèse sur sa carrière et il échoue face à Jimmy Carter aux primaires de 1980. Il reste un artisan majeur des lois sur la santé et les droits civiques.",
+    "en": "The youngest brother of John and Robert Kennedy, he represented Massachusetts in the Senate from 1962 until his death in 2009, one of the longest tenures in its history. The 1969 Chappaquiddick crash, in which a young woman died, shadowed his career, and he lost the 1980 primaries to Jimmy Carter. He remained a key architect of health and civil rights legislation."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 9,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Lion du Sénat",
+      "en": "Lion of the Senate"
+    },
+    "description": {
+      "fr": "+2 en Influence contre une carte de l’époque contemporaine.",
+      "en": "+2 Influence against a contemporary card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

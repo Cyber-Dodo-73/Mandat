@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q8442",
+  "role": {
+    "fr": "Chancelier de l'Empire allemand",
+    "en": "Chancellor of the German Empire"
+  },
+  "bio": {
+    "fr": "Ministre-président de Prusse à partir de 1862, il mène trois guerres victorieuses contre le Danemark, l'Autriche et la France. L'Empire allemand est proclamé à Versailles en janvier 1871 et il en devient le premier chancelier jusqu'en 1890. Il bâtit un réseau d'alliances européennes et crée les premières assurances sociales obligatoires.",
+    "en": "Minister-President of Prussia from 1862, he won three wars against Denmark, Austria and France. The German Empire was proclaimed at Versailles in January 1871, and he served as its first chancellor until 1890. He built a web of European alliances and introduced the first compulsory social insurance schemes."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Realpolitik",
+      "en": "Realpolitik"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie à la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Diplomacy to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

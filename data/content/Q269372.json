@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q269372",
+  "role": {
+    "fr": "Premier ministre de l'Australie",
+    "en": "Prime Minister of Australia"
+  },
+  "bio": {
+    "fr": "Ancien boursier Rhodes et dirigeant de la principale confédération syndicale, il mène les travaillistes au pouvoir en 1983. Premier ministre de l'Australie jusqu'en 1991, il conclut un accord sur les prix et les salaires avec les syndicats et laisse flotter le dollar australien. Il est remplacé par Paul Keating à la suite d'un vote interne.",
+    "en": "A former Rhodes scholar and head of the main trade union body, he led Labor to power in 1983. Prime minister of Australia until 1991, he struck a prices and incomes accord with the unions and floated the Australian dollar. He was replaced by Paul Keating after a party-room vote."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 8,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "L'Accord",
+      "en": "The Accord"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse vient d'un autre continent.",
+      "en": "+2 Charisma if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q2042",
+  "role": {
+    "fr": "Président de la République française",
+    "en": "President of the French Republic"
+  },
+  "bio": {
+    "fr": "Général refusant l'armistice, il lance depuis Londres l'appel du 18 juin 1940 et prend la tête de la France libre. Après avoir dirigé le gouvernement provisoire à la Libération, il revient au pouvoir en 1958 en pleine crise algérienne et fonde la Ve République. Président de 1959 à 1969, il accepte l'indépendance de l'Algérie et démissionne après l'échec d'un référendum.",
+    "en": "A general who rejected the 1940 armistice, he broadcast his 18 June appeal from London and led the Free French. After heading the provisional government at the Liberation, he returned to power in 1958 amid the Algerian crisis and founded the Fifth Republic. President from 1959 to 1969, he accepted Algerian independence and resigned after losing a referendum."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Appel du 18 juin",
+      "en": "Appeal of 18 June"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche si vous êtes mené au score.",
+      "en": "+2 in the round's domain when you are behind in rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

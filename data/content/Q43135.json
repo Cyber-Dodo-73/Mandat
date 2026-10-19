@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q43135",
+  "role": {
+    "fr": "Premier ministre de l'Australie",
+    "en": "Prime Minister of Australia"
+  },
+  "bio": {
+    "fr": "Ancien diplomate parlant le mandarin, il mène les travaillistes à la victoire en 2007. Premier ministre, il présente en 2008 les excuses nationales aux générations volées aborigènes et ratifie le protocole de Kyoto. Écarté par Julia Gillard en 2010, il retrouve brièvement le pouvoir en 2013 avant de devenir plus tard ambassadeur aux États-Unis.",
+    "en": "A former diplomat fluent in Mandarin, he led Labor to victory in 2007. As prime minister he delivered the 2008 National Apology to the Stolen Generations and ratified the Kyoto Protocol. Ousted by Julia Gillard in 2010, he briefly returned in 2013 and later served as ambassador to the United States."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 7,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Excuses nationales",
+      "en": "National Apology"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie si la carte adverse est plus rare.",
+      "en": "+3 Diplomacy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

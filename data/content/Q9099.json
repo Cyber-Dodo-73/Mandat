@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q9099",
+  "role": {
+    "fr": "Président de l’Uruguay",
+    "en": "President of Uruguay"
+  },
+  "bio": {
+    "fr": "Médecin oncologue et ancien maire de Montevideo, il devient en 2005 le premier président issu du Frente Amplio, mettant fin à la domination des partis traditionnels. Réélu pour un second mandat de 2015 à 2020, il mène une politique antitabac pionnière.",
+    "en": "An oncologist and former mayor of Montevideo, he became the first Frente Amplio president in 2005, ending the long dominance of Uruguay's traditional parties. Elected again for 2015 to 2020, he championed pioneering anti-smoking laws."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 7,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Ordonnance",
+      "en": "Prescription"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité.",
+      "en": "Wins tied rounds."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

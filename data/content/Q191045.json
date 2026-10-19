@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q191045",
+  "role": {
+    "fr": "Roi d'Espagne",
+    "en": "King of Spain"
+  },
+  "bio": {
+    "fr": "Héritier formé dans les trois armées, il participe comme navigateur aux Jeux olympiques de Barcelone en 1992. Il monte sur le trône en juin 2014 après l'abdication de son père Juan Carlos Ier. En octobre 2017, il prend publiquement position contre le référendum d'indépendance de la Catalogne.",
+    "en": "Trained in all three branches of the armed forces, the heir sailed for Spain at the 1992 Barcelona Olympics. He took the throne in June 2014 after the abdication of his father, Juan Carlos I, and in October 2017 publicly spoke out against the Catalan independence referendum."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 9,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Arbitre de la Couronne",
+      "en": "Crown as Arbiter"
+    },
+    "description": {
+      "fr": "+1 en Diplomatie en permanence.",
+      "en": "+1 Diplomacy at all times."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

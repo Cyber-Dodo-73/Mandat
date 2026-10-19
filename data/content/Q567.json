@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q567",
+  "role": {
+    "fr": "Chancelière fédérale d'Allemagne",
+    "en": "Chancellor of Germany"
+  },
+  "bio": {
+    "fr": "Physicienne ayant grandi en RDA, elle devient en 2005 la première femme chancelière d'Allemagne et le reste seize ans. Elle pilote la réponse européenne à la crise de la dette de la zone euro et ouvre en 2015 les frontières à des centaines de milliers de réfugiés.",
+    "en": "A physicist who grew up in East Germany, she became Germany's first woman chancellor in 2005 and held the post for sixteen years. She steered Europe's response to the eurozone debt crisis and in 2015 opened the borders to hundreds of thousands of refugees."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 9,
+    "charisma": 4,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Nous y arriverons",
+      "en": "We Can Do This"
+    },
+    "description": {
+      "fr": "+1 en Diplomatie.",
+      "en": "+1 Diplomacy."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

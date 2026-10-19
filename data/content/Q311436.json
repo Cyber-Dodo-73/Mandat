@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q311436",
+  "name": {
+    "fr": "Juan Manuel de Rosas",
+    "en": "Juan Manuel de Rosas"
+  },
+  "role": {
+    "fr": "Gouverneur de la province de Buenos Aires",
+    "en": "Governor of Buenos Aires Province"
+  },
+  "bio": {
+    "fr": "Riche estanciero et chef fédéraliste, il gouverne Buenos Aires de 1829 à 1832 puis de 1835 à 1852 avec des pouvoirs absolus, dirigeant de fait la Confédération argentine. Sa police politique, la Mazorca, terrorise les opposants unitaires ; battu à Caseros en 1852, il meurt en exil en Angleterre.",
+    "en": "A wealthy rancher and Federalist leader, he governed Buenos Aires from 1829 to 1832 and again from 1835 to 1852 with absolute powers, acting as de facto ruler of the Argentine Confederation. His political police, the Mazorca, terrorised Unitarian opponents, and after defeat at Caseros in 1852 he died in exile in England."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 5,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Somme du pouvoir public",
+      "en": "Sum of Public Power"
+    },
+    "description": {
+      "fr": "+2 en Influence contre une carte de l'époque moderne.",
+      "en": "+2 Influence against a Modern-era card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "modern"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q5816",
+  "role": {
+    "fr": "Président du Parti communiste chinois",
+    "en": "Chairman of the Chinese Communist Party"
+  },
+  "bio": {
+    "fr": "Chef des communistes chinois pendant la guerre civile, il proclame la République populaire de Chine en 1949 et la dirige jusqu'à sa mort en 1976. Le Grand Bond en avant (1958-1962) provoque une famine qui tue des dizaines de millions de personnes, de 15 à 45 millions selon les estimations. La Révolution culturelle lancée en 1966 entraîne ensuite persécutions de masse et centaines de milliers, voire millions, de morts.",
+    "en": "Leader of the Chinese communists during the civil war, he proclaimed the People's Republic of China in 1949 and ruled it until his death in 1976. The Great Leap Forward (1958–62) caused a famine that killed tens of millions of people, between 15 and 45 million by various estimates. The Cultural Revolution he launched in 1966 then brought mass persecution and hundreds of thousands, possibly millions, of deaths."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 2,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Longue Marche",
+      "en": "Long March"
+    },
+    "description": {
+      "fr": "+2 en Influence si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Influence when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

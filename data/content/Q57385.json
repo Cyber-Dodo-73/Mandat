@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q57385",
+  "name": {
+    "fr": "Teodoro Obiang",
+    "en": "Teodoro Obiang"
+  },
+  "role": {
+    "fr": "Président de la Guinée équatoriale",
+    "en": "President of Equatorial Guinea"
+  },
+  "bio": {
+    "fr": "Officier, il renverse en 1979 son oncle Francisco Macías Nguema, qui est exécuté, et dirige depuis la Guinée équatoriale. La découverte du pétrole dans les années 1990 enrichit le pays sans réduire la pauvreté de la majorité. Son clan est visé par des affaires de corruption à l'étranger, dont la condamnation de son fils en France.",
+    "en": "An army officer, he overthrew his uncle Francisco Macías Nguema, who was executed, in 1979 and has ruled Equatorial Guinea ever since. Oil discoveries in the 1990s brought great wealth without lifting most of the population out of poverty. His family has faced corruption cases abroad, including his son's conviction in France."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Coup de la Liberté",
+      "en": "Freedom Coup"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse lors de la manche 1.",
+      "en": "-2 Influence to the opposing card in round 1."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q185107",
+  "role": {
+    "fr": "Président de l’Argentine",
+    "en": "President of Argentina"
+  },
+  "bio": {
+    "fr": "Gouverneur péroniste de La Rioja, il est élu président en 1989 en pleine hyperinflation. Il arrime le peso au dollar, privatise massivement et gracie les chefs de la junte, avant que son modèle ne débouche sur la crise de 2001, deux ans après la fin de son second mandat.",
+    "en": "A Peronist governor of La Rioja, he was elected president in 1989 in the middle of hyperinflation. He pegged the peso to the dollar, privatised on a vast scale and pardoned the junta leaders, while his model ended in the 2001 crash two years after he left office."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Un peso, un dollar",
+      "en": "One Peso, One Dollar"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est plus rare.",
+      "en": "+2 Influence if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

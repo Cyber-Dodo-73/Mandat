@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q157918",
+  "role": {
+    "fr": "Pharaon d'Égypte",
+    "en": "Pharaoh of Egypt"
+  },
+  "bio": {
+    "fr": "Deuxième roi de la XIXe dynastie et père de Ramsès II, il règne au début du XIIIe siècle av. J.-C. Il mène des campagnes militaires au Levant et contre les Libyens pour restaurer l'influence égyptienne. On lui doit le grand temple d'Abydos, avec sa liste royale, et l'une des plus belles tombes de la Vallée des Rois.",
+    "en": "The second king of the Nineteenth Dynasty and father of Ramesses II, he reigned in the early 13th century BC. He campaigned in the Levant and against the Libyans to restore Egyptian power. He built the great temple at Abydos with its king list and one of the finest tombs in the Valley of the Kings."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Liste d'Abydos",
+      "en": "Abydos King List"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse est de l'Antiquité.",
+      "en": "-2 Strategy to the opposing card if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

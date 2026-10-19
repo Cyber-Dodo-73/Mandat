@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q40495",
+  "role": {
+    "fr": "Président du Pakistan",
+    "en": "President of Pakistan"
+  },
+  "bio": {
+    "fr": "Chef de l'armée, il prend le pouvoir par un coup d'État en octobre 1999 en renversant Nawaz Sharif, quelques mois après la guerre de Kargil. Président de 2001 à 2008, il devient un allié des États-Unis après le 11 Septembre. Il démissionne sous la menace d'une destitution et meurt en exil à Dubaï en 2023.",
+    "en": "As army chief he seized power in an October 1999 coup that toppled Nawaz Sharif, months after the Kargil conflict. President from 2001 to 2008, he became a US ally after 9/11. He resigned to avoid impeachment and died in exile in Dubai in 2023."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 4,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Coup de force",
+      "en": "Power Grab"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse au round 1.",
+      "en": "-2 Influence to the opposing card in round 1."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

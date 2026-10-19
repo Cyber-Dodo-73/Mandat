@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q720",
+  "role": {
+    "fr": "Khagan de l'Empire mongol",
+    "en": "Khagan of the Mongol Empire"
+  },
+  "bio": {
+    "fr": "Né Temüjin, il unifie les tribus des steppes et se fait proclamer Gengis Khan en 1206. Ses campagnes, d'une grande brutalité, soumettent le nord de la Chine et l'empire du Khwarezm et posent les bases du plus vaste empire continu de l'histoire. Il meurt en 1227.",
+    "en": "Born Temüjin, he united the steppe tribes and was proclaimed Genghis Khan in 1206. His campaigns, marked by mass killings, subdued northern China and the Khwarazmian Empire and laid the foundations of the largest contiguous empire in history. He died in 1227."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 5,
+    "charisma": 7,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Cavaliers des steppes",
+      "en": "Riders of the Steppe"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Strategy if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

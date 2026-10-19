@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q47906",
+  "role": {
+    "fr": "Commandant en chef de la Luftwaffe (Allemagne nazie)",
+    "en": "Commander-in-chief of the Luftwaffe, Nazi Germany"
+  },
+  "bio": {
+    "fr": "Dignitaire nazi parmi les plus puissants, il crée la Gestapo et les premiers camps de concentration en 1933, puis dirige la Luftwaffe et l'économie de guerre. En 1941, il charge Heydrich d'organiser la « solution finale », qui aboutit à la Shoah et au meurtre de six millions de Juifs ; il pille aussi des milliers d'œuvres d'art en Europe occupée. Condamné à mort à Nuremberg en 1946, il se suicide la veille de son exécution.",
+    "en": "One of the most powerful Nazi leaders, he created the Gestapo and the first concentration camps in 1933, then ran the Luftwaffe and the war economy. In 1941 he instructed Heydrich to prepare the 'Final Solution', which led to the Holocaust and the murder of six million Jews, and he looted thousands of artworks across occupied Europe. Sentenced to death at Nuremberg in 1946, he killed himself the night before his execution."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 2,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Pillage",
+      "en": "Plunder"
+    },
+    "description": {
+      "fr": "-1 en Influence pour la carte adverse.",
+      "en": "-1 Influence to the opposing card."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

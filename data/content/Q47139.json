@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q47139",
+  "role": {
+    "fr": "Président de la Serbie",
+    "en": "President of Serbia"
+  },
+  "bio": {
+    "fr": "Président de la Serbie à partir de 1989 puis de la Yougoslavie, il attise le nationalisme serbe et soutient les forces serbes dans les guerres de Croatie et de Bosnie, marquées par le nettoyage ethnique et le génocide de Srebrenica, où environ 8 000 hommes et garçons sont massacrés. Au Kosovo, en 1998-1999, ses forces chassent quelque 800 000 Albanais. Renversé en 2000, il meurt en 2006 pendant son procès à La Haye.",
+    "en": "President of Serbia from 1989 and later of Yugoslavia, he stoked Serbian nationalism and backed Serb forces in the wars in Croatia and Bosnia, marked by ethnic cleansing and the Srebrenica genocide, where about 8,000 men and boys were killed. In Kosovo in 1998–1999 his forces drove out some 800,000 Albanians. Toppled in 2000, he died in 2006 while on trial in The Hague."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 3,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Bras de fer",
+      "en": "Brinkmanship"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Influence to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

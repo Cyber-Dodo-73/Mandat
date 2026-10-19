@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q34787",
+  "role": {
+    "fr": "Théoricien révolutionnaire allemand",
+    "en": "German revolutionary theorist"
+  },
+  "bio": {
+    "fr": "Fils d'industriel du textile, il décrit en 1845 la misère ouvrière dans La Situation de la classe laborieuse en Angleterre. Avec Karl Marx, il rédige le Manifeste du Parti communiste en 1848 et le soutient financièrement pendant des décennies. Après la mort de Marx, il publie les livres II et III du Capital.",
+    "en": "The son of a textile manufacturer, he described workers' poverty in The Condition of the Working Class in England in 1845. With Karl Marx he wrote the Communist Manifesto in 1848 and supported him financially for decades. After Marx's death he published volumes II and III of Capital."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 2,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Manifeste",
+      "en": "Manifesto"
+    },
+    "description": {
+      "fr": "+3 en Influence, uniquement lors d'une manche de Influence.",
+      "en": "+3 Influence, only in a Influence round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 3,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "influence"
+      }
+    }
+  }
+}

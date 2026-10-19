@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q83235",
+  "role": {
+    "fr": "Vice-amiral de la Royal Navy britannique",
+    "en": "Vice-Admiral of the British Royal Navy"
+  },
+  "bio": {
+    "fr": "Officier de marine britannique, il perd l'usage d'un œil en Corse en 1794 et un bras à Santa Cruz de Tenerife en 1797. Il anéantit la flotte française à Aboukir en 1798, s'impose à Copenhague en 1801 et meurt à Trafalgar en 1805, au moment de la victoire sur les flottes française et espagnole.",
+    "en": "A British naval officer, he lost the sight of one eye in Corsica in 1794 and an arm at Santa Cruz de Tenerife in 1797. He destroyed the French fleet at the Nile in 1798, won at Copenhagen in 1801 and was killed at Trafalgar in 1805 as his fleet defeated the French and Spanish."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 6,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Trafalgar",
+      "en": "Trafalgar"
+    },
+    "description": {
+      "fr": "-2 à la carte adverse dans le domaine du round au round 2.",
+      "en": "-2 to the opposing card in the round's domain in round 2."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

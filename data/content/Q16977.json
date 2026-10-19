@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q16977",
+  "role": {
+    "fr": "Dirigeant suprême de la république populaire de Chine",
+    "en": "Paramount leader of the People's Republic of China"
+  },
+  "bio": {
+    "fr": "Vétéran de la Longue Marche, deux fois écarté sous Mao, il s'impose comme dirigeant de la Chine à partir de 1978. Sa politique de réforme et d'ouverture crée des zones économiques spéciales et lance l'essor économique du pays. En juin 1989, il approuve la répression sanglante des manifestations de la place Tiananmen.",
+    "en": "A veteran of the Long March who was purged twice under Mao, he emerged as China's leader from 1978. His reform and opening policy created special economic zones and launched the country's economic boom. In June 1989 he backed the bloody crackdown on the Tiananmen Square protests."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 2,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Réforme et ouverture",
+      "en": "Reform and Opening"
+    },
+    "description": {
+      "fr": "+3 en Stratégie, uniquement lors d'une manche de Stratégie.",
+      "en": "+3 Strategy, only in a Strategy round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "strategy"
+      }
+    }
+  }
+}

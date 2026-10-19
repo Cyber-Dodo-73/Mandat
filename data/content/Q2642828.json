@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q2642828",
+  "role": {
+    "fr": "Président de l'Argentine",
+    "en": "President of Argentina"
+  },
+  "bio": {
+    "fr": "Avocat et professeur de droit, il est chef de cabinet de Néstor Kirchner de 2003 à 2008. Choisi comme candidat par Cristina Kirchner, qui devient sa vice-présidente, il préside l'Argentine de 2019 à 2023. Son mandat est marqué par la pandémie de Covid-19 et une forte inflation.",
+    "en": "A lawyer and law professor, he served as Néstor Kirchner's cabinet chief from 2003 to 2008. Picked as the candidate by Cristina Kirchner, who became his vice president, he led Argentina from 2019 to 2023. His term was shaped by the Covid-19 pandemic and high inflation."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 8,
+    "charisma": 5,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Ticket Fernández",
+      "en": "Fernández Ticket"
+    },
+    "description": {
+      "fr": "+1 en Diplomatie.",
+      "en": "+1 Diplomacy."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

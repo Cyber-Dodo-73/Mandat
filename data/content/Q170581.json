@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q170581",
+  "role": {
+    "fr": "Présidente de la Chambre des représentants des États-Unis",
+    "en": "Speaker of the United States House of Representatives"
+  },
+  "bio": {
+    "fr": "Représentante de San Francisco depuis 1987, elle devient en 2007 la première femme présidente de la Chambre des représentants, poste qu'elle occupe de nouveau de 2019 à 2023. Elle joue un rôle décisif dans l'adoption de la réforme de l'assurance santé en 2010. Elle conduit aussi les deux procédures de destitution visant Donald Trump.",
+    "en": "A congresswoman for San Francisco since 1987, she became the first woman Speaker of the House in 2007 and held the post again from 2019 to 2023. She was instrumental in passing the 2010 healthcare reform. She also oversaw both impeachments of Donald Trump."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 7,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Coup de marteau",
+      "en": "The Gavel"
+    },
+    "description": {
+      "fr": "-2 en Influence à la carte adverse lors de la deuxième manche.",
+      "en": "-2 Influence to the opposing card in the second round."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

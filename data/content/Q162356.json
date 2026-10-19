@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q162356",
+  "name": {
+    "fr": "Jane Grey",
+    "en": "Lady Jane Grey"
+  },
+  "role": {
+    "fr": "Reine d'Angleterre",
+    "en": "Queen of England"
+  },
+  "bio": {
+    "fr": "Arrière-petite-fille d'Henri VII, elle est désignée par Édouard VI pour écarter du trône sa demi-sœur catholique Marie. Proclamée reine en juillet 1553, elle n'est reconnue que neuf jours avant d'être renversée par Marie Ire. Elle est décapitée en février 1554, à environ 17 ans.",
+    "en": "A great-granddaughter of Henry VII, she was named heir by Edward VI to keep his Catholic half-sister Mary off the throne. Proclaimed queen in July 1553, she held on for only nine days before Mary I deposed her. She was beheaded in February 1554, aged about 17."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 3,
+    "charisma": 5,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Reine de neuf jours",
+      "en": "Nine Days' Queen"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche lors de la 1re manche.",
+      "en": "+2 in the round's domain in the first round."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

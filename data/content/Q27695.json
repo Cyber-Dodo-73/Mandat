@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q27695",
+  "role": {
+    "fr": "Roi des Zoulous",
+    "en": "King of the Zulu"
+  },
+  "bio": {
+    "fr": "Devenu chef des Zoulous vers 1816, il transforme ce petit clan en un royaume puissant d’Afrique australe. Il réorganise l’armée, avec une lance courte et des formations d’encerclement, et ses conquêtes s’inscrivent dans les bouleversements régionaux du Mfecane. Il est assassiné en 1828 par ses demi-frères.",
+    "en": "Taking power among the Zulu around 1816, he turned a small clan into a formidable southern African kingdom. He overhauled its army with a short stabbing spear and encircling formations, and his conquests fed into the regional upheaval known as the Mfecane. His half-brothers assassinated him in 1828."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 1,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Cornes du buffle",
+      "en": "Horns of the Buffalo"
+    },
+    "description": {
+      "fr": "+3 en Stratégie lors de la manche 1.",
+      "en": "+3 Strategy in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

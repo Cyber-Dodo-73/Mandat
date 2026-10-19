@@ -1,0 +1,33 @@
+{
+  "wikidataId": "Q264766",
+  "role": {
+    "fr": "Première ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Ministre de l'Intérieur de 2010 à 2016, elle devient Première ministre après le référendum sur le Brexit, deuxième femme à occuper ce poste. Les élections anticipées de 2017 lui font perdre sa majorité absolue. L'accord de retrait qu'elle négocie avec l'Union européenne est rejeté trois fois par les Communes, et elle démissionne en 2019.",
+    "en": "Home Secretary from 2010 to 2016, she became Prime Minister after the Brexit referendum, the second woman to hold the post. The snap election she called in 2017 cost the Conservatives their majority. Her withdrawal agreement with the European Union was voted down three times by the Commons, and she stood down in 2019."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 5,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Ténacité",
+      "en": "Persistence"
+    },
+    "description": {
+      "fr": "Remporte les égalités si vous êtes mené au score.",
+      "en": "Wins ties when you are behind in rounds."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

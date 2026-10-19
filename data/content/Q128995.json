@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q128995",
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Ministre des Affaires étrangères à trois reprises, notamment aux côtés de Churchill pendant la Seconde Guerre mondiale, il lui succède comme Premier ministre en 1955. En 1956, il engage le Royaume-Uni avec la France et Israël dans l'expédition de Suez, qui tourne à l'humiliation sous la pression américaine. Il démissionne en janvier 1957.",
+    "en": "Foreign Secretary three times, notably alongside Churchill in the Second World War, he succeeded him as prime minister in 1955. In 1956 he took Britain, with France and Israel, into the Suez operation, which ended in humiliation under American pressure. He resigned in January 1957."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 7,
+    "charisma": 4,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Crise de Suez",
+      "en": "Suez Crisis"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors de la manche 1.",
+      "en": "+2 Diplomacy in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

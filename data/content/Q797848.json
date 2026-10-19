@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q797848",
+  "name": {
+    "fr": "Babur",
+    "en": "Babur"
+  },
+  "role": {
+    "fr": "Fondateur de l'Empire moghol",
+    "en": "Founder of the Mughal Empire"
+  },
+  "bio": {
+    "fr": "Prince timouride du Ferghana, descendant de Tamerlan et de Gengis Khan, il perd Samarcande puis s'empare de Kaboul en 1504. En 1526, il écrase le sultan de Delhi Ibrahim Lodi à Panipat grâce à son artillerie et fonde l'Empire moghol. Ses mémoires, le Baburnama, sont un classique de la littérature turque.",
+    "en": "A Timurid prince from the Fergana Valley, descended from both Timur and Genghis Khan, he lost Samarkand and took Kabul in 1504. In 1526 his artillery helped him crush Ibrahim Lodi, Sultan of Delhi, at Panipat, founding the Mughal Empire. His memoir, the Baburnama, is a classic of Turkic literature."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 6,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Canons de Panipat",
+      "en": "Guns of Panipat"
+    },
+    "description": {
+      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse est plus rare.",
+      "en": "The opposing card gets -2 Strategy if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q295007",
+  "role": {
+    "fr": "Président de l’Argentine",
+    "en": "President of Argentina"
+  },
+  "bio": {
+    "fr": "Figure de l’Union civique radicale, il est le premier chef de gouvernement élu de la ville de Buenos Aires en 1996, puis président en 1999. Englué dans la récession, il laisse imposer le « corralito » qui gèle les dépôts et démissionne en décembre 2001 au milieu d’émeutes meurtrières.",
+    "en": "A leading Radical, he became the first elected head of government of the city of Buenos Aires in 1996 and president in 1999. Mired in recession, his government imposed the corralito freezing bank deposits, and he resigned in December 2001 amid deadly riots."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 8,
+    "charisma": 6,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Corralito",
+      "en": "Corralito"
+    },
+    "description": {
+      "fr": "-2 en Charisme pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Charisma to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

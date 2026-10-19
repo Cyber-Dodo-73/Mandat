@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q131691",
+  "name": {
+    "fr": "Duc de Wellington",
+    "en": "Duke of Wellington"
+  },
+  "role": {
+    "fr": "Premier ministre du Royaume-Uni",
+    "en": "Prime Minister of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Général britannique, il chasse les armées napoléoniennes de la péninsule Ibérique entre 1808 et 1814, puis bat Napoléon à Waterloo en 1815 avec les Prussiens de Blücher. Premier ministre conservateur de 1828 à 1830, il fait pourtant adopter l'émancipation des catholiques en 1829.",
+    "en": "A British general, he drove Napoleon's armies out of the Iberian Peninsula between 1808 and 1814, then defeated Napoleon at Waterloo in 1815 alongside Blücher's Prussians. As Tory prime minister from 1828 to 1830, he nonetheless carried Catholic emancipation in 1829."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 6,
+    "charisma": 6,
+    "strategy": 10
+  },
+  "ability": {
+    "name": {
+      "fr": "Waterloo",
+      "en": "Waterloo"
+    },
+    "description": {
+      "fr": "+3 en Stratégie au round 3.",
+      "en": "+3 Strategy in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

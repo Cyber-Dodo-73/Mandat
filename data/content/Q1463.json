@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q1463",
+  "name": {
+    "fr": "Ferdinand Marcos",
+    "en": "Ferdinand Marcos"
+  },
+  "role": {
+    "fr": "Président des Philippines",
+    "en": "President of the Philippines"
+  },
+  "bio": {
+    "fr": "Élu président des Philippines en 1965, il impose la loi martiale en 1972 et gouverne par décret. Sous son régime, des milliers d'opposants sont tués, des dizaines de milliers torturés ou emprisonnés, et sa famille détourne des milliards de dollars. Chassé par la révolution populaire EDSA en 1986, il meurt en exil à Hawaï en 1989.",
+    "en": "Elected President of the Philippines in 1965, he declared martial law in 1972 and ruled by decree. Under his rule thousands of opponents were killed, tens of thousands tortured or jailed, and his family siphoned off billions of dollars. Ousted by the People Power revolution in 1986, he died in exile in Hawaii in 1989."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Loi martiale",
+      "en": "Martial Law"
+    },
+    "description": {
+      "fr": "-1 en Charisme pour la carte adverse.",
+      "en": "-1 Charisma to the opposing card."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "charisma",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

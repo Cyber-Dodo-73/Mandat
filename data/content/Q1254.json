@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q1254",
+  "role": {
+    "fr": "Secrétaire général des Nations unies",
+    "en": "Secretary-General of the United Nations"
+  },
+  "bio": {
+    "fr": "Diplomate ghanéen, il fait toute sa carrière au sein de l'ONU avant d'en devenir le septième secrétaire général, de 1997 à 2006. Il est le premier à accéder à ce poste depuis les rangs du personnel de l'organisation. En 2001, il reçoit le prix Nobel de la paix conjointement avec les Nations unies.",
+    "en": "A Ghanaian diplomat who spent his career inside the UN, he served as its seventh Secretary-General from 1997 to 2006, the first to rise to the post from the organization's own staff. In 2001 he and the United Nations jointly received the Nobel Peace Prize."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 10,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Médiation",
+      "en": "Mediation"
+    },
+    "description": {
+      "fr": "+1 en Diplomatie.",
+      "en": "+1 Diplomacy."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

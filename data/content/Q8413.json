@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q8413",
+  "role": {
+    "fr": "Empereur romain",
+    "en": "Roman Emperor"
+  },
+  "bio": {
+    "fr": "Proclamé empereur par ses troupes à York en 306, il bat son rival Maxence au pont Milvius en 312. L'édit de Milan de 313 accorde la liberté de culte aux chrétiens, et il convoque le concile de Nicée en 325. Il fonde Constantinople, nouvelle capitale inaugurée en 330.",
+    "en": "Proclaimed emperor by his troops at York in 306, he defeated his rival Maxentius at the Milvian Bridge in 312. The Edict of Milan in 313 granted Christians freedom of worship, and he summoned the Council of Nicaea in 325. He founded Constantinople, a new capital dedicated in 330."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Pont Milvius",
+      "en": "Milvian Bridge"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse est du Moyen Âge.",
+      "en": "+2 Influence if the opposing card is from the Middle Ages."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "medieval"
+      }
+    }
+  }
+}

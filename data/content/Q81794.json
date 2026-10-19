@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q81794",
+  "role": {
+    "fr": "Pharaon d’Égypte",
+    "en": "Pharaoh of Egypt"
+  },
+  "bio": {
+    "fr": "Pharaon de la XVIIIe dynastie au XIVe siècle av. J.-C., il place le disque solaire Aton au-dessus de tous les dieux traditionnels et fonde une nouvelle capitale, Akhetaton, sur le site actuel d’Amarna. Après sa mort, ses réformes religieuses sont abandonnées et son nom est effacé de nombreux monuments.",
+    "en": "An Eighteenth Dynasty king of the 14th century BC, he elevated the sun disc Aten above Egypt’s traditional gods and built a new capital, Akhetaten, at what is now Amarna. His successors abandoned the new cult and chiselled his name off many monuments."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 2,
+    "charisma": 4,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Hymne à Aton",
+      "en": "Hymn to the Aten"
+    },
+    "description": {
+      "fr": "+2 en Influence lors des manches de Influence.",
+      "en": "+2 Influence in Influence rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "influence"
+      }
+    }
+  }
+}

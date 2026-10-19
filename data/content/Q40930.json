@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q40930",
+  "role": {
+    "fr": "Grande épouse royale d'Égypte",
+    "en": "Great Royal Wife of Egypt"
+  },
+  "bio": {
+    "fr": "Épouse du pharaon Akhenaton au XIVe siècle av. J.-C., elle est étroitement associée au culte du dieu solaire Aton et à la nouvelle capitale d'Amarna. Son buste peint, retrouvé en 1912, est devenu une icône. Certains égyptologues pensent qu'elle a régné après son mari, une hypothèse débattue.",
+    "en": "Wife of the pharaoh Akhenaten in the 14th century BC, she was closely tied to the cult of the sun disc Aten and the new capital at Amarna. Her painted bust, unearthed in 1912, became an icon. Some Egyptologists believe she ruled after her husband, though this remains disputed."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 6,
+    "strategy": 2
+  },
+  "ability": {
+    "name": {
+      "fr": "Buste d'Amarna",
+      "en": "Amarna Bust"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Charisma if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

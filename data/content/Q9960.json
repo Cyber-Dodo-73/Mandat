@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q9960",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Acteur hollywoodien puis gouverneur de Californie, il est élu président en 1980. Il baisse fortement les impôts, relance la course aux armements face à l'URSS puis négocie avec Mikhaïl Gorbatchev le traité de 1987 sur les forces nucléaires intermédiaires.",
+    "en": "A Hollywood actor turned governor of California, he was elected president in 1980. He cut taxes sharply and stepped up the arms race with the USSR before negotiating the 1987 Intermediate-Range Nuclear Forces Treaty with Mikhail Gorbachev."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 7,
+    "charisma": 9,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Le grand communicateur",
+      "en": "The Great Communicator"
+    },
+    "description": {
+      "fr": "+1 en Charisme.",
+      "en": "+1 Charisma."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

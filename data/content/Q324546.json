@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q324546",
+  "role": {
+    "fr": "Secrétaire d’État des États-Unis",
+    "en": "United States Secretary of State"
+  },
+  "bio": {
+    "fr": "Fils d’immigrés cubains, il représente la Floride au Sénat de 2011 à 2025 et brigue l’investiture républicaine pour la présidentielle de 2016. Il devient secrétaire d’État en janvier 2025 dans la seconde administration de Donald Trump.",
+    "en": "The son of Cuban immigrants, he represented Florida in the Senate from 2011 to 2025 and ran for the Republican presidential nomination in 2016. He became Secretary of State in January 2025 under Donald Trump’s second administration."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 6,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Double casquette",
+      "en": "Two Hats"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors de la manche 2.",
+      "en": "+2 Diplomacy in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q161904",
+  "role": {
+    "fr": "Pharaon d'Égypte",
+    "en": "Pharaoh of Egypt"
+  },
+  "bio": {
+    "fr": "Souverain de la IVe dynastie au XXVIe siècle av. J.-C., il fait bâtir la Grande Pyramide de Gizeh, seule des Sept Merveilles du monde antique encore debout. On sait paradoxalement peu de choses de son règne, et la seule statue qui le représente avec certitude est une figurine d'ivoire de quelques centimètres.",
+    "en": "A ruler of the Fourth Dynasty in the 26th century BC, he commissioned the Great Pyramid of Giza, the only one of the Seven Wonders of the Ancient World still standing. Little is known about his reign, and the only statue securely identified as him is an ivory figurine just a few centimetres tall."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 2,
+    "charisma": 3,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Grande Pyramide",
+      "en": "Great Pyramid"
+    },
+    "description": {
+      "fr": "+3 en Stratégie lors de la manche 3.",
+      "en": "+3 Strategy in round 3."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 3,
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

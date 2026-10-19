@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q24313",
+  "role": {
+    "fr": "Vice-président des États-Unis",
+    "en": "Vice President of the United States"
+  },
+  "bio": {
+    "fr": "Animateur de radio, il représente l'Indiana au Congrès de 2001 à 2013, puis devient gouverneur de cet État. Vice-président de Donald Trump de 2017 à 2021, il préside le 6 janvier 2021 la certification de la victoire de Joe Biden. Il le fait malgré les pressions du président et l'assaut du Capitole par des émeutiers.",
+    "en": "A former radio host, he represented Indiana in Congress from 2001 to 2013 before becoming the state's governor. Donald Trump's vice president from 2017 to 2021, he presided over the certification of Joe Biden's victory on 6 January 2021. He did so despite pressure from the president and rioters storming the Capitol."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 8,
+    "charisma": 5,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Certification",
+      "en": "Certification"
+    },
+    "description": {
+      "fr": "Remporte les égalités quand le domaine de la manche est Diplomatie.",
+      "en": "Wins ties when the round's domain is Diplomacy."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "roundDomain",
+        "value": "diplomacy"
+      }
+    }
+  }
+}

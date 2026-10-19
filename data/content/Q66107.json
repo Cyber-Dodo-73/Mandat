@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q66107",
+  "role": {
+    "fr": "Secrétaire d'État des États-Unis",
+    "en": "United States Secretary of State"
+  },
+  "bio": {
+    "fr": "Réfugié juif venu d'Allemagne, professeur à Harvard, il est conseiller à la sécurité nationale puis secrétaire d'État sous Nixon et Ford. Il pratique la détente avec l'URSS, prépare l'ouverture vers la Chine et négocie les accords de Paris sur le Viêt Nam, ce qui lui vaut le prix Nobel de la paix 1973. Il est aussi critiqué pour les bombardements du Cambodge et le soutien au coup d'État au Chili.",
+    "en": "A Jewish refugee from Germany who taught at Harvard, he served as national security adviser and then secretary of state under Nixon and Ford. He pursued détente with the USSR, prepared the opening to China and negotiated the Paris Peace Accords on Vietnam, earning the 1973 Nobel Peace Prize. He was also condemned for the bombing of Cambodia and US backing for the coup in Chile."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 9,
+    "charisma": 3,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Diplomatie secrète",
+      "en": "Back Channel"
+    },
+    "description": {
+      "fr": "-3 en Diplomatie à la carte adverse si la carte adverse est plus rare.",
+      "en": "-3 Diplomacy to the opposing card if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

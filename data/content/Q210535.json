@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q210535",
+  "role": {
+    "fr": "Grande épouse royale d’Égypte",
+    "en": "Great Royal Wife of Egypt"
+  },
+  "bio": {
+    "fr": "Principale épouse de Ramsès II, elle joue un rôle visible à la cour et dans la diplomatie avec les Hittites, dont témoigne sa correspondance avec la reine Puduhepa. Le pharaon lui dédie un temple à Abou Simbel, et sa tombe de la Vallée des Reines compte parmi les plus belles d’Égypte.",
+    "en": "Chief wife of Ramesses II, she held a prominent place at court and in diplomacy with the Hittites, as her letters to Queen Puduhepa show. The pharaoh dedicated a temple to her at Abu Simbel, and her tomb in the Valley of the Queens is among the finest in Egypt."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 8,
+    "charisma": 7,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Pour qui le soleil brille",
+      "en": "For Whom the Sun Shines"
+    },
+    "description": {
+      "fr": "+3 en Diplomatie contre une carte de l'Antiquité.",
+      "en": "+3 Diplomacy against an Antiquity card."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 3,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

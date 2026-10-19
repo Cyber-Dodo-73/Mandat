@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q10707",
+  "role": {
+    "fr": "Président du Zimbabwe",
+    "en": "President of Zimbabwe"
+  },
+  "bio": {
+    "fr": "Figure de la lutte contre le régime blanc de Rhodésie, il devient Premier ministre du Zimbabwe indépendant en 1980, puis président. Au début des années 1980, la répression du Matabeleland, dite Gukurahundi, fait environ 20 000 morts. Sa réforme agraire des années 2000 précède un effondrement économique et une hyperinflation, et il est écarté par l'armée en 2017.",
+    "en": "A leader of the struggle against white minority rule in Rhodesia, he became prime minister of independent Zimbabwe in 1980 and later president. In the early 1980s the Gukurahundi crackdown in Matabeleland killed around 20,000 people. His land reform in the 2000s was followed by economic collapse and hyperinflation, and the army pushed him out in 2017."
+  },
+  "stats": {
+    "influence": 9,
+    "diplomacy": 6,
+    "charisma": 7,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Trente-sept ans",
+      "en": "Thirty-Seven Years"
+    },
+    "description": {
+      "fr": "Remporte les manches à égalité lors de la manche 3.",
+      "en": "Wins tied rounds in round 3."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "round",
+        "value": 3
+      }
+    }
+  }
+}

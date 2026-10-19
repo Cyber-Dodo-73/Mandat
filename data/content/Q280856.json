@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q280856",
+  "role": {
+    "fr": "Roi du Royaume-Uni",
+    "en": "King of the United Kingdom"
+  },
+  "bio": {
+    "fr": "Monté sur le trône en 1936 après l'abdication de son frère Édouard VIII, il surmonte un bégaiement tenace pour s'adresser à la nation. Il reste à Londres pendant le Blitz et incarne la résistance britannique durant la Seconde Guerre mondiale. Dernier empereur des Indes, il meurt en 1952.",
+    "en": "He came to the throne in 1936 after his brother Edward VIII abdicated, and worked to overcome a persistent stammer to address the nation. He stayed in London during the Blitz and came to symbolise British resolve in the Second World War. The last Emperor of India, he died in 1952."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 6,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Discours du roi",
+      "en": "The King's Speech"
+    },
+    "description": {
+      "fr": "+2 en Charisme lors de la 2e manche.",
+      "en": "+2 Charisma in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

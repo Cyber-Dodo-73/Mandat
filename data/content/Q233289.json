@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q233289",
+  "role": {
+    "fr": "Premier ministre de l'Inde",
+    "en": "Prime Minister of India"
+  },
+  "bio": {
+    "fr": "Poète et orateur, figure du nationalisme hindou, il est le premier membre du BJP à diriger le gouvernement indien, brièvement en 1996 puis de 1998 à 2004. Son gouvernement procède aux essais nucléaires de Pokhran en 1998. L'année suivante, il se rend à Lahore en bus pour relancer le dialogue avec le Pakistan.",
+    "en": "A poet and orator from the Hindu nationalist movement, he was the first BJP politician to lead India's government, briefly in 1996 and then from 1998 to 2004. His government carried out the Pokhran nuclear tests in 1998. The next year he travelled to Lahore by bus to restart talks with Pakistan."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 7,
+    "charisma": 7,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Bus de Lahore",
+      "en": "Lahore Bus"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Diplomacy if you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q33866",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Vice-président, il accède à la présidence en 1901 après l'assassinat de McKinley, à 42 ans, le plus jeune président de l'histoire américaine. Il s'attaque aux grands monopoles, protège de vastes espaces naturels et reçoit en 1906 le prix Nobel de la paix pour sa médiation dans la guerre russo-japonaise.",
+    "en": "As vice president, he took office in 1901 after McKinley's assassination, at 42 the youngest president in American history. He took on the big trusts, protected vast natural areas and won the 1906 Nobel Peace Prize for mediating the Russo-Japanese War."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Gros bâton",
+      "en": "Big Stick"
+    },
+    "description": {
+      "fr": "−2 à la carte adverse dans le domaine de la manche lors de la 2e manche.",
+      "en": "−2 to the opposing card in the round's domain in round 2."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

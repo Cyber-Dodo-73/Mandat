@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q39464",
+  "role": {
+    "fr": "Premier ministre du Kampuchéa démocratique (Cambodge)",
+    "en": "Prime Minister of Democratic Kampuchea (Cambodia)"
+  },
+  "bio": {
+    "fr": "Chef des Khmers rouges, il prend Phnom Penh en avril 1975, vide les villes et impose le travail forcé dans les campagnes en abolissant monnaie et religion. Entre 1975 et 1979, son régime cause la mort d'environ 1,5 à 2 millions de Cambodgiens, près d'un quart de la population, par les exécutions, la famine et l'épuisement, notamment dans la prison S-21. Chassé par l'invasion vietnamienne en 1979, il meurt en 1998 sans avoir été jugé.",
+    "en": "Leader of the Khmer Rouge, he took Phnom Penh in April 1975, emptied the cities and imposed forced labour in the countryside, abolishing money and religion. Between 1975 and 1979 his regime caused the deaths of roughly 1.5 to 2 million Cambodians, close to a quarter of the population, through executions, famine and exhaustion, including at the S-21 prison. Driven out by Vietnam's invasion in 1979, he died in 1998 without ever facing trial."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 1,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Année zéro",
+      "en": "Year Zero"
+    },
+    "description": {
+      "fr": "-2 en Influence à la carte adverse lors de la première manche.",
+      "en": "-2 Influence to the opposing card in the first round."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

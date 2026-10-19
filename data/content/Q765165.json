@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q765165",
+  "role": {
+    "fr": "Secrétaire général du Parti communiste de l'Union soviétique",
+    "en": "General Secretary of the Communist Party of the Soviet Union"
+  },
+  "bio": {
+    "fr": "Il évince Nikita Khrouchtchev en 1964 et dirige l'URSS pendant dix-huit ans. Il mène la détente avec l'Occident, dont les accords SALT I de 1972, tout en écrasant le Printemps de Prague en 1968 et en envahissant l'Afghanistan en 1979. Sa fin de règne est associée à la stagnation économique.",
+    "en": "He ousted Nikita Khrushchev in 1964 and led the Soviet Union for eighteen years. He pursued détente with the West, including the 1972 SALT I agreements, while crushing the Prague Spring in 1968 and invading Afghanistan in 1979. His later years became synonymous with economic stagnation."
+  },
+  "stats": {
+    "influence": 10,
+    "diplomacy": 8,
+    "charisma": 4,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Doctrine Brejnev",
+      "en": "Brezhnev Doctrine"
+    },
+    "description": {
+      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Diplomacy to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

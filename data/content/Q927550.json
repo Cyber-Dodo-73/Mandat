@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q927550",
+  "role": {
+    "fr": "Premier ministre de l'Australie",
+    "en": "Prime Minister of Australia"
+  },
+  "bio": {
+    "fr": "Avocat célèbre pour l'affaire Spycatcher puis banquier d'affaires, il mène le camp républicain lors du référendum australien de 1999. Il évince Tony Abbott à la tête du Parti libéral et devient Premier ministre de 2015 à 2018. Son mandat voit la légalisation du mariage homosexuel avant qu'il ne soit lui-même renversé par son parti.",
+    "en": "A lawyer who made his name in the Spycatcher case and later an investment banker, he led the republican side in Australia's 1999 referendum. He ousted Tony Abbott as Liberal leader and served as prime minister from 2015 to 2018. Same-sex marriage was legalised on his watch before his own party removed him."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 7,
+    "charisma": 7,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Fronde interne",
+      "en": "Leadership Spill"
+    },
+    "description": {
+      "fr": "-2 en Influence pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "-2 Influence to the opposing card if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "malus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

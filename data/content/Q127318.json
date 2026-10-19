@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q127318",
+  "role": {
+    "fr": "Roi de Grande-Bretagne et d'Irlande",
+    "en": "King of Great Britain and Ireland"
+  },
+  "bio": {
+    "fr": "Roi de 1760 à 1820, il connaît l'un des plus longs règnes de l'histoire britannique. Son règne voit la perte des colonies américaines, les guerres contre la France révolutionnaire puis napoléonienne et l'union avec l'Irlande en 1801. Atteint de troubles mentaux, il laisse la régence à son fils à partir de 1811.",
+    "en": "King from 1760 to 1820, he had one of the longest reigns in British history. His reign saw the loss of the American colonies, the wars against revolutionary and Napoleonic France and the union with Ireland in 1801. Suffering from mental illness, he gave way to a regency under his son from 1811."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 3,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Fermier George",
+      "en": "Farmer George"
+    },
+    "description": {
+      "fr": "+2 en Influence si la carte adverse vient du même continent.",
+      "en": "+2 Influence if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}

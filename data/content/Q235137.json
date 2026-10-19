@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q235137",
+  "role": {
+    "fr": "Dirigeante de Fuerza Popular au Pérou",
+    "en": "Leader of Popular Force in Peru"
+  },
+  "bio": {
+    "fr": "Fille d'Alberto Fujimori, elle tient le rôle de première dame du Pérou dès l'âge de 19 ans. Députée puis cheffe du parti Fuerza Popular, elle échoue au second tour des présidentielles de 2011, 2016 et 2021. Poursuivie pour blanchiment d'argent dans l'affaire Odebrecht, elle passe plusieurs mois en détention provisoire.",
+    "en": "The daughter of Alberto Fujimori, she acted as Peru's first lady from the age of 19. A congresswoman and later leader of the Popular Force party, she lost presidential runoffs in 2011, 2016 and 2021. Prosecuted for money laundering in the Odebrecht affair, she spent several months in pre-trial detention."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 5,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "Fuerza Popular",
+      "en": "Popular Force"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est de l'époque contemporaine.",
+      "en": "+2 Charisma if the opposing card is from the contemporary era."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "contemporary"
+      }
+    }
+  }
+}

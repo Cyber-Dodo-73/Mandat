@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q7192",
+  "role": {
+    "fr": "Premier empereur de Chine",
+    "en": "First Emperor of China"
+  },
+  "bio": {
+    "fr": "Roi de Qin, il conquiert les autres royaumes combattants et unifie la Chine en 221 av. J.-C. Il impose une écriture, une monnaie et des poids et mesures communs, et fait relier des fortifications annonçant la Grande Muraille. Son règne est associé à une répression des lettrés et il est enterré avec l'armée de terre cuite.",
+    "en": "King of Qin, he conquered the other Warring States and unified China in 221 BC. He imposed a common script, currency and system of weights and measures, and linked up earlier walls into a forerunner of the Great Wall. His rule is associated with harsh repression of scholars, and he was buried with the Terracotta Army."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 2,
+    "charisma": 4,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Unification",
+      "en": "Unification"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse est de l'Antiquité.",
+      "en": "+2 Strategy if the opposing card is from Antiquity."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentEra",
+        "value": "antiquity"
+      }
+    }
+  }
+}

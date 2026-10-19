@@ -1,0 +1,34 @@
+{
+  "wikidataId": "Q11820",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Habile organisateur new-yorkais, il bâtit l'appareil du Parti démocrate et devient secrétaire d'État puis vice-président d'Andrew Jackson. Huitième président de 1837 à 1841, il voit son mandat assombri par la panique financière de 1837. Il se présente encore en 1848 pour le Free Soil Party, opposé à l'extension de l'esclavage.",
+    "en": "A skilled New York operator, he built the Democratic Party machine and served Andrew Jackson as Secretary of State and then vice president. His term as eighth President, from 1837 to 1841, was overshadowed by the financial Panic of 1837. He ran again in 1848 for the Free Soil Party, which opposed the spread of slavery."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 8,
+    "charisma": 4,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Le Petit Magicien",
+      "en": "The Little Magician"
+    },
+    "description": {
+      "fr": "Remporte les égalités lors de la 1re manche.",
+      "en": "Wins ties in the first round."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

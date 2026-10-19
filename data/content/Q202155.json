@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q202155",
+  "role": {
+    "fr": "Président du Burkina Faso",
+    "en": "President of Burkina Faso"
+  },
+  "bio": {
+    "fr": "Capitaine de l’armée, il prend le pouvoir en Haute-Volta en 1983 et rebaptise le pays Burkina Faso l’année suivante. Il lance des campagnes de vaccination et d’alphabétisation, promeut les droits des femmes et dénonce la dette et l’impérialisme. Il est tué en octobre 1987 lors du coup d’État qui porte Blaise Compaoré au pouvoir.",
+    "en": "An army captain, he seized power in Upper Volta in 1983 and renamed it Burkina Faso a year later. He launched mass vaccination and literacy drives, promoted women’s rights and railed against debt and imperialism. He was killed in October 1987 in the coup that brought Blaise Compaoré to power."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 4,
+    "charisma": 9,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Patrie ou la mort",
+      "en": "Homeland or Death"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est plus rare.",
+      "en": "+2 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

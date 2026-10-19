@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q170596",
+  "role": {
+    "fr": "Officier de liaison britannique auprès de la révolte arabe",
+    "en": "British liaison officer to the Arab Revolt"
+  },
+  "bio": {
+    "fr": "Archéologue passé par le renseignement militaire, il conseille l'émir Fayçal pendant la révolte arabe de 1916-1918 contre les Ottomans et participe à la prise d'Aqaba en 1917. Son récit, Les Sept Piliers de la sagesse, fait de lui « Lawrence d'Arabie ». Il meurt en 1935 dans un accident de moto.",
+    "en": "An archaeologist turned intelligence officer, he advised Emir Faisal during the 1916–1918 Arab Revolt against the Ottomans and took part in the capture of Aqaba in 1917. His memoir, Seven Pillars of Wisdom, made him famous as 'Lawrence of Arabia'. He died in a motorcycle crash in 1935."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 4,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Raid sur Aqaba",
+      "en": "Aqaba Raid"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Strategy if the opposing card is from a different continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

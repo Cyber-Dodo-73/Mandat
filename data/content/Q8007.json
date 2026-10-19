@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q8007",
+  "role": {
+    "fr": "Président des États-Unis",
+    "en": "President of the United States"
+  },
+  "bio": {
+    "fr": "Élu en 1932 en pleine Grande Dépression, il lance le New Deal, un ensemble de programmes publics et de réformes sociales. Seul président élu quatre fois, il conduit les États-Unis dans la Seconde Guerre mondiale après Pearl Harbor et meurt en avril 1945, peu avant la victoire.",
+    "en": "Elected in 1932 in the depths of the Great Depression, he launched the New Deal, a wave of public programmes and social reforms. The only president elected four times, he led the United States into the Second World War after Pearl Harbor and died in April 1945, shortly before victory."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 5,
+    "charisma": 6,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Causeries au coin du feu",
+      "en": "Fireside Chats"
+    },
+    "description": {
+      "fr": "+2 en Influence si vous avez perdu plus de manches que l'adversaire.",
+      "en": "+2 Influence when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

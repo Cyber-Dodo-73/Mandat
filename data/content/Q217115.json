@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q217115",
+  "role": {
+    "fr": "Chef de la république de Tchétchénie (Russie)",
+    "en": "Head of the Chechen Republic (Russia)"
+  },
+  "bio": {
+    "fr": "Fils d’Akhmad Kadyrov, assassiné en 2004, il dirige la Tchétchénie depuis 2007 avec le soutien de Vladimir Poutine. Des organisations de défense des droits humains documentent sous son autorité enlèvements, tortures et exécutions extrajudiciaires, ainsi qu’une campagne de persécution d’hommes homosexuels en 2017. Ses forces sont engagées dans l’invasion de l’Ukraine.",
+    "en": "The son of Akhmad Kadyrov, who was assassinated in 2004, he has ruled Chechnya since 2007 with Vladimir Putin’s backing. Human rights groups have documented abductions, torture and extrajudicial killings under his rule, along with a 2017 campaign against gay men. His forces have fought in Russia’s invasion of Ukraine."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 4,
+    "charisma": 6,
+    "strategy": 8
+  },
+  "ability": {
+    "name": {
+      "fr": "Garde personnelle",
+      "en": "Personal Guard"
+    },
+    "description": {
+      "fr": "+2 en Influence lors de la manche 2.",
+      "en": "+2 Influence in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q16581287",
+  "name": {
+    "fr": "Jeanine Áñez",
+    "en": "Jeanine Áñez"
+  },
+  "role": {
+    "fr": "Présidente de la Bolivie",
+    "en": "President of Bolivia"
+  },
+  "bio": {
+    "fr": "Sénatrice de droite, elle se proclame présidente par intérim en novembre 2019 après la démission d’Evo Morales sous la pression de la rue et de l’armée. Son gouvernement de transition est marqué par des répressions meurtrières à Sacaba et Senkata ; elle est condamnée en 2022 à dix ans de prison.",
+    "en": "A right-wing senator, she declared herself interim president in November 2019 after Evo Morales resigned under pressure from protesters and the military. Her caretaker government saw deadly crackdowns at Sacaba and Senkata, and in 2022 she was sentenced to ten years in prison."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 3,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Intérim",
+      "en": "Interim"
+    },
+    "description": {
+      "fr": "+1 en Influence en permanence.",
+      "en": "+1 Influence at all times."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

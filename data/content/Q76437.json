@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q76437",
+  "role": {
+    "fr": "Président du Reich allemand",
+    "en": "President of the German Reich"
+  },
+  "bio": {
+    "fr": "Commandant de la flotte sous-marine puis de toute la marine de guerre nazie à partir de 1943, il est désigné par Hitler comme successeur et dirige l’Allemagne quelques semaines en mai 1945, jusqu’à la capitulation. Condamné à Nuremberg pour crimes de guerre et crimes contre la paix, il purge dix ans de prison.",
+    "en": "Commander of the U-boat arm and, from 1943, of the whole Nazi navy, he was named by Hitler as his successor and led Germany for a few weeks in May 1945 until its surrender. Convicted at Nuremberg of war crimes and crimes against peace, he served ten years in prison."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 4,
+    "strategy": 9
+  },
+  "ability": {
+    "name": {
+      "fr": "Meute de sous-marins",
+      "en": "Wolfpack"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si vous avez perdu plus de manches que l’adversaire.",
+      "en": "+2 Strategy when you have lost more rounds than your opponent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "behind"
+      }
+    }
+  }
+}

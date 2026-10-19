@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q131248",
+  "name": {
+    "fr": "Lee Kuan Yew",
+    "en": "Lee Kuan Yew"
+  },
+  "role": {
+    "fr": "Premier ministre de Singapour",
+    "en": "Prime Minister of Singapore"
+  },
+  "bio": {
+    "fr": "Fondateur du Parti d'action populaire, il est le premier Premier ministre de Singapour, de 1959 à 1990. Après la séparation d'avec la Malaisie en 1965, il transforme la cité-État en plaque tournante du commerce et de la finance, au prix de lois strictes et d'un encadrement serré de l'opposition et de la presse.",
+    "en": "The founder of the People's Action Party, he was Singapore's first prime minister, from 1959 to 1990. After the split from Malaysia in 1965 he turned the city-state into a trading and financial hub, governing through strict laws and tight limits on the opposition and the press."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 4,
+    "charisma": 2,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Cité-État",
+      "en": "City-State"
+    },
+    "description": {
+      "fr": "+1 en Stratégie.",
+      "en": "+1 Strategy."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

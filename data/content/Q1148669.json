@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q1148669",
+  "role": {
+    "fr": "Président de l’Afrique du Sud",
+    "en": "President of South Africa"
+  },
+  "bio": {
+    "fr": "Fondateur du syndicat national des mineurs en 1982, il est le principal négociateur de l’ANC lors de la fin de l’apartheid et de l’élaboration de la Constitution de 1996. Devenu homme d’affaires, il revient en politique et accède à la présidence de l’Afrique du Sud en 2018.",
+    "en": "Founder of the National Union of Mineworkers in 1982, he was the ANC’s chief negotiator during the end of apartheid and the drafting of the 1996 constitution. After a career in business he returned to politics and became president of South Africa in 2018."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 8,
+    "charisma": 4,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Table des négociations",
+      "en": "Negotiating Table"
+    },
+    "description": {
+      "fr": "+2 en Diplomatie lors des manches de Diplomatie.",
+      "en": "+2 Diplomacy in Diplomacy rounds."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "diplomacy",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "diplomacy"
+      }
+    }
+  }
+}

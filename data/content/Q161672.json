@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q161672",
+  "role": {
+    "fr": "Premier ministre du Congo",
+    "en": "Prime Minister of the Congo"
+  },
+  "bio": {
+    "fr": "Figure de proue du Mouvement national congolais, il devient en juin 1960 le premier chef de gouvernement du Congo indépendant et dénonce publiquement la colonisation belge le jour même de l’indépendance. Destitué quelques mois plus tard en pleine sécession du Katanga, il est livré à ses ennemis et exécuté en janvier 1961, avec la complicité d’officiers belges.",
+    "en": "Leader of the Congolese National Movement, he became the first head of government of the independent Congo in June 1960, openly condemning Belgian colonial rule on Independence Day. Ousted within months amid the Katanga secession, he was handed over to his rivals and shot in January 1961 with Belgian officers present."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 6,
+    "charisma": 10,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Discours de l’indépendance",
+      "en": "Independence Speech"
+    },
+    "description": {
+      "fr": "+2 en Charisme lors de la manche 1.",
+      "en": "+2 Charisma in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

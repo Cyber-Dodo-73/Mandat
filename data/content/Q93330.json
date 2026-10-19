@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q93330",
+  "role": {
+    "fr": "Président de l’Argentine",
+    "en": "President of Argentina"
+  },
+  "bio": {
+    "fr": "Officier devenu ministre du Travail après le coup d’État de 1943, il est élu président de l’Argentine en 1946 et gouverne avec son épouse Eva. Il fonde le péronisme, mêlant droits sociaux, nationalisations et pouvoir personnel, avant d’être renversé en 1955. Après dix-huit ans d’exil, il redevient président en 1973 et meurt en fonction l’année suivante.",
+    "en": "An army officer who became labour minister after the 1943 coup, he was elected president of Argentina in 1946 and governed alongside his wife, Eva. His Peronist movement combined workers’ rights, nationalisation and strongman rule until a coup toppled him in 1955. After eighteen years in exile he returned to the presidency in 1973 and died in office the next year."
+  },
+  "stats": {
+    "influence": 8,
+    "diplomacy": 5,
+    "charisma": 9,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Descamisados",
+      "en": "The Shirtless Ones"
+    },
+    "description": {
+      "fr": "+2 dans le domaine de la manche si la carte adverse vient du même continent.",
+      "en": "+2 in the round’s domain if the opposing card is from the same continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "any",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "same"
+      }
+    }
+  }
+}
