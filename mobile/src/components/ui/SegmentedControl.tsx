@@ -1,5 +1,6 @@
 import { StyleSheet, View } from 'react-native';
 
+import { playSound } from '@/lib/sounds';
 import { radius, spacing, useTheme } from '@/theme';
 
 import { PressableScale } from './PressableScale';
@@ -36,7 +37,10 @@ export function SegmentedControl<T extends string>({
             accessibilityRole="radio"
             accessibilityLabel={option.label}
             accessibilityState={{ selected }}
-            onPress={() => onChange(option.value)}
+            onPress={() => {
+              if (!selected) playSound('toggle');
+              onChange(option.value);
+            }}
             containerStyle={styles.segmentTarget}
             style={[styles.segment, selected ? { backgroundColor: colors.brand, borderBottomColor: colors.brandEdge } : null]}
           >

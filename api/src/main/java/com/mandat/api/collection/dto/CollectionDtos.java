@@ -29,4 +29,17 @@ public final class CollectionDtos {
             String cardId, CardFinish finish, int remainingQuantity, int influenceGained, int influenceBalance) {}
 
     public record CraftResponse(String cardId, CardFinish finish, int influenceSpent, int influenceBalance) {}
+
+    public record UpgradeRequest(
+            @Schema(description = "Only standard is upgradable") @NotNull CardFinish from,
+            @Schema(description = "Only holo is on sale") @NotNull CardFinish to) {}
+
+    public record UpgradeResponse(
+            String cardId,
+            CardFinish from,
+            CardFinish to,
+            int influenceSpent,
+            int influenceBalance,
+            @Schema(description = "Standard copies left (the upgraded copy is removed from them)") int remainingFrom,
+            @Schema(description = "Holo copies owned after the upgrade") int quantityTo) {}
 }

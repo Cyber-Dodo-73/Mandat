@@ -17,7 +17,7 @@ import { scheduleOnRN } from 'react-native-worklets';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
 import { haptics } from '@/lib/haptics';
-import { playSound } from '@/lib/sounds';
+import { playSound, stopSound } from '@/lib/sounds';
 import { fontFamilies } from '@/theme';
 import { palettes } from '@/theme/colors';
 import { rarityRank, rarityStyles } from '@/theme/rarity';
@@ -64,6 +64,8 @@ export type CardRevealProps = {
 type Phase = 'idle' | 'running' | 'done';
 
 const SWIPE_DISTANCE = 40;
+/** Rarity rank (common 0 … mythic 5) from which the suspense riser plays: rare and better. */
+const SUSPENSE_SOUND_MIN_RANK = 2;
 const GOLD_PARTICLES = [GOLD.base, GOLD.glint, ...GOLD.gradient];
 const FOIL_SWEEP = ['rgba(255,255,255,0)', 'rgba(255,255,255,0.7)', 'rgba(255,255,255,0)'] as const;
 const GOLD_SWEEP = ['rgba(255,248,220,0)', 'rgba(255,236,170,0.85)', 'rgba(255,248,220,0)'] as const;
@@ -145,6 +147,7 @@ export function CardReveal({
       cancelAnimation(shake);
       shake.set(0);
       if (skipped) {
+        stopSound('suspense_build');
         cancelAnimation(spin);
         spin.set(0);
         flip.set(1);
@@ -212,6 +215,8 @@ export function CardReveal({
     }
     // Building heartbeat: light ticks closer and closer until the flip.
     for (const tick of timeline.suspenseTicksMs) at(tick, () => haptics.tearTick());
+    // Rising tension before rare-or-better cards (stopped if the reveal is skipped).
+    if (suspenseMs > 0 && rank >= SUSPENSE_SOUND_MIN_RANK) playSound('suspense_build');
 
     // 2. Flip.
     at(suspenseMs, () => {

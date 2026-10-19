@@ -77,7 +77,7 @@ export function RevealStack({ cards, cardWidth, onDone }: RevealStackProps) {
       const drawn = ordered[current.index];
       if (drawn) setLeaving((list) => [...list, { key: `${current.index}-${drawn.cardId}`, drawn, direction }]);
       haptics.tap();
-      playSound('flip');
+      playSound('card_slide');
       if (state.phase === 'summary') {
         doneTimer.current = setTimeout(onDone, reduceMotion ? 0 : FLY_MS * 0.6);
       }

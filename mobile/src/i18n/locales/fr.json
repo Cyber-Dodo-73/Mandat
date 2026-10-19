@@ -364,7 +364,13 @@
       "more": "Un de plus",
       "showcase": "Vitrine",
       "favorite": "Favorite",
-      "soon": "Vitrine et favorite arrivent avec le profil."
+      "soon": "Vitrine et favorite arrivent avec le profil.",
+      "upgrade": "Holo",
+      "upgradeTitle": "Améliorer en Holo",
+      "upgradeExplain": "Un exemplaire standard devient Holo, avec ses reflets. La carte reste dans ta collection.",
+      "upgradeConfirm": "Améliorer en Holo",
+      "upgraded": "Carte améliorée en Holo, −{{amount}} Influence",
+      "upgradeA11y": "Améliorer un exemplaire standard en Holo"
     }
   },
   "user": {
@@ -465,7 +471,8 @@
     "quiz_answer_out_of_order": "Cette question a déjà reçu une réponse.",
     "duel_finished": "Ce duel est terminé.",
     "duel_card_unavailable": "Cette carte n'est plus dans ta main.",
-    "craft_limit_reached": "Plus de fabrication disponible pour le moment : une nouvelle arrive toutes les 48 h."
+    "craft_limit_reached": "Plus de fabrication disponible pour le moment : une nouvelle arrive toutes les 48 h.",
+    "finish_upgrade_unsupported": "Seule l'amélioration de Standard vers Holo est possible."
   },
   "notFound": {
     "title": "Page introuvable",

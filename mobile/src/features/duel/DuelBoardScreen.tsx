@@ -103,6 +103,7 @@ function Board({ duel, bottomInset }: { duel: Duel; bottomInset: number }) {
         setSelected(null);
         setVerdict(false);
         setPhase({ kind: 'reveal', round: view, final: next });
+        playSound('duel_clash');
         verdictTimer.current = setTimeout(
           () => {
             setVerdict(true);

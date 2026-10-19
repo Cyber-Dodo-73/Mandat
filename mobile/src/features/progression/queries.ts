@@ -3,7 +3,7 @@ import { useMutation, useQuery, useQueryClient, type QueryClient } from '@tansta
 import { packsQueryKey } from '@/features/packs/queries';
 import { meQueryKey, progressionQueryKey } from '@/features/player/queries';
 import { haptics } from '@/lib/haptics';
-import { playSound } from '@/lib/sounds';
+import { playCoin, playSound } from '@/lib/sounds';
 
 import {
   claimMission,
@@ -59,6 +59,7 @@ export function useClaimMission() {
     onSuccess: (result) => {
       haptics.missionComplete();
       playSound('mission_complete');
+      playCoin(result.reward.influence);
       celebrate(result);
       refreshAfterReward(queryClient);
     },
@@ -73,6 +74,7 @@ export function useClaimSeasonTier() {
     onSuccess: (result) => {
       haptics.missionComplete();
       playSound('mission_complete');
+      playCoin(result.reward.influence);
       celebrate(result);
       refreshAfterReward(queryClient);
     },

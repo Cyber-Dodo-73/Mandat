@@ -45,8 +45,7 @@ public class LimitsController {
         return new LimitsResponse(
                 cap(RewardLimits.QUIZ_REWARDS_PER_DAY, quizUsed),
                 cap(RewardLimits.DUEL_WIN_REWARDS_PER_DAY, duelUsed),
-                new CraftAllowanceDto(allowance.available(), allowance.max(),
-                        (int) RewardLimits.CRAFT_INTERVAL.toHours(), allowance.nextAt()),
+                new CraftAllowanceDto(allowance.available(), allowance.max(), allowance.intervalHours(), allowance.nextAt()),
                 daily.resetsAt(userId, now));
     }
 

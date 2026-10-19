@@ -6,6 +6,7 @@ public enum WalletSource {
     PACK_OPEN("pack.open"),
     RECYCLE("collection.recycle"),
     CRAFT("collection.craft"),
+    FINISH_UPGRADE("collection.upgrade"),
     LEVEL_REWARD("progression.level"),
     PROGRESSION_REWARD("progression.reward"),
     QUIZ_REWARD("quiz.reward"),

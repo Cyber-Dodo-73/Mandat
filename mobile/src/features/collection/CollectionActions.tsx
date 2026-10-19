@@ -1,22 +1,33 @@
-import { useState } from 'react';
+import * as Crypto from 'expo-crypto';
+import { useEffect, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
+import Animated, {
+  useAnimatedStyle,
+  useSharedValue,
+  withDelay,
+  withRepeat,
+  withSequence,
+  withTiming,
+} from 'react-native-reanimated';
 
+import { TradingCard } from '@/components/cards';
 import { OfflineNotice } from '@/components/navigation/OfflineNotice';
 import { Body, Button3D, Caption, Card as Surface, Heading, Icon, PressableScale, Sheet, Text } from '@/components/ui';
 import { useProgressionQuery } from '@/features/player/queries';
 import { ProfileCardActions } from '@/features/profile/ProfileCardActions';
 import { useCountdown } from '@/hooks/useCountdown';
 import { useIsOnline } from '@/hooks/useIsOnline';
+import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { formatCountdown, formatDate, formatNumber, useLanguage, useTranslation } from '@/i18n';
 import { describeError } from '@/lib/api';
 import { haptics } from '@/lib/haptics';
-import { playSound } from '@/lib/sounds';
+import { playCoin, playSound } from '@/lib/sounds';
 import { parseInstant } from '@/lib/time';
 import { spacing, useTheme } from '@/theme';
 import type { Card, CardFinish } from '@/types/card';
 
-import { craftCostPreview, recyclePreview, useEconomyRules, useLimitsQuery } from './economy';
-import { useCraftMutation, useOwnedCopies, useRecycleMutation, type OwnedCard } from './queries';
+import { craftCostPreview, holoUpgradeCostPreview, recyclePreview, useEconomyRules, useLimitsQuery } from './economy';
+import { useCraftMutation, useOwnedCopies, useRecycleMutation, useUpgradeMutation, type OwnedCard } from './queries';
 
 type Feedback = { tone: 'success' | 'error'; message: string } | null;
 
@@ -60,6 +71,7 @@ function CopyRow({
   const { t } = useTranslation();
   const language = useLanguage();
   const [open, setOpen] = useState(false);
+  const [upgradeOpen, setUpgradeOpen] = useState(false);
   const duplicates = copy.quantity - 1;
   const firstMs = parseInstant(copy.firstObtainedAt);
 
@@ -73,6 +85,17 @@ function CopyRow({
           <Caption>{t('card.firstObtained', { date: formatDate(new Date(firstMs), language, { dateStyle: 'long' }) })}</Caption>
         ) : null}
       </View>
+      {copy.finish === 'standard' ? (
+        <Button3D
+          label={t('card.actions.upgrade')}
+          accessibilityHint={t('card.actions.upgradeA11y')}
+          icon="sparkles"
+          size="sm"
+          variant="brand"
+          disabled={!online}
+          onPress={() => setUpgradeOpen(true)}
+        />
+      ) : null}
       {duplicates > 0 ? (
         <Button3D
           label={t('card.actions.recycle')}
@@ -82,6 +105,9 @@ function CopyRow({
           disabled={!online}
           onPress={() => setOpen(true)}
         />
+      ) : null}
+      {copy.finish === 'standard' ? (
+        <UpgradeSheet visible={upgradeOpen} onClose={() => setUpgradeOpen(false)} card={card} onFeedback={onFeedback} />
       ) : null}
       <RecycleSheet
         visible={open}
@@ -124,7 +150,7 @@ function RecycleSheet({
       {
         onSuccess: (result) => {
           haptics.missionComplete();
-          playSound('answer_correct');
+          playCoin(result.influenceGained, 0);
           onFeedback({
             tone: 'success',
             message: t('card.actions.recycled', { amount: formatNumber(result.influenceGained, language) }),
@@ -147,6 +173,99 @@ function RecycleSheet({
         <Stepper value={amount} min={1} max={Math.max(1, duplicates)} onChange={setQuantity} />
         <InfluenceLine label={t('card.actions.gain')} amount={preview} />
         <Button3D label={t('card.actions.recycleConfirm', { count: amount })} fullWidth onPress={confirm} />
+      </View>
+    </Sheet>
+  );
+}
+
+const UPGRADE_PREVIEW_WIDTH = 170;
+const HOLO_FADE_MS = 900;
+
+/**
+ * Standard → holo for Influence. The preview shows the card turning holo (cross-fade + shine pulse);
+ * one Idempotency-Key per opening of the sheet, reused if the request is retried.
+ */
+function UpgradeSheet({
+  visible,
+  onClose,
+  card,
+  onFeedback,
+}: {
+  visible: boolean;
+  onClose: () => void;
+  card: Card;
+  onFeedback: (feedback: Feedback) => void;
+}) {
+  const { t } = useTranslation();
+  const language = useLanguage();
+  const reduceMotion = useReduceMotion();
+  const rules = useEconomyRules();
+  const progression = useProgressionQuery();
+  const upgrade = useUpgradeMutation();
+  const [idempotencyKey, setIdempotencyKey] = useState(() => Crypto.randomUUID());
+  const cost = holoUpgradeCostPreview(rules, card.rarity);
+  const balance = progression.data?.influence;
+  const affordable = balance === undefined || balance >= cost;
+  const holo = useSharedValue(0);
+
+  useEffect(() => {
+    if (!visible) return;
+    holo.set(0);
+    if (reduceMotion) {
+      holo.set(1);
+      return;
+    }
+    holo.set(withRepeat(withSequence(withDelay(500, withTiming(1, { duration: HOLO_FADE_MS })), withDelay(900, withTiming(0, { duration: 400 }))), -1));
+  }, [holo, reduceMotion, visible]);
+
+  const holoStyle = useAnimatedStyle(() => ({ opacity: holo.get() }));
+
+  const confirm = () => {
+    upgrade.mutate(
+      { cardId: card.id, idempotencyKey },
+      {
+        onSuccess: (result) => {
+          haptics.flipRare();
+          playSound('reveal_rare');
+          playCoin(result.influenceSpent, 0);
+          setIdempotencyKey(Crypto.randomUUID());
+          onFeedback({
+            tone: 'success',
+            message: t('card.actions.upgraded', { amount: formatNumber(result.influenceSpent, language) }),
+          });
+          onClose();
+        },
+        onError: (error) => {
+          haptics.error();
+          onFeedback({ tone: 'error', message: describeError(error, t) });
+        },
+      },
+    );
+  };
+
+  return (
+    <Sheet visible={visible} onClose={onClose} title={t('card.actions.upgradeTitle')}>
+      <View style={styles.sheet}>
+        <View style={styles.upgradePreview}>
+          <TradingCard card={card} finish="standard" width={UPGRADE_PREVIEW_WIDTH} interactive={false} gyro={false} />
+          <Animated.View style={[StyleSheet.absoluteFill, styles.upgradeOverlay, holoStyle]} pointerEvents="none">
+            <TradingCard card={card} finish="holo" width={UPGRADE_PREVIEW_WIDTH} interactive={false} gyro={false} />
+          </Animated.View>
+        </View>
+        <Body>{t('card.actions.upgradeExplain')}</Body>
+        <InfluenceLine label={t('card.actions.cost')} amount={cost} />
+        {balance !== undefined ? (
+          <Caption>{t('card.actions.balance', { amount: formatNumber(balance, language) })}</Caption>
+        ) : null}
+        <Button3D
+          label={t('card.actions.upgradeConfirm')}
+          icon="sparkles"
+          fullWidth
+          disabled={!affordable || upgrade.isPending}
+          loading={upgrade.isPending}
+          onPress={confirm}
+        />
+        {affordable ? null : <Caption>{t('card.actions.notEnough')}</Caption>}
       </View>
     </Sheet>
   );
@@ -283,4 +402,6 @@ const styles = StyleSheet.create({
   stepValue: { minWidth: 48, textAlign: 'center' },
   influence: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   influenceValue: { flexDirection: 'row', alignItems: 'center', gap: spacing.xxs },
+  upgradePreview: { alignSelf: 'center' },
+  upgradeOverlay: { alignItems: 'center' },
 });

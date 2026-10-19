@@ -21,12 +21,12 @@ const HOUR = 3_600_000;
 
 export const FALLBACK_RULES: EconomyRules = {
   rarities: [
-    { rarity: 'common', craftCost: 100, recycleValue: 10, duplicateBonus: 2 },
-    { rarity: 'uncommon', craftCost: 200, recycleValue: 20, duplicateBonus: 4 },
-    { rarity: 'rare', craftCost: 500, recycleValue: 50, duplicateBonus: 10 },
-    { rarity: 'epic', craftCost: 1200, recycleValue: 120, duplicateBonus: 25 },
-    { rarity: 'legendary', craftCost: 3000, recycleValue: 300, duplicateBonus: 60 },
-    { rarity: 'mythic', craftCost: 8000, recycleValue: 800, duplicateBonus: 150 },
+    { rarity: 'common', craftCost: 100, holoUpgradeCost: 200, recycleValue: 10, duplicateBonus: 2 },
+    { rarity: 'uncommon', craftCost: 200, holoUpgradeCost: 400, recycleValue: 20, duplicateBonus: 4 },
+    { rarity: 'rare', craftCost: 500, holoUpgradeCost: 1000, recycleValue: 50, duplicateBonus: 10 },
+    { rarity: 'epic', craftCost: 1200, holoUpgradeCost: 2400, recycleValue: 120, duplicateBonus: 25 },
+    { rarity: 'legendary', craftCost: 3000, holoUpgradeCost: 6000, recycleValue: 300, duplicateBonus: 60 },
+    { rarity: 'mythic', craftCost: 8000, holoUpgradeCost: 16000, recycleValue: 800, duplicateBonus: 150 },
   ],
   finishes: [
     { finish: 'standard', multiplier: 1 },
@@ -70,4 +70,9 @@ export function recyclePreview(rules: EconomyRules, rarity: Rarity, finish: Card
 
 export function craftCostPreview(rules: EconomyRules, rarity: Rarity): number {
   return rarityValues(rules, rarity)?.craftCost ?? 0;
+}
+
+/** Influence to turn one standard copy into a holo copy (server rule: twice the craft cost). */
+export function holoUpgradeCostPreview(rules: EconomyRules, rarity: Rarity): number {
+  return rarityValues(rules, rarity)?.holoUpgradeCost ?? 0;
 }

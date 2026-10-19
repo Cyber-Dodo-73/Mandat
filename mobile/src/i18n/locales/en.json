@@ -364,7 +364,13 @@
       "more": "One more",
       "showcase": "Showcase",
       "favorite": "Favorite",
-      "soon": "Showcase and favorite arrive with the profile."
+      "soon": "Showcase and favorite arrive with the profile.",
+      "upgrade": "Holo",
+      "upgradeTitle": "Upgrade to Holo",
+      "upgradeExplain": "One standard copy becomes Holo, with its shine. The card stays in your collection.",
+      "upgradeConfirm": "Upgrade to Holo",
+      "upgraded": "Card upgraded to Holo, −{{amount}} Influence",
+      "upgradeA11y": "Upgrade one standard copy to Holo"
     }
   },
   "user": {
@@ -465,7 +471,8 @@
     "quiz_answer_out_of_order": "This question has already been answered.",
     "duel_finished": "This duel is over.",
     "duel_card_unavailable": "This card is no longer in your hand.",
-    "craft_limit_reached": "No craft available right now: a new one arrives every 48 h."
+    "craft_limit_reached": "No craft available right now: a new one arrives every 48 h.",
+    "finish_upgrade_unsupported": "Only Standard to Holo upgrades are available."
   },
   "notFound": {
     "title": "Page not found",

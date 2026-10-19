@@ -7,6 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Icon, Text, type IconName } from '@/components/ui';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { haptics } from '@/lib/haptics';
+import { playSound } from '@/lib/sounds';
 import { spacing, useTheme } from '@/theme';
 import { instant, springs } from '@/theme/motion';
 
@@ -100,6 +101,7 @@ function TabItem({ label, icon, focused, onPress }: TabProps) {
       onPressIn={() => {
         press.set(withSpring(0.86, springs.press));
         haptics.toggle();
+        playSound('toggle');
       }}
       onPressOut={() => press.set(withSpring(1, springs.press))}
       onPress={onPress}
@@ -134,6 +136,7 @@ function HubTab({ label, icon, focused, onPress }: TabProps) {
       onPressIn={() => {
         sinkTo(1);
         haptics.tap();
+        playSound('toggle');
       }}
       onPressOut={() => sinkTo(0)}
       onPress={onPress}

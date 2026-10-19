@@ -50,8 +50,10 @@ export function PackCarousel({ packs, season, packWidth, activeIndex, onActiveCh
     onActiveChange(index);
   };
 
+  // Capture the last index only: the whole packs array would be copied to the UI thread every render.
+  const lastIndex = packs.length - 1;
   useAnimatedReaction(
-    () => Math.max(0, Math.min(packs.length - 1, Math.round(scrollX.get() / step))),
+    () => Math.max(0, Math.min(lastIndex, Math.round(scrollX.get() / step))),
     (index, previous) => {
       if (previous !== null && index !== previous) scheduleOnRN(changeActive, index);
     },

@@ -194,6 +194,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/collection/{cardId}/upgrade": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Upgrade one standard copy to holo with Influence
+         * @description Idempotent: replaying the same Idempotency-Key returns the same result without spending again.
+         */
+        post: operations["upgrade"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/duels": {
         parameters: {
             query?: never;
@@ -1428,6 +1448,8 @@ export interface components {
             craftCost: number;
             /** Format: int32 */
             duplicateBonus: number;
+            /** Format: int32 */
+            holoUpgradeCost: number;
             /** @enum {string} */
             rarity: "common" | "uncommon" | "rare" | "epic" | "legendary" | "mythic";
             /** Format: int32 */
@@ -1586,6 +1608,39 @@ export interface components {
             sound?: boolean | null;
             /** @example Europe/Paris */
             timezone?: string | null;
+        };
+        UpgradeRequest: {
+            /**
+             * @description Only standard is upgradable
+             * @enum {string}
+             */
+            from: "standard" | "holo" | "full_art" | "gold";
+            /**
+             * @description Only holo is on sale
+             * @enum {string}
+             */
+            to: "standard" | "holo" | "full_art" | "gold";
+        };
+        UpgradeResponse: {
+            cardId: string;
+            /** @enum {string} */
+            from: "standard" | "holo" | "full_art" | "gold";
+            /** Format: int32 */
+            influenceBalance: number;
+            /** Format: int32 */
+            influenceSpent: number;
+            /**
+             * Format: int32
+             * @description Holo copies owned after the upgrade
+             */
+            quantityTo: number;
+            /**
+             * Format: int32
+             * @description Standard copies left (the upgraded copy is removed from them)
+             */
+            remainingFrom: number;
+            /** @enum {string} */
+            to: "standard" | "holo" | "full_art" | "gold";
         };
         Wallet: {
             /** Format: int32 */
@@ -1850,6 +1905,34 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["RecycleResponse"];
+                };
+            };
+        };
+    };
+    upgrade: {
+        parameters: {
+            query?: never;
+            header?: {
+                "Idempotency-Key"?: string;
+            };
+            path: {
+                cardId: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["UpgradeRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["UpgradeResponse"];
                 };
             };
         };

@@ -7,6 +7,7 @@ import com.mandat.api.collection.dto.CollectionDtos.CollectionResponse;
 import com.mandat.api.collection.dto.CollectionDtos.CraftResponse;
 import com.mandat.api.collection.dto.CollectionDtos.OwnedCardDto;
 import com.mandat.api.collection.dto.CollectionDtos.RecycleResponse;
+import com.mandat.api.collection.dto.CollectionDtos.UpgradeResponse;
 import com.mandat.api.common.error.ApiException;
 import com.mandat.api.common.error.ErrorCode;
 import com.mandat.api.common.events.CardCraftedEvent;
@@ -28,6 +29,7 @@ import org.springframework.jdbc.core.simple.JdbcClient;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+import tools.jackson.databind.json.JsonMapper;
 
 @Service
 public class CollectionService {
@@ -39,6 +41,7 @@ public class CollectionService {
     private final JdbcClient jdbc;
     private final Clock clock;
     private final CraftAllowanceService craftAllowance;
+    private final JsonMapper jsonMapper;
 
     public CollectionService(
             CollectionItemRepository repository,
@@ -47,7 +50,9 @@ public class CollectionService {
             ApplicationEventPublisher events,
             JdbcClient jdbc,
             Clock clock,
-            CraftAllowanceService craftAllowance) {
+            CraftAllowanceService craftAllowance,
+            JsonMapper jsonMapper) {
+        this.jsonMapper = jsonMapper;
         this.repository = repository;
         this.catalogService = catalogService;
         this.walletService = walletService;
@@ -166,6 +171,71 @@ public class CollectionService {
         events.publishEvent(new CardCraftedEvent(userId, cardId, cost, clock.instant()));
         return new CraftResponse(cardId, CardFinish.STANDARD, cost, walletService.balance(userId).influence());
     }
+
+    /**
+     * Turns one owned standard copy into a holo copy for Influence (an Influence sink, no allowance).
+     * Idempotent: replaying the same key returns the stored response without spending again.
+     */
+    @Transactional
+    public UpgradeResponse upgrade(UUID userId, String cardId, CardFinish from, CardFinish to, String idempotencyKey) {
+        if (from != EconomyRules.UPGRADE_FROM || to != EconomyRules.UPGRADE_TO) {
+            throw new ApiException(ErrorCode.FINISH_UPGRADE_UNSUPPORTED, "Only standard to holo upgrades are available");
+        }
+        Optional<StoredUpgrade> previous = jdbc.sql("""
+                        select card_id, response from finish_upgrades
+                        where user_id = :userId and idempotency_key = :key for update
+                        """)
+                .param("userId", userId)
+                .param("key", idempotencyKey)
+                .query((rs, row) -> new StoredUpgrade(rs.getString("card_id"), rs.getString("response")))
+                .optional();
+        if (previous.isPresent()) {
+            if (!previous.get().cardId().equals(cardId)) {
+                throw new ApiException(ErrorCode.IDEMPOTENCY_KEY_REUSED, "This Idempotency-Key was used for another upgrade");
+            }
+            return jsonMapper.readValue(previous.get().response(), UpgradeResponse.class);
+        }
+        Card card = catalogService.find(cardId).orElseThrow(() -> new ApiException(ErrorCode.NOT_FOUND, "Unknown card"));
+        // Quantities stay >= 1 (table constraint): the last copy of the finish is deleted instead.
+        int owned = jdbc.sql("""
+                        select quantity from collection_items
+                        where user_id = :userId and card_id = :cardId and finish = :finish for update
+                        """)
+                .param("userId", userId)
+                .param("cardId", cardId)
+                .param("finish", from.key())
+                .query(Integer.class)
+                .optional()
+                .orElseThrow(() -> new ApiException(ErrorCode.CARD_NOT_OWNED));
+        String change = owned > 1
+                ? "update collection_items set quantity = quantity - 1 where user_id = :userId and card_id = :cardId and finish = :finish"
+                : "delete from collection_items where user_id = :userId and card_id = :cardId and finish = :finish";
+        jdbc.sql(change).param("userId", userId).param("cardId", cardId).param("finish", from.key()).update();
+        int remainingFrom = owned - 1;
+        int cost = EconomyRules.holoUpgradeCost(card.getRarity());
+        walletService.spendInfluence(userId, cost, WalletSource.FINISH_UPGRADE);
+        addAll(userId, List.of(new Grant(cardId, to)));
+        int quantityTo = jdbc.sql("select quantity from collection_items where user_id = :userId and card_id = :cardId and finish = :finish")
+                .param("userId", userId)
+                .param("cardId", cardId)
+                .param("finish", to.key())
+                .query(Integer.class)
+                .single();
+        UpgradeResponse response = new UpgradeResponse(
+                cardId, from, to, cost, walletService.balance(userId).influence(), remainingFrom, quantityTo);
+        jdbc.sql("""
+                        insert into finish_upgrades (user_id, idempotency_key, card_id, response)
+                        values (:userId, :key, :cardId, cast(:response as jsonb))
+                        """)
+                .param("userId", userId)
+                .param("key", idempotencyKey)
+                .param("cardId", cardId)
+                .param("response", jsonMapper.writeValueAsString(response))
+                .update();
+        return response;
+    }
+
+    private record StoredUpgrade(String cardId, String response) {}
 
     private static String pairKey(String cardId, String finish) {
         return cardId + '|' + finish;

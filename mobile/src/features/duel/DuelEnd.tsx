@@ -7,7 +7,7 @@ import { Badge, Body, Button3D, Text, Title } from '@/components/ui';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { formatNumber, useLanguage, useTranslation } from '@/i18n';
 import { haptics } from '@/lib/haptics';
-import { playSound } from '@/lib/sounds';
+import { playCoin, playSound } from '@/lib/sounds';
 import { spacing } from '@/theme';
 
 import type { Duel } from './api';
@@ -22,14 +22,15 @@ export function DuelEnd({ duel }: { duel: Duel }) {
   useEffect(() => {
     if (winner === 'player') {
       haptics.levelUp();
-      playSound('level_up');
+      playSound('duel_win');
     } else if (winner === 'ai') {
       haptics.error();
-      playSound('answer_wrong');
+      playSound('duel_lose');
     } else {
       haptics.tap();
     }
-  }, [winner]);
+    playCoin(duel.reward?.influence, 700);
+  }, [duel.reward?.influence, winner]);
 
   return (
     <View style={styles.root}>
