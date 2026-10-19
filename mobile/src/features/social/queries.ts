@@ -66,6 +66,37 @@ export function useRemoveFriendMutation() {
 
 type ReportInput = { friendCode: string; reason: ReportReason; note?: string };
 
+export type BlockedPlayer = components['schemas']['BlockedPlayerDto'];
+
+export const blocksQueryKey = ['blocks'] as const;
+
+/** Players I blocked (settings). */
+export function useBlocksQuery() {
+  return useQuery<BlockedPlayer[]>({ queryKey: blocksQueryKey, queryFn: () => unwrap(api.GET('/api/v1/blocks')) });
+}
+
+/** Blocks a player: the friendship ends and neither side can see or contact the other. */
+export function useBlockMutation() {
+  const client = useQueryClient();
+  return useMutation<BlockedPlayer[], Error, string>({
+    mutationFn: (friendCode) => unwrap(api.POST('/api/v1/blocks', { body: { friendCode } })),
+    onSuccess: async (blocked, friendCode) => {
+      client.setQueryData(blocksQueryKey, blocked);
+      client.removeQueries({ queryKey: publicProfileQueryKey(friendCode) });
+      await client.invalidateQueries({ queryKey: friendsQueryKey });
+    },
+  });
+}
+
+export function useUnblockMutation() {
+  const client = useQueryClient();
+  return useMutation<BlockedPlayer[], Error, string>({
+    mutationFn: (friendCode) =>
+      unwrap(api.DELETE('/api/v1/blocks/{friendCode}', { params: { path: { friendCode } } })),
+    onSuccess: (blocked) => client.setQueryData(blocksQueryKey, blocked),
+  });
+}
+
 /** Reports a profile to the moderators; never shown publicly. */
 export function useReportMutation() {
   return useMutation<unknown, Error, ReportInput>({

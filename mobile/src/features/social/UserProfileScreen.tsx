@@ -28,6 +28,7 @@ import { ApiError, describeError } from '@/lib/api';
 import { haptics } from '@/lib/haptics';
 import { spacing, useTheme } from '@/theme';
 
+import { BlockSheet } from './BlockSheet';
 import { CompareView } from './CompareView';
 import { normalizeFriendCode } from './friendCode';
 import { useAddFriendMutation, useFriendsQuery } from './queries';
@@ -48,6 +49,7 @@ export function UserProfileScreen() {
   const add = useAddFriendMutation();
   const [tab, setTab] = useState<Tab>('profile');
   const [reporting, setReporting] = useState(false);
+  const [blocking, setBlocking] = useState(false);
   const [message, setMessage] = useState<{ tone: 'success' | 'danger'; text: string } | null>(null);
 
   const recentBadges = useMemo<BadgeItem[]>(
@@ -155,6 +157,14 @@ export function UserProfileScreen() {
         <View style={styles.flex}>
           <ScreenHeader title={data.nickname} />
         </View>
+        <PressableScale
+          accessibilityRole="button"
+          accessibilityLabel={t('social.block.open', { nickname: data.nickname })}
+          hitSlop={10}
+          onPress={() => setBlocking(true)}
+        >
+          <Icon name="ban-outline" size={22} tone="textMuted" />
+        </PressableScale>
         {reportButton(data.nickname)}
       </View>
 
@@ -221,6 +231,7 @@ export function UserProfileScreen() {
       )}
 
       <ReportSheet friendCode={data.friendCode} nickname={data.nickname} visible={reporting} onClose={() => setReporting(false)} />
+      <BlockSheet friendCode={data.friendCode} nickname={data.nickname} visible={blocking} onClose={() => setBlocking(false)} />
     </ScreenContainer>
   );
 }

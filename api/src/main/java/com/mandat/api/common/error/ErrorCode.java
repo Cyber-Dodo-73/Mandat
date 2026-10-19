@@ -20,6 +20,9 @@ public enum ErrorCode {
     EMAIL_TAKEN("email_taken", HttpStatus.CONFLICT),
     NICKNAME_TAKEN("nickname_taken", HttpStatus.CONFLICT),
     NICKNAME_FORBIDDEN("nickname_forbidden", HttpStatus.UNPROCESSABLE_CONTENT),
+    ACCOUNT_BANNED("account_banned", HttpStatus.FORBIDDEN),
+    TERMS_NOT_ACCEPTED("terms_not_accepted", HttpStatus.UNPROCESSABLE_CONTENT),
+    INVALID_RESET_TOKEN("invalid_reset_token", HttpStatus.BAD_REQUEST),
 
     // wallet / packs / collection
     INSUFFICIENT_INFLUENCE("insufficient_influence", HttpStatus.CONFLICT),

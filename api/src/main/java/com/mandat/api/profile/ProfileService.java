@@ -115,7 +115,7 @@ public class ProfileService {
     /** A player's profile as seen by {@code viewerId}: private profiles are visible to friends only. */
     @Transactional
     public PublicProfile view(UUID viewerId, String friendCode) {
-        User owner = players.byFriendCode(friendCode);
+        User owner = players.visibleTo(viewerId, friendCode);
         ProfileRow row = profiles.findOrCreate(owner.getId());
         boolean self = owner.getId().equals(viewerId);
         boolean friend = !self && friendships.areFriends(viewerId, owner.getId());
@@ -128,7 +128,7 @@ public class ProfileService {
     /** Collection comparison, under the same visibility rule as the profile. */
     @Transactional
     public CompareResponse compare(UUID viewerId, String friendCode) {
-        User other = players.byFriendCode(friendCode);
+        User other = players.visibleTo(viewerId, friendCode);
         view(viewerId, friendCode);
         Map<String, List<CardFinish>> mine = byCard(profiles.ownedCards(viewerId));
         Map<String, List<CardFinish>> theirs = byCard(profiles.ownedCards(other.getId()));

@@ -24,20 +24,43 @@ export async function login(email: string, password: string): Promise<void> {
 }
 
 export async function register(input: { email: string; password: string; nickname: string }): Promise<void> {
-  const auth = await unwrap(api.POST('/api/v1/auth/register', { body: { ...input, ...deviceContext() } }));
+  // The form only submits once the terms and age checkbox is ticked.
+  const auth = await unwrap(
+    api.POST('/api/v1/auth/register', {
+      body: { ...input, acceptTerms: true, ageConfirmed: true, ...deviceContext() },
+    }),
+  );
   await useSessionStore.getState().signIn(auth);
 }
 
-export async function signInWithApple(idToken: string, nonce: string, nickname: string | null): Promise<void> {
+/**
+ * Signing in with a provider accepts the terms shown on the welcome screen. The Apple
+ * authorization code lets the server revoke the Apple authorization if the account is deleted.
+ */
+export async function signInWithApple(
+  idToken: string,
+  nonce: string,
+  nickname: string | null,
+  authorizationCode: string | null,
+): Promise<void> {
   const auth = await unwrap(
-    api.POST('/api/v1/auth/apple', { body: { idToken, nonce, nickname, ...deviceContext() } }),
+    api.POST('/api/v1/auth/apple', {
+      body: { idToken, nonce, nickname, authorizationCode, acceptTerms: true, ...deviceContext() },
+    }),
   );
   await useSessionStore.getState().signIn(auth);
 }
 
 export async function signInWithGoogle(idToken: string): Promise<void> {
-  const auth = await unwrap(api.POST('/api/v1/auth/google', { body: { idToken, ...deviceContext() } }));
+  const auth = await unwrap(
+    api.POST('/api/v1/auth/google', { body: { idToken, acceptTerms: true, ...deviceContext() } }),
+  );
   await useSessionStore.getState().signIn(auth);
+}
+
+/** Emails a reset link; the answer is the same whether or not the address has an account. */
+export async function requestPasswordReset(email: string): Promise<void> {
+  await unwrap(api.POST('/api/v1/auth/password/forgot', { body: { email } }));
 }
 
 /** Revokes the refresh token on the server (best effort), then forgets the session. */

@@ -66,7 +66,12 @@ function AppleButton({ busy, onBusyChange, onError }: SocialSignInProps) {
         nonce: hashedNonce,
       });
       if (!credential.identityToken) throw new Error('Apple returned no identity token');
-      await signInWithApple(credential.identityToken, rawNonce, credential.fullName?.givenName ?? null);
+      await signInWithApple(
+        credential.identityToken,
+        rawNonce,
+        credential.fullName?.givenName ?? null,
+        credential.authorizationCode ?? null,
+      );
     } catch (error) {
       // Closing the Apple sheet is not an error worth showing.
       if ((error as { code?: string }).code !== 'ERR_REQUEST_CANCELED') onError(error);

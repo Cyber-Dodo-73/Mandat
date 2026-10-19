@@ -42,7 +42,8 @@ public class UserService {
     }
 
     @Transactional
-    public User createWithPassword(String email, String passwordHash, String nickname, String language, String timezone) {
+    public User createWithPassword(String email, String passwordHash, String nickname, String language, String timezone,
+            String termsVersion) {
         nicknamePolicy.requireAllowed(nickname);
         if (users.existsByEmail(email)) {
             throw new ApiException(ErrorCode.EMAIL_TAKEN, "An account already uses this email");
@@ -51,6 +52,7 @@ public class UserService {
         User user = newUser(nickname, language, timezone);
         user.setEmail(email);
         user.setPasswordHash(passwordHash);
+        user.acceptTerms(termsVersion, Instant.now(clock));
         return insert(user);
     }
 
@@ -66,8 +68,11 @@ public class UserService {
                 ? requestedNickname
                 : generateNickname(language);
         User user = newUser(nickname, language, timezone);
+        // Only provider-verified emails reach this point; an email already used by another account is
+        // not copied (that account was not proven to belong to the same person).
         if (email != null && !users.existsByEmail(email)) {
             user.setEmail(email);
+            user.setEmailVerified(true);
         }
         setSubject(user, provider, subject);
         return insert(user);
@@ -86,7 +91,10 @@ public class UserService {
         return users.findByEmail(email);
     }
 
-    /** Links a provider subject to an existing account (only called for provider-verified emails). */
+    /**
+     * Links a provider subject to an existing account. Only called when both the provider and the
+     * existing account vouch for the same email (see AuthService#social).
+     */
     @Transactional
     public User linkSocial(UUID userId, SocialProvider provider, String subject) {
         User user = require(userId);
@@ -150,6 +158,55 @@ public class UserService {
         } catch (DataIntegrityViolationException e) {
             throw new ApiException(ErrorCode.NICKNAME_TAKEN, "This nickname is already taken");
         }
+        return user;
+    }
+
+    /** Records acceptance of the given terms version and the minimum-age confirmation. */
+    @Transactional
+    public User acceptTerms(UUID userId, String termsVersion) {
+        User user = require(userId);
+        user.acceptTerms(termsVersion, Instant.now(clock));
+        return user;
+    }
+
+    /** New password after a reset by email: the owner proved control of the mailbox. */
+    @Transactional
+    public void resetPassword(UUID userId, String passwordHash) {
+        User user = require(userId);
+        user.setPasswordHash(passwordHash);
+        user.setEmailVerified(true);
+        user.touch(Instant.now(clock));
+    }
+
+    /** Stores (or clears) the encrypted Apple refresh token used for revocation on deletion. */
+    @Transactional
+    public void setAppleRefreshToken(UUID userId, String encryptedToken) {
+        User user = require(userId);
+        user.setAppleRefreshToken(encryptedToken);
+        user.touch(Instant.now(clock));
+    }
+
+    /** Moderation: suspends the account (sign-in refused, profile hidden). */
+    @Transactional
+    public User ban(UUID userId, String reason) {
+        User user = require(userId);
+        user.ban(reason == null || reason.isBlank() ? null : reason.strip(), Instant.now(clock));
+        return user;
+    }
+
+    @Transactional
+    public User unban(UUID userId) {
+        User user = require(userId);
+        user.unban(Instant.now(clock));
+        return user;
+    }
+
+    /** Moderation: replaces an offensive nickname by a neutral generated one (no cooldown applies). */
+    @Transactional
+    public User forceRename(UUID userId) {
+        User user = require(userId);
+        user.forceNickname(generateNickname(user.getLocale()), Instant.now(clock));
+        users.saveAndFlush(user);
         return user;
     }
 

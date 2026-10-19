@@ -3,6 +3,8 @@ package com.mandat.api.user;
 import com.mandat.api.common.config.OpenApiConfig;
 import com.mandat.api.common.security.AuthenticatedUser;
 import com.mandat.api.common.wallet.WalletService;
+import com.mandat.api.legal.LegalProperties;
+import com.mandat.api.user.dto.AcceptTermsRequest;
 import com.mandat.api.user.dto.MeResponse;
 import com.mandat.api.user.dto.SettingsDto;
 import com.mandat.api.user.dto.UpdateSettingsRequest;
@@ -16,12 +18,15 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -33,16 +38,22 @@ import org.springframework.web.bind.annotation.RestController;
 @SecurityRequirement(name = OpenApiConfig.BEARER_SCHEME)
 public class MeController {
 
+    private static final Logger log = LoggerFactory.getLogger(MeController.class);
+
     private final UserService userService;
     private final WalletService walletService;
     private final List<MeContributor> contributors;
+    private final List<AccountDeletionHook> deletionHooks;
+    private final LegalProperties legal;
     private final Clock clock;
 
     public MeController(UserService userService, WalletService walletService, List<MeContributor> contributors,
-            Clock clock) {
+            List<AccountDeletionHook> deletionHooks, LegalProperties legal, Clock clock) {
         this.userService = userService;
         this.walletService = walletService;
         this.contributors = contributors;
+        this.deletionHooks = deletionHooks;
+        this.legal = legal;
         this.clock = clock;
     }
 
@@ -55,7 +66,7 @@ public class MeController {
         Map<String, Object> sections = new LinkedHashMap<>();
         contributors.forEach(contributor -> sections.put(contributor.key(), contributor.contribute(user.getId())));
         return new MeResponse(
-                toAccount(user),
+                toAccount(user, legal.termsVersion()),
                 SettingsDto.from(user),
                 new MeResponse.Wallet(balance.influence(), balance.bonusPacks()),
                 sections,
@@ -73,10 +84,27 @@ public class MeController {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @Operation(operationId = "deleteMe", summary = "Permanently delete the account and all its data")
     public void deleteMe(@AuthenticationPrincipal AuthenticatedUser principal) {
+        User user = userService.require(principal.id());
+        for (AccountDeletionHook hook : deletionHooks) {
+            try {
+                hook.beforeDelete(user);
+            } catch (RuntimeException e) {
+                log.warn("Account deletion hook {} failed: {}", hook.getClass().getSimpleName(),
+                        e.getClass().getSimpleName());
+            }
+        }
         userService.delete(principal.id());
     }
 
-    private static MeResponse.Account toAccount(User user) {
+    @PostMapping("/terms")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @Operation(operationId = "acceptTerms", summary = "Accept the current terms of use and confirm the minimum age")
+    public void acceptTerms(@AuthenticationPrincipal AuthenticatedUser principal,
+            @Valid @RequestBody AcceptTermsRequest request) {
+        userService.acceptTerms(principal.id(), legal.termsVersion());
+    }
+
+    private static MeResponse.Account toAccount(User user, String currentTermsVersion) {
         List<String> providers = new ArrayList<>();
         if (user.getAppleSub() != null) {
             providers.add(SocialProvider.APPLE.name());
@@ -90,7 +118,12 @@ public class MeController {
                 user.getFriendCode(),
                 user.getEmail(),
                 user.getPasswordHash() != null,
+                user.isEmailVerified(),
                 providers,
+                user.isAdmin(),
+                user.getTermsVersion(),
+                currentTermsVersion,
+                !currentTermsVersion.equals(user.getTermsVersion()),
                 user.getCreatedAt());
     }
 }

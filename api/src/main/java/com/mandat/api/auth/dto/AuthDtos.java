@@ -2,8 +2,10 @@ package com.mandat.api.auth.dto;
 
 import com.mandat.api.user.NicknamePolicy;
 import io.swagger.v3.oas.annotations.media.Schema;
+import jakarta.validation.constraints.AssertTrue;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import java.time.Instant;
@@ -20,7 +22,11 @@ public final class AuthDtos {
             @NotBlank @Pattern(regexp = NicknamePolicy.FORMAT_REGEX) String nickname,
             @Schema(nullable = true, allowableValues = {"fr", "en"}) @Pattern(regexp = "fr|en") String language,
             @Schema(nullable = true, example = "Europe/Paris") @Size(max = 64) String timezone,
-            @Schema(nullable = true) @Size(max = 64) String deviceLabel) {
+            @Schema(nullable = true) @Size(max = 64) String deviceLabel,
+            @Schema(description = "The player accepted the current terms of use and privacy policy")
+            @NotNull @AssertTrue Boolean acceptTerms,
+            @Schema(description = "The player confirmed meeting the minimum age (GET /api/v1/legal)")
+            @NotNull @AssertTrue Boolean ageConfirmed) {
 
         @Override
         public String toString() {
@@ -63,11 +69,33 @@ public final class AuthDtos {
             @Pattern(regexp = NicknamePolicy.FORMAT_REGEX) String nickname,
             @Schema(nullable = true, allowableValues = {"fr", "en"}) @Pattern(regexp = "fr|en") String language,
             @Schema(nullable = true, example = "Europe/Paris") @Size(max = 64) String timezone,
-            @Schema(nullable = true) @Size(max = 64) String deviceLabel) {
+            @Schema(nullable = true) @Size(max = 64) String deviceLabel,
+            @Schema(nullable = true, description = "Apple only: one-time authorization code, used to revoke the "
+                    + "authorization when the account is deleted") @Size(max = 2048) String authorizationCode,
+            @Schema(nullable = true, description = "True when the player accepted the current terms and confirmed "
+                    + "the minimum age on this screen") Boolean acceptTerms) {
 
         @Override
         public String toString() {
             return "SocialLoginRequest[]";
+        }
+    }
+
+    public record ForgotPasswordRequest(@NotBlank @Size(max = 254) String email) {
+
+        @Override
+        public String toString() {
+            return "ForgotPasswordRequest[]";
+        }
+    }
+
+    public record ResetPasswordRequest(
+            @NotBlank @Size(max = 128) String token,
+            @NotBlank @Size(min = 8, max = 128) String password) {
+
+        @Override
+        public String toString() {
+            return "ResetPasswordRequest[]";
         }
     }
 

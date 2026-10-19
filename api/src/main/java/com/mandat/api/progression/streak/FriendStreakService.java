@@ -117,7 +117,7 @@ public class FriendStreakService {
 
     @Transactional
     public FriendStreaksResponse invite(UUID userId, String friendCode) {
-        User target = players.byFriendCode(friendCode);
+        User target = players.visibleTo(userId, friendCode);
         UUID partner = target.getId();
         if (partner.equals(userId)) {
             throw new ApiException(ErrorCode.CANNOT_TARGET_SELF, "This is your own friend code");

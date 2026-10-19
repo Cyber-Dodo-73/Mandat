@@ -17,8 +17,15 @@ public record MeResponse(Account account, SettingsDto settings, Wallet wallet,
             String friendCode,
             @Schema(nullable = true) String email,
             boolean hasPassword,
+            boolean emailVerified,
             @Schema(description = "Linked social providers", allowableValues = {"APPLE", "GOOGLE"})
             List<String> linkedProviders,
+            @Schema(description = "Moderator access to /api/v1/admin") boolean admin,
+            @Schema(nullable = true, description = "Version of the terms the player accepted")
+            String acceptedTermsVersion,
+            String currentTermsVersion,
+            @Schema(description = "The terms changed (or were never accepted): ask the player to accept them")
+            boolean needsTermsAcceptance,
             Instant createdAt) {}
 
     public record Wallet(int influence, int bonusPacks) {}

@@ -21,6 +21,75 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/admin/players/{friendCode}/ban": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Ban a player: no sign-in, sessions ended, profile hidden */
+        post: operations["adminBanPlayer"];
+        /** Lift a ban */
+        delete: operations["adminUnbanPlayer"];
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/players/{friendCode}/rename": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Replace a nickname by a generated one */
+        post: operations["adminRenamePlayer"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/reports": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Latest reports (open ones only by default) */
+        get: operations["adminListReports"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/admin/reports/{reportId}/handled": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Mark a report as handled (reviewed, or dismissed) */
+        post: operations["adminHandleReport"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/auth/apple": {
         parameters: {
             query?: never;
@@ -89,6 +158,40 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/auth/password/forgot": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Email a password reset link (always 204, whether or not the email is known) */
+        post: operations["forgotPassword"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/auth/password/reset": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Choose a new password with a reset link token */
+        post: operations["resetPassword"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/auth/refresh": {
         parameters: {
             query?: never;
@@ -118,6 +221,41 @@ export interface paths {
         /** Create an account with email and password */
         post: operations["register_1"];
         delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/blocks": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Players I blocked */
+        get: operations["listBlocks"];
+        put?: never;
+        /** Block a player: ends the friendship; neither side can see or contact the other */
+        post: operations["blockPlayer"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/blocks/{friendCode}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        /** Unblock a player */
+        delete: operations["unblockPlayer"];
         options?: never;
         head?: never;
         patch?: never;
@@ -426,6 +564,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/legal": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Current terms version, minimum age and contact (public) */
+        get: operations["getLegalInfo"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/limits": {
         parameters: {
             query?: never;
@@ -476,6 +631,23 @@ export interface paths {
         head?: never;
         /** Partially update the player's settings */
         patch: operations["updateMySettings"];
+        trace?: never;
+    };
+    "/api/v1/me/terms": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Accept the current terms of use and confirm the minimum age */
+        post: operations["acceptTerms"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
         trace?: never;
     };
     "/api/v1/meta": {
@@ -916,10 +1088,19 @@ export interface components {
             /** @enum {string} */
             type: "bonus" | "malus" | "tieBreaker";
         };
+        AcceptTermsRequest: {
+            ageConfirmed: boolean;
+        };
         Account: {
+            /** @description Version of the terms the player accepted */
+            acceptedTermsVersion?: string | null;
+            /** @description Moderator access to /api/v1/admin */
+            admin: boolean;
             /** Format: date-time */
             createdAt: string;
+            currentTermsVersion: string;
             email?: string | null;
+            emailVerified: boolean;
             friendCode: string;
             hasPassword: boolean;
             /** Format: uuid */
@@ -929,6 +1110,8 @@ export interface components {
              * @enum {array}
              */
             linkedProviders: "APPLE" | "GOOGLE";
+            /** @description The terms changed (or were never accepted): ask the player to accept them */
+            needsTermsAcceptance: boolean;
             nickname: string;
         };
         AchievementDto: {
@@ -1015,6 +1198,18 @@ export interface components {
             tokenType: "Bearer";
             /** Format: uuid */
             userId: string;
+        };
+        BanRequest: {
+            reason: string;
+        };
+        BlockRequest: {
+            friendCode: string;
+        };
+        BlockedPlayerDto: {
+            /** Format: date-time */
+            blockedAt: string;
+            friendCode: string;
+            nickname: string;
         };
         CardAbilityDto: {
             description: components["schemas"]["LocalizedText"];
@@ -1238,6 +1433,9 @@ export interface components {
             /** @description 1-based slot numbers */
             slots: number[];
         };
+        ForgotPasswordRequest: {
+            email: string;
+        };
         FreePacksDto: {
             /** Format: int32 */
             available: number;
@@ -1322,6 +1520,12 @@ export interface components {
         InviteFriendStreakRequest: {
             friendCode: string;
         };
+        LegalInfo: {
+            contactEmail: string;
+            /** Format: int32 */
+            minimumAge: number;
+            termsVersion: string;
+        };
         LimitsResponse: {
             crafts: components["schemas"]["CraftAllowanceDto"];
             /**
@@ -1398,6 +1602,11 @@ export interface components {
             weekly: components["schemas"]["MissionDto"][];
             /** Format: date-time */
             weeklyResetAt: string;
+        };
+        ModeratedPlayer: {
+            banned: boolean;
+            friendCode: string;
+            nickname: string;
         };
         MyProfile: {
             /**
@@ -1749,6 +1958,10 @@ export interface components {
             token: string;
         };
         RegisterRequest: {
+            /** @description The player accepted the current terms of use and privacy policy */
+            acceptTerms: boolean;
+            /** @description The player confirmed meeting the minimum age (GET /api/v1/legal) */
+            ageConfirmed: boolean;
             deviceLabel?: string | null;
             /** Format: email */
             email: string;
@@ -1774,12 +1987,37 @@ export interface components {
             /** @description This month's repair is already used */
             usedThisMonth: boolean;
         };
+        ReportDto: {
+            /** Format: date-time */
+            createdAt: string;
+            /** Format: date-time */
+            handledAt?: string | null;
+            /** Format: uuid */
+            id: string;
+            note?: string | null;
+            reason: string;
+            reporterFriendCode: string;
+            /** @enum {string|null} */
+            resolution?: "none" | "banned" | "renamed" | null;
+            /** @enum {string} */
+            status: "open" | "reviewed" | "dismissed";
+            targetBanned: boolean;
+            targetFriendCode: string;
+            targetNickname: string;
+        };
         ReportRequest: {
             friendCode: string;
             /** @description Private note for moderators */
             note?: string | null;
             /** @enum {string} */
             reason: "offensive_nickname" | "inappropriate_profile" | "cheating" | "harassment" | "other";
+        };
+        ReportsResponse: {
+            reports: components["schemas"]["ReportDto"][];
+        };
+        ResetPasswordRequest: {
+            password: string;
+            token: string;
         };
         RewardDto: {
             /** Format: int32 */
@@ -1839,6 +2077,10 @@ export interface components {
             slots: number[];
         };
         SocialLoginRequest: {
+            /** @description True when the player accepted the current terms and confirmed the minimum age on this screen */
+            acceptTerms?: boolean | null;
+            /** @description Apple only: one-time authorization code, used to revoke the authorization when the account is deleted */
+            authorizationCode?: string | null;
             deviceLabel?: string | null;
             idToken: string;
             /** @enum {string|null} */
@@ -2004,6 +2246,120 @@ export interface operations {
             };
         };
     };
+    adminBanPlayer: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                friendCode: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["BanRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ModeratedPlayer"];
+                };
+            };
+        };
+    };
+    adminUnbanPlayer: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                friendCode: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ModeratedPlayer"];
+                };
+            };
+        };
+    };
+    adminRenamePlayer: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                friendCode: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ModeratedPlayer"];
+                };
+            };
+        };
+    };
+    adminListReports: {
+        parameters: {
+            query?: {
+                openOnly?: boolean;
+            };
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ReportsResponse"];
+                };
+            };
+        };
+    };
+    adminHandleReport: {
+        parameters: {
+            query?: {
+                dismissed?: boolean;
+            };
+            header?: never;
+            path: {
+                reportId: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+        };
+    };
     signInWithApple: {
         parameters: {
             query?: never;
@@ -2098,6 +2454,50 @@ export interface operations {
             };
         };
     };
+    forgotPassword: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ForgotPasswordRequest"];
+            };
+        };
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+        };
+    };
+    resetPassword: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ResetPasswordRequest"];
+            };
+        };
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+        };
+    };
     refreshTokens: {
         parameters: {
             query?: never;
@@ -2142,6 +2542,72 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["AuthResponse"];
+                };
+            };
+        };
+    };
+    listBlocks: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BlockedPlayerDto"][];
+                };
+            };
+        };
+    };
+    blockPlayer: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["BlockRequest"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BlockedPlayerDto"][];
+                };
+            };
+        };
+    };
+    unblockPlayer: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                friendCode: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["BlockedPlayerDto"][];
                 };
             };
         };
@@ -2576,6 +3042,26 @@ export interface operations {
             };
         };
     };
+    getLegalInfo: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["LegalInfo"];
+                };
+            };
+        };
+    };
     limits: {
         parameters: {
             query?: never;
@@ -2655,6 +3141,28 @@ export interface operations {
                 content: {
                     "application/json": components["schemas"]["SettingsDto"];
                 };
+            };
+        };
+    };
+    acceptTerms: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AcceptTermsRequest"];
+            };
+        };
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
             };
         };
     };

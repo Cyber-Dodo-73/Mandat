@@ -15,20 +15,31 @@ import {
   SettingRow,
   ScreenContainer,
   Toggle,
+  type IconName,
   type SegmentOption,
 } from '@/components/ui';
+import { openLegalPage, type LegalPage } from '@/features/legal/links';
 import { NotificationPreferences } from '@/features/push/NotificationPreferences';
-import { SUPPORTED_LANGUAGES, useTranslation, type Language } from '@/i18n';
+import { SUPPORTED_LANGUAGES, useLanguage, useTranslation, type Language } from '@/i18n';
 import { spacing } from '@/theme';
 
 import { AccountSection } from './AccountSection';
+import { BlockedPlayersSection } from './BlockedPlayersSection';
 import { useSettingsStore, type ThemePreference } from './store';
 
 const THEMES: readonly ThemePreference[] = ['system', 'dark', 'light'];
 
+const LEGAL_ROWS: readonly { page: LegalPage; icon: IconName }[] = [
+  { page: 'support', icon: 'help-buoy-outline' },
+  { page: 'privacy', icon: 'shield-checkmark-outline' },
+  { page: 'terms', icon: 'document-text-outline' },
+  { page: 'notice', icon: 'information-circle-outline' },
+];
+
 export function SettingsScreen() {
   const { t } = useTranslation();
   const settings = useSettingsStore();
+  const language = useLanguage();
   const systemReduceMotion = useReducedMotion();
   const version = Constants.expoConfig?.version ?? '';
 
@@ -136,10 +147,21 @@ export function SettingsScreen() {
 
       <AccountSection />
 
+      <BlockedPlayersSection />
+
       <View style={styles.section}>
         <SectionHeader title={t('settings.sections.about')} />
         <Card>
-          <SettingRow icon="document-text-outline" label={t('settings.legal')} hint={t('common.comingSoon')} />
+          {LEGAL_ROWS.map(({ page, icon }) => (
+            <PressableScale
+              key={page}
+              accessibilityRole="link"
+              accessibilityHint={t('legal.openHint')}
+              onPress={() => openLegalPage(page, language)}
+            >
+              <SettingRow icon={icon} label={t(`legal.${page}`)} control={<Icon name="open-outline" tone="textMuted" />} />
+            </PressableScale>
+          ))}
           <PressableScale
             accessibilityRole="button"
             accessibilityHint={t('credits.openHint')}

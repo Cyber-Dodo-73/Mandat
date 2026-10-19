@@ -84,4 +84,8 @@ public final class SocialDtos {
             @NotBlank @Size(max = 16) String friendCode,
             @NotNull ReportReason reason,
             @Schema(nullable = true, description = "Private note for moderators") @Size(max = 280) String note) {}
+
+    public record BlockedPlayerDto(String nickname, String friendCode, Instant blockedAt) {}
+
+    public record BlockRequest(@NotBlank @Size(max = 16) String friendCode) {}
 }

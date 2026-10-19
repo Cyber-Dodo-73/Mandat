@@ -33,11 +33,17 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,metrics
+        # Only health is public. Metrics stay internal (not exposed over HTTP at all).
+        include: health
   endpoint:
     health:
       probes:
         enabled: true
+      show-details: never
+  health:
+    # The SMTP relay is optional and must never take the API down in a health check.
+    mail:
+      enabled: false
   info:
     env:
       enabled: false
@@ -73,9 +79,39 @@ mandat:
     apple:
       # Accepted ID-token audiences, comma-separated (app bundle id, Services ID for web).
       client-ids: ${MANDAT_APPLE_CLIENT_IDS:fr.cyberdodo.mandat}
+    apple-signing:
+      # Sign in with Apple key (developer account > Keys), used to revoke the Apple authorization
+      # when an account is deleted. Unset: revocation is skipped (logged).
+      team-id: ${MANDAT_APPLE_TEAM_ID:}
+      key-id: ${MANDAT_APPLE_KEY_ID:}
+      private-key: ${MANDAT_APPLE_PRIVATE_KEY:}
     google:
       # OAuth client ids (iOS, Android, web), comma-separated. Empty disables Google sign-in.
       client-ids: ${MANDAT_GOOGLE_CLIENT_IDS:}
+  # Public URL of this API, used in emailed links (password reset).
+  public-base-url: ${MANDAT_PUBLIC_BASE_URL:https://mandat.cyber-dodo.fr}
+  security:
+    # Key for secrets stored in the database (Apple refresh tokens). Defaults to a key derived
+    # from the JWT secret; set it separately to be able to rotate the JWT secret.
+    data-key: ${MANDAT_DATA_KEY:}
+  legal:
+    # Bump when the terms change: players are asked to accept them again.
+    terms-version: ${MANDAT_TERMS_VERSION:2026-10-19}
+    minimum-age: ${MANDAT_MINIMUM_AGE:15}
+    operator-name: ${MANDAT_OPERATOR_NAME:}
+    operator-address: ${MANDAT_OPERATOR_ADDRESS:}
+    contact-email: ${MANDAT_CONTACT_EMAIL:contact@cyber-dodo.fr}
+    host: ${MANDAT_HOSTING_PROVIDER:}
+  smtp:
+    # Empty host: emails are not sent (a log line says so).
+    host: ${MANDAT_SMTP_HOST:}
+    port: ${MANDAT_SMTP_PORT:587}
+    username: ${MANDAT_SMTP_USERNAME:}
+    password: ${MANDAT_SMTP_PASSWORD:}
+    from: ${MANDAT_SMTP_FROM:MANDAT <no-reply@cyber-dodo.fr>}
+  moderation:
+    # Optional Slack/Discord-compatible webhook notified of each new report (no personal data).
+    webhook-url: ${MANDAT_MODERATION_WEBHOOK:}
   push:
     # Expo push service. The access token is optional (only needed with "enhanced push security").
     enabled: ${MANDAT_PUSH_ENABLED:true}
@@ -89,6 +125,9 @@ mandat:
       auth-refresh-ip: { capacity: 60, period: PT1M }
       auth-social-ip: { capacity: 20, period: PT1M }
       report-user: { capacity: 5, period: PT1H }
+      auth-forgot-ip: { capacity: 10, period: PT1H }
+      auth-forgot-account: { capacity: 3, period: PT1H }
+      auth-reset-ip: { capacity: 20, period: PT1H }
 
 ---
 spring:
@@ -108,3 +147,16 @@ mandat:
     apple:
       # host.exp.Exponent is the audience of Apple tokens issued inside Expo Go.
       client-ids: ${MANDAT_APPLE_CLIENT_IDS:fr.cyberdodo.mandat,host.exp.Exponent}
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+# API docs are never served in production, whatever MANDAT_API_DOCS_ENABLED says.
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false

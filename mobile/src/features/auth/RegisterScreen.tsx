@@ -4,6 +4,7 @@ import type { TextInput } from 'react-native';
 import { Button3D, Caption, TextField } from '@/components/ui';
 import { useTranslation } from '@/i18n';
 import { ApiError, describeError, errorMessageKey } from '@/lib/api';
+import { ConsentCheckbox } from '@/features/legal/LegalComponents';
 import { haptics } from '@/lib/haptics';
 
 import { register } from './api';
@@ -26,6 +27,8 @@ export function RegisterScreen() {
   const [nickname, setNickname] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [consent, setConsent] = useState(false);
+  const [consentError, setConsentError] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<FieldErrors>({});
   const [formError, setFormError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
@@ -41,7 +44,8 @@ export function RegisterScreen() {
     const errors = localErrors();
     setFieldErrors(errors);
     setFormError(null);
-    if (Object.keys(errors).length > 0) {
+    setConsentError(consent ? null : t('auth.consent.required'));
+    if (Object.keys(errors).length > 0 || !consent) {
       haptics.error();
       return;
     }
@@ -119,6 +123,14 @@ export function RegisterScreen() {
         maxLength={128}
         returnKeyType="go"
         onSubmitEditing={() => void submit()}
+      />
+      <ConsentCheckbox
+        checked={consent}
+        onChange={(checked) => {
+          setConsent(checked);
+          if (checked) setConsentError(null);
+        }}
+        error={consentError}
       />
     </AuthFormLayout>
   );

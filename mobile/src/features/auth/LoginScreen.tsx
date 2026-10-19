@@ -1,7 +1,8 @@
+import { router } from 'expo-router';
 import { useRef, useState, type ComponentRef } from 'react';
 import type { TextInput } from 'react-native';
 
-import { Button3D, Caption, TextField } from '@/components/ui';
+import { Button3D, Caption, PressableScale, Text, TextField } from '@/components/ui';
 import { useTranslation } from '@/i18n';
 import { describeError } from '@/lib/api';
 import { haptics } from '@/lib/haptics';
@@ -77,6 +78,11 @@ export function LoginScreen() {
         returnKeyType="go"
         onSubmitEditing={() => void submit()}
       />
+      <PressableScale accessibilityRole="link" hitSlop={10} onPress={() => router.push('/forgot-password')}>
+        <Text variant="label" tone="accent">
+          {t('auth.login.forgot')}
+        </Text>
+      </PressableScale>
     </AuthFormLayout>
   );
 }
