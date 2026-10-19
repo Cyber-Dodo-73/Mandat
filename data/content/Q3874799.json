@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1978 à Kryvy Rih, ville industrielle du sud-est de l'Ukraine, dans une famille juive russophone, Volodymyr Zelensky obtient un diplôme de droit mais se tourne vers la comédie. Avec sa troupe, il fonde en 2003 le studio Kvartal 95, qui devient l'un des principaux producteurs de divertissement du pays. De 2015 à 2019, il joue dans la série Serviteur du peuple un professeur qui devient président par accident, et son parti prend le nom de la série. Candidat sans expérience politique, il bat le président sortant Petro Porochenko avec 73 % des voix en avril 2019, puis obtient une majorité absolue au Parlement. Lorsque la Russie lance son invasion à grande échelle le 24 février 2022, il refuse d'être évacué et reste à Kiev, devenant le visage de la résistance ukrainienne. Il obtient de ses alliés occidentaux une aide militaire et financière massive, s'adresse au Congrès américain en décembre 2022 et est nommé personnalité de l'année par Time. L'élection présidentielle prévue en 2024 est suspendue par la loi martiale, et il continue de diriger le pays en guerre.",
+    "en": "Born in 1978 in Kryvyi Rih, an industrial city in south-eastern Ukraine, into a Russian-speaking Jewish family, Volodymyr Zelensky earned a law degree but turned to comedy. With his troupe he founded the Kvartal 95 studio in 2003, which grew into one of the country's leading entertainment producers. From 2015 to 2019 he starred in the series Servant of the People as a teacher who accidentally becomes president, and his party took the show's name. Running with no political experience, he beat the incumbent Petro Poroshenko with 73 percent of the vote in April 2019 and then won an outright majority in parliament. When Russia launched its full-scale invasion on 24 February 2022, he refused evacuation and stayed in Kyiv, becoming the face of Ukrainian resistance. He secured massive military and financial aid from Western allies, addressed the US Congress in December 2022 and was named Time's Person of the Year. The presidential election due in 2024 was suspended under martial law, and he has continued to lead the country at war."
+  },
+  "highlights": {
+    "fr": [
+      "Cofonde le studio de production Kvartal 95 en 2003",
+      "Joue un président dans la série Serviteur du peuple (2015-2019)",
+      "Élu président de l'Ukraine en avril 2019 avec 73 % des voix",
+      "Reste à Kiev lors de l'invasion russe du 24 février 2022",
+      "Personnalité de l'année Time en 2022, prix Charlemagne en 2023"
+    ],
+    "en": [
+      "Co-founded the Kvartal 95 production studio in 2003",
+      "Played a president in the series Servant of the People (2015–2019)",
+      "Elected president of Ukraine in April 2019 with 73% of the vote",
+      "Stayed in Kyiv during the Russian invasion of 24 February 2022",
+      "Time Person of the Year in 2022, Charlemagne Prize in 2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Passé du divertissement à la tête d'un pays en guerre, il est devenu le symbole international de la résistance de l'Ukraine à l'invasion russe.",
+    "en": "Having gone from entertainer to wartime leader, he became the international symbol of Ukraine's resistance to the Russian invasion."
   }
 }

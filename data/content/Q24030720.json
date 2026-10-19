@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Martín Vizcarra naît en mars 1963 et grandit à Moquegua, dans le sud du Pérou, avant d’étudier le génie civil à l’Université nationale d’ingénierie de Lima. Ingénieur et entrepreneur dans le bâtiment, il est élu gouverneur régional de Moquegua en 2010 et y gagne une réputation de bon gestionnaire, notamment dans l’éducation. Premier vice-président de Pedro Pablo Kuczynski en 2016, il devient aussi ministre des Transports, puis ambassadeur au Canada après une controverse sur un projet d’aéroport. Il succède à Kuczynski après sa démission, le 23 mars 2018, et fait de la lutte contre la corruption son axe principal. En décembre 2018, il obtient par référendum la réforme du conseil chargé de nommer les juges et l’interdiction de la réélection immédiate des parlementaires. Le 30 septembre 2019, en conflit avec un Congrès dominé par l’opposition, il le dissout, une décision validée ensuite par le Tribunal constitutionnel. En 2020, le Pérou est l’un des pays les plus endeuillés par le Covid-19, et le Congrès le destitue le 9 novembre pour « incapacité morale », sur la base d’accusations de pots-de-vin remontant à son mandat de gouverneur. Jugé pour ces faits, il est condamné en novembre 2025 à quatorze ans de prison.",
+    "en": "Martín Vizcarra was born in March 1963 and grew up in Moquegua, southern Peru, before studying civil engineering at the National University of Engineering in Lima. An engineer and building contractor, he was elected regional governor of Moquegua in 2010 and earned a reputation as an effective manager, especially in education. Pedro Pablo Kuczynski's first vice president in 2016, he also served as transport minister and then as ambassador to Canada after a row over an airport project. He took over from Kuczynski after his resignation on 23 March 2018 and made fighting corruption his central theme. In December 2018 he won a referendum reforming the body that appoints judges and barring the immediate re-election of lawmakers. On 30 September 2019, locked in conflict with an opposition-controlled Congress, he dissolved it, a move later upheld by the Constitutional Court. In 2020 Peru was among the countries hardest hit by Covid-19, and on 9 November Congress removed him for moral incapacity over bribery allegations dating from his time as governor. Tried on those charges, he was sentenced in November 2025 to fourteen years in prison."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur régional de Moquegua de 2011 à 2014",
+      "Devient président du Pérou le 23 mars 2018",
+      "Fait adopter des réformes anticorruption par référendum en 2018",
+      "Dissout le Congrès le 30 septembre 2019",
+      "Destitué par le Congrès le 9 novembre 2020"
+    ],
+    "en": [
+      "Regional governor of Moquegua from 2011 to 2014",
+      "Became President of Peru on 23 March 2018",
+      "Won anti-corruption reforms by referendum in 2018",
+      "Dissolved Congress on 30 September 2019",
+      "Removed by Congress on 9 November 2020"
+    ]
+  },
+  "legacy": {
+    "fr": "Longtemps très populaire pour son combat contre un Congrès discrédité, il a fini rattrapé par la justice, comme plusieurs autres présidents péruviens récents.",
+    "en": "Long very popular for taking on a discredited Congress, he was eventually caught up by the courts, like several other recent Peruvian presidents."
   }
 }

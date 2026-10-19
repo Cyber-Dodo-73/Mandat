@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Née à Londres en 1665, Anne est la fille cadette du futur Jacques II, mais elle est élevée dans la foi anglicane sur ordre de son oncle Charles II. En 1683, elle épouse le prince Georges de Danemark ; elle connaîtra au moins dix-sept grossesses, mais aucun de ses enfants ne lui survivra. Lors de la Glorieuse Révolution de 1688, elle se range du côté de sa sœur Marie et de Guillaume d'Orange contre son propre père catholique. Elle monte sur le trône d'Angleterre, d'Écosse et d'Irlande en mars 1702, à la mort de Guillaume III. Son règne est dominé par la guerre de Succession d'Espagne, où le duc de Marlborough, mari de son amie Sarah Churchill, remporte la victoire de Blenheim en 1704. L'Acte d'Union de 1707 fusionne les royaumes d'Angleterre et d'Écosse : Anne devient la première souveraine de Grande-Bretagne. Les rivalités entre whigs et tories et sa rupture avec Sarah Churchill marquent la fin du règne, tandis que les Tories négocient la paix d'Utrecht en 1713. Elle meurt à Londres le 1er août 1714, et la couronne passe à la maison de Hanovre.",
+    "en": "Born in London in 1665, Anne was the younger daughter of the future James II, but was raised an Anglican on the orders of her uncle Charles II. In 1683 she married Prince George of Denmark; she went through at least seventeen pregnancies, yet none of her children outlived her. During the Glorious Revolution of 1688 she sided with her sister Mary and William of Orange against her own Catholic father. She inherited the thrones of England, Scotland and Ireland in March 1702 on the death of William III. Her reign was dominated by the War of the Spanish Succession, in which the Duke of Marlborough, husband of her close friend Sarah Churchill, won the great victory of Blenheim in 1704. The Acts of Union of 1707 merged England and Scotland, making Anne the first monarch of Great Britain. Party feuding between Whigs and Tories and her bitter break with Sarah marked her final years, while a Tory ministry negotiated the Peace of Utrecht in 1713. She died in London on 1 August 1714, and the crown passed to the House of Hanover."
+  },
+  "highlights": {
+    "fr": [
+      "Monte sur les trônes d'Angleterre, d'Écosse et d'Irlande en 1702",
+      "Règne pendant la victoire de Marlborough à Blenheim en 1704",
+      "Devient en 1707 la première souveraine du royaume de Grande-Bretagne",
+      "Voit la paix d'Utrecht conclue en 1713",
+      "Dernière monarque de la maison Stuart, morte en 1714"
+    ],
+    "en": [
+      "Inherited the thrones of England, Scotland and Ireland in 1702",
+      "Reigned during Marlborough's victory at Blenheim in 1704",
+      "Became the first monarch of the Kingdom of Great Britain in 1707",
+      "Saw the Peace of Utrecht concluded in 1713",
+      "Last Stuart monarch, dying in 1714"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernière des Stuarts, elle a présidé à la naissance de la Grande-Bretagne et à l'essor de sa puissance militaire, son règne donnant son nom au style « Queen Anne ».",
+    "en": "The last of the Stuarts, she presided over the birth of Great Britain and the rise of its military power, and her reign gave its name to the Queen Anne style."
   }
 }

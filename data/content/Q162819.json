@@ -29,5 +29,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1485 à Alcalá de Henares, Catherine est la plus jeune enfant des Rois catholiques, Isabelle de Castille et Ferdinand d'Aragon. Promise dès l'enfance à l'héritier anglais, elle épouse Arthur, prince de Galles, en novembre 1501, mais devient veuve à peine cinq mois plus tard. Après des années d'attente et de difficultés financières à Londres, elle épouse en juin 1509 le frère cadet d'Arthur, devenu Henri VIII. Régente en 1513 pendant la campagne de son mari en France, elle supervise la riposte anglaise qui écrase les Écossais à Flodden. De ses nombreuses grossesses, une seule enfant survit, la future Marie Ire, née en 1516. Faute d'héritier mâle et épris d'Anne Boleyn, Henri cherche à partir de 1527 à faire annuler leur union, mais Catherine refuse et défend la validité de son mariage devant le tribunal légatin de Blackfriars en 1529. Le roi rompt alors avec Rome, et l'archevêque Cranmer prononce l'annulation en 1533. Reléguée au rang de princesse douairière et séparée de sa fille, elle meurt au château de Kimbolton en janvier 1536 et est inhumée à Peterborough.",
+    "en": "Born in 1485 at Alcalá de Henares, Catherine was the youngest child of the Catholic Monarchs, Isabella of Castile and Ferdinand of Aragon. Betrothed as a child to the English heir, she married Arthur, Prince of Wales, in November 1501, only to be widowed five months later. After years of waiting and money troubles in London, she married Arthur's younger brother, by then Henry VIII, in June 1509. As regent in 1513, while Henry campaigned in France, she oversaw the English response that crushed the Scots at Flodden. Of her many pregnancies only one child survived, the future Mary I, born in 1516. Lacking a male heir and infatuated with Anne Boleyn, Henry sought from 1527 to have their marriage annulled, but Catherine refused and defended its validity before the legatine court at Blackfriars in 1529. The king then broke with Rome, and Archbishop Cranmer declared the marriage void in 1533. Demoted to Princess Dowager and kept apart from her daughter, she died at Kimbolton Castle in January 1536 and was buried at Peterborough."
+  },
+  "highlights": {
+    "fr": [
+      "Épouse Arthur, prince de Galles, en 1501",
+      "Devient reine d'Angleterre en épousant Henri VIII en 1509",
+      "Régente lors de la victoire anglaise de Flodden en 1513",
+      "Mère de la future reine Marie Ire, née en 1516",
+      "Refuse l'annulation de son mariage, prononcée malgré elle en 1533"
+    ],
+    "en": [
+      "Married Arthur, Prince of Wales, in 1501",
+      "Became queen of England by marrying Henry VIII in 1509",
+      "Served as regent during the English victory at Flodden in 1513",
+      "Mother of the future Queen Mary I, born in 1516",
+      "Refused the annulment of her marriage, imposed on her in 1533"
+    ]
+  },
+  "legacy": {
+    "fr": "Son refus de céder a déclenché, malgré elle, la rupture entre l'Angleterre et Rome et la naissance de l'Église anglicane.",
+    "en": "Her refusal to give way set off, against her own wishes, England's break with Rome and the birth of the Church of England."
   }
 }

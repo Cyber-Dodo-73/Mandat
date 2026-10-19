@@ -32,5 +32,29 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 259 avant notre ère à Handan, capitale du royaume de Zhao où son père vivait en otage, Ying Zheng monte sur le trône de Qin vers l'âge de treize ans, en 247. Le chancelier Lü Buwei gouverne d'abord en son nom, mais le jeune roi l'écarte une fois majeur et s'appuie sur des légistes comme Li Si. Entre 230 et 221, ses armées soumettent un à un les six royaumes rivaux, de Han jusqu'à Qi, mettant fin à la période des Royaumes combattants. Il se proclame alors Shi Huangdi, « premier empereur », et découpe le territoire en commanderies dirigées par des fonctionnaires nommés plutôt que par des nobles. Il unifie l'écriture, la monnaie, les poids et mesures et même l'écartement des essieux, et fait relier des fortifications du nord en une première Grande Muraille. Son règne est aussi d'une grande dureté : travaux forcés massifs, autodafé des livres jugés subversifs en 213 et persécution de lettrés. Obsédé par l'immortalité, il meurt en 210 au cours d'une tournée d'inspection, à Shaqiu, dans l'actuel Hebei. Il est inhumé près de Xi'an dans un immense mausolée gardé par l'armée de terre cuite, et sa dynastie s'effondre quatre ans plus tard.",
+    "en": "Born in 259 BC in Handan, capital of the state of Zhao, where his father was a hostage, Ying Zheng became king of Qin in 247 at about thirteen. The chancellor Lü Buwei ruled in his name at first, but once of age the young king pushed him aside and relied on Legalist ministers such as Li Si. Between 230 and 221 his armies swallowed the six rival kingdoms one after another, from Han to Qi, ending the Warring States period. He then styled himself Shi Huangdi, the First Emperor, and divided the land into commanderies run by appointed officials rather than hereditary nobles. He standardised script, coinage, weights and measures and even axle widths, and had northern ramparts joined into an early Great Wall. His rule was also brutal, built on huge forced-labour levies, the burning of books deemed subversive in 213 and the persecution of scholars. Obsessed with immortality, he died in 210 while on an inspection tour at Shaqiu, in present-day Hebei. He was buried near Xi'an in a vast tomb guarded by the Terracotta Army, and his dynasty collapsed only four years later."
+  },
+  "highlights": {
+    "fr": [
+      "Devient roi de Qin vers treize ans, en 247 avant notre ère",
+      "Conquiert les six royaumes rivaux et unifie la Chine en 221 avant notre ère",
+      "Unifie écriture, monnaie, poids et mesures dans tout l'empire",
+      "Fait relier les remparts du nord en une première Grande Muraille",
+      "Repose dans un mausolée gardé par l'armée de terre cuite"
+    ],
+    "en": [
+      "Became king of Qin at about thirteen in 247 BC",
+      "Conquered the six rival states and unified China in 221 BC",
+      "Standardised script, coinage, weights and measures across the empire",
+      "Had the northern ramparts linked into an early Great Wall",
+      "Buried in a tomb guarded by the Terracotta Army"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a donné à la Chine son nom, son écriture unifiée et le modèle d'un État centralisé qui a survécu à sa dynastie éphémère, au prix d'une réputation durable de tyran.",
+    "en": "He gave China its name, a unified script and the model of a centralised state that outlived his short-lived dynasty, at the cost of a lasting reputation as a tyrant."
   }
 }

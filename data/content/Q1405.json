@@ -32,5 +32,29 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Rome en 63 av. J.-C. sous le nom de Caius Octavius, il est le petit-neveu de Jules César, qui l'adopte par testament. À 18 ans, après l'assassinat de César en 44, il lève une armée privée et réclame son héritage politique. En 43, il forme avec Marc Antoine et Lépide le second triumvirat, qui élimine les opposants par des proscriptions faisant des centaines de victimes, dont Cicéron, puis bat les assassins de César à Philippes en 42. La rivalité avec Antoine, allié à Cléopâtre, s'achève par la victoire navale d'Actium en 31 et la conquête de l'Égypte l'année suivante. En 27, le Sénat lui confère le nom d'Auguste : tout en prétendant restaurer la République, il concentre les pouvoirs et devient de fait le premier empereur romain. Son long règne ouvre une période de paix intérieure, la Pax Romana, avec la réorganisation des provinces, de l'armée et la construction de nombreux monuments à Rome. Devenu grand pontife en 12 av. J.-C., il meurt à Nola, en Campanie, en l'an 14, laissant l'empire à son fils adoptif Tibère.",
+    "en": "Born in Rome in 63 BC as Gaius Octavius, he was the great-nephew of Julius Caesar, who adopted him in his will. At 18, after Caesar's murder in 44, he raised a private army and claimed his political inheritance. In 43 he formed the Second Triumvirate with Mark Antony and Lepidus, which purged opponents through proscriptions that killed hundreds, Cicero among them, and defeated Caesar's assassins at Philippi in 42. His rivalry with Antony, allied to Cleopatra, ended with the naval victory at Actium in 31 and the conquest of Egypt the next year. In 27 the Senate granted him the name Augustus: while claiming to restore the Republic, he concentrated power in his hands and became, in effect, Rome's first emperor. His long reign opened a period of internal peace, the Pax Romana, with reorganised provinces and army and a wave of new monuments in Rome. Chief priest from 12 BC, he died at Nola in Campania in AD 14, leaving the empire to his adopted son Tiberius."
+  },
+  "highlights": {
+    "fr": [
+      "Forme le second triumvirat en 43 av. J.-C.",
+      "Bat Antoine et Cléopâtre à Actium en 31 av. J.-C.",
+      "Reçoit le titre d'Auguste en 27 av. J.-C., premier empereur romain",
+      "Inaugure la Pax Romana, deux siècles de paix relative",
+      "Règne plus de quarante ans, jusqu'à sa mort en 14 apr. J.-C."
+    ],
+    "en": [
+      "Formed the Second Triumvirate in 43 BC",
+      "Defeated Antony and Cleopatra at Actium in 31 BC",
+      "Took the title Augustus in 27 BC, becoming Rome's first emperor",
+      "Inaugurated the Pax Romana, two centuries of relative peace",
+      "Reigned over forty years, until his death in AD 14"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a transformé la République romaine en empire tout en conservant ses apparences, et le mois d'août porte encore son nom.",
+    "en": "He turned the Roman Republic into an empire while keeping up its outward forms, and the month of August still bears his name."
   }
 }

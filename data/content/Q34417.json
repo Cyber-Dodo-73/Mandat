@@ -36,5 +36,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1527 à Valladolid, Philippe est le fils de l'empereur Charles Quint et d'Isabelle de Portugal, et il gouverne l'Espagne en l'absence de son père dès les années 1540. En 1554, il épouse la reine Marie Ire d'Angleterre et devient roi consort, avant que la mort de celle-ci en 1558 mette fin à cette union. Charles Quint lui cède les Pays-Bas en 1555 puis les couronnes espagnoles en 1556. Sa victoire sur la France à Saint-Quentin en 1557 conduit à la paix du Cateau-Cambrésis en 1559, et il fait construire en remerciement le monastère de l'Escurial. Il installe sa cour à Madrid en 1561. À partir de 1566, la révolte des Pays-Bas, que le duc d'Albe réprime durement, ouvre une guerre de quatre-vingts ans. Il écrase la révolte des morisques de Grenade de 1568 à 1571, et la flotte de la Sainte Ligue qu'il finance bat les Ottomans à Lépante en 1571. En 1580, il fait valoir par les armes ses droits sur la couronne du Portugal et son empire, réunissant les deux monarchies ibériques. L'échec de l'Invincible Armada contre l'Angleterre en 1588 et plusieurs banqueroutes de l'État marquent la fin du règne, et il meurt à l'Escurial en 1598.",
+    "en": "Born in Valladolid in 1527, Philip was the son of Emperor Charles V and Isabella of Portugal, and was already governing Spain in his father's absence in the 1540s. In 1554 he married Queen Mary I of England and became king consort, until her death in 1558 ended the match. Charles V handed him the Netherlands in 1555 and the Spanish crowns in 1556. His victory over France at Saint-Quentin in 1557 led to the Peace of Cateau-Cambrésis in 1559, and he built the monastery of El Escorial in thanksgiving. He settled his court in Madrid in 1561. From 1566 the revolt of the Netherlands, harshly repressed by the Duke of Alba, opened an eighty-year war. He crushed the Morisco revolt in Granada between 1568 and 1571, and the Holy League fleet he funded defeated the Ottomans at Lepanto in 1571. In 1580 he enforced his claim to the crown of Portugal and its empire by force of arms, uniting the two Iberian monarchies. The defeat of the Spanish Armada against England in 1588 and several state bankruptcies marked the end of his reign, and he died at El Escorial in 1598."
+  },
+  "highlights": {
+    "fr": [
+      "Roi consort d'Angleterre par son mariage avec Marie Ire en 1554",
+      "Roi d'Espagne de 1556 à 1598",
+      "Victoire de la Sainte Ligue à Lépante en 1571",
+      "Devient roi du Portugal en 1580",
+      "Échec de l'Invincible Armada contre l'Angleterre en 1588"
+    ],
+    "en": [
+      "King consort of England through his marriage to Mary I in 1554",
+      "King of Spain from 1556 to 1598",
+      "Holy League victory at Lepanto in 1571",
+      "Became King of Portugal in 1580",
+      "Failure of the Spanish Armada against England in 1588"
+    ]
+  },
+  "legacy": {
+    "fr": "Souverain de l'empire « sur lequel le soleil ne se couche jamais », il a donné son nom aux Philippines et laissé l'Escurial comme symbole de son règne.",
+    "en": "Ruler of an empire “on which the sun never set”, he gave his name to the Philippines and left El Escorial as the emblem of his reign."
   }
 }

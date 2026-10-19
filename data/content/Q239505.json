@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né au fort de Shivneri, près de Pune, à une date que les sources situent entre 1627 et 1630, Shivaji est le fils de Shahaji Bhonsle, général au service du sultanat de Bijapur, et de Jijabai. Élevé par sa mère dans le domaine familial de Pune, il commence dès le milieu des années 1640 à s'emparer de forteresses des Ghâts occidentaux, comme Torna. En 1659, il tue le général de Bijapur Afzal Khan lors d'une entrevue à Pratapgad et met son armée en déroute. Il s'attaque ensuite aux Moghols : en 1663, il surprend de nuit le gouverneur Shaista Khan à Pune, puis pille en 1664 le grand port de Surat. Contraint par le général Jai Singh de signer le traité de Purandar en 1665, il cède une partie de ses forts et se rend en 1666 à la cour d'Aurangzeb à Agra, où il est placé en résidence surveillée, avant de s'évader. Dans les années suivantes, il reprend ses forteresses et pille de nouveau Surat en 1670. Le 6 juin 1674, il se fait couronner à Raigad avec le titre de Chhatrapati, fondant un royaume marathe doté d'un conseil de huit ministres et d'une marine côtière. Après une campagne dans le sud de l'Inde en 1677-1678, il meurt à Raigad en avril 1680.",
+    "en": "Born at the fort of Shivneri near Pune, on a date that sources place between 1627 and 1630, Shivaji was the son of Shahaji Bhonsle, a general in the service of the Bijapur sultanate, and of Jijabai. Raised by his mother on the family estate at Pune, he began seizing forts in the Western Ghats, such as Torna, from the mid-1640s. In 1659 he killed the Bijapur general Afzal Khan at a meeting at Pratapgad and routed his army. He then took on the Mughals: in 1663 he launched a night raid on the governor Shaista Khan in Pune, and in 1664 he sacked the great port of Surat. Forced by the general Jai Singh to sign the Treaty of Purandar in 1665, he gave up some of his forts and in 1666 went to Aurangzeb's court at Agra, where he was placed under house arrest before escaping. In the years that followed he won back his strongholds and sacked Surat again in 1670. On 6 June 1674 he was crowned at Raigad with the title Chhatrapati, founding a Maratha kingdom with a council of eight ministers and a coastal navy. After a campaign in southern India in 1677–1678, he died at Raigad in April 1680."
+  },
+  "highlights": {
+    "fr": [
+      "Tue le général Afzal Khan à Pratapgad en 1659",
+      "Pille le port moghol de Surat en 1664 et 1670",
+      "S'évade de la cour d'Aurangzeb à Agra en 1666",
+      "Couronné Chhatrapati à Raigad le 6 juin 1674"
+    ],
+    "en": [
+      "Killed the general Afzal Khan at Pratapgad in 1659",
+      "Sacked the Mughal port of Surat in 1664 and 1670",
+      "Escaped from Aurangzeb's court at Agra in 1666",
+      "Crowned Chhatrapati at Raigad on 6 June 1674"
+    ]
+  },
+  "legacy": {
+    "fr": "Fondateur de l'État marathe, qui dominera une grande partie de l'Inde au XVIIIe siècle, il est aujourd'hui un héros majeur du Maharashtra.",
+    "en": "Founder of the Maratha state that would dominate much of India in the eighteenth century, he is today a towering hero in Maharashtra."
   }
 }

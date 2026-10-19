@@ -32,5 +32,27 @@
         "value": "strategy"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Londres en 1561, Francis Bacon est le fils de Nicholas Bacon, garde du Grand Sceau d'Élisabeth Ire. Il étudie à Trinity College, à Cambridge, puis le droit à Gray's Inn, et entre à la Chambre des communes dès 1584. Protégé du comte d'Essex, il participe pourtant à l'accusation contre lui lors de son procès pour trahison en 1601. Ses Essais, parus en 1597, le font connaître comme écrivain, et l'avènement de Jacques Ier relance sa carrière : il est fait chevalier en 1603. Il devient solliciteur général en 1607, procureur général en 1613, puis garde du Grand Sceau en 1617 et lord-chancelier l'année suivante, avec les titres de baron Verulam et de vicomte Saint-Alban. En 1620, son Novum Organum défend une science fondée sur l'observation et l'induction plutôt que sur l'autorité des Anciens. En 1621, le Parlement l'accuse d'avoir accepté des cadeaux de plaideurs ; il reconnaît les faits, perd ses fonctions, est condamné à une lourde amende et passe quelques jours à la Tour de Londres. Retiré, il se consacre à l'écriture, notamment de La Nouvelle Atlantide, et meurt d'une pneumonie à Londres en avril 1626.",
+    "en": "Born in London in 1561, Francis Bacon was the son of Nicholas Bacon, Lord Keeper of the Great Seal under Elizabeth I. He studied at Trinity College, Cambridge, then law at Gray's Inn, and entered the House of Commons in 1584. Once a protégé of the Earl of Essex, he nevertheless helped prosecute him at his treason trial in 1601. His Essays, first published in 1597, made his name as a writer, and the accession of James I revived his career, bringing a knighthood in 1603. He became Solicitor General in 1607, Attorney General in 1613, Lord Keeper in 1617 and Lord Chancellor the following year, ennobled as Baron Verulam and later Viscount St Alban. In 1620 his Novum Organum argued for a science built on observation and induction rather than ancient authority. In 1621 Parliament charged him with taking gifts from litigants; he admitted it, lost office, was heavily fined and spent a few days in the Tower of London. In retirement he kept writing, including New Atlantis, and died of pneumonia in London in April 1626."
+  },
+  "highlights": {
+    "fr": [
+      "Publie la première édition de ses Essais en 1597",
+      "Devient procureur général en 1613 puis lord-chancelier",
+      "Publie en 1620 le Novum Organum, manifeste de la méthode expérimentale",
+      "Destitué pour corruption par le Parlement en 1621"
+    ],
+    "en": [
+      "Published the first edition of his Essays in 1597",
+      "Became Attorney General in 1613 and then Lord Chancellor",
+      "Published Novum Organum in 1620, a manifesto for experimental method",
+      "Removed from office for corruption by Parliament in 1621"
+    ]
+  },
+  "legacy": {
+    "fr": "Souvent présenté comme le père de la méthode empirique, il a inspiré la Royal Society et l'esprit scientifique moderne, bien plus durablement que sa carrière politique.",
+    "en": "Often called the father of empiricism, he inspired the Royal Society and the modern scientific outlook far more lastingly than his political career."
   }
 }

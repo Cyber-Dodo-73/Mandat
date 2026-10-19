@@ -32,5 +32,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Francisco de Miranda naît en mars 1750 à Caracas, fils d’un marchand canarien, et part en 1771 pour l’Espagne, où il achète un brevet d’officier. Il combat en Afrique du Nord puis, aux côtés des insurgés américains, participe en 1781 au siège de Pensacola contre les Britanniques. Soupçonné de contrebande et d’indiscipline, il quitte l’armée espagnole en 1783 et parcourt les États-Unis et l’Europe, jusqu’à la cour de Catherine II de Russie, en défendant l’idée d’une Amérique hispanique indépendante. En 1792, il devient général de la France révolutionnaire et combat aux Pays-Bas autrichiens ; après la défaite de Neerwinden en 1793, il est jugé et acquitté, puis emprisonné sous la Terreur. Installé à Londres, il cherche l’appui britannique et lance en 1806 une expédition sur les côtes du Venezuela, qui échoue faute de soutien local. Rappelé à Caracas en 1810 avec l’aide de Simón Bolívar, il participe à la déclaration d’indépendance du 5 juillet 1811 et reçoit en 1812 les pleins pouvoirs de généralissime. Après un séisme dévastateur et des revers militaires, il capitule en juillet 1812 ; arrêté par ses propres officiers, dont Bolívar, il est livré aux Espagnols. Transféré à Cadix, il meurt en prison en juillet 1816.",
+    "en": "Francisco de Miranda was born in March 1750 in Caracas, the son of a Canarian merchant, and left for Spain in 1771, where he bought an officer's commission. He fought in North Africa and then, alongside the American rebels, took part in the 1781 siege of Pensacola against the British. Suspected of smuggling and insubordination, he left the Spanish army in 1783 and travelled through the United States and Europe, as far as Catherine the Great's court in Russia, promoting the idea of an independent Spanish America. In 1792 he became a general of revolutionary France and fought in the Austrian Netherlands; after the defeat at Neerwinden in 1793 he was tried and acquitted, then jailed during the Terror. Settling in London, he sought British backing and in 1806 led an expedition to the Venezuelan coast that failed for lack of local support. Brought back to Caracas in 1810 with Simón Bolívar's help, he took part in the declaration of independence of 5 July 1811 and in 1812 was granted full powers as generalissimo. After a devastating earthquake and military setbacks, he capitulated in July 1812; arrested by his own officers, Bolívar among them, he was handed to the Spanish. Taken to Cádiz, he died in prison in July 1816."
+  },
+  "highlights": {
+    "fr": [
+      "Participe au siège de Pensacola contre les Britanniques en 1781",
+      "Général des armées de la France révolutionnaire en 1792",
+      "Lance une expédition d’indépendance au Venezuela en 1806",
+      "Signataire de la déclaration d’indépendance du 5 juillet 1811",
+      "Généralissime de la première République vénézuélienne en 1812"
+    ],
+    "en": [
+      "Took part in the siege of Pensacola against the British in 1781",
+      "General in the armies of revolutionary France in 1792",
+      "Led an independence expedition to Venezuela in 1806",
+      "Signed the declaration of independence of 5 July 1811",
+      "Generalissimo of the First Venezuelan Republic in 1812"
+    ]
+  },
+  "legacy": {
+    "fr": "Précurseur de l’indépendance hispano-américaine, il a imaginé le drapeau jaune, bleu et rouge repris par le Venezuela, la Colombie et l’Équateur, et son nom figure sur l’Arc de triomphe.",
+    "en": "A forerunner of Spanish American independence, he conceived the yellow, blue and red flag adopted by Venezuela, Colombia and Ecuador, and his name is carved on the Arc de Triomphe."
   }
 }

@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Hambourg en 1954, Angela Kasner grandit en Allemagne de l'Est, où son père pasteur s'installe peu après sa naissance. Elle étudie la physique à l'université de Leipzig et soutient en 1986 un doctorat en chimie quantique à l'Académie des sciences de Berlin-Est. La chute du Mur en 1989 la pousse vers la politique : porte-parole adjointe du dernier gouvernement est-allemand, elle est élue au Bundestag en décembre 1990 sous l'étiquette CDU. Helmut Kohl la nomme ministre des Femmes et de la Jeunesse en 1991, puis de l'Environnement en 1994. En 1999, elle rompt publiquement avec Kohl au moment du scandale des financements occultes et prend la tête du parti l'année suivante. Devenue en novembre 2005 la première femme chancelière d'Allemagne, elle gère la crise financière de 2008 et la crise de la zone euro, puis décide en 2011 la sortie du nucléaire après Fukushima. En 2015, elle laisse entrer environ un million de demandeurs d'asile, une décision saluée et vivement contestée. Après seize ans au pouvoir et quatre mandats, elle ne se représente pas et cède la chancellerie à Olaf Scholz en décembre 2021.",
+    "en": "Born in Hamburg in 1954, Angela Kasner grew up in East Germany, where her pastor father moved shortly after her birth. She studied physics at Leipzig University and in 1986 completed a doctorate in quantum chemistry at the East Berlin Academy of Sciences. The fall of the Wall in 1989 drew her into politics: deputy spokesperson of the last East German government, she was elected to the Bundestag for the CDU in December 1990. Helmut Kohl made her minister for women and youth in 1991 and environment minister in 1994. In 1999 she publicly broke with Kohl during the party funding scandal and took over as party leader the following year. Becoming Germany's first female chancellor in November 2005, she steered the country through the 2008 financial crisis and the eurozone crisis, then decided in 2011 to phase out nuclear power after Fukushima. In 2015 she allowed some one million asylum seekers into Germany, a decision both praised and fiercely contested. After sixteen years and four terms in office, she did not run again and handed the chancellery to Olaf Scholz in December 2021."
+  },
+  "highlights": {
+    "fr": [
+      "Docteure en chimie quantique en 1986, à Berlin-Est",
+      "Ministre de l'Environnement d'Helmut Kohl de 1994 à 1998",
+      "Première femme chancelière d'Allemagne, de 2005 à 2021",
+      "Décide la sortie du nucléaire en 2011 après Fukushima",
+      "Accueille environ un million de demandeurs d'asile en 2015"
+    ],
+    "en": [
+      "Earned a doctorate in quantum chemistry in East Berlin in 1986",
+      "Environment minister under Helmut Kohl from 1994 to 1998",
+      "Germany's first female chancellor, from 2005 to 2021",
+      "Decided to phase out nuclear power in 2011 after Fukushima",
+      "Took in around one million asylum seekers in 2015"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure de stabilité en Europe pendant seize ans, elle est aujourd'hui critiquée pour la dépendance énergétique de l'Allemagne envers la Russie.",
+    "en": "A figure of stability in Europe for sixteen years, she is now criticised for Germany's energy dependence on Russia."
   }
 }

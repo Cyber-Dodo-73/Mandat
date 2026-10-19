@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Pékin en 1953, Xi Jinping est le fils de Xi Zhongxun, dirigeant communiste de premier plan qui tombe en disgrâce au début des années 1960. Pendant la Révolution culturelle, il est envoyé à 15 ans dans un village pauvre du Shaanxi, où il vit plusieurs années dans une maison troglodyte. Il étudie le génie chimique à l'université Tsinghua de 1975 à 1979, puis gravit les échelons du parti dans les provinces côtières du Hebei, du Fujian et du Zhejiang. Brièvement chef du parti à Shanghai en 2007, il entre la même année au comité permanent du Politburo et devient vice-président de la République en 2008. Secrétaire général du parti en novembre 2012 puis président en 2013, il lance une vaste campagne anticorruption qui écarte aussi des rivaux, ainsi que les « Nouvelles routes de la soie ». Son régime fait interner plus d'un million de Ouïghours et d'autres musulmans dans des camps au Xinjiang et impose en 2020 à Hong Kong une loi sur la sécurité nationale. Après la suppression de la limite des mandats présidentiels en 2018, il obtient un troisième mandat à la tête du parti en 2022 puis de l'État en 2023.",
+    "en": "Born in Beijing in 1953, Xi Jinping is the son of Xi Zhongxun, a senior communist leader purged in the early 1960s. During the Cultural Revolution he was sent at 15 to a poor village in Shaanxi, where he lived for several years in a cave dwelling. He studied chemical engineering at Tsinghua University from 1975 to 1979, then rose through the party in the coastal provinces of Hebei, Fujian and Zhejiang. Briefly party chief of Shanghai in 2007, he joined the Politburo Standing Committee that year and became vice president in 2008. Named party general secretary in November 2012 and president in 2013, he launched a sweeping anti-corruption campaign that also removed rivals, along with the Belt and Road Initiative. His government has detained more than a million Uyghurs and other Muslims in camps in Xinjiang and in 2020 imposed a national security law on Hong Kong. After presidential term limits were scrapped in 2018, he secured a third term as party leader in 2022 and as head of state in 2023."
+  },
+  "highlights": {
+    "fr": [
+      "Envoyé à la campagne dans le Shaanxi pendant la Révolution culturelle",
+      "Secrétaire général du Parti communiste chinois depuis 2012",
+      "Lance les « Nouvelles routes de la soie » en 2013",
+      "Fait supprimer la limite des mandats présidentiels en 2018",
+      "Obtient un troisième mandat inédit en 2022-2023"
+    ],
+    "en": [
+      "Sent to the countryside in Shaanxi during the Cultural Revolution",
+      "General secretary of the Chinese Communist Party since 2012",
+      "Launched the Belt and Road Initiative in 2013",
+      "Had presidential term limits abolished in 2018",
+      "Secured an unprecedented third term in 2022–2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Dirigeant chinois le plus puissant depuis Mao, il a recentralisé le pouvoir autour du parti et de sa personne et durci la rivalité avec les États-Unis.",
+    "en": "China's most powerful leader since Mao, he has recentralised power around the party and himself and sharpened the rivalry with the United States."
   }
 }

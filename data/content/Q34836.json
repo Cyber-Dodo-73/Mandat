@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Hiram Ulysses Grant naît en 1822 dans le comté de Clermont, dans l'Ohio, fils d'un tanneur, et entre à l'académie militaire de West Point sous le nom d'Ulysses S. Grant à la suite d'une erreur d'inscription. Il se distingue pendant la guerre américano-mexicaine, puis quitte l'armée en 1854 et enchaîne les échecs dans la vie civile. La guerre de Sécession relance sa carrière : ses victoires à Fort Donelson en 1862 puis à Vicksburg en 1863 donnent à l'Union le contrôle du Mississippi. Nommé commandant en chef des armées de l'Union en 1864, il mène une guerre d'usure coûteuse contre Robert Lee, qui capitule à Appomattox en avril 1865. Brièvement secrétaire à la Guerre par intérim en 1867-1868, il est élu président en 1868 et réélu en 1872. Il soutient la Reconstruction, défend les droits civiques des anciens esclaves et fait poursuivre le Ku Klux Klan, mais son administration est entachée de nombreux scandales de corruption. Ruiné en 1884 par la faillite d'une société d'investissement, il écrit ses mémoires en luttant contre un cancer de la gorge. Il meurt en 1885 dans le comté de Saratoga, dans l'État de New York, quelques jours après les avoir achevés.",
+    "en": "Hiram Ulysses Grant was born in 1822 in Clermont County, Ohio, the son of a tanner, and entered West Point as Ulysses S. Grant because of a clerical error. He distinguished himself in the Mexican-American War, then left the army in 1854 and drifted through a series of civilian failures. The Civil War revived his career: his victories at Fort Donelson in 1862 and Vicksburg in 1863 gave the Union control of the Mississippi. Appointed general-in-chief of the Union armies in 1864, he waged a costly war of attrition against Robert Lee, who surrendered at Appomattox in April 1865. After a spell as acting Secretary of War in 1867-1868, he was elected president in 1868 and re-elected in 1872. He backed Reconstruction, defended the civil rights of freed slaves and had the Ku Klux Klan prosecuted, but his administration was marred by repeated corruption scandals. Bankrupted in 1884 by the collapse of an investment firm, he wrote his memoirs while battling throat cancer. He died in 1885 in Saratoga County, New York, a few days after finishing them."
+  },
+  "highlights": {
+    "fr": [
+      "Prend Vicksburg en juillet 1863, coupant la Confédération en deux",
+      "Commandant en chef des armées de l'Union à partir de 1864",
+      "Reçoit la reddition de Robert Lee à Appomattox (avril 1865)",
+      "18e président des États-Unis (1869-1877)",
+      "Fait poursuivre le Ku Klux Klan en vertu des lois de 1870-1871"
+    ],
+    "en": [
+      "Captured Vicksburg in July 1863, splitting the Confederacy in two",
+      "General-in-chief of the Union armies from 1864",
+      "Accepted Robert Lee's surrender at Appomattox (April 1865)",
+      "18th president of the United States (1869-1877)",
+      "Had the Ku Klux Klan prosecuted under the 1870-1871 Enforcement Acts"
+    ]
+  },
+  "legacy": {
+    "fr": "Général vainqueur de la guerre de Sécession, il a longtemps été jugé sur les scandales de sa présidence, aujourd'hui réévaluée pour son engagement envers les droits des Noirs.",
+    "en": "The general who won the Civil War was long judged by his administration's scandals, but his presidency is now reassessed for its defence of Black Americans' rights."
   }
 }

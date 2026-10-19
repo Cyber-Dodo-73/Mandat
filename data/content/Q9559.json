@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1943 à Londres, fils d'un ancien artiste de music-hall, John Major quitte l'école à seize ans et connaît le chômage avant de faire carrière dans la banque. Élu conseiller municipal de Lambeth en 1968, il entre à la Chambre des communes en 1979 comme député conservateur du Huntingdonshire. Margaret Thatcher le nomme secrétaire en chef du Trésor en 1987, puis ministre des Affaires étrangères en juillet 1989 et chancelier de l'Échiquier dès octobre ; il fait entrer la livre dans le mécanisme de change européen en 1990. Après la démission de Thatcher, il remporte la direction du parti et devient Premier ministre le 28 novembre 1990. Il engage le pays dans la guerre du Golfe en 1991, remplace l'impopulaire poll tax et négocie le traité de Maastricht avec des dérogations sur l'euro et le volet social. Il remporte par surprise les élections d'avril 1992 avec plus de 14 millions de voix, un record. Le 16 septembre 1992, le « mercredi noir », la livre est chassée du système de change européen. Il signe en 1993 la déclaration de Downing Street avec l'Irlande, base du processus de paix en Irlande du Nord, mais son parti se déchire sur l'Europe. Il est battu largement par Tony Blair en mai 1997.",
+    "en": "Born in London in 1943, the son of a former music-hall performer, John Major left school at sixteen and spent time unemployed before building a career in banking. Elected to Lambeth council in 1968, he entered the Commons in 1979 as Conservative MP for Huntingdonshire. Margaret Thatcher made him Chief Secretary to the Treasury in 1987, then Foreign Secretary in July 1989 and Chancellor that October; he took sterling into the European Exchange Rate Mechanism in 1990. After Thatcher resigned he won the party leadership and became prime minister on 28 November 1990. He took Britain into the Gulf War in 1991, scrapped the unpopular poll tax and negotiated the Maastricht Treaty with opt-outs on the single currency and the social chapter. He won a surprise victory in the April 1992 election with over 14 million votes, a record. On 16 September 1992, Black Wednesday, the pound was forced out of the exchange rate mechanism. In 1993 he signed the Downing Street Declaration with Ireland, a foundation of the Northern Ireland peace process, but his party tore itself apart over Europe. He was defeated in a landslide by Tony Blair in May 1997."
+  },
+  "highlights": {
+    "fr": [
+      "Chancelier de l'Échiquier en 1989-1990",
+      "Premier ministre du Royaume-Uni de 1990 à 1997",
+      "Négocie le traité de Maastricht avec des dérogations en 1991-1992",
+      "Plus de 14 millions de voix aux élections de 1992, un record",
+      "Déclaration de Downing Street sur l'Irlande du Nord en 1993"
+    ],
+    "en": [
+      "Chancellor of the Exchequer in 1989–1990",
+      "Prime Minister of the United Kingdom from 1990 to 1997",
+      "Negotiated the Maastricht Treaty with opt-outs in 1991–1992",
+      "Over 14 million votes in the 1992 election, a record",
+      "Downing Street Declaration on Northern Ireland in 1993"
+    ]
+  },
+  "legacy": {
+    "fr": "Son mandat reste marqué par le mercredi noir et les divisions européennes des conservateurs, mais aussi par les débuts du processus de paix nord-irlandais.",
+    "en": "His premiership is remembered for Black Wednesday and Tory splits over Europe, but also for the start of the Northern Ireland peace process."
   }
 }

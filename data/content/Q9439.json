@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1819 au palais de Kensington, Victoria est la fille unique du duc de Kent, quatrième fils du roi George III. La mort successive de ses oncles sans héritier légitime la fait monter sur le trône en juin 1837, à 18 ans. Elle épouse en 1840 son cousin Albert de Saxe-Cobourg-Gotha, qui devient son principal conseiller et avec qui elle a neuf enfants, plus tard mariés dans la plupart des cours d'Europe. Son règne coïncide avec l'apogée de la révolution industrielle, l'Exposition universelle de 1851 et l'expansion de l'Empire britannique sur tous les continents. Après la mort d'Albert en 1861, elle se retire longuement de la vie publique, vêtue de noir, ce qui nourrit un temps un courant républicain. Le Premier ministre Disraeli la fait proclamer impératrice des Indes en 1876, et ses jubilés de 1887 et 1897 deviennent de grandes fêtes impériales. Elle meurt en janvier 1901 à Osborne House, sur l'île de Wight, après près de 64 ans de règne.",
+    "en": "Born at Kensington Palace in 1819, Victoria was the only child of the Duke of Kent, fourth son of King George III. The deaths of her uncles without legitimate heirs brought her to the throne in June 1837, aged 18. In 1840 she married her cousin Albert of Saxe-Coburg and Gotha, who became her closest adviser and with whom she had nine children, later married into most of Europe's royal houses. Her reign coincided with the height of the Industrial Revolution, the Great Exhibition of 1851 and the spread of the British Empire across every continent. After Albert's death in 1861 she withdrew from public life for years, dressed in black, which briefly fuelled republican sentiment. Prime Minister Disraeli had her proclaimed Empress of India in 1876, and her jubilees of 1887 and 1897 became great imperial celebrations. She died in January 1901 at Osborne House on the Isle of Wight after nearly 64 years on the throne."
+  },
+  "highlights": {
+    "fr": [
+      "Monte sur le trône en 1837, à 18 ans",
+      "Épouse le prince Albert en 1840 ; leurs enfants s'allient à toute l'Europe",
+      "Proclamée impératrice des Indes en 1876",
+      "Célèbre ses jubilés d'or (1887) et de diamant (1897)"
+    ],
+    "en": [
+      "Came to the throne in 1837, aged 18",
+      "Married Prince Albert in 1840; their children married across Europe",
+      "Proclaimed Empress of India in 1876",
+      "Celebrated her Golden (1887) and Diamond (1897) Jubilees"
+    ]
+  },
+  "legacy": {
+    "fr": "Son nom désigne toute une époque, l'ère victorienne, associée à l'essor industriel, à l'apogée impérial et à une morale stricte.",
+    "en": "Her name defines an entire age, the Victorian era, associated with industrial growth, imperial zenith and strict morality."
   }
 }

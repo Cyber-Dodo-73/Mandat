@@ -34,5 +34,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Amal Alamuddin naît à Beyrouth en 1978 dans une famille druze, qui s'installe en Angleterre en 1980 pour fuir la guerre civile libanaise. Elle étudie le droit au St Hugh's College d'Oxford, puis obtient un master à l'université de New York en 2001. Après un passage dans un grand cabinet new-yorkais, elle travaille pour la Cour internationale de justice, le Tribunal spécial pour le Liban et des missions de l'ONU, notamment sur la Syrie. Avocate au cabinet londonien Doughty Street Chambers à partir de 2010, elle défend des personnalités comme l'ancienne Première ministre ukrainienne Ioulia Timochenko, l'ex-président des Maldives Mohamed Nasheed et Julian Assange. Elle obtient la libération du journaliste d'Al Jazeera Mohamed Fahmy en Égypte en 2015 et celle de deux journalistes de Reuters emprisonnés en Birmanie en 2019. En 2014, elle épouse l'acteur George Clooney, avec qui elle fonde en 2016 la Fondation Clooney pour la justice. Elle représente aussi des survivantes yézidies, dont Nadia Murad, dans leurs démarches pour faire juger les crimes de l'État islamique, qui aboutissent en 2021 à une condamnation pour génocide en Allemagne. Envoyée spéciale du Royaume-Uni pour la liberté de la presse de 2019 à 2020, elle conseille en 2024 le procureur de la Cour pénale internationale sur ses demandes de mandats d'arrêt liées à la guerre à Gaza.",
+    "en": "Amal Alamuddin was born in Beirut in 1978 into a Druze family, which moved to England in 1980 to escape Lebanon's civil war. She read law at St Hugh's College, Oxford, then earned a master's at New York University in 2001. After a spell at a major New York law firm, she worked for the International Court of Justice, the Special Tribunal for Lebanon and UN missions, including on Syria. A barrister at London's Doughty Street Chambers from 2010, she has represented figures such as former Ukrainian prime minister Yulia Tymoshenko, ex-Maldives president Mohamed Nasheed and Julian Assange. She won the release of Al Jazeera journalist Mohamed Fahmy in Egypt in 2015 and of two Reuters journalists jailed in Myanmar in 2019. In 2014 she married the actor George Clooney, with whom she set up the Clooney Foundation for Justice in 2016. She has also represented Yazidi survivors, including Nadia Murad, in their efforts to bring Islamic State crimes to court, which led in 2021 to a genocide conviction in Germany. The UK's special envoy on media freedom from 2019 to 2020, she advised the International Criminal Court prosecutor in 2024 on his arrest warrant requests linked to the war in Gaza."
+  },
+  "highlights": {
+    "fr": [
+      "Avocate à Doughty Street Chambers, à Londres, depuis 2010",
+      "Obtient la libération du journaliste Mohamed Fahmy en Égypte en 2015",
+      "Cofonde la Fondation Clooney pour la justice en 2016",
+      "Représente des survivantes yézidies, dont Nadia Murad",
+      "Envoyée spéciale britannique pour la liberté de la presse, 2019-2020"
+    ],
+    "en": [
+      "Barrister at Doughty Street Chambers in London since 2010",
+      "Secured journalist Mohamed Fahmy's release in Egypt in 2015",
+      "Co-founded the Clooney Foundation for Justice in 2016",
+      "Represented Yazidi survivors, including Nadia Murad",
+      "UK special envoy on media freedom, 2019–2020"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a mis sa notoriété au service de la défense des journalistes emprisonnés et de la poursuite des crimes de masse devant les tribunaux.",
+    "en": "She has used her fame to defend jailed journalists and to push for mass atrocities to be tried in court."
   }
 }

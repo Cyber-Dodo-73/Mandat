@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1938 à Kumasi, dans la Côte-de-l'Or britannique devenue le Ghana, Kofi Annan étudie à l'université de sciences et technologie de Kumasi, puis l'économie aux États-Unis et à Genève. Il entre en 1962 à l'Organisation mondiale de la santé et fait ensuite presque toute sa carrière dans le système des Nations unies, complétant sa formation au MIT au début des années 1970. Chargé des opérations de maintien de la paix à partir de 1993, il est en poste pendant le génocide des Tutsi au Rwanda et le massacre de Srebrenica, des échecs onusiens qu'il reconnaîtra plus tard. En janvier 1997, il devient le septième secrétaire général de l'ONU, premier issu de l'Afrique subsaharienne à sortir des rangs du personnel. Il lance en 2000 les objectifs du millénaire pour le développement et défend l'idée d'une responsabilité de protéger les populations. L'organisation et lui-même reçoivent ensemble le prix Nobel de la paix en 2001. Son second mandat est marqué par son opposition à la guerre d'Irak de 2003 et par le scandale du programme « pétrole contre nourriture ». Après son départ fin 2006, il dirige sa fondation et mène en 2012 une médiation en Syrie, avant de mourir à Berne en 2018.",
+    "en": "Born in 1938 in Kumasi, in the British Gold Coast that became Ghana, Kofi Annan studied at Kumasi's university of science and technology, then economics in the United States and Geneva. He joined the World Health Organization in 1962 and spent almost his whole career inside the United Nations system, adding a degree from MIT in the early 1970s. Put in charge of peacekeeping in 1993, he held that post during the genocide of the Tutsi in Rwanda and the Srebrenica massacre, failures of the UN he later acknowledged. In January 1997 he became the seventh UN Secretary-General, the first from sub-Saharan Africa and the first to rise from the organisation's own staff. In 2000 he launched the Millennium Development Goals, and he championed the idea of a responsibility to protect civilians. He and the UN jointly received the Nobel Peace Prize in 2001. His second term was shaped by his opposition to the 2003 Iraq war and by the oil-for-food scandal. After stepping down at the end of 2006 he ran his own foundation and led a mediation effort in Syria in 2012, and he died in Bern in 2018."
+  },
+  "highlights": {
+    "fr": [
+      "Secrétaire général de l'ONU de 1997 à 2006",
+      "Lance les objectifs du millénaire pour le développement en 2000",
+      "Prix Nobel de la paix 2001, partagé avec l'ONU",
+      "Envoyé spécial de l'ONU et de la Ligue arabe pour la Syrie en 2012"
+    ],
+    "en": [
+      "UN Secretary-General from 1997 to 2006",
+      "Launched the Millennium Development Goals in 2000",
+      "2001 Nobel Peace Prize, shared with the UN",
+      "UN and Arab League special envoy for Syria in 2012"
+    ]
+  },
+  "legacy": {
+    "fr": "Il incarne une diplomatie onusienne fondée sur le développement et la protection des civils, tout en restant associé aux échecs du maintien de la paix au Rwanda et en Bosnie.",
+    "en": "He embodies a UN diplomacy built on development and protecting civilians, while remaining tied to the peacekeeping failures in Rwanda and Bosnia."
   }
 }

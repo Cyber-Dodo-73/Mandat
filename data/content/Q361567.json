@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1942 à Daura, dans l'actuel État de Katsina, Muhammadu Buhari entre dans l'armée nigériane en 1961 et se forme notamment en Grande-Bretagne. Il participe au contre-coup d'État de 1966, puis devient gouverneur de l'État du Nord-Est en 1975 et commissaire fédéral au Pétrole de 1976 à 1978. Le 31 décembre 1983, un putsch renverse le président civil Shehu Shagari et le place à la tête de l'État. Son régime mène une « guerre contre l'indiscipline », emprisonne des centaines d'hommes politiques, bâillonne la presse et fait exécuter des trafiquants de drogue en vertu d'un décret rétroactif. Renversé en août 1985 par le général Babangida, il est détenu jusqu'en 1988. Après trois défaites à la présidentielle, en 2003, 2007 et 2011, il bat Goodluck Jonathan en 2015, première alternance démocratique au profit de l'opposition. Ses deux mandats sont marqués par la lutte contre Boko Haram, des récessions, de longs séjours médicaux à Londres et la répression des manifestations #EndSARS en 2020. Il quitte le pouvoir en mai 2023 et meurt à Londres en juillet 2025.",
+    "en": "Born in 1942 in Daura, in today's Katsina State, Muhammadu Buhari joined the Nigerian army in 1961 and trained partly in Britain. He took part in the counter-coup of 1966, became governor of North-Eastern State in 1975 and federal commissioner for petroleum from 1976 to 1978. On 31 December 1983 a coup toppled the civilian president Shehu Shagari and put him at the head of the state. His regime waged a 'war against indiscipline', jailed hundreds of politicians, muzzled the press and executed drug traffickers under a retroactive decree. Overthrown in August 1985 by General Babangida, he was detained until 1988. After losing presidential races in 2003, 2007 and 2011, he beat Goodluck Jonathan in 2015, the first democratic handover to the opposition. His two terms were marked by the fight against Boko Haram, recessions, long medical stays in London and the crackdown on the #EndSARS protests in 2020. He left office in May 2023 and died in London in July 2025."
+  },
+  "highlights": {
+    "fr": [
+      "1976 : commissaire fédéral au Pétrole",
+      "1983 : prend le pouvoir par un coup d'État",
+      "1985 : renversé par le général Babangida",
+      "2015 : premier opposant à battre un président sortant au Nigeria",
+      "2019 : réélu pour un second mandat"
+    ],
+    "en": [
+      "1976: federal commissioner for petroleum",
+      "1983: seizes power in a coup",
+      "1985: overthrown by General Babangida",
+      "2015: first opposition candidate to unseat a sitting Nigerian president",
+      "2019: re-elected for a second term"
+    ]
+  },
+  "legacy": {
+    "fr": "Ancien putschiste devenu président élu, il laisse l'image d'un dirigeant austère dont les promesses contre la corruption et l'insécurité ont déçu.",
+    "en": "A former coup leader turned elected president, he is remembered as an austere ruler whose pledges on corruption and insecurity fell short."
   }
 }

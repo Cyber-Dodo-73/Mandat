@@ -29,5 +29,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1906 à Pékin, Puyi est désigné par l'impératrice douairière Cixi et intronisé en décembre 1908, à deux ans, sous le nom de règne Xuantong. La révolution de 1911 renverse la dynastie Qing, et il abdique en février 1912 tout en conservant le droit de vivre dans la Cité interdite. En juillet 1917, le général Zhang Xun le replace sur le trône, mais cette restauration ne dure que douze jours. Expulsé du palais en 1924, il se réfugie dans la concession japonaise de Tianjin. Après l'invasion de la Mandchourie, le Japon en fait en 1932 le chef de l'État fantoche du Mandchoukouo, puis son empereur en 1934, sans réel pouvoir face à l'armée japonaise. Capturé par les Soviétiques en août 1945, il témoigne au procès de Tokyo, puis est livré à la Chine populaire en 1950. Après près de dix ans de rééducation au centre de détention de Fushun, il est gracié en 1959. Il travaille ensuite comme jardinier puis comme archiviste, publie ses mémoires et meurt à Pékin en 1967.",
+    "en": "Born in Beijing in 1906, Puyi was chosen by the Empress Dowager Cixi and enthroned in December 1908, aged two, under the reign name Xuantong. The 1911 revolution toppled the Qing dynasty, and he abdicated in February 1912 while keeping the right to live in the Forbidden City. In July 1917 General Zhang Xun put him back on the throne, but the restoration lasted only twelve days. Expelled from the palace in 1924, he took refuge in the Japanese concession in Tianjin. After invading Manchuria, Japan made him head of its puppet state of Manchukuo in 1932 and then its emperor in 1934, with no real power over the Japanese army. Captured by the Soviets in August 1945, he testified at the Tokyo tribunal and was handed over to the People's Republic in 1950. After nearly ten years of re-education at the Fushun detention centre, he was pardoned in 1959. He then worked as a gardener and as an archivist, published his memoirs and died in Beijing in 1967."
+  },
+  "highlights": {
+    "fr": [
+      "1908 : intronisé empereur de Chine à deux ans",
+      "1912 : abdique, fin de plus de deux mille ans d'empire",
+      "1917 : restauré douze jours sur le trône",
+      "1934 : empereur fantoche du Mandchoukouo sous tutelle japonaise",
+      "1959 : gracié après dix ans de rééducation"
+    ],
+    "en": [
+      "1908: enthroned as Emperor of China aged two",
+      "1912: abdicates, ending over two thousand years of empire",
+      "1917: restored to the throne for twelve days",
+      "1934: puppet emperor of Manchukuo under Japanese control",
+      "1959: pardoned after ten years of re-education"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier empereur de Chine, devenu simple citoyen de la République populaire, sa vie résume les bouleversements chinois du XXe siècle.",
+    "en": "The last Emperor of China turned ordinary citizen of the People's Republic, his life sums up China's upheavals in the 20th century."
   }
 }

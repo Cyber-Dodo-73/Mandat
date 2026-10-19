@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1778 à Yapeyú, dans l'actuelle province de Corrientes, fils d'un officier espagnol, José de San Martín part enfant pour l'Espagne et y mène une carrière militaire, combattant notamment les troupes napoléoniennes à Bailén en 1808. En 1812, il rejoint Buenos Aires et met son expérience au service de l'indépendance, avant de remporter en 1813 le combat de San Lorenzo. Gouverneur de Cuyo à partir de 1814, il prépare à Mendoza l'armée des Andes. En janvier 1817, il franchit la cordillère avec quelque 5 000 hommes et bat les royalistes à Chacabuco, puis à Maipú en 1818, assurant l'indépendance du Chili. Il embarque ensuite pour le Pérou, entre à Lima et y proclame l'indépendance le 28 juillet 1821, devenant Protecteur du pays. En juillet 1822, il rencontre Simón Bolívar à Guayaquil ; peu après, il renonce à ses fonctions et se retire. Après la mort de son épouse, il part en 1824 pour l'Europe, où il vit en exil jusqu'à sa mort à Boulogne-sur-Mer en 1850.",
+    "en": "Born in 1778 in Yapeyú, in today's Corrientes province, the son of a Spanish officer, José de San Martín went to Spain as a child and made his career in its army, fighting Napoleon's troops at Bailén in 1808. In 1812 he sailed to Buenos Aires to put his experience at the service of independence, winning the skirmish of San Lorenzo in 1813. Governor of Cuyo from 1814, he built up the Army of the Andes in Mendoza. In January 1817 he crossed the cordillera with some 5,000 men and beat the royalists at Chacabuco, then at Maipú in 1818, securing Chile's independence. He then sailed for Peru, entered Lima and proclaimed its independence on 28 July 1821, becoming the country's Protector. In July 1822 he met Simón Bolívar in Guayaquil; soon afterwards he gave up his posts and withdrew. After his wife's death he left for Europe in 1824 and lived in exile until his death in Boulogne-sur-Mer in 1850."
+  },
+  "highlights": {
+    "fr": [
+      "Traverse les Andes en 1817 avec l'armée des Andes",
+      "Victoires de Chacabuco (1817) et Maipú (1818), indépendance du Chili",
+      "Proclame l'indépendance du Pérou à Lima le 28 juillet 1821",
+      "Entrevue de Guayaquil avec Bolívar en juillet 1822"
+    ],
+    "en": [
+      "Crossed the Andes in 1817 with the Army of the Andes",
+      "Won at Chacabuco (1817) and Maipú (1818), freeing Chile",
+      "Proclaimed Peru's independence in Lima on 28 July 1821",
+      "Met Bolívar at Guayaquil in July 1822"
+    ]
+  },
+  "legacy": {
+    "fr": "Père de la patrie en Argentine et libérateur du Chili et du Pérou, il est vénéré pour avoir renoncé au pouvoir après la victoire.",
+    "en": "Revered as the father of the nation in Argentina and liberator of Chile and Peru, he is admired for giving up power once victory was won."
   }
 }

@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Nancy D'Alesandro naît en 1940 à Baltimore, fille d'un élu démocrate qui fut maire de la ville et membre du Congrès. Diplômée du Trinity College de Washington en 1962, elle épouse Paul Pelosi, s'installe à San Francisco et y devient une organisatrice et collectrice de fonds influente du Parti démocrate. Élue en 1987 à la Chambre des représentants lors d'une élection partielle, elle y représente San Francisco pendant plus de trois décennies. Chef de la minorité démocrate à partir de 2003, elle devient en janvier 2007 la première femme présidente de la Chambre. Elle joue un rôle décisif dans l'adoption de l'Affordable Care Act de Barack Obama en 2010, avant que la perte de la majorité ne la renvoie dans l'opposition en 2011. Redevenue présidente de la Chambre en 2019, elle conduit les deux procédures de destitution contre Donald Trump, en 2019 et en 2021. Son mari est grièvement blessé lors d'une agression à leur domicile en octobre 2022, et elle cède la direction des démocrates à Hakeem Jeffries en janvier 2023. Restée députée, elle a reçu la médaille présidentielle de la liberté en 2024.",
+    "en": "Nancy D'Alesandro was born in 1940 in Baltimore, the daughter of a Democratic politician who served as the city's mayor and as a congressman. After graduating from Trinity College in Washington in 1962, she married Paul Pelosi, moved to San Francisco and became an influential Democratic organizer and fundraiser there. Elected to the House of Representatives in a 1987 special election, she represented San Francisco for more than three decades. Democratic leader from 2003, she became the first woman Speaker of the House in January 2007. She played a decisive part in passing Barack Obama's Affordable Care Act in 2010, before the loss of the majority sent her back into opposition in 2011. Speaker again from 2019, she led both impeachments of Donald Trump, in 2019 and 2021. After her husband was badly injured in an attack at their home in October 2022, she handed the Democratic leadership to Hakeem Jeffries in January 2023. Remaining in the House, she received the Presidential Medal of Freedom in 2024."
+  },
+  "highlights": {
+    "fr": [
+      "Élue à la Chambre des représentants pour San Francisco en 1987",
+      "Première femme présidente de la Chambre des représentants (janvier 2007)",
+      "Fait adopter l'Affordable Care Act en mars 2010",
+      "Conduit les deux procédures de destitution de Donald Trump (2019 et 2021)",
+      "Reçoit la médaille présidentielle de la liberté en 2024"
+    ],
+    "en": [
+      "Elected to the House of Representatives for San Francisco in 1987",
+      "First woman Speaker of the House of Representatives (January 2007)",
+      "Steered the Affordable Care Act through the House in March 2010",
+      "Led both impeachments of Donald Trump (2019 and 2021)",
+      "Received the Presidential Medal of Freedom in 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Considérée comme l'une des présidentes de la Chambre les plus efficaces de l'histoire américaine, elle a ouvert la voie aux femmes au sommet du Congrès.",
+    "en": "Widely seen as one of the most effective Speakers in American history, she opened the way for women at the top of Congress."
   }
 }

@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né à Buenos Aires en 1970, Javier Milei joue un temps gardien de but chez les jeunes du club Chacarita Juniors avant d'étudier l'économie à l'université de Belgrano. Il fait carrière comme économiste dans le secteur privé et enseigne, tout en se réclamant de l'école autrichienne et du libertarianisme. Dans les années 2010, ses diatribes contre la « caste » politique sur les plateaux de télévision le rendent célèbre. Il fonde la coalition La Libertad Avanza et est élu député de Buenos Aires en 2021. En novembre 2023, il remporte le second tour de la présidentielle face au ministre de l'Économie Sergio Massa, avec environ 56 % des voix, dans un pays où l'inflation dépasse 140 % par an. Investi le 10 décembre, il dévalue le peso, réduit de moitié le nombre de ministères et taille dans les dépenses publiques, au prix d'une forte récession et d'une hausse temporaire de la pauvreté. L'inflation mensuelle recule nettement et l'État dégage en 2024 un excédent budgétaire inédit depuis plus de dix ans. Son parti s'impose aux élections de mi-mandat d'octobre 2025.",
+    "en": "Born in Buenos Aires in 1970, Javier Milei played for a while as a youth goalkeeper at Chacarita Juniors before studying economics at the University of Belgrano. He worked as an economist in the private sector and taught, while identifying with the Austrian school and libertarianism. In the 2010s his tirades against the political 'caste' on television talk shows made him famous. He founded the La Libertad Avanza coalition and was elected a deputy for Buenos Aires in 2021. In November 2023 he won the presidential runoff against Economy Minister Sergio Massa with about 56% of the vote, in a country where inflation exceeded 140% a year. Sworn in on 10 December, he devalued the peso, halved the number of ministries and slashed public spending, at the cost of a deep recession and a temporary rise in poverty. Monthly inflation fell sharply and in 2024 the state posted its first budget surplus in over a decade. His party came out ahead in the October 2025 midterm elections."
+  },
+  "highlights": {
+    "fr": [
+      "2021 : élu député de Buenos Aires",
+      "2023 : élu président avec environ 56 % au second tour",
+      "2023 : divise par deux le nombre de ministères",
+      "2024 : premier excédent budgétaire depuis plus de dix ans",
+      "2025 : son parti remporte les législatives de mi-mandat"
+    ],
+    "en": [
+      "2021: elected deputy for Buenos Aires",
+      "2023: elected president with about 56% in the runoff",
+      "2023: halves the number of government ministries",
+      "2024: first budget surplus in more than a decade",
+      "2025: his party wins the midterm elections"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier libertarien à diriger un grand pays, il mène une expérience d'austérité radicale suivie de près par la droite mondiale.",
+    "en": "The first libertarian to lead a major country, he is running a radical austerity experiment closely watched by the global right."
   }
 }

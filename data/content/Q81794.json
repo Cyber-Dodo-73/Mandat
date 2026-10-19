@@ -32,5 +32,27 @@
         "value": "influence"
       }
     }
+  },
+  "story": {
+    "fr": "Fils d'Amenhotep III et de la reine Tiyi, il naît vers 1380 avant notre ère et monte sur le trône sous le nom d'Amenhotep IV, dans une Égypte riche et puissante. Dès les premières années de son règne, il favorise le culte d'Aton, le disque solaire, au détriment d'Amon et de son puissant clergé thébain. Vers sa cinquième année de règne, il prend le nom d'Akhenaton et fonde une nouvelle capitale, Akhetaton, sur le site de l'actuelle Amarna. Les temples des anciens dieux sont délaissés et le nom d'Amon est martelé sur de nombreux monuments. L'art de cette période rompt avec les conventions, montrant le roi et la reine Néfertiti dans des scènes intimes et des corps aux formes inhabituelles. Les lettres d'Amarna, correspondance diplomatique sur tablettes d'argile, révèlent les liens tendus avec les vassaux du Levant. Il meurt vers 1336 avant notre ère à Amarna, après environ dix-sept ans de règne. Ses successeurs, dont Toutankhamon, rétablissent les anciens cultes, abandonnent sa ville et effacent son nom des listes royales.",
+    "en": "Son of Amenhotep III and Queen Tiye, he was born around 1380 BCE and took the throne as Amenhotep IV over a rich and powerful Egypt. Early in his reign he promoted the cult of the Aten, the sun disc, at the expense of Amun and his influential priesthood at Thebes. Around his fifth regnal year he renamed himself Akhenaten and founded a new capital, Akhetaten, at what is now Amarna. Temples of the old gods were neglected and Amun's name was chiselled off many monuments. The art of the period broke with convention, showing the king and Queen Nefertiti in intimate family scenes and with unusually elongated bodies. The Amarna letters, diplomatic correspondence on clay tablets, reveal strained ties with vassal rulers in the Levant. He died at Amarna around 1336 BCE after roughly seventeen years on the throne. His successors, Tutankhamun among them, restored the old cults, abandoned his city and struck his name from the king lists."
+  },
+  "highlights": {
+    "fr": [
+      "Place le disque solaire Aton au-dessus des dieux traditionnels",
+      "Fonde la capitale Akhetaton, l'actuelle Amarna",
+      "Inspire un art nouveau, plus naturaliste et intime",
+      "Règne environ dix-sept ans, jusque vers 1336 avant notre ère"
+    ],
+    "en": [
+      "Raises the sun disc Aten above Egypt's traditional gods",
+      "Founds the capital Akhetaten, today's Amarna",
+      "Inspires a new, more naturalistic and intimate art",
+      "Reigns about seventeen years, until around 1336 BCE"
+    ]
+  },
+  "legacy": {
+    "fr": "Effacé par ses successeurs, il fascine aujourd'hui comme l'auteur de la première grande révolution religieuse connue, centrée sur un dieu unique.",
+    "en": "Erased by his successors, he now fascinates as the author of the first known great religious revolution centred on a single god."
   }
 }

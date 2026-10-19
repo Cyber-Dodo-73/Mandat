@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Kim Song-ju naît en 1912 à Mangyongdae, près de Pyongyang, alors que la Corée est sous domination japonaise, et sa famille s'installe en Mandchourie dans les années 1920. Dans les années 1930, il combat les Japonais au sein d'une guérilla dirigée par les communistes chinois, sous le nom de Kim Il-sung, puis se réfugie en Union soviétique vers 1940 et sert dans l'Armée rouge. Revenu à Pyongyang en septembre 1945 avec les troupes soviétiques, il est placé à la tête des nouvelles autorités du Nord et proclame la République populaire démocratique de Corée le 9 septembre 1948. Le 25 juin 1950, avec l'accord de Staline, il envahit le Sud ; la guerre de Corée fait environ trois millions de morts, en majorité civils, avant l'armistice de juillet 1953. Il élimine ensuite ses rivaux, fait exécuter des dirigeants communistes venus du Sud et purge en 1956 les factions prosoviétique et prochinoise. Il impose l'idéologie du Juche, un culte de la personnalité omniprésent et un système de castes politiques ; des centaines de milliers de personnes passent par ses camps de prisonniers politiques. Son régime organise des attentats contre le Sud, dont celui de Rangoun en 1983 qui tue 21 personnes, et des enlèvements de citoyens étrangers. Devenu président en 1972, il meurt d'une crise cardiaque le 8 juillet 1994 et son fils Kim Jong-il lui succède, avant de le proclamer président éternel en 1998.",
+    "en": "Kim Song-ju was born in 1912 at Mangyongdae, near Pyongyang, while Korea was under Japanese rule, and his family moved to Manchuria in the 1920s. In the 1930s he fought the Japanese in a guerrilla force led by Chinese communists, under the name Kim Il-sung, then took refuge in the Soviet Union around 1940 and served in the Red Army. Returning to Pyongyang with Soviet troops in September 1945, he was put in charge of the new northern authorities and proclaimed the Democratic People's Republic of Korea on 9 September 1948. On 25 June 1950, with Stalin's approval, he invaded the South; the Korean War killed about three million people, most of them civilians, before the armistice of July 1953. He then eliminated his rivals, had communist leaders from the South executed and purged the pro-Soviet and pro-Chinese factions in 1956. He imposed the Juche ideology, an all-pervasive personality cult and a system of political castes, and hundreds of thousands of people passed through his political prison camps. His regime carried out attacks on the South, including the 1983 Rangoon bombing that killed 21 people, and abducted foreign citizens. President from 1972, he died of a heart attack on 8 July 1994 and was succeeded by his son Kim Jong-il, who proclaimed him Eternal President in 1998."
+  },
+  "highlights": {
+    "fr": [
+      "Proclame la Corée du Nord le 9 septembre 1948",
+      "Déclenche la guerre de Corée le 25 juin 1950, environ 3 millions de morts",
+      "Purge les factions rivales du parti en 1956",
+      "Camps de prisonniers politiques et culte de la personnalité",
+      "Attentat de Rangoun contre des ministres sud-coréens en 1983"
+    ],
+    "en": [
+      "Proclaimed North Korea on 9 September 1948",
+      "Started the Korean War on 25 June 1950; about 3 million dead",
+      "Purged rival party factions in 1956",
+      "Built political prison camps and a personality cult",
+      "Rangoon bombing against South Korean ministers in 1983"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a fondé la seule dynastie communiste au monde, dont son petit-fils Kim Jong-un est le troisième dirigeant, et son régime reste l'un des plus fermés et répressifs de la planète.",
+    "en": "He founded the world's only communist dynasty, now led by his grandson Kim Jong-un, and his regime remains one of the most closed and repressive on earth."
   }
 }

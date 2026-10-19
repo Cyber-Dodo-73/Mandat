@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1889 à Braunau am Inn, en Autriche-Hongrie, Adolf Hitler échoue à devenir peintre à Vienne puis sert comme soldat dans l'armée bavaroise pendant la Première Guerre mondiale. Il prend la tête du parti nazi au début des années 1920 et tente un coup d'État à Munich en novembre 1923, ce qui lui vaut une courte détention pendant laquelle il rédige Mein Kampf. Profitant de la crise économique, son parti devient le premier d'Allemagne et il est nommé chancelier le 30 janvier 1933. En quelques mois, il supprime les libertés, interdit les autres partis et ouvre les premiers camps de concentration, puis cumule en 1934 les fonctions de chancelier et de chef de l'État. Il réarme le pays, annexe l'Autriche, obtient les Sudètes à Munich en 1938 et déclenche la Seconde Guerre mondiale en envahissant la Pologne en septembre 1939. Son régime organise la Shoah, le meurtre de six millions de Juifs, ainsi que l'extermination de centaines de milliers de Roms et, par le programme T4, de quelque 70 000 malades et handicapés dès 1939-1941, sans compter des millions de civils et prisonniers soviétiques et polonais. Face à la défaite, il se suicide dans son bunker de Berlin le 30 avril 1945, une semaine avant la capitulation allemande.",
+    "en": "Born in 1889 in Braunau am Inn, Austria-Hungary, Adolf Hitler failed as an artist in Vienna and served as a soldier in the Bavarian army during the First World War. He took control of the Nazi Party in the early 1920s and attempted a coup in Munich in November 1923, earning a short prison term during which he wrote Mein Kampf. Exploiting the economic crisis, his party became Germany's largest and he was appointed chancellor on 30 January 1933. Within months he abolished civil liberties, banned rival parties and opened the first concentration camps, then in 1934 merged the offices of chancellor and head of state. He rearmed Germany, annexed Austria, obtained the Sudetenland at Munich in 1938 and started the Second World War by invading Poland in September 1939. His regime carried out the Holocaust, the murder of six million Jews, as well as the killing of hundreds of thousands of Roma and, under the T4 programme from 1939 to 1941, some 70,000 disabled and sick people, alongside millions of Soviet and Polish civilians and prisoners. Facing defeat, he killed himself in his Berlin bunker on 30 April 1945, a week before Germany surrendered."
+  },
+  "highlights": {
+    "fr": [
+      "Tente un putsch à Munich en novembre 1923",
+      "Nommé chancelier le 30 janvier 1933, il instaure une dictature en quelques mois",
+      "Déclenche la Seconde Guerre mondiale en envahissant la Pologne en 1939",
+      "Responsable de la Shoah : six millions de Juifs assassinés",
+      "Se suicide à Berlin le 30 avril 1945"
+    ],
+    "en": [
+      "Attempted a coup in Munich in November 1923",
+      "Appointed chancellor on 30 January 1933, he built a dictatorship within months",
+      "Started the Second World War by invading Poland in 1939",
+      "Responsible for the Holocaust: six million Jews murdered",
+      "Killed himself in Berlin on 30 April 1945"
+    ]
+  },
+  "legacy": {
+    "fr": "Il est tenu pour le principal responsable de la guerre la plus meurtrière de l'histoire et du génocide des Juifs d'Europe, et son nom incarne le crime de masse d'État.",
+    "en": "He is held chiefly responsible for the deadliest war in history and the genocide of Europe's Jews, and his name has come to embody state mass murder."
   }
 }

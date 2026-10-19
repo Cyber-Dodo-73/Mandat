@@ -36,5 +36,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1878 dans le Durango sous le nom de José Doroteo Arango, fils de métayers, Pancho Villa devient jeune hors-la-loi et voleur de bétail dans le nord du Mexique. En 1910, il rejoint la révolution de Francisco Madero et contribue à la prise de Ciudad Juárez en 1911. Condamné à mort par le général Huerta en 1912, il échappe de justesse à l'exécution puis s'évade. Après l'assassinat de Madero en 1913, il forme la Division du Nord, une armée de cavaliers qui remporte les batailles de Torreón et de Zacatecas en 1914 et précipite la chute de Huerta. Gouverneur du Chihuahua pendant quelques semaines, il y confisque des haciendas pour financer son armée. Rompant avec Venustiano Carranza, il entre à Mexico avec Emiliano Zapata en décembre 1914, avant d'être écrasé par Álvaro Obregón à Celaya en 1915. Ses troupes commettent des massacres, notamment à San Pedro de la Cueva, et en mars 1916 il attaque Columbus, au Nouveau-Mexique, déclenchant une expédition punitive américaine qui ne parvient pas à le capturer. Amnistié en 1920, il se retire dans une hacienda et est assassiné à Parral en juillet 1923.",
+    "en": "Born in Durango in 1878 as José Doroteo Arango, the son of sharecroppers, Pancho Villa became a young outlaw and cattle rustler in northern Mexico. In 1910 he joined Francisco Madero's revolution and helped capture Ciudad Juárez in 1911. Sentenced to death by General Huerta in 1912, he narrowly escaped execution and then broke out of prison. After Madero's murder in 1913 he raised the Division of the North, a cavalry army that won the battles of Torreón and Zacatecas in 1914 and hastened Huerta's fall. As governor of Chihuahua for a few weeks, he seized haciendas to pay for his army. Breaking with Venustiano Carranza, he entered Mexico City with Emiliano Zapata in December 1914, before being crushed by Álvaro Obregón at Celaya in 1915. His troops committed massacres, notably at San Pedro de la Cueva, and in March 1916 he raided Columbus, New Mexico, prompting a US punitive expedition that failed to catch him. Granted amnesty in 1920, he retired to a hacienda and was assassinated in Parral in July 1923."
+  },
+  "highlights": {
+    "fr": [
+      "1911 : participe à la prise de Ciudad Juárez",
+      "1913 : fonde la Division du Nord",
+      "1914 : remporte la bataille de Zacatecas",
+      "1915 : battu par Obregón à Celaya",
+      "1916 : attaque Columbus, au Nouveau-Mexique"
+    ],
+    "en": [
+      "1911: helps capture Ciudad Juárez",
+      "1913: raises the Division of the North",
+      "1914: wins the Battle of Zacatecas",
+      "1915: defeated by Obregón at Celaya",
+      "1916: raids Columbus, New Mexico"
+    ]
+  },
+  "legacy": {
+    "fr": "Héros populaire de la révolution mexicaine, chanté dans les corridos, il reste aussi le chef de guerre aux méthodes brutales qui a défié les États-Unis.",
+    "en": "A folk hero of the Mexican Revolution sung in corridos, he also remains the brutal warlord who defied the United States."
   }
 }

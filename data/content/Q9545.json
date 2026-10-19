@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Anthony Blair naît en 1953 à Édimbourg et grandit en partie à Durham, avant d'étudier le droit au St John's College d'Oxford. Avocat à Londres, il est élu député travailliste de Sedgefield en 1983. Porte-parole de l'opposition sur l'énergie, l'emploi puis l'intérieur, il prend la tête du Labour en 1994 après la mort de John Smith. Sous l'étiquette « New Labour », il abandonne l'objectif de nationalisations inscrit dans les statuts du parti et le recentre. Il remporte en mai 1997 une victoire écrasante et devient, à 43 ans, Premier ministre. Son gouvernement rend la Banque d'Angleterre indépendante, crée un salaire minimum, instaure des parlements en Écosse et au pays de Galles et conclut en 1998 l'accord du Vendredi saint en Irlande du Nord. Il engage le Royaume-Uni au Kosovo en 1999, en Afghanistan en 2001 puis, aux côtés des États-Unis, dans l'invasion de l'Irak en 2003, justifiée par des armes de destruction massive qui n'ont jamais été trouvées. Réélu en 2001 et 2005, il est fragilisé par la guerre et cède sa place à Gordon Brown en juin 2007. Il devient ensuite envoyé du Quartet pour le Proche-Orient et fonde un institut de conseil aux gouvernements.",
+    "en": "Anthony Blair was born in 1953 in Edinburgh, grew up partly in Durham and read law at St John's College, Oxford. A London barrister, he was elected Labour MP for Sedgefield in 1983. After shadowing energy, employment and home affairs, he became party leader in 1994 following John Smith's death. Under the \"New Labour\" banner he scrapped the nationalisation pledge from the party constitution and moved it to the centre. A landslide in May 1997 made him Prime Minister at 43. His government made the Bank of England independent, introduced a minimum wage, set up devolved parliaments in Scotland and Wales and sealed the 1998 Good Friday Agreement in Northern Ireland. He took Britain into Kosovo in 1999, Afghanistan in 2001 and, alongside the United States, the 2003 invasion of Iraq, justified by weapons of mass destruction that were never found. Re-elected in 2001 and 2005, he was weakened by the war and handed over to Gordon Brown in June 2007. He then served as Middle East envoy for the Quartet and set up an institute that advises governments."
+  },
+  "highlights": {
+    "fr": [
+      "1994 : élu chef du Parti travailliste et lance le « New Labour »",
+      "1997 : victoire écrasante, plus jeune Premier ministre depuis 1812",
+      "1998 : accord du Vendredi saint en Irlande du Nord",
+      "2003 : engage le Royaume-Uni dans l'invasion de l'Irak",
+      "Seul travailliste à remporter trois élections générales d'affilée"
+    ],
+    "en": [
+      "1994: elected Labour leader and launched \"New Labour\"",
+      "1997: landslide win, youngest PM since 1812",
+      "1998: Good Friday Agreement in Northern Ireland",
+      "2003: took the UK into the invasion of Iraq",
+      "Only Labour leader to win three general elections in a row"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a durablement modernisé la gauche britannique et contribué à la paix en Irlande du Nord, mais la guerre d'Irak pèse lourdement sur son image.",
+    "en": "He reshaped the British left and helped bring peace to Northern Ireland, but the Iraq war continues to weigh heavily on his reputation."
   }
 }

@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1790 dans le comté de Charles City, en Virginie, fils d'un gouverneur de l'État, John Tyler étudie au College of William & Mary, dont il sort en 1807, puis devient avocat. Il est élu à la Chambre des délégués de Virginie en 1811, siège à la Chambre des représentants de 1816 à 1821, puis devient gouverneur de Virginie en 1825. Sénateur de 1827 à 1836, défenseur strict des droits des États, il démissionne plutôt que d'obéir à la consigne de sa législature de revenir sur la censure votée contre Andrew Jackson. Rallié aux whigs, il est élu vice-président en 1840 aux côtés de William Henry Harrison. À la mort de celui-ci, en avril 1841, il s'impose comme président à part entière et non comme simple intérimaire, fixant ainsi un précédent. Ses veto répétés contre la banque nationale voulue par les whigs entraînent la démission de presque tout son cabinet en septembre 1841 et son exclusion du parti. Il conclut en 1842 le traité Webster-Ashburton sur la frontière canadienne et signe en mars 1845 l'annexion du Texas. Rallié à la Confédération en 1861, il est élu à son Congrès mais meurt à Richmond en janvier 1862, avant d'y siéger.",
+    "en": "Born in 1790 in Charles City County, Virginia, the son of a state governor, John Tyler graduated from the College of William & Mary in 1807 and became a lawyer. He was elected to the Virginia House of Delegates in 1811, sat in the House of Representatives from 1816 to 1821 and became governor of Virginia in 1825. A senator from 1827 to 1836 and a strict states' rights man, he resigned rather than obey his legislature's instruction to vote to expunge the censure of Andrew Jackson. Having joined the Whigs, he was elected vice president in 1840 alongside William Henry Harrison. When Harrison died in April 1841, Tyler claimed the presidency in full rather than as a caretaker, setting a lasting precedent. His repeated vetoes of the national bank the Whigs wanted led almost his entire cabinet to resign in September 1841 and got him expelled from the party. He concluded the Webster–Ashburton Treaty on the Canadian border in 1842 and signed the annexation of Texas in March 1845. Siding with the Confederacy in 1861, he was elected to its Congress but died in Richmond in January 1862 before taking his seat."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur de Virginie de 1825 à 1827",
+      "Premier vice-président à devenir président, en avril 1841",
+      "Exclu du Parti whig après ses veto sur la banque nationale en 1841",
+      "Signe l'annexion du Texas en mars 1845"
+    ],
+    "en": [
+      "Governor of Virginia from 1825 to 1827",
+      "First vice president to succeed to the presidency, in April 1841",
+      "Expelled from the Whig Party after his bank vetoes in 1841",
+      "Signed the annexation of Texas in March 1845"
+    ]
+  },
+  "legacy": {
+    "fr": "Le « précédent Tyler », qui fait du vice-président un président de plein droit, a été inscrit dans la Constitution en 1967 par le 25e amendement.",
+    "en": "The “Tyler precedent”, making the vice president a full president, was written into the Constitution in 1967 by the 25th Amendment."
   }
 }

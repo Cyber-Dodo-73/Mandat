@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1959 dans la région de Geita, près du lac Victoria, John Magufuli enseigne la chimie et les mathématiques avant de soutenir un doctorat de chimie à l'université de Dar es Salaam. Élu député du Chama Cha Mapinduzi en 1995, il dirige à deux reprises le ministère des Travaux publics, de 2000 à 2005 puis de 2010 à 2015, où son goût pour les chantiers routiers et sa sévérité envers les entrepreneurs lui valent le surnom de « Bulldozer ». Candidat surprise du parti au pouvoir, il remporte la présidentielle d'octobre 2015. Il réduit les voyages officiels, licencie des milliers de fonctionnaires aux diplômes falsifiés, lance de grands projets comme le chemin de fer à écartement standard et le barrage de Julius Nyerere, et transfère le gouvernement à Dodoma. Dans le même temps, des journaux sont suspendus, les rassemblements de l'opposition interdits et des critiques arrêtés. Réélu en 2020 lors d'un scrutin contesté, il minimise la pandémie de Covid-19 et cesse de publier les chiffres de contamination. Il meurt en fonctions à Dar es Salaam en mars 2021, officiellement d'un problème cardiaque.",
+    "en": "Born in 1959 in the Geita region near Lake Victoria, John Magufuli taught chemistry and mathematics before earning a doctorate in chemistry from the University of Dar es Salaam. Elected to parliament for Chama Cha Mapinduzi in 1995, he twice ran the works ministry, from 2000 to 2005 and again from 2010 to 2015, where his passion for road building and his toughness with contractors earned him the nickname 'the Bulldozer'. A surprise choice as the ruling party's candidate, he won the October 2015 presidential election. He cut official travel, sacked thousands of civil servants with forged qualifications, launched big projects such as a standard-gauge railway and the Julius Nyerere dam, and moved the government to Dodoma. At the same time, newspapers were suspended, opposition rallies banned and critics arrested. Re-elected in a disputed 2020 vote, he played down the Covid-19 pandemic and stopped publishing infection figures. He died in office in Dar es Salaam in March 2021, officially of a heart condition."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre des Travaux publics de 2000 à 2005 et de 2010 à 2015",
+      "Élu président de la Tanzanie en octobre 2015",
+      "Lance le chemin de fer à écartement standard et le barrage Julius Nyerere",
+      "Réélu en 2020 lors d'un scrutin contesté par l'opposition",
+      "Meurt en fonctions en mars 2021"
+    ],
+    "en": [
+      "Minister of Works from 2000 to 2005 and from 2010 to 2015",
+      "Elected president of Tanzania in October 2015",
+      "Launched the standard-gauge railway and the Julius Nyerere dam",
+      "Re-elected in 2020 in a vote disputed by the opposition",
+      "Died in office in March 2021"
+    ]
+  },
+  "legacy": {
+    "fr": "Admiré pour sa lutte contre le gaspillage, il reste critiqué pour son autoritarisme et son déni du Covid-19 ; sa vice-présidente Samia Suluhu Hassan lui a succédé.",
+    "en": "Admired for fighting waste, he remains criticised for his authoritarianism and his denial of Covid-19; his vice president Samia Suluhu Hassan succeeded him."
   }
 }

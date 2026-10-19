@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Utrecht en avril 1967, Willem-Alexander est le fils aîné de la princesse Beatrix et du prince Claus. Il étudie au collège Atlantique, au pays de Galles, puis l'histoire à l'université de Leyde jusqu'en 1993, après un service dans la marine. Devenu prince d'Orange en 1980 lors de l'avènement de sa mère, il se spécialise dans la gestion de l'eau et préside un comité consultatif des Nations unies sur le sujet. En 2002, il épouse à Amsterdam l'Argentine Máxima Zorreguieta, union qui suscite un débat en raison du rôle de son père sous la dictature militaire. Le 30 avril 2013, il succède à Beatrix, qui abdique, et devient le premier roi des Pays-Bas depuis 1890. Son rôle est surtout représentatif dans une monarchie parlementaire, même s'il signe les lois et reçoit les dirigeants politiques. En 2023, il présente des excuses officielles pour le passé esclavagiste du pays. Il représente le royaume lors de nombreuses visites d'État et reçoit les grandes distinctions de nombreux pays.",
+    "en": "Born in Utrecht in April 1967, Willem-Alexander is the eldest son of Princess Beatrix and Prince Claus. He attended Atlantic College in Wales and, after service in the navy, studied history at Leiden University until 1993. Prince of Orange from 1980, when his mother became queen, he made water management his speciality and chaired a United Nations advisory board on the subject. In 2002 he married the Argentine Máxima Zorreguieta in Amsterdam, a match that stirred debate because of her father's role under the military dictatorship. On 30 April 2013 he succeeded Beatrix on her abdication, becoming the first King of the Netherlands since 1890. His role is mostly ceremonial in a parliamentary monarchy, though he signs laws and meets party leaders. In 2023 he formally apologised for the country's part in slavery. He represents the kingdom on frequent state visits and has received top honours from many countries."
+  },
+  "highlights": {
+    "fr": [
+      "1993 : diplômé en histoire de l'université de Leyde",
+      "2002 : épouse Máxima Zorreguieta à Amsterdam",
+      "30 avril 2013 : premier roi des Pays-Bas depuis 1890",
+      "2023 : excuses officielles pour le passé esclavagiste"
+    ],
+    "en": [
+      "1993: graduates in history from Leiden University",
+      "2002: marries Máxima Zorreguieta in Amsterdam",
+      "30 April 2013: first King of the Netherlands since 1890",
+      "2023: formally apologises for the country's role in slavery"
+    ]
+  },
+  "legacy": {
+    "fr": "Il incarne une monarchie néerlandaise modernisée, discrète sur le plan politique et attachée aux questions de l'eau et de la mémoire.",
+    "en": "He embodies a modernised Dutch monarchy, politically low-key and focused on water issues and historical memory."
   }
 }

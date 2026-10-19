@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Troisième fils du cheikh Rachid ben Saïd Al Maktoum, Mohammed ben Rachid naît en 1949 à Dubaï, alors petit port de pêche perlière et de commerce. Formé à l'école d'officiers de Mons, en Angleterre, il prend en 1968 la tête de la police et des forces de défense de Dubaï. À la création des Émirats arabes unis en décembre 1971, il devient, à 22 ans, ministre fédéral de la Défense, poste qu'il garde plus d'un demi-siècle. Dans les années 1980 et 1990, il pilote l'essor économique de l'émirat, avec la compagnie Emirates fondée en 1985, des zones franches et des projets géants comme Palm Jumeirah. Prince héritier en 1995, il devient émir de Dubaï en janvier 2006 à la mort de son frère Maktoum, et en même temps vice-président et Premier ministre de la fédération. La crise de la dette de 2009 oblige Dubaï à solliciter l'aide d'Abou Dhabi, mais la tour Burj Khalifa est inaugurée en 2010. Passionné de chevaux, il a fondé l'écurie Godolphin. En 2019 et 2020, la justice britannique a conclu qu'il avait fait enlever deux de ses filles, Shamsa en 2000 et Latifa en 2018, et mené une campagne d'intimidation contre son ex-épouse, la princesse Haya. En 2024, il confie le ministère de la Défense à son fils Hamdan, tout en restant à la tête du gouvernement fédéral.",
+    "en": "The third son of Sheikh Rashid bin Saeed Al Maktoum, Mohammed bin Rashid was born in 1949 in Dubai, then a small port living off pearling and trade. Trained at the Mons Officer Cadet School in England, he took charge of Dubai's police and defence force in 1968. When the United Arab Emirates was founded in December 1971 he became, at 22, federal defence minister, a post he held for more than half a century. In the 1980s and 1990s he drove the emirate's economic boom, with the airline Emirates founded in 1985, free zones and giant projects such as Palm Jumeirah. Named crown prince in 1995, he became Ruler of Dubai in January 2006 on the death of his brother Maktoum, and at the same time Vice President and Prime Minister of the federation. The 2009 debt crisis forced Dubai to seek help from Abu Dhabi, yet the Burj Khalifa tower opened in 2010. A keen horseman, he founded the Godolphin racing stable. In 2019 and 2020 the English High Court found that he had ordered the abduction of two of his daughters, Shamsa in 2000 and Latifa in 2018, and waged a campaign of intimidation against his former wife, Princess Haya. In 2024 he handed the defence ministry to his son Hamdan while remaining head of the federal government."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre de la Défense des Émirats dès leur création en 1971",
+      "Émir de Dubaï depuis janvier 2006",
+      "Vice-président et Premier ministre des Émirats depuis 2006",
+      "Inauguration de la Burj Khalifa, plus haute tour du monde, en 2010",
+      "Fondateur de l'écurie de courses Godolphin"
+    ],
+    "en": [
+      "UAE defence minister from the federation's founding in 1971",
+      "Ruler of Dubai since January 2006",
+      "Vice President and Prime Minister of the UAE since 2006",
+      "Opened the Burj Khalifa, the world's tallest tower, in 2010",
+      "Founded the Godolphin racing stable"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a fait de Dubaï une plaque tournante mondiale du commerce, du tourisme et du transport aérien. Les affaires concernant ses filles ont durablement terni son image.",
+    "en": "He turned Dubai into a global hub for trade, tourism and air travel. The cases involving his daughters have lastingly tarnished his image."
   }
 }

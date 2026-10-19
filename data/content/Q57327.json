@@ -35,5 +35,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1946 à Brunei Town, l'actuelle Bandar Seri Begawan, Hassanal Bolkiah est le fils aîné du sultan Omar Ali Saifuddien III. Formé en partie à l'académie militaire britannique de Sandhurst, il monte sur le trône en octobre 1967 quand son père abdique, et il est couronné l'année suivante. Le petit sultanat reste alors un protectorat britannique. Il obtient la pleine indépendance le 1er janvier 1984 et se nomme lui-même Premier ministre, puis ministre de la Défense en 1986 et des Finances en 1997. Les revenus du pétrole et du gaz financent un État-providence généreux, sans impôt sur le revenu, et font de lui l'un des hommes les plus riches du monde. Le régime reste une monarchie absolue où les élections sont suspendues depuis 1962 et où l'islam est religion d'État. En 2014, il lance l'application d'un code pénal fondé sur la charia, dont les peines les plus sévères suscitent en 2019 une vague de protestations internationales. Il prend aussi le portefeuille des Affaires étrangères en 2022 et figure parmi les monarques au plus long règne en exercice.",
+    "en": "Born in 1946 in Brunei Town, today's Bandar Seri Begawan, Hassanal Bolkiah is the eldest son of Sultan Omar Ali Saifuddien III. Partly trained at Britain's Sandhurst military academy, he took the throne in October 1967 when his father abdicated and was crowned the following year. The small sultanate was still a British protectorate at the time. He secured full independence on 1 January 1984 and appointed himself prime minister, adding defence in 1986 and finance in 1997. Oil and gas revenues pay for a generous welfare state with no income tax and have made him one of the richest people on earth. The country remains an absolute monarchy with Islam as the state religion and no elections held since 1962. In 2014 he began bringing in a penal code based on sharia, and its harshest punishments drew a wave of international protest in 2019. He also took over the foreign affairs portfolio in 2022 and is among the longest-reigning monarchs alive."
+  },
+  "highlights": {
+    "fr": [
+      "1967 : devient sultan de Brunei à 21 ans",
+      "1984 : conduit le pays à l'indépendance et devient Premier ministre",
+      "2014 : introduit un code pénal inspiré de la charia",
+      "2022 : cumule aussi les Affaires étrangères"
+    ],
+    "en": [
+      "1967: becomes Sultan of Brunei at 21",
+      "1984: leads the country to independence and becomes prime minister",
+      "2014: introduces a penal code based on sharia",
+      "2022: also takes charge of foreign affairs"
+    ]
+  },
+  "legacy": {
+    "fr": "Il incarne une monarchie absolue prospère, financée par les hydrocarbures, qui a traversé plus d'un demi-siècle sans partage du pouvoir.",
+    "en": "He embodies a wealthy absolute monarchy, funded by oil and gas, that has gone more than half a century without sharing power."
   }
 }

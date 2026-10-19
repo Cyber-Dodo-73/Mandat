@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Pedro Pablo Kuczynski naît en octobre 1938 à Lima, fils d’un médecin juif allemand réfugié et d’une mère d’origine franco-suisse. Formé en Angleterre puis à Oxford et à Princeton, il travaille à la Banque mondiale, au FMI et à la Banque centrale du Pérou, qu’il doit fuir après le coup d’État militaire de 1968. Il fait ensuite carrière dans la banque d’affaires aux États-Unis, avant d’être nommé ministre de l’Énergie et des Mines en 1980 sous Fernando Belaúnde. Ministre de l’Économie à deux reprises sous Alejandro Toledo, en 2001-2002 et 2004-2005, il devient ensuite président du Conseil des ministres. Battu en 2011, il remporte en juin 2016, à soixante-dix-sept ans, le second tour face à Keiko Fujimori avec environ 41 000 voix d’avance, l’un des écarts les plus serrés de l’histoire du pays. Son mandat est vite paralysé par un Congrès dominé par les fujimoristes et par le scandale Odebrecht, qui révèle des paiements à une société de conseil liée à lui. Après avoir échappé à une destitution en décembre 2017, il gracie Alberto Fujimori quelques jours plus tard, ce qui suscite des accusations de marchandage. Il démissionne le 21 mars 2018, à la veille d’un nouveau vote, après la diffusion de vidéos montrant des tentatives d’achat de voix de députés.",
+    "en": "Pedro Pablo Kuczynski was born in October 1938 in Lima, the son of a German Jewish refugee doctor and a mother of French-Swiss background. Educated in England, then at Oxford and Princeton, he worked for the World Bank, the IMF and Peru's central bank, which he had to flee after the 1968 military coup. He went on to a career in investment banking in the United States before being appointed minister of energy and mines in 1980 under Fernando Belaúnde. Twice economy minister under Alejandro Toledo, in 2001–2002 and 2004–2005, he then became prime minister. Defeated in 2011, he won the June 2016 runoff against Keiko Fujimori at seventy-seven by about 41,000 votes, one of the narrowest margins in Peru's history. His term quickly stalled under a Fujimorist-controlled Congress and the Odebrecht scandal, which exposed payments to a consulting firm linked to him. After surviving an impeachment vote in December 2017, he pardoned Alberto Fujimori days later, prompting accusations of a backroom deal. He resigned on 21 March 2018, on the eve of a second vote, after videos surfaced showing attempts to buy lawmakers' votes."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre de l’Énergie et des Mines du Pérou de 1980 à 1982",
+      "Deux fois ministre de l’Économie sous Alejandro Toledo",
+      "Élu président en 2016 avec environ 41 000 voix d’avance",
+      "Gracie Alberto Fujimori en décembre 2017",
+      "Démissionne le 21 mars 2018"
+    ],
+    "en": [
+      "Peru's minister of energy and mines from 1980 to 1982",
+      "Twice economy minister under Alejandro Toledo",
+      "Elected president in 2016 by about 41,000 votes",
+      "Pardoned Alberto Fujimori in December 2017",
+      "Resigned on 21 March 2018"
+    ]
+  },
+  "legacy": {
+    "fr": "Technocrate respecté sur la scène internationale, il a vu sa présidence emportée par le scandale Odebrecht, ouvrant une longue période d’instabilité au sommet de l’État péruvien.",
+    "en": "An internationally respected technocrat, he saw his presidency swept away by the Odebrecht scandal, opening a long spell of instability at the top of the Peruvian state."
   }
 }

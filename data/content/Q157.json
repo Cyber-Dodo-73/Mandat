@@ -30,5 +30,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Rouen en 1954, François Hollande est diplômé d'HEC, de Sciences Po et de l'ENA, et entre au Parti socialiste à la fin des années 1970, dans l'entourage de François Mitterrand. Élu député de Corrèze en 1988, il perd son siège en 1993 puis le retrouve en 1997. La même année, il succède à Lionel Jospin à la tête du Parti socialiste, qu'il dirige pendant onze ans. Maire de Tulle de 2001 à 2008, puis président du conseil général de Corrèze, il remporte la primaire socialiste en 2011. Le 6 mai 2012, il bat Nicolas Sarkozy et devient le deuxième président socialiste de la Ve République. Son mandat voit l'adoption du mariage pour tous en 2013, l'intervention militaire au Mali la même année et l'accord de Paris sur le climat en 2015. Il doit aussi faire face aux attentats de janvier et de novembre 2015, qui font au total environ 150 morts. Très impopulaire, il renonce en décembre 2016 à briguer un second mandat, une première sous la Ve République. Il retrouve en 2024 un siège de député de Corrèze.",
+    "en": "Born in Rouen in 1954, François Hollande graduated from HEC, Sciences Po and the ENA and joined the Socialist Party in the late 1970s, in François Mitterrand's circle. Elected deputy for Corrèze in 1988, he lost the seat in 1993 and won it back in 1997. That same year he succeeded Lionel Jospin as Socialist Party leader, a post he held for eleven years. Mayor of Tulle from 2001 to 2008 and then head of the Corrèze departmental council, he won the Socialist primary in 2011. On 6 May 2012 he defeated Nicolas Sarkozy to become the Fifth Republic's second Socialist president. His term brought same-sex marriage in 2013, a military intervention in Mali that year and the Paris climate agreement in 2015. He also had to confront the terrorist attacks of January and November 2015, which together killed about 150 people. Deeply unpopular, he announced in December 2016 that he would not seek a second term, a first in the Fifth Republic. In 2024 he returned to the National Assembly as a deputy for Corrèze."
+  },
+  "highlights": {
+    "fr": [
+      "1997-2008 : premier secrétaire du Parti socialiste",
+      "2012 : élu président de la République face à Nicolas Sarkozy",
+      "2013 : promulgue le mariage pour tous et engage l'armée au Mali",
+      "2015 : accueille la COP21 et l'adoption de l'accord de Paris sur le climat",
+      "2024 : réélu député de Corrèze après sa présidence"
+    ],
+    "en": [
+      "1997–2008: first secretary of the Socialist Party",
+      "2012: elected president of France, defeating Nicolas Sarkozy",
+      "2013: enacted same-sex marriage and sent troops to Mali",
+      "2015: hosted COP21 and the adoption of the Paris climate agreement",
+      "2024: re-elected deputy for Corrèze after his presidency"
+    ]
+  },
+  "legacy": {
+    "fr": "Son quinquennat reste associé au mariage pour tous, à l'accord de Paris et à la gestion des attentats de 2015. Son renoncement de 2016 a ouvert une profonde crise au Parti socialiste.",
+    "en": "His term is remembered for same-sex marriage, the Paris Agreement and his handling of the 2015 attacks. His decision not to run in 2016 opened a deep crisis in the Socialist Party."
   }
 }

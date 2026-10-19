@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1931 dans le village de Privolnoïe, dans la région de Stavropol, Mikhaïl Gorbatchev grandit dans une famille paysanne touchée par la famine et les purges, puis travaille jeune sur les moissonneuses. Diplômé en droit de l'université de Moscou, il fait carrière dans l'appareil du parti à Stavropol, dont il devient le premier secrétaire en 1970. Secrétaire du Comité central chargé de l'agriculture en 1978, il entre au Politburo et devient secrétaire général en mars 1985, à 54 ans. Il lance la perestroïka, réforme de l'économie, et la glasnost, ouverture de l'information, tandis que la catastrophe de Tchernobyl en 1986 révèle les failles du système. Il signe avec Reagan en 1987 le traité sur les forces nucléaires intermédiaires, retire l'armée soviétique d'Afghanistan en 1989 et laisse tomber le mur de Berlin sans intervenir. Prix Nobel de la paix en 1990 et premier président de l'URSS, il est confronté aux revendications d'indépendance des républiques et à la répression sanglante à Vilnius en janvier 1991. Affaibli par la tentative de putsch d'août 1991, il démissionne le 25 décembre 1991, marquant la fin de l'URSS, et meurt à Moscou en 2022.",
+    "en": "Born in 1931 in the village of Privolnoye in the Stavropol region, Mikhail Gorbachev grew up in a peasant family scarred by famine and purges and worked on combine harvesters as a teenager. After a law degree at Moscow University, he rose through the party apparatus in Stavropol, becoming its first secretary in 1970. Made Central Committee secretary for agriculture in 1978, he joined the Politburo and became general secretary in March 1985, aged 54. He launched perestroika, an economic overhaul, and glasnost, a new openness, while the Chernobyl disaster in 1986 exposed the system's failings. He signed the Intermediate-Range Nuclear Forces Treaty with Reagan in 1987, withdrew Soviet troops from Afghanistan in 1989 and let the Berlin Wall fall without intervening. Winner of the 1990 Nobel Peace Prize and the first president of the USSR, he faced independence drives in the republics and a bloody crackdown in Vilnius in January 1991. Weakened by the attempted coup of August 1991, he resigned on 25 December 1991, marking the end of the Soviet Union, and died in Moscow in 2022."
+  },
+  "highlights": {
+    "fr": [
+      "Devient secrétaire général du Parti communiste en mars 1985",
+      "Lance la perestroïka et la glasnost",
+      "Signe le traité FNI de désarmement nucléaire avec Reagan en 1987",
+      "Prix Nobel de la paix en 1990",
+      "Démissionne le 25 décembre 1991, jour de la fin de l'URSS"
+    ],
+    "en": [
+      "Became general secretary of the Communist Party in March 1985",
+      "Launched perestroika and glasnost",
+      "Signed the INF nuclear disarmament treaty with Reagan in 1987",
+      "Awarded the Nobel Peace Prize in 1990",
+      "Resigned on 25 December 1991 as the USSR came to an end"
+    ]
+  },
+  "legacy": {
+    "fr": "Admiré en Occident pour avoir mis fin pacifiquement à la guerre froide, il est souvent tenu en Russie pour responsable de l'effondrement de l'URSS.",
+    "en": "Admired in the West for ending the Cold War peacefully, he is widely blamed in Russia for the collapse of the Soviet Union."
   }
 }

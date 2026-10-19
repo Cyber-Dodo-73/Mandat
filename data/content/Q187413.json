@@ -35,5 +35,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Álvaro Uribe naît en juillet 1952 à Medellín, dans une famille de propriétaires terriens d’Antioquia, et étudie le droit avant de diriger l’aviation civile colombienne au début des années 1980. Maire de Medellín quelques mois en 1982, il voit son père tué l’année suivante lors d’une tentative d’enlèvement attribuée aux FARC. Sénateur libéral, puis gouverneur d’Antioquia de 1995 à 1997, il soutient les coopératives de sécurité privées Convivir, dont certaines alimentent les groupes paramilitaires. Élu président en 2002 comme candidat indépendant, il applique une politique de « sécurité démocratique » financée en partie par les États-Unis, qui fait reculer les guérillas et les enlèvements. Il négocie la démobilisation de plus de 30 000 paramilitaires et fait modifier la Constitution pour être réélu en 2006 ; en 2008, l’opération Jaque libère Ingrid Betancourt. Ses mandats sont toutefois entachés par le scandale des « faux positifs », des milliers de civils tués par l’armée et présentés comme guérilleros, par les liens de nombreux élus avec les paramilitaires et par des écoutes illégales. Après le refus d’un troisième mandat par la Cour constitutionnelle en 2010, il fonde le Centre démocratique et devient sénateur. Poursuivi pour subornation de témoins, il est condamné en première instance en juillet 2025, puis acquitté en appel en octobre 2025.",
+    "en": "Álvaro Uribe was born in July 1952 in Medellín to a landowning Antioquia family and studied law before heading Colombia's civil aviation authority in the early 1980s. Briefly mayor of Medellín in 1982, he lost his father the next year in a kidnapping attempt blamed on the FARC. A Liberal senator and then governor of Antioquia from 1995 to 1997, he backed the Convivir private security cooperatives, some of which fed into paramilitary groups. Elected president in 2002 as an independent, he pursued a democratic security policy, partly funded by the United States, that pushed back the guerrillas and cut kidnappings. He negotiated the demobilisation of more than 30,000 paramilitaries and had the constitution amended to win re-election in 2006; in 2008 Operation Jaque freed Ingrid Betancourt. Yet his terms were stained by the false positives scandal, in which the army killed thousands of civilians and passed them off as guerrillas, by ties between many lawmakers and paramilitaries, and by illegal wiretapping. After the Constitutional Court blocked a third term in 2010, he founded the Democratic Centre and became a senator. Charged with witness tampering, he was convicted at first instance in July 2025 and then acquitted on appeal in October 2025."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur d’Antioquia de 1995 à 1997",
+      "Président de la Colombie de 2002 à 2010",
+      "Obtient la démobilisation de plus de 30 000 paramilitaires",
+      "Opération Jaque : libération d’Ingrid Betancourt en 2008",
+      "Fonde le parti Centre démocratique en 2013"
+    ],
+    "en": [
+      "Governor of Antioquia from 1995 to 1997",
+      "President of Colombia from 2002 to 2010",
+      "Secured the demobilisation of over 30,000 paramilitaries",
+      "Operation Jaque freed Ingrid Betancourt in 2008",
+      "Founded the Democratic Centre party in 2013"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure dominante de la droite colombienne, il est crédité par ses partisans d’avoir rétabli la sécurité, mais son bilan reste indissociable du scandale des « faux positifs ».",
+    "en": "The dominant figure of the Colombian right, he is credited by supporters with restoring security, but his record is inseparable from the false positives scandal."
   }
 }

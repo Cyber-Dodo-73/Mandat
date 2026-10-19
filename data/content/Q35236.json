@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Herbert Hoover naît en 1874 à West Branch, dans l'Iowa, dans une famille quaker, et se retrouve orphelin avant l'âge de dix ans. Membre de la première promotion de Stanford, diplômé en géologie en 1895, il fait fortune comme ingénieur des mines en Australie puis en Chine, où il vit le siège de Tianjin pendant la révolte des Boxers. Pendant la Première Guerre mondiale, il organise depuis Londres le ravitaillement de la Belgique occupée, puis dirige l'administration américaine de l'alimentation. Après 1918, son agence d'aide nourrit des millions d'Européens, jusqu'en Russie soviétique frappée par la famine. Secrétaire au Commerce de 1921 à 1928 sous Harding et Coolidge, il se forge une réputation de technicien efficace, renforcée par sa gestion de la crue du Mississippi en 1927. Élu président en 1928, il voit le krach d'octobre 1929 plonger le pays dans la Grande Dépression. Ses remèdes, dont le tarif Smoot-Hawley et la Reconstruction Finance Corporation, ne suffisent pas, et l'expulsion brutale des vétérans de la Bonus Army en 1932 achève de le discréditer. Battu largement par Franklin Roosevelt, il conseille plus tard Truman et Eisenhower sur la réforme de l'État et meurt à New York en 1964.",
+    "en": "Herbert Hoover was born in 1874 in West Branch, Iowa, into a Quaker family, and was orphaned before he turned ten. A member of Stanford's first class, he graduated in geology in 1895 and grew rich as a mining engineer in Australia and China, where he lived through the siege of Tianjin during the Boxer Rebellion. During the First World War he organized food relief for occupied Belgium from London, then ran the U.S. Food Administration. After 1918 his relief agency fed millions of Europeans, reaching as far as famine-stricken Soviet Russia. As commerce secretary from 1921 to 1928 under Harding and Coolidge, he built a name as an efficient technocrat, boosted by his handling of the 1927 Mississippi flood. Elected president in 1928, he watched the October 1929 crash drag the country into the Great Depression. His remedies, including the Smoot-Hawley tariff and the Reconstruction Finance Corporation, fell short, and the harsh eviction of the Bonus Army veterans in 1932 sealed his discredit. Routed by Franklin Roosevelt, he later advised Truman and Eisenhower on government reform and died in New York in 1964."
+  },
+  "highlights": {
+    "fr": [
+      "Organise le ravitaillement de la Belgique occupée à partir de 1914",
+      "Nourrit des millions d'Européens, dont des Russes affamés, au début des années 1920",
+      "Secrétaire au Commerce de 1921 à 1928",
+      "31e président des États-Unis, de 1929 à 1933, pendant la Grande Dépression",
+      "Préside les commissions Hoover de réforme de l'administration en 1947 et 1953"
+    ],
+    "en": [
+      "Ran food relief for occupied Belgium from 1914",
+      "Fed millions of Europeans, including starving Russians, in the early 1920s",
+      "Secretary of Commerce from 1921 to 1928",
+      "31st U.S. president, 1929–1933, during the Great Depression",
+      "Chaired the Hoover Commissions on government reform in 1947 and 1953"
+    ]
+  },
+  "legacy": {
+    "fr": "Grand organisateur humanitaire, il reste pourtant d'abord associé à l'impuissance face à la crise de 1929, au point que les bidonvilles de chômeurs furent surnommés « Hoovervilles ».",
+    "en": "A great humanitarian organizer, he is nonetheless remembered mainly for his failure to tame the 1929 crisis, so much so that shantytowns of the jobless were nicknamed Hoovervilles."
   }
 }

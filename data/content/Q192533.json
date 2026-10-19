@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Mark Carney naît en 1965 à Fort Smith, dans les Territoires du Nord-Ouest, et grandit à Edmonton. Diplômé en économie de Harvard, où il est gardien de but de l'équipe de hockey, il obtient un doctorat à Oxford, puis passe treize ans chez Goldman Sachs à Londres, Tokyo, New York et Toronto. Entré à la Banque du Canada en 2003, puis haut fonctionnaire aux Finances, il en devient gouverneur en février 2008 et baisse rapidement les taux face à la crise financière. Il préside également le Conseil de stabilité financière à partir de 2011. En juillet 2013, il prend la tête de la Banque d'Angleterre, premier étranger à ce poste, qu'il occupe pendant la campagne et les suites du référendum sur le Brexit jusqu'en mars 2020. Il devient ensuite envoyé spécial de l'ONU pour l'action climatique et la finance, et lance une alliance d'institutions financières pour la neutralité carbone. Le 9 mars 2025, il remporte la direction du Parti libéral avec plus de 85 % des voix et devient Premier ministre le 14 mars, en pleine guerre commerciale avec les États-Unis de Donald Trump. Il déclenche aussitôt des élections et les gagne le 28 avril 2025, obtenant un gouvernement minoritaire et un siège de député à Nepean. En 2026, l'Ukraine lui décerne l'ordre du Prince Iaroslav le Sage.",
+    "en": "Mark Carney was born in 1965 in Fort Smith, Northwest Territories, and grew up in Edmonton. After an economics degree at Harvard, where he kept goal for the hockey team, he took a doctorate at Oxford and spent thirteen years at Goldman Sachs in London, Tokyo, New York and Toronto. He joined the Bank of Canada in 2003 and then the finance ministry, and became the Bank's governor in February 2008, cutting rates swiftly as the financial crisis hit. He also chaired the Financial Stability Board from 2011. In July 2013 he took over the Bank of England, the first foreigner in the job, and steered it through the Brexit referendum and its aftermath until March 2020. He then became UN special envoy on climate action and finance and launched an alliance of financial firms committed to net zero. On 9 March 2025 he won the Liberal leadership with more than 85% of the vote and was sworn in as prime minister on 14 March, in the midst of a trade war with Donald Trump's United States. He called an election at once and won it on 28 April 2025, forming a minority government and taking a seat in Nepean. In 2026 Ukraine awarded him the Order of Prince Yaroslav the Wise."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur de la Banque du Canada de 2008 à 2013",
+      "Premier étranger à diriger la Banque d'Angleterre, de 2013 à 2020",
+      "Envoyé spécial de l'ONU pour le climat et la finance en 2019",
+      "Chef libéral et Premier ministre du Canada en mars 2025",
+      "Remporte les élections fédérales du 28 avril 2025"
+    ],
+    "en": [
+      "Governor of the Bank of Canada from 2008 to 2013",
+      "First foreigner to run the Bank of England, 2013–2020",
+      "UN special envoy on climate action and finance in 2019",
+      "Liberal leader and Prime Minister of Canada in March 2025",
+      "Won the federal election of 28 April 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Banquier central devenu chef de gouvernement, il incarne une réponse technocratique aux tensions commerciales avec les États-Unis.",
+    "en": "A central banker turned head of government, he embodies a technocratic response to trade tensions with the United States."
   }
 }

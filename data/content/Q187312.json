@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Robert Bruce naît en juillet 1274, probablement au château de Turnberry, dans l'Ayrshire, petit-fils d'un prétendant au trône d'Écosse écarté en 1292 au profit de Jean Balliol. Pendant la guerre contre Édouard Ier d'Angleterre, il change plusieurs fois de camp, avant d'être nommé gardien du royaume en 1298 avec son rival John Comyn. Le 10 février 1306, il tue Comyn dans une église de Dumfries, puis se fait couronner à Scone le 25 mars. Battu à Methven dès juin, il devient un fugitif : sa femme, sa fille et ses sœurs sont capturées, trois de ses frères exécutés. À partir de 1307, il mène une guerre de harcèlement, écrase ses ennemis écossais et reprend un à un les châteaux tenus par les Anglais. Les 23 et 24 juin 1314, il met en déroute la grande armée d'Édouard II à Bannockburn, près de Stirling. En 1320, les barons écossais adressent au pape la déclaration d'Arbroath pour défendre son droit et l'indépendance du royaume. Le traité d'Édimbourg-Northampton de 1328 reconnaît enfin l'Écosse comme un royaume indépendant et Robert comme son roi. Il meurt en juin 1329 à Cardross, près de Dumbarton ; son cœur, emporté en croisade par James Douglas, repose à l'abbaye de Melrose.",
+    "en": "Robert Bruce was born in July 1274, probably at Turnberry Castle in Ayrshire, the grandson of a claimant passed over for the Scottish throne in favour of John Balliol in 1292. During the war against Edward I of England he switched sides more than once, before being named a Guardian of the realm in 1298 alongside his rival John Comyn. On 10 February 1306 he killed Comyn in a church in Dumfries, then had himself crowned at Scone on 25 March. Defeated at Methven that June, he became a fugitive: his wife, daughter and sisters were captured and three of his brothers executed. From 1307 he waged a war of raids and ambushes, crushed his Scottish enemies and retook the English-held castles one by one. On 23 and 24 June 1314 he routed Edward II's great army at Bannockburn, near Stirling. In 1320 the Scottish barons sent the Pope the Declaration of Arbroath, defending his right and the kingdom's independence. The 1328 Treaty of Edinburgh–Northampton at last recognised Scotland as an independent kingdom and Robert as its king. He died in June 1329 at Cardross, near Dumbarton; his heart, carried on crusade by James Douglas, lies at Melrose Abbey."
+  },
+  "highlights": {
+    "fr": [
+      "Couronné roi d'Écosse à Scone le 25 mars 1306",
+      "Victoire décisive sur Édouard II à Bannockburn en juin 1314",
+      "Déclaration d'Arbroath adressée au pape en 1320",
+      "Indépendance écossaise reconnue par le traité de 1328"
+    ],
+    "en": [
+      "Crowned King of Scots at Scone on 25 March 1306",
+      "Decisive victory over Edward II at Bannockburn in June 1314",
+      "Declaration of Arbroath sent to the Pope in 1320",
+      "Scottish independence recognised by the 1328 treaty"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste en Écosse le héros de l'indépendance, et Bannockburn un symbole invoqué jusque dans les débats contemporains sur la souveraineté écossaise.",
+    "en": "In Scotland he remains the hero of independence, and Bannockburn a symbol still invoked in modern debates over Scottish sovereignty."
   }
 }

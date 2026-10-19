@@ -34,5 +34,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Né le 5 décembre 1927 à Cambridge, dans le Massachusetts, où son père étudiait la médecine, Bhumibol Adulyadej grandit en grande partie en Suisse et étudie à l'université de Lausanne. Le 9 juin 1946, son frère aîné, le roi Ananda Mahidol, est retrouvé mort d'une balle dans la tête au palais de Bangkok, et Bhumibol lui succède à dix-huit ans sous le nom de Rama IX. Il épouse Sirikit en 1950 et est couronné la même année, avant de s'installer définitivement en Thaïlande. Sous la dictature du maréchal Sarit à partir de 1957, la monarchie retrouve un prestige considérable, que le roi entretient par des milliers de projets de développement rural. Passionné de jazz et de voile, il remporte même une médaille d'or en voile aux Jeux d'Asie du Sud-Est de 1967. En octobre 1973, il facilite le départ du dictateur Thanom après le soulèvement étudiant, mais son entourage est lié aux forces d'extrême droite responsables du massacre de l'université Thammasat en 1976. En mai 1992, il convoque à la télévision le général Suchinda et son opposant Chamlong pour mettre fin à une répression sanglante. Les coups d'État de 2006 et de 2014 se font en son nom, sous la protection d'une loi de lèse-majesté très sévère. Il meurt à Bangkok le 13 octobre 2016, après soixante-dix ans de règne.",
+    "en": "Born on 5 December 1927 in Cambridge, Massachusetts, where his father was studying medicine, Bhumibol Adulyadej grew up largely in Switzerland and studied at the University of Lausanne. On 9 June 1946 his elder brother, King Ananda Mahidol, was found shot dead in the palace in Bangkok, and Bhumibol succeeded him at eighteen as Rama IX. He married Sirikit in 1950 and was crowned that year before settling permanently in Thailand. Under Field Marshal Sarit's dictatorship from 1957 the monarchy regained immense prestige, which the king cultivated through thousands of rural development projects. A keen jazz musician and sailor, he even won a sailing gold medal at the 1967 Southeast Asian Peninsular Games. In October 1973 he eased out the dictator Thanom after the student uprising, but palace circles were tied to the far-right forces behind the 1976 Thammasat University massacre. In May 1992 he summoned General Suchinda and his opponent Chamlong before television cameras to end a bloody crackdown. The coups of 2006 and 2014 were carried out in his name, shielded by one of the world's harshest lèse-majesté laws. He died in Bangkok on 13 October 2016 after seventy years on the throne."
+  },
+  "highlights": {
+    "fr": [
+      "Monte sur le trône à dix-huit ans, en juin 1946",
+      "Lance des milliers de projets royaux de développement rural",
+      "Remporte l'or en voile aux Jeux d'Asie du Sud-Est de 1967",
+      "Met fin en mai 1992 à la répression en convoquant les deux camps",
+      "Règne soixante-dix ans, record de l'histoire thaïlandaise"
+    ],
+    "en": [
+      "Took the throne at eighteen in June 1946",
+      "Launched thousands of royal rural development projects",
+      "Won sailing gold at the 1967 Southeast Asian Peninsular Games",
+      "Ended the May 1992 crackdown by summoning both sides",
+      "Reigned seventy years, the longest in Thai history"
+    ]
+  },
+  "legacy": {
+    "fr": "Vénéré comme une figure quasi sacrée, il a fait de la monarchie l'arbitre suprême de la vie politique thaïlandaise, un rôle que ses critiques jugent incompatible avec la démocratie.",
+    "en": "Revered as an almost sacred figure, he made the monarchy the ultimate arbiter of Thai politics, a role his critics see as incompatible with democracy."
   }
 }

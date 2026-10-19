@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1942 à Sheffield, en Alabama, Addison Mitchell McConnell est atteint enfant de la poliomyélite, puis sa famille s'installe à Louisville, dans le Kentucky. Diplômé de l'université de Louisville en 1964 puis de la faculté de droit de l'université du Kentucky en 1967, il travaille auprès du sénateur républicain John Sherman Cooper. Il est ensuite procureur général adjoint au ministère de la Justice sous Gerald Ford, en 1974-1975. Élu chef de l'exécutif du comté de Jefferson en 1977, il bat de justesse le sénateur démocrate sortant en 1984 et entre au Sénat en janvier 1985. Il s'y fait connaître par son combat contre l'encadrement du financement des campagnes électorales. Whip républicain à partir de 2003, il devient chef du groupe en 2007 et chef de la majorité de 2015 à 2021. En 2016, il bloque la nomination de Merrick Garland à la Cour suprême, puis fait confirmer les juges Gorsuch, Kavanaugh et Barrett désignés par Donald Trump, et il fait voter la réforme fiscale de 2017. Après avoir voté l'acquittement de Trump en 2021 tout en le jugeant responsable de l'assaut du Capitole, il quitte la direction du groupe en janvier 2025 et annonce qu'il ne se représentera pas en 2026.",
+    "en": "Born in 1942 in Sheffield, Alabama, Addison Mitchell McConnell had polio as a child before his family moved to Louisville, Kentucky. After degrees from the University of Louisville in 1964 and the University of Kentucky law school in 1967, he worked for the Republican senator John Sherman Cooper. He then served as a deputy assistant attorney general under Gerald Ford in 1974–1975. Elected Jefferson County Judge/Executive in 1977, he narrowly unseated the Democratic incumbent senator in 1984 and took his seat in January 1985. In the Senate he became known for fighting limits on campaign finance. Republican whip from 2003, he became party leader in 2007 and served as majority leader from 2015 to 2021. In 2016 he blocked Merrick Garland's Supreme Court nomination, then steered Donald Trump's picks Gorsuch, Kavanaugh and Barrett to confirmation, and he passed the 2017 tax cuts. After voting to acquit Trump in 2021 while holding him responsible for the Capitol attack, he stepped down as leader in January 2025 and announced he would not seek re-election in 2026."
+  },
+  "highlights": {
+    "fr": [
+      "Sénateur républicain du Kentucky depuis 1985",
+      "Chef des républicains au Sénat de 2007 à 2025, un record",
+      "Bloque la nomination de Merrick Garland à la Cour suprême en 2016",
+      "Fait confirmer trois juges de la Cour suprême entre 2017 et 2020"
+    ],
+    "en": [
+      "Republican senator for Kentucky since 1985",
+      "Senate Republican leader from 2007 to 2025, a record",
+      "Blocked Merrick Garland's Supreme Court nomination in 2016",
+      "Steered three Supreme Court justices to confirmation, 2017–2020"
+    ]
+  },
+  "legacy": {
+    "fr": "Plus long chef de parti de l'histoire du Sénat, il a durablement orienté la Cour suprême américaine vers le conservatisme.",
+    "en": "The longest-serving party leader in Senate history, he durably tilted the US Supreme Court towards conservatism."
   }
 }

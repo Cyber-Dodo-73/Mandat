@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né à Paris en 1955 d'un père d'origine hongroise, Nicolas Sarkozy devient avocat et, à 28 ans, maire de Neuilly-sur-Seine en 1983, poste qu'il garde jusqu'en 2002. Député, il est ministre du Budget de 1993 à 1995 dans le gouvernement Balladur. Ministre de l'Intérieur à partir de 2002, il mise sur la sécurité, passe brièvement par l'Économie en 2004 et prend la tête de l'UMP. Élu président de la République en mai 2007 contre Ségolène Royal, il affronte la crise financière de 2008, porte la réforme des retraites de 2010 et engage la France dans l'intervention en Libye en 2011. Battu par François Hollande en 2012, il échoue à la primaire de la droite en 2016. Ses ennuis judiciaires s'accumulent ensuite : sa condamnation pour corruption dans l'affaire des écoutes devient définitive en décembre 2024, et il porte un bracelet électronique. En septembre 2025, il est condamné à cinq ans de prison pour association de malfaiteurs dans le dossier du financement libyen de sa campagne de 2007. Incarcéré à la Santé le 21 octobre 2025, il est libéré sous contrôle judiciaire en novembre dans l'attente de son procès en appel.",
+    "en": "Born in Paris in 1955 to a Hungarian-born father, Nicolas Sarkozy became a lawyer and, at 28, mayor of Neuilly-sur-Seine in 1983, a post he held until 2002. Elected to parliament, he served as budget minister from 1993 to 1995 under Édouard Balladur. As interior minister from 2002 he built his profile on law and order, had a brief spell at the economy ministry in 2004 and took over the UMP party. Elected president in May 2007 against Ségolène Royal, he steered France through the 2008 financial crisis, pushed through a 2010 pension reform and led the 2011 intervention in Libya. Defeated by François Hollande in 2012, he lost the right's primary in 2016. Legal troubles then mounted: his corruption conviction in the wiretapping case became final in December 2024, and he had to wear an electronic tag. In September 2025 he was sentenced to five years in prison for criminal conspiracy over alleged Libyan funding of his 2007 campaign. Jailed at La Santé on 21 October 2025, he was released under judicial supervision in November pending his appeal."
+  },
+  "highlights": {
+    "fr": [
+      "1983 : maire de Neuilly-sur-Seine à 28 ans",
+      "2007 : élu président de la République",
+      "2008 : préside l'UE et pilote la réponse européenne à la crise financière",
+      "2024 : condamnation définitive dans l'affaire des écoutes",
+      "2025 : premier ex-président de la Ve République incarcéré"
+    ],
+    "en": [
+      "1983: mayor of Neuilly-sur-Seine at 28",
+      "2007: elected President of France",
+      "2008: held the EU presidency during the financial crisis",
+      "2024: wiretapping conviction made final",
+      "2025: first former Fifth Republic president to be jailed"
+    ]
+  },
+  "legacy": {
+    "fr": "Président énergique et clivant, il reste une figure influente de la droite, mais son nom est désormais lié à une série de condamnations judiciaires.",
+    "en": "An energetic and divisive president, he remains influential on the French right, but his name is now tied to a string of criminal convictions."
   }
 }

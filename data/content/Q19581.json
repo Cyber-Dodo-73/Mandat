@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né à Guayaquil en 1963 dans une famille modeste, Rafael Correa étudie l'économie dans sa ville natale, passe une année comme volontaire dans une communauté autochtone des Andes, puis poursuit ses études à l'UCLouvain, en Belgique, et obtient un doctorat à l'université de l'Illinois en 2001. Professeur reconnu pour ses critiques du néolibéralisme, il devient ministre des Finances en 2005 pendant quelques mois. Il fonde l'année suivante le mouvement Alliance PAIS et remporte la présidentielle de 2006. Investi en janvier 2007, il lance sa « révolution citoyenne » et fait adopter par référendum, en 2008, une nouvelle Constitution qui reconnaît notamment des droits à la nature. La même année, il cesse de rembourser une partie de la dette extérieure qu'il juge illégitime, puis ferme la base militaire américaine de Manta en 2009. Réélu en 2009 et 2013, il finance routes, écoles et hôpitaux grâce au pétrole, tout en multipliant les conflits avec la presse. En septembre 2010, il est séquestré quelques heures lors d'une révolte policière. En 2012, il accorde l'asile à Julian Assange à l'ambassade de Londres. Après 2017, son successeur Lenín Moreno rompt avec lui ; installé en Belgique, il est condamné par contumace pour corruption en 2020.",
+    "en": "Born into a modest family in Guayaquil in 1963, Rafael Correa studied economics in his home city, spent a year volunteering in an Andean indigenous community, then went on to UCLouvain in Belgium and earned a PhD at the University of Illinois in 2001. A professor known for attacking neoliberalism, he served a few months as finance minister in 2005. The next year he founded the PAIS Alliance movement and won the 2006 presidential election. Sworn in in January 2007, he launched his \"Citizens' Revolution\" and in 2008 won a referendum on a new constitution that, among other things, granted rights to nature. That same year he stopped servicing part of a foreign debt he called illegitimate, and in 2009 he closed the US military base at Manta. Re-elected in 2009 and 2013, he used oil revenue to build roads, schools and hospitals while feuding constantly with the press. In September 2010 he was trapped for hours during a police revolt. In 2012 he granted Julian Assange asylum in Ecuador's London embassy. After 2017 his successor Lenín Moreno broke with him; living in Belgium, he was convicted of corruption in absentia in 2020."
+  },
+  "highlights": {
+    "fr": [
+      "Président de l'Équateur de 2007 à 2017, réélu deux fois",
+      "Fait adopter en 2008 une Constitution qui reconnaît les droits de la nature",
+      "Suspend en 2008 le paiement d'une partie de la dette extérieure",
+      "Accorde l'asile à Julian Assange en 2012"
+    ],
+    "en": [
+      "President of Ecuador from 2007 to 2017, re-elected twice",
+      "Won approval in 2008 for a constitution recognising the rights of nature",
+      "Suspended payments on part of the foreign debt in 2008",
+      "Granted asylum to Julian Assange in 2012"
+    ]
+  },
+  "legacy": {
+    "fr": "Le « corréisme » demeure l'un des deux pôles de la vie politique équatorienne, entre bilan social salué et accusations d'autoritarisme et de corruption.",
+    "en": "Correísmo remains one of the two poles of Ecuadorian politics, praised for its social gains and criticised for authoritarianism and corruption."
   }
 }

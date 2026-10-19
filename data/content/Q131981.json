@@ -36,5 +36,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1683 à Hanovre, Georges-Auguste est le fils du futur George Ier et de Sophie-Dorothée de Celle, qui sera enfermée à vie après le divorce de ses parents en 1694. Il épouse en 1705 Caroline d'Ansbach, reçoit l'année suivante le titre anglais de duc de Cambridge et se distingue en 1708 à la bataille d'Audenarde. Arrivé en Grande-Bretagne en 1714 comme prince de Galles, il se brouille avec son père en 1717 et tient une cour rivale à Leicester House. Devenu roi en 1727, il conserve Robert Walpole comme Premier ministre jusqu'en 1742, en partie sur les conseils de la reine Caroline. Il entraîne le pays dans la guerre de l'oreille de Jenkins puis dans la guerre de Succession d'Autriche, et commande en personne à Dettingen en 1743, dernier monarque britannique à mener ses troupes au combat. En 1745-1746, le soulèvement jacobite est écrasé à Culloden par son fils, le duc de Cumberland. Pendant la guerre de Sept Ans, commencée en 1756, le gouvernement de William Pitt l'Ancien obtient en 1759 une série de victoires, dont la prise de Québec. Il meurt au palais de Kensington en octobre 1760, et son petit-fils George III lui succède.",
+    "en": "Born in Hanover in 1683, George Augustus was the son of the future George I and Sophia Dorothea of Celle, who was confined for life after his parents divorced in 1694. He married Caroline of Ansbach in 1705, was given the English title Duke of Cambridge the following year, and distinguished himself at the Battle of Oudenarde in 1708. Arriving in Britain in 1714 as Prince of Wales, he fell out with his father in 1717 and held a rival court at Leicester House. On becoming king in 1727 he kept Robert Walpole as prime minister until 1742, partly on Queen Caroline's advice. He led the country into the War of Jenkins' Ear and then the War of the Austrian Succession, commanding in person at Dettingen in 1743, the last British monarch to lead troops into battle. In 1745–1746 the Jacobite rising was crushed at Culloden by his son, the Duke of Cumberland. During the Seven Years' War, begun in 1756, William Pitt the Elder's ministry won a run of victories in 1759, including the capture of Quebec. He died at Kensington Palace in October 1760 and was succeeded by his grandson George III."
+  },
+  "highlights": {
+    "fr": [
+      "Combat à Audenarde en 1708",
+      "Roi de Grande-Bretagne et électeur de Hanovre de 1727 à 1760",
+      "Dernier monarque britannique à mener ses troupes, à Dettingen en 1743",
+      "Soulèvement jacobite écrasé à Culloden en 1746"
+    ],
+    "en": [
+      "Fought at Oudenarde in 1708",
+      "King of Great Britain and Elector of Hanover from 1727 to 1760",
+      "Last British monarch to lead troops in battle, at Dettingen in 1743",
+      "Jacobite rising crushed at Culloden in 1746"
+    ]
+  },
+  "legacy": {
+    "fr": "Son règne a vu s'affirmer le rôle du Premier ministre et l'essor de l'empire britannique ; il a aussi fondé l'université de Göttingen.",
+    "en": "His reign saw the role of prime minister take hold and the British Empire expand; he also founded the University of Göttingen."
   }
 }

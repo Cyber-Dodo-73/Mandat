@@ -32,5 +32,27 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1804 à Hillsborough, dans le New Hampshire, fils d'un gouverneur, Franklin Pierce étudie au Bowdoin College, où il se lie avec l'écrivain Nathaniel Hawthorne. Avocat, il préside la Chambre de son État avant d'entrer au Congrès en 1833, puis au Sénat de 1837 à 1842, où il soutient fidèlement Andrew Jackson. Il sert comme général de brigade pendant la guerre contre le Mexique. En 1852, les démocrates divisés le désignent au quarante-neuvième tour de scrutin, et il bat largement le whig Winfield Scott. Peu avant son entrée en fonctions, son dernier fils survivant meurt sous ses yeux dans un accident de train. Président, il conclut l'achat Gadsden au Mexique et signe en 1854 la loi Kansas-Nebraska, qui laisse aux colons le choix de l'esclavage. Le texte provoque des affrontements sanglants au Kansas et la naissance du Parti républicain. Son propre parti refuse de le reconduire en 1856, et il meurt à Concord en 1869, discrédité par son opposition à la politique de guerre de Lincoln.",
+    "en": "Born in Hillsborough, New Hampshire, in 1804, the son of a governor, Franklin Pierce studied at Bowdoin College, where he befriended the writer Nathaniel Hawthorne. A lawyer, he was speaker of his state's House before entering Congress in 1833 and then the Senate from 1837 to 1842, where he loyally backed Andrew Jackson. He served as a brigadier general in the war with Mexico. In 1852 the divided Democrats nominated him on the forty-ninth ballot, and he defeated the Whig Winfield Scott by a wide margin. Shortly before his inauguration his last surviving son was killed before his eyes in a train accident. As president he concluded the Gadsden Purchase from Mexico and in 1854 signed the Kansas–Nebraska Act, letting settlers decide on slavery. The law triggered bloody fighting in Kansas and the birth of the Republican Party. His own party refused to renominate him in 1856, and he died in Concord in 1869, discredited by his opposition to Lincoln's war policies."
+  },
+  "highlights": {
+    "fr": [
+      "1837 : entre au Sénat des États-Unis",
+      "1852 : élu président après 49 tours de scrutin à la convention",
+      "1853 : conclut l'achat Gadsden auprès du Mexique",
+      "1854 : signe la loi Kansas-Nebraska"
+    ],
+    "en": [
+      "1837: enters the US Senate",
+      "1852: elected president after a 49-ballot convention",
+      "1853: concludes the Gadsden Purchase from Mexico",
+      "1854: signs the Kansas–Nebraska Act"
+    ]
+  },
+  "legacy": {
+    "fr": "Souvent classé parmi les présidents les plus faibles, il a accéléré par la loi Kansas-Nebraska la marche vers la guerre de Sécession.",
+    "en": "Often ranked among the weakest presidents, he hastened the slide towards civil war with the Kansas–Nebraska Act."
   }
 }

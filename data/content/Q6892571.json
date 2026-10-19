@@ -36,5 +36,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1985 à Riyad, Mohammed ben Salmane est un fils de Salmane ben Abdelaziz, alors gouverneur de la capitale. Diplômé en droit de l'université du roi Saoud en 2007, il devient conseiller de son père. Lorsque celui-ci accède au trône en janvier 2015, il est nommé ministre de la Défense et lance en mars l'intervention militaire au Yémen contre les Houthis, une guerre qui fait des dizaines de milliers de morts civils et provoque une grave crise humanitaire. Prince héritier en second en avril 2015, il présente en 2016 le plan Vision 2030 pour réduire la dépendance au pétrole. En juin 2017, il évince son cousin Mohammed ben Nayef et devient prince héritier, puis fait détenir en novembre des centaines de princes et d'hommes d'affaires à l'hôtel Ritz-Carlton de Riyad au nom de la lutte anticorruption. Il autorise la conduite des femmes en 2018 et ouvre le pays aux spectacles et au tourisme, tandis que des militantes des droits des femmes sont emprisonnées. Le 2 octobre 2018, le journaliste Jamal Khashoggi est assassiné au consulat saoudien d'Istanbul ; le renseignement américain conclut qu'il a approuvé l'opération, ce qu'il nie. Nommé Premier ministre en 2022, il rétablit en 2023 les relations diplomatiques avec l'Iran et lance des projets géants comme la ville de Neom.",
+    "en": "Born in Riyadh in 1985, Mohammed bin Salman is a son of Salman bin Abdulaziz, then governor of the capital. After a law degree from King Saud University in 2007, he became an adviser to his father. When Salman took the throne in January 2015, he was appointed defence minister and in March launched the military intervention in Yemen against the Houthis, a war that killed tens of thousands of civilians and caused a severe humanitarian crisis. Named deputy crown prince in April 2015, he unveiled the Vision 2030 plan in 2016 to reduce reliance on oil. In June 2017 he pushed aside his cousin Mohammed bin Nayef to become crown prince, and that November had hundreds of princes and businessmen detained at Riyadh's Ritz-Carlton hotel in the name of fighting corruption. He allowed women to drive in 2018 and opened the country to entertainment and tourism, while women's rights activists were jailed. On 2 October 2018 the journalist Jamal Khashoggi was murdered in the Saudi consulate in Istanbul; US intelligence concluded that he approved the operation, which he denies. Made prime minister in 2022, he restored diplomatic ties with Iran in 2023 and launched giant projects such as the city of Neom."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre de la Défense dès 2015, lance la guerre au Yémen",
+      "Présente le plan Vision 2030 en 2016",
+      "Prince héritier d'Arabie saoudite depuis juin 2017",
+      "Autorise la conduite automobile des femmes en 2018",
+      "Premier ministre depuis 2022"
+    ],
+    "en": [
+      "Defence minister from 2015, launched the war in Yemen",
+      "Unveiled the Vision 2030 plan in 2016",
+      "Crown Prince of Saudi Arabia since June 2017",
+      "Allowed women to drive in 2018",
+      "Prime minister since 2022"
+    ]
+  },
+  "legacy": {
+    "fr": "Dirigeant de fait du royaume, il incarne à la fois une modernisation économique et sociale rapide et un durcissement de la répression, symbolisé par l'affaire Khashoggi.",
+    "en": "The kingdom's de facto ruler, he embodies both rapid economic and social modernisation and harsher repression, epitomised by the Khashoggi affair."
   }
 }

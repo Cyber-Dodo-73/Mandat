@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1918 à Alexandrie, fils d'un employé des postes, Gamal Abdel Nasser entre à l'académie militaire du Caire en 1937. Pendant la guerre de 1948 contre Israël, il est assiégé avec son unité à Faluja, une expérience qui renforce sa colère contre la monarchie. Il organise le mouvement clandestin des Officiers libres, qui renverse le roi Farouk le 23 juillet 1952. D'abord dans l'ombre du général Naguib, il l'écarte en 1954, devient Premier ministre et réprime durement les Frères musulmans après une tentative d'assassinat contre lui à Alexandrie. Figure de la conférence de Bandung en 1955, il est élu président en 1956 et nationalise le 26 juillet le canal de Suez, ce qui provoque l'intervention israélienne, britannique et française ; sous la pression américaine et soviétique, les envahisseurs se retirent. Il fonde en 1958 avec la Syrie la République arabe unie, qui se défait en 1961, et lance avec l'aide soviétique la construction du haut barrage d'Assouan. Son régime gouverne par le parti unique, la censure et l'emprisonnement des opposants. La défaite de juin 1967 face à Israël, qui occupe le Sinaï, le pousse à annoncer sa démission, qu'il retire sous la pression de la foule. Il meurt d'une crise cardiaque le 28 septembre 1970, juste après avoir négocié la fin des combats entre la Jordanie et les Palestiniens.",
+    "en": "Born in Alexandria in 1918, the son of a postal clerk, Gamal Abdel Nasser entered the Cairo military academy in 1937. In the 1948 war against Israel he was besieged with his unit at Faluja, an experience that sharpened his anger at the monarchy. He organised the underground Free Officers movement, which overthrew King Farouk on 23 July 1952. At first in the shadow of General Naguib, he pushed him aside in 1954, became prime minister and harshly repressed the Muslim Brotherhood after an attempt on his life in Alexandria. A leading figure at the 1955 Bandung Conference, he was elected president in 1956 and on 26 July nationalised the Suez Canal, provoking an Israeli, British and French invasion; under American and Soviet pressure the invaders withdrew. In 1958 he formed the United Arab Republic with Syria, which broke up in 1961, and began building the Aswan High Dam with Soviet help. His regime ruled through a single party, censorship and the jailing of opponents. Defeat by Israel in June 1967, which cost Egypt the Sinai, led him to announce his resignation, which he withdrew under pressure from the crowds. He died of a heart attack on 28 September 1970, just after brokering an end to fighting between Jordan and the Palestinians."
+  },
+  "highlights": {
+    "fr": [
+      "Dirige les Officiers libres qui renversent la monarchie le 23 juillet 1952",
+      "Président de l'Égypte de 1956 à 1970",
+      "Nationalise le canal de Suez le 26 juillet 1956",
+      "Fonde la République arabe unie avec la Syrie en 1958",
+      "Lance la construction du haut barrage d'Assouan en 1960"
+    ],
+    "en": [
+      "Led the Free Officers who overthrew the monarchy on 23 July 1952",
+      "President of Egypt from 1956 to 1970",
+      "Nationalised the Suez Canal on 26 July 1956",
+      "Founded the United Arab Republic with Syria in 1958",
+      "Began construction of the Aswan High Dam in 1960"
+    ]
+  },
+  "legacy": {
+    "fr": "Champion du panarabisme et du non-alignement, il reste une référence dans le monde arabe, malgré la défaite de 1967 et un régime autoritaire.",
+    "en": "A champion of pan-Arabism and non-alignment, he remains a reference in the Arab world despite the 1967 defeat and his authoritarian rule."
   }
 }

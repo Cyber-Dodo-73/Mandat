@@ -30,5 +30,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1957 dans le sud du Rwanda, Paul Kagame fuit avec sa famille les violences anti-Tutsi vers l'Ouganda à l'âge de deux ans et grandit dans un camp de réfugiés. Il rejoint la rébellion de Yoweri Museveni, qui prend Kampala en 1986, et y dirige le renseignement militaire. Cofondateur du Front patriotique rwandais, il en prend le commandement en octobre 1990 après la mort de son chef, au début de la guerre contre le régime de Kigali. D'avril à juillet 1994, les extrémistes hutus massacrent quelque 800 000 personnes, en grande majorité tutsies ; l'offensive du FPR met fin au génocide en prenant Kigali en juillet. Vice-président et ministre de la Défense de 1994 à 2000, il est l'homme fort du régime, dont les troupes commettent aussi des tueries de représailles et envahissent le Zaïre en 1996 et 1998, avec de nombreux massacres de réfugiés hutus. Président à partir de 2000, il est réélu avec plus de 90 % des voix à chaque scrutin. Il modernise le pays et améliore la santé publique, mais emprisonne des opposants et fait traquer des dissidents à l'étranger. L'ONU accuse Kigali de soutenir la rébellion du M23 dans l'est du Congo.",
+    "en": "Born in 1957 in southern Rwanda, Paul Kagame fled anti-Tutsi violence with his family to Uganda at the age of two and grew up in a refugee camp. He joined Yoweri Museveni's rebellion, which took Kampala in 1986, and ran its military intelligence. A co-founder of the Rwandan Patriotic Front, he took command in October 1990 after its leader was killed at the start of the war against the Kigali regime. From April to July 1994 Hutu extremists slaughtered some 800,000 people, the vast majority Tutsi; the RPF offensive ended the genocide by capturing Kigali in July. Vice president and defence minister from 1994 to 2000, he was the regime's strongman, while his troops also carried out reprisal killings and invaded Zaire in 1996 and 1998, with many massacres of Hutu refugees. President from 2000, he has been re-elected with more than 90% of the vote each time. He has modernised the country and improved public health, but jails opponents and has dissidents pursued abroad. The UN accuses Kigali of backing the M23 rebellion in eastern Congo."
+  },
+  "highlights": {
+    "fr": [
+      "1990 : prend le commandement du Front patriotique rwandais",
+      "Juillet 1994 : la prise de Kigali met fin au génocide des Tutsi",
+      "1996 : ses troupes envahissent le Zaïre",
+      "2000 : devient président du Rwanda",
+      "2015 : une révision constitutionnelle lui permet de rester jusqu'en 2034"
+    ],
+    "en": [
+      "1990: takes command of the Rwandan Patriotic Front",
+      "July 1994: the capture of Kigali ends the genocide against the Tutsi",
+      "1996: his troops invade Zaire",
+      "2000: becomes president of Rwanda",
+      "2015: a constitutional change lets him stay until 2034"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a relevé un pays ravagé par le génocide, au prix d'un régime autoritaire et d'interventions meurtrières au Congo voisin.",
+    "en": "He rebuilt a country devastated by genocide, at the cost of an authoritarian regime and deadly interventions in neighbouring Congo."
   }
 }

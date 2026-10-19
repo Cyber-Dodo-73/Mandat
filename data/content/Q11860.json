@@ -32,5 +32,27 @@
         "value": "charisma"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Milan en 1936, Silvio Berlusconi est diplômé en droit et fait fortune dans l'immobilier en bâtissant la ville nouvelle de Milano 2 dans les années 1970. Il crée ensuite le premier empire de télévision privée d'Italie, Fininvest puis Mediaset, et achète le club de football du Milan AC en 1986. En 1994, alors que les partis traditionnels s'effondrent sous les enquêtes anticorruption, il fonde Forza Italia et remporte les élections en quelques mois. Son premier gouvernement chute dès la fin de l'année, mais il revient au pouvoir en 2001 et y reste jusqu'en 2006, puis de nouveau de 2008 à 2011. Ses mandats sont marqués par des conflits d'intérêts liés à ses médias et par des lois accusées de le protéger de la justice. En novembre 2011, en pleine crise de la dette, il démissionne sous la pression des marchés. Condamné définitivement pour fraude fiscale en 2013, il est exclu du Sénat et effectue des travaux d'intérêt général. Réélu sénateur en 2022, il meurt à Milan en juin 2023, à 86 ans.",
+    "en": "Born in Milan in 1936, Silvio Berlusconi earned a law degree and made his fortune in property, building the new town of Milano 2 in the 1970s. He went on to build Italy's first private television empire, Fininvest and later Mediaset, and bought AC Milan football club in 1986. In 1994, as the old parties collapsed under corruption investigations, he founded Forza Italia and won the election within months. His first government fell by the end of that year, but he returned to power from 2001 to 2006 and again from 2008 to 2011. His terms were dogged by conflicts of interest over his media holdings and by laws critics said were meant to shield him from the courts. In November 2011, amid the eurozone debt crisis, he resigned under market pressure. Definitively convicted of tax fraud in 2013, he was expelled from the Senate and did community service. Elected to the Senate again in 2022, he died in Milan in June 2023, aged 86."
+  },
+  "highlights": {
+    "fr": [
+      "Années 1980 : bâtit le premier empire de télévision privée en Italie",
+      "1994 : fonde Forza Italia et devient président du Conseil en quelques mois",
+      "2001-2006 : dirige l'un des plus longs gouvernements de l'après-guerre",
+      "2013 : condamné définitivement pour fraude fiscale et exclu du Sénat"
+    ],
+    "en": [
+      "1980s: built Italy's first private television empire",
+      "1994: founded Forza Italia and became prime minister within months",
+      "2001–2006: led one of Italy's longest-lasting postwar governments",
+      "2013: definitively convicted of tax fraud and expelled from the Senate"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a inventé en Italie un populisme médiatique centré sur sa personne, qui a inspiré bien des dirigeants après lui. Il a dominé la droite italienne pendant près de trente ans.",
+    "en": "He pioneered in Italy a media-driven populism built around himself, a model many later leaders followed. He dominated the Italian right for almost thirty years."
   }
 }

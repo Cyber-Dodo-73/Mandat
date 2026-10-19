@@ -32,5 +32,29 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Commode naît à Lanuvium, près de Rome, en 161, fils de l'empereur Marc Aurèle et de Faustine la Jeune ; son frère jumeau meurt enfant. Désigné césar dès 166, il est associé au pouvoir comme auguste en 177, une première pour un fils né sous la pourpre. Il accompagne son père dans les guerres contre les Marcomans sur le Danube, et devient seul empereur à la mort de Marc Aurèle en mars 180. Il conclut rapidement la paix avec les peuples germaniques et rentre à Rome, abandonnant les projets de conquête. En 182, un complot impliquant sa sœur Lucilla échoue ; elle est exilée puis exécutée. Commode laisse gouverner des favoris, le préfet du prétoire Perennis puis l'affranchi Cléandre, tous deux mis à mort, le second en 190 après une émeute de la faim. Il se fait représenter en nouvel Hercule, rebaptise Rome à son nom et descend dans l'arène comme gladiateur, au grand scandale de l'aristocratie. Le 31 décembre 192, après l'échec d'un empoisonnement, il est étranglé dans son bain par l'athlète Narcisse, sur ordre de son entourage. Sa mort ouvre l'année des cinq empereurs, en 193.",
+    "en": "Commodus was born at Lanuvium, near Rome, in 161, the son of Emperor Marcus Aurelius and Faustina the Younger; his twin brother died in childhood. Named Caesar in 166, he was raised to Augustus beside his father in 177, the first emperor's son born during his father's reign to be so honoured. He went with Marcus on the Marcomannic campaigns along the Danube and became sole ruler on his father's death in March 180. He quickly made peace with the Germanic tribes and went back to Rome, dropping plans for conquest. In 182 a plot involving his sister Lucilla failed; she was exiled and later put to death. Commodus left government to favourites, first the Praetorian prefect Perennis and then the freedman Cleander, both eventually killed, the latter in 190 after a bread riot. He had himself portrayed as a new Hercules, renamed Rome after himself and fought in the arena as a gladiator, to the horror of the aristocracy. On 31 December 192, after an attempt to poison him failed, he was strangled in his bath by the wrestler Narcissus at the bidding of his own circle. His death opened the Year of the Five Emperors in 193."
+  },
+  "highlights": {
+    "fr": [
+      "Associé au trône par Marc Aurèle dès 177",
+      "Seul empereur de 180 à 192",
+      "Paix négociée avec les Marcomans en 180",
+      "Combat dans l'arène comme gladiateur et se pose en Hercule",
+      "Étranglé le 31 décembre 192, ouvrant une crise de succession"
+    ],
+    "en": [
+      "Made co-emperor by Marcus Aurelius in 177",
+      "Sole emperor from 180 to 192",
+      "Negotiated peace with the Marcomanni in 180",
+      "Fought as a gladiator and styled himself Hercules",
+      "Strangled on 31 December 192, triggering a succession crisis"
+    ]
+  },
+  "legacy": {
+    "fr": "Les historiens antiques ont fait de son règne la fin de l'âge d'or des Antonins. Le cinéma l'a popularisé, notamment avec Gladiator en 2000.",
+    "en": "Ancient historians cast his reign as the end of the Antonine golden age. Cinema made him a familiar villain, notably in Gladiator in 2000."
   }
 }

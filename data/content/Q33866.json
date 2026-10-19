@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né à Manhattan en 1858 dans une riche famille new-yorkaise, Theodore Roosevelt est un enfant asthmatique qui se forge par l'exercice physique avant d'étudier à Harvard. Élu à l'Assemblée de l'État de New York à 23 ans, il perd le même jour de 1884 sa mère et sa première épouse, puis part s'installer un temps comme éleveur dans le Dakota. Commissaire de police à New York puis secrétaire adjoint à la Marine en 1897, il démissionne pour mener les volontaires des Rough Riders à Cuba lors de la guerre hispano-américaine de 1898. Devenu un héros, il est élu gouverneur de New York, puis vice-président en 1900. L'assassinat de William McKinley en septembre 1901 fait de lui, à 42 ans, le plus jeune président de l'histoire américaine. Il s'attaque aux grands trusts, protège des dizaines de millions d'hectares de forêts et de parcs, lance le canal de Panama et reçoit en 1906 le prix Nobel de la paix pour sa médiation entre la Russie et le Japon. Candidat d'un parti progressiste dissident en 1912, il est blessé par balle pendant la campagne et perd l'élection, puis meurt à Oyster Bay en janvier 1919.",
+    "en": "Born in Manhattan in 1858 into a wealthy New York family, Theodore Roosevelt was an asthmatic child who built himself up through exercise before studying at Harvard. Elected to the New York State Assembly at 23, he lost his mother and his first wife on the same day in 1884 and went off for a time to ranch in Dakota. New York police commissioner and then assistant secretary of the Navy in 1897, he resigned to lead the Rough Riders volunteers in Cuba during the Spanish–American War of 1898. Now a hero, he was elected governor of New York and then vice president in 1900. William McKinley's assassination in September 1901 made him, at 42, the youngest president in American history. He took on the big trusts, protected tens of millions of hectares of forests and parks, launched the Panama Canal and won the 1906 Nobel Peace Prize for mediating between Russia and Japan. Running for a breakaway Progressive party in 1912, he was shot during the campaign and lost the election, and he died at Oyster Bay in January 1919."
+  },
+  "highlights": {
+    "fr": [
+      "Mène les Rough Riders à Cuba en 1898",
+      "Devient en 1901, à 42 ans, le plus jeune président américain",
+      "Place sous protection fédérale des dizaines de millions d'hectares",
+      "Lance la construction du canal de Panama en 1904",
+      "Premier Américain prix Nobel de la paix, en 1906"
+    ],
+    "en": [
+      "Led the Rough Riders in Cuba in 1898",
+      "Became, at 42 in 1901, the youngest US president",
+      "Placed tens of millions of hectares under federal protection",
+      "Launched construction of the Panama Canal in 1904",
+      "First American to win the Nobel Peace Prize, in 1906"
+    ]
+  },
+  "legacy": {
+    "fr": "Pionnier de la protection de la nature et de la régulation des grandes entreprises, il figure sur le mont Rushmore aux côtés de Washington, Jefferson et Lincoln.",
+    "en": "A pioneer of conservation and of regulating big business, he is carved on Mount Rushmore alongside Washington, Jefferson and Lincoln."
   }
 }

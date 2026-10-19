@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Nikita Khrouchtchev naît en 1894 à Kalinovka, village russe proche de la frontière ukrainienne, et travaille très jeune comme ouvrier métallurgiste dans le Donbass. Membre du parti bolchevique à partir de 1918, il combat dans l'Armée rouge puis étudie dans une école ouvrière à Donetsk. Il gravit les échelons sous la protection de Lazare Kaganovitch et dirige le parti de Moscou à partir de 1934, en pleine période des grandes purges, auxquelles il participe en validant des milliers d'arrestations. Premier secrétaire du parti en Ukraine de 1938 à 1949, il y conduit la soviétisation des territoires annexés et la répression d'après-guerre. Après la mort de Staline en 1953, il prend la tête du parti et, en février 1956, dénonce au XXe congrès les crimes et le culte de la personnalité de son prédécesseur, ouvrant le « dégel ». La même année, il fait écraser l'insurrection hongroise par l'Armée rouge. Chef du gouvernement à partir de 1958, il lance le programme spatial qui envoie Spoutnik et Gagarine en orbite, mais provoque aussi la crise de Berlin et celle des missiles de Cuba en 1962. Ses réformes agricoles erratiques et son style imprévisible lui valent d'être renversé par ses collègues en octobre 1964 ; il meurt en retraite surveillée à Moscou en 1971.",
+    "en": "Nikita Khrushchev was born in 1894 in Kalinovka, a Russian village near the Ukrainian border, and went to work young as a metalworker in the Donbas. A Bolshevik party member from 1918, he fought in the Red Army and then studied at a workers' school in Donetsk. He rose under the patronage of Lazar Kaganovich and ran the Moscow party organisation from 1934, at the height of the Great Purge, signing off on thousands of arrests. As party chief in Ukraine from 1938 to 1949 he oversaw the Sovietisation of annexed lands and post-war repression. After Stalin's death in 1953 he took over the party and, in February 1956, denounced his predecessor's crimes and personality cult at the 20th Congress, launching the Thaw. That same year he sent the Red Army to crush the Hungarian uprising. Head of government from 1958, he presided over the space programme that put Sputnik and Gagarin into orbit, but also provoked the Berlin crisis and the 1962 Cuban Missile Crisis. Erratic farm reforms and an unpredictable style led his colleagues to oust him in October 1964, and he died under watch in retirement in Moscow in 1971."
+  },
+  "highlights": {
+    "fr": [
+      "1953 : prend la tête du Parti communiste après la mort de Staline",
+      "1956 : dénonce les crimes de Staline dans son « rapport secret »",
+      "1956 : fait écraser l'insurrection de Budapest",
+      "1957-1961 : Spoutnik puis vol de Gagarine sous sa direction",
+      "1964 : destitué par le Comité central, remplacé par Brejnev"
+    ],
+    "en": [
+      "1953: took charge of the Communist Party after Stalin's death",
+      "1956: denounced Stalin's crimes in his \"secret speech\"",
+      "1956: had the Budapest uprising crushed",
+      "1957–1961: Sputnik and Gagarin's flight under his leadership",
+      "1964: removed by the Central Committee, replaced by Brezhnev"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste l'homme de la déstalinisation et du dégel, mais aussi celui de la répression en Hongrie et de la confrontation nucléaire de Cuba.",
+    "en": "He is remembered as the man of de-Stalinisation and the Thaw, but also of the crackdown in Hungary and the nuclear standoff over Cuba."
   }
 }

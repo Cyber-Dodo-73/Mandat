@@ -30,5 +30,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Pedro II naît en 1825 à Rio de Janeiro, fils de l'empereur Pedro Ier, fondateur de l'empire du Brésil. En 1831, son père abdique et part pour le Portugal, laissant sur le trône un enfant de cinq ans ; des régences instables lui succèdent, secouées par des révoltes provinciales. Pour y mettre fin, le Parlement le déclare majeur en 1840, à quatorze ans, et il est couronné l'année suivante. Il stabilise le pays, arbitre entre conservateurs et libéraux et favorise chemins de fer, télégraphe et instruction. Passionné de sciences et de langues, il correspond avec des savants européens et entre en 1871 à la Royal Society de Londres. De 1864 à 1870, il mène avec l'Argentine et l'Uruguay la guerre de la Triple-Alliance contre le Paraguay, conflit dévastateur qui affaiblit le Paraguay pour des décennies. Hostile à l'esclavage, il soutient une abolition progressive : loi du ventre libre en 1871, puis abolition complète, la Loi d'or, signée en 1888 par sa fille Isabel pendant son absence. Les grands propriétaires se détournent alors de la monarchie. Le 15 novembre 1889, un coup d'État militaire proclame la République ; exilé en Europe, il meurt à Paris en décembre 1891.",
+    "en": "Pedro II was born in 1825 in Rio de Janeiro, son of Emperor Pedro I, founder of the Empire of Brazil. In 1831 his father abdicated and left for Portugal, leaving a five-year-old on the throne; shaky regencies followed, rocked by provincial revolts. To end the turmoil, parliament declared him of age in 1840, at fourteen, and he was crowned the next year. He brought stability, arbitrated between Conservatives and Liberals, and backed railways, the telegraph and schooling. Devoted to science and languages, he corresponded with European scholars and was elected to London's Royal Society in 1871. From 1864 to 1870 he led Brazil, allied with Argentina and Uruguay, in the War of the Triple Alliance against Paraguay, a devastating conflict that crippled Paraguay for decades. Opposed to slavery, he favoured gradual abolition: the Free Womb Law of 1871, then full abolition through the Golden Law, signed in 1888 by his daughter Isabel while he was abroad. Large landowners then turned against the monarchy. On 15 November 1889 a military coup proclaimed a republic; exiled to Europe, he died in Paris in December 1891."
+  },
+  "highlights": {
+    "fr": [
+      "Empereur du Brésil dès 1831, déclaré majeur en 1840 à quatorze ans",
+      "Conduit le Brésil dans la guerre de la Triple-Alliance (1864-1870)",
+      "Élu membre de la Royal Society de Londres en 1871",
+      "Abolition de l'esclavage par la Loi d'or en 1888, sous son règne",
+      "Renversé par le coup d'État républicain du 15 novembre 1889"
+    ],
+    "en": [
+      "Emperor of Brazil from 1831, declared of age at fourteen in 1840",
+      "Led Brazil through the War of the Triple Alliance (1864–1870)",
+      "Elected a Fellow of the Royal Society in London in 1871",
+      "Slavery abolished by the Golden Law in 1888, during his reign",
+      "Overthrown by the republican coup of 15 November 1889"
+    ]
+  },
+  "legacy": {
+    "fr": "Souvent jugé avec bienveillance par les Brésiliens, il reste l'image d'un souverain érudit et modéré dont le long règne a consolidé l'unité du pays.",
+    "en": "Generally viewed fondly in Brazil, he is remembered as a learned, moderate monarch whose long reign held the vast country together."
   }
 }

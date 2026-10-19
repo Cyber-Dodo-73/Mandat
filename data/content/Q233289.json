@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Gwalior le 25 décembre 1924 dans une famille d'enseignants brahmanes, Atal Bihari Vajpayee rejoint jeune l'organisation nationaliste hindoue RSS et est brièvement arrêté pendant le mouvement Quit India de 1942. Journaliste et poète, il compte parmi les fondateurs du Bharatiya Jana Sangh en 1951 et entre au Lok Sabha en 1957, où ses talents d'orateur sont vite reconnus. Emprisonné pendant l'état d'urgence d'Indira Gandhi en 1975, il devient ministre des Affaires étrangères du gouvernement Janata de 1977 à 1979 et s'exprime en hindi à la tribune de l'ONU. En 1980, il cofonde le Bharatiya Janata Party (BJP), dont il est le premier président. Premier ministre pendant treize jours en 1996, il revient au pouvoir en mars 1998 à la tête d'une coalition et ordonne en mai les essais nucléaires de Pokhran. En février 1999, il se rend en autobus à Lahore pour tendre la main au Pakistan, mais doit mener quelques mois plus tard la guerre de Kargil. Renversé à une voix près en avril 1999, il remporte les élections suivantes et gouverne jusqu'en 2004, lançant un vaste programme d'autoroutes et la libéralisation des télécommunications ; son mandat est aussi marqué par les violences antimusulmanes du Gujarat en 2002. Battu en 2004, affaibli par un accident vasculaire, il reçoit le Bharat Ratna en 2015 et meurt à New Delhi en août 2018.",
+    "en": "Born in Gwalior on 25 December 1924 into a family of Brahmin teachers, Atal Bihari Vajpayee joined the Hindu nationalist RSS as a young man and was briefly arrested during the Quit India movement of 1942. A journalist and poet, he was among the founders of the Bharatiya Jana Sangh in 1951 and entered the Lok Sabha in 1957, where his oratory soon stood out. Jailed during Indira Gandhi's Emergency in 1975, he served as foreign minister in the Janata government from 1977 to 1979 and addressed the UN General Assembly in Hindi. In 1980 he co-founded the Bharatiya Janata Party (BJP) and became its first president. Prime minister for just thirteen days in 1996, he returned to power at the head of a coalition in March 1998 and ordered the Pokhran nuclear tests that May. In February 1999 he rode a bus to Lahore to reach out to Pakistan, only to fight the Kargil war a few months later. Toppled by a single vote in April 1999, he won the ensuing election and governed until 2004, launching a vast highway programme and opening up telecoms; his term was also marked by the anti-Muslim violence in Gujarat in 2002. Defeated in 2004 and later disabled by a stroke, he received the Bharat Ratna in 2015 and died in New Delhi in August 2018."
+  },
+  "highlights": {
+    "fr": [
+      "Cofonde le BJP en 1980 et en devient le premier président",
+      "Ordonne les essais nucléaires de Pokhran en mai 1998",
+      "Se rend en autobus à Lahore en février 1999 pour la paix avec le Pakistan",
+      "Mène la guerre de Kargil contre le Pakistan en 1999",
+      "Premier non-membre du Congrès à achever un mandat complet de Premier ministre"
+    ],
+    "en": [
+      "Co-founded the BJP in 1980 and became its first president",
+      "Ordered the Pokhran nuclear tests in May 1998",
+      "Took the bus to Lahore in February 1999 to seek peace with Pakistan",
+      "Led India through the Kargil war with Pakistan in 1999",
+      "First non-Congress prime minister to serve a full term"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure modérée du nationalisme hindou, respectée au-delà de son camp, il a fait du BJP un parti de gouvernement et de l'Inde une puissance nucléaire déclarée.",
+    "en": "A moderate face of Hindu nationalism respected across party lines, he turned the BJP into a party of government and India into a declared nuclear power."
   }
 }

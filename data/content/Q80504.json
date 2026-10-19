@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1918 à Scornicești, dans une famille paysanne, Nicolae Ceaușescu part à onze ans en apprentissage chez un cordonnier à Bucarest et rejoint la jeunesse communiste, alors clandestine. Arrêté à plusieurs reprises dans les années 1930 et 1940, il rencontre en prison Gheorghe Gheorghiu-Dej, futur chef du régime communiste. Après 1945, il monte dans l'appareil du parti et devient en mars 1965, à la mort de Gheorghiu-Dej, premier secrétaire du Parti communiste roumain. En 1966, il interdit l'avortement et la contraception pour accroître la natalité ; des milliers de femmes meurent d'avortements clandestins et les orphelinats se remplissent. En août 1968, il condamne publiquement l'invasion de la Tchécoslovaquie par le pacte de Varsovie, ce qui lui vaut la visite de Richard Nixon l'année suivante. À partir de 1971, il impose un culte de la personnalité autour de lui et de son épouse Elena, et il prend en 1974 le titre de président de la République. Dans les années 1980, pour rembourser la dette extérieure, il impose le rationnement de la nourriture, du chauffage et de l'électricité, tandis que la Securitate surveille la population et qu'un quartier entier de Bucarest est rasé pour bâtir la Maison du peuple. Après la répression sanglante du soulèvement de Timișoara en décembre 1989, il est hué à Bucarest le 21 décembre, s'enfuit, puis est jugé sommairement et fusillé avec Elena le 25 décembre à Târgoviște.",
+    "en": "Born in 1918 into a peasant family in Scornicești, Nicolae Ceaușescu was apprenticed to a shoemaker in Bucharest at eleven and joined the then-underground communist youth. Arrested several times in the 1930s and 1940s, he met Gheorghe Gheorghiu-Dej, the future head of the communist regime, in prison. After 1945 he rose through the party machine, and in March 1965, on Gheorghiu-Dej's death, he became first secretary of the Romanian Communist Party. In 1966 he banned abortion and contraception to raise the birth rate; thousands of women died from illegal abortions and orphanages filled up. In August 1968 he publicly condemned the Warsaw Pact invasion of Czechoslovakia, which earned him a visit from Richard Nixon the following year. From 1971 he built a personality cult around himself and his wife Elena, and in 1974 he took the title of president of the republic. In the 1980s, to pay off the foreign debt, he rationed food, heating and electricity, while the Securitate spied on the population and a whole district of Bucharest was razed for the House of the People. After the bloody crackdown on the Timișoara uprising in December 1989, he was booed in Bucharest on 21 December, fled, and after a summary trial was shot with Elena on 25 December in Târgoviște."
+  },
+  "highlights": {
+    "fr": [
+      "Chef du Parti communiste roumain de 1965 à 1989",
+      "Interdit l'avortement en 1966, causant des milliers de morts",
+      "Condamne l'invasion de la Tchécoslovaquie en août 1968",
+      "Président de la Roumanie de 1974 à 1989",
+      "Renversé et exécuté pendant la révolution de décembre 1989"
+    ],
+    "en": [
+      "Head of the Romanian Communist Party from 1965 to 1989",
+      "Banned abortion in 1966, leading to thousands of deaths",
+      "Condemned the invasion of Czechoslovakia in August 1968",
+      "President of Romania from 1974 to 1989",
+      "Overthrown and executed in the revolution of December 1989"
+    ]
+  },
+  "legacy": {
+    "fr": "Son régime reste synonyme en Roumanie de pénuries, de surveillance policière et de culte de la personnalité ; la révolution qui l'a renversé a fait plus d'un millier de morts.",
+    "en": "In Romania his regime remains a byword for shortages, police surveillance and personality cult; the revolution that toppled him left over a thousand dead."
   }
 }

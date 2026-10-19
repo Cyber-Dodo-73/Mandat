@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1922 dans la région de Mara, fils d'un chef zanaki, Julius Nyerere étudie à Makerere en Ouganda puis à l'université d'Édimbourg, d'où il revient enseignant. En 1954, il fonde la TANU, qui réclame pacifiquement l'indépendance du Tanganyika. Le territoire devient indépendant en 1961 ; Nyerere en est Premier ministre puis président. En 1964, il unit le Tanganyika et Zanzibar pour former la Tanzanie, qu'il dirige jusqu'en 1985. La déclaration d'Arusha de 1967 lance l'ujamaa, un socialisme africain fondé sur les villages collectifs, dont les regroupements forcés des années 1970 aboutissent à un échec économique. Il fait du swahili une langue nationale et soutient les mouvements de libération d'Afrique australe. En 1979, son armée renverse Idi Amin Dada en Ouganda. Il quitte volontairement la présidence en 1985, puis la tête du parti en 1990, et meurt d'une leucémie à Londres en 1999.",
+    "en": "Born in 1922 in the Mara region, the son of a Zanaki chief, Julius Nyerere studied at Makerere in Uganda and at the University of Edinburgh before returning home as a teacher. In 1954 he founded TANU, which pressed peacefully for Tanganyika's independence. The territory became independent in 1961, with Nyerere as prime minister and then president. In 1964 he united Tanganyika and Zanzibar to create Tanzania, which he led until 1985. The 1967 Arusha Declaration launched ujamaa, an African socialism built on collective villages, but the forced resettlements of the 1970s ended in economic failure. He made Swahili a national language and backed liberation movements across southern Africa. In 1979 his army overthrew Idi Amin in Uganda. He gave up the presidency voluntarily in 1985 and the party leadership in 1990, and died of leukaemia in London in 1999."
+  },
+  "highlights": {
+    "fr": [
+      "Fonde la TANU en 1954 et obtient l'indépendance du Tanganyika en 1961",
+      "Crée la Tanzanie en 1964 par l'union avec Zanzibar",
+      "Déclaration d'Arusha (1967) et politique de l'ujamaa",
+      "Renverse Idi Amin Dada en Ouganda en 1979",
+      "Quitte le pouvoir de lui-même en 1985"
+    ],
+    "en": [
+      "Founded TANU in 1954 and won Tanganyika's independence in 1961",
+      "Created Tanzania in 1964 through union with Zanzibar",
+      "1967 Arusha Declaration and the ujamaa policy",
+      "Toppled Idi Amin in Uganda in 1979",
+      "Stepped down of his own accord in 1985"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé « Mwalimu », il reste en Tanzanie le père d'une nation unie et stable, même si son modèle économique collectiviste est jugé comme un échec.",
+    "en": "Known as 'Mwalimu', he is remembered in Tanzania as the father of a united, stable nation, even though his collectivist economic model is widely seen as a failure."
   }
 }

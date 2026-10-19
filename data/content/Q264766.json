@@ -29,5 +29,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Theresa Brasier naît en 1956 à Eastbourne, fille d'un pasteur anglican, et étudie la géographie au St Hugh's College d'Oxford. Après une carrière à la Banque d'Angleterre et dans le secteur des paiements, elle siège comme conseillère municipale à Londres puis entre à la Chambre des communes en 1997 comme députée de Maidenhead. Présidente du Parti conservateur en 2002-2003, elle met en garde ses collègues contre l'image de « parti méchant » qui leur colle à la peau. David Cameron la nomme ministre de l'Intérieur en 2010, poste qu'elle occupe six ans, un record de longévité, marqué par un durcissement de la politique migratoire. Après le référendum de 2016 sur le Brexit, où elle avait discrètement soutenu le maintien, elle devient Première ministre en juillet. Elle déclenche la procédure de sortie de l'UE en mars 2017, puis convoque des élections anticipées en juin qui lui font perdre sa majorité absolue. L'accord de retrait qu'elle négocie avec Bruxelles est rejeté trois fois par les députés en 2019. Elle annonce sa démission et quitte Downing Street en juillet 2019, avant de siéger comme simple députée puis d'entrer à la Chambre des lords en 2024.",
+    "en": "Theresa Brasier was born in 1956 in Eastbourne, the daughter of an Anglican vicar, and read geography at St Hugh's College, Oxford. After working at the Bank of England and in the payments industry, she served as a London borough councillor and entered the Commons in 1997 as MP for Maidenhead. As Conservative Party chairman in 2002–03 she warned colleagues that voters saw them as \"the nasty party\". David Cameron made her Home Secretary in 2010, a post she held for six years, longer than anyone in decades, and used to tighten immigration policy. After the 2016 Brexit referendum, in which she had quietly backed Remain, she became Prime Minister in July. She triggered the formal exit process in March 2017, then called a snap election in June that cost her party its majority. The withdrawal agreement she negotiated with Brussels was voted down three times by MPs in 2019. She announced her resignation and left Downing Street in July 2019, staying on as a backbench MP before moving to the House of Lords in 2024."
+  },
+  "highlights": {
+    "fr": [
+      "1997 : élue députée de Maidenhead",
+      "2010-2016 : ministre de l'Intérieur pendant six ans",
+      "2016 : devient la deuxième femme Première ministre du Royaume-Uni",
+      "2017 : active l'article 50 pour engager la sortie de l'UE",
+      "2019 : son accord de Brexit rejeté trois fois, elle démissionne"
+    ],
+    "en": [
+      "1997: elected MP for Maidenhead",
+      "2010–2016: Home Secretary for six years",
+      "2016: became the UK's second female Prime Minister",
+      "2017: triggered Article 50 to begin leaving the EU",
+      "2019: resigned after her Brexit deal was rejected three times"
+    ]
+  },
+  "legacy": {
+    "fr": "Son mandat reste associé à l'impasse parlementaire du Brexit, qu'elle n'a pas réussi à dénouer malgré un accord négocié avec l'UE.",
+    "en": "Her premiership is remembered for the parliamentary deadlock over Brexit, which she failed to break despite negotiating a deal with the EU."
   }
 }

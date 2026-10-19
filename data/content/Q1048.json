@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né à Rome vers 100 av. J.-C. dans une famille patricienne ancienne mais peu fortunée, Caius Julius Caesar est lié par mariage au camp populaire de Marius, ce qui lui vaut d'être menacé sous la dictature de Sylla. Il gravit le cursus des honneurs, questeur en 69, élu grand pontife en 63 à force de dépenses et de dettes, puis préteur et gouverneur en Espagne. Allié à Pompée et Crassus dans le premier triumvirat, il devient consul en 59 et obtient le gouvernement des Gaules. De 58 à 50, il conquiert la Gaule au prix de campagnes extrêmement meurtrières, battant Vercingétorix à Alésia en 52. Sommé par le Sénat de rendre son armée, il franchit le Rubicon en janvier 49, déclenchant une guerre civile contre Pompée, qu'il bat à Pharsale en 48. Maître de Rome, il cumule consulats et dictatures, réforme le calendrier et se fait nommer dictateur à vie au début de 44. Le 15 mars 44 av. J.-C., un groupe de sénateurs mené par Brutus et Cassius le poignarde lors d'une séance tenue dans la curie de Pompée.",
+    "en": "Born in Rome around 100 BC into an old but not wealthy patrician family, Gaius Julius Caesar was tied by marriage to the popular faction of Marius, which put him at risk under Sulla's dictatorship. He climbed the ladder of offices, becoming quaestor in 69, winning election as chief priest in 63 through lavish spending and debt, then serving as praetor and governor in Spain. Allied with Pompey and Crassus in the First Triumvirate, he became consul in 59 and secured command of the Gallic provinces. From 58 to 50 he conquered Gaul in extremely bloody campaigns, defeating Vercingetorix at Alesia in 52. Ordered by the Senate to give up his army, he crossed the Rubicon in January 49, starting a civil war against Pompey, whom he defeated at Pharsalus in 48. As master of Rome he held repeated consulships and dictatorships, reformed the calendar and was named dictator for life early in 44. On 15 March 44 BC, a group of senators led by Brutus and Cassius stabbed him to death at a Senate meeting in Pompey's assembly hall."
+  },
+  "highlights": {
+    "fr": [
+      "Élu grand pontife en 63 av. J.-C.",
+      "Consul en 59 av. J.-C. dans le cadre du premier triumvirat",
+      "Conquiert la Gaule de 58 à 50, victoire d'Alésia en 52",
+      "Franchit le Rubicon en 49 et bat Pompée à Pharsale en 48",
+      "Instaure le calendrier julien, puis est assassiné aux ides de mars 44"
+    ],
+    "en": [
+      "Elected chief priest (pontifex maximus) in 63 BC",
+      "Consul in 59 BC as part of the First Triumvirate",
+      "Conquered Gaul from 58 to 50, winning at Alesia in 52",
+      "Crossed the Rubicon in 49 and beat Pompey at Pharsalus in 48",
+      "Introduced the Julian calendar, then was murdered on the Ides of March 44"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa prise du pouvoir a précipité la fin de la République romaine, et son nom a donné les titres de « kaiser » et de « tsar ».",
+    "en": "His seizure of power hastened the end of the Roman Republic, and his name gave rise to the titles kaiser and tsar."
   }
 }

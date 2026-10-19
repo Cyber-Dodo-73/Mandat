@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Pierre naît à Moscou en 1672, fils du tsar Alexis et de sa seconde épouse. Proclamé tsar en 1682 à dix ans, il partage le trône avec son demi-frère Ivan V sous la régence de leur sœur Sophie, qu'il écarte en 1689. Après la prise d'Azov aux Ottomans en 1696, il parcourt l'Europe occidentale incognito avec sa « Grande Ambassade » en 1697-1698, allant jusqu'à travailler dans des chantiers navals hollandais. À son retour, il réprime avec férocité la révolte des streltsy, impose la taille des barbes et l'habit européen. En 1700, il engage contre la Suède la grande guerre du Nord ; battu à Narva, il reconstruit son armée, fonde Saint-Pétersbourg en 1703 et écrase Charles XII à Poltava en 1709. La nouvelle capitale est bâtie au prix du travail forcé de dizaines de milliers de serfs, dont beaucoup meurent sur les chantiers. Il réorganise l'État avec le Sénat, les collèges, le Saint-Synode et la Table des rangs, tout en durcissant le servage ; son fils Alexis, accusé de trahison, meurt en 1718 après avoir été torturé. La paix de Nystad, en 1721, donne à la Russie un accès à la Baltique, et Pierre prend le titre d'empereur avant de mourir à Saint-Pétersbourg en 1725.",
+    "en": "Peter was born in Moscow in 1672, the son of Tsar Alexis and his second wife. Proclaimed tsar in 1682 at the age of ten, he shared the throne with his half-brother Ivan V under the regency of their sister Sophia, whom he pushed aside in 1689. After taking Azov from the Ottomans in 1696, he toured Western Europe incognito with his Grand Embassy in 1697–98, even working in Dutch shipyards. Back home he crushed the Streltsy revolt ferociously and forced his nobles to shave their beards and wear European dress. In 1700 he launched the Great Northern War against Sweden; beaten at Narva, he rebuilt his army, founded Saint Petersburg in 1703 and routed Charles XII at Poltava in 1709. The new capital was built with the forced labour of tens of thousands of serfs, many of whom died on the sites. He reorganized the state with the Senate, the colleges, the Holy Synod and the Table of Ranks while tightening serfdom; his son Alexei, accused of treason, died in 1718 after being tortured. The 1721 Treaty of Nystad gave Russia its Baltic coastline, and Peter took the title of emperor before dying in Saint Petersburg in 1725."
+  },
+  "highlights": {
+    "fr": [
+      "Visite l'Europe occidentale avec la Grande Ambassade en 1697-1698",
+      "Fonde Saint-Pétersbourg en 1703 et en fait la capitale",
+      "Écrase l'armée suédoise de Charles XII à Poltava en 1709",
+      "Instaure la Table des rangs en 1722 pour hiérarchiser la noblesse de service",
+      "Prend le titre d'empereur de toutes les Russies en 1721"
+    ],
+    "en": [
+      "Toured Western Europe with the Grand Embassy in 1697–98",
+      "Founded Saint Petersburg in 1703 and made it his capital",
+      "Crushed Charles XII's Swedish army at Poltava in 1709",
+      "Created the Table of Ranks in 1722 to grade the service nobility",
+      "Took the title of Emperor of All Russia in 1721"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a fait de la Russie une grande puissance européenne dotée d'une flotte et d'une capitale ouverte sur la Baltique, au prix d'une autocratie brutale et d'un servage renforcé.",
+    "en": "He made Russia a major European power with a navy and a capital facing the Baltic, at the price of brutal autocracy and harsher serfdom."
   }
 }

@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1943 à Aurora, dans le Colorado, John Kerry étudie à Yale avant de s'engager dans la marine. Commandant d'un patrouilleur fluvial au Vietnam, il est décoré, puis devient à son retour une figure des vétérans opposés à la guerre, témoignant devant le Sénat en 1971. Procureur adjoint dans le Massachusetts, il est élu lieutenant-gouverneur en 1982 sous Michael Dukakis. Sénateur de 1985 à 2013, il enquête notamment sur l'affaire Iran-Contra et préside la commission des Affaires étrangères. Candidat démocrate à la présidence en 2004, il est battu de peu par George W. Bush. Nommé secrétaire d'État par Barack Obama en 2013, il négocie l'accord de 2015 sur le nucléaire iranien et signe l'accord de Paris sur le climat en 2016. Sous Joe Biden, il devient en 2021 le premier émissaire présidentiel spécial pour le climat, poste qu'il quitte en 2024. Il reçoit la même année la médaille présidentielle de la Liberté.",
+    "en": "Born in 1943 in Aurora, Colorado, John Kerry studied at Yale before joining the navy. He commanded a river patrol boat in Vietnam and was decorated, then on his return became a leading voice of veterans against the war, testifying before the Senate in 1971. After working as an assistant district attorney in Massachusetts, he was elected lieutenant governor in 1982 alongside Michael Dukakis. As a senator from 1985 to 2013 he investigated the Iran-Contra affair among other things and chaired the Foreign Relations Committee. He was the Democratic presidential nominee in 2004 and narrowly lost to George W. Bush. Appointed Secretary of State by Barack Obama in 2013, he negotiated the 2015 Iran nuclear deal and signed the Paris climate agreement in 2016. Under Joe Biden he became in 2021 the first special presidential envoy for climate, a post he left in 2024. That same year he was awarded the Presidential Medal of Freedom."
+  },
+  "highlights": {
+    "fr": [
+      "1971 : témoigne au Sénat contre la guerre du Vietnam",
+      "1985-2013 : sénateur du Massachusetts pendant 28 ans",
+      "2004 : candidat démocrate battu par George W. Bush",
+      "2015 : négocie l'accord sur le nucléaire iranien",
+      "2021 : premier émissaire présidentiel pour le climat"
+    ],
+    "en": [
+      "1971: testifies to the Senate against the Vietnam War",
+      "1985–2013: serves 28 years as senator for Massachusetts",
+      "2004: Democratic nominee, defeated by George W. Bush",
+      "2015: negotiates the Iran nuclear deal",
+      "2021: becomes the first presidential envoy for climate"
+    ]
+  },
+  "legacy": {
+    "fr": "Il laisse l'image d'un diplomate tenace, associé à l'accord iranien et à l'accord de Paris, deux textes depuis fragilisés par ses successeurs.",
+    "en": "He is remembered as a dogged diplomat tied to the Iran deal and the Paris Agreement, two accords later weakened by his successors."
   }
 }

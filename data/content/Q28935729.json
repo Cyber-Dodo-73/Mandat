@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né James Donald Bowman en 1984 à Middletown, dans l'Ohio, JD Vance grandit dans une famille marquée par la pauvreté et l'addiction de sa mère, et il est en grande partie élevé par ses grands-parents. Après le lycée en 2003, il s'engage dans le corps des Marines et sert en Irak comme correspondant militaire. Il étudie ensuite à l'université d'État de l'Ohio, diplômé en 2009, puis à la faculté de droit de Yale, dont il sort en 2013. Après un passage dans un cabinet d'avocats, il travaille dans le capital-risque, notamment auprès de Peter Thiel. En 2016, son autobiographie Hillbilly Elegy, sur la classe ouvrière blanche des Appalaches, devient un succès de librairie, et il critique alors durement Donald Trump. Rallié à Trump, il remporte en novembre 2022 l'élection sénatoriale de l'Ohio et siège à partir de janvier 2023. En juillet 2024, Trump le choisit comme colistier lors de la convention républicaine de Milwaukee, et le ticket remporte l'élection de novembre. Il prête serment comme vice-président le 20 janvier 2025, devenant l'un des plus jeunes à occuper ce poste, et s'impose comme une voix majeure du gouvernement sur la politique étrangère.",
+    "en": "Born James Donald Bowman in 1984 in Middletown, Ohio, JD Vance grew up in a family scarred by poverty and his mother's addiction and was largely raised by his grandparents. After finishing high school in 2003 he joined the Marine Corps and served in Iraq as a military correspondent. He went on to Ohio State University, graduating in 2009, and then to Yale Law School, which he left with a degree in 2013. After a spell at a law firm he moved into venture capital, working among others with Peter Thiel. In 2016 his memoir Hillbilly Elegy, about the white working class of Appalachia, became a bestseller, and at the time he sharply criticised Donald Trump. Having since embraced Trump, he won Ohio's Senate race in November 2022 and took his seat in January 2023. In July 2024 Trump picked him as running mate at the Republican convention in Milwaukee, and the ticket won in November. He was sworn in as vice president on 20 January 2025, one of the youngest people to hold the office, and became a leading voice of the administration on foreign policy."
+  },
+  "highlights": {
+    "fr": [
+      "Sert dans les Marines en Irak après 2003",
+      "Publie Hillbilly Elegy en 2016, succès de librairie",
+      "Sénateur de l'Ohio de 2023 à 2025",
+      "Vice-président des États-Unis depuis le 20 janvier 2025"
+    ],
+    "en": [
+      "Served with the Marines in Iraq after 2003",
+      "Published the bestselling Hillbilly Elegy in 2016",
+      "Senator for Ohio from 2023 to 2025",
+      "Vice President of the United States since 20 January 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Encore en fonctions, il est considéré comme l'un des héritiers possibles du mouvement de Donald Trump au sein du Parti républicain.",
+    "en": "Still in office, he is widely seen as a possible heir to Donald Trump's movement within the Republican Party."
   }
 }

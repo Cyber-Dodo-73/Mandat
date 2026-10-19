@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1892 près de Harar sous le nom de Tafari Makonnen, il est le fils du ras Makonnen, cousin et proche conseiller de l'empereur Ménélik II. Gouverneur provincial dès l'adolescence, il devient en 1916 régent et héritier du trône aux côtés de l'impératrice Zewditou. Il fait entrer l'Éthiopie à la Société des Nations en 1923 et entreprend en 1924 une grande tournée en Europe. Couronné empereur en novembre 1930 sous le nom de Haïlé Sélassié, il octroie dès 1931 une première Constitution écrite. Lorsque l'Italie fasciste envahit le pays en 1935 et emploie des gaz toxiques, il doit s'exiler en Angleterre et dénonce l'agression devant la SDN à Genève en juin 1936. Rétabli sur son trône en 1941 avec l'aide britannique, il modernise l'école et l'armée mais gouverne de manière autocratique, annexe l'Érythrée en 1962 et fait d'Addis-Abeba le siège de l'Organisation de l'unité africaine en 1963. La famine du Wollo, au début des années 1970, fait des dizaines de milliers de morts et son gouvernement tente de la dissimuler. Déposé par la junte militaire du Derg en septembre 1974, il meurt en détention à Addis-Abeba en août 1975, très probablement assassiné.",
+    "en": "Born near Harar in 1892 as Tafari Makonnen, he was the son of Ras Makonnen, cousin and close adviser to Emperor Menelik II. A provincial governor in his teens, he became regent and heir to the throne alongside Empress Zewditu in 1916. He took Ethiopia into the League of Nations in 1923 and made a long European tour in 1924. Crowned emperor in November 1930 as Haile Selassie, he granted the country its first written constitution in 1931. When Fascist Italy invaded in 1935 and used poison gas, he was forced into exile in England and denounced the aggression before the League in Geneva in June 1936. Restored with British help in 1941, he modernised schools and the army but ruled as an autocrat, annexed Eritrea in 1962 and made Addis Ababa the seat of the Organisation of African Unity in 1963. The Wollo famine of the early 1970s killed tens of thousands while his government tried to hide it. Deposed by the Derg military junta in September 1974, he died in custody in Addis Ababa in August 1975, most likely murdered."
+  },
+  "highlights": {
+    "fr": [
+      "Fait admettre l'Éthiopie à la Société des Nations en 1923",
+      "Couronné empereur en novembre 1930",
+      "Dénonce l'invasion italienne devant la SDN à Genève en 1936",
+      "Accueille à Addis-Abeba la fondation de l'OUA en 1963",
+      "Renversé par la junte du Derg en septembre 1974"
+    ],
+    "en": [
+      "Brought Ethiopia into the League of Nations in 1923",
+      "Crowned emperor in November 1930",
+      "Denounced the Italian invasion before the League in Geneva in 1936",
+      "Hosted the founding of the OAU in Addis Ababa in 1963",
+      "Overthrown by the Derg junta in September 1974"
+    ]
+  },
+  "legacy": {
+    "fr": "Symbole de la résistance africaine au colonialisme et figure vénérée par le mouvement rastafari, il reste aussi le dernier empereur d'une monarchie restée sourde aux famines.",
+    "en": "A symbol of African resistance to colonialism and revered by the Rastafari movement, he was also the last emperor of a monarchy deaf to famine."
   }
 }

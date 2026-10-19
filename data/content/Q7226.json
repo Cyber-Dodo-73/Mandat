@@ -35,5 +35,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Née vers 1412 à Domrémy, village des marches de Lorraine, dans une famille de laboureurs, Jeanne grandit pendant la guerre de Cent Ans, alors que les Anglais et leurs alliés bourguignons occupent le nord de la France. Vers treize ans, elle dit entendre des voix de saints qui lui demandent de chasser les Anglais et de faire sacrer le dauphin Charles. Au début de 1429, elle obtient d'être conduite à Chinon, où elle convainc le dauphin de lui confier une place dans l'armée envoyée au secours d'Orléans. La levée du siège de la ville, le 8 mai 1429, puis la victoire de Patay retournent la situation militaire. Elle conduit ensuite Charles jusqu'à Reims, où il est sacré roi le 17 juillet 1429, mais l'attaque contre Paris échoue en septembre. Capturée par les Bourguignons à Compiègne en mai 1430, elle est livrée aux Anglais et jugée pour hérésie à Rouen par un tribunal d'Église présidé par l'évêque Pierre Cauchon. Condamnée, elle est brûlée vive sur la place du Vieux-Marché le 30 mai 1431, à environ 19 ans.",
+    "en": "Born around 1412 in Domrémy, a village on the borders of Lorraine, into a farming family, Joan grew up during the Hundred Years' War, when the English and their Burgundian allies held northern France. At about thirteen she said she heard the voices of saints telling her to drive out the English and have the Dauphin Charles crowned. Early in 1429 she managed to be taken to Chinon, where she persuaded the Dauphin to give her a place in the army sent to relieve Orléans. The lifting of the siege on 8 May 1429, followed by victory at Patay, turned the military tide. She then led Charles to Reims, where he was crowned king on 17 July 1429, but the attack on Paris failed that September. Captured by the Burgundians at Compiègne in May 1430, she was handed to the English and tried for heresy at Rouen by a church court led by Bishop Pierre Cauchon. Condemned, she was burned alive in the Old Market Square on 30 May 1431, aged about 19."
+  },
+  "highlights": {
+    "fr": [
+      "Convainc le dauphin Charles de lui confier une armée à Chinon en 1429",
+      "Fait lever le siège d'Orléans le 8 mai 1429",
+      "Fait sacrer Charles VII à Reims le 17 juillet 1429",
+      "Brûlée vive à Rouen le 30 mai 1431",
+      "Réhabilitée par un procès en 1456, canonisée en 1920"
+    ],
+    "en": [
+      "Persuaded the Dauphin Charles to give her an army at Chinon in 1429",
+      "Lifted the siege of Orléans on 8 May 1429",
+      "Had Charles VII crowned at Reims on 17 July 1429",
+      "Burned alive in Rouen on 30 May 1431",
+      "Cleared by a retrial in 1456 and canonised in 1920"
+    ]
+  },
+  "legacy": {
+    "fr": "Sainte de l'Église catholique et héroïne nationale française, elle est revendiquée par des camps politiques très différents.",
+    "en": "A Catholic saint and French national heroine, she has been claimed by very different political camps."
   }
 }

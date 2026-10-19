@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1865 à Marlborough House, à Londres, George est le deuxième fils du futur Édouard VII et fait carrière dans la Royal Navy, sans perspective de régner. La mort de son frère aîné Albert Victor en 1892 fait de lui l'héritier en second, et il est titré duc d'York la même année. Il épouse en 1893 Mary de Teck, l'ancienne fiancée de son frère, et devient roi à la mort de son père en mai 1910. En 1911, il se rend en Inde avec la reine pour le durbar de Delhi, où ils sont proclamés empereur et impératrice. Pendant la Première Guerre mondiale, il multiplie les visites au front et aux usines, et remplace en 1917 le nom allemand de sa dynastie, Saxe-Cobourg-Gotha, par celui de Windsor. Son règne voit l'indépendance de l'État libre d'Irlande en 1922, le premier gouvernement travailliste en 1924 et le statut de Westminster de 1931, qui fonde le Commonwealth. Il inaugure en 1932 le message radiophonique royal de Noël, célèbre son jubilé d'argent en 1935 et meurt à Sandringham en janvier 1936.",
+    "en": "Born at Marlborough House in London in 1865, George was the second son of the future Edward VII and pursued a career in the Royal Navy with no expectation of reigning. His elder brother Albert Victor's death in 1892 made him second in line, and he was created Duke of York that year. In 1893 he married Mary of Teck, his late brother's fiancée, and he became king on his father's death in May 1910. In 1911 he travelled to India with the queen for the Delhi Durbar, where they were proclaimed emperor and empress. During the First World War he made frequent visits to the front and to factories, and in 1917 he replaced his dynasty's German name, Saxe-Coburg and Gotha, with Windsor. His reign saw the creation of the Irish Free State in 1922, the first Labour government in 1924 and the 1931 Statute of Westminster, which founded the Commonwealth. He gave the first royal Christmas radio broadcast in 1932, celebrated his Silver Jubilee in 1935 and died at Sandringham in January 1936."
+  },
+  "highlights": {
+    "fr": [
+      "Devient roi du Royaume-Uni en mai 1910",
+      "Proclamé empereur des Indes lors du durbar de Delhi en 1911",
+      "Rebaptise la dynastie royale « Windsor » en 1917",
+      "Inaugure en 1932 le message royal de Noël à la radio",
+      "Célèbre son jubilé d'argent en 1935"
+    ],
+    "en": [
+      "Became king of the United Kingdom in May 1910",
+      "Proclaimed Emperor of India at the Delhi Durbar in 1911",
+      "Renamed the royal dynasty Windsor in 1917",
+      "Gave the first royal Christmas radio broadcast in 1932",
+      "Celebrated his Silver Jubilee in 1935"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a donné son nom actuel à la famille royale et fait de la monarchie une institution proche du public, à l'heure où d'autres trônes européens tombaient.",
+    "en": "He gave the royal family its current name and made the monarchy closer to the public at a time when other European thrones were falling."
   }
 }

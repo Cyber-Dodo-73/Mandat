@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1930 à Lisala, au Congo belge, Joseph-Désiré Mobutu sert comme sous-officier dans la Force publique coloniale, puis devient journaliste et se rapproche de Patrice Lumumba. Nommé chef d'état-major à l'indépendance en 1960, il neutralise dès septembre le Premier ministre et le président, puis joue un rôle dans le transfert de Lumumba au Katanga, où il est exécuté en janvier 1961. Le 24 novembre 1965, il prend le pouvoir par un coup d'État et fait pendre publiquement en 1966 quatre anciens ministres accusés de complot. Il impose un parti unique, rebaptise le pays Zaïre en 1971 et se fait appeler Mobutu Sese Seko. La « zaïrianisation » des entreprises étrangères en 1973 ruine l'économie, tandis qu'il détourne des milliards de dollars et fait bâtir des palais à Gbadolite. Allié de l'Occident pendant la guerre froide, il repousse deux invasions du Shaba en 1977 et 1978 avec l'aide de la France et du Maroc. Contraint d'accepter le multipartisme en 1990, il est renversé en mai 1997 par la rébellion de Laurent-Désiré Kabila, soutenue par le Rwanda et l'Ouganda. Atteint d'un cancer, il meurt en exil à Rabat en septembre 1997.",
+    "en": "Born in Lisala, Belgian Congo, in 1930, Joseph-Désiré Mobutu served as a non-commissioned officer in the colonial Force Publique, then turned to journalism and grew close to Patrice Lumumba. Made army chief of staff at independence in 1960, he sidelined both the prime minister and the president that September, then played a part in handing Lumumba over to Katanga, where he was executed in January 1961. On 24 November 1965 he seized power in a coup, and in 1966 he had four former ministers accused of plotting hanged in public. He imposed a single party, renamed the country Zaire in 1971 and took the name Mobutu Sese Seko. The 'Zairianisation' of foreign businesses in 1973 wrecked the economy, while he siphoned off billions of dollars and built palaces at Gbadolite. A Western ally in the Cold War, he repelled two invasions of Shaba in 1977 and 1978 with help from France and Morocco. Forced to accept multiparty politics in 1990, he was overthrown in May 1997 by Laurent-Désiré Kabila's rebellion, backed by Rwanda and Uganda. Suffering from cancer, he died in exile in Rabat in September 1997."
+  },
+  "highlights": {
+    "fr": [
+      "1960 : chef d'état-major de l'armée congolaise",
+      "1965 : prend le pouvoir par un coup d'État",
+      "1971 : rebaptise le pays Zaïre",
+      "1973 : la zaïrianisation ruine l'économie",
+      "1997 : renversé par Laurent-Désiré Kabila"
+    ],
+    "en": [
+      "1960: chief of staff of the Congolese army",
+      "1965: seizes power in a coup",
+      "1971: renames the country Zaire",
+      "1973: Zairianisation wrecks the economy",
+      "1997: overthrown by Laurent-Désiré Kabila"
+    ]
+  },
+  "legacy": {
+    "fr": "Ses trente-deux ans de pouvoir ont fait du mot « kleptocratie » un synonyme de son régime et laissé un État effondré.",
+    "en": "His thirty-two years in power made 'kleptocracy' a byword for his regime and left behind a collapsed state."
   }
 }

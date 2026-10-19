@@ -32,5 +32,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Mauricio Macri naît en 1959 à Tandil, dans la province de Buenos Aires, fils de Franco Macri, industriel d'origine italienne à la tête d'un vaste groupe. Ingénieur civil, il travaille dans l'entreprise familiale ; en 1991, il est enlevé et libéré contre rançon. Président du club de football Boca Juniors de 1995 à 2007, il y gagne une notoriété nationale grâce à une série de titres. Il fonde un parti de centre droit, qui deviendra le PRO, et siège comme député de 2005 à 2007. Élu chef du gouvernement de la ville de Buenos Aires en 2007, il est réélu en 2011. En 2015, à la tête de la coalition Cambiemos, il bat Daniel Scioli au second tour et met fin à douze ans de kirchnérisme. Président, il lève le contrôle des changes, règle le litige avec les fonds créanciers et réduit les subventions à l'énergie. Mais la crise du peso en 2018 l'oblige à solliciter auprès du FMI un prêt record d'environ 57 milliards de dollars, et l'inflation repart. En 2019, il est battu dès le premier tour par Alberto Fernández. Il reste ensuite une figure de l'opposition et soutient Javier Milei au second tour de 2023.",
+    "en": "Mauricio Macri was born in 1959 in Tandil, Buenos Aires Province, the son of Franco Macri, an Italian-born industrialist who built a large business group. A civil engineer, he worked in the family firm and in 1991 was kidnapped and freed after a ransom was paid. As president of Boca Juniors football club from 1995 to 2007, he won national fame through a run of trophies. He founded a centre-right party that became PRO and sat in the Chamber of Deputies from 2005 to 2007. Elected head of government of the city of Buenos Aires in 2007, he was re-elected in 2011. In 2015, leading the Cambiemos coalition, he beat Daniel Scioli in a runoff and ended twelve years of Kirchnerism. In office he lifted currency controls, settled with holdout creditors and cut energy subsidies. But the 2018 peso crisis forced him to seek a record IMF loan of about 57 billion dollars, and inflation took off again. In 2019 he lost to Alberto Fernández in the first round. He remained an opposition figure and backed Javier Milei in the 2023 runoff."
+  },
+  "highlights": {
+    "fr": [
+      "Président de Boca Juniors de 1995 à 2007",
+      "Chef du gouvernement de Buenos Aires de 2007 à 2015",
+      "Élu président de l'Argentine en 2015, fin de douze ans de kirchnérisme",
+      "Prêt record d'environ 57 milliards de dollars du FMI en 2018"
+    ],
+    "en": [
+      "President of Boca Juniors from 1995 to 2007",
+      "Head of government of Buenos Aires from 2007 to 2015",
+      "Elected president of Argentina in 2015, ending twelve years of Kirchnerism",
+      "Record IMF loan of about 57 billion dollars in 2018"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier président non péroniste à achever un mandat complet depuis 1928, il a montré les limites d'un libéralisme graduel face aux crises argentines.",
+    "en": "The first non-Peronist president to complete a full term since 1928, he exposed the limits of gradual free-market reform in crisis-prone Argentina."
   }
 }

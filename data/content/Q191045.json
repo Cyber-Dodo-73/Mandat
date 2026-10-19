@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Felipe de Borbón naît à Madrid en janvier 1968, fils du futur roi Juan Carlos Ier et de la reine Sofía, et devient prince des Asturies en 1977. De 1985 à 1988, il passe par les académies de l'armée de terre, de la marine et de l'armée de l'air. Il étudie le droit à l'Université autonome de Madrid, puis obtient une maîtrise en relations internationales à l'université Georgetown, à Washington. Aux Jeux olympiques de Barcelone en 1992, il porte le drapeau espagnol lors de la cérémonie d'ouverture et participe à l'épreuve de voile. En mai 2004, il épouse la journaliste Letizia Ortiz, avec qui il a deux filles, Leonor et Sofía. Après une série de scandales touchant son père, il est proclamé roi le 19 juin 2014, à la suite de l'abdication de Juan Carlos. Le 3 octobre 2017, deux jours après le référendum d'indépendance catalan jugé illégal, il dénonce à la télévision la conduite des dirigeants régionaux. En 2020, il renonce à l'héritage de son père et lui retire sa dotation, avant que Juan Carlos ne s'installe à Abou Dhabi. Il préside en octobre 2023 la prestation de serment de sa fille Leonor devant la Constitution, étape qui la confirme comme héritière.",
+    "en": "Felipe de Borbón was born in Madrid in January 1968, the son of the future King Juan Carlos I and Queen Sofía, and became Prince of Asturias in 1977. From 1985 to 1988 he went through the army, navy and air force academies. He studied law at the Autonomous University of Madrid and then took a master's in international relations at Georgetown University in Washington. At the 1992 Barcelona Olympics he carried the Spanish flag at the opening ceremony and competed in sailing. In May 2004 he married the journalist Letizia Ortiz, with whom he has two daughters, Leonor and Sofía. After a string of scandals involving his father, he was proclaimed king on 19 June 2014 following Juan Carlos's abdication. On 3 October 2017, two days after Catalonia's independence referendum, ruled illegal by the courts, he condemned the regional leaders' conduct in a televised address. In 2020 he renounced his father's inheritance and cut off his allowance, before Juan Carlos moved to Abu Dhabi. In October 2023 he presided as his daughter Leonor swore allegiance to the constitution, confirming her as heir."
+  },
+  "highlights": {
+    "fr": [
+      "Porte-drapeau de l'Espagne aux JO de Barcelone en 1992",
+      "Roi d'Espagne depuis le 19 juin 2014",
+      "Discours du 3 octobre 2017 contre le référendum catalan",
+      "Renonce en 2020 à l'héritage de son père",
+      "Serment de sa fille Leonor, héritière, en octobre 2023"
+    ],
+    "en": [
+      "Spain's flag bearer at the 1992 Barcelona Olympics",
+      "King of Spain since 19 June 2014",
+      "Address of 3 October 2017 against the Catalan referendum",
+      "Renounced his father's inheritance in 2020",
+      "His heir Leonor swore allegiance to the constitution in October 2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Il s'est attaché à restaurer le crédit de la monarchie espagnole, ébranlé par les scandales de son père, en la tenant à distance des affaires.",
+    "en": "He has worked to restore the credibility of the Spanish monarchy, shaken by his father's scandals, by keeping it clear of financial affairs."
   }
 }

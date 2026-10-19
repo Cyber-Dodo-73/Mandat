@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1895 à Sandringham, dans le Norfolk, Albert est le deuxième fils du futur roi George V et n'est pas destiné à régner. Officier de marine, il combat à la bataille du Jutland en 1916, puis étudie brièvement à Trinity College, à Cambridge. Fait duc d'York en 1920, il épouse en 1923 Elizabeth Bowes-Lyon, avec qui il a deux filles, Elizabeth et Margaret, et lutte longtemps contre un fort bégaiement avec l'aide de l'orthophoniste Lionel Logue. L'abdication inattendue de son frère Édouard VIII, en décembre 1936, fait de lui le roi sous le nom de George VI. Pendant la Seconde Guerre mondiale, il reste à Londres avec la reine malgré les bombardements du Blitz, visite les quartiers sinistrés et devient un symbole de la résistance nationale. Son règne voit l'indépendance de l'Inde en 1947, qui met fin à son titre d'empereur des Indes, et la naissance du Commonwealth moderne. Affaibli par un cancer du poumon, il meurt dans son sommeil à Sandringham en février 1952.",
+    "en": "Born at Sandringham, Norfolk, in 1895, Albert was the second son of the future King George V and was not expected to reign. A naval officer, he fought at the battle of Jutland in 1916 and later studied briefly at Trinity College, Cambridge. Made Duke of York in 1920, he married Elizabeth Bowes-Lyon in 1923, had two daughters, Elizabeth and Margaret, and long struggled with a severe stammer with the help of speech therapist Lionel Logue. The unexpected abdication of his brother Edward VIII in December 1936 made him king as George VI. During the Second World War he stayed in London with the queen despite the Blitz, visited bombed districts and became a symbol of national resolve. His reign saw India's independence in 1947, which ended his title of Emperor of India, and the birth of the modern Commonwealth. Weakened by lung cancer, he died in his sleep at Sandringham in February 1952."
+  },
+  "highlights": {
+    "fr": [
+      "Combat à la bataille du Jutland en 1916",
+      "Devient roi en décembre 1936 après l'abdication d'Édouard VIII",
+      "Reste à Londres pendant le Blitz de 1940-1941",
+      "Dernier empereur des Indes, jusqu'à l'indépendance de 1947"
+    ],
+    "en": [
+      "Fought at the battle of Jutland in 1916",
+      "Became king in December 1936 after Edward VIII's abdication",
+      "Stayed in London through the Blitz of 1940–1941",
+      "Last Emperor of India, until independence in 1947"
+    ]
+  },
+  "legacy": {
+    "fr": "Roi malgré lui, il a restauré la stabilité de la monarchie après l'abdication et reste associé à l'endurance britannique pendant la guerre.",
+    "en": "A reluctant king, he restored the monarchy's stability after the abdication and remains associated with Britain's wartime endurance."
   }
 }

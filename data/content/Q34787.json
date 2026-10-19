@@ -32,5 +32,29 @@
         "value": "influence"
       }
     }
+  },
+  "story": {
+    "fr": "Né le 28 novembre 1820 à Barmen, en Rhénanie, dans une famille piétiste de fabricants de textile, Friedrich Engels quitte le lycée pour se former au commerce à Brême. Pendant son service militaire à Berlin en 1841, il fréquente les jeunes hégéliens et écrit sous pseudonyme dans la presse radicale. Envoyé en 1842 dans la filature familiale de Manchester, il observe la misère ouvrière et en tire La Situation de la classe laborieuse en Angleterre, publiée en 1845. Sa rencontre avec Karl Marx à Paris en 1844 scelle une collaboration de quarante ans, qui produit La Sainte Famille puis, en février 1848, le Manifeste du Parti communiste. Il combat en 1849 dans l'insurrection du Bade et du Palatinat, puis s'exile en Angleterre après l'échec des révolutions. De retour à Manchester, il travaille vingt ans dans l'entreprise familiale, ce qui lui permet d'entretenir financièrement Marx et sa famille. Installé à Londres en 1870, il publie l'Anti-Dühring en 1878 et L'Origine de la famille, de la propriété privée et de l'État en 1884. Après la mort de Marx en 1883, il édite les livres II et III du Capital et conseille les partis de la IIe Internationale, jusqu'à sa mort d'un cancer à Londres le 5 août 1895.",
+    "en": "Born on 28 November 1820 in Barmen, in the Rhineland, into a pietist family of textile manufacturers, Friedrich Engels left school early to train in commerce in Bremen. During military service in Berlin in 1841 he mixed with the Young Hegelians and wrote for the radical press under a pen name. Sent in 1842 to the family's cotton mill in Manchester, he studied working-class poverty and turned it into The Condition of the Working Class in England, published in 1845. Meeting Karl Marx in Paris in 1844 began a forty-year partnership that produced The Holy Family and, in February 1848, The Communist Manifesto. He fought in the 1849 uprising in Baden and the Palatinate, then fled to England when the revolutions failed. Back in Manchester he spent twenty years in the family firm, which allowed him to support Marx and his family financially. Settling in London in 1870, he published Anti-Dühring in 1878 and The Origin of the Family, Private Property and the State in 1884. After Marx died in 1883 he edited volumes two and three of Capital and advised the parties of the Second International until his death from cancer in London on 5 August 1895."
+  },
+  "highlights": {
+    "fr": [
+      "Publie en 1845 La Situation de la classe laborieuse en Angleterre",
+      "Rédige avec Marx le Manifeste du Parti communiste en 1848",
+      "Combat dans l'insurrection du Bade et du Palatinat en 1849",
+      "Finance Marx pendant deux décennies depuis Manchester",
+      "Édite les livres II et III du Capital en 1885 et 1894"
+    ],
+    "en": [
+      "Published The Condition of the Working Class in England in 1845",
+      "Co-wrote The Communist Manifesto with Marx in 1848",
+      "Fought in the Baden-Palatinate uprising of 1849",
+      "Supported Marx financially for two decades from Manchester",
+      "Edited volumes two and three of Capital in 1885 and 1894"
+    ]
+  },
+  "legacy": {
+    "fr": "Cofondateur du marxisme, il en a été le grand vulgarisateur et l'éditeur, et ses textes ont nourri les mouvements socialistes et communistes du monde entier.",
+    "en": "Co-founder of Marxism, he was its great populariser and editor, and his writings fed socialist and communist movements around the world."
   }
 }

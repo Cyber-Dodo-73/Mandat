@@ -32,5 +32,29 @@
         "value": "strategy"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1963 à Orange, en Californie, Mike Pompeo sort major de sa promotion de West Point en 1986 et sert comme officier de cavalerie en Allemagne de l'Ouest, le long du rideau de fer. Diplômé de la faculté de droit de Harvard en 1994, il s'installe au Kansas et dirige une entreprise d'aéronautique à Wichita. Élu à la Chambre des représentants en 2010 sous l'étiquette du Tea Party, il siège notamment à la commission d'enquête sur l'attaque de Benghazi. Donald Trump le nomme directeur de la CIA en janvier 2017, et il rencontre secrètement Kim Jong-un à Pyongyang au printemps 2018. Devenu secrétaire d'État en avril 2018, il accompagne le retrait américain de l'accord sur le nucléaire iranien et mène la campagne de « pression maximale » contre Téhéran. Il soutient l'élimination du général iranien Qassem Soleimani en janvier 2020 et les accords d'Abraham entre Israël et plusieurs pays arabes la même année. Le dernier jour de son mandat, en janvier 2021, il qualifie de génocide le traitement des Ouïghours par la Chine. Il renonce en 2023 à briguer l'investiture présidentielle.",
+    "en": "Born in Orange, California, in 1963, Mike Pompeo graduated first in his West Point class in 1986 and served as a cavalry officer in West Germany along the Iron Curtain. After Harvard Law School in 1994 he moved to Kansas and ran an aerospace business in Wichita. Elected to the House in 2010 as a Tea Party Republican, he sat among others on the committee investigating the Benghazi attack. Donald Trump named him CIA director in January 2017, and in spring 2018 he secretly met Kim Jong-un in Pyongyang. Becoming Secretary of State in April 2018, he oversaw the US withdrawal from the Iran nuclear deal and ran the 'maximum pressure' campaign against Tehran. He backed the killing of the Iranian general Qassem Soleimani in January 2020 and the Abraham Accords between Israel and several Arab states that same year. On his last day in office in January 2021 he declared China's treatment of the Uyghurs a genocide. In 2023 he decided against seeking the presidential nomination."
+  },
+  "highlights": {
+    "fr": [
+      "1986 : major de sa promotion à West Point",
+      "2017 : nommé directeur de la CIA",
+      "2018 : rencontre secrètement Kim Jong-un puis devient secrétaire d'État",
+      "2020 : soutient les accords d'Abraham",
+      "2021 : qualifie de génocide la répression des Ouïghours"
+    ],
+    "en": [
+      "1986: graduates first in his West Point class",
+      "2017: appointed CIA director",
+      "2018: secretly meets Kim Jong-un, then becomes Secretary of State",
+      "2020: backs the Abraham Accords",
+      "2021: labels the repression of the Uyghurs a genocide"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste l'exécutant d'une diplomatie de confrontation avec l'Iran et la Chine, qui a durablement marqué la politique étrangère républicaine.",
+    "en": "He remains the executor of a confrontational policy towards Iran and China that left a lasting mark on Republican foreign policy."
   }
 }

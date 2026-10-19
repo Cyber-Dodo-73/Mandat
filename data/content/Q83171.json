@@ -32,5 +32,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Alexandre naît au Kremlin de Moscou en avril 1818, fils aîné du futur empereur Nicolas Ier, et il est éduqué notamment par le poète Vassili Joukovski. Il monte sur le trône en mars 1855, en pleine guerre de Crimée, et doit accepter en 1856 le traité de Paris qui neutralise la mer Noire. Convaincu qu'il vaut mieux réformer d'en haut, il signe en mars 1861 le manifeste qui abolit le servage et libère plus de vingt millions de paysans, contraints toutefois de racheter leurs terres. Suivent la création d'assemblées locales, les zemstvos, et une réforme judiciaire instaurant des jurys en 1864, puis le service militaire universel en 1874. Il écrase pourtant l'insurrection polonaise de 1863 et poursuit les conquêtes au Caucase et en Asie centrale, où Tachkent est prise en 1865. En 1867, il vend l'Alaska aux États-Unis pour 7,2 millions de dollars. La guerre russo-turque de 1877-1878 libère la Bulgarie, mais le congrès de Berlin réduit les gains russes. Visé par plusieurs attentats, dont une explosion au palais d'Hiver en 1880, il est tué le 13 mars 1881 à Saint-Pétersbourg par une bombe de l'organisation révolutionnaire Narodnaïa Volia, le jour même où il avait approuvé un projet de réforme. Il meurt quelques heures plus tard au palais d'Hiver.",
+    "en": "Alexander was born in the Moscow Kremlin in April 1818, the eldest son of the future Emperor Nicholas I, and was tutored among others by the poet Vasily Zhukovsky. He came to the throne in March 1855 in the middle of the Crimean War and had to accept the 1856 Treaty of Paris, which demilitarised the Black Sea. Convinced it was better to reform from above, he signed the manifesto of March 1861 abolishing serfdom and freeing more than twenty million peasants, who nonetheless had to buy back their land. Next came elected local councils, the zemstvos, and a judicial reform bringing in juries in 1864, followed by universal military service in 1874. Yet he crushed the Polish uprising of 1863 and pressed on with conquests in the Caucasus and Central Asia, where Tashkent fell in 1865. In 1867 he sold Alaska to the United States for 7.2 million dollars. The Russo-Turkish War of 1877–1878 freed Bulgaria, but the Congress of Berlin trimmed Russia's gains. Targeted by several assassination attempts, including a blast at the Winter Palace in 1880, he was struck down in St Petersburg on 13 March 1881 by a bomb thrown by the revolutionary group People's Will, on the very day he had approved a reform plan. He died a few hours later in the Winter Palace."
+  },
+  "highlights": {
+    "fr": [
+      "Abolition du servage en Russie en mars 1861",
+      "Création des zemstvos et réforme judiciaire en 1864",
+      "Vente de l'Alaska aux États-Unis en 1867",
+      "Guerre russo-turque de 1877-1878 et libération de la Bulgarie",
+      "Assassiné à Saint-Pétersbourg le 13 mars 1881"
+    ],
+    "en": [
+      "Abolished serfdom in Russia in March 1861",
+      "Created the zemstvos and reformed the courts in 1864",
+      "Sold Alaska to the United States in 1867",
+      "Russo-Turkish War of 1877–1878 freed Bulgaria",
+      "Assassinated in St Petersburg on 13 March 1881"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé le Tsar libérateur, il reste associé à la fin du servage. L'église du Sauveur-sur-le-Sang-Versé marque à Saint-Pétersbourg le lieu de son assassinat.",
+    "en": "Known as the Tsar Liberator, he is remembered for ending serfdom. The Church of the Saviour on Spilled Blood in St Petersburg marks where he was killed."
   }
 }

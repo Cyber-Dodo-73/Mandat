@@ -30,5 +30,29 @@
         "value": "strategy"
       }
     }
+  },
+  "story": {
+    "fr": "Keir Starmer naît en 1962 à Southwark, à Londres, et grandit dans le Surrey, fils d'un outilleur et d'une infirmière. Premier de sa famille à aller à l'université, il étudie le droit à Leeds puis à Oxford et devient avocat spécialisé dans les droits de l'homme. Nommé Queen's Counsel en 2002, il dirige de 2008 à 2013 le parquet d'Angleterre et du pays de Galles, ce qui lui vaut d'être anobli. Élu député de Holborn et St Pancras en 2015, il est le porte-parole travailliste sur le Brexit de 2016 à 2020 et défend l'idée d'un second référendum. En avril 2020, il succède à Jeremy Corbyn à la tête du Labour, qu'il recentre et dont il combat l'antisémitisme interne. Aux élections de juillet 2024, son parti remporte une large majorité et il devient Premier ministre, mettant fin à quatorze ans de gouvernements conservateurs. Son mandat est marqué par des finances publiques tendues, un rapprochement avec l'Union européenne, un soutien appuyé à l'Ukraine et une chute rapide de sa popularité. Il quitte Downing Street et la direction du Parti travailliste en 2026.",
+    "en": "Keir Starmer was born in 1962 in Southwark, London, and grew up in Surrey, the son of a toolmaker and a nurse. The first in his family to go to university, he studied law at Leeds and Oxford and became a human rights barrister. Made Queen's Counsel in 2002, he served from 2008 to 2013 as Director of Public Prosecutions for England and Wales, which earned him a knighthood. Elected MP for Holborn and St Pancras in 2015, he was Labour's Brexit spokesman from 2016 to 2020 and pushed for a second referendum. In April 2020 he succeeded Jeremy Corbyn as party leader, pulling Labour back to the centre and tackling antisemitism within its ranks. In the July 2024 election Labour won a large majority and he became Prime Minister, ending fourteen years of Conservative rule. His time in office was marked by tight public finances, a closer relationship with the European Union, firm support for Ukraine and a swift slide in his popularity. He left Downing Street and the Labour leadership in 2026."
+  },
+  "highlights": {
+    "fr": [
+      "2008-2013 : directeur des poursuites publiques (DPP)",
+      "2015 : élu député de Holborn et St Pancras",
+      "2020 : succède à Jeremy Corbyn à la tête du Labour",
+      "2024 : large victoire électorale, fin de 14 ans de pouvoir conservateur",
+      "2024-2026 : Premier ministre du Royaume-Uni"
+    ],
+    "en": [
+      "2008–2013: Director of Public Prosecutions",
+      "2015: elected MP for Holborn and St Pancras",
+      "2020: succeeded Jeremy Corbyn as Labour leader",
+      "2024: big election win ending 14 years of Conservative rule",
+      "2024–2026: Prime Minister of the United Kingdom"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a ramené le Parti travailliste au pouvoir après quatorze ans d'opposition, mais son passage à Downing Street a été bref et contesté.",
+    "en": "He brought Labour back to power after fourteen years in opposition, though his time in Downing Street proved short and troubled."
   }
 }

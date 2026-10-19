@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1970 dans la région de Liverpool, Andy Burnham étudie l'anglais à Cambridge et travaille comme assistant parlementaire et conseiller au ministère de la Culture. Élu député travailliste de Leigh en 2001, il entre au gouvernement de Gordon Brown comme secrétaire en chef au Trésor en 2007. Il devient ministre de la Culture en 2008, puis de la Santé de 2009 à 2010, et soutient la campagne des familles des victimes du drame de Hillsborough. Candidat malheureux à la direction du Parti travailliste en 2010 et en 2015, il est ministre fantôme de l'Intérieur sous Jeremy Corbyn. En 2017, il devient le premier maire élu du Grand Manchester et se fait connaître nationalement en 2020 en s'opposant aux restrictions sanitaires imposées par Londres sans compensation. Réélu en 2021 et 2024, il reprend en main les bus de l'agglomération. Il retrouve un siège aux Communes en juin 2026, est choisi comme chef du Parti travailliste à la mi-juillet et devient Premier ministre du Royaume-Uni le 20 juillet 2026.",
+    "en": "Born in 1970 in the Liverpool area, Andy Burnham read English at Cambridge and worked as a parliamentary researcher and an adviser at the culture department. Elected Labour MP for Leigh in 2001, he joined Gordon Brown's government as Chief Secretary to the Treasury in 2007. He became Culture Secretary in 2008 and Health Secretary from 2009 to 2010, and backed the campaign of the Hillsborough victims' families. After failed bids for the Labour leadership in 2010 and 2015, he served as shadow Home Secretary under Jeremy Corbyn. In 2017 he became the first elected Mayor of Greater Manchester and won national attention in 2020 by resisting Covid restrictions imposed by London without adequate financial support. Re-elected in 2021 and 2024, he brought the region's buses back under public control. He returned to the Commons in June 2026, was chosen as Labour leader in mid-July and became Prime Minister of the United Kingdom on 20 July 2026."
+  },
+  "highlights": {
+    "fr": [
+      "2009 : ministre de la Santé de Gordon Brown",
+      "2017 : premier maire élu du Grand Manchester",
+      "2020 : tient tête au gouvernement sur les restrictions sanitaires",
+      "20 juillet 2026 : devient Premier ministre du Royaume-Uni"
+    ],
+    "en": [
+      "2009: Gordon Brown's Health Secretary",
+      "2017: first elected Mayor of Greater Manchester",
+      "2020: stands up to the government over Covid restrictions",
+      "20 July 2026: becomes Prime Minister of the United Kingdom"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a fait de la mairie du Grand Manchester un tremplin national, montrant qu'un mandat local hors de Londres pouvait mener à Downing Street.",
+    "en": "He turned the Greater Manchester mayoralty into a national springboard, showing that a local mandate outside London could lead to Downing Street."
   }
 }

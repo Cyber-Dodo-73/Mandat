@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1893 à Shaoshan, dans le Hunan, dans une famille paysanne aisée, Mao Zedong étudie à l'école normale de Changsha et participe au mouvement nationaliste du 4 mai 1919. Il compte parmi les fondateurs du Parti communiste chinois en 1921 et développe l'idée d'une révolution fondée sur la paysannerie. Après la rupture avec les nationalistes de Tchang Kaï-chek, il survit à la Longue Marche de 1934-1935 et s'impose comme le chef du parti à partir de 1935. Victorieux de la guerre civile, il proclame la République populaire de Chine à Pékin le 1er octobre 1949, puis lance réforme agraire et campagnes de répression qui font des centaines de milliers à plus d'un million de morts. Le Grand Bond en avant de 1958-1962, collectivisation forcée et objectifs industriels irréalistes, provoque une famine qui tue entre 15 et 45 millions de personnes selon les estimations. Écarté en partie, il reprend la main avec la Révolution culturelle en 1966, qui livre le pays aux Gardes rouges et fait des centaines de milliers à des millions de morts. Il reçoit le président américain Nixon en 1972 et meurt à Pékin en septembre 1976.",
+    "en": "Born in 1893 into a well-off peasant family in Shaoshan, Hunan, Mao Zedong attended the teachers' college in Changsha and took part in the nationalist May Fourth Movement of 1919. He was among the founders of the Chinese Communist Party in 1921 and developed the idea of a revolution based on the peasantry. After the break with Chiang Kai-shek's Nationalists, he survived the Long March of 1934–1935 and emerged as party leader from 1935. Victorious in the civil war, he proclaimed the People's Republic of China in Beijing on 1 October 1949, then launched land reform and repression campaigns that killed hundreds of thousands to over a million people. The Great Leap Forward of 1958–1962, with forced collectivisation and absurd industrial targets, caused a famine that killed between 15 and 45 million people, depending on estimates. Partly sidelined, he regained control with the Cultural Revolution in 1966, which unleashed the Red Guards on the country and killed hundreds of thousands to millions. He received US President Nixon in 1972 and died in Beijing in September 1976."
+  },
+  "highlights": {
+    "fr": [
+      "Participe à la fondation du Parti communiste chinois en 1921",
+      "Prend la tête du parti pendant la Longue Marche (1934-1935)",
+      "Proclame la République populaire de Chine le 1er octobre 1949",
+      "Lance le Grand Bond en avant, cause d'une famine de dizaines de millions de morts",
+      "Déclenche la Révolution culturelle en 1966"
+    ],
+    "en": [
+      "Took part in founding the Chinese Communist Party in 1921",
+      "Became party leader during the Long March (1934–1935)",
+      "Proclaimed the People's Republic of China on 1 October 1949",
+      "Launched the Great Leap Forward, causing a famine that killed tens of millions",
+      "Unleashed the Cultural Revolution in 1966"
+    ]
+  },
+  "legacy": {
+    "fr": "Toujours officiellement célébré en Chine, il est tenu pour responsable de l'une des plus grandes famines de l'histoire et de décennies de persécutions politiques.",
+    "en": "Still officially honoured in China, he is held responsible for one of the worst famines in history and decades of political persecution."
   }
 }

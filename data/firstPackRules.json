@@ -2,9 +2,11 @@
   "slots": [
     {
       "rarities": [
-        "common"
+        "epic",
+        "legendary",
+        "mythic"
       ],
-      "count": 2
+      "count": 1
     },
     {
       "rarities": [
@@ -15,11 +17,9 @@
     },
     {
       "rarities": [
-        "epic",
-        "legendary",
-        "mythic"
+        "common"
       ],
-      "count": 1
+      "count": 2
     }
   ],
   "distinctContinents": 5,

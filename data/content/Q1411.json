@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Tiberius Claudius Nero naît à Lugdunum, l'actuelle Lyon, en 10 av. J.-C., fils du général Drusus et petit-fils de Livie, l'épouse d'Auguste. Affligé d'une boiterie et d'un bégaiement, il est tenu à l'écart des fonctions publiques par Auguste puis par Tibère et se consacre à l'histoire, écrivant notamment sur les Étrusques et Carthage. Son neveu Caligula le fait consul en 37. Après l'assassinat de Caligula en janvier 41, des soldats de la garde prétorienne le découvrent caché derrière un rideau du palais et le proclament empereur, ce que le Sénat accepte. En 43, il lance la conquête de la Bretagne et se rend lui-même sur l'île pour la prise de Camulodunum ; il annexe aussi la Maurétanie, la Lycie et la Thrace. Il fait creuser un nouveau port à Ostie, achève deux grands aqueducs et, en 48, ouvre le Sénat aux notables de Gaule chevelue, comme en témoigne la table claudienne de Lyon. Il gouverne en s'appuyant sur des affranchis, et sa femme Messaline est exécutée en 48 après avoir épousé publiquement un amant. Il épouse ensuite sa nièce Agrippine et adopte en 50 le fils de celle-ci, Néron, au détriment de son propre fils Britannicus. Il meurt en octobre 54, peut-être empoisonné par Agrippine avec des champignons, et Néron lui succède.",
+    "en": "Tiberius Claudius Nero was born at Lugdunum, present-day Lyon, in 10 BC, the son of the general Drusus and grandson of Livia, wife of Augustus. Afflicted with a limp and a stammer, he was kept out of public office by Augustus and then Tiberius and devoted himself to history, writing among other things on the Etruscans and Carthage. His nephew Caligula made him consul in 37. After Caligula was murdered in January 41, soldiers of the Praetorian Guard found him hiding behind a palace curtain and proclaimed him emperor, which the Senate accepted. In 43 he launched the conquest of Britain and crossed to the island himself for the capture of Camulodunum; he also annexed Mauretania, Lycia and Thrace. He had a new harbour dug at Ostia, completed two great aqueducts and in 48 opened the Senate to the notables of northern Gaul, as the Claudian bronze tablet in Lyon records. He governed through freedmen, and his wife Messalina was executed in 48 after publicly marrying a lover. He then married his niece Agrippina and in 50 adopted her son Nero over his own son Britannicus. He died in October 54, possibly poisoned with mushrooms by Agrippina, and Nero succeeded him."
+  },
+  "highlights": {
+    "fr": [
+      "Proclamé empereur par la garde prétorienne en janvier 41",
+      "Lance la conquête de la Bretagne en 43",
+      "Nouveau port d'Ostie et deux grands aqueducs à Rome",
+      "Ouvre le Sénat aux notables gaulois en 48",
+      "Adopte Néron en 50, qui lui succède en 54"
+    ],
+    "en": [
+      "Proclaimed emperor by the Praetorian Guard in January 41",
+      "Launched the conquest of Britain in 43",
+      "Built a new harbour at Ostia and two great aqueducts for Rome",
+      "Opened the Senate to Gallic notables in 48",
+      "Adopted Nero in 50, who succeeded him in 54"
+    ]
+  },
+  "legacy": {
+    "fr": "Longtemps moqué par les auteurs antiques, il est aujourd'hui reconnu comme un administrateur efficace. Le roman Moi, Claude de Robert Graves a popularisé sa figure.",
+    "en": "Long mocked by ancient writers, he is now seen as an effective administrator. Robert Graves's novel I, Claudius made him widely known."
   }
 }

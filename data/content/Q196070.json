@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Nairobi en 1961, fils de Jomo Kenyatta, premier président du Kenya, Uhuru Kenyatta étudie les sciences politiques et l'économie à l'Amherst College, aux États-Unis. Il dirige ensuite des entreprises familiales avant d'être propulsé en politique par Daniel arap Moi, qui en fait son dauphin pour l'élection de 2002, perdue face à Mwai Kibaki. Député à partir de 2003, il se rallie à Kibaki lors de la crise post-électorale de 2007-2008, dont les violences font plus de 1 100 morts. Vice-Premier ministre et ministre des Finances de 2009 à 2012, il est inculpé par la Cour pénale internationale de crimes contre l'humanité liés à ces violences. Allié à William Ruto, lui aussi poursuivi, il remporte la présidentielle de 2013. La CPI abandonne les charges contre lui en 2014, faute de preuves suffisantes et en dénonçant des pressions sur les témoins. Sa réélection d'août 2017 est annulée par la Cour suprême, une première en Afrique, puis confirmée en octobre lors d'un scrutin boycotté par l'opposition. Il se réconcilie avec Raila Odinga en 2018 et quitte le pouvoir en 2022.",
+    "en": "Born in Nairobi in 1961, the son of Kenya's first president Jomo Kenyatta, Uhuru Kenyatta studied political science and economics at Amherst College in the United States. He ran family businesses before Daniel arap Moi thrust him into politics as his chosen successor for the 2002 election, which he lost to Mwai Kibaki. An MP from 2003, he sided with Kibaki during the 2007-08 post-election crisis, whose violence killed more than 1,100 people. Deputy prime minister and finance minister from 2009 to 2012, he was charged by the International Criminal Court with crimes against humanity over that violence. In alliance with William Ruto, also indicted, he won the 2013 presidential election. The ICC dropped its case against him in 2014, citing insufficient evidence and complaining of witness interference. His August 2017 re-election was annulled by the Supreme Court, a first in Africa, then confirmed in an October rerun boycotted by the opposition. He made peace with Raila Odinga in 2018 and stepped down in 2022."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre des Finances du Kenya de 2009 à 2012",
+      "Élu président en 2013 malgré son inculpation par la CPI",
+      "Charges de la CPI abandonnées en décembre 2014",
+      "Réélection de 2017 annulée par la Cour suprême, puis confirmée",
+      "Poignée de main de réconciliation avec Raila Odinga en 2018"
+    ],
+    "en": [
+      "Kenya's finance minister from 2009 to 2012",
+      "Elected president in 2013 despite his ICC indictment",
+      "ICC charges dropped in December 2014",
+      "2017 re-election annulled by the Supreme Court, then confirmed",
+      "Reconciliation handshake with Raila Odinga in 2018"
+    ]
+  },
+  "legacy": {
+    "fr": "Héritier de la première dynastie politique du Kenya, il a laissé un pays doté de grandes infrastructures mais lourdement endetté.",
+    "en": "Heir to Kenya's leading political dynasty, he left behind major infrastructure projects but a heavily indebted country."
   }
 }

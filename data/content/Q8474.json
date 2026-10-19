@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Trabzon vers 1494, Soliman est le fils unique survivant de Sélim Ier et s'initie au gouvernement comme gouverneur de provinces, notamment à Manisa. Il succède à son père en septembre 1520 et s'empare dès 1521 de Belgrade, puis en 1522 de l'île de Rhodes, défendue par les chevaliers de Saint-Jean. En 1526, sa victoire à Mohács anéantit l'armée hongroise et coûte la vie au roi Louis II, ouvrant la plaine danubienne aux Ottomans. Il assiège Vienne en 1529 sans parvenir à la prendre, et s'allie avec François Ier contre Charles Quint. À l'est, il prend Bagdad aux Safavides en 1534, tandis que sa flotte, menée par Barberousse, remporte la bataille de Préveza en 1538 et domine la Méditerranée. Surnommé le Législateur par les Turcs, il fait codifier le droit administratif et pénal de l'empire, et son architecte Sinan lui édifie la mosquée Süleymaniye à Istanbul. Sa vie de cour est aussi marquée par la violence : il fait exécuter son grand vizir Ibrahim en 1536 et son fils aîné Mustafa en 1553, sur fond d'influence de son épouse Hürrem. Il meurt en septembre 1566 sous sa tente, pendant le siège de Szigetvár en Hongrie.",
+    "en": "Born in Trabzon around 1494, Suleiman was the only surviving son of Selim I and learned to govern as a provincial governor, notably at Manisa. He succeeded his father in September 1520, took Belgrade in 1521 and in 1522 captured Rhodes from the Knights of St John. In 1526 his victory at Mohács destroyed the Hungarian army and killed King Louis II, opening the Danube plain to the Ottomans. He besieged Vienna in 1529 without taking it and allied with Francis I of France against Charles V. In the east he seized Baghdad from the Safavids in 1534, while his fleet under Barbarossa won the battle of Preveza in 1538 and dominated the Mediterranean. Known to Turks as the Lawgiver, he had the empire's administrative and criminal law codified, and his architect Sinan built him the Süleymaniye Mosque in Istanbul. His court life was violent too: he had his grand vizier Ibrahim executed in 1536 and his eldest son Mustafa strangled in 1553, amid the growing influence of his wife Hürrem. He died in his tent in September 1566 during the siege of Szigetvár in Hungary."
+  },
+  "highlights": {
+    "fr": [
+      "Prend Belgrade en 1521 et Rhodes en 1522",
+      "Écrase l'armée hongroise à Mohács en 1526",
+      "Assiège Vienne en 1529 et s'allie avec François Ier",
+      "Fait codifier les lois de l'empire, d'où son surnom de Législateur",
+      "Fait bâtir par Sinan la mosquée Süleymaniye, achevée en 1557"
+    ],
+    "en": [
+      "Took Belgrade in 1521 and Rhodes in 1522",
+      "Crushed the Hungarian army at Mohács in 1526",
+      "Besieged Vienna in 1529 and allied with Francis I",
+      "Had the empire's laws codified, earning the name Lawgiver",
+      "Commissioned Sinan's Süleymaniye Mosque, completed in 1557"
+    ]
+  },
+  "legacy": {
+    "fr": "Son règne de 46 ans marque l'apogée territorial et culturel de l'Empire ottoman, devenu sous lui une puissance majeure de l'Europe et du monde méditerranéen.",
+    "en": "His 46-year reign marks the territorial and cultural high point of the Ottoman Empire, which became under him a major power in Europe and the Mediterranean."
   }
 }

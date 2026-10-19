@@ -29,5 +29,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Santiago en 1949, Sebastián Piñera obtient un doctorat d'économie à Harvard et fait fortune dans les années 1970 et 1980 en introduisant les cartes de crédit au Chili, puis dans la compagnie aérienne LAN et les médias. Partisan du « non » au référendum de 1988 contre Pinochet, il est sénateur de 1990 à 1998. Candidat malheureux en 2005, il est élu président en 2010, premier chef de l'État de droite élu depuis le retour de la démocratie. Son premier mandat commence par le séisme de février 2010 et reste marqué par le sauvetage des 33 mineurs de San José en octobre, ainsi que par de grandes manifestations étudiantes en 2011. Réélu en 2017, il affronte en octobre 2019 un soulèvement social massif, réprimé avec de nombreuses violations des droits humains constatées, avant d'accepter un processus constitutionnel. Il gère ensuite la pandémie de Covid-19 et quitte le pouvoir en 2022. Il meurt en février 2024 dans l'accident de l'hélicoptère qu'il pilotait sur le lac Ranco.",
+    "en": "Born in Santiago in 1949, Sebastián Piñera earned a Harvard doctorate in economics and made his fortune in the 1970s and 1980s by bringing credit cards to Chile, then through the airline LAN and media holdings. He backed the 'No' vote against Pinochet in 1988 and sat in the Senate from 1990 to 1998. Defeated in 2005, he won the presidency in 2010, the first elected right-wing head of state since democracy returned. His first term opened with the February 2010 earthquake and is remembered for the rescue of the 33 San José miners that October, as well as large student protests in 2011. Re-elected in 2017, he faced a massive social uprising in October 2019, met with a crackdown that brought widely documented human rights abuses, before agreeing to a constitutional process. He then handled the Covid-19 pandemic and left office in 2022. He died in February 2024 when the helicopter he was flying crashed into Lake Ranco."
+  },
+  "highlights": {
+    "fr": [
+      "Sénateur du Chili de 1990 à 1998",
+      "Président de 2010 à 2014 puis de 2018 à 2022",
+      "Sauvetage des 33 mineurs de San José en octobre 2010",
+      "Accepte en 2019 l'ouverture d'un processus constituant après le soulèvement social"
+    ],
+    "en": [
+      "Senator of Chile from 1990 to 1998",
+      "President from 2010 to 2014 and again from 2018 to 2022",
+      "Rescue of the 33 San José miners in October 2010",
+      "Agreed in 2019 to open a constitutional process after the social uprising"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure centrale de la droite chilienne post-Pinochet, il laisse le souvenir d'un gestionnaire efficace mais d'un président dépassé par la crise sociale de 2019.",
+    "en": "A central figure of Chile's post-Pinochet right, he is remembered as an effective manager but a president overtaken by the 2019 social crisis."
   }
 }

@@ -30,5 +30,29 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Justinien naît vers 482 à Tauresium, près de l'actuelle Skopje, dans une famille paysanne de langue latine. Son oncle Justin, soldat devenu commandant de la garde, le fait venir à Constantinople et l'associe au pouvoir après être devenu empereur en 518. Coempereur en avril 527, il règne seul à partir d'août, aux côtés de son épouse Théodora, une ancienne actrice qui exerce une influence considérable. En janvier 532, la sédition Nika embrase la capitale ; sur le point de fuir, il fait massacrer les émeutiers dans l'Hippodrome, environ 30 000 morts selon les sources. Il fait ensuite reconstruire Sainte-Sophie, consacrée en décembre 537, la plus vaste église de la chrétienté pendant des siècles. Ses juristes, menés par Tribonien, compilent entre 529 et 534 le Code, le Digeste et les Institutes, qui forment plus tard le Corpus juris civilis. Son général Bélisaire reprend l'Afrique du Nord aux Vandales en 533-534, puis lance une longue guerre contre les Ostrogoths d'Italie, achevée par Narsès en 554, tandis qu'une partie du sud de l'Espagne est reconquise. À partir de 541, une grande épidémie de peste ravage l'Empire et frappe l'empereur lui-même, qui survit. Veuf en 548, il meurt à Constantinople en novembre 565, laissant un empire agrandi mais épuisé financièrement.",
+    "en": "Justinian was born around 482 at Tauresium, near present-day Skopje, into a Latin-speaking peasant family. His uncle Justin, a soldier who rose to command the palace guard, brought him to Constantinople and gave him a share of power after becoming emperor in 518. Co-emperor in April 527, he ruled alone from that August alongside his wife Theodora, a former actress who wielded considerable influence. In January 532 the Nika riots set the capital ablaze; on the verge of fleeing, he had the rioters massacred in the Hippodrome, some 30,000 dead according to the sources. He then had Hagia Sophia rebuilt, dedicated in December 537, the largest church in Christendom for centuries. His jurists, led by Tribonian, compiled the Code, the Digest and the Institutes between 529 and 534, later known together as the Corpus Juris Civilis. His general Belisarius won North Africa back from the Vandals in 533–534 and then began a long war against the Ostrogoths in Italy, finished by Narses in 554, while part of southern Spain was also retaken. From 541 a great plague swept the Empire and struck the emperor himself, who survived. Widowed in 548, he died in Constantinople in November 565, leaving an enlarged empire that was financially drained."
+  },
+  "highlights": {
+    "fr": [
+      "Empereur à Constantinople de 527 à 565",
+      "Répression de la sédition Nika en janvier 532",
+      "Consécration de Sainte-Sophie en décembre 537",
+      "Compilation du droit romain entre 529 et 534",
+      "Reconquête de l'Afrique du Nord en 533-534 et de l'Italie jusqu'en 554"
+    ],
+    "en": [
+      "Emperor in Constantinople from 527 to 565",
+      "Crushed the Nika riots in January 532",
+      "Dedicated Hagia Sophia in December 537",
+      "Compiled Roman law between 529 and 534",
+      "Retook North Africa in 533–534 and Italy by 554"
+    ]
+  },
+  "legacy": {
+    "fr": "Son œuvre juridique est à la base du droit civil de nombreux pays européens, et Sainte-Sophie domine encore Istanbul quinze siècles plus tard.",
+    "en": "His legal compilation underpins the civil law of many European countries, and Hagia Sophia still dominates Istanbul fifteen centuries later."
   }
 }

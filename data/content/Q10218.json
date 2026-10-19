@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Rahul Gandhi naît à New Delhi en 1970, fils de Rajiv et Sonia Gandhi et petit-fils d'Indira Gandhi, assassinée en 1984. Il a vingt ans lorsque son père est tué à son tour en 1991, et il poursuit ses études aux États-Unis, puis à Cambridge, avant de travailler dans le conseil à Londres. Élu député d'Amethi, fief familial de l'Uttar Pradesh, en 2004, il devient secrétaire général du Congrès en 2007, puis vice-président du parti en 2013. Il mène la campagne de 2014, qui laisse le Congrès avec seulement 44 sièges face au BJP de Narendra Modi. Président du parti à partir de décembre 2017, il perd son siège d'Amethi en 2019 tout en étant élu au Kerala, et démissionne après une nouvelle défaite nationale. De septembre 2022 à janvier 2023, il parcourt à pied quelque 4 000 kilomètres, de Kanyakumari à Srinagar, lors de la Bharat Jodo Yatra. En mars 2023, une condamnation pour diffamation visant des propos sur le nom de Modi lui fait perdre son siège, avant que la Cour suprême ne la suspende en août. Aux élections de 2024, le Congrès remonte à 99 sièges et le BJP perd sa majorité absolue ; élu à Rae Bareli, il devient en juin chef de l'opposition à la Lok Sabha, un poste resté vacant depuis dix ans.",
+    "en": "Rahul Gandhi was born in New Delhi in 1970, the son of Rajiv and Sonia Gandhi and grandson of Indira Gandhi, who was assassinated in 1984. He was twenty when his father was also killed in 1991, and he went on to study in the United States and then at Cambridge before working as a consultant in London. Elected MP for Amethi, the family stronghold in Uttar Pradesh, in 2004, he became a Congress general secretary in 2007 and party vice president in 2013. He led the 2014 campaign, which left Congress with just 44 seats against Narendra Modi's BJP. Party president from December 2017, he lost his Amethi seat in 2019 while winning one in Kerala, and resigned after another national defeat. From September 2022 to January 2023 he walked some 4,000 kilometres from Kanyakumari to Srinagar on the Bharat Jodo Yatra. In March 2023 a defamation conviction over remarks about the Modi surname cost him his seat, until the Supreme Court suspended it in August. In the 2024 election Congress climbed back to 99 seats and the BJP lost its outright majority; elected in Rae Bareli, he became Leader of the Opposition in the Lok Sabha that June, a post left vacant for ten years."
+  },
+  "highlights": {
+    "fr": [
+      "Élu député d'Amethi en 2004",
+      "Président du Congrès national indien de 2017 à 2019",
+      "Marche de 4 000 km de Kanyakumari à Srinagar en 2022-2023",
+      "Retrouve son siège en août 2023 après une décision de la Cour suprême",
+      "Chef de l'opposition à la Lok Sabha depuis juin 2024"
+    ],
+    "en": [
+      "Elected MP for Amethi in 2004",
+      "President of the Indian National Congress from 2017 to 2019",
+      "Walked 4,000 km from Kanyakumari to Srinagar in 2022–2023",
+      "Regained his seat in August 2023 after a Supreme Court ruling",
+      "Leader of the Opposition in the Lok Sabha since June 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Héritier de la dynastie Nehru-Gandhi, il est devenu le principal opposant à Narendra Modi après avoir longtemps été moqué pour ses échecs électoraux.",
+    "en": "Heir to the Nehru-Gandhi dynasty, he has become Narendra Modi's main opponent after years of being mocked for his electoral defeats."
   }
 }

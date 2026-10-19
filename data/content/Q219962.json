@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Seretse Khama naît en juillet 1921 à Serowe, héritier de la chefferie des Bamangwato, la plus importante du protectorat britannique du Bechuanaland. Pendant que son oncle Tshekedi assure la régence, il étudie à Fort Hare en Afrique du Sud, puis à Oxford et au barreau de Londres. En 1948, son mariage avec Ruth Williams, une employée britannique blanche, scandalise l’Afrique du Sud de l’apartheid et la Rhodésie, et Londres l’exile du protectorat en 1951. Il ne peut rentrer qu’en 1956, après avoir renoncé à la chefferie, et fonde en 1962 le Parti démocratique du Bechuanaland. Vainqueur des élections de 1965, il devient Premier ministre, puis premier président du Botswana indépendant le 30 septembre 1966. La découverte des diamants d’Orapa en 1967 transforme l’un des pays les plus pauvres du monde, et il en confie l’exploitation à une coentreprise avec De Beers tout en investissant dans les routes, les écoles et la santé. Il maintient une démocratie multipartite et non raciale, accueille les réfugiés des pays voisins et soutient les États de la ligne de front contre les régimes blancs. Il meurt en fonctions d’un cancer du pancréas à Gaborone en juillet 1980.",
+    "en": "Seretse Khama was born in July 1921 in Serowe, heir to the chieftaincy of the Bamangwato, the largest people of the British protectorate of Bechuanaland. While his uncle Tshekedi ruled as regent, he studied at Fort Hare in South Africa, then at Oxford and the Inner Temple in London. In 1948 his marriage to Ruth Williams, a white British clerk, outraged apartheid South Africa and Rhodesia, and London banished him from the protectorate in 1951. He was allowed back only in 1956 after renouncing the chieftaincy, and in 1962 he founded the Bechuanaland Democratic Party. After winning the 1965 election he became prime minister, then the first president of independent Botswana on 30 September 1966. The discovery of diamonds at Orapa in 1967 transformed one of the world's poorest countries; he had them mined through a joint venture with De Beers and spent the revenue on roads, schools and clinics. He kept a multiparty, non-racial democracy, sheltered refugees from neighbouring states and backed the Frontline States against white minority rule. He died in office of pancreatic cancer in Gaborone in July 1980."
+  },
+  "highlights": {
+    "fr": [
+      "Épouse Ruth Williams en 1948 malgré l’opposition de l’Afrique du Sud",
+      "Premier président du Botswana indépendant en 1966",
+      "Fait exploiter les diamants d’Orapa au profit de l’État dès 1971",
+      "Reçoit la distinction Nansen pour les réfugiés en 1978"
+    ],
+    "en": [
+      "Married Ruth Williams in 1948 despite South African opposition",
+      "First president of independent Botswana in 1966",
+      "Had the Orapa diamonds mined for the state from 1971",
+      "Received the Nansen Refugee Award in 1978"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a fait du Botswana l’une des démocraties les plus stables et les mieux gérées d’Afrique, et son mariage mixte est devenu un symbole de la lutte contre la ségrégation.",
+    "en": "He made Botswana one of Africa's most stable and best-run democracies, and his interracial marriage became a symbol of resistance to segregation."
   }
 }

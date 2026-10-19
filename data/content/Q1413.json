@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Néron naît en 37 apr. J.-C. à Antium, près de Rome, sous le nom de Lucius Domitius Ahenobarbus. Sa mère Agrippine la Jeune épouse en 49 l'empereur Claude, qui l'adopte l'année suivante au détriment de son propre fils Britannicus. À la mort de Claude en 54, peut-être empoisonné, Néron devient empereur à seize ans. Ses premières années, guidées par le philosophe Sénèque et le préfet Burrus, passent pour un gouvernement modéré. Mais il fait empoisonner Britannicus en 55, puis assassiner sa mère en 59, et son pouvoir devient de plus en plus personnel. En juillet 64, un immense incendie ravage Rome ; Néron en rejette la faute sur les chrétiens, qu'il fait persécuter, puis bâtit sur les ruines sa fastueuse Maison dorée. La conjuration de Pison, découverte en 65, entraîne une vague d'exécutions et de suicides forcés, dont celui de Sénèque. Tandis qu'il se produit comme chanteur et aurige en Grèce, les révoltes éclatent en Judée puis en Gaule. Abandonné par la garde prétorienne et déclaré ennemi public par le Sénat, il se suicide en juin 68, mettant fin à la dynastie julio-claudienne.",
+    "en": "Nero was born in AD 37 at Antium, near Rome, as Lucius Domitius Ahenobarbus. His mother Agrippina the Younger married Emperor Claudius in 49, and Claudius adopted the boy the next year, sidelining his own son Britannicus. When Claudius died in 54, possibly poisoned, Nero became emperor at sixteen. His early years, steered by the philosopher Seneca and the prefect Burrus, were seen as moderate rule. But he had Britannicus poisoned in 55 and his mother murdered in 59, and his rule grew ever more personal. In July 64 a huge fire swept through Rome; Nero blamed the Christians, whom he had persecuted, and then built his lavish Golden House on the ruins. The Pisonian conspiracy, uncovered in 65, led to a wave of executions and forced suicides, Seneca's among them. While he performed as a singer and charioteer in Greece, revolts broke out in Judaea and then in Gaul. Deserted by the Praetorian Guard and declared a public enemy by the Senate, he took his own life in June 68, ending the Julio-Claudian dynasty."
+  },
+  "highlights": {
+    "fr": [
+      "Devient empereur à 16 ans, en 54 apr. J.-C.",
+      "Fait tuer son demi-frère Britannicus en 55 et sa mère Agrippine en 59",
+      "Accuse les chrétiens du grand incendie de Rome de 64 et les persécute",
+      "Fait construire la Domus aurea sur les ruines de Rome",
+      "Se suicide en 68, dernier empereur julio-claudien"
+    ],
+    "en": [
+      "Became emperor at 16, in AD 54",
+      "Had his stepbrother Britannicus killed in 55 and his mother Agrippina in 59",
+      "Blamed and persecuted Christians for the Great Fire of Rome in 64",
+      "Built the Golden House on the ruins of Rome",
+      "Took his own life in 68, the last Julio-Claudian emperor"
+    ]
+  },
+  "legacy": {
+    "fr": "Les historiens antiques ont fait de lui l'archétype du tyran extravagant, image que certains chercheurs nuancent aujourd'hui en rappelant sa popularité auprès du peuple de Rome.",
+    "en": "Ancient historians made him the archetype of the extravagant tyrant, a picture some scholars now soften by pointing to his popularity with the common people of Rome."
   }
 }

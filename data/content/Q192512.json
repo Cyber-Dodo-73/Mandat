@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né à la fin des années 1930 dans une famille modeste, Mengistu Haile Mariam est formé à l'académie militaire de Holeta et suit des stages aux États-Unis. Major en 1974, il est l'un des officiers du Derg, le comité militaire qui dépose l'empereur Haïlé Sélassié en septembre 1974. Dès novembre, la junte fait exécuter sans procès une soixantaine d'anciens dignitaires. En février 1977, Mengistu fait tuer ses rivaux au sein du Derg, dont le chef de l'État Teferi Bante, et s'empare seul du pouvoir. Il lance alors la Terreur rouge contre les opposants, surtout les militants du Parti révolutionnaire du peuple éthiopien : en 1977-1978, des dizaines de milliers de personnes, souvent très jeunes, sont tuées, torturées ou emprisonnées. Avec l'aide soviétique et cubaine, il repousse l'invasion somalienne de l'Ogaden en 1978, mais mène des guerres sans fin contre les rebelles érythréens et tigréens. Pendant la famine de 1983-1985, qui fait environ un million de morts, son régime détourne l'aide et déplace de force des centaines de milliers de paysans. Chassé par l'avancée rebelle en mai 1991, il se réfugie au Zimbabwe, d'où il n'a jamais été extradé ; il est condamné à mort par contumace pour génocide en 2008.",
+    "en": "Born in the late 1930s into a modest family, Mengistu Haile Mariam trained at the Holeta military academy and took courses in the United States. A major in 1974, he was one of the officers of the Derg, the military committee that deposed Emperor Haile Selassie in September 1974. In November the junta executed some sixty former dignitaries without trial. In February 1977 Mengistu had his rivals in the Derg killed, among them head of state Teferi Bante, and took sole power. He then unleashed the Red Terror against opponents, above all militants of the Ethiopian People's Revolutionary Party: in 1977–78 tens of thousands of people, many of them very young, were killed, tortured or jailed. With Soviet and Cuban help he repelled Somalia's invasion of the Ogaden in 1978, but waged endless wars against Eritrean and Tigrayan rebels. During the 1983–85 famine, which killed about a million people, his regime diverted aid and forcibly relocated hundreds of thousands of peasants. Driven out by the rebel advance in May 1991, he fled to Zimbabwe, which never extradited him; in 2008 he was sentenced to death in absentia for genocide."
+  },
+  "highlights": {
+    "fr": [
+      "Membre du Derg qui dépose Haïlé Sélassié en septembre 1974",
+      "Prend seul le pouvoir en février 1977 après l'élimination de ses rivaux",
+      "Lance la Terreur rouge de 1977-1978, qui tue des dizaines de milliers de personnes",
+      "Ses politiques aggravent la famine de 1983-1985 (environ un million de morts)",
+      "Condamné à mort par contumace pour génocide en 2008"
+    ],
+    "en": [
+      "Member of the Derg that deposed Haile Selassie in September 1974",
+      "Seized sole power in February 1977 after eliminating his rivals",
+      "Launched the 1977–78 Red Terror, which killed tens of thousands",
+      "His policies worsened the 1983–85 famine (about a million dead)",
+      "Sentenced to death in absentia for genocide in 2008"
+    ]
+  },
+  "legacy": {
+    "fr": "Son régime reste associé en Éthiopie à la terreur d'État et à la famine ; il vit toujours en exil au Zimbabwe, hors de portée de la justice éthiopienne.",
+    "en": "His regime remains synonymous in Ethiopia with state terror and famine; he still lives in exile in Zimbabwe, beyond the reach of Ethiopian justice."
   }
 }

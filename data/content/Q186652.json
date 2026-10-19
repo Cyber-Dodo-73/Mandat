@@ -34,5 +34,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Gilbert du Motier, marquis de La Fayette, naît en septembre 1757 au château de Chavaniac, en Auvergne, et se retrouve orphelin et immensément riche dès l’adolescence. En 1777, contre l’avis de la cour, il traverse l’Atlantique pour servir les insurgés américains, obtient le grade de major général et se lie d’amitié avec George Washington ; il est blessé à la bataille de Brandywine la même année. Revenu en France en 1779 pour plaider l’envoi de renforts, il repart combattre et participe à la victoire de Yorktown en 1781. Député de la noblesse aux États généraux de 1789, il présente un projet de déclaration des droits et prend le commandement de la garde nationale de Paris au lendemain de la prise de la Bastille. Le 17 juillet 1791, ses gardes ouvrent le feu sur les pétitionnaires du Champ-de-Mars, ce qui ruine sa popularité. Général en 1792, il s’enfuit après la chute de la monarchie, est capturé par les Autrichiens et reste emprisonné, notamment à Olmütz, jusqu’en 1797. Député libéral sous la Restauration, il est reçu triomphalement aux États-Unis lors d’une tournée en 1824-1825. En 1830, il commande de nouveau la garde nationale et soutient l’avènement de Louis-Philippe, avant de mourir à Paris le 20 mai 1834.",
+    "en": "Gilbert du Motier, Marquis de Lafayette, was born in September 1757 at the Château de Chavaniac in Auvergne and was an orphan with an immense fortune by his teens. In 1777, defying the court, he crossed the Atlantic to serve the American rebels, was made a major general and became a close friend of George Washington; he was wounded at Brandywine that same year. Back in France in 1779 to lobby for reinforcements, he returned to fight and shared in the victory at Yorktown in 1781. As a noble deputy to the Estates-General of 1789, he put forward a draft declaration of rights and took command of the Paris National Guard the day after the fall of the Bastille. On 17 July 1791 his guardsmen fired on petitioners at the Champ de Mars, wrecking his popularity. A general in 1792, he fled after the monarchy fell, was captured by the Austrians and stayed in prison, notably at Olmütz, until 1797. A liberal deputy under the Restoration, he was given a hero's welcome on a tour of the United States in 1824–1825. In 1830 he again led the National Guard and backed Louis-Philippe's accession, and he died in Paris on 20 May 1834."
+  },
+  "highlights": {
+    "fr": [
+      "Major général de l’armée continentale américaine dès 1777",
+      "Participe à la victoire de Yorktown en 1781",
+      "Présente un projet de déclaration des droits en juillet 1789",
+      "Commande la garde nationale de Paris en 1789 et en 1830",
+      "Fait citoyen d’honneur des États-Unis à titre posthume en 2002"
+    ],
+    "en": [
+      "Major general in the American Continental Army from 1777",
+      "Took part in the victory at Yorktown in 1781",
+      "Proposed a draft declaration of rights in July 1789",
+      "Commanded the Paris National Guard in 1789 and 1830",
+      "Made an honorary US citizen posthumously in 2002"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé « le héros des deux mondes », il reste un symbole de l’amitié franco-américaine et de l’idéal libéral des révolutions de la fin du XVIIIe siècle.",
+    "en": "Known as the hero of two worlds, he remains a symbol of Franco-American friendship and of the liberal ideals of the late eighteenth-century revolutions."
   }
 }

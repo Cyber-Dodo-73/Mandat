@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Thomas Woodrow Wilson naît en 1856 à Staunton, en Virginie, fils d'un pasteur presbytérien, et grandit dans le Sud pendant la guerre de Sécession. Diplômé de Princeton, il obtient un doctorat à l'université Johns Hopkins et devient un politologue réputé, puis président de Princeton en 1902. Élu gouverneur du New Jersey en 1910, il y mène des réformes contre la corruption avant de remporter la présidentielle de 1912 face à un camp républicain divisé. Il crée la Réserve fédérale, instaure l'impôt fédéral sur le revenu et renforce la législation antitrust, mais il étend aussi la ségrégation raciale dans l'administration fédérale. Réélu en 1916 sur la promesse d'avoir tenu le pays à l'écart de la guerre, il entraîne pourtant les États-Unis dans le conflit mondial en avril 1917. Ses Quatorze Points de janvier 1918 inspirent la conférence de paix de Paris et la création de la Société des Nations, ce qui lui vaut le prix Nobel de la paix 1919. Mais le Sénat refuse de ratifier le traité de Versailles et l'adhésion à la Société des Nations, tandis qu'une grave attaque cérébrale le laisse diminué en octobre 1919. Il quitte la présidence en 1921 et meurt à Washington en 1924.",
+    "en": "Thomas Woodrow Wilson was born in 1856 in Staunton, Virginia, the son of a Presbyterian minister, and grew up in the South during the Civil War. A Princeton graduate, he earned a doctorate at Johns Hopkins University, became a respected political scientist and was named president of Princeton in 1902. Elected governor of New Jersey in 1910, he pushed through anti-corruption reforms before winning the 1912 presidential race against a split Republican field. He created the Federal Reserve, introduced the federal income tax and strengthened antitrust law, but he also extended racial segregation across the federal civil service. Re-elected in 1916 on the claim that he had kept the country out of war, he nonetheless led the United States into the world conflict in April 1917. His Fourteen Points of January 1918 shaped the Paris peace conference and the founding of the League of Nations, earning him the 1919 Nobel Peace Prize. Yet the Senate refused to ratify the Treaty of Versailles and membership of the League, while a severe stroke left him incapacitated in October 1919. He left office in 1921 and died in Washington in 1924."
+  },
+  "highlights": {
+    "fr": [
+      "Président de l'université de Princeton (1902-1910)",
+      "Crée la Réserve fédérale en 1913",
+      "Fait entrer les États-Unis dans la Première Guerre mondiale (avril 1917)",
+      "Présente ses Quatorze Points en janvier 1918",
+      "Prix Nobel de la paix 1919 pour la Société des Nations"
+    ],
+    "en": [
+      "President of Princeton University (1902-1910)",
+      "Created the Federal Reserve in 1913",
+      "Took the United States into the First World War (April 1917)",
+      "Set out his Fourteen Points in January 1918",
+      "Won the 1919 Nobel Peace Prize for the League of Nations"
+    ]
+  },
+  "legacy": {
+    "fr": "Son idéal d'un ordre international fondé sur le droit, le « wilsonisme », a inspiré l'ONU, mais son bilan racial ternit aujourd'hui sa mémoire.",
+    "en": "His ideal of a law-based international order, known as Wilsonianism, inspired the United Nations, though his record on race now tarnishes his memory."
   }
 }

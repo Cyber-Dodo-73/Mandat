@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1917 à Brookline, près de Boston, dans une riche famille catholique d'origine irlandaise, John Fitzgerald Kennedy étudie à Harvard. Commandant d'une vedette lance-torpilles dans le Pacifique, il est décoré en 1943 après le naufrage de son bateau, dont il sauve l'équipage. Élu à la Chambre des représentants en 1946, puis au Sénat pour le Massachusetts en 1952, il publie un livre sur le courage politique récompensé par le prix Pulitzer. En novembre 1960, il bat de justesse Richard Nixon après les premiers débats télévisés et devient, à 43 ans, le plus jeune président élu et le premier catholique. Sa présidence débute par l'échec du débarquement de la baie des Cochons à Cuba en avril 1961, puis lance le programme Apollo de conquête de la Lune. En octobre 1962, il obtient le retrait des missiles soviétiques de Cuba au terme d'une crise qui fait craindre une guerre nucléaire, puis signe en 1963 un traité limitant les essais nucléaires. Le 22 novembre 1963, il est assassiné à Dallas, au Texas, alors qu'il traverse la ville en voiture décapotable.",
+    "en": "Born in 1917 in Brookline, near Boston, into a wealthy Irish Catholic family, John Fitzgerald Kennedy studied at Harvard. Commanding a torpedo boat in the Pacific, he was decorated in 1943 after it was sunk and he led his crew to safety. Elected to the House in 1946 and to the Senate for Massachusetts in 1952, he published a book on political courage that won a Pulitzer Prize. In November 1960 he narrowly beat Richard Nixon after the first televised debates, becoming at 43 the youngest elected president and the first Catholic. His presidency opened with the failed Bay of Pigs landing in Cuba in April 1961, and he then launched the Apollo programme to reach the Moon. In October 1962 he secured the removal of Soviet missiles from Cuba after a standoff that raised fears of nuclear war, and in 1963 he signed a treaty limiting nuclear tests. On 22 November 1963 he was shot dead in Dallas, Texas, while riding through the city in an open car."
+  },
+  "highlights": {
+    "fr": [
+      "Décoré en 1943 pour avoir sauvé l'équipage de sa vedette dans le Pacifique",
+      "Élu président en 1960, le plus jeune jamais élu",
+      "Lance en 1961 l'objectif d'envoyer un homme sur la Lune",
+      "Obtient en 1962 le retrait des missiles soviétiques de Cuba",
+      "Assassiné à Dallas le 22 novembre 1963"
+    ],
+    "en": [
+      "Decorated in 1943 for saving his torpedo boat's crew in the Pacific",
+      "Elected president in 1960, the youngest ever elected",
+      "Set the goal in 1961 of landing a man on the Moon",
+      "Secured the withdrawal of Soviet missiles from Cuba in 1962",
+      "Assassinated in Dallas on 22 November 1963"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa mort brutale a figé l'image d'une présidence jeune et pleine de promesses, entretenue par le mythe de « Camelot ».",
+    "en": "His sudden death froze the image of a youthful presidency full of promise, sustained by the Camelot myth."
   }
 }

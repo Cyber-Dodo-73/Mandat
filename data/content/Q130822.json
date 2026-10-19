@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Troisième fils de George III, William naît en 1765 à Buckingham House et entre dans la Royal Navy à treize ans. Il sert pendant la guerre d'indépendance américaine, se lie avec Horatio Nelson aux Antilles et reçoit le titre de duc de Clarence en 1789. Pendant une vingtaine d'années, il vit avec l'actrice Dorothea Jordan, qui lui donne dix enfants portant le nom de FitzClarence. Après la mort de la princesse Charlotte en 1817, il épouse en 1818 Adélaïde de Saxe-Meiningen, mais leurs deux filles meurent en bas âge. Nommé grand amiral en 1827, il est écarté l'année suivante pour avoir outrepassé ses pouvoirs. Il devient roi en juin 1830, à 64 ans, à la mort de son frère George IV. En 1832, il accepte, sous la pression, de nommer si nécessaire de nouveaux pairs, ce qui permet l'adoption de la grande loi de réforme électorale. Son règne voit aussi l'abolition de l'esclavage dans l'empire britannique en 1833. En 1834, il renvoie le Premier ministre Lord Melbourne, dernier monarque à agir ainsi contre la majorité parlementaire. Il meurt au château de Windsor en juin 1837 ; sa nièce Victoria hérite du trône britannique, mais pas de celui de Hanovre.",
+    "en": "The third son of George III, William was born at Buckingham House in 1765 and joined the Royal Navy at thirteen. He served in the American War of Independence, befriended Horatio Nelson in the West Indies and was created Duke of Clarence in 1789. For some twenty years he lived with the actress Dorothea Jordan, who bore him ten children with the surname FitzClarence. After Princess Charlotte's death in 1817, he married Adelaide of Saxe-Meiningen in 1818, but their two daughters died in infancy. Appointed Lord High Admiral in 1827, he was removed the following year for overstepping his authority. He became king in June 1830, aged 64, on the death of his brother George IV. In 1832, under pressure, he agreed to create new peers if needed, which allowed the Great Reform Act to pass. His reign also saw the abolition of slavery across the British Empire in 1833. In 1834 he dismissed the prime minister, Lord Melbourne, the last monarch to do so against the will of Parliament. He died at Windsor Castle in June 1837; his niece Victoria inherited the British throne, but not that of Hanover."
+  },
+  "highlights": {
+    "fr": [
+      "Officier de marine dès l'âge de treize ans",
+      "Grand amiral du Royaume-Uni en 1827-1828",
+      "Roi du Royaume-Uni et de Hanovre de 1830 à 1837",
+      "Permet l'adoption de la loi de réforme électorale de 1832",
+      "Abolition de l'esclavage dans l'Empire britannique en 1833"
+    ],
+    "en": [
+      "Naval officer from the age of thirteen",
+      "Lord High Admiral in 1827–1828",
+      "King of the United Kingdom and Hanover from 1830 to 1837",
+      "Enabled the passage of the Great Reform Act of 1832",
+      "Slavery abolished across the British Empire in 1833"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé le « roi marin », il est le dernier souverain à avoir renvoyé un Premier ministre, et le dernier roi de la dynastie de Hanovre à régner sur la Grande-Bretagne.",
+    "en": "Nicknamed the “Sailor King”, he was the last monarch to dismiss a prime minister and the last Hanoverian king to rule Britain."
   }
 }

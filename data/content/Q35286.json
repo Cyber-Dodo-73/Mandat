@@ -32,5 +32,27 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1865 à Blooming Grove, dans le comté de Morrow, dans l'Ohio, Warren Gamaliel Harding étudie à l'Ohio Central College puis rachète, encore jeune, un petit journal de Marion, le Marion Star, qu'il développe. Républicain, il est élu au Sénat de l'Ohio en 1899 puis devient lieutenant-gouverneur de l'État de 1904 à 1906. Élu sénateur des États-Unis en 1914, il siège à Washington à partir de 1915 sans y laisser de grande trace législative. En 1920, il obtient l'investiture républicaine comme candidat de compromis et fait campagne pour un « retour à la normale » après la guerre et l'ère progressiste. Il bat largement le démocrate James Cox, avec plus de 60 % des voix. Président à partir de mars 1921, il crée le bureau du budget, réunit la conférence navale de Washington, qui limite les flottes de guerre des grandes puissances, et commue la peine du socialiste Eugene Debs. Plusieurs de ses proches nommés au gouvernement sont pourtant impliqués dans des affaires de corruption, dont le scandale de Teapot Dome sur des concessions pétrolières fédérales. Lors d'une tournée dans l'Ouest et en Alaska, il tombe malade et meurt le 2 août 1923 à San Francisco, probablement d'une crise cardiaque.",
+    "en": "Born in 1865 in Blooming Grove, Morrow County, Ohio, Warren Gamaliel Harding studied at Ohio Central College and, while still young, bought a small newspaper in Marion, the Marion Star, which he built up. A Republican, he was elected to the Ohio Senate in 1899 and served as the state's lieutenant governor from 1904 to 1906. Elected to the US Senate in 1914, he sat in Washington from 1915 without making much of a legislative mark. In 1920 he won the Republican nomination as a compromise candidate and campaigned for a “return to normalcy” after the war and the Progressive era. He beat the Democrat James Cox by a landslide, with more than 60% of the vote. As president from March 1921, he created the Bureau of the Budget, convened the Washington Naval Conference that capped the battle fleets of the great powers, and commuted the sentence of the socialist Eugene Debs. Several of the friends he had placed in government were, however, caught up in corruption, including the Teapot Dome scandal over federal oil leases. On a tour of the West and Alaska he fell ill, and he died in San Francisco on 2 August 1923, probably of a heart attack."
+  },
+  "highlights": {
+    "fr": [
+      "Sénateur de l'Ohio à Washington de 1915 à 1921",
+      "Élu président en 1920 avec plus de 60 % des voix",
+      "Réunit la conférence navale de Washington en 1921-1922",
+      "Crée le bureau fédéral du budget en 1921"
+    ],
+    "en": [
+      "US senator for Ohio from 1915 to 1921",
+      "Elected president in 1920 with more than 60% of the vote",
+      "Convened the Washington Naval Conference in 1921–1922",
+      "Created the federal Bureau of the Budget in 1921"
+    ]
+  },
+  "legacy": {
+    "fr": "Son mandat écourté reste surtout associé aux scandales de son entourage, en particulier celui de Teapot Dome.",
+    "en": "His shortened term is mostly remembered for the scandals of his circle, above all Teapot Dome."
   }
 }

@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Accra en 1944 dans une influente famille politique, fils du président cérémoniel Edward Akufo-Addo, Nana Akufo-Addo étudie à Oxford puis à l'université du Ghana, avant d'être admis au barreau en Angleterre puis au Ghana. Avocat, il milite dans les années 1970 et 1990 contre les régimes militaires et pour le retour au multipartisme. Député de 1997 à 2009 sous les couleurs du Nouveau Parti patriotique, il devient en 2001 ministre de la Justice et procureur général, et fait abroger la loi sur la diffamation criminelle. Ministre des Affaires étrangères de 2003 à 2007, il échoue ensuite de peu à la présidentielle de 2008, puis en 2012 après une contestation devant la Cour suprême. Élu en décembre 2016 à sa troisième tentative, il entre en fonctions en janvier 2017. Il instaure la gratuité du lycée public et défend le slogan d'un « Ghana au-delà de l'aide ». Réélu en 2020, il doit toutefois solliciter le FMI en 2022 face à une grave crise de la dette et de l'inflation. Il quitte le pouvoir en janvier 2025, après la victoire de l'opposant John Mahama.",
+    "en": "Born in Accra in 1944 into a prominent political family, the son of ceremonial president Edward Akufo-Addo, Nana Akufo-Addo studied at Oxford and the University of Ghana and was called to the bar in England and then Ghana. As a lawyer he campaigned in the 1970s and 1990s against military rule and for a return to multiparty politics. An MP for the New Patriotic Party from 1997 to 2009, he became justice minister and attorney general in 2001 and had the criminal libel law repealed. Foreign minister from 2003 to 2007, he narrowly lost the 2008 presidential election and lost again in 2012 after a Supreme Court challenge. Elected in December 2016 on his third try, he took office in January 2017. He made public senior high school free and promoted the slogan 'Ghana Beyond Aid'. Re-elected in 2020, he nonetheless had to turn to the IMF in 2022 amid a severe debt and inflation crisis. He left office in January 2025 after opposition leader John Mahama won the election."
+  },
+  "highlights": {
+    "fr": [
+      "Fait abroger la loi sur la diffamation criminelle en 2001",
+      "Ministre des Affaires étrangères du Ghana de 2003 à 2007",
+      "Élu président en 2016 à sa troisième tentative",
+      "Instaure la gratuité du lycée public en 2017"
+    ],
+    "en": [
+      "Had the criminal libel law repealed in 2001",
+      "Ghana's foreign minister from 2003 to 2007",
+      "Elected president in 2016 on his third attempt",
+      "Made public senior high school free in 2017"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa réforme du lycée gratuit a ouvert l'enseignement secondaire à des centaines de milliers d'élèves, mais son second mandat reste associé à la crise de la dette.",
+    "en": "His free high school reform opened secondary education to hundreds of thousands of pupils, but his second term is tied to the debt crisis."
   }
 }

@@ -36,5 +36,27 @@
         "value": "medieval"
       }
     }
+  },
+  "story": {
+    "fr": "Cusi Yupanqui, futur Pachacutec, naît selon les chroniques coloniales vers la fin du XIVe siècle à Cuzco, fils du souverain inca Viracocha, à une époque où les Incas ne dominent encore qu’une petite région andine. Vers 1438, les Chancas, puissants voisins, attaquent Cuzco ; son père et l’héritier désigné abandonnent la ville, mais Cusi Yupanqui organise la défense et repousse les assaillants. Victorieux, il prend le pouvoir et le nom de Pachacutec, « celui qui bouleverse le monde ». Il entreprend alors une expansion fulgurante, soumettant les peuples du bassin du lac Titicaca puis, avec son fils Túpac Inca Yupanqui, les régions du nord jusqu’aux abords de l’actuel Équateur. Il réorganise l’État en quatre régions formant le Tawantinsuyu, développe le réseau routier, la comptabilité par cordelettes nouées et les déplacements forcés de populations pour sécuriser les conquêtes. Il fait rebâtir Cuzco en capitale impériale, avec le temple du Soleil, le Coricancha, et on lui attribue la construction du domaine royal de Machu Picchu. Vers 1471, âgé, il cède le pouvoir à Túpac Inca Yupanqui et meurt peu après à Cuzco.",
+    "en": "Cusi Yupanqui, the future Pachacuti, was born according to colonial chroniclers in the late fourteenth century in Cuzco, a son of the Inca ruler Viracocha, at a time when the Incas controlled only a small Andean area. Around 1438 the powerful neighbouring Chancas attacked Cuzco; his father and the designated heir abandoned the city, but Cusi Yupanqui organised its defence and drove the attackers back. Triumphant, he seized power and took the name Pachacuti, meaning he who overturns the world. He then launched a rapid expansion, subduing the peoples of the Lake Titicaca basin and, with his son Túpac Inca Yupanqui, the northern lands up to the edge of present-day Ecuador. He reorganised the state into four regions forming Tawantinsuyu and expanded the road network, record-keeping with knotted cords and forced resettlements to secure conquered areas. He had Cuzco rebuilt as an imperial capital, with the Sun temple of Coricancha, and the royal estate of Machu Picchu is attributed to him. Around 1471, in old age, he handed power to Túpac Inca Yupanqui and died in Cuzco soon after."
+  },
+  "highlights": {
+    "fr": [
+      "Repousse l’attaque des Chancas contre Cuzco vers 1438",
+      "Transforme un petit royaume andin en empire, le Tawantinsuyu",
+      "Fait rebâtir Cuzco et le temple du Coricancha",
+      "Fondateur présumé du domaine royal de Machu Picchu"
+    ],
+    "en": [
+      "Repelled the Chanca attack on Cuzco around 1438",
+      "Turned a small Andean kingdom into an empire, Tawantinsuyu",
+      "Had Cuzco and the Coricancha temple rebuilt",
+      "Believed to have founded the royal estate of Machu Picchu"
+    ]
+  },
+  "legacy": {
+    "fr": "Considéré comme le véritable fondateur de l’Empire inca, il est aujourd’hui honoré au Pérou comme l’une des grandes figures de son histoire précolombienne.",
+    "en": "Seen as the true founder of the Inca Empire, he is honoured in Peru today as one of the great figures of its pre-Columbian past."
   }
 }

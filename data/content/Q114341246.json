@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1988 à Bondokuy, dans l'ouest du Burkina Faso, Ibrahim Traoré étudie la géologie à l'université de Ouagadougou avant d'entrer dans l'armée au début des années 2010. Formé comme officier d'artillerie, il sert au sein de la mission de l'ONU au Mali puis combat les groupes djihadistes dans le nord et l'est de son pays, où l'insurrection a fait des milliers de morts et près de deux millions de déplacés. Il participe en janvier 2022 au putsch qui porte au pouvoir le lieutenant-colonel Paul-Henri Sandaogo Damiba. Reprochant à celui-ci son échec face aux djihadistes, il le renverse à son tour le 30 septembre 2022 et devient président de la transition à 34 ans. Il exige le départ des forces spéciales françaises, effectif début 2023, et se rapproche de la Russie. En septembre 2023, il forme avec les juntes du Mali et du Niger l'Alliance des États du Sahel, transformée en confédération en 2024, et les trois pays quittent la Cédéao. En mai 2024, la transition est prolongée de cinq ans. Très populaire sur les réseaux sociaux panafricanistes, son régime est aussi accusé de suspendre des médias, d'enrôler de force des opposants et de tolérer des exactions contre des civils, tandis que les attaques djihadistes meurtrières se poursuivent.",
+    "en": "Born in 1988 in Bondokuy, in western Burkina Faso, Ibrahim Traoré studied geology at the University of Ouagadougou before joining the army in the early 2010s. Trained as an artillery officer, he served with the UN mission in Mali and then fought jihadist groups in his country's north and east, where the insurgency had killed thousands and displaced nearly two million people. In January 2022 he took part in the coup that brought Lieutenant Colonel Paul-Henri Sandaogo Damiba to power. Blaming Damiba for failing against the jihadists, he toppled him in turn on 30 September 2022 and became transitional president at 34. He demanded the withdrawal of French special forces, completed in early 2023, and moved closer to Russia. In September 2023 he joined the juntas of Mali and Niger in the Alliance of Sahel States, which became a confederation in 2024, and the three countries left ECOWAS. In May 2024 the transition was extended by five years. Hugely popular on pan-Africanist social media, his regime has also been accused of suspending media outlets, forcibly conscripting critics and tolerating abuses against civilians, while deadly jihadist attacks continue."
+  },
+  "highlights": {
+    "fr": [
+      "Renverse le lieutenant-colonel Damiba le 30 septembre 2022",
+      "Devient à 34 ans l'un des plus jeunes chefs d'État du monde",
+      "Obtient le départ des forces spéciales françaises début 2023",
+      "Fonde l'Alliance des États du Sahel avec le Mali et le Niger en 2023"
+    ],
+    "en": [
+      "Overthrew Lieutenant Colonel Damiba on 30 September 2022",
+      "Became one of the world's youngest heads of state at 34",
+      "Secured the departure of French special forces in early 2023",
+      "Founded the Alliance of Sahel States with Mali and Niger in 2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Symbole d'un souverainisme sahélien en rupture avec la France, il incarne aussi le recul démocratique d'une région toujours ravagée par les djihadistes.",
+    "en": "A symbol of Sahelian sovereigntism breaking with France, he also embodies democratic backsliding in a region still ravaged by jihadists."
   }
 }

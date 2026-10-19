@@ -32,5 +32,27 @@
         "value": "medieval"
       }
     }
+  },
+  "story": {
+    "fr": "Osman naît vers 1258, selon la tradition à Söğüt, en Bithynie, fils d'Ertuğrul, chef d'une tribu turkmène installée aux confins de l'Empire byzantin. Ce que l'on sait de lui provient surtout de chroniques ottomanes écrites plus d'un siècle après sa mort, mêlées de légendes. Il prend la tête de la tribu vers la fin du XIIIe siècle, dans une Anatolie morcelée après le déclin du sultanat seldjoukide de Roum. Par des razzias et des alliances avec des chefs locaux, y compris chrétiens, il s'empare de forteresses byzantines comme Bilecik, Yarhisar et İnegöl. La tradition fixe à 1299 la naissance de son État et rapporte un rêve annonçant la grandeur de sa dynastie, lié à son mariage avec la fille du cheikh Edebali. En 1302, il bat une armée byzantine à Bapheus, près de Nicomédie, victoire qui attire vers lui de nombreux guerriers. Il entreprend ensuite le blocus de Brousse, grande ville byzantine de la région. Il meurt vers 1324 ou 1326, au moment où son fils Orhan s'empare de la ville, qui devient la première capitale ottomane et où il est inhumé.",
+    "en": "Osman was born around 1258, by tradition at Söğüt in Bithynia, the son of Ertuğrul, chief of a Turkmen tribe settled on the edge of the Byzantine Empire. What we know of him comes mostly from Ottoman chronicles written more than a century after his death and mixed with legend. He took over the tribe towards the end of the 13th century, in an Anatolia splintered by the decline of the Seljuk Sultanate of Rum. Through raids and alliances with local lords, including Christians, he seized Byzantine strongholds such as Bilecik, Yarhisar and İnegöl. Tradition dates the birth of his state to 1299 and tells of a dream foretelling his dynasty's greatness, tied to his marriage to the daughter of Sheikh Edebali. In 1302 he defeated a Byzantine army at Bapheus, near Nicomedia, a victory that drew many warriors to his side. He then laid siege to Bursa, the region's great Byzantine city. He died around 1324 or 1326, about the time his son Orhan took the city, which became the first Ottoman capital and where he is buried."
+  },
+  "highlights": {
+    "fr": [
+      "Chef d'une principauté turkmène de Bithynie vers 1280-1324",
+      "Prise des forteresses de Bilecik, Yarhisar et İnegöl",
+      "Victoire sur les Byzantins à Bapheus en 1302",
+      "Lance le blocus de Brousse, prise par son fils en 1326"
+    ],
+    "en": [
+      "Led a Turkmen principality in Bithynia, c. 1280–1324",
+      "Took the strongholds of Bilecik, Yarhisar and İnegöl",
+      "Defeated the Byzantines at Bapheus in 1302",
+      "Began the siege of Bursa, taken by his son in 1326"
+    ]
+  },
+  "legacy": {
+    "fr": "La dynastie qui porte son nom a régné plus de six siècles, jusqu'en 1922, et l'Empire ottoman tire de lui son nom.",
+    "en": "The dynasty that bears his name ruled for more than six centuries, until 1922, and the Ottoman Empire takes its name from him."
   }
 }

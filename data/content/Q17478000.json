@@ -29,5 +29,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Iván Duque Márquez naît en août 1976 à Bogotá, fils d’un ancien gouverneur d’Antioquia et ministre, et étudie le droit à l’université Sergio Arboleda avant de se spécialiser à Washington. Il passe plus d’une décennie à la Banque interaméricaine de développement, aux États-Unis, et conseille Álvaro Uribe lorsque celui-ci siège en 2010 dans un panel de l’ONU. Élu sénateur en 2014 pour le Centre démocratique, le parti d’Uribe, il s’oppose à l’accord de paix négocié avec les FARC. Désigné candidat de la droite, il bat Gustavo Petro au second tour de juin 2018 et devient, à quarante-deux ans, l’un des plus jeunes présidents du pays. Il tente de modifier la juridiction spéciale chargée de juger les crimes du conflit, sans succès, tandis que les assassinats de dirigeants sociaux et d’anciens guérilleros se multiplient. En 2021, il accorde un statut de protection temporaire à près de deux millions de migrants vénézuéliens. La même année, un projet de réforme fiscale déclenche une vague de manifestations durement réprimée, qui fait des dizaines de morts. Il transmet le pouvoir à Gustavo Petro en août 2022.",
+    "en": "Iván Duque Márquez was born in August 1976 in Bogotá, the son of a former Antioquia governor and minister, and studied law at Sergio Arboleda University before further studies in Washington. He spent more than a decade at the Inter-American Development Bank in the United States and advised Álvaro Uribe when Uribe sat on a UN panel in 2010. Elected senator in 2014 for Uribe's Democratic Centre, he opposed the peace agreement being negotiated with the FARC. Chosen as the right's candidate, he defeated Gustavo Petro in the June 2018 runoff and became, at forty-two, one of the country's youngest presidents. He tried unsuccessfully to amend the special tribunal set up to judge crimes of the conflict, while killings of community leaders and former guerrillas multiplied. In 2021 he granted temporary protected status to nearly two million Venezuelan migrants. That same year a proposed tax reform sparked a wave of protests met with a harsh crackdown that left dozens dead. He handed power to Gustavo Petro in August 2022."
+  },
+  "highlights": {
+    "fr": [
+      "Travaille plus de dix ans à la Banque interaméricaine de développement",
+      "Sénateur de Colombie de 2014 à 2018",
+      "Élu président en juin 2018 face à Gustavo Petro",
+      "Régularise près de deux millions de migrants vénézuéliens en 2021"
+    ],
+    "en": [
+      "Worked over ten years at the Inter-American Development Bank",
+      "Senator of Colombia from 2014 to 2018",
+      "Elected president in June 2018 against Gustavo Petro",
+      "Regularised nearly two million Venezuelan migrants in 2021"
+    ]
+  },
+  "legacy": {
+    "fr": "Son accueil des migrants vénézuéliens a été salué à l’étranger, mais sa présidence reste associée à une application réticente de l’accord de paix et à la répression de 2021.",
+    "en": "His welcome of Venezuelan migrants won praise abroad, but his presidency remains tied to a reluctant implementation of the peace deal and the 2021 crackdown."
   }
 }

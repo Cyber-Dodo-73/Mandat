@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Sheikh Hasina naît en 1947 à Tungipara, dans le district de Gopalganj, fille aînée de Sheikh Mujibur Rahman, père de l'indépendance du Bangladesh. Le 15 août 1975, un coup d'État militaire tue son père, sa mère et ses trois frères ; elle n'échappe au massacre que parce qu'elle se trouve en Allemagne avec sa sœur. Exilée en Inde, elle est élue en 1981 à la tête de la Ligue Awami et rentre à Dacca la même année pour combattre le régime militaire de Hossain Mohammad Ershad. Cheffe de l'opposition après le retour de la démocratie en 1991, elle devient Première ministre en 1996 et signe avec l'Inde le traité sur le partage des eaux du Gange, puis l'accord de paix des Chittagong Hill Tracts en 1997. En août 2004, elle survit à un attentat à la grenade contre son meeting qui fait plus de vingt morts. Revenue au pouvoir en 2009, elle fait juger les crimes de la guerre de 1971 et accompagne une forte croissance économique, symbolisée par le pont de la Padma inauguré en 2022. Mais ses réélections de 2014, 2018 et 2024 sont boycottées ou contestées, sur fond de disparitions forcées et de répression des opposants. À l'été 2024, la répression d'un soulèvement étudiant fait jusqu'à 1 400 morts selon l'ONU, et elle s'enfuit en Inde le 5 août. En novembre 2025, un tribunal de Dacca la condamne à mort par contumace pour crimes contre l'humanité.",
+    "en": "Sheikh Hasina was born in 1947 in Tungipara, Gopalganj district, the eldest daughter of Sheikh Mujibur Rahman, the father of Bangladesh's independence. On 15 August 1975 a military coup killed her father, her mother and her three brothers; she escaped only because she was in Germany with her sister. Living in exile in India, she was elected head of the Awami League in 1981 and returned to Dhaka that year to fight Hussain Muhammad Ershad's military regime. Opposition leader after democracy returned in 1991, she became prime minister in 1996, signing a Ganges water-sharing treaty with India and then the 1997 Chittagong Hill Tracts peace accord. In August 2004 she survived a grenade attack on her rally that killed more than twenty people. Back in power from 2009, she put the crimes of the 1971 war on trial and oversaw strong economic growth, symbolised by the Padma Bridge opened in 2022. Yet her re-elections in 2014, 2018 and 2024 were boycotted or disputed, against a backdrop of enforced disappearances and pressure on opponents. In the summer of 2024 the crackdown on a student uprising killed up to 1,400 people according to the UN, and she fled to India on 5 August. In November 2025 a Dhaka tribunal sentenced her to death in absentia for crimes against humanity."
+  },
+  "highlights": {
+    "fr": [
+      "Survit au coup d'État du 15 août 1975 qui tue sa famille",
+      "Première ministre du Bangladesh de 1996 à 2001",
+      "Accord de paix des Chittagong Hill Tracts en 1997",
+      "Première ministre de 2009 à 2024, plus long mandat du pays",
+      "Fuit en Inde le 5 août 2024 après une répression meurtrière"
+    ],
+    "en": [
+      "Survived the 15 August 1975 coup that killed her family",
+      "Prime Minister of Bangladesh from 1996 to 2001",
+      "Signed the Chittagong Hill Tracts peace accord in 1997",
+      "Prime minister from 2009 to 2024, the country's longest tenure",
+      "Fled to India on 5 August 2024 after a deadly crackdown"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle laisse un pays transformé par la croissance mais profondément divisé, et sa chute de 2024 a ouvert une transition politique incertaine au Bangladesh.",
+    "en": "She leaves a country transformed by growth but deeply divided, and her fall in 2024 opened an uncertain political transition in Bangladesh."
   }
 }

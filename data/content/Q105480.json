@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Kenneth Kaunda naît en avril 1924 à la mission de Lubwa, près de Chinsali, en Rhodésie du Nord, fils d’un pasteur venu du Nyassaland. Instituteur, il s’engage dans le mouvement nationaliste, fonde le Congrès national africain de Zambie en 1958 et passe plusieurs mois en prison en 1959. À sa libération, il prend la tête du Parti uni pour l’indépendance nationale, qui remporte les élections de janvier 1964 ; il devient alors Premier ministre, puis premier président de la Zambie indépendante le 24 octobre 1964. Inspiré par sa doctrine de l’« humanisme », il nationalise les mines de cuivre en 1969 et instaure le parti unique en 1972. Il accueille les mouvements de libération de Rhodésie, de Namibie, d’Afrique du Sud et d’Angola, au prix de représailles armées, et obtient de la Chine la construction du chemin de fer Tazara, achevé en 1975. L’effondrement du cours du cuivre plonge le pays dans l’endettement, et des émeutes de la faim éclatent en 1986 puis en 1990. Contraint d’accepter le multipartisme, il est largement battu par Frederick Chiluba en octobre 1991 et reconnaît sa défaite. Devenu militant de la lutte contre le sida après la mort de l’un de ses fils, il meurt à Lusaka en juin 2021.",
+    "en": "Kenneth Kaunda was born in April 1924 at Lubwa mission near Chinsali, Northern Rhodesia, the son of a minister from Nyasaland. A schoolteacher, he joined the nationalist movement, founded the Zambia African National Congress in 1958 and spent months in prison in 1959. On his release he took over the United National Independence Party, which won the January 1964 election; he became prime minister and then first president of independent Zambia on 24 October 1964. Guided by his philosophy of Humanism, he nationalised the copper mines in 1969 and imposed one-party rule in 1972. He hosted liberation movements from Rhodesia, Namibia, South Africa and Angola despite armed reprisals, and secured Chinese funding for the Tazara railway, completed in 1975. The collapse of copper prices left the country deep in debt, and food riots broke out in 1986 and again in 1990. Forced to accept multiparty politics, he was heavily defeated by Frederick Chiluba in October 1991 and accepted the result. After losing a son to the disease he became an AIDS campaigner, and he died in Lusaka in June 2021."
+  },
+  "highlights": {
+    "fr": [
+      "Premier président de la Zambie indépendante, le 24 octobre 1964",
+      "Nationalise les mines de cuivre en 1969",
+      "Obtient le chemin de fer Tazara, achevé en 1975 avec la Chine",
+      "Soutient les mouvements de libération d’Afrique australe",
+      "Cède le pouvoir pacifiquement après sa défaite de 1991"
+    ],
+    "en": [
+      "First president of independent Zambia on 24 October 1964",
+      "Nationalised the copper mines in 1969",
+      "Secured the Tazara railway, completed with China in 1975",
+      "Backed liberation movements across southern Africa",
+      "Handed over power peacefully after losing in 1991"
+    ]
+  },
+  "legacy": {
+    "fr": "Père de l’indépendance zambienne et soutien constant des luttes de libération, il a aussi montré l’exemple en quittant le pouvoir par les urnes.",
+    "en": "Father of Zambian independence and a steadfast backer of liberation struggles, he also set an example by leaving office at the ballot box."
   }
 }

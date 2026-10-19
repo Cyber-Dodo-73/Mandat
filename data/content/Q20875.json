@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Albert Édouard naît en 1841 au palais de Buckingham, fils aîné de la reine Victoria et du prince Albert, qui lui imposent une éducation sévère dont il sort sans goût pour l'étude. Fait chevalier de la Jarretière dès 1858, il étudie brièvement à Oxford et Cambridge et effectue de grandes tournées au Canada et aux États-Unis en 1860 puis en Inde en 1875-1876. En 1863, il épouse la princesse Alexandra de Danemark. Tenu à l'écart des affaires par sa mère, qui le juge responsable de la mort d'Albert en 1861, il mène pendant des décennies une vie mondaine et sportive, éclaboussée par plusieurs scandales. Il monte sur le trône en janvier 1901, à cinquante-neuf ans, comme roi du Royaume-Uni et empereur des Indes. Il modernise le cérémonial de la monarchie et met sa connaissance des cours européennes au service de la diplomatie : sa visite à Paris en 1903 prépare l'Entente cordiale signée l'année suivante, et le rapprochement avec la Russie aboutit en 1907. La fin de son règne est marquée par la crise constitutionnelle entre la Chambre des communes et la Chambre des lords. Il meurt au palais de Buckingham en mai 1910.",
+    "en": "Albert Edward was born in 1841 at Buckingham Palace, the eldest son of Queen Victoria and Prince Albert, who put him through a strict education that left him with little taste for study. Made a Knight of the Garter in 1858, he spent short spells at Oxford and Cambridge and made major tours of Canada and the United States in 1860 and of India in 1875-1876. In 1863 he married Princess Alexandra of Denmark. Kept away from state business by his mother, who blamed him for Albert's death in 1861, he spent decades in a round of society and sport, touched by several scandals. He came to the throne in January 1901 at the age of fifty-nine, as King of the United Kingdom and Emperor of India. He modernised royal ceremonial and used his knowledge of Europe's courts in diplomacy: his 1903 visit to Paris paved the way for the Entente Cordiale signed the following year, and a rapprochement with Russia followed in 1907. The end of his reign was overshadowed by a constitutional crisis between the Commons and the Lords. He died at Buckingham Palace in May 1910."
+  },
+  "highlights": {
+    "fr": [
+      "Tournée en Inde comme prince de Galles en 1875-1876",
+      "Couronné roi du Royaume-Uni et empereur des Indes en 1902",
+      "Sa visite à Paris en 1903 ouvre la voie à l'Entente cordiale de 1904",
+      "Accompagne le rapprochement anglo-russe de 1907"
+    ],
+    "en": [
+      "Toured India as Prince of Wales in 1875-1876",
+      "Crowned King of the United Kingdom and Emperor of India in 1902",
+      "His 1903 Paris visit paved the way for the 1904 Entente Cordiale",
+      "Supported the Anglo-Russian rapprochement of 1907"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a donné son nom à l'époque édouardienne, dernière décennie d'insouciance avant 1914, et a contribué au rapprochement franco-britannique.",
+    "en": "He gave his name to the Edwardian era, the last carefree decade before 1914, and helped bring Britain and France together."
   }
 }

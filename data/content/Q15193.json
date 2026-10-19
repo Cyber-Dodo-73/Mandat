@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Alexandre naît à Saint-Pétersbourg en décembre 1777, petit-fils de Catherine II, qui le fait éduquer par le précepteur suisse Frédéric-César de La Harpe, nourri des idées des Lumières. En mars 1801, il monte sur le trône après l'assassinat de son père Paul Ier par des officiers conjurés, complot dont il avait connaissance. Il s'entoure de jeunes conseillers réformateurs, crée des ministères en 1802 et confie plus tard à Mikhaïl Speranski des projets de réforme de l'État. Battu par Napoléon à Austerlitz en 1805 puis à Friedland en 1807, il conclut avec lui l'alliance de Tilsit en juillet 1807. Il enlève la Finlande à la Suède en 1809 et la Bessarabie aux Ottomans en 1812. Lorsque Napoléon envahit la Russie en juin 1812, il refuse de négocier, même après l'incendie de Moscou, et la Grande Armée est détruite pendant sa retraite. À la tête de la coalition, il entre dans Paris le 31 mars 1814 et joue un rôle majeur au congrès de Vienne, qui lui donne la couronne d'un royaume de Pologne. En septembre 1815, il fonde la Sainte-Alliance des monarques chrétiens, puis se tourne vers le mysticisme et une politique de plus en plus conservatrice. Il meurt subitement à Taganrog en décembre 1825, et l'incertitude sur sa succession provoque l'insurrection des décembristes.",
+    "en": "Alexander was born in St Petersburg in December 1777, the grandson of Catherine the Great, who had him educated by the Swiss tutor Frédéric-César de La Harpe, steeped in Enlightenment ideas. In March 1801 he came to the throne after his father Paul I was murdered by conspiring officers, a plot he knew about. He surrounded himself with young reforming advisers, set up ministries in 1802 and later entrusted Mikhail Speransky with plans to reform the state. Beaten by Napoleon at Austerlitz in 1805 and Friedland in 1807, he made an alliance with him at Tilsit in July 1807. He took Finland from Sweden in 1809 and Bessarabia from the Ottomans in 1812. When Napoleon invaded Russia in June 1812 he refused to negotiate, even after Moscow burned, and the Grande Armée was destroyed during its retreat. At the head of the coalition he entered Paris on 31 March 1814 and played a leading role at the Congress of Vienna, which gave him the crown of a Kingdom of Poland. In September 1815 he founded the Holy Alliance of Christian monarchs, then turned to mysticism and increasingly conservative policies. He died suddenly at Taganrog in December 1825, and the confusion over his succession sparked the Decembrist revolt."
+  },
+  "highlights": {
+    "fr": [
+      "Empereur de Russie de 1801 à 1825",
+      "Alliance de Tilsit avec Napoléon en juillet 1807",
+      "Annexion de la Finlande en 1809",
+      "Résiste à l'invasion napoléonienne de 1812",
+      "Entre dans Paris le 31 mars 1814 et fonde la Sainte-Alliance en 1815"
+    ],
+    "en": [
+      "Emperor of Russia from 1801 to 1825",
+      "Alliance of Tilsit with Napoleon in July 1807",
+      "Annexed Finland in 1809",
+      "Withstood Napoleon's invasion of 1812",
+      "Entered Paris on 31 March 1814 and founded the Holy Alliance in 1815"
+    ]
+  },
+  "legacy": {
+    "fr": "Vainqueur de Napoléon, il a fait de la Russie l'arbitre de l'Europe pendant une génération. Une légende tenace prétend qu'il aurait fini sa vie comme ermite en Sibérie.",
+    "en": "The victor over Napoleon, he made Russia the arbiter of Europe for a generation. A stubborn legend claims he ended his days as a hermit in Siberia."
   }
 }

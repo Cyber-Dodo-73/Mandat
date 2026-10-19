@@ -36,5 +36,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Paris en 1585 dans une famille de petite noblesse poitevine, Armand Jean du Plessis renonce à la carrière militaire pour conserver à sa famille l'évêché de Luçon, dont il prend possession au début du XVIIe siècle. Remarqué aux états généraux de 1614, il devient secrétaire d'État en 1616, mais chute l'année suivante avec Concini, le favori de la reine mère Marie de Médicis. Médiateur entre Louis XIII et sa mère, il obtient le chapeau de cardinal en 1622 puis entre au Conseil du roi en 1624, dont il devient le principal ministre. Il assiège La Rochelle en 1627-1628 et retire aux protestants leurs places fortes par la paix d'Alès en 1629, tout en leur laissant la liberté de culte. Lors de la journée des Dupes en 1630, il l'emporte sur le parti de la reine mère. Il brise les complots aristocratiques en faisant exécuter des grands comme Montmorency en 1632 et Cinq-Mars en 1642, et fonde l'Académie française en 1635. La même année, il engage la France dans la guerre de Trente Ans contre l'Espagne ; la hausse des impôts provoque des révoltes paysannes durement réprimées. Il meurt à Paris en décembre 1642.",
+    "en": "Born in Paris in 1585 into a family of minor Poitou nobility, Armand Jean du Plessis gave up a military career to keep the bishopric of Luçon in the family, taking it over in the early 17th century. Noticed at the Estates General of 1614, he became a secretary of state in 1616 but fell the next year along with Concini, the favourite of the queen mother, Marie de' Medici. Acting as a go-between for Louis XIII and his mother, he was made a cardinal in 1622 and entered the royal council in 1624, rising to chief minister. He besieged La Rochelle in 1627–1628 and stripped the Protestants of their fortified towns with the Peace of Alès in 1629, while leaving them freedom of worship. On the Day of the Dupes in 1630 he prevailed over the queen mother's faction. He crushed aristocratic plots by having great nobles such as Montmorency in 1632 and Cinq-Mars in 1642 executed, and founded the Académie française in 1635. That same year he took France into the Thirty Years' War against Spain; the rising taxes provoked peasant revolts that were harshly put down. He died in Paris in December 1642."
+  },
+  "highlights": {
+    "fr": [
+      "1622 : nommé cardinal",
+      "1624 : devient principal ministre de Louis XIII",
+      "1628 : prise de La Rochelle",
+      "1635 : fonde l'Académie française",
+      "1635 : engage la France dans la guerre de Trente Ans"
+    ],
+    "en": [
+      "1622: made a cardinal",
+      "1624: becomes Louis XIII's chief minister",
+      "1628: captures La Rochelle",
+      "1635: founds the Académie française",
+      "1635: brings France into the Thirty Years' War"
+    ]
+  },
+  "legacy": {
+    "fr": "Bâtisseur de l'absolutisme et de la raison d'État, il a préparé la puissance de la France de Louis XIV au prix d'une lourde pression fiscale.",
+    "en": "A builder of absolutism and reason of state, he laid the ground for Louis XIV's powerful France at the cost of a heavy tax burden."
   }
 }

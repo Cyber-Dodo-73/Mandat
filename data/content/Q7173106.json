@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1982 à South Bend, dans l'Indiana, fils d'un universitaire maltais et d'une linguiste, Pete Buttigieg sort de Harvard en 2004. Boursier Rhodes en 2005, il étudie à Oxford, puis travaille comme consultant chez McKinsey. Élu maire de sa ville natale en 2011, à vingt-neuf ans, il prend ses fonctions en 2012 et s'attaque aux milliers de logements abandonnés d'une cité industrielle en déclin. Officier de réserve de la marine, il est déployé en Afghanistan en 2014, puis fait son coming out l'année suivante, avant d'être réélu largement. Candidat aux primaires démocrates de 2020, il arrive en tête de justesse en délégués dans l'Iowa, puis se retire en mars pour soutenir Joe Biden. En 2021, il devient secrétaire aux Transports, premier membre ouvertement gay d'un gouvernement confirmé par le Sénat. Il met en œuvre la grande loi sur les infrastructures de 2021, mais affronte aussi les critiques après le déraillement toxique d'East Palestine, dans l'Ohio, en 2023. Il quitte le ministère en janvier 2025, à la fin du mandat de Biden.",
+    "en": "Born in South Bend, Indiana, in 1982 to a Maltese-born academic and a linguist, Pete Buttigieg graduated from Harvard in 2004. A Rhodes Scholar in 2005, he studied at Oxford and then worked as a McKinsey consultant. Elected mayor of his home town in 2011 at twenty-nine, he took office in 2012 and tackled the thousands of abandoned homes in a declining industrial city. A navy reserve officer, he deployed to Afghanistan in 2014, came out as gay the following year and was re-elected comfortably. Running in the 2020 Democratic primaries, he narrowly led the Iowa delegate count, then withdrew in March to back Joe Biden. In 2021 he became Transportation Secretary, the first openly gay cabinet member confirmed by the Senate. He rolled out the big 2021 infrastructure law but also faced criticism after the toxic train derailment in East Palestine, Ohio, in 2023. He left the department in January 2025 when Biden's term ended."
+  },
+  "highlights": {
+    "fr": [
+      "2005 : obtient une bourse Rhodes pour Oxford",
+      "2012 : devient maire de South Bend à 29 ans",
+      "2020 : arrive en tête dans l'Iowa aux primaires démocrates",
+      "2021 : premier ministre ouvertement gay confirmé par le Sénat"
+    ],
+    "en": [
+      "2005: wins a Rhodes Scholarship to Oxford",
+      "2012: becomes mayor of South Bend at 29",
+      "2020: tops the Iowa delegate count in the Democratic primaries",
+      "2021: first openly gay cabinet member confirmed by the Senate"
+    ]
+  },
+  "legacy": {
+    "fr": "Passé en quelques années d'une mairie moyenne au gouvernement fédéral, il incarne une nouvelle génération démocrate et une étape pour la visibilité LGBT en politique.",
+    "en": "Rising within a few years from a mid-sized city hall to the federal cabinet, he represents a new Democratic generation and a milestone for LGBT visibility."
   }
 }

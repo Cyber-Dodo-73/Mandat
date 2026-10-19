@@ -32,5 +32,27 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Néfertari naît vers 1290 avant notre ère, dans une famille dont l’origine reste inconnue, même si certains égyptologues la rattachent à la région d’Akhmim. Elle épouse le futur Ramsès II, de la XIXe dynastie, alors qu’il n’est encore que prince héritier, avant son avènement vers 1279. Première des grandes épouses royales de son règne, elle apparaît à ses côtés dans les inscriptions officielles et lui donne plusieurs enfants. Elle participe à la diplomatie du royaume : après le traité de paix conclu avec les Hittites vers 1259, elle échange des lettres et des présents avec la reine hittite Poudouhépa. Ramsès II lui dédie le petit temple d’Abou Simbel, consacré aussi à la déesse Hathor, où ses statues ont la même taille que celles du roi, un honneur rare pour une reine. Elle assiste vraisemblablement à l’inauguration des temples d’Abou Simbel, vers la vingt-quatrième année du règne, puis disparaît des sources, sans doute morte peu après. Elle est inhumée dans la Vallée des Reines, dans une tombe aux peintures remarquables découverte par l’Italien Ernesto Schiaparelli en 1904.",
+    "en": "Nefertari was born around 1290 BCE into a family whose origins are unknown, though some Egyptologists link her to the Akhmim area. She married the future Ramesses II of the Nineteenth Dynasty while he was still crown prince, before his accession around 1279. The first of the great royal wives of his reign, she appears beside him in official inscriptions and bore him several children. She took part in the kingdom's diplomacy: after the peace treaty with the Hittites around 1259, she exchanged letters and gifts with the Hittite queen Puduhepa. Ramesses II dedicated to her the small temple at Abu Simbel, also devoted to the goddess Hathor, where her statues stand as tall as the king's, a rare honour for a queen. She probably attended the inauguration of the Abu Simbel temples around the twenty-fourth year of the reign, then vanishes from the record, likely dying soon after. She was buried in the Valley of the Queens, in a tomb with outstanding paintings discovered by the Italian Ernesto Schiaparelli in 1904."
+  },
+  "highlights": {
+    "fr": [
+      "Grande épouse royale de Ramsès II dès son avènement vers 1279 av. J.-C.",
+      "Correspond avec la reine hittite Poudouhépa après la paix de 1259 av. J.-C.",
+      "Honorée par le petit temple d’Abou Simbel",
+      "Sa tombe peinte est découverte en 1904 dans la Vallée des Reines"
+    ],
+    "en": [
+      "Great Royal Wife of Ramesses II from his accession around 1279 BCE",
+      "Wrote to the Hittite queen Puduhepa after the peace of 1259 BCE",
+      "Honoured with the small temple at Abu Simbel",
+      "Her painted tomb was found in the Valley of the Queens in 1904"
+    ]
+  },
+  "legacy": {
+    "fr": "Son temple d’Abou Simbel et sa tombe, l’une des plus belles d’Égypte, en ont fait la reine la plus célèbre du Nouvel Empire après Néfertiti.",
+    "en": "Her Abu Simbel temple and her tomb, one of the finest in Egypt, have made her the most famous New Kingdom queen after Nefertiti."
   }
 }

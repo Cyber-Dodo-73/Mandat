@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né vers 1028 à Falaise, Guillaume est le fils illégitime du duc Robert Ier de Normandie et d'Herleva, fille d'un artisan, d'où le surnom de Bâtard que lui donnent ses contemporains. Devenu duc vers l'âge de huit ans, en 1035, quand son père meurt en pèlerinage, il traverse une enfance menacée par les révoltes et les assassinats de ses tuteurs. Avec l'aide du roi de France, il écrase les barons rebelles à Val-ès-Dunes en 1047, puis épouse Mathilde de Flandre et consolide son duché. À la mort d'Édouard le Confesseur en janvier 1066, il revendique le trône d'Angleterre, que Harold Godwinson s'est fait attribuer. Il débarque dans le Sussex et remporte la bataille d'Hastings le 14 octobre 1066, où Harold est tué, puis se fait couronner à Westminster le jour de Noël. Il brise les révoltes anglaises, notamment par le « ravage du Nord » de 1069-1070 qui dévaste le Yorkshire et provoque une famine meurtrière. Il remplace l'aristocratie anglo-saxonne par des seigneurs normands, couvre le pays de châteaux et fait dresser en 1086 le Domesday Book, grand inventaire des terres. Blessé lors du sac de Mantes, il meurt à Rouen en septembre 1087.",
+    "en": "Born around 1028 in Falaise, William was the illegitimate son of Duke Robert I of Normandy and Herleva, a craftsman's daughter, which is why contemporaries called him the Bastard. He became duke at about eight in 1035, when his father died on pilgrimage, and survived a childhood threatened by revolts and the murder of his guardians. With the French king's help he crushed rebel barons at Val-ès-Dunes in 1047, then married Matilda of Flanders and tightened his grip on the duchy. When Edward the Confessor died in January 1066, he claimed the English throne, which Harold Godwinson had taken. He landed in Sussex and won the battle of Hastings on 14 October 1066, where Harold was killed, and was crowned at Westminster on Christmas Day. He crushed English uprisings, notably through the Harrying of the North in 1069–70, which laid waste to Yorkshire and caused a deadly famine. He replaced the Anglo-Saxon aristocracy with Norman lords, covered the land with castles and in 1086 ordered the Domesday Book, a vast survey of landholding. Injured during the sack of Mantes, he died in Rouen in September 1087."
+  },
+  "highlights": {
+    "fr": [
+      "Devient duc de Normandie vers huit ans, en 1035",
+      "Remporte la bataille d'Hastings le 14 octobre 1066",
+      "Couronné roi d'Angleterre à Westminster le 25 décembre 1066",
+      "Ordonne le « ravage du Nord » en 1069-1070",
+      "Fait réaliser le Domesday Book en 1086"
+    ],
+    "en": [
+      "Became Duke of Normandy at about eight, in 1035",
+      "Won the battle of Hastings on 14 October 1066",
+      "Crowned king of England at Westminster on 25 December 1066",
+      "Ordered the Harrying of the North in 1069–70",
+      "Commissioned the Domesday Book in 1086"
+    ]
+  },
+  "legacy": {
+    "fr": "La conquête normande a profondément transformé l'Angleterre, de son aristocratie à sa langue, et tous les monarques anglais depuis descendent de Guillaume.",
+    "en": "The Norman Conquest transformed England, from its aristocracy to its language, and every English monarch since has been his descendant."
   }
 }

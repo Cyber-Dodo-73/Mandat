@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1931 dans un village de l'oblast de Sverdlovsk, Boris Eltsine devient ingénieur du bâtiment puis gravit les échelons du Parti communiste dans l'Oural, dont il dirige la région à partir de 1976. Gorbatchev l'appelle à Moscou et lui confie en 1985 la direction du parti de la capitale, où il dénonce les privilèges de la nomenklatura. Écarté en 1987 après avoir critiqué la lenteur des réformes, il fait un retour spectaculaire par les urnes et prend en 1990 la tête du Soviet suprême de Russie, avant de quitter le parti. Élu président de la Russie au suffrage universel en juin 1991, il devient le visage de la résistance au putsch d'août en haranguant la foule depuis un char devant la Maison-Blanche. En décembre, il signe avec l'Ukraine et la Biélorussie les accords de Belovej qui enterrent l'URSS. Sa « thérapie de choc » libère les prix et privatise à marche forcée, mais provoque inflation, appauvrissement et naissance d'une oligarchie. En octobre 1993, il fait bombarder le Parlement insurgé puis impose une Constitution présidentielle ; en 1994, il lance la guerre de Tchétchénie. Réélu en 1996 malgré une santé chancelante, il subit la crise financière de 1998 et démissionne le 31 décembre 1999 en confiant l'intérim à Vladimir Poutine. Il meurt à Moscou en 2007.",
+    "en": "Born in 1931 in a village in the Sverdlovsk region, Boris Yeltsin trained as a construction engineer and rose through the Communist Party in the Urals, running the region from 1976. Gorbachev brought him to Moscow and in 1985 put him in charge of the capital's party organisation, where he attacked the perks of the elite. Sacked in 1987 for complaining that reform was too slow, he staged a comeback through elections and in 1990 became chairman of Russia's Supreme Soviet, then quit the party. Elected Russian president by popular vote in June 1991, he became the face of resistance to the August coup, addressing crowds from a tank outside the White House. In December he signed the Belovezha Accords with Ukraine and Belarus, burying the Soviet Union. His shock therapy freed prices and rushed through privatisation, but brought inflation, mass impoverishment and the rise of the oligarchs. In October 1993 he had tanks shell the rebellious parliament and pushed through a strongly presidential constitution; in 1994 he launched the war in Chechnya. Re-elected in 1996 despite failing health, he weathered the 1998 financial crash and resigned on 31 December 1999, leaving Vladimir Putin as acting president. He died in Moscow in 2007."
+  },
+  "highlights": {
+    "fr": [
+      "Élu en juin 1991 premier président de la Russie au suffrage universel",
+      "Fait échouer le putsch d'août 1991 en appelant à la résistance depuis un char",
+      "Signe en décembre 1991 les accords de Belovej qui dissolvent l'URSS",
+      "Fait bombarder le Parlement en octobre 1993 et impose une nouvelle Constitution",
+      "Démissionne le 31 décembre 1999 au profit de Vladimir Poutine"
+    ],
+    "en": [
+      "Elected Russia's first popularly chosen president in June 1991",
+      "Defeated the August 1991 coup by rallying resistance from atop a tank",
+      "Signed the Belovezha Accords in December 1991, dissolving the USSR",
+      "Had parliament shelled in October 1993 and imposed a new constitution",
+      "Resigned on 31 December 1999, handing power to Vladimir Putin"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste l'homme qui a enterré l'Union soviétique, mais aussi celui d'une décennie de chaos économique et d'un pouvoir présidentiel hypertrophié dont son successeur a hérité.",
+    "en": "He is remembered as the man who buried the Soviet Union, but also for a decade of economic chaos and an outsized presidency that his successor inherited."
   }
 }

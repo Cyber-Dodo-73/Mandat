@@ -36,5 +36,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Guillaume naît à La Haye en novembre 1650, quelques jours après la mort de son père, le stathouder Guillaume II ; sa mère, Marie Stuart, est la fille de Charles Ier d'Angleterre. Écarté du pouvoir pendant son enfance par le régime républicain de Jan de Witt, il est nommé stathouder et capitaine général en 1672, l'« année du désastre » où les armées de Louis XIV envahissent les Provinces-Unies. Il fait ouvrir les digues pour inonder le pays et arrête l'avance française, puis consacre sa vie à contenir la puissance du roi de France. En 1677, il épouse sa cousine Marie, fille du futur Jacques II. Appelé par des lords anglais hostiles au roi catholique, il débarque à Torbay le 5 novembre 1688 avec une armée d'environ quinze mille hommes ; Jacques II s'enfuit en France. En 1689, le Parlement offre la couronne conjointement à Guillaume et Marie, qui acceptent la Déclaration des droits limitant le pouvoir royal. Le 1er juillet 1690, il bat Jacques II à la bataille de la Boyne, en Irlande, puis mène la guerre de la Ligue d'Augsbourg contre la France jusqu'à la paix de Ryswick en 1697. Veuf en 1694, il règne seul ; son règne voit la fondation de la Banque d'Angleterre et l'Acte d'établissement de 1701 qui écarte les catholiques du trône. Il meurt à Londres en mars 1702 des suites d'une chute de cheval, sans enfant.",
+    "en": "William was born in The Hague in November 1650, a few days after the death of his father, Stadtholder William II; his mother, Mary Stuart, was a daughter of Charles I of England. Kept out of power as a child by Johan de Witt's republican regime, he was made stadtholder and captain-general in 1672, the 'disaster year' when Louis XIV's armies overran the Dutch Republic. He had the dykes opened to flood the land and stalled the French advance, then spent the rest of his life trying to contain France. In 1677 he married his cousin Mary, daughter of the future James II. Invited over by English lords opposed to the Catholic king, he landed at Torbay on 5 November 1688 with an army of about fifteen thousand, and James fled to France. In 1689 Parliament offered the crown jointly to William and Mary, who accepted the Declaration of Rights curbing royal power. On 1 July 1690 he beat James at the Battle of the Boyne in Ireland, then fought the Nine Years' War against France until the Peace of Ryswick in 1697. Widowed in 1694, he reigned alone, a period that saw the founding of the Bank of England and the 1701 Act of Settlement barring Catholics from the throne. He died childless in London in March 1702 after a fall from his horse."
+  },
+  "highlights": {
+    "fr": [
+      "Stathouder des Provinces-Unies dès 1672, face à l'invasion française",
+      "Débarque en Angleterre en novembre 1688 : la Glorieuse Révolution",
+      "Couronné en 1689 avec Marie II, après la Déclaration des droits",
+      "Vainqueur de Jacques II à la Boyne le 1er juillet 1690",
+      "Paix de Ryswick avec Louis XIV en 1697"
+    ],
+    "en": [
+      "Stadtholder of the Dutch Republic from 1672, facing French invasion",
+      "Landed in England in November 1688: the Glorious Revolution",
+      "Crowned in 1689 with Mary II after the Declaration of Rights",
+      "Defeated James II at the Boyne on 1 July 1690",
+      "Made the Peace of Ryswick with Louis XIV in 1697"
+    ]
+  },
+  "legacy": {
+    "fr": "Son arrivée sur le trône a fixé en Angleterre une monarchie limitée par le Parlement. En Irlande du Nord, la victoire de la Boyne reste un symbole protestant célébré chaque mois de juillet.",
+    "en": "His accession entrenched in England a monarchy bound by Parliament. In Northern Ireland, the Boyne remains a Protestant symbol celebrated every July."
   }
 }

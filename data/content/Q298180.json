@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Simone Jacob naît en juillet 1927 à Nice dans une famille juive laïque. Arrêtée par la Gestapo en mars 1944, elle est déportée à Auschwitz-Birkenau avec sa mère et sa sœur ; sa mère meurt à Bergen-Belsen, tandis que son père et son frère, déportés vers les pays baltes, ne reviennent pas. Rentrée en France en 1945, elle étudie à Sciences Po, épouse Antoine Veil et devient magistrate en 1956, notamment chargée des conditions de détention. En 1974, nommée ministre de la Santé par Valéry Giscard d’Estaing, elle défend devant une Assemblée hostile la loi légalisant l’interruption volontaire de grossesse, promulguée en janvier 1975 malgré de violentes attaques personnelles. En 1979, elle devient la première présidente du Parlement européen élu au suffrage universel, fonction qu’elle exerce jusqu’en 1982. De 1993 à 1995, elle est ministre d’État chargée des Affaires sociales et de la Santé dans le gouvernement d’Édouard Balladur. Elle siège ensuite au Conseil constitutionnel de 1998 à 2007, préside la Fondation pour la mémoire de la Shoah et entre à l’Académie française. Morte à Paris le 30 juin 2017, elle repose au Panthéon depuis 2018.",
+    "en": "Simone Jacob was born in July 1927 in Nice into a secular Jewish family. Arrested by the Gestapo in March 1944, she was deported to Auschwitz-Birkenau with her mother and sister; her mother died at Bergen-Belsen, while her father and brother, deported to the Baltic, never returned. Back in France in 1945, she studied at Sciences Po, married Antoine Veil and became a magistrate in 1956, working notably on prison conditions. Appointed health minister by Valéry Giscard d'Estaing in 1974, she steered through a hostile National Assembly the law legalising abortion, enacted in January 1975 despite vicious personal attacks. In 1979 she became the first president of the directly elected European Parliament, serving until 1982. From 1993 to 1995 she was minister of state for social affairs and health in Édouard Balladur's government. She later sat on the Constitutional Council from 1998 to 2007, chaired the Foundation for the Memory of the Shoah and was elected to the Académie française. She died in Paris on 30 June 2017 and has rested in the Panthéon since 2018."
+  },
+  "highlights": {
+    "fr": [
+      "Survit à la déportation à Auschwitz-Birkenau en 1944-1945",
+      "Fait adopter la loi sur l’IVG, promulguée en janvier 1975",
+      "Première présidente du Parlement européen élu, de 1979 à 1982",
+      "Membre du Conseil constitutionnel de 1998 à 2007",
+      "Entre au Panthéon en 2018"
+    ],
+    "en": [
+      "Survived deportation to Auschwitz-Birkenau in 1944–1945",
+      "Passed France's abortion law, enacted in January 1975",
+      "First president of the elected European Parliament, 1979–1982",
+      "Member of the Constitutional Council from 1998 to 2007",
+      "Interred in the Panthéon in 2018"
+    ]
+  },
+  "legacy": {
+    "fr": "Rescapée de la Shoah devenue figure de la construction européenne, elle reste associée en France au droit à l’avortement, que la loi qui porte son nom a ouvert.",
+    "en": "A Holocaust survivor who became a figure of European integration, she remains linked in France to abortion rights, opened by the law that bears her name."
   }
 }

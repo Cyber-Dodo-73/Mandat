@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Jomo Kenyatta naît vers 1893 dans la province centrale du Kenya, en pays kikuyu, sous le nom de Kamau wa Ngengi. Élève d'une mission presbytérienne, il s'engage dans les années 1920 au sein de la Kikuyu Central Association, qui défend les terres africaines contre les colons. Il passe une grande partie des années 1930 et 1940 en Europe, étudie l'anthropologie à Londres et publie en 1938 « Facing Mount Kenya », étude des Kikuyu. Revenu en 1946, il prend la tête de la Kenya African Union. En 1952, au début de l'insurrection Mau Mau, les Britanniques l'arrêtent ; condamné en 1953 au terme d'un procès contesté, il reste détenu ou assigné jusqu'en 1961. Libéré, il mène la KANU à la victoire et devient Premier ministre à l'indépendance en décembre 1963, tout en gérant les Affaires étrangères. En 1964, le Kenya devient une république et il en est le premier président. Il prône la réconciliation avec les colons et une économie ouverte, mais son pouvoir se personnalise : le pays devient de fait un régime à parti unique, l'opposant Oginga Odinga est écarté et des assassinats politiques restent impunis. Il meurt en fonctions à Mombasa en août 1978.",
+    "en": "Jomo Kenyatta was born around 1893 in Kenya's Central Province, in Kikuyu country, as Kamau wa Ngengi. Educated at a Presbyterian mission, he joined the Kikuyu Central Association in the 1920s, which fought settler encroachment on African land. He spent much of the 1930s and 1940s in Europe, studied anthropology in London and in 1938 published Facing Mount Kenya, a study of the Kikuyu. Back home in 1946, he took over the Kenya African Union. When the Mau Mau uprising began in 1952 the British arrested him; convicted in 1953 after a disputed trial, he was imprisoned or restricted until 1961. Once freed, he led KANU to victory and became prime minister at independence in December 1963, also handling foreign affairs. When Kenya became a republic in 1964 he was its first president. He preached reconciliation with white settlers and kept the economy open, yet power grew personal: Kenya became a de facto one-party state, rival Oginga Odinga was sidelined and political murders went unpunished. He died in office in Mombasa in August 1978."
+  },
+  "highlights": {
+    "fr": [
+      "Publie en 1938 « Facing Mount Kenya », étude ethnographique des Kikuyu",
+      "Détenu par les Britanniques de 1952 à 1961",
+      "Premier ministre à l'indépendance du Kenya en décembre 1963",
+      "Premier président de la République du Kenya de 1964 à 1978"
+    ],
+    "en": [
+      "Published Facing Mount Kenya, an ethnography of the Kikuyu, in 1938",
+      "Held by the British from 1952 to 1961",
+      "Prime minister at Kenya's independence in December 1963",
+      "First president of the Republic of Kenya, 1964–1978"
+    ]
+  },
+  "legacy": {
+    "fr": "Révéré comme père de la nation sous le nom de Mzee, il a aussi laissé un État centralisé et des inégalités foncières ; son fils Uhuru a présidé le Kenya de 2013 à 2022.",
+    "en": "Revered as the nation's founding father, Mzee, he also left a centralised state and land inequities; his son Uhuru was president from 2013 to 2022."
   }
 }

@@ -35,5 +35,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Gand en 1500, Charles est le fils de Philippe le Beau et de Jeanne de Castille, et le petit-fils à la fois de l'empereur Maximilien et des Rois catholiques. Héritier des Pays-Bas bourguignons, il devient en 1516 roi de Castille et d'Aragon, avec l'Italie du Sud et les possessions américaines. En 1519, il est élu empereur du Saint-Empire face à François Ier, réunissant le plus vaste ensemble de territoires d'Europe depuis Charlemagne. À la diète de Worms en 1521, il met Martin Luther au ban de l'Empire, sans pouvoir enrayer la Réforme. Ses guerres contre la France tournent d'abord à son avantage : à Pavie, en 1525, ses troupes capturent François Ier, et en 1527 ses soldats mutinés saccagent Rome. Sous son règne, les conquistadors s'emparent des empires aztèque et inca, au prix de la destruction de leurs sociétés. Il doit aussi contenir les Ottomans en Méditerranée et en Hongrie, et bat les princes protestants à Mühlberg en 1547, avant d'accepter la paix d'Augsbourg en 1555. Épuisé, il abdique en 1555 et 1556, laissant l'Espagne à son fils Philippe II et l'Empire à son frère Ferdinand, puis se retire au monastère de Yuste, où il meurt en 1558.",
+    "en": "Born in Ghent in 1500, Charles was the son of Philip the Handsome and Joanna of Castile, and the grandson of both Emperor Maximilian and the Catholic Monarchs. Heir to the Burgundian Netherlands, he became king of Castile and Aragon in 1516, along with southern Italy and the Spanish Americas. In 1519 he was elected Holy Roman Emperor over Francis I, uniting the largest collection of European lands since Charlemagne. At the Diet of Worms in 1521 he outlawed Martin Luther but could not stop the Reformation. His wars with France went his way at first: at Pavia in 1525 his troops captured Francis I, and in 1527 his mutinous soldiers sacked Rome. During his reign conquistadors overthrew the Aztec and Inca empires, destroying their societies in the process. He also had to hold back the Ottomans in the Mediterranean and Hungary, defeated the Protestant princes at Mühlberg in 1547 and then accepted the Peace of Augsburg in 1555. Worn out, he abdicated in 1555 and 1556, leaving Spain to his son Philip II and the Empire to his brother Ferdinand, and retired to the monastery of Yuste, where he died in 1558."
+  },
+  "highlights": {
+    "fr": [
+      "Devient roi de Castille et d'Aragon en 1516",
+      "Élu empereur du Saint-Empire en 1519",
+      "Met Luther au ban de l'Empire à la diète de Worms en 1521",
+      "Ses troupes capturent François Ier à Pavie en 1525",
+      "Abdique en 1555-1556 et partage ses domaines"
+    ],
+    "en": [
+      "Became king of Castile and Aragon in 1516",
+      "Elected Holy Roman Emperor in 1519",
+      "Outlawed Luther at the Diet of Worms in 1521",
+      "His troops captured Francis I at Pavia in 1525",
+      "Abdicated in 1555–56 and divided his realms"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a régné sur un empire « où le soleil ne se couchait jamais », mais son rêve d'une chrétienté unie sous un seul souverain s'est brisé sur la Réforme.",
+    "en": "He ruled an empire on which the sun never set, but his dream of a Christendom united under one ruler foundered on the Reformation."
   }
 }

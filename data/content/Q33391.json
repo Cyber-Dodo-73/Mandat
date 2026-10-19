@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Lev Davidovitch Bronstein naît en 1879 dans une famille de colons juifs aisés du sud de l'Ukraine, dans l'actuelle oblast de Kirovohrad. Militant marxiste dès l'adolescence, il est arrêté, déporté en Sibérie, s'évade en 1902 et adopte le pseudonyme de Trotski. Au IIe congrès du Parti ouvrier social-démocrate de Russie en 1903, il se range d'abord du côté des mencheviks contre Lénine. Président du soviet de Saint-Pétersbourg pendant la révolution de 1905, il est de nouveau condamné et vit ensuite en exil. Rentré en Russie en 1917, il rejoint les bolcheviks et organise, à la tête du soviet de Petrograd, la prise du pouvoir d'octobre. Commissaire aux Affaires étrangères, il négocie la paix de Brest-Litovsk, puis, commissaire à la Guerre à partir de 1918, il bâtit l'Armée rouge et la mène à la victoire dans la guerre civile, en recourant à la terreur, aux otages et à l'écrasement de la révolte de Kronstadt en 1921. Après la mort de Lénine, il perd la lutte pour le pouvoir face à Staline : exclu du Politburo en 1926, puis du parti, il est expulsé d'URSS en 1929. Réfugié en Turquie, en France, en Norvège puis au Mexique, il fonde la IVe Internationale en 1938 et dénonce le stalinisme. Il est assassiné à Coyoacán en août 1940 par un agent soviétique, Ramón Mercader.",
+    "en": "Lev Davidovich Bronstein was born in 1879 to prosperous Jewish farmers in southern Ukraine, in today's Kirovohrad region. A Marxist activist from his teens, he was arrested and exiled to Siberia, escaped in 1902 and took the name Trotsky. At the second congress of the Russian Social Democratic Labour Party in 1903 he initially sided with the Mensheviks against Lenin. He chaired the Saint Petersburg Soviet during the 1905 revolution, was sentenced again and spent the following years abroad. Back in Russia in 1917, he joined the Bolsheviks and, as head of the Petrograd Soviet, organised the October seizure of power. As foreign commissar he negotiated the Treaty of Brest-Litovsk; as war commissar from 1918 he built the Red Army and led it to victory in the civil war, using terror, hostage-taking and the crushing of the Kronstadt revolt in 1921. After Lenin's death he lost the power struggle to Stalin: removed from the Politburo in 1926 and then from the party, he was deported from the USSR in 1929. Living in exile in Turkey, France, Norway and finally Mexico, he founded the Fourth International in 1938 and attacked Stalinism in print. He was murdered in Coyoacán in August 1940 by the Soviet agent Ramón Mercader."
+  },
+  "highlights": {
+    "fr": [
+      "1905 : préside le soviet de Saint-Pétersbourg",
+      "1917 : organise l'insurrection bolchevique d'octobre à Petrograd",
+      "1918 : signe la paix de Brest-Litovsk avec les puissances centrales",
+      "1918-1925 : fondateur et chef de l'Armée rouge pendant la guerre civile",
+      "1929 : expulsé d'URSS par Staline, assassiné au Mexique en 1940"
+    ],
+    "en": [
+      "1905: chaired the Saint Petersburg Soviet",
+      "1917: organised the Bolshevik October uprising in Petrograd",
+      "1918: signed the Treaty of Brest-Litovsk with the Central Powers",
+      "1918–1925: founder and head of the Red Army during the civil war",
+      "1929: deported from the USSR by Stalin; murdered in Mexico in 1940"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure centrale de la révolution d'Octobre et de la guerre civile, il a donné son nom au trotskisme, courant communiste opposé au stalinisme qui survit dans de nombreux pays.",
+    "en": "A central figure of the October Revolution and the civil war, he gave his name to Trotskyism, an anti-Stalinist communist current that still exists in many countries."
   }
 }

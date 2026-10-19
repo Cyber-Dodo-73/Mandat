@@ -32,5 +32,29 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "On sait peu de choses des origines de Ponce Pilate, membre de l'ordre équestre romain, dont la naissance dans les Abruzzes relève surtout de la tradition. Vers l'an 26, l'empereur Tibère le nomme préfet de Judée, une province gouvernée depuis Césarée maritime, où il succède à Valerius Gratus. Selon l'historien juif Flavius Josèphe, il fait entrer de nuit à Jérusalem des enseignes militaires portant l'effigie de l'empereur, avant de les retirer face à une foule de protestataires réunie à Césarée. Il finance aussi un aqueduc avec l'argent du trésor du Temple et fait disperser par la force les manifestants qui s'y opposent. Le philosophe Philon d'Alexandrie lui reproche de son côté des boucliers votifs installés à Jérusalem, que Tibère ordonne de retirer. Vers l'an 30 ou 33, il fait crucifier Jésus de Nazareth, épisode qui le rend célèbre à travers les Évangiles et le Credo chrétien. En 36, ses troupes massacrent des Samaritains rassemblés au mont Garizim ; le légat de Syrie, Vitellius, le renvoie alors à Rome pour s'expliquer. Tibère meurt avant son arrivée, et la suite de sa vie est inconnue, même si de nombreuses légendes lui prêtent un suicide ou une conversion. En 1961, une inscription découverte à Césarée confirme son titre de préfet de Judée.",
+    "en": "Little is known of the origins of Pontius Pilate, a member of Rome's equestrian order; his birth in the Abruzzo is mostly a matter of tradition. Around AD 26 the emperor Tiberius appointed him prefect of Judaea, a province governed from Caesarea Maritima, where he succeeded Valerius Gratus. According to the Jewish historian Josephus, he had military standards bearing the emperor's image carried into Jerusalem by night, then withdrew them when a crowd of protesters gathered at Caesarea. He also paid for an aqueduct with money from the Temple treasury and had the demonstrators who objected broken up by force. The philosopher Philo of Alexandria in turn blamed him for votive shields set up in Jerusalem, which Tiberius ordered removed. Around AD 30 or 33 he had Jesus of Nazareth crucified, the act that made him famous through the Gospels and the Christian creed. In AD 36 his troops massacred Samaritans gathered on Mount Gerizim, and Vitellius, the legate of Syria, sent him back to Rome to answer for it. Tiberius died before he arrived, and nothing certain is known of his later life, though many legends credit him with suicide or conversion. In 1961 an inscription found at Caesarea confirmed his title as prefect of Judaea."
+  },
+  "highlights": {
+    "fr": [
+      "Préfet romain de Judée d'environ 26 à 36",
+      "Ordonne la crucifixion de Jésus vers l'an 30 ou 33",
+      "Massacre de Samaritains au mont Garizim en 36",
+      "Rappelé à Rome par le légat de Syrie Vitellius",
+      "Son titre confirmé par la pierre de Pilate, trouvée en 1961"
+    ],
+    "en": [
+      "Roman prefect of Judaea from about AD 26 to 36",
+      "Ordered the crucifixion of Jesus around AD 30 or 33",
+      "His troops massacred Samaritans on Mount Gerizim in AD 36",
+      "Recalled to Rome by Vitellius, legate of Syria",
+      "His title confirmed by the Pilate Stone, found in 1961"
+    ]
+  },
+  "legacy": {
+    "fr": "Cité dans le Credo chrétien, il est l'un des fonctionnaires romains les plus connus de l'histoire. Certaines Églises d'Orient le vénèrent même comme un saint.",
+    "en": "Named in the Christian creed, he is one of the best-known Roman officials in history. Some Eastern churches even venerate him as a saint."
   }
 }

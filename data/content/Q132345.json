@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1954 à Tokyo, Shinzō Abe est le petit-fils du Premier ministre Nobusuke Kishi et le fils du ministre des Affaires étrangères Shintarō Abe. Après des études à l'université Seikei et un passage dans la sidérurgie, il devient l'assistant de son père, puis est élu député de Yamaguchi en 1993. Sa fermeté sur les enlèvements de Japonais par la Corée du Nord le fait connaître, et il devient secrétaire général du cabinet en 2005. En 2006, à 52 ans, il est le plus jeune Premier ministre de l'après-guerre, mais des scandales et une colite ulcéreuse le poussent à démissionner dès 2007. Revenu à la tête du Parti libéral-démocrate, il remporte les élections de décembre 2012 et lance les « Abenomics » : assouplissement monétaire massif, relance budgétaire et réformes structurelles. Il fait adopter en 2015 des lois autorisant la légitime défense collective, une réinterprétation contestée de la Constitution pacifiste. Il cultive des liens étroits avec Washington et obtient pour Tokyo les Jeux olympiques de 2020. Après le plus long mandat de l'histoire du Japon, il démissionne pour raison de santé en septembre 2020. Le 8 juillet 2022, il est abattu par un homme armé d'un fusil artisanal lors d'un meeting électoral à Nara et meurt à l'hôpital de Kashihara.",
+    "en": "Born in Tokyo in 1954, Shinzō Abe was the grandson of Prime Minister Nobusuke Kishi and the son of Foreign Minister Shintarō Abe. After studying at Seikei University and a spell in the steel industry, he worked as his father's aide and was elected to the Diet for Yamaguchi in 1993. A hard line on North Korea's abductions of Japanese citizens made his name, and he became Chief Cabinet Secretary in 2005. In 2006, at 52, he became Japan's youngest post-war prime minister, but scandals and ulcerative colitis forced him out in 2007. Back at the head of the Liberal Democratic Party, he won the December 2012 election and launched Abenomics, a mix of massive monetary easing, fiscal stimulus and structural reform. In 2015 he pushed through laws allowing collective self-defence, a contested reinterpretation of the pacifist constitution. He forged close ties with Washington and won Tokyo the 2020 Olympics. After the longest premiership in Japanese history, he stepped down for health reasons in September 2020. On 8 July 2022 he was shot with a homemade gun while campaigning in Nara and died in hospital in Kashihara."
+  },
+  "highlights": {
+    "fr": [
+      "Devient en 2006 le plus jeune Premier ministre japonais de l'après-guerre",
+      "Lance en 2013 la politique économique des « Abenomics »",
+      "Fait voter en 2015 les lois sur la légitime défense collective",
+      "Détient le record de longévité à la tête du gouvernement japonais",
+      "Assassiné lors d'un meeting électoral à Nara le 8 juillet 2022"
+    ],
+    "en": [
+      "Became Japan's youngest post-war prime minister in 2006",
+      "Launched the Abenomics economic programme in 2013",
+      "Passed the 2015 laws allowing collective self-defence",
+      "Holds the record as Japan's longest-serving prime minister",
+      "Assassinated at a campaign rally in Nara on 8 July 2022"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a rendu au Japon une ambition stratégique et inspiré le concept d'Indo-Pacifique libre et ouvert, tout en divisant par son nationalisme et sa lecture de l'histoire de guerre.",
+    "en": "He gave Japan renewed strategic ambition and championed the idea of a free and open Indo-Pacific, while dividing opinion with his nationalism and his view of wartime history."
   }
 }

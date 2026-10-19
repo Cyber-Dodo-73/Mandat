@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Washington en 1895, J. Edgar Hoover travaille à la bibliothèque du Congrès tout en étudiant le droit à l'université George Washington. Entré au ministère de la Justice en 1917, il dirige bientôt un service de renseignement qui organise en 1919 et 1920 les rafles Palmer contre des milliers de militants de gauche et d'étrangers. Nommé en 1924 à la tête du Bureau of Investigation, il le professionnalise, crée un fichier central des empreintes digitales et un laboratoire scientifique. Rebaptisé FBI en 1935, le service se fait connaître par la traque de gangsters comme John Dillinger, puis par le contre-espionnage pendant la Seconde Guerre mondiale. Anticommuniste obsessionnel, Hoover constitue des dossiers secrets sur des responsables politiques et des personnalités. De 1956 à 1971, son programme COINTELPRO surveille, infiltre et cherche à discréditer des mouvements pour les droits civiques, des militants noirs et des opposants à la guerre, dont Martin Luther King. Il reste en poste sous huit présidents, qu'il intimide par ses informations, jusqu'à sa mort à Washington en mai 1972.",
+    "en": "Born in Washington in 1895, J. Edgar Hoover worked at the Library of Congress while studying law at George Washington University. He joined the Justice Department in 1917 and was soon running an intelligence unit that organised the Palmer Raids of 1919 and 1920 against thousands of left-wing activists and foreigners. Appointed head of the Bureau of Investigation in 1924, he professionalised it, creating a central fingerprint file and a forensic laboratory. Renamed the FBI in 1935, the agency won fame for hunting gangsters such as John Dillinger and then for counter-espionage during the Second World War. An obsessive anti-communist, Hoover kept secret files on politicians and public figures. From 1956 to 1971 his COINTELPRO programme spied on, infiltrated and tried to discredit civil rights groups, Black activists and anti-war campaigners, Martin Luther King among them. He stayed in charge under eight presidents, whom he intimidated with what he knew, until his death in Washington in May 1972."
+  },
+  "highlights": {
+    "fr": [
+      "1919 : organise les rafles Palmer contre les militants de gauche",
+      "1924 : prend la tête du Bureau of Investigation",
+      "1935 : le service devient le FBI",
+      "1956-1971 : mène le programme COINTELPRO contre des militants"
+    ],
+    "en": [
+      "1919: organises the Palmer Raids against left-wing activists",
+      "1924: takes charge of the Bureau of Investigation",
+      "1935: the bureau becomes the FBI",
+      "1956–1971: runs the COINTELPRO programme against activists"
+    ]
+  },
+  "legacy": {
+    "fr": "Bâtisseur du FBI moderne, il incarne aussi les abus d'une police secrète intérieure ; depuis 1976, le mandat de directeur est limité à dix ans.",
+    "en": "Builder of the modern FBI, he also stands for the abuses of a domestic secret police; since 1976 the director's term has been capped at ten years."
   }
 }

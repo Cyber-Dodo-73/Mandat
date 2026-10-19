@@ -32,5 +32,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1592 au fort de Lahore, le prince Khurram est le fils de l'empereur moghol Jahangir et petit-fils d'Akbar. En 1612, il épouse Arjumand Banu Begum, qui prendra le nom de Mumtaz Mahal. Ses victoires contre le royaume rajpoute du Mewar en 1615 puis dans le Deccan lui valent en 1617 le titre de Shah Jahan, « roi du monde ». Il se révolte contre son père de 1622 à 1626, puis, à la mort de Jahangir, il s'empare du trône en 1628 après avoir fait éliminer ses rivaux, dont son frère Shahryar. En 1631, Mumtaz Mahal meurt à Burhanpur en donnant naissance à leur quatorzième enfant, et il fait édifier pour elle à Agra le Taj Mahal, achevé au début des années 1650. Il fait aussi bâtir une nouvelle capitale à Delhi, Shahjahanabad, avec le Fort rouge, et commander le trône du Paon. Il annexe le sultanat d'Ahmadnagar en 1636, mais perd Kandahar face aux Safavides en 1649 et échoue à le reprendre. Lorsqu'il tombe malade en 1657, ses fils se disputent la succession ; le vainqueur, Aurangzeb, le fait enfermer en 1658 au fort d'Agra, où il meurt en 1666, veillé par sa fille Jahanara.",
+    "en": "Born in Lahore Fort in 1592, Prince Khurram was the son of the Mughal emperor Jahangir and a grandson of Akbar. In 1612 he married Arjumand Banu Begum, later known as Mumtaz Mahal. His victories over the Rajput kingdom of Mewar in 1615 and in the Deccan earned him the title Shah Jahan, “King of the World”, in 1617. He rebelled against his father from 1622 to 1626 and, on Jahangir's death, seized the throne in 1628 after having his rivals, including his brother Shahryar, eliminated. In 1631 Mumtaz Mahal died in Burhanpur giving birth to their fourteenth child, and he had the Taj Mahal built for her in Agra, completed in the early 1650s. He also built a new capital at Delhi, Shahjahanabad, with its Red Fort, and commissioned the Peacock Throne. He annexed the Ahmadnagar sultanate in 1636 but lost Kandahar to the Safavids in 1649 and failed to win it back. When he fell ill in 1657 his sons fought over the succession; the victor, Aurangzeb, confined him in Agra Fort in 1658, where he died in 1666, cared for by his daughter Jahanara."
+  },
+  "highlights": {
+    "fr": [
+      "Empereur moghol de 1628 à 1658",
+      "Fait construire le Taj Mahal à Agra pour Mumtaz Mahal",
+      "Bâtit Shahjahanabad et le Fort rouge de Delhi",
+      "Annexe le sultanat d'Ahmadnagar en 1636",
+      "Emprisonné par son fils Aurangzeb en 1658"
+    ],
+    "en": [
+      "Mughal emperor from 1628 to 1658",
+      "Built the Taj Mahal in Agra for Mumtaz Mahal",
+      "Built Shahjahanabad and the Red Fort in Delhi",
+      "Annexed the Ahmadnagar sultanate in 1636",
+      "Imprisoned by his son Aurangzeb in 1658"
+    ]
+  },
+  "legacy": {
+    "fr": "Son règne marque l'apogée de l'architecture moghole, et le Taj Mahal, inscrit au patrimoine mondial, reste l'un des monuments les plus visités au monde.",
+    "en": "His reign marks the high point of Mughal architecture, and the Taj Mahal, a World Heritage Site, remains one of the most visited monuments on earth."
   }
 }

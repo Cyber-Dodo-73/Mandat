@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "António Guterres naît à Lisbonne en 1949 et obtient en 1971 un diplôme d'ingénieur à l'Instituto Superior Técnico, où il enseigne ensuite brièvement. Militant catholique engagé auprès des quartiers pauvres, il adhère au Parti socialiste après la révolution des Œillets de 1974. Député à partir de 1976, il prend la tête du parti en 1992 et devient Premier ministre en octobre 1995. Ses deux gouvernements voient l'Exposition universelle de Lisbonne en 1998, l'entrée du Portugal dans l'euro en 1999 et une forte mobilisation diplomatique pour le Timor oriental la même année. En 2000, il préside le Conseil européen lors du lancement de la stratégie de Lisbonne. Après la défaite des socialistes aux élections locales, il démissionne fin 2001. De 2005 à 2015, il dirige le Haut-Commissariat des Nations unies pour les réfugiés, en pleine crise syrienne. Élu secrétaire général de l'ONU en 2016, il prend ses fonctions le 1er janvier 2017 et il est reconduit en 2021. Il multiplie les alertes sur le climat, contribue en 2022 à l'accord sur les exportations de céréales ukrainiennes et invoque en 2023 l'article 99 de la Charte sur la guerre à Gaza, ce qui lui vaut d'être déclaré persona non grata par Israël en 2024. Son second mandat s'achève fin 2026.",
+    "en": "António Guterres was born in Lisbon in 1949 and graduated as an engineer from the Instituto Superior Técnico in 1971, where he briefly taught afterwards. A Catholic activist working in poor neighbourhoods, he joined the Socialist Party after the 1974 Carnation Revolution. An MP from 1976, he became party leader in 1992 and prime minister in October 1995. His two governments saw the Lisbon World Expo in 1998, Portugal's entry into the euro in 1999 and an intense diplomatic push for East Timor that same year. In 2000 he chaired the European Council as it launched the Lisbon Strategy. After the Socialists lost local elections, he resigned at the end of 2001. From 2005 to 2015 he headed the UN refugee agency, UNHCR, through the Syrian crisis. Elected UN Secretary-General in 2016, he took office on 1 January 2017 and was reappointed in 2021. He has issued repeated warnings on climate change, helped broker the 2022 deal on Ukrainian grain exports and in 2023 invoked Article 99 of the UN Charter over the war in Gaza, which led Israel to declare him persona non grata in 2024. His second term ends at the close of 2026."
+  },
+  "highlights": {
+    "fr": [
+      "Premier ministre du Portugal de 1995 à 2002",
+      "Entrée du Portugal dans la zone euro en 1999",
+      "Haut-commissaire de l'ONU pour les réfugiés de 2005 à 2015",
+      "Secrétaire général de l'ONU depuis le 1er janvier 2017",
+      "Prix Charlemagne en 2019"
+    ],
+    "en": [
+      "Prime Minister of Portugal from 1995 to 2002",
+      "Portugal joined the euro in 1999",
+      "UN High Commissioner for Refugees from 2005 to 2015",
+      "UN Secretary-General since 1 January 2017",
+      "Charlemagne Prize in 2019"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a dirigé l'ONU pendant une décennie de guerres et de paralysie du Conseil de sécurité, en faisant du climat sa priorité constante.",
+    "en": "He led the UN through a decade of wars and Security Council deadlock, keeping climate change as his constant priority."
   }
 }

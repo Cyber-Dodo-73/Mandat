@@ -30,5 +30,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1957 dans l'actuel État de Bayelsa, au cœur du delta du Niger, Goodluck Jonathan grandit dans une famille de constructeurs de pirogues et devient docteur en zoologie de l'université de Port Harcourt. Après une carrière d'enseignant et de fonctionnaire environnemental, il entre en politique en 1998 et devient vice-gouverneur de Bayelsa en 1999. Il succède en 2005 au gouverneur destitué pour blanchiment, puis est choisi comme colistier par Umaru Yar'Adua, élu président en 2007. Pendant la longue maladie de ce dernier, l'Assemblée le désigne président par intérim en février 2010 ; il prête serment comme chef de l'État à la mort de Yar'Adua en mai. Élu en 2011, il lance des réformes dans l'électricité et l'agriculture, mais son mandat est assombri par la corruption et par l'insurrection de Boko Haram, dont l'enlèvement de 276 lycéennes à Chibok en avril 2014 devient le symbole. En mars 2015, battu par Muhammadu Buhari, il reconnaît sa défaite avant même la fin du dépouillement, une première pour un président sortant au Nigeria.",
+    "en": "Born in 1957 in what is now Bayelsa State, in the heart of the Niger Delta, Goodluck Jonathan grew up in a family of canoe makers and earned a doctorate in zoology from the University of Port Harcourt. After working as a teacher and an environmental official, he entered politics in 1998 and became deputy governor of Bayelsa in 1999. He took over in 2005 when the governor was impeached over money laundering, then was picked as running mate by Umaru Yar'Adua, who won the presidency in 2007. During Yar'Adua's long illness, the National Assembly made him acting president in February 2010, and he was sworn in as head of state when Yar'Adua died in May. Elected in his own right in 2011, he launched reforms in power and agriculture, but his term was clouded by corruption and by the Boko Haram insurgency, epitomised by the abduction of 276 schoolgirls at Chibok in April 2014. Defeated by Muhammadu Buhari in March 2015, he conceded before the count was even complete, a first for a sitting Nigerian president."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur de Bayelsa de 2005 à 2007, puis vice-président du Nigeria",
+      "Président par intérim en février 2010, chef de l'État en mai 2010",
+      "Élu président lors du scrutin d'avril 2011",
+      "Premier président sortant nigérian à reconnaître sa défaite, en 2015"
+    ],
+    "en": [
+      "Governor of Bayelsa from 2005 to 2007, then vice president of Nigeria",
+      "Acting president in February 2010, head of state from May 2010",
+      "Won the presidential election of April 2011",
+      "First sitting Nigerian president to concede defeat, in 2015"
+    ]
+  },
+  "legacy": {
+    "fr": "Son acceptation rapide de la défaite de 2015 est saluée comme un moment clé pour la démocratie nigériane, malgré un bilan sécuritaire très critiqué.",
+    "en": "His swift acceptance of defeat in 2015 is hailed as a milestone for Nigerian democracy, despite a widely criticised security record."
   }
 }

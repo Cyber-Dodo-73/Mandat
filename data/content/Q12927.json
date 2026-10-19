@@ -30,5 +30,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1968 à Neuilly-sur-Seine, benjamine des trois filles de Jean-Marie Le Pen, elle a huit ans lorsqu'un attentat à la bombe détruit l'appartement familial à Paris en 1976. Diplômée en droit, elle exerce comme avocate au barreau de Paris dans les années 1990 avant de rejoindre le service juridique du Front national. Élue au Parlement européen en 2004, elle y siège jusqu'en 2017 tout en s'implantant dans le bassin minier, autour d'Hénin-Beaumont. En janvier 2011, elle succède à son père à la tête du parti et engage une stratégie de « dédiabolisation », jusqu'à exclure Jean-Marie Le Pen du mouvement en 2015 après de nouveaux propos sur les chambres à gaz. Troisième de la présidentielle de 2012 avec près de 18 %, elle se qualifie pour le second tour en 2017 puis en 2022, battue deux fois par Emmanuel Macron, avec environ 34 % puis 41,5 % des voix. Députée du Pas-de-Calais depuis 2017, elle rebaptise le parti Rassemblement national en 2018, confie sa présidence à Jordan Bardella en 2022 et prend la tête de son groupe parlementaire, devenu le plus nombreux de l'Assemblée après les législatives de 2024. Le 31 mars 2025, le tribunal de Paris la condamne pour détournement de fonds publics dans l'affaire des assistants parlementaires européens, à quatre ans de prison dont deux ferme aménagés et à cinq ans d'inéligibilité avec exécution immédiate. Elle a fait appel de cette décision, qui pèse directement sur sa possible candidature en 2027.",
+    "en": "Born in 1968 in Neuilly-sur-Seine, the youngest of Jean-Marie Le Pen's three daughters, she was eight when a bomb wrecked the family's Paris flat in 1976. After studying law she practised as a lawyer in Paris in the 1990s, then joined the National Front's legal department. Elected to the European Parliament in 2004, she sat there until 2017 while building a local base in the former mining towns around Hénin-Beaumont. In January 2011 she took over the party from her father and set out to clean up its image, going as far as expelling him in 2015 after he repeated remarks about the gas chambers. She came third in the 2012 presidential race with almost 18%, then reached the run-off in 2017 and 2022, losing both times to Emmanuel Macron with roughly 34% and then 41.5%. An MP for Pas-de-Calais since 2017, she renamed the party National Rally in 2018, handed its presidency to Jordan Bardella in 2022 and led its group in parliament, which became the largest single group after the 2024 snap election. On 31 March 2025 a Paris court convicted her of embezzling public funds through European Parliament assistants, sentencing her to four years, two of them to be served under electronic tag, and five years' ineligibility with immediate effect. She appealed, and the outcome bears directly on whether she can run in 2027."
+  },
+  "highlights": {
+    "fr": [
+      "Présidente du Front national puis du RN de 2011 à 2022",
+      "Qualifiée au second tour de la présidentielle en 2017 et en 2022",
+      "41,5 % des voix au second tour de 2022, record pour son camp",
+      "Rebaptise le parti Rassemblement national en 2018",
+      "Condamnée en première instance le 31 mars 2025, elle fait appel"
+    ],
+    "en": [
+      "Led the National Front, then the National Rally, from 2011 to 2022",
+      "Reached the presidential run-off in 2017 and 2022",
+      "Won 41.5% in the 2022 run-off, her camp's best score",
+      "Renamed the party National Rally in 2018",
+      "Convicted at first instance on 31 March 2025; she appealed"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a fait de l'extrême droite française une force électorale de premier plan, aux portes du pouvoir. Sa condamnation pour détournement de fonds publics a ouvert un débat durable sur l'inéligibilité des élus.",
+    "en": "She turned the French far right into a leading electoral force within reach of power. Her conviction for embezzling public funds sparked a lasting debate over barring elected officials from office."
   }
 }

@@ -32,5 +32,27 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "John Sidney McCain III naît en 1936 sur une base navale de la zone du canal de Panama, fils et petit-fils d'amiraux. Diplômé de l'Académie navale en 1958, il devient pilote de l'aéronavale. En octobre 1967, son avion est abattu au-dessus de Hanoï : grièvement blessé, il passe plus de cinq ans en captivité, subit la torture et refuse une libération anticipée offerte en raison du rang de son père. Libéré en 1973, il quitte la marine en 1981, s'installe en Arizona et est élu à la Chambre des représentants en 1982. Sénateur de l'Arizona à partir de 1987, il se forge une réputation de franc-tireur républicain, notamment avec la loi McCain-Feingold de 2002 sur le financement des campagnes. Battu par George W. Bush lors des primaires de 2000, il obtient l'investiture républicaine en 2008 avec Sarah Palin comme colistière, mais perd face à Barack Obama. Faucon en politique étrangère, il soutient les interventions en Irak et se rend à Kiev pendant l'Euromaïdan fin 2013. Atteint d'un cancer du cerveau, il meurt en août 2018 dans le comté de Yavapai, en Arizona.",
+    "en": "John Sidney McCain III was born in 1936 at a naval air station in the Panama Canal Zone, the son and grandson of admirals. After graduating from the Naval Academy in 1958 he became a naval aviator. In October 1967 he was shot down over Hanoi: badly injured, he spent more than five years as a prisoner of war, was tortured, and refused an early release offered because of his father's rank. Freed in 1973, he left the Navy in 1981, settled in Arizona and was elected to the House of Representatives in 1982. A senator for Arizona from 1987, he built a reputation as a Republican maverick, notably with the 2002 McCain-Feingold campaign finance law. Beaten by George W. Bush in the 2000 primaries, he won the Republican nomination in 2008 with Sarah Palin as his running mate, but lost to Barack Obama. A foreign policy hawk, he backed the interventions in Iraq and travelled to Kyiv during the Euromaidan protests in late 2013. Diagnosed with brain cancer, he died in August 2018 in Yavapai County, Arizona."
+  },
+  "highlights": {
+    "fr": [
+      "Prisonnier de guerre au Nord-Vietnam de 1967 à 1973",
+      "Sénateur de l'Arizona pendant 31 ans (1987-2018)",
+      "Coauteur de la loi McCain-Feingold sur le financement électoral (2002)",
+      "Candidat républicain à la présidentielle de 2008 face à Barack Obama"
+    ],
+    "en": [
+      "Prisoner of war in North Vietnam from 1967 to 1973",
+      "Senator for Arizona for 31 years (1987-2018)",
+      "Co-sponsored the McCain-Feingold campaign finance law (2002)",
+      "Republican presidential nominee in 2008 against Barack Obama"
+    ]
+  },
+  "legacy": {
+    "fr": "Ancien prisonnier devenu sénateur indépendant d'esprit, il reste une référence d'un conservatisme attaché aux alliances, au compromis et au service public.",
+    "en": "The former prisoner of war turned independent-minded senator remains a reference point for a conservatism committed to alliances, compromise and public service."
   }
 }

@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Georges Clemenceau naît en 1841 à Mouilleron-en-Pareds, en Vendée, dans une famille républicaine. Médecin à Paris, il séjourne plusieurs années aux États-Unis avant de devenir maire de Montmartre en 1870, pendant le siège de Paris. Élu député en 1871, il démissionne pour protester contre la cession de l'Alsace-Moselle. Revenu à la Chambre de 1876 à 1893, il mène l'aile radicale, combat la politique coloniale de Jules Ferry et fait tomber de nombreux ministères. Éclaboussé par le scandale de Panama, il perd son siège en 1893 et se consacre au journalisme ; en janvier 1898, son journal L'Aurore publie « J'accuse… » de Zola, titre qu'il a choisi, en faveur de Dreyfus. Sénateur du Var à partir de 1902, il devient ministre de l'Intérieur en 1906 puis président du Conseil jusqu'en 1909 ; il crée un ministère du Travail mais réprime durement grèves et révoltes vigneronnes. En novembre 1917, au plus noir de la guerre, il revient à la tête du gouvernement et au ministère de la Guerre, traque le défaitisme et soutient le commandement unique de Foch. Après la victoire de 1918, il négocie le traité de Versailles. Battu à l'élection présidentielle de janvier 1920, il se retire et meurt à Paris en 1929.",
+    "en": "Georges Clemenceau was born in 1841 in Mouilleron-en-Pareds, in the Vendée, into a republican family. A doctor in Paris, he spent several years in the United States before becoming mayor of Montmartre in 1870, during the siege of Paris. Elected to the National Assembly in 1871, he resigned in protest at the surrender of Alsace-Moselle. Back in the Chamber from 1876 to 1893, he led its Radical wing, attacked Jules Ferry's colonial policy and brought down a string of governments. Tarnished by the Panama scandal, he lost his seat in 1893 and turned to journalism; in January 1898 his paper L'Aurore ran Zola's J'accuse, a headline he chose, in defence of Dreyfus. A senator for the Var from 1902, he became interior minister in 1906 and then prime minister until 1909, creating a labour ministry while harshly suppressing strikes and the winegrowers' revolt. In November 1917, at the darkest point of the war, he returned as prime minister and war minister, hunted down defeatism and backed a unified command under Foch. After victory in 1918 he negotiated the Treaty of Versailles. Defeated in the presidential election of January 1920, he retired and died in Paris in 1929."
+  },
+  "highlights": {
+    "fr": [
+      "Maire de Montmartre pendant le siège de Paris en 1870",
+      "Publie « J'accuse… » de Zola dans L'Aurore en janvier 1898",
+      "Président du Conseil de 1906 à 1909, crée le ministère du Travail",
+      "Chef du gouvernement et de la Guerre de 1917 à 1920, vainqueur en 1918",
+      "Principal négociateur français du traité de Versailles (1919)"
+    ],
+    "en": [
+      "Mayor of Montmartre during the 1870 siege of Paris",
+      "Ran Zola's J'accuse in L'Aurore in January 1898",
+      "Prime minister 1906–1909, created France's labour ministry",
+      "Prime minister and war minister 1917–1920, victor of 1918",
+      "France's chief negotiator of the Treaty of Versailles (1919)"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé le « Père la Victoire » et le « Tigre », il incarne la fermeté républicaine en temps de guerre ; la paix de Versailles qu'il a voulue reste discutée.",
+    "en": "Nicknamed the Tiger and Father of Victory, he embodies republican resolve in wartime, though the Versailles peace he shaped is still debated."
   }
 }

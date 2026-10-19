@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Charlie Kirk naît en 1993 à Arlington Heights, dans la banlieue de Chicago, et s'intéresse très tôt à la politique au lycée de Wheeling. En 2012, à dix-huit ans, il cofonde Turning Point USA, une association destinée à diffuser les idées conservatrices sur les campus américains, et il délaisse rapidement ses études au Harper College. Sous sa direction, l'organisation grandit vite grâce à de riches donateurs, à des tournées universitaires et à une présence massive sur les réseaux sociaux. Il anime aussi une émission quotidienne et devient l'une des voix les plus écoutées de la jeune droite, souvent critiqué pour ses positions sur l'immigration, la race ou le genre. Proche de Donald Trump et de son entourage, il mobilise les électeurs jeunes lors des campagnes de 2016, 2020 puis 2024. Le 10 septembre 2025, il est tué par balle alors qu'il s'exprime devant des étudiants à l'université d'Utah Valley, à Orem. Sa mort provoque une vive émotion et de violents débats sur la violence politique aux États-Unis. Quelques semaines plus tard, Trump lui décerne à titre posthume la médaille présidentielle de la Liberté.",
+    "en": "Charlie Kirk was born in 1993 in Arlington Heights, a Chicago suburb, and was drawn to politics while still at Wheeling High School. In 2012, aged eighteen, he co-founded Turning Point USA, a group meant to spread conservative ideas on American campuses, and soon left his studies at Harper College behind. Under his leadership the organization grew fast, fuelled by wealthy donors, campus tours and a huge social media presence. He also hosted a daily show and became one of the most influential voices of the young right, while drawing criticism for his views on immigration, race and gender. Close to Donald Trump and his circle, he worked to turn out young voters in the 2016, 2020 and 2024 campaigns. On 10 September 2025 he was shot dead while speaking to students at Utah Valley University in Orem. His killing caused widespread shock and fierce arguments over political violence in the United States. A few weeks later, Trump awarded him the Presidential Medal of Freedom posthumously."
+  },
+  "highlights": {
+    "fr": [
+      "Cofonde Turning Point USA en 2012, à 18 ans",
+      "Dirige l'organisation pendant treize ans jusqu'à en faire un poids lourd du militantisme conservateur",
+      "Classé parmi les « 30 Under 30 » de Forbes en 2018",
+      "Mobilise le vote jeune en faveur de Donald Trump lors de la présidentielle de 2024",
+      "Tué par balle à Orem (Utah) le 10 septembre 2025, décoré à titre posthume"
+    ],
+    "en": [
+      "Co-founded Turning Point USA in 2012, aged 18",
+      "Ran the group for thirteen years, building it into a heavyweight of conservative activism",
+      "Named to the Forbes 30 Under 30 list in 2018",
+      "Mobilized young voters for Donald Trump in the 2024 presidential election",
+      "Shot dead in Orem, Utah, on 10 September 2025; given a posthumous medal"
+    ]
+  },
+  "legacy": {
+    "fr": "Turning Point USA lui survit comme l'un des principaux réseaux de la jeunesse conservatrice, et son assassinat est devenu un symbole de la polarisation violente de la vie politique américaine.",
+    "en": "Turning Point USA outlives him as one of the main networks of young conservatives, and his assassination has become a symbol of the violent polarization of American politics."
   }
 }

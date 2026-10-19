@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Hosni Moubarak naît en 1928 dans le gouvernorat de Ménoufia, dans le delta du Nil, et sort de l'Académie militaire en 1949 avant de rejoindre l'armée de l'air. Formé en Union soviétique, il gravit les échelons jusqu'à prendre la tête de l'aviation égyptienne en 1972, dont les frappes ouvrent la guerre d'octobre 1973 contre Israël. Nommé vice-président par Anouar el-Sadate en 1975, il se trouve à ses côtés lors de son assassinat le 6 octobre 1981 et lui succède dans la foulée. Il maintient l'état d'urgence pendant tout son règne et conserve la paix avec Israël, tout en obtenant la réintégration de l'Égypte dans la Ligue arabe en 1989. Allié des États-Unis, il engage l'armée égyptienne dans la coalition contre l'Irak en 1991. Dans les années 1990, il affronte une insurrection islamiste, marquée par le massacre de Louxor en 1997, et réprime durement opposants et Frères musulmans. Réélu par des référendums puis, en 2005, lors d'un scrutin pluraliste contesté, il semble préparer la succession de son fils Gamal. Le 25 janvier 2011, un soulèvement populaire centré sur la place Tahrir fait des centaines de morts ; le 11 février, il est contraint de démissionner. Condamné à perpétuité en 2012 pour la mort de manifestants, il est finalement acquitté en 2017, mais reste condamné pour détournement de fonds, et meurt au Caire en février 2020.",
+    "en": "Hosni Mubarak was born in 1928 in Monufia governorate in the Nile Delta and graduated from the Military Academy in 1949 before joining the air force. Trained in the Soviet Union, he rose to command the Egyptian air force in 1972, whose strikes opened the October 1973 war against Israel. Made vice president by Anwar Sadat in 1975, he was beside him when he was assassinated on 6 October 1981 and succeeded him at once. He kept emergency law in force throughout his rule and upheld the peace with Israel, while securing Egypt's return to the Arab League in 1989. A US ally, he sent Egyptian troops to join the coalition against Iraq in 1991. In the 1990s he faced an Islamist insurgency, including the 1997 Luxor massacre, and cracked down hard on opponents and the Muslim Brotherhood. Re-elected through referendums and then, in 2005, in a disputed multi-candidate vote, he appeared to be grooming his son Gamal to succeed him. From 25 January 2011 a popular uprising centred on Tahrir Square left hundreds dead, and on 11 February he was forced to resign. Sentenced to life in 2012 over the killing of protesters, he was finally acquitted in 2017 but kept a conviction for embezzlement, and he died in Cairo in February 2020."
+  },
+  "highlights": {
+    "fr": [
+      "Commandant de l'armée de l'air égyptienne lors de la guerre de 1973",
+      "Président de l'Égypte d'octobre 1981 à février 2011",
+      "Réintégration de l'Égypte dans la Ligue arabe en 1989",
+      "Participe à la coalition contre l'Irak en 1991",
+      "Renversé par le soulèvement de la place Tahrir en 2011"
+    ],
+    "en": [
+      "Commanded the Egyptian air force in the 1973 war",
+      "President of Egypt from October 1981 to February 2011",
+      "Brought Egypt back into the Arab League in 1989",
+      "Joined the coalition against Iraq in 1991",
+      "Toppled by the Tahrir Square uprising in 2011"
+    ]
+  },
+  "legacy": {
+    "fr": "Ses trente ans de pouvoir sous état d'urgence et sa chute en 2011 restent emblématiques des printemps arabes et de leurs espoirs déçus.",
+    "en": "His thirty years of rule under emergency law and his fall in 2011 remain emblematic of the Arab Spring and its dashed hopes."
   }
 }

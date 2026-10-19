@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Fils d'un forgeron, Mahmoud Ahmadinejad naît en 1956 à Aradan, dans la province de Semnan, et grandit à Téhéran. Il entre en 1975 à l'Université iranienne des sciences et technologies, où il milite dans les associations étudiantes islamiques après la révolution de 1979, puis obtient un doctorat en ingénierie des transports. Pendant la guerre Iran-Irak, il est lié aux Gardiens de la révolution, avant de gouverner la province d'Ardabil de 1993 à 1997. Élu maire de Téhéran en 2003, il remporte en 2005, à la surprise générale, le second tour de la présidentielle face à l'ancien président Hachemi Rafsandjani. Il relance l'enrichissement d'uranium, ce qui vaut à l'Iran plusieurs résolutions de sanctions du Conseil de sécurité de l'ONU à partir de 2006. La même année, il organise à Téhéran une conférence négationniste sur la Shoah et multiplie les déclarations hostiles à l'existence d'Israël. Sa réélection proclamée en juin 2009 est contestée par des foules immenses : la répression du Mouvement vert fait des dizaines de morts et des milliers d'arrestations, suivies de procès collectifs. Son second mandat est marqué par une forte inflation et un conflit ouvert avec le Guide suprême Ali Khamenei. Il quitte la présidence en 2013 et voit ensuite ses candidatures rejetées par le Conseil des gardiens en 2017, 2021 et 2024.",
+    "en": "The son of a blacksmith, Mahmoud Ahmadinejad was born in 1956 in Aradan, Semnan province, and grew up in Tehran. He enrolled in 1975 at the Iran University of Science and Technology, where he was active in Islamic student groups after the 1979 revolution, and later earned a doctorate in transport engineering. During the Iran-Iraq War he was linked to the Revolutionary Guards, before serving as governor of Ardabil province from 1993 to 1997. Elected mayor of Tehran in 2003, he unexpectedly won the 2005 presidential run-off against former president Akbar Hashemi Rafsanjani. He restarted uranium enrichment, bringing a series of UN Security Council sanctions resolutions on Iran from 2006 onwards. That same year he hosted a Holocaust-denial conference in Tehran, and he repeatedly questioned Israel's right to exist. His declared re-election in June 2009 was contested by huge crowds; the crackdown on the Green Movement left dozens dead and thousands arrested, followed by mass trials. His second term brought high inflation and an open feud with Supreme Leader Ali Khamenei. He left office in 2013 and was later barred from running by the Guardian Council in 2017, 2021 and 2024."
+  },
+  "highlights": {
+    "fr": [
+      "Maire de Téhéran de 2003 à 2005",
+      "Président de l'Iran de 2005 à 2013",
+      "Relance l'enrichissement d'uranium, sanctions de l'ONU dès 2006",
+      "Conférence négationniste à Téhéran en décembre 2006",
+      "Réélection contestée de 2009, suivie d'une répression meurtrière"
+    ],
+    "en": [
+      "Mayor of Tehran from 2003 to 2005",
+      "President of Iran from 2005 to 2013",
+      "Restarted uranium enrichment, drawing UN sanctions from 2006",
+      "Hosted a Holocaust-denial conference in Tehran in December 2006",
+      "Disputed 2009 re-election followed by a deadly crackdown"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa présidence reste associée à l'isolement international de l'Iran et à la répression de 2009. Écarté par le régime, il a gardé une base populiste sans pouvoir réel.",
+    "en": "His presidency is remembered for Iran's international isolation and the 2009 crackdown. Sidelined by the regime, he kept a populist following without real power."
   }
 }

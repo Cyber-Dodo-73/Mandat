@@ -32,5 +32,29 @@
         "value": "medieval"
       }
     }
+  },
+  "story": {
+    "fr": "Né vers 272 à Naissus, l'actuelle Niš en Serbie, Constantin est le fils de l'officier Constance Chlore, qui devient l'un des quatre empereurs de la tétrarchie instaurée par Dioclétien. À la mort de son père à York en 306, les troupes de Bretagne le proclament empereur, ouvrant près de vingt ans de guerres civiles. Le 28 octobre 312, il bat son rival Maxence au pont Milvius, près de Rome, une victoire qu'il attribue au Dieu des chrétiens. L'année suivante, l'accord de Milan conclu avec Licinius garantit la liberté de culte et la restitution des biens confisqués aux Églises. En 324, il élimine Licinius et règne seul sur l'ensemble de l'Empire romain. Il réunit en 325 le concile de Nicée pour trancher la querelle arienne et fixer une profession de foi commune. Il fonde sur le site de Byzance une nouvelle capitale, inaugurée en 330 sous le nom de Constantinople, et introduit une monnaie d'or stable, le solidus. Son règne a aussi ses zones d'ombre, comme l'exécution de son fils Crispus et de son épouse Fausta en 326. Baptisé sur son lit de mort, il s'éteint près de Nicomédie en 337.",
+    "en": "Born around 272 at Naissus, today's Niš in Serbia, Constantine was the son of the officer Constantius Chlorus, who became one of the four rulers of Diocletian's Tetrarchy. When his father died at York in 306, the army in Britain proclaimed him emperor, opening nearly two decades of civil war. On 28 October 312 he defeated his rival Maxentius at the Milvian Bridge outside Rome, a victory he credited to the Christian God. The following year his agreement with Licinius at Milan guaranteed freedom of worship and the return of property seized from the churches. In 324 he disposed of Licinius and ruled the whole Roman Empire alone. In 325 he summoned the Council of Nicaea to settle the Arian dispute and agree a common creed. He refounded Byzantium as a new capital, dedicated in 330 as Constantinople, and introduced a stable gold coin, the solidus. His reign had darker episodes too, such as the execution of his son Crispus and his wife Fausta in 326. Baptised on his deathbed, he died near Nicomedia in 337."
+  },
+  "highlights": {
+    "fr": [
+      "Proclamé empereur par l'armée à York en 306",
+      "Remporte la bataille du pont Milvius contre Maxence en 312",
+      "Accorde la liberté de culte aux chrétiens en 313",
+      "Réunit le concile de Nicée en 325",
+      "Inaugure Constantinople comme nouvelle capitale en 330"
+    ],
+    "en": [
+      "Proclaimed emperor by the army at York in 306",
+      "Won the Battle of the Milvian Bridge against Maxentius in 312",
+      "Granted Christians freedom of worship in 313",
+      "Convened the Council of Nicaea in 325",
+      "Dedicated Constantinople as the new capital in 330"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier empereur chrétien, il a placé l'Église au cœur de l'État romain et fondé la ville qui sera pendant plus de mille ans la capitale de l'Empire byzantin.",
+    "en": "The first Christian emperor, he placed the Church at the heart of the Roman state and founded the city that would be the Byzantine capital for over a thousand years."
   }
 }

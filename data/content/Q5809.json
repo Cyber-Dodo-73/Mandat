@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1928 à Rosario, en Argentine, Ernesto Guevara étudie la médecine à Buenos Aires et parcourt l'Amérique latine à moto au début des années 1950, découvrant la pauvreté du continent. Témoin au Guatemala du renversement du président Árbenz en 1954, soutenu par la CIA, il se radicalise et rejoint au Mexique les exilés cubains de Fidel Castro, qui le surnomment « Che ». Débarqué à Cuba en 1956, il devient l'un des principaux commandants de la guérilla et remporte en décembre 1958 la bataille de Santa Clara, décisive pour la chute de Batista. Après la victoire, il dirige la prison de La Cabaña, où des centaines d'opposants et d'anciens membres du régime sont exécutés après des procès sommaires. Président de la Banque nationale puis ministre de l'Industrie à partir de 1961, il pousse à une économie planifiée et à l'alliance avec l'URSS. En 1965, il quitte Cuba pour tenter d'exporter la révolution, d'abord sans succès au Congo, puis en Bolivie. Capturé par l'armée bolivienne, il est exécuté à La Higuera le 9 octobre 1967.",
+    "en": "Born in Rosario, Argentina, in 1928, Ernesto Guevara studied medicine in Buenos Aires and travelled across Latin America by motorcycle in the early 1950s, confronting the continent's poverty. After witnessing the CIA-backed overthrow of President Árbenz in Guatemala in 1954, he turned radical and joined Fidel Castro's Cuban exiles in Mexico, who nicknamed him Che. Landing in Cuba in 1956, he became one of the guerrillas' top commanders and won the battle of Santa Clara in December 1958, which sealed Batista's fall. After the victory he ran La Cabaña prison, where hundreds of opponents and former regime officials were executed after summary trials. Head of the national bank and then minister of industry from 1961, he pushed for a planned economy and an alliance with the Soviet Union. In 1965 he left Cuba to export revolution, first unsuccessfully in the Congo, then in Bolivia. Captured by the Bolivian army, he was executed at La Higuera on 9 October 1967."
+  },
+  "highlights": {
+    "fr": [
+      "Commandant de la guérilla cubaine à partir de 1956",
+      "Remporte la bataille de Santa Clara en décembre 1958",
+      "Dirige en 1959 la prison de La Cabaña, lieu d'exécutions sommaires",
+      "Ministre de l'Industrie de Cuba de 1961 à 1965",
+      "Exécuté en Bolivie le 9 octobre 1967"
+    ],
+    "en": [
+      "Guerrilla commander in Cuba from 1956",
+      "Won the battle of Santa Clara in December 1958",
+      "Ran La Cabaña prison in 1959, a site of summary executions",
+      "Cuba's minister of industry from 1961 to 1965",
+      "Executed in Bolivia on 9 October 1967"
+    ]
+  },
+  "legacy": {
+    "fr": "Son portrait au béret est devenu une icône mondiale de la révolte, tandis que son rôle dans les exécutions et la répression reste vivement dénoncé.",
+    "en": "His bereted portrait became a worldwide icon of rebellion, while his role in executions and repression remains sharply condemned."
   }
 }

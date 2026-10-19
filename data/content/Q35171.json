@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Fils d'un pasteur presbytérien, Stephen Grover Cleveland naît en 1837 à Caldwell, dans le New Jersey, et grandit dans l'État de New York. Il devient avocat à Buffalo, où il est shérif du comté d'Érié de 1871 à 1873. Élu maire de Buffalo en 1882 sur un programme de lutte contre la corruption, il est dès l'année suivante gouverneur de l'État de New York. Candidat démocrate en 1884, il bat de justesse James G. Blaine et devient le premier démocrate à entrer à la Maison-Blanche depuis la guerre de Sécession. Durant son premier mandat, il oppose son veto à des centaines de lois, notamment des pensions individuelles, et réclame une baisse des droits de douane. En 1888, il remporte le vote populaire mais perd au collège électoral face à Benjamin Harrison. Il prend sa revanche en 1892 et reste le seul président, avec Donald Trump, à avoir exercé deux mandats non consécutifs. Son second mandat est marqué par la panique financière de 1893, une grave dépression et l'envoi de troupes fédérales contre la grève Pullman de 1894. Retiré à Princeton, il y meurt en 1908.",
+    "en": "The son of a Presbyterian minister, Stephen Grover Cleveland was born in 1837 in Caldwell, New Jersey, and grew up in New York State. He became a lawyer in Buffalo and served as sheriff of Erie County from 1871 to 1873. Elected mayor of Buffalo in 1882 on an anti-corruption platform, he was governor of New York the very next year. As the Democratic candidate in 1884 he narrowly beat James G. Blaine, becoming the first Democrat in the White House since the Civil War. In his first term he vetoed hundreds of bills, many of them private pension grants, and pushed for lower tariffs. In 1888 he won the popular vote but lost the Electoral College to Benjamin Harrison. He won a rematch in 1892, and he and Donald Trump are the only presidents to have served two non-consecutive terms. His second term was dominated by the Panic of 1893, a deep depression, and his decision to send federal troops against the Pullman strike of 1894. He retired to Princeton, where he died in 1908."
+  },
+  "highlights": {
+    "fr": [
+      "Maire de Buffalo en 1882, gouverneur de New York en 1883",
+      "Premier président démocrate élu après la guerre de Sécession, en 1884",
+      "Président de 1885 à 1889 puis de 1893 à 1897",
+      "Envoie l'armée fédérale contre la grève Pullman en 1894"
+    ],
+    "en": [
+      "Mayor of Buffalo in 1882, governor of New York in 1883",
+      "First Democrat elected president after the Civil War, in 1884",
+      "President from 1885 to 1889 and from 1893 to 1897",
+      "Sent federal troops against the Pullman strike in 1894"
+    ]
+  },
+  "legacy": {
+    "fr": "Il est surtout cité comme le 22e et le 24e président, longtemps le seul à avoir été réélu après une défaite, et pour son usage record du veto.",
+    "en": "He is mostly cited as both the 22nd and 24th president, long the only one to return after a defeat, and for his record use of the veto."
   }
 }

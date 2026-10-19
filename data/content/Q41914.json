@@ -32,5 +32,27 @@
         "value": "diplomacy"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1932 à Gah, dans le Pendjab aujourd'hui pakistanais, Manmohan Singh gagne l'Inde avec sa famille lors de la Partition de 1947. Économiste formé à Cambridge puis à Oxford, il travaille pour les Nations unies avant d'occuper de hautes fonctions publiques à New Delhi. Il est gouverneur de la Banque centrale de 1982 à 1985, puis vice-président de la Commission du Plan. En 1991, alors que l'Inde est au bord de la faillite, le Premier ministre Narasimha Rao en fait son ministre des Finances : il dévalue la roupie, démantèle le système des licences et ouvre l'économie aux investissements étrangers. Sénateur de l'Assam à la Rajya Sabha à partir de 1991, il y dirige l'opposition de 1998 à 2004. Après la victoire du Congrès en 2004, Sonia Gandhi lui confie le poste de Premier ministre, faisant de lui le premier sikh à l'occuper. Il conclut en 2008 un accord nucléaire civil avec les États-Unis et préside à une décennie de forte croissance. Son second mandat est terni par des scandales de corruption dans son gouvernement, et le Congrès est battu en 2014. Retiré du Parlement en 2024, il meurt à New Delhi en décembre de la même année, à 92 ans.",
+    "en": "Born in 1932 in Gah, in a part of Punjab now in Pakistan, Manmohan Singh moved to India with his family during the 1947 Partition. An economist trained at Cambridge and Oxford, he worked for the United Nations before taking senior posts in New Delhi. He was governor of the central bank from 1982 to 1985 and then deputy chairman of the Planning Commission. In 1991, with India close to defaulting, Prime Minister Narasimha Rao named him finance minister: he devalued the rupee, dismantled the licence system and opened the economy to foreign investment. Sitting in the Rajya Sabha for Assam from 1991, he led the opposition there from 1998 to 2004. After Congress won the 2004 election, Sonia Gandhi handed him the premiership, making him the first Sikh to hold it. He sealed a civil nuclear deal with the United States in 2008 and presided over a decade of fast growth. His second term was dogged by corruption scandals involving his government, and Congress was routed in 2014. He left Parliament in 2024 and died in New Delhi that December, aged 92."
+  },
+  "highlights": {
+    "fr": [
+      "1982 : nommé gouverneur de la Banque de réserve de l'Inde",
+      "1991 : ministre des Finances, lance la libéralisation de l'économie indienne",
+      "2004 : devient le premier sikh Premier ministre de l'Inde",
+      "2008 : conclut l'accord nucléaire civil indo-américain"
+    ],
+    "en": [
+      "1982: appointed governor of the Reserve Bank of India",
+      "1991: as finance minister, launched the liberalisation of India's economy",
+      "2004: became India's first Sikh prime minister",
+      "2008: concluded the India–US civil nuclear agreement"
+    ]
+  },
+  "legacy": {
+    "fr": "Il est considéré comme l'architecte des réformes de 1991 qui ont ouvert l'Inde au monde. Sa réputation d'intégrité personnelle contraste avec les scandales de son second mandat.",
+    "en": "He is regarded as the architect of the 1991 reforms that opened India to the world. His reputation for personal integrity contrasts with the scandals of his second term."
   }
 }

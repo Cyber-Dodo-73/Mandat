@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Londres en 1957, Tony Abbott arrive en Australie avec sa famille à l'âge de deux ans. Diplômé de l'université de Sydney, il part à Oxford grâce à une bourse Rhodes, où il se distingue aussi en boxe. Après un passage au séminaire, il devient journaliste puis dirige le mouvement Australiens pour une monarchie constitutionnelle. Élu député de Warringah en 1994, il entre au gouvernement de John Howard en 2001, comme ministre de l'Emploi puis de la Santé de 2003 à 2007. En décembre 2009, il prend la tête du Parti libéral en battant Malcolm Turnbull d'une seule voix, sur fond de rejet du marché carbone. Après le Parlement suspendu de 2010, il remporte nettement les élections de septembre 2013. Premier ministre, il abroge la taxe carbone en 2014 et lance l'opération Sovereign Borders, qui fait refouler en mer les bateaux de migrants. Un budget d'austérité impopulaire et des décisions contestées, comme l'anoblissement du prince Philip, affaiblissent sa position. En septembre 2015, Turnbull le renverse lors d'un vote interne. Il perd son siège en 2019 face à une candidate indépendante ; en 2026, il prend la présidence du Parti libéral.",
+    "en": "Born in London in 1957, Tony Abbott moved to Australia with his family at the age of two. After graduating from the University of Sydney, he went to Oxford as a Rhodes scholar, where he also boxed for the university. Following a spell in a seminary, he worked as a journalist and then ran Australians for Constitutional Monarchy. Elected member for Warringah in 1994, he joined John Howard's government in 2001, first as employment minister and then as health minister from 2003 to 2007. In December 2009 he seized the Liberal leadership from Malcolm Turnbull by a single vote, riding opposition to an emissions trading scheme. After the hung parliament of 2010, he won the September 2013 election comfortably. As prime minister he repealed the carbon tax in 2014 and launched Operation Sovereign Borders, under which migrant boats were turned back at sea. A harsh, unpopular budget and controversial calls such as knighting Prince Philip eroded his standing. In September 2015 Turnbull ousted him in a party-room ballot. He lost his seat to an independent in 2019 and in 2026 became president of the Liberal Party."
+  },
+  "highlights": {
+    "fr": [
+      "Boursier Rhodes à Oxford en 1981",
+      "Ministre de la Santé de John Howard de 2003 à 2007",
+      "Remporte les élections fédérales de septembre 2013",
+      "Abroge la taxe carbone en juillet 2014"
+    ],
+    "en": [
+      "Rhodes scholar at Oxford in 1981",
+      "Health minister under John Howard from 2003 to 2007",
+      "Won the federal election of September 2013",
+      "Repealed the carbon tax in July 2014"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure de la droite conservatrice australienne, il a durablement marqué les débats sur le climat et sur la politique migratoire de refoulement des bateaux.",
+    "en": "A standard-bearer of Australia's conservative right, he left a lasting mark on the climate debate and on the boat turn-back policy."
   }
 }

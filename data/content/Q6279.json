@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1942 à Scranton, en Pennsylvanie, Joe Biden grandit dans le Delaware, étudie à l'université du Delaware puis le droit à Syracuse. Élu au conseil du comté de New Castle en 1970, il est élu sénateur fédéral en 1972, à 29 ans, quelques semaines avant que sa femme et sa fille ne meurent dans un accident de voiture. Il siège au Sénat pendant 36 ans, présidant notamment les commissions judiciaire et des affaires étrangères, et échoue à deux primaires présidentielles, en 1988 et 2008. Vice-président de Barack Obama de 2009 à 2017, il pilote le plan de relance après la crise financière et reçoit la médaille présidentielle de la liberté en 2017. En 2020, il bat Donald Trump avec plus de 81 millions de voix et prend ses fonctions en janvier 2021, à 78 ans, deux semaines après l'assaut du Capitole. Sa présidence est marquée par un vaste plan d'investissement dans les infrastructures et l'énergie, le retrait chaotique d'Afghanistan en 2021 et le soutien à l'Ukraine envahie par la Russie. En juillet 2024, sous la pression de son camp sur son âge, il renonce à se représenter et laisse la candidature à Kamala Harris, puis quitte la Maison-Blanche en janvier 2025.",
+    "en": "Born in Scranton, Pennsylvania, in 1942, Joe Biden grew up in Delaware, studied at the University of Delaware and took a law degree at Syracuse. Elected to the New Castle County Council in 1970, he won a US Senate seat in 1972 at the age of 29, weeks before his wife and daughter were killed in a car crash. He spent 36 years in the Senate, chairing the judiciary and foreign relations committees, and failed in two presidential primaries, in 1988 and 2008. As Barack Obama's vice president from 2009 to 2017, he oversaw the recovery package after the financial crisis and received the Presidential Medal of Freedom in 2017. In 2020 he defeated Donald Trump with more than 81 million votes and took office in January 2021, aged 78, two weeks after the storming of the Capitol. His presidency brought large investments in infrastructure and clean energy, the chaotic withdrawal from Afghanistan in 2021 and support for Ukraine after Russia's invasion. In July 2024, under pressure from his own party over his age, he ended his re-election bid in favour of Kamala Harris, and he left the White House in January 2025."
+  },
+  "highlights": {
+    "fr": [
+      "Élu sénateur du Delaware en 1972, à 29 ans, et réélu pendant 36 ans",
+      "Vice-président de Barack Obama de 2009 à 2017",
+      "Bat Donald Trump en 2020 avec plus de 81 millions de voix",
+      "Fait voter en 2021 une grande loi sur les infrastructures",
+      "Renonce à briguer un second mandat en juillet 2024"
+    ],
+    "en": [
+      "Elected senator for Delaware in 1972 at 29, serving 36 years",
+      "Vice president under Barack Obama from 2009 to 2017",
+      "Defeated Donald Trump in 2020 with more than 81 million votes",
+      "Signed a major infrastructure bill in 2021",
+      "Withdrew from the race for a second term in July 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Plus vieux président de l'histoire américaine à son entrée en fonction, il a incarné une parenthèse centriste et transatlantique entre les deux mandats de Donald Trump.",
+    "en": "The oldest US president ever inaugurated, he embodied a centrist, pro-alliance interlude between Donald Trump's two terms."
   }
 }

@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1871 à Zamość, en Pologne alors russe, dans une famille juive, Rosa Luxemburg grandit à Varsovie, où elle milite très jeune dans les cercles socialistes. Menacée d'arrestation, elle s'exile en 1889 à Zurich, où elle soutient en 1897 une thèse de doctorat sur le développement industriel de la Pologne. Avec Leo Jogiches, elle fonde le parti social-démocrate du royaume de Pologne, hostile au nationalisme polonais. En 1898, elle s'installe en Allemagne grâce à un mariage blanc et rejoint le Parti social-démocrate, où elle attaque le réformisme d'Eduard Bernstein dans Réforme sociale ou révolution. En 1905, elle rejoint la révolution à Varsovie, est emprisonnée, puis théorise la grève de masse. Elle participe en 1907 au 5e congrès du parti ouvrier social-démocrate de Russie à Londres et enseigne ensuite à l'école du SPD à Berlin, publiant en 1913 L'Accumulation du capital. Opposée à la Première Guerre mondiale, elle passe la majeure partie du conflit en prison et fonde avec Karl Liebknecht la ligue Spartacus. Libérée en novembre 1918, elle cofonde le Parti communiste d'Allemagne le 1er janvier 1919, tout en critiquant l'autoritarisme bolchevique. Lors de l'insurrection spartakiste de janvier 1919, elle est capturée et assassinée le 15 janvier à Berlin par des soldats des corps francs, qui jettent son corps dans le Landwehrkanal.",
+    "en": "Born in 1871 into a Jewish family in Zamość, in Russian-ruled Poland, Rosa Luxemburg grew up in Warsaw and joined socialist circles at a young age. Facing arrest, she went into exile in Zurich in 1889, where in 1897 she defended a doctoral thesis on Poland's industrial development. With Leo Jogiches she founded the Social Democratic Party of the Kingdom of Poland, which opposed Polish nationalism. In 1898 she moved to Germany through a marriage of convenience and joined the Social Democratic Party, attacking Eduard Bernstein's reformism in Social Reform or Revolution. In 1905 she joined the revolution in Warsaw, was jailed, and went on to theorise the mass strike. She attended the 5th Congress of the Russian Social Democratic Labour Party in London in 1907, then taught at the SPD school in Berlin and published The Accumulation of Capital in 1913. Opposed to the First World War, she spent most of it in prison and founded the Spartacus League with Karl Liebknecht. Freed in November 1918, she co-founded the Communist Party of Germany on 1 January 1919, while criticising Bolshevik authoritarianism. During the Spartacist uprising of January 1919 she was captured and murdered in Berlin on 15 January by Freikorps soldiers, who threw her body into the Landwehr Canal."
+  },
+  "highlights": {
+    "fr": [
+      "Doctorat à Zurich en 1897 sur l'industrialisation de la Pologne",
+      "Publie Réforme sociale ou révolution en 1899",
+      "Fonde la ligue Spartacus avec Karl Liebknecht pendant la guerre",
+      "Cofonde le Parti communiste d'Allemagne le 1er janvier 1919"
+    ],
+    "en": [
+      "Doctorate in Zurich in 1897 on Poland's industrialisation",
+      "Published Social Reform or Revolution in 1899",
+      "Founded the Spartacus League with Karl Liebknecht during the war",
+      "Co-founded the Communist Party of Germany on 1 January 1919"
+    ]
+  },
+  "legacy": {
+    "fr": "Théoricienne marxiste à la fois révolutionnaire et attachée à la liberté d'opinion, elle est commémorée chaque janvier à Berlin.",
+    "en": "A Marxist thinker who was both revolutionary and attached to freedom of opinion, she is commemorated in Berlin every January."
   }
 }

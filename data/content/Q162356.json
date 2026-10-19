@@ -36,5 +36,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1537, Jane Grey est la fille aînée d'Henry Grey, marquis de Dorset, et de Frances Brandon, nièce du roi Henri VIII. Elle reçoit une éducation exceptionnelle, lit le latin, le grec et l'hébreu, et vit un temps dans la maison de la reine douairière Catherine Parr, dans un milieu acquis à la Réforme protestante. En mai 1553, elle épouse Guildford Dudley, fils du duc de Northumberland, l'homme fort du gouvernement du jeune Édouard VI. Mourant, le roi modifie l'ordre de succession pour écarter ses demi-sœurs Marie et Élisabeth et désigner Jane, afin de préserver le protestantisme. Édouard meurt le 6 juillet 1553, et elle est proclamée reine le 10 juillet à Londres. Mais Marie Tudor rassemble des partisans dans l'Est de l'Angleterre, et le Conseil privé finit par la reconnaître le 19 juillet, mettant fin à un règne de neuf jours. Enfermée à la Tour de Londres, Jane est jugée en novembre 1553 et condamnée pour haute trahison. Après la révolte de Thomas Wyatt en janvier 1554, à laquelle son père prend part, Marie fait exécuter la sentence : Jane est décapitée le 12 février 1554 à la Tour, à 16 ou 17 ans, le même jour que son mari.",
+    "en": "Born in 1537, Jane Grey was the eldest daughter of Henry Grey, Marquess of Dorset, and Frances Brandon, a niece of King Henry VIII. She received an exceptional education, reading Latin, Greek and Hebrew, and lived for a time in the household of the dowager queen Catherine Parr, in a circle committed to the Protestant Reformation. In May 1553 she married Guildford Dudley, son of the Duke of Northumberland, the dominant figure in young Edward VI's government. The dying king rewrote the succession to exclude his half-sisters Mary and Elizabeth and name Jane, in order to safeguard Protestantism. Edward died on 6 July 1553, and she was proclaimed queen in London on 10 July. But Mary Tudor rallied supporters in the east of England, and the Privy Council recognised her on 19 July, ending a nine-day reign. Imprisoned in the Tower of London, Jane was tried in November 1553 and condemned for high treason. After Thomas Wyatt's rebellion in January 1554, in which her father took part, Mary had the sentence carried out: Jane was beheaded at the Tower on 12 February 1554, aged 16 or 17, on the same day as her husband."
+  },
+  "highlights": {
+    "fr": [
+      "Désignée héritière par Édouard VI en 1553",
+      "Proclamée reine d'Angleterre le 10 juillet 1553",
+      "Règne neuf jours avant d'être écartée par Marie Tudor",
+      "Exécutée à la Tour de Londres le 12 février 1554"
+    ],
+    "en": [
+      "Named heir by Edward VI in 1553",
+      "Proclaimed Queen of England on 10 July 1553",
+      "Reigned nine days before being displaced by Mary Tudor",
+      "Executed at the Tower of London on 12 February 1554"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommée « la reine de neuf jours », elle est restée dans la mémoire anglaise comme une victime des ambitions de son entourage et une martyre protestante.",
+    "en": "Known as the “Nine Days' Queen”, she lives on in English memory as a victim of those around her and as a Protestant martyr."
   }
 }

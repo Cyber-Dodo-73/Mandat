@@ -32,5 +32,29 @@
         "value": "charisma"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1883 à Predappio, en Romagne, fils d'un forgeron socialiste, Benito Mussolini devient instituteur puis journaliste et dirige le quotidien socialiste Avanti! avant d'être exclu du parti en 1914 pour avoir soutenu l'entrée en guerre. Après la Première Guerre mondiale, il fonde à Milan en 1919 les Faisceaux de combat, dont les escouades de chemises noires attaquent violemment syndicalistes et socialistes. La marche sur Rome d'octobre 1922 pousse le roi Victor-Emmanuel III à le nommer président du Conseil. Après l'assassinat du député socialiste Giacomo Matteotti en 1924, il transforme le pays en dictature à parti unique, supprime la presse libre et emprisonne ou exile ses opposants. Il signe avec l'Église les accords du Latran en 1929, puis envahit l'Éthiopie en 1935, une guerre marquée par l'usage de gaz toxiques et des massacres de civils. Allié à Hitler, il promulgue des lois antisémites en 1938 et entre en guerre en juin 1940, accumulant les défaites. Destitué en juillet 1943, il dirige ensuite sous protection allemande la République de Salò, avant d'être capturé et exécuté par des partisans près du lac de Côme en avril 1945.",
+    "en": "Born in 1883 in Predappio, Romagna, the son of a socialist blacksmith, Benito Mussolini became a schoolteacher and then a journalist, editing the socialist daily Avanti! until he was expelled from the party in 1914 for backing Italy's entry into the war. After the First World War he founded the Fasci di Combattimento in Milan in 1919, whose Blackshirt squads violently attacked trade unionists and socialists. The March on Rome in October 1922 led King Victor Emmanuel III to appoint him prime minister. After the murder of the socialist deputy Giacomo Matteotti in 1924, he turned Italy into a one-party dictatorship, abolished the free press and jailed or exiled opponents. He signed the Lateran Pacts with the Church in 1929, then invaded Ethiopia in 1935 in a war marked by poison gas attacks and massacres of civilians. Allied with Hitler, he passed antisemitic racial laws in 1938 and entered the war in June 1940, suffering defeat after defeat. Ousted in July 1943, he then ran the Salò Republic under German protection, before being captured and shot by partisans near Lake Como in April 1945."
+  },
+  "highlights": {
+    "fr": [
+      "Fonde les Faisceaux de combat à Milan en 1919",
+      "Prend le pouvoir après la marche sur Rome d'octobre 1922",
+      "Instaure une dictature à parti unique à partir de 1925",
+      "Envahit l'Éthiopie en 1935, avec usage de gaz toxiques",
+      "Promulgue les lois raciales antisémites de 1938"
+    ],
+    "en": [
+      "Founded the Fasci di Combattimento in Milan in 1919",
+      "Took power after the March on Rome in October 1922",
+      "Built a one-party dictatorship from 1925",
+      "Invaded Ethiopia in 1935, using poison gas",
+      "Enacted the antisemitic racial laws of 1938"
+    ]
+  },
+  "legacy": {
+    "fr": "Inventeur du fascisme, il a servi de modèle à Hitler et a entraîné l'Italie dans une guerre désastreuse et la persécution de ses Juifs.",
+    "en": "The inventor of fascism, he served as a model for Hitler and dragged Italy into a disastrous war and the persecution of its Jews."
   }
 }

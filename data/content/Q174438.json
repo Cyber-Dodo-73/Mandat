@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Née Marie Jana Korbelová à Prague en 1937, fille d'un diplomate tchécoslovaque, Madeleine Albright fuit avec sa famille à Londres en 1939 lors de l'invasion nazie. Après le coup de force communiste de 1948, les siens s'exilent aux États-Unis, où son père enseigne à l'université de Denver. Diplômée de Wellesley puis docteure de Columbia, elle travaille au Conseil de sécurité nationale sous Jimmy Carter, puis enseigne à Georgetown. Bill Clinton la nomme en 1993 ambassadrice aux Nations unies, où elle défend une ligne ferme dans les Balkans. En 1997, elle devient la première femme secrétaire d'État. Elle soutient l'élargissement de l'OTAN à la Pologne, la Hongrie et à son pays natal en 1999, ainsi que l'intervention au Kosovo la même année. En 2000, elle se rend à Pyongyang et rencontre Kim Jong-il. Après 2001, elle enseigne, écrit sur la montée de l'autoritarisme et reçoit en 2012 la médaille présidentielle de la Liberté ; elle meurt à Washington en mars 2022.",
+    "en": "Born Marie Jana Korbelová in Prague in 1937, the daughter of a Czechoslovak diplomat, Madeleine Albright fled with her family to London in 1939 when the Nazis invaded. After the communist takeover of 1948 they went into exile in the United States, where her father taught at the University of Denver. A graduate of Wellesley with a doctorate from Columbia, she worked on the National Security Council under Jimmy Carter and later taught at Georgetown. Bill Clinton named her ambassador to the United Nations in 1993, where she argued for a firm line in the Balkans. In 1997 she became the first woman Secretary of State. She backed NATO's enlargement to Poland, Hungary and her native country in 1999, as well as that year's intervention in Kosovo. In 2000 she travelled to Pyongyang and met Kim Jong-il. After 2001 she taught, wrote about the rise of authoritarianism and received the Presidential Medal of Freedom in 2012; she died in Washington in March 2022."
+  },
+  "highlights": {
+    "fr": [
+      "1993 : ambassadrice des États-Unis auprès de l'ONU",
+      "1997 : première femme secrétaire d'État",
+      "1999 : soutient l'entrée de la Tchéquie, la Pologne et la Hongrie dans l'OTAN",
+      "2000 : rencontre Kim Jong-il à Pyongyang"
+    ],
+    "en": [
+      "1993: US ambassador to the United Nations",
+      "1997: first woman Secretary of State",
+      "1999: backs NATO entry for Czechia, Poland and Hungary",
+      "2000: meets Kim Jong-il in Pyongyang"
+    ]
+  },
+  "legacy": {
+    "fr": "Réfugiée devenue cheffe de la diplomatie américaine, elle a ouvert la voie aux femmes à ce poste et incarné l'interventionnisme libéral des années 1990.",
+    "en": "A refugee who rose to lead American diplomacy, she opened the post to women and embodied the liberal interventionism of the 1990s."
   }
 }

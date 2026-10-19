@@ -36,5 +36,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Arthur Wesley, plus tard Wellesley, naît à Dublin en 1769 dans une famille de l'aristocratie anglo-irlandaise et se forme notamment dans une académie militaire d'Angers. Envoyé en Inde, où son frère Richard est gouverneur général, il participe à la prise de Seringapatam en 1799 et bat les Marathes à Assaye en 1803. En 1808, il prend le commandement des troupes britanniques au Portugal ; retranché derrière les lignes de Torres Vedras en 1810, il repousse ensuite les armées de Napoléon hors de la péninsule, avec les victoires de Salamanque en 1812 et de Vitoria en 1813. Fait duc de Wellington en 1814 après avoir pénétré en France, il commande le 18 juin 1815 l'armée alliée à Waterloo, où l'arrivée des Prussiens de Blücher achève la défaite de Napoléon. Entré au gouvernement, il devient Premier ministre tory en janvier 1828. Malgré ses réticences, il fait voter en 1829 l'émancipation des catholiques pour éviter un soulèvement en Irlande, ce qui lui vaut un duel avec lord Winchilsea. Son refus de toute réforme électorale le fait tomber en novembre 1830. Il dirige brièvement un gouvernement provisoire en 1834, puis le Foreign Office sous Robert Peel, avant de commander l'armée de 1842 à sa mort. Il meurt au château de Walmer en septembre 1852 et reçoit des funérailles nationales à la cathédrale Saint-Paul.",
+    "en": "Arthur Wesley, later Wellesley, was born in Dublin in 1769 into an Anglo-Irish aristocratic family and trained partly at a military academy in Angers. Sent to India, where his brother Richard was Governor-General, he took part in the capture of Seringapatam in 1799 and defeated the Marathas at Assaye in 1803. In 1808 he took command of British forces in Portugal; after holding the Lines of Torres Vedras in 1810, he drove Napoleon's armies out of the peninsula, winning at Salamanca in 1812 and Vitoria in 1813. Made Duke of Wellington in 1814 after crossing into France, he led the allied army at Waterloo on 18 June 1815, where the arrival of Blücher's Prussians completed Napoleon's defeat. Moving into politics, he became Tory prime minister in January 1828. Despite misgivings, he carried Catholic emancipation in 1829 to head off a rising in Ireland, which led to a duel with Lord Winchilsea. His refusal of any electoral reform brought him down in November 1830. He briefly led a caretaker government in 1834, then served as Foreign Secretary under Robert Peel, and was commander-in-chief of the army from 1842 until his death. He died at Walmer Castle in September 1852 and was given a state funeral at St Paul's Cathedral."
+  },
+  "highlights": {
+    "fr": [
+      "Victoire d'Assaye sur les Marathes en 1803",
+      "Chasse les Français de la péninsule Ibérique de 1808 à 1814",
+      "Vainqueur de Napoléon à Waterloo le 18 juin 1815",
+      "Premier ministre du Royaume-Uni de 1828 à 1830",
+      "Émancipation des catholiques votée en 1829"
+    ],
+    "en": [
+      "Defeated the Marathas at Assaye in 1803",
+      "Drove the French from the Iberian Peninsula, 1808–1814",
+      "Defeated Napoleon at Waterloo on 18 June 1815",
+      "Prime Minister of the United Kingdom from 1828 to 1830",
+      "Carried Catholic emancipation in 1829"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé le Duc de fer, il reste le vainqueur de Waterloo, nom donné depuis à une gare, un pont et d'innombrables rues britanniques.",
+    "en": "Nicknamed the Iron Duke, he remains the victor of Waterloo, a name since given to a London station, a bridge and countless British streets."
   }
 }

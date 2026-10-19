@@ -32,5 +32,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Fils de Benjamin Harrison, signataire de la déclaration d'indépendance, William Henry Harrison naît en 1773 sur la plantation familiale du comté de Charles City, en Virginie. Il abandonne des études de médecine pour l'armée et combat en 1794 à la bataille de Fallen Timbers contre une confédération amérindienne. Secrétaire du Territoire du Nord-Ouest en 1798, il le représente au Congrès avant de devenir en 1801 gouverneur du Territoire de l'Indiana. Pendant douze ans, il obtient par des traités, dont celui de Fort Wayne en 1809, la cession de millions d'hectares de terres amérindiennes. En 1811, il affronte à Tippecanoe les guerriers de la confédération de Tecumseh, puis, pendant la guerre de 1812, il bat les Britanniques et leurs alliés à la bataille de la Thames en 1813, où Tecumseh est tué. Il siège ensuite à la Chambre des représentants, au Sénat de 1825 à 1828, puis devient brièvement ambassadeur en Colombie. Battu en 1836, il remporte en 1840 la présidentielle pour les whigs grâce à une campagne populaire résumée par le slogan « Tippecanoe and Tyler too ». Investi le 4 mars 1841, il tombe malade quelques semaines plus tard et meurt à la Maison-Blanche le 4 avril, après seulement 31 jours de mandat.",
+    "en": "The son of Benjamin Harrison, a signer of the Declaration of Independence, William Henry Harrison was born in 1773 on the family plantation in Charles City County, Virginia. He gave up medical studies for the army and fought at the Battle of Fallen Timbers against a Native American confederacy in 1794. Secretary of the Northwest Territory in 1798, he represented it in Congress before becoming governor of Indiana Territory in 1801. Over twelve years he secured, through treaties such as that of Fort Wayne in 1809, the cession of millions of acres of Native land. In 1811 he fought the warriors of Tecumseh's confederacy at Tippecanoe, and during the War of 1812 he defeated the British and their allies at the Battle of the Thames in 1813, where Tecumseh was killed. He then sat in the House of Representatives and in the Senate from 1825 to 1828, before a short posting as minister to Colombia. Beaten in 1836, he won the presidency for the Whigs in 1840 with a populist campaign summed up by the slogan “Tippecanoe and Tyler too”. Inaugurated on 4 March 1841, he fell ill a few weeks later and died in the White House on 4 April, after just 31 days in office."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur du Territoire de l'Indiana de 1801 à 1812",
+      "Combat à Tippecanoe en 1811 contre la confédération de Tecumseh",
+      "Vainqueur de la bataille de la Thames en 1813",
+      "9e président, mort après 31 jours de mandat en avril 1841"
+    ],
+    "en": [
+      "Governor of Indiana Territory from 1801 to 1812",
+      "Fought Tecumseh's confederacy at Tippecanoe in 1811",
+      "Won the Battle of the Thames in 1813",
+      "9th president, died after 31 days in office in April 1841"
+    ]
+  },
+  "legacy": {
+    "fr": "Il détient le record du mandat présidentiel le plus court, et sa mort a fixé la règle selon laquelle le vice-président devient pleinement président.",
+    "en": "He holds the record for the shortest presidency, and his death set the rule that the vice president becomes president in full."
   }
 }

@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1971 au Sud-Kivu, Joseph Kabila grandit en partie en exil en Tanzanie, où son père Laurent-Désiré Kabila dirige une rébellion contre Mobutu. Il combat aux côtés de l'AFDL qui prend Kinshasa en 1997, reçoit une formation militaire en Chine puis devient chef d'état-major de l'armée de terre. Après l'assassinat de son père en janvier 2001, il lui succède à 29 ans. Il obtient les accords de paix de 2002 et la fin officielle de la deuxième guerre du Congo, puis une transition qui débouche en 2006 sur les premières élections pluralistes depuis l'indépendance, qu'il remporte. Réélu en 2011 lors d'un scrutin contesté, il voit l'est du pays rester en proie aux groupes armés, dont le M23. Son second mandat devait s'achever en 2016, mais le report répété des élections provoque des manifestations réprimées dans le sang. Le scrutin de décembre 2018 porte Félix Tshisekedi au pouvoir en janvier 2019. Devenu sénateur à vie, Kabila rompt ensuite avec son successeur.",
+    "en": "Born in South Kivu in 1971, Joseph Kabila spent part of his youth in exile in Tanzania, where his father Laurent-Désiré Kabila led a rebellion against Mobutu. He fought with the AFDL rebels who took Kinshasa in 1997, trained militarily in China and became chief of staff of the land forces. After his father was assassinated in January 2001, he succeeded him at 29. He secured the 2002 peace accords that formally ended the Second Congo War, followed by a transition that led to the first multiparty elections since independence in 2006, which he won. Re-elected in a disputed 2011 vote, he saw the east remain plagued by armed groups such as the M23. His second term was due to end in 2016, but repeated postponements of elections triggered protests that were bloodily suppressed. The December 2018 vote brought Félix Tshisekedi to power in January 2019. Made a senator for life, Kabila later fell out with his successor."
+  },
+  "highlights": {
+    "fr": [
+      "Succède à 29 ans à son père assassiné, en janvier 2001",
+      "Accords de paix de 2002 mettant fin à la deuxième guerre du Congo",
+      "Remporte en 2006 les premières élections pluralistes depuis 1960",
+      "Cède le pouvoir à Félix Tshisekedi en janvier 2019"
+    ],
+    "en": [
+      "Succeeded his assassinated father at 29 in January 2001",
+      "2002 peace accords ending the Second Congo War",
+      "Won the first multiparty elections since 1960 in 2006",
+      "Handed power to Félix Tshisekedi in January 2019"
+    ]
+  },
+  "legacy": {
+    "fr": "Son règne de dix-huit ans a stabilisé l'État congolais sans pacifier l'Est, et la première passation de pouvoir pacifique du pays reste entachée de soupçons de fraude.",
+    "en": "His eighteen-year rule stabilised the Congolese state without pacifying the east, and the country's first peaceful handover remains clouded by fraud allegations."
   }
 }

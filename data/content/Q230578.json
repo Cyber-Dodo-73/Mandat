@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Fernando Henrique Cardoso naît en juin 1931 à Rio de Janeiro dans une famille de militaires et devient sociologue à l’université de São Paulo. Il se fait connaître internationalement par ses travaux sur la théorie de la dépendance, notamment un ouvrage écrit avec Enzo Faletto à la fin des années 1960. Exilé au Chili et en France après le coup d’État de 1964, il rentre en 1968 mais est mis à la retraite d’office par la dictature et fonde un centre de recherche indépendant à São Paulo. Sénateur à partir de 1983, il cofonde en 1988 le Parti de la social-démocratie brésilienne. Ministre des Affaires étrangères puis des Finances du président Itamar Franco, il lance en 1994 le plan Real, qui met fin à des années d’hyperinflation. Ce succès le porte à la présidence dès le premier tour en octobre 1994, et il est réélu en 1998 après une réforme autorisant un second mandat. Il privatise de grandes entreprises publiques comme Vale et les télécommunications, fait adopter une loi de responsabilité budgétaire et crée des aides scolaires, mais doit dévaluer le real en 1999 et affronter un rationnement de l’électricité en 2001. En janvier 2003, il transmet pacifiquement le pouvoir à son adversaire Luiz Inácio Lula da Silva.",
+    "en": "Fernando Henrique Cardoso was born in June 1931 in Rio de Janeiro into a military family and became a sociologist at the University of São Paulo. He gained international recognition for his work on dependency theory, notably a book written with Enzo Faletto in the late 1960s. Exiled to Chile and France after the 1964 coup, he returned in 1968 but was forcibly retired by the dictatorship and founded an independent research centre in São Paulo. A senator from 1983, he co-founded the Brazilian Social Democracy Party in 1988. As foreign minister and then finance minister under President Itamar Franco, he launched the Real Plan in 1994, ending years of hyperinflation. That success carried him to the presidency in the first round in October 1994, and he was re-elected in 1998 after a reform allowing a second term. He privatised large state firms such as Vale and the telephone system, passed a fiscal responsibility law and created school grants, but had to devalue the real in 1999 and impose electricity rationing in 2001. In January 2003 he peacefully handed power to his rival, Luiz Inácio Lula da Silva."
+  },
+  "highlights": {
+    "fr": [
+      "Théoricien de la dépendance, sociologue reconnu dès les années 1960",
+      "Cofonde le Parti de la social-démocratie brésilienne en 1988",
+      "Lance le plan Real contre l’hyperinflation en 1994",
+      "Président du Brésil de 1995 à 2003",
+      "Reçoit le prix Kluge en 2012"
+    ],
+    "en": [
+      "Leading dependency theorist and sociologist from the 1960s",
+      "Co-founded the Brazilian Social Democracy Party in 1988",
+      "Launched the Real Plan against hyperinflation in 1994",
+      "President of Brazil from 1995 to 2003",
+      "Received the Kluge Prize in 2012"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a stabilisé la monnaie brésilienne et consolidé la démocratie retrouvée, posant les bases économiques sur lesquelles ses successeurs ont gouverné.",
+    "en": "He stabilised Brazil's currency and consolidated its restored democracy, laying the economic foundations on which his successors governed."
   }
 }

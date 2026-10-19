@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né vers 1162 près de la rivière Onon, dans l'actuelle province mongole du Khentii, Temüdjin est le fils d'un chef de clan empoisonné quand il est enfant. Abandonnée par le clan, sa famille survit dans la misère, et le jeune homme connaît même la captivité avant de se forger un réseau d'alliés. Par une succession de guerres et d'alliances, il soumet une à une les tribus des steppes, Tatars, Keraïts et Naïmans compris. En 1206, une grande assemblée le proclame Gengis Khan, souverain de tous les Mongols, et il organise son armée en unités décimales fondées sur la loyauté plutôt que sur le clan. Il attaque l'Empire des Xia occidentaux puis la Chine des Jin, dont il prend la capitale Zhongdu, l'actuelle Pékin, en 1215. Entre 1219 et 1221, il détruit l'empire khwarezmien en Asie centrale, rasant des villes comme Boukhara, Samarcande et Merv, où les massacres font des centaines de milliers de victimes. Il meurt en 1227 au cours d'une campagne contre les Xia occidentaux, dont la capitale est détruite.",
+    "en": "Born around 1162 near the Onon River in what is now Mongolia's Khentii province, Temüjin was the son of a clan chief who was poisoned when the boy was young. Abandoned by their clan, his family lived in hardship, and the young man was even held captive before building up a network of allies. Through a series of wars and alliances he subdued the steppe tribes one after another, including the Tatars, Keraites and Naimans. In 1206 a great assembly proclaimed him Genghis Khan, ruler of all the Mongols, and he reorganised his army into decimal units based on loyalty rather than clan. He attacked the Western Xia and then Jin China, taking its capital Zhongdu, today's Beijing, in 1215. Between 1219 and 1221 he destroyed the Khwarazmian Empire in Central Asia, razing cities such as Bukhara, Samarkand and Merv, where massacres killed hundreds of thousands. He died in 1227 during a campaign against the Western Xia, whose capital was then destroyed."
+  },
+  "highlights": {
+    "fr": [
+      "Unifie les tribus mongoles et est proclamé Gengis Khan en 1206",
+      "Prend Zhongdu, l'actuelle Pékin, en 1215",
+      "Détruit l'empire khwarezmien entre 1219 et 1221",
+      "Fonde le plus vaste empire continental de l'histoire"
+    ],
+    "en": [
+      "Unified the Mongol tribes and was proclaimed Genghis Khan in 1206",
+      "Took Zhongdu, present-day Beijing, in 1215",
+      "Destroyed the Khwarazmian Empire between 1219 and 1221",
+      "Founded what became the largest contiguous land empire in history"
+    ]
+  },
+  "legacy": {
+    "fr": "Héros national en Mongolie, il est ailleurs associé aux massacres des conquêtes mongoles, qui ont aussi relié l'Asie et l'Europe par le commerce.",
+    "en": "A national hero in Mongolia, he is elsewhere associated with the massacres of the Mongol conquests, which also linked Asia and Europe through trade."
   }
 }

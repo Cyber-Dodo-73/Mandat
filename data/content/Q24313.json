@@ -30,5 +30,29 @@
         "value": "diplomacy"
       }
     }
+  },
+  "story": {
+    "fr": "Mike Pence naît en 1959 à Columbus, dans l'Indiana, au sein d'une famille catholique d'origine irlandaise ; il deviendra plus tard chrétien évangélique. Diplômé du Hanover College en 1981, puis en droit à l'université de l'Indiana en 1986, il échoue deux fois à entrer au Congrès avant de se faire connaître comme animateur de radio conservateur. Élu à la Chambre des représentants, il y siège de 2001 à 2013 et préside la conférence républicaine de 2009 à 2011. Gouverneur de l'Indiana à partir de 2013, il signe en 2015 une loi sur la liberté religieuse accusée d'ouvrir la voie à des discriminations envers les personnes LGBT, qu'il doit amender. Donald Trump le choisit comme colistier en 2016, et il devient vice-président en janvier 2017. Loyal pendant tout le mandat, il pilote notamment la cellule de crise sur le Covid-19 en 2020. Le 6 janvier 2021, il refuse de bloquer la certification de la victoire de Joe Biden, alors que des émeutiers envahissent le Capitole et le menacent. Brouillé avec Trump, il tente sa chance aux primaires républicaines de 2024 mais se retire dès octobre 2023.",
+    "en": "Mike Pence was born in 1959 in Columbus, Indiana, into an Irish-American Catholic family; he later became an evangelical Christian. After graduating from Hanover College in 1981 and Indiana University's law school in 1986, he twice failed to win a seat in Congress before making his name as a conservative radio host. Elected to the House of Representatives, he served from 2001 to 2013 and chaired the House Republican Conference from 2009 to 2011. As governor of Indiana from 2013, he signed a 2015 religious freedom law that critics said licensed discrimination against LGBT people, and he had to amend it. Donald Trump picked him as running mate in 2016, and he became vice president in January 2017. Loyal throughout the term, he led the White House coronavirus task force in 2020. On 6 January 2021 he refused to block certification of Joe Biden's victory while rioters stormed the Capitol and threatened him. Estranged from Trump, he ran in the 2024 Republican primaries but dropped out in October 2023."
+  },
+  "highlights": {
+    "fr": [
+      "Représentant de l'Indiana au Congrès de 2001 à 2013",
+      "Gouverneur de l'Indiana de 2013 à 2017",
+      "48e vice-président des États-Unis, de 2017 à 2021",
+      "Dirige la cellule de crise de la Maison-Blanche contre le Covid-19 en 2020",
+      "Certifie l'élection de Joe Biden le 6 janvier 2021 malgré les pressions de Trump"
+    ],
+    "en": [
+      "Represented Indiana in the U.S. House from 2001 to 2013",
+      "Governor of Indiana from 2013 to 2017",
+      "48th vice president of the United States, 2017–2021",
+      "Led the White House coronavirus task force in 2020",
+      "Certified Joe Biden's election on 6 January 2021 despite Trump's pressure"
+    ]
+  },
+  "legacy": {
+    "fr": "On retient surtout de lui son refus de renverser le résultat de l'élection de 2020, geste salué par ses adversaires mais qui l'a coupé d'une grande partie de son propre camp.",
+    "en": "He is remembered above all for refusing to overturn the 2020 election result, a stand praised by his opponents but one that cut him off from much of his own party."
   }
 }

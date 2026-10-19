@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Gustavo Petro naît en 1960 à Ciénaga de Oro, dans le département de Córdoba, et grandit à Zipaquirá, près de Bogotá. Économiste de formation, il rejoint adolescent la guérilla urbaine du M-19 ; arrêté en 1985 pour détention d'armes, il dit avoir été torturé et passe environ dix-huit mois en prison. Après la démobilisation du M-19 en 1990, il est élu à la Chambre des représentants en 1991, puis part en Belgique comme attaché diplomatique et étudie à Salamanque. De retour à la Chambre en 1998, puis sénateur de 2006 à 2010, il se fait connaître en dénonçant les liens entre paramilitaires et élus. Maire de Bogotá de 2012 à 2015, il est brièvement destitué par le procureur général avant d'être rétabli. Battu par Iván Duque au second tour de 2018, il l'emporte en 2022 avec Francia Márquez et devient le premier président de gauche de l'histoire colombienne. Sa politique de « paix totale » ouvre des négociations et des cessez-le-feu avec l'ELN et d'autres groupes armés, aux résultats limités. Ses réformes sociales se heurtent au Congrès, et ses relations avec Washington se tendent fortement en 2025. Il quitte le pouvoir à l'issue de son mandat, en août 2026.",
+    "en": "Gustavo Petro was born in 1960 in Ciénaga de Oro, in Córdoba Department, and grew up in Zipaquirá near Bogotá. An economist by training, he joined the M-19 urban guerrilla movement as a teenager; arrested in 1985 for possessing weapons, he says he was tortured and spent around eighteen months in prison. After the M-19 laid down its arms in 1990, he was elected to the Chamber of Representatives in 1991, then served as a diplomatic attaché in Belgium and studied in Salamanca. Back in the Chamber in 1998 and a senator from 2006 to 2010, he made his name exposing ties between paramilitaries and politicians. As mayor of Bogotá from 2012 to 2015 he was briefly removed by the inspector general before being reinstated. Beaten by Iván Duque in the 2018 runoff, he won in 2022 with Francia Márquez as running mate, becoming Colombia's first left-wing president. His total peace policy opened talks and ceasefires with the ELN and other armed groups, with limited results. His social reforms stalled in Congress, and relations with Washington grew sharply strained in 2025. He left office at the end of his term in August 2026."
+  },
+  "highlights": {
+    "fr": [
+      "Ancien membre de la guérilla M-19, démobilisée en 1990",
+      "Dénonce au Sénat les liens entre paramilitaires et élus (2006-2010)",
+      "Maire de Bogotá de 2012 à 2015",
+      "Premier président de gauche de la Colombie (2022-2026)"
+    ],
+    "en": [
+      "Former member of the M-19 guerrilla group, disbanded in 1990",
+      "Exposed links between paramilitaries and politicians as a senator (2006–2010)",
+      "Mayor of Bogotá from 2012 to 2015",
+      "Colombia's first left-wing president (2022–2026)"
+    ]
+  },
+  "legacy": {
+    "fr": "Son élection a marqué l'intégration d'un ancien guérillero au sommet de l'État ; son bilan sur la paix et les réformes reste très débattu.",
+    "en": "His election showed a former guerrilla could reach the top of the Colombian state; his record on peace and reform remains hotly debated."
   }
 }

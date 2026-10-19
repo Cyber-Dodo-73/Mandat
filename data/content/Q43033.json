@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Desmond Tutu naît en 1931 à Klerksdorp, dans le Transvaal, fils d'un instituteur, et devient lui-même enseignant avant de quitter la profession en 1957 pour protester contre l'éducation bantoue imposée aux Noirs. Ordonné prêtre anglican en 1961, il étudie la théologie au King's College de Londres. Premier Noir doyen de la cathédrale de Johannesburg en 1975, puis évêque du Lesotho, il devient en 1978 secrétaire général du Conseil sud-africain des Églises, d'où il dénonce l'apartheid et réclame des sanctions économiques internationales. Ses positions non violentes lui valent le prix Nobel de la paix en 1984. Élu en 1986 archevêque du Cap, premier Noir à ce poste, il mène en 1989 de grandes marches pacifiques dans la ville. Après l'élection de Nelson Mandela, il préside de 1996 à 1998 la Commission vérité et réconciliation, qui entend les victimes et accorde des amnisties en échange d'aveux complets. Retraité en 1996, il reste une voix critique, y compris envers l'ANC au pouvoir, et défend la lutte contre le sida, les droits des homosexuels et l'action climatique. En 2007, il devient le premier président du groupe des Elders. Il meurt au Cap le 26 décembre 2021, à 90 ans.",
+    "en": "Desmond Tutu was born in 1931 in Klerksdorp, Transvaal, the son of a teacher, and taught himself before quitting in 1957 in protest at the Bantu Education system imposed on Black pupils. Ordained an Anglican priest in 1961, he studied theology at King's College London. The first Black dean of Johannesburg's cathedral in 1975 and then Bishop of Lesotho, he became general secretary of the South African Council of Churches in 1978, using the post to denounce apartheid and call for international economic sanctions. His non-violent stance earned him the Nobel Peace Prize in 1984. Elected Archbishop of Cape Town in 1986, the first Black man in the post, he led large peaceful marches through the city in 1989. After Nelson Mandela's election he chaired the Truth and Reconciliation Commission from 1996 to 1998, which heard victims and granted amnesty in exchange for full confessions. Retiring in 1996, he remained an outspoken critic, including of the governing ANC, and campaigned on AIDS, gay rights and climate action. In 2007 he became the first chair of The Elders. He died in Cape Town on 26 December 2021, aged 90."
+  },
+  "highlights": {
+    "fr": [
+      "Secrétaire général du Conseil sud-africain des Églises dès 1978",
+      "Prix Nobel de la paix en 1984",
+      "Premier archevêque noir du Cap, de 1986 à 1996",
+      "Préside la Commission vérité et réconciliation de 1996 à 1998",
+      "Premier président du groupe des Elders en 2007"
+    ],
+    "en": [
+      "General secretary of the South African Council of Churches from 1978",
+      "Nobel Peace Prize in 1984",
+      "First Black Archbishop of Cape Town, 1986–1996",
+      "Chaired the Truth and Reconciliation Commission, 1996–1998",
+      "First chair of The Elders in 2007"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a popularisé l'expression « nation arc-en-ciel », et la Commission vérité et réconciliation qu'il a présidée sert de modèle à de nombreux pays sortant de conflits.",
+    "en": "He popularised the phrase 'Rainbow Nation', and the Truth and Reconciliation Commission he chaired has served as a model for many countries emerging from conflict."
   }
 }

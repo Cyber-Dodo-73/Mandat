@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Léningrad en 1952, Vladimir Poutine étudie le droit puis entre au KGB, qu'il sert notamment en Allemagne de l'Est à Dresde dans les années 1980. Après la chute de l'URSS, il travaille auprès du maire de Saint-Pétersbourg, puis rejoint l'administration de Boris Eltsine à Moscou. Directeur du FSB en 1998, il devient Premier ministre en août 1999 et lance la seconde guerre de Tchétchénie. Président par intérim après la démission d'Eltsine le 31 décembre 1999, il est élu en 2000 et réélu en 2004, reprenant en main les médias, les gouverneurs et les grands groupes pétroliers. Limité à deux mandats consécutifs, il redevient Premier ministre de 2008 à 2012 sous Dmitri Medvedev, avant de retrouver la présidence. Il annexe la Crimée ukrainienne en 2014 et lance en février 2022 l'invasion à grande échelle de l'Ukraine, faisant des dizaines de milliers de morts civils. La Cour pénale internationale émet contre lui en 2023 un mandat d'arrêt pour la déportation d'enfants ukrainiens, tandis que ses principaux opposants sont emprisonnés, exilés ou morts.",
+    "en": "Born in Leningrad in 1952, Vladimir Putin studied law and joined the KGB, serving notably in Dresden, East Germany, in the 1980s. After the Soviet collapse he worked for the mayor of Saint Petersburg, then moved to Boris Yeltsin's administration in Moscow. Appointed head of the FSB in 1998, he became prime minister in August 1999 and launched the Second Chechen War. Acting president after Yeltsin resigned on 31 December 1999, he was elected in 2000 and re-elected in 2004, bringing the media, regional governors and the big oil companies under Kremlin control. Barred from a third consecutive term, he served as prime minister under Dmitry Medvedev from 2008 to 2012 before returning to the presidency. He annexed Ukraine's Crimea in 2014 and in February 2022 launched a full-scale invasion of Ukraine that has killed tens of thousands of civilians. In 2023 the International Criminal Court issued a warrant for his arrest over the deportation of Ukrainian children, while his main opponents have been jailed, exiled or killed."
+  },
+  "highlights": {
+    "fr": [
+      "Ancien officier du KGB, directeur du FSB en 1998",
+      "Président de la Russie depuis 2000, avec un intermède comme Premier ministre (2008-2012)",
+      "Annexe la Crimée ukrainienne en 2014",
+      "Lance l'invasion à grande échelle de l'Ukraine en février 2022",
+      "Visé en 2023 par un mandat d'arrêt de la Cour pénale internationale"
+    ],
+    "en": [
+      "Former KGB officer, head of the FSB in 1998",
+      "President of Russia since 2000, with a spell as prime minister (2008–2012)",
+      "Annexed Ukraine's Crimea in 2014",
+      "Launched the full-scale invasion of Ukraine in February 2022",
+      "Subject of an International Criminal Court arrest warrant since 2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a transformé la Russie en régime autoritaire centré sur sa personne et rouvert en Europe l'ère des guerres de conquête.",
+    "en": "He turned Russia into an authoritarian system built around himself and reopened an era of wars of conquest in Europe."
   }
 }

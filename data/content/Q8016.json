@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1874 au palais de Blenheim dans une famille aristocratique, Winston Churchill sert comme officier et correspondant de guerre à Cuba, en Inde, au Soudan et en Afrique du Sud, où son évasion d'un camp boer le rend célèbre. Élu député en 1900, il passe des conservateurs aux libéraux et devient ministre de l'Intérieur en 1910. Premier lord de l'Amirauté au début de la Première Guerre mondiale, il est tenu responsable de l'échec des Dardanelles en 1915 et part combattre sur le front de l'Ouest. Revenu chez les conservateurs, il est chancelier de l'Échiquier de 1924 à 1929, puis passe les années 1930 isolé, à alerter contre le réarmement allemand. Nommé Premier ministre le 10 mai 1940, il refuse toute paix avec Hitler, galvanise le pays par ses discours et forge l'alliance avec Roosevelt et Staline. Battu aux élections de juillet 1945, il redevient Premier ministre de 1951 à 1955, reçoit le prix Nobel de littérature en 1953 pour ses écrits historiques et meurt à Londres en 1965.",
+    "en": "Born at Blenheim Palace in 1874 into an aristocratic family, Winston Churchill served as an officer and war correspondent in Cuba, India, Sudan and South Africa, where his escape from a Boer camp made him famous. Elected to Parliament in 1900, he crossed from the Conservatives to the Liberals and became Home Secretary in 1910. As First Lord of the Admiralty at the start of the First World War, he was blamed for the Dardanelles failure in 1915 and went to fight on the Western Front. Back with the Conservatives, he was Chancellor of the Exchequer from 1924 to 1929, then spent the 1930s in the political wilderness warning against German rearmament. Appointed prime minister on 10 May 1940, he refused any deal with Hitler, rallied the country with his speeches and built the alliance with Roosevelt and Stalin. Voted out in July 1945, he returned as prime minister from 1951 to 1955, won the 1953 Nobel Prize in Literature for his historical writing and died in London in 1965."
+  },
+  "highlights": {
+    "fr": [
+      "Premier ministre en mai 1940, il refuse de négocier avec Hitler",
+      "Chancelier de l'Échiquier de 1924 à 1929",
+      "Coarchitecte de l'alliance anglo-américano-soviétique contre l'Axe",
+      "Prix Nobel de littérature en 1953",
+      "De nouveau Premier ministre de 1951 à 1955"
+    ],
+    "en": [
+      "Became prime minister in May 1940 and refused to negotiate with Hitler",
+      "Chancellor of the Exchequer from 1924 to 1929",
+      "Co-architect of the Anglo-American-Soviet alliance against the Axis",
+      "Won the Nobel Prize in Literature in 1953",
+      "Prime minister again from 1951 to 1955"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste au Royaume-Uni le symbole de la résistance de 1940, même si ses positions sur l'Empire, l'Inde et l'Irlande font l'objet de vives critiques.",
+    "en": "In Britain he remains the symbol of the 1940 stand, though his views on empire, India and Ireland draw sharp criticism."
   }
 }

@@ -32,5 +32,27 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Fils d'un pasteur de l'Église d'Écosse, Gordon Brown naît en 1951 près de Glasgow et grandit à Kirkcaldy, dans le Fife. Entré à l'université d'Édimbourg à seize ans, il y obtient un doctorat d'histoire avant de travailler comme enseignant et journaliste à la télévision écossaise. Élu député travailliste de Dunfermline East en 1983, il devient chancelier de l'Échiquier fantôme en 1992 et forme avec Tony Blair le duo qui refonde le parti en « New Labour ». Après la victoire de 1997, il devient chancelier de l'Échiquier et rend dès les premiers jours à la Banque d'Angleterre la maîtrise des taux d'intérêt. Pendant dix ans, il fixe des règles budgétaires, crée des crédits d'impôt pour les familles modestes et refuse de faire entrer le Royaume-Uni dans l'euro. Il succède à Blair comme Premier ministre en juin 2007. Lorsque la crise financière éclate en 2008, son gouvernement recapitalise les grandes banques britanniques, et il accueille en avril 2009 le sommet du G20 à Londres. Les travaillistes perdent leur majorité aux élections de mai 2010, et il démissionne au profit de David Cameron. Il se consacre ensuite à l'éducation mondiale comme envoyé spécial des Nations unies et pèse en 2014 dans la campagne contre l'indépendance écossaise.",
+    "en": "The son of a Church of Scotland minister, Gordon Brown was born in 1951 near Glasgow and grew up in Kirkcaldy, Fife. He entered Edinburgh University at sixteen, earned a doctorate in history there, and worked as a lecturer and a television journalist in Scotland. Elected Labour MP for Dunfermline East in 1983, he became shadow chancellor in 1992 and teamed up with Tony Blair to rebrand the party as “New Labour”. After the 1997 landslide he became Chancellor of the Exchequer and within days handed control of interest rates to the Bank of England. Over ten years at the Treasury he set fiscal rules, introduced tax credits for low-income families and kept Britain out of the euro. He succeeded Blair as prime minister in June 2007. When the financial crisis hit in 2008, his government recapitalised Britain's largest banks, and in April 2009 he hosted the G20 summit in London. Labour lost its majority at the May 2010 election, and he resigned in favour of David Cameron. He went on to campaign for global education as a United Nations special envoy and played a visible role in the 2014 campaign against Scottish independence."
+  },
+  "highlights": {
+    "fr": [
+      "Chancelier de l'Échiquier de 1997 à 2007, record de durée moderne",
+      "Rend l'indépendance à la Banque d'Angleterre sur les taux en 1997",
+      "Recapitalise les banques britanniques pendant la crise de 2008",
+      "Accueille le sommet du G20 à Londres en avril 2009"
+    ],
+    "en": [
+      "Chancellor of the Exchequer from 1997 to 2007, the longest modern tenure",
+      "Made the Bank of England independent on interest rates in 1997",
+      "Recapitalised Britain's banks during the 2008 crisis",
+      "Hosted the G20 summit in London in April 2009"
+    ]
+  },
+  "legacy": {
+    "fr": "On retient surtout sa gestion de la crise de 2008 et l'indépendance de la Banque d'Angleterre ; il a été fait membre de l'ordre des Compagnons d'honneur en 2024.",
+    "en": "He is remembered above all for his handling of the 2008 crash and for Bank of England independence; he was made a Companion of Honour in 2024."
   }
 }

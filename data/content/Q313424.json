@@ -36,5 +36,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1919 à Selukwe, en Rhodésie du Sud, fils d'un éleveur écossais, Ian Smith interrompt ses études en Afrique du Sud pour s'engager dans la Royal Air Force pendant la Seconde Guerre mondiale. Grièvement blessé lors d'un accident, puis abattu au-dessus de l'Italie en 1944, il combat un temps avec des partisans. Élu au Parlement colonial dès 1948, il cofonde en 1962 le Front rhodésien, parti hostile à toute transition vers un gouvernement de la majorité noire. Premier ministre en avril 1964, il proclame le 11 novembre 1965 la déclaration unilatérale d'indépendance pour maintenir le pouvoir d'une minorité blanche d'environ 5 % de la population. Londres et l'ONU répondent par des sanctions, rendues obligatoires en 1966, et la Rhodésie se proclame république en 1970. Les mouvements nationalistes de Joshua Nkomo et de Robert Mugabe mènent une guérilla qui fait des dizaines de milliers de morts. En 1978, Smith conclut un accord interne avec des dirigeants noirs modérés et cède son poste en 1979 à Abel Muzorewa. Les accords de Lancaster House débouchent en 1980 sur l'indépendance du Zimbabwe ; resté député jusqu'en 1987, il meurt au Cap en 2007.",
+    "en": "Born in 1919 at Selukwe in Southern Rhodesia, the son of a Scottish rancher, Ian Smith broke off his studies in South Africa to join the Royal Air Force in the Second World War. Badly injured in a crash and later shot down over Italy in 1944, he fought for a time alongside partisans. Elected to the colonial parliament in 1948, he co-founded the Rhodesian Front in 1962, a party opposed to any move towards Black majority rule. Prime minister from April 1964, he issued the Unilateral Declaration of Independence on 11 November 1965 to keep power in the hands of a white minority of about 5% of the population. Britain and the UN answered with sanctions, made mandatory in 1966, and Rhodesia declared itself a republic in 1970. The nationalist movements of Joshua Nkomo and Robert Mugabe waged a guerrilla war that killed tens of thousands. In 1978 Smith reached an internal settlement with moderate Black leaders and handed the premiership to Abel Muzorewa in 1979. The Lancaster House talks led to Zimbabwe's independence in 1980; he stayed in parliament until 1987 and died in Cape Town in 2007."
+  },
+  "highlights": {
+    "fr": [
+      "Pilote de la RAF abattu au-dessus de l'Italie en 1944",
+      "Cofonde le Front rhodésien en 1962",
+      "Proclame l'indépendance unilatérale de la Rhodésie le 11 novembre 1965",
+      "Défie les sanctions obligatoires de l'ONU imposées dès 1966",
+      "Cède le pouvoir en 1979 après l'accord interne de 1978"
+    ],
+    "en": [
+      "RAF pilot shot down over Italy in 1944",
+      "Co-founded the Rhodesian Front in 1962",
+      "Declared Rhodesia's unilateral independence on 11 November 1965",
+      "Defied the mandatory UN sanctions imposed from 1966",
+      "Gave up power in 1979 after the 1978 internal settlement"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure du refus de la décolonisation en Afrique australe, il a retardé de quinze ans le gouvernement de la majorité au prix d'une guerre meurtrière.",
+    "en": "A figure of resistance to decolonisation in southern Africa, he delayed majority rule by fifteen years at the cost of a deadly war."
   }
 }

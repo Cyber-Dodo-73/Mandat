@@ -29,5 +29,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né le 4 juillet 1872 à Plymouth Notch, dans le Vermont, John Calvin Coolidge étudie au Amherst College puis devient avocat à Northampton, dans le Massachusetts. Il gravit tous les échelons de la politique locale républicaine : élu à la chambre de l'État en 1907, maire de Northampton en 1910, puis sénateur de l'État, dont il préside l'assemblée à partir de 1914. Lieutenant-gouverneur en 1916, il est élu gouverneur du Massachusetts en 1918. En septembre 1919, il se fait connaître dans tout le pays en brisant la grève de la police de Boston, déclarant que nul n'a le droit de faire grève contre la sécurité publique. Choisi comme colistier de Warren Harding, il devient vice-président en 1921. À la mort soudaine de Harding, en août 1923, son père, notaire, lui fait prêter serment dans la ferme familiale du Vermont. Élu pour un mandat complet en 1924, il baisse les impôts, réduit les dépenses fédérales et laisse une large liberté aux entreprises pendant une période de forte croissance. Il signe en 1924 la loi accordant la citoyenneté aux Amérindiens, mais aussi une loi restreignant fortement l'immigration. Il renonce à se représenter en 1928 et meurt à Northampton en 1933.",
+    "en": "Born on 4 July 1872 in Plymouth Notch, Vermont, John Calvin Coolidge studied at Amherst College and became a lawyer in Northampton, Massachusetts. He climbed every rung of local Republican politics: elected to the state house in 1907, mayor of Northampton in 1910, then state senator and Senate president from 1914. Lieutenant governor in 1916, he was elected governor of Massachusetts in 1918. In September 1919 he became a national figure by breaking the Boston police strike, saying no one had a right to strike against public safety. Chosen as Warren Harding's running mate, he became vice president in 1921. When Harding died suddenly in August 1923, Coolidge's father, a notary, swore him in at the family farmhouse in Vermont. Elected to a full term in 1924, he cut taxes, trimmed federal spending and left business largely unregulated during a period of strong growth. In 1924 he signed the law granting citizenship to Native Americans, but also a law sharply restricting immigration. He chose not to run in 1928 and died in Northampton in 1933."
+  },
+  "highlights": {
+    "fr": [
+      "Brise la grève de la police de Boston en 1919, gouverneur du Massachusetts",
+      "Vice-président en 1921, président à la mort de Harding en août 1923",
+      "Signe en 1924 la loi sur la citoyenneté des Amérindiens",
+      "Baisse les impôts et les dépenses fédérales pendant les années 1920"
+    ],
+    "en": [
+      "Broke the 1919 Boston police strike as governor of Massachusetts",
+      "Vice president in 1921, president on Harding's death in August 1923",
+      "Signed the Indian Citizenship Act in 1924",
+      "Cut taxes and federal spending through the 1920s"
+    ]
+  },
+  "legacy": {
+    "fr": "Connu pour sa sobriété et son goût du silence, il reste associé à la prospérité des années 1920, souvent reliée par ses critiques au krach de 1929.",
+    "en": "Known for his reserve and few words, he remains linked to the prosperity of the 1920s, which his critics tie to the crash of 1929."
   }
 }

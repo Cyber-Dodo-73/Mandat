@@ -32,5 +32,27 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Helsinki en 1985, Sanna Marin est élevée par sa mère et la compagne de celle-ci, dans des conditions modestes à Pirkkala et Tampere. Première de sa famille à faire des études supérieures, elle étudie les sciences administratives à l'université de Tampere. Élue au conseil municipal de Tampere en 2012, elle préside cette assemblée dès l'année suivante. Députée sociale-démocrate en 2015, elle devient ministre des Transports et des Communications en juin 2019. En décembre de la même année, après la démission d'Antti Rinne, elle prend la tête du gouvernement à trente-quatre ans, à la tête d'une coalition de cinq partis tous menés par des femmes. Elle gère la pandémie de Covid-19 avec un bilan sanitaire parmi les meilleurs d'Europe. Après l'invasion de l'Ukraine par la Russie, elle dépose en mai 2022 avec le président Niinistö la demande d'adhésion de la Finlande à l'OTAN, effective en avril 2023. Battue de peu aux législatives d'avril 2023, elle quitte la direction de son parti puis le Parlement pour rejoindre l'institut de Tony Blair.",
+    "en": "Born in Helsinki in 1985, Sanna Marin was raised by her mother and her mother's female partner, in modest circumstances in Pirkkala and Tampere. The first in her family to go to university, she studied administrative science at the University of Tampere. Elected to Tampere city council in 2012, she chaired it from the following year. A Social Democrat MP from 2015, she became Minister of Transport and Communications in June 2019. That December, after Antti Rinne resigned, she took over as prime minister at thirty-four, heading a five-party coalition whose parties were all led by women. She steered Finland through the Covid-19 pandemic with one of Europe's lowest death rates. After Russia invaded Ukraine she submitted, together with President Niinistö, Finland's application to join NATO in May 2022, which took effect in April 2023. Narrowly beaten in the April 2023 election, she stepped down as party leader and then left parliament to join Tony Blair's institute."
+  },
+  "highlights": {
+    "fr": [
+      "2013 : préside le conseil municipal de Tampere",
+      "2019 : Première ministre à 34 ans, parmi les plus jeunes au monde",
+      "2022 : dépose la candidature de la Finlande à l'OTAN",
+      "2023 : la Finlande devient membre de l'OTAN"
+    ],
+    "en": [
+      "2013: chairs Tampere city council",
+      "2019: prime minister at 34, among the world's youngest",
+      "2022: files Finland's application to join NATO",
+      "2023: Finland becomes a member of NATO"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure d'une nouvelle génération de dirigeantes, elle a présidé au tournant historique qui a fait renoncer la Finlande à sa neutralité militaire.",
+    "en": "A figure of a new generation of women leaders, she presided over the historic turn that ended Finland's military non-alignment."
   }
 }

@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né au Caire en 1929 dans une famille palestinienne, Yasser Arafat étudie l'ingénierie à l'université du Caire et s'engage dans le militantisme étudiant. Vers 1959, au Koweït, il cofonde le Fatah, qui prône la lutte armée contre Israël. En 1969, il prend la présidence de l'Organisation de libération de la Palestine, dont les factions commettent détournements d'avions et attentats. Chassée de Jordanie en 1970, puis du Liban en 1982, la direction de l'OLP s'installe à Tunis. En 1974, il s'adresse à l'Assemblée générale des Nations unies, et en 1988 il accepte le principe de deux États et renonce au terrorisme. Les accords d'Oslo, signés à Washington en 1993, lui valent le prix Nobel de la paix en 1994 avec Yitzhak Rabin et Shimon Peres. Il rentre alors à Gaza et devient président de l'Autorité palestinienne, élu en 1996. L'échec du sommet de Camp David en 2000 précède la seconde intifada, et Israël l'assiège dans sa résidence de Ramallah à partir de 2002. Tombé malade, il meurt en novembre 2004 à l'hôpital militaire de Clamart, près de Paris.",
+    "en": "Born in Cairo in 1929 to a Palestinian family, Yasser Arafat studied engineering at Cairo University and became a student activist. Around 1959, in Kuwait, he co-founded Fatah, which advocated armed struggle against Israel. In 1969 he became chairman of the Palestine Liberation Organization, whose factions carried out hijackings and attacks. Driven out of Jordan in 1970 and Lebanon in 1982, the PLO leadership moved to Tunis. He addressed the UN General Assembly in 1974, and in 1988 he accepted a two-state solution and renounced terrorism. The Oslo Accords, signed in Washington in 1993, earned him the 1994 Nobel Peace Prize with Yitzhak Rabin and Shimon Peres. He then returned to Gaza and became president of the Palestinian Authority, elected in 1996. The collapse of the Camp David summit in 2000 was followed by the Second Intifada, and from 2002 Israel besieged his compound in Ramallah. He fell ill and died in November 2004 at the Percy military hospital in Clamart, near Paris."
+  },
+  "highlights": {
+    "fr": [
+      "1959 : cofonde le Fatah",
+      "1969 : prend la tête de l'OLP",
+      "1974 : discours à l'Assemblée générale de l'ONU",
+      "1993 : signe les accords d'Oslo à Washington",
+      "1994 : prix Nobel de la paix avec Rabin et Peres"
+    ],
+    "en": [
+      "1959: co-founded Fatah",
+      "1969: became chairman of the PLO",
+      "1974: addressed the UN General Assembly",
+      "1993: signed the Oslo Accords in Washington",
+      "1994: Nobel Peace Prize with Rabin and Peres"
+    ]
+  },
+  "legacy": {
+    "fr": "Symbole du nationalisme palestinien pendant quarante ans, il reste une figure contestée, entre combattant armé et négociateur d'Oslo.",
+    "en": "The symbol of Palestinian nationalism for forty years, he remains a contested figure, both armed fighter and Oslo negotiator."
   }
 }

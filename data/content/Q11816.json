@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Fils aîné de John Adams, John Quincy Adams naît en 1767 à Braintree, dans le Massachusetts, et accompagne dès l'enfance son père dans ses missions diplomatiques en Europe. Diplômé de Harvard en 1787, il devient avocat, puis George Washington le nomme ministre aux Pays-Bas en 1794. Sénateur du Massachusetts de 1803 à 1808, il rompt avec les fédéralistes en soutenant l'embargo de Jefferson. Ambassadeur en Russie, il participe aux négociations de la paix de Gand en 1814, puis représente les États-Unis à Londres. Secrétaire d'État de James Monroe de 1817 à 1825, il obtient de l'Espagne la cession de la Floride en 1819 et inspire la doctrine Monroe de 1823. L'élection de 1824 ne donnant de majorité à personne, la Chambre des représentants le désigne président face à Andrew Jackson, qui dénonce un marchandage. Son mandat, qui défend routes, canaux et sciences, se heurte à un Congrès hostile, et Jackson le bat largement en 1828. Élu en 1830 à la Chambre des représentants, il y combat pendant dix-sept ans la règle interdisant les pétitions contre l'esclavage. En 1841, il défend devant la Cour suprême les Africains révoltés de l'Amistad, puis s'effondre au Capitole et meurt en 1848.",
+    "en": "The eldest son of John Adams, John Quincy Adams was born in 1767 in Braintree, Massachusetts, and as a boy travelled with his father on diplomatic missions in Europe. A Harvard graduate in 1787, he practised law until George Washington named him minister to the Netherlands in 1794. As a senator for Massachusetts from 1803 to 1808 he broke with the Federalists by backing Jefferson's embargo. As minister to Russia he helped negotiate the Treaty of Ghent in 1814, then represented the United States in London. As James Monroe's Secretary of State from 1817 to 1825, he secured Florida from Spain in 1819 and shaped the Monroe Doctrine of 1823. When the 1824 election gave no one a majority, the House chose him over Andrew Jackson, who cried “corrupt bargain”. His presidency, which promoted roads, canals and science, ran into a hostile Congress, and Jackson beat him soundly in 1828. Elected to the House in 1830, he spent seventeen years fighting the gag rule that blocked anti-slavery petitions. In 1841 he argued for the Africans who had revolted aboard the Amistad before the Supreme Court, and he collapsed in the Capitol and died in 1848."
+  },
+  "highlights": {
+    "fr": [
+      "Négocie la paix de Gand en 1814",
+      "Obtient la Floride de l'Espagne par le traité de 1819",
+      "Inspire la doctrine Monroe en 1823",
+      "6e président des États-Unis, de 1825 à 1829",
+      "Défend les captifs de l'Amistad devant la Cour suprême en 1841"
+    ],
+    "en": [
+      "Negotiated the Treaty of Ghent in 1814",
+      "Secured Florida from Spain in the 1819 treaty",
+      "Shaped the Monroe Doctrine in 1823",
+      "6th President of the United States, 1825–1829",
+      "Argued for the Amistad captives before the Supreme Court in 1841"
+    ]
+  },
+  "legacy": {
+    "fr": "Président peu marquant, il est retenu comme l'un des plus grands diplomates américains et comme une voix précoce contre l'esclavage au Congrès.",
+    "en": "An unremarkable president, he is remembered as one of the finest American diplomats and an early voice against slavery in Congress."
   }
 }

@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Daniel Noboa naît en novembre 1987 dans l’une des familles les plus riches d’Équateur, fils du magnat de la banane Álvaro Noboa, cinq fois candidat malheureux à la présidence. Il étudie le commerce à l’université de New York, puis poursuit des formations à Northwestern, Harvard et George Washington, tout en dirigeant des entreprises du groupe familial. Élu député en 2021, il siège peu de temps, car le président Guillermo Lasso dissout l’Assemblée en mai 2023 pour échapper à une destitution. Lors de l’élection anticipée qui suit, il bat Luisa González, candidate du camp de Rafael Correa, et prend ses fonctions en novembre 2023, à trente-cinq ans, devenant le plus jeune président de l’histoire du pays. En janvier 2024, après l’évasion d’un chef de gang et l’attaque d’une chaîne de télévision en direct, il décrète l’existence d’un « conflit armé interne » et déploie l’armée contre les gangs. En avril 2024, il fait investir l’ambassade du Mexique à Quito pour arrêter l’ancien vice-président Jorge Glas, provoquant une rupture diplomatique. Réélu en avril 2025 face à la même adversaire, il voit en novembre 2025 les électeurs rejeter son référendum sur l’installation de bases militaires étrangères et sur une nouvelle Constitution.",
+    "en": "Daniel Noboa was born in November 1987 into one of Ecuador's wealthiest families, the son of banana tycoon Álvaro Noboa, a five-time losing presidential candidate. He studied business at New York University and went on to courses at Northwestern, Harvard and George Washington, while running companies in the family group. Elected to the National Assembly in 2021, he served only briefly, as President Guillermo Lasso dissolved the chamber in May 2023 to avoid impeachment. In the snap election that followed he beat Luisa González, the candidate of Rafael Correa's camp, and took office in November 2023 at thirty-five, the youngest president in the country's history. In January 2024, after a gang leader escaped and gunmen stormed a television studio on air, he declared an internal armed conflict and sent the army against the gangs. In April 2024 he had police raid the Mexican embassy in Quito to arrest former vice president Jorge Glas, prompting a diplomatic rupture. Re-elected in April 2025 against the same opponent, he saw voters reject his November 2025 referendum on foreign military bases and a new constitution."
+  },
+  "highlights": {
+    "fr": [
+      "Élu en 2023 à 35 ans, plus jeune président de l’Équateur",
+      "Décrète un « conflit armé interne » contre les gangs en janvier 2024",
+      "Fait arrêter Jorge Glas à l’ambassade du Mexique en avril 2024",
+      "Réélu président en avril 2025"
+    ],
+    "en": [
+      "Elected in 2023 at 35, Ecuador's youngest president",
+      "Declared an internal armed conflict against gangs in January 2024",
+      "Had Jorge Glas seized from Mexico's embassy in April 2024",
+      "Re-elected president in April 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Il incarne une réponse sécuritaire musclée à l’explosion de la violence criminelle en Équateur, saluée par une partie de l’opinion et critiquée par les défenseurs des droits humains.",
+    "en": "He embodies a hard-line security response to Ecuador's surge in criminal violence, welcomed by many voters and criticised by human rights groups."
   }
 }

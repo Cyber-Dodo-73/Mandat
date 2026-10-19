@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1890 dans la province du Nghệ An, en Indochine française, Nguyễn Sinh Cung quitte le pays en 1911 comme aide-cuisinier sur un navire. À Paris, sous le nom de Nguyễn Ái Quốc, il réclame en 1919 des droits pour les Vietnamiens et participe en 1920 à la fondation du Parti communiste français. Formé à Moscou, il fonde en 1930 le Parti communiste indochinois. Revenu au Viêt Nam en 1941, il crée le Viêt Minh et, le 2 septembre 1945, proclame l'indépendance de la république démocratique du Viêt Nam à Hanoï. L'échec des négociations avec la France débouche fin 1946 sur la guerre d'Indochine, gagnée à Diên Biên Phu en 1954. Les accords de Genève partagent alors le pays, et il gouverne le Nord, où la réforme agraire des années 1950 fait des milliers de morts. Il soutient l'insurrection au Sud contre le régime de Saïgon et ses alliés américains. Affaibli, il laisse le pouvoir réel à d'autres dirigeants et meurt à Hanoï en septembre 1969, six ans avant la réunification.",
+    "en": "Born in 1890 in Nghệ An province, French Indochina, Nguyễn Sinh Cung left the country in 1911 as a kitchen hand on a steamer. In Paris, as Nguyễn Ái Quốc, he petitioned for Vietnamese rights in 1919 and helped found the French Communist Party in 1920. Trained in Moscow, he founded the Indochinese Communist Party in 1930. Returning to Vietnam in 1941, he created the Viet Minh, and on 2 September 1945 in Hanoi he declared the independence of the Democratic Republic of Vietnam. Failed talks with France led to the Indochina War at the end of 1946, won at Dien Bien Phu in 1954. The Geneva Accords then split the country, and he governed the North, where land reform in the 1950s cost thousands of lives. He backed the insurgency in the South against the Saigon government and its American allies. In declining health, he left day-to-day power to other leaders and died in Hanoi in September 1969, six years before reunification."
+  },
+  "highlights": {
+    "fr": [
+      "1920 : cofondateur du Parti communiste français à Tours",
+      "1930 : fonde le Parti communiste indochinois",
+      "1945 : proclame l'indépendance du Viêt Nam à Hanoï",
+      "1954 : la victoire de Diên Biên Phu met fin à la guerre d'Indochine",
+      "Préside le Nord-Viêt Nam de 1945 à sa mort en 1969"
+    ],
+    "en": [
+      "1920: co-founded the French Communist Party at Tours",
+      "1930: founded the Indochinese Communist Party",
+      "1945: declared Vietnam's independence in Hanoi",
+      "1954: victory at Dien Bien Phu ended the Indochina War",
+      "Led North Vietnam from 1945 until his death in 1969"
+    ]
+  },
+  "legacy": {
+    "fr": "Vénéré au Viêt Nam comme père de l'indépendance, il repose dans un mausolée à Hanoï et l'ancienne Saïgon porte son nom.",
+    "en": "Revered in Vietnam as the father of independence, he lies in a mausoleum in Hanoi, and the former Saigon bears his name."
   }
 }

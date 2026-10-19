@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Bernie Sanders naît en 1941 à Brooklyn dans une famille juive modeste, dont une partie a péri pendant la Shoah. Étudiant à l'université de Chicago, il milite pour les droits civiques au début des années 1960, avant de s'installer dans le Vermont. Après plusieurs candidatures sans succès sous l'étiquette de petits partis, il est élu maire de Burlington en 1981 avec une dizaine de voix d'avance et le reste jusqu'en 1989. En 1990, il entre à la Chambre des représentants comme indépendant, se revendiquant socialiste démocrate, une rareté au Congrès. Élu au Sénat en 2006, il y défend l'assurance santé universelle, la hausse du salaire minimum et la lutte contre les inégalités de fortune. Sa campagne pour l'investiture démocrate de 2016 face à Hillary Clinton, financée par des millions de petits dons, le transforme en figure nationale de la gauche américaine. Il échoue de nouveau en 2020 face à Joe Biden, auquel il apporte ensuite son soutien. Toujours sénateur du Vermont, il mène depuis des tournées contre l'oligarchie et le pouvoir de l'argent en politique.",
+    "en": "Bernie Sanders was born in 1941 in Brooklyn to a modest Jewish family, part of which had perished in the Holocaust. As a student at the University of Chicago he took part in the civil rights movement in the early 1960s, before moving to Vermont. After several unsuccessful runs for minor parties, he was elected mayor of Burlington in 1981 by a margin of about ten votes and held the post until 1989. In 1990 he won a seat in the House of Representatives as an independent who called himself a democratic socialist, a rarity in Congress. Elected to the Senate in 2006, he championed universal health insurance, a higher minimum wage and action against wealth inequality. His 2016 bid for the Democratic nomination against Hillary Clinton, funded by millions of small donations, turned him into a national figurehead of the American left. He fell short again in 2020 against Joe Biden, whom he then endorsed. Still a senator for Vermont, he has since toured the country campaigning against oligarchy and the influence of money in politics."
+  },
+  "highlights": {
+    "fr": [
+      "Élu maire de Burlington en 1981 avec une dizaine de voix d'avance",
+      "Entre à la Chambre des représentants comme indépendant en 1991",
+      "Élu sénateur du Vermont en 2006",
+      "Candidat à l'investiture démocrate en 2016 et en 2020"
+    ],
+    "en": [
+      "Elected mayor of Burlington in 1981 by about ten votes",
+      "Entered the House of Representatives as an independent in 1991",
+      "Elected senator for Vermont in 2006",
+      "Ran for the Democratic presidential nomination in 2016 and 2020"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a ramené l'assurance santé universelle et le mot « socialisme » au cœur du débat américain et inspiré une génération de militants de gauche.",
+    "en": "He brought universal health care and the word \"socialism\" back into mainstream American debate and inspired a generation of left-wing activists."
   }
 }

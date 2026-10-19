@@ -35,5 +35,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1483 à Andijan, dans la vallée de Ferghana, Zahir al-Din Muhammad, dit Babur, descend de Tamerlan par son père et de Gengis Khan par sa mère. À la mort de son père en 1494, il hérite à onze ans de la petite principauté de Ferghana. Il s'empare de Samarcande en 1497 puis de nouveau en 1500, mais en est chassé à chaque fois, la seconde par le chef ouzbek Muhammad Shaybani. Réduit à l'errance, il prend Kaboul en 1504 et en fait sa base pendant vingt ans. Allié au chah safavide Ismaïl, il reconquiert brièvement Samarcande en 1511, avant de la perdre définitivement l'année suivante. Il se tourne alors vers l'Inde et, en avril 1526, bat le sultan de Delhi Ibrahim Lodi à la première bataille de Panipat grâce à l'artillerie et aux armes à feu. Il triomphe en 1527 à Khanwa d'une coalition rajpoute menée par Rana Sanga, puis en 1529 des chefs afghans sur la Ghaghra. Il rédige en turc tchaghataï ses mémoires, le Baburnama, qui décrivent ses campagnes, la nature et les peuples rencontrés. Il meurt à Agra en 1531 et son fils Humayun lui succède ; il est inhumé à Kaboul.",
+    "en": "Born in 1483 in Andijan in the Fergana Valley, Zahir al-Din Muhammad, known as Babur, descended from Timur on his father's side and from Genghis Khan on his mother's. When his father died in 1494, he inherited the small principality of Fergana at the age of eleven. He took Samarkand in 1497 and again in 1500 but was driven out each time, the second by the Uzbek leader Muhammad Shaybani. Reduced to wandering, he seized Kabul in 1504 and used it as his base for twenty years. Allied with the Safavid Shah Ismail, he briefly retook Samarkand in 1511, only to lose it for good the following year. He then turned towards India and, in April 1526, defeated the Sultan of Delhi, Ibrahim Lodi, at the first Battle of Panipat with the help of artillery and firearms. In 1527 he beat a Rajput coalition led by Rana Sanga at Khanwa, and in 1529 the Afghan chiefs on the Ghaghra. He wrote his memoirs, the Baburnama, in Chagatai Turkic, describing his campaigns, the natural world and the peoples he met. He died in Agra in 1531 and was succeeded by his son Humayun; he is buried in Kabul."
+  },
+  "highlights": {
+    "fr": [
+      "Souverain du Ferghana dès l'âge de onze ans, en 1494",
+      "Prend Kaboul en 1504",
+      "Vainqueur d'Ibrahim Lodi à Panipat en 1526",
+      "Fondateur de l'Empire moghol en Inde",
+      "Auteur du Baburnama, autobiographie en turc tchaghataï"
+    ],
+    "en": [
+      "Ruler of Fergana at the age of eleven, in 1494",
+      "Took Kabul in 1504",
+      "Defeated Ibrahim Lodi at Panipat in 1526",
+      "Founder of the Mughal Empire in India",
+      "Author of the Baburnama, an autobiography in Chagatai Turkic"
+    ]
+  },
+  "legacy": {
+    "fr": "Fondateur d'une dynastie qui a régné sur l'Inde pendant plus de trois siècles, il a aussi laissé l'une des premières autobiographies du monde islamique.",
+    "en": "Founder of a dynasty that ruled India for more than three centuries, he also left one of the earliest autobiographies of the Islamic world."
   }
 }

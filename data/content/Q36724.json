@@ -32,5 +32,27 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Né vers le début du Ve siècle dans une famille dirigeante des Huns, Attila grandit à l'époque où son oncle Rugila domine les peuples installés au nord du Danube. À la mort de celui-ci, vers 434, il partage le pouvoir avec son frère Bleda, et tous deux obtiennent de Constantinople des tributs en or par le traité de Margus. Les deux frères lancent dans les années 440 de grandes campagnes dans les Balkans, prenant et détruisant des villes comme Naissus. Vers 445, Bleda disparaît, probablement tué sur ordre d'Attila, qui règne désormais seul sur un vaste ensemble de peuples, des steppes jusqu'à la Pannonie. En 447, une nouvelle offensive dévaste la Thrace et contraint l'Empire d'Orient à tripler le tribut annuel. En 451, il se tourne vers l'Occident, franchit le Rhin et ravage la Gaule, avant d'être arrêté aux champs Catalauniques par une coalition menée par le général romain Aetius et les Wisigoths. L'année suivante, il envahit l'Italie du Nord, rase Aquilée, puis se retire après avoir reçu une ambassade conduite par le pape Léon Ier. Il meurt en 453 lors de sa nuit de noces, et son empire se disloque en quelques années sous les querelles de ses fils.",
+    "en": "Born early in the fifth century into a ruling Hunnic family, Attila grew up while his uncle Rugila dominated the peoples settled north of the Danube. When Rugila died around 434, Attila shared power with his brother Bleda, and the pair extracted gold tribute from Constantinople through the Treaty of Margus. In the 440s the brothers led major raids into the Balkans, storming and wrecking cities such as Naissus. Around 445 Bleda died, probably killed on Attila's orders, leaving him sole master of a sprawling confederation that stretched from the steppe to Pannonia. A fresh offensive in 447 laid waste to Thrace and forced the Eastern Empire to triple its yearly payments. In 451 he turned west, crossed the Rhine and plundered Gaul, until a coalition led by the Roman general Aetius and the Visigoths checked him on the Catalaunian Plains. The next year he invaded northern Italy, razed Aquileia, then withdrew after meeting an embassy headed by Pope Leo I. He died in 453 on the night of his wedding, and within a few years his empire fell apart as his sons fought over it."
+  },
+  "highlights": {
+    "fr": [
+      "Seul roi des Huns à partir d'environ 445, après la mort de son frère Bleda",
+      "Triple le tribut versé par l'Empire romain d'Orient après la campagne de 447",
+      "Envahit la Gaule en 451, arrêté aux champs Catalauniques",
+      "Rase Aquilée lors de l'invasion de l'Italie en 452"
+    ],
+    "en": [
+      "Sole king of the Huns from around 445, after the death of his brother Bleda",
+      "Tripled the tribute paid by the Eastern Roman Empire after his 447 campaign",
+      "Invaded Gaul in 451 and was stopped on the Catalaunian Plains",
+      "Razed Aquileia during his invasion of Italy in 452"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé le « fléau de Dieu » par les auteurs chrétiens, il reste en Europe l'image même de l'envahisseur venu des steppes, tandis qu'en Hongrie son nom est resté un prénom courant.",
+    "en": "Christian writers called him the “Scourge of God”, and in Europe he remains the archetype of the invader from the steppe, while in Hungary his name is still a common given name."
   }
 }

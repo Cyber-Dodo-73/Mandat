@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1870 à Simbirsk, sur la Volga, Vladimir Ilitch Oulianov est marqué par l'exécution en 1887 de son frère aîné, impliqué dans un complot contre le tsar. Diplômé en droit à Saint-Pétersbourg en 1891, il milite dans les cercles marxistes, est déporté en Sibérie puis s'exile en Europe occidentale, où il prend le nom de Lénine. Au congrès du Parti ouvrier social-démocrate de 1903, il impose la scission entre ses bolcheviks et les mencheviks, défendant un parti de révolutionnaires professionnels. Rentré en Russie en avril 1917 après la chute du tsar, il organise la prise du pouvoir de la révolution d'Octobre et prend la tête du Conseil des commissaires du peuple. Son gouvernement signe la paix de Brest-Litovsk avec l'Allemagne en 1918, dissout l'Assemblée constituante, crée la Tchéka et mène la guerre civile en recourant à la « Terreur rouge », avec des exécutions de masse. Les réquisitions du communisme de guerre contribuent à la famine de 1921-1922, puis il lance la Nouvelle politique économique et fonde l'URSS en 1922. Affaibli par plusieurs attaques cérébrales, il meurt à Gorki, près de Moscou, en janvier 1924.",
+    "en": "Born in 1870 in Simbirsk on the Volga, Vladimir Ilyich Ulyanov was shaken by the execution in 1887 of his elder brother, involved in a plot against the tsar. After graduating in law in Saint Petersburg in 1891, he joined Marxist circles, was exiled to Siberia and then moved to Western Europe, adopting the name Lenin. At the Social Democratic party congress of 1903 he forced the split between his Bolsheviks and the Mensheviks, arguing for a party of professional revolutionaries. Returning to Russia in April 1917 after the tsar's fall, he organised the October seizure of power and became head of the Council of People's Commissars. His government signed the Treaty of Brest-Litovsk with Germany in 1918, dissolved the Constituent Assembly, created the Cheka secret police and fought the civil war with a Red Terror of mass executions. War Communism's grain requisitions contributed to the famine of 1921–1922, after which he launched the New Economic Policy and founded the USSR in 1922. Weakened by a series of strokes, he died at Gorki near Moscow in January 1924."
+  },
+  "highlights": {
+    "fr": [
+      "Provoque en 1903 la scission entre bolcheviks et mencheviks",
+      "Dirige la prise du pouvoir bolchevique d'octobre 1917",
+      "Crée en décembre 1917 la Tchéka, police politique du régime",
+      "Lance la Nouvelle politique économique (NEP) en 1921",
+      "Fonde l'Union soviétique en décembre 1922"
+    ],
+    "en": [
+      "Forced the split between Bolsheviks and Mensheviks in 1903",
+      "Led the Bolshevik seizure of power in October 1917",
+      "Created the Cheka political police in December 1917",
+      "Launched the New Economic Policy (NEP) in 1921",
+      "Founded the Soviet Union in December 1922"
+    ]
+  },
+  "legacy": {
+    "fr": "Fondateur du premier État communiste, il a légué un modèle de parti unique et de répression politique repris par Staline et de nombreux régimes.",
+    "en": "Founder of the first communist state, he left a model of one-party rule and political repression taken up by Stalin and many other regimes."
   }
 }

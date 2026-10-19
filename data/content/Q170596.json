@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Thomas Edward Lawrence naît en 1888 à Tremadog, au pays de Galles, deuxième des cinq fils d'un baronnet anglo-irlandais et d'une gouvernante. Étudiant en histoire au Jesus College d'Oxford, il consacre son mémoire aux châteaux des croisés après un long voyage à pied en Syrie, puis fouille de 1911 à 1914 le site hittite de Karkemish. Au début de la Grande Guerre, il rejoint le renseignement britannique au Caire, au sein du Bureau arabe. En octobre 1916, il est envoyé au Hedjaz comme officier de liaison auprès de l'émir Fayçal, fils du chérif Hussein, qui s'est soulevé contre les Ottomans. Il participe aux raids contre le chemin de fer du Hedjaz et à la prise du port d'Aqaba en juillet 1917, puis accompagne l'avancée arabe jusqu'à Damas en octobre 1918. Décoré de l'ordre du Bain et du DSO, il refuse pourtant d'être fait chevalier par George V. À la conférence de paix de Paris en 1919, il défend sans succès les revendications de Fayçal, puis conseille Winston Churchill au ministère des Colonies en 1921. Fuyant la célébrité, il s'engage comme simple soldat sous des noms d'emprunt, dans la Royal Air Force puis dans les blindés, et publie Les Sept Piliers de la sagesse en 1926. Quelques mois après avoir quitté l'armée de l'air, il meurt en mai 1935 d'un accident de moto dans le Dorset.",
+    "en": "Thomas Edward Lawrence was born in 1888 at Tremadog in Wales, the second of five sons of an Anglo-Irish baronet and a governess. Reading history at Jesus College, Oxford, he wrote his thesis on Crusader castles after a long walking tour of Syria, then from 1911 to 1914 dug at the Hittite site of Carchemish. When the Great War broke out he joined British intelligence in Cairo, in the Arab Bureau. In October 1916 he was sent to the Hejaz as liaison officer to Emir Faisal, son of Sharif Hussein, who had risen against the Ottomans. He joined raids on the Hejaz railway and the capture of the port of Aqaba in July 1917, then followed the Arab advance all the way to Damascus in October 1918. Although awarded the Order of the Bath and the DSO, he turned down a knighthood from George V. At the 1919 Paris Peace Conference he argued in vain for Faisal's claims, then advised Winston Churchill at the Colonial Office in 1921. Shunning fame, he enlisted in the ranks under assumed names, first in the Royal Air Force and then in the Tank Corps, and printed Seven Pillars of Wisdom in 1926. A few months after leaving the air force, he died in May 1935 following a motorcycle crash in Dorset."
+  },
+  "highlights": {
+    "fr": [
+      "Fouilles archéologiques à Karkemish de 1911 à 1914",
+      "Officier de liaison auprès de Fayçal à partir d'octobre 1916",
+      "Prise d'Aqaba avec les forces arabes en juillet 1917",
+      "Entrée dans Damas avec l'armée arabe en octobre 1918",
+      "Publie Les Sept Piliers de la sagesse en 1926"
+    ],
+    "en": [
+      "Excavated at Carchemish from 1911 to 1914",
+      "Liaison officer to Faisal from October 1916",
+      "Took Aqaba with Arab forces in July 1917",
+      "Entered Damascus with the Arab army in October 1918",
+      "Published Seven Pillars of Wisdom in 1926"
+    ]
+  },
+  "legacy": {
+    "fr": "Le film Lawrence d'Arabie, sorti en 1962, a fixé sa légende. Son rôle reste discuté, entre soutien sincère à l'indépendance arabe et service des intérêts impériaux britanniques.",
+    "en": "David Lean's 1962 film Lawrence of Arabia fixed his legend. His role is still debated, torn between genuine support for Arab independence and service to British imperial interests."
   }
 }

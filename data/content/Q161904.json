@@ -32,5 +32,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Khéops, en égyptien Khoufou, est le deuxième roi de la IVe dynastie, fils et successeur de Snéfrou, bâtisseur de plusieurs pyramides. Il règne au XXVIe siècle avant notre ère, pendant une vingtaine d'années ou un peu plus selon les estimations. Son grand projet est sa tombe sur le plateau de Gizeh : une pyramide d'environ 146 mètres de haut, faite de plus de deux millions de blocs, qui restera le plus haut édifice humain pendant près de quatre mille ans. Des papyrus découverts en 2013 à Ouadi el-Jarf, le « journal de Merer », décrivent le transport de blocs de calcaire de Toura vers le chantier, éclairant l'organisation des équipes. Autour de la pyramide s'étendent des temples, des pyramides de reines et des tombes de dignitaires, ainsi qu'une barque démontée retrouvée en 1954. Des expéditions sont aussi envoyées au Sinaï pour les mines de turquoise et de cuivre. Bien plus tard, Hérodote le décrira comme un tyran impitoyable, image que les sources de son temps ne confirment pas. De lui ne subsiste qu'une statuette d'ivoire de quelques centimètres, trouvée à Abydos. Ses fils Djédefrê puis Khéphren lui succèdent.",
+    "en": "Khufu, known to the Greeks as Cheops, was the second king of the Fourth Dynasty, son and successor of Sneferu, himself a builder of several pyramids. He reigned in the 26th century BC, for some twenty years or a little more depending on the estimate. His great project was his tomb on the Giza plateau: a pyramid about 146 metres high, built from more than two million blocks, which remained the tallest human structure for nearly four thousand years. Papyri found in 2013 at Wadi al-Jarf, the so-called Diary of Merer, record limestone being shipped from Tura to the site and shed light on how work crews were organised. Around the pyramid lay temples, smaller queens' pyramids and officials' tombs, along with a dismantled boat discovered in 1954. Expeditions were also sent to Sinai for turquoise and copper. Centuries later Herodotus painted him as a ruthless tyrant, a picture that sources from his own time do not support. The only securely identified image of him is an ivory statuette a few centimetres tall found at Abydos. His sons Djedefre and then Khafre succeeded him."
+  },
+  "highlights": {
+    "fr": [
+      "Fait bâtir la Grande Pyramide de Gizeh, haute d'environ 146 mètres",
+      "Seule des Sept Merveilles du monde antique encore debout",
+      "Le « journal de Merer » (découvert en 2013) documente son chantier",
+      "Barque solaire démontée retrouvée au pied de la pyramide en 1954"
+    ],
+    "en": [
+      "Built the Great Pyramid of Giza, about 146 metres tall",
+      "The only one of the Seven Wonders of the Ancient World still standing",
+      "The Diary of Merer, found in 2013, documents work on his pyramid",
+      "A dismantled royal boat was found beside the pyramid in 1954"
+    ]
+  },
+  "legacy": {
+    "fr": "Presque inconnu en tant qu'homme, il reste associé au monument le plus célèbre de l'Antiquité, symbole universel de l'Égypte pharaonique.",
+    "en": "Almost unknown as a man, he remains tied to antiquity's most famous monument, a universal symbol of pharaonic Egypt."
   }
 }

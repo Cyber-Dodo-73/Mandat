@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1925 à Alor Setar, dans l'État de Kedah, Mahathir Mohamad étudie la médecine à Singapour et ouvre un cabinet dans sa ville natale. Élu député de l'UMNO en 1964, il est exclu du parti en 1969 après avoir attaqué le Premier ministre Tunku Abdul Rahman au lendemain des émeutes raciales de mai ; son livre Le Dilemme malais est alors interdit. Réintégré, il devient ministre de l'Éducation en 1974, vice-Premier ministre en 1976 puis ministre du Commerce et de l'Industrie. Premier ministre de 1981 à 2003, il lance la politique du « regard vers l'Est », la voiture nationale Proton, les tours Petronas et la ville administrative de Putrajaya, faisant de la Malaisie une économie industrielle. Son pouvoir est aussi autoritaire : plus d'une centaine d'opposants sont arrêtés sans procès lors de l'opération Lalang en 1987, et il fait destituer en 1988 le plus haut magistrat du pays. Face à la crise asiatique, il impose en 1998 un contrôle des capitaux contre l'avis du FMI, puis limoge et fait poursuivre son dauphin Anwar Ibrahim. Retiré en 2003, il quitte l'UMNO en 2016 en dénonçant le scandale 1MDB et remporte les élections de 2018 à 92 ans, devenant le plus vieux dirigeant en exercice au monde. Sa coalition s'effondre en février 2020 lors d'une crise politique, et il perd son siège de député en 2022.",
+    "en": "Born in 1925 in Alor Setar, Kedah, Mahathir Mohamad studied medicine in Singapore and opened a practice in his home town. Elected to parliament for UMNO in 1964, he was expelled from the party in 1969 after attacking Prime Minister Tunku Abdul Rahman in the wake of the May race riots, and his book The Malay Dilemma was banned. Readmitted, he became education minister in 1974, deputy prime minister in 1976 and then minister of trade and industry. As prime minister from 1981 to 2003, he launched the Look East policy, the national car maker Proton, the Petronas Towers and the new administrative capital Putrajaya, turning Malaysia into an industrial economy. His rule was also authoritarian: more than a hundred critics were detained without trial in Operation Lalang in 1987, and in 1988 he had the country's top judge removed. During the Asian financial crisis he imposed capital controls in 1998 against IMF advice, then sacked and prosecuted his heir apparent Anwar Ibrahim. After retiring in 2003, he left UMNO in 2016 over the 1MDB scandal and won the 2018 election at 92, becoming the world's oldest serving leader. His coalition collapsed in a political crisis in February 2020, and he lost his parliamentary seat in 2022."
+  },
+  "highlights": {
+    "fr": [
+      "Premier ministre de la Malaisie pendant 22 ans, de 1981 à 2003",
+      "Lance la voiture nationale Proton et les tours Petronas",
+      "Impose un contrôle des capitaux pendant la crise asiatique de 1998",
+      "Fait arrêter plus d'une centaine d'opposants lors de l'opération Lalang en 1987",
+      "Revient au pouvoir en 2018 à 92 ans, record mondial de longévité"
+    ],
+    "en": [
+      "Prime minister of Malaysia for 22 years, from 1981 to 2003",
+      "Launched the Proton national car and the Petronas Towers",
+      "Imposed capital controls during the 1998 Asian financial crisis",
+      "Had over a hundred critics detained in Operation Lalang in 1987",
+      "Returned to power in 2018 aged 92, the world's oldest leader"
+    ]
+  },
+  "legacy": {
+    "fr": "Architecte de la modernisation de la Malaisie, il laisse aussi le souvenir d'un pouvoir autoritaire et d'une rivalité avec Anwar Ibrahim qui a structuré la politique du pays pendant un quart de siècle.",
+    "en": "The architect of Malaysia's modernisation, he is also remembered for authoritarian rule and a feud with Anwar Ibrahim that shaped the country's politics for a quarter of a century."
   }
 }

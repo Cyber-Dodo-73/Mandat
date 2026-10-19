@@ -30,5 +30,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1968 à Manzini sous le nom de Makhosetive Dlamini, il est l'un des nombreux fils du roi Sobhuza II, qui meurt en 1982 après un règne de plus de soixante ans. Désigné héritier, il poursuit sa scolarité dans un pensionnat anglais pendant que des régents se disputent le pouvoir au Swaziland. Le 25 avril 1986, il est couronné à 18 ans sous le nom de Mswati III, devenant alors le plus jeune monarque régnant au monde. Il dissout rapidement le conseil traditionnel qui dominait la régence et maintient l'interdiction des partis politiques en vigueur depuis 1973. Une Constitution adoptée en 2005 confirme l'essentiel de ses pouvoirs : il nomme le Premier ministre et peut dissoudre le Parlement. Polygame, il choisit plusieurs de ses épouses lors de la danse des roseaux, cérémonie annuelle très médiatisée. En avril 2018, pour les 50 ans de l'indépendance, il rebaptise le pays Eswatini. Son train de vie fastueux contraste avec la pauvreté d'une large partie de la population et l'un des taux de VIH les plus élevés du monde. En 2021, des manifestations prodémocratie sont réprimées par les forces de sécurité, qui font des dizaines de morts.",
+    "en": "Born in Manzini in 1968 as Makhosetive Dlamini, he was one of the many sons of King Sobhuza II, who died in 1982 after a reign of more than sixty years. Named heir, he finished his schooling at an English boarding school while regents fought over power in Swaziland. On 25 April 1986 he was crowned at 18 as Mswati III, then the youngest reigning monarch in the world. He quickly dissolved the traditional council that had dominated the regency and kept the ban on political parties in force since 1973. A constitution adopted in 2005 confirmed most of his powers: he appoints the prime minister and can dissolve parliament. A polygamist, he has chosen several of his wives at the Reed Dance, a widely publicised annual ceremony. In April 2018, marking fifty years of independence, he renamed the country Eswatini. His lavish lifestyle stands in sharp contrast with widespread poverty and one of the world's highest HIV rates. In 2021, pro-democracy protests were put down by security forces, leaving dozens dead."
+  },
+  "highlights": {
+    "fr": [
+      "Couronné le 25 avril 1986 à 18 ans",
+      "Fait adopter en 2005 une Constitution préservant ses pouvoirs",
+      "Rebaptise le Swaziland en Eswatini en avril 2018",
+      "Dernier monarque absolu d'Afrique"
+    ],
+    "en": [
+      "Crowned on 25 April 1986 at the age of 18",
+      "Introduced a 2005 constitution that preserved his powers",
+      "Renamed Swaziland as Eswatini in April 2018",
+      "Africa's last absolute monarch"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier monarque absolu du continent, il incarne une royauté traditionnelle contestée par un mouvement démocratique durement réprimé.",
+    "en": "The continent's last absolute monarch, he embodies a traditional kingship challenged by a harshly repressed pro-democracy movement."
   }
 }

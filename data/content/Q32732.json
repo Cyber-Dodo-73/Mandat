@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Malala Yousafzai naît en 1997 à Mingora, dans la vallée de Swat, au nord-ouest du Pakistan, où son père dirige une école. Lorsque les talibans pakistanais prennent le contrôle de la région et interdisent l'école aux filles, elle tient dès 2009, à onze ans, un blog sous pseudonyme pour la BBC en ourdou et prend la parole dans les médias. Le 9 octobre 2012, un taliban monte dans son car scolaire et lui tire une balle dans la tête. Évacuée vers Birmingham, au Royaume-Uni, elle survit après de lourdes opérations et s'installe en Angleterre avec sa famille. En 2013, elle s'exprime devant les Nations unies le jour de ses seize ans, publie un livre autobiographique et reçoit le prix Sakharov ainsi que le prix des Nations unies pour les droits de l'homme. En 2014, à dix-sept ans, elle devient la plus jeune lauréate du prix Nobel de la paix, partagé avec l'Indien Kailash Satyarthi. Avec la fondation Malala Fund, elle finance des projets d'éducation des filles dans plusieurs pays. Diplômée en philosophie, politique et économie d'Oxford en 2020, elle poursuit son plaidoyer, notamment en faveur des Afghanes privées d'école depuis 2021.",
+    "en": "Malala Yousafzai was born in 1997 in Mingora, in the Swat Valley of north-west Pakistan, where her father ran a school. When the Pakistani Taliban took over the area and banned girls from school, she began in 2009, aged eleven, writing a pseudonymous blog for BBC Urdu and speaking out in the media. On 9 October 2012 a Taliban gunman boarded her school bus and shot her in the head. Flown to Birmingham in the UK, she survived after major surgery and settled in England with her family. In 2013 she addressed the United Nations on her sixteenth birthday, published a memoir, and received the Sakharov Prize and the UN Human Rights Prize. In 2014, at seventeen, she became the youngest ever Nobel Peace Prize laureate, sharing the award with India's Kailash Satyarthi. Through the Malala Fund she backs girls' education projects in several countries. After graduating in philosophy, politics and economics from Oxford in 2020, she kept up her advocacy, notably for Afghan girls barred from school since 2021."
+  },
+  "highlights": {
+    "fr": [
+      "Tient dès 2009 un blog pour la BBC sur la vie sous les talibans",
+      "Survit à une tentative d'assassinat par les talibans le 9 octobre 2012",
+      "Reçoit le prix Sakharov en 2013",
+      "Plus jeune lauréate du prix Nobel de la paix, à 17 ans, en 2014",
+      "Diplômée d'Oxford (Lady Margaret Hall) en 2020"
+    ],
+    "en": [
+      "Blogged for the BBC from 2009 about life under the Taliban",
+      "Survived a Taliban assassination attempt on 9 October 2012",
+      "Won the Sakharov Prize in 2013",
+      "Youngest Nobel Peace Prize laureate, aged 17, in 2014",
+      "Graduated from Oxford (Lady Margaret Hall) in 2020"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle est devenue l'emblème mondial du droit des filles à l'éducation, porté par sa fondation dans plusieurs pays.",
+    "en": "She has become the world's best-known voice for girls' right to education, a cause her foundation carries in several countries."
   }
 }

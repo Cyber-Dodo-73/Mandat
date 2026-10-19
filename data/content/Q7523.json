@@ -32,5 +32,27 @@
         "value": "medieval"
       }
     }
+  },
+  "story": {
+    "fr": "Petit-fils de Gengis Khan, Kubilai naît en 1215 et reçoit dans les années 1250 de son frère, le grand khan Möngke, le gouvernement des territoires conquis dans le nord de la Chine. Il s'entoure de conseillers chinois et mène des campagnes vers le Yunnan, qui tombe en 1253. À la mort de Möngke en 1259, il se fait proclamer grand khan en 1260 et doit affronter pendant quatre ans son frère Ariq Böke, qu'il finit par vaincre. En 1271, il adopte le nom dynastique chinois de Yuan et fixe sa capitale à Khanbaliq, l'actuelle Pékin. Après un long siège de Xiangyang, ses armées prennent la capitale des Song du Sud en 1276, et la dernière résistance s'éteint en 1279 : la Chine est réunifiée sous une dynastie mongole. Il organise une administration qui classe la population par origine, développe le papier-monnaie et le Grand Canal, et accueille des marchands étrangers comme Marco Polo. Ses expéditions contre le Japon, en 1274 et 1281, échouent toutes deux, la seconde détruite en partie par un typhon, et ses campagnes au Vietnam et à Java sont aussi des revers. Il meurt à Khanbaliq en 1294 après plus de trente ans de règne.",
+    "en": "A grandson of Genghis Khan, Kublai was born in 1215 and in the 1250s was given charge of conquered northern China by his brother, the Great Khan Möngke. He relied on Chinese advisers and campaigned into Yunnan, which fell in 1253. When Möngke died in 1259, Kublai had himself proclaimed Great Khan in 1260 and spent four years fighting his brother Ariq Böke, whom he eventually defeated. In 1271 he took the Chinese dynastic name Yuan and made Khanbaliq, today's Beijing, his capital. After a long siege of Xiangyang, his armies captured the Southern Song capital in 1276, and the last resistance collapsed in 1279, reuniting China under a Mongol dynasty. He set up an administration that ranked subjects by origin, expanded paper money and the Grand Canal, and welcomed foreign merchants such as Marco Polo. His invasions of Japan in 1274 and 1281 both failed, the second partly wrecked by a typhoon, and his campaigns in Vietnam and Java also ended in setbacks. He died in Khanbaliq in 1294 after more than thirty years in power."
+  },
+  "highlights": {
+    "fr": [
+      "Grand khan des Mongols de 1260 à 1294",
+      "Fonde la dynastie Yuan en 1271, capitale à Khanbaliq (Pékin)",
+      "Achève la conquête des Song du Sud en 1279 et réunifie la Chine",
+      "Deux invasions du Japon repoussées, en 1274 et 1281"
+    ],
+    "en": [
+      "Great Khan of the Mongols from 1260 to 1294",
+      "Founded the Yuan dynasty in 1271, with Khanbaliq (Beijing) as capital",
+      "Completed the conquest of the Southern Song in 1279, reuniting China",
+      "Two invasions of Japan repelled, in 1274 and 1281"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier empereur de Chine d'origine mongole, il a fait de Pékin une capitale durable, et sa cour reste connue en Europe grâce au récit de Marco Polo.",
+    "en": "The first Mongol emperor of China, he made Beijing a lasting capital, and his court is known in Europe through Marco Polo's account."
   }
 }

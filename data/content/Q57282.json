@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1942 à Nkandla, dans l'actuel KwaZulu-Natal, Jacob Zuma ne reçoit presque aucune scolarité et rejoint l'ANC en 1959, puis sa branche armée en 1962. Arrêté en 1963, il passe dix ans au bagne de Robben Island. Exilé à partir de 1975 au Swaziland et au Mozambique, il finit par diriger le renseignement de l'ANC. Revenu en 1990, il contribue à apaiser les violences entre l'ANC et l'Inkatha au KwaZulu-Natal. Vice-président du pays en 1999, il est limogé par Thabo Mbeki en 2005 après la condamnation de son conseiller financier pour corruption, puis acquitté d'une accusation de viol en 2006. Il prend la tête de l'ANC en 2007 et devient président en mai 2009. Ses mandats sont marqués par les travaux payés par l'État dans sa résidence de Nkandla et par la « capture de l'État » au profit de la famille Gupta. Poussé à la démission par l'ANC en février 2018, il est emprisonné en juillet 2021 pour outrage, ce qui déclenche des émeutes faisant plus de 300 morts. Il fonde en 2023 le parti uMkhonto weSizwe, qui obtient près de 15 % des voix en 2024.",
+    "en": "Born in 1942 in Nkandla, in today's KwaZulu-Natal, Jacob Zuma had almost no schooling and joined the ANC in 1959 and its armed wing in 1962. Arrested in 1963, he spent ten years in the Robben Island prison. In exile from 1975 in Swaziland and Mozambique, he rose to head the ANC's intelligence operations. Back in 1990, he helped calm the fighting between the ANC and Inkatha in KwaZulu-Natal. Deputy president of the country from 1999, he was sacked by Thabo Mbeki in 2005 after his financial adviser was convicted of corruption, and was acquitted of a rape charge in 2006. He took over the ANC in 2007 and became president in May 2009. His time in office was marked by state-funded upgrades to his Nkandla homestead and by 'state capture' benefiting the Gupta family. Forced out by the ANC in February 2018, he was jailed for contempt of court in July 2021, sparking riots that killed more than 300 people. In 2023 he founded the uMkhonto weSizwe party, which won nearly 15% of the vote in 2024."
+  },
+  "highlights": {
+    "fr": [
+      "1963-1973 : dix ans de détention à Robben Island",
+      "2007 : prend la tête de l'ANC face à Thabo Mbeki",
+      "2009 : devient président de l'Afrique du Sud",
+      "2018 : démissionne sous la pression des affaires de corruption",
+      "2024 : son nouveau parti MK obtient près de 15 % des voix"
+    ],
+    "en": [
+      "1963–1973: ten years imprisoned on Robben Island",
+      "2007: wins the ANC leadership from Thabo Mbeki",
+      "2009: becomes president of South Africa",
+      "2018: resigns under pressure over corruption scandals",
+      "2024: his new MK party wins nearly 15% of the vote"
+    ]
+  },
+  "legacy": {
+    "fr": "Ancien combattant de la libération, il reste associé à la « capture de l'État », dont la commission Zondo a détaillé l'ampleur.",
+    "en": "A former liberation fighter, he remains linked to 'state capture', whose scale was laid out by the Zondo commission."
   }
 }

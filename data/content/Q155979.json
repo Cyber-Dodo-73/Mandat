@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1976 près de Moscou dans une famille d'officier, Alexeï Navalny étudie le droit puis la finance avant de devenir avocat. Militant du parti libéral Iabloko dans les années 2000, il se fait connaître en achetant des actions de grandes entreprises d'État pour exposer leurs détournements. En 2011, il crée la Fondation anticorruption et popularise la formule « parti des escrocs et des voleurs » pour désigner Russie unie, au moment des grandes manifestations contre la fraude électorale. Candidat à la mairie de Moscou en 2013, il obtient environ 27 % des voix malgré des poursuites judiciaires à répétition. Ses enquêtes vidéo, comme celle de 2017 sur la fortune de Dmitri Medvedev, attirent des dizaines de millions de spectateurs et déclenchent des manifestations dans tout le pays. En août 2020, il est empoisonné au Novitchok en Sibérie et soigné à Berlin ; des journalistes d'investigation attribuent l'attaque au FSB. Rentré volontairement en Russie en janvier 2021, il est arrêté dès son arrivée puis condamné à des peines successives qui atteignent dix-neuf ans de régime spécial. Ses organisations sont qualifiées d'« extrémistes » et il reçoit la même année le prix Sakharov. Transféré dans une colonie pénitentiaire au-delà du cercle arctique, il y meurt en février 2024, à 47 ans.",
+    "en": "Born in 1976 near Moscow into an army officer's family, Alexei Navalny studied law and finance and began his career as a lawyer. Active in the liberal Yabloko party in the 2000s, he gained attention by buying shares in big state companies to expose how money was siphoned off. In 2011 he founded the Anti-Corruption Foundation and branded United Russia the 'party of crooks and thieves' as mass protests broke out over rigged elections. Running for mayor of Moscow in 2013, he took about 27 percent of the vote despite a string of criminal cases against him. His video investigations, such as the 2017 film on Dmitry Medvedev's wealth, drew tens of millions of viewers and sparked protests across the country. In August 2020 he was poisoned with Novichok in Siberia and treated in Berlin; investigative journalists traced the attack to the FSB. He chose to fly home in January 2021, was arrested at the airport and then handed successive sentences totalling nineteen years in a special-regime colony. His groups were outlawed as 'extremist', and that same year he received the Sakharov Prize. Moved to a prison colony above the Arctic Circle, he died there in February 2024, aged 47."
+  },
+  "highlights": {
+    "fr": [
+      "2011 : fonde la Fondation anticorruption (FBK)",
+      "2013 : obtient environ 27 % des voix à l'élection municipale de Moscou",
+      "2020 : survit à un empoisonnement au Novitchok, soigné à Berlin",
+      "2021 : rentre en Russie, est emprisonné et reçoit le prix Sakharov",
+      "2024 : meurt dans une colonie pénitentiaire de l'Arctique russe"
+    ],
+    "en": [
+      "2011: founded the Anti-Corruption Foundation (FBK)",
+      "2013: won about 27 percent of the vote in the Moscow mayoral election",
+      "2020: survived a Novichok poisoning and was treated in Berlin",
+      "2021: returned to Russia, was jailed and received the Sakharov Prize",
+      "2024: died in a prison colony in Russia's Arctic"
+    ]
+  },
+  "legacy": {
+    "fr": "Principal opposant à Vladimir Poutine pendant plus d'une décennie, il a montré la puissance des enquêtes anticorruption diffusées en ligne. Sa mort en détention en a fait un symbole de la répression en Russie.",
+    "en": "Vladimir Putin's main opponent for over a decade, he showed how powerful anti-corruption investigations posted online could be. His death in custody made him a symbol of repression in Russia."
   }
 }

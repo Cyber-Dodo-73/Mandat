@@ -36,5 +36,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1530 à Kolomenskoïe, près de Moscou, Ivan IV devient grand-prince de Moscou à trois ans, à la mort de son père Vassili III, et grandit au milieu des rivalités des familles de boyards. En 1547, il se fait couronner tsar de toute la Russie, premier souverain moscovite à porter officiellement ce titre, et épouse Anastasia Romanovna. Ses premières années de règne voient la réforme du code des lois, la création d'une armée permanente de streltsy et la réunion des premières assemblées du pays. Il conquiert le khanat de Kazan en 1552 puis celui d'Astrakhan en 1556, ouvrant la Volga à la Moscovie. En 1558, il engage la longue guerre de Livonie pour accéder à la Baltique, conflit qui s'achèvera en 1583 sans gain. Après la mort d'Anastasia en 1560 et la défection de proches, il instaure en 1565 l'opritchnina, un territoire placé sous son autorité directe où sa garde exécute et terrorise boyards et populations. En 1570, ses troupes massacrent des milliers d'habitants de Novgorod. En 1581, il frappe mortellement son fils aîné Ivan lors d'une dispute. Il meurt à Moscou en 1584, laissant le trône à son fils Fiodor, de santé fragile.",
+    "en": "Born in 1530 at Kolomenskoye near Moscow, Ivan IV became Grand Prince of Moscow at three when his father Vasily III died, and grew up amid feuds between boyar clans. In 1547 he was crowned Tsar of All Russia, the first Muscovite ruler to take the title officially, and married Anastasia Romanovna. His early reign brought a revised law code, a standing corps of musketeers known as the streltsy and the first national assemblies. He conquered the Khanate of Kazan in 1552 and Astrakhan in 1556, opening the Volga to Muscovy. In 1558 he launched the long Livonian War to reach the Baltic, a conflict that ended in 1583 with no gains. After Anastasia's death in 1560 and the defection of close allies, he created the oprichnina in 1565, a domain under his direct rule where his guard executed and terrorised boyars and commoners alike. In 1570 his forces massacred thousands of the inhabitants of Novgorod. In 1581 he struck and fatally wounded his eldest son Ivan during a quarrel. He died in Moscow in 1584, leaving the throne to his frail son Feodor."
+  },
+  "highlights": {
+    "fr": [
+      "Premier souverain couronné tsar de toute la Russie, en 1547",
+      "Conquiert les khanats de Kazan (1552) et d'Astrakhan (1556)",
+      "Instaure en 1565 l'opritchnina, régime de terreur contre les boyards",
+      "Massacre de Novgorod par ses troupes en 1570"
+    ],
+    "en": [
+      "First ruler crowned Tsar of All Russia, in 1547",
+      "Conquered the khanates of Kazan (1552) and Astrakhan (1556)",
+      "Created the oprichnina in 1565, a reign of terror against the boyars",
+      "His troops massacred the people of Novgorod in 1570"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a agrandi la Russie vers l'est et posé les bases d'un pouvoir autocratique, mais son nom reste lié à la terreur de l'opritchnina et au meurtre de son fils.",
+    "en": "He expanded Russia eastward and laid the foundations of autocratic rule, but his name remains tied to the terror of the oprichnina and the killing of his son."
   }
 }

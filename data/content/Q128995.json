@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1897 dans le comté de Durham au sein d'une famille de baronnets, Anthony Eden combat sur le front occidental pendant la Première Guerre mondiale, où il perd deux frères et reçoit la Military Cross en 1917. Diplômé de langues orientales à Oxford, il est élu député conservateur de Warwick et Leamington en 1923. Lord du Sceau privé en 1933, il devient en décembre 1935 ministre des Affaires étrangères à 38 ans, mais démissionne en février 1938 pour protester contre la politique d'apaisement de Neville Chamberlain envers Mussolini. Churchill le rappelle au gouvernement en 1940 et lui confie de nouveau le Foreign Office, qu'il dirige pendant toute la guerre, puis de 1951 à 1955. Il copréside notamment la conférence de Genève de 1954 sur l'Indochine. En avril 1955, il succède à Churchill comme Premier ministre et remporte les élections de mai. Après la nationalisation du canal de Suez par Nasser en juillet 1956, il s'entend secrètement avec la France et Israël pour lancer une intervention militaire en novembre. Sous la pression des États-Unis et des marchés, il doit ordonner un cessez-le-feu et retirer les troupes ; affaibli et malade, il démissionne en janvier 1957 et meurt en 1977 dans le Wiltshire.",
+    "en": "Born in County Durham in 1897 into a baronet's family, Anthony Eden fought on the Western Front in the First World War, losing two brothers and winning the Military Cross in 1917. After a degree in oriental languages at Oxford, he was elected Conservative MP for Warwick and Leamington in 1923. Lord Privy Seal in 1933, he became foreign secretary in December 1935 at 38, but resigned in February 1938 in protest at Neville Chamberlain's appeasement of Mussolini. Churchill brought him back in 1940 and handed him the Foreign Office again, which he ran throughout the war and once more from 1951 to 1955. Among other things he co-chaired the 1954 Geneva conference on Indochina. In April 1955 he succeeded Churchill as prime minister and won a general election that May. After Nasser nationalised the Suez Canal in July 1956, he secretly agreed with France and Israel to launch a military intervention in November. Under pressure from the United States and the markets, he had to order a ceasefire and pull the troops out; weakened and in poor health, he resigned in January 1957 and died in Wiltshire in 1977."
+  },
+  "highlights": {
+    "fr": [
+      "Reçoit la Military Cross en 1917 sur le front occidental",
+      "Devient ministre des Affaires étrangères à 38 ans, en 1935",
+      "Démissionne en 1938 pour dénoncer la politique d'apaisement",
+      "Dirige le Foreign Office pendant la Seconde Guerre mondiale",
+      "Lance l'expédition de Suez en 1956 et démissionne en janvier 1957"
+    ],
+    "en": [
+      "Won the Military Cross on the Western Front in 1917",
+      "Became foreign secretary at 38, in 1935",
+      "Resigned in 1938 in protest at appeasement",
+      "Ran the Foreign Office through the Second World War",
+      "Launched the Suez intervention in 1956 and resigned in January 1957"
+    ]
+  },
+  "legacy": {
+    "fr": "Diplomate respecté pendant trois décennies, il reste associé au fiasco de Suez, qui a révélé la fin du statut de grande puissance indépendante du Royaume-Uni.",
+    "en": "A respected diplomat for three decades, he is remembered above all for the Suez fiasco, which exposed the end of Britain's standing as an independent great power."
   }
 }

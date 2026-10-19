@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1791 dans une cabane de Cove Gap, dans le comté de Franklin, en Pennsylvanie, James Buchanan étudie au Dickinson College puis devient avocat à Lancaster. Après avoir servi comme volontaire pendant la guerre de 1812, il siège à la chambre de Pennsylvanie de 1814 à 1816, puis à la Chambre des représentants de 1821 à 1831. Ambassadeur en Russie en 1832-1833, il est ensuite sénateur de 1834 à 1845. Secrétaire d'État de James Polk de 1845 à 1849, il négocie le partage de l'Oregon avec le Royaume-Uni en 1846 et accompagne la guerre contre le Mexique. Ambassadeur à Londres à partir de 1853, il cosigne le manifeste d'Ostende, qui envisage de prendre Cuba à l'Espagne. Élu président en 1856, il soutient l'arrêt Dred Scott de 1857, qui nie toute citoyenneté aux Afro-Américains, et appuie la constitution esclavagiste de Lecompton pour le Kansas. Son mandat traverse aussi la panique financière de 1857. Après l'élection d'Abraham Lincoln en 1860, sept États du Sud font sécession ; Buchanan juge la sécession illégale mais estime ne pas pouvoir l'empêcher. Seul président resté célibataire, il se retire à Wheatland, près de Lancaster, où il meurt en 1868.",
+    "en": "Born in 1791 in a log cabin at Cove Gap, Franklin County, Pennsylvania, James Buchanan studied at Dickinson College and became a lawyer in Lancaster. After serving as a volunteer in the War of 1812, he sat in the Pennsylvania House from 1814 to 1816 and in the US House of Representatives from 1821 to 1831. Minister to Russia in 1832–1833, he then served as a senator from 1834 to 1845. As James Polk's Secretary of State from 1845 to 1849, he negotiated the division of Oregon with Britain in 1846 and helped run the war with Mexico. Posted to London from 1853, he co-signed the Ostend Manifesto, which floated seizing Cuba from Spain. Elected president in 1856, he backed the 1857 Dred Scott ruling, which denied citizenship to African Americans, and supported the pro-slavery Lecompton constitution for Kansas. His term was also hit by the financial Panic of 1857. After Abraham Lincoln's election in 1860, seven Southern states seceded; Buchanan called secession illegal but argued he had no power to stop it. The only president never to marry, he retired to Wheatland near Lancaster, where he died in 1868."
+  },
+  "highlights": {
+    "fr": [
+      "Secrétaire d'État de 1845 à 1849, négocie le traité de l'Oregon",
+      "Cosigne le manifeste d'Ostende sur Cuba en 1854",
+      "15e président des États-Unis, de 1857 à 1861",
+      "Laisse sept États faire sécession pendant l'hiver 1860-1861"
+    ],
+    "en": [
+      "Secretary of State from 1845 to 1849, negotiated the Oregon Treaty",
+      "Co-signed the Ostend Manifesto on Cuba in 1854",
+      "15th President of the United States, 1857–1861",
+      "Saw seven states secede in the winter of 1860–1861"
+    ]
+  },
+  "legacy": {
+    "fr": "Il figure régulièrement en bas des classements des présidents américains pour son incapacité à freiner la marche vers la guerre de Sécession.",
+    "en": "He regularly ranks near the bottom of US presidential rankings for failing to slow the slide into the Civil War."
   }
 }

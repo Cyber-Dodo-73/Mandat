@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Pervez Musharraf naît à Delhi en 1943, et sa famille émigre à Karachi lors de la partition de 1947 ; il passe ensuite une partie de son enfance en Turquie. Officier d'artillerie sorti de l'Académie militaire en 1964, il combat dans les guerres contre l'Inde de 1965 et 1971 et sert dans les commandos. Nommé chef de l'armée par le Premier ministre Nawaz Sharif en octobre 1998, il conduit en 1999 l'infiltration de Kargil, au Cachemire, qui déclenche un conflit avec l'Inde. Le 12 octobre 1999, alors que Sharif tente de le limoger, il prend le pouvoir par un coup d'État et se proclame chef de l'exécutif, puis président en 2001. Après les attentats du 11 septembre 2001, il rompt avec les talibans afghans et devient un allié clé des États-Unis, tout en survivant à plusieurs tentatives d'assassinat. En 2007, la suspension du président de la Cour suprême déclenche un mouvement des avocats, suivie de l'assaut sanglant contre la Mosquée rouge et de l'instauration de l'état d'urgence en novembre. Après l'assassinat de Benazir Bhutto et la victoire de l'opposition aux élections de 2008, il démissionne en août pour échapper à une procédure de destitution. Condamné à mort par contumace pour haute trahison en 2019, il meurt en exil à Dubaï en février 2023.",
+    "en": "Pervez Musharraf was born in Delhi in 1943, and his family moved to Karachi at partition in 1947; he then spent part of his childhood in Turkey. An artillery officer commissioned from the Military Academy in 1964, he fought in the 1965 and 1971 wars with India and served with the commandos. Appointed army chief by Prime Minister Nawaz Sharif in October 1998, he led the 1999 infiltration at Kargil in Kashmir, which set off a conflict with India. On 12 October 1999, as Sharif tried to sack him, he seized power in a coup and named himself chief executive, then president in 2001. After the attacks of 11 September 2001 he broke with the Afghan Taliban and became a key US ally, while surviving several assassination attempts. In 2007 his suspension of the chief justice triggered a lawyers' movement, followed by the bloody assault on the Red Mosque and a state of emergency in November. After Benazir Bhutto's assassination and the opposition's victory in the 2008 election, he resigned that August to avoid impeachment. Sentenced to death in absentia for high treason in 2019, he died in exile in Dubai in February 2023."
+  },
+  "highlights": {
+    "fr": [
+      "Chef de l'armée pakistanaise de 1998 à 2007",
+      "Prend le pouvoir par un coup d'État le 12 octobre 1999",
+      "Président du Pakistan de 2001 à 2008",
+      "Allié des États-Unis après le 11 septembre 2001",
+      "Démissionne en août 2008 face à une menace de destitution"
+    ],
+    "en": [
+      "Chief of the Pakistani army from 1998 to 2007",
+      "Seized power in a coup on 12 October 1999",
+      "President of Pakistan from 2001 to 2008",
+      "US ally after the attacks of 11 September 2001",
+      "Resigned in August 2008 to avoid impeachment"
+    ]
+  },
+  "legacy": {
+    "fr": "Son régime illustre le poids durable de l'armée dans la vie politique pakistanaise, entre alliance avec Washington et répression des contre-pouvoirs.",
+    "en": "His rule illustrates the army's lasting grip on Pakistani politics, caught between an alliance with Washington and the suppression of checks on power."
   }
 }

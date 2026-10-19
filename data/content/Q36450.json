@@ -32,5 +32,29 @@
         "value": "influence"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1729 à Stettin, en Poméranie, la princesse Sophie d'Anhalt-Zerbst est mariée en 1745 à l'héritier du trône russe, le futur Pierre III, et prend le nom de Catherine en se convertissant à l'orthodoxie. Mal assortie à un époux impopulaire, elle se constitue patiemment des appuis à la cour et dans la garde. En juin 1762, quelques mois après l'avènement de Pierre III, un coup d'État mené par les régiments de la garde la porte au pouvoir ; son mari meurt peu après en détention. Lectrice des philosophes, elle correspond avec Voltaire et Diderot et rédige en 1767 une Instruction destinée à une commission chargée de réformer les lois. La grande révolte de Pougatchev, en 1773-1775, la pousse cependant à renforcer l'appareil provincial et l'emprise des nobles sur les serfs, dont la condition s'aggrave sous son règne. À l'extérieur, deux guerres victorieuses contre l'Empire ottoman ouvrent à la Russie la mer Noire, et la Crimée est annexée en 1783. Elle participe aussi aux trois partages de la Pologne, entre 1772 et 1795, qui rayent ce royaume de la carte. Elle meurt à Saint-Pétersbourg en novembre 1796, après trente-quatre ans de règne.",
+    "en": "Born in 1729 in Stettin, Pomerania, Princess Sophie of Anhalt-Zerbst was married in 1745 to the heir to the Russian throne, the future Peter III, and took the name Catherine on converting to Orthodoxy. Stuck in a poor match with an unpopular husband, she slowly built support at court and in the guards regiments. In June 1762, months after Peter's accession, a guards coup put her on the throne; her husband died in custody shortly afterwards. A reader of the philosophes who corresponded with Voltaire and Diderot, she drafted in 1767 an Instruction for a commission meant to recodify Russian law. The great Pugachev rebellion of 1773-1775 instead pushed her to strengthen provincial government and the nobility's grip on the serfs, whose lot worsened during her reign. Abroad, two victorious wars against the Ottoman Empire gave Russia the Black Sea coast, and Crimea was annexed in 1783. She also took part in the three partitions of Poland between 1772 and 1795, which wiped that kingdom off the map. She died in Saint Petersburg in November 1796 after thirty-four years on the throne."
+  },
+  "highlights": {
+    "fr": [
+      "Prend le pouvoir par un coup d'État de la garde en 1762",
+      "Rédige en 1767 une Instruction pour réformer les lois de l'Empire",
+      "Écrase la révolte de Pougatchev (1773-1775)",
+      "Annexe la Crimée en 1783 après la guerre contre les Ottomans",
+      "Participe aux trois partages de la Pologne (1772-1795)"
+    ],
+    "en": [
+      "Seized power in an Imperial Guard coup in 1762",
+      "Drafted a 1767 Instruction to reform the empire's laws",
+      "Crushed Pugachev's rebellion (1773-1775)",
+      "Annexed Crimea in 1783 after war with the Ottomans",
+      "Took part in the three partitions of Poland (1772-1795)"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a fait de la Russie une grande puissance européenne et l'a étendue jusqu'à la mer Noire, mais son « despotisme éclairé » a laissé intact, et même durci, le servage.",
+    "en": "She turned Russia into a major European power reaching the Black Sea, yet her enlightened despotism left serfdom intact and even harsher."
   }
 }

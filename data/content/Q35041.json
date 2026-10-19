@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1843 à Niles, dans l'Ohio, William McKinley s'engage à dix-huit ans dans l'armée de l'Union et termine la guerre de Sécession avec le grade de major. Devenu avocat à Canton, il est élu à la Chambre des représentants en 1876 et y siège, avec une brève interruption, jusqu'en 1891. Président de la commission des finances, il fait voter en 1890 le tarif McKinley, qui relève fortement les droits de douane, puis perd son siège la même année. Gouverneur de l'Ohio de 1892 à 1896, il remporte la présidentielle de 1896 contre William Jennings Bryan grâce à une campagne organisée par Mark Hanna et défendant l'étalon-or. En 1898, après l'explosion du croiseur Maine à La Havane, il mène la guerre hispano-américaine, qui donne aux États-Unis Porto Rico, Guam et les Philippines. La même année, il annexe Hawaï, et ses troupes répriment ensuite l'insurrection philippine. Réélu en 1900 avec Theodore Roosevelt comme vice-président, il est abattu le 6 septembre 1901 à l'Exposition panaméricaine de Buffalo par l'anarchiste Leon Czolgosz. Il meurt de ses blessures huit jours plus tard.",
+    "en": "Born in 1843 in Niles, Ohio, William McKinley enlisted in the Union army at eighteen and ended the Civil War as a major. A lawyer in Canton, he was elected to the House of Representatives in 1876 and served there, with one brief gap, until 1891. As chairman of the Ways and Means Committee he pushed through the McKinley Tariff of 1890, which raised import duties sharply, and lost his seat that same year. Governor of Ohio from 1892 to 1896, he won the 1896 presidential race against William Jennings Bryan with a campaign run by Mark Hanna and built around the gold standard. In 1898, after the battleship Maine exploded in Havana harbour, he led the Spanish-American War, which brought the United States Puerto Rico, Guam and the Philippines. That same year he annexed Hawaii, and his forces then put down the Philippine insurgency. Re-elected in 1900 with Theodore Roosevelt as vice president, he was shot on 6 September 1901 at the Pan-American Exposition in Buffalo by the anarchist Leon Czolgosz. He died of his wounds eight days later."
+  },
+  "highlights": {
+    "fr": [
+      "Fait voter le tarif douanier McKinley en 1890",
+      "Gouverneur de l'Ohio de 1892 à 1896",
+      "Remporte la guerre hispano-américaine de 1898",
+      "Annexe Hawaï en 1898",
+      "Assassiné à Buffalo en septembre 1901"
+    ],
+    "en": [
+      "Passed the McKinley Tariff in 1890",
+      "Governor of Ohio from 1892 to 1896",
+      "Won the Spanish-American War of 1898",
+      "Annexed Hawaii in 1898",
+      "Assassinated in Buffalo in September 1901"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa présidence marque l'entrée des États-Unis dans l'ère des possessions outre-mer ; le mont Denali a de nouveau porté son nom à partir de 2025.",
+    "en": "His presidency marks America's entry into the age of overseas possessions; Alaska's Denali was officially renamed after him again in 2025."
   }
 }

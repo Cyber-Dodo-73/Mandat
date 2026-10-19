@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1889 à Allahabad dans une famille brahmane du Cachemire, fils de l'avocat et dirigeant nationaliste Motilal Nehru, Jawaharlal Nehru étudie à Harrow puis au Trinity College de Cambridge avant de devenir avocat à Londres. Revenu en Inde, il s'engage auprès de Gandhi dans le Congrès national indien et devient l'une des figures de son aile gauche. Président du Congrès en 1929, il fait adopter à Lahore la revendication d'une indépendance complète, et passe au total près de neuf ans dans les prisons britanniques. Il devient le premier Premier ministre de l'Inde indépendante le 15 août 1947, au moment de la partition et des violences qui l'accompagnent. Pendant dix-sept ans, il construit un État laïque et démocratique, lance les plans quinquennaux, l'industrie lourde et les instituts de technologie, et cumule souvent le portefeuille des Affaires étrangères. Figure du mouvement des non-alignés, il participe en 1955 à la conférence de Bandung et reçoit la même année le Bharat Ratna. L'annexion de Goa en 1961 est suivie de la défaite face à la Chine en 1962, qui l'affaiblit, et il meurt à New Delhi en mai 1964.",
+    "en": "Born in 1889 in Allahabad into a Kashmiri Brahmin family, the son of lawyer and nationalist leader Motilal Nehru, Jawaharlal Nehru studied at Harrow and Trinity College, Cambridge, before qualifying as a barrister in London. Back in India he joined Gandhi in the Indian National Congress and became a leading figure on its left wing. As Congress president in 1929 he had the Lahore session adopt the demand for complete independence, and he spent nearly nine years in all in British prisons. He became independent India's first prime minister on 15 August 1947, amid partition and the violence that came with it. Over seventeen years he built a secular democratic state, launched five-year plans, heavy industry and the Institutes of Technology, and often held the foreign affairs portfolio himself. A leading voice of non-alignment, he attended the Bandung Conference in 1955 and received the Bharat Ratna the same year. The annexation of Goa in 1961 was followed by defeat by China in 1962, which weakened him, and he died in New Delhi in May 1964."
+  },
+  "highlights": {
+    "fr": [
+      "Fait adopter par le Congrès l'objectif d'indépendance totale à Lahore en 1929",
+      "Premier Premier ministre de l'Inde, du 15 août 1947 à 1964",
+      "Lance les plans quinquennaux à partir de 1951",
+      "Cofondateur du mouvement des non-alignés, présent à Bandung en 1955",
+      "Reçoit le Bharat Ratna, plus haute distinction indienne, en 1955"
+    ],
+    "en": [
+      "Had Congress adopt the goal of complete independence at Lahore in 1929",
+      "India's first prime minister, from 15 August 1947 to 1964",
+      "Launched the five-year plans from 1951",
+      "A founder of the Non-Aligned Movement, present at Bandung in 1955",
+      "Received the Bharat Ratna, India's highest honour, in 1955"
+    ]
+  },
+  "legacy": {
+    "fr": "Architecte de l'Inde moderne, il a ancré la démocratie parlementaire et la laïcité dans un pays immense, et sa famille a dominé la politique indienne pendant des décennies.",
+    "en": "The architect of modern India, he rooted parliamentary democracy and secularism in a vast country, and his family dominated Indian politics for decades."
   }
 }

@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Pella, capitale de la Macédoine, en 356 av. J.-C., Alexandre est le fils du roi Philippe II et reçoit pendant plusieurs années l'enseignement du philosophe Aristote. Il commande déjà la cavalerie à la bataille de Chéronée en 338, qui soumet les cités grecques à la Macédoine. Devenu roi à 20 ans après l'assassinat de son père en 336, il écrase la révolte de Thèbes puis franchit l'Hellespont en 334 pour attaquer l'Empire perse. Vainqueur au Granique, puis à Issos en 333 contre le roi Darius III, il prend Tyr après un long siège et entre en Égypte, où il est accueilli comme pharaon et fonde Alexandrie. La victoire de Gaugamèles en 331 lui ouvre Babylone, Suse et Persépolis, et il se pose en successeur des Grands Rois. Il pousse jusqu'en Asie centrale puis dans la vallée de l'Indus, où ses soldats épuisés refusent d'aller plus loin en 326. Revenu à Babylone, il y meurt en juin 323 à 32 ans, sans héritier adulte, et son empire est rapidement partagé entre ses généraux.",
+    "en": "Born in Pella, the Macedonian capital, in 356 BC, Alexander was the son of King Philip II and was tutored for several years by the philosopher Aristotle. He already commanded the cavalry at Chaeronea in 338, the battle that brought the Greek cities under Macedonian control. Becoming king at 20 after his father's murder in 336, he crushed a revolt in Thebes and crossed the Hellespont in 334 to attack the Persian Empire. Victorious at the Granicus and then at Issus in 333 against King Darius III, he took Tyre after a long siege and entered Egypt, where he was hailed as pharaoh and founded Alexandria. The victory at Gaugamela in 331 opened Babylon, Susa and Persepolis to him, and he presented himself as heir to the Great Kings. He pushed on into Central Asia and the Indus valley, where his exhausted troops refused to go further in 326. Back in Babylon, he died there in June 323 aged 32, with no adult heir, and his empire was soon carved up among his generals."
+  },
+  "highlights": {
+    "fr": [
+      "Élève d'Aristote dans sa jeunesse",
+      "Roi de Macédoine à 20 ans, en 336 av. J.-C.",
+      "Bat Darius III à Issos (333) et à Gaugamèles (331)",
+      "Fonde Alexandrie d'Égypte en 331 av. J.-C.",
+      "Conduit son armée jusqu'à l'Indus en 326 av. J.-C."
+    ],
+    "en": [
+      "Tutored by Aristotle as a youth",
+      "King of Macedon at 20, in 336 BC",
+      "Defeated Darius III at Issus (333) and Gaugamela (331)",
+      "Founded Alexandria in Egypt in 331 BC",
+      "Led his army as far as the Indus in 326 BC"
+    ]
+  },
+  "legacy": {
+    "fr": "Ses conquêtes ont diffusé la langue et la culture grecques de l'Égypte à l'Asie centrale, ouvrant l'époque hellénistique.",
+    "en": "His conquests spread Greek language and culture from Egypt to Central Asia, opening the Hellenistic age."
   }
 }

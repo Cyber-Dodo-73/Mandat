@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né au Caire en 1920, fils du roi Fouad Ier, Farouk est rappelé de ses études militaires en Angleterre à la mort de son père en 1936 et monte sur le trône à seize ans. D'abord populaire, le jeune souverain règne sur un pays où les Britanniques gardent troupes et influence, ce que rappelle brutalement l'incident de 1942, lorsque des chars encerclent son palais pour lui imposer un gouvernement wafdiste. Pendant et après la guerre, son train de vie fastueux, ses collections et ses frasques ternissent l'image de la monarchie. La défaite face au nouvel État d'Israël en 1948, sur fond de scandale d'armes défectueuses, nourrit la colère dans l'armée. En janvier 1952, l'incendie du Caire révèle l'ampleur du désordre politique. Le 23 juillet 1952, les Officiers libres menés par Mohammed Naguib et Gamal Abdel Nasser prennent le pouvoir ; trois jours plus tard, Farouk abdique au profit de son fils nouveau-né et quitte Alexandrie sur son yacht. La monarchie est abolie en 1953. Installé surtout en Italie, il vit en exil jusqu'à sa mort à Rome en 1965.",
+    "en": "Born in Cairo in 1920, the son of King Fuad I, Farouk was called back from military studies in England when his father died in 1936 and took the throne at sixteen. Popular at first, the young king reigned over a country where Britain kept troops and real leverage, as the 1942 incident made plain when tanks surrounded his palace to force a Wafd government on him. During and after the war, his extravagant lifestyle, his collections and his escapades tarnished the monarchy's image. Defeat at the hands of the new State of Israel in 1948, along with a scandal over faulty weapons, fuelled resentment in the army. In January 1952, the burning of Cairo exposed how deep the political disorder ran. On 23 July 1952 the Free Officers, led by Mohamed Naguib and Gamal Abdel Nasser, seized power; three days later Farouk abdicated in favour of his infant son and sailed from Alexandria on his yacht. The monarchy was abolished in 1953. Settling mainly in Italy, he lived in exile until his death in Rome in 1965."
+  },
+  "highlights": {
+    "fr": [
+      "Roi d'Égypte à 16 ans, en 1936, à la mort de son père Fouad Ier",
+      "Contraint en 1942 par les Britanniques d'accepter un gouvernement du Wafd",
+      "Règne marqué par la défaite de 1948 contre Israël",
+      "Abdique le 26 juillet 1952 après le coup d'État des Officiers libres"
+    ],
+    "en": [
+      "Became king of Egypt at 16 in 1936 on the death of his father Fuad I",
+      "Forced by the British in 1942 to accept a Wafd government",
+      "His reign was marked by the 1948 defeat against Israel",
+      "Abdicated on 26 July 1952 after the Free Officers' coup"
+    ]
+  },
+  "legacy": {
+    "fr": "Avant-dernier roi d'Égypte, il reste le symbole d'une monarchie discréditée dont la chute ouvrit l'ère républicaine de Nasser.",
+    "en": "Egypt's next-to-last king, he remains the emblem of a discredited monarchy whose fall opened Nasser's republican era."
   }
 }

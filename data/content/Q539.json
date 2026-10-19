@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Giuseppe Garibaldi naît à Nice en 1807, dans une famille de marins, et navigue dès l'adolescence. Gagné aux idées de Giuseppe Mazzini, il participe en 1834 à une insurrection manquée en Piémont, est condamné à mort par contumace et s'enfuit en Amérique du Sud. Il y combat pour la république riograndense au Brésil, où il rencontre sa compagne Anita, puis commande en Uruguay une légion italienne vêtue de chemises rouges. Rentré en 1848, il défend la République romaine contre les troupes françaises en 1849 ; pendant la retraite, Anita meurt d'épuisement. Après un nouvel exil, il commande en 1859 un corps de volontaires contre l'Autriche. En mai 1860, il débarque à Marsala avec l'expédition des Mille, conquiert la Sicile puis entre à Naples en septembre, avant de remettre ses conquêtes au roi Victor-Emmanuel II lors de leur rencontre à Teano. Le royaume d'Italie est proclamé en 1861, mais ses tentatives de prendre Rome échouent, à l'Aspromonte en 1862, où il est blessé par l'armée italienne, puis à Mentana en 1867. En 1870-1871, il combat pour la République française contre la Prusse et il est élu à l'Assemblée nationale. Député au Parlement italien, il se retire sur l'île de Caprera, où il meurt en juin 1882.",
+    "en": "Giuseppe Garibaldi was born in Nice in 1807 into a seafaring family and went to sea in his teens. Won over by Giuseppe Mazzini's ideas, he joined a failed uprising in Piedmont in 1834, was sentenced to death in absentia and fled to South America. There he fought for the Riograndense Republic in Brazil, where he met his partner Anita, and then led an Italian legion in red shirts in Uruguay. Back in 1848, he defended the Roman Republic against French troops in 1849; during the retreat Anita died of exhaustion. After another exile, he led a volunteer corps against Austria in 1859. In May 1860 he landed at Marsala with the Expedition of the Thousand, took Sicily and entered Naples in September, then handed his conquests to King Victor Emmanuel II when they met at Teano. The Kingdom of Italy was proclaimed in 1861, but his attempts to take Rome failed, at Aspromonte in 1862, where he was wounded by Italian troops, and at Mentana in 1867. In 1870–1871 he fought for the French Republic against Prussia and was elected to the National Assembly. A member of the Italian parliament, he retired to the island of Caprera, where he died in June 1882."
+  },
+  "highlights": {
+    "fr": [
+      "Commande une légion italienne en Uruguay dans les années 1840",
+      "Défend la République romaine en 1849",
+      "Expédition des Mille : débarque à Marsala en mai 1860",
+      "Remet le Sud de l'Italie à Victor-Emmanuel II à Teano en 1860",
+      "Combat pour la France contre la Prusse en 1870-1871"
+    ],
+    "en": [
+      "Led an Italian legion in Uruguay in the 1840s",
+      "Defended the Roman Republic in 1849",
+      "Expedition of the Thousand: landed at Marsala in May 1860",
+      "Handed southern Italy to Victor Emmanuel II at Teano in 1860",
+      "Fought for France against Prussia in 1870–1871"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé le « héros des deux mondes », il est l'un des pères de l'unité italienne, et presque chaque ville d'Italie a une rue ou une place à son nom.",
+    "en": "Known as the 'Hero of the Two Worlds', he is one of the fathers of Italian unification, and almost every Italian town has a street or square named after him."
   }
 }

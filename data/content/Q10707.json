@@ -30,5 +30,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1924 à Kutama, dans l'actuelle province du Mashonaland occidental, Robert Mugabe devient enseignant et étudie à l'université de Fort Hare, en Afrique du Sud. Militant nationaliste, il est emprisonné par le régime blanc de Rhodésie de 1964 à 1974. Libéré, il dirige depuis le Mozambique la guérilla de la ZANU dans la guerre de libération. Après les accords de Lancaster House, il remporte les élections de 1980 et devient le premier Premier ministre du Zimbabwe indépendant. De 1983 à 1987, la répression du Gukurahundi, menée par la 5e brigade dans le Matabeleland, tue environ 20 000 civils. Président à partir de 1987, il lance en 2000 des saisies violentes des fermes détenues par des Blancs, qui précipitent l'effondrement agricole et une hyperinflation record en 2008. Les élections sont marquées par la fraude et les violences contre l'opposition de Morgan Tsvangirai. En novembre 2017, l'armée le contraint à démissionner au profit d'Emmerson Mnangagwa. Il meurt à Singapour en septembre 2019.",
+    "en": "Born in 1924 at Kutama, in what is now Mashonaland West, Robert Mugabe trained as a teacher and studied at Fort Hare University in South Africa. A nationalist activist, he was jailed by Rhodesia's white-minority government from 1964 to 1974. Once released, he led ZANU's guerrilla war of liberation from Mozambique. After the Lancaster House agreement, he won the 1980 elections and became independent Zimbabwe's first prime minister. From 1983 to 1987 the Gukurahundi crackdown, carried out by the Fifth Brigade in Matabeleland, killed around 20,000 civilians. President from 1987, he launched violent seizures of white-owned farms in 2000, which wrecked agriculture and led to record hyperinflation in 2008. Elections were marred by fraud and attacks on Morgan Tsvangirai's opposition. In November 2017 the army forced him to resign in favour of Emmerson Mnangagwa. He died in Singapore in September 2019."
+  },
+  "highlights": {
+    "fr": [
+      "1964-1974 : dix ans de prison sous le régime rhodésien",
+      "1980 : premier Premier ministre du Zimbabwe indépendant",
+      "1983-1987 : massacres du Gukurahundi, environ 20 000 morts",
+      "2000 : saisies forcées des fermes, suivies de l'hyperinflation",
+      "2017 : contraint à la démission par l'armée"
+    ],
+    "en": [
+      "1964-1974: ten years in prison under Rhodesian rule",
+      "1980: first prime minister of independent Zimbabwe",
+      "1983-1987: Gukurahundi massacres, about 20,000 killed",
+      "2000: forced farm seizures, followed by hyperinflation",
+      "2017: forced to resign by the army"
+    ]
+  },
+  "legacy": {
+    "fr": "Héros de la libération devenu autocrate, il laisse un Zimbabwe indépendant mais appauvri et toujours dominé par son parti, la ZANU-PF.",
+    "en": "A liberation hero turned autocrat, he left Zimbabwe independent but impoverished and still ruled by his ZANU-PF party."
   }
 }

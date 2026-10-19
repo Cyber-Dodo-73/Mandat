@@ -30,5 +30,29 @@
         "value": "strategy"
       }
     }
+  },
+  "story": {
+    "fr": "Raúl Castro naît en 1931 à Birán, dans l'est de Cuba, fils d'un riche planteur d'origine espagnole et frère cadet de Fidel. Membre des jeunesses communistes, il participe le 26 juillet 1953 à l'attaque de la caserne Moncada, qui lui vaut la prison jusqu'à l'amnistie de 1955. Exilé au Mexique, il débarque en décembre 1956 avec le Granma et commande ensuite un second front de guérilla dans la Sierra Maestra. Après la victoire de janvier 1959, il préside à Santiago des exécutions sommaires de dizaines de soldats de l'ancien régime, puis devient en octobre ministre des Forces armées révolutionnaires, poste qu'il conserve près de cinquante ans. Il bâtit une armée puissante, engagée en Angola et en Éthiopie dans les années 1970, et place des militaires à la tête de grandes entreprises d'État. Président par intérim en 2006 lors de la maladie de Fidel, il est élu officiellement en février 2008. Il autorise le travail indépendant, la vente de logements et de voitures et supprime en 2013 le permis de sortie du territoire. Après des négociations secrètes, il rétablit les relations diplomatiques avec les États-Unis en juillet 2015 et reçoit Barack Obama à La Havane en mars 2016. Il cède la présidence à Miguel Díaz-Canel en 2018, puis la tête du Parti communiste en avril 2021.",
+    "en": "Raúl Castro was born in 1931 in Birán, eastern Cuba, the son of a wealthy planter of Spanish origin and Fidel's younger brother. A member of the communist youth, he took part in the attack on the Moncada barracks on 26 July 1953, which earned him prison until an amnesty in 1955. Exiled in Mexico, he landed with the Granma in December 1956 and later commanded a second guerrilla front in the Sierra Maestra. After victory in January 1959 he oversaw the summary execution in Santiago of dozens of soldiers of the old regime, and that October he became Minister of the Revolutionary Armed Forces, a post he held for almost fifty years. He built a powerful army, deployed to Angola and Ethiopia in the 1970s, and put officers in charge of major state companies. Acting president from 2006 during Fidel's illness, he was formally elected in February 2008. He allowed self-employment and the sale of homes and cars, and in 2013 scrapped the exit permit required to travel abroad. After secret talks, he restored diplomatic relations with the United States in July 2015 and hosted Barack Obama in Havana in March 2016. He handed the presidency to Miguel Díaz-Canel in 2018 and the leadership of the Communist Party in April 2021."
+  },
+  "highlights": {
+    "fr": [
+      "Participe à l'attaque de la caserne Moncada le 26 juillet 1953",
+      "Ministre des Forces armées de 1959 à 2008",
+      "Président de Cuba de 2008 à 2018",
+      "Rétablit les relations diplomatiques avec les États-Unis en 2015",
+      "Premier secrétaire du Parti communiste de 2011 à 2021"
+    ],
+    "en": [
+      "Took part in the Moncada barracks attack on 26 July 1953",
+      "Minister of the Armed Forces from 1959 to 2008",
+      "President of Cuba from 2008 to 2018",
+      "Restored diplomatic ties with the United States in 2015",
+      "First Secretary of the Communist Party, 2011–2021"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier grand acteur de la révolution de 1959, il a introduit de prudentes ouvertures économiques sans toucher au système de parti unique.",
+    "en": "The last major figure of the 1959 revolution, he introduced cautious economic openings without loosening one-party rule."
   }
 }

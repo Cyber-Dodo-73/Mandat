@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Río Gallegos, en Patagonie, en 1950, Néstor Kirchner étudie le droit à l'université nationale de La Plata, où il milite dans la jeunesse péroniste et rencontre Cristina Fernández, qu'il épouse en 1975. Revenu en Santa Cruz pendant la dictature, il y exerce comme avocat puis devient maire de Río Gallegos en 1987. Gouverneur de la province de 1991 à 2003, il est réélu deux fois. En 2003, alors que l'Argentine sort à peine de l'effondrement de 2001, il arrive deuxième au premier tour avec environ 22 % des voix ; Carlos Menem se retire avant le second, et Kirchner prend ses fonctions en mai. Il renégocie la dette en défaut avec une forte décote en 2005 et rembourse d'un coup le FMI début 2006, sur fond de forte croissance. Il soutient l'annulation des lois d'amnistie, ce qui permet de rouvrir les procès des crimes de la dictature. En 2007, il laisse la candidature à son épouse, qui lui succède. Élu député en 2009 et devenu en 2010 le premier secrétaire général de l'Unasur, il meurt d'une crise cardiaque à El Calafate le 27 octobre 2010.",
+    "en": "Born in Río Gallegos, Patagonia, in 1950, Néstor Kirchner studied law at the National University of La Plata, where he was active in the Peronist youth and met Cristina Fernández, whom he married in 1975. Back in Santa Cruz during the dictatorship, he practised as a lawyer and became mayor of Río Gallegos in 1987. Governor of the province from 1991 to 2003, he was re-elected twice. In 2003, with Argentina barely emerging from the 2001 collapse, he came second in the first round with about 22% of the vote; Carlos Menem pulled out before the runoff, and Kirchner took office in May. He restructured the defaulted debt with a steep haircut in 2005 and paid off the IMF in one go in early 2006, amid strong growth. He backed the annulment of the amnesty laws, which allowed trials for the dictatorship's crimes to resume. In 2007 he stepped aside for his wife, who succeeded him. Elected to the Chamber of Deputies in 2009 and named the first secretary-general of UNASUR in 2010, he died of a heart attack in El Calafate on 27 October 2010."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur de la province de Santa Cruz de 1991 à 2003",
+      "Président de l'Argentine de 2003 à 2007",
+      "Rembourse l'intégralité de la dette envers le FMI début 2006",
+      "Permet la réouverture des procès des crimes de la dictature",
+      "Premier secrétaire général de l'Unasur en 2010"
+    ],
+    "en": [
+      "Governor of Santa Cruz province from 1991 to 2003",
+      "President of Argentina from 2003 to 2007",
+      "Paid off Argentina's entire IMF debt in early 2006",
+      "Enabled trials for the dictatorship's crimes to reopen",
+      "First secretary-general of UNASUR in 2010"
+    ]
+  },
+  "legacy": {
+    "fr": "Fondateur du kirchnérisme, courant qui a dominé la politique argentine pendant deux décennies, il reste une figure qui divise profondément le pays.",
+    "en": "The founder of Kirchnerism, which dominated Argentine politics for two decades, he remains a deeply divisive figure."
   }
 }

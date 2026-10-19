@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né à Arras en 1758, Maximilien de Robespierre perd sa mère à six ans et est élevé par ses grands-parents après le départ de son père. Boursier au lycée Louis-le-Grand à Paris, il devient avocat à Arras et se fait connaître par des plaidoiries en faveur des humbles. Élu député du tiers état aux états généraux de 1789, il s'impose au club des Jacobins comme défenseur du suffrage universel et adversaire de la peine de mort, ce qui lui vaut le surnom d'« Incorruptible ». Député de Paris à la Convention en 1792, il réclame la mort de Louis XVI, exécuté en janvier 1793, et contribue à la chute des Girondins en juin. Entré au Comité de salut public en juillet 1793, il devient l'une des figures centrales du gouvernement révolutionnaire et de la Terreur, qui fait environ 17 000 condamnés à mort officiels et de nombreuses autres victimes, notamment en Vendée. Au printemps 1794, il fait éliminer les hébertistes puis Danton et ses amis, préside la fête de l'Être suprême en juin et soutient la loi du 22 prairial, qui accélère les exécutions. Redouté par ses collègues, il est renversé le 9 thermidor (27 juillet 1794) et guillotiné le lendemain à Paris.",
+    "en": "Born in Arras in 1758, Maximilien Robespierre lost his mother at six and was raised by his grandparents after his father left. A scholarship pupil at the Lycée Louis-le-Grand in Paris, he became a lawyer in Arras and made his name defending humble clients. Elected to the Estates-General for the Third Estate in 1789, he rose at the Jacobin Club as a champion of universal suffrage and an opponent of the death penalty, earning the nickname the Incorruptible. Sent by Paris to the National Convention in 1792, he demanded the execution of Louis XVI, carried out in January 1793, and helped bring down the Girondins in June. Joining the Committee of Public Safety in July 1793, he became a central figure of the revolutionary government and the Terror, which produced some 17,000 official death sentences and many more victims, notably in the Vendée. In spring 1794 he had the Hébertists and then Danton and his allies eliminated, presided over the Festival of the Supreme Being in June and backed the law of 22 Prairial, which sped up executions. Feared by his colleagues, he was overthrown on 9 Thermidor (27 July 1794) and guillotined in Paris the next day."
+  },
+  "highlights": {
+    "fr": [
+      "Élu député du tiers état aux états généraux en 1789",
+      "Réclame et obtient l'exécution de Louis XVI en 1792-1793",
+      "Entre au Comité de salut public en juillet 1793",
+      "Préside la fête de l'Être suprême le 8 juin 1794",
+      "Renversé le 9 thermidor et guillotiné le 28 juillet 1794"
+    ],
+    "en": [
+      "Elected to the Estates-General for the Third Estate in 1789",
+      "Pressed for and won Louis XVI's execution in 1792–93",
+      "Joined the Committee of Public Safety in July 1793",
+      "Presided over the Festival of the Supreme Being on 8 June 1794",
+      "Overthrown on 9 Thermidor and guillotined on 28 July 1794"
+    ]
+  },
+  "legacy": {
+    "fr": "Défenseur précoce de la démocratie pour les uns, artisan de la Terreur pour les autres, il demeure la figure la plus disputée de la Révolution française.",
+    "en": "An early champion of democracy to some and the architect of the Terror to others, he remains the most fiercely debated figure of the French Revolution."
   }
 }

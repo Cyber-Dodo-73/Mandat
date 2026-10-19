@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né à Léningrad en 1965 dans une famille d'enseignants, Dmitri Medvedev étudie le droit à l'université de sa ville, où il enseigne ensuite. Au début des années 1990, il conseille la mairie d'Anatoli Sobtchak et y côtoie Vladimir Poutine, qui l'emmène à Moscou en 1999 comme chef adjoint de l'administration présidentielle. Président du conseil d'administration de Gazprom, il devient en 2003 chef de l'administration du Kremlin, puis en 2005 premier vice-Premier ministre chargé des grands « projets nationaux ». Désigné successeur par Poutine, que la Constitution empêche de briguer un troisième mandat consécutif, il est élu président en mars 2008. En août de la même année, il conduit la guerre éclair contre la Géorgie, puis reconnaît l'Abkhazie et l'Ossétie du Sud. Il promet la « modernisation » de la Russie et signe en 2010 le traité New START avec Barack Obama. En 2011, il annonce qu'il rendra la présidence à Poutine, qui le nomme Premier ministre en 2012 ; il dirige aussi le parti Russie unie. Son gouvernement accompagne l'annexion de la Crimée en 2014, puis il démissionne en janvier 2020 et devient vice-président du Conseil de sécurité, connu depuis 2022 pour ses déclarations belliqueuses contre l'Occident.",
+    "en": "Born in Leningrad in 1965 to a family of teachers, Dmitry Medvedev studied law at the city's university and went on to teach there. In the early 1990s he advised Anatoly Sobchak's city hall, where he worked alongside Vladimir Putin, who brought him to Moscow in 1999 as deputy head of the presidential administration. Chairman of Gazprom's board, he became Kremlin chief of staff in 2003 and in 2005 first deputy prime minister in charge of flagship national projects. Picked as successor by Putin, who was barred from a third consecutive term, he was elected president in March 2008. That August he oversaw the short war against Georgia and then recognised Abkhazia and South Ossetia. He promised to modernise Russia and in 2010 signed the New START treaty with Barack Obama. In 2011 he announced he would hand the presidency back to Putin, who made him prime minister in 2012; he also led the United Russia party. His government presided over the annexation of Crimea in 2014; he resigned in January 2020 to become deputy chairman of the Security Council, a post in which he has been known since 2022 for bellicose outbursts against the West."
+  },
+  "highlights": {
+    "fr": [
+      "Élu président de la Russie en mars 2008",
+      "Conduit la guerre contre la Géorgie en août 2008",
+      "Signe le traité de désarmement New START en 2010",
+      "Premier ministre de 2012 à 2020, à la tête de Russie unie",
+      "Vice-président du Conseil de sécurité russe depuis 2020"
+    ],
+    "en": [
+      "Elected president of Russia in March 2008",
+      "Oversaw the war against Georgia in August 2008",
+      "Signed the New START arms-reduction treaty in 2010",
+      "Prime minister from 2012 to 2020 and leader of United Russia",
+      "Deputy chairman of Russia's Security Council since 2020"
+    ]
+  },
+  "legacy": {
+    "fr": "Son mandat présidentiel, d'abord perçu comme une ouverture libérale, apparaît rétrospectivement comme une parenthèse dans le long règne de Vladimir Poutine.",
+    "en": "His presidency, once seen as a liberal opening, looks in hindsight like an interlude in Vladimir Putin's long rule."
   }
 }

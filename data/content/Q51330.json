@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "John Howard naît en 1939 à Sydney, en Nouvelle-Galles du Sud, dans une famille modeste de garagistes. Avocat de formation, il entre à la Chambre des représentants en 1974 pour la circonscription de Bennelong, qu'il conservera trente-trois ans. Sous Malcolm Fraser, il devient trésorier de 1977 à 1983. Chef de l'opposition de 1985 à 1989, il est écarté puis revient à la tête du Parti libéral en 1995. Il remporte les élections de 1996 et devient Premier ministre. Quelques semaines plus tard, après le massacre de Port Arthur, il impose un accord national sur les armes à feu assorti d'un vaste rachat d'armes. Réélu en 1998, il fait adopter une taxe sur les produits et services (GST) entrée en vigueur en 2000. Il envoie en 1999 une force internationale sous commandement australien au Timor oriental, puis engage l'Australie aux côtés des États-Unis en Afghanistan et en Irak. Sa politique migratoire, marquée par l'affaire du Tampa en 2001 et la détention des demandeurs d'asile hors du territoire, divise profondément. Battu par Kevin Rudd en 2007, il perd aussi son propre siège, fait rarissime pour un chef de gouvernement sortant.",
+    "en": "John Howard was born in 1939 in Sydney, New South Wales, into a family that ran a petrol station. A lawyer by training, he won the seat of Bennelong in the House of Representatives in 1974 and held it for thirty-three years. Under Malcolm Fraser he served as Treasurer from 1977 to 1983. Opposition leader from 1985 until he was ousted in 1989, he returned to lead the Liberal Party in 1995 and won the 1996 election. Weeks after taking office, the Port Arthur massacre led him to broker a national firearms agreement backed by a large gun buyback. Re-elected in 1998, he introduced a goods and services tax that took effect in 2000. In 1999 he sent an Australian-led international force to East Timor, and after 2001 he committed troops alongside the United States in Afghanistan and Iraq. His hard line on asylum seekers, from the 2001 Tampa affair to offshore detention, was deeply divisive. Defeated by Kevin Rudd in 2007, he also lost his own seat, a rare fate for a sitting prime minister."
+  },
+  "highlights": {
+    "fr": [
+      "Premier ministre d'Australie de 1996 à 2007, deuxième plus long mandat du pays",
+      "Accord national sur les armes et rachat massif après Port Arthur (1996)",
+      "Taxe sur les produits et services (GST) en vigueur en 2000",
+      "Déploiement d'une force internationale au Timor oriental en 1999",
+      "Médaille présidentielle de la liberté (2009) et ordre du Mérite (2011)"
+    ],
+    "en": [
+      "Prime Minister of Australia from 1996 to 2007, the country's second-longest tenure",
+      "National firearms agreement and mass buyback after Port Arthur (1996)",
+      "Goods and services tax took effect in 2000",
+      "Led an international force into East Timor in 1999",
+      "Presidential Medal of Freedom (2009) and Order of Merit (2011)"
+    ]
+  },
+  "legacy": {
+    "fr": "Ses lois sur les armes à feu restent une référence citée dans le monde entier, tandis que sa politique d'asile et l'engagement en Irak continuent de diviser.",
+    "en": "His gun laws are still cited worldwide as a model, while his asylum policy and the Iraq commitment remain divisive."
   }
 }

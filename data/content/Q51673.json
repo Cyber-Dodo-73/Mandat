@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né à Rome en 83 av. J.-C. dans une famille noble mais endettée, Marcus Antonius se fait d'abord connaître comme officier de cavalerie en Orient, en Judée et en Égypte. Il rejoint César en Gaule en 54 av. J.-C., puis, tribun de la plèbe en 49, défend sa cause au Sénat à la veille de la guerre civile. Maître de la cavalerie et homme de confiance du dictateur, il partage avec lui le consulat en 44 av. J.-C. Après les Ides de mars, il retourne l'opinion romaine contre les conjurés par son éloge funèbre de César. Battu à Modène en 43 av. J.-C. par les armées du Sénat, il s'allie pourtant à Octavien et Lépide dans le Second Triumvirat, dont les proscriptions coûtent la vie à Cicéron. En 42 av. J.-C., il écrase Brutus et Cassius à Philippes et reçoit l'Orient, où il rencontre Cléopâtre à Tarse l'année suivante. Marié à Octavie, sœur d'Octavien, il s'en détourne au profit de la reine d'Égypte, échoue en 36 av. J.-C. dans une coûteuse campagne contre les Parthes et distribue des territoires romains aux enfants de Cléopâtre lors des Donations d'Alexandrie. Octavien déclare la guerre à la reine en 32 av. J.-C. et l'emporte à Actium le 2 septembre 31. Encerclé à Alexandrie, Antoine se donne la mort en août 30 av. J.-C., peu avant Cléopâtre.",
+    "en": "Born in Rome in 83 BC into a noble but indebted family, Marcus Antonius first made his name as a cavalry officer in the East, in Judaea and Egypt. He joined Caesar in Gaul in 54 BC and, as tribune of the plebs in 49, championed his cause in the Senate on the eve of civil war. Master of the Horse and the dictator's trusted right hand, he shared the consulship with him in 44 BC. After the Ides of March, his funeral speech for Caesar turned Roman opinion against the conspirators. Defeated at Mutina in 43 BC by the Senate's armies, he nonetheless joined Octavian and Lepidus in the Second Triumvirate, whose proscriptions claimed the life of Cicero. In 42 BC he crushed Brutus and Cassius at Philippi and took charge of the East, where he met Cleopatra at Tarsus the following year. Married to Octavia, Octavian's sister, he left her for the Egyptian queen, failed in a costly campaign against Parthia in 36 BC and handed Roman lands to Cleopatra's children in the Donations of Alexandria. Octavian declared war on the queen in 32 BC and won at Actium on 2 September 31. Trapped in Alexandria, Antony took his own life in August 30 BC, shortly before Cleopatra."
+  },
+  "highlights": {
+    "fr": [
+      "Consul aux côtés de César en 44 av. J.-C.",
+      "Éloge funèbre de César qui retourne Rome contre les conjurés",
+      "Triumvir avec Octavien et Lépide à partir de 43 av. J.-C.",
+      "Vainqueur de Brutus et Cassius à Philippes en 42 av. J.-C.",
+      "Vaincu à Actium en 31 av. J.-C., il se suicide en 30"
+    ],
+    "en": [
+      "Consul alongside Caesar in 44 BC",
+      "His funeral speech for Caesar turned Rome against the assassins",
+      "Triumvir with Octavian and Lepidus from 43 BC",
+      "Defeated Brutus and Cassius at Philippi in 42 BC",
+      "Beaten at Actium in 31 BC, he killed himself in 30 BC"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa défaite face à Octavien a ouvert la voie à l'Empire romain. Son histoire avec Cléopâtre, reprise par Shakespeare puis le cinéma, en a fait l'une des figures romanesques de l'Antiquité.",
+    "en": "His defeat by Octavian opened the way to the Roman Empire. His affair with Cleopatra, retold by Shakespeare and later by film, made him one of antiquity's great romantic figures."
   }
 }

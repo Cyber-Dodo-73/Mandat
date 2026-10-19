@@ -30,5 +30,29 @@
         "value": "diplomacy"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Amiens en 1977, Emmanuel Macron étudie la philosophie, passe par Sciences Po puis sort de l'ENA en 2004 dans le corps de l'Inspection des finances. Il devient banquier d'affaires chez Rothschild, avant de rejoindre en 2012 l'Élysée comme secrétaire général adjoint auprès de François Hollande. Nommé ministre de l'Économie en 2014, il fait adopter une loi de libéralisation qui porte son nom, puis quitte le gouvernement en 2016 pour lancer son mouvement, En marche. Sans jamais avoir été élu, il remporte la présidentielle de mai 2017 face à Marine Le Pen et devient, à 39 ans, le plus jeune président de la République. Son premier mandat est marqué par des réformes du droit du travail et de la fiscalité, la crise des Gilets jaunes en 2018-2019 et la pandémie de Covid-19. Réélu en 2022 face à la même adversaire, il impose en 2023 le recul de l'âge de la retraite à 64 ans malgré une forte contestation. Après la dissolution de l'Assemblée en 2024, qui produit une chambre sans majorité, son second mandat est marqué par une forte instabilité gouvernementale.",
+    "en": "Born in Amiens in 1977, Emmanuel Macron studied philosophy, attended Sciences Po and graduated from the ENA in 2004 into the elite finance inspectorate. He became an investment banker at Rothschild before joining the Élysée in 2012 as deputy chief of staff to François Hollande. Appointed economy minister in 2014, he passed a deregulation law bearing his name, then left the government in 2016 to launch his own movement, En Marche. Never having held elected office, he won the May 2017 presidential election against Marine Le Pen and became, at 39, France's youngest president. His first term brought labour and tax reforms, the Yellow Vests protests of 2018–2019 and the Covid-19 pandemic. Re-elected in 2022 against the same rival, he pushed through a rise in the retirement age to 64 in 2023 despite mass protests. After he dissolved the National Assembly in 2024, producing a chamber without a majority, his second term has been marked by repeated government instability."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre de l'Économie de 2014 à 2016",
+      "Fonde le mouvement En marche en avril 2016",
+      "Élu président en 2017 à 39 ans, le plus jeune de la Ve République",
+      "Réélu en 2022 face à Marine Le Pen",
+      "Fait passer en 2023 la retraite à 64 ans"
+    ],
+    "en": [
+      "Economy minister from 2014 to 2016",
+      "Founded the En Marche movement in April 2016",
+      "Elected president in 2017 at 39, the youngest of the Fifth Republic",
+      "Re-elected in 2022 against Marine Le Pen",
+      "Raised the retirement age to 64 in 2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a fait éclater le clivage gauche-droite traditionnel en France et s'est posé en défenseur d'une Europe plus autonome.",
+    "en": "He broke up France's traditional left-right divide and positioned himself as a champion of a more self-reliant Europe."
   }
 }

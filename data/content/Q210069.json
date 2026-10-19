@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Milton Obote naît en décembre 1925 à Akokoro, dans la région de Lango, et étudie à l’université Makerere avant de travailler au Kenya, où il s’initie au militantisme anticolonial. Il fonde le Congrès du peuple ougandais en 1960 et devient Premier ministre à l’indépendance, le 9 octobre 1962, allié au roi du Buganda, Mutesa II, qui devient président. En 1966, accusé de corruption, il suspend la Constitution et envoie l’armée d’Idi Amin attaquer le palais du roi, qui s’exile, puis se proclame président et abolit les royaumes traditionnels en 1967. Il impose un régime à parti unique et une politique de nationalisations, le « tournant à gauche » de 1969. Le 25 janvier 1971, alors qu’il assiste à un sommet du Commonwealth à Singapour, Amin le renverse, et il se réfugie en Tanzanie. Revenu après la chute d’Amin, il remporte en décembre 1980 des élections largement jugées truquées. Son second régime mène contre la guérilla de Yoweri Museveni une guerre dans le triangle de Luwero où l’armée tue des dizaines de milliers de civils, voire davantage selon certaines estimations. Renversé par ses propres généraux en juillet 1985, il s’exile en Zambie et meurt à Johannesburg en octobre 2005.",
+    "en": "Milton Obote was born in December 1925 in Akokoro, in the Lango region, and studied at Makerere University before working in Kenya, where he joined the anticolonial movement. He founded the Uganda People's Congress in 1960 and became prime minister at independence on 9 October 1962, in alliance with Buganda's king, Mutesa II, who became president. In 1966, facing corruption accusations, he suspended the constitution and sent Idi Amin's troops to storm the king's palace, forcing him into exile, then made himself president and abolished the traditional kingdoms in 1967. He imposed one-party rule and a nationalisation drive, the Move to the Left of 1969. On 25 January 1971, while he was at a Commonwealth summit in Singapore, Amin overthrew him and he took refuge in Tanzania. Returning after Amin's fall, he won elections in December 1980 that were widely viewed as rigged. His second government fought Yoweri Museveni's guerrillas in the Luwero Triangle, where the army killed tens of thousands of civilians, or more by some estimates. Ousted by his own generals in July 1985, he went into exile in Zambia and died in Johannesburg in October 2005."
+  },
+  "highlights": {
+    "fr": [
+      "Fonde le Congrès du peuple ougandais en 1960",
+      "Premier ministre à l’indépendance, le 9 octobre 1962",
+      "Abolit les royaumes traditionnels en 1967",
+      "Renversé par Idi Amin le 25 janvier 1971",
+      "Revient au pouvoir après les élections contestées de 1980"
+    ],
+    "en": [
+      "Founded the Uganda People's Congress in 1960",
+      "Prime minister at independence on 9 October 1962",
+      "Abolished the traditional kingdoms in 1967",
+      "Overthrown by Idi Amin on 25 January 1971",
+      "Returned to power after the disputed 1980 election"
+    ]
+  },
+  "legacy": {
+    "fr": "Père de l’indépendance ougandaise, il reste associé à la destruction des institutions constitutionnelles et aux massacres du triangle de Luwero.",
+    "en": "Uganda's independence leader, he remains associated with the dismantling of constitutional rule and the massacres of the Luwero Triangle."
   }
 }

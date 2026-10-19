@@ -30,5 +30,27 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Graz en 1863, François-Ferdinand est le fils aîné de l'archiduc Charles-Louis, frère de l'empereur François-Joseph. Officier dès l'adolescence, il hérite en 1875 de la fortune des ducs de Modène, ce qui l'oblige à prendre aussi le nom d'Este. Il entre en 1884 à la Chambre des seigneurs autrichienne et effectue en 1892-1893 un tour du monde. Le suicide du prince héritier Rodolphe à Mayerling en 1889, puis la mort de son propre père en 1896, font de lui l'héritier du trône. En 1900, il épouse la comtesse Sophie Chotek, jugée de rang insuffisant : il doit renoncer pour leurs enfants à tout droit de succession. Inspecteur général des forces armées à partir de 1913, il réfléchit à une réorganisation de l'empire qui donnerait plus de poids aux peuples slaves face aux Hongrois. Le 28 juin 1914, en visite à Sarajevo pour des manœuvres militaires, il est assassiné avec son épouse par Gavrilo Princip, un jeune nationaliste serbe de Bosnie. L'ultimatum puis la déclaration de guerre de l'Autriche-Hongrie à la Serbie déclenchent en quelques semaines la Première Guerre mondiale.",
+    "en": "Born in Graz in 1863, Franz Ferdinand was the eldest son of Archduke Karl Ludwig, brother of Emperor Franz Joseph. An army officer from his teens, he inherited the fortune of the dukes of Modena in 1875, which required him to add the name Este. He took his seat in the Austrian House of Lords in 1884 and made a world tour in 1892–1893. The suicide of Crown Prince Rudolf at Mayerling in 1889, followed by his own father's death in 1896, made him heir to the throne. In 1900 he married Countess Sophie Chotek, whose rank the court judged too low, and had to renounce any right of succession for their children. Inspector general of the armed forces from 1913, he considered reorganising the empire to give its Slav peoples more weight against the Hungarians. On 28 June 1914, while visiting Sarajevo for military manoeuvres, he and his wife were shot dead by Gavrilo Princip, a young Bosnian Serb nationalist. Austria-Hungary's ultimatum and declaration of war on Serbia then set off the First World War within weeks."
+  },
+  "highlights": {
+    "fr": [
+      "Héritier du trône d'Autriche-Hongrie à partir de 1896",
+      "Épouse en 1900 Sophie Chotek, union morganatique",
+      "Inspecteur général des forces armées en 1913",
+      "Assassiné à Sarajevo le 28 juin 1914"
+    ],
+    "en": [
+      "Heir to the Austro-Hungarian throne from 1896",
+      "Married Sophie Chotek in 1900 in a morganatic union",
+      "Inspector general of the armed forces in 1913",
+      "Assassinated in Sarajevo on 28 June 1914"
+    ]
+  },
+  "legacy": {
+    "fr": "Son assassinat est resté l'étincelle de la Première Guerre mondiale ; la voiture et l'uniforme de ce jour-là sont exposés au musée d'histoire militaire de Vienne.",
+    "en": "His assassination remains the spark of the First World War; the car and uniform from that day are on display at Vienna's Museum of Military History."
   }
 }

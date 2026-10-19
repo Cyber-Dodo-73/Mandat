@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1911 à Tampico, dans l'Illinois, Ronald Reagan étudie à l'Eureka College puis devient commentateur sportif à la radio avant de signer avec Warner Bros. en 1937. Acteur de cinéma pendant deux décennies, il préside à deux reprises le syndicat des acteurs de Hollywood, de 1947 à 1952 puis en 1959-1960. D'abord démocrate, il devient porte-parole de General Electric et se rallie au camp conservateur, qu'il défend dans un discours remarqué en 1964. Élu gouverneur de Californie en 1966, il exerce deux mandats jusqu'en 1975. En 1980, il bat le président sortant Jimmy Carter et entre à la Maison-Blanche en janvier 1981, survivant deux mois plus tard à une tentative d'assassinat. Il baisse fortement les impôts, augmente les dépenses militaires, durcit le ton face à l'URSS, appelant en 1987 à Berlin à abattre le Mur, puis signe avec Gorbatchev le traité de désarmement nucléaire FNI. Son second mandat est terni par le scandale Iran-Contra, et il quitte la présidence en 1989. Atteint de la maladie d'Alzheimer, il meurt à Los Angeles en 2004.",
+    "en": "Born in Tampico, Illinois, in 1911, Ronald Reagan studied at Eureka College and worked as a radio sports announcer before signing with Warner Bros. in 1937. A film actor for two decades, he twice led the Screen Actors Guild, from 1947 to 1952 and again in 1959–1960. Originally a Democrat, he became a spokesman for General Electric and moved to the conservative camp, which he championed in a widely noticed 1964 speech. Elected governor of California in 1966, he served two terms until 1975. In 1980 he defeated the incumbent Jimmy Carter and took office in January 1981, surviving an assassination attempt two months later. He cut taxes sharply, raised military spending and took a hard line on the Soviet Union, urging in Berlin in 1987 that the Wall be torn down, before signing the INF nuclear arms treaty with Gorbachev. His second term was tarnished by the Iran-Contra affair, and he left office in 1989. Diagnosed with Alzheimer's disease, he died in Los Angeles in 2004."
+  },
+  "highlights": {
+    "fr": [
+      "Président du syndicat des acteurs de Hollywood de 1947 à 1952",
+      "Gouverneur de Californie de 1967 à 1975",
+      "Survit à une tentative d'assassinat en mars 1981",
+      "Lance à Berlin en 1987 son appel à abattre le Mur",
+      "Signe avec Gorbatchev le traité FNI sur les missiles nucléaires en 1987"
+    ],
+    "en": [
+      "President of the Screen Actors Guild from 1947 to 1952",
+      "Governor of California from 1967 to 1975",
+      "Survived an assassination attempt in March 1981",
+      "Called in Berlin in 1987 for the Wall to be torn down",
+      "Signed the INF nuclear missile treaty with Gorbachev in 1987"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a ancré le conservatisme moderne au cœur du Parti républicain et reste associé à la fin de la guerre froide.",
+    "en": "He anchored modern conservatism at the heart of the Republican Party and remains associated with the end of the Cold War."
   }
 }

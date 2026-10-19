@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Toussaint naît vers 1743 en esclavage sur l'habitation Bréda, près du Cap-Français, dans la colonie française de Saint-Domingue. Affranchi dans les années 1770, il sait lire, possède quelques terres et même des esclaves. En août 1791 éclate la grande insurrection des esclaves du Nord ; il y rejoint les chefs rebelles et se distingue comme organisateur militaire, prenant le nom de Louverture. D'abord allié à l'Espagne, il se rallie à la République française en 1794, après l'abolition de l'esclavage par la Convention. Il chasse les Britanniques et les Espagnols, élimine ses rivaux, dont André Rigaud dans le Sud, et devient le maître de la colonie. En 1801, il occupe la partie espagnole de l'île et promulgue une constitution qui le nomme gouverneur à vie, tout en imposant le travail forcé dans les plantations pour relancer l'économie. Bonaparte, voulant restaurer l'autorité de la métropole, envoie une expédition commandée par Leclerc. Après des combats acharnés, Toussaint se soumet, puis est arrêté par traîtrise en juin 1802 et déporté en France. Enfermé au fort de Joux, dans le Jura, il y meurt en avril 1803, quelques mois avant la victoire de Dessalines et l'indépendance d'Haïti en 1804.",
+    "en": "Toussaint was born into slavery around 1743 on the Bréda plantation near Cap-Français, in the French colony of Saint-Domingue. Freed in the 1770s, he could read and owned some land, and even slaves of his own. When the great slave uprising broke out in the north in August 1791, he joined the rebel leaders and stood out as a military organiser, taking the name Louverture. First fighting alongside Spain, he went over to the French Republic in 1794 after the Convention abolished slavery. He drove out British and Spanish forces, defeated rivals such as André Rigaud in the south and became master of the colony. In 1801 he took the Spanish side of the island and issued a constitution naming him governor for life, while forcing former slaves back to plantation labour to revive the economy. Bonaparte, intent on restoring metropolitan control, sent an expedition under General Leclerc. After fierce fighting Toussaint submitted, was seized through a ruse in June 1802 and deported to France. Confined in the Fort de Joux in the Jura, he died in April 1803, months before Dessalines' victory brought Haiti independence in 1804."
+  },
+  "highlights": {
+    "fr": [
+      "Chef militaire majeur de l'insurrection des esclaves de Saint-Domingue dès 1791",
+      "Rallie la République française après l'abolition de l'esclavage en 1794",
+      "Promulgue en 1801 une constitution qui le fait gouverneur à vie",
+      "Meurt captif au fort de Joux (Jura) en avril 1803"
+    ],
+    "en": [
+      "Leading military chief of the Saint-Domingue slave uprising from 1791",
+      "Sided with the French Republic after it abolished slavery in 1794",
+      "Issued a 1801 constitution naming him governor for life",
+      "Died a prisoner at the Fort de Joux in the Jura in April 1803"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure fondatrice d'Haïti, première république issue d'une révolte d'esclaves, il reste un symbole mondial de la lutte contre l'esclavage et le colonialisme.",
+    "en": "A founding figure of Haiti, the first republic born of a slave revolt, he remains a worldwide symbol of the struggle against slavery and colonialism."
   }
 }

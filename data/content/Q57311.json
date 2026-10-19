@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1951 à Bogotá dans la famille propriétaire du quotidien El Tiempo, Juan Manuel Santos étudie l'économie aux États-Unis puis à Londres et à Harvard avant de travailler comme journaliste. Ministre des Finances de 2000 à 2002 sous Andrés Pastrana, il fonde ensuite le Parti de la U pour soutenir Álvaro Uribe. Ministre de la Défense de 2006 à 2009, il dirige l'offensive contre les FARC, dont l'opération Jaque qui libère Íngrid Betancourt en 2008, mais aussi une période entachée par le scandale des « faux positifs », des civils tués et présentés comme guérilleros. Élu président en 2010, il prend ses distances avec Uribe et ouvre en 2012 à La Havane des négociations de paix avec la guérilla. L'accord signé en 2016 est rejeté de justesse par référendum le 2 octobre, puis renégocié et ratifié par le Congrès en novembre. La même année, il reçoit le prix Nobel de la paix. Réélu en 2014, il quitte le pouvoir en 2018, laissant les FARC désarmées et transformées en parti politique.",
+    "en": "Born in Bogotá in 1951 into the family that owned the newspaper El Tiempo, Juan Manuel Santos studied economics in the United States, London and at Harvard and worked as a journalist. He served as finance minister from 2000 to 2002 under Andrés Pastrana, then founded the Party of the U to back Álvaro Uribe. As defence minister from 2006 to 2009 he ran the offensive against the FARC, including the 2008 Operation Jaque that freed Íngrid Betancourt, though his tenure was also stained by the 'false positives' scandal, in which soldiers killed civilians and passed them off as guerrillas. Elected president in 2010, he broke with Uribe and in 2012 opened peace talks with the guerrillas in Havana. The 2016 agreement was narrowly rejected in a referendum on 2 October, then renegotiated and ratified by Congress that November. That same year he won the Nobel Peace Prize. Re-elected in 2014, he left office in 2018 with the FARC disarmed and turned into a political party."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre des Finances (2000-2002) puis de la Défense (2006-2009)",
+      "Opération Jaque en 2008 : libération d'Íngrid Betancourt et de 14 otages",
+      "Ouvre en 2012 à La Havane les pourparlers de paix avec les FARC",
+      "Prix Nobel de la paix 2016 pour l'accord avec les FARC",
+      "Président de la Colombie de 2010 à 2018, réélu en 2014"
+    ],
+    "en": [
+      "Finance minister (2000-2002), then defence minister (2006-2009)",
+      "Operation Jaque in 2008 freed Íngrid Betancourt and 14 other hostages",
+      "Opened peace talks with the FARC in Havana in 2012",
+      "2016 Nobel Peace Prize for the agreement with the FARC",
+      "President of Colombia from 2010 to 2018, re-elected in 2014"
+    ]
+  },
+  "legacy": {
+    "fr": "L'accord de 2016 a mis fin à plus d'un demi-siècle de guerre avec les FARC, même si sa mise en œuvre reste fragile et contestée par la droite colombienne.",
+    "en": "The 2016 agreement ended more than half a century of war with the FARC, though its implementation remains fragile and contested by the Colombian right."
   }
 }

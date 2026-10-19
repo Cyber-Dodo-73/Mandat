@@ -30,5 +30,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Dina Boluarte naît en mai 1962 à Chalhuanca, dans la région andine d’Apurímac, étudie le droit et travaille longtemps à l’état civil péruvien. Peu connue du grand public, elle est élue vice-présidente en 2021 sur le ticket de Pedro Castillo, sous les couleurs du parti de gauche Pérou libre, et devient ministre du Développement et de l’Inclusion sociale. Le 7 décembre 2022, après la tentative de Castillo de dissoudre le Congrès, celui-ci est destitué et elle prête serment le jour même, devenant la première femme présidente du Pérou. Des manifestations exigeant son départ et des élections anticipées éclatent, surtout dans le sud du pays, et la répression fait environ cinquante morts parmi les civils entre décembre 2022 et mars 2023. Elle se rapproche des partis de droite majoritaires au Congrès, qui la maintiennent au pouvoir malgré une impopularité record. En 2024, elle est visée par une enquête sur des montres de luxe non déclarées. Le 10 octobre 2025, le Congrès la destitue pour « incapacité morale permanente » et la remplace par son président, José Jerí.",
+    "en": "Dina Boluarte was born in May 1962 in Chalhuanca, in the Andean region of Apurímac, studied law and spent years working for Peru's civil registry. Little known to the public, she was elected vice president in 2021 on Pedro Castillo's ticket for the left-wing Free Peru party and became minister of development and social inclusion. On 7 December 2022, after Castillo tried to dissolve Congress, he was removed and she was sworn in the same day as Peru's first woman president. Protests demanding her resignation and early elections erupted, mostly in the south, and the crackdown killed around fifty civilians between December 2022 and March 2023. She drew closer to the right-wing parties that dominated Congress, which kept her in office despite record unpopularity. In 2024 she came under investigation over undeclared luxury watches. On 10 October 2025 Congress removed her for permanent moral incapacity and replaced her with its own president, José Jerí."
+  },
+  "highlights": {
+    "fr": [
+      "Élue vice-présidente du Pérou en 2021",
+      "Ministre du Développement et de l’Inclusion sociale en 2021-2022",
+      "Première femme présidente du Pérou le 7 décembre 2022",
+      "Destituée par le Congrès le 10 octobre 2025"
+    ],
+    "en": [
+      "Elected vice president of Peru in 2021",
+      "Minister of Development and Social Inclusion in 2021–2022",
+      "Peru's first woman president on 7 December 2022",
+      "Removed by Congress on 10 October 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Première femme à présider le Pérou, elle reste associée aux morts de la répression de 2022-2023 et à l’instabilité chronique du pouvoir exécutif.",
+    "en": "Peru's first woman president, she remains associated with the deaths in the 2022–2023 crackdown and the country's chronic executive instability."
   }
 }

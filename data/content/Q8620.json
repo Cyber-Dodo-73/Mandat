@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Kwame Nkrumah naît en 1909 à Nkroful, dans l'ouest de la Côte-de-l'Or britannique, et devient instituteur après sa formation à Achimota. Parti en 1935 aux États-Unis, il étudie à l'université Lincoln et à l'université de Pennsylvanie, puis s'installe à Londres, où il coorganise le congrès panafricain de Manchester en 1945. Rentré en 1947, il fonde en 1949 le Convention People's Party et lance l'année suivante une campagne d'« action positive » de grèves et de boycotts qui le mène en prison. Son parti remporte les élections de 1951 alors qu'il est détenu ; libéré, il dirige le gouvernement et devient Premier ministre en 1952. Le 6 mars 1957, la colonie accède à l'indépendance sous le nom de Ghana, premier pays d'Afrique subsaharienne à se libérer de la tutelle coloniale. Président de la République à partir de 1960, il lance le barrage d'Akosombo sur la Volta et participe en 1963 à la fondation de l'Organisation de l'unité africaine à Addis-Abeba. Mais il fait aussi emprisonner des opposants sans procès en vertu d'une loi de 1958 et instaure le parti unique en 1964. Le 24 février 1966, alors qu'il est en voyage en Asie, un coup d'État militaire le renverse. Exilé en Guinée auprès de Sékou Touré, il meurt d'un cancer à Bucarest en avril 1972.",
+    "en": "Kwame Nkrumah was born in 1909 in Nkroful, in the west of the British Gold Coast, and became a teacher after training at Achimota. Leaving for the United States in 1935, he studied at Lincoln University and the University of Pennsylvania, then moved to London, where he co-organised the 1945 Pan-African Congress in Manchester. Back home in 1947, he founded the Convention People's Party in 1949 and the following year launched a 'positive action' campaign of strikes and boycotts that landed him in prison. His party won the 1951 election while he was still behind bars; released, he led the government and became prime minister in 1952. On 6 March 1957 the colony became independent as Ghana, the first sub-Saharan African country to throw off colonial rule. President from 1960, he launched the Akosombo Dam on the Volta and in 1963 helped found the Organisation of African Unity in Addis Ababa. Yet he also jailed opponents without trial under a 1958 law and imposed one-party rule in 1964. On 24 February 1966, while he was travelling in Asia, a military coup overthrew him. Exiled in Guinea as the guest of Sékou Touré, he died of cancer in Bucharest in April 1972."
+  },
+  "highlights": {
+    "fr": [
+      "Coorganise le congrès panafricain de Manchester en 1945",
+      "Remporte les élections de 1951 depuis sa prison",
+      "Proclame l'indépendance du Ghana le 6 mars 1957",
+      "Cofondateur de l'Organisation de l'unité africaine en 1963",
+      "Renversé par un coup d'État le 24 février 1966"
+    ],
+    "en": [
+      "Co-organised the Manchester Pan-African Congress in 1945",
+      "Won the 1951 election from his prison cell",
+      "Led Ghana to independence on 6 March 1957",
+      "Co-founder of the Organisation of African Unity in 1963",
+      "Overthrown in a coup on 24 February 1966"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure fondatrice du panafricanisme, il est réhabilité au Ghana comme père de la nation, malgré la dérive autoritaire de ses dernières années au pouvoir.",
+    "en": "A founding figure of pan-Africanism, he is honoured in Ghana as the father of the nation, despite the authoritarian turn of his last years in power."
   }
 }

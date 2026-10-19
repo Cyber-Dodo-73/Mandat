@@ -32,5 +32,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Frédéric naît à Berlin en janvier 1712, fils du « Roi-Sergent » Frédéric-Guillaume Ier, qui méprise ses goûts pour la musique et la littérature française. En 1730, il tente de fuir le royaume avec son ami Hans Hermann von Katte ; rattrapé, il est emprisonné à Küstrin et contraint d'assister à la décapitation de Katte. Devenu roi en mai 1740, il envahit dès décembre la Silésie autrichienne, qu'il conserve après deux guerres contre Marie-Thérèse, conclues en 1742 et 1745. En 1756, il ouvre la guerre de Sept Ans en attaquant la Saxe et affronte une coalition de l'Autriche, de la France et de la Russie. Vainqueur à Rossbach et Leuthen en 1757, écrasé à Kunersdorf en 1759, il est sauvé par la sortie de la Russie du conflit après la mort de la tsarine Élisabeth en 1762 ; la paix d'Hubertusbourg lui laisse la Silésie en 1763. Souverain absolu inspiré des Lumières, il abolit presque entièrement la torture, protège la tolérance religieuse, fait assécher les marais de l'Oder et accueille Voltaire à Potsdam de 1750 à 1753. En 1772, il obtient la Prusse occidentale lors du premier partage de la Pologne. Il meurt sans enfant au château de Sanssouci en août 1786, laissant à son neveu une Prusse devenue grande puissance européenne.",
+    "en": "Frederick was born in Berlin in January 1712, the son of the 'Soldier King' Frederick William I, who despised his taste for music and French literature. In 1730 he tried to flee the kingdom with his friend Hans Hermann von Katte; caught, he was locked up at Küstrin and forced to watch Katte's beheading. Becoming king in May 1740, he invaded Austrian Silesia that December and kept it after two wars against Maria Theresa, ended in 1742 and 1745. In 1756 he opened the Seven Years' War by attacking Saxony and faced a coalition of Austria, France and Russia. Victorious at Rossbach and Leuthen in 1757 and crushed at Kunersdorf in 1759, he was saved when Russia left the war after Empress Elizabeth's death in 1762, and the Peace of Hubertusburg confirmed his hold on Silesia in 1763. An absolute ruler influenced by the Enlightenment, he all but abolished torture, upheld religious tolerance, drained the Oder marshes and hosted Voltaire at Potsdam from 1750 to 1753. In 1772 he gained West Prussia in the first partition of Poland. He died childless at Sanssouci in August 1786, leaving his nephew a Prussia that had become a major European power."
+  },
+  "highlights": {
+    "fr": [
+      "Roi de Prusse de 1740 à 1786",
+      "Conquête de la Silésie autrichienne à partir de 1740",
+      "Victoires de Rossbach et Leuthen en 1757",
+      "Conserve la Silésie à la paix d'Hubertusbourg en 1763",
+      "Gagne la Prusse occidentale au partage de la Pologne en 1772"
+    ],
+    "en": [
+      "King of Prussia from 1740 to 1786",
+      "Seized Austrian Silesia from 1740",
+      "Won at Rossbach and Leuthen in 1757",
+      "Kept Silesia at the Peace of Hubertusburg in 1763",
+      "Gained West Prussia in the 1772 partition of Poland"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé Frédéric le Grand, il incarne le despotisme éclairé. Le nationalisme allemand, puis la propagande nazie, ont exploité son image de roi guerrier.",
+    "en": "Known as Frederick the Great, he embodies enlightened absolutism. German nationalists, and later Nazi propaganda, exploited his image as a warrior king."
   }
 }

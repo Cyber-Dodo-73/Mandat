@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Ollanta Humala naît en juin 1962 à Lima, dans une famille aux idées nationalistes, et fait carrière dans l’armée, où il sert notamment dans la lutte contre le Sentier lumineux au début des années 1990. En octobre 2000, alors que le régime d’Alberto Fujimori s’effondre, il mène avec son frère Antauro un soulèvement militaire à Locumba, avant d’être amnistié. Après des postes d’attaché militaire à l’étranger, il fonde le Parti nationaliste péruvien et arrive en tête du premier tour en 2006, avant d’être battu par Alan García. En 2011, ayant adopté un discours plus modéré, il bat Keiko Fujimori au second tour et prend ses fonctions le 28 juillet. Son gouvernement crée des programmes sociaux comme une pension pour les personnes âgées pauvres, des cantines scolaires et des bourses d’études, mais il affronte de vifs conflits autour des projets miniers, comme celui de Conga. Il assure aussi la présidence tournante de l’Union des nations sud-américaines en 2012-2013. Après son mandat, l’enquête Odebrecht révèle des financements illégaux de ses campagnes. En avril 2025, il est condamné avec son épouse, Nadine Heredia, à quinze ans de prison pour blanchiment d’argent.",
+    "en": "Ollanta Humala was born in June 1962 in Lima into a family with nationalist views and made his career in the army, serving notably in the fight against the Shining Path in the early 1990s. In October 2000, as Alberto Fujimori's regime was collapsing, he led a military uprising at Locumba with his brother Antauro and was later amnestied. After postings abroad as a military attaché, he founded the Peruvian Nationalist Party and topped the first round in 2006 before losing to Alan García. In 2011, having toned down his rhetoric, he beat Keiko Fujimori in the runoff and took office on 28 July. His government created social programmes such as a pension for poor elderly people, school meals and scholarships, but faced fierce conflicts over mining projects such as Conga. He also held the rotating presidency of the Union of South American Nations in 2012–2013. After he left office, the Odebrecht investigation uncovered illegal funding of his campaigns. In April 2025 he and his wife, Nadine Heredia, were sentenced to fifteen years in prison for money laundering."
+  },
+  "highlights": {
+    "fr": [
+      "Mène le soulèvement militaire de Locumba contre Fujimori en octobre 2000",
+      "Fonde le Parti nationaliste péruvien",
+      "Président du Pérou de 2011 à 2016",
+      "Crée la pension Pensión 65 pour les personnes âgées pauvres",
+      "Condamné à quinze ans de prison pour blanchiment en avril 2025"
+    ],
+    "en": [
+      "Led the Locumba military uprising against Fujimori in October 2000",
+      "Founded the Peruvian Nationalist Party",
+      "President of Peru from 2011 to 2016",
+      "Created the Pensión 65 scheme for poor elderly people",
+      "Sentenced to fifteen years for money laundering in April 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Arrivé au pouvoir en promettant une « grande transformation », il a gouverné au centre et figure parmi les nombreux anciens présidents péruviens condamnés dans l’affaire Odebrecht.",
+    "en": "Elected on a promise of great transformation, he governed from the centre and is among the many former Peruvian presidents convicted in the Odebrecht affair."
   }
 }

@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Georges Jacques Danton naît en 1759 à Arcis-sur-Aube, en Champagne, dans une famille de petite bourgeoisie. Venu à Paris, il devient en 1787 avocat aux Conseils du roi. Dès 1789, il s'impose comme orateur dans le district des Cordeliers, puis au club du même nom, fondé en 1790, qui réclame une démocratie plus radicale. Il joue un rôle de premier plan dans l'insurrection du 10 août 1792 qui renverse Louis XVI, et entre aussitôt au Conseil exécutif provisoire comme ministre de la Justice. Il galvanise la défense nationale face à l'invasion prussienne, mais n'intervient pas pour arrêter les massacres de Septembre, où plus d'un millier de détenus sont tués. Élu député de Paris à la Convention, il soutient en mars 1793 la création du Tribunal révolutionnaire et siège au premier Comité de salut public d'avril à juillet 1793, avant de présider la Convention. À l'automne, avec Camille Desmoulins, il prend la tête des « Indulgents » qui réclament la fin de la Terreur. Accusé à la fois de modération et de corruption, notamment dans l'affaire de la Compagnie des Indes, il est arrêté fin mars 1794 et jugé en quelques jours. Il est guillotiné à Paris le 5 avril 1794.",
+    "en": "Georges Jacques Danton was born in 1759 in Arcis-sur-Aube, in Champagne, into a modest middle-class family. Moving to Paris, he became a lawyer at the King's Councils in 1787. From 1789 he made his name as an orator in the Cordeliers district and then in the Cordeliers Club, founded in 1790, which pushed for a more radical democracy. He played a leading part in the uprising of 10 August 1792 that toppled Louis XVI and immediately joined the provisional executive council as Minister of Justice. He rallied national defence against the Prussian invasion but did nothing to halt the September Massacres, in which more than a thousand prisoners were killed. Elected to the Convention for Paris, he backed the creation of the Revolutionary Tribunal in March 1793 and sat on the first Committee of Public Safety from April to July 1793, later presiding over the Convention. That autumn, with Camille Desmoulins, he led the Indulgents, who called for an end to the Terror. Accused of both moderation and corruption, including in the East India Company affair, he was arrested at the end of March 1794 and tried within days. He was guillotined in Paris on 5 April 1794."
+  },
+  "highlights": {
+    "fr": [
+      "Figure du club des Cordeliers dès 1790",
+      "Acteur majeur de l'insurrection du 10 août 1792, puis ministre de la Justice",
+      "Membre du premier Comité de salut public (avril-juillet 1793)",
+      "Président de la Convention nationale en 1793",
+      "Guillotiné à Paris le 5 avril 1794 avec Desmoulins"
+    ],
+    "en": [
+      "A leading figure of the Cordeliers Club from 1790",
+      "Key actor in the 10 August 1792 uprising, then Minister of Justice",
+      "Member of the first Committee of Public Safety (April–July 1793)",
+      "President of the National Convention in 1793",
+      "Guillotined in Paris on 5 April 1794 alongside Desmoulins"
+    ]
+  },
+  "legacy": {
+    "fr": "Tribun puissant et personnage ambigu, il est resté dans la mémoire républicaine le symbole de la patrie en danger et d'une Révolution qui dévore ses propres enfants.",
+    "en": "A powerful orator and an ambiguous figure, he endures in republican memory as a symbol of the nation in peril and of a revolution devouring its own."
   }
 }

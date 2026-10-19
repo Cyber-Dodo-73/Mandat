@@ -32,5 +32,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1452 au château de Fotheringhay, Richard est le plus jeune fils survivant de Richard, duc d'York, tué en 1460 pendant la guerre des Deux-Roses. Son frère aîné devient roi en 1461 sous le nom d'Édouard IV et le fait duc de Gloucester. Après avoir partagé son exil en 1470, Richard combat à ses côtés aux victoires yorkistes de Barnet et de Tewkesbury en 1471. Il épouse Anne Neville, gouverne le nord de l'Angleterre pour son frère et reprend Berwick aux Écossais en 1482. À la mort d'Édouard IV en avril 1483, il devient lord-protecteur de son neveu de douze ans, Édouard V. En juin, les enfants d'Édouard IV sont déclarés illégitimes, et Richard est couronné en juillet 1483 ; ses deux neveux, enfermés à la Tour de Londres, disparaissent, et beaucoup l'accusent de leur mort. Il écrase à l'automne la révolte du duc de Buckingham et fait adopter en 1484 des réformes judiciaires, notamment sur la caution. Après la mort de son fils unique en 1484 et de son épouse en 1485, il affronte Henri Tudor à Bosworth le 22 août 1485 et y est tué, dernier roi d'Angleterre mort au combat. Son squelette a été retrouvé en 2012 sous un parking de Leicester.",
+    "en": "Born at Fotheringhay Castle in 1452, Richard was the youngest surviving son of Richard, Duke of York, who was killed in 1460 in the Wars of the Roses. His eldest brother became king as Edward IV in 1461 and made him Duke of Gloucester. Having shared Edward's exile in 1470, Richard fought beside him at the Yorkist victories of Barnet and Tewkesbury in 1471. He married Anne Neville, governed the north of England for his brother and recaptured Berwick from the Scots in 1482. When Edward IV died in April 1483, Richard became Lord Protector for his twelve-year-old nephew, Edward V. In June Edward IV's children were declared illegitimate, and Richard was crowned in July 1483; his two nephews, held in the Tower of London, vanished, and many blamed him for their deaths. That autumn he crushed the Duke of Buckingham's rebellion, and in 1484 his parliament passed legal reforms, notably on bail. After losing his only son in 1484 and his wife in 1485, he faced Henry Tudor at Bosworth on 22 August 1485 and was killed, the last English king to die in battle. His skeleton was found in 2012 beneath a car park in Leicester."
+  },
+  "highlights": {
+    "fr": [
+      "Combat à Barnet et Tewkesbury en 1471",
+      "Reprend Berwick aux Écossais en 1482",
+      "Couronné roi d'Angleterre en juillet 1483",
+      "Tué à Bosworth le 22 août 1485, dernier roi anglais mort au combat"
+    ],
+    "en": [
+      "Fought at Barnet and Tewkesbury in 1471",
+      "Recaptured Berwick from the Scots in 1482",
+      "Crowned King of England in July 1483",
+      "Killed at Bosworth on 22 August 1485, the last English king to die in battle"
+    ]
+  },
+  "legacy": {
+    "fr": "Popularisé en tyran par Shakespeare, il reste au cœur du mystère des princes de la Tour ; ses restes ont été inhumés en 2015 dans la cathédrale de Leicester.",
+    "en": "Cast as a tyrant by Shakespeare, he remains at the centre of the mystery of the Princes in the Tower; his remains were reburied in Leicester Cathedral in 2015."
   }
 }

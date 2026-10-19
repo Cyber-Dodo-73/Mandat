@@ -32,5 +32,29 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Né vers 1303 av. J.-C., Ramsès est le fils du pharaon Séthi Ier, de la XIXe dynastie, qui l'associe jeune au pouvoir et l'emmène dans ses campagnes. Il monte sur le trône vers 1279 av. J.-C. et mène d'abord des expéditions en Nubie, en Libye et au Levant. Vers 1274 av. J.-C., il affronte l'armée hittite du roi Muwatalli II à Qadesh, en Syrie : la bataille, sans vainqueur net, est pourtant célébrée comme un triomphe sur les murs de ses temples. Vers 1259 av. J.-C., il conclut avec le roi hittite Hattusili III un traité de paix, le plus ancien dont le texte nous soit parvenu, puis épouse une princesse hittite. Il fonde dans le delta du Nil une nouvelle capitale, Pi-Ramsès, et lance un programme de construction sans équivalent : les temples d'Abou Simbel, le Ramesseum à Thèbes et des agrandissements à Karnak et Louxor. Son épouse principale, Néfertari, reçoit un temple à Abou Simbel et l'une des plus belles tombes de la vallée des Reines. Il aurait eu plus d'une centaine d'enfants et célèbre de nombreuses fêtes jubilaires. Il meurt vers 1213 av. J.-C., à environ 90 ans, après un règne de 66 ans ; sa momie, retrouvée en 1881, est conservée au Caire.",
+    "en": "Born around 1303 BC, Ramesses was the son of the Nineteenth Dynasty pharaoh Seti I, who involved him in government at a young age and took him on campaign. He came to the throne around 1279 BC and first led expeditions into Nubia, Libya and the Levant. Around 1274 BC he fought the Hittite army of King Muwatalli II at Kadesh in Syria: the battle had no clear winner, yet it was celebrated as a triumph on the walls of his temples. Around 1259 BC he concluded a peace treaty with the Hittite king Hattusili III, the oldest whose text survives, and later married a Hittite princess. He founded a new capital, Pi-Ramesses, in the Nile Delta and launched an unrivalled building programme: the temples of Abu Simbel, the Ramesseum at Thebes and additions at Karnak and Luxor. His chief wife, Nefertari, received a temple at Abu Simbel and one of the finest tombs in the Valley of the Queens. He is said to have fathered more than a hundred children and celebrated many jubilee festivals. He died around 1213 BC, at about 90, after a 66-year reign; his mummy, found in 1881, is kept in Cairo."
+  },
+  "highlights": {
+    "fr": [
+      "Pharaon d'Égypte pendant 66 ans, vers 1279-1213 av. J.-C.",
+      "Affronte les Hittites à Qadesh vers 1274 av. J.-C.",
+      "Signe vers 1259 av. J.-C. le plus ancien traité de paix connu",
+      "Fait bâtir les temples d'Abou Simbel et le Ramesseum",
+      "Fonde la capitale Pi-Ramsès dans le delta du Nil"
+    ],
+    "en": [
+      "Pharaoh of Egypt for 66 years, c. 1279–1213 BC",
+      "Fought the Hittites at Kadesh around 1274 BC",
+      "Signed the oldest known peace treaty around 1259 BC",
+      "Built the temples of Abu Simbel and the Ramesseum",
+      "Founded the capital Pi-Ramesses in the Nile Delta"
+    ]
+  },
+  "legacy": {
+    "fr": "Souvent appelé Ramsès le Grand, il est l'un des pharaons qui ont laissé le plus de monuments, et neuf rois après lui ont repris son nom.",
+    "en": "Often called Ramesses the Great, he is among the pharaohs who left the most monuments, and nine later kings took his name."
   }
 }

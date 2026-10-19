@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "John Key naît en août 1961 à Auckland et grandit à Christchurch, élevé par sa mère veuve dans un logement social. Diplômé de commerce de l’université de Canterbury, il devient cambiste et fait une carrière rapide dans la finance internationale, jusqu’à diriger le change mondial de Merrill Lynch depuis Londres. Rentré en Nouvelle-Zélande, il est élu député de Helensville en 2002 et prend la tête du Parti national en 2006. En novembre 2008, il bat Helen Clark et devient Premier ministre en pleine crise financière mondiale. Son gouvernement gère la reconstruction après les séismes de Christchurch, dont celui de février 2011 qui fait 185 morts, et ouvre au privé une partie du capital de compagnies d’électricité publiques. Réélu en 2011 puis en 2014, il organise en 2015 et 2016 deux référendums sur le drapeau national, qui aboutissent au maintien de l’ancien. Il annonce par surprise sa démission en décembre 2016, au sommet de sa popularité, et cède la place à Bill English. Il quitte le Parlement en 2017, année où il est anobli.",
+    "en": "John Key was born in August 1961 in Auckland and grew up in Christchurch, raised by his widowed mother in state housing. A commerce graduate of the University of Canterbury, he became a currency trader and rose quickly in global finance, eventually running Merrill Lynch's worldwide foreign exchange business from London. Back in New Zealand, he was elected MP for Helensville in 2002 and became leader of the National Party in 2006. In November 2008 he defeated Helen Clark and became prime minister in the middle of the global financial crisis. His government oversaw the rebuild after the Christchurch earthquakes, including the February 2011 quake that killed 185 people, and sold minority stakes in state power companies. Re-elected in 2011 and 2014, he held two referendums on the national flag in 2015 and 2016, which ended with the old flag being kept. He announced his resignation without warning in December 2016, while still highly popular, and handed over to Bill English. He left parliament in 2017, the year he was knighted."
+  },
+  "highlights": {
+    "fr": [
+      "Dirige le change mondial de Merrill Lynch avant d’entrer en politique",
+      "Premier ministre de Nouvelle-Zélande de 2008 à 2016",
+      "Pilote la reconstruction après le séisme de Christchurch de 2011",
+      "Organise deux référendums sur le drapeau en 2015 et 2016",
+      "Démissionne par surprise en décembre 2016"
+    ],
+    "en": [
+      "Ran Merrill Lynch's global foreign exchange desk before politics",
+      "Prime Minister of New Zealand from 2008 to 2016",
+      "Oversaw the rebuild after the 2011 Christchurch earthquake",
+      "Held two flag referendums in 2015 and 2016",
+      "Resigned unexpectedly in December 2016"
+    ]
+  },
+  "legacy": {
+    "fr": "Il est retenu comme un dirigeant pragmatique et populaire, qui a mené la Nouvelle-Zélande à travers la crise financière et les séismes avant de partir de son plein gré.",
+    "en": "He is remembered as a pragmatic, popular leader who steered New Zealand through the financial crisis and the earthquakes before leaving on his own terms."
   }
 }

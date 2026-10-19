@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Rabat en 1963, fils aîné du roi Hassan II, Mohammed est préparé au trône dès l'enfance au collège royal. Licencié en droit de l'université Mohammed-V en 1985, il fait un stage auprès de Jacques Delors à la Commission européenne, puis soutient un doctorat en droit à Nice. Il devient roi le 23 juillet 1999 et se présente d'abord comme le « roi des pauvres ». En 2004, l'Instance équité et réconciliation examine les violations des « années de plomb », et un nouveau code de la famille renforce les droits des femmes. Le pays est frappé par les attentats de Casablanca en 2003. Face aux manifestations du Mouvement du 20 février en 2011, il fait adopter par référendum une Constitution qui élargit les pouvoirs du gouvernement tout en préservant ceux du roi. Il lance de grands projets comme le port de Tanger Med, fait réintégrer l'Union africaine en 2017 et normalise en 2020 les relations avec Israël en échange de la reconnaissance américaine de la souveraineté marocaine sur le Sahara occidental. En 2023, un séisme dans le Haut Atlas fait près de 3 000 morts.",
+    "en": "Born in Rabat in 1963, the eldest son of King Hassan II, Mohammed was groomed for the throne from childhood at the royal college. After a law degree from Mohammed V University in 1985, he trained with Jacques Delors at the European Commission and then earned a doctorate in law in Nice. He became king on 23 July 1999 and at first styled himself the 'king of the poor'. In 2004 the Equity and Reconciliation Commission examined abuses from the 'years of lead', and a new family code strengthened women's rights. The country was hit by the Casablanca bombings in 2003. Facing the February 20 Movement protests in 2011, he had a constitution approved by referendum that widened the government's powers while preserving his own. He launched big projects such as the Tanger Med port, brought Morocco back into the African Union in 2017 and in 2020 normalised ties with Israel in return for US recognition of Moroccan sovereignty over Western Sahara. In 2023 an earthquake in the High Atlas killed nearly 3,000 people."
+  },
+  "highlights": {
+    "fr": [
+      "1999 : succède à son père Hassan II",
+      "2004 : nouveau code de la famille et commission sur les années de plomb",
+      "2011 : nouvelle Constitution adoptée par référendum",
+      "2017 : le Maroc réintègre l'Union africaine",
+      "2020 : normalisation avec Israël et reconnaissance américaine sur le Sahara"
+    ],
+    "en": [
+      "1999: succeeds his father Hassan II",
+      "2004: new family code and a commission on the years of lead",
+      "2011: new constitution approved by referendum",
+      "2017: Morocco rejoins the African Union",
+      "2020: ties with Israel and US recognition over Western Sahara"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a modernisé l'économie et l'image du Maroc tout en gardant l'essentiel du pouvoir entre les mains du palais.",
+    "en": "He has modernised Morocco's economy and image while keeping the core of power firmly in the palace's hands."
   }
 }

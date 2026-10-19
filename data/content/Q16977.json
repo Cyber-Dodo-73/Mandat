@@ -32,5 +32,29 @@
         "value": "strategy"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1904 dans le Sichuan, à Guang'an, Deng Xiaoping part à seize ans en France dans le cadre d'un programme travail-études et y adhère au mouvement communiste, avant de se former à Moscou. Commissaire politique pendant la Longue Marche et la guerre civile, il joue un rôle majeur dans la campagne de Huaihai en 1948-1949. Secrétaire général du Parti à partir de 1956, il participe à la campagne antidroitière de 1957, puis s'efforce de redresser l'économie après le désastre du Grand Bond en avant. Purgé pendant la Révolution culturelle, il est envoyé travailler dans une usine de tracteurs du Jiangxi, réhabilité en 1973, écarté de nouveau en 1976, puis revient au pouvoir après la mort de Mao. À partir de décembre 1978, il lance la politique de réforme et d'ouverture : décollectivisation agricole, zones économiques spéciales comme Shenzhen, investissements étrangers. Il conclut en 1984 avec Londres l'accord de rétrocession de Hong Kong selon le principe « un pays, deux systèmes ». En juin 1989, il approuve la loi martiale et l'intervention de l'armée contre les manifestants de la place Tiananmen, qui fait des centaines, peut-être des milliers de morts. Sa tournée dans le Sud en 1992 relance les réformes ; il meurt à Pékin en février 1997.",
+    "en": "Born in 1904 at Guang'an in Sichuan, Deng Xiaoping went to France at sixteen on a work-study scheme, joined the communist movement there and later trained in Moscow. A political commissar during the Long March and the civil war, he played a major part in the Huaihai campaign of 1948–49. Party general secretary from 1956, he took part in the Anti-Rightist Campaign of 1957 and then worked to rebuild the economy after the disaster of the Great Leap Forward. Purged in the Cultural Revolution, he was sent to work in a tractor factory in Jiangxi, rehabilitated in 1973, ousted again in 1976 and returned to power after Mao's death. From December 1978 he launched reform and opening up: dismantling the communes, creating special economic zones such as Shenzhen and welcoming foreign investment. In 1984 he agreed with London on the return of Hong Kong under the formula of one country, two systems. In June 1989 he backed martial law and the army's assault on the Tiananmen Square protesters, which killed hundreds and possibly thousands of people. His southern tour of 1992 relaunched the reforms, and he died in Beijing in February 1997."
+  },
+  "highlights": {
+    "fr": [
+      "Lance en décembre 1978 la politique de réforme et d'ouverture",
+      "Crée en 1980 les zones économiques spéciales, dont Shenzhen",
+      "Négocie en 1984 la rétrocession de Hong Kong",
+      "Approuve la répression sanglante de Tiananmen en juin 1989",
+      "Relance les réformes par sa tournée dans le Sud en 1992"
+    ],
+    "en": [
+      "Launched reform and opening up in December 1978",
+      "Set up the special economic zones, including Shenzhen, in 1980",
+      "Negotiated the return of Hong Kong in 1984",
+      "Backed the bloody Tiananmen crackdown in June 1989",
+      "Revived the reforms with his southern tour in 1992"
+    ]
+  },
+  "legacy": {
+    "fr": "Architecte de l'essor économique qui a sorti des centaines de millions de Chinois de la pauvreté, il a aussi fixé la règle d'un parti unique écrasant toute contestation.",
+    "en": "Architect of the economic boom that lifted hundreds of millions of Chinese out of poverty, he also set the rule of a single party that crushes all dissent."
   }
 }

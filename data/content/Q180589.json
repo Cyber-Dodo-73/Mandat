@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né à New York en 1964 de parents britanniques, Alexander Boris de Pfeffel Johnson étudie à Eton puis les lettres classiques au Balliol College d'Oxford, où il préside l'Oxford Union. Journaliste, il est renvoyé du Times pour une citation inventée, puis devient correspondant à Bruxelles du Daily Telegraph, où ses articles moqueurs sur l'Europe le rendent célèbre. Député à partir de 2001, il est élu maire de Londres en 2008 et réélu en 2012, l'année des Jeux olympiques dans la capitale. En 2016, il devient l'un des visages de la campagne pour le Brexit, puis ministre des Affaires étrangères jusqu'en 2018. Élu chef du Parti conservateur et Premier ministre en juillet 2019, il remporte en décembre une large majorité sur le slogan « Get Brexit Done » et fait sortir le Royaume-Uni de l'Union européenne le 31 janvier 2020. Sa gestion de la pandémie, pendant laquelle il est lui-même hospitalisé, est suivie du scandale des fêtes organisées à Downing Street en plein confinement. Après une vague de démissions dans son gouvernement, il annonce son départ en juillet 2022 et quitte le Parlement en 2023, après avoir été reconnu coupable d'avoir trompé les députés.",
+    "en": "Born in New York in 1964 to British parents, Alexander Boris de Pfeffel Johnson went to Eton and read classics at Balliol College, Oxford, where he was president of the Oxford Union. As a journalist he was sacked by The Times for a fabricated quote, then became the Daily Telegraph's Brussels correspondent, where his mocking pieces on Europe made his name. An MP from 2001, he was elected mayor of London in 2008 and re-elected in 2012, the year the city hosted the Olympics. In 2016 he became a leading face of the Brexit campaign, then served as foreign secretary until 2018. Chosen as Conservative leader and prime minister in July 2019, he won a large majority that December on the slogan Get Brexit Done and took the UK out of the European Union on 31 January 2020. His handling of the pandemic, during which he was himself hospitalised, was followed by the scandal of parties held in Downing Street during lockdown. After a wave of ministerial resignations he announced his departure in July 2022, and he left Parliament in 2023 after being found to have misled MPs."
+  },
+  "highlights": {
+    "fr": [
+      "Maire de Londres de 2008 à 2016, dont les Jeux olympiques de 2012",
+      "Figure de proue de la campagne pour le Brexit en 2016",
+      "Remporte une majorité de 80 sièges aux législatives de décembre 2019",
+      "Fait sortir le Royaume-Uni de l'UE le 31 janvier 2020",
+      "Contraint à la démission en 2022 après le scandale du « Partygate »"
+    ],
+    "en": [
+      "Mayor of London from 2008 to 2016, including the 2012 Olympics",
+      "A leading figure of the 2016 Brexit campaign",
+      "Won an 80-seat majority in the December 2019 general election",
+      "Took the UK out of the EU on 31 January 2020",
+      "Forced to resign in 2022 after the Partygate scandal"
+    ]
+  },
+  "legacy": {
+    "fr": "Son nom reste attaché à la sortie du Royaume-Uni de l'Union européenne, dont les effets divisent toujours le pays.",
+    "en": "His name remains bound to Britain's exit from the European Union, whose effects still divide the country."
   }
 }

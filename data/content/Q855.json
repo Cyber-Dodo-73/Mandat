@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1878 à Gori, en Géorgie, Iossif Djougachvili quitte le séminaire pour le militantisme révolutionnaire et rejoint les bolcheviks, multipliant arrestations et déportations en Sibérie. Il prend le nom de Staline et entre au premier Politburo du parti en 1917, au moment de la révolution d'Octobre. Nommé secrétaire général en 1922, il utilise ce poste pour placer ses fidèles et écarter Trotski et ses autres rivaux après la mort de Lénine en 1924. À partir de 1929, il impose la collectivisation forcée des campagnes et une industrialisation à marche forcée, qui provoquent des famines faisant des millions de morts, dont l'Holodomor en Ukraine en 1932-1933. La Grande Terreur de 1936-1938 fait environ 700 000 exécutions, et des millions de personnes passent par les camps du Goulag ou sont déportées comme peuples entiers. Après le pacte germano-soviétique de 1939, l'invasion allemande de 1941 le place à la tête de l'effort de guerre, et l'URSS sort de la guerre victorieuse au prix d'environ 27 millions de morts. Ayant négocié à Téhéran et à Yalta le partage de l'Europe, il impose des régimes communistes à l'Est et meurt à Moscou en mars 1953.",
+    "en": "Born in 1878 in Gori, Georgia, Ioseb Jughashvili left the seminary for revolutionary activism and joined the Bolsheviks, enduring repeated arrests and exile to Siberia. He took the name Stalin and sat on the party's first Politburo in 1917, at the time of the October Revolution. Appointed general secretary in 1922, he used the post to install loyalists and push aside Trotsky and other rivals after Lenin's death in 1924. From 1929 he imposed forced collectivisation of agriculture and breakneck industrialisation, causing famines that killed millions, including the Holodomor in Ukraine in 1932–1933. The Great Terror of 1936–1938 brought some 700,000 executions, and millions more passed through the Gulag camps or were deported as entire peoples. After the 1939 Nazi-Soviet pact, the German invasion of 1941 put him at the head of the war effort, and the USSR emerged victorious at a cost of around 27 million dead. Having negotiated the division of Europe at Tehran and Yalta, he imposed communist regimes across the East and died in Moscow in March 1953."
+  },
+  "highlights": {
+    "fr": [
+      "Secrétaire général du Parti communiste à partir de 1922",
+      "Impose la collectivisation forcée à partir de 1929, suivie de famines meurtrières",
+      "Ordonne la Grande Terreur de 1936-1938, environ 700 000 exécutions",
+      "Dirige l'URSS pendant la guerre contre l'Allemagne nazie (1941-1945)",
+      "Négocie le partage de l'Europe à Téhéran (1943) et Yalta (1945)"
+    ],
+    "en": [
+      "General secretary of the Communist Party from 1922",
+      "Imposed forced collectivisation from 1929, followed by deadly famines",
+      "Ordered the Great Terror of 1936–1938, some 700,000 executions",
+      "Led the USSR through the war against Nazi Germany (1941–1945)",
+      "Negotiated the division of Europe at Tehran (1943) and Yalta (1945)"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a fait de l'URSS une superpuissance industrielle et militaire au prix de millions de victimes, et son système de terreur reste un modèle de totalitarisme.",
+    "en": "He made the USSR an industrial and military superpower at the cost of millions of victims, and his system of terror remains a model of totalitarianism."
   }
 }

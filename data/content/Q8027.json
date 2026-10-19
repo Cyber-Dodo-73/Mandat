@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Atlanta en 1929, fils et petit-fils de pasteurs baptistes, Martin Luther King Jr. étudie au Morehouse College puis obtient un doctorat en théologie à l'université de Boston en 1955. Jeune pasteur à Montgomery, en Alabama, il prend la tête du boycott des bus déclenché en décembre 1955 par l'arrestation de Rosa Parks, qui aboutit à l'interdiction de la ségrégation dans les transports de la ville. Il cofonde en 1957 la Southern Christian Leadership Conference et défend une stratégie de désobéissance civile non violente inspirée de Gandhi. Emprisonné à Birmingham en 1963, il y écrit une lettre devenue célèbre, puis prononce en août, devant plus de 250 000 personnes à Washington, son discours « I Have a Dream ». Ces mobilisations contribuent à l'adoption du Civil Rights Act en 1964, année où il reçoit le prix Nobel de la paix, puis du Voting Rights Act après les marches de Selma en 1965. Il élargit ensuite son combat à la pauvreté et s'oppose publiquement à la guerre du Vietnam. Le 4 avril 1968, il est assassiné à Memphis, où il soutenait une grève d'éboueurs.",
+    "en": "Born in Atlanta in 1929, the son and grandson of Baptist ministers, Martin Luther King Jr. studied at Morehouse College and earned a doctorate in theology from Boston University in 1955. As a young pastor in Montgomery, Alabama, he led the bus boycott sparked in December 1955 by Rosa Parks's arrest, which ended with segregation on the city's buses being struck down. In 1957 he co-founded the Southern Christian Leadership Conference and championed non-violent civil disobedience inspired by Gandhi. Jailed in Birmingham in 1963, he wrote a celebrated letter there, and in August he delivered his I Have a Dream speech to more than 250,000 people in Washington. These campaigns helped pass the Civil Rights Act in 1964, the year he received the Nobel Peace Prize, followed by the Voting Rights Act after the Selma marches of 1965. He then widened his fight to poverty and spoke out against the Vietnam War. On 4 April 1968 he was assassinated in Memphis, where he had come to support striking sanitation workers."
+  },
+  "highlights": {
+    "fr": [
+      "Mène le boycott des bus de Montgomery en 1955-1956",
+      "Écrit la « Lettre de la prison de Birmingham » en 1963",
+      "Prononce le discours « I Have a Dream » le 28 août 1963",
+      "Prix Nobel de la paix en 1964, à 35 ans",
+      "Contribue à l'adoption du Voting Rights Act en 1965"
+    ],
+    "en": [
+      "Led the Montgomery bus boycott in 1955–1956",
+      "Wrote the Letter from Birmingham Jail in 1963",
+      "Delivered the I Have a Dream speech on 28 August 1963",
+      "Awarded the Nobel Peace Prize in 1964, aged 35",
+      "Helped secure the Voting Rights Act in 1965"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure centrale du mouvement des droits civiques, il est honoré aux États-Unis par un jour férié national et reste une référence mondiale de la lutte non violente.",
+    "en": "The central figure of the civil rights movement, he is honoured with a US federal holiday and remains a worldwide reference for non-violent struggle."
   }
 }

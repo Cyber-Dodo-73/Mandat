@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né à Asmara en 1946, alors que l'Érythrée est sous administration britannique, Isaias Afwerki entame des études d'ingénieur à Addis-Abeba avant de les abandonner en 1966 pour rejoindre le Front de libération de l'Érythrée, en lutte contre l'annexion par l'Éthiopie. Formé militairement en Chine, il rompt avec ce mouvement au début des années 1970 et devient l'une des figures du Front populaire de libération de l'Érythrée, dont il prend officiellement la tête en 1987. Après trois décennies de guerre, le FPLE entre dans Asmara en mai 1991, au moment où le régime de Mengistu s'effondre à Addis-Abeba. En avril 1993, un référendum supervisé par l'ONU approuve l'indépendance à plus de 99 %, et Isaias devient président. La guerre frontalière avec l'Éthiopie de 1998 à 2000 fait des dizaines de milliers de morts. En 2001, il fait arrêter des dirigeants réformateurs qui réclamaient des élections et ferme la presse privée ; nombre d'entre eux sont toujours détenus au secret. Aucune élection nationale n'a eu lieu et la constitution de 1997 n'est jamais entrée en vigueur. Après la paix signée avec Abiy Ahmed en 2018, ses troupes interviennent en 2020 dans la guerre du Tigré, où elles sont accusées d'exactions.",
+    "en": "Born in Asmara in 1946, when Eritrea was under British administration, Isaias Afwerki began engineering studies in Addis Ababa but dropped out in 1966 to join the Eritrean Liberation Front, which was fighting annexation by Ethiopia. After military training in China, he broke with that movement in the early 1970s and became a leading figure of the Eritrean People's Liberation Front, which he formally led from 1987. After three decades of war, the EPLF entered Asmara in May 1991 as Mengistu's regime collapsed in Addis Ababa. In April 1993 a UN-monitored referendum backed independence by more than 99%, and Isaias became president. The border war with Ethiopia from 1998 to 2000 killed tens of thousands. In 2001 he had reformist leaders who were calling for elections arrested and shut down the private press; many of them are still held incommunicado. No national election has ever been held, and the 1997 constitution has never come into force. After making peace with Abiy Ahmed in 2018, he sent troops into the Tigray war in 2020, where they were accused of atrocities."
+  },
+  "highlights": {
+    "fr": [
+      "Rejoint la lutte armée pour l'indépendance érythréenne en 1966",
+      "Dirige le Front populaire de libération de l'Érythrée à partir de 1987",
+      "Prend Asmara en mai 1991 après trente ans de guerre",
+      "Président depuis l'indépendance approuvée par référendum en 1993",
+      "Signe la paix avec l'Éthiopie en 2018"
+    ],
+    "en": [
+      "Joined the armed struggle for Eritrean independence in 1966",
+      "Led the Eritrean People's Liberation Front from 1987",
+      "Took Asmara in May 1991 after thirty years of war",
+      "President since independence was approved by referendum in 1993",
+      "Signed a peace deal with Ethiopia in 2018"
+    ]
+  },
+  "legacy": {
+    "fr": "Héros de l'indépendance pour certains, il dirige l'un des régimes les plus fermés du monde, que fuient chaque année des milliers de jeunes Érythréens.",
+    "en": "An independence hero to some, he runs one of the world's most closed regimes, which thousands of young Eritreans flee every year."
   }
 }

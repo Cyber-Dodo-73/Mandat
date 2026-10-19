@@ -32,5 +32,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Louis naît en 1638 au château de Saint-Germain-en-Laye, enfant longtemps attendu de Louis XIII et d'Anne d'Autriche. Roi à quatre ans en 1643, il règne d'abord sous la régence de sa mère et du cardinal Mazarin, et la Fronde, de 1648 à 1653, le contraint à fuir Paris. À la mort de Mazarin en 1661, il décide de gouverner sans Premier ministre et s'appuie sur des ministres comme Colbert pour les finances et Louvois pour l'armée. Il fait de Versailles le siège de la cour et du gouvernement à partir de 1682, symbole d'une monarchie absolue où la noblesse est tenue sous le regard du roi. Sa politique de gloire mène à une série de guerres, de la guerre de Hollande à celle de la Ligue d'Augsbourg, qui étendent le royaume vers le nord et l'est. En 1685, il révoque l'édit de Nantes, ce qui pousse environ 200 000 protestants à l'exil et s'accompagne de conversions forcées. La guerre de Succession d'Espagne, ouverte en 1701, installe son petit-fils sur le trône espagnol mais ruine le pays. Il meurt à Versailles en 1715 après 72 ans de règne, le plus long de l'histoire de France, laissant la couronne à son arrière-petit-fils de cinq ans.",
+    "en": "Louis was born in 1638 at the Château de Saint-Germain-en-Laye, the long-awaited son of Louis XIII and Anne of Austria. King at four in 1643, he first reigned under the regency of his mother and Cardinal Mazarin, and the Fronde revolts of 1648–1653 forced him to flee Paris. When Mazarin died in 1661 he chose to rule without a chief minister, relying on men such as Colbert for finance and Louvois for the army. From 1682 he made Versailles the seat of court and government, the showcase of an absolute monarchy that kept the nobility under the king's eye. His pursuit of glory led to a run of wars, from the Dutch War to the Nine Years' War, which pushed France's borders north and east. In 1685 he revoked the Edict of Nantes, driving some 200,000 Protestants into exile amid forced conversions. The War of the Spanish Succession, from 1701, put his grandson on the Spanish throne but left the country exhausted. He died at Versailles in 1715 after 72 years on the throne, the longest reign in French history, and was succeeded by his five-year-old great-grandson."
+  },
+  "highlights": {
+    "fr": [
+      "1643 : devient roi à 4 ans, sous la régence de sa mère",
+      "1661 : gouverne seul après la mort de Mazarin",
+      "1682 : installe la cour et le gouvernement à Versailles",
+      "1685 : révoque l'édit de Nantes",
+      "72 ans de règne, record de l'histoire de France"
+    ],
+    "en": [
+      "1643: became king at 4, under his mother's regency",
+      "1661: ruled alone after Mazarin's death",
+      "1682: moved court and government to Versailles",
+      "1685: revoked the Edict of Nantes",
+      "72-year reign, the longest in French history"
+    ]
+  },
+  "legacy": {
+    "fr": "Le « Roi-Soleil » reste l'incarnation de la monarchie absolue, et Versailles le symbole de son règne, autant que les guerres et la persécution des protestants.",
+    "en": "The \"Sun King\" remains the embodiment of absolute monarchy, with Versailles as the symbol of his reign, alongside its wars and the persecution of Protestants."
   }
 }

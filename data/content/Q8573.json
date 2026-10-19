@@ -30,5 +30,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1866 dans un village du district de Xiangshan, aujourd'hui Zhongshan, dans le Guangdong, Sun Yat-sen part à douze ans rejoindre son frère à Hawaï, où il étudie à l'école Iolani puis au collège Punahou. Il se forme ensuite à la médecine à Canton puis à Hong Kong, dont il sort diplômé en 1892. Convaincu que la dynastie Qing doit tomber, il fonde en 1894 la Société pour la régénération de la Chine et organise l'année suivante un soulèvement à Canton qui échoue. Exilé, il parcourt le Japon, l'Europe et l'Amérique pour lever des fonds, et en 1896 il est séquestré à la légation chinoise de Londres avant d'être relâché. En 1905, il fonde à Tokyo la Ligue jurée, le Tongmenghui, et formule ses Trois principes du peuple : nationalisme, démocratie et bien-être du peuple. Après le soulèvement de Wuchang en 1911, il est élu président provisoire de la République de Chine et prend ses fonctions à Nankin le 1er janvier 1912, avant de céder la place à Yuan Shikai dès le mois de mars. Il fonde le Kuomintang, s'oppose à Yuan puis aux seigneurs de la guerre, et dirige à partir de 1921 un gouvernement rival à Canton. S'alliant aux Soviétiques et aux communistes, il crée l'académie militaire de Whampoa en 1924, puis meurt d'un cancer à Pékin en 1925.",
+    "en": "Born in 1866 in a village in Xiangshan county, now Zhongshan, Guangdong, Sun Yat-sen left at twelve to join his brother in Hawaii, where he attended the Iolani School and Punahou. He then trained in medicine in Canton and Hong Kong, graduating in 1892. Convinced the Qing dynasty had to go, he founded the Revive China Society in 1894 and organised an uprising in Canton the following year that failed. In exile he travelled through Japan, Europe and the Americas to raise funds, and in 1896 he was held captive at the Chinese legation in London before being freed. In 1905 he founded the Tongmenghui, or Revolutionary Alliance, in Tokyo and set out his Three Principles of the People: nationalism, democracy and the people's livelihood. After the Wuchang uprising of 1911 he was elected provisional president of the Republic of China and took office in Nanjing on 1 January 1912, only to hand over to Yuan Shikai in March. He founded the Kuomintang, opposed Yuan and later the warlords, and from 1921 led a rival government in Canton. Allying with the Soviets and the Communists, he set up the Whampoa Military Academy in 1924, and he died of cancer in Beijing in 1925."
+  },
+  "highlights": {
+    "fr": [
+      "Fonde la Ligue jurée (Tongmenghui) à Tokyo en 1905",
+      "Premier président provisoire de la République de Chine en 1912",
+      "Fondateur du Kuomintang",
+      "Crée l'académie militaire de Whampoa en 1924"
+    ],
+    "en": [
+      "Founded the Tongmenghui (Revolutionary Alliance) in Tokyo in 1905",
+      "First provisional president of the Republic of China in 1912",
+      "Founder of the Kuomintang",
+      "Established the Whampoa Military Academy in 1924"
+    ]
+  },
+  "legacy": {
+    "fr": "Il est l'une des rares figures honorées à la fois en Chine populaire et à Taïwan, qui le désigne comme « père de la nation ».",
+    "en": "He is one of the few figures honoured both in the People's Republic of China and in Taiwan, which calls him the “Father of the Nation”."
   }
 }

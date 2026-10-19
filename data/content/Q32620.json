@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1981 à Leloaloa, dans les Samoa américaines, Tulsi Gabbard grandit à Hawaï, où son père est un élu local. En 2002, à 21 ans, elle est élue à la Chambre des représentants de Hawaï, ce qui fait d'elle la plus jeune élue de l'histoire de l'État. Engagée dans la Garde nationale, elle est déployée en Irak en 2004-2005 dans une unité médicale, puis au Koweït. Diplômée de la Hawaii Pacific University en 2009, elle siège au conseil municipal de Honolulu à partir de 2011. Élue au Congrès en 2012, elle représente Hawaï de 2013 à 2021 et devient la première hindoue à y siéger. En 2016, elle quitte la vice-présidence du Comité national démocrate pour soutenir Bernie Sanders, et elle rencontre Bachar al-Assad en Syrie en 2017, ce qui lui vaut de vives critiques. Candidate à l'investiture démocrate pour 2020, elle se retire en mars 2020. Elle quitte le Parti démocrate en 2022, soutient Donald Trump en 2024 puis rejoint les républicains. Confirmée en février 2025 comme directrice du renseignement national, elle fait partie des responsables présents dans la conversation de groupe divulguée en mars 2025, et elle quitte ses fonctions en juin 2026.",
+    "en": "Born in 1981 in Leloaloa, American Samoa, Tulsi Gabbard grew up in Hawaii, where her father was a local politician. In 2002, at 21, she was elected to the Hawaii House of Representatives, the youngest person ever elected to the state legislature. A member of the National Guard, she deployed to Iraq in 2004–2005 with a medical unit and later to Kuwait. She graduated from Hawaii Pacific University in 2009 and joined the Honolulu City Council in 2011. Elected to Congress in 2012, she represented Hawaii from 2013 to 2021 and became its first Hindu member. In 2016 she resigned as a vice chair of the Democratic National Committee to back Bernie Sanders, and her 2017 meeting with Bashar al-Assad in Syria drew heavy criticism. She ran for the 2020 Democratic nomination and dropped out in March 2020. She left the Democratic Party in 2022, endorsed Donald Trump in 2024 and then joined the Republicans. Confirmed in February 2025 as Director of National Intelligence, she was among the officials in the group chat leaked in March 2025, and she left the post in June 2026."
+  },
+  "highlights": {
+    "fr": [
+      "Plus jeune élue de l'histoire du parlement de Hawaï, en 2002, à 21 ans",
+      "Déployée en Irak en 2004-2005 avec la Garde nationale",
+      "Première hindoue élue au Congrès, représentante de 2013 à 2021",
+      "Directrice du renseignement national de février 2025 à juin 2026"
+    ],
+    "en": [
+      "Youngest person ever elected to Hawaii's legislature, in 2002, aged 21",
+      "Deployed to Iraq with the National Guard in 2004–2005",
+      "First Hindu member of Congress, serving from 2013 to 2021",
+      "Director of National Intelligence from February 2025 to June 2026"
+    ]
+  },
+  "legacy": {
+    "fr": "Son parcours, de la gauche démocrate au gouvernement Trump, illustre les recompositions politiques américaines des années 2020.",
+    "en": "Her journey from the Democratic left to the Trump administration reflects the political realignments of 2020s America."
   }
 }

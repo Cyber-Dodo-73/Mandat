@@ -36,5 +36,27 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Juan Manuel de Rosas naît en mars 1793 à Buenos Aires dans une riche famille de propriétaires terriens et fait fortune comme éleveur et saladeriste dans la pampa. À la tête d’une milice de cavaliers gauchos, il s’impose dans les guerres civiles qui opposent fédéralistes et unitaires après l’indépendance. Élu gouverneur de la province de Buenos Aires en 1829 avec des pouvoirs extraordinaires, il gouverne jusqu’en 1832, puis mène en 1833-1834 une campagne militaire contre les peuples indigènes au sud de la frontière. Après l’assassinat du caudillo Facundo Quiroga, il revient au pouvoir en 1835 avec la totalité de l’autorité publique et dirige de fait la Confédération argentine, dont il contrôle les relations extérieures. Son régime impose le culte du chef et la couleur rouge fédéraliste, tandis que sa police politique, la Mazorca, persécute et assassine des opposants, notamment en 1840 et 1842. Il résiste au blocus français de 1838-1840 puis au blocus franco-britannique à partir de 1845, marqué par le combat de la Vuelta de Obligado. Le gouverneur d’Entre Ríos, Justo José de Urquiza, allié au Brésil et à l’Uruguay, le bat à Caseros le 3 février 1852. Exilé en Angleterre, il vit modestement dans une ferme près de Southampton, où il meurt en mars 1877.",
+    "en": "Juan Manuel de Rosas was born in March 1793 in Buenos Aires into a wealthy landowning family and made his fortune as a rancher and salt-meat producer on the pampas. At the head of a gaucho cavalry militia, he rose to dominance in the civil wars between Federalists and Unitarians after independence. Elected governor of Buenos Aires province in 1829 with extraordinary powers, he ruled until 1832, then led a military campaign in 1833–1834 against the Indigenous peoples beyond the southern frontier. After the murder of the caudillo Facundo Quiroga, he returned to power in 1835 with total public authority and effectively ran the Argentine Confederation, controlling its foreign relations. His regime imposed a cult of the leader and the Federalist red, while his political police, the Mazorca, hunted down and killed opponents, notably in 1840 and 1842. He withstood the French blockade of 1838–1840 and the Anglo-French blockade from 1845, which included the battle of Vuelta de Obligado. The governor of Entre Ríos, Justo José de Urquiza, allied with Brazil and Uruguay, defeated him at Caseros on 3 February 1852. Exiled to England, he lived modestly on a farm near Southampton, where he died in March 1877."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur de Buenos Aires de 1829 à 1832 puis de 1835 à 1852",
+      "Mène la campagne militaire du Désert en 1833-1834",
+      "Résiste aux blocus français et franco-britannique",
+      "Vaincu par Urquiza à Caseros le 3 février 1852"
+    ],
+    "en": [
+      "Governor of Buenos Aires from 1829 to 1832 and 1835 to 1852",
+      "Led the Desert military campaign in 1833–1834",
+      "Withstood the French and Anglo-French blockades",
+      "Defeated by Urquiza at Caseros on 3 February 1852"
+    ]
+  },
+  "legacy": {
+    "fr": "Tyran sanguinaire pour les libéraux du XIXe siècle, défenseur de la souveraineté nationale pour le courant révisionniste, il reste l’une des figures les plus clivantes de l’histoire argentine.",
+    "en": "A bloodthirsty tyrant to nineteenth-century liberals and a defender of national sovereignty to revisionist historians, he remains one of Argentina's most divisive figures."
   }
 }

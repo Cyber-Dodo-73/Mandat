@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Juan Guaidó naît en 1983 à La Guaira, sur la côte vénézuélienne ; adolescent, il vit en 1999 la tragédie de Vargas, des coulées de boue meurtrières. Ingénieur industriel, il participe en 2007 au mouvement étudiant opposé à Hugo Chávez, puis cofonde le parti Voluntad Popular avec Leopoldo López. Élu suppléant puis député à l'Assemblée nationale à partir de 2011, il reste peu connu jusqu'à ce que l'opposition, selon une présidence tournante, le porte à la tête du Parlement en janvier 2019. Le 23 janvier, invoquant la Constitution face à une réélection de Nicolás Maduro jugée frauduleuse, il se proclame président par intérim devant une foule à Caracas. Les États-Unis, la plupart des pays d'Amérique latine et de l'Union européenne le reconnaissent, une soixantaine d'États au total. Mais ses tentatives pour rallier l'armée échouent, notamment l'opération d'avril 2019, et l'appareil d'État reste fidèle à Maduro. Son camp se fragilise sous l'effet des divisions et de soupçons de mauvaise gestion. Fin 2022, l'opposition dissout son gouvernement intérimaire ; menacé de poursuites, il quitte le pays en avril 2023 pour les États-Unis.",
+    "en": "Juan Guaidó was born in 1983 in La Guaira on Venezuela's coast and, as a teenager, lived through the deadly Vargas mudslides of 1999. An industrial engineer, he took part in the 2007 student movement against Hugo Chávez and later co-founded the Popular Will party with Leopoldo López. Elected to the National Assembly from 2011, first as an alternate, he remained little known until a rotating opposition arrangement made him speaker in January 2019. On 23 January, citing the constitution and calling Nicolás Maduro's re-election fraudulent, he declared himself interim president before a crowd in Caracas. The United States, most of Latin America and much of the European Union recognised him, about sixty countries in all. Yet his efforts to win over the military failed, including the April 2019 uprising attempt, and the state apparatus stayed loyal to Maduro. His camp was weakened by infighting and allegations of mismanagement. At the end of 2022 the opposition dissolved his interim government, and facing possible prosecution he left for the United States in April 2023."
+  },
+  "highlights": {
+    "fr": [
+      "Élu président de l'Assemblée nationale du Venezuela en janvier 2019",
+      "Se proclame président par intérim le 23 janvier 2019 à Caracas",
+      "Reconnu par une soixantaine de pays, dont les États-Unis",
+      "Gouvernement intérimaire dissous par l'opposition fin 2022"
+    ],
+    "en": [
+      "Elected speaker of Venezuela's National Assembly in January 2019",
+      "Declared himself interim president in Caracas on 23 January 2019",
+      "Recognised by about sixty countries, including the United States",
+      "Interim government dissolved by the opposition at the end of 2022"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa présidence parallèle a montré à la fois la force de la pression internationale et ses limites face à un pouvoir soutenu par l'armée.",
+    "en": "His parallel presidency showed both the reach of international pressure and its limits against a government backed by the army."
   }
 }

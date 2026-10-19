@@ -32,5 +32,29 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Marcus Tullius Cicéron naît en 106 av. J.-C. à Arpinum, dans une famille de notables équestres sans ancêtre au Sénat. Formé à Rome, puis à Athènes et à Rhodes, il devient l'avocat le plus brillant de son temps. Questeur en Sicile en 75 av. J.-C., il fait sa gloire en 70 en accusant Verrès, l'ancien gouverneur de l'île, de pillage. Il gravit ensuite toutes les marches du cursus honorum, édile en 69 puis préteur en 66, et atteint le consulat en 63, rare exploit pour un « homme nouveau ». Cette année-là, il déjoue la conjuration de Catilina et fait exécuter sans procès plusieurs complices, décision qui lui vaut l'exil en 58 sur l'initiative de Clodius. Rappelé dès 57, il entre au collège des augures et gouverne la Cilicie en 51-50. Rallié à Pompée pendant la guerre civile, il est gracié par César et se consacre à ses traités de philosophie. Après l'assassinat de César en 44, il attaque Marc Antoine dans ses Philippiques ; proscrit par le second triumvirat, il est tué près de Formies en décembre 43 av. J.-C.",
+    "en": "Marcus Tullius Cicero was born in 106 BC at Arpinum, to a well-off equestrian family with no senators among its ancestors. Trained in Rome, Athens and Rhodes, he became the finest advocate of his age. After serving as quaestor in Sicily in 75 BC, he made his name in 70 by prosecuting Verres, the island's former governor, for plunder. He then climbed every rung of the Roman career ladder, aedile in 69 and praetor in 66, and reached the consulship in 63, a rare feat for a new man. That year he foiled Catiline's conspiracy and had several accomplices put to death without trial, a decision that led to his exile in 58 at Clodius's instigation. Recalled in 57, he joined the college of augurs and governed Cilicia in 51–50. He sided with Pompey in the civil war, was pardoned by Caesar and turned to writing philosophy. After Caesar's murder in 44 he attacked Mark Antony in his Philippics; proscribed by the Second Triumvirate, he was killed near Formiae in December 43 BC."
+  },
+  "highlights": {
+    "fr": [
+      "Fait condamner Verrès, gouverneur prévaricateur de Sicile, en 70 av. J.-C.",
+      "Consul en 63 av. J.-C. malgré l'absence d'ancêtres sénateurs",
+      "Déjoue la conjuration de Catilina pendant son consulat",
+      "Gouverne la province de Cilicie en 51-50 av. J.-C.",
+      "Prononce les Philippiques contre Marc Antoine en 44-43 av. J.-C."
+    ],
+    "en": [
+      "Won the case against Verres, Sicily's corrupt governor, in 70 BC",
+      "Consul in 63 BC despite having no senatorial ancestors",
+      "Foiled Catiline's conspiracy during his consulship",
+      "Governed the province of Cilicia in 51–50 BC",
+      "Delivered the Philippics against Mark Antony in 44–43 BC"
+    ]
+  },
+  "legacy": {
+    "fr": "Ses discours, ses lettres et ses traités ont fixé le modèle de la prose latine et transmis à l'Europe une grande part de la philosophie et de la pensée politique antiques.",
+    "en": "His speeches, letters and treatises set the standard for Latin prose and handed down to Europe much of ancient philosophy and political thought."
   }
 }

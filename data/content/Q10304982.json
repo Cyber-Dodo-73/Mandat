@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Jair Bolsonaro naît le 21 mars 1955 à Glicério, dans l'État de São Paulo, et sort en 1977 de l'académie militaire d'Agulhas Negras. Capitaine parachutiste, il se fait connaître en 1986 en dénonçant dans la presse la faiblesse des soldes, puis quitte l'armée active en 1988. Élu conseiller municipal de Rio de Janeiro en 1989, il siège ensuite à la Chambre des députés de 1991 à 2018, multipliant les partis et les déclarations de nostalgie envers la dictature militaire. Poignardé en pleine campagne à Juiz de Fora en septembre 2018, il remporte la présidentielle en octobre sur un programme anticorruption, sécuritaire et conservateur. Président à partir de janvier 2019, il assouplit les règles sur les armes et la protection de l'Amazonie, où la déforestation et les incendies augmentent. Face au Covid-19, il minimise l'épidémie et combat les mesures sanitaires, alors que le pays déplore environ 700 000 morts. Battu de justesse par Lula en 2022, il conteste le système électoral ; le 8 janvier 2023, ses partisans saccagent les sièges des pouvoirs à Brasília. Déclaré inéligible jusqu'en 2030, il est condamné en septembre 2025 par la Cour suprême à 27 ans de prison pour tentative de coup d'État.",
+    "en": "Jair Bolsonaro was born on 21 March 1955 in Glicério, São Paulo state, and graduated from the Agulhas Negras military academy in 1977. A paratrooper captain, he gained attention in 1986 by complaining publicly about low military pay, and left active service in 1988. Elected to Rio de Janeiro's city council in 1989, he then sat in the Chamber of Deputies from 1991 to 2018, switching parties repeatedly and voicing nostalgia for the military dictatorship. Stabbed while campaigning in Juiz de Fora in September 2018, he won the presidency that October on an anti-corruption, law-and-order and socially conservative platform. As president from January 2019, he loosened gun laws and environmental protections in the Amazon, where deforestation and fires increased. During Covid-19 he played down the virus and fought public-health measures, while Brazil recorded around 700,000 deaths. Narrowly defeated by Lula in 2022, he cast doubt on the voting system; on 8 January 2023 his supporters ransacked the seats of power in Brasília. Barred from running for office until 2030, he was convicted by the Supreme Court in September 2025 of plotting a coup and sentenced to 27 years in prison."
+  },
+  "highlights": {
+    "fr": [
+      "1991-2018 : sept mandats de député fédéral pour Rio de Janeiro",
+      "Septembre 2018 : survit à un coup de couteau en pleine campagne",
+      "2019-2023 : président du Brésil, contesté pour sa gestion du Covid-19",
+      "2022 : battu par Lula au second tour de la présidentielle",
+      "Septembre 2025 : condamné à 27 ans de prison pour tentative de coup d'État"
+    ],
+    "en": [
+      "1991–2018: seven terms as a federal deputy for Rio de Janeiro",
+      "September 2018: survived a stabbing on the campaign trail",
+      "2019–2023: president of Brazil, criticised for his Covid-19 response",
+      "2022: lost the presidential runoff to Lula",
+      "September 2025: sentenced to 27 years in prison for plotting a coup"
+    ]
+  },
+  "legacy": {
+    "fr": "Bolsonaro a fait émerger une droite radicale durable au Brésil, et sa condamnation est une première pour un ancien président du pays accusé de putsch.",
+    "en": "Bolsonaro built a lasting hard-right movement in Brazil, and his conviction was a first for a former Brazilian president accused of a coup."
   }
 }

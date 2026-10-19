@@ -32,5 +32,27 @@
         "value": "diplomacy"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Calgary, au Canada, en 1970, d'un père cubain et d'une mère américaine, Ted Cruz grandit à Houston, au Texas. Diplômé de Princeton en 1992 puis de la faculté de droit de Harvard en 1995, il devient assistant du président de la Cour suprême William Rehnquist. Après avoir travaillé pour la campagne de George W. Bush en 2000 et dans l'administration fédérale, il est solliciteur général du Texas de 2003 à 2008 et plaide à plusieurs reprises devant la Cour suprême. En 2012, candidat du Tea Party, il remporte la primaire républicaine contre le vice-gouverneur puis un siège de sénateur. Dès 2013, il mène l'offensive contre la réforme de santé d'Obama, avec un discours de plus de vingt et une heures, et joue un rôle dans la paralysie budgétaire de cet automne-là. Candidat à l'investiture présidentielle en 2016, il gagne l'Iowa et termine deuxième derrière Donald Trump. Il conserve son siège de justesse en 2018 face à Beto O'Rourke. En janvier 2021, il conteste la certification des résultats de l'Arizona, puis il est réélu en 2024.",
+    "en": "Born in Calgary, Canada, in 1970 to a Cuban father and an American mother, Ted Cruz grew up in Houston, Texas. A graduate of Princeton in 1992 and Harvard Law School in 1995, he clerked for Chief Justice William Rehnquist. After working on George W. Bush's 2000 campaign and in the federal government, he served as Solicitor General of Texas from 2003 to 2008 and argued several cases before the Supreme Court. In 2012, as the Tea Party candidate, he beat the lieutenant governor in the Republican primary and then won a Senate seat. In 2013 he led the charge against Obama's health reform, speaking for more than twenty-one hours, and helped bring about that autumn's government shutdown. Running for president in 2016, he won Iowa and finished second to Donald Trump. He narrowly held his seat against Beto O'Rourke in 2018. In January 2021 he objected to certifying Arizona's results, and he won re-election in 2024."
+  },
+  "highlights": {
+    "fr": [
+      "2003 : devient solliciteur général du Texas",
+      "2012 : élu sénateur du Texas avec le soutien du Tea Party",
+      "2013 : discours de plus de 21 heures contre l'Obamacare",
+      "2016 : remporte l'Iowa et finit deuxième derrière Trump"
+    ],
+    "en": [
+      "2003: becomes Solicitor General of Texas",
+      "2012: elected senator for Texas with Tea Party backing",
+      "2013: speaks for more than 21 hours against Obamacare",
+      "2016: wins Iowa and finishes runner-up to Trump"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure de l'aile la plus conservatrice du Sénat, il incarne la stratégie d'obstruction qui a durci les affrontements à Washington.",
+    "en": "A leading figure of the Senate's most conservative wing, he embodies the obstruction tactics that hardened battles in Washington."
   }
 }

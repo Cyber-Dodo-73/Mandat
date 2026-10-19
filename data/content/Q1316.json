@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1937 près de Tikrit, dans une famille paysanne pauvre, Saddam Hussein adhère jeune au parti Baas et participe en 1959 à une tentative d'assassinat du Premier ministre Kassem, qui l'oblige à fuir en Égypte, où il étudie le droit au Caire. Après le coup d'État baasiste de 1968, il devient vice-président et l'homme fort du régime, contrôlant les services de sécurité et nationalisant le pétrole en 1972. Président en juillet 1979, il fait aussitôt exécuter des dizaines de cadres du parti accusés de complot, lors d'une purge filmée. En 1980, il attaque l'Iran, déclenchant une guerre de huit ans qui fait plusieurs centaines de milliers de morts. Sa campagne d'Anfal contre les Kurdes, en 1986-1989, tue entre 50 000 et 180 000 personnes, dont environ 5 000 civils gazés à Halabja en mars 1988. Il envahit le Koweït en août 1990, en est chassé par une coalition internationale en 1991, puis écrase dans le sang les soulèvements chiites et kurdes, faisant des dizaines de milliers de morts. Renversé par l'invasion américano-britannique de 2003, il est capturé en décembre, condamné à mort pour le massacre de 148 villageois chiites à Doujaïl et pendu à Bagdad le 30 décembre 2006.",
+    "en": "Born in 1937 near Tikrit into a poor farming family, Saddam Hussein joined the Ba'ath Party young and took part in a 1959 attempt to assassinate Prime Minister Qasim, which forced him to flee to Egypt, where he studied law in Cairo. After the 1968 Ba'athist coup he became vice president and the regime's strongman, controlling the security services and nationalising oil in 1972. On becoming president in July 1979, he immediately had dozens of party officials accused of plotting executed in a filmed purge. In 1980 he attacked Iran, starting an eight-year war that killed several hundred thousand people. His Anfal campaign against the Kurds in 1986–1989 killed between 50,000 and 180,000 people, including some 5,000 civilians gassed at Halabja in March 1988. He invaded Kuwait in August 1990, was driven out by an international coalition in 1991, then crushed Shia and Kurdish uprisings, killing tens of thousands. Toppled by the US-British invasion of 2003, he was captured that December, sentenced to death for the killing of 148 Shia villagers at Dujail and hanged in Baghdad on 30 December 2006."
+  },
+  "highlights": {
+    "fr": [
+      "Vice-président et homme fort de l'Irak après le coup d'État de 1968",
+      "Président à partir de 1979, il purge le parti Baas dès sa prise de fonction",
+      "Déclenche la guerre Iran-Irak (1980-1988)",
+      "Ordonne la campagne d'Anfal contre les Kurdes, dont le gazage de Halabja en 1988",
+      "Envahit le Koweït en 1990 ; renversé en 2003, pendu en 2006"
+    ],
+    "en": [
+      "Vice president and Iraq's strongman after the 1968 coup",
+      "President from 1979, he purged the Ba'ath Party on taking office",
+      "Started the Iran–Iraq War (1980–1988)",
+      "Ordered the Anfal campaign against the Kurds, including the 1988 Halabja gassing",
+      "Invaded Kuwait in 1990; toppled in 2003, hanged in 2006"
+    ]
+  },
+  "legacy": {
+    "fr": "Son règne reste synonyme de terreur d'État, de guerres dévastatrices et de crimes contre les Kurdes et les chiites, et sa chute a ouvert une longue période d'instabilité en Irak.",
+    "en": "His rule remains synonymous with state terror, ruinous wars and crimes against Kurds and Shias, and his fall opened a long period of instability in Iraq."
   }
 }

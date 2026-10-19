@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1946 à Hope, dans l'Arkansas, quelques mois après la mort de son père, William Jefferson Blythe prend plus tard le nom de son beau-père, Clinton. Il étudie à Georgetown, à Oxford comme boursier Rhodes puis le droit à Yale, où il rencontre Hillary Rodham, qu'il épouse en 1975. Procureur général de l'Arkansas en 1977, il est élu gouverneur dès 1978, à 32 ans, battu en 1980 puis réélu en 1982, et dirige l'État pendant près de douze ans au total. En 1992, il bat le président sortant George H. W. Bush en se présentant comme un démocrate centriste. Sa présidence coïncide avec une longue croissance économique, un retour à l'excédent budgétaire, l'accord de libre-échange nord-américain et des réformes de l'aide sociale. Il parraine les accords d'Oslo en 1993 et fait intervenir l'OTAN en Bosnie puis au Kosovo, mais reconnaîtra plus tard l'échec de son administration face au génocide rwandais. Mis en accusation en 1998 pour avoir menti sur sa liaison avec la stagiaire Monica Lewinsky, il est acquitté par le Sénat en 1999 et achève son second mandat en janvier 2001.",
+    "en": "Born in Hope, Arkansas, in 1946, a few months after his father's death, William Jefferson Blythe later took his stepfather's surname, Clinton. He studied at Georgetown, at Oxford as a Rhodes scholar and at Yale Law School, where he met Hillary Rodham, whom he married in 1975. Attorney general of Arkansas in 1977, he was elected governor in 1978 at 32, lost in 1980, won again in 1982 and led the state for nearly twelve years in all. In 1992 he defeated the incumbent George H. W. Bush, running as a centrist Democrat. His presidency coincided with a long economic boom, a return to budget surpluses, the North American Free Trade Agreement and welfare reform. He hosted the signing of the Oslo Accords in 1993 and led NATO interventions in Bosnia and Kosovo, but later acknowledged his administration's failure over the Rwandan genocide. Impeached in 1998 for lying about his affair with White House intern Monica Lewinsky, he was acquitted by the Senate in 1999 and completed his second term in January 2001."
+  },
+  "highlights": {
+    "fr": [
+      "Élu gouverneur de l'Arkansas en 1978, à 32 ans",
+      "Bat le président sortant George H. W. Bush en 1992",
+      "Accueille la signature des accords d'Oslo à la Maison-Blanche en 1993",
+      "Ramène le budget fédéral à l'excédent en 1998",
+      "Mis en accusation en 1998, acquitté par le Sénat en 1999"
+    ],
+    "en": [
+      "Elected governor of Arkansas in 1978, aged 32",
+      "Defeated incumbent President George H. W. Bush in 1992",
+      "Hosted the signing of the Oslo Accords at the White House in 1993",
+      "Brought the federal budget back into surplus in 1998",
+      "Impeached in 1998 and acquitted by the Senate in 1999"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a recentré le Parti démocrate sur une « troisième voie » favorable au marché, et sa présidence reste associée à la prospérité des années 1990.",
+    "en": "He moved the Democratic Party toward a market-friendly Third Way, and his presidency remains associated with the prosperity of the 1990s."
   }
 }

@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Né Leslie Lynch King en 1913 à Omaha, dans le Nebraska, il prend le nom de son beau-père et grandit à Grand Rapids, dans le Michigan. Joueur de football américain vedette à l'université du Michigan, il étudie ensuite le droit à Yale puis sert dans la marine sur un porte-avions pendant la Seconde Guerre mondiale. Élu à la Chambre des représentants en 1948, il y siège vingt-cinq ans et devient chef de la minorité républicaine en 1965. En 1973, Richard Nixon le nomme vice-président après la démission de Spiro Agnew, inculpé de fraude fiscale. Le 9 août 1974, la démission de Nixon dans l'affaire du Watergate fait de lui le seul président à n'avoir été élu ni à la présidence ni à la vice-présidence. Un mois plus tard, il accorde à Nixon un pardon total, une décision très contestée qui pèse sur sa popularité. Il gère la fin de la guerre du Vietnam avec la chute de Saïgon en 1975, signe les accords d'Helsinki et lutte contre l'inflation. Battu de peu par Jimmy Carter en 1976, il quitte la Maison-Blanche en 1977 et meurt en 2006 à Rancho Mirage, en Californie.",
+    "en": "Born Leslie Lynch King in 1913 in Omaha, Nebraska, he took his stepfather's name and grew up in Grand Rapids, Michigan. A star football player at the University of Michigan, he went on to study law at Yale and served in the Navy aboard an aircraft carrier during the Second World War. Elected to the House of Representatives in 1948, he sat there for twenty-five years and became Republican minority leader in 1965. In 1973 Richard Nixon appointed him vice president after Spiro Agnew resigned while facing tax evasion charges. Nixon's resignation over Watergate on 9 August 1974 made him the only president never elected as either president or vice president. A month later he granted Nixon a full pardon, a deeply divisive decision that dragged down his popularity. He oversaw the end of the Vietnam War with the fall of Saigon in 1975, signed the Helsinki Accords and battled inflation. Narrowly defeated by Jimmy Carter in 1976, he left the White House in 1977 and died in 2006 in Rancho Mirage, California."
+  },
+  "highlights": {
+    "fr": [
+      "Siège 25 ans à la Chambre des représentants (1949-1973)",
+      "Nommé vice-président en 1973 après la démission de Spiro Agnew",
+      "Devient président le 9 août 1974, sans avoir jamais été élu à l'exécutif",
+      "Accorde le pardon présidentiel à Richard Nixon (septembre 1974)",
+      "Signe l'acte final d'Helsinki en 1975"
+    ],
+    "en": [
+      "Served 25 years in the House of Representatives (1949-1973)",
+      "Appointed vice president in 1973 after Spiro Agnew resigned",
+      "Became president on 9 August 1974 without ever winning a national election",
+      "Granted Richard Nixon a presidential pardon (September 1974)",
+      "Signed the Helsinki Final Act in 1975"
+    ]
+  },
+  "legacy": {
+    "fr": "On se souvient de lui comme du président de transition qui a apaisé le pays après le Watergate, au prix d'un pardon à Nixon longtemps reproché.",
+    "en": "He is remembered as the caretaker president who steadied the country after Watergate, at the cost of a pardon for Nixon that long haunted him."
   }
 }

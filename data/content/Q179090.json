@@ -32,5 +32,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1756 à Newark, dans le New Jersey, petit-fils du théologien Jonathan Edwards, Aaron Burr sort de Princeton à seize ans. Officier de l'armée continentale, il participe à l'expédition contre Québec en 1775 avant de devenir avocat à New York. Procureur général de l'État en 1789, il est élu au Sénat en 1791 aux dépens du beau-père d'Alexander Hamilton, ce qui lance une longue rivalité. En 1800, il obtient autant de voix au collège électoral que Thomas Jefferson, et la Chambre doit voter trente-six fois avant de désigner Jefferson, dont il devient le vice-président. Battu pour le poste de gouverneur de New York en 1804, il provoque Hamilton en duel et le blesse mortellement à Weehawken le 11 juillet. Inculpé de meurtre mais jamais jugé, il achève son mandat puis monte vers l'Ouest une expédition armée aux buts obscurs, soupçonnée de viser une sécession ou une conquête du Mexique. Arrêté en 1807, il est jugé pour trahison à Richmond et acquitté faute de preuves suffisantes. Après un exil en Europe, il revient exercer le droit à New York et meurt à Staten Island en 1836.",
+    "en": "Born in Newark, New Jersey, in 1756, a grandson of the theologian Jonathan Edwards, Aaron Burr graduated from Princeton at sixteen. An officer in the Continental Army, he took part in the 1775 expedition against Quebec before becoming a lawyer in New York. Appointed the state's attorney general in 1789, he won a Senate seat in 1791 from Alexander Hamilton's father-in-law, starting a long rivalry. In 1800 he tied Thomas Jefferson in the Electoral College, and the House needed thirty-six ballots before choosing Jefferson, under whom he served as vice president. After losing the 1804 race for governor of New York, he challenged Hamilton to a duel and mortally wounded him at Weehawken on 11 July. Charged with murder but never tried, he finished his term and then organised an armed expedition in the West with murky aims, suspected of plotting secession or a conquest of Mexico. Arrested in 1807, he was tried for treason in Richmond and acquitted for lack of sufficient evidence. After years of exile in Europe he returned to practise law in New York and died on Staten Island in 1836."
+  },
+  "highlights": {
+    "fr": [
+      "1791 : élu sénateur de New York",
+      "1801 : devient vice-président après l'égalité avec Jefferson",
+      "1804 : tue Alexander Hamilton en duel à Weehawken",
+      "1807 : jugé pour trahison et acquitté à Richmond"
+    ],
+    "en": [
+      "1791: elected senator for New York",
+      "1801: becomes vice president after tying with Jefferson",
+      "1804: kills Alexander Hamilton in a duel at Weehawken",
+      "1807: tried for treason and acquitted in Richmond"
+    ]
+  },
+  "legacy": {
+    "fr": "Brillant mais sans attaches, il est resté dans la mémoire américaine comme l'homme qui a tué Hamilton et le symbole de l'ambition sans principes.",
+    "en": "Brilliant but rootless, he lives on in American memory as the man who killed Hamilton and a byword for unprincipled ambition."
   }
 }

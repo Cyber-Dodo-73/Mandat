@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1948 dans le comté de Montserrado, Charles Taylor étudie l'économie aux États-Unis puis rejoint le gouvernement de Samuel Doe après le coup d'État de 1980. Accusé de détournement de fonds, il fuit, est arrêté aux États-Unis en 1984 et s'évade de prison l'année suivante. Formé en Libye, il lance en décembre 1989 depuis la Côte d'Ivoire l'invasion du Liberia à la tête du Front national patriotique (NPFL). La première guerre civile, jusqu'en 1997, est marquée par des massacres de civils, des pillages et l'enrôlement massif d'enfants soldats. Élu président en juillet 1997 dans un climat de peur, il soutient au Sierra Leone voisin les rebelles du RUF, qu'il arme en échange de diamants ; ce conflit fait des dizaines de milliers de morts, avec meurtres de masse, mutilations, viols et esclavage sexuel. Une nouvelle rébellion relance la guerre au Liberia en 1999 ; au total, les deux guerres font environ 250 000 morts. Inculpé par le Tribunal spécial pour la Sierra Leone, il s'exile au Nigeria en août 2003. Livré en 2006 et jugé à La Haye, il est condamné en 2012 à 50 ans de prison pour crimes de guerre et crimes contre l'humanité.",
+    "en": "Born in Montserrado County in 1948, Charles Taylor studied economics in the United States and joined Samuel Doe's government after the 1980 coup. Accused of embezzlement, he fled, was arrested in the US in 1984 and escaped from jail the following year. Trained in Libya, he launched an invasion of Liberia from Côte d'Ivoire in December 1989 at the head of the National Patriotic Front (NPFL). The first civil war, lasting until 1997, was marked by massacres of civilians, looting and mass recruitment of child soldiers. Elected president in July 1997 amid widespread fear, he backed the RUF rebels in neighbouring Sierra Leone, arming them in exchange for diamonds; that conflict killed tens of thousands, with mass murder, amputations, rape and sexual slavery. A new rebellion reignited war in Liberia in 1999, and the two wars together killed some 250,000 people. Indicted by the Special Court for Sierra Leone, he went into exile in Nigeria in August 2003. Handed over in 2006 and tried in The Hague, he was sentenced in 2012 to 50 years in prison for war crimes and crimes against humanity."
+  },
+  "highlights": {
+    "fr": [
+      "Déclenche en décembre 1989 la guerre civile libérienne",
+      "Président du Liberia de 1997 à 2003",
+      "Arme le RUF sierra-léonais en échange de diamants",
+      "Condamné en 2012 à 50 ans de prison par un tribunal international"
+    ],
+    "en": [
+      "Started the Liberian civil war in December 1989",
+      "President of Liberia from 1997 to 2003",
+      "Armed Sierra Leone's RUF rebels in exchange for diamonds",
+      "Sentenced in 2012 to 50 years in prison by an international court"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier ancien chef d'État condamné par une juridiction internationale depuis Nuremberg, il incarne les ravages des « diamants du sang » en Afrique de l'Ouest.",
+    "en": "The first former head of state convicted by an international court since Nuremberg, he embodies the devastation of West Africa's 'blood diamonds'."
   }
 }

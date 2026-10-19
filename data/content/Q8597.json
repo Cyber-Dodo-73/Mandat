@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Jalal ud-Din Muhammad Akbar naît en 1542 à Umerkot, dans l'actuel Pakistan, alors que son père, l'empereur moghol Humayun, a été chassé du trône. Humayun reprend Delhi en 1555 mais meurt l'année suivante, et Akbar, âgé de treize ans, est couronné sous la tutelle du général Bairam Khan. La victoire de Panipat en 1556 sauve la dynastie, puis le jeune souverain écarte son régent et prend seul le pouvoir vers 1560. Par des campagnes souvent brutales, comme le siège de Chittorgarh en 1568 qui s'achève par un massacre, mais aussi par des alliances matrimoniales avec les princes rajputs, il étend l'empire au Gujarat, au Bengale, au Cachemire et à une partie du Deccan. Il met en place une administration centralisée fondée sur les rangs des mansabdars et une fiscalité foncière réformée par son ministre Todar Mal. Musulman, il abolit en 1564 la jizya, l'impôt prélevé sur les non-musulmans, et organise à Fatehpur Sikri, sa nouvelle capitale, des débats entre savants de toutes les religions. Il promeut une politique de tolérance appelée sulh-i kul et un culte de cour, la Din-i Ilahi, qui reste confiné à son entourage. Il meurt en 1605 après près d'un demi-siècle de règne, laissant le trône à son fils Jahangir.",
+    "en": "Jalal ud-Din Muhammad Akbar was born in 1542 at Umerkot, in today's Pakistan, while his father, the Mughal emperor Humayun, was in exile from his throne. Humayun retook Delhi in 1555 but died the next year, and the thirteen-year-old Akbar was crowned under the guardianship of the general Bairam Khan. Victory at Panipat in 1556 saved the dynasty, and around 1560 the young ruler set his regent aside and governed alone. Through often brutal campaigns, such as the 1568 siege of Chittorgarh that ended in a massacre, and through marriage alliances with Rajput princes, he extended the empire to Gujarat, Bengal, Kashmir and part of the Deccan. He built a centralised administration around the ranked mansabdar system and a land-revenue reform designed by his minister Todar Mal. A Muslim, he abolished in 1564 the jizya tax levied on non-Muslims and hosted debates between scholars of every faith at his new capital, Fatehpur Sikri. He promoted a policy of universal tolerance known as sulh-i kul and a court cult, the Din-i Ilahi, that never spread beyond his circle. He died in 1605 after nearly half a century on the throne, leaving it to his son Jahangir."
+  },
+  "highlights": {
+    "fr": [
+      "1556 : couronné à 13 ans, victoire décisive à Panipat",
+      "1564 : abolit la jizya, impôt sur les non-musulmans",
+      "1571 : fonde la capitale de Fatehpur Sikri",
+      "Années 1570-1590 : conquiert Gujarat, Bengale et Cachemire",
+      "Instaure le système des mansabdars et une réforme fiscale foncière"
+    ],
+    "en": [
+      "1556: crowned at 13, decisive victory at Panipat",
+      "1564: abolished the jizya tax on non-Muslims",
+      "1571: founded the capital of Fatehpur Sikri",
+      "1570s–1590s: conquered Gujarat, Bengal and Kashmir",
+      "Set up the mansabdar ranking system and a land-revenue reform"
+    ]
+  },
+  "legacy": {
+    "fr": "Considéré comme le plus grand des empereurs moghols, il a laissé un empire structuré et l'image d'un souverain tolérant envers la diversité religieuse de l'Inde.",
+    "en": "Often regarded as the greatest Mughal emperor, he left a well-organised empire and the image of a ruler who embraced India's religious diversity."
   }
 }

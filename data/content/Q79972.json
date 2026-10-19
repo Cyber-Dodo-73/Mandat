@@ -30,5 +30,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né au château d'Édimbourg en 1566, Jacques est le fils de Marie Stuart et de lord Darnley, assassiné quelques mois plus tard. Sa mère étant contrainte d'abdiquer, il est couronné roi d'Écosse à treize mois, en 1567, et grandit sous une succession de régents. Gouvernant personnellement à partir des années 1580, il apprend à manœuvrer entre factions nobiliaires et Église presbytérienne, et ne proteste que mollement lorsque sa mère est exécutée en Angleterre en 1587. En 1589, il épouse Anne de Danemark ; il publie aussi des traités sur la royauté de droit divin et la sorcellerie, et encourage des procès de sorcières. À la mort d'Élisabeth Ire en mars 1603, il hérite de la couronne d'Angleterre et d'Irlande, réunissant pour la première fois les trois royaumes sous un même roi. Il échappe en 1605 à la conspiration des Poudres, conclut la paix avec l'Espagne en 1604 et encourage la colonisation de l'Ulster. Il patronne la traduction anglaise de la Bible publiée en 1611, qui porte son nom. Ses relations avec le Parlement anglais, ses favoris comme Buckingham et ses besoins d'argent assombrissent la fin de son règne ; il meurt dans le Hertfordshire en 1625.",
+    "en": "Born at Edinburgh Castle in 1566, James was the son of Mary, Queen of Scots, and Lord Darnley, who was murdered a few months later. When his mother was forced to abdicate, he was crowned king of Scotland at thirteen months old in 1567 and grew up under a string of regents. Ruling in person from the 1580s, he learned to balance feuding nobles and the Presbyterian Kirk, and protested only mildly when his mother was executed in England in 1587. In 1589 he married Anne of Denmark; he also wrote treatises on the divine right of kings and on witchcraft, and encouraged witch trials. When Elizabeth I died in March 1603 he inherited the crowns of England and Ireland, uniting all three kingdoms under one king for the first time. He survived the Gunpowder Plot of 1605, made peace with Spain in 1604 and promoted the plantation of Ulster. He sponsored the English translation of the Bible published in 1611 that still bears his name. Quarrels with the English Parliament, reliance on favourites such as Buckingham and chronic money troubles clouded his later years, and he died in Hertfordshire in 1625."
+  },
+  "highlights": {
+    "fr": [
+      "Couronné roi d'Écosse à treize mois, en 1567",
+      "Réunit en 1603 les couronnes d'Écosse, d'Angleterre et d'Irlande",
+      "Échappe à la conspiration des Poudres en 1605",
+      "Fait publier en 1611 la Bible anglaise dite du roi Jacques"
+    ],
+    "en": [
+      "Crowned king of Scotland at thirteen months old in 1567",
+      "United the crowns of Scotland, England and Ireland in 1603",
+      "Survived the Gunpowder Plot in 1605",
+      "Sponsored the King James Bible, published in 1611"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier roi des trois royaumes britanniques, il a ouvert la voie à la future union politique, et la Bible qui porte son nom a durablement marqué la langue anglaise.",
+    "en": "The first king of all three British kingdoms, he paved the way for later political union, and the Bible that bears his name left a deep mark on the English language."
   }
 }

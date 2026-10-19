@@ -30,5 +30,27 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Rome en 42 av. J.-C. dans la gens Claudia, Tibère est le fils de Livie, qui divorce peu après pour épouser Octavien, le futur Auguste. Jeune officier, il récupère en 20 av. J.-C. les enseignes perdues face aux Parthes, puis soumet avec son frère Drusus les peuples des Alpes en 15 av. J.-C. Consul en 13 av. J.-C., il mène ensuite des campagnes en Pannonie et en Germanie. En 11 av. J.-C., Auguste l'oblige à divorcer de Vipsania pour épouser sa fille Julie, union malheureuse. Consul pour la deuxième fois en 7 av. J.-C., il se retire peu après à Rhodes pendant près de huit ans. La mort des petits-fils d'Auguste, Caius et Lucius, conduit l'empereur à l'adopter en 4 apr. J.-C., et il réprime la grande révolte de Pannonie de 6 à 9. À la mort d'Auguste en 14, il devient empereur, gouverne avec prudence financière et laisse un trésor bien rempli. La mort de son neveu Germanicus en 19 puis la montée du préfet du prétoire Séjan assombrissent le règne, et il se retire à Capri en 26. Il fait exécuter Séjan en 31, et les procès pour lèse-majesté se multiplient. Il meurt à Misène en mars 37, et son petit-neveu Caligula lui succède.",
+    "en": "Born in Rome in 42 BC into the Claudian clan, Tiberius was the son of Livia, who soon divorced to marry Octavian, the future Augustus. As a young officer he recovered the standards lost to the Parthians in 20 BC, and with his brother Drusus he subdued the Alpine peoples in 15 BC. Consul in 13 BC, he then campaigned in Pannonia and Germania. In 11 BC Augustus forced him to divorce Vipsania and marry his daughter Julia, an unhappy match. Consul a second time in 7 BC, he withdrew shortly afterwards to Rhodes for nearly eight years. The deaths of Augustus's grandsons Gaius and Lucius led the emperor to adopt him in AD 4, and he put down the great Pannonian revolt of AD 6–9. On Augustus's death in AD 14 he became emperor, managed the finances carefully and left a well-stocked treasury. The death of his nephew Germanicus in AD 19 and the rise of the praetorian prefect Sejanus darkened the reign, and he withdrew to Capri in AD 26. He had Sejanus executed in AD 31, and treason trials multiplied. He died at Misenum in March AD 37 and was succeeded by his great-nephew Caligula."
+  },
+  "highlights": {
+    "fr": [
+      "Récupère les enseignes romaines prises par les Parthes en 20 av. J.-C.",
+      "Adopté par Auguste en 4 apr. J.-C.",
+      "Réprime la révolte de Pannonie de 6 à 9 apr. J.-C.",
+      "Deuxième empereur romain, de 14 à 37 apr. J.-C."
+    ],
+    "en": [
+      "Recovered the Roman standards taken by the Parthians in 20 BC",
+      "Adopted by Augustus in AD 4",
+      "Put down the Pannonian revolt of AD 6–9",
+      "Second Roman emperor, from AD 14 to 37"
+    ]
+  },
+  "legacy": {
+    "fr": "Bon général et gestionnaire rigoureux, il a consolidé le régime impérial, mais les historiens antiques comme Tacite en ont fait le portrait d'un tyran soupçonneux.",
+    "en": "A capable general and strict administrator, he consolidated the imperial system, but ancient historians such as Tacitus portrayed him as a suspicious tyrant."
   }
 }

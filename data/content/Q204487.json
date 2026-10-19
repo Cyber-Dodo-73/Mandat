@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1936 à Hammam Sousse, Zine el-Abidine Ben Ali est formé dans des écoles militaires en France et aux États-Unis, puis fait carrière dans le renseignement militaire. Nommé à la tête de la Sûreté nationale après les émeutes du pain de 1984, il devient ministre de l'Intérieur en 1986, puis Premier ministre en octobre 1987. Le 7 novembre 1987, s'appuyant sur un certificat médical déclarant Habib Bourguiba sénile, il le dépose et prend la présidence. Après quelques mesures d'ouverture, il réprime durement les islamistes d'Ennahdha au début des années 1990, puis toute opposition : torture, procès politiques, presse muselée. Il est réélu en 1989, 1994, 1999, 2004 et 2009 avec des scores officiels proches de 90 % ou plus, après avoir fait sauter la limite des mandats par référendum en 2002. La Tunisie affiche une croissance régulière, mais le clan de son épouse Leïla Trabelsi accapare une large part de l'économie. Le 17 décembre 2010, l'immolation du marchand ambulant Mohamed Bouazizi à Sidi Bouzid déclenche une révolte nationale. Le 14 janvier 2011, Ben Ali fuit en Arabie saoudite ; condamné par contumace à de lourdes peines, il meurt à Djeddah en 2019.",
+    "en": "Born in 1936 in Hammam Sousse, Zine El Abidine Ben Ali trained at military schools in France and the United States and made his career in military intelligence. Put in charge of national security after the 1984 bread riots, he became interior minister in 1986 and prime minister in October 1987. On 7 November 1987, citing a medical certificate declaring Habib Bourguiba senile, he removed him and took the presidency. After a brief opening, he cracked down hard on the Islamists of Ennahda in the early 1990s, then on all opposition, with torture, political trials and a muzzled press. He was re-elected in 1989, 1994, 1999, 2004 and 2009 with official scores close to or above 90%, having scrapped term limits by referendum in 2002. Tunisia posted steady growth, but the clan of his wife Leila Trabelsi took hold of a large share of the economy. On 17 December 2010, the self-immolation of street vendor Mohamed Bouazizi in Sidi Bouzid set off a nationwide revolt. On 14 January 2011 Ben Ali fled to Saudi Arabia; sentenced in absentia to heavy prison terms, he died in Jeddah in 2019."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre de l'Intérieur en 1986, Premier ministre en octobre 1987",
+      "Dépose Habib Bourguiba le 7 novembre 1987",
+      "Fait supprimer la limitation des mandats par référendum en 2002",
+      "Réélu cinq fois avec des scores officiels d'environ 90 % ou plus",
+      "Fuit en Arabie saoudite le 14 janvier 2011 face à la révolution"
+    ],
+    "en": [
+      "Interior minister in 1986, prime minister in October 1987",
+      "Removed Habib Bourguiba on 7 November 1987",
+      "Had presidential term limits scrapped by referendum in 2002",
+      "Re-elected five times with official scores of about 90% or more",
+      "Fled to Saudi Arabia on 14 January 2011 as revolution swept Tunisia"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa chute fut la première du Printemps arabe et ouvrit en Tunisie une transition démocratique, depuis remise en cause.",
+    "en": "His fall was the first of the Arab Spring and opened a democratic transition in Tunisia that has since been rolled back."
   }
 }

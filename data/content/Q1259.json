@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Javier Pérez de Cuéllar naît en janvier 1920 à Lima, étudie le droit à l’Université pontificale catholique et entre dans la diplomatie péruvienne dans les années 1940. Il représente son pays en Suisse, en Union soviétique, en Pologne et au Venezuela, puis devient ambassadeur auprès des Nations unies en 1971 et préside le Conseil de sécurité pendant la crise chypriote de 1974. Représentant spécial de l’ONU à Chypre, puis secrétaire général adjoint, il est élu secrétaire général en décembre 1981 et prend ses fonctions le 1er janvier 1982. Sa médiation échoue à empêcher la guerre des Malouines en 1982, mais il obtient en août 1988 le cessez-le-feu entre l’Iran et l’Irak, après huit ans de guerre. Durant son second mandat, l’ONU accompagne le retrait soviétique d’Afghanistan, l’indépendance de la Namibie en 1990 et la négociation de la paix au Salvador, conclue juste avant son départ fin 1991. Candidat malheureux face à Alberto Fujimori à la présidentielle péruvienne de 1995, il est appelé après la chute de celui-ci, en novembre 2000, à présider le Conseil des ministres et à diriger la diplomatie du gouvernement de transition. Il est ensuite ambassadeur en France, puis meurt à Lima en mars 2020, à cent ans.",
+    "en": "Javier Pérez de Cuéllar was born in January 1920 in Lima, studied law at the Pontifical Catholic University and joined Peru's diplomatic service in the 1940s. He represented his country in Switzerland, the Soviet Union, Poland and Venezuela, became ambassador to the United Nations in 1971 and chaired the Security Council during the 1974 Cyprus crisis. After serving as UN special representative in Cyprus and then as an under-secretary-general, he was elected secretary-general in December 1981 and took office on 1 January 1982. His mediation failed to avert the Falklands War in 1982, but in August 1988 he secured a ceasefire between Iran and Iraq after eight years of war. In his second term the UN oversaw the Soviet withdrawal from Afghanistan, Namibia's independence in 1990 and the peace talks in El Salvador, concluded just before he left at the end of 1991. A losing candidate against Alberto Fujimori in Peru's 1995 presidential race, he was called on after Fujimori's fall in November 2000 to serve as prime minister and foreign minister of the transitional government. He then served as ambassador to France and died in Lima in March 2020, aged one hundred."
+  },
+  "highlights": {
+    "fr": [
+      "Secrétaire général des Nations unies de 1982 à 1991",
+      "Obtient le cessez-le-feu entre l’Iran et l’Irak en août 1988",
+      "Accompagne l’indépendance de la Namibie en 1990",
+      "Président du Conseil des ministres du Pérou en 2000-2001",
+      "Meurt à Lima en 2020 à l’âge de cent ans"
+    ],
+    "en": [
+      "Secretary-General of the United Nations from 1982 to 1991",
+      "Brokered the Iran–Iraq ceasefire in August 1988",
+      "Oversaw Namibia's path to independence in 1990",
+      "Prime Minister of Peru in 2000–2001",
+      "Died in Lima in 2020 at the age of one hundred"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier Latino-Américain à la tête de l’ONU, il a guidé l’organisation à travers la fin de la guerre froide et lui a rendu un rôle actif de médiation.",
+    "en": "The first Latin American to lead the UN, he guided the organisation through the end of the Cold War and restored its active role as a peace broker."
   }
 }

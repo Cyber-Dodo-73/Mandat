@@ -32,5 +32,27 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Fils de Thoutmôsis II et d'une épouse secondaire, Thoutmôsis III monte sur le trône encore enfant vers 1479 av. J.-C. Sa tante et belle-mère Hatchepsout exerce d'abord la régence, puis se fait couronner pharaon et gouverne à ses côtés pendant une vingtaine d'années. À sa mort, vers 1458 av. J.-C., Thoutmôsis III règne seul et lance aussitôt une campagne contre une coalition de princes cananéens et syriens. Il la défait à Megiddo, puis prend la ville après un long siège, une victoire relatée en détail dans les Annales gravées au temple de Karnak. Au fil de quelque dix-sept campagnes, il franchit l'Euphrate et soumet la région, portant l'empire égyptien à son extension maximale, de la Syrie à la Nubie. Il enrichit considérablement Karnak de nouvelles constructions. Vers la fin de son règne, les images d'Hatchepsout sont martelées sur de nombreux monuments. Il meurt vers 1425 av. J.-C. après plus d'un demi-siècle de règne ; son fils Amenhotep II lui succède.",
+    "en": "The son of Thutmose II by a secondary wife, Thutmose III came to the throne as a child around 1479 BC. His aunt and stepmother Hatshepsut first acted as regent, then had herself crowned pharaoh and ruled alongside him for some twenty years. When she died around 1458 BC, Thutmose III ruled alone and at once marched against a coalition of Canaanite and Syrian princes. He defeated them at Megiddo and took the city after a long siege, a victory recorded in detail in the Annals carved at the temple of Karnak. Over some seventeen campaigns he crossed the Euphrates and brought the region to heel, extending Egypt's empire to its greatest reach, from Syria to Nubia. He also added extensively to Karnak. Late in his reign, Hatshepsut's images were chiselled off many monuments. He died around 1425 BC after more than half a century on the throne and was succeeded by his son Amenhotep II."
+  },
+  "highlights": {
+    "fr": [
+      "Roi en titre dès vers 1479 av. J.-C., d'abord aux côtés d'Hatchepsout",
+      "Victoire de Megiddo contre une coalition cananéenne",
+      "Environ dix-sept campagnes, jusqu'au-delà de l'Euphrate",
+      "Porte l'empire égyptien à son extension maximale"
+    ],
+    "en": [
+      "Nominal king from about 1479 BC, first alongside Hatshepsut",
+      "Victory at Megiddo over a Canaanite coalition",
+      "Some seventeen campaigns, reaching beyond the Euphrates",
+      "Brought the Egyptian empire to its greatest extent"
+    ]
+  },
+  "legacy": {
+    "fr": "Souvent comparé à un « Napoléon de l'Égypte », il reste le grand pharaon conquérant du Nouvel Empire, et ses Annales de Karnak une source majeure de l'histoire militaire antique.",
+    "en": "Often dubbed the 'Napoleon of Egypt', he remains the great conqueror of the New Kingdom, and his Karnak Annals a major source on ancient warfare."
   }
 }

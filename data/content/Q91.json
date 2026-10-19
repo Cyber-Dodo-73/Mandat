@@ -29,5 +29,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1809 dans une cabane en rondins du Kentucky, Abraham Lincoln grandit dans l'Indiana puis l'Illinois, où il apprend le droit presque seul et devient avocat. Élu à la Chambre de l'Illinois de 1834 à 1842, il siège ensuite un seul mandat au Congrès fédéral, de 1847 à 1849, où il s'oppose à la guerre contre le Mexique. Ses débats de 1858 contre Stephen Douglas sur l'extension de l'esclavage le font connaître dans tout le pays, même s'il perd l'élection sénatoriale. Candidat du jeune Parti républicain, il est élu président en novembre 1860, ce qui pousse onze États du Sud à faire sécession et déclenche la guerre de Sécession en avril 1861. Il dirige l'Union pendant quatre années de guerre, proclame l'émancipation des esclaves des États rebelles en 1863 et prononce la même année le discours de Gettysburg. Réélu en 1864, il pousse le Congrès à adopter le 13e amendement abolissant l'esclavage. Quelques jours après la reddition du général Lee, il est assassiné par John Wilkes Booth dans un théâtre de Washington, en avril 1865.",
+    "en": "Born in a Kentucky log cabin in 1809, Abraham Lincoln grew up in Indiana and Illinois, where he taught himself law and became an attorney. He sat in the Illinois House from 1834 to 1842, then served a single term in Congress from 1847 to 1849, opposing the war against Mexico. His 1858 debates with Stephen Douglas over the spread of slavery made him nationally known, even though he lost the Senate race. As the candidate of the young Republican Party he was elected president in November 1860, prompting eleven Southern states to secede and triggering the Civil War in April 1861. He led the Union through four years of war, issued the Emancipation Proclamation freeing slaves in the rebel states in 1863 and gave the Gettysburg Address that same year. Re-elected in 1864, he pushed Congress to pass the Thirteenth Amendment abolishing slavery. Days after General Lee's surrender, he was shot by John Wilkes Booth at a Washington theatre in April 1865."
+  },
+  "highlights": {
+    "fr": [
+      "Élu président en 1860, premier républicain à la Maison-Blanche",
+      "Dirige l'Union pendant la guerre de Sécession (1861-1865)",
+      "Signe la proclamation d'émancipation le 1er janvier 1863",
+      "Prononce le discours de Gettysburg en novembre 1863",
+      "Obtient l'adoption par le Congrès du 13e amendement abolissant l'esclavage en 1865"
+    ],
+    "en": [
+      "Elected in 1860, the first Republican president",
+      "Led the Union through the Civil War (1861–1865)",
+      "Issued the Emancipation Proclamation on 1 January 1863",
+      "Delivered the Gettysburg Address in November 1863",
+      "Secured congressional passage of the Thirteenth Amendment ending slavery in 1865"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a préservé l'unité des États-Unis et mis fin à l'esclavage, ce qui en fait l'un des présidents les plus admirés du pays.",
+    "en": "He preserved the Union and ended slavery, which makes him one of the most admired presidents in American history."
   }
 }

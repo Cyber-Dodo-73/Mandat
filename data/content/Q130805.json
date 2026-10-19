@@ -35,5 +35,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Hanovre en 1660, Georges-Louis est le fils du duc Ernest-Auguste de Brunswick-Lunebourg et de Sophie du Palatinat, petite-fille du roi Jacques Ier d'Angleterre. En 1682, il épouse sa cousine Sophie-Dorothée de Celle ; après la liaison de celle-ci avec le comte de Königsmarck, qui disparaît mystérieusement, le couple divorce en 1694 et elle est enfermée à vie au château d'Ahlden. Officier, il combat contre les Ottomans et la France, puis succède à son père à la tête du Hanovre en 1698. L'Acte d'établissement de 1701 réserve la couronne anglaise aux descendants protestants de sa mère, et il commande les armées impériales sur le Rhin en 1707-1709. Après la mort de Sophie puis de la reine Anne, en 1714, il devient roi de Grande-Bretagne et d'Irlande à 54 ans. Dès 1715, il fait face à un soulèvement jacobite en faveur du fils de Jacques II, qui échoue. Il gouverne avec les whigs, s'appuie de plus en plus sur ses ministres, et la crise financière de la Compagnie des mers du Sud en 1720 propulse Robert Walpole à la tête du gouvernement. Il agrandit le Hanovre avec les duchés de Brême et de Verden, et meurt à Osnabrück en 1727, en route vers son électorat.",
+    "en": "Born in Hanover in 1660, George Louis was the son of Duke Ernest Augustus of Brunswick-Lüneburg and Sophia of the Palatinate, a granddaughter of King James I of England. In 1682 he married his cousin Sophia Dorothea of Celle; after her affair with Count Königsmarck, who mysteriously vanished, they divorced in 1694 and she was confined for life at Ahlden Castle. A soldier, he fought against the Ottomans and France, and succeeded his father as ruler of Hanover in 1698. The Act of Settlement of 1701 reserved the English crown for his mother's Protestant descendants, and he commanded the imperial armies on the Rhine in 1707–1709. After the deaths of Sophia and then Queen Anne in 1714, he became King of Great Britain and Ireland at 54. In 1715 he faced a Jacobite rising in favour of James II's son, which failed. He governed with the Whigs, leaned increasingly on his ministers, and the South Sea Bubble crash of 1720 propelled Robert Walpole to the head of government. He enlarged Hanover with the duchies of Bremen and Verden, and died in Osnabrück in 1727 on his way to his electorate."
+  },
+  "highlights": {
+    "fr": [
+      "Électeur de Hanovre à partir de 1698",
+      "Roi de Grande-Bretagne et d'Irlande de 1714 à 1727",
+      "Premier souverain britannique de la maison de Hanovre",
+      "Soulèvement jacobite de 1715 réprimé",
+      "Robert Walpole prend la tête du gouvernement en 1721"
+    ],
+    "en": [
+      "Elector of Hanover from 1698",
+      "King of Great Britain and Ireland from 1714 to 1727",
+      "First British monarch of the House of Hanover",
+      "Jacobite rising of 1715 defeated",
+      "Robert Walpole took charge of government in 1721"
+    ]
+  },
+  "legacy": {
+    "fr": "Roi peu présent et parlant mal l'anglais, il a laissé le pouvoir glisser vers ses ministres, ce qui a favorisé l'émergence du rôle de Premier ministre.",
+    "en": "Often absent and never fluent in English, he let power drift to his ministers, which helped the office of prime minister emerge."
   }
 }

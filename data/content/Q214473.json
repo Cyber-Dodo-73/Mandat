@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1946 dans le Cap-Oriental et élevé à King William's Town, Bantu Stephen Biko est renvoyé d'un lycée pour ses opinions politiques avant d'entamer des études de médecine à l'université du Natal. Jugeant que les organisations étudiantes multiraciales restent dominées par des Blancs, il fonde en 1968 la South African Students' Organisation (SASO), réservée aux étudiants noirs, et en devient le premier président. Il théorise la « conscience noire » : les Noirs doivent se libérer psychologiquement de la domination avant de pouvoir s'émanciper politiquement. Il participe en 1972 à la création de la Black People's Convention et à des programmes communautaires de santé et d'éducation. En 1973, le régime le frappe d'une mesure d'interdiction qui le confine à King William's Town et lui interdit de parler en public. Ses idées inspirent pourtant les élèves du soulèvement de Soweto en 1976. Arrêté à un barrage routier le 18 août 1977, il est détenu et battu par la police de sécurité à Port Elizabeth, puis transporté nu et inconscient jusqu'à Pretoria, à plus de 1 000 km. Il y meurt le 12 septembre 1977. L'enquête officielle blanchit les policiers ; devant la Commission vérité et réconciliation, ceux-ci se verront refuser l'amnistie.",
+    "en": "Born in 1946 in the Eastern Cape and raised in King William's Town, Bantu Stephen Biko was expelled from one school for his politics before going on to study medicine at the University of Natal. Convinced that multiracial student groups were still run by whites, he founded the South African Students' Organisation (SASO) for Black students in 1968 and became its first president. He developed the idea of Black Consciousness: Black people had to free themselves from a mindset of subordination before they could win political freedom. In 1972 he helped set up the Black People's Convention and community health and education projects. In 1973 the regime placed him under a banning order that confined him to King William's Town and barred him from speaking in public. His ideas nonetheless inspired the students of the 1976 Soweto uprising. Arrested at a roadblock on 18 August 1977, he was held and beaten by security police in Port Elizabeth, then driven naked and unconscious more than 1,000 km to Pretoria. He died there on 12 September 1977. An official inquest cleared the police; years later, the Truth and Reconciliation Commission refused the officers amnesty."
+  },
+  "highlights": {
+    "fr": [
+      "Fonde en 1968 la SASO, organisation des étudiants noirs",
+      "Théorise le mouvement de la Conscience noire",
+      "Cofonde la Black People's Convention en 1972",
+      "Meurt en détention le 12 septembre 1977 après des sévices policiers"
+    ],
+    "en": [
+      "Founded SASO, the Black students' organisation, in 1968",
+      "Developed the Black Consciousness philosophy",
+      "Co-founded the Black People's Convention in 1972",
+      "Died in custody on 12 September 1977 after police beatings"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa mort a fait de lui un martyr mondial de la lutte contre l'apartheid, et ses écrits réunis dans « I Write What I Like » restent largement lus.",
+    "en": "His death made him a worldwide martyr of the struggle against apartheid, and his writings collected in \"I Write What I Like\" are still widely read."
   }
 }

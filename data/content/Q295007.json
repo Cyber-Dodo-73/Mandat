@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Fernando de la Rúa naît en septembre 1937 à Córdoba, étudie le droit dans sa ville natale et entre jeune à l’Union civique radicale. Élu sénateur de la capitale fédérale en 1973, il est l’un des plus jeunes membres de la chambre, puis voit sa carrière interrompue par le coup d’État de 1976. Sénateur de nouveau après le retour de la démocratie, il devient en 1996 le premier chef de gouvernement élu de la ville autonome de Buenos Aires. Candidat de l’Alliance entre radicaux et centre gauche, il remporte la présidentielle d’octobre 1999 et prend ses fonctions en décembre, au cœur d’une longue récession. Dès 2000, un scandale de pots-de-vin versés à des sénateurs pour voter une réforme du travail provoque la démission de son vice-président, Carlos Álvarez. Il rappelle en 2001 Domingo Cavallo à l’Économie pour sauver la parité entre le peso et le dollar, mais la fuite des capitaux conduit en décembre au gel des dépôts bancaires, le « corralito ». Les 19 et 20 décembre 2001, pillages et manifestations éclatent dans tout le pays, et la répression fait des dizaines de morts. Il démissionne le 20 décembre et quitte la Casa Rosada en hélicoptère, avant de mourir en juillet 2019 dans la province de Buenos Aires.",
+    "en": "Fernando de la Rúa was born in September 1937 in Córdoba, studied law in his home city and joined the Radical Civic Union young. Elected senator for the federal capital in 1973, he was among the chamber's youngest members until the 1976 coup cut his career short. Back in the Senate after democracy returned, he became the first elected head of government of the autonomous city of Buenos Aires in 1996. Running for the Alliance of Radicals and centre-left groups, he won the October 1999 presidential election and took office in December in the midst of a long recession. As early as 2000, a scandal over bribes paid to senators to pass a labour reform led his vice president, Carlos Álvarez, to resign. In 2001 he brought back Domingo Cavallo as economy minister to save the peso's peg to the dollar, but capital flight led in December to a freeze on bank deposits known as the corralito. On 19 and 20 December 2001 looting and protests broke out across the country, and the crackdown left dozens dead. He resigned on 20 December and left the Casa Rosada by helicopter, and he died in July 2019 in Buenos Aires province."
+  },
+  "highlights": {
+    "fr": [
+      "Premier chef de gouvernement élu de la ville de Buenos Aires en 1996",
+      "Élu président de l’Argentine en octobre 1999",
+      "Rappelle Domingo Cavallo à l’Économie en 2001",
+      "Démissionne le 20 décembre 2001 en pleine crise"
+    ],
+    "en": [
+      "First elected head of government of Buenos Aires city in 1996",
+      "Elected president of Argentina in October 1999",
+      "Brought Domingo Cavallo back as economy minister in 2001",
+      "Resigned on 20 December 2001 amid the crisis"
+    ]
+  },
+  "legacy": {
+    "fr": "Son départ en hélicoptère est resté l’image de l’effondrement économique et politique de l’Argentine en 2001.",
+    "en": "His departure by helicopter remains the defining image of Argentina's economic and political collapse in 2001."
   }
 }

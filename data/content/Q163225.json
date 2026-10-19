@@ -29,5 +29,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Edvige Antonia Albina Maino naît en 1946 à Lusiana, en Vénétie, et grandit près de Turin. En 1965, alors qu'elle étudie l'anglais à Cambridge, elle rencontre Rajiv Gandhi, fils d'Indira Gandhi, qu'elle épouse en 1968 avant de s'installer à New Delhi. Elle se tient d'abord à l'écart de la politique, même après l'assassinat d'Indira en 1984 et l'arrivée de Rajiv au poste de Premier ministre. Après l'assassinat de son mari par une kamikaze des Tigres tamouls en mai 1991, elle refuse de prendre la tête du Congrès, avant d'adhérer au parti en 1997 et d'en devenir présidente en 1998. Élue députée en 1999, elle dirige l'opposition face au gouvernement d'Atal Bihari Vajpayee. En 2004, le Congrès et ses alliés gagnent les élections, mais elle renonce au poste de Premier ministre, confié à Manmohan Singh. Pendant dix ans, elle influence la politique sociale du gouvernement, avec la loi sur le droit à l'information et la garantie d'emploi rural de 2005, puis la loi sur la sécurité alimentaire de 2013. Après la lourde défaite de 2014, elle cède la présidence du parti à son fils Rahul en 2017, la reprend par intérim de 2019 à 2022, puis entre à la Rajya Sabha en 2024.",
+    "en": "Edvige Antonia Albina Maino was born in 1946 in Lusiana, in the Veneto, and grew up near Turin. In 1965, while studying English in Cambridge, she met Rajiv Gandhi, son of Indira Gandhi, whom she married in 1968 before settling in New Delhi. She stayed out of politics at first, even after Indira's assassination in 1984 and Rajiv's arrival as prime minister. After her husband was killed by a Tamil Tiger suicide bomber in May 1991, she declined to take over Congress, then joined the party in 1997 and became its president in 1998. Elected to parliament in 1999, she led the opposition against Atal Bihari Vajpayee's government. In 2004 Congress and its allies won the election, but she turned down the premiership, which went to Manmohan Singh. For ten years she shaped the government's social agenda, including the 2005 right-to-information law and rural employment guarantee and the 2013 food security act. After the heavy defeat of 2014 she handed the party presidency to her son Rahul in 2017, took it back as interim leader from 2019 to 2022, and moved to the upper house, the Rajya Sabha, in 2024."
+  },
+  "highlights": {
+    "fr": [
+      "Présidente du Congrès national indien de 1998 à 2017",
+      "Victoire de la coalition qu'elle mène aux élections de 2004",
+      "Renonce au poste de Premier ministre au profit de Manmohan Singh",
+      "Loi sur la garantie d'emploi rural adoptée en 2005",
+      "Présidente par intérim du Congrès de 2019 à 2022"
+    ],
+    "en": [
+      "President of the Indian National Congress from 1998 to 2017",
+      "Led the alliance that won the 2004 general election",
+      "Turned down the premiership in favour of Manmohan Singh",
+      "Rural employment guarantee law passed in 2005",
+      "Interim Congress president from 2019 to 2022"
+    ]
+  },
+  "legacy": {
+    "fr": "Longtemps la dirigeante la plus puissante de l'Inde sans en être Première ministre, elle a maintenu la dynastie Nehru-Gandhi au centre du Congrès.",
+    "en": "Long India's most powerful leader without ever being prime minister, she kept the Nehru-Gandhi dynasty at the heart of Congress."
   }
 }

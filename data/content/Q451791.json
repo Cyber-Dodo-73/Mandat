@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Rome en 1977 et élevée par sa mère dans le quartier populaire de la Garbatella, Giorgia Meloni s'engage à 15 ans dans le mouvement de jeunesse du Mouvement social italien, parti héritier du fascisme. Élue au conseil provincial de Rome en 1998, elle entre à la Chambre des députés en 2006, dont elle devient vice-présidente. De 2008 à 2011, elle est ministre de la Jeunesse dans le gouvernement Berlusconi, la plus jeune ministre de l'histoire républicaine. En 2012, elle cofonde Fratelli d'Italia, petit parti nationaliste et conservateur qui plafonne longtemps sous les 5 %. Restée seule dans l'opposition au gouvernement d'union de Mario Draghi, elle fait progresser son parti jusqu'à la première place aux élections de septembre 2022. En octobre 2022, elle devient la première femme présidente du Conseil des ministres d'Italie, à la tête d'une coalition de droite. Elle soutient fermement l'Ukraine face à la Russie, durcit la politique migratoire et porte une réforme visant l'élection directe du chef du gouvernement. En 2026, elle prend aussi en charge le ministère du Tourisme, assumant elle-même ce portefeuille.",
+    "en": "Born in Rome in 1977 and raised by her mother in the working-class Garbatella district, Giorgia Meloni joined the youth wing of the Italian Social Movement, the heir to fascism, at 15. Elected to Rome's provincial council in 1998, she entered the Chamber of Deputies in 2006 and became its vice-president. From 2008 to 2011 she served as youth minister under Berlusconi, the youngest minister in the republic's history. In 2012 she co-founded Brothers of Italy, a small nationalist conservative party that long polled below 5 percent. As the only major party to stay out of Mario Draghi's unity government, it climbed to first place in the September 2022 election. In October 2022 she became Italy's first woman prime minister, at the head of a right-wing coalition. She has backed Ukraine firmly against Russia, toughened migration policy and pushed a reform for the direct election of the head of government. In 2026 she also took on the tourism ministry, holding that portfolio herself."
+  },
+  "highlights": {
+    "fr": [
+      "2008 : plus jeune ministre de l'histoire de la République italienne (Jeunesse)",
+      "2012 : cofonde le parti Fratelli d'Italia",
+      "2022 : mène son parti en tête des élections législatives",
+      "Octobre 2022 : première femme à présider le gouvernement italien",
+      "2026 : prend aussi en charge le ministère du Tourisme"
+    ],
+    "en": [
+      "2008: youngest minister in the history of the Italian Republic (youth)",
+      "2012: co-founded the Brothers of Italy party",
+      "2022: led her party to first place in the general election",
+      "October 2022: became the first woman to head Italy's government",
+      "2026: also took charge of the tourism ministry"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a fait passer un parti issu de la droite post-fasciste de la marge au pouvoir, en lui donnant une stature européenne. Son gouvernement compte parmi les plus stables de l'Italie récente.",
+    "en": "She brought a party with post-fascist roots from the fringe to power and gave it European standing. Her government ranks among the most stable in recent Italian history."
   }
 }

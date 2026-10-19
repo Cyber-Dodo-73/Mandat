@@ -30,5 +30,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "David Cameron naît en 1966 à Marylebone, à Londres, dans une famille aisée, et étudie à Eton puis la philosophie, la politique et l'économie à Oxford. Il travaille au service de recherche du Parti conservateur, conseille des ministres, puis dirige la communication d'une chaîne de télévision. Élu député de Witney en 2001, il prend la tête du parti dès 2005 en promettant de le moderniser. Après les élections de 2010, sans majorité, il forme une coalition avec les libéraux-démocrates de Nick Clegg et devient Premier ministre à 43 ans. Son gouvernement mène une politique d'austérité budgétaire, légalise le mariage homosexuel en 2013 et accorde à l'Écosse un référendum d'indépendance, remporté par le « non » en 2014. Vainqueur surprise des élections de 2015 avec une majorité absolue, il organise comme promis un référendum sur l'appartenance à l'UE. Il fait campagne pour le maintien, mais le « Leave » l'emporte en juin 2016 et il démissionne dans la foulée. Revenu en politique en 2023, il est nommé ministre des Affaires étrangères et entre à la Chambre des lords, avant de quitter le gouvernement après la défaite conservatrice de 2024.",
+    "en": "David Cameron was born in 1966 in Marylebone, London, into a wealthy family, went to Eton and read philosophy, politics and economics at Oxford. He worked in the Conservative Research Department, advised ministers and then ran communications for a television company. Elected MP for Witney in 2001, he won the party leadership in 2005 on a pledge to modernise it. When the 2010 election produced no majority, he formed a coalition with Nick Clegg's Liberal Democrats and became Prime Minister at 43. His government pursued fiscal austerity, legalised same-sex marriage in 2013 and granted Scotland an independence referendum, which the No side won in 2014. After an unexpected outright victory in 2015, he held the promised referendum on EU membership. He campaigned to remain, but Leave won in June 2016 and he resigned straight away. Returning to politics in 2023, he was made Foreign Secretary and given a seat in the House of Lords, leaving government after the Conservatives lost the 2024 election."
+  },
+  "highlights": {
+    "fr": [
+      "2005 : élu chef du Parti conservateur à 39 ans",
+      "2010 : forme la première coalition gouvernementale depuis 1945",
+      "2013 : légalisation du mariage homosexuel",
+      "2016 : organise le référendum sur le Brexit, puis démissionne",
+      "2023-2024 : ministre des Affaires étrangères"
+    ],
+    "en": [
+      "2005: elected Conservative leader at 39",
+      "2010: formed the first coalition government since 1945",
+      "2013: same-sex marriage legalised",
+      "2016: held the Brexit referendum, then resigned",
+      "2023–2024: Foreign Secretary"
+    ]
+  },
+  "legacy": {
+    "fr": "Son nom reste avant tout attaché au référendum de 2016 qui a conduit le Royaume-Uni hors de l'Union européenne, à l'opposé de ce qu'il souhaitait.",
+    "en": "His name is tied above all to the 2016 referendum that took the UK out of the European Union, the opposite of the outcome he wanted."
   }
 }

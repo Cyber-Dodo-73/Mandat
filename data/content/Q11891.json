@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1795 en Caroline du Nord, James Knox Polk grandit dans le Tennessee, où il devient avocat. Élu à la Chambre du Tennessee en 1823, il entre au Congrès en 1825 et devient un fidèle d'Andrew Jackson. Président de la Chambre des représentants de 1835 à 1839, il est ensuite gouverneur du Tennessee jusqu'en 1841. Candidat de compromis des démocrates en 1844, il bat le whig Henry Clay sur un programme d'expansion territoriale. Président à partir de 1845, il fait aboutir l'annexion du Texas, puis règle en 1846 avec la Grande-Bretagne le partage de l'Oregon. La même année, il déclenche la guerre contre le Mexique, qui s'achève en 1848 par le traité de Guadalupe Hidalgo : les États-Unis s'emparent de la Californie et d'un vaste territoire du Sud-Ouest. Il baisse aussi les droits de douane et rétablit un Trésor indépendant. Fidèle à sa promesse d'un mandat unique, il quitte la Maison-Blanche en mars 1849 et meurt du choléra à Nashville trois mois plus tard.",
+    "en": "Born in North Carolina in 1795, James Knox Polk grew up in Tennessee, where he became a lawyer. Elected to the Tennessee House in 1823, he entered Congress in 1825 and became a loyal follower of Andrew Jackson. He served as Speaker of the House from 1835 to 1839 and then as governor of Tennessee until 1841. Chosen as the Democrats' compromise candidate in 1844, he beat the Whig Henry Clay on a platform of territorial expansion. As president from 1845 he completed the annexation of Texas and in 1846 settled the division of Oregon with Britain. That same year he launched war on Mexico, which ended in 1848 with the Treaty of Guadalupe Hidalgo and handed the United States California and a vast stretch of the Southwest. He also lowered tariffs and restored an independent Treasury. True to his pledge to serve a single term, he left the White House in March 1849 and died of cholera in Nashville three months later."
+  },
+  "highlights": {
+    "fr": [
+      "1835 : élu président de la Chambre des représentants",
+      "1845 : finalise l'annexion du Texas",
+      "1846 : fixe la frontière de l'Oregon avec la Grande-Bretagne",
+      "1848 : la guerre contre le Mexique apporte la Californie et le Sud-Ouest"
+    ],
+    "en": [
+      "1835: elected Speaker of the House of Representatives",
+      "1845: completes the annexation of Texas",
+      "1846: settles the Oregon border with Britain",
+      "1848: war with Mexico brings in California and the Southwest"
+    ]
+  },
+  "legacy": {
+    "fr": "Président d'un seul mandat, il a plus agrandi le territoire américain que presque tout autre, au prix d'une guerre de conquête qui a ravivé le conflit sur l'esclavage.",
+    "en": "A one-term president, he enlarged US territory more than almost any other, through a war of conquest that reignited the conflict over slavery."
   }
 }

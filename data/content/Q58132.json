@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Caracas en 1962, Nicolás Maduro est chauffeur de bus et syndicaliste dans le métro de la capitale avant de rejoindre le mouvement d'Hugo Chávez. Député à l'Assemblée constituante de 1999, il préside l'Assemblée nationale en 2005-2006, puis dirige la diplomatie vénézuélienne pendant six ans. Désigné par Chávez comme successeur, il devient vice-président en 2012 puis remporte de justesse l'élection présidentielle d'avril 2013, après la mort de son mentor. Sous sa présidence, la chute des prix du pétrole et la gestion du régime entraînent un effondrement économique, une hyperinflation et l'exil de près de huit millions de Vénézuéliens. Il répond aux manifestations de 2014 et 2017 par une répression qui fait des dizaines de morts, contourne le Parlement d'opposition et se fait réélire en 2018 lors d'un scrutin largement boycotté. En 2024, les autorités électorales le proclament vainqueur sans publier les résultats détaillés, alors que les décomptes de l'opposition donnent la victoire à Edmundo González. Le 3 janvier 2026, il est capturé à Caracas lors d'une opération militaire américaine et transféré à New York pour y être jugé, notamment pour narcotrafic.",
+    "en": "Born in Caracas in 1962, Nicolás Maduro was a bus driver and union activist on the capital's metro before joining Hugo Chávez's movement. A member of the 1999 Constituent Assembly, he chaired the National Assembly in 2005–2006 and then ran Venezuela's foreign ministry for six years. Named by Chávez as his successor, he became vice president in 2012 and narrowly won the April 2013 presidential election after his mentor's death. Under his rule, falling oil prices and government mismanagement led to economic collapse, hyperinflation and the flight of nearly eight million Venezuelans. He met the protests of 2014 and 2017 with crackdowns that left dozens dead, sidelined the opposition-led parliament and was re-elected in 2018 in a widely boycotted vote. In 2024 the electoral authorities declared him the winner without publishing detailed results, while opposition tallies showed Edmundo González had won. On 3 January 2026 he was captured in Caracas during a US military operation and flown to New York to stand trial, notably on drug trafficking charges."
+  },
+  "highlights": {
+    "fr": [
+      "Président de l'Assemblée nationale du Venezuela en 2005-2006",
+      "Ministre des Affaires étrangères de 2006 à 2012",
+      "Succède à Hugo Chávez après l'élection d'avril 2013",
+      "Proclamé réélu en 2024 malgré des résultats contestés",
+      "Capturé par les forces américaines le 3 janvier 2026"
+    ],
+    "en": [
+      "President of Venezuela's National Assembly in 2005–2006",
+      "Foreign minister from 2006 to 2012",
+      "Succeeded Hugo Chávez after the April 2013 election",
+      "Declared re-elected in 2024 despite disputed results",
+      "Captured by US forces on 3 January 2026"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa présidence reste associée à l'effondrement économique du Venezuela, à l'une des plus grandes vagues migratoires du continent et au recul de la démocratie.",
+    "en": "His presidency remains associated with Venezuela's economic collapse, one of the largest migration waves in the Americas and the erosion of democracy."
   }
 }

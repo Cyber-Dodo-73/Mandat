@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Honolulu en 1961 d'une mère américaine et d'un père kényan, Barack Obama grandit entre Hawaï et l'Indonésie. Diplômé de Columbia puis de la faculté de droit de Harvard, où il devient le premier président noir de la Harvard Law Review, il travaille comme animateur social à Chicago et enseigne le droit constitutionnel. Il siège au Sénat de l'Illinois de 1997 à 2004, puis se fait connaître nationalement par un discours remarqué à la convention démocrate de 2004 avant d'entrer au Sénat fédéral. Élu président en novembre 2008 face à John McCain, il devient le premier Afro-Américain à occuper la Maison-Blanche, au cœur d'une grave crise financière. Il reçoit le prix Nobel de la paix dès 2009, fait adopter en 2010 la réforme de l'assurance maladie dite Obamacare et ordonne en 2011 le raid qui tue Oussama ben Laden au Pakistan. Réélu en 2012, il conclut l'accord de Paris sur le climat et l'accord nucléaire avec l'Iran en 2015. Il quitte la présidence en janvier 2017 au terme de ses deux mandats.",
+    "en": "Born in Honolulu in 1961 to an American mother and a Kenyan father, Barack Obama grew up between Hawaii and Indonesia. After Columbia and Harvard Law School, where he became the first Black president of the Harvard Law Review, he worked as a community organiser in Chicago and taught constitutional law. He served in the Illinois Senate from 1997 to 2004, then rose to national attention with a keynote speech at the 2004 Democratic convention before entering the US Senate. Elected president in November 2008 against John McCain, he became the first African American in the White House, in the middle of a severe financial crisis. He received the Nobel Peace Prize in 2009, passed the Affordable Care Act in 2010 and ordered the 2011 raid in Pakistan that killed Osama bin Laden. Re-elected in 2012, he joined the Paris climate agreement and concluded the Iran nuclear deal in 2015. He left office in January 2017 after two full terms."
+  },
+  "highlights": {
+    "fr": [
+      "Premier président afro-américain des États-Unis, élu en 2008",
+      "Prix Nobel de la paix en 2009",
+      "Fait adopter la réforme de l'assurance maladie (Affordable Care Act) en 2010",
+      "Ordonne le raid qui tue Oussama ben Laden en mai 2011",
+      "Engage les États-Unis dans l'accord de Paris sur le climat en 2015"
+    ],
+    "en": [
+      "First African American president of the United States, elected in 2008",
+      "Awarded the Nobel Peace Prize in 2009",
+      "Passed the Affordable Care Act health reform in 2010",
+      "Ordered the raid that killed Osama bin Laden in May 2011",
+      "Committed the United States to the Paris climate agreement in 2015"
+    ]
+  },
+  "legacy": {
+    "fr": "Son élection reste un jalon historique pour les Afro-Américains, et sa réforme de la santé a durablement étendu la couverture médicale aux États-Unis.",
+    "en": "His election remains a historic milestone for African Americans, and his health reform durably expanded medical coverage in the United States."
   }
 }

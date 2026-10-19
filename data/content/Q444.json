@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Lech Wałęsa naît en 1943 à Popowo, dans une famille paysanne de la Pologne occupée, et devient électricien. Embauché en 1967 au chantier naval Lénine de Gdańsk, il participe aux grèves de décembre 1970, réprimées dans le sang, puis il est licencié en 1976 pour son activisme. En août 1980, il escalade la clôture du chantier pour prendre la tête d'une grève qui gagne toute la côte baltique. Les accords de Gdańsk du 31 août reconnaissent le droit de créer un syndicat indépendant, et Solidarność compte bientôt une dizaine de millions de membres. Après la proclamation de la loi martiale par le général Jaruzelski le 13 décembre 1981, il est interné près d'un an. Il reçoit le prix Nobel de la paix en 1983, remis à Oslo à son épouse Danuta. En 1989, il négocie la table ronde avec le pouvoir communiste, qui débouche sur des élections partiellement libres en juin, remportées massivement par Solidarność. Élu président de la République en décembre 1990, il accompagne une transition économique brutale, mais perd sa réélection de peu face à Aleksander Kwaśniewski en 1995. Accusé d'avoir été un informateur de la police politique au début des années 1970, ce qu'il a toujours nié, il reste une voix écoutée de la vie publique polonaise.",
+    "en": "Lech Wałęsa was born in 1943 in Popowo, into a peasant family in occupied Poland, and trained as an electrician. Taken on in 1967 at the Lenin Shipyard in Gdańsk, he joined the strikes of December 1970, which were put down with bloodshed, and was fired in 1976 for his activism. In August 1980 he climbed over the shipyard fence to lead a strike that spread along the whole Baltic coast. The Gdańsk Agreement of 31 August recognised the right to form an independent trade union, and Solidarity soon had some ten million members. After General Jaruzelski declared martial law on 13 December 1981, he was interned for almost a year. He won the Nobel Peace Prize in 1983, which his wife Danuta collected in Oslo. In 1989 he negotiated the Round Table with the communist authorities, leading to partly free elections that June, which Solidarity won by a landslide. Elected president in December 1990, he presided over a harsh economic transition but narrowly lost re-election to Aleksander Kwaśniewski in 1995. Accused of having informed for the secret police in the early 1970s, which he has always denied, he remains a prominent voice in Polish public life."
+  },
+  "highlights": {
+    "fr": [
+      "Mène la grève du chantier naval de Gdańsk en août 1980",
+      "Fondateur et chef du syndicat Solidarność",
+      "Prix Nobel de la paix en 1983",
+      "Négocie la table ronde de 1989 avec le pouvoir communiste",
+      "Président de la Pologne de 1990 à 1995"
+    ],
+    "en": [
+      "Led the Gdańsk shipyard strike in August 1980",
+      "Founder and leader of the Solidarity trade union",
+      "Nobel Peace Prize in 1983",
+      "Negotiated the 1989 Round Table with the communist regime",
+      "President of Poland from 1990 to 1995"
+    ]
+  },
+  "legacy": {
+    "fr": "Solidarność a ouvert la première brèche dans le bloc soviétique, et l'aéroport de Gdańsk porte aujourd'hui son nom.",
+    "en": "Solidarity opened the first breach in the Soviet bloc, and Gdańsk's airport now bears his name."
   }
 }

@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Florence en 1519, Catherine est la fille de Laurent II de Médicis, duc d'Urbino, et de Madeleine de La Tour d'Auvergne, qui meurent tous deux dans les semaines suivant sa naissance. Élevée dans des couvents, elle est mariée en 1533 à Marseille, par l'entremise de son oncle le pape Clément VII, à Henri, second fils du roi François Ier. Devenue dauphine en 1536 puis reine en 1547, elle reste longtemps dans l'ombre de Diane de Poitiers, favorite de son mari, et donne naissance à dix enfants. La mort d'Henri II, blessé lors d'un tournoi en 1559, la propulse au premier plan : après le court règne de François II, elle gouverne au nom de Charles IX, encore enfant. Elle cherche d'abord un compromis entre catholiques et protestants avec l'édit de janvier 1562, mais les guerres de Religion éclatent la même année. En 1564, elle entreprend avec le jeune roi un long tour de France pour affermir l'autorité royale. Après le mariage de sa fille Marguerite avec le protestant Henri de Navarre, en août 1572, éclate le massacre de la Saint-Barthélemy, qui fait plusieurs milliers de morts à Paris puis en province, et dont la décision est attribuée en partie à Catherine et à Charles IX. Elle conseille encore son fils Henri III et meurt à Blois en janvier 1589, peu après l'assassinat du duc de Guise.",
+    "en": "Born in Florence in 1519, Catherine was the daughter of Lorenzo II de' Medici, Duke of Urbino, and Madeleine de La Tour d'Auvergne, who both died within weeks of her birth. Raised in convents, she was married in Marseille in 1533, through her uncle Pope Clement VII, to Henri, the second son of King Francis I. Dauphine in 1536 and queen in 1547, she long stood in the shadow of her husband's mistress Diane de Poitiers, and gave birth to ten children. The death of Henri II from a tournament wound in 1559 thrust her forward: after the brief reign of Francis II, she governed on behalf of the child king Charles IX. She first sought a compromise between Catholics and Protestants with the Edict of January 1562, but the Wars of Religion broke out that same year. In 1564 she set off with the young king on a long tour of France to shore up royal authority. After her daughter Marguerite married the Protestant Henri of Navarre in August 1572, the St Bartholomew's Day massacre broke out, killing several thousand people in Paris and then in the provinces, a decision blamed in part on Catherine and Charles IX. She went on advising her son Henri III and died at Blois in January 1589, shortly after the assassination of the Duke of Guise."
+  },
+  "highlights": {
+    "fr": [
+      "Reine de France de 1547 à 1559, épouse d'Henri II",
+      "Gouverne au nom de Charles IX à partir de 1560",
+      "Édit de janvier 1562 tolérant le culte protestant",
+      "Grand tour de France avec Charles IX de 1564 à 1566",
+      "Massacre de la Saint-Barthélemy en août 1572"
+    ],
+    "en": [
+      "Queen of France from 1547 to 1559 as wife of Henri II",
+      "Governed on behalf of Charles IX from 1560",
+      "Edict of January 1562 tolerating Protestant worship",
+      "Royal tour of France with Charles IX from 1564 to 1566",
+      "St Bartholomew's Day massacre in August 1572"
+    ]
+  },
+  "legacy": {
+    "fr": "Longtemps dépeinte en reine noire responsable de la Saint-Barthélemy, elle est aujourd'hui aussi vue par les historiens comme une régente qui a tenté de sauver l'unité du royaume.",
+    "en": "Long portrayed as the dark queen behind St Bartholomew's Day, she is now also seen by historians as a regent who tried to hold the kingdom together."
   }
 }

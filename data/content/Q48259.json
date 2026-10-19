@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Dick Cheney naît en 1941 à Lincoln, dans le Nebraska, et grandit à Casper, dans le Wyoming. Après avoir quitté Yale, il étudie à l'université du Wyoming puis entre dans l'administration Nixon dans le sillage de Donald Rumsfeld. En 1975, à 34 ans, il devient secrétaire général de la Maison-Blanche sous Gerald Ford. Élu représentant du Wyoming en 1979, il siège dix ans au Congrès parmi les républicains les plus conservateurs. Secrétaire à la Défense de George H. W. Bush de 1989 à 1993, il supervise l'invasion du Panama et la guerre du Golfe de 1991, ce qui lui vaut la médaille présidentielle de la Liberté. Il dirige ensuite le groupe parapétrolier Halliburton avant de devenir vice-président de George W. Bush en 2001. Après les attentats du 11 septembre, il est l'un des principaux artisans de la « guerre contre le terrorisme » : invasion de l'Irak en 2003 justifiée par des armes de destruction massive jamais trouvées, surveillance sans mandat et recours à des interrogatoires assimilés à de la torture. Retiré en 2009, il rompt plus tard avec Donald Trump et soutient Kamala Harris en 2024. Il meurt en novembre 2025.",
+    "en": "Dick Cheney was born in 1941 in Lincoln, Nebraska, and grew up in Casper, Wyoming. After dropping out of Yale, he studied at the University of Wyoming and joined the Nixon administration in Donald Rumsfeld's wake. In 1975, at 34, he became Gerald Ford's White House chief of staff. Elected Wyoming's congressman in 1979, he spent ten years in the House as one of its most conservative Republicans. As George H. W. Bush's defense secretary from 1989 to 1993 he oversaw the invasion of Panama and the 1991 Gulf War, earning the Presidential Medal of Freedom. He then ran the oilfield services firm Halliburton before becoming George W. Bush's vice president in 2001. After the September 11 attacks he was a chief architect of the war on terror: the 2003 invasion of Iraq, justified by weapons of mass destruction that were never found, warrantless surveillance and interrogation methods widely regarded as torture. He left office in 2009, later broke with Donald Trump and backed Kamala Harris in 2024. He died in November 2025."
+  },
+  "highlights": {
+    "fr": [
+      "Secrétaire général de la Maison-Blanche à 34 ans, en 1975",
+      "Secrétaire à la Défense pendant la guerre du Golfe de 1991",
+      "Vice-président des États-Unis de 2001 à 2009, l'un des plus puissants de l'histoire",
+      "Défend l'invasion de l'Irak en 2003 au nom d'armes de destruction massive inexistantes",
+      "Soutient la démocrate Kamala Harris contre Donald Trump en 2024"
+    ],
+    "en": [
+      "Became White House chief of staff at 34, in 1975",
+      "Secretary of Defense during the 1991 Gulf War",
+      "Vice president from 2001 to 2009, one of the most powerful ever",
+      "Championed the 2003 Iraq invasion over weapons of mass destruction that did not exist",
+      "Backed Democrat Kamala Harris against Donald Trump in 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a redéfini la vice-présidence comme un véritable centre de pouvoir, mais son nom reste attaché à la guerre d'Irak et aux dérives de la lutte antiterroriste après 2001.",
+    "en": "He turned the vice presidency into a genuine centre of power, but his name remains tied to the Iraq War and the abuses of post-2001 counterterrorism."
   }
 }

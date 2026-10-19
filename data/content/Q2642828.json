@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Buenos Aires en 1959, Alberto Fernández devient avocat et enseigne le droit pénal à l'université de Buenos Aires. Haut fonctionnaire dans les années 1990, il est élu législateur de la ville de Buenos Aires en 2000. En 2003, il devient chef du cabinet des ministres de Néstor Kirchner, poste qu'il conserve au début du mandat de Cristina Kirchner avant de démissionner en 2008 lors du conflit avec le secteur agricole. Longtemps critique du kirchnérisme, il est pourtant choisi en 2019 par Cristina Kirchner comme candidat à la présidence, elle-même se contentant de la vice-présidence. Élu au premier tour face à Mauricio Macri, il prend ses fonctions en décembre 2019. Son mandat est dominé par la pandémie de Covid-19 et un long confinement, la renégociation de la dette avec le FMI et une inflation dépassant 200 % par an. Affaibli par ses tensions avec sa vice-présidente, il ne se représente pas et quitte le pouvoir en décembre 2023. Il fait ensuite l'objet de poursuites, notamment pour des violences présumées envers son ancienne compagne.",
+    "en": "Born in Buenos Aires in 1959, Alberto Fernández became a lawyer and taught criminal law at the University of Buenos Aires. A senior civil servant in the 1990s, he was elected to the Buenos Aires city legislature in 2000. In 2003 he became Néstor Kirchner's cabinet chief, staying on into Cristina Kirchner's first term before resigning in 2008 during the clash with the farm sector. Though long a critic of Kirchnerism, he was picked by Cristina Kirchner in 2019 to run for president, with herself as his running mate. He beat Mauricio Macri in the first round and took office in December 2019. His term was dominated by the Covid-19 pandemic and a long lockdown, a debt renegotiation with the IMF, and inflation that topped 200% a year. Weakened by friction with his vice president, he did not seek re-election and left office in December 2023. He later faced prosecution, notably over alleged violence against his former partner."
+  },
+  "highlights": {
+    "fr": [
+      "Chef du cabinet des ministres de 2003 à 2008",
+      "Élu président de l'Argentine au premier tour en octobre 2019",
+      "Renégociation de la dette argentine avec le FMI en 2022",
+      "Assure la présidence tournante du Mercosur en 2020-2021"
+    ],
+    "en": [
+      "Cabinet chief from 2003 to 2008",
+      "Elected president of Argentina in the first round in October 2019",
+      "Renegotiated Argentina's IMF debt in 2022",
+      "Held Mercosur's rotating presidency in 2020-2021"
+    ]
+  },
+  "legacy": {
+    "fr": "Son mandat, marqué par l'inflation et les divisions du péronisme, a ouvert la voie à la victoire de Javier Milei en 2023.",
+    "en": "His term, marked by soaring inflation and Peronist infighting, paved the way for Javier Milei's victory in 2023."
   }
 }

@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Jean Jaurès naît en septembre 1859 à Castres, dans le Tarn, dans une famille de la petite bourgeoisie, et entre premier à l’École normale supérieure en 1878. Agrégé de philosophie, il enseigne à Albi et à Toulouse, puis devient en 1885 le plus jeune député de France, sous l’étiquette républicaine modérée. Battu en 1889, il soutient en 1892 la grève des mineurs de Carmaux et se rallie au socialisme ; il est élu député de Carmaux en 1893. Engagé pour la défense du capitaine Dreyfus, il perd son siège en 1898, avant de le retrouver en 1902. En avril 1904, il fonde le journal L’Humanité, et il joue un rôle décisif dans l’unification des socialistes au sein de la SFIO en 1905. Historien, il dirige une vaste Histoire socialiste de la Révolution française. À l’approche de la guerre, il milite pour l’arbitrage entre les nations, s’oppose à la loi portant le service militaire à trois ans et appelle à l’action internationale des ouvriers pour empêcher le conflit. Le 31 juillet 1914, au café du Croissant à Paris, il est assassiné par le nationaliste Raoul Villain, trois jours avant la déclaration de guerre allemande.",
+    "en": "Jean Jaurès was born in September 1859 in Castres, in the Tarn, into a lower middle-class family, and came first in the entrance exam to the École normale supérieure in 1878. A philosophy agrégé, he taught in Albi and Toulouse and in 1885 became France's youngest deputy as a moderate republican. Defeated in 1889, he backed the Carmaux miners' strike in 1892 and turned to socialism, winning the Carmaux seat in 1893. A committed defender of Captain Dreyfus, he lost his seat in 1898 before regaining it in 1902. In April 1904 he founded the newspaper L'Humanité, and he played a decisive part in uniting the socialists in the SFIO in 1905. A historian as well, he led a major Socialist History of the French Revolution. As war approached, he campaigned for arbitration between nations, opposed the law extending military service to three years and urged international working-class action to prevent the conflict. On 31 July 1914, at the Café du Croissant in Paris, he was shot dead by the nationalist Raoul Villain, three days before Germany declared war on France."
+  },
+  "highlights": {
+    "fr": [
+      "Plus jeune député de France, élu en 1885",
+      "Soutient la grève des mineurs de Carmaux en 1892",
+      "Fonde le journal L’Humanité en avril 1904",
+      "Artisan de l’unification socialiste dans la SFIO en 1905",
+      "Assassiné au café du Croissant le 31 juillet 1914"
+    ],
+    "en": [
+      "France's youngest deputy, elected in 1885",
+      "Backed the Carmaux miners' strike in 1892",
+      "Founded the newspaper L'Humanité in April 1904",
+      "Key architect of socialist unity in the SFIO in 1905",
+      "Assassinated at the Café du Croissant on 31 July 1914"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure tutélaire de la gauche française, inhumé au Panthéon en 1924, il incarne l’alliance du socialisme, de la République et du pacifisme.",
+    "en": "A guiding figure of the French left, interred in the Panthéon in 1924, he embodies the union of socialism, the Republic and pacifism."
   }
 }

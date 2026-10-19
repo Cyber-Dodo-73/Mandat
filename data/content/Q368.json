@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Augusto Pinochet naît le 25 novembre 1915 à Valparaíso et entre à l'école militaire Bernardo O'Higgins dans les années 1930. Officier de carrière, il enseigne la géographie et la stratégie à l'Académie de guerre et gravit lentement les échelons. Le président socialiste Salvador Allende le nomme commandant en chef de l'armée en août 1973 ; moins de trois semaines plus tard, le 11 septembre, Pinochet dirige le coup d'État qui bombarde le palais de La Moneda, où Allende meurt. À la tête de la junte, puis président, il instaure une dictature : selon les commissions officielles chiliennes, plus de 3 000 personnes sont tuées ou disparaissent et des dizaines de milliers sont emprisonnées et torturées, notamment par la police secrète DINA. Le régime organise aussi des assassinats à l'étranger, comme celui de l'ancien ministre Orlando Letelier à Washington en 1976. Conseillé par les Chicago Boys, il impose des réformes ultralibérales et fait adopter en 1980 une constitution taillée pour durer. Battu au plébiscite de 1988, il cède la présidence en 1990 mais garde l'armée jusqu'en 1998, avant d'être arrêté à Londres sur mandat espagnol. Libéré pour raisons de santé en 2000 et poursuivi au Chili, il meurt à Santiago le 10 décembre 2006 sans avoir été condamné.",
+    "en": "Augusto Pinochet was born on 25 November 1915 in Valparaíso and entered the Bernardo O'Higgins Military School in the 1930s. A career officer, he taught geography and strategy at the War Academy and climbed the ranks slowly. Socialist president Salvador Allende appointed him army commander-in-chief in August 1973; less than three weeks later, on 11 September, Pinochet led the coup in which La Moneda palace was bombed and Allende died. As head of the junta and then president, he imposed a dictatorship: according to Chile's official commissions, more than 3,000 people were killed or disappeared and tens of thousands were imprisoned and tortured, notably by the DINA secret police. The regime also carried out killings abroad, including the 1976 car-bomb murder of former minister Orlando Letelier in Washington. Advised by the Chicago Boys, he imposed sweeping free-market reforms and had a constitution adopted in 1980 designed to outlast him. Defeated in the 1988 plebiscite, he handed over the presidency in 1990 but kept command of the army until 1998, when he was arrested in London on a Spanish warrant. Released on health grounds in 2000 and prosecuted at home, he died in Santiago on 10 December 2006 without ever being convicted."
+  },
+  "highlights": {
+    "fr": [
+      "11 septembre 1973 : dirige le coup d'État contre Salvador Allende",
+      "1973-1990 : plus de 3 000 morts et disparus, des dizaines de milliers de torturés",
+      "1980 : fait adopter une constitution encore en partie en vigueur",
+      "1988 : perd le plébiscite et doit céder le pouvoir en 1990",
+      "1998 : arrêté à Londres sur mandat d'un juge espagnol"
+    ],
+    "en": [
+      "11 September 1973: led the coup against Salvador Allende",
+      "1973–1990: over 3,000 killed or disappeared, tens of thousands tortured",
+      "1980: imposed a constitution that remains partly in force",
+      "1988: lost the plebiscite and had to hand over power in 1990",
+      "1998: arrested in London on a Spanish judge's warrant"
+    ]
+  },
+  "legacy": {
+    "fr": "Son arrestation à Londres a fait date pour la justice universelle, et le Chili reste divisé sur l'héritage de sa dictature et de son modèle économique.",
+    "en": "His arrest in London was a landmark for universal jurisdiction, and Chile remains divided over the legacy of his dictatorship and economic model."
   }
 }

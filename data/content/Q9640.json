@@ -32,5 +32,29 @@
         "value": "diplomacy"
       }
     }
+  },
+  "story": {
+    "fr": "Lyndon Baines Johnson naît le 27 août 1908 près de Stonewall, dans la campagne du Texas, et devient instituteur auprès d'enfants mexicano-américains pauvres après ses études au collège d'État de San Marcos en 1930. Protégé de Franklin Roosevelt, il dirige au Texas l'agence fédérale pour la jeunesse avant d'entrer à la Chambre des représentants en 1937. En 1948, il gagne de justesse une primaire sénatoriale contestée et devient sénateur, puis chef de la majorité démocrate en 1955, réputé pour son art de la persuasion. Vice-président de John F. Kennedy en 1961, il prête serment à bord d'Air Force One le 22 novembre 1963, quelques heures après l'assassinat de celui-ci à Dallas. Il fait voter la loi sur les droits civiques de 1964, remporte une victoire écrasante face à Barry Goldwater, puis lance la Great Society : Medicare et Medicaid, loi sur le droit de vote de 1965, réforme de l'immigration et guerre contre la pauvreté. Mais, après la résolution du golfe du Tonkin d'août 1964, il engage massivement l'armée au Vietnam, où plus de 500 000 soldats américains sont déployés en 1968. Contesté jusque dans son parti, il annonce le 31 mars 1968 qu'il ne se représentera pas et meurt dans son ranch le 22 janvier 1973.",
+    "en": "Lyndon Baines Johnson was born on 27 August 1908 near Stonewall, in rural Texas, and taught poor Mexican-American children after graduating from the state teachers college in San Marcos in 1930. A protégé of Franklin Roosevelt, he ran the National Youth Administration in Texas before entering the House of Representatives in 1937. In 1948 he narrowly won a disputed Senate primary and went on to become Democratic majority leader in 1955, famous for his relentless arm-twisting. Elected John F. Kennedy's vice president in 1960, he was sworn in aboard Air Force One on 22 November 1963, hours after Kennedy's assassination in Dallas. He pushed through the Civil Rights Act of 1964, won a landslide over Barry Goldwater, then launched the Great Society: Medicare and Medicaid, the Voting Rights Act of 1965, immigration reform and a war on poverty. But after the Gulf of Tonkin Resolution of August 1964 he escalated the war in Vietnam, where more than 500,000 American troops were deployed by 1968. Facing revolt even within his own party, he announced on 31 March 1968 that he would not seek re-election, and he died at his ranch on 22 January 1973."
+  },
+  "highlights": {
+    "fr": [
+      "1955 : devient chef de la majorité démocrate au Sénat",
+      "22 novembre 1963 : prête serment après l'assassinat de Kennedy",
+      "1964 : signe la loi sur les droits civiques",
+      "1965 : crée Medicare et Medicaid, signe la loi sur le droit de vote",
+      "1965-1968 : porte à plus de 500 000 les soldats américains au Vietnam"
+    ],
+    "en": [
+      "1955: became Senate Democratic majority leader",
+      "22 November 1963: sworn in as president after Kennedy's assassination",
+      "1964: signed the Civil Rights Act",
+      "1965: created Medicare and Medicaid and signed the Voting Rights Act",
+      "1965–1968: raised US troop levels in Vietnam above 500,000"
+    ]
+  },
+  "legacy": {
+    "fr": "Johnson laisse les plus grandes lois sociales et civiques depuis le New Deal, mais son nom reste aussi lié à l'enlisement au Vietnam.",
+    "en": "Johnson left the most far-reaching social and civil rights laws since the New Deal, yet his name remains tied to the Vietnam quagmire."
   }
 }

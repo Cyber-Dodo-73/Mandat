@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1758 dans le comté de Westmoreland, en Virginie, James Monroe quitte ses études pour combattre dans la guerre d'indépendance, où il est blessé à Trenton. Formé au droit auprès de Thomas Jefferson, il est élu sénateur en 1790, puis nommé ministre en France de 1794 à 1796. Gouverneur de Virginie de 1799 à 1802, il retourne à Paris en 1803 pour aider à négocier l'achat de la Louisiane. Il est ensuite ministre à Londres jusqu'en 1807. Secrétaire d'État de James Madison à partir de 1811, il dirige aussi le département de la Guerre pendant la guerre de 1812 contre la Grande-Bretagne. Élu président en 1816, il préside à « l'ère des bons sentiments », obtient la Floride de l'Espagne et signe le compromis du Missouri en 1820. En 1823, il énonce la doctrine qui porte son nom, avertissant l'Europe de ne plus coloniser les Amériques. Après deux mandats, il se retire en 1825 et meurt à New York le 4 juillet 1831.",
+    "en": "Born in Westmoreland County, Virginia, in 1758, James Monroe left college to fight in the War of Independence and was wounded at Trenton. He studied law under Thomas Jefferson, was elected to the Senate in 1790 and served as minister to France from 1794 to 1796. After a term as governor of Virginia from 1799 to 1802, he returned to Paris in 1803 to help negotiate the Louisiana Purchase. He then served as minister in London until 1807. Secretary of State to James Madison from 1811, he also ran the War Department during the War of 1812 against Britain. Elected president in 1816, he presided over the 'Era of Good Feelings', obtained Florida from Spain and signed the Missouri Compromise in 1820. In 1823 he set out the doctrine that bears his name, warning Europe against further colonisation in the Americas. He stepped down in 1825 after two terms and died in New York on 4 July 1831."
+  },
+  "highlights": {
+    "fr": [
+      "1803 : contribue à négocier l'achat de la Louisiane",
+      "1814 : dirige l'effort de guerre contre la Grande-Bretagne",
+      "1820 : signe le compromis du Missouri",
+      "1823 : énonce la doctrine Monroe"
+    ],
+    "en": [
+      "1803: helps negotiate the Louisiana Purchase",
+      "1814: runs the war effort against Britain",
+      "1820: signs the Missouri Compromise",
+      "1823: proclaims the Monroe Doctrine"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier président issu de la génération révolutionnaire, il a légué une doctrine qui a guidé pendant deux siècles la politique américaine envers l'Amérique latine.",
+    "en": "The last president from the revolutionary generation, he left a doctrine that shaped US policy towards Latin America for two centuries."
   }
 }

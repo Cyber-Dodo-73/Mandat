@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né vers 1270, sans doute dans le Renfrewshire, William Wallace appartient à la petite noblesse écossaise, et sa jeunesse reste très mal connue. En 1296, le roi d'Angleterre Édouard Ier envahit l'Écosse, dépose le roi John Balliol et y installe son administration. En mai 1297, Wallace tue le shérif anglais de Lanark et devient l'un des chefs du soulèvement. Le 11 septembre 1297, avec Andrew Moray, il écrase une armée anglaise au pont de Stirling en attaquant pendant sa traversée. Il mène ensuite des raids dans le nord de l'Angleterre, puis il est fait chevalier et nommé gardien du royaume d'Écosse au nom de Balliol. Le 22 juillet 1298, Édouard Ier le bat à Falkirk, et Wallace renonce à la garde du royaume. Il part ensuite chercher des appuis diplomatiques, notamment en France, puis continue la lutte par la guérilla. Capturé près de Glasgow en août 1305, il est conduit à Londres, jugé pour trahison à Westminster et exécuté le 23 août à Smithfield : pendu, éviscéré et démembré, ses restes étant exposés dans plusieurs villes.",
+    "en": "Born around 1270, probably in Renfrewshire, William Wallace came from the minor Scottish gentry, and very little is known of his early life. In 1296 King Edward I of England invaded Scotland, deposed King John Balliol and installed his own administration. In May 1297 Wallace killed the English sheriff of Lanark and became one of the leaders of the uprising. On 11 September 1297, together with Andrew Moray, he crushed an English army at Stirling Bridge by attacking it as it crossed. He went on to raid northern England, and was knighted and named Guardian of the Kingdom of Scotland in Balliol's name. On 22 July 1298 Edward I defeated him at Falkirk, and Wallace gave up the guardianship. He then sought diplomatic support abroad, notably in France, before returning to guerrilla warfare. Captured near Glasgow in August 1305, he was taken to London, tried for treason at Westminster and executed on 23 August at Smithfield: hanged, drawn and quartered, his remains displayed in several towns."
+  },
+  "highlights": {
+    "fr": [
+      "Tue le shérif anglais de Lanark en mai 1297",
+      "Vainqueur au pont de Stirling le 11 septembre 1297",
+      "Gardien du royaume d'Écosse de 1297 à 1298",
+      "Exécuté à Londres le 23 août 1305"
+    ],
+    "en": [
+      "Killed the English sheriff of Lanark in May 1297",
+      "Victor at Stirling Bridge on 11 September 1297",
+      "Guardian of the Kingdom of Scotland in 1297–1298",
+      "Executed in London on 23 August 1305"
+    ]
+  },
+  "legacy": {
+    "fr": "Héros national de l'Écosse, honoré par le monument Wallace près de Stirling, il a été popularisé dans le monde par le film Braveheart en 1995.",
+    "en": "A Scottish national hero honoured by the Wallace Monument near Stirling, he was made famous worldwide by the 1995 film Braveheart."
   }
 }

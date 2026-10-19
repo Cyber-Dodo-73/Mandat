@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1869 à Porbandar, dans l'ouest de l'Inde, Mohandas Karamchand Gandhi part étudier le droit à Londres et devient avocat en 1891. Installé en Afrique du Sud à partir de 1893, il y subit la discrimination raciale et organise la résistance de la communauté indienne, élaborant sa méthode de désobéissance civile non violente, le satyagraha. De retour en Inde en 1915, il prend la tête du Congrès national indien et lance de vastes campagnes de non-coopération contre l'administration britannique. En 1930, il mène la marche du sel, longue de près de 400 kilomètres, pour défier le monopole colonial sur le sel, ce qui lui vaut d'être nommé personnalité de l'année par Time. Emprisonné à plusieurs reprises, il lance en 1942 le mouvement « Quit India », qui exige le départ immédiat des Britanniques. L'indépendance est obtenue en août 1947, mais accompagnée de la partition et de violences entre hindous et musulmans qu'il tente d'apaiser par des jeûnes. Il est assassiné à Delhi le 30 janvier 1948 par un nationaliste hindou.",
+    "en": "Born in 1869 in Porbandar, western India, Mohandas Karamchand Gandhi studied law in London and qualified as a barrister in 1891. Settling in South Africa from 1893, he experienced racial discrimination and organised the Indian community's resistance, developing his method of non-violent civil disobedience, satyagraha. Back in India in 1915, he became the leading figure of the Indian National Congress and launched mass non-cooperation campaigns against British rule. In 1930 he led the Salt March, a walk of nearly 400 kilometres to defy the colonial salt monopoly, and Time named him its Man of the Year. Jailed several times, he launched the Quit India movement in 1942, demanding an immediate British withdrawal. Independence came in August 1947, but with partition and Hindu–Muslim bloodshed that he tried to calm through fasting. He was shot dead in Delhi on 30 January 1948 by a Hindu nationalist."
+  },
+  "highlights": {
+    "fr": [
+      "Élabore en Afrique du Sud la méthode de résistance non violente du satyagraha",
+      "Mène en 1930 la marche du sel contre le monopole colonial",
+      "Lance en 1942 le mouvement « Quit India »",
+      "Voit l'Inde accéder à l'indépendance en août 1947"
+    ],
+    "en": [
+      "Developed the non-violent resistance method of satyagraha in South Africa",
+      "Led the 1930 Salt March against the colonial salt monopoly",
+      "Launched the Quit India movement in 1942",
+      "Saw India become independent in August 1947"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé le Mahatma, il est honoré en Inde comme le père de la nation, et sa non-violence a inspiré Martin Luther King et Nelson Mandela.",
+    "en": "Known as the Mahatma, he is honoured in India as the father of the nation, and his non-violence inspired Martin Luther King and Nelson Mandela."
   }
 }

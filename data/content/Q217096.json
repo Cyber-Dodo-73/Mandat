@@ -29,5 +29,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Tokyo le 23 février 1960, Naruhito est le fils aîné du futur empereur Akihito et de Michiko, et le premier héritier du trône élevé auprès de ses parents. Diplômé d'histoire de l'université Gakushūin en 1982, il passe ensuite deux ans au Merton College d'Oxford, où il étudie le transport fluvial sur la Tamise au XVIIIe siècle. Devenu prince héritier à l'avènement de son père en 1989, il est officiellement investi en 1991. En 1993, il épouse Masako Owada, diplomate formée à Harvard et Oxford ; leur fille unique, la princesse Aiko, naît en 2001, relançant le débat sur une succession réservée aux hommes. Pendant trois décennies, il représente le Japon à l'étranger et s'engage sur les questions d'eau et d'assainissement auprès des Nations unies. Après l'abdication de son père, il devient le 126e empereur le 1er mai 2019, ouvrant l'ère Reiwa, et son intronisation solennelle a lieu en octobre de la même année. Son début de règne est marqué par la pandémie de Covid-19 et l'ouverture, en 2021, des Jeux olympiques de Tokyo sans public. En 2026, il reçoit l'ordre philippin de Lakandula, dernière en date de nombreuses distinctions étrangères.",
+    "en": "Born in Tokyo on 23 February 1960, Naruhito is the elder son of the future Emperor Akihito and Empress Michiko, and the first heir to be raised by his own parents. After graduating in history from Gakushūin University in 1982, he spent two years at Merton College, Oxford, researching river transport on the eighteenth-century Thames. He became crown prince when his father acceded in 1989 and was formally invested in 1991. In 1993 he married Masako Owada, a diplomat educated at Harvard and Oxford; their only child, Princess Aiko, was born in 2001, reviving debate over the male-only succession. For three decades he represented Japan abroad and championed water and sanitation issues at the United Nations. After his father's abdication he became the 126th emperor on 1 May 2019, opening the Reiwa era, with a formal enthronement that October. The early years of his reign were shaped by the Covid-19 pandemic and by his opening of the Tokyo Olympics without spectators in 2021. In 2026 he received the Philippine Order of Lakandula, the latest of many foreign honours."
+  },
+  "highlights": {
+    "fr": [
+      "Étudie au Merton College d'Oxford de 1983 à 1985",
+      "Épouse la diplomate Masako Owada en 1993",
+      "Devient le 126e empereur du Japon le 1er mai 2019",
+      "Ouvre l'ère Reiwa et préside à l'ouverture des JO de Tokyo en 2021"
+    ],
+    "en": [
+      "Studied at Merton College, Oxford, from 1983 to 1985",
+      "Married the diplomat Masako Owada in 1993",
+      "Became Japan's 126th emperor on 1 May 2019",
+      "Opened the Reiwa era and the Tokyo Olympics in 2021"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier empereur né après la guerre, il incarne une monarchie discrète et moderne, tandis que l'avenir de la succession reste une question ouverte au Japon.",
+    "en": "The first emperor born after the war, he embodies a discreet, modern monarchy, while the future of the succession remains an open question in Japan."
   }
 }

@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né au milieu du XVIIIe siècle sur l'île d'Hawaï, dans la région de Kohala selon la tradition, Kamehameha est élevé à la cour de son oncle, le chef suprême Kalaniʻōpuʻu. Il est présent lors des contacts avec l'expédition de James Cook en 1778-1779. À la mort de Kalaniʻōpuʻu en 1782, il entre en guerre contre son cousin Kīwalaʻō, héritier désigné, qu'il défait à Mokuʻōhai. Après des années de luttes, il s'impose sur toute l'île d'Hawaï, puis attaque Maui et Oʻahu en s'aidant d'armes à feu et de conseillers européens. En 1795, la bataille de Nuʻuanu sur Oʻahu, où de nombreux défenseurs sont poussés du haut des falaises, lui assure la maîtrise de la plupart des îles. Kauaʻi et Niʻihau se soumettent par un accord négocié en 1810, achevant l'unification du royaume d'Hawaï. Il promulgue la loi du Pagaie brisée, qui protège les civils en temps de guerre, et contrôle le commerce du santal avec les étrangers. Il meurt à Kailua-Kona en 1819 ; son fils Liholiho lui succède.",
+    "en": "Born in the mid-18th century on the island of Hawaiʻi, in the Kohala district according to tradition, Kamehameha was raised at the court of his uncle, the paramount chief Kalaniʻōpuʻu. He was present during the encounters with James Cook's expedition in 1778-1779. When Kalaniʻōpuʻu died in 1782, he went to war against his cousin and designated heir Kīwalaʻō, defeating him at Mokuʻōhai. After years of fighting he mastered the whole island of Hawaiʻi, then attacked Maui and Oʻahu with the help of firearms and European advisers. In 1795 the Battle of Nuʻuanu on Oʻahu, where many defenders were driven over the cliffs, gave him control of most of the islands. Kauaʻi and Niʻihau submitted through a negotiated agreement in 1810, completing the unification of the Kingdom of Hawaii. He issued the Law of the Splintered Paddle protecting civilians in wartime and kept control over the sandalwood trade with foreigners. He died in Kailua-Kona in 1819 and was succeeded by his son Liholiho."
+  },
+  "highlights": {
+    "fr": [
+      "Victoire de Mokuʻōhai en 1782 contre son cousin Kīwalaʻō",
+      "Bataille de Nuʻuanu en 1795 : conquête d'Oʻahu",
+      "Unifie l'archipel en 1810 avec la soumission de Kauaʻi",
+      "Promulgue la loi du Pagaie brisée protégeant les civils"
+    ],
+    "en": [
+      "Victory at Mokuʻōhai in 1782 over his cousin Kīwalaʻō",
+      "Battle of Nuʻuanu in 1795: conquest of Oʻahu",
+      "Unified the islands in 1810 when Kauaʻi submitted",
+      "Issued the Law of the Splintered Paddle protecting civilians"
+    ]
+  },
+  "legacy": {
+    "fr": "Fondateur du royaume d'Hawaï, il est honoré chaque 11 juin par un jour férié dans l'État, et sa loi du Pagaie brisée figure dans la constitution hawaïenne.",
+    "en": "Founder of the Kingdom of Hawaii, he is honoured every 11 June with a state holiday, and his Law of the Splintered Paddle is written into Hawaii's constitution."
   }
 }

@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Sydney en 1968, fils d'un policier devenu maire de quartier, Scott Morrison étudie la géographie économique à l'université de Nouvelle-Galles du Sud. Il dirige des organismes de tourisme, dont Tourism Australia de 2004 à 2006, puis la section du Parti libéral de Nouvelle-Galles du Sud. Élu député de Cook en 2007, il devient ministre de l'Immigration en 2013 et applique l'opération Sovereign Borders, qui refoule en mer les bateaux de demandeurs d'asile. Ministre des Affaires sociales puis trésorier de 2015 à 2018, il prend la tête du gouvernement en août 2018, après la chute de Malcolm Turnbull. Il remporte par surprise les élections de 2019, mais son départ en vacances à Hawaï pendant les grands incendies de l'été 2019-2020 lui est vivement reproché. Pendant la pandémie, il ferme les frontières du pays, puis signe en 2021 l'alliance AUKUS avec les États-Unis et le Royaume-Uni. Battu par Anthony Albanese en mai 2022, il est ensuite censuré par la Chambre pour s'être fait nommer en secret à la tête de cinq ministères. Il quitte le Parlement en 2024.",
+    "en": "Born in Sydney in 1968, the son of a police officer who became a local mayor, Scott Morrison studied economic geography at the University of New South Wales. He ran tourism bodies, including Tourism Australia from 2004 to 2006, and then the New South Wales Liberal Party. Elected MP for Cook in 2007, he became immigration minister in 2013 and enforced Operation Sovereign Borders, which turned asylum-seeker boats back at sea. After serving as social services minister and then treasurer from 2015 to 2018, he took over as prime minister in August 2018 when Malcolm Turnbull fell. He won a surprise election victory in 2019, but his holiday in Hawaii during the huge bushfires of the 2019–2020 summer drew fierce criticism. During the pandemic he closed the country's borders, and in 2021 he signed the AUKUS pact with the United States and Britain. Beaten by Anthony Albanese in May 2022, he was then censured by the House for having secretly had himself sworn in to five ministries. He left parliament in 2024."
+  },
+  "highlights": {
+    "fr": [
+      "2013 : lance la politique de refoulement des bateaux de migrants",
+      "2018 : devient Premier ministre d'Australie",
+      "2019 : remporte des élections jugées perdues d'avance",
+      "2021 : signe le pacte AUKUS",
+      "2022 : censuré pour avoir cumulé en secret cinq ministères"
+    ],
+    "en": [
+      "2013: launches the policy of turning back asylum boats",
+      "2018: becomes prime minister of Australia",
+      "2019: wins an election he was expected to lose",
+      "2021: signs the AUKUS pact",
+      "2022: censured for secretly holding five ministries"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a ancré l'Australie dans l'alliance AUKUS face à la Chine, mais ses nominations secrètes ont conduit à renforcer la transparence du gouvernement.",
+    "en": "He tied Australia into the AUKUS alliance against the backdrop of China's rise, but his secret appointments led to new rules on government transparency."
   }
 }

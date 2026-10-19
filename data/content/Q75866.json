@@ -30,5 +30,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Rudolf Hess naît en 1894 à Alexandrie, en Égypte, dans une famille de négociants allemands. Blessé comme fantassin pendant la Première Guerre mondiale, il termine le conflit comme élève pilote, puis étudie à Munich où il suit les cours du géopoliticien Karl Haushofer. Membre du parti nazi dès 1920, il participe au putsch de la Brasserie en novembre 1923 et partage la détention d'Hitler à Landsberg, où il l'aide à rédiger Mein Kampf. Secrétaire particulier du chef nazi, il est nommé adjoint du Führer à la tête du parti en avril 1933, puis ministre du Reich. En 1935, il cosigne les lois de Nuremberg qui privent les Juifs allemands de leur citoyenneté et interdisent les mariages mixtes, étape vers la Shoah qui coûtera la vie à six millions de Juifs. Il signe aussi des décrets d'annexion et de persécution dans la Pologne occupée après 1939. Le 10 mai 1941, il s'envole seul pour l'Écosse afin de proposer la paix au Royaume-Uni, saute en parachute et est aussitôt fait prisonnier. Jugé à Nuremberg, il est reconnu coupable de complot et de crimes contre la paix et condamné en octobre 1946 à la prison à vie. Dernier détenu de la prison de Spandau à partir de 1966, il s'y donne la mort en août 1987, à 93 ans.",
+    "en": "Rudolf Hess was born in 1894 in Alexandria, Egypt, into a family of German merchants. Wounded as an infantryman in the First World War, he ended the conflict training as a pilot, then studied in Munich under the geopolitician Karl Haushofer. A Nazi party member from 1920, he took part in the Beer Hall Putsch in November 1923 and shared Hitler's imprisonment at Landsberg, where he helped him write Mein Kampf. After serving as Hitler's private secretary, he was made Deputy Führer at the head of the party in April 1933 and then a Reich minister. In 1935 he co-signed the Nuremberg Laws, which stripped German Jews of citizenship and banned mixed marriages, a step toward the Holocaust that would kill six million Jews. He also signed annexation and persecution decrees in occupied Poland after 1939. On 10 May 1941 he flew alone to Scotland to offer Britain peace, bailed out and was taken prisoner at once. Tried at Nuremberg, he was found guilty of conspiracy and crimes against peace and sentenced to life imprisonment in October 1946. The last inmate of Spandau prison from 1966, he took his own life there in August 1987, aged 93."
+  },
+  "highlights": {
+    "fr": [
+      "Participe au putsch de la Brasserie en novembre 1923",
+      "Adjoint du Führer à partir d'avril 1933",
+      "Cosigne les lois antisémites de Nuremberg en 1935",
+      "Vol solitaire vers l'Écosse le 10 mai 1941",
+      "Condamné à la prison à vie à Nuremberg en 1946"
+    ],
+    "en": [
+      "Took part in the Beer Hall Putsch in November 1923",
+      "Deputy Führer from April 1933",
+      "Co-signed the antisemitic Nuremberg Laws in 1935",
+      "Flew alone to Scotland on 10 May 1941",
+      "Sentenced to life imprisonment at Nuremberg in 1946"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa tombe en Bavière devint un lieu de pèlerinage néonazi, au point d'être supprimée en 2011. Il reste l'un des principaux dirigeants du régime responsable de la Shoah.",
+    "en": "His grave in Bavaria became a neo-Nazi pilgrimage site and was removed in 2011. He remains one of the leading figures of the regime responsible for the Holocaust."
   }
 }

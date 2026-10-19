@@ -29,5 +29,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1887 près de Ningbo, dans le Zhejiang, Chiang Kai-shek reçoit une formation militaire au Japon et rejoint le mouvement révolutionnaire de Sun Yat-sen. En 1924, il prend la tête de l'académie militaire de Whampoa, vivier des officiers du Kuomintang. Après la mort de Sun, il lance en 1926 l'expédition du Nord pour réunifier la Chine et, en avril 1927, fait massacrer les communistes et syndicalistes de Shanghai. Il établit à Nankin un gouvernement nationaliste qu'il préside à partir de 1928. Retenu en otage à Xi'an en 1936, il accepte un front uni avec les communistes contre le Japon, qui envahit le pays en 1937. Allié des Alliés pendant la guerre, il participe à la conférence du Caire en 1943, puis perd la guerre civile contre Mao Zedong. En 1949, il se replie à Taïwan avec son gouvernement et des centaines de milliers de soldats. Il y règne jusqu'à sa mort en 1975 sous la loi martiale, dans un climat de « terreur blanche » marqué par l'emprisonnement et l'exécution de milliers d'opposants supposés.",
+    "en": "Born near Ningbo, Zhejiang, in 1887, Chiang Kai-shek trained as a soldier in Japan and joined Sun Yat-sen's revolutionary movement. In 1924 he took charge of the Whampoa Military Academy, which produced the Kuomintang's officer corps. After Sun's death he launched the Northern Expedition in 1926 to reunify China, and in April 1927 he had communists and trade unionists massacred in Shanghai. He set up a Nationalist government in Nanjing and became its chairman in 1928. Taken hostage at Xi'an in 1936, he agreed to a united front with the communists against Japan, which invaded in 1937. An Allied leader during the war, he attended the Cairo Conference in 1943, then lost the civil war to Mao Zedong. In 1949 he withdrew to Taiwan with his government and hundreds of thousands of troops. He ruled there until his death in 1975 under martial law, during a 'White Terror' in which thousands of suspected opponents were jailed or executed."
+  },
+  "highlights": {
+    "fr": [
+      "1926 : lance l'expédition du Nord pour réunifier la Chine",
+      "1927 : massacre des communistes à Shanghai",
+      "1937 : Time le nomme « homme de l'année » avec son épouse",
+      "1943 : siège avec Roosevelt et Churchill à la conférence du Caire",
+      "1949 : se replie à Taïwan, qu'il gouverne jusqu'en 1975"
+    ],
+    "en": [
+      "1926: launched the Northern Expedition to reunify China",
+      "1927: ordered the Shanghai massacre of communists",
+      "1937: named Time's Man of the Year with his wife",
+      "1943: sat with Roosevelt and Churchill at the Cairo Conference",
+      "1949: retreated to Taiwan, which he ruled until 1975"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure fondatrice de la république de Chine à Taïwan, il y est aujourd'hui largement réévalué en raison de la répression de la « terreur blanche ».",
+    "en": "A founding figure of the Republic of China on Taiwan, he is now widely reassessed there because of the repression of the White Terror."
   }
 }

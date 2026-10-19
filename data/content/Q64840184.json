@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Mohamed Irfaan Ali naît en avril 1980 à Leonora, sur la côte ouest du Demerara, dans une famille d’origine indienne, et se forme à l’aménagement urbain jusqu’au doctorat à l’université des Indes occidentales. Il travaille d’abord dans l’administration du logement, puis entre au Parlement en 2006 pour le Parti progressiste du peuple. Ministre du Logement et de l’Eau à partir de 2009, puis aussi du Tourisme et du Commerce, il conduit de vastes programmes d’attribution de terrains constructibles. Choisi en 2019 comme candidat de son parti, il dispute l’élection de mars 2020, dont le dépouillement donne lieu à cinq mois de contestations et à un recomptage national. Il prête finalement serment le 2 août 2020, au moment où le Guyana commence à exploiter ses immenses gisements pétroliers offshore. Sous sa présidence, le pays affiche l’une des croissances économiques les plus rapides du monde et lance de grands chantiers d’infrastructures. Il fait face aux revendications du Venezuela sur la région de l’Essequibo, ravivées par le référendum organisé à Caracas en décembre 2023, et rencontre Nicolás Maduro à Saint-Vincent pour apaiser la crise. Il est réélu lors des élections de septembre 2025.",
+    "en": "Mohamed Irfaan Ali was born in April 1980 in Leonora, on the West Coast of Demerara, into a family of Indian descent, and trained in urban planning up to a doctorate from the University of the West Indies. He began in housing administration and entered parliament in 2006 for the People's Progressive Party. Housing and water minister from 2009, and later also in charge of tourism and commerce, he ran large programmes handing out house lots. Chosen as his party's candidate in 2019, he contested the March 2020 election, whose count led to five months of disputes and a national recount. He was finally sworn in on 2 August 2020, just as Guyana began pumping its vast offshore oil reserves. Under his presidency the country posted one of the fastest growth rates in the world and launched major infrastructure projects. He faced Venezuela's claim to the Essequibo region, revived by a referendum held in Caracas in December 2023, and met Nicolás Maduro in Saint Vincent to defuse the crisis. He was re-elected in the September 2025 election."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre du Logement et de l’Eau du Guyana à partir de 2009",
+      "Investi président le 2 août 2020 après cinq mois de recomptage",
+      "Préside au boom pétrolier offshore du Guyana",
+      "Rencontre Nicolás Maduro en décembre 2023 sur l’Essequibo",
+      "Réélu président en septembre 2025"
+    ],
+    "en": [
+      "Guyana's housing and water minister from 2009",
+      "Sworn in as president on 2 August 2020 after a five-month recount",
+      "Presided over Guyana's offshore oil boom",
+      "Met Nicolás Maduro over the Essequibo in December 2023",
+      "Re-elected president in September 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Son nom reste associé à la transformation rapide du Guyana par le pétrole et à la défense de son intégrité territoriale face au Venezuela.",
+    "en": "His name is tied to Guyana's rapid oil-driven transformation and to the defence of its territory against Venezuela's claims."
   }
 }

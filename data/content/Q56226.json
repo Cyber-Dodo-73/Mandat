@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1984, Kim Jong-un est le troisième fils de Kim Jong-il et petit-fils du fondateur du régime, Kim Il-sung ; il aurait été en partie scolarisé en Suisse sous un nom d'emprunt. Désigné héritier en 2010 avec le grade de général, il prend la tête du pays à la mort de son père en décembre 2011 et devient commandant suprême de l'armée. En 2012, il accède à la direction du Parti du travail et de l'État. Il consolide son pouvoir par des purges, dont l'exécution de son oncle Jang Song-thaek en 2013, et son demi-frère Kim Jong-nam est assassiné au gaz VX à Kuala Lumpur en 2017. Sous son règne, la Corée du Nord multiplie les essais nucléaires, dont un engin thermonucléaire en 2017, et teste des missiles capables d'atteindre les États-Unis. En 2018 et 2019, il rencontre Moon Jae-in et à trois reprises Donald Trump, sans accord de dénucléarisation. Les Nations unies documentent sous son régime des camps de prisonniers politiques, des exécutions et un contrôle total de la population. Depuis 2023, il se rapproche de Moscou, envoyant munitions puis soldats soutenir la guerre russe en Ukraine.",
+    "en": "Born in 1984, Kim Jong-un is the third son of Kim Jong-il and grandson of the regime's founder, Kim Il-sung; he is believed to have attended school in Switzerland under an assumed name. Named heir in 2010 and made a general, he took over the country when his father died in December 2011 and became supreme commander of the army. In 2012 he assumed the top posts of the Workers' Party and the state. He cemented his rule through purges, including the execution of his uncle Jang Song-thaek in 2013, while his half-brother Kim Jong-nam was killed with VX nerve agent in Kuala Lumpur in 2017. Under him North Korea carried out repeated nuclear tests, including a thermonuclear device in 2017, and tested missiles able to reach the United States. In 2018 and 2019 he met Moon Jae-in and, three times, Donald Trump, without any denuclearisation deal. UN investigators have documented political prison camps, executions and total surveillance under his rule. Since 2023 he has drawn closer to Moscow, sending munitions and then troops to back Russia's war in Ukraine."
+  },
+  "highlights": {
+    "fr": [
+      "2011 : succède à son père à la tête de la Corée du Nord",
+      "2013 : fait exécuter son oncle Jang Song-thaek",
+      "2017 : essai d'une bombe thermonucléaire et d'un missile intercontinental",
+      "2018 : premier sommet entre un dirigeant nord-coréen et un président américain",
+      "2024 : envoie des soldats combattre aux côtés de la Russie"
+    ],
+    "en": [
+      "2011: succeeded his father as North Korea's leader",
+      "2013: had his uncle Jang Song-thaek executed",
+      "2017: tested a thermonuclear bomb and an intercontinental missile",
+      "2018: first summit between a North Korean leader and a US president",
+      "2024: sent troops to fight alongside Russia"
+    ]
+  },
+  "legacy": {
+    "fr": "Troisième Kim au pouvoir, il a fait de la Corée du Nord une puissance nucléaire de fait, tout en maintenant l'un des régimes les plus répressifs au monde.",
+    "en": "The third Kim in power, he has turned North Korea into a de facto nuclear state while keeping one of the world's most repressive regimes in place."
   }
 }

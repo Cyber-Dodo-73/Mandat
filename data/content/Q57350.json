@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1952 à Fada, dans l'Ennedi, au sein de la communauté zaghawa, Idriss Déby entre dans l'armée tchadienne et suit une formation de pilote en France. Rallié à Hissène Habré, il devient commandant en chef des forces armées après la prise du pouvoir par celui-ci en 1982 et participe aux campagnes contre les troupes libyennes. Accusé de complot en 1989, il s'enfuit au Soudan, où il fonde le Mouvement patriotique du salut. Parti du Darfour, il entre dans N'Djamena en décembre 1990 et chasse Habré, dont le régime avait fait des dizaines de milliers de victimes. Il instaure le multipartisme et remporte la présidentielle de 1996, puis toutes les suivantes, après avoir fait supprimer la limite des mandats en 2005. Les revenus pétroliers, à partir de 2003, financent une armée qui repousse, avec l'appui français, des offensives rebelles sur la capitale en 2006 et 2008. Ses troupes interviennent au Mali en 2013 et contre Boko Haram autour du lac Tchad. En avril 2021, au lendemain de résultats provisoires lui donnant un sixième mandat, il meurt des blessures reçues au front face aux rebelles du FACT ; son fils Mahamat prend la tête d'un conseil militaire.",
+    "en": "Born in 1952 in Fada, in the Ennedi region, into the Zaghawa community, Idriss Déby joined the Chadian army and trained as a pilot in France. Siding with Hissène Habré, he became commander-in-chief of the armed forces after Habré took power in 1982 and fought in the campaigns against Libyan troops. Accused of plotting in 1989, he fled to Sudan, where he founded the Patriotic Salvation Movement. Striking from Darfur, he entered N'Djamena in December 1990 and drove out Habré, whose regime had claimed tens of thousands of victims. He introduced multiparty politics and won the 1996 presidential election and every one after it, having had term limits removed in 2005. Oil revenue from 2003 paid for an army that, with French support, beat back rebel assaults on the capital in 2006 and 2008. His troops went into Mali in 2013 and fought Boko Haram around Lake Chad. In April 2021, a day after provisional results gave him a sixth term, he died of wounds sustained at the front against FACT rebels, and his son Mahamat took over at the head of a military council."
+  },
+  "highlights": {
+    "fr": [
+      "Commandant en chef de l'armée tchadienne sous Hissène Habré",
+      "Renverse Habré et prend N'Djamena en décembre 1990",
+      "Élu président en 1996, puis réélu à chaque scrutin jusqu'en 2021",
+      "Repousse des offensives rebelles sur la capitale en 2006 et 2008",
+      "Envoie l'armée tchadienne combattre au Mali en 2013"
+    ],
+    "en": [
+      "Commander-in-chief of Chad's army under Hissène Habré",
+      "Overthrew Habré and took N'Djamena in December 1990",
+      "Elected president in 1996 and re-elected at every vote until 2021",
+      "Fought off rebel offensives on the capital in 2006 and 2008",
+      "Sent Chad's army to fight in Mali in 2013"
+    ]
+  },
+  "legacy": {
+    "fr": "Allié clé de l'Occident contre le djihadisme au Sahel, il laisse un pouvoir autoritaire transmis à son fils, élu président en 2024.",
+    "en": "A key Western ally against jihadism in the Sahel, he left an authoritarian system handed down to his son, elected president in 2024."
   }
 }

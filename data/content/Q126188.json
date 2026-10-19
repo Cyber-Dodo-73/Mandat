@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Jacques naît en octobre 1633 au palais Saint-James, à Londres, fils cadet de Charles Ier, et reçoit le titre de duc d'York. Pendant la guerre civile, il s'évade en 1648 et sert en exil dans les armées française et espagnole. À la Restauration de 1660, son frère Charles II le nomme grand amiral ; il épouse la même année Anne Hyde, mère des futures reines Marie et Anne. En 1664, une flotte envoyée en son nom prend la Nouvelle-Amsterdam aux Néerlandais, rebaptisée New York, et il commande lui-même la flotte contre les Provinces-Unies à Lowestoft en 1665 et à Solebay en 1672. Converti au catholicisme, il doit renoncer à ses fonctions en 1673 à cause du Test Act, puis survit aux tentatives du Parlement de l'exclure de la succession. Roi en février 1685, il écrase la rébellion de son neveu Monmouth à Sedgemoor ; des centaines de rebelles sont pendus ou déportés lors des « Assises sanglantes ». Ses déclarations d'indulgence en faveur des catholiques et la naissance d'un fils en juin 1688 décident ses adversaires à appeler Guillaume d'Orange. Abandonné par son armée, il s'enfuit en France en décembre 1688, tente une reconquête par l'Irlande mais est battu à la Boyne en juillet 1690. Il meurt en exil à Saint-Germain-en-Laye en septembre 1701.",
+    "en": "James was born at St James's Palace, London, in October 1633, the younger son of Charles I, and was made Duke of York. During the Civil War he escaped in 1648 and served in exile in the French and Spanish armies. At the Restoration in 1660 his brother Charles II made him Lord High Admiral, and that year he married Anne Hyde, mother of the future queens Mary and Anne. In 1664 a fleet sent in his name took New Amsterdam from the Dutch and renamed it New York, and he personally led the fleet against the Dutch at Lowestoft in 1665 and Solebay in 1672. Having become a Catholic, he was forced out of office by the Test Act in 1673, then survived Parliament's attempts to exclude him from the succession. King from February 1685, he crushed his nephew Monmouth's rebellion at Sedgemoor; hundreds of rebels were hanged or transported in the 'Bloody Assizes'. His declarations of indulgence for Catholics and the birth of a son in June 1688 led his opponents to call in William of Orange. Deserted by his army, he fled to France in December 1688, tried to win back his crown through Ireland but was beaten at the Boyne in July 1690. He died in exile at Saint-Germain-en-Laye in September 1701."
+  },
+  "highlights": {
+    "fr": [
+      "Grand amiral d'Angleterre à partir de 1660",
+      "La Nouvelle-Amsterdam, prise en 1664, est rebaptisée New York",
+      "Roi d'Angleterre, d'Écosse et d'Irlande de 1685 à 1688",
+      "Écrase la rébellion de Monmouth à Sedgemoor en 1685",
+      "Renversé par la Glorieuse Révolution en décembre 1688"
+    ],
+    "en": [
+      "Lord High Admiral from 1660",
+      "New Amsterdam, taken in 1664, renamed New York in his honour",
+      "King of England, Scotland and Ireland from 1685 to 1688",
+      "Crushed Monmouth's rebellion at Sedgemoor in 1685",
+      "Ousted by the Glorious Revolution in December 1688"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier roi catholique d'Angleterre, il a donné son nom à New York et au mouvement jacobite, qui a soutenu ses descendants jusqu'en 1746.",
+    "en": "England's last Catholic king, he lent his name to New York and to the Jacobite movement, which backed his heirs until 1746."
   }
 }

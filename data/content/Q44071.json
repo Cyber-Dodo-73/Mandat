@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Iouri Andropov naît en 1914 dans le village de Nagoutskaïa, dans la région de Stavropol, et travaille jeune comme télégraphiste puis comme batelier sur la Volga. Dirigeant des jeunesses communistes à Iaroslavl puis en Carélie, il participe à l'organisation de la résistance de partisans pendant la guerre, avant d'être muté à Moscou en 1951. Ambassadeur en Hongrie à partir de 1954, il joue un rôle clé lors de l'insurrection de 1956 : il rassure le gouvernement d'Imre Nagy tandis que se prépare l'intervention soviétique, qui fait environ 2 500 morts hongrois en novembre. Nagy est exécuté en 1958. Secrétaire du Comité central chargé des pays socialistes, il prend en 1967 la direction du KGB, qu'il conserve quinze ans. Sous son autorité, les dissidents sont surveillés, emprisonnés ou internés en hôpital psychiatrique, Alexandre Soljenitsyne est expulsé en 1974 et Andreï Sakharov exilé à Gorki en 1980. Il soutient l'intervention en Tchécoslovaquie en 1968 et l'invasion de l'Afghanistan en décembre 1979. Élu secrétaire général du parti à la mort de Leonid Brejnev en novembre 1982, il lance une campagne contre la corruption et l'absentéisme. Son bref règne est marqué par la destruction en vol d'un Boeing de Korean Air Lines en septembre 1983, qui fait 269 morts. Gravement malade des reins, il meurt à Moscou en février 1984, après avoir favorisé l'ascension de Mikhaïl Gorbatchev.",
+    "en": "Yuri Andropov was born in 1914 in the village of Nagutskaya, Stavropol region, and worked as a young man as a telegraph operator and a Volga boatman. A communist youth leader in Yaroslavl and then Karelia, he helped organise partisan resistance during the war before being moved to Moscow in 1951. Ambassador to Hungary from 1954, he played a key role in the 1956 uprising, reassuring Imre Nagy's government while the Soviet intervention was being prepared; it killed about 2,500 Hungarians that November. Nagy was executed in 1958. After serving as Central Committee secretary for the socialist countries, he took over the KGB in 1967 and ran it for fifteen years. Under his authority dissidents were watched, jailed or locked in psychiatric hospitals, Aleksandr Solzhenitsyn was expelled in 1974 and Andrei Sakharov exiled to Gorky in 1980. He backed the intervention in Czechoslovakia in 1968 and the invasion of Afghanistan in December 1979. Chosen as party general secretary on Leonid Brezhnev's death in November 1982, he launched a drive against corruption and absenteeism. His short rule was marked by the shooting down of a Korean Air Lines Boeing in September 1983, killing 269 people. Suffering from severe kidney disease, he died in Moscow in February 1984, having helped the rise of Mikhail Gorbachev."
+  },
+  "highlights": {
+    "fr": [
+      "Ambassadeur en Hongrie lors de l'écrasement de l'insurrection de 1956",
+      "Président du KGB de 1967 à 1982",
+      "Expulsion de Soljenitsyne en 1974 et exil de Sakharov en 1980",
+      "Secrétaire général du Parti communiste de 1982 à 1984",
+      "Campagne contre la corruption et l'absentéisme en 1983"
+    ],
+    "en": [
+      "Ambassador to Hungary when the 1956 uprising was crushed",
+      "Chairman of the KGB from 1967 to 1982",
+      "Solzhenitsyn expelled in 1974 and Sakharov exiled in 1980",
+      "General Secretary of the Communist Party from 1982 to 1984",
+      "Launched a drive against corruption and absenteeism in 1983"
+    ]
+  },
+  "legacy": {
+    "fr": "Il incarne l'appareil de répression soviétique de la fin de la guerre froide, mais il a aussi préparé l'arrivée de Gorbatchev au pouvoir.",
+    "en": "He embodies the Soviet machinery of repression in the late Cold War, yet he also paved the way for Gorbachev's rise."
   }
 }

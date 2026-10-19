@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1944 dans l'ouest de l'Ouganda, dans une famille d'éleveurs, Yoweri Museveni étudie les sciences politiques à l'université de Dar es Salaam, où il se lie aux mouvements de libération africains. Après le coup d'État d'Idi Amin en 1971, il s'exile en Tanzanie et forme un groupe armé qui participe en 1979 au renversement du dictateur. Ministre de la Défense dans le gouvernement provisoire, il dénonce les élections truquées de 1980 et lance en 1981 une guérilla contre Milton Obote, dont l'armée tue des dizaines de milliers de civils dans le triangle de Luwero. Son Armée de résistance nationale prend Kampala le 26 janvier 1986, et il devient président trois jours plus tard. Il ramène une stabilité relative dans une grande partie du pays, et sa campagne contre le sida est saluée, mais le nord subit vingt ans de guerre contre l'Armée de résistance du Seigneur. Ses troupes interviennent au Congo à la fin des années 1990, ce que la Cour internationale de justice condamne en 2005. Il fait supprimer la limitation des mandats en 2005 puis la limite d'âge en 2017, réprime l'opposant Bobi Wine et promulgue en 2023 une loi très dure contre l'homosexualité.",
+    "en": "Born in 1944 into a cattle-keeping family in western Uganda, Yoweri Museveni studied political science at the University of Dar es Salaam, where he formed ties with African liberation movements. After Idi Amin's coup in 1971 he went into exile in Tanzania and built an armed group that helped overthrow the dictator in 1979. Defence minister in the interim government, he denounced the rigged elections of 1980 and in 1981 launched a guerrilla war against Milton Obote, whose army killed tens of thousands of civilians in the Luwero Triangle. His National Resistance Army took Kampala on 26 January 1986, and he became president three days later. He brought relative stability to much of the country and won praise for his campaign against AIDS, but the north endured twenty years of war with the Lord's Resistance Army. His troops intervened in Congo in the late 1990s, which the International Court of Justice condemned in 2005. He had presidential term limits scrapped in 2005 and the age cap in 2017, cracked down on the opposition figure Bobi Wine and signed a harsh anti-homosexuality law in 2023."
+  },
+  "highlights": {
+    "fr": [
+      "1979 : participe au renversement d'Idi Amin",
+      "1981 : lance la guérilla de l'Armée de résistance nationale",
+      "26 janvier 1986 : ses troupes prennent Kampala",
+      "2005 : fait supprimer la limitation des mandats présidentiels",
+      "2017 : la limite d'âge des candidats est abolie"
+    ],
+    "en": [
+      "1979: helps overthrow Idi Amin",
+      "1981: launches the National Resistance Army's guerrilla war",
+      "26 January 1986: his forces capture Kampala",
+      "2005: has presidential term limits scrapped",
+      "2017: the age cap for candidates is abolished"
+    ]
+  },
+  "legacy": {
+    "fr": "Libérateur devenu dirigeant inamovible, il a apporté la stabilité à l'Ouganda tout en verrouillant le pouvoir pendant près de quarante ans.",
+    "en": "A liberator turned ruler for life, he brought stability to Uganda while locking down power for nearly forty years."
   }
 }

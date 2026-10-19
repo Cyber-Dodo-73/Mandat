@@ -30,5 +30,29 @@
         "value": "influence"
       }
     }
+  },
+  "story": {
+    "fr": "Sarvepalli Radhakrishnan naît en 1888 à Tiruttani, dans l'actuel Tamil Nadu, dans une famille brahmane modeste de langue télougoue. Il étudie la philosophie au Madras Christian College, où son mémoire de maîtrise sur l'éthique du Vedanta répond aux critiques des missionnaires. Professeur à Madras, Mysore puis Calcutta, il publie dans les années 1920 une vaste Philosophie indienne en deux volumes qui le fait connaître en Occident. Vice-chancelier de l'université d'Andhra de 1931 à 1936, il occupe ensuite à Oxford la chaire Spalding des religions orientales et dirige l'université hindoue de Bénarès pendant la guerre. Membre de l'Assemblée constituante, il préside en 1948 une commission sur l'enseignement supérieur, puis devient ambassadeur en Union soviétique de 1949 à 1952. Élu premier vice-président de l'Inde en 1952, il reçoit le Bharat Ratna en 1954. Président de la République de 1962 à 1967, il traverse la guerre avec la Chine en 1962, les morts successives de Nehru et de Shastri et la guerre indo-pakistanaise de 1965. Retiré à Madras, il reçoit le prix Templeton en 1975 et meurt en avril de la même année.",
+    "en": "Sarvepalli Radhakrishnan was born in 1888 in Tiruttani, in present-day Tamil Nadu, into a modest Telugu-speaking Brahmin family. He studied philosophy at Madras Christian College, where his master's thesis on the ethics of the Vedanta answered the criticisms of missionaries. A professor in Madras, Mysore and then Calcutta, he published in the 1920s a sweeping two-volume Indian Philosophy that made his name in the West. After serving as vice-chancellor of Andhra University from 1931 to 1936, he held the Spalding chair of Eastern religions at Oxford and ran Banaras Hindu University during the war. A member of the Constituent Assembly, he chaired a commission on higher education in 1948 and then served as ambassador to the Soviet Union from 1949 to 1952. Elected India's first vice president in 1952, he received the Bharat Ratna in 1954. As president from 1962 to 1967 he saw the 1962 war with China, the deaths of Nehru and then Shastri, and the 1965 war with Pakistan. Retiring to Madras, he was awarded the Templeton Prize in 1975 and died in April that year."
+  },
+  "highlights": {
+    "fr": [
+      "Publie Philosophie indienne en deux volumes dans les années 1920",
+      "Professeur Spalding de religions orientales à Oxford dès 1936",
+      "Ambassadeur en URSS de 1949 à 1952",
+      "Premier vice-président de l'Inde, de 1952 à 1962",
+      "Président de l'Inde de 1962 à 1967"
+    ],
+    "en": [
+      "Published the two-volume Indian Philosophy in the 1920s",
+      "Spalding Professor of Eastern Religions at Oxford from 1936",
+      "Ambassador to the Soviet Union from 1949 to 1952",
+      "India's first vice president, from 1952 to 1962",
+      "President of India from 1962 to 1967"
+    ]
+  },
+  "legacy": {
+    "fr": "Son anniversaire, le 5 septembre, est célébré en Inde comme la Journée des enseignants, et ses ouvrages restent des références sur la pensée indienne.",
+    "en": "His birthday, 5 September, is celebrated in India as Teachers' Day, and his books remain standard references on Indian thought."
   }
 }

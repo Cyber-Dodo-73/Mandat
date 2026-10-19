@@ -32,5 +32,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Née à Honolulu en 1838 dans une famille de la haute noblesse hawaïenne, Liliʻuokalani reçoit une éducation soignée dans une école missionnaire et devient une musicienne accomplie. Son frère David Kalākaua, élu roi en 1874, la désigne héritière en 1877, et elle assure la régence pendant son tour du monde de 1881. En 1887, elle représente le royaume au jubilé de la reine Victoria à Londres ; la même année, des planteurs et hommes d'affaires d'origine américaine imposent au roi la « constitution à la baïonnette », qui réduit le pouvoir royal et le droit de vote des Hawaïens. Elle accède au trône en janvier 1891 à la mort de son frère. En janvier 1893, alors qu'elle prépare une nouvelle constitution pour restaurer l'autorité de la couronne, un comité de sécurité appuyé par des marines débarqués d'un navire américain la renverse. Un gouvernement provisoire puis une république sont proclamés. Après l'échec d'un soulèvement royaliste en 1895, elle est arrêtée, contrainte d'abdiquer et assignée au palais ʻIolani. Elle plaide ensuite à Washington contre l'annexion, réalisée en 1898, et meurt à Honolulu en 1917.",
+    "en": "Born in Honolulu in 1838 into a family of high Hawaiian chiefs, Liliʻuokalani was educated at a missionary school and became an accomplished musician. Her brother David Kalākaua, elected king in 1874, named her heir in 1877, and she served as regent during his world tour in 1881. In 1887 she represented the kingdom at Queen Victoria's jubilee in London; that same year, planters and businessmen of American origin forced the king to accept the Bayonet Constitution, which curbed royal power and stripped many Hawaiians of the vote. She came to the throne in January 1891 when her brother died. In January 1893, as she prepared a new constitution to restore the crown's authority, a Committee of Safety backed by marines landed from a US warship overthrew her. A provisional government and then a republic were proclaimed. After a failed royalist uprising in 1895 she was arrested, forced to abdicate and confined in ʻIolani Palace. She went on to lobby in Washington against annexation, which went ahead in 1898, and died in Honolulu in 1917."
+  },
+  "highlights": {
+    "fr": [
+      "Régente du royaume en 1881 pendant le tour du monde de Kalākaua",
+      "Devient en 1891 la première et seule reine régnante d'Hawaï",
+      "Renversée en janvier 1893 par un comité appuyé par des marines américains",
+      "Compose la chanson Aloha ʻOe, devenue un symbole d'Hawaï"
+    ],
+    "en": [
+      "Served as regent in 1881 during Kalākaua's world tour",
+      "Became Hawaii's first and only reigning queen in 1891",
+      "Overthrown in January 1893 by a committee backed by US marines",
+      "Composed the song Aloha ʻOe, now a symbol of Hawaii"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernière souveraine d'Hawaï, elle incarne la résistance à l'annexion ; le Congrès américain a présenté en 1993 des excuses officielles pour son renversement.",
+    "en": "Hawaii's last sovereign, she embodies resistance to annexation; in 1993 the US Congress formally apologised for her overthrow."
   }
 }

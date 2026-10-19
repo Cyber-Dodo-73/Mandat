@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1895 à Lobos, dans la province de Buenos Aires, Juan Domingo Perón fait carrière dans l'armée et observe de près le fascisme lors d'une mission en Italie en 1939-1940. Membre de la loge d'officiers qui renverse le gouvernement en 1943, il devient secrétaire au Travail, puis ministre de la Guerre et vice-président en 1944, et gagne l'appui des syndicats. Arrêté en octobre 1945, il est libéré le 17 octobre sous la pression d'une immense manifestation ouvrière et épouse peu après l'actrice Eva Duarte. Élu président en 1946, il étend les droits sociaux, nationalise les chemins de fer et accorde le vote aux femmes en 1947. Son régime censure la presse, emprisonne des opposants et accueille plusieurs criminels de guerre nazis. Réélu en 1951, il perd Eva en 1952, puis se heurte à l'Église et à une partie de l'armée ; en juin 1955, un bombardement de la place de Mai par des avions de la marine fait plus de 300 morts. Renversé en septembre 1955, il passe dix-huit ans en exil, principalement à Madrid. Rentré en 1973, il est réélu avec plus de 60 % des voix et meurt en fonctions le 1er juillet 1974.",
+    "en": "Born in Lobos, Buenos Aires Province, in 1895, Juan Domingo Perón made his career in the army and watched fascism at close range during a posting to Italy in 1939–1940. A member of the officers' lodge that seized power in 1943, he became labour secretary, then war minister and vice president in 1944, winning the backing of the unions. Arrested in October 1945, he was freed on 17 October under pressure from a huge workers' demonstration and soon married the actress Eva Duarte. Elected president in 1946, he expanded social rights, nationalised the railways and gave women the vote in 1947. His government censored the press, jailed opponents and took in several Nazi war criminals. Re-elected in 1951, he lost Eva in 1952 and then clashed with the Church and part of the military; in June 1955 navy aircraft bombed the Plaza de Mayo, killing more than 300 people. Overthrown in September 1955, he spent eighteen years in exile, mostly in Madrid. Back in 1973, he was re-elected with over 60% of the vote and died in office on 1 July 1974."
+  },
+  "highlights": {
+    "fr": [
+      "17 octobre 1945 : libéré grâce à une immense manifestation ouvrière",
+      "1946 : élu président de l'Argentine",
+      "1947 : le droit de vote est accordé aux femmes",
+      "1955 : renversé par un coup d'État et exilé",
+      "1973 : réélu après dix-huit ans d'exil"
+    ],
+    "en": [
+      "17 October 1945: freed thanks to a massive workers' rally",
+      "1946: elected president of Argentina",
+      "1947: women are given the right to vote",
+      "1955: overthrown in a coup and exiled",
+      "1973: re-elected after eighteen years in exile"
+    ]
+  },
+  "legacy": {
+    "fr": "Le péronisme, mêlant nationalisme, droits sociaux et culte du chef, domine encore la vie politique argentine un demi-siècle après sa mort.",
+    "en": "Peronism, a blend of nationalism, social rights and personality cult, still dominates Argentine politics half a century after his death."
   }
 }

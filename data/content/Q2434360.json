@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1964 à West Point, dans le Nebraska, Tim Walz s'engage à dix-sept ans dans la Garde nationale, où il servira vingt-quatre ans. Diplômé du Chadron State College en 1989, il enseigne un an en Chine avant de devenir professeur et entraîneur de football américain au lycée, d'abord au Nebraska puis à Mankato, dans le Minnesota. Il obtient une maîtrise à l'université d'État du Minnesota à Mankato en 2001. En 2006, il remporte un siège de représentant dans une circonscription rurale tenue jusque-là par les républicains et le conserve jusqu'en 2019, s'occupant notamment des anciens combattants. Élu gouverneur du Minnesota en 2018, il affronte en 2020 la pandémie et les émeutes de Minneapolis après le meurtre de George Floyd par un policier. Réélu en 2022 avec une majorité démocrate au Parlement de l'État, il fait voter les repas scolaires gratuits et un congé familial payé. En août 2024, Kamala Harris le choisit comme colistier, mais le ticket est battu par Donald Trump et J. D. Vance en novembre.",
+    "en": "Born in West Point, Nebraska, in 1964, Tim Walz joined the National Guard at seventeen and served for twenty-four years. After graduating from Chadron State College in 1989 he taught for a year in China, then became a high-school teacher and football coach, first in Nebraska and later in Mankato, Minnesota. He earned a master's degree from Minnesota State University, Mankato, in 2001. In 2006 he won a House seat in a rural district long held by Republicans and kept it until 2019, with a focus on veterans' issues. Elected governor of Minnesota in 2018, he faced the pandemic in 2020 and the unrest in Minneapolis after a police officer murdered George Floyd. Re-elected in 2022 with a Democratic legislature, he enacted free school meals and paid family leave. In August 2024 Kamala Harris chose him as her running mate, but the ticket lost to Donald Trump and J. D. Vance that November."
+  },
+  "highlights": {
+    "fr": [
+      "1981-2005 : sert 24 ans dans la Garde nationale",
+      "2006 : élu représentant d'une circonscription rurale du Minnesota",
+      "2019 : devient gouverneur du Minnesota",
+      "2023 : fait voter les repas scolaires gratuits",
+      "2024 : colistier de Kamala Harris"
+    ],
+    "en": [
+      "1981–2005: serves 24 years in the National Guard",
+      "2006: elected to the House from a rural Minnesota district",
+      "2019: becomes governor of Minnesota",
+      "2023: enacts free school meals",
+      "2024: Kamala Harris's running mate"
+    ]
+  },
+  "legacy": {
+    "fr": "Ancien professeur au style simple, il a fait du Minnesota un laboratoire de politiques sociales démocrates, sans parvenir à conquérir la vice-présidence.",
+    "en": "A former teacher with a folksy style, he made Minnesota a testing ground for Democratic social policy but fell short of the vice presidency."
   }
 }

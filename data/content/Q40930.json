@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Les origines de Néfertiti, dont le nom signifie « la belle est venue », restent inconnues, même si certains égyptologues la rattachent à l'entourage du dignitaire Aÿ. Vers le milieu du XIVe siècle av. J.-C., elle devient la grande épouse royale d'Amenhotep IV, qui prend bientôt le nom d'Akhenaton. Le couple impose le culte du disque solaire Aton au détriment des anciens dieux, et Néfertiti ajoute à son nom l'épithète Néfernéferouaton. Vers la cinquième année du règne, la cour s'installe dans une capitale nouvelle, Akhetaton, sur le site de l'actuelle Amarna. Les reliefs de cette époque la montrent avec une place inhabituelle pour une reine, offrant des sacrifices, frappant des ennemis ou entourée du roi et de leurs six filles, dont la future épouse de Toutânkhamon. Une inscription découverte en 2012 dans une carrière prouve qu'elle porte encore son titre de reine la seizième année du règne. Certains chercheurs l'identifient au pharaon Néfernéferouaton qui aurait régné brièvement après Akhenaton, une hypothèse toujours débattue, et sa tombe n'a jamais été retrouvée. Le 6 décembre 1912, une équipe allemande dirigée par Ludwig Borchardt découvre à Amarna, dans l'atelier du sculpteur Thoutmôsis, son buste peint, aujourd'hui conservé à Berlin.",
+    "en": "The origins of Nefertiti, whose name means 'the beautiful one has come', are unknown, although some Egyptologists link her to the circle of the courtier Ay. Around the middle of the 14th century BC she became Great Royal Wife of Amenhotep IV, who soon took the name Akhenaten. The couple promoted the worship of the sun disc Aten at the expense of the old gods, and Nefertiti added the epithet Neferneferuaten to her name. Around the fifth year of the reign the court moved to a new capital, Akhetaten, at the site of present-day Amarna. Reliefs from this period give her an unusual place for a queen, making offerings, smiting enemies or shown with the king and their six daughters, one of whom later married Tutankhamun. An inscription found in a quarry in 2012 shows that she still held the title of queen in the sixteenth year of the reign. Some scholars identify her with the pharaoh Neferneferuaten, who may have reigned briefly after Akhenaten, a theory still debated, and her tomb has never been found. On 6 December 1912 a German team led by Ludwig Borchardt found her painted bust at Amarna, in the workshop of the sculptor Thutmose, and it is now kept in Berlin."
+  },
+  "highlights": {
+    "fr": [
+      "Grande épouse royale d'Akhenaton au XIVe siècle av. J.-C.",
+      "Associée au culte du disque solaire Aton",
+      "Installée avec la cour à Akhetaton, l'actuelle Amarna",
+      "Mère de six filles, dont l'épouse de Toutânkhamon",
+      "Son buste, trouvé le 6 décembre 1912, est exposé à Berlin"
+    ],
+    "en": [
+      "Great Royal Wife of Akhenaten in the 14th century BC",
+      "Closely tied to the cult of the sun disc Aten",
+      "Moved with the court to Akhetaten, present-day Amarna",
+      "Mother of six daughters, one of whom married Tutankhamun",
+      "Her bust, found on 6 December 1912, is on display in Berlin"
+    ]
+  },
+  "legacy": {
+    "fr": "Son buste est devenu l'une des œuvres les plus célèbres de l'Égypte antique, et l'Égypte en réclame régulièrement la restitution à l'Allemagne.",
+    "en": "Her bust has become one of the most famous works of ancient Egypt, and Egypt regularly asks Germany to return it."
   }
 }

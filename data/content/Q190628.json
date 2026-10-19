@@ -30,5 +30,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Née Barbara Pierce en 1925 dans le quartier du Queens, à New York, elle grandit à Rye, dans une famille d'éditeurs de magazines. À seize ans, elle rencontre George Bush lors d'un bal et l'épouse en janvier 1945, pendant qu'il est pilote dans la marine. Elle abandonne ses études au Smith College et suit son mari au Texas en 1948, où naissent leurs six enfants. La mort de leur fille Robin d'une leucémie, en 1953, la marque profondément. Épouse du vice-président de 1981 à 1989, elle devient première dame en 1989 et fait de l'alphabétisation des familles sa grande cause, en créant une fondation à son nom. Son style direct, ses cheveux blancs et ses colliers de perles la rendent très populaire. Après la défaite de 1992, elle soutient les carrières de ses fils George W., élu président en 2000, et Jeb, gouverneur de Floride. Elle meurt à Houston en avril 2018, quelques mois avant son mari.",
+    "en": "Born Barbara Pierce in 1925 in the New York borough of Queens, she grew up in Rye in a family of magazine publishers. At sixteen she met George Bush at a dance and married him in January 1945, while he was a navy pilot. She left Smith College and followed her husband to Texas in 1948, where their six children were born. The death of their daughter Robin from leukaemia in 1953 affected her deeply. Second Lady from 1981 to 1989, she became First Lady in 1989 and made family literacy her central cause, setting up a foundation in her name. Her blunt manner, white hair and pearl necklaces made her widely popular. After the 1992 defeat she supported the careers of her sons George W., elected president in 2000, and Jeb, governor of Florida. She died in Houston in April 2018, months before her husband."
+  },
+  "highlights": {
+    "fr": [
+      "1945 : épouse George H. W. Bush",
+      "1981 : devient seconde dame des États-Unis",
+      "1989 : première dame, crée sa fondation pour l'alphabétisation",
+      "2001 : son fils George W. Bush devient président"
+    ],
+    "en": [
+      "1945: marries George H. W. Bush",
+      "1981: becomes Second Lady of the United States",
+      "1989: First Lady, sets up her family literacy foundation",
+      "2001: her son George W. Bush becomes president"
+    ]
+  },
+  "legacy": {
+    "fr": "Seule femme avec Abigail Adams à avoir été épouse et mère de présidents, elle reste associée à la lutte contre l'illettrisme.",
+    "en": "The only woman besides Abigail Adams to be both wife and mother of presidents, she remains linked to the fight against illiteracy."
   }
 }

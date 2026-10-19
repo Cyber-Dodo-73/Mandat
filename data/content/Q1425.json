@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Marcus Ulpius Traianus naît en 53 à Italica, près de l'actuelle Séville, fils d'un sénateur qui a gouverné la Syrie. Il fait carrière dans l'armée, commande une légion en Hispanie et la conduit en 89 vers le Rhin contre un général révolté, puis devient consul en 91. Gouverneur de Germanie supérieure, il est adopté en 97 par l'empereur Nerva, sous la pression de l'armée, et lui succède en janvier 98. Premier empereur né hors d'Italie, il entretient de bons rapports avec le Sénat et crée les alimenta, des aides pour nourrir les enfants pauvres d'Italie. Il mène deux guerres contre les Daces de Décébale, en 101-102 puis en 105-106, qui s'achèvent par le suicide du roi et l'annexion de la Dacie et de ses mines d'or. La même année, il annexe le royaume nabatéen, qui devient la province d'Arabie. Le butin finance à Rome un nouveau forum, des marchés et la colonne Trajane, inaugurée en 113, qui raconte les campagnes daciques. En 114, il attaque les Parthes, annexe l'Arménie et la Mésopotamie et prend la capitale Ctésiphon en 116, portant l'Empire à son extension maximale. Mais des révoltes, notamment juives, éclatent dans l'Orient, et il meurt sur le chemin du retour à Sélinonte, en Cilicie, en août 117.",
+    "en": "Marcus Ulpius Traianus was born in 53 at Italica, near present-day Seville, the son of a senator who had governed Syria. He made his career in the army, commanding a legion in Hispania that he led to the Rhine in 89 against a rebel general, and became consul in 91. While governor of Upper Germany he was adopted in 97 by Emperor Nerva, under pressure from the army, and succeeded him in January 98. The first emperor born outside Italy, he kept good relations with the Senate and set up the alimenta, grants to feed poor children in Italy. He fought two wars against Decebalus and the Dacians, in 101–102 and 105–106, ending with the king's suicide and the annexation of Dacia and its gold mines. That same year he annexed the Nabataean kingdom as the province of Arabia. The spoils paid for a new forum, markets and Trajan's Column in Rome, dedicated in 113, which tells the story of the Dacian campaigns. In 114 he attacked Parthia, annexed Armenia and Mesopotamia and took the capital Ctesiphon in 116, bringing the Empire to its greatest extent. But revolts broke out in the East, many of them Jewish, and he died on the way home at Selinus in Cilicia in August 117."
+  },
+  "highlights": {
+    "fr": [
+      "Premier empereur romain né en province, règne de 98 à 117",
+      "Conquête de la Dacie en 106",
+      "Annexion du royaume nabatéen, devenu province d'Arabie, en 106",
+      "Inauguration de la colonne Trajane en 113",
+      "Prise de Ctésiphon en 116 : l'Empire à son apogée territorial"
+    ],
+    "en": [
+      "First Roman emperor born in a province, reigned 98–117",
+      "Conquered Dacia in 106",
+      "Annexed the Nabataean kingdom as the province of Arabia in 106",
+      "Dedicated Trajan's Column in 113",
+      "Took Ctesiphon in 116, bringing the Empire to its peak"
+    ]
+  },
+  "legacy": {
+    "fr": "Le Sénat lui décerna le titre d'Optimus, « le meilleur », et les empereurs suivants furent salués du vœu d'être « plus heureux qu'Auguste, meilleur que Trajan ».",
+    "en": "The Senate granted him the title Optimus, 'the best', and later emperors were hailed with the wish to be 'luckier than Augustus, better than Trajan'."
   }
 }

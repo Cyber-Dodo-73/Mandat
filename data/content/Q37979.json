@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1933 au palais impérial de Tokyo, Akihito est le fils aîné de l'empereur Hirohito et passe une partie de la guerre évacué loin de la capitale. Après la défaite, il reçoit notamment l'enseignement d'une préceptrice américaine, Elizabeth Gray Vining, qui l'initie à l'anglais et aux valeurs occidentales. En 1953, il représente le Japon au couronnement d'Élisabeth II, lors d'une grande tournée à l'étranger. En 1959, il épouse Michiko Shōda, fille d'un industriel, première roturière à entrer dans la famille impériale. Il accède au trône en janvier 1989, ouvrant l'ère Heisei, et devient le premier empereur à régner entièrement comme symbole constitutionnel sans pouvoir politique. Il multiplie les visites aux victimes de catastrophes, s'agenouillant pour leur parler, et se rend sur les champs de bataille de la Seconde Guerre mondiale en exprimant ses remords. Après le séisme et le tsunami de mars 2011, il adresse aux Japonais un message télévisé exceptionnel. En 2016, il évoque publiquement son âge et sa santé ; une loi spéciale lui permet d'abdiquer le 30 avril 2019, première abdication depuis deux siècles, et il devient empereur émérite.",
+    "en": "Born at the Tokyo Imperial Palace in 1933, Akihito was the eldest son of Emperor Hirohito and spent part of the war evacuated away from the capital. After Japan's defeat he was tutored by an American, Elizabeth Gray Vining, who taught him English and Western ideas. In 1953 he represented Japan at Elizabeth II's coronation during a long trip abroad. In 1959 he married Michiko Shōda, an industrialist's daughter and the first commoner to join the imperial family. He took the throne in January 1989, opening the Heisei era, as the first emperor to reign entirely as a constitutional symbol with no political power. He made a habit of visiting disaster victims, kneeling to talk to them, and travelled to Second World War battlefields to express remorse. After the earthquake and tsunami of March 2011, he addressed the nation in a rare televised message. In 2016 he spoke publicly about his age and health; a special law let him abdicate on 30 April 2019, the first abdication in two centuries, and he became emperor emeritus."
+  },
+  "highlights": {
+    "fr": [
+      "1959 : épouse Michiko Shōda, première roturière de la famille impériale",
+      "1989 : monte sur le trône et ouvre l'ère Heisei",
+      "2011 : s'adresse à la nation à la télévision après le tsunami",
+      "2019 : abdique, première abdication d'un empereur japonais depuis 1817"
+    ],
+    "en": [
+      "1959: married Michiko Shōda, the first commoner in the imperial family",
+      "1989: ascended the throne, opening the Heisei era",
+      "2011: addressed the nation on television after the tsunami",
+      "2019: abdicated, the first Japanese emperor to do so since 1817"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a donné à la monarchie japonaise un visage proche des citoyens et des gestes de réconciliation envers l'Asie. Son abdication a ouvert un débat durable sur l'avenir de la succession impériale.",
+    "en": "He gave Japan's monarchy a face close to ordinary people and made gestures of reconciliation towards Asia. His abdication opened a lasting debate on the future of the imperial succession."
   }
 }

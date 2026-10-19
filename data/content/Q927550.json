@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Sydney en 1954, Malcolm Turnbull est élevé par son père après le départ de sa mère, quand il a neuf ans. Diplômé de droit à Sydney, il obtient en 1978 une bourse Rhodes pour Oxford, puis travaille comme journaliste et avocat. En 1986-1987, il défend avec succès l'ancien agent Peter Wright et la publication de ses mémoires, Spycatcher, contre le gouvernement britannique. Devenu banquier d'affaires, notamment chez Goldman Sachs, il préside le Mouvement républicain australien et mène le camp du « oui » lors du référendum perdu de 1999. Élu député de Wentworth en 2004, il devient ministre de l'Environnement en 2007 puis chef du Parti libéral en 2008, avant d'être renversé fin 2009 par Tony Abbott, à une voix près, sur la question du marché du carbone. Ministre des Communications à partir de 2013, il évince Abbott en septembre 2015 et devient Premier ministre. Il remporte de justesse les élections de 2016 et fait légaliser le mariage homosexuel en 2017 après une consultation postale. Renversé par son propre parti en août 2018 au profit de Scott Morrison, il quitte le Parlement peu après.",
+    "en": "Born in Sydney in 1954, Malcolm Turnbull was raised by his father after his mother left when he was nine. A Sydney law graduate, he won a Rhodes Scholarship to Oxford in 1978 and then worked as a journalist and barrister. In 1986–1987 he successfully defended the former intelligence officer Peter Wright and the publication of his memoir, Spycatcher, against the British government. Later an investment banker, notably at Goldman Sachs, he chaired the Australian Republican Movement and led the 'yes' side in the lost 1999 referendum. Elected MP for Wentworth in 2004, he became environment minister in 2007 and Liberal leader in 2008, only to be ousted by Tony Abbott by a single vote at the end of 2009 over carbon trading. Communications minister from 2013, he unseated Abbott in September 2015 and became prime minister. He narrowly won the 2016 election and legalised same-sex marriage in 2017 after a postal survey. Toppled by his own party in August 2018 in favour of Scott Morrison, he left parliament soon afterwards."
+  },
+  "highlights": {
+    "fr": [
+      "1987 : gagne l'affaire Spycatcher contre le gouvernement britannique",
+      "1999 : mène le camp républicain au référendum",
+      "2008 : prend la tête du Parti libéral",
+      "2015 : devient Premier ministre d'Australie",
+      "2017 : légalisation du mariage homosexuel"
+    ],
+    "en": [
+      "1987: wins the Spycatcher case against the British government",
+      "1999: leads the republican side in the referendum",
+      "2008: becomes leader of the Liberal Party",
+      "2015: becomes prime minister of Australia",
+      "2017: same-sex marriage is legalised"
+    ]
+  },
+  "legacy": {
+    "fr": "Libéral modéré, il a fait aboutir le mariage pour tous mais symbolise aussi l'instabilité qui a vu l'Australie changer six fois de Premier ministre entre 2007 et 2018.",
+    "en": "A moderate Liberal, he delivered marriage equality but also stands for the instability that saw Australia change prime minister six times from 2007 to 2018."
   }
 }

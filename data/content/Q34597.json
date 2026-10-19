@@ -30,5 +30,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "James A. Garfield naît en 1831 dans une cabane en rondins du comté de Cuyahoga, dans l'Ohio, et perd son père avant l'âge de deux ans. Après avoir travaillé sur les canaux, il étudie à l'institut de Hiram, puis au Williams College, et revient diriger l'établissement de Hiram comme enseignant et prédicateur. Élu au Sénat de l'Ohio en 1859, il s'engage dans l'armée de l'Union pendant la guerre de Sécession et devient général après sa victoire de Middle Creek en 1862. Élu à la Chambre des représentants, il y siège de 1863 à 1880 et s'impose comme un spécialiste des finances publiques chez les républicains. En 1880, venu soutenir un autre candidat à la convention de son parti, il est désigné par surprise au 36e tour de scrutin. Il remporte de justesse la présidentielle face à Winfield Hancock et prend ses fonctions en mars 1881. Le 2 juillet 1881, il est blessé par balle dans une gare de Washington par Charles Guiteau, un solliciteur déçu de ne pas avoir obtenu de poste. Mal soigné, il succombe à l'infection le 19 septembre à Long Branch, dans le New Jersey, après seulement deux cents jours de mandat.",
+    "en": "James A. Garfield was born in 1831 in a log cabin in Cuyahoga County, Ohio, and lost his father before he was two. After working on canal boats, he studied at the Hiram institute and then at Williams College, returning to lead the Hiram school as teacher and preacher. Elected to the Ohio Senate in 1859, he joined the Union army in the Civil War and was made a general after his victory at Middle Creek in 1862. Elected to the House of Representatives, he served from 1863 to 1880 and became the Republicans' leading expert on public finance. At the 1880 party convention, where he had come to back another candidate, he was chosen as a surprise nominee on the 36th ballot. He narrowly beat Winfield Hancock and took office in March 1881. On 2 July 1881 he was shot at a Washington railway station by Charles Guiteau, a disappointed office-seeker. Poorly treated by his doctors, he died of infection on 19 September in Long Branch, New Jersey, after only two hundred days in office."
+  },
+  "highlights": {
+    "fr": [
+      "Devient général de l'Union après la bataille de Middle Creek en 1862",
+      "Représentant de l'Ohio au Congrès pendant dix-sept ans, de 1863 à 1880",
+      "Désigné candidat républicain au 36e tour de scrutin en 1880",
+      "20e président des États-Unis, assassiné après 200 jours de mandat en 1881"
+    ],
+    "en": [
+      "Made a Union general after the Battle of Middle Creek in 1862",
+      "Represented Ohio in Congress for seventeen years, 1863–1880",
+      "Picked as Republican nominee on the 36th ballot in 1880",
+      "20th U.S. president, assassinated after 200 days in office in 1881"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa mort, causée par un solliciteur éconduit, a accéléré l'adoption en 1883 de la loi Pendleton, qui fonde le recrutement des fonctionnaires fédéraux sur le mérite.",
+    "en": "His death at the hands of a spurned office-seeker hastened the 1883 Pendleton Act, which based the hiring of federal civil servants on merit."
   }
 }

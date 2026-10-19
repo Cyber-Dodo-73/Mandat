@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Léopold Sédar Senghor naît en octobre 1906 à Joal, sur la Petite-Côte sénégalaise, et poursuit ses études au lycée Louis-le-Grand à Paris, où il se lie avec Georges Pompidou. En 1935, il devient le premier Africain agrégé de grammaire et fonde avec Aimé Césaire et Léon-Gontran Damas le mouvement de la négritude. Mobilisé en 1939, il est fait prisonnier en 1940 et passe près de deux ans dans les camps allemands. Député du Sénégal à l’Assemblée nationale française à partir de 1945, il crée son propre parti en 1948 et siège aussi à l’Assemblée consultative du Conseil de l’Europe. Après l’éphémère Fédération du Mali, il devient en 1960 le premier président du Sénégal indépendant. Fin 1962, il écarte son président du Conseil, Mamadou Dia, accusé de tentative de coup d’État et emprisonné, puis gouverne avec un parti dominant avant de rouvrir peu à peu le jeu politique à partir de 1974. Le 31 décembre 1980, il quitte volontairement le pouvoir au profit d’Abdou Diouf, un geste rare en Afrique à l’époque. Élu à l’Académie française en 1983, premier Africain à y siéger, il meurt en Normandie en décembre 2001.",
+    "en": "Léopold Sédar Senghor was born in October 1906 in Joal, on Senegal's Petite-Côte, and continued his studies at the Lycée Louis-le-Grand in Paris, where he befriended Georges Pompidou. In 1935 he became the first African to pass the agrégation in grammar, and with Aimé Césaire and Léon-Gontran Damas he founded the Négritude movement. Called up in 1939, he was captured in 1940 and spent nearly two years in German camps. A deputy for Senegal in the French National Assembly from 1945, he set up his own party in 1948 and also sat in the Council of Europe's consultative assembly. After the short-lived Mali Federation, he became the first president of independent Senegal in 1960. In late 1962 he pushed aside his prime minister, Mamadou Dia, who was accused of attempting a coup and jailed, then ruled through a dominant party before gradually reopening political life from 1974. On 31 December 1980 he stepped down of his own accord in favour of Abdou Diouf, a rare move in Africa at the time. Elected to the Académie française in 1983, its first African member, he died in Normandy in December 2001."
+  },
+  "highlights": {
+    "fr": [
+      "Premier Africain agrégé de grammaire en 1935",
+      "Cofonde le mouvement de la négritude dans les années 1930",
+      "Premier président du Sénégal indépendant de 1960 à 1980",
+      "Quitte volontairement le pouvoir le 31 décembre 1980",
+      "Premier Africain élu à l’Académie française en 1983"
+    ],
+    "en": [
+      "First African to pass the grammar agrégation, in 1935",
+      "Co-founded the Négritude movement in the 1930s",
+      "First president of independent Senegal from 1960 to 1980",
+      "Stepped down voluntarily on 31 December 1980",
+      "First African elected to the Académie française, in 1983"
+    ]
+  },
+  "legacy": {
+    "fr": "Poète majeur de langue française et chef d’État, il a laissé au Sénégal une tradition d’alternance civile et à la littérature l’héritage de la négritude.",
+    "en": "A major French-language poet as well as a head of state, he left Senegal a tradition of civilian transfers of power and literature the legacy of Négritude."
   }
 }

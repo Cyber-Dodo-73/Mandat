@@ -29,5 +29,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Londres en 1926, Elizabeth n'était pas destinée au trône jusqu'à l'abdication de son oncle Édouard VIII en 1936, qui fit de son père George VI le roi. Pendant la Seconde Guerre mondiale, elle s'engage en 1945 dans le service auxiliaire féminin de l'armée comme conductrice et mécanicienne. Elle épouse Philip Mountbatten en 1947 et apprend la mort de son père en février 1952 lors d'un voyage au Kenya. Couronnée à Westminster en juin 1953, lors de la première cérémonie de ce type retransmise à la télévision, elle règne sur le Royaume-Uni, le Canada et une série de royaumes du Commonwealth. Son règne accompagne la décolonisation de l'Empire britannique et l'entrée du pays dans l'Europe puis sa sortie, à travers quinze Premiers ministres britanniques, de Churchill à Liz Truss. Les crises familiales des années 1990, culminant avec la mort de Diana en 1997, ébranlent un temps la popularité de la monarchie. Elle meurt à Balmoral en septembre 2022, après soixante-dix ans de règne, le plus long de l'histoire britannique.",
+    "en": "Born in London in 1926, Elizabeth was not expected to reign until her uncle Edward VIII abdicated in 1936, making her father George VI king. During the Second World War she joined the women's Auxiliary Territorial Service in 1945, training as a driver and mechanic. She married Philip Mountbatten in 1947 and learned of her father's death in February 1952 while on a tour in Kenya. Crowned at Westminster Abbey in June 1953, in the first coronation shown on television, she reigned over the United Kingdom, Canada and a range of Commonwealth realms. Her reign spanned the dismantling of the British Empire, Britain's entry into and exit from the European project, and fifteen British prime ministers from Churchill to Liz Truss. Family turmoil in the 1990s, culminating in Diana's death in 1997, briefly shook the monarchy's standing. She died at Balmoral in September 2022 after seventy years on the throne, the longest reign in British history."
+  },
+  "highlights": {
+    "fr": [
+      "Couronnée en 1953, premier sacre britannique retransmis à la télévision",
+      "Règne de 70 ans (1952-2022), le plus long de l'histoire britannique",
+      "Chef d'État d'une quinzaine de royaumes du Commonwealth",
+      "Première visite d'un monarque britannique en République d'Irlande, en 2011"
+    ],
+    "en": [
+      "Crowned in 1953, the first British coronation broadcast on television",
+      "Reigned for 70 years (1952–2022), the longest in British history",
+      "Head of state of around fifteen Commonwealth realms",
+      "Made the first visit by a British monarch to the Republic of Ireland, in 2011"
+    ]
+  },
+  "legacy": {
+    "fr": "Symbole de continuité pour plusieurs générations, elle a adapté la monarchie à la fin de l'Empire et au Commonwealth moderne.",
+    "en": "A symbol of continuity for generations, she adapted the monarchy to the end of empire and to the modern Commonwealth."
   }
 }

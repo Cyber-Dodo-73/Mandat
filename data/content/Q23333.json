@@ -32,5 +32,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Gough Whitlam naît en juillet 1916 à Kew, près de Melbourne, sert comme navigateur dans l’aviation pendant la Seconde Guerre mondiale puis devient avocat à Sydney. Élu député de Werriwa en 1952, il prend la tête du Parti travailliste en 1967 et le modernise en profondeur. En décembre 1972, il met fin à vingt-trois ans de pouvoir conservateur et cumule d’abord plusieurs ministères, dont les Affaires étrangères et la Justice. En quelques mois, il abolit la conscription, retire les dernières troupes du Vietnam, reconnaît la Chine populaire et rend l’université gratuite. Son gouvernement crée l’assurance maladie universelle Medibank, adopte la loi contre la discrimination raciale de 1975 et le divorce sans faute, et conduit la Papouasie-Nouvelle-Guinée à l’indépendance. Réélu en 1974, il s’enlise dans l’inflation et le scandale des emprunts, tandis que le Sénat bloque le budget en octobre 1975. Le 11 novembre 1975, le gouverneur général John Kerr le révoque, un geste sans précédent, et les libéraux de Malcolm Fraser remportent largement les élections suivantes. Il quitte la direction du parti après une nouvelle défaite en 1977, devient ambassadeur auprès de l’Unesco en 1983 et meurt à Sydney en octobre 2014.",
+    "en": "Gough Whitlam was born in July 1916 in Kew, near Melbourne, served as an air force navigator in the Second World War and became a barrister in Sydney. Elected member for Werriwa in 1952, he took over the Labor Party in 1967 and overhauled it. In December 1972 he ended twenty-three years of conservative rule, at first holding several portfolios himself, including foreign affairs and justice. Within months he abolished conscription, pulled the last troops out of Vietnam, recognised the People's Republic of China and made university free. His government created the universal health scheme Medibank, passed the 1975 Racial Discrimination Act and no-fault divorce, and led Papua New Guinea to independence. Re-elected in 1974, he became mired in inflation and the loans affair, while the Senate blocked his budget in October 1975. On 11 November 1975 Governor-General John Kerr dismissed him, an unprecedented step, and Malcolm Fraser's Liberals won the ensuing election by a landslide. He stepped down as leader after another defeat in 1977, became ambassador to UNESCO in 1983 and died in Sydney in October 2014."
+  },
+  "highlights": {
+    "fr": [
+      "Met fin à 23 ans de pouvoir conservateur en décembre 1972",
+      "Abolit la conscription et reconnaît la Chine populaire dès 1972",
+      "Crée l’assurance maladie Medibank en 1975",
+      "Seul Premier ministre australien révoqué par le gouverneur général, le 11 novembre 1975"
+    ],
+    "en": [
+      "Ended 23 years of conservative rule in December 1972",
+      "Abolished conscription and recognised the People's Republic of China in 1972",
+      "Created the Medibank health scheme in 1975",
+      "Only Australian PM dismissed by the governor-general, on 11 November 1975"
+    ]
+  },
+  "legacy": {
+    "fr": "Son gouvernement de trois ans a transformé durablement la société australienne, et sa révocation reste la plus grave crise constitutionnelle de l’histoire du pays.",
+    "en": "His three-year government reshaped Australian society for good, and his dismissal remains the gravest constitutional crisis in the country's history."
   }
 }

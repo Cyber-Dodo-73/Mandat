@@ -29,5 +29,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1800 dans une cabane en rondins du comté de Cayuga, dans l'État de New York, Millard Fillmore est d'abord apprenti drapier avant d'étudier le droit. Élu à l'assemblée de l'État en 1829 sous l'étiquette antimaçonnique, il s'installe à Buffalo. Représentant au Congrès de 1833 à 1835 puis de 1837 à 1843, il rejoint les whigs et préside la commission des finances, rédigeant le tarif de 1842. Battu pour le poste de gouverneur en 1844, il devient contrôleur de l'État puis vice-président de Zachary Taylor en 1849. À la mort de Taylor en juillet 1850, il accède à la présidence et signe le compromis de 1850, qui admet la Californie comme État libre mais durcit la loi sur les esclaves fugitifs. Il envoie aussi le commodore Perry vers le Japon pour obtenir l'ouverture de ses ports. Écarté par les whigs en 1852, il se présente en 1856 pour le Parti américain, hostile aux immigrés, et ne remporte que le Maryland. Il se consacre ensuite à la vie civique de Buffalo, où il meurt en 1874.",
+    "en": "Born in a log cabin in Cayuga County, New York, in 1800, Millard Fillmore was apprenticed to a cloth maker before studying law. Elected to the state assembly in 1829 as an Anti-Mason, he settled in Buffalo. A congressman from 1833 to 1835 and again from 1837 to 1843, he joined the Whigs and chaired the Ways and Means Committee, drafting the tariff of 1842. After losing the race for governor in 1844 he became state comptroller and then Zachary Taylor's vice president in 1849. When Taylor died in July 1850 he succeeded to the presidency and signed the Compromise of 1850, which admitted California as a free state but toughened the Fugitive Slave Act. He also sent Commodore Perry to Japan to press for the opening of its ports. Passed over by the Whigs in 1852, he ran in 1856 for the anti-immigrant American Party and carried only Maryland. He then devoted himself to civic life in Buffalo, where he died in 1874."
+  },
+  "highlights": {
+    "fr": [
+      "1842 : rédige le tarif douanier whig au Congrès",
+      "1850 : devient président à la mort de Zachary Taylor",
+      "1850 : signe le compromis et la loi sur les esclaves fugitifs",
+      "1852 : lance l'expédition Perry vers le Japon"
+    ],
+    "en": [
+      "1842: drafts the Whig tariff in Congress",
+      "1850: becomes president on Zachary Taylor's death",
+      "1850: signs the Compromise and the Fugitive Slave Act",
+      "1852: launches Perry's expedition to Japan"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier président whig, il reste associé à la loi sur les esclaves fugitifs, qui a radicalisé le Nord contre l'esclavage.",
+    "en": "The last Whig president, he remains tied to the Fugitive Slave Act, which turned much of the North firmly against slavery."
   }
 }

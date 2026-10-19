@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1890 à Denison, au Texas, et élevé à Abilene, dans le Kansas, Dwight David Eisenhower sort de West Point en 1915, mais ne combat pas pendant la Première Guerre mondiale. Officier d'état-major remarqué, il sert notamment auprès du général MacArthur aux Philippines dans les années 1930. En 1942, il commande le débarquement allié en Afrique du Nord, puis dirige les opérations en Sicile et en Italie. Commandant suprême des forces alliées en Europe, il lance le débarquement de Normandie le 6 juin 1944 et reçoit la capitulation allemande en mai 1945. Chef d'état-major de l'armée jusqu'en 1948, il préside l'université Columbia puis devient en 1951 le premier commandant militaire de l'OTAN. Candidat républicain, il est élu président en 1952 et obtient dès 1953 l'armistice en Corée. Il lance le réseau d'autoroutes inter-États, envoie la troupe à Little Rock en 1957 pour imposer la déségrégation scolaire et crée la NASA ; en quittant le pouvoir en 1961, il met en garde contre le complexe militaro-industriel, avant de mourir à Washington en 1969.",
+    "en": "Born in Denison, Texas, in 1890 and raised in Abilene, Kansas, Dwight David Eisenhower graduated from West Point in 1915 but saw no combat in the First World War. A highly rated staff officer, he served under General MacArthur in the Philippines in the 1930s. In 1942 he commanded the Allied landings in North Africa, then led operations in Sicily and Italy. As Supreme Allied Commander in Europe he launched the Normandy landings on 6 June 1944 and accepted Germany's surrender in May 1945. Army chief of staff until 1948, he then served as president of Columbia University and in 1951 became NATO's first supreme commander. Running as a Republican, he was elected president in 1952 and secured an armistice in Korea in 1953. He launched the interstate highway system, sent troops to Little Rock in 1957 to enforce school desegregation and created NASA; leaving office in 1961, he warned against the military-industrial complex, and he died in Washington in 1969."
+  },
+  "highlights": {
+    "fr": [
+      "Commande le débarquement allié en Afrique du Nord en novembre 1942",
+      "Dirige le débarquement de Normandie le 6 juin 1944",
+      "Premier commandant suprême des forces de l'OTAN en 1951",
+      "Élu président en 1952, obtient l'armistice en Corée en 1953",
+      "Lance le réseau d'autoroutes inter-États en 1956"
+    ],
+    "en": [
+      "Commanded the Allied landings in North Africa in November 1942",
+      "Led the Normandy landings on 6 June 1944",
+      "NATO's first Supreme Allied Commander in 1951",
+      "Elected president in 1952, secured the Korean armistice in 1953",
+      "Launched the interstate highway system in 1956"
+    ]
+  },
+  "legacy": {
+    "fr": "Vainqueur militaire puis président modéré, il a présidé à la prospérité des années 1950 et son avertissement sur le complexe militaro-industriel reste cité.",
+    "en": "A victorious general turned moderate president, he presided over 1950s prosperity, and his warning about the military-industrial complex is still quoted."
   }
 }

@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Harold Holt naît en août 1908 à Sydney, étudie le droit à l’université de Melbourne et entre à la Chambre des représentants dès 1935, à vingt-sept ans. Ministre dans le premier gouvernement de Robert Menzies en 1940-1941, il s’engage brièvement dans l’armée avant de retrouver son portefeuille. Au retour des libéraux en 1949, il dirige l’Immigration jusqu’en 1956, poursuivant le vaste programme d’accueil d’Européens de l’après-guerre, ainsi que le Travail jusqu’en 1958. Trésorier de 1958 à 1966, il affronte la récession de 1961, née d’un resserrement du crédit, et prépare le passage au dollar décimal de février 1966. Il succède à Menzies comme Premier ministre en janvier 1966, assouplit la politique de l’« Australie blanche » et renforce l’engagement militaire au Vietnam aux côtés des États-Unis de Lyndon Johnson. Il remporte largement les élections de novembre 1966, et son gouvernement organise le référendum de mai 1967 qui permet de compter les Aborigènes dans la population nationale. Le 17 décembre 1967, il disparaît en nageant dans une mer agitée à Cheviot Beach, près de Portsea, au sud de Melbourne. Son corps n’a jamais été retrouvé.",
+    "en": "Harold Holt was born in August 1908 in Sydney, studied law at the University of Melbourne and entered the House of Representatives in 1935, aged twenty-seven. A minister in Robert Menzies' first government in 1940–1941, he briefly joined the army before returning to cabinet. When the Liberals came back in 1949 he ran immigration until 1956, extending the large postwar intake of European migrants, and labour until 1958. As treasurer from 1958 to 1966 he weathered the 1961 recession caused by a credit squeeze and prepared the switch to decimal currency in February 1966. He succeeded Menzies as prime minister in January 1966, loosened the White Australia policy and deepened the military commitment to Vietnam alongside Lyndon Johnson's United States. He won the November 1966 election by a wide margin, and his government held the May 1967 referendum that allowed Aboriginal people to be counted in the national population. On 17 December 1967 he vanished while swimming in rough surf at Cheviot Beach near Portsea, south of Melbourne. His body was never found."
+  },
+  "highlights": {
+    "fr": [
+      "Élu député à 27 ans, en 1935",
+      "Ministre de l’Immigration de 1949 à 1956",
+      "Trésorier lors du passage au dollar décimal en 1966",
+      "Organise le référendum de 1967 sur les Aborigènes",
+      "Disparaît en mer à Cheviot Beach le 17 décembre 1967"
+    ],
+    "en": [
+      "Elected to parliament at 27 in 1935",
+      "Minister for Immigration from 1949 to 1956",
+      "Treasurer during the 1966 switch to decimal currency",
+      "Held the 1967 referendum on Aboriginal Australians",
+      "Vanished at sea at Cheviot Beach on 17 December 1967"
+    ]
+  },
+  "legacy": {
+    "fr": "On retient surtout sa disparition inexpliquée, mais son court mandat a amorcé la fin de l’« Australie blanche » et accompagné le référendum aborigène de 1967.",
+    "en": "He is remembered above all for his unexplained disappearance, yet his short term began dismantling White Australia and saw the 1967 Aboriginal referendum through."
   }
 }

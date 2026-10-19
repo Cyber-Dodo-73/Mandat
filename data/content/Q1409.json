@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 12 à Antium, près de Rome, Caius César est le fils du général Germanicus ; enfant, il suit son père dans les camps du Rhin, où les soldats le surnomment Caligula, « petite bottine ». Après la mort suspecte de Germanicus en 19, sa mère et deux de ses frères sont persécutés et meurent en détention sous Tibère. Lui survit en vivant à Capri dans l'entourage de l'empereur, qui en fait l'un de ses héritiers. À la mort de Tibère en mars 37, le préfet du prétoire Macron le fait acclamer, et le Sénat lui confère tous les pouvoirs. Ses débuts populaires, avec amnisties et spectacles, tournent court après une grave maladie à l'automne 37. Il fait exécuter son cousin Tibère Gemellus et Macron, multiplie les procès pour trahison, dilapide le trésor en jeux et constructions et exige des honneurs divins. Une expédition avortée vers la Bretagne et la volonté de placer sa statue dans le Temple de Jérusalem alimentent sa réputation de despote. Le 24 janvier 41, des officiers de la garde prétorienne, menés par Cassius Chaerea, l'assassinent sur le Palatin avec sa femme et sa fille.",
+    "en": "Born in AD 12 at Antium near Rome, Gaius Caesar was the son of the general Germanicus; as a boy he lived in his father's camps on the Rhine, where the soldiers nicknamed him Caligula, little boot. After Germanicus's suspicious death in 19, his mother and two of his brothers were persecuted under Tiberius and died in custody. He survived by living on Capri in the emperor's household, and Tiberius made him one of his heirs. When Tiberius died in March 37, the praetorian prefect Macro had him hailed emperor and the Senate voted him full powers. His popular start, with amnesties and lavish games, ended after a serious illness in the autumn of 37. He had his cousin Tiberius Gemellus and Macro put to death, multiplied treason trials, drained the treasury on shows and building projects and demanded divine honours. An aborted expedition against Britain and his plan to set up his statue in the Temple of Jerusalem fed his image as a despot. On 24 January 41, officers of the Praetorian Guard led by Cassius Chaerea stabbed him to death on the Palatine, along with his wife and daughter."
+  },
+  "highlights": {
+    "fr": [
+      "Acclamé empereur en mars 37, à vingt-quatre ans",
+      "Fait exécuter son cousin et coempereur potentiel Tibère Gemellus",
+      "Réclame des honneurs divins de son vivant",
+      "Assassiné par des prétoriens sur le Palatin le 24 janvier 41"
+    ],
+    "en": [
+      "Hailed emperor in March 37, aged twenty-four",
+      "Had his cousin and potential co-heir Tiberius Gemellus executed",
+      "Demanded divine honours while still alive",
+      "Assassinated by praetorians on the Palatine on 24 January 41"
+    ]
+  },
+  "legacy": {
+    "fr": "Son nom est devenu synonyme de tyrannie capricieuse, même si les historiens soulignent que les récits les plus extravagants viennent de sources qui lui étaient hostiles.",
+    "en": "His name became shorthand for capricious tyranny, though historians point out that the wildest stories come from sources hostile to him."
   }
 }

@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né vers 1431 à Sighișoara, en Transylvanie, Vlad est le fils de Vlad II Dracul, membre de l'ordre du Dragon, d'où son surnom de Dracula. Enfant, il est livré avec son frère Radu en otage aux Ottomans pour garantir la loyauté de son père. Il s'empare brièvement du trône de Valachie en 1448, puis le reprend en 1456 pour un règne de six ans. Il y élimine des boyards rivaux et pratique massivement le supplice du pal, qui lui vaut le surnom de « l'Empaleur » et fait des milliers de victimes, notamment parmi les marchands saxons de Transylvanie. En 1462, il refuse le tribut au sultan Mehmed II, mène une attaque nocturne contre son camp et dresse sur sa route une forêt de corps empalés. Renversé la même année au profit de son frère Radu, il est emprisonné en Hongrie par Matthias Corvin pendant plusieurs années. Il reconquiert le trône en 1476 mais est tué peu après au combat contre les Ottomans, près de Bucarest.",
+    "en": "Born around 1431 in Sighișoara, Transylvania, Vlad was the son of Vlad II Dracul, a member of the Order of the Dragon, hence the name Dracula. As a boy he and his brother Radu were handed to the Ottomans as hostages to guarantee their father's loyalty. He briefly seized the throne of Wallachia in 1448, then took it again in 1456 for a six-year reign. He purged rival boyars and used impalement on a mass scale, earning the name 'the Impaler' and killing thousands, among them Saxon merchants of Transylvania. In 1462 he refused tribute to Sultan Mehmed II, launched a night attack on his camp and lined the sultan's path with a forest of impaled bodies. Ousted that same year in favour of his brother Radu, he was held for years in Hungary by Matthias Corvinus. He regained the throne in 1476 but was killed soon afterwards fighting the Ottomans near Bucharest."
+  },
+  "highlights": {
+    "fr": [
+      "Enfant, otage des Ottomans avec son frère Radu",
+      "1456 : reprend le trône de Valachie",
+      "Fait empaler des milliers de boyards, captifs et marchands saxons",
+      "1462 : attaque nocturne contre le camp de Mehmed II",
+      "1476 : reprend le trône puis est tué près de Bucarest"
+    ],
+    "en": [
+      "As a boy, held hostage by the Ottomans with his brother Radu",
+      "1456: retook the throne of Wallachia",
+      "Had thousands of boyars, captives and Saxon merchants impaled",
+      "1462: night attack on Mehmed II's camp",
+      "1476: regained the throne, then was killed near Bucharest"
+    ]
+  },
+  "legacy": {
+    "fr": "Héros de la résistance aux Ottomans en Roumanie, il est ailleurs surtout connu pour sa cruauté et pour avoir inspiré le Dracula de Bram Stoker.",
+    "en": "Seen in Romania as a hero of resistance to the Ottomans, he is better known elsewhere for his cruelty and for inspiring Bram Stoker's Dracula."
   }
 }

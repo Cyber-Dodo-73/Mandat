@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Emmerson Mnangagwa naît en 1942 dans la province des Midlands, en Rhodésie du Sud. Engagé jeune dans la lutte contre le pouvoir blanc, il est formé à la guérilla à l'étranger puis arrêté en 1965 pour un sabotage ; condamné à mort, il voit sa peine commuée en raison de son âge et passe une dizaine d'années en prison. Libéré, il étudie le droit à l'université de Zambie et rejoint Robert Mugabe dans la guerre de libération. À l'indépendance en 1980, il devient ministre d'État chargé de la Sécurité nationale, poste qu'il occupe pendant les massacres du Gukurahundi, où la Cinquième Brigade tue environ 20 000 civils, surtout ndebele, au Matabeleland ; il nie toute responsabilité. Il enchaîne ensuite les postes clés : Justice de 1989 à 2000, brièvement les Finances, présidence du Parlement de 2000 à 2005. Vice-président à partir de 2014, il est limogé en novembre 2017 au profit du camp de Grace Mugabe et fuit en Afrique du Sud. Quelques jours plus tard, l'armée intervient et contraint Mugabe à démissionner ; Mnangagwa prête serment le 24 novembre 2017. Il remporte en 2018 puis en 2023 des élections contestées, la première suivie de tirs de l'armée contre des manifestants à Harare.",
+    "en": "Emmerson Mnangagwa was born in 1942 in the Midlands Province of Southern Rhodesia. Drawn early into the fight against white minority rule, he trained as a guerrilla abroad and was arrested in 1965 for sabotage; sentenced to death, he had the penalty commuted because of his age and spent about ten years in prison. Once released, he studied law at the University of Zambia and joined Robert Mugabe in the liberation war. At independence in 1980 he became minister of state for national security, a post he held during the Gukurahundi massacres, in which the Fifth Brigade killed around 20,000 civilians, mostly Ndebele, in Matabeleland; he has denied responsibility. He then held a string of key posts: justice from 1989 to 2000, finance briefly, and speaker of parliament from 2000 to 2005. Vice-president from 2014, he was fired in November 2017 as Grace Mugabe's faction gained ground and fled to South Africa. Days later the army stepped in and forced Mugabe to resign; Mnangagwa was sworn in on 24 November 2017. He won disputed elections in 2018 and 2023, the first followed by soldiers opening fire on protesters in Harare."
+  },
+  "highlights": {
+    "fr": [
+      "Condamné à mort en 1965 pour sabotage, peine commuée en prison",
+      "Chargé de la Sécurité nationale de 1980 à 1988, pendant le Gukurahundi",
+      "Président du Parlement du Zimbabwe de 2000 à 2005",
+      "Président du Zimbabwe depuis le 24 novembre 2017"
+    ],
+    "en": [
+      "Sentenced to death for sabotage in 1965, commuted to prison",
+      "Security minister from 1980 to 1988, during the Gukurahundi",
+      "Speaker of Zimbabwe's parliament from 2000 to 2005",
+      "President of Zimbabwe since 24 November 2017"
+    ]
+  },
+  "legacy": {
+    "fr": "Arrivé au pouvoir en promettant une rupture avec l'ère Mugabe, il est accusé d'en prolonger les méthodes : répression de l'opposition et économie toujours fragile.",
+    "en": "He took power promising a break with the Mugabe era but stands accused of carrying on its methods, with opposition crackdowns and a still fragile economy."
   }
 }

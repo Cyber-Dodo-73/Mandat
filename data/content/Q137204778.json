@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Abelardo de la Espriella naît en 1978 à Bogotá et devient avocat pénaliste. Il se fait connaître en défendant des clients très médiatisés et controversés, dont l’homme d’affaires colombien Alex Saab, accusé d’avoir servi de prête-nom au gouvernement vénézuélien. Il développe parallèlement des activités d’entrepreneur et partage sa vie entre la Colombie et l’étranger. Longtemps présent dans le débat public comme polémiste de droite, il devient l’un des critiques les plus virulents du président de gauche Gustavo Petro. Il se lance dans la course présidentielle de 2026 en candidat extérieur aux partis traditionnels, avec un discours de fermeté contre les groupes armés et la criminalité. Vainqueur du scrutin de 2026, il prend ses fonctions de président de la République le 7 août 2026, succédant à Petro.",
+    "en": "Abelardo de la Espriella was born in 1978 in Bogotá and became a criminal defence lawyer. He made his name representing high-profile and controversial clients, including the Colombian businessman Alex Saab, accused of acting as a front man for the Venezuelan government. Alongside his legal work he built up business interests and divided his life between Colombia and abroad. Long present in public debate as a right-wing commentator, he became one of the fiercest critics of left-wing president Gustavo Petro. He entered the 2026 presidential race as an outsider to the traditional parties, campaigning on a hard line against armed groups and crime. Having won the 2026 election, he took office as president on 7 August 2026, succeeding Petro."
+  },
+  "highlights": {
+    "fr": [
+      "Avocat pénaliste de clients très médiatisés, dont Alex Saab",
+      "Critique virulent du président Gustavo Petro",
+      "Candidat hors partis traditionnels à la présidentielle de 2026",
+      "Président de la Colombie depuis le 7 août 2026"
+    ],
+    "en": [
+      "Criminal defence lawyer for high-profile clients, including Alex Saab",
+      "Outspoken critic of President Gustavo Petro",
+      "Ran outside the traditional parties in the 2026 election",
+      "President of Colombia since 7 August 2026"
+    ]
+  },
+  "legacy": {
+    "fr": "Son élection marque l’arrivée au pouvoir d’un outsider de droite après le premier gouvernement de gauche de l’histoire colombienne.",
+    "en": "His election brings a right-wing outsider to power after the first left-wing government in Colombia's history."
   }
 }

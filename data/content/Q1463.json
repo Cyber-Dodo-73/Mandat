@@ -35,5 +35,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1917 dans la province d'Ilocos Norte, Ferdinand Marcos est accusé en 1938, alors étudiant en droit, du meurtre d'un rival politique de son père ; condamné, il est acquitté en appel. Il prétend ensuite avoir été un grand héros de la guérilla contre le Japon, récit en grande partie contredit par les archives américaines. Député de 1949 à 1959, puis sénateur et président du Sénat, il est élu président de la République en 1965 et réélu en 1969. Le 21 septembre 1972, il proclame la loi martiale, ferme le Congrès et la presse indépendante et gouverne par décret. Sous son régime, des milliers d'opposants sont tués, torturés ou portés disparus, tandis que sa famille et ses proches détournent des milliards de dollars. L'assassinat de l'opposant Benigno Aquino à l'aéroport de Manille en août 1983 provoque une indignation massive. Après une élection anticipée frauduleuse en février 1986, le soulèvement pacifique dit du « pouvoir du peuple » le contraint à fuir à Hawaï. Il y meurt en exil en 1989, sans avoir été jugé aux Philippines.",
+    "en": "Born in Ilocos Norte province in 1917, Ferdinand Marcos was charged in 1938, as a law student, with murdering a political rival of his father; convicted, he was acquitted on appeal. He later claimed to have been a great guerrilla hero against Japan, an account largely contradicted by US military records. A congressman from 1949 to 1959, then senator and Senate president, he was elected president in 1965 and re-elected in 1969. On 21 September 1972 he declared martial law, shut down Congress and the free press, and ruled by decree. Under his rule thousands of opponents were killed, tortured or disappeared, while his family and cronies plundered billions of dollars. The murder of opposition leader Benigno Aquino at Manila airport in August 1983 caused widespread outrage. After a fraudulent snap election in February 1986, the peaceful People Power uprising forced him to flee to Hawaii. He died there in exile in 1989, never tried in the Philippines."
+  },
+  "highlights": {
+    "fr": [
+      "1965 : élu président des Philippines, réélu en 1969",
+      "1972 : proclame la loi martiale et gouverne par décret jusqu'en 1981",
+      "Son régime fait des milliers de victimes d'exécutions, tortures et disparitions",
+      "1986 : chassé par la révolution pacifique du « pouvoir du peuple »"
+    ],
+    "en": [
+      "1965: elected president of the Philippines, re-elected in 1969",
+      "1972: declared martial law and ruled by decree until 1981",
+      "His regime left thousands killed, tortured or disappeared",
+      "1986: driven out by the peaceful People Power revolution"
+    ]
+  },
+  "legacy": {
+    "fr": "Son nom évoque la dictature et le pillage des fonds publics, dont une partie a été récupérée par l'État. Son fils Ferdinand Marcos Jr. a été élu président en 2022, signe d'une réhabilitation familiale contestée.",
+    "en": "His name stands for dictatorship and the looting of public funds, part of which the state has recovered. His son Ferdinand Marcos Jr. was elected president in 2022, a disputed rehabilitation of the family."
   }
 }

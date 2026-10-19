@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Nièce du président Theodore Roosevelt, Anna Eleanor Roosevelt naît en 1884 à Manhattan et perd ses deux parents avant l'âge de dix ans. Elle est envoyée en 1899 au pensionnat d'Allenswood, près de Londres, dont la directrice, Marie Souvestre, l'encourage à penser par elle-même. En 1905, elle épouse son cousin éloigné Franklin Delano Roosevelt, avec qui elle a six enfants. Après que Franklin est frappé par la poliomyélite en 1921, elle s'engage dans le Parti démocrate, les syndicats féminins et la vie publique pour maintenir sa présence politique. Première dame de 1933 à 1945, elle tient des conférences de presse réservées aux femmes journalistes, écrit une chronique quotidienne et défend les droits des Afro-Américains et des pauvres. En 1939, elle quitte l'association des Filles de la Révolution américaine, qui avait refusé une salle à la chanteuse Marian Anderson. Nommée déléguée à l'ONU par Harry Truman en 1945, elle préside la commission qui rédige la Déclaration universelle des droits de l'homme, adoptée en 1948. Elle reste active jusqu'à la fin, présidant en 1961 la commission de John Kennedy sur la condition des femmes, et meurt à New York en 1962.",
+    "en": "A niece of President Theodore Roosevelt, Anna Eleanor Roosevelt was born in Manhattan in 1884 and lost both parents before she was ten. In 1899 she was sent to Allenswood, a boarding school near London whose headmistress, Marie Souvestre, encouraged her to think for herself. In 1905 she married her distant cousin Franklin Delano Roosevelt, with whom she had six children. After Franklin was struck by polio in 1921, she threw herself into the Democratic Party, women's labour groups and public life to keep his political presence alive. As First Lady from 1933 to 1945 she held press conferences open only to women reporters, wrote a daily newspaper column and championed the rights of African Americans and the poor. In 1939 she resigned from the Daughters of the American Revolution after the group refused its hall to the singer Marian Anderson. Appointed a delegate to the UN by Harry Truman in 1945, she chaired the commission that drafted the Universal Declaration of Human Rights, adopted in 1948. She stayed active to the end, chairing John Kennedy's commission on the status of women in 1961, and died in New York in 1962."
+  },
+  "highlights": {
+    "fr": [
+      "Première dame des États-Unis de 1933 à 1945",
+      "Tient une chronique quotidienne, « My Day », à partir de 1935",
+      "Déléguée des États-Unis à l'Assemblée générale de l'ONU de 1945 à 1952",
+      "Préside la rédaction de la Déclaration universelle des droits de l'homme (1948)"
+    ],
+    "en": [
+      "First Lady of the United States from 1933 to 1945",
+      "Wrote a daily newspaper column, “My Day”, from 1935",
+      "US delegate to the UN General Assembly from 1945 to 1952",
+      "Chaired the drafting of the Universal Declaration of Human Rights (1948)"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a transformé le rôle de première dame en tribune politique, et la Déclaration universelle des droits de l'homme reste son héritage le plus durable.",
+    "en": "She turned the role of First Lady into a political platform, and the Universal Declaration of Human Rights remains her most lasting legacy."
   }
 }

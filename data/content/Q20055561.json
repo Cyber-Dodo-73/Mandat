@@ -32,5 +32,27 @@
         "value": "strategy"
       }
     }
+  },
+  "story": {
+    "fr": "Rishi Sunak naît en 1980 à Southampton, dans le Hampshire, dans une famille d'origine indienne arrivée d'Afrique de l'Est. Diplômé d'Oxford puis titulaire d'un MBA de Stanford en 2006, il travaille dans la finance, notamment chez Goldman Sachs et dans des fonds d'investissement. Élu député conservateur de Richmond, dans le Yorkshire, en 2015, il soutient le Brexit lors du référendum de 2016. Boris Johnson le nomme secrétaire en chef du Trésor en 2019, puis chancelier de l'Échiquier en février 2020, juste avant la pandémie. Il lance alors un vaste dispositif de chômage partiel qui protège des millions d'emplois. Sa démission en juillet 2022 contribue à la chute de Johnson ; battu par Liz Truss, il lui succède en octobre 2022 après la crise financière provoquée par son budget, devenant le premier Premier ministre britannique d'origine sud-asiatique. Il signe en 2023 avec l'Union européenne le cadre de Windsor sur l'Irlande du Nord et défend un plan d'expulsion de demandeurs d'asile vers le Rwanda. Il convoque des élections anticipées en juillet 2024, que les conservateurs perdent lourdement, puis assure brièvement la direction de l'opposition avant de céder la tête du parti en novembre 2024.",
+    "en": "Rishi Sunak was born in 1980 in Southampton, Hampshire, to a family of Indian descent that had come from East Africa. After Oxford and a Stanford MBA in 2006, he worked in finance, including at Goldman Sachs and in investment funds. Elected Conservative MP for Richmond in Yorkshire in 2015, he backed Leave in the 2016 Brexit referendum. Boris Johnson made him Chief Secretary to the Treasury in 2019 and then Chancellor of the Exchequer in February 2020, just before the pandemic struck. He launched a huge furlough scheme that kept millions of workers on payrolls. His resignation in July 2022 helped bring Johnson down; beaten by Liz Truss, he replaced her in October 2022 after her budget triggered a market crisis, becoming the first British prime minister of South Asian heritage. In 2023 he agreed the Windsor Framework on Northern Ireland with the EU and pushed a plan to deport asylum seekers to Rwanda. He called an early election for July 2024, which the Conservatives lost heavily, and briefly served as Leader of the Opposition before handing over the party leadership in November 2024."
+  },
+  "highlights": {
+    "fr": [
+      "Chancelier de l'Échiquier pendant la pandémie (2020-2022)",
+      "Crée en 2020 un dispositif de chômage partiel pour des millions de salariés",
+      "Premier ministre britannique d'origine sud-asiatique (2022-2024)",
+      "Conclut le cadre de Windsor sur l'Irlande du Nord en 2023"
+    ],
+    "en": [
+      "Chancellor of the Exchequer during the pandemic (2020-2022)",
+      "Set up the 2020 furlough scheme covering millions of workers",
+      "First UK prime minister of South Asian heritage (2022-2024)",
+      "Agreed the Windsor Framework on Northern Ireland in 2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a stabilisé les marchés après la tempête Truss, mais reste associé à l'une des plus lourdes défaites électorales de l'histoire du Parti conservateur.",
+    "en": "He steadied the markets after the Truss turmoil but remains tied to one of the heaviest election defeats in Conservative Party history."
   }
 }

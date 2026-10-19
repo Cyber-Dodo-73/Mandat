@@ -32,5 +32,27 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1971 près de Samarra, en Irak, Ibrahim Awad al-Badri étudie les sciences islamiques à Bagdad, où il obtient un doctorat au milieu des années 2000. Après l'invasion américaine de 2003, il participe à un groupe armé sunnite, puis est détenu en 2004 par l'armée américaine au camp Bucca, où il tisse des liens avec d'autres djihadistes. Il rejoint ensuite la branche irakienne d'al-Qaïda et en prend la tête en 2010 sous le nom d'Abou Bakr al-Baghdadi. Profitant de la guerre civile syrienne, il étend le groupe en Syrie en 2013 sous le nom d'État islamique en Irak et au Levant et rompt avec al-Qaïda. En juin 2014, après la prise de Mossoul, il proclame un « califat » depuis la grande mosquée de la ville. Sous son autorité, l'organisation commet le génocide des Yézidis, avec des milliers d'hommes tués et des milliers de femmes et de filles réduites en esclavage sexuel, ainsi que des exécutions de masse, comme celle de centaines de recrues au camp Speicher. Elle revendique des attentats à l'étranger, dont ceux du 13 novembre 2015 à Paris qui font 130 morts. Après la chute de Mossoul en 2017 et de Baghouz en 2019, il se cache en Syrie et meurt en octobre 2019 en se faisant exploser lors d'un raid américain à Baricha.",
+    "en": "Born in 1971 near Samarra, Iraq, Ibrahim Awad al-Badri studied Islamic sciences in Baghdad, earning a doctorate in the mid-2000s. After the 2003 US invasion he joined a Sunni armed group and in 2004 was held by the US military at Camp Bucca, where he built ties with other jihadists. He then joined al-Qaeda's Iraqi branch and took over its leadership in 2010 under the name Abu Bakr al-Baghdadi. Exploiting the Syrian civil war, he expanded the group into Syria in 2013 as the Islamic State of Iraq and the Levant and broke with al-Qaeda. In June 2014, after the capture of Mosul, he proclaimed a “caliphate” from the city's great mosque. Under his command the group carried out the genocide of the Yazidis, killing thousands of men and enslaving thousands of women and girls, along with mass executions such as the killing of hundreds of recruits at Camp Speicher. It claimed attacks abroad, including the 13 November 2015 Paris attacks that killed 130 people. After the fall of Mosul in 2017 and Baghuz in 2019 he hid in Syria, and in October 2019 he blew himself up during a US raid in Barisha."
+  },
+  "highlights": {
+    "fr": [
+      "Chef de l'État islamique en Irak à partir de 2010",
+      "Proclame un « califat » à Mossoul en juin 2014",
+      "Responsable du génocide des Yézidis à partir d'août 2014",
+      "Tué lors d'un raid américain en Syrie en octobre 2019"
+    ],
+    "en": [
+      "Leader of the Islamic State of Iraq from 2010",
+      "Proclaimed a “caliphate” in Mosul in June 2014",
+      "Responsible for the genocide of the Yazidis from August 2014",
+      "Killed during a US raid in Syria in October 2019"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste associé aux massacres, à l'esclavage et aux attentats de l'État islamique, dont les victimes se comptent par dizaines de milliers en Irak, en Syrie et ailleurs.",
+    "en": "He remains tied to the massacres, enslavement and terror attacks of the Islamic State, whose victims number in the tens of thousands in Iraq, Syria and beyond."
   }
 }

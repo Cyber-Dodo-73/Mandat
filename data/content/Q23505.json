@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1924 à Milton, dans le Massachusetts, fils d'un banquier devenu sénateur, George Herbert Walker Bush s'engage dans l'aéronavale à 18 ans et devient l'un des plus jeunes pilotes de la Seconde Guerre mondiale, abattu au-dessus du Pacifique en 1944. Diplômé de Yale, il s'installe au Texas, où il fait fortune dans le pétrole. Élu à la Chambre des représentants en 1966, il est ensuite ambassadeur à l'ONU, président du Parti républicain pendant le Watergate, émissaire en Chine puis directeur de la CIA en 1976. Battu par Ronald Reagan aux primaires de 1980, il devient son vice-président pendant huit ans. Élu président en 1988, il accompagne la chute du mur de Berlin et la réunification allemande, puis forme une large coalition qui chasse l'armée irakienne du Koweït lors de la guerre du Golfe en 1991. Il fait aussi intervenir l'armée américaine au Panama en décembre 1989 pour renverser Manuel Noriega. Pénalisé par la récession et par le renoncement à sa promesse de ne pas augmenter les impôts, il est battu par Bill Clinton en 1992 et meurt à Houston en 2018.",
+    "en": "Born in Milton, Massachusetts, in 1924, the son of a banker turned senator, George Herbert Walker Bush joined naval aviation at 18 and became one of the youngest pilots of the Second World War, shot down over the Pacific in 1944. After graduating from Yale he moved to Texas, where he made his fortune in oil. Elected to the House of Representatives in 1966, he went on to serve as UN ambassador, Republican Party chairman during Watergate, envoy to China and, from 1976, director of the CIA. Beaten by Ronald Reagan in the 1980 primaries, he became his vice president for eight years. Elected president in 1988, he oversaw the US response to the fall of the Berlin Wall and German reunification, then built a broad coalition that drove the Iraqi army out of Kuwait in the 1991 Gulf War. He also sent US troops into Panama in December 1989 to topple Manuel Noriega. Hurt by recession and by breaking his pledge not to raise taxes, he lost to Bill Clinton in 1992, and he died in Houston in 2018."
+  },
+  "highlights": {
+    "fr": [
+      "Pilote de l'aéronavale abattu au-dessus du Pacifique en 1944",
+      "Directeur de la CIA en 1976-1977",
+      "Vice-président de Ronald Reagan de 1981 à 1989",
+      "Élu président des États-Unis en 1988",
+      "Mène la coalition de la guerre du Golfe en 1991"
+    ],
+    "en": [
+      "Navy pilot shot down over the Pacific in 1944",
+      "Director of the CIA in 1976–1977",
+      "Vice president under Ronald Reagan from 1981 to 1989",
+      "Elected president of the United States in 1988",
+      "Led the Gulf War coalition in 1991"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a piloté la sortie de la guerre froide avec prudence et reste le père du 43e président, George W. Bush.",
+    "en": "He steered the end of the Cold War with caution and remains the father of the 43rd president, George W. Bush."
   }
 }

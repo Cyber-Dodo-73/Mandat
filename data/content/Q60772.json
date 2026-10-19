@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Ursula Albrecht naît en 1958 à Ixelles, près de Bruxelles, où son père Ernst Albrecht est haut fonctionnaire européen avant de diriger la Basse-Saxe. Après des études d'économie, dont un passage à la London School of Economics, elle devient médecin à Hanovre et mère de sept enfants. Entrée en politique à la CDU, elle est ministre des Affaires sociales de Basse-Saxe en 2003. Angela Merkel la nomme en 2005 ministre fédérale de la Famille, poste où elle crée l'allocation parentale et développe les places en crèche, puis ministre du Travail en 2009. En décembre 2013, elle devient la première femme ministre de la Défense de l'Allemagne, mandat marqué par des critiques sur l'état du matériel de la Bundeswehr et le recours à des consultants. Proposée par les dirigeants européens en juillet 2019, elle est confirmée par le Parlement européen à neuf voix près et prend la tête de la Commission le 1er décembre 2019. Elle lance le Pacte vert, organise l'achat commun de vaccins contre le Covid-19 et le plan de relance NextGenerationEU de 750 milliards d'euros, puis coordonne les sanctions contre la Russie après l'invasion de l'Ukraine en 2022. Reconduite par le Parlement en juillet 2024, elle entame un second mandat en décembre, reçoit le prix Charlemagne en 2025 et survit la même année à plusieurs motions de censure.",
+    "en": "Ursula Albrecht was born in 1958 in Ixelles, near Brussels, where her father Ernst Albrecht was a senior European official before he went on to run Lower Saxony. After studying economics, including a spell at the London School of Economics, she qualified as a doctor in Hanover and raised seven children. Joining the CDU, she became Lower Saxony's social affairs minister in 2003. Angela Merkel made her federal family minister in 2005, where she introduced a parental allowance and expanded childcare places, then labour minister in 2009. In December 2013 she became Germany's first female defence minister, a stint dogged by criticism of the Bundeswehr's equipment and of her reliance on consultants. Put forward by EU leaders in July 2019, she was confirmed by the European Parliament with nine votes to spare and took charge of the Commission on 1 December 2019. She launched the Green Deal, organised joint purchases of Covid-19 vaccines and the €750 billion NextGenerationEU recovery plan, then coordinated sanctions on Russia after its 2022 invasion of Ukraine. Re-elected by Parliament in July 2024, she began a second term that December, received the Charlemagne Prize in 2025 and survived several censure motions the same year."
+  },
+  "highlights": {
+    "fr": [
+      "Première femme ministre allemande de la Défense, en 2013",
+      "Première femme présidente de la Commission européenne, en 2019",
+      "Plan de relance NextGenerationEU de 750 milliards d'euros en 2020",
+      "Second mandat à la Commission à partir de décembre 2024",
+      "Prix Charlemagne en 2025"
+    ],
+    "en": [
+      "Germany's first female defence minister, in 2013",
+      "First woman to head the European Commission, in 2019",
+      "€750 billion NextGenerationEU recovery plan in 2020",
+      "Second term at the Commission from December 2024",
+      "Charlemagne Prize in 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a donné à la Commission un rôle central dans les crises du Covid-19 et de la guerre en Ukraine, au prix de critiques sur la centralisation du pouvoir à Bruxelles.",
+    "en": "She gave the Commission a central role in the Covid-19 and Ukraine war crises, drawing criticism for concentrating power in Brussels."
   }
 }

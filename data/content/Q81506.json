@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Charles Stuart naît en 1600 à Dunfermline, en Écosse, second fils de Jacques VI, qui devient aussi roi d'Angleterre en 1603. Enfant fragile, il devient héritier à la mort de son frère aîné Henri en 1612 et monte sur les trônes d'Angleterre, d'Écosse et d'Irlande en 1625. Son mariage avec la catholique Henriette-Marie de France et sa foi dans le droit divin des rois l'opposent vite au Parlement, qui lui impose la pétition des droits en 1628. De 1629 à 1640, il gouverne sans Parlement et lève des impôts contestés comme le ship money. Sa tentative d'imposer un livre de prières anglican à l'Écosse déclenche en 1639 les guerres des évêques et l'oblige à convoquer le Long Parlement en 1640. En janvier 1642, il échoue à faire arrêter cinq députés dans la Chambre des communes, et la guerre civile éclate à l'été. Vaincu à Naseby en 1645, il se rend aux Écossais en 1646, puis relance le conflit en 1648 et est de nouveau battu. Jugé pour trahison par une haute cour de justice, il est décapité devant la Banqueting House de Whitehall le 30 janvier 1649, et la monarchie est abolie jusqu'en 1660.",
+    "en": "Charles Stuart was born in 1600 in Dunfermline, Scotland, the second son of James VI, who also became king of England in 1603. A sickly child, he became heir when his elder brother Henry died in 1612 and inherited the crowns of England, Scotland and Ireland in 1625. His marriage to the Catholic Henrietta Maria of France and his belief in the divine right of kings soon set him against Parliament, which forced the Petition of Right on him in 1628. From 1629 to 1640 he ruled without Parliament, raising disputed levies such as ship money. His attempt to impose an Anglican prayer book on Scotland sparked the Bishops' Wars in 1639 and forced him to summon the Long Parliament in 1640. In January 1642 he failed to arrest five members inside the House of Commons, and civil war broke out that summer. Defeated at Naseby in 1645, he surrendered to the Scots in 1646, then reignited the war in 1648 and lost again. Tried for treason by a specially created High Court of Justice, he was beheaded outside the Banqueting House at Whitehall on 30 January 1649, and the monarchy was abolished until 1660."
+  },
+  "highlights": {
+    "fr": [
+      "1625 : devient roi d'Angleterre, d'Écosse et d'Irlande",
+      "1629-1640 : gouverne onze ans sans réunir le Parlement",
+      "1642 : tente d'arrêter cinq députés, prélude à la guerre civile",
+      "1645 : défaite décisive face à l'armée parlementaire à Naseby",
+      "30 janvier 1649 : décapité à Whitehall après un procès pour trahison"
+    ],
+    "en": [
+      "1625: became king of England, Scotland and Ireland",
+      "1629–1640: ruled for eleven years without calling Parliament",
+      "1642: tried to arrest five MPs, a prelude to civil war",
+      "1645: decisively defeated by the parliamentary army at Naseby",
+      "30 January 1649: beheaded at Whitehall after a treason trial"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier roi anglais jugé et exécuté par ses sujets, Charles Ier marque un tournant dans l'affirmation de la souveraineté parlementaire.",
+    "en": "The first English king tried and executed by his own subjects, Charles I marks a turning point in the rise of parliamentary sovereignty."
   }
 }

@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Monrovia en 1938, Ellen Johnson Sirleaf étudie l'économie aux États-Unis, à l'université du Colorado puis à Harvard, dont elle sort en 1971. Elle devient ministre des Finances du Liberia en 1979, sous le président Tolbert. Après le coup d'État sanglant de Samuel Doe en 1980, elle s'exile et travaille pour la Banque mondiale et le secteur bancaire. Revenue pour critiquer le régime, elle est emprisonnée en 1985. Au début de la guerre civile, elle soutient un temps Charles Taylor avant de rompre avec lui, ce que lui reprochera plus tard la commission vérité et réconciliation. Directrice Afrique au Programme des Nations unies pour le développement, elle est battue par Taylor en 1997. Après la fin de la guerre, elle remporte en 2005 l'élection face à George Weah et devient en janvier 2006 la première femme élue à la tête d'un État africain. Elle obtient l'effacement de la dette du pays et reçoit en 2011 le prix Nobel de la paix, avant d'être réélue la même année. Après l'épidémie d'Ebola de 2014-2015, elle transmet le pouvoir à George Weah en janvier 2018, première passation démocratique depuis des décennies.",
+    "en": "Born in Monrovia in 1938, Ellen Johnson Sirleaf studied economics in the United States, at the University of Colorado and then Harvard, graduating in 1971. She became Liberia's finance minister in 1979 under President Tolbert. After Samuel Doe's bloody coup in 1980 she went into exile and worked for the World Bank and in banking. Returning to criticise the regime, she was jailed in 1985. At the start of the civil war she briefly backed Charles Taylor before breaking with him, which the truth and reconciliation commission later held against her. After heading the UN Development Programme's Africa bureau, she lost to Taylor in 1997. Once the war was over she beat George Weah in the 2005 election and in January 2006 became the first woman elected to lead an African state. She won cancellation of the country's debt and received the Nobel Peace Prize in 2011, the year she was re-elected. After the Ebola epidemic of 2014–2015, she handed power to George Weah in January 2018, the first democratic transfer in decades."
+  },
+  "highlights": {
+    "fr": [
+      "1979 : ministre des Finances du Liberia",
+      "1985 : emprisonnée pour avoir critiqué Samuel Doe",
+      "2006 : première femme élue cheffe d'État en Afrique",
+      "2011 : prix Nobel de la paix",
+      "2018 : passe le pouvoir à George Weah"
+    ],
+    "en": [
+      "1979: becomes Liberia's finance minister",
+      "1985: jailed for criticising Samuel Doe",
+      "2006: first woman elected head of state in Africa",
+      "2011: awarded the Nobel Peace Prize",
+      "2018: hands power to George Weah"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a stabilisé un Liberia sorti de quatorze ans de guerre civile et ouvert la voie aux femmes dirigeantes en Afrique, malgré des accusations de népotisme.",
+    "en": "She steadied a Liberia emerging from fourteen years of civil war and paved the way for women leaders in Africa, despite charges of nepotism."
   }
 }

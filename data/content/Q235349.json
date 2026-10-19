@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Née Jill Tracy Jacobs en 1951 à Hammonton, dans le New Jersey, elle grandit en Pennsylvanie, dans la banlieue de Philadelphie. Diplômée de l'université du Delaware en 1975, elle devient professeure d'anglais et épouse en 1977 le sénateur Joe Biden, veuf depuis l'accident qui a coûté la vie à sa première femme et à sa fille. Elle élève ses deux fils, Beau et Hunter, et le couple a une fille, Ashley, en 1981. Tout en enseignant, elle obtient deux masters, à West Chester en 1981 et à Villanova en 1987, puis un doctorat en éducation à l'université du Delaware en 2007. Seconde dame de 2009 à 2017, pendant la vice-présidence de son mari, elle continue d'enseigner dans un community college de Virginie du Nord. Elle lance en 2011 avec Michelle Obama l'initiative Joining Forces en faveur des familles de militaires. En 2015, la famille est frappée par la mort de Beau d'un cancer du cerveau. Première dame de 2021 à 2025, elle est la première à garder un emploi rémunéré en dehors de la Maison-Blanche et défend les community colleges, les familles de militaires et la recherche contre le cancer.",
+    "en": "Born Jill Tracy Jacobs in 1951 in Hammonton, New Jersey, she grew up in the Pennsylvania suburbs of Philadelphia. After graduating from the University of Delaware in 1975 she became an English teacher, and in 1977 she married Senator Joe Biden, widowed by the car crash that had killed his first wife and daughter. She raised his two sons, Beau and Hunter, and the couple had a daughter, Ashley, in 1981. While teaching she earned two master's degrees, from West Chester in 1981 and Villanova in 1987, and a doctorate in education from the University of Delaware in 2007. As Second Lady from 2009 to 2017, during her husband's vice presidency, she kept teaching at a community college in Northern Virginia. In 2011 she launched the Joining Forces initiative for military families with Michelle Obama. In 2015 the family was struck by Beau's death from brain cancer. As First Lady from 2021 to 2025, she was the first to keep a paid job outside the White House, and she championed community colleges, military families and cancer research."
+  },
+  "highlights": {
+    "fr": [
+      "Doctorat en éducation de l'université du Delaware en 2007",
+      "Seconde dame des États-Unis de 2009 à 2017",
+      "Lance Joining Forces avec Michelle Obama en 2011",
+      "Première dame de 2021 à 2025, tout en continuant d'enseigner"
+    ],
+    "en": [
+      "Doctorate in education from the University of Delaware in 2007",
+      "Second Lady of the United States from 2009 to 2017",
+      "Launched Joining Forces with Michelle Obama in 2011",
+      "First Lady from 2021 to 2025 while still teaching"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a été la première épouse de président à conserver une carrière professionnelle pendant le mandat, au service de l'enseignement public.",
+    "en": "She was the first presidential spouse to keep a professional career during the term, devoted to public education."
   }
 }

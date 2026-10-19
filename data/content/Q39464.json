@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1925 dans la province de Kompong Thom sous le nom de Saloth Sâr, Pol Pot étudie à Paris au début des années 1950, où il rejoint le communisme. De retour au Cambodge, il enseigne tout en militant clandestinement et prend en 1963 la tête du Parti communiste du Kampuchéa, avant de rejoindre le maquis. Profitant de la guerre civile et des bombardements américains, ses Khmers rouges s'emparent de Phnom Penh le 17 avril 1975 et vident aussitôt les villes de leurs habitants. Premier ministre du Kampuchéa démocratique à partir de 1976, il abolit la monnaie, la religion, l'école et la propriété, et impose le travail forcé dans des coopératives agricoles. Intellectuels, fonctionnaires de l'ancien régime, minorités ethniques et membres du parti soupçonnés de trahison sont exécutés en masse, notamment au centre de torture S-21. Entre 1975 et 1979, environ 1,7 à 2 millions de Cambodgiens, près d'un quart de la population, meurent d'exécutions, de famine, de maladies et d'épuisement. Les attaques khmères rouges contre le Vietnam provoquent l'invasion vietnamienne qui le chasse de Phnom Penh en janvier 1979. Il poursuit la guérilla depuis la frontière thaïlandaise, est placé en résidence surveillée par ses propres camarades en 1997 et meurt en avril 1998 sans avoir été jugé.",
+    "en": "Born Saloth Sar in Kampong Thom province in 1925, Pol Pot studied in Paris in the early 1950s and embraced communism there. Back in Cambodia he taught school while organising underground, became leader of the Communist Party of Kampuchea in 1963 and later took to the jungle. Exploiting civil war and American bombing, his Khmer Rouge seized Phnom Penh on 17 April 1975 and immediately drove the entire urban population into the countryside. As prime minister of Democratic Kampuchea from 1976, he abolished money, religion, schools and private property and imposed forced labour in agricultural communes. Intellectuals, former officials, ethnic minorities and party members suspected of treachery were executed en masse, notably at the S-21 torture centre. Between 1975 and 1979 roughly 1.7 to 2 million Cambodians, close to a quarter of the population, died from execution, starvation, disease and overwork. Khmer Rouge raids on Vietnam triggered a Vietnamese invasion that drove him from Phnom Penh in January 1979. He fought on from the Thai border, was put under house arrest by his own comrades in 1997 and died in April 1998 without ever facing trial."
+  },
+  "highlights": {
+    "fr": [
+      "Dirige le Parti communiste du Kampuchéa à partir de 1963",
+      "Fait évacuer de force Phnom Penh dès sa prise, le 17 avril 1975",
+      "Responsable de la mort de 1,7 à 2 millions de Cambodgiens entre 1975 et 1979",
+      "Chassé du pouvoir par l'invasion vietnamienne en janvier 1979",
+      "Meurt en 1998 sans avoir été jugé pour ses crimes"
+    ],
+    "en": [
+      "Led the Communist Party of Kampuchea from 1963",
+      "Forcibly emptied Phnom Penh after its capture on 17 April 1975",
+      "Responsible for the deaths of 1.7 to 2 million Cambodians in 1975–1979",
+      "Driven from power by the Vietnamese invasion in January 1979",
+      "Died in 1998 without ever being tried for his crimes"
+    ]
+  },
+  "legacy": {
+    "fr": "Son régime reste l'un des pires génocides du XXe siècle ; des dirigeants khmers rouges survivants ont été condamnés par un tribunal soutenu par l'ONU dans les années 2010.",
+    "en": "His regime remains one of the worst genocides of the twentieth century; surviving Khmer Rouge leaders were convicted by a UN-backed tribunal in the 2010s."
   }
 }

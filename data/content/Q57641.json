@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Viktor Orbán naît en 1963 à Székesfehérvár et grandit dans un village de la région de Fejér. Étudiant en droit à l'université Eötvös Loránd de Budapest, il cofonde en 1988 la Fidesz, alliance des jeunes démocrates, alors libérale et anticommuniste. Le 16 juin 1989, lors de la réinhumation d'Imre Nagy sur la place des Héros, il réclame publiquement le départ des troupes soviétiques et des élections libres. Député dès 1990, il fait évoluer la Fidesz vers la droite conservatrice et devient en 1998, à 35 ans, Premier ministre ; la Hongrie entre dans l'OTAN en 1999. Battu en 2002 puis en 2006, il revient au pouvoir en 2010 avec une majorité des deux tiers, qu'il utilise pour adopter une nouvelle Constitution en 2011 et remodeler la justice, les médias et le système électoral. En 2014, il revendique la construction d'un « État illibéral », et en 2015 il fait ériger une clôture à la frontière serbe face à l'arrivée des réfugiés. Réélu en 2014, 2018 et 2022, il voit le Parlement européen déclencher contre la Hongrie la procédure de l'article 7 en 2018, puis Bruxelles geler une partie des fonds européens. Proche de Moscou, il freine l'aide européenne à l'Ukraine après 2022. En avril 2026, il perd les élections législatives face au parti Tisza de Péter Magyar et quitte la tête du gouvernement en mai.",
+    "en": "Viktor Orbán was born in 1963 in Székesfehérvár and grew up in a village in Fejér county. While studying law at Eötvös Loránd University in Budapest, he co-founded Fidesz, the Alliance of Young Democrats, in 1988, then a liberal anti-communist movement. On 16 June 1989, at the reburial of Imre Nagy in Heroes' Square, he publicly demanded the withdrawal of Soviet troops and free elections. An MP from 1990, he steered Fidesz to the conservative right and in 1998, aged 35, became prime minister; Hungary joined NATO in 1999. Defeated in 2002 and 2006, he returned to power in 2010 with a two-thirds majority, which he used to pass a new constitution in 2011 and reshape the courts, the media and the electoral system. In 2014 he declared his aim of building an 'illiberal state', and in 2015 he had a fence put up on the Serbian border as refugees arrived. Re-elected in 2014, 2018 and 2022, he saw the European Parliament launch Article 7 proceedings against Hungary in 2018 and Brussels later freeze part of its EU funds. Close to Moscow, he held up EU aid to Ukraine after 2022. In April 2026 he lost the parliamentary election to Péter Magyar's Tisza party and left office in May."
+  },
+  "highlights": {
+    "fr": [
+      "Discours du 16 juin 1989 réclamant le départ des Soviétiques",
+      "Premier ministre de Hongrie de 1998 à 2002",
+      "Majorités des deux tiers en 2010, 2014, 2018 et 2022",
+      "Nouvelle Constitution hongroise adoptée en 2011",
+      "Battu aux législatives d'avril 2026 par le parti Tisza"
+    ],
+    "en": [
+      "Speech of 16 June 1989 demanding a Soviet withdrawal",
+      "Prime Minister of Hungary from 1998 to 2002",
+      "Two-thirds majorities in 2010, 2014, 2018 and 2022",
+      "New Hungarian constitution adopted in 2011",
+      "Defeated by the Tisza party in the April 2026 election"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a fait de la Hongrie le modèle revendiqué de la « démocratie illibérale » et une source de conflits permanents avec l'Union européenne pendant seize ans.",
+    "en": "He made Hungary the self-proclaimed model of 'illiberal democracy' and a constant source of conflict with the European Union for sixteen years."
   }
 }

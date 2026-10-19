@@ -36,5 +36,27 @@
         "value": "charisma"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1919 dans la province de Buenos Aires, María Eva Duarte grandit à Los Toldos puis à Junín, fille illégitime d'un propriétaire rural, dans une famille modeste. À quinze ans, elle part tenter sa chance comme actrice à Buenos Aires et devient dans les années 1940 une vedette du feuilleton radiophonique. En janvier 1944, lors d'un gala pour les victimes du tremblement de terre de San Juan, elle rencontre le colonel Juan Perón, alors ministre du Travail. Après l'arrestation de Perón puis sa libération sous la pression des manifestations ouvrières du 17 octobre 1945, ils se marient quelques jours plus tard. Perón est élu président en 1946, et elle effectue en 1947 une tournée très médiatisée en Europe. Elle soutient la loi de 1947 accordant le droit de vote aux femmes, crée en 1948 une fondation d'aide sociale à son nom, qui finance hôpitaux, écoles et logements, et fonde en 1949 le Parti péroniste féminin. En août 1951, sous la pression de l'armée et déjà malade, elle renonce à briguer la vice-présidence. Elle vote pour la première fois depuis son lit d'hôpital en novembre 1951 et meurt d'un cancer le 26 juillet 1952, à 33 ans. Embaumé, son corps est enlevé après le coup d'État de 1955 et caché en Italie avant d'être rendu à l'Argentine en 1974.",
+    "en": "Born in 1919 in Buenos Aires Province, María Eva Duarte grew up in Los Toldos and Junín, the illegitimate daughter of a rural landowner, in a family of modest means. At fifteen she left to try her luck as an actress in Buenos Aires, and by the 1940s she was a star of radio drama. In January 1944, at a benefit for victims of the San Juan earthquake, she met Colonel Juan Perón, then labour minister. After Perón's arrest and his release under pressure from the workers' demonstrations of 17 October 1945, they married a few days later. Perón was elected president in 1946, and in 1947 she made a much-publicised tour of Europe. She backed the 1947 law giving women the vote, set up a social aid foundation in her name in 1948 that funded hospitals, schools and housing, and founded the Female Peronist Party in 1949. In August 1951, under pressure from the army and already ill, she withdrew from running for vice president. She cast her first vote from a hospital bed in November 1951 and died of cancer on 26 July 1952, aged 33. Her embalmed body was taken away after the 1955 coup and hidden in Italy before being returned to Argentina in 1974."
+  },
+  "highlights": {
+    "fr": [
+      "Épouse Juan Perón en octobre 1945",
+      "Soutient la loi de 1947 sur le vote des femmes en Argentine",
+      "Crée la Fondation Eva Perón en 1948",
+      "Fonde le Parti péroniste féminin en 1949"
+    ],
+    "en": [
+      "Married Juan Perón in October 1945",
+      "Backed Argentina's 1947 law on women's suffrage",
+      "Set up the Eva Perón Foundation in 1948",
+      "Founded the Female Peronist Party in 1949"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommée « Evita », elle reste une icône du péronisme et des classes populaires argentines, et une figure qui divise toujours le pays.",
+    "en": "Known as “Evita”, she remains an icon of Peronism and of Argentina's working class, and a figure who still divides the country."
   }
 }

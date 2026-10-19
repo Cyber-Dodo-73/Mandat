@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Raúl Alfonsín naît en mars 1927 à Chascomús, dans la province de Buenos Aires, et devient avocat et militant de l’Union civique radicale. Élu député national en 1963, il voit le Congrès dissous par le coup d’État de 1966. En 1975, il cofonde l’Assemblée permanente pour les droits de l’homme, puis défend des prisonniers politiques sous la dictature instaurée en 1976 et s’oppose à la guerre des Malouines. Élu président en octobre 1983 avec environ 52 % des voix, il prend ses fonctions le 10 décembre et crée aussitôt la commission CONADEP, dont le rapport « Nunca más » documente près de 9 000 disparitions. En 1985, il fait juger les chefs des juntes militaires, dont plusieurs sont condamnés, notamment Jorge Videla à la prison à perpétuité. Il règle par un traité avec le Chili le conflit du canal de Beagle en 1984, mais les soulèvements militaires le poussent à faire voter les lois de « point final » et d’« obéissance due », qui limitent les poursuites. L’hyperinflation de 1989 le contraint à transmettre le pouvoir à Carlos Menem en juillet, plusieurs mois avant la fin de son mandat. Sénateur en 2001-2002, il meurt à Buenos Aires en mars 2009.",
+    "en": "Raúl Alfonsín was born in March 1927 in Chascomús, Buenos Aires province, and became a lawyer and an activist in the Radical Civic Union. Elected to Congress in 1963, he saw the chamber dissolved by the 1966 coup. In 1975 he co-founded the Permanent Assembly for Human Rights, then defended political prisoners under the dictatorship that began in 1976 and opposed the Falklands War. Elected president in October 1983 with about 52% of the vote, he took office on 10 December and at once set up the CONADEP commission, whose Nunca Más report documented nearly 9,000 disappearances. In 1985 he had the leaders of the military juntas put on trial, and several were convicted, including Jorge Videla, who received a life sentence. He settled the Beagle Channel dispute with Chile by treaty in 1984, but military uprisings pushed him to pass the Full Stop and Due Obedience laws, which limited prosecutions. Hyperinflation in 1989 forced him to hand power to Carlos Menem that July, months before his term was due to end. A senator in 2001–2002, he died in Buenos Aires in March 2009."
+  },
+  "highlights": {
+    "fr": [
+      "Cofonde l’Assemblée permanente pour les droits de l’homme en 1975",
+      "Élu président en 1983, il rétablit la démocratie",
+      "Crée la CONADEP, auteure du rapport « Nunca más » en 1984",
+      "Fait juger les chefs des juntes militaires en 1985",
+      "Signe le traité de paix avec le Chili sur le canal de Beagle en 1984"
+    ],
+    "en": [
+      "Co-founded the Permanent Assembly for Human Rights in 1975",
+      "Elected president in 1983, restoring democracy",
+      "Created CONADEP, which issued the Nunca Más report in 1984",
+      "Had the junta leaders put on trial in 1985",
+      "Signed the Beagle Channel peace treaty with Chile in 1984"
+    ]
+  },
+  "legacy": {
+    "fr": "Considéré comme le père de la démocratie argentine retrouvée, il a fait juger les responsables de la dictature, une première en Amérique latine.",
+    "en": "Regarded as the father of Argentina's restored democracy, he put the dictatorship's leaders on trial, a first in Latin America."
   }
 }

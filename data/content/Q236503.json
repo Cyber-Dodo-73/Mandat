@@ -36,5 +36,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Fernando Collor de Mello naît en août 1949 à Rio de Janeiro dans une famille de politiciens et de propriétaires de médias de l’État d’Alagoas. Nommé maire de Maceió en 1979, puis élu député fédéral, il devient gouverneur d’Alagoas en 1987 et se forge une image de « chasseur de privilégiés » de la fonction publique. En 1989, lors de la première présidentielle au suffrage direct depuis 1960, il bat Luiz Inácio Lula da Silva au second tour et prend ses fonctions en mars 1990, à quarante ans. Dès son arrivée, son plan de lutte contre l’inflation gèle la majeure partie de l’épargne des Brésiliens, sans parvenir à juguler durablement la hausse des prix, et il engage l’ouverture commerciale du pays. En mai 1992, son propre frère Pedro l’accuse de profiter d’un vaste réseau de corruption organisé par son trésorier de campagne, Paulo César Farias. Une commission d’enquête parlementaire et d’immenses manifestations étudiantes conduisent les députés à voter sa mise en accusation le 29 septembre 1992. Il démissionne le 29 décembre, au premier jour de son procès devant le Sénat, qui le prive tout de même de ses droits politiques pendant huit ans. Sénateur d’Alagoas de 2007 à 2023, il est condamné en 2023 par la Cour suprême pour corruption dans un volet de l’affaire Lava Jato.",
+    "en": "Fernando Collor de Mello was born in August 1949 in Rio de Janeiro into a family of politicians and media owners from the state of Alagoas. Appointed mayor of Maceió in 1979 and then elected to Congress, he became governor of Alagoas in 1987 and built an image as a hunter of overpaid civil servants. In 1989, in the first direct presidential election since 1960, he beat Luiz Inácio Lula da Silva in the runoff and took office in March 1990, aged forty. His anti-inflation plan immediately froze most of Brazilians' savings without durably curbing price rises, and he began opening the economy to trade. In May 1992 his own brother Pedro accused him of benefiting from a vast corruption network run by his campaign treasurer, Paulo César Farias. A parliamentary inquiry and huge student protests led the lower house to vote for his impeachment on 29 September 1992. He resigned on 29 December, on the first day of his Senate trial, but the Senate still stripped him of his political rights for eight years. A senator for Alagoas from 2007 to 2023, he was convicted by the Supreme Court in 2023 for corruption in a strand of the Lava Jato affair."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur d’Alagoas à partir de 1987",
+      "Premier président élu au suffrage direct depuis 1960, en 1989",
+      "Gèle l’épargne des Brésiliens avec le plan Collor en 1990",
+      "Démissionne le 29 décembre 1992 face à la destitution",
+      "Sénateur d’Alagoas de 2007 à 2023"
+    ],
+    "en": [
+      "Governor of Alagoas from 1987",
+      "First directly elected president since 1960, in 1989",
+      "Froze Brazilians' savings with the Collor Plan in 1990",
+      "Resigned on 29 December 1992 facing impeachment",
+      "Senator for Alagoas from 2007 to 2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier président de la démocratie brésilienne retrouvée élu au suffrage direct, il est aussi le premier à avoir été mis en accusation par le Congrès.",
+    "en": "The first directly elected president of Brazil's restored democracy, he was also the first to be impeached by Congress."
   }
 }

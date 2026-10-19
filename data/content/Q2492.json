@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Cologne en 1876, fils d'un greffier, Konrad Adenauer étudie le droit et entre dans l'administration de sa ville. Maire de Cologne de 1917 à 1933, il modernise la cité, rouvre son université et préside le Conseil d'État de Prusse sous la République de Weimar. Destitué par les nazis en 1933, il vit retiré et est brièvement arrêté en 1934 puis en 1944. Rétabli à la mairie par les Américains en 1945, il est renvoyé par les Britanniques et se consacre à la nouvelle CDU, dont il prend la tête. Président du Conseil parlementaire qui rédige la Loi fondamentale, il est élu chancelier en septembre 1949 à une voix de majorité. Il arrime la République fédérale à l'Ouest : Communauté du charbon et de l'acier, accord de réparations avec Israël en 1952, entrée dans l'OTAN en 1955 et traités de Rome en 1957. En 1955, il obtient à Moscou le retour des derniers prisonniers de guerre allemands. Après le traité de l'Élysée signé avec de Gaulle en janvier 1963, il quitte la chancellerie en octobre, à 87 ans, et meurt à Rhöndorf en 1967.",
+    "en": "Born in Cologne in 1876, the son of a court clerk, Konrad Adenauer studied law and joined his city's administration. As Lord Mayor of Cologne from 1917 to 1933 he modernised the city, reopened its university and chaired the Prussian State Council during the Weimar Republic. Removed by the Nazis in 1933, he lived in retreat and was briefly arrested in 1934 and again in 1944. Reinstated as mayor by the Americans in 1945, he was dismissed by the British and devoted himself to the new CDU, which he came to lead. After presiding over the Parliamentary Council that drafted the Basic Law, he was elected chancellor in September 1949 by a single vote. He tied West Germany firmly to the West through the Coal and Steel Community, a 1952 reparations agreement with Israel, NATO membership in 1955 and the Treaties of Rome in 1957. In Moscow in 1955 he secured the return of the last German prisoners of war. After signing the Élysée Treaty with de Gaulle in January 1963, he left the chancellery that October at 87 and died in Rhöndorf in 1967."
+  },
+  "highlights": {
+    "fr": [
+      "1917 : devient maire de Cologne",
+      "1949 : premier chancelier de la RFA, élu à une voix près",
+      "1952 : signe l'accord de réparations avec Israël",
+      "1955 : fait entrer la RFA dans l'OTAN",
+      "1963 : signe le traité de l'Élysée avec de Gaulle"
+    ],
+    "en": [
+      "1917: becomes Lord Mayor of Cologne",
+      "1949: first West German chancellor, elected by one vote",
+      "1952: signs the reparations agreement with Israel",
+      "1955: takes West Germany into NATO",
+      "1963: signs the Élysée Treaty with de Gaulle"
+    ]
+  },
+  "legacy": {
+    "fr": "Fondateur de la démocratie ouest-allemande, il est considéré comme l'un des pères de l'Europe et de la réconciliation franco-allemande.",
+    "en": "Founder of West German democracy, he is regarded as one of the fathers of Europe and of Franco-German reconciliation."
   }
 }

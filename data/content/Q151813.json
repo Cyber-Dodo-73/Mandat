@@ -29,5 +29,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Johannesburg en 1936 dans une famille afrikaner très engagée au Parti national, Frederik Willem de Klerk étudie le droit à Potchefstroom puis exerce comme avocat. Élu député en 1972, il entre au gouvernement en 1978 et enchaîne les portefeuilles : Sports, Énergie, Intérieur, puis Éducation de 1984 à 1989. Réputé conservateur, il prend la tête du Parti national en février 1989 et devient président de l'État en septembre. Le 2 février 1990, devant le Parlement, il annonce la légalisation de l'ANC et des autres mouvements interdits ; Nelson Mandela est libéré neuf jours plus tard. Il engage ensuite des négociations difficiles, sur fond de violences politiques, et obtient en 1992 l'accord de l'électorat blanc par référendum pour poursuivre les réformes. Il reçoit avec Mandela le prix Nobel de la paix en 1993. Après les premières élections multiraciales d'avril 1994, il devient vice-président dans le gouvernement d'union nationale, qu'il quitte en 1996. Il se retire de la vie politique l'année suivante. Souvent accusé d'avoir minimisé la responsabilité de l'apartheid, il meurt au Cap en novembre 2021, laissant une vidéo d'excuses diffusée après sa mort.",
+    "en": "Born in Johannesburg in 1936 into an Afrikaner family steeped in the National Party, Frederik Willem de Klerk studied law at Potchefstroom and practised as an attorney. Elected to parliament in 1972, he joined the cabinet in 1978 and held a string of portfolios: sport, energy, home affairs and then education from 1984 to 1989. Seen as a conservative, he took over the National Party in February 1989 and became state president that September. On 2 February 1990 he told parliament that the ANC and other banned movements were legal again; Nelson Mandela walked free nine days later. He then led tough negotiations amid political violence and, in 1992, won a whites-only referendum backing further reform. He shared the 1993 Nobel Peace Prize with Mandela. After the first multiracial elections in April 1994, he served as deputy president in the government of national unity, which he left in 1996. He retired from politics the following year. Often accused of downplaying apartheid's crimes, he died in Cape Town in November 2021, leaving a recorded apology released after his death."
+  },
+  "highlights": {
+    "fr": [
+      "Légalise l'ANC dans son discours du 2 février 1990",
+      "Libère Nelson Mandela le 11 février 1990",
+      "Remporte le référendum blanc de 1992 sur la poursuite des réformes",
+      "Prix Nobel de la paix 1993, partagé avec Mandela"
+    ],
+    "en": [
+      "Unbanned the ANC in his speech of 2 February 1990",
+      "Released Nelson Mandela on 11 February 1990",
+      "Won the 1992 whites-only referendum on continuing reform",
+      "Shared the 1993 Nobel Peace Prize with Mandela"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier président blanc d'Afrique du Sud, il reste celui qui a ouvert la porte à la fin négociée de l'apartheid, même si son rôle sous l'ancien régime demeure contesté.",
+    "en": "South Africa's last white president, he is remembered for opening the door to a negotiated end of apartheid, though his record under the old regime is still disputed."
   }
 }

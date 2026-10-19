@@ -30,5 +30,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1732 dans le comté de Westmoreland, en Virginie, dans une famille de planteurs, George Washington devient arpenteur puis officier de la milice coloniale. Pendant la guerre de Sept Ans, il combat les Français et leurs alliés amérindiens dans la vallée de l'Ohio, une expérience qui forge sa réputation militaire. Élu à l'assemblée de Virginie en 1758, il gère le domaine de Mount Vernon, exploité par des esclaves, et rejoint le camp opposé aux taxes britanniques. En 1775, le Congrès continental le nomme commandant en chef de l'armée, qu'il maintient en vie malgré les défaites et l'hiver terrible de Valley Forge. Avec l'appui de la France, il obtient la reddition britannique à Yorktown en 1781, puis rend son commandement au Congrès en 1783, geste qui frappe ses contemporains. Il préside en 1787 la convention de Philadelphie qui rédige la Constitution, puis est élu à l'unanimité premier président des États-Unis en 1789. Après deux mandats, il refuse un troisième et se retire en 1797 à Mount Vernon, où il meurt en décembre 1799, affranchissant par testament les esclaves qui lui appartenaient en propre.",
+    "en": "Born in 1732 in Westmoreland County, Virginia, into a planter family, George Washington became a surveyor and then an officer in the colonial militia. In the French and Indian War he fought the French and their Native American allies in the Ohio valley, an experience that built his military reputation. Elected to the Virginia House of Burgesses in 1758, he ran the Mount Vernon estate, worked by enslaved people, and sided with opponents of British taxation. In 1775 the Continental Congress named him commander-in-chief of the army, which he held together through defeats and the brutal winter at Valley Forge. With French support he forced the British surrender at Yorktown in 1781, then handed his command back to Congress in 1783, a gesture that struck his contemporaries. He presided over the 1787 Philadelphia convention that drafted the Constitution and was unanimously elected the first US president in 1789. After two terms he declined a third and retired in 1797 to Mount Vernon, where he died in December 1799, freeing in his will the enslaved people he personally owned."
+  },
+  "highlights": {
+    "fr": [
+      "Commandant en chef de l'armée continentale à partir de 1775",
+      "Obtient la reddition britannique à Yorktown en 1781",
+      "Préside la convention constitutionnelle de Philadelphie en 1787",
+      "Élu à l'unanimité premier président des États-Unis en 1789",
+      "Refuse un troisième mandat en 1796, créant un précédent"
+    ],
+    "en": [
+      "Commander-in-chief of the Continental Army from 1775",
+      "Secured the British surrender at Yorktown in 1781",
+      "Presided over the Constitutional Convention in Philadelphia in 1787",
+      "Unanimously elected the first US president in 1789",
+      "Declined a third term in 1796, setting a precedent"
+    ]
+  },
+  "legacy": {
+    "fr": "Considéré comme le père fondateur par excellence, il a donné ses usages à la présidence américaine, et la capitale fédérale porte son nom.",
+    "en": "Regarded as the foremost Founding Father, he set the customs of the American presidency, and the federal capital bears his name."
   }
 }

@@ -30,5 +30,29 @@
         "value": "influence"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1884 à Lamar, dans le Missouri, Harry Truman grandit dans une famille de fermiers et ne fait jamais d'études universitaires complètes. Officier d'artillerie en France pendant la Première Guerre mondiale, il tente ensuite sa chance dans la mercerie, sans succès, puis entre en politique avec l'appui de la machine démocrate de Kansas City. Élu sénateur en 1934, il se fait connaître pendant la Seconde Guerre mondiale à la tête d'une commission qui traque le gaspillage dans les dépenses militaires. Choisi comme colistier de Franklin Roosevelt en 1944, il n'est vice-président que quelques semaines avant de lui succéder à sa mort, le 12 avril 1945. C'est lui qui ordonne en août 1945 les bombardements atomiques d'Hiroshima et de Nagasaki, qui tuent plus de cent mille personnes et précèdent la capitulation japonaise. Il engage ensuite les États-Unis dans la guerre froide avec la doctrine de containment, le plan Marshall pour reconstruire l'Europe et la création de l'OTAN en 1949. Réélu de justesse en 1948 contre tous les pronostics, il déségrège les forces armées et envoie des troupes en Corée en 1950. Impopulaire à cause de l'enlisement coréen, il renonce à se représenter et quitte la Maison-Blanche en 1953 ; il meurt à Kansas City en 1972.",
+    "en": "Born in 1884 in Lamar, Missouri, Harry Truman grew up in a farming family and never completed a university degree. After serving as an artillery officer in France during the First World War, he ran a men's clothing store that failed, then entered politics with the backing of Kansas City's Democratic machine. Elected to the Senate in 1934, he made his name during the Second World War by chairing a committee that hunted down waste in military spending. Picked as Franklin Roosevelt's running mate in 1944, he had been vice president for only a few weeks when Roosevelt's death on 12 April 1945 made him president. In August 1945 he ordered the atomic bombings of Hiroshima and Nagasaki, which killed well over a hundred thousand people and preceded Japan's surrender. He then committed the United States to the Cold War through the containment doctrine, the Marshall Plan for rebuilding Europe and the founding of NATO in 1949. Narrowly re-elected in 1948 against every forecast, he desegregated the armed forces and sent troops to Korea in 1950. Weighed down by the Korean stalemate, he chose not to run again, left the White House in 1953 and died in Kansas City in 1972."
+  },
+  "highlights": {
+    "fr": [
+      "Devient président à la mort de Roosevelt, le 12 avril 1945",
+      "Ordonne les bombardements atomiques d'Hiroshima et de Nagasaki (août 1945)",
+      "Lance le plan Marshall (1948) et cofonde l'OTAN (1949)",
+      "Remporte la présidentielle de 1948 contre tous les sondages",
+      "Ordonne la déségrégation des forces armées (1948)"
+    ],
+    "en": [
+      "Became president on Roosevelt's death, 12 April 1945",
+      "Ordered the atomic bombings of Hiroshima and Nagasaki (August 1945)",
+      "Launched the Marshall Plan (1948) and co-founded NATO (1949)",
+      "Won the 1948 election against every poll",
+      "Ordered the desegregation of the armed forces (1948)"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste le président qui a fait entrer le monde dans l'ère nucléaire et posé les bases de la guerre froide, de l'OTAN au containment.",
+    "en": "He remains the president who ushered the world into the nuclear age and laid the foundations of the Cold War order, from NATO to containment."
   }
 }

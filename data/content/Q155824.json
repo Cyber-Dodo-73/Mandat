@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Juscelino Kubitschek naît en septembre 1902 à Diamantina, dans le Minas Gerais, élevé par sa mère institutrice après la mort précoce de son père, et devient médecin. Médecin militaire pendant la révolution constitutionnaliste de 1932, il entre ensuite en politique et devient maire de Belo Horizonte de 1940 à 1945, où il confie à Oscar Niemeyer le quartier moderniste de Pampulha. Gouverneur du Minas Gerais à partir de 1951, il remporte la présidentielle de 1955, et son investiture en janvier 1956 n’est garantie que par l’intervention préventive du général Henrique Lott. Il lance un ambitieux plan de développement résumé par le slogan « cinquante ans en cinq », qui favorise l’industrie automobile, l’énergie et les routes. Son grand projet est la construction d’une nouvelle capitale à l’intérieur du pays : Brasília, dessinée par Lúcio Costa et Oscar Niemeyer, est inaugurée le 21 avril 1960. La croissance est forte, mais l’inflation et la dette s’envolent, et il rompt avec le FMI en 1959. Sénateur de Goiás après son mandat, il voit ses droits politiques suspendus par la dictature militaire en 1964, puis s’exile. Il meurt dans un accident de voiture près de Resende, sur la route Rio-São Paulo, en août 1976.",
+    "en": "Juscelino Kubitschek was born in September 1902 in Diamantina, Minas Gerais, raised by his schoolteacher mother after his father died young, and trained as a doctor. An army medic during the 1932 constitutionalist revolt, he went into politics and was mayor of Belo Horizonte from 1940 to 1945, where he commissioned Oscar Niemeyer to build the modernist Pampulha complex. Governor of Minas Gerais from 1951, he won the 1955 presidential election, and his inauguration in January 1956 was secured only by a pre-emptive move by General Henrique Lott. He launched an ambitious development plan summed up by the slogan fifty years in five, backing the car industry, energy and highways. His signature project was a new capital in the interior: Brasília, designed by Lúcio Costa and Oscar Niemeyer, was inaugurated on 21 April 1960. Growth was strong, but inflation and debt soared, and he broke with the IMF in 1959. A senator for Goiás after his term, he had his political rights stripped by the military regime in 1964 and went into exile. He died in a car crash near Resende, on the Rio–São Paulo highway, in August 1976."
+  },
+  "highlights": {
+    "fr": [
+      "Maire de Belo Horizonte de 1940 à 1945, il lance le quartier de Pampulha",
+      "Président du Brésil de 1956 à 1961",
+      "Lance le plan « cinquante ans en cinq »",
+      "Inaugure Brasília, la nouvelle capitale, le 21 avril 1960"
+    ],
+    "en": [
+      "Mayor of Belo Horizonte from 1940 to 1945, he launched Pampulha",
+      "President of Brazil from 1956 to 1961",
+      "Launched the fifty years in five development plan",
+      "Inaugurated Brasília, the new capital, on 21 April 1960"
+    ]
+  },
+  "legacy": {
+    "fr": "Bâtisseur de Brasília, il reste pour les Brésiliens le symbole d’une époque d’optimisme et de modernisation démocratique, avant la dictature.",
+    "en": "The builder of Brasília, he remains for Brazilians the symbol of an era of optimism and democratic modernisation before the dictatorship."
   }
 }

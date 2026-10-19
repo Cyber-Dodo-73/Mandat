@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1897 à Cuttack, en Orissa, dans une famille bengalie aisée, Subhas Chandra Bose étudie à Calcutta puis à Cambridge. Reçu au concours de l'Indian Civil Service en 1920, il démissionne dès l'année suivante pour rejoindre le mouvement nationaliste. Proche de Chittaranjan Das, il milite au Congrès national indien, connaît plusieurs emprisonnements et devient maire de Calcutta en 1930. Partisan d'une indépendance totale et rapide, il s'oppose aux méthodes de Gandhi. Élu président du Congrès en 1938 puis réélu en 1939 contre le candidat soutenu par Gandhi, il doit démissionner quelques mois plus tard et fonde le Forward Bloc. Placé en résidence surveillée, il s'enfuit en 1941 et gagne l'Allemagne nazie, où il recrute une légion parmi les prisonniers indiens. En 1943, il rejoint l'Asie du Sud-Est occupée par le Japon, prend la tête de l'Armée nationale indienne et proclame à Singapour un gouvernement provisoire de l'Inde libre. L'offensive menée aux côtés des Japonais vers Imphal et Kohima en 1944 se solde par une défaite. Il meurt en août 1945 des suites de l'accident de son avion à Taïwan, alors sous contrôle japonais.",
+    "en": "Born in 1897 in Cuttack, Orissa, into a prosperous Bengali family, Subhas Chandra Bose studied in Calcutta and then at Cambridge. He passed the Indian Civil Service exam in 1920 but resigned the following year to join the nationalist movement. A protégé of Chittaranjan Das, he rose in the Indian National Congress, was jailed several times and became mayor of Calcutta in 1930. Pressing for complete and immediate independence, he clashed with Gandhi's methods. Elected Congress president in 1938 and re-elected in 1939 against Gandhi's preferred candidate, he was forced out within months and founded the Forward Bloc. Placed under house arrest, he escaped in 1941 and reached Nazi Germany, where he raised a legion from Indian prisoners of war. In 1943 he moved to Japanese-occupied Southeast Asia, took command of the Indian National Army and proclaimed a Provisional Government of Free India in Singapore. The offensive he joined with the Japanese towards Imphal and Kohima in 1944 ended in defeat. He died in August 1945 after his plane crashed in Taiwan, then under Japanese rule."
+  },
+  "highlights": {
+    "fr": [
+      "Maire de Calcutta en 1930",
+      "Président du Congrès national indien de 1938 à 1939",
+      "Fonde le Forward Bloc en 1939 après sa rupture avec Gandhi",
+      "Proclame à Singapour le gouvernement provisoire de l'Inde libre en 1943"
+    ],
+    "en": [
+      "Mayor of Calcutta in 1930",
+      "President of the Indian National Congress from 1938 to 1939",
+      "Founded the Forward Bloc in 1939 after breaking with Gandhi",
+      "Proclaimed the Provisional Government of Free India in Singapore in 1943"
+    ]
+  },
+  "legacy": {
+    "fr": "Appelé « Netaji » en Inde, il y est honoré comme un héros de l'indépendance, même si son alliance avec l'Allemagne nazie et le Japon impérial reste très discutée.",
+    "en": "Known as “Netaji” in India, he is honoured there as an independence hero, though his alliance with Nazi Germany and imperial Japan remains widely debated."
   }
 }

@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Luanda en 1942, fils d'un maçon, José Eduardo dos Santos rejoint en 1961 le Mouvement populaire de libération de l'Angola (MPLA), qui combat la domination portugaise. Envoyé en Union soviétique, il obtient en 1969 un diplôme d'ingénieur pétrolier à Bakou, puis se forme aux télécommunications militaires. À l'indépendance, en novembre 1975, il devient le premier ministre des Affaires étrangères de l'Angola, alors que la guerre civile oppose le MPLA à l'UNITA de Jonas Savimbi et au FNLA. À la mort d'Agostinho Neto en septembre 1979, il lui succède à la tête du parti et de l'État, à 37 ans. Soutenu par Cuba et l'URSS face à l'UNITA appuyée par l'Afrique du Sud et les États-Unis, il conclut les accords de Bicesse en 1991, mais la guerre reprend après les élections de 1992. Le conflit, qui fait environ un demi-million de morts, ne s'achève qu'avec la mort de Savimbi en février 2002. Le boom pétrolier qui suit enrichit surtout le cercle présidentiel, notamment sa fille Isabel, tandis que la majorité reste pauvre. Après 38 ans de pouvoir, il cède la place à João Lourenço en 2017 et meurt à Barcelone en 2022.",
+    "en": "Born in Luanda in 1942, the son of a bricklayer, José Eduardo dos Santos joined the People's Movement for the Liberation of Angola (MPLA) in 1961 as it fought Portuguese rule. Sent to the Soviet Union, he graduated as a petroleum engineer in Baku in 1969 and then trained in military telecommunications. At independence in November 1975 he became Angola's first foreign minister, as civil war pitted the MPLA against Jonas Savimbi's UNITA and the FNLA. When Agostinho Neto died in September 1979, he succeeded him at the head of the party and the state, aged 37. Backed by Cuba and the USSR against a UNITA supported by South Africa and the United States, he signed the Bicesse Accords in 1991, but war resumed after the 1992 elections. The conflict, which killed about half a million people, ended only with Savimbi's death in February 2002. The oil boom that followed enriched mainly the presidential circle, notably his daughter Isabel, while most Angolans stayed poor. After 38 years in power he handed over to João Lourenço in 2017, and he died in Barcelona in 2022."
+  },
+  "highlights": {
+    "fr": [
+      "Diplômé ingénieur pétrolier à Bakou en 1969",
+      "Premier ministre des Affaires étrangères de l'Angola indépendante, en 1975",
+      "Président de l'Angola de 1979 à 2017",
+      "Signe les accords de paix de Bicesse avec l'UNITA en 1991",
+      "Voit la guerre civile prendre fin en 2002"
+    ],
+    "en": [
+      "Graduated as a petroleum engineer in Baku in 1969",
+      "First foreign minister of independent Angola, in 1975",
+      "President of Angola from 1979 to 2017",
+      "Signed the Bicesse peace accords with UNITA in 1991",
+      "Saw the civil war come to an end in 2002"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a présidé à la fin de la guerre civile, mais son nom reste lié à l'accaparement de la rente pétrolière par sa famille, visée par des enquêtes après son départ.",
+    "en": "He presided over the end of the civil war, but his name remains tied to his family's capture of oil wealth, investigated after he left office."
   }
 }

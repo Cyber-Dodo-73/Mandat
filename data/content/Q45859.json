@@ -32,5 +32,29 @@
         "value": "medieval"
       }
     }
+  },
+  "story": {
+    "fr": "Isabelle naît en 1451 à Madrigal de las Altas Torres, fille du roi Jean II de Castille, et grandit loin de la cour de son demi-frère Henri IV. Reconnue héritière en 1468, elle épouse secrètement en octobre 1469 Ferdinand, héritier d'Aragon, contre l'avis du roi. Proclamée reine à Ségovie en décembre 1474, elle doit livrer une guerre de succession contre sa nièce Jeanne et le Portugal, qu'elle remporte en 1479. La même année, Ferdinand devient roi d'Aragon, et les deux souverains gouvernent ensemble leurs royaumes. Pour traquer les juifs convertis soupçonnés de pratiquer en secret, elle obtient du pape l'Inquisition espagnole en 1478, dont les premiers bûchers ont lieu à Séville en 1481. Après dix ans de guerre, Grenade, dernier royaume musulman de la péninsule, capitule le 2 janvier 1492. Le 31 mars, le décret de l'Alhambra ordonne aux juifs de se convertir ou de partir, et des dizaines de milliers d'entre eux quittent l'Espagne. En avril, elle signe avec Christophe Colomb les capitulations de Santa Fe, qui ouvrent la voie à son voyage vers l'Amérique en octobre. Le pape Alexandre VI leur décerne en 1496 le titre de Rois catholiques, et en 1502 les musulmans de Castille sont à leur tour sommés de se convertir. Elle meurt à Medina del Campo en novembre 1504, laissant le trône à sa fille Jeanne.",
+    "en": "Isabella was born in 1451 at Madrigal de las Altas Torres, the daughter of King John II of Castile, and grew up far from the court of her half-brother Henry IV. Recognised as heir in 1468, she secretly married Ferdinand, heir to Aragon, in October 1469 against the king's wishes. Proclaimed queen in Segovia in December 1474, she had to fight a succession war against her niece Joanna and Portugal, which she won in 1479. That same year Ferdinand became King of Aragon, and the two monarchs ruled their realms together. To hunt down converted Jews suspected of secretly keeping their faith, she obtained the Spanish Inquisition from the Pope in 1478, and its first burnings took place in Seville in 1481. After ten years of war, Granada, the last Muslim kingdom in the peninsula, surrendered on 2 January 1492. On 31 March the Alhambra Decree ordered Jews to convert or leave, and tens of thousands left Spain. In April she signed the Capitulations of Santa Fe with Christopher Columbus, clearing the way for his voyage to the Americas that October. Pope Alexander VI granted the couple the title of Catholic Monarchs in 1496, and in 1502 the Muslims of Castile were in turn ordered to convert. She died at Medina del Campo in November 1504, leaving the throne to her daughter Joanna."
+  },
+  "highlights": {
+    "fr": [
+      "Reine de Castille de 1474 à 1504",
+      "Établit l'Inquisition espagnole en 1478",
+      "Prise de Grenade le 2 janvier 1492",
+      "Expulsion des juifs par le décret de l'Alhambra, le 31 mars 1492",
+      "Finance le premier voyage de Christophe Colomb en 1492"
+    ],
+    "en": [
+      "Queen of Castile from 1474 to 1504",
+      "Set up the Spanish Inquisition in 1478",
+      "Took Granada on 2 January 1492",
+      "Expelled the Jews by the Alhambra Decree of 31 March 1492",
+      "Sponsored Columbus's first voyage in 1492"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a posé avec Ferdinand les bases de l'Espagne unifiée et de son empire colonial, mais aussi d'une politique d'intolérance religieuse aux conséquences durables.",
+    "en": "With Ferdinand she laid the foundations of a united Spain and its colonial empire, and also of a policy of religious intolerance with lasting consequences."
   }
 }

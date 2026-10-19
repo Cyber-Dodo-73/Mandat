@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1917 à Allahabad, fille unique de Jawaharlal Nehru, Indira grandit au cœur du mouvement pour l'indépendance et étudie notamment au Somerville College d'Oxford. Elle épouse en 1942 Feroze Gandhi, sans lien de parenté avec le Mahatma, et sert d'hôtesse et de conseillère à son père devenu Premier ministre. Présidente du Parti du Congrès en 1959, elle entre au gouvernement en 1964 puis devient Première ministre en janvier 1966, après la mort de Lal Bahadur Shastri. Elle nationalise les grandes banques en 1969, et la victoire de l'Inde dans la guerre de 1971 contre le Pakistan permet l'indépendance du Bangladesh. En 1975, après l'invalidation de son élection par un tribunal, elle proclame l'état d'urgence : libertés suspendues, presse censurée, des dizaines de milliers d'opposants emprisonnés et des millions de stérilisations, souvent forcées. Battue en 1977, elle revient au pouvoir en 1980. En juin 1984, elle ordonne l'assaut du Temple d'or d'Amritsar contre des séparatistes sikhs, qui fait des centaines de morts, et elle est assassinée le 31 octobre 1984 à New Delhi par deux de ses gardes du corps sikhs.",
+    "en": "Born in Allahabad in 1917, the only child of Jawaharlal Nehru, Indira grew up at the heart of the independence movement and studied at Somerville College, Oxford, among other places. In 1942 she married Feroze Gandhi, no relation of the Mahatma, and acted as hostess and adviser to her father once he became prime minister. President of the Congress Party in 1959, she joined the cabinet in 1964 and became prime minister in January 1966 after Lal Bahadur Shastri's death. She nationalised the major banks in 1969, and India's victory in the 1971 war with Pakistan led to Bangladesh's independence. In 1975, after a court voided her election, she declared a state of emergency: civil liberties were suspended, the press censored, tens of thousands of opponents jailed and millions sterilised, often by force. Voted out in 1977, she returned to power in 1980. In June 1984 she ordered the assault on Amritsar's Golden Temple against Sikh separatists, which killed hundreds, and on 31 October 1984 she was assassinated in New Delhi by two of her Sikh bodyguards."
+  },
+  "highlights": {
+    "fr": [
+      "Première femme Première ministre de l'Inde, en 1966",
+      "Nationalise les quatorze plus grandes banques indiennes en 1969",
+      "Victoire dans la guerre de 1971, qui mène à l'indépendance du Bangladesh",
+      "Impose l'état d'urgence de 1975 à 1977",
+      "Revenue au pouvoir en 1980, assassinée en octobre 1984"
+    ],
+    "en": [
+      "India's first female prime minister, in 1966",
+      "Nationalised India's fourteen largest banks in 1969",
+      "Won the 1971 war that led to Bangladesh's independence",
+      "Imposed the state of emergency from 1975 to 1977",
+      "Returned to power in 1980, assassinated in October 1984"
+    ]
+  },
+  "legacy": {
+    "fr": "Dirigeante parmi les plus puissantes de l'histoire indienne, elle reste admirée pour sa fermeté et critiquée pour l'autoritarisme de l'état d'urgence.",
+    "en": "One of the most powerful leaders in Indian history, she is admired for her firmness and criticised for the authoritarianism of the Emergency."
   }
 }

@@ -35,5 +35,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Luis Lacalle Pou naît en août 1973 à Montevideo dans une dynastie politique du Parti national : son père, Luis Alberto Lacalle, préside l’Uruguay de 1990 à 1995, et son arrière-grand-père, Luis Alberto de Herrera, fut l’une des grandes figures du parti. Avocat de formation, il est élu député du département de Canelones en 1999 et siège à la Chambre des représentants pendant quinze ans, qu’il préside en 2011. Sénateur à partir de 2015, il est battu une première fois à la présidentielle de 2014 par Tabaré Vázquez. En novembre 2019, à la tête d’une coalition de cinq partis, il l’emporte de justesse au second tour et met fin, en mars 2020, à quinze ans de gouvernements du Frente Amplio. Face à la pandémie, quelques jours après son investiture, il refuse le confinement obligatoire et mise sur la « liberté responsable ». Sa vaste loi d’urgence de 2020 est maintenue par référendum en mars 2022, et il fait adopter en 2023 une réforme portant progressivement l’âge de la retraite de 60 à 65 ans. Son mandat est aussi terni par l’arrestation, en 2022, du chef de sa sécurité pour trafic de passeports. Il cède le pouvoir en mars 2025 à Yamandú Orsi, candidat du Frente Amplio.",
+    "en": "Luis Lacalle Pou was born in August 1973 in Montevideo into a National Party dynasty: his father, Luis Alberto Lacalle, was president of Uruguay from 1990 to 1995, and his great-grandfather, Luis Alberto de Herrera, was one of the party's great figures. A lawyer by training, he was elected deputy for Canelones department in 1999 and sat in the Chamber of Representatives for fifteen years, chairing it in 2011. A senator from 2015, he lost his first presidential bid in 2014 to Tabaré Vázquez. In November 2019, leading a five-party coalition, he narrowly won the runoff and in March 2020 ended fifteen years of Frente Amplio governments. Facing the pandemic days after his inauguration, he refused mandatory lockdowns and relied on what he called responsible freedom. His sweeping emergency law of 2020 survived a referendum in March 2022, and in 2023 he passed a reform gradually raising the retirement age from 60 to 65. His term was also tarnished by the 2022 arrest of his security chief in a passport fraud case. He handed over power in March 2025 to Yamandú Orsi of the Frente Amplio."
+  },
+  "highlights": {
+    "fr": [
+      "Député de Canelones de 2000 à 2015",
+      "Président de la Chambre des représentants en 2011",
+      "Élu président de l’Uruguay en novembre 2019",
+      "Gère la pandémie sans confinement obligatoire en 2020",
+      "Fait repousser l’âge de la retraite à 65 ans en 2023"
+    ],
+    "en": [
+      "Deputy for Canelones from 2000 to 2015",
+      "Speaker of the Chamber of Representatives in 2011",
+      "Elected president of Uruguay in November 2019",
+      "Handled the pandemic without mandatory lockdowns in 2020",
+      "Raised the retirement age to 65 in 2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a ramené le centre droit au pouvoir en Uruguay après quinze ans de gauche et quitté ses fonctions avec une popularité restée élevée.",
+    "en": "He brought the centre-right back to power in Uruguay after fifteen years of left-wing rule and left office with his popularity still high."
   }
 }

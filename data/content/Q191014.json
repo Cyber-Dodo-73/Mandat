@@ -32,5 +32,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "María Estela Martínez naît en février 1931 à La Rioja, dans le nord-ouest de l’Argentine, et devient danseuse sous le nom d’Isabel. Elle rencontre Juan Perón au Panama vers 1956, pendant son exil, et l’épouse à Madrid en 1961. Après le retour de Perón au pouvoir, elle est élue vice-présidente à ses côtés en septembre 1973. À la mort de son mari, le 1er juillet 1974, elle devient présidente, première femme à diriger un État avec ce titre. Son gouvernement passe sous l’influence de José López Rega, ministre lié à l’Alliance anticommuniste argentine, la Triple A, escadron de la mort responsable de centaines d’assassinats. En 1975, un plan d’austérité brutal, le « Rodrigazo », fait exploser l’inflation, et des décrets chargent l’armée d’« anéantir » la guérilla, ouvrant la voie à la répression. Elle est renversée par le coup d’État militaire du 24 mars 1976, détenue jusqu’en 1981, puis s’installe en Espagne. Arrêtée à Madrid en 2007 à la demande de la justice argentine pour des crimes de la Triple A, elle voit l’Espagne refuser son extradition l’année suivante.",
+    "en": "María Estela Martínez was born in February 1931 in La Rioja, in north-western Argentina, and became a dancer under the name Isabel. She met Juan Perón in Panama around 1956, during his exile, and married him in Madrid in 1961. After Perón returned to power, she was elected vice president alongside him in September 1973. When her husband died on 1 July 1974, she became president, the first woman to lead a country with that title. Her government fell under the sway of José López Rega, a minister tied to the Argentine Anticommunist Alliance, the Triple A, a death squad responsible for hundreds of murders. In 1975 a harsh austerity package, the Rodrigazo, sent inflation soaring, and decrees ordered the army to annihilate the guerrillas, paving the way for repression. She was toppled by the military coup of 24 March 1976, held in detention until 1981, and then settled in Spain. Arrested in Madrid in 2007 at the request of Argentine judges over Triple A crimes, she saw Spain refuse to extradite her the following year."
+  },
+  "highlights": {
+    "fr": [
+      "Épouse Juan Perón à Madrid en 1961",
+      "Élue vice-présidente de l’Argentine en 1973",
+      "Première femme présidente au monde, le 1er juillet 1974",
+      "Renversée par le coup d’État militaire du 24 mars 1976"
+    ],
+    "en": [
+      "Married Juan Perón in Madrid in 1961",
+      "Elected vice president of Argentina in 1973",
+      "Became the world's first woman president on 1 July 1974",
+      "Overthrown by the military coup of 24 March 1976"
+    ]
+  },
+  "legacy": {
+    "fr": "Première femme présidente de l’histoire, elle laisse surtout le souvenir d’un pouvoir chaotique, marqué par la violence de la Triple A, qui précéda la dictature.",
+    "en": "The first woman president in history, she is mostly remembered for a chaotic government marked by Triple A violence that preceded the dictatorship."
   }
 }

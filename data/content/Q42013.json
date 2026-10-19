@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Anouar el-Sadate naît en 1918 à Mit Abu el-Kom, dans le gouvernorat de Ménoufia, et sort de l'Académie militaire en 1938. Nationaliste hostile à la présence britannique, il est emprisonné pendant la Seconde Guerre mondiale pour ses contacts avec des agents allemands, puis impliqué dans un assassinat politique et acquitté en 1948. Membre des Officiers libres, il lit à la radio la proclamation du coup d'État du 23 juillet 1952, puis préside l'Assemblée nationale dans les années 1960. Vice-président en 1969, il succède à Nasser à sa mort en 1970, écarte ses rivaux en 1971 et renvoie les conseillers soviétiques en 1972. Le 6 octobre 1973, il lance l'armée égyptienne à travers le canal de Suez contre les lignes israéliennes, une offensive qui restaure le prestige militaire du pays. Il ouvre l'économie aux capitaux étrangers, mais affronte des émeutes du pain en janvier 1977. En novembre 1977, il se rend à Jérusalem et s'adresse à la Knesset, un geste qui mène aux accords de Camp David en 1978 et au traité de paix de mars 1979, qui rend le Sinaï à l'Égypte. Colauréat du prix Nobel de la paix avec Menahem Begin en 1978, il voit pourtant l'Égypte exclue de la Ligue arabe. Après avoir fait arrêter environ 1 500 opposants en septembre 1981, il est assassiné par des militaires islamistes lors d'un défilé au Caire le 6 octobre 1981.",
+    "en": "Anwar Sadat was born in 1918 in Mit Abu al-Kum, Monufia governorate, and graduated from the Military Academy in 1938. A nationalist opposed to British rule, he was jailed during the Second World War for contacts with German agents, then implicated in a political murder and acquitted in 1948. A member of the Free Officers, he read the announcement of the coup of 23 July 1952 on the radio and went on to chair the National Assembly in the 1960s. Vice president in 1969, he succeeded Nasser on his death in 1970, pushed aside his rivals in 1971 and expelled the Soviet advisers in 1972. On 6 October 1973 he sent the Egyptian army across the Suez Canal against Israeli lines, an offensive that restored the country's military pride. He opened the economy to foreign capital but faced bread riots in January 1977. In November 1977 he travelled to Jerusalem and addressed the Knesset, a move that led to the Camp David Accords of 1978 and the March 1979 peace treaty returning Sinai to Egypt. He shared the 1978 Nobel Peace Prize with Menachem Begin, yet Egypt was expelled from the Arab League. After ordering the arrest of some 1,500 opponents in September 1981, he was assassinated by Islamist soldiers during a parade in Cairo on 6 October 1981."
+  },
+  "highlights": {
+    "fr": [
+      "Lit la proclamation du coup d'État des Officiers libres en 1952",
+      "Président de l'Égypte de 1970 à 1981",
+      "Traversée du canal de Suez le 6 octobre 1973",
+      "Visite à Jérusalem et discours à la Knesset en novembre 1977",
+      "Prix Nobel de la paix 1978 et traité de paix avec Israël en 1979"
+    ],
+    "en": [
+      "Read the Free Officers' coup announcement in 1952",
+      "President of Egypt from 1970 to 1981",
+      "Crossed the Suez Canal on 6 October 1973",
+      "Visited Jerusalem and addressed the Knesset in November 1977",
+      "1978 Nobel Peace Prize and 1979 peace treaty with Israel"
+    ]
+  },
+  "legacy": {
+    "fr": "Le traité de paix qu'il a signé avec Israël tient toujours, plus de quarante ans après son assassinat.",
+    "en": "The peace treaty he signed with Israel still holds, more than forty years after his assassination."
   }
 }

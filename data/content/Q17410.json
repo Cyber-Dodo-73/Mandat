@@ -32,5 +32,27 @@
         "value": "diplomacy"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1898 à Huai'an, dans le Jiangsu, Zhou Enlai étudie à Tianjin puis au Japon et participe au mouvement du 4 Mai 1919. En France à partir de 1920, il fonde la branche européenne du Parti communiste chinois, puis dirige le département politique de l'académie militaire de Whampoa. Il organise l'insurrection ouvrière de Shanghai en 1927 et le soulèvement de Nanchang la même année. Pendant la Longue Marche, il se range derrière Mao Zedong lors de la conférence de Zunyi en 1935, et il négocie l'année suivante, après l'incident de Xi'an, le front commun contre le Japon. Premier ministre de la République populaire de sa fondation en 1949 jusqu'à sa mort, il est aussi ministre des Affaires étrangères jusqu'en 1958. Il défend la coexistence pacifique à Genève en 1954 et à Bandung en 1955. Fidèle exécutant de Mao, il applique le Grand Bond en avant, dont la famine tue des dizaines de millions de personnes, et cautionne les purges de la Révolution culturelle tout en protégeant certains responsables. Il prépare la visite de Richard Nixon en 1972, puis meurt d'un cancer à Pékin en janvier 1976.",
+    "en": "Born in Huai'an, Jiangsu, in 1898, Zhou Enlai studied in Tianjin and then in Japan and took part in the May Fourth Movement of 1919. In France from 1920, he founded the European branch of the Chinese Communist Party and then headed the political department of the Whampoa Military Academy. He organised the Shanghai workers' uprising of 1927 and the Nanchang uprising that same year. During the Long March he rallied behind Mao Zedong at the Zunyi conference in 1935, and the following year, after the Xi'an incident, he negotiated the united front against Japan. Premier of the People's Republic from its founding in 1949 until his death, he was also foreign minister until 1958. He championed peaceful coexistence at Geneva in 1954 and Bandung in 1955. A loyal executor of Mao's will, he carried out the Great Leap Forward, whose famine killed tens of millions, and endorsed the purges of the Cultural Revolution while shielding some officials. He prepared Richard Nixon's 1972 visit and died of cancer in Beijing in January 1976."
+  },
+  "highlights": {
+    "fr": [
+      "1927 : organise le soulèvement de Nanchang",
+      "1949 : premier chef du gouvernement de la Chine populaire",
+      "1955 : figure de la conférence de Bandung",
+      "1972 : accueille Richard Nixon à Pékin"
+    ],
+    "en": [
+      "1927: organises the Nanchang uprising",
+      "1949: first premier of the People's Republic of China",
+      "1955: a leading figure at the Bandung Conference",
+      "1972: welcomes Richard Nixon to Beijing"
+    ]
+  },
+  "legacy": {
+    "fr": "Diplomate habile et visage modéré du régime, il reste très populaire en Chine, même si sa loyauté envers Mao l'a associé aux pires campagnes du maoïsme.",
+    "en": "A deft diplomat and the regime's moderate face, he remains popular in China, though his loyalty to Mao tied him to Maoism's worst campaigns."
   }
 }

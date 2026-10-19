@@ -30,5 +30,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Fils d'un sénateur du Tennessee, Albert Arnold Gore Jr. naît en 1948 à Washington et partage son enfance entre la capitale et la ferme familiale de Carthage. Diplômé de Harvard en 1969, il sert au Vietnam comme journaliste de l'armée, puis travaille comme reporter à Nashville. Élu à la Chambre des représentants en 1976, il entre au Sénat en 1985 et se fait remarquer sur les questions d'armement, d'environnement et de réseaux informatiques. Candidat malheureux à l'investiture démocrate en 1988, il publie en 1992 Earth in the Balance, consacré à la crise écologique. Choisi par Bill Clinton comme colistier, il est vice-président de 1993 à 2001 et pilote notamment un programme de modernisation de l'administration et la négociation du protocole de Kyoto. Candidat démocrate en 2000, il remporte le vote populaire contre George W. Bush, mais la Cour suprême met fin au recomptage en Floride et il reconnaît sa défaite en décembre. Il se consacre ensuite à la lutte contre le réchauffement climatique : son film Une vérité qui dérange est oscarisé, et il partage en 2007 le prix Nobel de la paix avec le GIEC. Il reçoit la médaille présidentielle de la liberté en 2024.",
+    "en": "The son of a Tennessee senator, Albert Arnold Gore Jr. was born in 1948 in Washington and split his childhood between the capital and the family farm in Carthage. A Harvard graduate in 1969, he served in Vietnam as an army journalist, then worked as a newspaper reporter in Nashville. Elected to the House in 1976, he moved up to the Senate in 1985 and made his mark on arms control, the environment and computer networks. After losing the race for the Democratic nomination in 1988, he published Earth in the Balance in 1992, a book on the ecological crisis. Chosen by Bill Clinton as his running mate, he was vice president from 1993 to 2001, leading a drive to modernise government and the US negotiation of the Kyoto Protocol. As the Democratic nominee in 2000 he won the popular vote against George W. Bush, but the Supreme Court halted the Florida recount and he conceded in December. He then devoted himself to fighting climate change: his film An Inconvenient Truth won an Oscar, and in 2007 he shared the Nobel Peace Prize with the IPCC. He received the Presidential Medal of Freedom in 2024."
+  },
+  "highlights": {
+    "fr": [
+      "Sénateur du Tennessee de 1985 à 1993",
+      "Vice-président des États-Unis de 1993 à 2001",
+      "Remporte le vote populaire en 2000 mais perd l'élection face à Bush",
+      "Prix Nobel de la paix 2007, partagé avec le GIEC"
+    ],
+    "en": [
+      "Senator for Tennessee from 1985 to 1993",
+      "Vice President of the United States from 1993 to 2001",
+      "Won the popular vote in 2000 but lost the election to Bush",
+      "2007 Nobel Peace Prize, shared with the IPCC"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste l'un des visages les plus connus de l'alerte climatique et le perdant de l'élection présidentielle la plus serrée de l'histoire américaine récente.",
+    "en": "He remains one of the best-known faces of climate advocacy and the loser of the closest presidential election in recent American history."
   }
 }

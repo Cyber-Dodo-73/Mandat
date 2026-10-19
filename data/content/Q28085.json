@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1906 à Solingen, en Rhénanie, Adolf Eichmann grandit à Linz, en Autriche, et occupe des emplois de représentant avant d'adhérer au parti nazi et à la SS en 1932. Entré au service de sécurité SS, il se spécialise dans les « affaires juives » et organise après l'Anschluss de 1938 l'émigration forcée et la spoliation des Juifs de Vienne. Placé à la tête du bureau IV B4 de l'Office central de sécurité du Reich, il assure la logistique de la déportation des Juifs d'Europe. En janvier 1942, il rédige le procès-verbal de la conférence de Wannsee, qui coordonne la « solution finale », l'extermination des Juifs d'Europe. Son service organise les convois vers Auschwitz, Treblinka et les autres centres de mise à mort, contribuant à la déportation de plusieurs millions de personnes. Au printemps 1944, il supervise en personne la déportation d'environ 437 000 Juifs de Hongrie, dont la plupart sont gazés dès leur arrivée à Auschwitz. Après la guerre, il échappe aux Alliés et s'enfuit en 1950 en Argentine sous un faux nom. Enlevé par le Mossad près de Buenos Aires en mai 1960, il est jugé à Jérusalem en 1961, condamné à mort et pendu à Ramla en juin 1962.",
+    "en": "Born in 1906 in Solingen, in the Rhineland, Adolf Eichmann grew up in Linz, Austria, and worked as a salesman before joining the Nazi Party and the SS in 1932. Moving into the SS security service, he specialised in 'Jewish affairs' and, after the 1938 Anschluss, ran the forced emigration and plundering of Vienna's Jews. As head of section IV B4 of the Reich Main Security Office, he handled the logistics of deporting Europe's Jews. In January 1942 he wrote the minutes of the Wannsee Conference, which coordinated the 'Final Solution', the extermination of European Jewry. His office organised the trains to Auschwitz, Treblinka and the other killing centres, helping to send several million people to their deaths. In spring 1944 he personally oversaw the deportation of about 437,000 Hungarian Jews, most of whom were gassed on arrival at Auschwitz. After the war he slipped away from the Allies and in 1950 fled to Argentina under a false name. Abducted by Mossad agents near Buenos Aires in May 1960, he was tried in Jerusalem in 1961, sentenced to death and hanged at Ramla in June 1962."
+  },
+  "highlights": {
+    "fr": [
+      "1938 : organise à Vienne l'expulsion et la spoliation des Juifs autrichiens",
+      "1942 : rédige le procès-verbal de la conférence de Wannsee",
+      "1942-1945 : organise la déportation de millions de Juifs vers les camps d'extermination",
+      "1944 : supervise la déportation d'environ 437 000 Juifs de Hongrie",
+      "1962 : pendu à Ramla après son procès à Jérusalem"
+    ],
+    "en": [
+      "1938: ran the expulsion and plundering of Austria's Jews from Vienna",
+      "1942: wrote the minutes of the Wannsee Conference",
+      "1942–1945: organised the deportation of millions of Jews to death camps",
+      "1944: oversaw the deportation of about 437,000 Hungarian Jews",
+      "1962: hanged at Ramla after his trial in Jerusalem"
+    ]
+  },
+  "legacy": {
+    "fr": "Son procès, retransmis dans le monde entier, a donné la parole aux survivants et fait connaître l'ampleur de la Shoah. Hannah Arendt en a tiré sa réflexion sur la « banalité du mal ».",
+    "en": "His trial, broadcast worldwide, gave survivors a voice and brought the scale of the Holocaust to a global audience. Hannah Arendt drew from it her idea of the 'banality of evil'."
   }
 }

@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né à Riyad le 31 décembre 1935, Salman est l'un des fils du fondateur du royaume, Abdelaziz ibn Saoud, et appartient au puissant clan des Soudayri. Formé à l'école des princes de Riyad, il devient en 1963 gouverneur de la région de Riyad, poste qu'il occupe près d'un demi-siècle et durant lequel la capitale passe d'une ville moyenne à une métropole de plusieurs millions d'habitants. Gardien de la discipline familiale et arbitre des querelles au sein de la maison des Saoud, il est nommé ministre de la Défense en 2011, puis prince héritier en juin 2012. Il devient roi le 23 janvier 2015 à la mort de son demi-frère Abdallah, et cumule la fonction de Premier ministre. Dès mars 2015, il lance avec son fils Mohammed ben Salmane, nommé ministre de la Défense, une intervention militaire au Yémen contre les Houthis ; ce conflit fait des dizaines de milliers de victimes civiles et provoque l'une des pires crises humanitaires au monde. En 2017, il écarte le prince héritier Mohammed ben Nayef au profit de son fils, qui orchestre la même année l'arrestation de centaines de notables au Ritz-Carlton. Son règne voit le lancement du plan Vision 2030 et l'autorisation pour les femmes de conduire en 2018, mais aussi l'assassinat du journaliste Jamal Khashoggi au consulat saoudien d'Istanbul en octobre 2018. En 2022, il cède le poste de Premier ministre à Mohammed ben Salmane.",
+    "en": "Born in Riyadh on 31 December 1935, Salman is one of the sons of the kingdom's founder, Abdulaziz ibn Saud, and belongs to the powerful Sudairi branch. Educated at the Princes' School in Riyadh, he became governor of the Riyadh region in 1963 and held the post for nearly half a century, as the capital grew from a mid-sized town into a city of several million. Known as the enforcer of family discipline and arbiter of disputes within the House of Saud, he was made defence minister in 2011 and crown prince in June 2012. He became king on 23 January 2015 on the death of his half-brother Abdullah, also serving as prime minister. In March 2015, with his son Mohammed bin Salman as defence minister, he launched a military intervention in Yemen against the Houthis; the war has killed tens of thousands of civilians and caused one of the world's worst humanitarian crises. In 2017 he removed Crown Prince Mohammed bin Nayef in favour of his son, who that year had hundreds of prominent figures detained at the Riyadh Ritz-Carlton. His reign brought the Vision 2030 plan and the right for women to drive in 2018, but also the murder of the journalist Jamal Khashoggi at the Saudi consulate in Istanbul in October 2018. In 2022 he handed the post of prime minister to Mohammed bin Salman."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur de la région de Riyad de 1963 à 2011",
+      "Devient roi d'Arabie saoudite le 23 janvier 2015",
+      "Lance en mars 2015 l'intervention militaire au Yémen",
+      "Fait de son fils Mohammed ben Salmane le prince héritier en 2017",
+      "Autorise les femmes à conduire en 2018"
+    ],
+    "en": [
+      "Governor of the Riyadh region from 1963 to 2011",
+      "Became king of Saudi Arabia on 23 January 2015",
+      "Launched the military intervention in Yemen in March 2015",
+      "Made his son Mohammed bin Salman crown prince in 2017",
+      "Allowed women to drive in 2018"
+    ]
+  },
+  "legacy": {
+    "fr": "Son règne a rompu avec la succession entre frères en confiant l'avenir du royaume à son fils, artisan d'une modernisation sociale rapide doublée d'une répression accrue.",
+    "en": "His reign broke with succession among brothers by handing the kingdom's future to his son, the driver of rapid social change combined with harsher repression."
   }
 }

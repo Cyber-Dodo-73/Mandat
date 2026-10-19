@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Caracas en 1967 dans une famille d'industriels, María Corina Machado devient ingénieure industrielle et crée en 1992 une fondation d'aide aux enfants des rues. En 2002, elle cofonde l'association civique Súmate, qui organise la collecte de signatures pour le référendum révocatoire contre Hugo Chávez en 2004 ; le pouvoir la poursuit pour avoir reçu des fonds américains. Élue à l'Assemblée nationale en 2010 avec un score record, elle interpelle directement Chávez dans l'hémicycle en 2012. En 2014, elle lance avec Leopoldo López la campagne « La Salida » pour pousser Nicolás Maduro au départ ; la même année, elle est déchue de son mandat. Elle fonde le parti libéral Vente Venezuela et reste l'une des voix les plus intransigeantes de l'opposition. En octobre 2023, elle remporte la primaire de l'opposition avec plus de 90 % des voix, mais une interdiction d'exercer toute fonction publique l'empêche de se présenter. Elle fait alors campagne pour Edmundo González à la présidentielle de juillet 2024 ; l'opposition publie des procès-verbaux attestant sa victoire, mais Maduro se proclame réélu. Entrée dans la clandestinité, elle reçoit le prix Sakharov en 2024 puis le prix Nobel de la paix en 2025.",
+    "en": "Born in Caracas in 1967 into a family of industrialists, María Corina Machado trained as an industrial engineer and in 1992 set up a foundation for street children. In 2002 she co-founded the civic group Súmate, which ran the signature drive for the 2004 recall referendum against Hugo Chávez; the government prosecuted her for accepting US funding. Elected to the National Assembly in 2010 with a record vote, she confronted Chávez face to face in the chamber in 2012. In 2014 she joined Leopoldo López in the \"La Salida\" campaign to force Nicolás Maduro out, and that same year she was stripped of her seat. She founded the liberal party Vente Venezuela and remained one of the opposition's most uncompromising voices. In October 2023 she won the opposition primary with more than 90% of the vote, but a ban on holding public office kept her off the ballot. She then campaigned for Edmundo González in the July 2024 presidential election; the opposition published tally sheets showing he had won, but Maduro declared himself re-elected. Forced into hiding, she received the Sakharov Prize in 2024 and the Nobel Peace Prize in 2025."
+  },
+  "highlights": {
+    "fr": [
+      "Cofonde en 2002 Súmate, association de surveillance électorale",
+      "Élue députée en 2010 avec le meilleur score du pays",
+      "Remporte la primaire de l'opposition en octobre 2023 avec plus de 90 % des voix",
+      "Prix Sakharov 2024 et prix Nobel de la paix 2025"
+    ],
+    "en": [
+      "Co-founded the election-monitoring group Súmate in 2002",
+      "Elected to the National Assembly in 2010 with the country's top vote",
+      "Won the October 2023 opposition primary with over 90% of the vote",
+      "Received the 2024 Sakharov Prize and the 2025 Nobel Peace Prize"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle est devenue le visage international de la résistance démocratique au chavisme et le symbole d'une opposition vénézuélienne enfin unie.",
+    "en": "She has become the international face of democratic resistance to chavismo and the symbol of a finally united Venezuelan opposition."
   }
 }

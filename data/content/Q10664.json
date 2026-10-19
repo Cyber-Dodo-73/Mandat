@@ -32,5 +32,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1869 à Birmingham, Neville Chamberlain est le fils de Joseph Chamberlain et le demi-frère d'Austen, tous deux hommes politiques de premier plan. Après avoir dirigé une plantation de sisal aux Bahamas sans succès, il fait carrière dans l'industrie à Birmingham, dont il devient le maire en 1915. Élu député conservateur en 1918, il est successivement ministre des Postes en 1922 puis brièvement chancelier de l'Échiquier en 1923. Ministre de la Santé de 1924 à 1929, il réforme les retraites, le logement et l'administration locale. Revenu à l'Échiquier de 1931 à 1937, il gère l'après-crise et instaure en 1932 un tarif protectionniste. Devenu Premier ministre en mai 1937, il mène une politique d'apaisement envers l'Allemagne nazie, qui culmine avec les accords de Munich de septembre 1938 cédant les Sudètes à Hitler. Après l'invasion de la Tchécoslovaquie en mars 1939, il garantit les frontières de la Pologne et déclare la guerre à l'Allemagne le 3 septembre 1939. L'échec de l'expédition de Norvège provoque en mai 1940 une fronde parlementaire, et il cède la place à Winston Churchill tout en restant au cabinet comme lord-président du Conseil. Atteint d'un cancer, il démissionne en octobre et meurt en novembre 1940.",
+    "en": "Born in Birmingham in 1869, Neville Chamberlain was the son of Joseph Chamberlain and half-brother of Austen, both leading politicians. After running an unsuccessful sisal plantation in the Bahamas, he built a career in industry in Birmingham and became its lord mayor in 1915. Elected a Conservative MP in 1918, he served as Postmaster General in 1922 and briefly as Chancellor of the Exchequer in 1923. As Minister of Health from 1924 to 1929 he reformed pensions, housing and local government. Back at the Treasury from 1931 to 1937, he steered recovery from the slump and introduced a protective tariff in 1932. Becoming prime minister in May 1937, he pursued appeasement of Nazi Germany, culminating in the Munich Agreement of September 1938 that handed the Sudetenland to Hitler. After Germany seized the rest of Czechoslovakia in March 1939, he guaranteed Poland's borders and declared war on Germany on 3 September 1939. The failed Norway campaign triggered a Commons revolt in May 1940, and he made way for Winston Churchill while staying in the cabinet as Lord President of the Council. Stricken with cancer, he resigned in October and died in November 1940."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre de la Santé de 1924 à 1929, réformateur du logement et des retraites",
+      "Chancelier de l'Échiquier de 1931 à 1937",
+      "Signe les accords de Munich en septembre 1938",
+      "Déclare la guerre à l'Allemagne le 3 septembre 1939"
+    ],
+    "en": [
+      "Minister of Health from 1924 to 1929, reforming housing and pensions",
+      "Chancellor of the Exchequer from 1931 to 1937",
+      "Signed the Munich Agreement in September 1938",
+      "Declared war on Germany on 3 September 1939"
+    ]
+  },
+  "legacy": {
+    "fr": "Son nom reste attaché à l'échec de l'apaisement face à Hitler, même si des historiens soulignent qu'il a aussi gagné du temps pour le réarmement britannique.",
+    "en": "His name remains bound to the failure of appeasing Hitler, though some historians argue that he also bought time for British rearmament."
   }
 }

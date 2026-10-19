@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Heinz Alfred Kissinger naît en 1923 à Fürth, en Bavière, dans une famille juive qui fuit l'Allemagne nazie pour New York en 1938. Naturalisé américain, il sert dans l'armée pendant la Seconde Guerre mondiale, puis fait toutes ses études supérieures à Harvard, où il enseigne ensuite les relations internationales. Théoricien réaliste de la diplomatie et du nucléaire, il devient en 1969 conseiller à la sécurité nationale de Richard Nixon, puis secrétaire d'État de 1973 à 1977, cumulant les deux postes pendant deux ans. Il orchestre la détente avec l'URSS et l'ouverture vers la Chine de Mao, préparée par son voyage secret à Pékin en 1971. Il négocie les accords de Paris de 1973 sur le Vietnam, qui lui valent un prix Nobel de la paix très contesté, partagé avec Lê Đức Thọ qui le refuse. Il est aussi associé aux bombardements secrets du Cambodge et du Laos, au soutien au coup d'État de Pinochet au Chili en 1973 et à l'appui donné à des régimes auteurs de massacres, comme au Pakistan en 1971. Après 1977, il fonde un cabinet de conseil et reste consulté par les dirigeants du monde entier. Il meurt centenaire en novembre 2023 dans le Connecticut.",
+    "en": "Heinz Alfred Kissinger was born in 1923 in Fürth, Bavaria, to a Jewish family that fled Nazi Germany for New York in 1938. Naturalized as an American, he served in the army during the Second World War, then took all his degrees at Harvard, where he went on to teach international relations. A realist theorist of diplomacy and nuclear strategy, he became Richard Nixon's national security adviser in 1969 and Secretary of State from 1973 to 1977, holding both posts for two years. He engineered détente with the Soviet Union and the opening to Mao's China, prepared by his secret trip to Beijing in 1971. He negotiated the 1973 Paris accords on Vietnam, which earned him a highly controversial Nobel Peace Prize shared with Le Duc Tho, who declined it. He is also tied to the secret bombing of Cambodia and Laos, to support for Pinochet's 1973 coup in Chile and to backing regimes that carried out massacres, as in Pakistan in 1971. After 1977 he set up a consulting firm and remained a sought-after adviser to leaders worldwide. He died aged 100 in November 2023 in Connecticut."
+  },
+  "highlights": {
+    "fr": [
+      "Conseiller à la sécurité nationale de Nixon (1969-1975)",
+      "Voyage secret à Pékin en juillet 1971, prélude à la visite de Nixon",
+      "Prix Nobel de la paix 1973 pour les accords de Paris sur le Vietnam",
+      "Secrétaire d'État des États-Unis (1973-1977)"
+    ],
+    "en": [
+      "National security adviser to Nixon (1969-1975)",
+      "Made a secret trip to Beijing in July 1971, paving the way for Nixon's visit",
+      "Won the 1973 Nobel Peace Prize for the Paris accords on Vietnam",
+      "United States Secretary of State (1973-1977)"
+    ]
+  },
+  "legacy": {
+    "fr": "Incarnation de la Realpolitik américaine, il reste admiré pour la détente et l'ouverture à la Chine, et accusé d'avoir couvert des crimes au nom de l'intérêt stratégique.",
+    "en": "The embodiment of American realpolitik, he is still admired for détente and the opening to China, and accused of condoning atrocities in the name of strategic interest."
   }
 }

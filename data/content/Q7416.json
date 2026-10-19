@@ -32,5 +32,29 @@
         "value": "diplomacy"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1925 à Grantham, fille d'un épicier et élu local méthodiste, Margaret Roberts étudie la chimie à Oxford, au Somerville College. Elle travaille comme chimiste, devient avocate fiscaliste et épouse l'homme d'affaires Denis Thatcher, avant d'être élue députée de Finchley en 1959. Ministre de l'Éducation de 1970 à 1974 dans le gouvernement Heath, elle conquiert la direction du Parti conservateur en 1975. Les élections de mai 1979 font d'elle la première femme Première ministre du Royaume-Uni. Elle mène une politique monétariste et libérale, privatise de grandes entreprises publiques, affronte les syndicats lors de la longue grève des mineurs de 1984-1985 et réduit le poids de l'État. Sa victoire dans la guerre des Malouines contre l'Argentine en 1982 lui assure une large réélection en 1983, puis à nouveau en 1987, et elle survit à l'attentat de l'IRA à Brighton en 1984. Fragilisée par l'impopulaire impôt local dit « poll tax » et par ses divisions avec son parti sur l'Europe, elle démissionne en novembre 1990 et meurt à Londres en 2013.",
+    "en": "Born in Grantham in 1925, the daughter of a grocer and Methodist local councillor, Margaret Roberts studied chemistry at Somerville College, Oxford. She worked as a research chemist, qualified as a tax barrister and married businessman Denis Thatcher before being elected MP for Finchley in 1959. Education secretary from 1970 to 1974 under Edward Heath, she won the Conservative leadership in 1975. The May 1979 election made her Britain's first female prime minister. She pursued monetarist, free-market policies, privatised major state industries, faced down the unions in the long miners' strike of 1984–1985 and shrank the role of the state. Victory over Argentina in the 1982 Falklands War helped secure a landslide re-election in 1983, followed by another win in 1987, and she survived the IRA bombing in Brighton in 1984. Weakened by the unpopular poll tax and by party splits over Europe, she resigned in November 1990, and she died in London in 2013."
+  },
+  "highlights": {
+    "fr": [
+      "Première femme à la tête du Parti conservateur, en 1975",
+      "Première femme Première ministre du Royaume-Uni, en 1979",
+      "Remporte la guerre des Malouines contre l'Argentine en 1982",
+      "Tient bon face à la grève des mineurs de 1984-1985",
+      "Reste Première ministre onze ans, jusqu'en 1990"
+    ],
+    "en": [
+      "First woman to lead the Conservative Party, in 1975",
+      "Britain's first female prime minister, in 1979",
+      "Won the Falklands War against Argentina in 1982",
+      "Held out against the 1984–1985 miners' strike",
+      "Served eleven years as prime minister, until 1990"
+    ]
+  },
+  "legacy": {
+    "fr": "Le « thatchérisme » a converti durablement l'économie britannique au marché et aux privatisations, mais les régions minières n'ont jamais oublié la désindustrialisation.",
+    "en": "Thatcherism durably converted the British economy to markets and privatisation, though former mining regions never forgot the deindustrialisation that came with it."
   }
 }

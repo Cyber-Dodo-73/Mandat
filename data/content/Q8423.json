@@ -36,5 +36,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né vers 600 avant notre ère, Cyrus est issu de la dynastie achéménide qui règne sur Anshan, petit royaume perse vassal des Mèdes. Devenu roi vers 559, il se révolte contre son suzerain mède Astyage et s'empare de sa capitale, Ecbatane, vers 550. Il se tourne ensuite vers l'ouest et vainc Crésus, le riche roi de Lydie, prenant Sardes vers 547. En 539, il entre à Babylone presque sans combat et met fin à l'empire néo-babylonien. Le cylindre de Cyrus, rédigé pour l'occasion, le présente en restaurateur des cultes locaux, et la Bible lui attribue l'autorisation donnée aux Judéens exilés de rentrer à Jérusalem. Son empire s'étend alors de la mer Égée à l'Asie centrale, le plus vaste que le monde ait connu jusque-là. Il fonde la capitale de Pasargades, où se dresse encore son tombeau. Il meurt vers 530 lors d'une campagne contre des peuples nomades d'Asie centrale, près du Syr-Daria selon certaines traditions, et son fils Cambyse lui succède.",
+    "en": "Born around 600 BCE, Cyrus belonged to the Achaemenid dynasty ruling Anshan, a small Persian kingdom subject to the Medes. Becoming king around 559, he rose against his Median overlord Astyages and seized his capital, Ecbatana, around 550. He then turned west and defeated Croesus, the wealthy king of Lydia, taking Sardis around 547. In 539 he entered Babylon almost without a fight, ending the Neo-Babylonian Empire. The Cyrus Cylinder, written for the occasion, casts him as a restorer of local cults, and the Bible credits him with letting exiled Judeans return to Jerusalem. His realm then stretched from the Aegean to Central Asia, the largest empire the world had yet seen. He founded the capital of Pasargadae, where his tomb still stands. He died around 530 while campaigning against nomadic peoples in Central Asia, near the Syr Darya by some accounts, and was succeeded by his son Cambyses."
+  },
+  "highlights": {
+    "fr": [
+      "Vers 550 : renverse le roi mède Astyage et prend Ecbatane",
+      "Vers 547 : bat Crésus et conquiert la Lydie",
+      "539 : entre dans Babylone et met fin à l'empire néo-babylonien",
+      "Permet aux Judéens exilés de rentrer à Jérusalem, selon la Bible",
+      "Fonde Pasargades, où se trouve son tombeau"
+    ],
+    "en": [
+      "c. 550: overthrew the Median king Astyages and took Ecbatana",
+      "c. 547: defeated Croesus and conquered Lydia",
+      "539: entered Babylon, ending the Neo-Babylonian Empire",
+      "Let exiled Judeans return to Jerusalem, according to the Bible",
+      "Founded Pasargadae, site of his tomb"
+    ]
+  },
+  "legacy": {
+    "fr": "Fondateur de l'Empire perse achéménide, il reste en Iran une figure nationale et, ailleurs, un modèle de conquérant tolérant envers les peuples soumis.",
+    "en": "Founder of the Achaemenid Persian Empire, he remains a national icon in Iran and, elsewhere, a model of a conqueror tolerant of the peoples he ruled."
   }
 }

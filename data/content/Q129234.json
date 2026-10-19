@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Fille du pharaon Thoutmôsis Ier et de la reine Ahmès, Hatchepsout naît au début du XVe siècle avant notre ère, sous la XVIIIe dynastie. Elle épouse son demi-frère Thoutmôsis II, qui règne peu d'années. À sa mort, vers 1479 avant notre ère, le trône revient au jeune Thoutmôsis III, fils d'une épouse secondaire, et Hatchepsout exerce la régence. Quelques années plus tard, elle prend la titulature complète de pharaon et se fait représenter avec les attributs masculins du roi, dont la barbe postiche. Son règne, d'une vingtaine d'années, est surtout pacifique et prospère. Elle envoie une grande expédition maritime vers le pays de Pount, d'où reviennent encens, myrrhe et animaux exotiques, scène gravée sur les murs de son temple. Elle fait ériger à Karnak des obélisques géants et construire à Deir el-Bahari son temple funéraire en terrasses, attribué à son intendant Senenmout. Elle meurt vers 1458 avant notre ère. Des décennies plus tard, sous Thoutmôsis III, nombre de ses images et cartouches sont martelés, et son nom disparaît des listes royales.",
+    "en": "Daughter of Pharaoh Thutmose I and Queen Ahmose, Hatshepsut was born early in the 15th century BCE, under the Eighteenth Dynasty. She married her half-brother Thutmose II, who reigned only a few years. When he died around 1479 BCE the throne passed to the young Thutmose III, son of a minor wife, and Hatshepsut acted as regent. A few years later she took the full titles of pharaoh and had herself shown with the king's male regalia, including the false beard. Her reign of about twenty years was largely peaceful and prosperous. She sent a large sea expedition to the land of Punt, which brought back incense, myrrh and exotic animals, a scene carved on the walls of her temple. She raised giant obelisks at Karnak and built her terraced mortuary temple at Deir el-Bahari, credited to her steward Senenmut. She died around 1458 BCE. Decades later, under Thutmose III, many of her images and cartouches were chiselled away and her name vanished from the king lists."
+  },
+  "highlights": {
+    "fr": [
+      "Vers 1479 avant notre ère : régente pour le jeune Thoutmôsis III",
+      "Prend la titulature complète de pharaon",
+      "Envoie une grande expédition vers le pays de Pount",
+      "Fait bâtir le temple de Deir el-Bahari et des obélisques à Karnak"
+    ],
+    "en": [
+      "Around 1479 BCE: regent for the young Thutmose III",
+      "Takes on the full titles of pharaoh",
+      "Sends a large expedition to the land of Punt",
+      "Builds the Deir el-Bahari temple and obelisks at Karnak"
+    ]
+  },
+  "legacy": {
+    "fr": "Rare femme à avoir régné comme pharaon de plein droit, elle a été redécouverte par l'égyptologie moderne malgré les efforts pour l'effacer.",
+    "en": "One of the few women to rule as pharaoh in her own right, she was rediscovered by modern Egyptology despite efforts to erase her."
   }
 }

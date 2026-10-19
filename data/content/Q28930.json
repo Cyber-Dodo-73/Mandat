@@ -32,5 +32,27 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Bernardo O’Higgins naît en août 1778 à Chillán, fils naturel d’Ambrosio O’Higgins, officier d’origine irlandaise devenu vice-roi du Pérou, qui ne le reconnaît jamais publiquement. Éduqué à Lima puis en Angleterre, il y fréquente les cercles de Francisco de Miranda et s’imprègne des idées d’indépendance. Rentré au Chili, il rejoint en 1810 le mouvement autonomiste et devient l’un des chefs militaires de la première insurrection, écrasée par les royalistes à Rancagua en octobre 1814. Réfugié à Mendoza, il prépare avec José de San Martín l’armée des Andes, qui franchit la cordillère et remporte la bataille de Chacabuco le 12 février 1817. Nommé Directeur suprême quelques jours plus tard, il proclame l’indépendance du Chili en février 1818, confirmée par la victoire de Maipú en avril. Il crée une marine confiée à Lord Cochrane, qui transporte en 1820 l’expédition libératrice vers le Pérou, et abolit les titres de noblesse. Son pouvoir autoritaire, l’exécution des frères Carrera, ses rivaux, et la crise économique lui aliènent l’élite. Contraint d’abdiquer en janvier 1823, il s’exile au Pérou, où il meurt à Lima en octobre 1842.",
+    "en": "Bernardo O'Higgins was born in August 1778 in Chillán, the illegitimate son of Ambrosio O'Higgins, an Irish-born officer who became viceroy of Peru and never publicly acknowledged him. Educated in Lima and then in England, he moved in Francisco de Miranda's circles there and absorbed ideas of independence. Back in Chile, he joined the self-rule movement in 1810 and became a commander of the first uprising, crushed by royalists at Rancagua in October 1814. In exile in Mendoza, he helped José de San Martín build the Army of the Andes, which crossed the mountains and won the Battle of Chacabuco on 12 February 1817. Named Supreme Director days later, he proclaimed Chile's independence in February 1818, secured by the victory at Maipú that April. He created a navy under Lord Cochrane, which carried the liberating expedition to Peru in 1820, and abolished titles of nobility. His authoritarian rule, the execution of his rivals the Carrera brothers and economic hardship turned the elite against him. Forced to abdicate in January 1823, he went into exile in Peru and died in Lima in October 1842."
+  },
+  "highlights": {
+    "fr": [
+      "Remporte avec San Martín la bataille de Chacabuco le 12 février 1817",
+      "Directeur suprême du Chili de 1817 à 1823",
+      "Proclame l’indépendance du Chili en février 1818",
+      "Crée la marine chilienne et lance l’expédition vers le Pérou en 1820"
+    ],
+    "en": [
+      "Won the Battle of Chacabuco with San Martín on 12 February 1817",
+      "Supreme Director of Chile from 1817 to 1823",
+      "Proclaimed Chile's independence in February 1818",
+      "Built Chile's navy and launched the expedition to Peru in 1820"
+    ]
+  },
+  "legacy": {
+    "fr": "Considéré comme le père de la nation chilienne, il est honoré dans tout le pays, même si son exercice autoritaire du pouvoir a précipité sa chute.",
+    "en": "Regarded as the father of the Chilean nation, he is honoured throughout the country, even though his authoritarian rule brought about his downfall."
   }
 }

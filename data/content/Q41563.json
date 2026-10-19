@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1961 à Barry, au pays de Galles, Julia Gillard émigre avec sa famille à Adélaïde en 1966, sur conseil médical. Diplômée en droit à Melbourne, elle devient avocate spécialisée en droit du travail chez Slater & Gordon, puis cheffe de cabinet du chef de l'opposition travailliste du Victoria. Élue députée de Lalor en 1998, elle devient en 2007 vice-Première ministre de Kevin Rudd, chargée de l'Éducation et du Travail, et démantèle la loi WorkChoices du gouvernement précédent. Le 24 juin 2010, elle évince Rudd à la tête du parti et devient la première femme Première ministre d'Australie. Les élections d'août produisent un Parlement sans majorité, et elle gouverne avec les Verts et des indépendants. Elle instaure une tarification du carbone, lance le régime national d'assurance invalidité et une commission royale sur les abus sexuels envers les enfants. En octobre 2012, son discours contre la misogynie visant Tony Abbott fait le tour du monde. Renversée par Rudd en juin 2013, elle quitte la vie politique et préside notamment un institut sur le leadership des femmes à Londres.",
+    "en": "Born in Barry, Wales, in 1961, Julia Gillard emigrated with her family to Adelaide in 1966 on medical advice. A law graduate from Melbourne, she worked as an industrial lawyer at Slater & Gordon and then as chief of staff to Victoria's Labor opposition leader. Elected MP for Lalor in 1998, she became Kevin Rudd's deputy prime minister in 2007, in charge of education and employment, and dismantled the previous government's WorkChoices law. On 24 June 2010 she ousted Rudd as party leader and became Australia's first woman prime minister. The August election produced a hung parliament, and she governed with the Greens and independents. She brought in carbon pricing and launched the National Disability Insurance Scheme and a royal commission into child sexual abuse. In October 2012 her speech against misogyny, aimed at Tony Abbott, went around the world. Toppled by Rudd in June 2013, she left politics and went on to chair, among other roles, an institute for women's leadership in London."
+  },
+  "highlights": {
+    "fr": [
+      "2007 : vice-Première ministre d'Australie",
+      "2010 : première femme Première ministre d'Australie",
+      "2012 : discours contre la misogynie au Parlement",
+      "2013 : lance l'assurance nationale invalidité (NDIS)"
+    ],
+    "en": [
+      "2007: becomes Australia's deputy prime minister",
+      "2010: Australia's first woman prime minister",
+      "2012: delivers her misogyny speech in parliament",
+      "2013: launches the National Disability Insurance Scheme"
+    ]
+  },
+  "legacy": {
+    "fr": "Première femme à diriger l'Australie, elle a laissé des réformes sociales durables et un discours devenu une référence du féminisme.",
+    "en": "The first woman to lead Australia, she left lasting social reforms and a speech that became a feminist landmark."
   }
 }

@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Née à Chicago en 1947, Hillary Rodham étudie les sciences politiques au Wellesley College puis le droit à Yale, où elle rencontre Bill Clinton, qu'elle épouse en 1975. Avocate spécialisée dans les droits de l'enfant, elle participe en 1974 à l'équipe juridique de la commission chargée de la procédure contre Nixon, puis s'installe dans l'Arkansas. Première dame de 1993 à 2001, elle pilote un projet de réforme de l'assurance maladie qui échoue, puis défend à Pékin en 1995 l'idée que les droits des femmes sont des droits humains. En 2000, elle devient la première ancienne première dame élue à une fonction, sénatrice de New York, et vote en 2002 en faveur de la guerre en Irak. Battue par Barack Obama aux primaires démocrates de 2008, elle devient sa secrétaire d'État de 2009 à 2013 et parcourt plus d'une centaine de pays. Première femme investie par un grand parti à la présidentielle américaine, elle obtient près de trois millions de voix de plus que Donald Trump en 2016, mais perd au collège électoral. Joe Biden lui remet la médaille présidentielle de la liberté en janvier 2025.",
+    "en": "Born in Chicago in 1947, Hillary Rodham studied political science at Wellesley College and law at Yale, where she met Bill Clinton, whom she married in 1975. A lawyer focused on children's rights, she joined the legal staff of the House committee investigating Nixon in 1974 before moving to Arkansas. As first lady from 1993 to 2001 she led a failed health-care reform, and in Beijing in 1995 she argued that women's rights are human rights. In 2000 she became the first former first lady elected to office, as senator for New York, and in 2002 she voted to authorise the Iraq war. Defeated by Barack Obama in the 2008 Democratic primaries, she served as his secretary of state from 2009 to 2013, visiting more than a hundred countries. The first woman nominated for president by a major US party, she won nearly three million more votes than Donald Trump in 2016 but lost in the Electoral College. Joe Biden awarded her the Presidential Medal of Freedom in January 2025."
+  },
+  "highlights": {
+    "fr": [
+      "Déclare à Pékin en 1995 que les droits des femmes sont des droits humains",
+      "Sénatrice de New York de 2001 à 2009",
+      "Secrétaire d'État de Barack Obama de 2009 à 2013",
+      "Première femme candidate d'un grand parti à la présidentielle, en 2016",
+      "Reçoit la médaille présidentielle de la liberté en 2025"
+    ],
+    "en": [
+      "Declared in Beijing in 1995 that women's rights are human rights",
+      "Senator for New York from 2001 to 2009",
+      "Secretary of state under Barack Obama from 2009 to 2013",
+      "First woman nominated for president by a major party, in 2016",
+      "Received the Presidential Medal of Freedom in 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a ouvert la voie aux candidatures féminines au sommet de la politique américaine, tout en restant une figure très polarisante.",
+    "en": "She paved the way for women's candidacies at the top of American politics while remaining a highly polarising figure."
   }
 }

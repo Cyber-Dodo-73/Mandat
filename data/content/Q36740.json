@@ -29,5 +29,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Rangoun en 1945, Aung San Suu Kyi est la fille du général Aung San, héros de l'indépendance birmane assassiné en 1947 alors qu'elle n'a que deux ans. Elle grandit en partie en Inde, étudie à Oxford, travaille aux Nations unies puis s'installe en Angleterre avec son mari, l'universitaire Michael Aris. Revenue à Rangoun en 1988 pour soigner sa mère, elle se trouve au cœur du soulèvement contre la junte et cofonde la Ligue nationale pour la démocratie. Assignée à résidence dès 1989, elle voit son parti remporter largement les élections de 1990, que les militaires refusent de reconnaître. Le prix Nobel de la paix lui est décerné en 1991 ; au total, elle passera une quinzaine d'années privée de liberté jusqu'à sa libération en novembre 2010. Après la victoire écrasante de la LND en 2015, la Constitution lui interdisant la présidence, elle gouverne à partir de 2016 comme conseillère d'État et ministre des Affaires étrangères. En 2017, l'armée mène contre les Rohingyas une campagne de massacres et d'incendies qui pousse plus de 700 000 personnes à fuir au Bangladesh ; elle défend son pays devant la Cour internationale de justice en 2019, ce qui ternit fortement son image. Renversée par le coup d'État du 1er février 2021, elle est condamnée par la junte à de lourdes peines de prison.",
+    "en": "Born in Rangoon in 1945, Aung San Suu Kyi is the daughter of General Aung San, Burma's independence hero, who was assassinated in 1947 when she was two. She grew up partly in India, studied at Oxford, worked at the United Nations and settled in England with her husband, the scholar Michael Aris. Back in Rangoon in 1988 to nurse her mother, she was swept into the uprising against the junta and co-founded the National League for Democracy. Placed under house arrest in 1989, she saw her party win the 1990 election by a landslide, a result the generals simply ignored. She received the Nobel Peace Prize in 1991 and spent some fifteen years in detention in all before her release in November 2010. After the NLD's sweeping victory in 2015, barred from the presidency by the constitution, she governed from 2016 as State Counsellor and foreign minister. In 2017 the army waged a campaign of killings and village burnings against the Rohingya that drove more than 700,000 people into Bangladesh, and her defence of Myanmar at the International Court of Justice in 2019 badly damaged her reputation. Ousted in the coup of 1 February 2021, she was given long prison sentences by the junta."
+  },
+  "highlights": {
+    "fr": [
+      "Cofonde la Ligue nationale pour la démocratie lors du soulèvement de 1988",
+      "Reçoit le prix Nobel de la paix en 1991, alors assignée à résidence",
+      "Passe une quinzaine d'années en détention entre 1989 et 2010",
+      "Dirige le gouvernement comme conseillère d'État de 2016 à 2021",
+      "Défend la Birmanie en 2019 devant la CIJ dans l'affaire des Rohingyas"
+    ],
+    "en": [
+      "Co-founded the National League for Democracy during the 1988 uprising",
+      "Awarded the 1991 Nobel Peace Prize while under house arrest",
+      "Spent some fifteen years in detention between 1989 and 2010",
+      "Led the government as State Counsellor from 2016 to 2021",
+      "Defended Myanmar at the ICJ in 2019 over the Rohingya case"
+    ]
+  },
+  "legacy": {
+    "fr": "Longtemps icône mondiale de la résistance pacifique, elle a vu son aura s'effondrer face à son silence sur les crimes contre les Rohingyas, avant de redevenir prisonnière des militaires.",
+    "en": "Long a global icon of peaceful resistance, she saw her standing collapse over her stance on the crimes against the Rohingya, before becoming the generals' prisoner once again."
   }
 }

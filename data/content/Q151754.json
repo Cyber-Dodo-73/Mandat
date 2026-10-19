@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Anne naît le 15 août 1950 à Clarence House, à Londres, deuxième enfant de la future reine Élisabeth II et du prince Philip. Élevée en partie au pensionnat de Benenden, elle se passionne pour l'équitation et remporte en 1971 le championnat d'Europe de concours complet. En 1973, elle épouse le cavalier Mark Phillips, avec qui elle aura deux enfants, Peter et Zara. Le 20 mars 1974, elle échappe à une tentative d'enlèvement sur le Mall, au cours de laquelle plusieurs personnes sont blessées par balle. Aux Jeux olympiques de Montréal en 1976, elle devient le premier membre de la famille royale britannique à concourir aux Jeux. Sa mère lui confère en 1987 le titre de princesse royale, et elle entre l'année suivante au Comité international olympique. Divorcée en 1992, elle se remarie la même année avec l'officier de marine Timothy Laurence. Présidente de Save the Children pendant près d'un demi-siècle et marraine de centaines d'associations, elle s'impose comme l'un des membres les plus actifs de la famille royale, sous le règne de sa mère puis sous celui de son frère Charles III.",
+    "en": "Anne was born on 15 August 1950 at Clarence House in London, the second child of the future Queen Elizabeth II and Prince Philip. Educated partly at Benenden boarding school, she took up riding and won the European eventing championship in 1971. In 1973 she married the horseman Mark Phillips, with whom she had two children, Peter and Zara. On 20 March 1974 she escaped a kidnapping attempt on the Mall in which several people were shot and wounded. At the 1976 Montreal Olympics she became the first member of the British royal family to compete at the Games. Her mother made her Princess Royal in 1987, and she joined the International Olympic Committee the following year. Divorced in 1992, she married naval officer Timothy Laurence later that year. President of Save the Children for nearly half a century and patron of hundreds of charities, she became one of the hardest-working members of the royal family, first under her mother and then under her brother Charles III."
+  },
+  "highlights": {
+    "fr": [
+      "Championne d'Europe de concours complet en 1971",
+      "Échappe à une tentative d'enlèvement à Londres le 20 mars 1974",
+      "Première royale britannique à participer aux Jeux olympiques, à Montréal en 1976",
+      "Titrée princesse royale en 1987, membre du CIO depuis 1988",
+      "Préside Save the Children de 1970 à 2017"
+    ],
+    "en": [
+      "European eventing champion in 1971",
+      "Escaped a kidnapping attempt in London on 20 March 1974",
+      "First British royal to compete at the Olympics, in Montreal in 1976",
+      "Made Princess Royal in 1987; IOC member since 1988",
+      "President of Save the Children from 1970 to 2017"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle incarne une monarchie du service discret, réputée pour son nombre record d'engagements officiels et pour avoir porté les couleurs britanniques en sport de haut niveau.",
+    "en": "She stands for a monarchy of low-key duty, known for a record number of official engagements and for having competed for Britain at the highest level of sport."
   }
 }

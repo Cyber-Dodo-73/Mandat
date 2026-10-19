@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Sani Abacha naît en septembre 1943 à Kano, dans le nord du Nigeria, et suit une formation militaire au Nigeria et en Grande-Bretagne avant de gravir les échelons de l’armée. Il participe au coup d’État de décembre 1983 contre le président civil Shehu Shagari, dont il annonce lui-même la chute à la radio, puis à celui d’Ibrahim Babangida en 1985. Chef d’état-major de l’armée de 1985 à 1990, puis chef d’état-major de la défense et ministre de la Défense, il reste au cœur du pouvoir. Après l’annulation de l’élection présidentielle du 12 juin 1993 et la mise en place d’un gouvernement intérimaire, il prend le pouvoir le 17 novembre 1993. Il fait emprisonner Moshood Abiola, vainqueur présumé du scrutin annulé, ainsi que l’ancien chef d’État Olusegun Obasanjo. Le 10 novembre 1995, l’écrivain Ken Saro-Wiwa et huit autres militants ogonis sont pendus après un procès inique, ce qui entraîne la suspension du Nigeria du Commonwealth. Son clan détourne des sommes estimées à plusieurs milliards de dollars, dont une partie a ensuite été restituée par la Suisse et d’autres pays. Il meurt subitement à Abuja le 8 juin 1998, officiellement d’une crise cardiaque.",
+    "en": "Sani Abacha was born in September 1943 in Kano, northern Nigeria, and trained as an officer in Nigeria and Britain before rising through the army. He took part in the December 1983 coup against civilian president Shehu Shagari, announcing the takeover on the radio himself, and in Ibrahim Babangida's coup of 1985. Chief of Army Staff from 1985 to 1990, then chief of defence staff and defence minister, he remained at the heart of power. After the annulment of the 12 June 1993 presidential election and the installation of an interim government, he seized power on 17 November 1993. He jailed Moshood Abiola, the presumed winner of the annulled vote, as well as the former head of state Olusegun Obasanjo. On 10 November 1995 the writer Ken Saro-Wiwa and eight other Ogoni activists were hanged after a grossly unfair trial, leading to Nigeria's suspension from the Commonwealth. His circle looted sums estimated at several billion dollars, part of which Switzerland and other countries later returned. He died suddenly in Abuja on 8 June 1998, officially of a heart attack."
+  },
+  "highlights": {
+    "fr": [
+      "Participe aux coups d’État de 1983 et 1985",
+      "Chef d’état-major de l’armée nigériane de 1985 à 1990",
+      "S’empare du pouvoir le 17 novembre 1993",
+      "Fait pendre Ken Saro-Wiwa et huit militants ogonis en 1995",
+      "Détourne plusieurs milliards de dollars de fonds publics"
+    ],
+    "en": [
+      "Took part in the 1983 and 1985 coups",
+      "Chief of Army Staff of Nigeria from 1985 to 1990",
+      "Seized power on 17 November 1993",
+      "Had Ken Saro-Wiwa and eight Ogoni activists hanged in 1995",
+      "Embezzled several billion dollars of public funds"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa dictature reste l’une des plus brutales et des plus corrompues de l’histoire du Nigeria, et la restitution des fonds volés se poursuit des décennies après sa mort.",
+    "en": "His dictatorship remains one of the most brutal and corrupt in Nigeria's history, and the recovery of the stolen funds has continued for decades after his death."
   }
 }

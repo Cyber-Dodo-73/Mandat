@@ -30,5 +30,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1833 à North Bend, dans l'Ohio, Benjamin Harrison est le petit-fils du président William Henry Harrison. Avocat à Indianapolis, il commande pendant la guerre de Sécession un régiment de l'Indiana et termine le conflit avec le grade honoraire de général de brigade. Battu pour le poste de gouverneur en 1876, il est élu au Sénat en 1881 et y siège jusqu'en 1887. Candidat républicain en 1888, il l'emporte au collège électoral alors que le président sortant Grover Cleveland a obtenu davantage de voix populaires. Son mandat voit l'entrée dans l'Union de six nouveaux États, dont les deux Dakotas et le Wyoming, et l'adoption en 1890 de la loi Sherman contre les monopoles. Il signe aussi le tarif McKinley, très protectionniste, et une loi d'achat d'argent métal. Le massacre de Wounded Knee, en décembre 1890, survient sous sa présidence. Battu par Cleveland en 1892, quelques semaines après la mort de son épouse Caroline, il retourne au droit et meurt à Indianapolis en 1901.",
+    "en": "Born in North Bend, Ohio, in 1833, Benjamin Harrison was the grandson of President William Henry Harrison. A lawyer in Indianapolis, he led an Indiana regiment during the Civil War and finished it as a brevet brigadier general. After losing the race for governor in 1876, he was elected to the Senate in 1881 and sat there until 1887. As the Republican nominee in 1888 he won the Electoral College even though the incumbent, Grover Cleveland, drew more popular votes. His term saw six new states join the Union, including the two Dakotas and Wyoming, and the passage in 1890 of the Sherman Antitrust Act. He also signed the steeply protectionist McKinley Tariff and a silver purchase law. The Wounded Knee massacre took place during his presidency, in December 1890. Defeated by Cleveland in 1892, weeks after the death of his wife Caroline, he returned to the law and died in Indianapolis in 1901."
+  },
+  "highlights": {
+    "fr": [
+      "1888 : élu président malgré moins de voix populaires que Cleveland",
+      "1889-1890 : six nouveaux États rejoignent l'Union",
+      "1890 : signe la loi Sherman contre les monopoles",
+      "1890 : promulgue le tarif douanier McKinley"
+    ],
+    "en": [
+      "1888: elected president despite fewer popular votes than Cleveland",
+      "1889–1890: six new states join the Union",
+      "1890: signs the Sherman Antitrust Act",
+      "1890: enacts the McKinley Tariff"
+    ]
+  },
+  "legacy": {
+    "fr": "Président d'un seul mandat, coincé entre les deux mandats de Cleveland, il a laissé la première grande loi antitrust américaine.",
+    "en": "A one-term president wedged between Cleveland's two terms, he left behind America's first major antitrust law."
   }
 }

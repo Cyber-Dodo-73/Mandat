@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1929 en Australie-Méridionale, fils d'un pasteur congrégationaliste, Bob Hawke étudie le droit et l'économie à Perth avant de partir à Oxford comme boursier Rhodes en 1953. Recruté par l'Australian Council of Trade Unions comme chercheur, il en devient président en 1970 et s'impose pendant dix ans comme le négociateur syndical le plus connu du pays. Élu député travailliste de Wills en 1980, il remplace Bill Hayden à la tête du parti en février 1983, le jour même où des élections sont convoquées, et les remporte en mars. Premier ministre jusqu'en 1991, il gouverne par le consensus : l'Accord sur les prix et les revenus conclu avec les syndicats, le flottement du dollar australien en décembre 1983, la création de Medicare en 1984 et l'ouverture de l'économie à la concurrence. Il remporte quatre élections fédérales d'affilée, en 1983, 1984, 1987 et 1990, un record pour le Parti travailliste. Fragilisé par la récession du début des années 1990, il est battu en décembre 1991 lors d'un vote interne par son ancien ministre des Finances Paul Keating et quitte le Parlement l'année suivante. Il meurt à Sydney en mai 2019.",
+    "en": "Born in South Australia in 1929, the son of a Congregationalist minister, Bob Hawke studied law and economics in Perth before going to Oxford as a Rhodes scholar in 1953. Hired by the Australian Council of Trade Unions as a researcher, he became its president in 1970 and spent a decade as the country's best-known union negotiator. Elected Labor member for Wills in 1980, he replaced Bill Hayden as party leader in February 1983, on the very day an election was called, and won it in March. As prime minister until 1991 he governed by consensus: a prices and incomes Accord with the unions, the floating of the Australian dollar in December 1983, the creation of Medicare in 1984 and the opening of the economy to competition. He won four federal elections in a row, in 1983, 1984, 1987 and 1990, a Labor record. Weakened by the early-1990s recession, he lost a party-room ballot in December 1991 to his former treasurer Paul Keating and left parliament the following year. He died in Sydney in May 2019."
+  },
+  "highlights": {
+    "fr": [
+      "Président de l'Australian Council of Trade Unions de 1970 à 1980",
+      "Premier ministre de l'Australie de 1983 à 1991",
+      "Fait flotter le dollar australien en décembre 1983",
+      "Crée le système d'assurance maladie Medicare en 1984",
+      "Remporte quatre élections fédérales consécutives, un record travailliste"
+    ],
+    "en": [
+      "President of the Australian Council of Trade Unions from 1970 to 1980",
+      "Prime Minister of Australia from 1983 to 1991",
+      "Floated the Australian dollar in December 1983",
+      "Created the Medicare health insurance scheme in 1984",
+      "Won four consecutive federal elections, a Labor record"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier ministre travailliste resté le plus longtemps en poste, il est associé à la modernisation de l'économie australienne par la négociation avec les syndicats.",
+    "en": "Labor's longest-serving prime minister, he is associated with modernising the Australian economy through negotiation with the unions."
   }
 }

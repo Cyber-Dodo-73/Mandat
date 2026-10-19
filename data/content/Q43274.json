@@ -32,5 +32,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né au palais de Buckingham en 1948, Charles est l'aîné de la future reine Elizabeth II et devient héritier du trône à l'âge de trois ans, en 1952. Il est le premier héritier britannique à obtenir un diplôme universitaire, à Trinity College, Cambridge, après un passage à l'université d'Aberystwyth, puis sert dans la Royal Navy. Investi prince de Galles en 1969, il fonde en 1976 le Prince's Trust, qui aide des centaines de milliers de jeunes en difficulté. Son mariage avec Diana Spencer en 1981, suivi par des centaines de millions de téléspectateurs, se termine par un divorce en 1996, un an avant la mort de Diana dans un accident à Paris. Très tôt engagé sur l'environnement, l'agriculture biologique et l'architecture, il épouse Camilla Parker Bowles en 2005. Après soixante-dix ans comme héritier, record historique, il devient roi à la mort de sa mère en septembre 2022 et est couronné à Westminster en mai 2023. Il annonce en 2024 être soigné pour un cancer tout en poursuivant ses fonctions, dont une visite d'État au Vatican en 2025.",
+    "en": "Born at Buckingham Palace in 1948, Charles is the eldest child of the future Queen Elizabeth II and became heir to the throne at the age of three in 1952. He was the first British heir to earn a university degree, at Trinity College, Cambridge, after a term at Aberystwyth, and then served in the Royal Navy. Invested as Prince of Wales in 1969, he founded the Prince's Trust in 1976, which has helped hundreds of thousands of disadvantaged young people. His 1981 wedding to Diana Spencer, watched by hundreds of millions, ended in divorce in 1996, a year before Diana was killed in a car crash in Paris. An early campaigner on the environment, organic farming and architecture, he married Camilla Parker Bowles in 2005. After seventy years as heir, a record, he became king on his mother's death in September 2022 and was crowned at Westminster in May 2023. In 2024 he announced he was being treated for cancer while continuing his duties, including a state visit to the Vatican in 2025."
+  },
+  "highlights": {
+    "fr": [
+      "Premier héritier britannique diplômé d'université, à Cambridge en 1970",
+      "Fonde le Prince's Trust en 1976 pour aider les jeunes en difficulté",
+      "Héritier du trône pendant 70 ans, un record",
+      "Devient roi en septembre 2022, couronné en mai 2023"
+    ],
+    "en": [
+      "First British heir to earn a university degree, at Cambridge in 1970",
+      "Founded the Prince's Trust in 1976 to help disadvantaged youth",
+      "Heir to the throne for 70 years, a record",
+      "Became king in September 2022 and was crowned in May 2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Défenseur précoce de l'écologie, il a la tâche de faire vivre la monarchie après le très long règne de sa mère.",
+    "en": "An early environmental advocate, he faces the task of carrying the monarchy forward after his mother's exceptionally long reign."
   }
 }

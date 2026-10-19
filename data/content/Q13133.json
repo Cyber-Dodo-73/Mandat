@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Michelle LaVaughn Robinson naît en 1964 à Chicago et grandit dans le South Side, dans une famille ouvrière noire. Élève du lycée sélectif Whitney Young, elle étudie la sociologie à Princeton, dont elle sort diplômée en 1985, puis le droit à Harvard jusqu'en 1988. Avocate au cabinet Sidley Austin à Chicago, elle y encadre en 1989 un stagiaire nommé Barack Obama, qu'elle épouse en 1992. Elle travaille ensuite à la mairie de Chicago, dans le secteur associatif, puis aux hôpitaux de l'université de Chicago. Après l'élection de son mari, elle devient en janvier 2009 la première Afro-Américaine Première dame des États-Unis. À la Maison-Blanche, elle lance en 2010 la campagne Let's Move! contre l'obésité infantile, soutient les familles de militaires et défend l'éducation des filles dans le monde. Après 2017, ses mémoires, « Devenir », publiés en 2018, deviennent l'un des livres les plus vendus au monde, et leur version audio lui vaut un Grammy en 2020. Elle refuse de se présenter elle-même à une élection malgré une popularité durable.",
+    "en": "Michelle LaVaughn Robinson was born in 1964 in Chicago and grew up in a working-class Black family on the South Side. A student at the selective Whitney Young High School, she studied sociology at Princeton, graduating in 1985, then law at Harvard until 1988. As a lawyer at the Sidley Austin firm in Chicago, she mentored a summer associate named Barack Obama in 1989 and married him in 1992. She went on to work for Chicago's city hall, in the non-profit sector and then for the University of Chicago hospitals. After her husband's election, she became the first African American First Lady of the United States in January 2009. In the White House she launched the Let's Move! campaign against childhood obesity in 2010, supported military families and championed girls' education worldwide. After 2017 her memoir Becoming, published in 2018, became one of the best-selling books in the world, and its audio version won her a Grammy in 2020. Despite her lasting popularity, she has declined to run for office herself."
+  },
+  "highlights": {
+    "fr": [
+      "Diplômée de Princeton (1985) et de la faculté de droit de Harvard (1988)",
+      "Première Afro-Américaine Première dame des États-Unis (2009-2017)",
+      "Lance la campagne Let's Move! contre l'obésité infantile (2010)",
+      "Publie ses mémoires « Devenir » en 2018, best-seller mondial",
+      "Grammy du meilleur livre audio en 2020"
+    ],
+    "en": [
+      "Graduated from Princeton (1985) and Harvard Law School (1988)",
+      "First African American First Lady of the United States (2009-2017)",
+      "Launched the Let's Move! campaign against childhood obesity (2010)",
+      "Published her memoir Becoming in 2018, a global bestseller",
+      "Won the Grammy for best audiobook in 2020"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a redéfini le rôle de Première dame et reste l'une des personnalités publiques les plus admirées des États-Unis.",
+    "en": "She redefined the role of First Lady and remains one of the most admired public figures in the United States."
   }
 }

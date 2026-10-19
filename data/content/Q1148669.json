@@ -32,5 +32,29 @@
         "value": "diplomacy"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Soweto en 1952, Cyril Ramaphosa milite dans le mouvement de la conscience noire pendant ses études, ce qui lui vaut onze mois de détention en 1974. Diplômé en droit, il fonde en 1982 le Syndicat national des mineurs, qu'il mène en 1987 dans une grève massive contre les compagnies minières. Secrétaire général de l'ANC à partir de 1991, il est le principal négociateur du mouvement face au gouvernement de l'apartheid. Il préside ensuite l'Assemblée constituante qui adopte la Constitution de 1996. Écarté de la succession de Nelson Mandela au profit de Thabo Mbeki, il fait fortune dans les affaires, mais sa présence au conseil de la société Lonmin lors du massacre de Marikana en 2012 lui est reprochée. Vice-président du pays à partir de 2014, il prend la tête de l'ANC en décembre 2017 et devient président en février 2018 après la démission de Jacob Zuma. Il promet de lutter contre la corruption, mais l'ANC perd sa majorité absolue en 2024 et doit former un gouvernement d'unité nationale avec l'opposition.",
+    "en": "Born in Soweto in 1952, Cyril Ramaphosa was active in the Black Consciousness movement as a student, which cost him eleven months in detention in 1974. A law graduate, he founded the National Union of Mineworkers in 1982 and led it in a massive strike against the mining houses in 1987. As ANC secretary-general from 1991, he was the movement's chief negotiator with the apartheid government. He then chaired the Constitutional Assembly that adopted the 1996 constitution. Passed over to succeed Nelson Mandela in favour of Thabo Mbeki, he made a fortune in business, though his seat on the board of Lonmin at the time of the 2012 Marikana massacre drew criticism. Deputy president of the country from 2014, he took over the ANC in December 2017 and became president in February 2018 after Jacob Zuma resigned. He pledged to fight corruption, but the ANC lost its outright majority in 2024 and had to form a government of national unity with the opposition."
+  },
+  "highlights": {
+    "fr": [
+      "1982 : fonde le Syndicat national des mineurs",
+      "1991 : négociateur en chef de l'ANC pour la fin de l'apartheid",
+      "1996 : préside l'adoption de la nouvelle Constitution",
+      "2018 : devient président de l'Afrique du Sud",
+      "2024 : forme un gouvernement d'unité nationale"
+    ],
+    "en": [
+      "1982: founds the National Union of Mineworkers",
+      "1991: ANC chief negotiator for the end of apartheid",
+      "1996: presides over the adoption of the new constitution",
+      "2018: becomes president of South Africa",
+      "2024: forms a government of national unity"
+    ]
+  },
+  "legacy": {
+    "fr": "Architecte de la transition négociée, il préside une Afrique du Sud où l'ANC a perdu son hégémonie et doit désormais gouverner en coalition.",
+    "en": "An architect of the negotiated transition, he leads a South Africa where the ANC has lost its dominance and must now govern in coalition."
   }
 }

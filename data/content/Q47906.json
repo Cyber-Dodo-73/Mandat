@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1893 à Rosenheim, en Bavière, Hermann Göring devient pendant la Première Guerre mondiale un as de l'aviation, décoré de l'ordre Pour le Mérite en 1918. Rallié à Hitler, il est grièvement blessé lors du putsch manqué de la Brasserie à Munich en novembre 1923. Après la prise du pouvoir en 1933, il dirige la Prusse, crée la Gestapo et fait ouvrir les premiers camps de concentration pour les opposants. Chef de la Luftwaffe et maître du plan de quatre ans, il prépare l'économie allemande à la guerre et organise le pillage systématique des biens juifs, puis des œuvres d'art de l'Europe occupée. Le 31 juillet 1941, il signe l'ordre chargeant Reinhard Heydrich de préparer la « solution finale », qui aboutit au meurtre d'environ six millions de Juifs. Son prestige s'effondre avec l'échec de la Luftwaffe dans la bataille d'Angleterre puis devant Stalingrad. En avril 1945, Hitler le destitue et le fait arrêter pour trahison. Jugé au procès de Nuremberg, il est condamné à mort en octobre 1946 pour crimes de guerre et crimes contre l'humanité, et se suicide au cyanure dans sa cellule la veille de son exécution.",
+    "en": "Born in Rosenheim, Bavaria, in 1893, Hermann Göring became a fighter ace in the First World War and received the Pour le Mérite in 1918. An early follower of Hitler, he was badly wounded during the failed Beer Hall Putsch in Munich in November 1923. Once the Nazis took power in 1933, he ran Prussia, founded the Gestapo and set up the first concentration camps for political opponents. As head of the Luftwaffe and of the Four-Year Plan, he geared the economy for war and oversaw the systematic theft of Jewish property, then the looting of art across occupied Europe. On 31 July 1941 he signed the order instructing Reinhard Heydrich to prepare the 'Final Solution', which led to the murder of some six million Jews. His standing collapsed after the Luftwaffe lost the Battle of Britain and failed to supply the army at Stalingrad. In April 1945 Hitler stripped him of his posts and had him arrested for treason. Tried at Nuremberg, he was sentenced to death in October 1946 for war crimes and crimes against humanity, and killed himself with cyanide in his cell the night before his execution."
+  },
+  "highlights": {
+    "fr": [
+      "1923 : blessé lors du putsch manqué de la Brasserie à Munich",
+      "1933 : fonde la Gestapo et ouvre les premiers camps de concentration en Prusse",
+      "1941 : signe l'ordre confiant à Heydrich la préparation de la « solution finale »",
+      "Organise le pillage des biens juifs et des œuvres d'art de l'Europe occupée",
+      "1946 : condamné à mort à Nuremberg, se suicide avant son exécution"
+    ],
+    "en": [
+      "1923: wounded in the failed Beer Hall Putsch in Munich",
+      "1933: founded the Gestapo and opened the first concentration camps in Prussia",
+      "1941: signed the order tasking Heydrich with preparing the 'Final Solution'",
+      "Organized the looting of Jewish property and of art across occupied Europe",
+      "1946: sentenced to death at Nuremberg, killed himself before execution"
+    ]
+  },
+  "legacy": {
+    "fr": "Numéro deux du régime nazi, il reste l'un des principaux responsables de la Shoah et du pillage de l'Europe jugés à Nuremberg.",
+    "en": "The Nazi regime's second man, he remains one of the chief perpetrators of the Holocaust and of the plunder of Europe tried at Nuremberg."
   }
 }

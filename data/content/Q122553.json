@@ -32,5 +32,29 @@
         "value": "charisma"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1630 au palais Saint-James, Charles est le fils aîné de Charles Ier. Pendant la guerre civile anglaise, il combat aux côtés de son père puis s'exile sur le continent. Après l'exécution du roi en janvier 1649, il est couronné roi par les Écossais en 1651, mais Cromwell l'écrase à Worcester et il ne s'enfuit qu'après s'être caché, selon la tradition, dans un chêne. Il passe neuf ans en exil en France et aux Pays-Bas. En 1660, après la mort de Cromwell et l'effondrement du Protectorat, la Déclaration de Breda prépare son retour et il entre triomphalement à Londres le 29 mai. Son règne, celui de la Restauration, voit le retour des théâtres, la fondation de la Royal Society, mais aussi la grande peste de 1665 et le grand incendie de Londres en 1666. Il mène deux guerres contre les Provinces-Unies et signe en secret avec Louis XIV le traité de Douvres en 1670. Face à un Parlement hostile au catholicisme de son frère Jacques, il gouverne sans lui à partir de 1681. Il meurt à Whitehall en 1685, converti au catholicisme sur son lit de mort, sans enfant légitime.",
+    "en": "Born at St James's Palace in 1630, Charles was the eldest son of Charles I. During the English Civil War he fought alongside his father and then went into exile on the Continent. After the king's execution in January 1649 the Scots crowned him in 1651, but Cromwell routed him at Worcester and he escaped only after hiding, as legend has it, in an oak tree. He spent nine years in exile in France and the Low Countries. In 1660, after Cromwell's death and the collapse of the Protectorate, the Declaration of Breda paved the way for his return and he entered London in triumph on 29 May. His Restoration reign brought back the theatres and saw the founding of the Royal Society, but also the Great Plague of 1665 and the Great Fire of London in 1666. He fought two wars against the Dutch Republic and secretly signed the Treaty of Dover with Louis XIV in 1670. Faced with a Parliament alarmed by his brother James's Catholicism, he ruled without it from 1681. He died at Whitehall in 1685, received into the Catholic Church on his deathbed, leaving no legitimate children."
+  },
+  "highlights": {
+    "fr": [
+      "1651 : battu à Worcester, il échappe aux troupes de Cromwell",
+      "1660 : retour sur le trône, début de la Restauration",
+      "1662 : charte royale accordée à la Royal Society",
+      "1670 : traité secret de Douvres avec Louis XIV",
+      "1685 : se convertit au catholicisme sur son lit de mort"
+    ],
+    "en": [
+      "1651: defeated at Worcester, he escaped Cromwell's troops",
+      "1660: restored to the throne, beginning the Restoration",
+      "1662: granted a royal charter to the Royal Society",
+      "1670: signed the secret Treaty of Dover with Louis XIV",
+      "1685: received into the Catholic Church on his deathbed"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé le « joyeux monarque », il a rétabli la monarchie après la république de Cromwell et laissé une cour brillante et un essor scientifique.",
+    "en": "Known as the 'Merry Monarch', he restored the monarchy after Cromwell's republic and presided over a lively court and a flowering of science."
   }
 }

@@ -34,5 +34,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1937 à Oujda, au Maroc, de parents originaires de la région de Tlemcen, Abdelaziz Bouteflika rejoint l'Armée de libération nationale en 1956 et devient un proche de Houari Boumédiène. À l'indépendance, il est ministre de la Jeunesse, puis, dès 1963 et à seulement 26 ans, ministre des Affaires étrangères, poste qu'il occupe jusqu'en 1979. Il fait de l'Algérie une voix du tiers-monde et préside en 1974 l'Assemblée générale de l'ONU, qui suspend alors l'Afrique du Sud de l'apartheid. Écarté après la mort de Boumédiène, poursuivi pour sa gestion financière, il vit plusieurs années à l'étranger. Rappelé par l'armée, il est élu président en 1999 alors que la guerre civile s'achève. Sa loi de concorde civile, approuvée par référendum en 1999, puis la charte de 2005 amnistient de nombreux islamistes armés. Après avoir fait supprimer la limite des mandats en 2008, il est réélu en 2009 et 2014, malgré un AVC en 2013 qui le prive presque de parole. L'annonce d'une cinquième candidature déclenche le Hirak en février 2019 ; il démissionne le 2 avril et meurt en 2021.",
+    "en": "Born in 1937 in Oujda, Morocco, to parents from the Tlemcen region, Abdelaziz Bouteflika joined the National Liberation Army in 1956 and became a close ally of Houari Boumediene. After independence he was youth minister, then from 1963, aged just 26, foreign minister, a post he held until 1979. He made Algeria a leading voice of the Third World and in 1974 presided over the UN General Assembly, which that year suspended apartheid South Africa. Sidelined after Boumediene's death and pursued over his handling of funds, he spent years abroad. Brought back by the army, he was elected president in 1999 as the civil war wound down. His civil concord law, approved by referendum in 1999, and a 2005 charter granted amnesty to many armed Islamists. After scrapping term limits in 2008, he was re-elected in 2009 and 2014, despite a 2013 stroke that left him barely able to speak. His bid for a fifth term set off the Hirak protests in February 2019; he resigned on 2 April and died in 2021."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre des Affaires étrangères de 1963 à 1979",
+      "Préside l'Assemblée générale de l'ONU en 1974",
+      "Concorde civile approuvée par référendum en 1999",
+      "Président de l'Algérie pendant vingt ans, de 1999 à 2019",
+      "Démissionne le 2 avril 2019 sous la pression du Hirak"
+    ],
+    "en": [
+      "Foreign minister from 1963 to 1979",
+      "Presided over the UN General Assembly in 1974",
+      "Civil concord approved by referendum in 1999",
+      "President of Algeria for twenty years, 1999 to 2019",
+      "Resigned on 2 April 2019 under pressure from the Hirak"
+    ]
+  },
+  "legacy": {
+    "fr": "Crédité d'avoir aidé à refermer la décennie noire, il reste aussi le symbole d'un pouvoir vieillissant et opaque que la rue algérienne a fini par rejeter.",
+    "en": "Credited with helping close Algeria's 'black decade', he also stands for an ageing, opaque regime that Algerians finally rejected in the streets."
   }
 }

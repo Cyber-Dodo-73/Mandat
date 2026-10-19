@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Horatio Nelson naît en 1758 à Burnham Thorpe, dans le Norfolk, fils d'un pasteur, et entre dans la Royal Navy à douze ans sur le navire de son oncle. Après des campagnes dans l'Arctique, aux Indes et aux Antilles, il devient capitaine à vingt ans et épouse en 1787 Frances Nisbet sur l'île de Nevis. Envoyé en Méditerranée au début des guerres contre la France révolutionnaire, il perd l'usage de l'œil droit au siège de Calvi, en Corse, en 1794. En février 1797, une manœuvre audacieuse contribue à la victoire du cap Saint-Vincent, mais il perd le bras droit lors de l'attaque manquée de Santa Cruz de Tenerife en juillet. Le 1er août 1798, il anéantit la flotte française dans la rade d'Aboukir, bataille dite du Nil, qui isole l'armée de Bonaparte en Égypte. À Naples, sa liaison avec Emma Hamilton fait scandale, et il participe en 1799 à la répression des républicains napolitains. Le 2 avril 1801, il remporte la bataille de Copenhague contre la flotte danoise en ignorant un signal de retrait. Le 21 octobre 1805, au large du cap Trafalgar, sa flotte écrase les escadres française et espagnole, mais il est mortellement touché par un tireur français et meurt à bord du Victory. Il reçoit en janvier 1806 des funérailles nationales à la cathédrale Saint-Paul.",
+    "en": "Horatio Nelson was born in 1758 at Burnham Thorpe in Norfolk, the son of a clergyman, and joined the Royal Navy at twelve on his uncle's ship. After service in the Arctic, the East Indies and the Caribbean, he made captain at twenty and in 1787 married Frances Nisbet on the island of Nevis. Sent to the Mediterranean at the start of the wars with revolutionary France, he lost the sight of his right eye at the siege of Calvi in Corsica in 1794. In February 1797 a daring manoeuvre helped win the Battle of Cape St Vincent, but he lost his right arm in the failed assault on Santa Cruz de Tenerife that July. On 1 August 1798 he destroyed the French fleet in Aboukir Bay, the Battle of the Nile, leaving Bonaparte's army stranded in Egypt. In Naples his affair with Emma Hamilton caused a scandal, and in 1799 he took part in the repression of the Neapolitan republicans. On 2 April 1801 he won the Battle of Copenhagen against the Danish fleet after ignoring a signal to break off. On 21 October 1805, off Cape Trafalgar, his fleet crushed the French and Spanish squadrons, but he was fatally hit by a French marksman and died aboard HMS Victory. He was given a state funeral at St Paul's Cathedral in January 1806."
+  },
+  "highlights": {
+    "fr": [
+      "Perd l'œil droit à Calvi en 1794 et le bras droit à Tenerife en 1797",
+      "Détruit la flotte française à Aboukir le 1er août 1798",
+      "Victoire de Copenhague le 2 avril 1801",
+      "Victoire décisive de Trafalgar le 21 octobre 1805",
+      "Tué au combat à bord du Victory à Trafalgar"
+    ],
+    "en": [
+      "Lost his right eye at Calvi in 1794 and right arm at Tenerife in 1797",
+      "Destroyed the French fleet at Aboukir on 1 August 1798",
+      "Won the Battle of Copenhagen on 2 April 1801",
+      "Decisive victory at Trafalgar on 21 October 1805",
+      "Killed in action aboard HMS Victory at Trafalgar"
+    ]
+  },
+  "legacy": {
+    "fr": "Trafalgar a assuré la suprématie navale britannique pendant un siècle. Sa colonne domine Trafalgar Square, à Londres, depuis 1843.",
+    "en": "Trafalgar secured British naval supremacy for a century. His column has towered over London's Trafalgar Square since 1843."
   }
 }

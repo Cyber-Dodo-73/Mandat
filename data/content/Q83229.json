@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Édouard naît au palais de Hampton Court en octobre 1537, fils tant attendu d'Henri VIII ; sa mère, Jane Seymour, meurt douze jours plus tard. Élevé par des précepteurs humanistes, il apprend le latin, le grec et le français et adhère avec ferveur à la Réforme protestante. À la mort de son père, le 28 janvier 1547, il devient roi à neuf ans, sous l'autorité de son oncle Edward Seymour, duc de Somerset, nommé lord-protecteur. Somerset écrase les Écossais à Pinkie Cleugh en septembre 1547, et l'archevêque Thomas Cranmer publie en 1549 le premier Livre de la prière commune en anglais. L'imposition de ce nouveau culte provoque la même année des soulèvements dans le Devon et la Cornouailles, tandis qu'une révolte paysanne éclate dans le Norfolk. Renversé en octobre 1549, Somerset est remplacé par John Dudley, futur duc de Northumberland, et exécuté en 1552. Le régime durcit alors la Réforme avec un second livre de prières en 1552 et les Quarante-deux articles de foi en 1553. Atteint d'une grave maladie pulmonaire, Édouard rédige un plan de succession qui écarte ses demi-sœurs Marie et Élisabeth au profit de sa cousine protestante Jane Grey, belle-fille de Northumberland. Il meurt à Greenwich le 6 juillet 1553, à quinze ans, et Jane ne règne que neuf jours avant d'être renversée par Marie.",
+    "en": "Edward was born at Hampton Court Palace in October 1537, the long-awaited son of Henry VIII; his mother, Jane Seymour, died twelve days later. Brought up by humanist tutors, he learned Latin, Greek and French and embraced the Protestant Reformation with zeal. When his father died on 28 January 1547, he became king at nine under the authority of his uncle Edward Seymour, Duke of Somerset, who was named Lord Protector. Somerset routed the Scots at Pinkie Cleugh in September 1547, and Archbishop Thomas Cranmer issued the first Book of Common Prayer in English in 1549. Imposing the new service sparked risings in Devon and Cornwall that year, while a peasant revolt broke out in Norfolk. Overthrown in October 1549, Somerset was replaced by John Dudley, later Duke of Northumberland, and executed in 1552. The regime then pushed the Reformation further with a second prayer book in 1552 and the Forty-Two Articles of faith in 1553. Gravely ill with a lung disease, Edward drew up a plan of succession that passed over his half-sisters Mary and Elizabeth in favour of his Protestant cousin Jane Grey, Northumberland's daughter-in-law. He died at Greenwich on 6 July 1553, aged fifteen, and Jane reigned only nine days before Mary ousted her."
+  },
+  "highlights": {
+    "fr": [
+      "Roi d'Angleterre à neuf ans, en janvier 1547",
+      "Victoire de Pinkie Cleugh sur les Écossais en 1547",
+      "Premier Livre de la prière commune en anglais, en 1549",
+      "Quarante-deux articles de foi protestants en 1553",
+      "Désigne Jane Grey comme héritière avant sa mort en 1553"
+    ],
+    "en": [
+      "King of England at nine, in January 1547",
+      "Victory over the Scots at Pinkie Cleugh in 1547",
+      "First Book of Common Prayer in English, 1549",
+      "Protestant Forty-Two Articles of faith in 1553",
+      "Named Jane Grey as heir before his death in 1553"
+    ]
+  },
+  "legacy": {
+    "fr": "Son court règne a fixé les bases liturgiques et doctrinales de l'Église d'Angleterre, dont le Livre de la prière commune reste un pilier.",
+    "en": "His short reign set the liturgical and doctrinal foundations of the Church of England, in which the Book of Common Prayer is still a pillar."
   }
 }

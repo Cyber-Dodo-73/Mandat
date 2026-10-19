@@ -35,5 +35,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Téhéran en 1919, Mohammad Reza est le fils de Reza Shah, fondateur de la dynastie Pahlavi, et fait une partie de ses études en Suisse. En septembre 1941, les Britanniques et les Soviétiques, qui occupent l'Iran, forcent son père à abdiquer et il monte sur le trône à 21 ans. En 1953, le Premier ministre Mossadegh, qui avait nationalisé le pétrole, est renversé par un coup d'État soutenu par la CIA et le MI6, et le chah renforce son pouvoir personnel. En 1963, il lance la « révolution blanche » : réforme agraire, droit de vote des femmes et alphabétisation. Il se fait couronner en 1967 et célèbre en 1971 à Persépolis les 2 500 ans de la monarchie perse. La rente pétrolière finance une modernisation rapide et une armée puissante, tandis que la police secrète, la SAVAK, emprisonne et torture les opposants. En 1978, des manifestations massives, menées notamment par les partisans de l'ayatollah Khomeini, gagnent tout le pays. Il quitte l'Iran en janvier 1979, erre d'exil en exil et meurt d'un cancer au Caire en juillet 1980.",
+    "en": "Born in Tehran in 1919, Mohammad Reza was the son of Reza Shah, founder of the Pahlavi dynasty, and was partly schooled in Switzerland. In September 1941 Britain and the Soviet Union, which had occupied Iran, forced his father to abdicate, and he took the throne at 21. In 1953 Prime Minister Mosaddegh, who had nationalised the oil industry, was toppled in a coup backed by the CIA and MI6, and the shah tightened his personal grip. In 1963 he launched the 'White Revolution' of land reform, votes for women and literacy campaigns. He crowned himself in 1967 and in 1971 staged lavish celebrations at Persepolis for 2,500 years of Persian monarchy. Oil wealth funded rapid modernisation and a powerful army, while his secret police, SAVAK, jailed and tortured opponents. In 1978 mass protests, led largely by followers of Ayatollah Khomeini, swept the country. He left Iran in January 1979, moved from one exile to another and died of cancer in Cairo in July 1980."
+  },
+  "highlights": {
+    "fr": [
+      "1941 : monte sur le trône après l'abdication forcée de son père",
+      "1953 : rétabli par le coup d'État contre Mossadegh",
+      "1963 : lance la « révolution blanche » et le vote des femmes",
+      "1971 : fêtes des 2 500 ans de la monarchie perse à Persépolis",
+      "1979 : quitte l'Iran face à la révolution islamique"
+    ],
+    "en": [
+      "1941: took the throne after his father's forced abdication",
+      "1953: restored by the coup against Mosaddegh",
+      "1963: launched the 'White Revolution' and votes for women",
+      "1971: staged the 2,500-year celebration of Persian monarchy at Persepolis",
+      "1979: fled Iran as the Islamic Revolution triumphed"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier chah d'Iran, il incarne à la fois une modernisation à marche forcée et l'autoritarisme qui a nourri la révolution de 1979.",
+    "en": "Iran's last shah, he stands for both forced modernisation and the authoritarian rule that fuelled the 1979 revolution."
   }
 }

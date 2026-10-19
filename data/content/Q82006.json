@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Benjamin Disraeli naît à Londres en 1804 dans une famille juive d'origine italienne, et il est baptisé anglican à douze ans après une brouille de son père avec la synagogue. Criblé de dettes après des spéculations ratées, il se fait d'abord connaître comme romancier mondain avec Vivian Grey en 1826. Élu député conservateur de Maidstone en 1837, il publie dans les années 1840 Coningsby et Sybil, qui décrivent une Angleterre coupée en deux nations, les riches et les pauvres. En 1846, il mène la fronde contre Robert Peel lors de l'abolition des lois sur le blé et s'impose comme le meneur des conservateurs aux Communes. Chancelier de l'Échiquier à trois reprises sous lord Derby, il fait voter en 1867 la deuxième loi de réforme, qui double à peu près le corps électoral. Premier ministre une première fois en 1868, il revient au pouvoir en 1874 avec une majorité et fait adopter des lois sur la santé publique et le logement ouvrier. En novembre 1875, il rachète pour l'État britannique les actions égyptiennes du canal de Suez, puis fait proclamer Victoria impératrice des Indes en 1876 avant d'être fait comte de Beaconsfield. Au congrès de Berlin en 1878, il limite les gains de la Russie et obtient Chypre. Battu par Gladstone en 1880, il meurt à Londres en avril 1881.",
+    "en": "Benjamin Disraeli was born in London in 1804 into a Jewish family of Italian descent, and was baptised an Anglican at twelve after his father fell out with the synagogue. Deep in debt after failed speculation, he first made his name as a society novelist with Vivian Grey in 1826. Elected Conservative MP for Maidstone in 1837, he published Coningsby and Sybil in the 1840s, portraying an England split into two nations, rich and poor. In 1846 he led the revolt against Robert Peel over the repeal of the Corn Laws and emerged as the Conservatives' leading figure in the Commons. Three times Chancellor of the Exchequer under Lord Derby, he carried the Second Reform Act in 1867, which roughly doubled the electorate. Briefly prime minister in 1868, he returned in 1874 with a majority and passed laws on public health and working-class housing. In November 1875 he bought Egypt's shares in the Suez Canal for the British state, then had Victoria proclaimed Empress of India in 1876 and was made Earl of Beaconsfield. At the Congress of Berlin in 1878 he curbed Russia's gains and secured Cyprus. Defeated by Gladstone in 1880, he died in London in April 1881."
+  },
+  "highlights": {
+    "fr": [
+      "Romans Coningsby et Sybil dans les années 1840",
+      "Deuxième loi de réforme électorale en 1867",
+      "Premier ministre en 1868, puis de 1874 à 1880",
+      "Rachat des actions égyptiennes du canal de Suez en 1875",
+      "Obtient Chypre au congrès de Berlin en 1878"
+    ],
+    "en": [
+      "Wrote the novels Coningsby and Sybil in the 1840s",
+      "Carried the Second Reform Act in 1867",
+      "Prime minister in 1868 and from 1874 to 1880",
+      "Bought Egypt's Suez Canal shares in 1875",
+      "Secured Cyprus at the Congress of Berlin in 1878"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a donné au Parti conservateur l'idée d'un conservatisme « à une nation » mêlant impérialisme et réformes sociales, que ses successeurs invoquent encore.",
+    "en": "He gave the Conservative Party its idea of 'one nation' conservatism, blending imperialism with social reform, which his successors still invoke."
   }
 }

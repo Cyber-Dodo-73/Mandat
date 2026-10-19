@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Fils aîné de George III, George naît en 1762 au palais Saint James et reçoit enfant l'ordre de la Jarretière. Jeune prince de Galles, il mène grand train, s'endette lourdement et s'entoure des chefs whigs opposés aux ministres de son père. En 1785, il épouse en secret la catholique Maria Fitzherbert, union nulle au regard de la loi, puis se marie officiellement en 1795 avec Caroline de Brunswick pour obtenir l'apurement de ses dettes. Le couple se sépare presque aussitôt, et leur unique fille, Charlotte, meurt en couches en 1817. Après la rechute définitive de son père, il devient prince régent en 1811 et gouverne ainsi pendant les dernières années des guerres napoléoniennes, jusqu'à Waterloo. Il monte sur le trône en 1820 et tente aussitôt de divorcer de Caroline par une procédure parlementaire qui tourne au scandale public avant d'être abandonnée. Grand mécène, il fait aménager le Pavillon de Brighton et transformer Buckingham et Windsor par l'architecte John Nash et d'autres. Malade et devenu très impopulaire, il accepte à contrecœur l'émancipation des catholiques en 1829 et meurt au château de Windsor en 1830.",
+    "en": "The eldest son of George III, George was born at St James's Palace in 1762 and made a Knight of the Garter as a child. As a young Prince of Wales he lived extravagantly, ran up huge debts and surrounded himself with Whig leaders hostile to his father's ministers. In 1785 he secretly married the Catholic Maria Fitzherbert, a union void in law, then officially wed Caroline of Brunswick in 1795 in exchange for having his debts settled. The couple separated almost at once, and their only child, Princess Charlotte, died in childbirth in 1817. After his father's final relapse into illness he became Prince Regent in 1811, ruling through the closing years of the Napoleonic Wars up to Waterloo. He took the throne in 1820 and immediately sought to divorce Caroline through a parliamentary bill that turned into a public scandal and was dropped. A lavish patron of the arts, he had the Brighton Pavilion built up and Buckingham and Windsor remodelled by John Nash and others. Ailing and deeply unpopular, he reluctantly accepted Catholic emancipation in 1829 and died at Windsor Castle in 1830."
+  },
+  "highlights": {
+    "fr": [
+      "Prince régent de 1811 à 1820 pendant la maladie de George III",
+      "Roi du Royaume-Uni et de Hanovre de 1820 à 1830",
+      "Fait transformer le Pavillon de Brighton et le palais de Buckingham",
+      "Signe à contrecœur l'émancipation des catholiques en 1829"
+    ],
+    "en": [
+      "Prince Regent from 1811 to 1820 during George III's illness",
+      "King of the United Kingdom and Hanover from 1820 to 1830",
+      "Had the Brighton Pavilion and Buckingham Palace remodelled",
+      "Reluctantly signed Catholic emancipation into law in 1829"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a donné son nom à la Régence, période d'élégance architecturale et littéraire, mais sa vie privée et ses dépenses ont durablement terni l'image de la monarchie.",
+    "en": "He gave his name to the Regency, an era of architectural and literary elegance, but his private life and spending long damaged the monarchy's image."
   }
 }

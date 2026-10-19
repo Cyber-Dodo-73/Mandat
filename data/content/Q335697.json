@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Sydney en 1963, Anthony Albanese est élevé par sa mère, invalide, dans un logement social du quartier de Camperdown ; il ne rencontrera son père italien qu'en 2009. Premier de sa famille à aller à l'université, il étudie l'économie à Sydney et milite dans l'aile gauche du Parti travailliste. Élu député de Grayndler en 1996, il devient en 2007 ministre des Infrastructures et des Transports et leader du gouvernement à la Chambre sous Kevin Rudd puis Julia Gillard. Vice-Premier ministre lors du bref retour de Rudd en 2013, il perd ensuite l'élection à la tête du parti face à Bill Shorten. Après la défaite de 2019, il prend la direction du Labor et de l'opposition. En mai 2022, il bat Scott Morrison et devient Premier ministre, promettant d'agir pour le climat et de réparer les liens avec les peuples autochtones. Le référendum d'octobre 2023 sur une « Voix » autochtone au Parlement est toutefois largement rejeté. En mai 2025, il est reconduit avec une majorité nettement élargie, et son gouvernement applique dès la fin de l'année l'interdiction des réseaux sociaux aux moins de 16 ans.",
+    "en": "Born in Sydney in 1963, Anthony Albanese was raised by his mother, a disability pensioner, in public housing in Camperdown; he would only meet his Italian father in 2009. The first in his family to attend university, he studied economics in Sydney and became active on the Labor left. Elected MP for Grayndler in 1996, he became Minister for Infrastructure and Transport and Leader of the House in 2007 under Kevin Rudd and then Julia Gillard. Deputy prime minister during Rudd's brief return in 2013, he then lost the party leadership vote to Bill Shorten. After the 2019 defeat he took over as Labor and opposition leader. In May 2022 he beat Scott Morrison and became prime minister, promising climate action and better relations with Indigenous peoples. The October 2023 referendum on an Indigenous Voice to Parliament was nonetheless heavily defeated. In May 2025 he was returned with a much larger majority, and late that year his government enforced a social media ban for under-16s."
+  },
+  "highlights": {
+    "fr": [
+      "1996 : élu député de Grayndler, à Sydney",
+      "2013 : vice-Premier ministre d'Australie",
+      "2022 : devient Premier ministre en battant Scott Morrison",
+      "2023 : échec du référendum sur la Voix autochtone",
+      "2025 : réélu avec une majorité élargie"
+    ],
+    "en": [
+      "1996: elected MP for Grayndler in Sydney",
+      "2013: deputy prime minister of Australia",
+      "2022: becomes prime minister by defeating Scott Morrison",
+      "2023: the Indigenous Voice referendum fails",
+      "2025: re-elected with an enlarged majority"
+    ]
+  },
+  "legacy": {
+    "fr": "Enfant du logement social devenu Premier ministre, il a offert au Labor l'une de ses plus larges victoires, sans parvenir à faire adopter la Voix autochtone.",
+    "en": "A child of public housing turned prime minister, he gave Labor one of its biggest wins, but could not secure the Indigenous Voice."
   }
 }

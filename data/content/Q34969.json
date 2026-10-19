@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Boston en 1706, fils d'un fabricant de chandelles et de savon, Benjamin Franklin quitte l'école à dix ans et devient apprenti dans l'imprimerie de son frère. À 17 ans, il s'enfuit à Philadelphie, où il fonde son propre atelier, publie la Pennsylvania Gazette et, à partir de 1732, l'almanach du Pauvre Richard, aux maximes célèbres. Il crée une bibliothèque de prêt, une compagnie de pompiers et une académie qui deviendra l'université de Pennsylvanie. Ses expériences sur l'électricité, dont celle du cerf-volant, et l'invention du paratonnerre lui valent la médaille Copley de la Royal Society en 1753. Il propose en 1754 au congrès d'Albany un plan d'union des colonies, puis représente plusieurs d'entre elles à Londres, avant de rallier la cause de l'indépendance. Membre du comité qui rédige la Déclaration de 1776, il part pour Paris, où il obtient l'alliance française de 1778 puis négocie en 1783 la paix avec la Grande-Bretagne. Doyen de la convention constitutionnelle de 1787, il préside à la fin de sa vie une société abolitionniste et meurt à Philadelphie en avril 1790.",
+    "en": "Born in Boston in 1706, the son of a candle and soap maker, Benjamin Franklin left school at ten and was apprenticed to his brother's print shop. At 17 he ran away to Philadelphia, where he set up his own press, published the Pennsylvania Gazette and, from 1732, Poor Richard's Almanack with its famous sayings. He founded a lending library, a fire company and an academy that would become the University of Pennsylvania. His experiments with electricity, including the kite experiment, and his invention of the lightning rod earned him the Royal Society's Copley Medal in 1753. At the Albany Congress of 1754 he proposed a plan to unite the colonies, then represented several of them in London before embracing independence. A member of the committee that drafted the 1776 Declaration, he went to Paris, secured the French alliance of 1778 and negotiated peace with Britain in 1783. The oldest delegate at the 1787 Constitutional Convention, he chaired an abolitionist society late in life and died in Philadelphia in April 1790."
+  },
+  "highlights": {
+    "fr": [
+      "Publie l'almanach du Pauvre Richard à partir de 1732",
+      "Invente le paratonnerre et reçoit la médaille Copley en 1753",
+      "Propose le plan d'union d'Albany en 1754",
+      "Obtient l'alliance militaire avec la France en 1778",
+      "Négocie le traité de Paris qui reconnaît l'indépendance en 1783"
+    ],
+    "en": [
+      "Published Poor Richard's Almanack from 1732",
+      "Invented the lightning rod and won the Copley Medal in 1753",
+      "Proposed the Albany Plan of Union in 1754",
+      "Secured the military alliance with France in 1778",
+      "Negotiated the 1783 Treaty of Paris recognising independence"
+    ]
+  },
+  "legacy": {
+    "fr": "Savant, inventeur, éditeur et diplomate, il incarne l'esprit des Lumières américaines, et son portrait figure sur le billet de 100 dollars.",
+    "en": "Scientist, inventor, printer and diplomat, he embodies the American Enlightenment, and his portrait appears on the 100-dollar bill."
   }
 }

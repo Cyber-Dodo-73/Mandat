@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1784 dans le comté d'Orange, en Virginie, Zachary Taylor grandit sur une plantation près de Louisville, dans le Kentucky. Officier de l'armée à partir de 1808, il défend Fort Harrison pendant la guerre de 1812, puis sert sur la frontière pendant près de quarante ans. Il participe à la guerre de Black Hawk en 1832, et sa victoire contre les Séminoles au lac Okeechobee, en Floride, en 1837, lui vaut le surnom de « Old Rough and Ready ». En 1846, envoyé au Texas, il remporte les premières batailles de la guerre américano-mexicaine à Palo Alto et Resaca de la Palma, puis prend Monterrey. En février 1847, il repousse une armée mexicaine bien plus nombreuse à Buena Vista, ce qui fait de lui un héros national. Bien qu'il n'ait jamais voté ni occupé de mandat, les whigs le présentent en 1848 et il bat le démocrate Lewis Cass. Propriétaire d'esclaves, il s'oppose pourtant à l'extension de l'esclavage vers les nouveaux territoires et soutient l'admission de la Californie comme État libre. Le 9 juillet 1850, il meurt à la Maison-Blanche d'une maladie digestive, après seize mois de mandat.",
+    "en": "Born in 1784 in Orange County, Virginia, Zachary Taylor grew up on a plantation near Louisville, Kentucky. An army officer from 1808, he defended Fort Harrison during the War of 1812 and then served on the frontier for almost forty years. He fought in the Black Hawk War of 1832, and his victory over the Seminoles at Lake Okeechobee, Florida, in 1837 earned him the nickname “Old Rough and Ready”. Sent to Texas in 1846, he won the opening battles of the Mexican–American War at Palo Alto and Resaca de la Palma and went on to take Monterrey. In February 1847 he beat back a much larger Mexican army at Buena Vista, which made him a national hero. Although he had never voted or held office, the Whigs nominated him in 1848 and he defeated the Democrat Lewis Cass. A slaveholder himself, he nonetheless opposed spreading slavery into the new territories and backed California's admission as a free state. On 9 July 1850 he died in the White House of a digestive illness, sixteen months into his term."
+  },
+  "highlights": {
+    "fr": [
+      "Près de quarante ans de carrière militaire, de 1808 à 1848",
+      "Vainqueur à Okeechobee contre les Séminoles en 1837",
+      "Remporte la bataille de Buena Vista en février 1847",
+      "12e président des États-Unis, de 1849 à sa mort en 1850"
+    ],
+    "en": [
+      "Nearly forty years of army service, from 1808 to 1848",
+      "Defeated the Seminoles at Okeechobee in 1837",
+      "Won the Battle of Buena Vista in February 1847",
+      "12th President of the United States, from 1849 until his death in 1850"
+    ]
+  },
+  "legacy": {
+    "fr": "Général devenu président sans expérience politique, il est mort avant le compromis de 1850, que son successeur Millard Fillmore a signé.",
+    "en": "A general who became president with no political experience, he died before the Compromise of 1850, which his successor Millard Fillmore signed."
   }
 }

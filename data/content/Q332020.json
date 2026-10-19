@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "César Gaviria naît en mars 1947 à Pereira et étudie l’économie à l’université des Andes, à Bogotá, avant d’entrer jeune au Congrès sous les couleurs libérales. Maire de sa ville natale, il devient ministre des Finances en 1986 puis de l’Intérieur sous la présidence de Virgilio Barco. Directeur de campagne de Luis Carlos Galán, il reprend sa candidature après l’assassinat de celui-ci par des tueurs liés au cartel de Medellín en août 1989. En novembre 1989, le cartel fait exploser en vol un avion d’Avianca à bord duquel il devait voyager ; l’attentat tue 107 personnes. Élu en mai 1990, il convoque l’Assemblée constituante qui adopte la Constitution de 1991, intègre les guérilleros démobilisés du M-19 à la vie politique et lance une ouverture économique. Il négocie la reddition de Pablo Escobar en 1991, mais le trafiquant s’évade de sa prison dorée en 1992 avant d’être abattu en décembre 1993. Son mandat est aussi marqué par un rationnement d’électricité en 1992-1993. Il dirige ensuite l’Organisation des États américains de 1994 à 2004, puis reprend la tête du Parti libéral colombien.",
+    "en": "César Gaviria was born in March 1947 in Pereira and studied economics at the University of the Andes in Bogotá before entering Congress young as a Liberal. Mayor of his home city, he became finance minister in 1986 and then interior minister under President Virgilio Barco. Campaign manager for Luis Carlos Galán, he took up the candidacy after Galán was murdered by gunmen tied to the Medellín cartel in August 1989. In November 1989 the cartel bombed an Avianca flight he had been due to take, killing 107 people. Elected in May 1990, he convened the constituent assembly that adopted the 1991 Constitution, brought demobilised M-19 guerrillas into politics and opened up the economy. He negotiated Pablo Escobar's surrender in 1991, but the drug lord escaped from his luxurious prison in 1992 and was shot dead in December 1993. His term also saw electricity rationing in 1992–1993. He went on to lead the Organization of American States from 1994 to 2004 and later returned to head the Colombian Liberal Party."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre des Finances de Colombie en 1986-1987",
+      "Reprend la candidature de Luis Carlos Galán assassiné en 1989",
+      "Fait adopter la nouvelle Constitution colombienne en 1991",
+      "Obtient la reddition de Pablo Escobar en 1991",
+      "Secrétaire général de l’OEA de 1994 à 2004"
+    ],
+    "en": [
+      "Colombia's finance minister in 1986–1987",
+      "Took over the murdered Luis Carlos Galán's candidacy in 1989",
+      "Saw Colombia's new constitution adopted in 1991",
+      "Secured Pablo Escobar's surrender in 1991",
+      "Secretary General of the OAS from 1994 to 2004"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa présidence a donné à la Colombie la Constitution de 1991, toujours en vigueur, au plus fort de la guerre menée par les cartels contre l’État.",
+    "en": "His presidency gave Colombia the 1991 Constitution, still in force, at the height of the cartels' war on the state."
   }
 }

@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Léopold naît à Bruxelles en 1835, fils du premier roi des Belges, Léopold Ier, et siège de droit au Sénat dès 1853 en tant que duc de Brabant. Devenu roi en décembre 1865, il rêve d'une colonie pour son petit pays et réunit en 1876 à Bruxelles une conférence géographique présentée comme humanitaire. Il engage l'explorateur Henry Morton Stanley, qui signe pour lui des centaines de traités avec des chefs locaux du bassin du Congo. En 1885, à l'issue de la conférence de Berlin, les puissances reconnaissent l'État indépendant du Congo, propriété personnelle du roi. Avec le boom du caoutchouc dans les années 1890, son régime impose des quotas de récolte par la terreur : la Force publique prend des femmes en otage, brûle des villages et coupe des mains pour prouver l'usage des balles. Les violences, la famine et les épidémies font périr des millions de Congolais, et la population aurait diminué de plusieurs millions de personnes selon les estimations. Les profits financent en Belgique des monuments comme l'arcade du Cinquantenaire et le musée de Tervuren. Après le rapport du diplomate Roger Casement en 1904 et la campagne internationale d'Edmund Morel, le roi doit céder le Congo à la Belgique en novembre 1908. Il meurt à Laeken en décembre 1909, impopulaire.",
+    "en": "Leopold was born in Brussels in 1835, the son of the first King of the Belgians, Leopold I, and as Duke of Brabant sat in the Senate by right from 1853. Becoming king in December 1865, he longed for a colony for his small country and in 1876 hosted a geographic conference in Brussels billed as humanitarian. He hired the explorer Henry Morton Stanley, who signed hundreds of treaties on his behalf with local chiefs in the Congo basin. In 1885, after the Berlin Conference, the powers recognised the Congo Free State as the king's personal property. When the rubber boom took off in the 1890s, his regime enforced harvest quotas through terror: the Force Publique took women hostage, burned villages and cut off hands to account for spent bullets. Violence, famine and disease killed millions of Congolese, and estimates suggest the population fell by several million. The profits paid for monuments in Belgium such as the Cinquantenaire arch and the Tervuren museum. After diplomat Roger Casement's 1904 report and Edmund Morel's international campaign, the king was forced to hand the Congo to Belgium in November 1908. He died at Laeken in December 1909, deeply unpopular."
+  },
+  "highlights": {
+    "fr": [
+      "Roi des Belges de 1865 à 1909",
+      "Obtient le Congo comme possession personnelle en 1885",
+      "Travail forcé et mutilations pour la récolte du caoutchouc",
+      "Des millions de morts au Congo sous son régime",
+      "Contraint de céder le Congo à la Belgique en 1908"
+    ],
+    "en": [
+      "King of the Belgians from 1865 to 1909",
+      "Obtained the Congo as his personal possession in 1885",
+      "Forced labour and mutilation to extract rubber",
+      "Millions of deaths in the Congo under his rule",
+      "Forced to hand the Congo to Belgium in 1908"
+    ]
+  },
+  "legacy": {
+    "fr": "Son règne au Congo est devenu l'un des exemples les plus connus des crimes coloniaux. En 2020, ses statues ont été prises pour cible en Belgique et le roi Philippe a exprimé ses profonds regrets.",
+    "en": "His rule in the Congo has become one of the best-known examples of colonial atrocity. In 2020 his statues were targeted in Belgium and King Philippe voiced his deepest regrets."
   }
 }

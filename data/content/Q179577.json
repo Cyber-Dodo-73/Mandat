@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Atahualpa naît vers 1500, sans doute dans la région de Quito, fils de l’empereur inca Huayna Capac, qui conquiert alors le nord de l’Empire. À la mort de son père, vers 1527, probablement emporté par une épidémie arrivée avec les Européens, la succession revient à son demi-frère Huáscar, installé à Cuzco. Une guerre civile éclate entre les deux frères, et les généraux d’Atahualpa, Quisquis et Chalcuchímac, finissent par capturer Huáscar en 1532. Au même moment, le conquistador Francisco Pizarro débarque avec moins de deux cents hommes et le rejoint à Cajamarca. Le 16 novembre 1532, les Espagnols tendent une embuscade sur la place de la ville, massacrent des milliers de membres de sa suite et s’emparent de l’empereur. Pour sa libération, Atahualpa promet de remplir une salle d’or et deux de son volume d’argent, et la rançon est effectivement réunie. Depuis sa captivité, il fait exécuter Huáscar. Les Espagnols ne le relâchent pas pour autant : jugé pour trahison, il est garrotté à Cajamarca le 26 juillet 1533, après avoir accepté le baptême pour échapper au bûcher.",
+    "en": "Atahualpa was born around 1500, probably in the Quito region, a son of the Inca emperor Huayna Capac, who was then conquering the empire's northern reaches. When his father died around 1527, most likely from an epidemic brought by Europeans, the succession passed to his half-brother Huáscar in Cuzco. Civil war broke out between the two, and Atahualpa's generals Quisquis and Chalcuchímac finally captured Huáscar in 1532. At that very moment the conquistador Francisco Pizarro landed with fewer than two hundred men and met him at Cajamarca. On 16 November 1532 the Spaniards ambushed him in the town square, slaughtered thousands of his retinue and seized the emperor. To win his freedom, Atahualpa offered to fill a room once with gold and twice with silver, and the ransom was indeed gathered. From captivity he had Huáscar put to death. The Spaniards still refused to release him: tried for treason, he was garrotted at Cajamarca on 26 July 1533 after accepting baptism to avoid being burned."
+  },
+  "highlights": {
+    "fr": [
+      "Remporte la guerre civile contre son demi-frère Huáscar en 1532",
+      "Capturé par Pizarro à Cajamarca le 16 novembre 1532",
+      "Fait réunir une rançon d’une salle d’or et de deux d’argent",
+      "Exécuté par les Espagnols le 26 juillet 1533"
+    ],
+    "en": [
+      "Won the civil war against his half-brother Huáscar in 1532",
+      "Captured by Pizarro at Cajamarca on 16 November 1532",
+      "Gathered a ransom of one room of gold and two of silver",
+      "Executed by the Spaniards on 26 July 1533"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier souverain de l’Empire inca indépendant, sa capture et sa mort symbolisent l’effondrement brutal de l’empire face à la conquête espagnole.",
+    "en": "The last ruler of the independent Inca Empire, his capture and death stand for the empire's sudden collapse before the Spanish conquest."
   }
 }

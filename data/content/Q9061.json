@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Trèves, en Rhénanie prussienne, en 1818, Karl Marx est le fils d'un avocat d'origine juive converti au protestantisme. Il étudie le droit à Bonn puis la philosophie à Berlin, où il fréquente les jeunes hégéliens, et obtient un doctorat en 1841. Journaliste à la Gazette rhénane, interdite en 1843, il s'exile à Paris, où il rencontre Friedrich Engels, qui devient son collaborateur et soutien financier pour la vie. Expulsé de France puis de Belgique, il rédige avec Engels le Manifeste du Parti communiste, publié en février 1848 à la veille des révolutions européennes. Après leur échec, il s'installe définitivement à Londres en 1849 et y vit longtemps dans la pauvreté, travaillant à la bibliothèque du British Museum. Il joue un rôle central dans l'Association internationale des travailleurs fondée en 1864 et publie en 1867 le premier livre du Capital, critique du système capitaliste. Il meurt à Londres en mars 1883, Engels se chargeant d'éditer les volumes restés inachevés.",
+    "en": "Born in Trier, in Prussia's Rhineland, in 1818, Karl Marx was the son of a lawyer of Jewish descent who had converted to Protestantism. He studied law in Bonn and philosophy in Berlin, where he joined the Young Hegelians, and completed a doctorate in 1841. As a journalist at the Rheinische Zeitung, banned in 1843, he went into exile in Paris and met Friedrich Engels, who became his lifelong collaborator and financial backer. Expelled from France and then Belgium, he wrote The Communist Manifesto with Engels, published in February 1848 on the eve of Europe's revolutions. After their failure he settled for good in London in 1849, living for years in poverty and working in the British Museum reading room. He played a leading role in the International Workingmen's Association founded in 1864 and published the first volume of Capital, his critique of capitalism, in 1867. He died in London in March 1883, leaving Engels to edit the unfinished volumes."
+  },
+  "highlights": {
+    "fr": [
+      "Rédige avec Engels le Manifeste du Parti communiste, publié en 1848",
+      "S'installe à Londres en 1849, où il vit jusqu'à sa mort",
+      "Figure dirigeante de la Première Internationale fondée en 1864",
+      "Publie en 1867 le premier livre du Capital"
+    ],
+    "en": [
+      "Co-wrote The Communist Manifesto with Engels, published in 1848",
+      "Settled in London in 1849 and lived there until his death",
+      "A leading figure of the First International founded in 1864",
+      "Published the first volume of Capital in 1867"
+    ]
+  },
+  "legacy": {
+    "fr": "Ses idées ont inspiré les mouvements socialistes et les régimes communistes du XXe siècle, et ses analyses restent étudiées en économie et en sociologie.",
+    "en": "His ideas inspired socialist movements and the communist regimes of the 20th century, and his analyses are still studied in economics and sociology."
   }
 }

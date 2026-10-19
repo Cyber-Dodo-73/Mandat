@@ -36,5 +36,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Oxford en 1157, Richard est le troisième fils d'Henri II d'Angleterre et d'Aliénor d'Aquitaine, qui lui transmet le duché d'Aquitaine. Adolescent, il se révolte avec ses frères contre son père en 1173, puis s'allie en 1189 avec Philippe Auguste pour le combattre de nouveau. Devenu roi à la mort d'Henri II en juillet 1189, il vend charges et privilèges pour financer la troisième croisade, à laquelle il part dès l'année suivante. En chemin, il conquiert Chypre et y épouse Bérangère de Navarre en 1191, avant de contribuer à la prise d'Acre en juillet. En août, il fait massacrer environ 2 700 prisonniers musulmans de la garnison, puis bat Saladin à Arsouf en septembre, sans parvenir à reprendre Jérusalem. Après le traité de Jaffa de 1192, il est capturé sur le chemin du retour par le duc Léopold d'Autriche et livré à l'empereur Henri VI, qui ne le libère qu'en 1194 contre une énorme rançon. Il consacre ses dernières années à défendre ses terres françaises contre Philippe Auguste et fait bâtir Château-Gaillard. Atteint par un carreau d'arbalète au siège de Châlus, en Limousin, il meurt de la gangrène en avril 1199.",
+    "en": "Born in Oxford in 1157, Richard was the third son of Henry II of England and Eleanor of Aquitaine, who passed the duchy of Aquitaine on to him. As a teenager he rebelled with his brothers against his father in 1173, and in 1189 he allied with Philip Augustus of France to fight him again. King on Henry's death in July 1189, he sold offices and privileges to finance the Third Crusade, setting off the following year. On the way he conquered Cyprus, marrying Berengaria of Navarre there in 1191, before helping to take Acre that July. In August he had some 2,700 Muslim prisoners from the garrison massacred, then defeated Saladin at Arsuf in September, but never managed to retake Jerusalem. After the Treaty of Jaffa in 1192 he was captured on his way home by Duke Leopold of Austria and handed to Emperor Henry VI, who released him only in 1194 for a huge ransom. He spent his last years defending his French lands against Philip Augustus and built Château Gaillard. Struck by a crossbow bolt at the siege of Châlus in the Limousin, he died of gangrene in April 1199."
+  },
+  "highlights": {
+    "fr": [
+      "Devient roi d'Angleterre et duc de Normandie en 1189",
+      "Conquiert Chypre et participe à la prise d'Acre en 1191",
+      "Bat Saladin à Arsouf en septembre 1191",
+      "Retenu captif en Allemagne jusqu'au paiement d'une rançon en 1194",
+      "Mort au siège de Châlus en avril 1199"
+    ],
+    "en": [
+      "Became king of England and Duke of Normandy in 1189",
+      "Conquered Cyprus and helped take Acre in 1191",
+      "Defeated Saladin at Arsuf in September 1191",
+      "Held captive in Germany until a ransom was paid in 1194",
+      "Died at the siege of Châlus in April 1199"
+    ]
+  },
+  "legacy": {
+    "fr": "Héros des romans de chevalerie sous le nom de Cœur de Lion, il a pourtant passé moins d'un an en Angleterre et laissé un royaume épuisé par ses guerres.",
+    "en": "Celebrated in romance as the Lionheart, he nevertheless spent less than a year of his reign in England and left a kingdom drained by his wars."
   }
 }

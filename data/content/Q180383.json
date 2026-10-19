@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Helen Clark naît en février 1950 dans la région de Waikato et grandit dans une ferme de Te Pahu, avant d’enseigner les sciences politiques à l’université d’Auckland. Élue députée travailliste de Mount Albert en 1981, elle devient ministre de la Conservation et du Logement en 1987, puis de la Santé et vice-Première ministre en 1989. Après la défaite de 1990, elle prend la tête du Parti travailliste en 1993 et dirige l’opposition pendant six ans. En décembre 1999, elle devient la première femme élue Première ministre de Nouvelle-Zélande. Au cours de trois mandats, son gouvernement crée la banque publique Kiwibank, le fonds de retraite KiwiSaver et le programme d’aide aux familles qui travaillent, instaure l’union civile en 2004 et refuse d’engager le pays dans la guerre d’Irak en 2003. Battue par John Key en novembre 2008, elle quitte la direction du parti. En 2009, elle devient la première femme administratrice du Programme des Nations unies pour le développement, poste qu’elle occupe jusqu’en 2017, et se présente sans succès au secrétariat général de l’ONU en 2016. Elle copréside ensuite le panel indépendant chargé par l’OMS d’évaluer la réponse mondiale au Covid-19.",
+    "en": "Helen Clark was born in February 1950 in the Waikato region, grew up on a farm at Te Pahu and went on to lecture in political studies at the University of Auckland. Elected Labour MP for Mount Albert in 1981, she became minister of conservation and housing in 1987, then health minister and deputy prime minister in 1989. After the 1990 defeat she took over the Labour Party in 1993 and led the opposition for six years. In December 1999 she became New Zealand's first elected woman prime minister. Over three terms her government set up the state-owned Kiwibank, the KiwiSaver retirement scheme and support for working families, introduced civil unions in 2004 and kept the country out of the Iraq War in 2003. Defeated by John Key in November 2008, she stepped down as party leader. In 2009 she became the first woman to head the United Nations Development Programme, a post she held until 2017, and she ran unsuccessfully for UN secretary-general in 2016. She later co-chaired the independent panel set up by the WHO to review the global response to Covid-19."
+  },
+  "highlights": {
+    "fr": [
+      "Première femme élue Première ministre de Nouvelle-Zélande en 1999",
+      "Refuse d’engager le pays dans la guerre d’Irak en 2003",
+      "Crée Kiwibank et le fonds de retraite KiwiSaver",
+      "Dirige le Programme des Nations unies pour le développement de 2009 à 2017"
+    ],
+    "en": [
+      "New Zealand's first elected woman prime minister in 1999",
+      "Kept the country out of the Iraq War in 2003",
+      "Created Kiwibank and the KiwiSaver retirement scheme",
+      "Headed the United Nations Development Programme from 2009 to 2017"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle a gouverné neuf ans en imposant une gauche réformiste et indépendante en politique étrangère, puis porté la voix de la Nouvelle-Zélande à la tête d’une grande agence onusienne.",
+    "en": "She governed for nine years with a reformist, independent-minded Labour line, then carried New Zealand's voice to the head of a major UN agency."
   }
 }

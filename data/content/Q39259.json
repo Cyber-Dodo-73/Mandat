@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Recep Tayyip Erdoğan naît en 1954 à Istanbul, dans le quartier populaire de Kasımpaşa, et étudie dans un lycée religieux avant d'obtenir un diplôme de gestion à l'université de Marmara. Militant de l'islam politique au sein du mouvement de Necmettin Erbakan, il est élu maire d'Istanbul en 1994 et améliore les services de la ville. En 1998, il est condamné et emprisonné quelques mois pour avoir lu en public un poème jugé incitant à la haine religieuse. Il fonde en 2001 le Parti de la justice et du développement (AKP), qui remporte les législatives de 2002 ; il devient Premier ministre en 2003. Sa première décennie au pouvoir est marquée par une forte croissance, des négociations d'adhésion avec l'UE et la réduction du poids de l'armée. Il réprime les manifestations du parc Gezi en 2013, puis devient en 2014 le premier président élu au suffrage universel. Après la tentative de coup d'État de juillet 2016, il fait arrêter ou limoger des dizaines de milliers de militaires, juges, enseignants et journalistes, et fait adopter en 2017 un régime présidentiel qui concentre les pouvoirs. Réélu en 2018 et 2023, il fait arrêter en 2025 son principal rival, le maire d'Istanbul Ekrem İmamoğlu.",
+    "en": "Recep Tayyip Erdoğan was born in 1954 in Istanbul's working-class Kasımpaşa district, attended a religious high school and earned a management degree from Marmara University. An activist in Necmettin Erbakan's Islamist movement, he was elected mayor of Istanbul in 1994 and improved the city's services. In 1998 he was convicted and jailed for a few months for publicly reciting a poem deemed to incite religious hatred. In 2001 he founded the Justice and Development Party (AKP), which won the 2002 general election, and he became Prime Minister in 2003. His first decade in power brought strong growth, EU accession talks and a curbing of the army's political role. He cracked down on the Gezi Park protests in 2013 and in 2014 became Turkey's first directly elected president. After the failed coup of July 2016, tens of thousands of soldiers, judges, teachers and journalists were arrested or dismissed, and a 2017 referendum created an executive presidency that concentrated power in his hands. Re-elected in 2018 and 2023, he saw his main rival, Istanbul mayor Ekrem İmamoğlu, arrested in 2025."
+  },
+  "highlights": {
+    "fr": [
+      "1994 : élu maire d'Istanbul",
+      "2001 : fonde l'AKP, victorieux aux législatives de 2002",
+      "2003-2014 : Premier ministre de Turquie",
+      "2014 : premier président turc élu au suffrage universel direct",
+      "2017 : référendum instaurant un régime présidentiel"
+    ],
+    "en": [
+      "1994: elected mayor of Istanbul",
+      "2001: founded the AKP, which won the 2002 election",
+      "2003–2014: Prime Minister of Turkey",
+      "2014: Turkey's first directly elected president",
+      "2017: referendum creating an executive presidency"
+    ]
+  },
+  "legacy": {
+    "fr": "Au pouvoir depuis plus de vingt ans, il a transformé la Turquie en puissance régionale affirmée tout en réduisant fortement les contre-pouvoirs démocratiques.",
+    "en": "In power for more than two decades, he has turned Turkey into an assertive regional power while sharply eroding democratic checks and balances."
   }
 }

@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1913 à Yorba Linda, en Californie, dans une famille quaker modeste, Richard Nixon étudie au Whittier College puis le droit à Duke, et sert dans la marine pendant la Seconde Guerre mondiale. Élu à la Chambre en 1946, il se fait connaître par son anticommunisme lors de l'affaire Alger Hiss, puis entre au Sénat en 1950. Vice-président de Dwight Eisenhower de 1953 à 1961, il débat en 1959 à Moscou avec Khrouchtchev sur les mérites du capitalisme. Battu de justesse par John Kennedy en 1960 puis au poste de gouverneur de Californie en 1962, il revient et remporte la présidentielle de 1968. Il retire progressivement les troupes américaines du Vietnam tout en étendant les bombardements au Cambodge, se rend en Chine en 1972 et signe avec l'URSS les premiers accords de limitation des armements stratégiques. Il crée aussi l'Agence de protection de l'environnement et est réélu triomphalement en 1972. Le scandale du Watergate, né d'un cambriolage au siège démocrate et de ses tentatives d'étouffer l'affaire, le contraint à démissionner le 9 août 1974, une première ; il meurt à New York en 1994.",
+    "en": "Born in Yorba Linda, California, in 1913 into a modest Quaker family, Richard Nixon studied at Whittier College and Duke Law School and served in the Navy during the Second World War. Elected to the House in 1946, he made his name as an anti-communist in the Alger Hiss affair and entered the Senate in 1950. As Dwight Eisenhower's vice president from 1953 to 1961, he debated Khrushchev in Moscow in 1959 over the merits of capitalism. Narrowly beaten by John Kennedy in 1960 and in the 1962 race for governor of California, he came back to win the presidency in 1968. He gradually pulled US troops out of Vietnam while extending the bombing to Cambodia, travelled to China in 1972 and signed the first strategic arms limitation agreements with the Soviet Union. He also created the Environmental Protection Agency and was re-elected in a landslide in 1972. The Watergate scandal, stemming from a break-in at Democratic headquarters and his efforts to cover it up, forced him to resign on 9 August 1974, the first president to do so; he died in New York in 1994."
+  },
+  "highlights": {
+    "fr": [
+      "Vice-président de Dwight Eisenhower de 1953 à 1961",
+      "Élu président des États-Unis en 1968",
+      "Se rend en Chine en février 1972, une première pour un président",
+      "Signe avec l'URSS les accords SALT I en 1972",
+      "Premier président à démissionner, le 9 août 1974"
+    ],
+    "en": [
+      "Vice president under Dwight Eisenhower from 1953 to 1961",
+      "Elected president of the United States in 1968",
+      "Visited China in February 1972, a first for a US president",
+      "Signed the SALT I agreements with the Soviet Union in 1972",
+      "The first president to resign, on 9 August 1974"
+    ]
+  },
+  "legacy": {
+    "fr": "Son ouverture à la Chine a redessiné la géopolitique, mais le Watergate a durablement entamé la confiance des Américains dans leurs dirigeants.",
+    "en": "His opening to China reshaped geopolitics, but Watergate left a lasting dent in Americans' trust in their leaders."
   }
 }

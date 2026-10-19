@@ -32,5 +32,29 @@
         "value": "diplomacy"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1924 à Plains, en Géorgie, fils d'un producteur d'arachides, Jimmy Carter sort de l'Académie navale en 1946 et sert dans les sous-marins, dont le programme nucléaire naissant. À la mort de son père en 1953, il reprend l'exploitation familiale, puis entre au Sénat de Géorgie en 1963. Gouverneur de Géorgie de 1971 à 1975, il se fait remarquer en dénonçant la ségrégation raciale dès son discours d'investiture. Presque inconnu au niveau national, il remporte la présidentielle de 1976 face à Gerald Ford, porté par la défiance née du Watergate. Il négocie en 1978 les accords de Camp David entre l'Égypte et Israël, signe les traités rendant le canal de Panama et établit des relations diplomatiques avec la Chine. Mais l'inflation, la crise énergétique et la prise d'otages à l'ambassade américaine de Téhéran, à partir de novembre 1979, minent sa présidence, et il est battu par Ronald Reagan en 1980. Il consacre ensuite des décennies à la médiation, à l'observation d'élections et à la lutte contre les maladies, reçoit le prix Nobel de la paix en 2002 et meurt à Plains en décembre 2024, à 100 ans.",
+    "en": "Born in 1924 in Plains, Georgia, the son of a peanut farmer, Jimmy Carter graduated from the Naval Academy in 1946 and served on submarines, including the early nuclear programme. When his father died in 1953 he took over the family farm, then entered the Georgia State Senate in 1963. Governor of Georgia from 1971 to 1975, he stood out by denouncing racial segregation in his inaugural address. Barely known nationally, he won the 1976 presidential election against Gerald Ford, carried by the distrust left by Watergate. He brokered the 1978 Camp David Accords between Egypt and Israel, signed the treaties returning the Panama Canal and established diplomatic relations with China. But inflation, the energy crisis and the hostage-taking at the US embassy in Tehran from November 1979 undermined his presidency, and he lost to Ronald Reagan in 1980. He then spent decades on mediation, election monitoring and the fight against disease, received the Nobel Peace Prize in 2002 and died in Plains in December 2024, aged 100."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur de Géorgie de 1971 à 1975",
+      "Élu président des États-Unis en 1976",
+      "Négocie les accords de Camp David entre l'Égypte et Israël en 1978",
+      "Prix Nobel de la paix en 2002 pour son action humanitaire",
+      "Président ayant vécu le plus longtemps, mort à 100 ans en 2024"
+    ],
+    "en": [
+      "Governor of Georgia from 1971 to 1975",
+      "Elected president of the United States in 1976",
+      "Brokered the Camp David Accords between Egypt and Israel in 1978",
+      "Awarded the Nobel Peace Prize in 2002 for his humanitarian work",
+      "The longest-lived US president, dying at 100 in 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Jugé sévèrement à la fin de son mandat, il est réhabilité par son action humanitaire, souvent citée comme la plus remarquable de tous les anciens présidents.",
+    "en": "Judged harshly at the end of his term, he was rehabilitated by his humanitarian work, often cited as the most remarkable of any former president."
   }
 }

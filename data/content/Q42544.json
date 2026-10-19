@@ -30,5 +30,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Londres en 1478, fils du juge John More, Thomas More grandit comme page dans la maison du cardinal Morton avant d'étudier à Oxford puis le droit à Lincoln's Inn. Avocat brillant, ami d'Érasme et humaniste nourri de grec, il entre au Parlement dès 1504 et devient sous-shérif de Londres en 1510. En 1516, il publie Utopia, récit d'une île imaginaire qui sert de miroir critique à la société européenne. Entré au service d'Henri VIII, il siège au Conseil privé, est fait chevalier en 1521 et préside la Chambre des communes en 1523. Chancelier du duché de Lancastre en 1525, il succède à Wolsey comme lord-chancelier en octobre 1529, le premier laïc à ce poste depuis longtemps. Catholique intransigeant, il combat la Réforme par ses écrits et fait poursuivre des protestants, dont plusieurs sont brûlés pendant son mandat. Hostile au divorce du roi d'avec Catherine d'Aragon et à la rupture avec Rome, il démissionne en mai 1532. Ayant refusé en 1534 de prêter le serment reconnaissant la succession d'Anne Boleyn et la suprématie royale sur l'Église, il est enfermé à la Tour, condamné pour trahison et décapité à Tower Hill le 6 juillet 1535.",
+    "en": "Born in London in 1478, the son of the judge John More, Thomas More served as a page in Cardinal Morton's household before studying at Oxford and then law at Lincoln's Inn. A gifted lawyer, a friend of Erasmus and a humanist steeped in Greek, he entered Parliament in 1504 and became under-sheriff of London in 1510. In 1516 he published Utopia, the tale of an imaginary island that holds a critical mirror up to European society. Drawn into the service of Henry VIII, he joined the Privy Council, was knighted in 1521 and served as Speaker of the House of Commons in 1523. Chancellor of the Duchy of Lancaster from 1525, he succeeded Wolsey as Lord Chancellor in October 1529, one of the first laymen in the post for generations. A committed Catholic, he attacked the Reformation in print and pursued Protestants, several of whom were burned during his tenure. Opposed to the king's annulment from Catherine of Aragon and to the break with Rome, he resigned in May 1532. After refusing in 1534 to swear the oath recognising Anne Boleyn's children as heirs and the king's supremacy over the Church, he was held in the Tower, convicted of treason and beheaded on Tower Hill on 6 July 1535."
+  },
+  "highlights": {
+    "fr": [
+      "Publie Utopia en 1516",
+      "Préside la Chambre des communes en 1523",
+      "Devient lord-chancelier d'Henri VIII en octobre 1529",
+      "Démissionne en 1532 en désaccord avec la rupture avec Rome",
+      "Décapité en 1535 pour avoir refusé de reconnaître la suprématie du roi"
+    ],
+    "en": [
+      "Published Utopia in 1516",
+      "Served as Speaker of the House of Commons in 1523",
+      "Became Henry VIII's Lord Chancellor in October 1529",
+      "Resigned in 1532 over the break with Rome",
+      "Beheaded in 1535 for refusing to accept the king's supremacy"
+    ]
+  },
+  "legacy": {
+    "fr": "Canonisé par l'Église catholique en 1935, il est vénéré comme martyr de la liberté de conscience, tandis que son Utopia a donné son nom à tout un genre littéraire et politique.",
+    "en": "Canonised by the Catholic Church in 1935, he is revered as a martyr of conscience, while his Utopia gave its name to an entire literary and political genre."
   }
 }

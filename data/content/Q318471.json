@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Nigel Farage naît en 1964 dans le Kent, dans le district de Bromley, et entre à 18 ans comme courtier sur le marché des matières premières de la City de Londres. Militant conservateur, il quitte le parti en 1992 pour protester contre le traité de Maastricht et participe l'année suivante à la fondation du Parti pour l'indépendance du Royaume-Uni, l'UKIP. Élu député européen du sud-est de l'Angleterre en 1999, il y siège plus de vingt ans et s'y fait connaître par ses interventions contre les institutions européennes. Chef de l'UKIP de 2006 à 2009 puis de 2010 à 2016, il survit à un accident d'avion le jour des élections de 2010. En 2014, l'UKIP arrive en tête des élections européennes au Royaume-Uni, ce qui pousse David Cameron à organiser un référendum. Le 23 juin 2016, 52 % des votants choisissent de quitter l'Union européenne, et Farage abandonne la direction de son parti quelques jours plus tard. En 2019, son nouveau Parti du Brexit remporte les européennes, puis son mandat prend fin lorsque le pays quitte l'Union en janvier 2020. Reprenant la tête de Reform UK en juin 2024, il est élu député de Clacton en juillet, à sa huitième tentative, et son parti progresse fortement aux élections locales de 2025.",
+    "en": "Nigel Farage was born in 1964 in Kent, in the Bromley district, and at 18 became a commodities broker in the City of London. A Conservative activist, he left the party in 1992 in protest at the Maastricht Treaty and the following year helped found the UK Independence Party, UKIP. Elected MEP for South East England in 1999, he sat in Strasbourg for over twenty years and became known for his speeches attacking the EU institutions. Leader of UKIP from 2006 to 2009 and again from 2010 to 2016, he survived a light-aircraft crash on polling day in 2010. In 2014 UKIP topped the European elections in Britain, adding pressure on David Cameron to hold a referendum. On 23 June 2016, 52% of voters chose to leave the European Union, and Farage stepped down as party leader days later. In 2019 his new Brexit Party won the European elections, and his seat lapsed when Britain left the EU in January 2020. Taking over Reform UK in June 2024, he was elected MP for Clacton that July at his eighth attempt, and his party made sweeping gains in the 2025 local elections."
+  },
+  "highlights": {
+    "fr": [
+      "Cofondateur de l'UKIP en 1993",
+      "Député européen de 1999 à 2020",
+      "UKIP en tête des européennes au Royaume-Uni en 2014",
+      "Victoire du Brexit au référendum du 23 juin 2016",
+      "Élu député de Clacton en juillet 2024"
+    ],
+    "en": [
+      "Co-founded UKIP in 1993",
+      "Member of the European Parliament from 1999 to 2020",
+      "UKIP topped the 2014 European elections in Britain",
+      "Leave won the referendum of 23 June 2016",
+      "Elected MP for Clacton in July 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Sans avoir jamais gouverné, il a pesé plus que quiconque sur la sortie du Royaume-Uni de l'Union européenne, et il a bousculé durablement le bipartisme britannique.",
+    "en": "Without ever holding government office, he did more than anyone to take Britain out of the EU, and he has lastingly shaken its two-party system."
   }
 }

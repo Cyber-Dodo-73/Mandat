@@ -29,5 +29,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Hu Jintao naît en décembre 1942 à Taizhou, dans le Jiangsu, dans une famille de marchands de thé. Il étudie l'hydraulique à l'université Tsinghua, adhère au Parti communiste en 1964 et passe une partie de la Révolution culturelle sur des chantiers de barrages au Gansu. Remarqué par ses supérieurs, il dirige la Ligue de la jeunesse communiste en 1984, puis le parti dans la province du Guizhou. Secrétaire du parti au Tibet à partir de 1988, il est en poste lorsque les manifestations de Lhassa sont réprimées et la loi martiale proclamée en mars 1989. En 1992, à 49 ans, il entre au comité permanent du Bureau politique, désigné comme futur successeur de Jiang Zemin. Il devient secrétaire général du parti en novembre 2002, président de la République en mars 2003 et chef de la commission militaire en 2004. Il promeut une « société harmonieuse », supprime l'impôt agricole en 2006 et accompagne une croissance qui fait de la Chine la deuxième économie mondiale en 2010. Son mandat voit aussi les Jeux olympiques de Pékin en 2008, ainsi que la répression des troubles au Tibet la même année et au Xinjiang en 2009, où les émeutes d'Ürümqi font environ deux cents morts. Il transmet le pouvoir à Xi Jinping en 2012 et 2013, et son départ escorté du congrès du parti en octobre 2022 frappe les observateurs.",
+    "en": "Hu Jintao was born in December 1942 in Taizhou, Jiangsu, into a family of tea merchants. He studied hydraulic engineering at Tsinghua University, joined the Communist Party in 1964 and spent part of the Cultural Revolution on dam projects in Gansu. Spotted by his superiors, he ran the Communist Youth League in 1984 and then the party in Guizhou province. As party secretary in Tibet from 1988, he was in charge when protests in Lhasa were crushed and martial law was declared in March 1989. In 1992, aged 49, he joined the Politburo Standing Committee as Jiang Zemin's designated successor. He became party general secretary in November 2002, state president in March 2003 and head of the military commission in 2004. He promoted a 'harmonious society', scrapped the agricultural tax in 2006 and presided over growth that made China the world's second-largest economy by 2010. His tenure also saw the 2008 Beijing Olympics, as well as crackdowns on unrest in Tibet that year and in Xinjiang in 2009, where the Ürümqi riots left about two hundred dead. He handed power to Xi Jinping in 2012 and 2013, and his escorted exit from the party congress in October 2022 startled observers."
+  },
+  "highlights": {
+    "fr": [
+      "Secrétaire du parti au Tibet lors de la loi martiale de 1989",
+      "Secrétaire général du Parti communiste chinois de 2002 à 2012",
+      "Président de la République populaire de Chine de 2003 à 2013",
+      "Suppression de l'impôt agricole en 2006",
+      "Jeux olympiques de Pékin en août 2008"
+    ],
+    "en": [
+      "Party chief in Tibet when martial law was declared in 1989",
+      "General Secretary of the Chinese Communist Party, 2002–2012",
+      "President of the People's Republic of China, 2003–2013",
+      "Abolished the agricultural tax in 2006",
+      "Hosted the Beijing Olympics in August 2008"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste le symbole d'une direction collective et d'une transmission ordonnée du pouvoir, un modèle que son successeur a ensuite abandonné.",
+    "en": "He remains a symbol of collective leadership and orderly transfer of power, a model his successor later abandoned."
   }
 }

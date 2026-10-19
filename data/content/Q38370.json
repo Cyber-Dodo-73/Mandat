@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Henri Tudor naît en 1491 au palais de Greenwich, deuxième fils d'Henri VII, et reçoit enfant de nombreux titres honorifiques, dont celui de duc d'York. La mort de son frère aîné Arthur en 1502 fait de lui l'héritier du trône, qu'il occupe en 1509 à 17 ans, épousant aussitôt la veuve de son frère, Catherine d'Aragon. Ses premières années sont dominées par des guerres contre la France et l'Écosse et par le cardinal Wolsey, qui dirige le gouvernement. Faute de fils, il demande au pape l'annulation de son mariage ; devant le refus de Rome, il rompt avec l'Église catholique et se fait proclamer chef suprême de l'Église d'Angleterre en 1534. Il épouse Anne Boleyn, qu'il fait décapiter en 1536, puis quatre autres femmes, dont Jeanne Seymour, mère du futur Édouard VI. Avec son ministre Thomas Cromwell, il dissout les monastères entre 1536 et 1541 et confisque leurs biens. Son règne est aussi marqué par des exécutions politiques, comme celle de Thomas More en 1535, et par la répression du Pèlerinage de Grâce. Il prend le titre de roi d'Irlande en 1542 et meurt en 1547 au palais de Whitehall.",
+    "en": "Henry Tudor was born in 1491 at Greenwich Palace, the second son of Henry VII, and as a child received a string of honorary titles, including Duke of York. The death of his elder brother Arthur in 1502 made him heir, and he took the throne in 1509 at 17, promptly marrying his brother's widow, Catherine of Aragon. His early reign was taken up by wars with France and Scotland and dominated by Cardinal Wolsey, who ran the government. Lacking a son, he asked the pope to annul his marriage; when Rome refused, he broke with the Catholic Church and had himself declared Supreme Head of the Church of England in 1534. He married Anne Boleyn, whom he had beheaded in 1536, and four further wives, among them Jane Seymour, mother of the future Edward VI. With his minister Thomas Cromwell he dissolved the monasteries between 1536 and 1541 and seized their wealth. His reign also saw political executions, such as that of Thomas More in 1535, and the suppression of the Pilgrimage of Grace. He took the title King of Ireland in 1542 and died at the Palace of Whitehall in 1547."
+  },
+  "highlights": {
+    "fr": [
+      "1509 : monte sur le trône à 17 ans et épouse Catherine d'Aragon",
+      "1534 : Acte de suprématie, rupture avec Rome",
+      "1536-1541 : dissolution des monastères anglais",
+      "1542 : prend le titre de roi d'Irlande",
+      "Six mariages, dont deux épouses décapitées"
+    ],
+    "en": [
+      "1509: took the throne at 17 and married Catherine of Aragon",
+      "1534: Act of Supremacy, break with Rome",
+      "1536–1541: dissolution of the English monasteries",
+      "1542: assumed the title King of Ireland",
+      "Six marriages, two of which ended in beheadings"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa rupture avec Rome a donné naissance à l'Église d'Angleterre et a profondément transformé l'État anglais ; ses six épouses ont fait de lui une figure populaire.",
+    "en": "His break with Rome created the Church of England and reshaped the English state, while his six wives made him a fixture of popular culture."
   }
 }

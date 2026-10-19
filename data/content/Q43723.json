@@ -30,5 +30,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Tel-Aviv en 1949, fils d'un historien sioniste, Benyamin Netanyahou passe une partie de sa jeunesse aux États-Unis, puis sert dans l'unité d'élite Sayeret Matkal. Il étudie au MIT, et son frère aîné Yonatan est tué en 1976 lors du raid israélien d'Entebbe, en Ouganda. Ambassadeur d'Israël à l'ONU de 1984 à 1988, il entre ensuite à la Knesset et prend la tête du Likoud en 1993. En 1996, il devient le premier Premier ministre élu au suffrage direct et le plus jeune de l'histoire du pays, avant d'être battu en 1999. Revenu au pouvoir en 2009, il gouverne sans interruption jusqu'en 2021, s'opposant à l'accord nucléaire iranien et signant en 2020 les accords d'Abraham avec plusieurs pays arabes, mais il est inculpé en 2019 pour corruption, fraude et abus de confiance. Écarté en 2021 par une coalition hétéroclite, il revient fin 2022 à la tête du gouvernement le plus à droite de l'histoire d'Israël, dont la réforme judiciaire provoque d'immenses manifestations. Après l'attaque du Hamas du 7 octobre 2023, qui tue environ 1 200 personnes en Israël, il mène à Gaza une guerre qui fait des dizaines de milliers de morts palestiniens, et la Cour pénale internationale émet contre lui en 2024 un mandat d'arrêt pour crimes de guerre.",
+    "en": "Born in Tel Aviv in 1949, the son of a Zionist historian, Benjamin Netanyahu spent part of his youth in the United States and served in the elite Sayeret Matkal unit. He studied at MIT, and his elder brother Yonatan was killed in 1976 during Israel's Entebbe raid in Uganda. Israel's ambassador to the UN from 1984 to 1988, he then entered the Knesset and became Likud leader in 1993. In 1996 he became the first directly elected prime minister and the youngest in the country's history, before losing in 1999. Back in power in 2009, he governed without a break until 2021, opposing the Iran nuclear deal and signing the Abraham Accords with several Arab states in 2020, but was indicted in 2019 for bribery, fraud and breach of trust. Ousted in 2021 by a broad coalition, he returned at the end of 2022 at the head of the most right-wing government in Israel's history, whose judicial overhaul sparked huge protests. After the Hamas attack of 7 October 2023, which killed about 1,200 people in Israel, he led a war in Gaza that has killed tens of thousands of Palestinians, and in 2024 the International Criminal Court issued a warrant for his arrest for war crimes."
+  },
+  "highlights": {
+    "fr": [
+      "Ambassadeur d'Israël auprès de l'ONU de 1984 à 1988",
+      "Premier Premier ministre élu au suffrage direct, en 1996",
+      "Chef du gouvernement le plus longtemps en poste de l'histoire d'Israël",
+      "Signe les accords d'Abraham en 2020",
+      "Visé en 2024 par un mandat d'arrêt de la Cour pénale internationale"
+    ],
+    "en": [
+      "Israel's ambassador to the UN from 1984 to 1988",
+      "First directly elected prime minister, in 1996",
+      "The longest-serving prime minister in Israel's history",
+      "Signed the Abraham Accords in 2020",
+      "Subject of an International Criminal Court arrest warrant since 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a dominé la vie politique israélienne pendant trois décennies et orienté durablement le pays vers la droite, au prix de profondes fractures internes et internationales.",
+    "en": "He has dominated Israeli politics for three decades and steered the country firmly to the right, at the cost of deep domestic and international rifts."
   }
 }

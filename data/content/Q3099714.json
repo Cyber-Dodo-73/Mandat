@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né à Ottawa en 1971, Justin Trudeau est le fils aîné de Pierre Elliott Trudeau, alors Premier ministre du Canada, et grandit sous l'œil des médias. Diplômé de littérature à McGill puis en éducation à l'université de la Colombie-Britannique, il enseigne le français et les mathématiques à Vancouver. Son éloge funèbre de son père, en 2000, le fait connaître du grand public, et il est élu député de Papineau, à Montréal, en 2008. Il prend en 2013 la direction d'un Parti libéral relégué au troisième rang, puis le mène en octobre 2015 à une victoire majoritaire. Premier ministre, il nomme un cabinet paritaire, légalise le cannabis en 2018, instaure une taxe carbone et accueille des dizaines de milliers de réfugiés syriens. Ses gouvernements sont toutefois ébranlés par plusieurs affaires éthiques, dont celle de SNC-Lavalin, et il n'obtient que des minorités en 2019 et 2021. Face à une forte impopularité et à la démission de sa ministre des Finances, il annonce son départ en janvier 2025 et cède sa place à Mark Carney en mars.",
+    "en": "Born in Ottawa in 1971, Justin Trudeau is the eldest son of Pierre Elliott Trudeau, then prime minister of Canada, and grew up in the public eye. After a literature degree at McGill and an education degree at the University of British Columbia, he taught French and maths in Vancouver. His eulogy at his father's funeral in 2000 made him widely known, and he was elected MP for Papineau in Montreal in 2008. In 2013 he took over a Liberal Party reduced to third place and led it to a majority victory in October 2015. As prime minister he named a gender-balanced cabinet, legalised cannabis in 2018, introduced a carbon tax and welcomed tens of thousands of Syrian refugees. His governments were shaken by ethics affairs, notably the SNC-Lavalin case, and he won only minorities in 2019 and 2021. Deeply unpopular and facing the resignation of his finance minister, he announced his departure in January 2025 and handed over to Mark Carney in March."
+  },
+  "highlights": {
+    "fr": [
+      "Mène le Parti libéral de la troisième place à la majorité en 2015",
+      "Forme en 2015 le premier cabinet fédéral paritaire du Canada",
+      "Légalise le cannabis à l'échelle nationale en 2018",
+      "Premier ministre près de dix ans, de 2015 à 2025"
+    ],
+    "en": [
+      "Took the Liberals from third place to a majority in 2015",
+      "Formed Canada's first gender-balanced federal cabinet in 2015",
+      "Legalised cannabis nationwide in 2018",
+      "Prime minister for almost ten years, from 2015 to 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a incarné un libéralisme progressiste sur le climat, la diversité et l'immigration, avant que l'usure du pouvoir ne le pousse au départ.",
+    "en": "He embodied a progressive liberalism on climate, diversity and immigration, until the wear of office pushed him out."
   }
 }

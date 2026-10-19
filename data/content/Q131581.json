@@ -35,5 +35,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1386 au château de Monmouth, au pays de Galles, Henri est le fils d'Henri Bolingbroke, qui s'empare du trône d'Angleterre en 1399 sous le nom d'Henri IV. Fait chevalier de la Jarretière la même année, le jeune prince combat très tôt les rebelles gallois d'Owain Glyndŵr. En 1403, à 16 ans, il est grièvement blessé au visage par une flèche lors de la bataille de Shrewsbury. Couronné en 1413, il réprime l'année suivante un soulèvement lollard et relance les revendications anglaises sur la couronne de France. Le 25 octobre 1415, son armée affaiblie remporte à Azincourt une victoire écrasante sur la chevalerie française, en grande partie grâce à ses archers. Il conquiert ensuite méthodiquement la Normandie, prenant Rouen en 1419 après un long siège. Par le traité de Troyes de 1420, il épouse Catherine de Valois et est reconnu héritier du roi Charles VI, au détriment du dauphin. Il meurt cependant de dysenterie au château de Vincennes en août 1422, à 35 ans, quelques semaines avant Charles VI, laissant un fils de neuf mois.",
+    "en": "Born in 1386 at Monmouth Castle in Wales, Henry was the son of Henry Bolingbroke, who seized the English throne in 1399 as Henry IV. Made a Knight of the Garter that year, the young prince was soon fighting the Welsh rebels of Owain Glyndŵr. In 1403, aged 16, he was badly wounded in the face by an arrow at the Battle of Shrewsbury. Crowned in 1413, he crushed a Lollard rising the following year and revived English claims to the French crown. On 25 October 1415 his weakened army won a crushing victory over the French nobility at Agincourt, largely thanks to its archers. He then methodically conquered Normandy, taking Rouen in 1419 after a long siege. Under the Treaty of Troyes in 1420 he married Catherine of Valois and was recognised as heir to King Charles VI, cutting out the dauphin. Yet he died of dysentery at the Château de Vincennes in August 1422, aged 35, weeks before Charles VI, leaving a nine-month-old son."
+  },
+  "highlights": {
+    "fr": [
+      "1403 : blessé d'une flèche au visage à la bataille de Shrewsbury",
+      "1415 : remporte la bataille d'Azincourt contre l'armée française",
+      "1419 : prend Rouen et achève la conquête de la Normandie",
+      "1420 : traité de Troyes, reconnu héritier du trône de France"
+    ],
+    "en": [
+      "1403: wounded in the face by an arrow at the Battle of Shrewsbury",
+      "1415: won the Battle of Agincourt against the French army",
+      "1419: took Rouen, completing the conquest of Normandy",
+      "1420: Treaty of Troyes made him heir to the French throne"
+    ]
+  },
+  "legacy": {
+    "fr": "Azincourt a fait de lui l'un des rois guerriers les plus célèbres d'Angleterre, immortalisé par Shakespeare. Ses conquêtes françaises ne lui ont pas survécu plus d'une génération.",
+    "en": "Agincourt made him one of England's most famous warrior kings, immortalised by Shakespeare. His French conquests did not outlast him by more than a generation."
   }
 }

@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1954 à Kopys, dans la Biélorussie soviétique, Alexandre Loukachenko est élevé par sa mère dans un milieu rural et étudie l'histoire puis l'agronomie. Officier politique dans les gardes-frontières, il dirige ensuite un sovkhoze près de Chklov. Élu au Soviet suprême de Biélorussie en 1990, il s'y fait connaître comme pourfendeur de la corruption. En juillet 1994, il remporte la première élection présidentielle du pays indépendant, avec plus de 80 % des voix au second tour. Par le référendum de 1996, il élargit massivement ses pouvoirs et marginalise le Parlement ; en 2004, un autre référendum supprime la limite des mandats. Plusieurs opposants disparaissent à la fin des années 1990, et chaque scrutin suivant est jugé non démocratique par les observateurs occidentaux. En août 2020, sa réélection revendiquée avec 80 % des voix déclenche les plus grandes manifestations de l'histoire du pays, réprimées par des dizaines de milliers d'arrestations et des actes de torture. Il s'appuie dès lors sur Moscou et laisse en 2022 l'armée russe utiliser son territoire pour envahir l'Ukraine. En janvier 2025, il revendique un septième mandat.",
+    "en": "Born in 1954 in Kopys, in Soviet Belarus, Alexander Lukashenko was raised by his mother in the countryside and studied history and then agriculture. After serving as a political officer in the border guards, he ran a state farm near Shklov. Elected to the Belarusian Supreme Soviet in 1990, he built a reputation as a scourge of corruption. In July 1994 he won the newly independent country's first presidential election, taking over 80 percent in the runoff. A 1996 referendum hugely expanded his powers and sidelined parliament, and another in 2004 scrapped term limits. Several opponents disappeared in the late 1990s, and Western observers have judged every later election undemocratic. In August 2020 his claim to have won 80 percent sparked the largest protests in the country's history, met with tens of thousands of arrests and documented torture. He then leaned heavily on Moscow and in 2022 let the Russian army use Belarusian territory to invade Ukraine. In January 2025 he claimed a seventh term."
+  },
+  "highlights": {
+    "fr": [
+      "1994 : remporte la première présidentielle de la Biélorussie indépendante",
+      "1996 : un référendum lui accorde des pouvoirs quasi illimités",
+      "2020 : réprime par des dizaines de milliers d'arrestations la contestation de sa réélection",
+      "2022 : laisse l'armée russe envahir l'Ukraine depuis son territoire",
+      "2025 : revendique un septième mandat présidentiel"
+    ],
+    "en": [
+      "1994: won independent Belarus's first presidential election",
+      "1996: a referendum granted him near-unlimited powers",
+      "2020: crushed protests over his re-election with tens of thousands of arrests",
+      "2022: let the Russian army invade Ukraine from Belarusian soil",
+      "2025: claimed a seventh presidential term"
+    ]
+  },
+  "legacy": {
+    "fr": "Souvent qualifié de « dernier dictateur d'Europe », il dirige la Biélorussie sans interruption depuis 1994. Son pays est devenu un proche allié militaire et politique de la Russie.",
+    "en": "Often called 'Europe's last dictator', he has ruled Belarus without a break since 1994. Under him the country has become a close military and political ally of Russia."
   }
 }

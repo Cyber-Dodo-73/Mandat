@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "John Adams naît en 1735 à Braintree, dans le Massachusetts, fils d'un fermier, et devient avocat après des études à Harvard. En 1770, il défend devant la justice les soldats britanniques accusés du massacre de Boston, par attachement au droit à un procès équitable, puis est élu à l'assemblée du Massachusetts. Délégué au Congrès continental, il pousse à la rupture avec Londres et fait partie du comité chargé de rédiger la Déclaration d'indépendance en 1776. Diplomate en Europe, il obtient la reconnaissance des Provinces-Unies et des prêts néerlandais en 1782, négocie la paix de Paris de 1783 puis devient le premier ambassadeur américain à Londres. Vice-président de George Washington de 1789 à 1797, il lui succède après l'élection de 1796. Sa présidence est dominée par la « quasi-guerre » navale avec la France, qu'il finit par régler par la négociation malgré son propre camp. Les lois sur les étrangers et la sédition, qu'il signe en 1798, lui valent de vives critiques. Battu par Thomas Jefferson en 1800, il se retire à Quincy, où il meurt le 4 juillet 1826, le jour même du cinquantenaire de l'indépendance et de la mort de Jefferson.",
+    "en": "John Adams was born in 1735 in Braintree, Massachusetts, the son of a farmer, and became a lawyer after studying at Harvard. In 1770 he defended in court the British soldiers accused over the Boston Massacre, out of commitment to the right to a fair trial, and was then elected to the Massachusetts assembly. As a delegate to the Continental Congress he pushed for a break with London and sat on the committee charged with drafting the Declaration of Independence in 1776. Posted to Europe, he secured Dutch recognition and loans in 1782, helped negotiate the 1783 Treaty of Paris and became the first American minister to Britain. He served as George Washington's vice president from 1789 to 1797 and succeeded him after the 1796 election. His presidency was dominated by the Quasi-War, an undeclared naval conflict with France that he settled through negotiation against the wishes of his own party. The Alien and Sedition Acts he signed in 1798 drew fierce criticism. Defeated by Thomas Jefferson in 1800, he retired to Quincy, where he died on 4 July 1826, the fiftieth anniversary of independence and the same day as Jefferson."
+  },
+  "highlights": {
+    "fr": [
+      "Défend en justice les soldats du massacre de Boston (1770)",
+      "Membre du comité de rédaction de la Déclaration d'indépendance (1776)",
+      "Premier ambassadeur des États-Unis à Londres (1785-1788)",
+      "Premier vice-président puis 2e président des États-Unis (1797-1801)",
+      "Met fin à la quasi-guerre avec la France par la négociation (1800)"
+    ],
+    "en": [
+      "Defended the British soldiers of the Boston Massacre in court (1770)",
+      "Sat on the committee that drafted the Declaration of Independence (1776)",
+      "First United States minister to Britain (1785-1788)",
+      "First vice president, then 2nd president of the United States (1797-1801)",
+      "Ended the Quasi-War with France through negotiation (1800)"
+    ]
+  },
+  "legacy": {
+    "fr": "Père fondateur exigeant et légaliste, il a contribué à fonder la république et ouvert la voie à la première alternance pacifique au pouvoir, en 1801.",
+    "en": "A demanding, law-minded founding father, he helped build the republic and made way for its first peaceful transfer of power between rival parties in 1801."
   }
 }

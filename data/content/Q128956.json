@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1916 à Huddersfield, dans le Yorkshire, James Harold Wilson étudie l'économie et la philosophie à Oxford, où il devient enseignant à seulement 21 ans. Haut fonctionnaire pendant la Seconde Guerre mondiale, il est élu député travailliste en 1945. Clement Attlee le nomme en 1947 président du Board of Trade, faisant de lui à 31 ans le plus jeune ministre du siècle, mais il démissionne en 1951 avec Aneurin Bevan pour protester contre l'introduction de frais dans le service de santé. Chancelier fantôme puis porte-parole pour les affaires étrangères, il est élu chef du Parti travailliste en février 1963, après la mort d'Hugh Gaitskell, et promet une modernisation par la science et la technologie. Premier ministre en octobre 1964, il doit dévaluer la livre en 1967, refuse d'engager des troupes britanniques au Vietnam et lance l'Open University. Sous son gouvernement, la peine de mort est abolie et l'homosexualité masculine dépénalisée en Angleterre. Battu par Edward Heath en 1970, il revient au pouvoir en mars 1974 et organise en 1975 le référendum par lequel 67 % des électeurs approuvent le maintien dans la Communauté européenne. Il démissionne par surprise en mars 1976, devient lord en 1983 et meurt à Londres en 1995.",
+    "en": "Born in Huddersfield, Yorkshire, in 1916, James Harold Wilson read philosophy, politics and economics at Oxford, where he became a lecturer at just 21. A senior civil servant during the Second World War, he was elected a Labour MP in 1945. Clement Attlee made him President of the Board of Trade in 1947, at 31 the youngest cabinet minister of the century, but he resigned in 1951 with Aneurin Bevan over the introduction of health service charges. After serving as shadow chancellor and shadow foreign secretary, he was elected Labour leader in February 1963, following Hugh Gaitskell's death, and promised to modernise Britain through science and technology. Prime minister from October 1964, he was forced to devalue the pound in 1967, refused to send British troops to Vietnam and launched the Open University. Under his government the death penalty was abolished and male homosexuality was decriminalised in England. Beaten by Edward Heath in 1970, he returned to power in March 1974 and in 1975 held the referendum in which 67% of voters chose to stay in the European Community. He resigned unexpectedly in March 1976, was made a life peer in 1983 and died in London in 1995."
+  },
+  "highlights": {
+    "fr": [
+      "Plus jeune ministre du siècle en 1947, à 31 ans",
+      "Premier ministre de 1964 à 1970 puis de 1974 à 1976",
+      "Tient le Royaume-Uni à l'écart de la guerre du Vietnam",
+      "Fonde l'Open University, ouverte en 1969",
+      "Référendum de 1975 : 67 % pour rester dans la CEE"
+    ],
+    "en": [
+      "Youngest cabinet minister of the century in 1947, aged 31",
+      "Prime minister 1964–1970 and 1974–1976",
+      "Kept Britain out of the Vietnam War",
+      "Founded the Open University, opened in 1969",
+      "1975 referendum: 67% voted to stay in the EEC"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a remporté quatre élections générales, et ses gouvernements restent associés à une série de réformes de société majeures des années 1960.",
+    "en": "He won four general elections, and his governments remain linked to a wave of major social reforms in the 1960s."
   }
 }

@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Alexander Hamilton naît vers 1757 à Charlestown, sur l'île antillaise de Niévès, enfant illégitime bientôt orphelin de mère. Remarqué pour son talent, il est envoyé étudier à New York, où il rejoint la cause révolutionnaire et devient aide de camp de George Washington pendant la guerre d'indépendance. Après la convention d'Annapolis en 1786, il est délégué de New York à la Convention constitutionnelle de 1787, puis coécrit avec Madison et Jay les essais fédéralistes pour faire ratifier la Constitution. Premier secrétaire au Trésor de 1789 à 1795, il fait reprendre par l'État fédéral les dettes de guerre des États, crée une banque nationale et pose les bases du crédit public américain. Ses vues centralisatrices l'opposent à Thomas Jefferson et donnent naissance au parti fédéraliste. Il soutient le traité de Jay avec la Grande-Bretagne en 1794, puis commande l'armée en second lors de la crise avec la France en 1799. Ses attaques contre Aaron Burr pendant les élections de 1800 et de 1804 mènent à un duel à Weehawken, dans le New Jersey, en juillet 1804. Mortellement blessé, il meurt le lendemain à New York.",
+    "en": "Alexander Hamilton was born around 1757 in Charlestown on the Caribbean island of Nevis, an illegitimate child who soon lost his mother. Noticed for his talent, he was sent to study in New York, where he joined the revolutionary cause and became George Washington's aide-de-camp during the War of Independence. After the Annapolis Convention of 1786 he represented New York at the 1787 Constitutional Convention, then co-wrote the Federalist essays with Madison and Jay to win ratification of the Constitution. As the first Secretary of the Treasury from 1789 to 1795, he had the federal government take over the states' war debts, created a national bank and laid the groundwork for American public credit. His centralizing vision set him against Thomas Jefferson and gave rise to the Federalist Party. He backed Jay's Treaty with Britain in 1794 and later served as the army's senior officer during the 1799 crisis with France. His attacks on Aaron Burr during the 1800 and 1804 elections led to a duel at Weehawken, New Jersey, in July 1804. Mortally wounded, he died the next day in New York."
+  },
+  "highlights": {
+    "fr": [
+      "Aide de camp de George Washington pendant la guerre d'indépendance",
+      "Délégué de New York à la Convention constitutionnelle de 1787",
+      "Coauteur des essais fédéralistes (1787-1788)",
+      "Premier secrétaire au Trésor des États-Unis (1789-1795)",
+      "Tué en duel par Aaron Burr en juillet 1804"
+    ],
+    "en": [
+      "Aide-de-camp to George Washington during the War of Independence",
+      "New York delegate to the 1787 Constitutional Convention",
+      "Co-author of the Federalist Papers (1787-1788)",
+      "First United States Secretary of the Treasury (1789-1795)",
+      "Killed in a duel by Aaron Burr in July 1804"
+    ]
+  },
+  "legacy": {
+    "fr": "Architecte du système financier fédéral, il incarne une vision d'un État central fort et d'une économie tournée vers le commerce et l'industrie.",
+    "en": "As the architect of the federal financial system, he stands for a strong central government and an economy geared toward commerce and industry."
   }
 }

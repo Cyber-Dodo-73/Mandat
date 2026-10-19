@@ -32,5 +32,29 @@
         "value": "medieval"
       }
     }
+  },
+  "story": {
+    "fr": "Henri naît au Mans en mars 1133, fils de Geoffroy Plantagenêt, comte d'Anjou, et de l'impératrice Mathilde, héritière du trône d'Angleterre. Duc de Normandie dès 1150 et comte d'Anjou l'année suivante, il épouse en mai 1152 Aliénor d'Aquitaine, tout juste séparée du roi de France Louis VII. Par le traité de Wallingford de 1153, le roi Étienne le reconnaît comme héritier, et il est couronné à Westminster en décembre 1154, à la tête d'un ensemble allant de l'Écosse aux Pyrénées. Il fait raser les châteaux bâtis sans autorisation pendant la guerre civile et réorganise la justice royale avec des juges itinérants, des jurys et des procédures écrites qui fondent la common law. Son ami Thomas Becket, nommé archevêque de Cantorbéry en 1162, s'oppose aux Constitutions de Clarendon de 1164 sur les clercs. Le conflit s'achève le 29 décembre 1170, lorsque quatre chevaliers du roi assassinent Becket dans sa cathédrale, ce qui oblige Henri à faire pénitence publique en 1174. En 1171, il débarque en Irlande et y impose sa seigneurie. En 1173-1174, ses fils et Aliénor se soulèvent contre lui avec l'appui de la France ; il les vainc et fait enfermer la reine. Une nouvelle révolte de son fils Richard, allié à Philippe Auguste, le contraint à capituler peu avant sa mort à Chinon en juillet 1189.",
+    "en": "Henry was born in Le Mans in March 1133, the son of Geoffrey Plantagenet, Count of Anjou, and the Empress Matilda, heir to the English throne. Duke of Normandy from 1150 and Count of Anjou the next year, he married Eleanor of Aquitaine in May 1152, just after her marriage to King Louis VII of France was annulled. Under the 1153 Treaty of Wallingford King Stephen recognised him as heir, and he was crowned at Westminster in December 1154, ruling lands from Scotland to the Pyrenees. He had the castles built without licence during the civil war pulled down and reorganised royal justice with travelling judges, juries and written writs that laid the basis of the common law. His friend Thomas Becket, made Archbishop of Canterbury in 1162, resisted the 1164 Constitutions of Clarendon on clergy. The quarrel ended on 29 December 1170, when four of the king's knights murdered Becket in his cathedral, forcing Henry into public penance in 1174. In 1171 he landed in Ireland and imposed his lordship there. In 1173–1174 his sons and Eleanor rebelled with French backing; he defeated them and had the queen confined. A new revolt by his son Richard, allied with Philip Augustus, forced him to give in shortly before his death at Chinon in July 1189."
+  },
+  "highlights": {
+    "fr": [
+      "Premier roi Plantagenêt d'Angleterre, de 1154 à 1189",
+      "Épouse Aliénor d'Aquitaine en 1152",
+      "Réformes judiciaires à l'origine de la common law",
+      "Meurtre de Thomas Becket par ses chevaliers en 1170",
+      "Établit la seigneurie anglaise en Irlande en 1171"
+    ],
+    "en": [
+      "First Plantagenet King of England, 1154–1189",
+      "Married Eleanor of Aquitaine in 1152",
+      "Legal reforms that founded the common law",
+      "Thomas Becket murdered by his knights in 1170",
+      "Established English lordship in Ireland in 1171"
+    ]
+  },
+  "legacy": {
+    "fr": "Ses réformes ont posé les bases du droit anglais et des systèmes juridiques qui en dérivent. Il repose avec Aliénor et leur fils Richard à l'abbaye de Fontevraud.",
+    "en": "His reforms laid the foundations of English law and of the legal systems derived from it. He lies with Eleanor and their son Richard at Fontevraud Abbey."
   }
 }

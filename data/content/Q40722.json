@@ -30,5 +30,29 @@
         "value": "strategy"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Belo Horizonte en 1947, fille d'un immigré bulgare, Dilma Rousseff rejoint à la fin des années 1960 des groupes de lutte armée contre la dictature militaire. Arrêtée en 1970, elle est torturée et passe près de trois ans en prison. Elle étudie ensuite l'économie à Porto Alegre, où elle est secrétaire municipale aux Finances de 1986 à 1988 puis secrétaire d'État à l'Énergie du Rio Grande do Sul. Ralliée au Parti des travailleurs, elle devient en 2003 ministre des Mines et de l'Énergie de Lula, puis sa cheffe de cabinet en 2005. Élue en octobre 2010, elle devient la première femme présidente du Brésil et installe en 2012 une commission de la vérité sur les crimes de la dictature. Confrontée aux grandes manifestations de 2013, elle est réélue de justesse en 2014, alors que l'économie entre en récession et que l'enquête Lava Jato éclabousse son parti. Accusée de manipulations budgétaires, elle est suspendue en mai 2016 puis destituée par le Sénat le 31 août. Elle préside depuis 2023 la Nouvelle banque de développement des BRICS, à Shanghai.",
+    "en": "Born in Belo Horizonte in 1947 to a Bulgarian immigrant father, Dilma Rousseff joined armed groups fighting the military dictatorship in the late 1960s. Arrested in 1970, she was tortured and spent nearly three years in prison. She went on to study economics in Porto Alegre, where she was the city's finance secretary from 1986 to 1988 and later energy secretary of Rio Grande do Sul state. Having joined the Workers' Party, she became Lula's minister of mines and energy in 2003 and his chief of staff in 2005. Elected in October 2010, she became Brazil's first woman president and in 2012 set up a truth commission on the crimes of the dictatorship. Faced with mass protests in 2013, she was narrowly re-elected in 2014 as the economy slid into recession and the Lava Jato investigation engulfed her party. Accused of budget manipulation, she was suspended in May 2016 and removed by the Senate on 31 August. Since 2023 she has headed the BRICS New Development Bank in Shanghai."
+  },
+  "highlights": {
+    "fr": [
+      "1970 : arrêtée et torturée par la dictature militaire",
+      "2005 : devient cheffe de cabinet de Lula",
+      "2010 : première femme élue présidente du Brésil",
+      "2016 : destituée par le Sénat le 31 août",
+      "2023 : prend la tête de la banque des BRICS"
+    ],
+    "en": [
+      "1970: arrested and tortured by the military dictatorship",
+      "2005: becomes Lula's chief of staff",
+      "2010: elected Brazil's first woman president",
+      "2016: removed by the Senate on 31 August",
+      "2023: takes charge of the BRICS bank"
+    ]
+  },
+  "legacy": {
+    "fr": "Pionnière au sommet de l'État brésilien, sa destitution reste vue par ses partisans comme un coup parlementaire et par ses adversaires comme une sanction légitime.",
+    "en": "A trailblazer at the top of the Brazilian state, her removal is still seen by supporters as a parliamentary coup and by opponents as a legitimate sanction."
   }
 }

@@ -32,5 +32,27 @@
         "value": "medieval"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1166 à Oxford, Jean est le plus jeune fils du roi Henri II et d'Aliénor d'Aquitaine ; ne recevant pas de grand fief, il est surnommé « sans Terre ». Fait seigneur d'Irlande, il y mène en 1185 une expédition qui tourne court. Pendant la captivité de son frère Richard Cœur de Lion, il complote avec le roi de France Philippe Auguste pour s'emparer du trône, avant d'être pardonné. À la mort de Richard en 1199, il devient roi, au détriment de son neveu Arthur de Bretagne, qui disparaît en 1203 sous sa garde, probablement assassiné. En 1204, Philippe Auguste lui prend la Normandie, puis l'essentiel de ses terres au nord de la Loire. Sa querelle avec le pape Innocent III sur l'archevêché de Cantorbéry vaut au royaume un interdit en 1208 et à Jean l'excommunication, jusqu'à sa soumission en 1213. La défaite de ses alliés à Bouvines en 1214 ruine ses espoirs de reconquête et pousse les barons à la révolte : le 15 juin 1215, à Runnymede, il doit accepter la Grande Charte, qui limite le pouvoir royal. Il la fait annuler par le pape, ce qui rallume la guerre ; les barons appellent le prince Louis de France, qui débarque en 1216. Jean meurt de dysenterie à Newark en octobre 1216.",
+    "en": "Born in Oxford in 1166, John was the youngest son of King Henry II and Eleanor of Aquitaine; given no great lands of his own, he was nicknamed “Lackland”. Made Lord of Ireland, he led an expedition there in 1185 that quickly failed. While his brother Richard the Lionheart was held captive, he plotted with King Philip Augustus of France to seize the throne, and was later forgiven. On Richard's death in 1199 he became king, ahead of his nephew Arthur of Brittany, who disappeared in his custody in 1203, probably murdered. In 1204 Philip Augustus took Normandy from him, followed by most of his lands north of the Loire. His quarrel with Pope Innocent III over the archbishopric of Canterbury brought an interdict on England in 1208 and excommunication on John until he submitted in 1213. His allies' defeat at Bouvines in 1214 wrecked his hopes of reconquest and drove the barons to revolt: on 15 June 1215 at Runnymede he had to accept Magna Carta, which limited royal power. He had the pope annul it, reigniting the war, and the barons invited Prince Louis of France, who landed in 1216. John died of dysentery at Newark in October 1216."
+  },
+  "highlights": {
+    "fr": [
+      "Roi d'Angleterre de 1199 à 1216",
+      "Perd la Normandie face à Philippe Auguste en 1204",
+      "Excommunié en 1209, se soumet au pape en 1213",
+      "Accepte la Grande Charte à Runnymede le 15 juin 1215"
+    ],
+    "en": [
+      "King of England from 1199 to 1216",
+      "Lost Normandy to Philip Augustus in 1204",
+      "Excommunicated in 1209, submitted to the pope in 1213",
+      "Agreed to Magna Carta at Runnymede on 15 June 1215"
+    ]
+  },
+  "legacy": {
+    "fr": "Considéré comme l'un des pires rois d'Angleterre, il a pourtant laissé, malgré lui, la Grande Charte, devenue un texte fondateur des libertés.",
+    "en": "Considered one of England's worst kings, he nonetheless left behind, despite himself, Magna Carta, which became a founding text of liberty."
   }
 }

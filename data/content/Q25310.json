@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Septième des neuf enfants de Joseph et Rose Kennedy, Robert Francis Kennedy naît en 1925 à Brookline, dans le Massachusetts. Après un passage dans la marine en fin de guerre, il sort diplômé de Harvard en 1948 puis de la faculté de droit de l'université de Virginie en 1951. Juriste pour des commissions du Sénat, il se fait connaître en enquêtant sur la corruption dans les syndicats, notamment celui des camionneurs de Jimmy Hoffa. Il dirige en 1960 la campagne présidentielle victorieuse de son frère John, qui le nomme ministre de la Justice. De 1961 à 1964, il combat le crime organisé, fait protéger par les autorités fédérales les militants des droits civiques et conseille son frère pendant la crise des missiles de Cuba en octobre 1962. Après l'assassinat de John en novembre 1963, il quitte le gouvernement et se fait élire sénateur de New York en 1964. Au Sénat, il dénonce la pauvreté et s'oppose de plus en plus à la guerre du Vietnam. Candidat à l'investiture démocrate en mars 1968, il remporte la primaire de Californie le 4 juin, mais il est abattu peu après minuit dans un hôtel de Los Angeles par Sirhan Sirhan et meurt le 6 juin.",
+    "en": "The seventh of Joseph and Rose Kennedy's nine children, Robert Francis Kennedy was born in 1925 in Brookline, Massachusetts. After a stint in the navy at the end of the war, he graduated from Harvard in 1948 and from the University of Virginia law school in 1951. As counsel to Senate committees he made his name investigating union corruption, notably Jimmy Hoffa's Teamsters. He managed his brother John's winning presidential campaign in 1960 and was then appointed Attorney General. From 1961 to 1964 he went after organised crime, sent federal protection to civil rights activists and advised his brother through the Cuban missile crisis of October 1962. After John was assassinated in November 1963, he left the administration and won a Senate seat for New York in 1964. In the Senate he spoke out against poverty and turned increasingly against the Vietnam War. He entered the race for the Democratic nomination in March 1968 and won the California primary on 4 June, but just after midnight he was shot by Sirhan Sirhan in a Los Angeles hotel and died on 6 June."
+  },
+  "highlights": {
+    "fr": [
+      "Dirige la campagne présidentielle victorieuse de John F. Kennedy en 1960",
+      "Ministre de la Justice des États-Unis de 1961 à 1964",
+      "Conseiller clé pendant la crise des missiles de Cuba en 1962",
+      "Sénateur de New York de 1965 à 1968",
+      "Assassiné à Los Angeles en juin 1968, le soir de sa victoire en Californie"
+    ],
+    "en": [
+      "Ran John F. Kennedy's winning presidential campaign in 1960",
+      "US Attorney General from 1961 to 1964",
+      "Key adviser during the Cuban missile crisis in 1962",
+      "Senator for New York from 1965 to 1968",
+      "Assassinated in Los Angeles in June 1968, on the night he won California"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste le symbole d'une campagne interrompue de 1968 ; il a reçu à titre posthume la médaille d'or du Congrès en 1978 et la médaille présidentielle de la liberté en 2025.",
+    "en": "He remains the symbol of a campaign cut short in 1968; he received the Congressional Gold Medal posthumously in 1978 and the Presidential Medal of Freedom in 2025."
   }
 }

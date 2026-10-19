@@ -32,5 +32,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Narmer règne sur la vallée du Nil vers la fin du IVe millénaire avant notre ère, à une époque où l'écriture commence à peine à fixer les noms des rois. Il est sans doute issu des souverains de Haute-Égypte établis autour de Thinis et d'Hiérakonpolis, qui étendent leur pouvoir vers le nord. Son nom figure sur la célèbre palette retrouvée à Hiérakonpolis à la fin du XIXe siècle : une face le montre coiffé de la couronne blanche du Sud frappant un ennemi, l'autre portant la couronne rouge du Nord et passant en revue des ennemis décapités. Cette image a fait de lui le roi traditionnellement associé à l'unification des Deux Terres, même si ce processus s'est probablement étalé sur plusieurs générations. Des inscriptions à son nom ont été retrouvées dans le delta, en Palestine méridionale et jusque dans le désert oriental, signe d'un pouvoir étendu et de contacts commerciaux. Sa tombe se trouve dans la nécropole royale d'Abydos. Les égyptologues débattent encore de son lien avec Ménès, le fondateur légendaire cité par les sources tardives, et de sa place exacte au début de la Ire dynastie.",
+    "en": "Narmer ruled the Nile valley towards the end of the 4th millennium BC, at a time when writing was only beginning to record the names of kings. He probably came from the line of Upper Egyptian rulers based around Thinis and Hierakonpolis, who were pushing their power northwards. His name appears on the famous palette found at Hierakonpolis in the late 19th century: one side shows him wearing the white crown of the South and striking an enemy, the other shows him in the red crown of the North inspecting rows of beheaded foes. That image made him the king traditionally linked to the unification of the Two Lands, although the process likely spanned several generations. Inscriptions bearing his name have turned up in the Delta, in southern Palestine and in the Eastern Desert, pointing to wide authority and trade contacts. His tomb lies in the royal cemetery at Abydos. Egyptologists still debate whether he should be identified with Menes, the legendary founder named in later sources, and exactly where he stands at the start of the First Dynasty."
+  },
+  "highlights": {
+    "fr": [
+      "Représenté vers 3100 av. J.-C. portant les couronnes de Haute et de Basse-Égypte",
+      "Sa palette, découverte à Hiérakonpolis, est un document majeur de l'unification",
+      "Inscriptions à son nom retrouvées jusqu'en Palestine méridionale",
+      "Inhumé dans la nécropole royale d'Abydos"
+    ],
+    "en": [
+      "Shown around 3100 BC wearing the crowns of both Upper and Lower Egypt",
+      "His palette, found at Hierakonpolis, is a key record of unification",
+      "Inscriptions with his name found as far as southern Palestine",
+      "Buried in the royal cemetery at Abydos"
+    ]
+  },
+  "legacy": {
+    "fr": "Considéré comme le premier roi de l'Égypte unifiée, il marque le seuil de trois millénaires de civilisation pharaonique.",
+    "en": "Regarded as the first king of a unified Egypt, he stands at the threshold of three millennia of pharaonic civilisation."
   }
 }

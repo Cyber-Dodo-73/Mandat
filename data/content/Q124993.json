@@ -32,5 +32,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Leopoldo Galtieri naît en juillet 1926 à Caseros, dans la province de Buenos Aires, et fait carrière dans l’arme du génie. Pendant la dictature instaurée en 1976, il commande le IIe corps d’armée à Rosario, une zone où des centres clandestins de détention fonctionnent dans le cadre de la « guerre sale » contre les opposants. Nommé commandant en chef de l’armée en 1979, il évince le général Roberto Viola et prend la présidence de la junte en décembre 1981. Face à une crise économique profonde et à des manifestations croissantes, il ordonne le 2 avril 1982 l’invasion des îles Malouines, sous administration britannique. Le Royaume-Uni de Margaret Thatcher envoie une force navale, et les troupes argentines capitulent à Port Stanley le 14 juin 1982 ; la guerre fait près de 650 morts argentins et 255 britanniques. Discrédité, Galtieri démissionne quelques jours plus tard, ce qui précipite le retour de la démocratie en 1983. Acquitté des crimes de la répression lors du procès des juntes de 1985, il est condamné en 1986 par la justice militaire pour la conduite de la guerre, puis gracié par Carlos Menem en 1989. Poursuivi de nouveau en 2002 pour des disparitions et placé en résidence surveillée, il meurt à Buenos Aires en janvier 2003.",
+    "en": "Leopoldo Galtieri was born in July 1926 in Caseros, Buenos Aires province, and built his career in the army engineers. Under the dictatorship that began in 1976 he commanded the Second Army Corps in Rosario, an area where clandestine detention centres operated as part of the Dirty War against opponents. Named army commander-in-chief in 1979, he pushed out General Roberto Viola and took over as head of the junta in December 1981. Facing a deep economic crisis and growing protests, he ordered the invasion of the British-administered Falkland Islands on 2 April 1982. Margaret Thatcher's government sent a naval task force, and Argentine troops surrendered at Port Stanley on 14 June 1982; the war killed nearly 650 Argentines and 255 Britons. Discredited, Galtieri resigned days later, hastening the return of democracy in 1983. Acquitted of repression crimes at the 1985 Trial of the Juntas, he was convicted by a military court in 1986 over his handling of the war, then pardoned by Carlos Menem in 1989. Charged again in 2002 over disappearances and placed under house arrest, he died in Buenos Aires in January 2003."
+  },
+  "highlights": {
+    "fr": [
+      "Commande le IIe corps d’armée à Rosario pendant la « guerre sale »",
+      "Prend la tête de la junte militaire en décembre 1981",
+      "Ordonne l’invasion des Malouines le 2 avril 1982",
+      "Démissionne après la capitulation du 14 juin 1982"
+    ],
+    "en": [
+      "Commanded the Second Army Corps in Rosario during the Dirty War",
+      "Became head of the military junta in December 1981",
+      "Ordered the invasion of the Falklands on 2 April 1982",
+      "Resigned after the surrender of 14 June 1982"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa défaite aux Malouines a précipité la chute de la dictature argentine, dont il reste l’un des visages les plus associés à la répression et à l’aventurisme militaire.",
+    "en": "His defeat in the Falklands hastened the fall of Argentina's dictatorship, of which he remains one of the faces most tied to repression and military adventurism."
   }
 }

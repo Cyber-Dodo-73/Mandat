@@ -29,5 +29,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1808 à Raleigh, en Caroline du Nord, dans une famille très pauvre, Andrew Johnson est placé comme apprenti tailleur et n'a jamais fréquenté l'école. Installé à Greeneville, dans le Tennessee, il y ouvre un atelier, apprend à mieux lire et écrire avec son épouse Eliza et devient maire de la ville. Démocrate, il siège à la Chambre des représentants de 1843 à 1853, puis est gouverneur du Tennessee et entre au Sénat en 1857. Lors de la sécession de son État en 1861, il est le seul sénateur sudiste à rester fidèle à l'Union. Abraham Lincoln le nomme en 1862 gouverneur militaire du Tennessee reconquis, puis le choisit comme colistier en 1864. Vice-président depuis seulement six semaines, il devient président le 15 avril 1865, au lendemain de l'assassinat de Lincoln. Sa politique de Reconstruction, indulgente envers les anciens confédérés, multiplie les veto contre les lois protégeant les anciens esclaves et l'oppose au Congrès républicain. Mis en accusation par la Chambre en 1868, il échappe à la destitution à une voix près au Sénat. Après sa présidence, il est réélu sénateur du Tennessee en 1875 et meurt quelques mois plus tard.",
+    "en": "Born in 1808 in Raleigh, North Carolina, into deep poverty, Andrew Johnson was apprenticed to a tailor and never attended school. Settling in Greeneville, Tennessee, he opened a shop, improved his reading and writing with help from his wife Eliza, and became the town's mayor. A Democrat, he sat in the House of Representatives from 1843 to 1853, then served as governor of Tennessee and entered the Senate in 1857. When his state seceded in 1861, he was the only Southern senator to stay loyal to the Union. Abraham Lincoln made him military governor of reconquered Tennessee in 1862 and chose him as running mate in 1864. Only six weeks into his vice presidency, he became president on 15 April 1865, the day after Lincoln's assassination. His lenient Reconstruction policy towards former Confederates, with repeated vetoes of laws protecting freed slaves, set him against the Republican Congress. Impeached by the House in 1868, he escaped removal by a single vote in the Senate. After his presidency he was elected senator for Tennessee again in 1875 and died a few months later."
+  },
+  "highlights": {
+    "fr": [
+      "Seul sénateur sudiste resté fidèle à l'Union en 1861",
+      "Gouverneur militaire du Tennessee de 1862 à 1865",
+      "17e président des États-Unis après l'assassinat de Lincoln en 1865",
+      "Premier président mis en accusation, acquitté à une voix en 1868"
+    ],
+    "en": [
+      "Only Southern senator to stay loyal to the Union in 1861",
+      "Military governor of Tennessee from 1862 to 1865",
+      "17th US president after Lincoln's assassination in 1865",
+      "First president to be impeached, acquitted by one vote in 1868"
+    ]
+  },
+  "legacy": {
+    "fr": "Il est généralement classé parmi les pires présidents américains, pour avoir freiné la protection des anciens esclaves au lendemain de la guerre de Sécession.",
+    "en": "He is usually ranked among the worst US presidents for obstructing protections for freed slaves in the aftermath of the Civil War."
   }
 }

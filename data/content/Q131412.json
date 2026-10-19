@@ -29,5 +29,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Née en décembre 1542 au palais de Linlithgow, Marie Stuart devient reine d'Écosse à l'âge de six jours, à la mort de son père Jacques V. Envoyée en France à cinq ans pour échapper aux pressions anglaises, elle est élevée à la cour d'Henri II et épouse en 1558 le dauphin François. Reine de France à la mort d'Henri II en 1559, elle se retrouve veuve dès décembre 1560 et regagne l'année suivante une Écosse devenue protestante. Elle épouse en 1565 son cousin Lord Darnley, dont elle a un fils, le futur Jacques VI, mais Darnley est assassiné en février 1567 dans des circonstances jamais élucidées. Son mariage rapide avec le comte de Bothwell, soupçonné du meurtre, provoque la révolte des nobles, qui la forcent à abdiquer en juillet 1567 au profit de son fils. Réfugiée en Angleterre en 1568, elle est retenue captive pendant près de dix-neuf ans par sa cousine Élisabeth Ire, qui voit en elle une rivale catholique. Impliquée dans le complot Babington visant à assassiner Élisabeth, elle est condamnée et décapitée au château de Fotheringhay en février 1587.",
+    "en": "Born at Linlithgow Palace in December 1542, Mary Stuart became Queen of Scots at six days old on the death of her father, James V. Sent to France at five to escape English pressure, she was raised at the court of Henry II and married the Dauphin Francis in 1558. Queen of France on Henry II's death in 1559, she was widowed by December 1560 and returned the next year to a Scotland that had turned Protestant. In 1565 she married her cousin Lord Darnley, with whom she had a son, the future James VI, but Darnley was murdered in February 1567 in circumstances never fully solved. Her swift marriage to the Earl of Bothwell, suspected of the killing, provoked a revolt by the nobles, who forced her to abdicate in July 1567 in favour of her son. Fleeing to England in 1568, she was held captive for nearly nineteen years by her cousin Elizabeth I, who saw her as a Catholic rival. Implicated in the Babington plot to assassinate Elizabeth, she was convicted and beheaded at Fotheringhay Castle in February 1587."
+  },
+  "highlights": {
+    "fr": [
+      "Reine d'Écosse à six jours, en décembre 1542",
+      "Reine de France de 1559 à 1560 par son mariage avec François II",
+      "Forcée d'abdiquer en juillet 1567 au profit de son fils",
+      "Captive en Angleterre pendant près de 19 ans",
+      "Décapitée à Fotheringhay en février 1587"
+    ],
+    "en": [
+      "Queen of Scots at six days old, in December 1542",
+      "Queen of France from 1559 to 1560 through her marriage to Francis II",
+      "Forced to abdicate in July 1567 in favour of her son",
+      "Held captive in England for nearly 19 years",
+      "Beheaded at Fotheringhay in February 1587"
+    ]
+  },
+  "legacy": {
+    "fr": "Son fils Jacques réunit en 1603 les couronnes d'Écosse et d'Angleterre, et son destin tragique a inspiré de nombreux écrivains, de Schiller à Stefan Zweig.",
+    "en": "Her son James united the crowns of Scotland and England in 1603, and her tragic fate has inspired many writers, from Schiller to Stefan Zweig."
   }
 }

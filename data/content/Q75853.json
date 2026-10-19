@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1925 à Mercedes, dans la province de Buenos Aires, Jorge Rafael Videla entre au Collège militaire de la Nation et gravit les échelons de l'armée de terre. Nommé commandant en chef en août 1975 par Isabel Perón, il supervise l'Opératif Indépendance contre la guérilla à Tucumán. Le 24 mars 1976, il renverse la présidente avec la marine et l'aviation et prend la tête de la junte du « Processus de réorganisation nationale ». Son régime organise une répression systématique : enlèvements, torture dans des centaines de centres clandestins comme l'ESMA, exécutions et « vols de la mort » où des détenus sont jetés vivants à la mer. La commission CONADEP a documenté près de 9 000 disparus ; les organisations de défense des droits humains en estiment le nombre à 30 000. Des centaines de bébés nés en captivité sont enlevés à leurs mères et confiés à d'autres familles. La junte participe aussi au plan Condor avec les dictatures voisines et accueille la Coupe du monde de 1978. Videla cède la présidence à Roberto Viola en mars 1981. Condamné à la perpétuité lors du procès des juntes en 1985, gracié par Carlos Menem en 1990, il est de nouveau poursuivi après l'annulation des grâces, condamné en 2010 et 2012, et meurt en prison en mai 2013.",
+    "en": "Born in 1925 in Mercedes, Buenos Aires province, Jorge Rafael Videla attended the National Military College and rose through the army ranks. Appointed commander-in-chief by Isabel Perón in August 1975, he oversaw Operation Independence against the guerrillas in Tucumán. On 24 March 1976, together with the navy and air force, he overthrew the president and took charge of the junta's 'National Reorganisation Process'. His regime carried out systematic repression: abductions, torture in hundreds of secret centres such as ESMA, executions and 'death flights' in which prisoners were thrown alive into the sea. The CONADEP commission documented nearly 9,000 disappeared; human rights groups put the number at 30,000. Hundreds of babies born in captivity were taken from their mothers and handed to other families. The junta also took part in Operation Condor with neighbouring dictatorships and hosted the 1978 World Cup. Videla handed the presidency to Roberto Viola in March 1981. Sentenced to life at the 1985 Trial of the Juntas and pardoned by Carlos Menem in 1990, he was prosecuted again once the pardons were struck down, convicted in 2010 and 2012, and died in prison in May 2013."
+  },
+  "highlights": {
+    "fr": [
+      "Renverse Isabel Perón le 24 mars 1976 et dirige la junte jusqu'en 1981",
+      "Sous son régime, près de 9 000 disparus documentés, jusqu'à 30 000 selon les ONG",
+      "Responsable du vol systématique de bébés nés de détenues",
+      "Condamné à la perpétuité au procès des juntes en 1985",
+      "Recondamné en 2010 et 2012, meurt en prison en 2013"
+    ],
+    "en": [
+      "Overthrew Isabel Perón on 24 March 1976 and led the junta until 1981",
+      "Nearly 9,000 disappeared documented under his rule, up to 30,000 per NGOs",
+      "Responsible for the systematic theft of babies born to prisoners",
+      "Sentenced to life at the 1985 Trial of the Juntas",
+      "Convicted again in 2010 and 2012, died in prison in 2013"
+    ]
+  },
+  "legacy": {
+    "fr": "Symbole de la dictature et des disparitions forcées, il a été l'un des rares chefs d'État latino-américains jugés et condamnés par la justice de leur propre pays.",
+    "en": "The emblem of the dictatorship and its forced disappearances, he was one of the few Latin American heads of state tried and convicted by his own country's courts."
   }
 }

@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Jacinda Ardern naît le 26 juillet 1980 à Hamilton, en Nouvelle-Zélande, et grandit dans de petites villes rurales comme Morrinsville, dans une famille mormone dont elle s'éloignera. Diplômée en communication de l'université de Waikato en 2001, elle travaille pour la Première ministre Helen Clark, puis au cabinet du gouvernement britannique à Londres. Élue au Parlement sur la liste travailliste en 2008, elle devient vice-présidente du parti début 2017, puis en prend la tête le 1er août, à sept semaines des élections. Elle forme en octobre 2017 une coalition avec les Verts et NZ First et devient, à 37 ans, la plus jeune cheffe de gouvernement du pays depuis plus d'un siècle. En 2018, elle accouche en cours de mandat, une première pour une dirigeante élue depuis Benazir Bhutto. Après l'attentat contre deux mosquées de Christchurch, qui fait 51 morts le 15 mars 2019, elle fait interdire en quelques semaines la plupart des armes semi-automatiques. Sa stratégie d'élimination du Covid-19, fondée sur la fermeture des frontières, lui vaut en 2020 une majorité absolue, inédite depuis l'adoption du scrutin proportionnel. Épuisée, elle démissionne en janvier 2023 et quitte le Parlement en avril.",
+    "en": "Jacinda Ardern was born on 26 July 1980 in Hamilton, New Zealand, and grew up in small rural towns such as Morrinsville, in a Mormon family whose church she later left. After a communications degree from the University of Waikato in 2001, she worked for Prime Minister Helen Clark and then in the British Cabinet Office in London. Elected to Parliament on Labour's list in 2008, she became deputy leader in early 2017 and took over the party on 1 August, just seven weeks before the election. In October 2017 she formed a coalition with the Greens and NZ First, becoming at 37 the country's youngest head of government in more than a century. In 2018 she gave birth while in office, the first elected leader to do so since Benazir Bhutto. After the attack on two Christchurch mosques that killed 51 people on 15 March 2019, she had most semi-automatic weapons banned within weeks. Her Covid-19 elimination strategy, built on closed borders, earned Labour an outright majority in 2020, the first under proportional representation. Citing exhaustion, she resigned in January 2023 and left Parliament that April."
+  },
+  "highlights": {
+    "fr": [
+      "Octobre 2017 : Première ministre à 37 ans à la tête d'une coalition",
+      "Juin 2018 : donne naissance à sa fille en cours de mandat",
+      "2019 : interdit les armes semi-automatiques après l'attentat de Christchurch",
+      "2020 : majorité absolue, une première depuis le scrutin proportionnel",
+      "Janvier 2023 : démissionne de son poste de Première ministre"
+    ],
+    "en": [
+      "October 2017: became prime minister at 37, leading a coalition",
+      "June 2018: gave birth to her daughter while in office",
+      "2019: banned semi-automatic weapons after the Christchurch attack",
+      "2020: won an outright majority, a first under proportional representation",
+      "January 2023: resigned as prime minister"
+    ]
+  },
+  "legacy": {
+    "fr": "Ardern reste associée à une politique de l'empathie et à sa réponse rapide aux crises, saluée à l'étranger, plus discutée chez elle.",
+    "en": "Ardern remains linked to a politics of empathy and swift crisis response, widely praised abroad and more debated at home."
   }
 }

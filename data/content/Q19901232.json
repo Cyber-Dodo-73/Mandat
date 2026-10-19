@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Droupadi Murmu naît en 1958 dans le village d'Uparbeda, dans le district de Mayurbhanj, en Odisha, au sein de la communauté tribale santal. Diplômée d'un collège pour femmes de Bhubaneswar, elle travaille comme employée au département de l'irrigation de l'État, puis comme enseignante à Rairangpur. Entrée au BJP, elle est élue conseillère municipale de Rairangpur en 1997, puis députée à l'Assemblée de l'Odisha en 2000 et en 2004. Dans le gouvernement de coalition de Naveen Patnaik, elle est ministre du Commerce et des Transports, puis de la Pêche et de l'Élevage. Entre 2009 et 2014, elle perd son mari et ses deux fils, des drames qu'elle a évoqués publiquement. En 2015, elle devient la première femme gouverneure du Jharkhand, où elle renvoie en 2017 un projet de loi modifiant les lois foncières qui protègent les terres tribales. Candidate de la coalition au pouvoir en 2022, elle est élue présidente de l'Inde avec près de 64 % des voix du collège électoral et prête serment le 25 juillet. Première présidente issue d'une communauté adivasi et première née après l'indépendance, elle promulgue en 2023 la loi réservant un tiers des sièges parlementaires aux femmes.",
+    "en": "Droupadi Murmu was born in 1958 in the village of Uparbeda, Mayurbhanj district, Odisha, into the Santal tribal community. After graduating from a women's college in Bhubaneswar, she worked as a clerk in the state irrigation department and then as a teacher in Rairangpur. Joining the BJP, she was elected a Rairangpur town councillor in 1997 and then to the Odisha assembly in 2000 and 2004. In Naveen Patnaik's coalition government she served as minister for commerce and transport, and later for fisheries and animal husbandry. Between 2009 and 2014 she lost her husband and both her sons, tragedies she has spoken about publicly. In 2015 she became Jharkhand's first female governor, and in 2017 she sent back a bill amending the land laws that protect tribal holdings. Chosen by the ruling coalition in 2022, she was elected President of India with nearly 64% of the electoral college vote and sworn in on 25 July. The first president from an Adivasi community and the first born after independence, she signed into law in 2023 the act reserving a third of parliamentary seats for women."
+  },
+  "highlights": {
+    "fr": [
+      "Députée de Rairangpur à l'Assemblée de l'Odisha dès 2000",
+      "Première femme gouverneure du Jharkhand, de 2015 à 2021",
+      "Élue présidente de l'Inde en juillet 2022",
+      "Première présidente issue d'une communauté adivasi",
+      "Promulgue en 2023 la loi réservant un tiers des sièges aux femmes"
+    ],
+    "en": [
+      "Member of the Odisha assembly for Rairangpur from 2000",
+      "First female Governor of Jharkhand, 2015–2021",
+      "Elected President of India in July 2022",
+      "First president from an Adivasi community",
+      "Signed the 2023 law reserving a third of seats for women"
+    ]
+  },
+  "legacy": {
+    "fr": "Son élection a fait entrer pour la première fois une femme issue des peuples tribaux à la tête de l'État indien.",
+    "en": "Her election put a woman from India's tribal peoples at the head of the state for the first time."
   }
 }

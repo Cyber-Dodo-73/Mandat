@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1935 dans une famille modeste d'agriculteurs, José Mujica milite jeune au Parti national avant de rejoindre dans les années 1960 la guérilla urbaine des Tupamaros. Blessé de six balles lors d'une fusillade en 1970, il participe en 1971 à l'évasion massive de la prison de Punta Carretas, avant d'être repris. Sous la dictature, il est l'un des « otages » de l'armée, détenu pendant de longues années à l'isolement dans des conditions très dures, jusqu'à l'amnistie de 1985. Il fonde ensuite le Mouvement de participation populaire au sein du Frente Amplio, puis devient député en 1995 et sénateur en 2000. Ministre de l'Élevage, de l'Agriculture et de la Pêche de 2005 à 2008, il remporte la présidentielle de 2009. Président de 2010 à 2015, il fait légaliser en 2013 le mariage homosexuel et la production et la vente de cannabis sous contrôle de l'État, une première mondiale. Il continue de vivre dans sa petite ferme avec son épouse Lucía Topolansky et reverse l'essentiel de son salaire. Redevenu sénateur, il se retire en 2020 et meurt à Montevideo en mai 2025, atteint d'un cancer.",
+    "en": "Born in 1935 into a modest farming family, José Mujica was active in the National Party as a young man before joining the Tupamaros urban guerrillas in the 1960s. Shot six times in a gunfight in 1970, he took part in the mass breakout from Punta Carretas prison in 1971 before being recaptured. Under the dictatorship he was one of the army's 'hostages', held for years in solitary confinement under very harsh conditions until the 1985 amnesty. He went on to found the Movement of Popular Participation within the Broad Front and became a deputy in 1995 and a senator in 2000. Minister of livestock, agriculture and fisheries from 2005 to 2008, he won the presidential election of 2009. As president from 2010 to 2015 he legalised same-sex marriage in 2013 and, in a world first, state-regulated production and sale of cannabis. He kept living on his small farm with his wife Lucía Topolansky and gave away most of his salary. Back in the Senate, he retired in 2020 and died of cancer in Montevideo in May 2025."
+  },
+  "highlights": {
+    "fr": [
+      "1971 : participe à l'évasion massive de Punta Carretas",
+      "1985 : libéré par l'amnistie après des années d'isolement",
+      "2010 : devient président de l'Uruguay",
+      "2013 : légalise le cannabis, une première mondiale",
+      "2013 : fait adopter le mariage homosexuel"
+    ],
+    "en": [
+      "1971: takes part in the mass breakout from Punta Carretas",
+      "1985: freed by the amnesty after years of isolation",
+      "2010: becomes president of Uruguay",
+      "2013: legalises cannabis, a world first",
+      "2013: has same-sex marriage passed"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé « le président le plus pauvre du monde », il reste un symbole d'austérité personnelle et d'une gauche pragmatique en Amérique latine.",
+    "en": "Dubbed 'the world's poorest president', he remains a symbol of personal frugality and of a pragmatic Latin American left."
   }
 }

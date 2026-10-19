@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Bola Ahmed Tinubu naît en 1952 à Lagos, au Nigeria, selon sa biographie officielle, dont certains détails ont été contestés par ses adversaires. Parti étudier aux États-Unis, il obtient un diplôme de comptabilité à la Chicago State University et travaille pour des cabinets d'audit, puis pour la filiale nigériane de Mobil. Il entre en politique au début des années 1990 et est élu sénateur de Lagos-Ouest en 1992, peu avant que le coup d'État de Sani Abacha ne dissolve les institutions. Engagé dans le mouvement pro-démocratie NADECO, il s'exile pendant plusieurs années. Au retour du régime civil, il est élu gouverneur de l'État de Lagos en 1999, puis réélu en 2003 ; il y réforme la fiscalité locale et bâtit un réseau politique durable. Surnommé le « faiseur de rois », il est l'un des principaux artisans de la coalition APC formée en 2013, qui porte Muhammadu Buhari au pouvoir en 2015. En 2023, il remporte lui-même une présidentielle contestée devant les tribunaux par ses rivaux. Dès son investiture, le 29 mai 2023, il supprime la subvention aux carburants et laisse flotter le naira, ce qui fait flamber les prix et provoque des manifestations contre la vie chère en 2024.",
+    "en": "Bola Ahmed Tinubu was born in 1952 in Lagos, Nigeria, according to his official biography, parts of which his opponents have disputed. He studied accounting at Chicago State University in the United States and worked for audit firms and then for Mobil's Nigerian subsidiary. Entering politics in the early 1990s, he was elected senator for Lagos West in 1992, shortly before Sani Abacha's coup dissolved the institutions. Active in the pro-democracy NADECO movement, he spent several years in exile. When civilian rule returned he was elected governor of Lagos State in 1999 and re-elected in 2003, overhauling local revenue collection and building a lasting political network. Dubbed the kingmaker, he was one of the main architects of the APC coalition formed in 2013, which carried Muhammadu Buhari to power in 2015. In 2023 he won the presidency himself in an election his rivals challenged in court. On taking office on 29 May 2023 he scrapped the fuel subsidy and let the naira float, sending prices soaring and sparking cost-of-living protests in 2024."
+  },
+  "highlights": {
+    "fr": [
+      "Élu sénateur de Lagos-Ouest en 1992, avant le coup d'État d'Abacha",
+      "Gouverneur de l'État de Lagos de 1999 à 2007",
+      "Cofondateur de la coalition APC en 2013",
+      "Président du Nigeria depuis le 29 mai 2023",
+      "Supprime la subvention aux carburants dès son investiture"
+    ],
+    "en": [
+      "Elected senator for Lagos West in 1992, before Abacha's coup",
+      "Governor of Lagos State from 1999 to 2007",
+      "Co-founder of the APC coalition in 2013",
+      "President of Nigeria since 29 May 2023",
+      "Scrapped the fuel subsidy on his first day in office"
+    ]
+  },
+  "legacy": {
+    "fr": "Stratège qui a remodelé la politique nigériane, il voit son action jugée sur des réformes économiques de choc aux effets sociaux douloureux.",
+    "en": "A strategist who reshaped Nigerian politics, he is judged on shock economic reforms with painful social effects."
   }
 }

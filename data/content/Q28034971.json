@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1991 à Kampala, en Ouganda, Zohran Kwame Mamdani est le fils de la cinéaste Mira Nair et de l'universitaire Mahmood Mamdani. Après quelques années au Cap, sa famille s'installe à New York lorsqu'il a sept ans. Il étudie au Bowdoin College, dans le Maine, dont il sort diplômé en 2014, et devient citoyen américain en 2018. Il travaille ensuite comme conseiller en logement, aidant des propriétaires modestes du Queens menacés de saisie. Membre des Socialistes démocrates d'Amérique, il est élu en 2020 à l'Assemblée de l'État de New York pour une circonscription d'Astoria et y siège de 2021 à 2025. En octobre 2024, il se lance dans la course à la mairie avec un programme centré sur le coût de la vie : gel des loyers encadrés, bus gratuits, garde d'enfants universelle et épiceries municipales. En juin 2025, il bat l'ancien gouverneur Andrew Cuomo à la primaire démocrate, puis remporte l'élection générale de novembre. Investi le 1er janvier 2026, il devient le premier maire musulman et le premier maire d'origine sud-asiatique de la ville, ainsi que l'un des plus jeunes de son histoire.",
+    "en": "Born in 1991 in Kampala, Uganda, Zohran Kwame Mamdani is the son of the filmmaker Mira Nair and the scholar Mahmood Mamdani. After a few years in Cape Town, his family settled in New York when he was seven. He studied at Bowdoin College in Maine, graduating in 2014, and became a US citizen in 2018. He then worked as a foreclosure-prevention housing counsellor for low-income homeowners in Queens. A member of the Democratic Socialists of America, he was elected to the New York State Assembly in 2020 for a district in Astoria and served there from 2021 to 2025. In October 2024 he launched a run for mayor focused on the cost of living: a rent freeze on rent-stabilized apartments, free buses, universal childcare and city-owned grocery stores. In June 2025 he defeated former governor Andrew Cuomo in the Democratic primary, and he went on to win the general election in November. Sworn in on 1 January 2026, he became the city's first Muslim mayor and first mayor of South Asian descent, as well as one of the youngest in its history."
+  },
+  "highlights": {
+    "fr": [
+      "Élu à l'Assemblée de l'État de New York en 2020",
+      "Bat Andrew Cuomo à la primaire démocrate de juin 2025",
+      "Remporte l'élection municipale de New York en novembre 2025",
+      "Premier maire musulman de New York, en fonctions depuis janvier 2026"
+    ],
+    "en": [
+      "Elected to the New York State Assembly in 2020",
+      "Beat Andrew Cuomo in the June 2025 Democratic primary",
+      "Won the New York City mayoral election in November 2025",
+      "New York's first Muslim mayor, in office since January 2026"
+    ]
+  },
+  "legacy": {
+    "fr": "Au début de son mandat, il incarne l'essor d'une gauche socialiste démocrate dans les grandes villes américaines.",
+    "en": "Early in his term, he embodies the rise of a democratic socialist left in America's big cities."
   }
 }

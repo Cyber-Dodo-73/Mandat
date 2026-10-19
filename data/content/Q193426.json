@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Née Anne Frances Robbins en 1921 à Manhattan, elle prend le nom de Davis après son adoption par son beau-père, un neurochirurgien de Chicago. Diplômée du Smith College, elle devient actrice et tourne une dizaine de films sous le nom de Nancy Davis. En 1952, elle épouse Ronald Reagan, alors président du syndicat des acteurs, et met sa carrière en retrait. Première dame de Californie de 1967 à 1975, elle entre à la Maison-Blanche en 1981, d'abord critiquée pour ses dépenses de décoration et de vaisselle. Après la tentative d'assassinat contre son mari en mars 1981, elle veille de près à son agenda, consultant même une astrologue, ce qui est révélé en 1988. Elle lance la campagne antidrogue « Just Say No » et pèse sur le départ de plusieurs collaborateurs, dont le chef de cabinet Donald Regan en 1987. Après l'annonce de la maladie d'Alzheimer de Ronald Reagan en 1994, elle s'occupe de lui jusqu'à sa mort en 2004 et défend la recherche sur les cellules souches. Elle meurt à Los Angeles en mars 2016.",
+    "en": "Born Anne Frances Robbins in Manhattan in 1921, she took the name Davis after being adopted by her stepfather, a Chicago neurosurgeon. A Smith College graduate, she became an actress and made about a dozen films as Nancy Davis. In 1952 she married Ronald Reagan, then head of the Screen Actors Guild, and stepped back from acting. First Lady of California from 1967 to 1975, she moved into the White House in 1981 and was at first criticised for spending on redecoration and china. After the attempt on her husband's life in March 1981 she kept a close watch on his schedule, even consulting an astrologer, which came to light in 1988. She led the 'Just Say No' anti-drug campaign and helped push out several aides, including chief of staff Donald Regan in 1987. After Ronald Reagan's Alzheimer's disease was announced in 1994 she cared for him until his death in 2004 and championed stem-cell research. She died in Los Angeles in March 2016."
+  },
+  "highlights": {
+    "fr": [
+      "1952 : épouse Ronald Reagan et quitte le cinéma",
+      "1981 : devient première dame des États-Unis",
+      "1982 : lance la campagne antidrogue « Just Say No »",
+      "2002 : reçoit la médaille présidentielle de la Liberté"
+    ],
+    "en": [
+      "1952: marries Ronald Reagan and leaves the screen",
+      "1981: becomes First Lady of the United States",
+      "1982: launches the 'Just Say No' anti-drug campaign",
+      "2002: receives the Presidential Medal of Freedom"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle reste l'image d'une première dame très influente en coulisses, gardienne de l'image de son mari et de sa mémoire.",
+    "en": "She is remembered as a First Lady of great behind-the-scenes influence, guardian of her husband's image and memory."
   }
 }

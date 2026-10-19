@@ -33,5 +33,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Caracas en 1969, Delcy Rodríguez est la fille de Jorge Antonio Rodríguez, dirigeant de la gauche révolutionnaire mort en détention en 1976 après avoir été torturé, un drame qui marque durablement son engagement. Avocate diplômée de l'Université centrale du Venezuela, elle rejoint l'appareil chaviste et dirige en 2006 le ministère du Cabinet de la présidence sous Hugo Chávez. Après l'arrivée de Nicolás Maduro, elle devient ministre de la Communication en 2013, puis ministre des Affaires étrangères de 2014 à 2017, période où elle défend le gouvernement face aux critiques régionales et engage le retrait du pays de l'Organisation des États américains. En 2017, elle préside l'Assemblée constituante créée pour contourner le Parlement contrôlé par l'opposition. Nommée vice-présidente en juin 2018, elle cumule ensuite les Finances, de 2020 à 2024, puis les Hydrocarbures, ce qui fait d'elle la gestionnaire centrale de l'économie et du pétrole, tandis que son frère Jorge dirige l'Assemblée nationale. Elle est visée par des sanctions américaines et européennes. Après la capture de Maduro par les États-Unis au début de janvier 2026, elle devient présidente du Venezuela le 5 janvier 2026.",
+    "en": "Born in Caracas in 1969, Delcy Rodríguez is the daughter of Jorge Antonio Rodríguez, a revolutionary left-wing leader who died in custody in 1976 after being tortured, a loss that shaped her political commitment. A law graduate of the Central University of Venezuela, she joined the Chavista apparatus and in 2006 ran the ministry for the Office of the Presidency under Hugo Chávez. Once Nicolás Maduro took over, she became communications minister in 2013 and then foreign minister from 2014 to 2017, defending the government against regional criticism and starting the country's withdrawal from the Organization of American States. In 2017 she presided over the Constituent Assembly set up to bypass the opposition-controlled parliament. Appointed vice president in June 2018, she later also took charge of finance, from 2020 to 2024, and then of hydrocarbons, making her the key manager of the economy and the oil sector, while her brother Jorge led the National Assembly. She has been targeted by US and EU sanctions. After the United States captured Maduro in early January 2026, she became President of Venezuela on 5 January 2026."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre des Affaires étrangères du Venezuela de 2014 à 2017",
+      "Préside l'Assemblée nationale constituante à partir de 2017",
+      "Vice-présidente de Nicolás Maduro de 2018 à 2026",
+      "Cumule les Finances (2020-2024) puis les Hydrocarbures",
+      "Devient présidente du Venezuela le 5 janvier 2026"
+    ],
+    "en": [
+      "Foreign minister of Venezuela from 2014 to 2017",
+      "Presided over the National Constituent Assembly from 2017",
+      "Vice president to Nicolás Maduro from 2018 to 2026",
+      "Also held finance (2020–2024) and then hydrocarbons",
+      "Became President of Venezuela on 5 January 2026"
+    ]
+  },
+  "legacy": {
+    "fr": "Longtemps pilier du chavisme, elle se retrouve à la tête de l'État dans une transition sans précédent, dont l'issue reste ouverte.",
+    "en": "Long a pillar of Chavismo, she now heads the state in an unprecedented transition whose outcome remains open."
   }
 }

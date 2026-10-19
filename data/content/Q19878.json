@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1942 sous une tente bédouine près de Syrte, Mouammar Kadhafi entre à l'académie militaire de Benghazi, admirateur du nationalisme arabe de Nasser. Le 1er septembre 1969, à 27 ans, il renverse le roi Idris lors d'un coup d'État sans effusion de sang et prend la tête du pays, dont il est aussi Premier ministre de 1970 à 1972. Il nationalise le pétrole, expulse les bases étrangères et expose dans son Livre vert une « troisième théorie universelle », avant de proclamer en 1977 la Jamahiriya, un prétendu pouvoir des masses qui masque un régime personnel. Les opposants sont pourchassés jusqu'à l'étranger, pendus en public ou tués en détention, comme lors du massacre de la prison d'Abou Salim en 1996, où environ 1 200 détenus sont abattus. Son régime soutient des groupes armés et est tenu responsable des attentats contre le vol Pan Am au-dessus de Lockerbie en 1988, qui fait 270 morts, et contre le vol UTA 772 en 1989, qui en fait 170. Sous sanctions, il renonce en 2003 aux armes de destruction massive et renoue avec l'Occident. En 2011, il réprime violemment le soulèvement populaire, ce qui provoque une intervention de l'OTAN, et il est capturé et tué près de Syrte le 20 octobre 2011.",
+    "en": "Born in 1942 in a Bedouin tent near Sirte, Muammar Gaddafi entered the military academy in Benghazi as an admirer of Nasser's Arab nationalism. On 1 September 1969, aged 27, he overthrew King Idris in a bloodless coup and took charge of the country, also serving as prime minister from 1970 to 1972. He nationalised oil, expelled foreign bases and set out a Third Universal Theory in his Green Book, before proclaiming in 1977 the Jamahiriya, a supposed rule of the masses that masked one-man rule. Opponents were hunted down abroad, hanged in public or killed in custody, as in the 1996 Abu Salim prison massacre, where some 1,200 inmates were shot. His regime backed armed groups and was held responsible for the bombings of Pan Am flight 103 over Lockerbie in 1988, which killed 270, and of UTA flight 772 in 1989, which killed 170. Under sanctions, he gave up weapons of mass destruction in 2003 and mended ties with the West. In 2011 he violently crushed a popular uprising, prompting NATO intervention, and he was captured and killed near Sirte on 20 October 2011."
+  },
+  "highlights": {
+    "fr": [
+      "Renverse le roi Idris lors du coup d'État du 1er septembre 1969",
+      "Proclame la Jamahiriya en 1977 et règne 42 ans sur la Libye",
+      "Son régime est tenu responsable de l'attentat de Lockerbie (270 morts) en 1988",
+      "Fait abattre environ 1 200 détenus à la prison d'Abou Salim en 1996",
+      "Renonce aux armes de destruction massive en 2003"
+    ],
+    "en": [
+      "Overthrew King Idris in the coup of 1 September 1969",
+      "Proclaimed the Jamahiriya in 1977 and ruled Libya for 42 years",
+      "His regime was held responsible for the 1988 Lockerbie bombing (270 dead)",
+      "Had some 1,200 inmates shot at Abu Salim prison in 1996",
+      "Gave up weapons of mass destruction in 2003"
+    ]
+  },
+  "legacy": {
+    "fr": "Son long règne personnel, marqué par la terreur et le terrorisme d'État, a laissé une Libye sans institutions, plongée dans la guerre civile après sa chute.",
+    "en": "His long personal rule, marked by terror and state terrorism, left Libya without institutions and mired in civil war after his fall."
   }
 }

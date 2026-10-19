@@ -32,5 +32,29 @@
         "value": "strategy"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1937 à Harlem de parents immigrés jamaïcains, Colin Powell grandit dans le Bronx et découvre l'armée par le corps de formation des officiers du City College de New York. Officier d'infanterie, il sert deux fois au Vietnam et y est blessé. Devenu conseiller adjoint à la sécurité nationale de Ronald Reagan en 1986, il est promu conseiller en titre en 1987. En 1989, George H. W. Bush en fait le plus jeune et le premier chef d'état-major interarmées noir. À ce poste, il supervise l'invasion du Panama en 1989 puis la guerre du Golfe de 1991, défendant l'usage d'une force écrasante et d'objectifs clairs. Retraité en 1993 et très populaire, il renonce à briguer la présidence en 1995. Premier secrétaire d'État afro-américain en 2001, il présente le 5 février 2003 devant le Conseil de sécurité de l'ONU des preuves d'armes de destruction massive en Irak, qui se révéleront fausses. Il quitte le gouvernement en 2005, soutient Barack Obama en 2008 et meurt en octobre 2021 de complications du Covid-19.",
+    "en": "Born in Harlem in 1937 to Jamaican immigrant parents, Colin Powell grew up in the Bronx and found his way into the army through the officer training corps at City College of New York. An infantry officer, he served two tours in Vietnam and was wounded there. Ronald Reagan's deputy national security adviser from 1986, he was promoted to adviser in 1987. In 1989 George H. W. Bush made him the youngest and first Black chairman of the Joint Chiefs of Staff. In that role he oversaw the invasion of Panama in 1989 and the Gulf War of 1991, arguing for overwhelming force and clear objectives. He retired in 1993 with huge popularity and decided against a presidential run in 1995. The first African American Secretary of State from 2001, he presented evidence of Iraqi weapons of mass destruction to the UN Security Council on 5 February 2003, evidence that proved false. He left government in 2005, endorsed Barack Obama in 2008 and died in October 2021 from complications of Covid-19."
+  },
+  "highlights": {
+    "fr": [
+      "1987 : conseiller à la sécurité nationale de Reagan",
+      "1989 : premier chef d'état-major interarmées noir",
+      "1991 : dirige militairement la guerre du Golfe",
+      "2001 : premier secrétaire d'État afro-américain",
+      "2003 : présente à l'ONU des preuves erronées sur l'Irak"
+    ],
+    "en": [
+      "1987: Reagan's national security adviser",
+      "1989: first Black chairman of the Joint Chiefs of Staff",
+      "1991: military leader of the Gulf War",
+      "2001: first African American Secretary of State",
+      "2003: presents faulty Iraq evidence to the UN"
+    ]
+  },
+  "legacy": {
+    "fr": "Pionnier pour les Afro-Américains au sommet de l'État, il a lui-même regretté son exposé de 2003 à l'ONU, tache durable sur sa carrière.",
+    "en": "A trailblazer for African Americans at the top of government, he himself regretted his 2003 UN presentation, a lasting stain on his record."
   }
 }

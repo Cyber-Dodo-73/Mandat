@@ -32,5 +32,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1925 dans le Sankuru, au Congo belge, Patrice Lumumba travaille comme employé des postes puis comme représentant commercial à Léopoldville. En 1958, il cofonde le Mouvement national congolais, premier parti à vocation nationale plutôt qu'ethnique, et assiste à la conférence panafricaine d'Accra. Arrêté après des émeutes en 1959, il est libéré pour participer à la table ronde de Bruxelles qui fixe l'indépendance. Son parti remporte les élections de mai 1960 et il devient Premier ministre le 30 juin, jour où son discours dénonce publiquement les humiliations de la colonisation devant le roi Baudouin. Quelques jours plus tard, l'armée se mutine et le Katanga fait sécession avec l'appui d'intérêts belges. Faute d'aide suffisante de l'ONU, il se tourne vers l'Union soviétique, ce qui inquiète Washington. Destitué en septembre par le président Kasa-Vubu, puis arrêté sur ordre du colonel Mobutu, il est livré aux autorités katangaises. Il est fusillé le 17 janvier 1961 près d'Élisabethville, l'actuelle Lubumbashi, avec la complicité d'officiers belges.",
+    "en": "Born in 1925 in Sankuru, in the Belgian Congo, Patrice Lumumba worked as a postal clerk and then as a beer salesman in Léopoldville. In 1958 he co-founded the Congolese National Movement, the first party with a national rather than ethnic base, and attended the All-African Peoples' Conference in Accra. Arrested after riots in 1959, he was released to join the Brussels round table that set the date for independence. His party won the May 1960 elections and he became prime minister on 30 June, the day his speech openly denounced colonial humiliation in front of King Baudouin. Within days the army mutinied and Katanga broke away with backing from Belgian interests. Finding UN help insufficient, he turned to the Soviet Union, which alarmed Washington. Dismissed in September by President Kasa-Vubu and then arrested on the orders of Colonel Mobutu, he was handed over to the Katangan authorities. He was shot by firing squad on 17 January 1961 near Élisabethville, now Lubumbashi, with Belgian officers involved."
+  },
+  "highlights": {
+    "fr": [
+      "1958 : cofonde le Mouvement national congolais",
+      "30 juin 1960 : premier chef de gouvernement du Congo indépendant",
+      "1960 : discours d'indépendance contre la domination coloniale",
+      "17 janvier 1961 : exécuté au Katanga à 35 ans"
+    ],
+    "en": [
+      "1958: co-founds the Congolese National Movement",
+      "30 June 1960: first head of government of independent Congo",
+      "1960: delivers an independence speech condemning colonial rule",
+      "17 January 1961: executed in Katanga aged 35"
+    ]
+  },
+  "legacy": {
+    "fr": "Martyr de l'indépendance africaine, il symbolise les espoirs brisés de la décolonisation ; la Belgique a reconnu en 2002 sa responsabilité morale dans sa mort.",
+    "en": "A martyr of African independence, he symbolises the broken hopes of decolonisation; Belgium acknowledged its moral responsibility for his death in 2002."
   }
 }

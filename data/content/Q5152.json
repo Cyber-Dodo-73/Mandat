@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Mustafa naît en 1881 à Salonique, alors ottomane, et suit la filière des écoles militaires, de Monastir à l'Académie militaire d'Istanbul, dont il sort officier d'état-major en 1905. Proche des Jeunes-Turcs, il combat en Libye contre l'Italie puis dans les guerres balkaniques. En 1915, il s'illustre à Gallipoli en tenant les hauteurs face au débarquement allié, ce qui lui vaut des décorations ottomanes et allemandes. Après la défaite de 1918 et l'occupation d'une partie de l'Anatolie, il débarque à Samsun en mai 1919 et organise la résistance nationale ; à Ankara, la Grande Assemblée nationale le place en 1920 à la tête de son gouvernement. Ses troupes repoussent les Grecs en 1922, et le traité de Lausanne de 1923 reconnaît la nouvelle Turquie. Proclamé premier président de la République le 29 octobre 1923, il abolit le califat en 1924, impose le Code civil, l'alphabet latin en 1928 et le droit de vote des femmes en 1934, dans un régime à parti unique qui réprime durement les révoltes kurdes. En 1934, le Parlement lui donne le nom d'Atatürk. Il meurt au palais de Dolmabahçe à Istanbul le 10 novembre 1938.",
+    "en": "Mustafa was born in 1881 in Ottoman Salonica and went through military schools from Monastir to the Istanbul War Academy, graduating as a staff officer in 1905. Close to the Young Turks, he fought the Italians in Libya and then in the Balkan Wars. In 1915 he made his name at Gallipoli, holding the heights against the Allied landings and earning Ottoman and German decorations. After the 1918 defeat and the occupation of parts of Anatolia, he landed at Samsun in May 1919 and organised national resistance; in 1920 the Grand National Assembly in Ankara put him at the head of its government. His forces drove back the Greek army in 1922, and the 1923 Treaty of Lausanne recognised the new Turkey. Proclaimed the first president of the republic on 29 October 1923, he abolished the caliphate in 1924, imposed a secular civil code, the Latin alphabet in 1928 and women's suffrage in 1934, within a one-party state that harshly crushed Kurdish revolts. In 1934 parliament gave him the surname Atatürk. He died at Dolmabahçe Palace in Istanbul on 10 November 1938."
+  },
+  "highlights": {
+    "fr": [
+      "Repousse le débarquement allié à Gallipoli en 1915",
+      "Mène la guerre d'indépendance turque (1919-1922)",
+      "Proclame la République turque le 29 octobre 1923",
+      "Abolit le califat en 1924 et adopte l'alphabet latin en 1928",
+      "Accorde le droit de vote aux femmes en 1934"
+    ],
+    "en": [
+      "Held back the Allied landings at Gallipoli in 1915",
+      "Led the Turkish War of Independence (1919-1922)",
+      "Proclaimed the Republic of Turkey on 29 October 1923",
+      "Abolished the caliphate in 1924, adopted the Latin alphabet in 1928",
+      "Gave women the vote in 1934"
+    ]
+  },
+  "legacy": {
+    "fr": "Fondateur de la Turquie moderne et laïque, il fait toujours l'objet d'un culte officiel, même si son héritage laïc est aujourd'hui contesté dans le pays.",
+    "en": "Founder of modern secular Turkey, he remains the object of an official cult, even as his secular legacy is now contested at home."
   }
 }

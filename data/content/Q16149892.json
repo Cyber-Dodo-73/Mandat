@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Luis Arce naît en septembre 1963 à La Paz, étudie l’économie en Bolivie puis à l’université de Warwick, en Angleterre, et fait l’essentiel de sa carrière à la Banque centrale de Bolivie. En janvier 2006, Evo Morales en fait son ministre de l’Économie, poste qu’il occupe plus de onze ans. Il pilote la nationalisation des hydrocarbures et une politique de redistribution qui, portée par le boom des matières premières, s’accompagne d’une forte croissance et d’un net recul de la pauvreté. Il quitte le gouvernement en 2017 pour soigner un cancer, revient brièvement en 2019, puis s’exile après la chute de Morales en novembre de la même année. Candidat du Mouvement vers le socialisme, il remporte la présidentielle d’octobre 2020 dès le premier tour, avec environ 55 % des voix. Son mandat est miné par une rivalité ouverte avec Morales, qui divise le parti, par l’épuisement des réserves de devises et par des pénuries de carburant. Le 26 juin 2024, il fait face à une tentative de coup d’État du général Juan José Zúñiga, dont les blindés encerclent le palais présidentiel avant de se retirer. Renonçant à se représenter, il transmet le pouvoir en novembre 2025 à Rodrigo Paz.",
+    "en": "Luis Arce was born in September 1963 in La Paz, studied economics in Bolivia and at the University of Warwick in England, and spent most of his career at Bolivia's central bank. In January 2006 Evo Morales made him economy minister, a post he held for more than eleven years. He oversaw the nationalisation of hydrocarbons and a redistributive policy that, buoyed by the commodity boom, brought strong growth and a sharp fall in poverty. He left the government in 2017 for cancer treatment, came back briefly in 2019, then went into exile after Morales fell that November. Running for the Movement for Socialism, he won the October 2020 presidential election outright with about 55% of the vote. His term was undermined by an open feud with Morales that split the party, by dwindling foreign-currency reserves and by fuel shortages. On 26 June 2024 he faced a coup attempt by General Juan José Zúñiga, whose armoured vehicles surrounded the presidential palace before pulling back. Choosing not to run again, he handed power to Rodrigo Paz in November 2025."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre de l’Économie de Bolivie de 2006 à 2017",
+      "Pilote la nationalisation des hydrocarbures de 2006",
+      "Élu président dès le premier tour en octobre 2020",
+      "Déjoue la tentative de coup d’État du 26 juin 2024",
+      "Transmet le pouvoir à Rodrigo Paz en novembre 2025"
+    ],
+    "en": [
+      "Bolivia's economy minister from 2006 to 2017",
+      "Oversaw the 2006 nationalisation of hydrocarbons",
+      "Elected president in the first round in October 2020",
+      "Faced down the coup attempt of 26 June 2024",
+      "Handed power to Rodrigo Paz in November 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Architecte du « miracle économique » bolivien des années Morales, il a présidé à son essoufflement et à l’éclatement du Mouvement vers le socialisme.",
+    "en": "The architect of Bolivia's economic boom under Morales, he presided over its exhaustion and the break-up of the Movement for Socialism."
   }
 }

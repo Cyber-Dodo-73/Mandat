@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1882 à Hyde Park, dans l'État de New York, dans une riche famille, Franklin Delano Roosevelt étudie à Groton, à Harvard puis le droit à Columbia, et épouse sa lointaine cousine Eleanor en 1905. Élu au Sénat de l'État de New York en 1910, il devient secrétaire adjoint à la Marine de 1913 à 1920 et candidat malheureux à la vice-présidence en 1920. En 1921, la poliomyélite lui fait perdre l'usage de ses jambes, un handicap qu'il dissimule autant que possible au public. Gouverneur de New York à partir de 1929, il remporte la présidentielle de 1932 en pleine Grande Dépression. Dès 1933, il lance le New Deal : réforme bancaire, grands travaux, aide aux chômeurs, puis sécurité sociale en 1935, en s'adressant au pays par ses causeries radiophoniques. Seul président élu quatre fois, il soutient le Royaume-Uni par le prêt-bail puis entre en guerre après l'attaque japonaise de Pearl Harbor le 7 décembre 1941. Après avoir négocié avec Churchill et Staline à Téhéran et à Yalta, il meurt d'une hémorragie cérébrale à Warm Springs, en Géorgie, en avril 1945, quelques semaines avant la victoire en Europe.",
+    "en": "Born into a wealthy family in Hyde Park, New York, in 1882, Franklin Delano Roosevelt attended Groton, Harvard and Columbia Law School, and married his distant cousin Eleanor in 1905. Elected to the New York State Senate in 1910, he was assistant secretary of the Navy from 1913 to 1920 and an unsuccessful vice-presidential candidate in 1920. In 1921 polio left him unable to use his legs, a disability he hid from the public as far as he could. Governor of New York from 1929, he won the 1932 presidential election in the depths of the Great Depression. From 1933 he launched the New Deal, with banking reform, public works, unemployment relief and then Social Security in 1935, speaking to the nation through his radio fireside chats. The only president elected four times, he backed Britain through Lend-Lease and took the country to war after Japan's attack on Pearl Harbor on 7 December 1941. After negotiating with Churchill and Stalin at Tehran and Yalta, he died of a cerebral haemorrhage at Warm Springs, Georgia, in April 1945, weeks before victory in Europe."
+  },
+  "highlights": {
+    "fr": [
+      "Secrétaire adjoint à la Marine de 1913 à 1920",
+      "Élu président en 1932 en pleine Grande Dépression",
+      "Lance le New Deal en 1933 et crée la sécurité sociale en 1935",
+      "Seul président américain élu quatre fois (1932-1944)",
+      "Engage les États-Unis dans la Seconde Guerre mondiale en décembre 1941"
+    ],
+    "en": [
+      "Assistant secretary of the Navy from 1913 to 1920",
+      "Elected president in 1932 in the depths of the Great Depression",
+      "Launched the New Deal in 1933 and created Social Security in 1935",
+      "The only US president elected four times (1932–1944)",
+      "Took the United States into the Second World War in December 1941"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a jeté les bases de l'État-providence américain et de l'ordre international d'après-guerre, dont l'Organisation des Nations unies.",
+    "en": "He laid the foundations of the American welfare state and of the post-war international order, including the United Nations."
   }
 }

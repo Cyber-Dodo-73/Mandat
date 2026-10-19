@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Clement Attlee naît en 1883 à Putney, dans le sud-ouest de Londres, fils d'un avocat aisé, et étudie l'histoire à Oxford avant de devenir avocat. Le travail social dans les quartiers pauvres de l'East End le convertit au socialisme, et il adhère au Parti travailliste indépendant en 1908. Pendant la Première Guerre mondiale, il combat à Gallipoli, en Mésopotamie, où il est blessé, puis sur le front occidental. Maire de Stepney en 1919, il est élu député de Limehouse en 1922 et devient ministre en 1930. Rescapé de la débâcle travailliste de 1931, il prend la tête du parti en 1935. En mai 1940, il refuse de servir sous Neville Chamberlain et entre dans la coalition de Winston Churchill, dont il devient vice-Premier ministre en 1942. En juillet 1945, les travaillistes remportent une victoire écrasante et il devient Premier ministre. Son gouvernement nationalise la Banque d'Angleterre, le charbon, les chemins de fer, l'électricité et l'acier, crée la sécurité sociale et lance le Service national de santé le 5 juillet 1948. Il accorde l'indépendance à l'Inde et au Pakistan en août 1947, dans une partition accompagnée de violences massives, puis à la Birmanie et à Ceylan, et engage le pays dans l'OTAN en 1949. Battu en 1951, il quitte la direction du parti en 1955, est fait comte et meurt à Londres en octobre 1967.",
+    "en": "Clement Attlee was born in 1883 in Putney, south-west London, the son of a prosperous solicitor, and read history at Oxford before becoming a barrister. Social work in the slums of the East End converted him to socialism, and he joined the Independent Labour Party in 1908. In the First World War he fought at Gallipoli, in Mesopotamia, where he was wounded, and on the Western Front. Mayor of Stepney in 1919, he was elected MP for Limehouse in 1922 and became a minister in 1930. Surviving Labour's rout of 1931, he took over the party in 1935. In May 1940 he refused to serve under Neville Chamberlain and joined Winston Churchill's coalition, becoming deputy prime minister in 1942. In July 1945 Labour won a landslide and he became prime minister. His government nationalised the Bank of England, coal, the railways, electricity and steel, built a social security system and launched the National Health Service on 5 July 1948. He granted independence to India and Pakistan in August 1947, a partition marked by mass violence, then to Burma and Ceylon, and took Britain into NATO in 1949. Defeated in 1951, he stepped down as party leader in 1955, was made an earl and died in London in October 1967."
+  },
+  "highlights": {
+    "fr": [
+      "Chef du Parti travailliste de 1935 à 1955",
+      "Vice-Premier ministre de Churchill de 1942 à 1945",
+      "Victoire écrasante aux élections de juillet 1945",
+      "Création du Service national de santé le 5 juillet 1948",
+      "Indépendance de l'Inde et du Pakistan en août 1947"
+    ],
+    "en": [
+      "Leader of the Labour Party from 1935 to 1955",
+      "Churchill's deputy prime minister from 1942 to 1945",
+      "Landslide election victory in July 1945",
+      "Launched the National Health Service on 5 July 1948",
+      "Independence for India and Pakistan in August 1947"
+    ]
+  },
+  "legacy": {
+    "fr": "Le Service national de santé et l'État-providence bâtis par son gouvernement ont façonné le Royaume-Uni pendant des décennies, et ils restent au cœur du débat politique.",
+    "en": "The National Health Service and welfare state his government built shaped Britain for decades and remain at the heart of its politics."
   }
 }

@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1949 à Yako, en Haute-Volta, Thomas Sankara suit une formation d'officier à Madagascar, où il assiste au soulèvement populaire de 1972, puis un stage de parachutiste en France. Il se fait remarquer pendant le conflit frontalier avec le Mali en 1974. Nommé secrétaire d'État à l'Information en 1981, il démissionne avec éclat l'année suivante. Premier ministre en janvier 1983, il est arrêté en mai, avant que son ami Blaise Compaoré ne le porte au pouvoir par un coup d'État le 4 août. En 1984, il rebaptise le pays Burkina Faso, « pays des hommes intègres ». Il lance une campagne de vaccination de plus de deux millions d'enfants, des programmes d'alphabétisation et de reboisement, et combat l'excision et les mariages forcés. Son régime s'appuie toutefois sur des comités de défense de la révolution et des tribunaux populaires, et réprime syndicats et opposants. Le 15 octobre 1987, il est assassiné à Ouagadougou avec douze compagnons lors du coup d'État qui porte Compaoré au pouvoir ; celui-ci est condamné par contumace pour ce meurtre en 2022.",
+    "en": "Born in Yako, Upper Volta, in 1949, Thomas Sankara trained as an officer in Madagascar, where he witnessed the popular uprising of 1972, and as a paratrooper in France. He made his name during the border conflict with Mali in 1974. Appointed secretary of state for information in 1981, he resigned in protest the following year. Made prime minister in January 1983, he was arrested in May before his friend Blaise Compaoré brought him to power in a coup on 4 August. In 1984 he renamed the country Burkina Faso, 'land of upright people'. He launched a campaign that vaccinated more than two million children, literacy and tree-planting drives, and fought female genital mutilation and forced marriage. His regime, however, relied on revolutionary defence committees and people's tribunals, and cracked down on unions and opponents. On 15 October 1987 he was killed in Ouagadougou with twelve companions in the coup that brought Compaoré to power; Compaoré was convicted in absentia of the murder in 2022."
+  },
+  "highlights": {
+    "fr": [
+      "4 août 1983 : prend le pouvoir à 33 ans",
+      "1984 : rebaptise la Haute-Volta Burkina Faso",
+      "1984 : fait vacciner plus de deux millions d'enfants",
+      "Combat l'excision et les mariages forcés",
+      "15 octobre 1987 : assassiné lors du coup d'État de Compaoré"
+    ],
+    "en": [
+      "4 August 1983: takes power aged 33",
+      "1984: renames Upper Volta as Burkina Faso",
+      "1984: has more than two million children vaccinated",
+      "Fights female genital mutilation and forced marriage",
+      "15 October 1987: killed in Compaoré's coup"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé le « Che africain », il reste une icône de la jeunesse panafricaine, dont le procès de 2022 a enfin établi les responsabilités dans sa mort.",
+    "en": "Nicknamed 'Africa's Che Guevara', he remains an icon for pan-African youth, and the 2022 trial finally established who was responsible for his death."
   }
 }

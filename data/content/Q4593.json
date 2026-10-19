@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Bombay en 1944, Rajiv Gandhi est le fils aîné d'Indira Gandhi et le petit-fils de Jawaharlal Nehru. Il étudie à Cambridge puis à Londres sans obtenir de diplôme, devient pilote de ligne pour Indian Airlines et épouse en 1968 l'Italienne Sonia Maino. Longtemps tenu à l'écart de la politique, il y entre après la mort accidentelle de son frère Sanjay en 1980 et est élu député d'Amethi en 1981. Le 31 octobre 1984, après l'assassinat de sa mère par ses gardes du corps sikhs, il prête serment comme Premier ministre à 40 ans, le plus jeune de l'histoire du pays, tandis que des émeutes antisikhes font des milliers de morts, surtout à Delhi. Il remporte en décembre 1984 la plus large victoire électorale du Congrès et s'attache à moderniser l'Inde par l'informatique, les télécommunications et une première libéralisation économique. Son mandat est aussi marqué par la catastrophe de Bhopal en décembre 1984, l'accord indo-sri-lankais de 1987 et l'envoi d'une force de paix contre les Tigres tamouls. Éclaboussé par le scandale de corruption Bofors, il perd les élections de 1989 et devient chef de l'opposition. Le 21 mai 1991, en pleine campagne, il est tué par une kamikaze des Tigres tamouls à Sriperumbudur, près de Madras.",
+    "en": "Born in Bombay in 1944, Rajiv Gandhi was the elder son of Indira Gandhi and the grandson of Jawaharlal Nehru. He studied at Cambridge and in London without taking a degree, became a pilot for Indian Airlines and in 1968 married an Italian, Sonia Maino. Long uninterested in politics, he entered it after his brother Sanjay died in a plane crash in 1980 and won the Amethi seat in 1981. On 31 October 1984, after his mother was assassinated by her Sikh bodyguards, he was sworn in as prime minister at 40, India's youngest ever, while anti-Sikh riots killed thousands, mostly in Delhi. In December 1984 he led Congress to its biggest-ever election win and set about modernising India through computing, telecommunications and a first round of economic liberalisation. His term also saw the Bhopal gas disaster in December 1984, the 1987 Indo-Sri Lankan accord and the dispatch of a peacekeeping force against the Tamil Tigers. Tarnished by the Bofors arms-deal scandal, he lost the 1989 election and became leader of the opposition. On 21 May 1991, while campaigning, he was killed by a Tamil Tiger suicide bomber at Sriperumbudur near Madras."
+  },
+  "highlights": {
+    "fr": [
+      "Devient Premier ministre à 40 ans, le 31 octobre 1984",
+      "Remporte en décembre 1984 la plus large victoire électorale du Congrès",
+      "Lance la modernisation informatique et télécom de l'Inde",
+      "Signe en 1987 l'accord indo-sri-lankais",
+      "Assassiné par les Tigres tamouls le 21 mai 1991"
+    ],
+    "en": [
+      "Became prime minister at 40 on 31 October 1984",
+      "Led Congress to its largest-ever election win in December 1984",
+      "Launched India's push into computers and telecoms",
+      "Signed the Indo-Sri Lankan accord in 1987",
+      "Assassinated by the Tamil Tigers on 21 May 1991"
+    ]
+  },
+  "legacy": {
+    "fr": "Il est crédité d'avoir préparé l'Inde à l'ère numérique, mais son mandat reste terni par les massacres de 1984, l'affaire Bofors et l'échec de l'intervention à Sri Lanka.",
+    "en": "He is credited with preparing India for the digital age, though his record is clouded by the 1984 massacres, the Bofors affair and the failed Sri Lanka intervention."
   }
 }

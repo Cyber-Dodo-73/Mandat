@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Bhimrao Ramji Ambedkar naît en 1891 à Mhow, dans l'actuel Madhya Pradesh, dans une famille mahar, une caste traitée en « intouchable ». Malgré les humiliations subies à l'école, il obtient une bourse et part étudier à l'université Columbia de New York, puis à la London School of Economics et au barreau de Londres. De retour en Inde, il organise les castes opprimées : en 1927, il conduit la marche pour l'accès au réservoir de Mahad et brûle publiquement le Manusmriti. Il s'oppose à Gandhi sur la représentation des intouchables, conflit réglé par le pacte de Poona de 1932. Élu à l'Assemblée constituante en 1946, il devient en 1947 ministre de la Justice du premier gouvernement de l'Inde indépendante et préside le comité de rédaction de la Constitution, adoptée en 1949 et qui abolit l'intouchabilité. Il démissionne en 1951 après le blocage de sa réforme du droit de la famille hindou. Membre de la Rajya Sabha à partir de 1952, il se convertit au bouddhisme à Nagpur en octobre 1956 avec des centaines de milliers de partisans, et meurt à Delhi en décembre de la même année.",
+    "en": "Bhimrao Ramji Ambedkar was born in 1891 in Mhow, in present-day Madhya Pradesh, into a Mahar family, a caste treated as untouchable. Despite humiliations at school, he won a scholarship to Columbia University in New York and later studied at the London School of Economics and qualified as a barrister in London. Back in India he organised the oppressed castes, leading the 1927 march for access to the Mahad water tank and publicly burning the Manusmriti. He clashed with Gandhi over separate representation for untouchables, a dispute settled by the 1932 Poona Pact. Elected to the Constituent Assembly in 1946, he became independent India's first law minister in 1947 and chaired the committee that drafted the Constitution, adopted in 1949, which abolished untouchability. He resigned in 1951 when his reform of Hindu family law was stalled. A member of the Rajya Sabha from 1952, he converted to Buddhism in Nagpur in October 1956 alongside hundreds of thousands of followers, and died in Delhi that December."
+  },
+  "highlights": {
+    "fr": [
+      "Mène en 1927 la marche de Mahad pour l'accès des intouchables à l'eau",
+      "Premier ministre de la Justice de l'Inde indépendante (1947-1951)",
+      "Préside le comité de rédaction de la Constitution indienne",
+      "Se convertit au bouddhisme avec des centaines de milliers de fidèles en 1956"
+    ],
+    "en": [
+      "Led the 1927 Mahad march for untouchables' access to water",
+      "First law minister of independent India (1947-1951)",
+      "Chaired the drafting committee of India's Constitution",
+      "Converted to Buddhism with hundreds of thousands of followers in 1956"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé Babasaheb, il est vénéré comme le père de la Constitution indienne et le grand émancipateur des dalits, dont il reste le symbole politique.",
+    "en": "Known as Babasaheb, he is revered as the father of India's Constitution and the great emancipator of the Dalits, for whom he remains a political emblem."
   }
 }

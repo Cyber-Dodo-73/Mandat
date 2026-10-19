@@ -32,5 +32,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Sayyid Qutb naît en octobre 1906 dans le village de Musha, en Haute-Égypte, étudie à Dar al-Ulum au Caire et fait d’abord carrière comme fonctionnaire de l’Instruction publique, poète et critique littéraire. Envoyé aux États-Unis de 1948 à 1950 pour étudier les systèmes éducatifs, notamment à Greeley dans le Colorado, il en revient profondément hostile à ce qu’il perçoit comme le matérialisme et la permissivité de l’Occident. Il rejoint les Frères musulmans au début des années 1950 et dirige leur propagande. D’abord proche des Officiers libres, il est arrêté après la tentative d’assassinat contre Nasser en 1954 et condamné à quinze ans de travaux forcés. En prison, il rédige son commentaire du Coran, « À l’ombre du Coran », et « Jalons sur la route », publié en 1964, où il décrit les sociétés musulmanes de son temps comme retombées dans l’ignorance préislamique et appelle une avant-garde à renverser les régimes impies. Libéré en 1964, il est de nouveau arrêté l’année suivante, accusé de complot contre l’État. Condamné à mort, il est pendu au Caire le 29 août 1966.",
+    "en": "Sayyid Qutb was born in October 1906 in the village of Musha in Upper Egypt, studied at Dar al-Ulum in Cairo and first worked as an education ministry official, poet and literary critic. Sent to the United States from 1948 to 1950 to study its schools, including in Greeley, Colorado, he came back deeply hostile to what he saw as Western materialism and permissiveness. He joined the Muslim Brotherhood in the early 1950s and ran its propaganda work. Initially close to the Free Officers, he was arrested after the 1954 attempt on Nasser's life and sentenced to fifteen years of hard labour. In prison he wrote his Quran commentary, In the Shade of the Quran, and Milestones, published in 1964, which branded the Muslim societies of his day as having lapsed into pre-Islamic ignorance and called on a vanguard to overthrow ungodly rulers. Released in 1964, he was arrested again the following year and accused of plotting against the state. Sentenced to death, he was hanged in Cairo on 29 August 1966."
+  },
+  "highlights": {
+    "fr": [
+      "Séjourne aux États-Unis de 1948 à 1950",
+      "Dirige la propagande des Frères musulmans au début des années 1950",
+      "Publie « Jalons sur la route » en 1964",
+      "Pendu au Caire le 29 août 1966"
+    ],
+    "en": [
+      "Lived in the United States from 1948 to 1950",
+      "Headed Muslim Brotherhood propaganda in the early 1950s",
+      "Published Milestones in 1964",
+      "Hanged in Cairo on 29 August 1966"
+    ]
+  },
+  "legacy": {
+    "fr": "Ses écrits sont devenus une référence majeure de l’islamisme radical, invoqués par de nombreux groupes jihadistes, dont Al-Qaïda, pour justifier la violence contre les gouvernements.",
+    "en": "His writings became a cornerstone of radical Islamism, invoked by many jihadist groups, including al-Qaeda, to justify violence against governments."
   }
 }

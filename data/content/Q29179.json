@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1892 à Ferrol, en Galice, Francisco Franco sort de l'académie d'infanterie de Tolède en 1910 et se forge une réputation dans la guerre du Rif au Maroc. Devenu en 1926 le plus jeune général d'Europe, il dirige l'Académie générale militaire de Saragosse de 1928 à 1931. Chef d'état-major en 1935, il réprime l'insurrection des Asturies en 1934, puis est éloigné aux Canaries par le gouvernement du Front populaire. En juillet 1936, il rejoint le soulèvement militaire contre la République et, à l'automne, ses pairs le proclament chef de l'État. Aidé par Hitler et Mussolini, il remporte la guerre civile en avril 1939, au prix de centaines de milliers de morts. La répression qui suit fait des dizaines de milliers d'exécutions, remplit prisons et camps de travail et pousse un demi-million de personnes à l'exil. Neutre pendant la Seconde Guerre mondiale malgré l'envoi de la Division bleue en URSS, son régime se rapproche des États-Unis en 1953 et connaît un essor économique dans les années 1960. Il désigne Juan Carlos comme successeur en 1969 et meurt à Madrid en novembre 1975.",
+    "en": "Born in Ferrol, Galicia, in 1892, Francisco Franco graduated from the Toledo Infantry Academy in 1910 and made his name in the Rif War in Morocco. Made Europe's youngest general in 1926, he ran the General Military Academy in Zaragoza from 1928 to 1931. He crushed the Asturias uprising in 1934, became army chief of staff in 1935 and was then posted to the Canary Islands by the Popular Front government. In July 1936 he joined the military rising against the Republic, and that autumn fellow generals named him head of state. Backed by Hitler and Mussolini, he won the civil war in April 1939, a conflict that killed hundreds of thousands. The repression that followed brought tens of thousands of executions, packed prisons and labour camps, and drove some half a million people into exile. Officially neutral in the Second World War, though he sent the Blue Division to fight the USSR, his regime aligned with the United States in 1953 and saw rapid growth in the 1960s. He named Juan Carlos as his successor in 1969 and died in Madrid in November 1975."
+  },
+  "highlights": {
+    "fr": [
+      "1926 : plus jeune général d'Europe, à 33 ans",
+      "1936 : rejoint le soulèvement militaire et devient chef de l'État nationaliste",
+      "1939 : remporte la guerre civile avec l'aide de l'Allemagne et de l'Italie",
+      "Après-guerre : des dizaines de milliers d'opposants exécutés",
+      "1969 : désigne Juan Carlos comme successeur"
+    ],
+    "en": [
+      "1926: Europe's youngest general, at 33",
+      "1936: joined the military rising and became Nationalist head of state",
+      "1939: won the civil war with German and Italian help",
+      "Post-war: tens of thousands of opponents executed",
+      "1969: named Juan Carlos as his successor"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa dictature de près de quarante ans pèse encore sur la mémoire espagnole ; ses restes ont été retirés du Valle de los Caídos en 2019.",
+    "en": "His near forty-year dictatorship still weighs on Spanish memory; his remains were removed from the Valley of the Fallen in 2019."
   }
 }

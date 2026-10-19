@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1879 à Anenecuilco, dans l'État de Morelos, Emiliano Zapata est issu d'une famille de petits paysans métis et travaille comme agriculteur et dresseur de chevaux. Les grandes plantations de canne à sucre s'emparent alors des terres des villages. En 1909, les habitants d'Anenecuilco le choisissent pour défendre leurs titres de propriété. Il rejoint la révolution de Francisco Madero en 1911 à la tête de paysans du Sud, mais rompt avec lui quand celui-ci tarde à rendre les terres. En novembre 1911, il proclame le plan d'Ayala, qui exige la restitution des terres usurpées et l'expropriation d'une partie des grands domaines. Il combat ensuite le dictateur Victoriano Huerta, puis s'oppose à Venustiano Carranza et entre à Mexico avec Pancho Villa en décembre 1914. En 1915, il applique une réforme agraire dans le Morelos qu'il contrôle, avant que les troupes carrancistes ne ravagent la région. Le 10 avril 1919, il est attiré dans un piège à l'hacienda de Chinameca et abattu par des soldats du colonel Jesús Guajardo.",
+    "en": "Born in Anenecuilco, in the state of Morelos, in 1879, Emiliano Zapata came from a family of small mestizo farmers and worked the land and trained horses. At the time, big sugar plantations were swallowing up village land. In 1909 the people of Anenecuilco chose him to defend their land titles. He joined Francisco Madero's revolution in 1911 at the head of peasants from the south, but broke with him when Madero was slow to return the land. In November 1911 he issued the Plan of Ayala, which demanded the return of stolen land and the expropriation of part of the great estates. He then fought the dictator Victoriano Huerta, opposed Venustiano Carranza and entered Mexico City with Pancho Villa in December 1914. In 1915 he carried out land reform in the Morelos he controlled, before Carranza's troops laid waste to the region. On 10 April 1919 he was lured into a trap at the Chinameca hacienda and shot dead by soldiers of Colonel Jesús Guajardo."
+  },
+  "highlights": {
+    "fr": [
+      "1909 : élu pour défendre les terres de son village",
+      "1911 : proclame le plan d'Ayala",
+      "1914 : entre dans Mexico avec Pancho Villa",
+      "1915 : redistribue les terres dans le Morelos",
+      "1919 : assassiné dans une embuscade à Chinameca"
+    ],
+    "en": [
+      "1909: chosen to defend his village's land",
+      "1911: issues the Plan of Ayala",
+      "1914: enters Mexico City with Pancho Villa",
+      "1915: redistributes land in Morelos",
+      "1919: killed in an ambush at Chinameca"
+    ]
+  },
+  "legacy": {
+    "fr": "Symbole de la lutte paysanne pour la terre, il a inspiré la réforme agraire mexicaine et, bien plus tard, le mouvement zapatiste du Chiapas.",
+    "en": "A symbol of the peasant struggle for land, he inspired Mexico's land reform and, much later, the Zapatista movement in Chiapas."
   }
 }

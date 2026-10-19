@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1808 dans le comté de Christian, au Kentucky, Jefferson Davis grandit au Mississippi et sort de West Point en 1828. Après quelques années sur la frontière, il quitte l'armée et devient planteur à Brierfield, sur un domaine exploité par des dizaines d'esclaves. Élu à la Chambre en 1845, il démissionne pour commander un régiment du Mississippi pendant la guerre contre le Mexique, où il est blessé à Buena Vista en 1847. Sénateur de 1847 à 1851, défenseur ardent de l'esclavage et des droits des États, il devient secrétaire à la Guerre de Franklin Pierce de 1853 à 1857. Revenu au Sénat, il le quitte en janvier 1861 quand le Mississippi fait sécession. En février, il est choisi comme président des États confédérés, formés pour préserver l'esclavage, et dirige leur effort de guerre pendant quatre ans de conflit qui font plus de 600 000 morts. Capturé en Géorgie en mai 1865, il est détenu deux ans à Fort Monroe sans jamais être jugé. Il passe ses dernières années à défendre la cause confédérée et meurt à La Nouvelle-Orléans en 1889.",
+    "en": "Born in Christian County, Kentucky, in 1808, Jefferson Davis grew up in Mississippi and graduated from West Point in 1828. After some years on the frontier he left the army and became a planter at Brierfield, an estate worked by dozens of enslaved people. Elected to the House in 1845, he resigned to lead a Mississippi regiment in the war with Mexico and was wounded at Buena Vista in 1847. A senator from 1847 to 1851 and a fierce defender of slavery and states' rights, he served as Franklin Pierce's Secretary of War from 1853 to 1857. Back in the Senate, he left it in January 1861 when Mississippi seceded. In February he was chosen president of the Confederate States, formed to preserve slavery, and led their war effort through four years of conflict that killed more than 600,000 people. Captured in Georgia in May 1865, he was held for two years at Fort Monroe and never brought to trial. He spent his last years defending the Confederate cause and died in New Orleans in 1889."
+  },
+  "highlights": {
+    "fr": [
+      "1847 : blessé à Buena Vista pendant la guerre du Mexique",
+      "1853 : secrétaire à la Guerre de Franklin Pierce",
+      "1861 : président des États confédérés esclavagistes",
+      "1865 : capturé en Géorgie et emprisonné deux ans"
+    ],
+    "en": [
+      "1847: wounded at Buena Vista in the Mexican War",
+      "1853: Franklin Pierce's Secretary of War",
+      "1861: president of the slaveholding Confederate States",
+      "1865: captured in Georgia and imprisoned for two years"
+    ]
+  },
+  "legacy": {
+    "fr": "Chef d'une rébellion menée pour défendre l'esclavage, il a vu nombre de ses statues retirées des espaces publics au XXIe siècle.",
+    "en": "Leader of a rebellion fought to defend slavery, he has seen many of his statues removed from public spaces in the 21st century."
   }
 }

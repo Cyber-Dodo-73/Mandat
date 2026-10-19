@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1976 à Beshasha, dans l'ouest de l'Éthiopie, d'un père oromo musulman et d'une mère amhara chrétienne, Abiy Ahmed rejoint adolescent la lutte armée contre le régime du Derg. Il fait carrière dans l'armée comme spécialiste des transmissions, sert dans une mission de l'ONU au Rwanda en 1995, puis cofonde en 2008 l'agence nationale de cybersécurité. Élu député en 2010, il devient brièvement ministre des Sciences et Technologies. En avril 2018, après des années de manifestations, la coalition au pouvoir le nomme Premier ministre. Il libère des milliers de prisonniers politiques, autorise le retour des exilés et, en juillet 2018, signe la paix avec l'Érythrée, mettant fin à vingt ans de conflit gelé ; il reçoit pour cela le prix Nobel de la paix en 2019. Il fusionne ensuite la coalition en un Parti de la prospérité, dont le Front de libération du peuple du Tigré refuse de faire partie. En novembre 2020, après une attaque du FLPT contre une base fédérale, il lance une offensive au Tigré, soutenu par l'armée érythréenne. La guerre, marquée par des massacres, des viols et un blocus provoquant la famine, fait plusieurs centaines de milliers de morts avant l'accord de Pretoria de novembre 2022. D'autres conflits armés persistent en régions amhara et oromo.",
+    "en": "Born in 1976 in Beshasha, western Ethiopia, to a Muslim Oromo father and a Christian Amhara mother, Abiy Ahmed joined the armed struggle against the Derg regime as a teenager. He rose through the army as a signals specialist, served with a UN mission in Rwanda in 1995 and in 2008 co-founded the national cyber-security agency. Elected to parliament in 2010, he briefly served as minister of science and technology. In April 2018, after years of protests, the ruling coalition made him prime minister. He freed thousands of political prisoners, invited exiles home and in July 2018 made peace with Eritrea, ending a twenty-year frozen conflict, for which he won the 2019 Nobel Peace Prize. He then merged the coalition into a single Prosperity Party, which the Tigray People's Liberation Front refused to join. In November 2020, after a TPLF attack on a federal base, he launched an offensive in Tigray with the support of Eritrean troops. The war, marked by massacres, mass rape and a blockade that caused famine, killed several hundred thousand people before the Pretoria agreement of November 2022. Other armed conflicts continue in the Amhara and Oromo regions."
+  },
+  "highlights": {
+    "fr": [
+      "Devient Premier ministre de l'Éthiopie en avril 2018",
+      "Signe la paix avec l'Érythrée en juillet 2018",
+      "Prix Nobel de la paix en 2019",
+      "Accepte l'accord de Pretoria qui met fin à la guerre du Tigré en 2022"
+    ],
+    "en": [
+      "Became prime minister of Ethiopia in April 2018",
+      "Made peace with Eritrea in July 2018",
+      "Won the Nobel Peace Prize in 2019",
+      "Signed up to the 2022 Pretoria agreement ending the Tigray war"
+    ]
+  },
+  "legacy": {
+    "fr": "Passé en quelques années de lauréat du Nobel à chef de guerre, il incarne les espoirs déçus de l'ouverture éthiopienne de 2018.",
+    "en": "Going from Nobel laureate to wartime leader within a few years, he embodies the dashed hopes of Ethiopia's 2018 opening."
   }
 }

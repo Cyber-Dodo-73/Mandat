@@ -32,5 +32,27 @@
         "value": "influence"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Paris en 1808, Charles-Louis Napoléon Bonaparte est le neveu de Napoléon Ier et grandit en exil, en Suisse et en Bavière, après la chute de l'Empire. Se posant en héritier de la dynastie, il tente deux coups de force ratés, à Strasbourg en 1836 puis à Boulogne en 1840, ce qui lui vaut la prison au fort de Ham, d'où il s'évade en 1846. Revenu en France après la révolution de 1848, il est élu en décembre premier président de la République au suffrage universel masculin, avec près des trois quarts des voix. Ne pouvant être réélu, il organise le coup d'État du 2 décembre 1851, réprimé par des milliers d'arrestations et de déportations, puis rétablit l'Empire un an plus tard. Son règne voit l'essor des chemins de fer, la transformation de Paris par le baron Haussmann et un traité de libre-échange avec le Royaume-Uni en 1860. Il engage la France dans la guerre de Crimée, aide l'unification italienne et se lance au Mexique dans une expédition désastreuse. Fait prisonnier par les Prussiens à Sedan le 2 septembre 1870, il est déchu deux jours plus tard. Exilé en Angleterre, il meurt à Chislehurst en janvier 1873.",
+    "en": "Born in Paris in 1808, Charles-Louis Napoléon Bonaparte was Napoleon I's nephew and grew up in exile in Switzerland and Bavaria after the Empire fell. Casting himself as the dynasty's heir, he launched two failed coups, at Strasbourg in 1836 and Boulogne in 1840, which landed him in the fortress of Ham until his escape in 1846. Back in France after the 1848 revolution, he was elected that December as the first president chosen by universal male suffrage, with nearly three-quarters of the vote. Barred from a second term, he staged the coup of 2 December 1851, followed by thousands of arrests and deportations, and restored the Empire a year later. His reign saw a railway boom, Baron Haussmann's rebuilding of Paris and a free-trade treaty with Britain in 1860. He took France into the Crimean War, helped Italian unification and launched a disastrous expedition to Mexico. Captured by the Prussians at Sedan on 2 September 1870, he was deposed two days later. Exiled to England, he died at Chislehurst in January 1873."
+  },
+  "highlights": {
+    "fr": [
+      "1848 : premier président français élu au suffrage universel masculin",
+      "1851 : coup d'État du 2 décembre, Empire rétabli en 1852",
+      "1853-1870 : grands travaux d'Haussmann qui transforment Paris",
+      "1870 : capturé à Sedan, ce qui entraîne la chute du Second Empire"
+    ],
+    "en": [
+      "1848: first French president elected by universal male suffrage",
+      "1851: coup of 2 December, Empire restored in 1852",
+      "1853–1870: Haussmann's great works reshape Paris",
+      "1870: captured at Sedan, bringing down the Second Empire"
+    ]
+  },
+  "legacy": {
+    "fr": "Longtemps réduit au « Napoléon le Petit » de Victor Hugo, il est aujourd'hui aussi reconnu comme un modernisateur de l'économie et de Paris. Sedan reste néanmoins attaché à son nom.",
+    "en": "Long dismissed as Victor Hugo's 'Napoleon the Little', he is now also credited with modernising France's economy and Paris. Sedan nonetheless remains tied to his name."
   }
 }

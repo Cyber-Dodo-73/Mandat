@@ -32,5 +32,27 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Fils aîné de Pépin le Bref, premier roi carolingien, Charles naît vers 742 en Francie. À la mort de son père en 768, il partage le royaume avec son frère Carloman, dont la disparition en 771 le laisse seul roi des Francs. En 774, appelé par le pape, il conquiert le royaume lombard et en prend la couronne. Il mène ensuite plus de trente ans de campagnes contre les Saxons, marquées par des conversions forcées et le massacre de Verden en 782, puis soumet la Bavière et détruit la puissance des Avars. Une expédition en Espagne en 778 se solde par l'embuscade de Roncevaux, qui inspirera la Chanson de Roland. Le jour de Noël 800, à Rome, le pape Léon III le couronne empereur, restaurant un titre disparu en Occident depuis 476. Depuis son palais d'Aix-la-Chapelle, il administre son empire par des comtes contrôlés par les missi dominici et favorise la renaissance des lettres, des écoles et de l'écriture. Il fait couronner son fils Louis coempereur en 813 et meurt à Aix-la-Chapelle en janvier 814.",
+    "en": "The eldest son of Pepin the Short, the first Carolingian king, Charles was born around 742 in Francia. When his father died in 768 he shared the kingdom with his brother Carloman, whose death in 771 left him sole King of the Franks. In 774, answering a papal appeal, he conquered the Lombard kingdom and took its crown. He then waged more than thirty years of campaigns against the Saxons, marked by forced conversions and the massacre of Verden in 782, and went on to absorb Bavaria and break the power of the Avars. A 778 expedition into Spain ended in the ambush at Roncevaux, later the subject of the Song of Roland. On Christmas Day 800 in Rome, Pope Leo III crowned him emperor, reviving a title vacant in the West since 476. From his palace at Aachen he ruled through counts supervised by royal envoys, the missi dominici, and sponsored a revival of learning, schools and handwriting. He had his son Louis crowned co-emperor in 813 and died at Aachen in January 814."
+  },
+  "highlights": {
+    "fr": [
+      "Seul roi des Francs à partir de 771",
+      "Conquiert le royaume des Lombards en 774",
+      "Couronné empereur à Rome par le pape Léon III le 25 décembre 800",
+      "Encourage la renaissance carolingienne des écoles et des lettres"
+    ],
+    "en": [
+      "Sole King of the Franks from 771",
+      "Conquered the Lombard kingdom in 774",
+      "Crowned emperor in Rome by Pope Leo III on 25 December 800",
+      "Fostered the Carolingian revival of schools and learning"
+    ]
+  },
+  "legacy": {
+    "fr": "Revendiqué à la fois par la France et l'Allemagne, il fait figure de « père de l'Europe » ; un prix européen remis à Aix-la-Chapelle porte son nom.",
+    "en": "Claimed by both France and Germany, he is often called the father of Europe, and a European prize awarded in Aachen bears his name."
   }
 }

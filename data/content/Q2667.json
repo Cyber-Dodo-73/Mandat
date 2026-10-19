@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Paul von Hindenburg naît en 1847 à Posen, dans une famille de la noblesse prussienne, et devient officier dès l'adolescence. Il combat à Königgrätz contre l'Autriche en 1866, puis dans la guerre franco-prussienne, et assiste en janvier 1871 à la proclamation de l'Empire allemand à Versailles. Retraité comme général en 1911, il est rappelé en août 1914 avec Erich Ludendorff pour défendre la Prusse-Orientale et anéantit une armée russe à Tannenberg, faisant plus de 90 000 prisonniers. Nommé chef d'état-major général en 1916, il dirige avec Ludendorff une quasi-dictature militaire qui impose la guerre sous-marine à outrance en 1917. Après l'échec des offensives de 1918, il conseille à Guillaume II d'abdiquer, puis accrédite en 1919 la légende du « coup de poignard dans le dos » rejetant la défaite sur les civils. Élu président de la République de Weimar en 1925, il gouverne à partir de 1930 par décrets d'urgence avec des cabinets présidentiels. Réélu en avril 1932 face à Adolf Hitler, il nomme pourtant celui-ci chancelier le 30 janvier 1933, puis signe en février le décret qui suspend les libertés fondamentales après l'incendie du Reichstag. Il meurt dans son domaine de Neudeck, en Prusse-Orientale, en août 1934, et Hitler réunit aussitôt les fonctions de président et de chancelier.",
+    "en": "Paul von Hindenburg was born in 1847 in Posen into a Prussian noble family and became an officer in his teens. He fought against Austria at Königgrätz in 1866 and in the Franco-Prussian War, and witnessed the proclamation of the German Empire at Versailles in January 1871. Retired as a general in 1911, he was recalled in August 1914 with Erich Ludendorff to defend East Prussia and destroyed a Russian army at Tannenberg, taking more than 90,000 prisoners. Made chief of the general staff in 1916, he and Ludendorff ran a near military dictatorship that imposed unrestricted submarine warfare in 1917. After the 1918 offensives failed he advised Wilhelm II to abdicate, then lent his authority in 1919 to the 'stab in the back' myth blaming civilians for the defeat. Elected President of the Weimar Republic in 1925, from 1930 he governed by emergency decree through presidential cabinets. Re-elected in April 1932 against Adolf Hitler, he nonetheless appointed him chancellor on 30 January 1933, and in February signed the decree suspending basic rights after the Reichstag fire. He died on his Neudeck estate in East Prussia in August 1934, and Hitler at once merged the offices of president and chancellor."
+  },
+  "highlights": {
+    "fr": [
+      "Victoire de Tannenberg contre les Russes en août 1914",
+      "Chef d'état-major général allemand de 1916 à 1919",
+      "Président du Reich de 1925 à 1934",
+      "Réélu en 1932 face à Adolf Hitler",
+      "Nomme Hitler chancelier le 30 janvier 1933"
+    ],
+    "en": [
+      "Defeated the Russians at Tannenberg in August 1914",
+      "Chief of the German General Staff from 1916 to 1919",
+      "President of the Reich from 1925 to 1934",
+      "Re-elected in 1932 against Adolf Hitler",
+      "Appointed Hitler chancellor on 30 January 1933"
+    ]
+  },
+  "legacy": {
+    "fr": "Héros national de la Grande Guerre, il reste surtout l'homme qui a remis le pouvoir à Hitler et laissé détruire la République de Weimar.",
+    "en": "A national hero of the Great War, he is chiefly remembered as the man who handed power to Hitler and let the Weimar Republic be destroyed."
   }
 }

@@ -32,5 +32,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Yahya Jammeh naît en mai 1965 à Kanilai, dans l’ouest de la Gambie, et entre dans la gendarmerie puis dans l’armée, où il est lieutenant à vingt-neuf ans. Le 22 juillet 1994, il renverse sans effusion de sang le président Dawda Jawara, au pouvoir depuis l’indépendance, et prend la tête d’une junte. Élu président en 1996, il est réélu en 2001, 2006 et 2011 lors de scrutins dominés par l’intimidation. Son régime s’appuie sur l’Agence nationale de renseignement et sur une unité paramilitaire, les « Junglers », responsables de tortures, de disparitions et d’assassinats, dont celui du journaliste Deyda Hydara en 2004. En 2005, une cinquantaine de migrants ouest-africains, en majorité ghanéens, sont tués par ses hommes, et en 2009 une campagne de « chasse aux sorcières » soumet des centaines de villageois à des sévices. Il prétend guérir le sida par les plantes, quitte le Commonwealth en 2013 et proclame la Gambie république islamique en 2015. Battu par Adama Barrow en décembre 2016, il reconnaît sa défaite puis se rétracte, jusqu’à ce que l’intervention militaire de la Cédéao le pousse à l’exil en Guinée équatoriale le 21 janvier 2017. Une commission vérité a ensuite recommandé des poursuites contre lui.",
+    "en": "Yahya Jammeh was born in May 1965 in Kanilai, in western Gambia, and joined the gendarmerie and then the army, reaching the rank of lieutenant by twenty-nine. On 22 July 1994 he ousted President Dawda Jawara, in power since independence, in a bloodless coup and took over at the head of a junta. Elected president in 1996, he was re-elected in 2001, 2006 and 2011 in polls marked by intimidation. His rule relied on the National Intelligence Agency and a paramilitary unit known as the Junglers, responsible for torture, disappearances and killings, including the murder of journalist Deyda Hydara in 2004. In 2005 his men killed around fifty West African migrants, most of them Ghanaian, and in 2009 a witch-hunting campaign subjected hundreds of villagers to abuse. He claimed to cure AIDS with herbs, pulled out of the Commonwealth in 2013 and declared Gambia an Islamic republic in 2015. Defeated by Adama Barrow in December 2016, he conceded and then backtracked, until an ECOWAS military intervention forced him into exile in Equatorial Guinea on 21 January 2017. A truth commission later recommended that he be prosecuted."
+  },
+  "highlights": {
+    "fr": [
+      "Prend le pouvoir par un coup d’État le 22 juillet 1994",
+      "Président de la Gambie de 1996 à 2017",
+      "Retire la Gambie du Commonwealth en 2013",
+      "Contraint à l’exil par la Cédéao en janvier 2017"
+    ],
+    "en": [
+      "Seized power in a coup on 22 July 1994",
+      "President of the Gambia from 1996 to 2017",
+      "Pulled the Gambia out of the Commonwealth in 2013",
+      "Forced into exile by ECOWAS in January 2017"
+    ]
+  },
+  "legacy": {
+    "fr": "Son régime de vingt-deux ans est associé à la torture, aux exécutions extrajudiciaires et aux disparitions, que les victimes cherchent encore à faire juger.",
+    "en": "His twenty-two-year rule is associated with torture, extrajudicial killings and disappearances, for which victims are still seeking justice."
   }
 }

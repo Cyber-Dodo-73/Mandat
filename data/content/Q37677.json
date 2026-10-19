@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Francisco Solano López naît en juillet 1826 à Asunción, fils aîné de Carlos Antonio López, qui gouverne le Paraguay à partir de 1841 et fait de lui un général dès l’âge de dix-huit ans. En 1853-1854, il conduit une mission diplomatique en Europe, achète des armes et des navires et rencontre à Paris l’Irlandaise Eliza Lynch, qui devient sa compagne. En 1859, il joue les médiateurs entre Buenos Aires et la Confédération argentine. Vice-président, il succède à son père à sa mort en 1862 et dispose de l’une des armées les plus nombreuses de la région. Inquiet de l’intervention brésilienne en Uruguay, il fait saisir un navire brésilien en novembre 1864, envahit le Mato Grosso puis la province argentine de Corrientes, provoquant en 1865 l’alliance du Brésil, de l’Argentine et de l’Uruguay contre lui. Après la défaite navale du Riachuelo et la victoire de Curupaity en 1866, le Paraguay s’effondre lentement, et López fait exécuter en 1868 des centaines de suspects de complot, dont son propre frère Benigno. La guerre de la Triple-Alliance tue une part considérable de la population paraguayenne, estimée selon les historiens entre un quart et plus de la moitié. Traqué jusqu’au nord du pays, López est tué par les troupes brésiliennes à Cerro Corá le 1er mars 1870.",
+    "en": "Francisco Solano López was born in July 1826 in Asunción, the eldest son of Carlos Antonio López, who ruled Paraguay from 1841 and made him a general at eighteen. In 1853–1854 he led a diplomatic mission to Europe, bought weapons and ships, and met the Irishwoman Eliza Lynch in Paris, who became his partner. In 1859 he mediated between Buenos Aires and the Argentine Confederation. As vice president, he succeeded his father on his death in 1862 and commanded one of the largest armies in the region. Alarmed by Brazil's intervention in Uruguay, he had a Brazilian ship seized in November 1864 and invaded Mato Grosso and then Argentina's Corrientes province, driving Brazil, Argentina and Uruguay into an alliance against him in 1865. After the naval defeat at Riachuelo and the victory at Curupayty in 1866, Paraguay slowly collapsed, and in 1868 López had hundreds of suspected plotters executed, including his own brother Benigno. The War of the Triple Alliance killed a huge share of Paraguay's population, estimated by historians at between a quarter and more than half. Hunted to the country's far north, López was killed by Brazilian troops at Cerro Corá on 1 March 1870."
+  },
+  "highlights": {
+    "fr": [
+      "Conduit une mission diplomatique et militaire en Europe en 1853-1854",
+      "Président du Paraguay de 1862 à 1870",
+      "Déclenche la guerre de la Triple-Alliance en 1864-1865",
+      "Remporte la bataille de Curupaity en septembre 1866",
+      "Tué à Cerro Corá le 1er mars 1870"
+    ],
+    "en": [
+      "Led a diplomatic and military mission to Europe in 1853–1854",
+      "President of Paraguay from 1862 to 1870",
+      "Started the War of the Triple Alliance in 1864–1865",
+      "Won the Battle of Curupayty in September 1866",
+      "Killed at Cerro Corá on 1 March 1870"
+    ]
+  },
+  "legacy": {
+    "fr": "Héros national au Paraguay pour sa résistance jusqu’à la mort, il est tenu ailleurs pour responsable d’une guerre qui a dévasté son pays pour des générations.",
+    "en": "A national hero in Paraguay for resisting to the death, he is blamed elsewhere for a war that devastated his country for generations."
   }
 }

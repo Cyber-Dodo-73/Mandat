@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1533 au palais de Greenwich, Élisabeth est la fille d'Henri VIII et d'Anne Boleyn, décapitée en 1536 alors que l'enfant n'a pas encore trois ans. Déclarée illégitime, elle reçoit néanmoins une solide éducation humaniste et parle plusieurs langues. Sous le règne de sa demi-sœur catholique Marie Ire, elle est soupçonnée de complot et enfermée en 1554 dans la tour de Londres. Devenue reine en novembre 1558, elle impose dès 1559 un compromis religieux qui fonde l'Église d'Angleterre protestante. Elle refuse tous les prétendants et reste célibataire, cultivant l'image d'une « reine vierge » mariée à son royaume. Après des années d'hésitation, elle laisse exécuter en 1587 sa cousine catholique Marie Stuart, et l'année suivante sa flotte repousse l'Invincible Armada envoyée par Philippe II d'Espagne. Son règne voit aussi les expéditions de Drake, l'essor du théâtre de Shakespeare et une dure guerre de conquête en Irlande. Elle meurt au palais de Richmond en mars 1603, dernière des Tudor, et la couronne passe à Jacques VI d'Écosse.",
+    "en": "Born at Greenwich Palace in 1533, Elizabeth was the daughter of Henry VIII and Anne Boleyn, who was beheaded in 1536 before the child turned three. Declared illegitimate, she nonetheless received a fine humanist education and spoke several languages. Under her Catholic half-sister Mary I she was suspected of plotting and held in the Tower of London in 1554. Becoming queen in November 1558, she imposed a religious settlement in 1559 that established the Protestant Church of England. She turned down every suitor and never married, cultivating the image of a Virgin Queen wedded to her realm. After years of hesitation she allowed the execution of her Catholic cousin Mary, Queen of Scots, in 1587, and the following year her fleet beat back the Armada sent by Philip II of Spain. Her reign also saw Drake's voyages, the rise of Shakespeare's theatre and a harsh war of conquest in Ireland. She died at Richmond Palace in March 1603, the last of the Tudors, and the crown passed to James VI of Scotland."
+  },
+  "highlights": {
+    "fr": [
+      "Emprisonnée à la tour de Londres en 1554 sous Marie Ire",
+      "Devient reine d'Angleterre en novembre 1558",
+      "Fonde l'Église d'Angleterre par le compromis religieux de 1559",
+      "Repousse l'Invincible Armada espagnole en 1588",
+      "Règne 44 ans, jusqu'à sa mort en 1603"
+    ],
+    "en": [
+      "Imprisoned in the Tower of London in 1554 under Mary I",
+      "Became Queen of England in November 1558",
+      "Established the Church of England with the 1559 religious settlement",
+      "Repelled the Spanish Armada in 1588",
+      "Reigned for 44 years, until her death in 1603"
+    ]
+  },
+  "legacy": {
+    "fr": "L'époque élisabéthaine est restée dans la mémoire anglaise comme un âge d'or de la littérature et de l'affirmation maritime du pays.",
+    "en": "The Elizabethan age lives on in English memory as a golden era of literature and of the country's rise as a sea power."
   }
 }

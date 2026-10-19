@@ -32,5 +32,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1751 dans le comté de King George, en Virginie, dans une famille de planteurs, James Madison étudie au collège du New Jersey, l'actuelle Princeton. Membre de l'assemblée révolutionnaire de Virginie puis du Congrès continental, il prépare activement la convention de Philadelphie de 1787, où son plan sert de base à la Constitution. Il défend ensuite le texte dans les essais du Fédéraliste, écrits avec Alexander Hamilton et John Jay. Élu à la Chambre des représentants, il rédige en 1789 les amendements qui deviendront la Déclaration des droits. Opposé à la politique financière de Hamilton, il fonde avec Thomas Jefferson le Parti républicain-démocrate. Secrétaire d'État de Jefferson de 1801 à 1809, il accompagne l'achat de la Louisiane en 1803. Élu président en 1808, il demande en 1812 la guerre contre le Royaume-Uni ; en 1814, les troupes britanniques incendient Washington et la Maison-Blanche. La paix de Gand, signée fin 1814, et la victoire de La Nouvelle-Orléans permettent une sortie du conflit sans perte de territoire. Retiré à Montpelier après 1817, il meurt en 1836, dernier survivant des signataires de la Constitution.",
+    "en": "Born in 1751 in King George County, Virginia, into a planter family, James Madison studied at the College of New Jersey, today's Princeton. A member of Virginia's revolutionary convention and then the Continental Congress, he did much of the groundwork for the 1787 Philadelphia Convention, where his plan became the template for the Constitution. He then argued for ratification in The Federalist essays, written with Alexander Hamilton and John Jay. Elected to the House of Representatives, he drafted in 1789 the amendments that became the Bill of Rights. Opposed to Hamilton's financial programme, he founded the Democratic-Republican Party with Thomas Jefferson. As Jefferson's Secretary of State from 1801 to 1809, he helped carry through the Louisiana Purchase of 1803. Elected president in 1808, he asked Congress for war with Britain in 1812, and in 1814 British troops burned Washington and the White House. The Treaty of Ghent, signed at the end of 1814, and the victory at New Orleans brought the conflict to a close without any loss of territory. Retiring to Montpelier after 1817, he died in 1836, the last surviving signer of the Constitution."
+  },
+  "highlights": {
+    "fr": [
+      "Principal artisan de la Constitution américaine en 1787",
+      "Co-auteur des essais du Fédéraliste en 1787-1788",
+      "Rédige la Déclaration des droits en 1789",
+      "4e président des États-Unis, de 1809 à 1817",
+      "Mène la guerre de 1812 contre le Royaume-Uni"
+    ],
+    "en": [
+      "Chief architect of the US Constitution in 1787",
+      "Co-author of The Federalist essays in 1787–1788",
+      "Drafted the Bill of Rights in 1789",
+      "4th President of the United States, 1809–1817",
+      "Led the country through the War of 1812 against Britain"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé « père de la Constitution », il reste une référence pour la séparation des pouvoirs, tout en ayant possédé des esclaves toute sa vie.",
+    "en": "Called the “Father of the Constitution”, he remains a reference on the separation of powers, though he owned enslaved people all his life."
   }
 }

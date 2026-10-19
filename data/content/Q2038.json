@@ -30,5 +30,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né à Jarnac en 1916 dans une famille catholique et conservatrice, François Mitterrand étudie le droit et les sciences politiques à Paris. Blessé et fait prisonnier en 1940, il s'évade fin 1941 et travaille d'abord pour le régime de Vichy, qui le décore de la francisque, avant de rejoindre la Résistance en 1943 au sein des réseaux de prisonniers. Onze fois ministre sous la IVe République, il est notamment garde des Sceaux en 1956-1957, quand de nombreux militants algériens condamnés à mort sont exécutés. Opposant résolu au général de Gaulle, il le met en ballottage à la présidentielle de 1965. Au congrès d'Épinay en 1971, il prend la tête du nouveau Parti socialiste et signe l'année suivante un programme commun avec les communistes. Battu de peu en 1974, il est élu président le 10 mai 1981 et fait abolir la peine de mort, nationaliser des banques et des groupes industriels et décentraliser l'État, avant le tournant de la rigueur en 1983. Réélu en 1988, il cohabite deux fois avec la droite et fait approuver le traité de Maastricht par référendum en 1992. Il quitte l'Élysée en mai 1995 et meurt d'un cancer à Paris le 8 janvier 1996.",
+    "en": "Born in Jarnac in 1916 to a conservative Catholic family, François Mitterrand studied law and political science in Paris. Wounded and captured in 1940, he escaped at the end of 1941 and first worked for the Vichy regime, which decorated him, before joining the Resistance in 1943 through networks of former prisoners of war. A minister eleven times under the Fourth Republic, he was justice minister in 1956–1957, when many Algerian militants sentenced to death were executed. A determined opponent of General de Gaulle, he forced him into a runoff in the 1965 presidential election. At the Épinay congress in 1971 he took over the new Socialist Party, and the following year he signed a common programme with the Communists. Narrowly beaten in 1974, he was elected president on 10 May 1981 and abolished the death penalty, nationalised banks and industrial groups and decentralised the state, before switching to austerity in 1983. Re-elected in 1988, he twice shared power with a right-wing government and won approval for the Maastricht Treaty in a 1992 referendum. He left office in May 1995 and died of cancer in Paris on 8 January 1996."
+  },
+  "highlights": {
+    "fr": [
+      "1965 : met le général de Gaulle en ballottage",
+      "1971 : prend la tête du Parti socialiste à Épinay",
+      "10 mai 1981 : premier président de gauche de la Ve République",
+      "1981 : fait abolir la peine de mort",
+      "1992 : fait ratifier le traité de Maastricht par référendum"
+    ],
+    "en": [
+      "1965: forces General de Gaulle into a runoff",
+      "1971: takes over the Socialist Party at Épinay",
+      "10 May 1981: first left-wing president of the Fifth Republic",
+      "1981: abolishes the death penalty",
+      "1992: wins the Maastricht Treaty referendum"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a ancré l'alternance dans la Ve République et l'intégration européenne avec Helmut Kohl, mais son passé vichyste et ses secrets ont terni son image.",
+    "en": "He anchored the alternation of power in the Fifth Republic and European integration with Helmut Kohl, but his Vichy past and secrets tarnished his image."
   }
 }

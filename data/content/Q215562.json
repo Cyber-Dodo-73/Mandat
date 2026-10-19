@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né esclave vers 1818 dans le comté de Talbot, au Maryland, Frederick Douglass apprend à lire en cachette pendant son enfance à Baltimore. En septembre 1838, il s'enfuit vers le Nord déguisé en marin et s'installe dans le Massachusetts. Repéré par les abolitionnistes de William Lloyd Garrison, il devient un orateur recherché, racontant sa propre servitude. Son autobiographie de 1845 le rend célèbre mais l'expose à une recapture, et il part en tournée en Irlande et en Grande-Bretagne, où des amis rachètent sa liberté en 1846. De retour, il fonde à Rochester le journal The North Star en 1847 et soutient l'année suivante le droit de vote des femmes à Seneca Falls. Pendant la guerre de Sécession, il recrute des soldats noirs pour l'Union, dont deux de ses fils, et plaide auprès de Lincoln pour l'égalité de traitement. Il occupe ensuite des fonctions fédérales, marshal du district de Columbia en 1877 puis greffier des titres fonciers en 1881. Ministre résident en Haïti de 1889 à 1891, il meurt à Washington en février 1895.",
+    "en": "Born into slavery around 1818 in Talbot County, Maryland, Frederick Douglass secretly taught himself to read while living as a boy in Baltimore. In September 1838 he escaped north disguised as a sailor and settled in Massachusetts. Spotted by William Lloyd Garrison's abolitionists, he became a sought-after speaker who described his own bondage. His 1845 autobiography made him famous but put him at risk of recapture, so he toured Ireland and Britain, where supporters bought his freedom in 1846. Back home he founded the newspaper The North Star in Rochester in 1847 and the following year backed women's suffrage at Seneca Falls. During the Civil War he recruited Black troops for the Union, two of his sons among them, and pressed Lincoln for equal treatment. He later held federal posts, as marshal for the District of Columbia in 1877 and Recorder of Deeds in 1881. After serving as US minister to Haiti from 1889 to 1891, he died in Washington in February 1895."
+  },
+  "highlights": {
+    "fr": [
+      "1838 : s'évade de l'esclavage déguisé en marin",
+      "1845 : publie le récit de sa vie d'esclave",
+      "1847 : fonde le journal abolitionniste The North Star",
+      "1863 : recrute des soldats noirs pour l'armée de l'Union",
+      "1889 : nommé ministre résident en Haïti"
+    ],
+    "en": [
+      "1838: escapes slavery disguised as a sailor",
+      "1845: publishes the narrative of his life as a slave",
+      "1847: founds the abolitionist newspaper The North Star",
+      "1863: recruits Black soldiers for the Union army",
+      "1889: appointed US minister resident to Haiti"
+    ]
+  },
+  "legacy": {
+    "fr": "Ancien esclave devenu l'une des grandes voix de l'Amérique, il reste une référence pour les luttes contre l'esclavage et pour les droits civiques.",
+    "en": "A former slave who became one of America's great voices, he remains a touchstone for the fight against slavery and for civil rights."
   }
 }

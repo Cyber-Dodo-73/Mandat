@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "A. P. J. Abdul Kalam naît en 1931 à Rameswaram, au Tamil Nadu, dans une famille musulmane modeste ; enfant, il vend des journaux pour aider les siens. Diplômé en ingénierie aéronautique du Madras Institute of Technology, il entre en 1958 à l'organisme de recherche de défense, puis rejoint en 1969 l'agence spatiale indienne. Il y dirige le programme du lanceur SLV-3, qui place en orbite le satellite Rohini en 1980, puis le programme de missiles guidés lancé en 1983, qui aboutit notamment à Agni et Prithvi. Conseiller scientifique du ministre de la Défense à partir de 1992, il joue un rôle clé dans les essais nucléaires de Pokhran en mai 1998. Couvert d'honneurs, dont le Padma Bhushan en 1981, le Padma Vibhushan en 1990 et le Bharat Ratna en 1997, il est élu en 2002 onzième président de l'Inde avec le soutien de la majorité comme de l'opposition. Président très populaire auprès des jeunes, il quitte ses fonctions en 2007 et se consacre à l'enseignement et à l'écriture. Il meurt d'un malaise cardiaque en juillet 2015, à Shillong, pendant une conférence devant des étudiants.",
+    "en": "A. P. J. Abdul Kalam was born in 1931 in Rameswaram, Tamil Nadu, into a modest Muslim family, and sold newspapers as a boy to help out. After an aeronautical engineering degree from the Madras Institute of Technology, he joined the defence research organisation in 1958 and moved to India's space agency in 1969. There he led the SLV-3 launcher project, which put the Rohini satellite into orbit in 1980, then the guided missile programme launched in 1983, which produced Agni and Prithvi among others. As scientific adviser to the defence minister from 1992, he played a key role in the Pokhran nuclear tests of May 1998. Showered with honours, including the Padma Bhushan in 1981, the Padma Vibhushan in 1990 and the Bharat Ratna in 1997, he was elected India's eleventh president in 2002 with backing from both government and opposition. Hugely popular with young people, he left office in 2007 and devoted himself to teaching and writing. He collapsed and died of a cardiac arrest in July 2015 in Shillong while lecturing students."
+  },
+  "highlights": {
+    "fr": [
+      "Dirige le lanceur SLV-3 qui met en orbite le satellite Rohini en 1980",
+      "Pilote le programme de missiles Agni et Prithvi à partir de 1983",
+      "Joue un rôle clé dans les essais nucléaires de Pokhran en 1998",
+      "Reçoit le Bharat Ratna, plus haute distinction indienne, en 1997",
+      "Onzième président de l'Inde (2002-2007)"
+    ],
+    "en": [
+      "Led the SLV-3 launcher that orbited the Rohini satellite in 1980",
+      "Ran the Agni and Prithvi missile programme from 1983",
+      "Played a key role in the 1998 Pokhran nuclear tests",
+      "Received the Bharat Ratna, India's highest honour, in 1997",
+      "Eleventh president of India (2002-2007)"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé « l'homme des missiles » et « président du peuple », il reste en Inde un modèle de réussite par l'éducation et la science.",
+    "en": "Nicknamed the Missile Man and the People's President, he remains a model in India of success through education and science."
   }
 }

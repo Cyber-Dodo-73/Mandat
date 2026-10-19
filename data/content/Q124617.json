@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Gueorgui Joukov naît en 1896 dans un village de la province de Kalouga, fils de paysans pauvres, et devient apprenti fourreur à Moscou. Mobilisé en 1915 dans la cavalerie tsariste, il est décoré deux fois de la croix de Saint-Georges, puis rejoint l'Armée rouge en 1918 et combat dans la guerre civile. Échappant aux purges de la fin des années 1930, il écrase les Japonais à Khalkhin Gol, en Mongolie, en août 1939. Chef d'état-major général au début de 1941, il organise à l'automne la défense de Léningrad, puis celle de Moscou, et lance en décembre la contre-offensive qui repousse la Wehrmacht. Nommé commandant en chef adjoint en août 1942, il prépare avec Alexandre Vassilievski l'encerclement de l'armée allemande à Stalingrad, puis coordonne les batailles de Koursk en 1943 et de Biélorussie en 1944. À la tête du 1er front de Biélorussie, il lance l'assaut final sur Berlin en avril 1945 et reçoit la capitulation allemande à Karlshorst dans la nuit du 8 au 9 mai. Jaloux de sa popularité, Staline l'éloigne dès 1946 dans des commandements de province. Revenu après la mort du dictateur, il aide à arrêter Lavrenti Beria en 1953, devient ministre de la Défense en 1955 et dirige l'écrasement de l'insurrection hongroise en 1956. Il soutient Khrouchtchev en 1957, qui le limoge pourtant en octobre, et meurt à Moscou en 1974.",
+    "en": "Georgy Zhukov was born in 1896 in a village in Kaluga province to poor peasants and was apprenticed to a furrier in Moscow. Called up into the tsarist cavalry in 1915, he won the St George Cross twice, then joined the Red Army in 1918 and fought in the civil war. Surviving the purges of the late 1930s, he crushed the Japanese at Khalkhin Gol in Mongolia in August 1939. Chief of the General Staff in early 1941, he organised the defence of Leningrad that autumn and then of Moscow, launching the December counter-offensive that pushed the Wehrmacht back. Named deputy supreme commander in August 1942, he planned with Aleksandr Vasilevsky the encirclement of the German army at Stalingrad, then coordinated the battles of Kursk in 1943 and Belorussia in 1944. At the head of the 1st Belorussian Front he launched the final assault on Berlin in April 1945 and accepted the German surrender at Karlshorst on the night of 8 to 9 May. Jealous of his popularity, Stalin sidelined him in 1946 to provincial commands. Back after the dictator's death, he helped arrest Lavrentiy Beria in 1953, became defence minister in 1955 and directed the crushing of the Hungarian uprising in 1956. He backed Khrushchev in 1957, who nonetheless sacked him that October, and he died in Moscow in 1974."
+  },
+  "highlights": {
+    "fr": [
+      "Victoire de Khalkhin Gol contre le Japon en août 1939",
+      "Contre-offensive devant Moscou en décembre 1941",
+      "Planifie l'encerclement allemand à Stalingrad en 1942",
+      "Prise de Berlin et capitulation allemande en mai 1945",
+      "Quatre fois héros de l'Union soviétique"
+    ],
+    "en": [
+      "Defeated Japan at Khalkhin Gol in August 1939",
+      "Led the counter-offensive before Moscow in December 1941",
+      "Planned the German encirclement at Stalingrad in 1942",
+      "Took Berlin and accepted the German surrender in May 1945",
+      "Four times Hero of the Soviet Union"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste en Russie le symbole de la victoire de 1945, et sa statue équestre se dresse près de la place Rouge depuis 1995.",
+    "en": "In Russia he remains the symbol of victory in 1945, and his equestrian statue has stood near Red Square since 1995."
   }
 }

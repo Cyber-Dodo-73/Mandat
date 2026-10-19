@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Surabaya en 1901, fils d'un instituteur javanais, Sukarno obtient en 1926 un diplôme d'ingénieur à Bandung. Il fonde l'année suivante le Parti national indonésien et devient le tribun de l'indépendance, ce qui lui vaut la prison en 1929 puis des années d'exil intérieur à Flores et Bengkulu. Sous l'occupation japonaise, à partir de 1942, il collabore avec Tokyo, notamment au recrutement de travailleurs forcés, pour préparer l'indépendance. En juin 1945, il expose les cinq principes du Pancasila, puis proclame l'indépendance le 17 août avec Mohammad Hatta. La guerre contre les Pays-Bas dure jusqu'en 1949, quand La Haye reconnaît la souveraineté indonésienne. En 1955, il accueille à Bandung la conférence afro-asiatique, acte fondateur du non-alignement. En 1959, il instaure une « démocratie dirigée » autoritaire, puis lance la confrontation armée contre la Malaisie. Après le coup manqué du 30 septembre 1965, l'armée du général Suharto massacre au moins 500 000 communistes présumés et l'écarte progressivement du pouvoir. Destitué en 1967 et placé en résidence surveillée, il meurt à Jakarta en 1970.",
+    "en": "Born in Surabaya in 1901, the son of a Javanese schoolteacher, Sukarno qualified as an engineer in Bandung in 1926. The following year he founded the Indonesian National Party and became the voice of independence, which landed him in prison in 1929 and then in years of internal exile on Flores and in Bengkulu. Under the Japanese occupation from 1942 he worked with Tokyo, including on the recruitment of forced labourers, as a path towards independence. In June 1945 he set out the five principles of Pancasila, and on 17 August he proclaimed independence with Mohammad Hatta. War with the Netherlands lasted until 1949, when The Hague recognised Indonesian sovereignty. In 1955 he hosted the Asian–African Conference in Bandung, a founding moment of non-alignment. In 1959 he imposed an authoritarian 'Guided Democracy' and later launched an armed confrontation with Malaysia. After the failed coup of 30 September 1965, General Suharto's army massacred at least 500,000 suspected communists and gradually pushed him aside. Removed in 1967 and kept under house arrest, he died in Jakarta in 1970."
+  },
+  "highlights": {
+    "fr": [
+      "1927 : fonde le Parti national indonésien",
+      "17 août 1945 : proclame l'indépendance de l'Indonésie",
+      "1955 : accueille la conférence de Bandung",
+      "1959 : instaure la « démocratie dirigée »",
+      "1967 : écarté du pouvoir par le général Suharto"
+    ],
+    "en": [
+      "1927: founds the Indonesian National Party",
+      "17 August 1945: proclaims Indonesia's independence",
+      "1955: hosts the Bandung Conference",
+      "1959: imposes 'Guided Democracy'",
+      "1967: pushed out of power by General Suharto"
+    ]
+  },
+  "legacy": {
+    "fr": "Père de la nation indonésienne et de son idéologie du Pancasila, il a été proclamé héros national en 2012 ; sa fille Megawati a présidé le pays.",
+    "en": "Father of the Indonesian nation and its Pancasila ideology, he was declared a National Hero in 2012; his daughter Megawati later became president."
   }
 }

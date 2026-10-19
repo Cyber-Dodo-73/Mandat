@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né vers 1787, fils du chef zoulou Senzangakhona et de Nandi, Shaka grandit dans une position précaire et passe une partie de sa jeunesse en exil avec sa mère. Il trouve refuge chez les Mthethwa, dont il devient l'un des guerriers les plus remarqués sous le roi Dingiswayo. Vers 1816, avec l'appui de ce dernier, il s'empare de la chefferie des Zoulous, alors un petit clan. Il réorganise l'armée en régiments par classes d'âge, impose une courte lance d'estoc et un grand bouclier, et généralise une formation d'encerclement en « cornes ». Après la mort de Dingiswayo, il défait les Ndwandwe de Zwide vers 1818-1820 et soumet ou absorbe de nombreux voisins. Ces guerres, liées à de vastes bouleversements régionaux, font des milliers de victimes et poussent de nombreux peuples à fuir. Il reçoit à partir de 1824 des commerçants britanniques installés à Port Natal. Des récits, surtout européens, rapportent des exécutions massives après la mort de sa mère en 1827. En septembre 1828, il est assassiné à KwaDukuza par ses demi-frères Dingane et Mhlangana.",
+    "en": "Born around 1787 to the Zulu chief Senzangakhona and Nandi, Shaka grew up in an insecure position and spent part of his youth in exile with his mother. He found refuge among the Mthethwa and became one of their most notable warriors under King Dingiswayo. Around 1816, with Dingiswayo's backing, he seized the chieftaincy of the Zulu, then a small clan. He reorganised the army into age-grade regiments, introduced a short stabbing spear and a large shield, and made a horned encircling formation standard. After Dingiswayo's death he defeated Zwide's Ndwandwe around 1818–1820 and subdued or absorbed many neighbours. These wars, part of vast regional upheavals, claimed thousands of lives and drove many peoples to flee. From 1824 he received British traders who had settled at Port Natal. Accounts, mostly European, report mass executions after his mother's death in 1827. In September 1828 he was assassinated at KwaDukuza by his half-brothers Dingane and Mhlangana."
+  },
+  "highlights": {
+    "fr": [
+      "Vers 1816 : prend la tête du clan zoulou",
+      "Réorganise l'armée en régiments par classes d'âge",
+      "Vers 1818-1820 : défait les Ndwandwe de Zwide",
+      "1824 : reçoit les premiers commerçants britanniques",
+      "1828 : assassiné par ses demi-frères"
+    ],
+    "en": [
+      "Around 1816: takes over the Zulu clan",
+      "Reorganises the army into age-grade regiments",
+      "Around 1818–1820: defeats Zwide's Ndwandwe",
+      "1824: receives the first British traders",
+      "1828: assassinated by his half-brothers"
+    ]
+  },
+  "legacy": {
+    "fr": "Fondateur du royaume zoulou, il est célébré en Afrique du Sud comme bâtisseur de nation, tandis que l'ampleur de ses violences fait débat parmi les historiens.",
+    "en": "Founder of the Zulu kingdom, he is honoured in South Africa as a nation-builder, while historians debate the true scale of his violence."
   }
 }

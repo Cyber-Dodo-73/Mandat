@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Michel Temer naît en 1940 à Tietê, dans l'État de São Paulo, fils d'immigrés libanais. Juriste, il enseigne le droit constitutionnel et publie des ouvrages de référence avant d'occuper le poste de secrétaire à la Sécurité publique de l'État de São Paulo, notamment en 1992 après le massacre de Carandiru. Élu député fédéral, il participe à l'Assemblée constituante de 1987-1988, puis siège sans interruption de 1994 à 2011, présidant à trois reprises la Chambre des députés. Patron du PMDB à partir de 2001, il devient en 2011 le vice-président de Dilma Rousseff. Lorsque la Chambre lance la procédure de destitution contre elle, il rompt avec son gouvernement ; il assure l'intérim dès mai 2016 et devient président de plein exercice le 31 août, après le vote du Sénat. Il fait adopter un plafonnement constitutionnel des dépenses publiques pour vingt ans et une réforme du droit du travail. En 2017, un enregistrement réalisé par un dirigeant du groupe JBS le met en cause pour corruption ; la Chambre bloque à deux reprises les poursuites. Avec une popularité tombée à quelques points, il quitte le pouvoir le 1er janvier 2019 et est brièvement arrêté en mars 2019 dans une enquête pour corruption.",
+    "en": "Michel Temer was born in 1940 in Tietê, São Paulo State, to Lebanese immigrant parents. A jurist, he taught constitutional law and wrote standard textbooks before serving as São Paulo State's public security secretary, notably in 1992 after the Carandiru prison massacre. Elected to Congress, he helped draft the 1988 constitution and sat continuously from 1994 to 2011, three times as speaker of the Chamber of Deputies. Head of the PMDB from 2001, he became Dilma Rousseff's vice-president in 2011. When the Chamber opened impeachment proceedings against her, he broke with her government; he took over as acting president in May 2016 and became full president on 31 August after the Senate vote. He secured a constitutional cap on public spending for twenty years and an overhaul of labour law. In 2017 a recording made by an executive of the JBS group implicated him in corruption, but the Chamber twice blocked charges. With approval ratings down to single digits, he left office on 1 January 2019 and was briefly arrested in March 2019 in a corruption investigation."
+  },
+  "highlights": {
+    "fr": [
+      "Préside à trois reprises la Chambre des députés du Brésil",
+      "Vice-président de Dilma Rousseff de 2011 à 2016",
+      "Président du Brésil du 31 août 2016 au 1er janvier 2019",
+      "Plafonnement constitutionnel des dépenses publiques adopté fin 2016"
+    ],
+    "en": [
+      "Three-time speaker of Brazil's Chamber of Deputies",
+      "Vice-president under Dilma Rousseff from 2011 to 2016",
+      "President of Brazil from 31 August 2016 to 1 January 2019",
+      "Constitutional cap on public spending passed in late 2016"
+    ]
+  },
+  "legacy": {
+    "fr": "Artisan de réformes libérales durables, il reste l'un des présidents les plus impopulaires de l'histoire du Brésil, associé à la destitution contestée de Rousseff.",
+    "en": "He left lasting market-oriented reforms but remains one of Brazil's least popular presidents, tied to Rousseff's contested impeachment."
   }
 }

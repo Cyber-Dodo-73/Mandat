@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Abimael Guzmán naît en décembre 1934 à Mollendo, dans le département d’Arequipa, et devient en 1962 professeur de philosophie à l’université San Cristóbal de Huamanga, à Ayacucho. Converti au maoïsme, il se rend en Chine au milieu des années 1960 et fonde vers 1970 sa propre organisation, le Parti communiste du Pérou-Sentier lumineux, dont il est le chef sous le nom de « président Gonzalo ». Le 17 mai 1980, à la veille des premières élections depuis la dictature militaire, ses militants brûlent des urnes à Chuschi, lançant une guerre révolutionnaire contre l’État. Le mouvement pratique une terreur systématique contre paysans, élus, syndicalistes et militants de gauche qui lui résistent. En avril 1983, ses hommes massacrent 69 habitants de Lucanamarca, dont des enfants, et en juillet 1992 une voiture piégée tue 25 personnes rue Tarata, à Lima. Selon la Commission vérité et réconciliation, le conflit fait environ 69 000 morts, dont plus de la moitié sont imputés au Sentier lumineux, le reste surtout aux forces de l’État. Guzmán est capturé à Lima le 12 septembre 1992, puis condamné à la réclusion à perpétuité, peine confirmée lors d’un nouveau procès civil en 2006. Il meurt en détention dans une base navale du Callao le 11 septembre 2021.",
+    "en": "Abimael Guzmán was born in December 1934 in Mollendo, Arequipa department, and in 1962 became a philosophy professor at the San Cristóbal of Huamanga University in Ayacucho. Converted to Maoism, he travelled to China in the mid-1960s and around 1970 founded his own organisation, the Communist Party of Peru–Shining Path, which he led under the name Chairman Gonzalo. On 17 May 1980, on the eve of the first elections after military rule, his followers burned ballot boxes in Chuschi, launching a revolutionary war against the state. The movement used systematic terror against peasants, local officials, trade unionists and leftists who resisted it. In April 1983 its fighters massacred 69 residents of Lucanamarca, children among them, and in July 1992 a car bomb killed 25 people on Tarata Street in Lima. According to the Truth and Reconciliation Commission, the conflict killed about 69,000 people, more than half of them attributed to the Shining Path and most of the rest to state forces. Guzmán was captured in Lima on 12 September 1992 and sentenced to life imprisonment, a sentence confirmed at a civilian retrial in 2006. He died in custody at a naval base in Callao on 11 September 2021."
+  },
+  "highlights": {
+    "fr": [
+      "Fonde le Sentier lumineux vers 1970 à Ayacucho",
+      "Déclenche la lutte armée à Chuschi le 17 mai 1980",
+      "Responsable du massacre de Lucanamarca (69 morts) en 1983",
+      "Capturé à Lima le 12 septembre 1992",
+      "Condamné à la perpétuité, peine confirmée en 2006"
+    ],
+    "en": [
+      "Founded the Shining Path around 1970 in Ayacucho",
+      "Launched the armed struggle at Chuschi on 17 May 1980",
+      "Responsible for the Lucanamarca massacre (69 dead) in 1983",
+      "Captured in Lima on 12 September 1992",
+      "Sentenced to life, confirmed at a 2006 retrial"
+    ]
+  },
+  "legacy": {
+    "fr": "Son insurrection, la plus meurtrière de l’histoire du Pérou moderne, a laissé des dizaines de milliers de victimes, surtout parmi les paysans quechuas des Andes.",
+    "en": "His insurgency, the deadliest in modern Peruvian history, left tens of thousands of victims, most of them Quechua-speaking Andean peasants."
   }
 }

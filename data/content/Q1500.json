@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "José Rizal naît en juin 1861 à Calamba, sur l'île de Luçon, dans une famille aisée de métayers d'un domaine dominicain. Élève brillant à l'Ateneo de Manille, il commence la médecine à l'université Santo Tomas, puis part en 1882 pour l'Espagne, où il obtient à Madrid des diplômes de médecine et de philosophie et lettres. Il se spécialise en ophtalmologie à Paris et à Heidelberg et apprend une dizaine de langues. Figure du mouvement réformiste des Philippins d'Europe, il publie à Berlin en 1887 le roman Noli me tangere, qui dénonce les abus du clergé et de l'administration coloniale espagnole. Sa suite, El filibusterismo, paraît à Gand en 1891, sur un ton plus sombre. Rentré à Manille en 1892, il fonde la Liga Filipina, une association réformiste, mais il est arrêté quelques jours plus tard et exilé à Dapitan, sur l'île de Mindanao. Pendant quatre ans, il y ouvre une école et une clinique et fait aménager l'adduction d'eau. Lorsque la révolution du Katipunan éclate en août 1896, il est arrêté alors qu'il partait comme médecin volontaire pour Cuba. Jugé par un tribunal militaire pour rébellion, il est fusillé à Manille le 30 décembre 1896, après avoir écrit son poème d'adieu, Mi último adiós.",
+    "en": "José Rizal was born in June 1861 in Calamba, on Luzon, into a well-off family of tenants on a Dominican estate. A brilliant pupil at the Ateneo in Manila, he began medicine at the University of Santo Tomas, then left for Spain in 1882, where he took degrees in medicine and in philosophy and letters in Madrid. He trained as an eye specialist in Paris and Heidelberg and learned about ten languages. A leading figure of the reform movement among Filipinos in Europe, he published the novel Noli Me Tángere in Berlin in 1887, exposing the abuses of the clergy and the Spanish colonial administration. Its sequel, El filibusterismo, came out in Ghent in 1891 in a darker tone. Returning to Manila in 1892, he founded La Liga Filipina, a reformist association, but was arrested a few days later and exiled to Dapitan on Mindanao. Over four years there he opened a school and a clinic and built a water supply. When the Katipunan revolution broke out in August 1896, he was arrested while on his way to Cuba as a volunteer doctor. Tried by a military court for rebellion, he was shot by firing squad in Manila on 30 December 1896, having written his farewell poem, Mi último adiós."
+  },
+  "highlights": {
+    "fr": [
+      "Publie le roman Noli me tangere à Berlin en 1887",
+      "Publie El filibusterismo à Gand en 1891",
+      "Fonde la Liga Filipina en juillet 1892",
+      "Exilé à Dapitan de 1892 à 1896",
+      "Fusillé à Manille le 30 décembre 1896"
+    ],
+    "en": [
+      "Published the novel Noli Me Tángere in Berlin in 1887",
+      "Published El filibusterismo in Ghent in 1891",
+      "Founded La Liga Filipina in July 1892",
+      "Exiled to Dapitan from 1892 to 1896",
+      "Executed by firing squad in Manila on 30 December 1896"
+    ]
+  },
+  "legacy": {
+    "fr": "Héros national des Philippines, il est commémoré chaque 30 décembre, et ses deux romans sont étudiés obligatoirement dans les écoles du pays.",
+    "en": "The national hero of the Philippines, he is remembered every 30 December, and his two novels are required reading in the country's schools."
   }
 }

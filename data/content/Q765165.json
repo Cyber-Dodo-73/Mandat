@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1906 à Kamianske, dans l'actuelle Ukraine, Leonid Brejnev est d'abord ingénieur métallurgiste avant de gravir les échelons du Parti communiste dans les années 1930, à l'ombre des purges staliniennes. Commissaire politique pendant la Seconde Guerre mondiale, il dirige ensuite le parti en Moldavie puis au Kazakhstan, où il pilote la campagne des Terres vierges. Membre du Politburo à partir de 1957, il préside le Présidium du Soviet suprême de 1960 à 1964. En octobre 1964, il participe à l'éviction de Khrouchtchev et devient premier secrétaire, titre rebaptisé secrétaire général en 1966. En août 1968, il fait écraser le Printemps de Prague par les chars du pacte de Varsovie et justifie l'intervention par la doctrine de souveraineté limitée qui porte son nom. Il signe avec les États-Unis les accords SALT I en 1972 et l'Acte final d'Helsinki en 1975, sommet de la détente. À l'intérieur, son règne est marqué par la stabilité des cadres, la répression des dissidents et un lent enlisement économique que l'on appellera la stagnation. En décembre 1979, il lance l'intervention en Afghanistan, guerre coûteuse qui durera près de dix ans. Malade et affaibli, il meurt en fonctions en novembre 1982, après dix-huit ans à la tête de l'URSS.",
+    "en": "Born in 1906 in Kamianske, in today's Ukraine, Leonid Brezhnev trained as a metallurgical engineer and rose through the Communist Party in the 1930s, in the shadow of Stalin's purges. A political commissar during the Second World War, he went on to run the party in Moldavia and then Kazakhstan, where he oversaw the Virgin Lands campaign. A full Politburo member from 1957, he chaired the Presidium of the Supreme Soviet from 1960 to 1964. In October 1964 he helped push Khrushchev out and took over as first secretary, a post renamed general secretary in 1966. In August 1968 he sent Warsaw Pact tanks to crush the Prague Spring, defending the move with a doctrine of limited sovereignty that now bears his name. He signed the SALT I arms accords with the United States in 1972 and the Helsinki Final Act in 1975, the high point of détente. At home his rule meant secure jobs for officials, the persecution of dissidents and a slow economic slide later dubbed the era of stagnation. In December 1979 he ordered the invasion of Afghanistan, a draining war that lasted almost a decade. Frail and ill, he died in office in November 1982 after eighteen years at the head of the Soviet Union."
+  },
+  "highlights": {
+    "fr": [
+      "1964 : participe à l'éviction de Khrouchtchev et prend la tête du Parti communiste soviétique",
+      "1968 : fait écraser le Printemps de Prague par les troupes du pacte de Varsovie",
+      "1972 : signe avec Nixon les accords SALT I de limitation des armes stratégiques",
+      "1975 : signe l'Acte final d'Helsinki, apogée de la détente",
+      "1979 : lance l'intervention soviétique en Afghanistan"
+    ],
+    "en": [
+      "1964: helped oust Khrushchev and took control of the Soviet Communist Party",
+      "1968: had Warsaw Pact troops crush the Prague Spring",
+      "1972: signed the SALT I strategic arms accords with Nixon",
+      "1975: signed the Helsinki Final Act, the peak of détente",
+      "1979: launched the Soviet intervention in Afghanistan"
+    ]
+  },
+  "legacy": {
+    "fr": "Son nom reste attaché à la « stagnation » : une URSS stable mais figée, militairement puissante et économiquement essoufflée. La doctrine Brejnev a gouverné l'Europe de l'Est jusqu'à son abandon par Gorbatchev.",
+    "en": "His name is tied to the 'stagnation': a stable but frozen Soviet Union, militarily mighty yet economically exhausted. The Brezhnev Doctrine ruled Eastern Europe until Gorbachev abandoned it."
   }
 }

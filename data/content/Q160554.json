@@ -32,5 +32,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né à Karachi en 1876 dans une famille de marchands khojas, Muhammad Ali Jinnah part à seize ans pour Londres, où il est admis au barreau à Lincoln's Inn en 1895. Avocat brillant à Bombay, il rejoint le Congrès national indien en 1906, puis la Ligue musulmane en 1913. Surnommé l'ambassadeur de l'unité hindou-musulmane, il négocie en 1916 le pacte de Lucknow entre les deux organisations. Hostile à la désobéissance de masse lancée par Gandhi, il quitte le Congrès en 1920 et s'installe un temps à Londres, avant de revenir prendre la tête de la Ligue en 1934. Convaincu que les musulmans seraient marginalisés dans une Inde unie, il fait adopter en mars 1940 la résolution de Lahore, qui réclame des États séparés pour les régions à majorité musulmane. Son appel à une « journée d'action directe » en août 1946 est suivi de massacres intercommunautaires à Calcutta. La partition du 14 août 1947 crée le Pakistan, dont il devient le gouverneur général et le président de l'Assemblée constituante, tandis que des violences de masse et l'exode de millions de réfugiés accompagnent la séparation. Déjà atteint de tuberculose, il meurt à Karachi en septembre 1948, à peine treize mois après l'indépendance.",
+    "en": "Born in Karachi in 1876 into a Khoja merchant family, Muhammad Ali Jinnah went to London at sixteen and was called to the bar at Lincoln's Inn in 1895. A brilliant lawyer in Bombay, he joined the Indian National Congress in 1906 and the Muslim League in 1913. Hailed as an ambassador of Hindu–Muslim unity, he brokered the 1916 Lucknow Pact between the two bodies. Opposed to Gandhi's mass civil disobedience, he left Congress in 1920 and spent some years in London before returning to lead the League in 1934. Convinced that Muslims would be sidelined in a united India, he secured the Lahore Resolution of March 1940, calling for separate states in the Muslim-majority regions. His call for a Direct Action Day in August 1946 was followed by communal massacres in Calcutta. Partition on 14 August 1947 created Pakistan, with Jinnah as governor-general and president of its Constituent Assembly, as mass killings and the flight of millions of refugees accompanied the split. Already suffering from tuberculosis, he died in Karachi in September 1948, barely thirteen months after independence."
+  },
+  "highlights": {
+    "fr": [
+      "Admis au barreau à Lincoln's Inn, à Londres, en 1895",
+      "Négocie le pacte de Lucknow entre le Congrès et la Ligue en 1916",
+      "Fait adopter la résolution de Lahore en mars 1940",
+      "Fonde le Pakistan et en devient gouverneur général en août 1947"
+    ],
+    "en": [
+      "Called to the bar at Lincoln's Inn, London, in 1895",
+      "Brokered the Lucknow Pact between Congress and the League in 1916",
+      "Secured the Lahore Resolution in March 1940",
+      "Founded Pakistan and became its governor-general in August 1947"
+    ]
+  },
+  "legacy": {
+    "fr": "Vénéré au Pakistan comme le Quaid-e-Azam, le « Grand Chef », il reste en Inde l'homme associé à la partition et à ses violences.",
+    "en": "Revered in Pakistan as the Quaid-e-Azam, the Great Leader, he remains in India the man associated with partition and its bloodshed."
   }
 }

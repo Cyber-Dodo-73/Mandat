@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Jean de Bragance naît en mai 1767 à Lisbonne, deuxième fils de la reine Marie Ire, et devient héritier du trône à la mort de son frère aîné en 1788. La folie de sa mère le conduit à gouverner à sa place, officiellement comme régent à partir de 1799. En novembre 1807, alors que les troupes de Napoléon envahissent le Portugal, il embarque avec la cour et l’appareil de l’État sous escorte britannique et s’installe à Rio de Janeiro au début de 1808. Il ouvre aussitôt les ports brésiliens au commerce des nations amies et dote la colonie d’une banque, d’une imprimerie, d’une bibliothèque royale et d’écoles militaires et médicales. En 1815, il élève le Brésil au rang de royaume uni au Portugal, puis devient roi à la mort de sa mère en 1816. La révolution libérale de Porto, en 1820, l’oblige à rentrer à Lisbonne en 1821 et à accepter une constitution, laissant au Brésil son fils Pierre, qui proclame l’indépendance en septembre 1822. Il doit ensuite résister aux soulèvements absolutistes de son autre fils, Michel, en 1823 et 1824, et reconnaît l’indépendance du Brésil en 1825. Il meurt à Lisbonne en mars 1826 ; des analyses de ses restes ont révélé de fortes doses d’arsenic.",
+    "en": "John of Braganza was born in May 1767 in Lisbon, the second son of Queen Maria I, and became heir to the throne when his elder brother died in 1788. His mother's mental illness led him to rule in her stead, formally as regent from 1799. In November 1807, as Napoleon's troops invaded Portugal, he sailed with the court and the machinery of state under British escort and settled in Rio de Janeiro in early 1808. He promptly opened Brazil's ports to friendly nations and gave the colony a bank, a printing press, a royal library and military and medical schools. In 1815 he raised Brazil to a kingdom united with Portugal, and he became king on his mother's death in 1816. The 1820 liberal revolution in Porto forced him back to Lisbon in 1821 to accept a constitution, leaving his son Pedro in Brazil, who declared independence in September 1822. He then had to withstand absolutist uprisings led by his other son, Miguel, in 1823 and 1824, and recognised Brazil's independence in 1825. He died in Lisbon in March 1826; tests on his remains later found high levels of arsenic."
+  },
+  "highlights": {
+    "fr": [
+      "Régent du Portugal à partir de 1799",
+      "Transfère la cour portugaise à Rio de Janeiro en 1808",
+      "Ouvre les ports du Brésil au commerce international en 1808",
+      "Élève le Brésil au rang de royaume uni au Portugal en 1815",
+      "Reconnaît l’indépendance du Brésil en 1825"
+    ],
+    "en": [
+      "Regent of Portugal from 1799",
+      "Moved the Portuguese court to Rio de Janeiro in 1808",
+      "Opened Brazil's ports to international trade in 1808",
+      "Raised Brazil to a kingdom united with Portugal in 1815",
+      "Recognised Brazil's independence in 1825"
+    ]
+  },
+  "legacy": {
+    "fr": "En installant la monarchie à Rio, il a fait du Brésil le centre d’un empire et préparé, sans le vouloir, son indépendance pacifique et son unité territoriale.",
+    "en": "By moving the monarchy to Rio, he made Brazil the centre of an empire and unwittingly prepared its peaceful independence and territorial unity."
   }
 }

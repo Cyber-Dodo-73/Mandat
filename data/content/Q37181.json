@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Luiz Inácio da Silva, dit Lula, naît le 27 octobre 1945 à Caetés, dans le Pernambouc, au sein d'une famille pauvre qui émigre vers São Paulo en 1952. Cireur de chaussures puis métallurgiste, il perd un doigt dans un accident d'usine avant de devenir, en 1975, président du syndicat des métallurgistes de São Bernardo do Campo. Il dirige les grandes grèves de 1978 à 1980 contre la dictature militaire, est brièvement emprisonné et cofonde en 1980 le Parti des travailleurs. Député fédéral de 1987 à 1991, il participe à la rédaction de la Constitution, puis échoue trois fois à la présidentielle. Élu en 2002, il gouverne de 2003 à 2010 : programmes comme Bolsa Família et forte croissance permettent de sortir des dizaines de millions de Brésiliens de la pauvreté, malgré le scandale de corruption du mensalão en 2005. Il quitte le pouvoir très populaire, mais est condamné dans l'affaire Lava Jato et passe 580 jours en prison en 2018-2019, avant que la Cour suprême n'annule ses condamnations en 2021. Élu de nouveau face à Jair Bolsonaro en 2022, il entame son troisième mandat le 1er janvier 2023, une semaine avant l'assaut des partisans de son rival à Brasília, et fait de l'Amazonie une priorité internationale.",
+    "en": "Luiz Inácio da Silva, known as Lula, was born on 27 October 1945 in Caetés, Pernambuco, into a poor family that migrated to São Paulo in 1952. A shoeshine boy and then a metalworker, he lost a finger in a factory accident before becoming head of the São Bernardo do Campo metalworkers' union in 1975. He led the great strikes of 1978 to 1980 against the military dictatorship, was briefly jailed, and co-founded the Workers' Party in 1980. A federal deputy from 1987 to 1991, he helped draft the new constitution, then lost three presidential races. Elected in 2002, he governed from 2003 to 2010; programmes such as Bolsa Família and strong growth lifted tens of millions of Brazilians out of poverty, despite the 2005 mensalão vote-buying scandal. He left office highly popular but was later convicted in the Car Wash investigation and spent 580 days in prison in 2018–2019, before the Supreme Court annulled his convictions in 2021. Elected again against Jair Bolsonaro in 2022, he began a third term on 1 January 2023, a week before his rival's supporters stormed Brasília, and made the Amazon a diplomatic priority."
+  },
+  "highlights": {
+    "fr": [
+      "1978-1980 : mène les grandes grèves ouvrières contre la dictature",
+      "1980 : cofonde le Parti des travailleurs (PT)",
+      "2003-2010 : président, Bolsa Família réduit fortement la pauvreté",
+      "2018-2019 : 580 jours de prison, condamnations annulées en 2021",
+      "2023 : entame un troisième mandat présidentiel après sa victoire sur Bolsonaro"
+    ],
+    "en": [
+      "1978–1980: led major workers' strikes against the dictatorship",
+      "1980: co-founded the Workers' Party (PT)",
+      "2003–2010: as president, cut poverty sharply with Bolsa Família",
+      "2018–2019: spent 580 days in prison; convictions annulled in 2021",
+      "2023: began a third presidential term after defeating Bolsonaro"
+    ]
+  },
+  "legacy": {
+    "fr": "Ouvrier devenu trois fois président, Lula incarne la gauche brésilienne et la lutte contre la faim, malgré l'ombre des affaires de corruption.",
+    "en": "A factory worker turned three-time president, Lula embodies Brazil's left and the fight against hunger, despite the shadow of corruption scandals."
   }
 }

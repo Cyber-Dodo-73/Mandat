@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Khomein vers 1900 dans une famille de religieux chiites, Rouhollah Moussavi Khomeini perd son père encore nourrisson et étudie la théologie à Arak puis à Qom, où il devient un enseignant renommé. Il s'oppose publiquement en 1963 aux réformes du shah et à l'influence américaine, ce qui lui vaut l'arrestation puis, en 1964, l'exil en Turquie et, dès 1965, à Nadjaf en Irak. Il y développe la doctrine du velayat-e faqih, le gouvernement du juriste islamique. Expulsé d'Irak en 1978, il s'installe à Neauphle-le-Château, près de Paris, d'où il guide la révolution qui renverse Mohammad Reza Pahlavi. Il rentre triomphalement à Téhéran le 1er février 1979, fait proclamer la République islamique par référendum et devient Guide suprême. Son régime élimine opposants de gauche, libéraux et minorités, impose le voile et soutient la prise d'otages de l'ambassade américaine, qui dure 444 jours. Il prolonge la guerre contre l'Irak de Saddam Hussein jusqu'au cessez-le-feu de 1988, au prix de centaines de milliers de morts. Durant l'été 1988, il ordonne l'exécution de milliers de prisonniers politiques, et en février 1989 il lance une fatwa appelant au meurtre de l'écrivain Salman Rushdie. Il meurt à Téhéran le 3 juin 1989.",
+    "en": "Born in Khomein around 1900 into a family of Shia clerics, Ruhollah Mousavi Khomeini lost his father as an infant and studied theology in Arak and then Qom, where he became a prominent teacher. In 1963 he openly denounced the Shah's reforms and American influence, which led to his arrest and, in 1964, exile first to Turkey and from 1965 to Najaf in Iraq. There he developed the doctrine of velayat-e faqih, rule by the Islamic jurist. Expelled from Iraq in 1978, he settled at Neauphle-le-Château near Paris, from where he steered the revolution that toppled Mohammad Reza Pahlavi. He returned to Tehran in triumph on 1 February 1979, had the Islamic Republic approved by referendum and became Supreme Leader. His regime crushed leftists, liberals and minorities, imposed compulsory veiling and backed the seizure of the US embassy, whose staff were held hostage for 444 days. He kept the war with Saddam Hussein's Iraq going until the 1988 ceasefire, at a cost of hundreds of thousands of lives. In the summer of 1988 he ordered the execution of thousands of political prisoners, and in February 1989 he issued a fatwa calling for the killing of the writer Salman Rushdie. He died in Tehran on 3 June 1989."
+  },
+  "highlights": {
+    "fr": [
+      "Exilé en 1964 pour son opposition au shah, il vit quatorze ans hors d'Iran",
+      "Rentre à Téhéran le 1er février 1979 et fonde la République islamique",
+      "Soutient la prise d'otages de l'ambassade américaine (1979-1981)",
+      "Ordonne en 1988 l'exécution de milliers de prisonniers politiques",
+      "Lance en 1989 une fatwa appelant au meurtre de Salman Rushdie"
+    ],
+    "en": [
+      "Exiled in 1964 for opposing the Shah, he spent fourteen years abroad",
+      "Returned to Tehran on 1 February 1979 and founded the Islamic Republic",
+      "Backed the US embassy hostage crisis of 1979–1981",
+      "Ordered the execution of thousands of political prisoners in 1988",
+      "Issued a 1989 fatwa calling for the killing of Salman Rushdie"
+    ]
+  },
+  "legacy": {
+    "fr": "Le système théocratique qu'il a fondé gouverne toujours l'Iran, et son modèle de révolution islamique continue d'inspirer et d'inquiéter bien au-delà du pays.",
+    "en": "The theocratic system he founded still rules Iran, and his model of Islamic revolution continues to inspire and alarm far beyond the country."
   }
 }

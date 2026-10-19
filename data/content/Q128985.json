@@ -32,5 +32,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Harold Macmillan naît en 1894 à Chelsea, petit-fils du fondateur de la maison d'édition Macmillan et fils d'une Américaine. Ses études à Oxford sont interrompues par la Première Guerre mondiale, où il est blessé à plusieurs reprises avec les Grenadier Guards, notamment pendant la bataille de la Somme. Élu député conservateur de Stockton-on-Tees en 1924, il défend dans les années 1930 une économie mixte et s'oppose à la politique d'apaisement envers Hitler. Pendant la guerre, il représente le gouvernement britannique en Méditerranée auprès d'Eisenhower ; en 1945, il est mêlé au rapatriement forcé de Cosaques et de Yougoslaves vers leurs pays. Ministre du Logement à partir de 1951, il atteint l'objectif de 300 000 logements par an, puis occupe la Défense, les Affaires étrangères et l'Échiquier. Il succède à Anthony Eden en janvier 1957 après la crise de Suez, rétablit les liens avec les États-Unis et remporte nettement les élections de 1959. Le 3 février 1960, au Cap, son discours sur le « vent du changement » annonce la décolonisation de l'Afrique britannique. Il signe en 1963 le traité d'interdiction partielle des essais nucléaires, mais la candidature britannique à la Communauté européenne est rejetée par de Gaulle la même année. Fragilisé par l'affaire Profumo, il démissionne en octobre 1963 pour raison de santé, est fait comte de Stockton en 1984 et meurt en décembre 1986.",
+    "en": "Harold Macmillan was born in Chelsea in 1894, the grandson of the founder of the Macmillan publishing house and the son of an American mother. His studies at Oxford were cut short by the First World War, in which he was wounded several times with the Grenadier Guards, notably at the Somme. Elected Conservative MP for Stockton-on-Tees in 1924, he championed a mixed economy in the 1930s and opposed appeasing Hitler. During the war he represented the British government in the Mediterranean alongside Eisenhower, and in 1945 he was involved in the forced repatriation of Cossacks and Yugoslavs. As housing minister from 1951 he hit the target of 300,000 homes a year, then held defence, the Foreign Office and the Treasury. He succeeded Anthony Eden in January 1957 after the Suez crisis, mended ties with the United States and won the 1959 election comfortably. On 3 February 1960 in Cape Town, his 'wind of change' speech signalled decolonisation in British Africa. He signed the Partial Test Ban Treaty in 1963, but Britain's bid to join the European Community was vetoed by de Gaulle that same year. Weakened by the Profumo affair, he resigned on health grounds in October 1963, was made Earl of Stockton in 1984 and died in December 1986."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre du Logement : 300 000 logements par an au début des années 1950",
+      "Premier ministre du Royaume-Uni de 1957 à 1963",
+      "Large victoire aux élections de 1959",
+      "Discours du « vent du changement » au Cap le 3 février 1960",
+      "Traité d'interdiction partielle des essais nucléaires en 1963"
+    ],
+    "en": [
+      "Housing minister: 300,000 homes a year in the early 1950s",
+      "Prime Minister of the United Kingdom from 1957 to 1963",
+      "Comfortable win in the 1959 general election",
+      "'Wind of change' speech in Cape Town on 3 February 1960",
+      "Partial Nuclear Test Ban Treaty in 1963"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a conduit le Royaume-Uni de l'après-Suez vers la fin de l'Empire et une relation privilégiée avec les États-Unis.",
+    "en": "He steered post-Suez Britain towards the end of empire and a close partnership with the United States."
   }
 }

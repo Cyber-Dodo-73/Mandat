@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Alan García naît en mai 1949 à Lima dans une famille militante de l’APRA, le parti de Víctor Raúl Haya de la Torre, dont il devient le protégé. Après des études de droit au Pérou puis à Madrid et à Paris, il est élu à l’Assemblée constituante de 1978, puis député en 1980. En 1985, à trente-six ans, il devient le plus jeune président du pays et décide de plafonner le remboursement de la dette extérieure à 10 % des exportations. Sa tentative de nationaliser les banques en 1987 et une politique budgétaire expansionniste mènent à l’hyperinflation, qui dépasse 7 000 % en 1990, tandis que le Sentier lumineux étend la guerre. En 1986, l’écrasement de mutineries dans des prisons de Lima fait environ 250 morts parmi les détenus. Après l’autocoup d’Alberto Fujimori en 1992, il s’exile en Colombie puis en France. Revenu en 2001, il remporte la présidentielle de 2006 face à Ollanta Humala et gouverne cette fois en libéral, porté par une forte croissance et un accord de libre-échange avec les États-Unis, mais aussi marqué par les affrontements meurtriers de Bagua en 2009. Visé par l’enquête sur les pots-de-vin d’Odebrecht, il se tire une balle le 17 avril 2019, à Lima, au moment où la police vient l’arrêter.",
+    "en": "Alan García was born in May 1949 in Lima to a family of APRA activists and became the protégé of the party's founder, Víctor Raúl Haya de la Torre. After studying law in Peru and then in Madrid and Paris, he was elected to the 1978 constituent assembly and to Congress in 1980. In 1985, at thirty-six, he became the country's youngest president and capped foreign debt payments at 10% of export earnings. His 1987 attempt to nationalise the banks and loose fiscal policy led to hyperinflation, which topped 7,000% in 1990, while the Shining Path widened its war. In 1986 the crushing of prison riots in Lima left around 250 inmates dead. After Alberto Fujimori's 1992 self-coup he went into exile in Colombia and then France. Returning in 2001, he won the 2006 election against Ollanta Humala and this time governed as a free-marketeer, buoyed by strong growth and a free trade agreement with the United States, but also marked by the deadly Bagua clashes of 2009. Under investigation in the Odebrecht bribery case, he shot himself in Lima on 17 April 2019 as police arrived to arrest him."
+  },
+  "highlights": {
+    "fr": [
+      "Plus jeune président du Pérou, élu en 1985 à 36 ans",
+      "Plafonne le remboursement de la dette à 10 % des exportations",
+      "Président une seconde fois de 2006 à 2011",
+      "Signe un accord de libre-échange avec les États-Unis, entré en vigueur en 2009"
+    ],
+    "en": [
+      "Peru's youngest president, elected in 1985 at 36",
+      "Capped debt payments at 10% of export earnings",
+      "President for a second time from 2006 to 2011",
+      "Signed a free trade deal with the United States, in force from 2009"
+    ]
+  },
+  "legacy": {
+    "fr": "Orateur hors pair et figure dominante de l’APRA, il laisse le souvenir contrasté d’un premier mandat désastreux, d’un second plus prospère et d’une fin liée au scandale Odebrecht.",
+    "en": "A gifted orator and APRA's dominant figure, he leaves a mixed record: a disastrous first term, a more prosperous second and an end tied to the Odebrecht scandal."
   }
 }

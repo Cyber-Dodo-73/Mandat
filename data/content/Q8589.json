@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Ashoka naît vers 304 avant notre ère à Pataliputra, l'actuelle Patna, petit-fils de Chandragupta, fondateur de l'empire Maurya. Fils de l'empereur Bindusara, il aurait gouverné les provinces de Taxila et d'Ujjain avant de s'emparer du trône à la mort de son père, au terme d'une lutte de succession avec ses frères. Son couronnement est daté vers 268 avant notre ère. Vers 261, il conquiert le royaume du Kalinga, sur la côte orientale, dans une guerre que ses propres inscriptions décrivent comme un carnage : environ 100 000 tués et 150 000 déportés. Bouleversé par ces souffrances, il se rapproche du bouddhisme et adopte le dhamma, une éthique de non-violence, de tolérance et de respect de la vie. Il fait graver ses édits sur des rochers et des piliers dans tout le sous-continent, crée des hôpitaux pour les hommes et les animaux, et envoie des missionnaires jusqu'à Ceylan et dans le monde hellénistique. Son empire couvre alors presque toute l'Inde, de l'Afghanistan actuel au Bengale. Il meurt vers 232 avant notre ère, et l'empire Maurya se disloque dans les décennies suivantes.",
+    "en": "Ashoka was born around 304 BCE in Pataliputra, today's Patna, a grandson of Chandragupta, founder of the Maurya Empire. A son of Emperor Bindusara, he is said to have governed the provinces of Taxila and Ujjain before seizing the throne on his father's death after a succession struggle with his brothers. His coronation is dated to about 268 BCE. Around 261 BCE he conquered the kingdom of Kalinga on the east coast in a war his own inscriptions describe as a slaughter: some 100,000 killed and 150,000 deported. Shaken by that suffering, he turned towards Buddhism and embraced dhamma, an ethic of non-violence, tolerance and respect for life. He had his edicts carved on rocks and pillars across the subcontinent, set up hospitals for people and animals, and sent missionaries as far as Sri Lanka and the Hellenistic world. His empire then covered almost all of India, from present-day Afghanistan to Bengal. He died around 232 BCE, and the Maurya Empire broke apart within a few decades."
+  },
+  "highlights": {
+    "fr": [
+      "Vers 268 av. J.-C. : couronné empereur Maurya à Pataliputra",
+      "Vers 261 av. J.-C. : conquête sanglante du Kalinga",
+      "Fait graver ses édits sur des rochers et des piliers dans toute l'Inde",
+      "Envoie des missions bouddhistes jusqu'à Ceylan",
+      "Son chapiteau aux lions de Sarnath est l'emblème de l'Inde"
+    ],
+    "en": [
+      "c. 268 BCE: crowned Maurya emperor at Pataliputra",
+      "c. 261 BCE: bloody conquest of Kalinga",
+      "Had his edicts carved on rocks and pillars across India",
+      "Sent Buddhist missions as far as Sri Lanka",
+      "His lion capital at Sarnath is India's national emblem"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa roue du dharma figure sur le drapeau indien et ses édits restent parmi les plus anciens textes déchiffrés de l'Inde ; il incarne le souverain converti à la non-violence.",
+    "en": "His dharma wheel sits on India's flag and his edicts are among the oldest deciphered texts of India; he stands as the ruler who turned to non-violence."
   }
 }

@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Fils d'un pasteur baptiste né en Irlande, Chester Alan Arthur naît en 1829 à Fairfield, dans le comté de Franklin, dans le Vermont. Diplômé de l'Union College en 1848, il enseigne puis devient avocat à New York, où il plaide en 1855 pour Elizabeth Jennings, une Afro-Américaine expulsée d'un tramway. Pendant la guerre de Sécession, il est intendant général de la milice de l'État de New York. Proche de la machine républicaine du sénateur Roscoe Conkling, il est nommé en 1871 receveur des douanes du port de New York, poste lucratif qu'il occupe jusqu'à sa révocation par le président Hayes en 1878. Choisi comme colistier de James Garfield pour satisfaire la faction de Conkling, il devient vice-président en mars 1881. Garfield est blessé par balle en juillet par Charles Guiteau et meurt le 19 septembre 1881 ; Arthur prête alors serment à New York. Contre toute attente, il signe en 1883 la loi Pendleton, qui recrute les fonctionnaires fédéraux sur concours. Il signe aussi en 1882 la loi d'exclusion des Chinois, après avoir rejeté une première version, et lance la modernisation de la marine. Malade des reins, il n'obtient pas l'investiture en 1884 et meurt à New York en 1886.",
+    "en": "The son of an Irish-born Baptist preacher, Chester Alan Arthur was born in 1829 in Fairfield, Franklin County, Vermont. After graduating from Union College in 1848 he taught school and became a lawyer in New York, where in 1855 he represented Elizabeth Jennings, a Black woman thrown off a streetcar. During the Civil War he served as quartermaster general of the New York militia. Closely tied to Senator Roscoe Conkling's Republican machine, he was named Collector of the Port of New York in 1871, a lucrative post he held until President Hayes removed him in 1878. Chosen as James Garfield's running mate to placate the Conkling faction, he became vice president in March 1881. Garfield was shot by Charles Guiteau in July and died on 19 September 1881, and Arthur was sworn in in New York. Defying expectations, he signed the Pendleton Act in 1883, which required federal jobs to be filled through competitive exams. He also signed the Chinese Exclusion Act of 1882 after vetoing an earlier version, and began rebuilding the navy. Suffering from kidney disease, he failed to win his party's nomination in 1884 and died in New York in 1886."
+  },
+  "highlights": {
+    "fr": [
+      "Receveur des douanes du port de New York de 1871 à 1878",
+      "21e président des États-Unis après l'assassinat de Garfield en 1881",
+      "Signe la loi Pendleton sur la fonction publique en 1883",
+      "Signe la loi d'exclusion des Chinois en 1882"
+    ],
+    "en": [
+      "Collector of the Port of New York from 1871 to 1878",
+      "21st US president after Garfield's assassination in 1881",
+      "Signed the Pendleton civil service act in 1883",
+      "Signed the Chinese Exclusion Act in 1882"
+    ]
+  },
+  "legacy": {
+    "fr": "Issu d'une machine politique clientéliste, il est paradoxalement retenu comme le président qui a fondé une fonction publique fédérale recrutée au mérite.",
+    "en": "A product of a patronage machine, he is paradoxically remembered as the president who founded a merit-based federal civil service."
   }
 }

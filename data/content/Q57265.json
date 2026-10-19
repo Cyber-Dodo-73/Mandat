@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1944 dans un village de la province du Nil, Omar al-Bachir s'engage dans l'armée soudanaise et combat aux côtés des forces égyptiennes lors de la guerre de 1973. Devenu général de brigade, il renverse le gouvernement élu de Sadek al-Mahdi le 30 juin 1989, avec le soutien du Front national islamique de Hassan al-Tourabi. Il impose la charia, réprime l'opposition et accueille Oussama ben Laden jusqu'en 1996, ce qui vaut au Soudan des sanctions américaines. En 1999, il écarte Tourabi et concentre tous les pouvoirs. En 2005, l'accord de paix global met fin à plus de vingt ans de guerre avec le Sud. Au Darfour, à partir de 2003, son régime arme les milices janjawids contre les populations non arabes : villages incendiés, viols de masse, environ 300 000 morts selon l'ONU et plus de deux millions de déplacés. La Cour pénale internationale émet contre lui des mandats d'arrêt en 2009 puis en 2010, notamment pour génocide ; il est le premier chef d'État en exercice ainsi visé. Le Soudan du Sud devient indépendant en 2011. Fin 2018, la hausse du prix du pain déclenche des manifestations massives, et l'armée le destitue le 11 avril 2019. Il est ensuite condamné pour corruption et jugé pour son coup d'État de 1989.",
+    "en": "Born in 1944 in a village in River Nile state, Omar al-Bashir joined the Sudanese army and fought alongside Egyptian forces in the 1973 war. As a brigadier, he overthrew the elected government of Sadiq al-Mahdi on 30 June 1989, backed by Hassan al-Turabi's National Islamic Front. He imposed sharia law, crushed the opposition and hosted Osama bin Laden until 1996, bringing US sanctions on Sudan. In 1999 he sidelined Turabi and took all power for himself. In 2005 the Comprehensive Peace Agreement ended more than two decades of war with the South. In Darfur, from 2003, his regime armed the Janjaweed militias against non-Arab communities: villages were burned, mass rapes committed, around 300,000 people died according to UN estimates and more than two million were displaced. The International Criminal Court issued arrest warrants against him in 2009 and 2010, including for genocide, making him the first sitting head of state so charged. South Sudan became independent in 2011. In late 2018 a rise in bread prices set off mass protests, and the army removed him on 11 April 2019. He was later convicted of corruption and put on trial for his 1989 coup."
+  },
+  "highlights": {
+    "fr": [
+      "Prend le pouvoir par un coup d'État le 30 juin 1989",
+      "Signe en 2005 l'accord de paix global avec les rebelles du Sud",
+      "Visé par des mandats de la CPI en 2009 et 2010 pour les crimes au Darfour",
+      "Destitué par l'armée le 11 avril 2019 après des mois de manifestations"
+    ],
+    "en": [
+      "Seized power in a coup on 30 June 1989",
+      "Signed the 2005 Comprehensive Peace Agreement with southern rebels",
+      "Charged by the ICC in 2009 and 2010 over crimes in Darfur",
+      "Removed by the army on 11 April 2019 after months of protests"
+    ]
+  },
+  "legacy": {
+    "fr": "Son règne reste associé aux atrocités du Darfour et à la partition du pays ; il n'a jamais été remis à la CPI.",
+    "en": "His rule is defined by the Darfur atrocities and the partition of the country; he has never been handed over to the ICC."
   }
 }

@@ -30,5 +30,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Hirohito naît en 1901 à Tokyo, petit-fils de l'empereur Meiji, et reçoit une éducation militaire et scientifique, se passionnant pour la biologie marine. En 1921, il est le premier prince héritier japonais à voyager en Europe, puis devient régent la même année en raison de la maladie de son père. Il monte sur le trône en décembre 1926, ouvrant l'ère Shōwa. Sous son règne, les militaires prennent l'ascendant : le Japon envahit la Mandchourie en 1931, puis la Chine en 1937, guerre marquée par des massacres comme celui de Nankin. Il approuve l'entrée en guerre contre les États-Unis et les puissances occidentales, avec l'attaque de Pearl Harbor en décembre 1941. Après les bombardements atomiques d'Hiroshima et de Nagasaki, il annonce lui-même la capitulation à la radio le 15 août 1945. Les Américains choisissent de ne pas le poursuivre pour crimes de guerre ; en 1946, il renonce à son caractère divin et la nouvelle Constitution fait de lui un simple symbole de l'État. Il accompagne ensuite la reconstruction et l'essor économique du Japon, et meurt en 1989 au palais impérial de Tokyo après le plus long règne de l'histoire japonaise.",
+    "en": "Hirohito was born in 1901 in Tokyo, a grandson of Emperor Meiji, and received a military and scientific education, developing a lifelong interest in marine biology. In 1921 he became the first Japanese crown prince to tour Europe, and that same year he was made regent because of his father's illness. He took the throne in December 1926, opening the Shōwa era. During his reign the military gained the upper hand: Japan invaded Manchuria in 1931 and China in 1937, a war marked by massacres such as the one at Nanjing. He approved going to war with the United States and the Western powers, beginning with the attack on Pearl Harbor in December 1941. After the atomic bombings of Hiroshima and Nagasaki, he announced Japan's surrender himself in a radio broadcast on 15 August 1945. The Americans chose not to prosecute him for war crimes; in 1946 he renounced his divine status, and the new constitution reduced him to a symbol of the state. He then presided over Japan's reconstruction and economic boom, and died in 1989 at the Imperial Palace in Tokyo after the longest reign in Japanese history."
+  },
+  "highlights": {
+    "fr": [
+      "1921 : premier prince héritier japonais à visiter l'Europe",
+      "1926 : monte sur le trône, début de l'ère Shōwa",
+      "1941 : approuve l'entrée en guerre contre les États-Unis",
+      "15 août 1945 : annonce à la radio la capitulation du Japon",
+      "1946 : renonce publiquement à son statut divin"
+    ],
+    "en": [
+      "1921: first Japanese crown prince to visit Europe",
+      "1926: took the throne, start of the Shōwa era",
+      "1941: approved going to war against the United States",
+      "15 August 1945: announced Japan's surrender on the radio",
+      "1946: publicly renounced his divine status"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa responsabilité dans les guerres d'agression du Japon reste débattue ; son règne couvre à la fois l'expansion militariste, la défaite et le renouveau du pays.",
+    "en": "His share of responsibility for Japan's wars of aggression is still debated; his reign spans the country's militarist expansion, its defeat and its rebirth."
   }
 }

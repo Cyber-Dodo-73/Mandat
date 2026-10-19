@@ -29,5 +29,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1857 à Cincinnati dans une famille de juristes républicains, William Howard Taft sort de Yale en 1878 puis devient avocat et juge dans l'Ohio. Benjamin Harrison le nomme en 1890 solliciteur général, chargé de plaider pour l'État fédéral devant la Cour suprême, puis juge à la cour d'appel du sixième circuit en 1892. En 1900, William McKinley l'envoie présider la commission chargée des Philippines, récemment conquises, dont il devient le premier gouverneur civil de 1901 à 1903. Secrétaire à la Guerre de Theodore Roosevelt à partir de 1904, il supervise le chantier du canal de Panama. Désigné par Roosevelt comme successeur, il est élu président en 1908. Son administration lance de nombreuses poursuites antitrust, dont celle qui aboutit au démantèlement de la Standard Oil en 1911, et fait adopter le projet d'impôt fédéral sur le revenu. Ses choix sur les tarifs douaniers et la protection des terres publiques le brouillent avec Roosevelt, qui se présente contre lui en 1912, et Taft finit troisième derrière Woodrow Wilson. Professeur de droit à Yale, il est nommé en 1921 président de la Cour suprême par Warren Harding. Il quitte la Cour pour raisons de santé en février 1930 et meurt le mois suivant.",
+    "en": "Born in 1857 in Cincinnati into a family of Republican lawyers, William Howard Taft graduated from Yale in 1878 and became a lawyer and judge in Ohio. Benjamin Harrison made him Solicitor General in 1890, arguing the federal government's cases before the Supreme Court, and then a judge of the Sixth Circuit Court of Appeals in 1892. In 1900 William McKinley sent him to head the commission for the newly conquered Philippines, where he served as the first civilian governor from 1901 to 1903. As Theodore Roosevelt's Secretary of War from 1904, he oversaw construction of the Panama Canal. Picked by Roosevelt as his successor, he was elected president in 1908. His administration brought dozens of antitrust suits, including the one that broke up Standard Oil in 1911, and pushed through the proposal for a federal income tax. Clashes over tariffs and the conservation of public lands drove a wedge between him and Roosevelt, who ran against him in 1912, and Taft finished third behind Woodrow Wilson. After teaching law at Yale, he was appointed Chief Justice by Warren Harding in 1921. He left the Court for health reasons in February 1930 and died the following month."
+  },
+  "highlights": {
+    "fr": [
+      "Premier gouverneur civil des Philippines, de 1901 à 1903",
+      "27e président des États-Unis, de 1909 à 1913",
+      "Démantèlement de la Standard Oil en 1911 sous son mandat",
+      "Président de la Cour suprême de 1921 à 1930"
+    ],
+    "en": [
+      "First civilian governor of the Philippines, 1901–1903",
+      "27th President of the United States, 1909–1913",
+      "Standard Oil broken up under his administration in 1911",
+      "Chief Justice of the United States from 1921 to 1930"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste le seul Américain à avoir été à la fois président et président de la Cour suprême, fonction qu'il disait préférer.",
+    "en": "He remains the only American to have served as both president and Chief Justice, the job he said he preferred."
   }
 }

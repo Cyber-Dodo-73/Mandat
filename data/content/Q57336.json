@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Ali Khamenei naît en 1939 à Mashhad, dans une famille de clercs chiites, et étudie la théologie à Mashhad puis à Qom, où il devient un disciple de Rouhollah Khomeini. Opposant au chah, il est arrêté à plusieurs reprises par la police politique dans les années 1960 et 1970. Après la révolution de 1979, il occupe des fonctions liées à la défense, supervise un temps les Gardiens de la révolution et devient imam de la prière du vendredi à Téhéran en 1980. Gravement blessé par une bombe en juin 1981, il est élu président de la République en octobre de la même année et le reste jusqu'en 1989, pendant la guerre contre l'Irak. À la mort de Khomeini en juin 1989, l'Assemblée des experts le désigne Guide suprême, poste qui lui donne autorité sur l'armée, la justice et les médias d'État. Pendant plus de trois décennies, il arbitre la vie politique, soutient le programme nucléaire et les alliés régionaux de l'Iran, et cautionne la répression des grandes vagues de contestation, notamment en 2009 et après la mort de Mahsa Amini en 2022, qui fait des centaines de morts. Il meurt à Téhéran en 2026, après trente-sept ans à la tête du régime.",
+    "en": "Ali Khamenei was born in 1939 in Mashhad into a family of Shia clerics and studied theology in Mashhad and then Qom, where he became a follower of Ruhollah Khomeini. An opponent of the Shah, he was arrested several times by the secret police in the 1960s and 1970s. After the 1979 revolution he held defence posts, briefly oversaw the Revolutionary Guards and became Tehran's Friday prayer leader in 1980. Badly wounded by a bomb in June 1981, he was elected president that October and served until 1989, through the war with Iraq. When Khomeini died in June 1989, the Assembly of Experts named him Supreme Leader, a post giving him authority over the armed forces, the judiciary and state media. For more than three decades he arbitrated Iranian politics, backed the nuclear programme and Iran's regional allies, and endorsed the crackdowns on major protest waves, notably in 2009 and after Mahsa Amini's death in 2022, when hundreds were killed. He died in Tehran in 2026 after thirty-seven years at the head of the Islamic Republic."
+  },
+  "highlights": {
+    "fr": [
+      "Président de la République islamique pendant la guerre Iran-Irak (1981-1989)",
+      "Désigné Guide suprême à la mort de Khomeini en 1989",
+      "Commandant en chef des forces armées iraniennes de 1989 à 2026",
+      "Valide la répression des manifestations de 2009 et de 2022"
+    ],
+    "en": [
+      "President of the Islamic Republic during the Iran-Iraq War (1981-1989)",
+      "Named Supreme Leader on Khomeini's death in 1989",
+      "Commander-in-chief of Iran's armed forces from 1989 to 2026",
+      "Backed the crackdowns on the 2009 and 2022 protests"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a façonné la République islamique plus longtemps que son fondateur, imposant un pouvoir clérical intransigeant face à l'Occident et à sa propre population contestataire.",
+    "en": "He shaped the Islamic Republic for longer than its founder, imposing an uncompromising clerical rule against both the West and his own restive population."
   }
 }

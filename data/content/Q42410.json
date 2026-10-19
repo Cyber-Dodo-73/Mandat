@@ -32,5 +32,29 @@
         "value": "influence"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1959 dans un village aymara de la région d'Oruro, Evo Morales grandit dans une famille de bergers de lamas et émigre jeune vers la région tropicale du Chapare. Il y prend la tête des syndicats de cultivateurs de coca, en lutte contre les campagnes d'éradication soutenues par les États-Unis. Élu député en 1997, il est exclu du Congrès en 2002, puis termine deuxième de la présidentielle la même année. En décembre 2005, il remporte l'élection avec 54 % des voix et devient en janvier 2006 le premier président autochtone de Bolivie. Il nationalise les hydrocarbures dès mai 2006 et fait adopter en 2009 une Constitution qui fonde un État plurinational. Porté par les revenus du gaz, son gouvernement réduit fortement la pauvreté, et il est réélu en 2009 et 2014. Battu en 2016 lors d'un référendum sur un nouveau mandat, il se présente malgré tout en 2019 ; l'élection, entachée d'irrégularités selon l'OEA, déclenche des manifestations, et il démissionne en novembre sous la pression de l'armée. Rentré d'exil en 2020, il se brouille avec son successeur Luis Arce et est écarté de la présidentielle de 2025.",
+    "en": "Born in 1959 in an Aymara village in the Oruro region, Evo Morales grew up in a family of llama herders and moved young to the tropical Chapare region. There he rose to lead the coca growers' unions, which were fighting eradication campaigns backed by the United States. Elected to Congress in 1997, he was expelled in 2002 and then finished second in that year's presidential election. In December 2005 he won the presidency with 54% of the vote and in January 2006 became Bolivia's first Indigenous president. He nationalised oil and gas in May 2006 and in 2009 brought in a constitution founding a plurinational state. Buoyed by gas revenues, his government cut poverty sharply, and he was re-elected in 2009 and 2014. Defeated in a 2016 referendum on another term, he ran anyway in 2019; the vote, flawed according to the OAS, set off protests, and he resigned in November under pressure from the army. Back from exile in 2020, he fell out with his successor Luis Arce and was barred from the 2025 presidential race."
+  },
+  "highlights": {
+    "fr": [
+      "2006 : premier président autochtone de Bolivie",
+      "2006 : nationalise le pétrole et le gaz",
+      "2009 : nouvelle Constitution de l'État plurinational",
+      "2016 : perd le référendum sur un nouveau mandat",
+      "2019 : démissionne après une élection contestée"
+    ],
+    "en": [
+      "2006: Bolivia's first Indigenous president",
+      "2006: nationalises oil and gas",
+      "2009: new constitution for a plurinational state",
+      "2016: loses the referendum on another term",
+      "2019: resigns after a disputed election"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a donné aux peuples autochtones une place inédite au sommet de l'État, mais son refus de quitter le pouvoir a profondément divisé la Bolivie.",
+    "en": "He gave Indigenous peoples an unprecedented place at the top of the state, but his refusal to give up power deeply divided Bolivia."
   }
 }

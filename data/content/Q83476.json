@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né vers 849 à Wantage, dans l'actuel Oxfordshire, Alfred est le plus jeune fils du roi Æthelwulf de Wessex et n'était pas destiné à régner. En 871, en pleine invasion de la Grande Armée viking, il succède à son frère Æthelred après une série de batailles. Au début de 878, une attaque surprise des Danois de Guthrum à Chippenham le contraint à se réfugier dans les marais d'Athelney, dans le Somerset. Il rassemble pourtant une armée et l'emporte à Edington au printemps suivant ; Guthrum accepte le baptême et un partage du territoire qui fixe les limites du Danelaw. Alfred réorganise ensuite la défense du royaume : un réseau de places fortes, les burhs, une armée levée par roulement et une flotte. En 886, il occupe Londres, et nombre d'Anglo-Saxons hors du Danelaw le reconnaissent comme leur souverain. Il promulgue un code de lois et fait traduire en vieil anglais des œuvres latines, encourageant aussi la rédaction de la Chronique anglo-saxonne. Il repousse de nouvelles incursions vikings dans les années 890 et meurt en 899 à Winchester.",
+    "en": "Born around 849 at Wantage, in present-day Oxfordshire, Alfred was the youngest son of King Æthelwulf of Wessex and was not expected to rule. In 871, in the middle of the Viking Great Army's invasion, he succeeded his brother Æthelred after a string of battles. Early in 878 a surprise attack by Guthrum's Danes at Chippenham forced him to take refuge in the Somerset marshes at Athelney. He nonetheless raised an army and won at Edington that spring; Guthrum accepted baptism and a division of land that set the bounds of the Danelaw. Alfred then rebuilt the kingdom's defences with a network of fortified towns, or burhs, a rotating levy and a fleet. In 886 he took London, and many English outside Danish rule came to accept him as their king. He issued a law code, had Latin works translated into Old English and encouraged the compiling of the Anglo-Saxon Chronicle. He fought off renewed Viking raids in the 890s and died at Winchester in 899."
+  },
+  "highlights": {
+    "fr": [
+      "878 : vainc les Vikings de Guthrum à Edington après s'être réfugié à Athelney",
+      "Fixe avec Guthrum la frontière du Danelaw",
+      "Bâtit un réseau de places fortes (burhs) et une flotte",
+      "886 : prend Londres et devient « roi des Anglo-Saxons »",
+      "Fait traduire des œuvres latines en vieil anglais et promulgue un code de lois"
+    ],
+    "en": [
+      "878: defeated Guthrum's Vikings at Edington after hiding at Athelney",
+      "Agreed the boundary of the Danelaw with Guthrum",
+      "Built a network of fortified towns (burhs) and a fleet",
+      "886: took London and became 'King of the Anglo-Saxons'",
+      "Had Latin works translated into Old English and issued a law code"
+    ]
+  },
+  "legacy": {
+    "fr": "Seul roi anglais surnommé « le Grand », il est vu comme celui qui a sauvé le Wessex et posé les bases de l'unification de l'Angleterre.",
+    "en": "The only English king called 'the Great', he is credited with saving Wessex and laying the groundwork for a united England."
   }
 }

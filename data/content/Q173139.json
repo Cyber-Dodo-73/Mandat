@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "George Weah naît en 1966 à Clara Town, un quartier pauvre de Monrovia, et il est élevé par sa grand-mère. Repéré dans des clubs libériens puis au Cameroun, il est recruté en 1988 par l'AS Monaco d'Arsène Wenger. Il rejoint le Paris Saint-Germain en 1992, champion de France en 1994, puis l'AC Milan en 1995, avec lequel il remporte deux titres de champion d'Italie. En 1995, il devient le premier joueur africain à recevoir le Ballon d'Or et le titre de meilleur joueur FIFA de l'année. Pendant la guerre civile libérienne, il finance souvent lui-même l'équipe nationale, puis devient ambassadeur de l'UNICEF. Candidat à la présidentielle de 2005, il est battu au second tour par Ellen Johnson Sirleaf, puis échoue en 2011 comme colistier. Élu sénateur de Montserrado fin 2014, il remporte la présidentielle de 2017 face au vice-président Joseph Boakai et prend ses fonctions en janvier 2018, première alternance démocratique au Liberia depuis 1944. Son mandat est marqué par la gratuité des frais universitaires publics, mais aussi par la crise économique et des accusations de corruption dans son entourage. Battu de justesse par Boakai en novembre 2023, il reconnaît rapidement sa défaite et quitte le pouvoir en janvier 2024.",
+    "en": "George Weah was born in 1966 in Clara Town, a poor district of Monrovia, and was raised by his grandmother. Spotted at clubs in Liberia and then Cameroon, he was signed in 1988 by Arsène Wenger's AS Monaco. He moved to Paris Saint-Germain in 1992, winning the French title in 1994, then to AC Milan in 1995, where he won two Italian league titles. In 1995 he became the first African to receive the Ballon d'Or and FIFA's World Player of the Year award. During Liberia's civil war he often paid for the national team himself, and he went on to become a UNICEF ambassador. Running for president in 2005, he lost the run-off to Ellen Johnson Sirleaf, then fell short again in 2011 as a running mate. Elected senator for Montserrado at the end of 2014, he won the 2017 presidential election against Vice President Joseph Boakai and took office in January 2018, Liberia's first democratic handover since 1944. His term brought free tuition at public universities, but also economic hardship and corruption allegations around him. Narrowly beaten by Boakai in November 2023, he quickly conceded and stepped down in January 2024."
+  },
+  "highlights": {
+    "fr": [
+      "Premier Africain lauréat du Ballon d'Or, en 1995",
+      "Champion de France avec le PSG en 1994",
+      "Deux titres de champion d'Italie avec l'AC Milan",
+      "Président du Liberia de janvier 2018 à janvier 2024",
+      "Reconnaît sa défaite dès novembre 2023"
+    ],
+    "en": [
+      "First African to win the Ballon d'Or, in 1995",
+      "French champion with PSG in 1994",
+      "Two Italian league titles with AC Milan",
+      "President of Liberia from January 2018 to January 2024",
+      "Conceded defeat promptly in November 2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Légende du football africain, il a aussi contribué à ancrer au Liberia l'habitude des alternances pacifiques après des décennies de violence.",
+    "en": "A legend of African football, he also helped root peaceful transfers of power in Liberia after decades of violence."
   }
 }

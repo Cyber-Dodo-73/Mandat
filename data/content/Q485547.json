@@ -36,5 +36,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1618 à Dahod, Muhi al-Din Muhammad est le troisième fils du prince Khurram, futur Shah Jahan, et de Mumtaz Mahal. Enfant, il est retenu en otage à la cour de son grand-père Jahangir après une révolte de son père. Gouverneur du Deccan à partir de 1636, il commande aussi des campagnes en Asie centrale et contre les Safavides à Kandahar. Lorsque Shah Jahan tombe malade en 1657, une guerre de succession oppose ses fils : Aurangzeb bat son frère aîné Dara Shikoh à Samugarh en 1658, enferme son père au fort d'Agra et se proclame empereur sous le nom d'Alamgir. Il fait exécuter Dara en 1659, puis son frère Murad en 1661. Musulman sunnite rigoriste, il fait compiler un vaste recueil de droit islamique, rétablit en 1679 l'impôt sur les non-musulmans, la jizya, et fait détruire plusieurs grands temples hindous, dont ceux de Varanasi et de Mathura. En 1675, il fait exécuter le neuvième gourou sikh, Tegh Bahadur. À partir de 1681, il passe le reste de sa vie dans le Deccan, conquiert Bijapur en 1686 et Golconde en 1687, puis fait exécuter le souverain marathe Sambhaji en 1689. L'empire atteint alors sa plus grande extension, mais les guerres l'épuisent, et Aurangzeb meurt près d'Ahmednagar en 1707.",
+    "en": "Born in 1618 in Dahod, Muhi al-Din Muhammad was the third son of Prince Khurram, the future Shah Jahan, and Mumtaz Mahal. As a boy he was held hostage at the court of his grandfather Jahangir after his father's rebellion. Governor of the Deccan from 1636, he also led campaigns in Central Asia and against the Safavids at Kandahar. When Shah Jahan fell ill in 1657, his sons fought a war of succession: Aurangzeb defeated his elder brother Dara Shikoh at Samugarh in 1658, confined his father in Agra Fort and declared himself emperor as Alamgir. He had Dara executed in 1659 and his brother Murad in 1661. A strict Sunni Muslim, he commissioned a vast compendium of Islamic law, reimposed the jizya tax on non-Muslims in 1679, and had several major Hindu temples destroyed, including those at Varanasi and Mathura. In 1675 he had the ninth Sikh guru, Tegh Bahadur, executed. From 1681 he spent the rest of his life in the Deccan, conquering Bijapur in 1686 and Golconda in 1687, and executing the Maratha ruler Sambhaji in 1689. The empire then reached its greatest extent, but the wars drained it, and Aurangzeb died near Ahmednagar in 1707."
+  },
+  "highlights": {
+    "fr": [
+      "Bat Dara Shikoh à Samugarh et prend le pouvoir en 1658",
+      "Emprisonne son père Shah Jahan au fort d'Agra",
+      "Rétablit la jizya, impôt sur les non-musulmans, en 1679",
+      "Conquiert Bijapur (1686) et Golconde (1687)",
+      "Empire moghol à son apogée territorial, de Kaboul au Deccan"
+    ],
+    "en": [
+      "Defeated Dara Shikoh at Samugarh and seized power in 1658",
+      "Imprisoned his father Shah Jahan in Agra Fort",
+      "Reimposed the jizya tax on non-Muslims in 1679",
+      "Conquered Bijapur (1686) and Golconda (1687)",
+      "Mughal Empire at its greatest extent, from Kabul to the Deccan"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier grand empereur moghol, il reste l'un des souverains les plus controversés de l'histoire indienne en raison de sa politique religieuse.",
+    "en": "The last of the great Mughal emperors, he remains one of the most contested rulers in Indian history because of his religious policies."
   }
 }

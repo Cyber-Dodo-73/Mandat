@@ -29,5 +29,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Tabaré Vázquez naît en janvier 1940 à Montevideo, dans le quartier ouvrier de La Teja, et devient médecin oncologue et radiothérapeute. Membre du Parti socialiste au sein de la coalition de gauche Frente Amplio, il est élu en 1989 intendant de Montevideo, première fois que la gauche dirige la capitale. Battu aux présidentielles de 1994 et 1999, il l’emporte dès le premier tour en 2004 et devient en mars 2005 le premier président de gauche de l’histoire de l’Uruguay. Son gouvernement lance un plan d’urgence sociale, une réforme fiscale créant l’impôt sur le revenu, le plan Ceibal qui fournit un ordinateur à chaque écolier, et l’une des lois antitabac les plus strictes au monde. Il affronte aussi un long conflit avec l’Argentine au sujet d’une usine de pâte à papier sur le fleuve Uruguay. En 2008, fidèle à ses convictions personnelles, il oppose son veto à la dépénalisation de l’avortement votée par le Parlement. Réélu en 2014, il entame en mars 2015 un second mandat au cours duquel l’Uruguay gagne en 2016 l’arbitrage qui l’opposait au cigarettier Philip Morris. Il transmet le pouvoir en mars 2020 et meurt d’un cancer à Montevideo en décembre de la même année.",
+    "en": "Tabaré Vázquez was born in January 1940 in Montevideo's working-class La Teja district and became an oncologist and radiotherapist. A member of the Socialist Party within the left-wing Frente Amplio coalition, he was elected mayor of Montevideo in 1989, the first time the left had run the capital. Defeated in the 1994 and 1999 presidential elections, he won outright in 2004 and in March 2005 became the first left-wing president in Uruguay's history. His government launched a social emergency plan, a tax reform that created an income tax, the Ceibal plan giving every schoolchild a laptop, and one of the strictest anti-smoking laws in the world. He also faced a long dispute with Argentina over a pulp mill on the Uruguay River. In 2008, true to his personal convictions, he vetoed the decriminalisation of abortion passed by parliament. Re-elected in 2014, he began a second term in March 2015, during which Uruguay won its 2016 arbitration case against the tobacco giant Philip Morris. He handed over power in March 2020 and died of cancer in Montevideo in December that year."
+  },
+  "highlights": {
+    "fr": [
+      "Premier intendant de gauche de Montevideo, élu en 1989",
+      "Premier président de gauche de l’Uruguay en 2005",
+      "Lance le plan Ceibal, un ordinateur par écolier, en 2007",
+      "Impose une loi antitabac pionnière en 2006",
+      "Remporte l’arbitrage contre Philip Morris en 2016"
+    ],
+    "en": [
+      "Montevideo's first left-wing mayor, elected in 1989",
+      "Uruguay's first left-wing president in 2005",
+      "Launched the Ceibal plan, a laptop per pupil, in 2007",
+      "Brought in a pioneering anti-smoking law in 2006",
+      "Won the arbitration against Philip Morris in 2016"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a ouvert l’ère du Frente Amplio, qui a gouverné l’Uruguay quinze ans, et a fait du pays une référence mondiale de la lutte contre le tabac.",
+    "en": "He opened the Frente Amplio era, which governed Uruguay for fifteen years, and made the country a world reference in tobacco control."
   }
 }

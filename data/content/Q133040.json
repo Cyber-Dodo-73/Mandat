@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né à Lima en 1938 de parents immigrés japonais, Alberto Fujimori devient ingénieur agronome, complète sa formation aux États-Unis puis dirige l'Université nationale agraire de La Molina. Inconnu du grand public, il crée la surprise en 1990 en battant l'écrivain Mario Vargas Llosa à la présidentielle. Il applique aussitôt une thérapie de choc pour briser l'hyperinflation. Le 5 avril 1992, il dissout le Congrès et suspend la justice avec l'appui de l'armée, puis fait adopter une nouvelle Constitution en 1993. La capture d'Abimael Guzmán, chef du Sentier lumineux, en septembre 1992 renforce sa popularité, et il est réélu en 1995. Son régime, piloté en coulisse par le chef du renseignement Vladimiro Montesinos, recourt pourtant à l'escadron de la mort Colina, auteur des massacres de Barrios Altos (1991) et de La Cantuta (1992), et mène une campagne de stérilisations forcées visant surtout des femmes pauvres et autochtones. Réélu en 2000 au terme d'un scrutin contesté, il est emporté par la diffusion de vidéos montrant Montesinos en train d'acheter des députés. Il s'enfuit au Japon et démissionne par fax en novembre 2000. Arrêté au Chili en 2005 puis extradé, il est condamné en 2009 à 25 ans de prison. Gracié en 2017, réincarcéré, puis libéré fin 2023, il meurt à Lima en septembre 2024.",
+    "en": "Born in Lima in 1938 to Japanese immigrant parents, Alberto Fujimori trained as an agricultural engineer, studied further in the United States and became rector of the National Agrarian University in La Molina. A political unknown, he stunned Peru in 1990 by defeating the novelist Mario Vargas Llosa for the presidency. He immediately imposed shock therapy to break hyperinflation. On 5 April 1992, backed by the army, he dissolved Congress and suspended the courts, then had a new constitution adopted in 1993. The capture of Shining Path leader Abimael Guzmán in September 1992 boosted his standing, and he was re-elected in 1995. Yet his regime, run behind the scenes by intelligence chief Vladimiro Montesinos, relied on the Colina death squad, which carried out the Barrios Altos (1991) and La Cantuta (1992) massacres, and ran a forced sterilisation campaign aimed mostly at poor and indigenous women. Re-elected in a disputed 2000 vote, he was brought down when videos surfaced showing Montesinos bribing lawmakers. He fled to Japan and resigned by fax in November 2000. Arrested in Chile in 2005 and extradited, he was sentenced in 2009 to 25 years in prison. Pardoned in 2017, jailed again, then freed in late 2023, he died in Lima in September 2024."
+  },
+  "highlights": {
+    "fr": [
+      "Bat Mario Vargas Llosa à la présidentielle de 1990",
+      "Dissout le Congrès lors de son autogolpe du 5 avril 1992",
+      "Son régime capture Abimael Guzmán, chef du Sentier lumineux, en 1992",
+      "Condamné en 2009 à 25 ans de prison pour les massacres de Barrios Altos et La Cantuta"
+    ],
+    "en": [
+      "Defeated Mario Vargas Llosa in the 1990 presidential election",
+      "Dissolved Congress in his self-coup of 5 April 1992",
+      "His government captured Shining Path leader Abimael Guzmán in 1992",
+      "Sentenced in 2009 to 25 years for the Barrios Altos and La Cantuta massacres"
+    ]
+  },
+  "legacy": {
+    "fr": "Le « fujimorisme » reste une force politique majeure au Pérou, portée par sa fille Keiko, tandis que les victimes de son régime continuent de réclamer justice.",
+    "en": "Fujimorismo remains a major force in Peruvian politics, carried on by his daughter Keiko, while victims of his regime still demand justice."
   }
 }

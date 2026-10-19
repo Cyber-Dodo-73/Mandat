@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1944 dans le comté d'Eumseong, en Corée du Sud, Ban Ki-moon grandit dans un pays dévasté par la guerre de Corée. Lycéen, il remporte en 1962 un concours d'anglais qui lui vaut un voyage aux États-Unis et une rencontre avec John F. Kennedy. Diplômé en relations internationales de l'Université nationale de Séoul en 1970, il entre aussitôt au ministère des Affaires étrangères et complète sa formation à Harvard en 1985. Il gravit les échelons de la diplomatie, notamment comme ambassadeur en Autriche puis vice-ministre. Ministre des Affaires étrangères de 2004 à 2006 sous Roh Moo-hyun, il participe aux pourparlers à six sur le nucléaire nord-coréen. Élu huitième secrétaire général de l'ONU en octobre 2006, il prend ses fonctions le 1er janvier 2007 et est reconduit en 2011. Son mandat est marqué par le lancement d'ONU Femmes en 2010, l'adoption des objectifs de développement durable et la conclusion de l'accord de Paris sur le climat en 2015, mais aussi par les critiques sur la réponse de l'ONU à la guerre en Syrie et au choléra en Haïti. Après son départ fin 2016, il envisage brièvement de se présenter à la présidentielle sud-coréenne avant d'y renoncer en février 2017.",
+    "en": "Born in 1944 in Eumseong County, South Korea, Ban Ki-moon grew up in a country ravaged by the Korean War. As a schoolboy he won an English contest in 1962 that took him to the United States, where he met John F. Kennedy. After graduating in international relations from Seoul National University in 1970, he went straight into the foreign ministry and later earned a master's at Harvard in 1985. He rose through the diplomatic ranks, serving among other posts as ambassador to Austria and as vice minister. As foreign minister from 2004 to 2006 under Roh Moo-hyun, he took part in the six-party talks on North Korea's nuclear programme. Elected the eighth UN Secretary-General in October 2006, he took office on 1 January 2007 and won a second term in 2011. His tenure saw the launch of UN Women in 2010, the adoption of the Sustainable Development Goals and the signing of the Paris climate agreement in 2015, but also criticism of the UN's handling of the Syrian war and of cholera in Haiti. After stepping down at the end of 2016, he briefly considered a run for South Korea's presidency before dropping out in February 2017."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre sud-coréen des Affaires étrangères de 2004 à 2006",
+      "Secrétaire général de l'ONU de 2007 à 2016, deux mandats",
+      "Création d'ONU Femmes en 2010",
+      "Adoption des objectifs de développement durable en 2015",
+      "Accord de Paris sur le climat conclu en décembre 2015"
+    ],
+    "en": [
+      "South Korean foreign minister from 2004 to 2006",
+      "UN Secretary-General for two terms, from 2007 to 2016",
+      "Oversaw the creation of UN Women in 2010",
+      "Sustainable Development Goals adopted in 2015",
+      "Paris climate agreement reached in December 2015"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste associé à l'accord de Paris et aux objectifs de développement durable, qui structurent encore l'agenda international.",
+    "en": "He remains linked to the Paris Agreement and the Sustainable Development Goals, which still frame the global agenda."
   }
 }

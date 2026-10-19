@@ -36,5 +36,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Boston en 1932, benjamin des neuf enfants de Joseph et Rose Kennedy, Edward Kennedy est diplômé de Harvard en 1956, après une exclusion temporaire et un passage dans l'armée, puis de la faculté de droit de Virginie en 1959. Substitut du procureur à Boston, il est élu en 1962, à trente ans, au siège de sénateur laissé par son frère John. Il survit en 1964 à un accident d'avion et perd ses frères John et Robert, assassinés en 1963 et 1968. En juillet 1969, à Chappaquiddick, il quitte une route en voiture et la jeune Mary Jo Kopechne meurt noyée ; il plaide coupable de délit de fuite. Cette affaire pèse sur sa candidature de 1980 contre le président Jimmy Carter, qu'il ne parvient pas à battre aux primaires. Au Sénat, il pilote ou soutient des lois majeures sur l'immigration, les droits civiques, les handicapés en 1990, l'assurance santé des enfants en 1997 et l'éducation en 2001. Il défend toute sa vie l'idée d'une couverture santé universelle. Atteint d'une tumeur au cerveau, il meurt en août 2009 dans le Massachusetts, après près de quarante-sept ans de mandat.",
+    "en": "Born in Boston in 1932, the youngest of Joseph and Rose Kennedy's nine children, Edward Kennedy graduated from Harvard in 1956, after a temporary expulsion and a spell in the army, and from the University of Virginia law school in 1959. An assistant district attorney in Boston, he was elected in 1962, aged thirty, to the Senate seat his brother John had vacated. He survived a plane crash in 1964 and lost his brothers John and Robert to assassins in 1963 and 1968. In July 1969 on Chappaquiddick Island he drove off a bridge and the young Mary Jo Kopechne drowned; he pleaded guilty to leaving the scene of an accident. The episode weighed on his 1980 challenge to President Jimmy Carter, whom he failed to beat in the primaries. In the Senate he steered or backed major laws on immigration, civil rights, disability in 1990, children's health insurance in 1997 and education in 2001. He championed universal health coverage throughout his life. Stricken with a brain tumour, he died in Massachusetts in August 2009 after nearly forty-seven years in office."
+  },
+  "highlights": {
+    "fr": [
+      "1962 : élu sénateur du Massachusetts à 30 ans",
+      "1969 : l'accident de Chappaquiddick coûte la vie à Mary Jo Kopechne",
+      "1980 : échoue à battre Jimmy Carter aux primaires",
+      "1990 : soutient la loi sur les Américains handicapés",
+      "2009 : meurt après près de 47 ans au Sénat"
+    ],
+    "en": [
+      "1962: elected senator for Massachusetts at 30",
+      "1969: the Chappaquiddick crash kills Mary Jo Kopechne",
+      "1980: fails to beat Jimmy Carter in the primaries",
+      "1990: backs the Americans with Disabilities Act",
+      "2009: dies after nearly 47 years in the Senate"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé « le lion du Sénat », il est considéré comme l'un des législateurs les plus productifs de l'histoire américaine, malgré l'ombre de Chappaquiddick.",
+    "en": "Dubbed the 'Lion of the Senate', he is seen as one of the most productive lawmakers in US history, despite the shadow of Chappaquiddick."
   }
 }

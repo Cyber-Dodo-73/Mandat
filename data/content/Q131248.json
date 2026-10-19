@@ -35,5 +35,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1923 à Singapour, alors colonie britannique, dans une famille chinoise anglophone, Lee Kuan Yew étudie au Raffles College avant que l'occupation japonaise de 1942 à 1945 n'interrompe ses études. Il part ensuite étudier le droit à Cambridge, dont il sort parmi les premiers de sa promotion, puis devient avocat des syndicats à Singapour. En 1954, il cofonde le Parti d'action populaire, et il est élu à l'Assemblée en 1955. Lorsque Singapour obtient l'autonomie interne en 1959, il en devient Premier ministre, à 35 ans. Il fait entrer l'île dans la fédération de Malaisie en 1963, mais les tensions avec Kuala Lumpur conduisent à son expulsion, et Singapour devient indépendante le 9 août 1965. Il fonde le développement du pays sur les investissements étrangers, les logements publics, une épargne obligatoire, la lutte contre la corruption et l'anglais comme langue commune. Son gouvernement fait aussi détenir sans procès des opposants, notamment lors de l'opération Coldstore en 1963, et encadre étroitement la presse. Il cède le poste de Premier ministre en 1990 à Goh Chok Tong, puis reste au gouvernement comme ministre senior et ministre mentor jusqu'en 2011, et meurt en mars 2015.",
+    "en": "Born in 1923 in Singapore, then a British colony, into an English-speaking Chinese family, Lee Kuan Yew studied at Raffles College until the Japanese occupation of 1942–1945 cut his studies short. He later read law at Cambridge, graduating near the top of his class, and became a lawyer for trade unions in Singapore. In 1954 he co-founded the People's Action Party, and he was elected to the Assembly in 1955. When Singapore gained internal self-government in 1959, he became its prime minister at 35. He took the island into the Federation of Malaysia in 1963, but tensions with Kuala Lumpur led to its expulsion, and Singapore became independent on 9 August 1965. He built the country's growth on foreign investment, public housing, compulsory savings, a fight against corruption and English as a common language. His government also detained opponents without trial, notably in Operation Coldstore in 1963, and kept the press under tight control. He handed the premiership to Goh Chok Tong in 1990, stayed in the cabinet as senior minister and then minister mentor until 2011, and died in March 2015."
+  },
+  "highlights": {
+    "fr": [
+      "Cofonde le Parti d'action populaire en 1954",
+      "Premier ministre de Singapour de 1959 à 1990",
+      "Mène Singapour à l'indépendance le 9 août 1965",
+      "Ministre senior puis ministre mentor de 1990 à 2011"
+    ],
+    "en": [
+      "Co-founded the People's Action Party in 1954",
+      "Prime Minister of Singapore from 1959 to 1990",
+      "Led Singapore to independence on 9 August 1965",
+      "Senior minister then minister mentor from 1990 to 2011"
+    ]
+  },
+  "legacy": {
+    "fr": "Considéré comme le père du Singapour moderne, devenu l'un des pays les plus riches du monde, il reste aussi le modèle d'un pouvoir efficace mais peu tolérant envers l'opposition.",
+    "en": "Regarded as the father of modern Singapore, now one of the world's richest countries, he also remains a model of effective rule with little tolerance for dissent."
   }
 }

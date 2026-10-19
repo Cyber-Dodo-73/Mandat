@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Toutânkhamon naît vers 1343 avant notre ère, probablement à Akhetaton (Amarna), la capitale fondée par le pharaon Akhenaton, dont il est très vraisemblablement le fils. D'abord nommé Toutânkhaton, il monte sur le trône vers l'âge de neuf ans et épouse sa demi-sœur Ânkhésenamon. Sous l'influence de conseillers comme le dignitaire Aÿ et le général Horemheb, son règne rompt avec la révolution religieuse de son père, centrée sur le seul disque solaire Aton. Le culte d'Amon et des dieux traditionnels est rétabli, les temples sont restaurés, Amarna est abandonnée et le jeune roi change son nom en Toutânkhamon. Il meurt vers 1324 avant notre ère, à environ dix-neuf ans, sans héritier ; les causes de sa mort restent débattues, entre fracture de la jambe, paludisme et maladies héréditaires. Inhumé à la hâte dans une tombe modeste de la Vallée des Rois, près de Thèbes, il est remplacé par Aÿ. Sa sépulture, épargnée par les pilleurs, est découverte presque intacte par Howard Carter en novembre 1922, avec son masque d'or et des milliers d'objets.",
+    "en": "Tutankhamun was born around 1343 BCE, probably at Akhetaten (Amarna), the capital founded by Pharaoh Akhenaten, who was very likely his father. First named Tutankhaten, he came to the throne at about nine years old and married his half-sister Ankhesenamun. Guided by advisers such as the courtier Ay and the general Horemheb, his reign broke with his father's religious revolution, which had centred worship on the sun disc Aten alone. The cult of Amun and the traditional gods was restored, temples were repaired, Amarna was abandoned and the young king changed his name to Tutankhamun. He died around 1324 BCE, aged about nineteen and without an heir; the cause of death is still debated, with a broken leg, malaria and inherited disorders all proposed. Buried in haste in a small tomb in the Valley of the Kings near Thebes, he was succeeded by Ay. His tomb, largely spared by robbers, was found almost intact by Howard Carter in November 1922, along with his gold mask and thousands of objects."
+  },
+  "highlights": {
+    "fr": [
+      "Vers 1333 av. J.-C. : devient pharaon vers l'âge de neuf ans",
+      "Rétablit le culte d'Amon après la réforme religieuse d'Akhenaton",
+      "Abandonne Amarna et prend le nom de Toutânkhamon",
+      "Vers 1324 av. J.-C. : meurt vers 19 ans, inhumé dans la Vallée des Rois",
+      "1922 : sa tombe quasi intacte est découverte par Howard Carter"
+    ],
+    "en": [
+      "c. 1333 BCE: became pharaoh at around nine years old",
+      "Restored the cult of Amun after Akhenaten's religious reform",
+      "Abandoned Amarna and changed his name to Tutankhamun",
+      "c. 1324 BCE: died at about 19 and was buried in the Valley of the Kings",
+      "1922: his near-intact tomb was discovered by Howard Carter"
+    ]
+  },
+  "legacy": {
+    "fr": "Pharaon mineur de son vivant, Toutânkhamon est devenu le plus célèbre d'Égypte grâce à son trésor, symbole mondial de l'égyptologie.",
+    "en": "A minor pharaoh in his lifetime, Tutankhamun became Egypt's most famous thanks to his treasure, a worldwide symbol of Egyptology."
   }
 }

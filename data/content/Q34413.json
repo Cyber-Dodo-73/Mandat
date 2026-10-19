@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1953 à Karachi, Benazir Bhutto est la fille aînée de Zulfikar Ali Bhutto, fondateur du Parti du peuple pakistanais, et étudie à Harvard puis à Oxford. En 1977, son père est renversé par le général Zia ul-Haq, puis pendu en 1979 ; elle passe plusieurs années en prison ou en résidence surveillée avant de s'exiler. Revenue en 1986 et accueillie par des foules immenses, elle prend la tête du parti. Après la mort de Zia, elle remporte les élections de 1988 et devient, à 35 ans, la première femme à diriger le gouvernement d'un pays à majorité musulmane. Limogée en 1990 par le président sur fond d'accusations de corruption, elle redevient Première ministre de 1993 à 1996, avant d'être de nouveau destituée. Visée avec son mari Asif Ali Zardari par des procédures pour corruption, elle s'exile à Dubaï et Londres à partir de 1999. Elle rentre au Pakistan en octobre 2007 pour les élections ; un attentat contre son cortège fait environ 150 morts à Karachi le jour même. Le 27 décembre 2007, elle est assassinée à Rawalpindi lors d'un meeting, par une fusillade suivie d'un attentat-suicide.",
+    "en": "Born in Karachi in 1953, Benazir Bhutto was the eldest daughter of Zulfikar Ali Bhutto, founder of the Pakistan Peoples Party, and studied at Harvard and Oxford. In 1977 her father was toppled by General Zia ul-Haq and hanged in 1979; she spent years in jail or under house arrest before going into exile. She came home in 1986 to huge crowds and took charge of the party. After Zia's death she won the 1988 election and, at 35, became the first woman to head the government of a Muslim-majority country. Dismissed by the president in 1990 amid corruption charges, she returned as prime minister from 1993 to 1996, only to be removed once more. Facing graft cases alongside her husband Asif Ali Zardari, she lived in exile in Dubai and London from 1999. She returned to Pakistan in October 2007 to contest elections, and a bombing of her motorcade in Karachi that day killed around 150 people. On 27 December 2007 she was assassinated at a rally in Rawalpindi, by gunfire followed by a suicide blast."
+  },
+  "highlights": {
+    "fr": [
+      "1988 : première femme cheffe de gouvernement d'un pays à majorité musulmane",
+      "1993 : revient au pouvoir pour un second mandat de Première ministre",
+      "2007 : rentre d'exil pour mener son parti aux élections",
+      "27 décembre 2007 : assassinée lors d'un meeting à Rawalpindi"
+    ],
+    "en": [
+      "1988: first woman to lead the government of a Muslim-majority country",
+      "1993: returned to power for a second term as prime minister",
+      "2007: came back from exile to lead her party into elections",
+      "27 December 2007: assassinated at a rally in Rawalpindi"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure pionnière pour les femmes en politique dans le monde musulman, elle laisse aussi un bilan terni par la corruption. Sa dynastie domine toujours le Parti du peuple pakistanais.",
+    "en": "A pioneering figure for women in politics in the Muslim world, she also left a record clouded by corruption. Her family dynasty still leads the Pakistan Peoples Party."
   }
 }

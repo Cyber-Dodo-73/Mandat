@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1945 à Maasin, dans la province de Leyte du Sud, Rodrigo Duterte grandit à Davao, sur l'île de Mindanao, où son père est gouverneur. Avocat, il devient procureur de la ville avant d'en être élu maire en 1988. Il dirige Davao pendant plus de vingt ans, en alternance avec des mandats de député et de vice-maire, et revendique d'y avoir rétabli l'ordre. Des organisations de défense des droits humains accusent alors des « escadrons de la mort » liés à la mairie de centaines d'exécutions extrajudiciaires. Élu président des Philippines en mai 2016 sur la promesse d'éradiquer la drogue, il lance une « guerre » qui fait au moins plusieurs milliers de morts selon la police, bien davantage selon les ONG. Il rapproche Manille de Pékin, s'en prend violemment à ses critiques et fait arrêter la sénatrice Leila de Lima. En 2017, il impose la loi martiale à Mindanao après la prise de la ville de Marawi par des djihadistes. Quittant le pouvoir en 2022, il est arrêté à Manille en mars 2025 sur mandat de la Cour pénale internationale pour crimes contre l'humanité, puis transféré à La Haye. En mai 2025, il est réélu maire de Davao alors qu'il est détenu.",
+    "en": "Born in 1945 in Maasin, Southern Leyte, Rodrigo Duterte grew up in Davao on Mindanao island, where his father served as governor. A lawyer, he worked as the city's prosecutor before being elected mayor in 1988. He ran Davao for more than two decades, alternating with stints as congressman and vice mayor, and claimed to have restored order there. Human rights groups accused 'death squads' linked to city hall of hundreds of extrajudicial killings. Elected president of the Philippines in May 2016 on a pledge to wipe out drugs, he launched a 'war' that killed at least several thousand people according to police figures, and far more according to rights groups. He tilted Manila towards Beijing, attacked his critics fiercely and had Senator Leila de Lima jailed. In 2017 he placed Mindanao under martial law after jihadists seized the city of Marawi. Out of office since 2022, he was arrested in Manila in March 2025 on an International Criminal Court warrant for crimes against humanity and flown to The Hague. In May 2025 he was elected mayor of Davao again while in detention."
+  },
+  "highlights": {
+    "fr": [
+      "1988 : élu maire de Davao, ville qu'il dirigera plus de vingt ans",
+      "2016 : élu président et lance une « guerre contre la drogue » meurtrière",
+      "2017 : impose la loi martiale à Mindanao après le siège de Marawi",
+      "2025 : arrêté et remis à la Cour pénale internationale à La Haye"
+    ],
+    "en": [
+      "1988: elected mayor of Davao, a city he would run for over 20 years",
+      "2016: elected president and launched a deadly 'war on drugs'",
+      "2017: imposed martial law on Mindanao after the Marawi siege",
+      "2025: arrested and handed over to the International Criminal Court"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa guerre contre la drogue, avec ses milliers de morts, en fait le premier ancien chef d'État asiatique remis à la CPI. Il garde pourtant une large base de soutien aux Philippines.",
+    "en": "His drug war and its thousands of deaths made him the first former Asian head of state handed to the ICC. He nonetheless keeps a large base of support in the Philippines."
   }
 }

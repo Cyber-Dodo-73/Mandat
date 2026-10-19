@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Charles de Gaulle naît à Lille en 1890 et choisit la carrière militaire ; sorti de Saint-Cyr, il est blessé plusieurs fois et capturé à Verdun en 1916. Dans l'entre-deux-guerres, il défend sans grand écho l'emploi d'unités blindées autonomes. Nommé général et sous-secrétaire d'État à la Guerre en juin 1940, il refuse l'armistice, gagne Londres et lance le 18 juin un appel à poursuivre le combat. Chef de la France libre puis du Comité français de libération nationale, il s'impose aux Alliés et à la Résistance intérieure, et entre dans Paris libéré en août 1944. Président du Gouvernement provisoire, il accorde le droit de vote aux femmes, puis démissionne en janvier 1946, hostile au régime des partis. Rappelé en mai 1958 en pleine crise algérienne, il fait adopter la Constitution de la Ve République et devient président en janvier 1959. Il conduit l'Algérie à l'indépendance en 1962, fait élire le président au suffrage universel la même année, dote la France de l'arme nucléaire et retire le pays du commandement intégré de l'OTAN en 1966. Ébranlé par Mai 68, il démissionne après l'échec d'un référendum en avril 1969 et meurt à Colombey-les-Deux-Églises en novembre 1970.",
+    "en": "Charles de Gaulle was born in Lille in 1890 and chose an army career; a Saint-Cyr graduate, he was wounded several times and captured at Verdun in 1916. Between the wars he argued, with little success, for independent armoured units. Made a general and junior war minister in June 1940, he rejected the armistice, flew to London and on 18 June broadcast an appeal to fight on. As leader of Free France and then of the French Committee of National Liberation, he imposed himself on the Allies and the domestic Resistance and entered liberated Paris in August 1944. Heading the provisional government, he gave women the vote, then resigned in January 1946 in protest at party politics. Recalled in May 1958 amid the Algerian crisis, he had the Fifth Republic's constitution adopted and became president in January 1959. He led Algeria to independence in 1962, had the presidency made subject to direct election that same year, gave France nuclear weapons and pulled it out of NATO's integrated command in 1966. Shaken by May 1968, he resigned after losing a referendum in April 1969 and died at Colombey-les-Deux-Églises in November 1970."
+  },
+  "highlights": {
+    "fr": [
+      "Lance depuis Londres l'appel du 18 juin 1940",
+      "Préside le Gouvernement provisoire et accorde le vote aux femmes (1944)",
+      "Fonde la Ve République en 1958",
+      "Accepte l'indépendance de l'Algérie en 1962",
+      "Retire la France du commandement intégré de l'OTAN en 1966"
+    ],
+    "en": [
+      "Broadcast the Appeal of 18 June 1940 from London",
+      "Led the provisional government and gave women the vote (1944)",
+      "Founded the Fifth Republic in 1958",
+      "Accepted Algerian independence in 1962",
+      "Withdrew France from NATO's integrated command in 1966"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure tutélaire de la vie politique française, il a laissé les institutions de la Ve République et l'idée d'une France indépendante des blocs.",
+    "en": "A towering reference in French politics, he left behind the Fifth Republic's institutions and the idea of a France independent of the blocs."
   }
 }

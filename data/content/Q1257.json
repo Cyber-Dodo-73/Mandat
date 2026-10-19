@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Boutros Boutros-Ghali naît en 1922 au Caire dans une grande famille copte ; son grand-père, Boutros Ghali, avait été Premier ministre d'Égypte. Diplômé de l'université du Caire en 1946, il obtient un doctorat en droit international à Paris et étudie à Sciences Po. Pendant des décennies, il enseigne le droit et les relations internationales à l'université du Caire et publie abondamment. En 1977, il devient ministre d'État aux Affaires étrangères et accompagne Anouar el-Sadate à Jérusalem, puis participe aux négociations de Camp David en 1978, assurant brièvement l'intérim du ministère. Il passe ensuite près de quinze ans à ce poste de ministre d'État, s'occupant surtout des relations avec l'Afrique. En 1992, il devient le sixième secrétaire général des Nations unies, le premier venu d'Afrique et du monde arabe. Il publie la même année « Agenda pour la paix », mais son mandat est marqué par les échecs en Somalie, l'incapacité à empêcher le génocide au Rwanda en 1994 et la guerre de Bosnie. En 1996, les États-Unis opposent leur veto à sa réélection. Il dirige ensuite l'Organisation internationale de la Francophonie de 1997 à 2002 et meurt en février 2016.",
+    "en": "Boutros Boutros-Ghali was born in 1922 in Cairo into a prominent Coptic family; his grandfather, Boutros Ghali, had been Egypt's prime minister. After graduating from Cairo University in 1946, he earned a doctorate in international law in Paris and studied at Sciences Po. For decades he taught law and international relations at Cairo University and wrote prolifically. In 1977 he became minister of state for foreign affairs, travelled with Anwar Sadat to Jerusalem and took part in the 1978 Camp David talks, briefly serving as acting foreign minister. He then spent nearly fifteen years in that minister-of-state role, focusing on relations with Africa. In 1992 he became the sixth UN Secretary-General, the first from Africa and the Arab world. That year he issued An Agenda for Peace, but his term was marred by failure in Somalia, the inability to stop the 1994 genocide in Rwanda and the war in Bosnia. In 1996 the United States vetoed his re-election. He went on to head the International Organisation of La Francophonie from 1997 to 2002 and died in February 2016."
+  },
+  "highlights": {
+    "fr": [
+      "Participe aux négociations de paix de Camp David entre l'Égypte et Israël (1978)",
+      "Premier secrétaire général de l'ONU venu d'Afrique (1992-1996)",
+      "Publie « Agenda pour la paix » en 1992",
+      "Premier secrétaire général de la Francophonie (1997-2002)"
+    ],
+    "en": [
+      "Took part in the 1978 Camp David peace talks between Egypt and Israel",
+      "First UN Secretary-General from Africa (1992–1996)",
+      "Issued An Agenda for Peace in 1992",
+      "First Secretary-General of La Francophonie (1997–2002)"
+    ]
+  },
+  "legacy": {
+    "fr": "Seul secrétaire général de l'ONU à n'avoir effectué qu'un mandat, il reste associé à l'essor du maintien de la paix et à ses échecs des années 1990.",
+    "en": "The only UN Secretary-General to serve a single term, he is remembered for the expansion of peacekeeping and its failures in the 1990s."
   }
 }

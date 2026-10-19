@@ -32,5 +32,27 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Lima en 1975, fille aînée d'Alberto Fujimori, Keiko Fujimori étudie aux États-Unis lorsque son père, élu président en 1990, se sépare de son épouse Susana Higuchi. En 1994, à 19 ans, elle assume le rôle de première dame, qu'elle tient jusqu'à la chute du régime en 2000. Diplômée de l'université de Boston puis d'un MBA à Columbia, elle est élue au Congrès en 2006 avec un score record et fonde le parti Fuerza 2011, devenu Force populaire. Elle perd de justesse le second tour de la présidentielle en 2011 face à Ollanta Humala, en 2016 face à Pedro Pablo Kuczynski et en 2021 face à Pedro Castillo, dont elle conteste la victoire. Majoritaire au Congrès après 2016, son parti contribue à une longue crise politique. Poursuivie pour blanchiment dans l'affaire Odebrecht, liée à des financements de campagne, elle passe plus d'un an en détention provisoire entre 2018 et 2020. Candidate une quatrième fois en 2026, elle est cette fois élue et devient présidente du Pérou le 28 juillet 2026.",
+    "en": "Born in Lima in 1975, the eldest daughter of Alberto Fujimori, Keiko Fujimori was studying in the United States when her father, elected president in 1990, separated from his wife Susana Higuchi. In 1994, aged 19, she took on the role of first lady, which she held until the regime collapsed in 2000. A Boston University graduate with a Columbia MBA, she was elected to Congress in 2006 with a record vote and founded the Fuerza 2011 party, later renamed Popular Force. She narrowly lost presidential runoffs in 2011 to Ollanta Humala, in 2016 to Pedro Pablo Kuczynski and in 2021 to Pedro Castillo, whose win she contested. With a congressional majority after 2016, her party fuelled a long political crisis. Prosecuted for money laundering in the Odebrecht affair over campaign financing, she spent more than a year in pre-trial detention between 2018 and 2020. Running a fourth time in 2026, she finally won and became President of Peru on 28 July 2026."
+  },
+  "highlights": {
+    "fr": [
+      "Première dame du Pérou à 19 ans, de 1994 à 2000",
+      "Élue au Congrès en 2006 avec un nombre record de voix",
+      "Battue de peu au second tour en 2011, 2016 et 2021",
+      "Devient présidente du Pérou le 28 juillet 2026"
+    ],
+    "en": [
+      "First lady of Peru at 19, from 1994 to 2000",
+      "Elected to Congress in 2006 with a record number of votes",
+      "Narrowly lost presidential runoffs in 2011, 2016 and 2021",
+      "Became President of Peru on 28 July 2026"
+    ]
+  },
+  "legacy": {
+    "fr": "Héritière du fujimorisme, elle a fait de son parti une force incontournable de la politique péruvienne et a fini par conquérir la présidence que son père avait perdue.",
+    "en": "Heir to Fujimorism, she turned her party into a fixture of Peruvian politics and finally won the presidency her father had lost."
   }
 }

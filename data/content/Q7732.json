@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né à Versailles le 23 août 1754, Louis-Auguste, duc de Berry, devient dauphin en 1765 à la mort de son père, puis épouse en 1770 l'archiduchesse Marie-Antoinette d'Autriche. Il succède à son grand-père Louis XV en mai 1774, à dix-neuf ans, et rappelle aussitôt les parlements que celui-ci avait exilés. Il confie les finances à Turgot, dont les réformes libérales se heurtent aux privilégiés et sont abandonnées avec son renvoi en 1776. Son soutien décisif à l'indépendance américaine à partir de 1778 donne une revanche sur l'Angleterre, mais aggrave une dette déjà écrasante. Après l'échec des ministres Necker et Calonne et de l'assemblée des notables de 1787, il convoque les états généraux, qui s'ouvrent en mai 1789 et se proclament Assemblée nationale. Après la prise de la Bastille, le roi est ramené de force à Paris en octobre 1789. Sa fuite, arrêtée à Varennes en juin 1791, ruine la confiance du peuple, même s'il accepte en septembre la Constitution qui fait de lui le « roi des Français ». La guerre déclarée à l'Autriche en avril 1792 tourne mal, et l'insurrection du 10 août renverse la monarchie. Jugé par la Convention pour trahison, il est guillotiné le 21 janvier 1793 sur l'actuelle place de la Concorde.",
+    "en": "Born at Versailles on 23 August 1754, Louis-Auguste, Duke of Berry, became dauphin in 1765 on his father's death and in 1770 married the Austrian archduchess Marie Antoinette. He succeeded his grandfather Louis XV in May 1774, aged nineteen, and promptly recalled the parlements that Louis XV had exiled. He put Turgot in charge of finance, but the minister's liberal reforms ran into the privileged orders and were dropped when he was dismissed in 1776. Louis's decisive backing for American independence from 1778 avenged France on Britain but piled on to an already crushing debt. After Necker and Calonne failed and the Assembly of Notables of 1787 proved fruitless, he summoned the Estates-General, which opened in May 1789 and declared itself the National Assembly. After the fall of the Bastille, the king was forcibly brought back to Paris in October 1789. His attempted escape, stopped at Varennes in June 1791, destroyed public trust, even though that September he accepted a constitution that made him King of the French. War against Austria, declared in April 1792, went badly, and the uprising of 10 August overthrew the monarchy. Tried by the Convention for treason, he was guillotined on 21 January 1793 on what is now the Place de la Concorde."
+  },
+  "highlights": {
+    "fr": [
+      "Devient roi de France en mai 1774, à dix-neuf ans",
+      "Soutient militairement l'indépendance américaine à partir de 1778",
+      "Convoque les états généraux, ouverts en mai 1789",
+      "Arrêté à Varennes lors de sa fuite en juin 1791",
+      "Guillotiné à Paris le 21 janvier 1793"
+    ],
+    "en": [
+      "Became king of France in May 1774, aged nineteen",
+      "Backed American independence militarily from 1778",
+      "Summoned the Estates-General, which opened in May 1789",
+      "Caught at Varennes while fleeing in June 1791",
+      "Guillotined in Paris on 21 January 1793"
+    ]
+  },
+  "legacy": {
+    "fr": "Roi bien intentionné mais indécis, il reste le symbole de la chute de l'Ancien Régime, et son exécution a marqué une rupture définitive avec la monarchie de droit divin.",
+    "en": "A well-meaning but indecisive king, he remains the symbol of the fall of the old regime, and his execution marked a decisive break with divine-right monarchy."
   }
 }

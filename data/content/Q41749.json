@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Joseph Goebbels naît en 1897 à Rheydt, en Rhénanie, dans une famille catholique modeste ; un pied bot le fait réformer pendant la Première Guerre mondiale. Docteur en littérature de l'université de Heidelberg en 1921, il adhère au parti nazi en 1924 et rallie Hitler après avoir soutenu l'aile de Gregor Strasser. Nommé Gauleiter de Berlin en 1926, il y fonde le journal Der Angriff et mène une agitation violente contre la République de Weimar, les communistes et les Juifs. Devenu chef de la propagande du parti, il orchestre les campagnes électorales qui portent Hitler au pouvoir. Ministre de l'Éducation du peuple et de la Propagande à partir de mars 1933, il contrôle presse, radio, cinéma et culture, préside aux autodafés de mai 1933 et diffuse une haine antisémite systématique. Il est l'un des instigateurs du pogrom de la Nuit de cristal en novembre 1938 et pousse à la déportation des Juifs de Berlin, envoyés vers les camps de la mort pendant la Shoah. En février 1943, au Palais des sports, il appelle à la guerre totale, dont il devient plénipotentiaire en 1944. Après le suicide de Hitler le 30 avril 1945, il est chancelier pendant un jour, puis, le 1er mai, empoisonne avec sa femme Magda leurs six enfants avant que le couple ne se donne la mort dans le bunker.",
+    "en": "Joseph Goebbels was born in 1897 in Rheydt, in the Rhineland, to a modest Catholic family; a club foot kept him out of the First World War. After earning a doctorate in literature at Heidelberg in 1921, he joined the Nazi Party in 1924, siding first with Gregor Strasser's wing before switching his allegiance to Hitler. Appointed Gauleiter of Berlin in 1926, he launched the newspaper Der Angriff and waged violent street agitation against the Weimar Republic, communists and Jews. As party propaganda chief, he ran the election campaigns that carried Hitler to power. From March 1933 he was Minister of Public Enlightenment and Propaganda, controlling the press, radio, film and the arts, presiding over the May 1933 book burnings and spreading relentless antisemitic hatred. He was a leading instigator of the Kristallnacht pogrom in November 1938 and pressed for the deportation of Berlin's Jews to the death camps of the Holocaust. In February 1943, at the Berlin Sportpalast, he called for total war, and in 1944 he was put in charge of mobilising for it. After Hitler's suicide on 30 April 1945 he served one day as chancellor; on 1 May he and his wife Magda poisoned their six children before taking their own lives in the bunker."
+  },
+  "highlights": {
+    "fr": [
+      "1926 : nommé Gauleiter de Berlin, fonde le journal Der Angriff",
+      "1933 : ministre de la Propagande, organise les autodafés de livres",
+      "Novembre 1938 : l'un des instigateurs du pogrom de la Nuit de cristal",
+      "Février 1943 : discours de la « guerre totale » au Palais des sports de Berlin",
+      "1er mai 1945 : tue ses six enfants puis se suicide dans le bunker"
+    ],
+    "en": [
+      "1926: appointed Gauleiter of Berlin, founded the newspaper Der Angriff",
+      "1933: became Propaganda Minister and staged the Nazi book burnings",
+      "November 1938: a leading instigator of the Kristallnacht pogrom",
+      "February 1943: delivered the total war speech at the Berlin Sportpalast",
+      "1 May 1945: killed his six children, then himself, in the bunker"
+    ]
+  },
+  "legacy": {
+    "fr": "Goebbels incarne la propagande au service d'un régime génocidaire ; ses méthodes de manipulation des masses sont étudiées comme un avertissement.",
+    "en": "Goebbels embodies propaganda harnessed to a genocidal regime; his methods of mass manipulation are studied today as a warning."
   }
 }

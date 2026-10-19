@@ -35,5 +35,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1868 à Tsarskoïe Selo, Nicolas Romanov devient empereur en novembre 1894 à la mort de son père Alexandre III et épouse peu après Alix de Hesse. Son couronnement en 1896 est endeuillé par la bousculade de la Khodynka, qui fait plus d'un millier de morts. Attaché à l'autocratie, il engage la Russie dans la guerre contre le Japon en 1904, qui tourne au désastre à Tsoushima. En janvier 1905, la troupe tire sur une foule pacifique à Saint-Pétersbourg, déclenchant une révolution qui l'oblige à concéder une assemblée élue, la Douma, dont il restreindra ensuite les pouvoirs. Son règne est aussi marqué par des pogroms antijuifs et une répression sévère. L'hémophilie de son fils Alexis rapproche le couple impérial du guérisseur Raspoutine, dont l'influence discrédite la cour. Entré en guerre en 1914, il prend en 1915 le commandement de l'armée, et les défaites et pénuries provoquent la révolution de février 1917. Contraint d'abdiquer en mars, il est détenu puis fusillé avec sa famille par les bolcheviks à Iekaterinbourg dans la nuit du 16 au 17 juillet 1918.",
+    "en": "Born at Tsarskoye Selo in 1868, Nicholas Romanov became emperor in November 1894 on the death of his father, Alexander III, and soon married Alix of Hesse. His coronation in 1896 was marred by the Khodynka stampede, which killed more than a thousand people. Committed to autocracy, he led Russia into war with Japan in 1904, which ended in disaster at Tsushima. In January 1905 troops fired on a peaceful crowd in St Petersburg, setting off a revolution that forced him to grant an elected assembly, the Duma, whose powers he later curtailed. His reign also saw anti-Jewish pogroms and harsh repression. His son Alexei's haemophilia drew the imperial couple close to the faith healer Rasputin, whose influence discredited the court. After entering the war in 1914 he took personal command of the army in 1915, and defeats and shortages brought on the February Revolution of 1917. Forced to abdicate in March, he was held captive and then shot with his family by the Bolsheviks in Yekaterinburg on the night of 16–17 July 1918."
+  },
+  "highlights": {
+    "fr": [
+      "1894 : devient le dernier tsar de Russie",
+      "1905 : concède la Douma après le Dimanche rouge",
+      "1915 : prend le commandement de l'armée russe",
+      "1917 : abdique lors de la révolution de février",
+      "1918 : exécuté avec sa famille à Iekaterinbourg"
+    ],
+    "en": [
+      "1894: becomes Russia's last tsar",
+      "1905: grants the Duma after Bloody Sunday",
+      "1915: takes command of the Russian army",
+      "1917: abdicates in the February Revolution",
+      "1918: executed with his family in Yekaterinburg"
+    ]
+  },
+  "legacy": {
+    "fr": "Souverain dépassé par son époque, il a été canonisé en 2000 par l'Église orthodoxe russe, tandis que les historiens jugent sévèrement son règne.",
+    "en": "A ruler overtaken by his times, he was canonised by the Russian Orthodox Church in 2000, while historians judge his reign harshly."
   }
 }

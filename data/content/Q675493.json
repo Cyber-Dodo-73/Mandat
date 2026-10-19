@@ -36,5 +36,29 @@
         "value": "medieval"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1457 au château de Pembroke, au pays de Galles, Henri Tudor est le fils posthume d'Edmond Tudor et de Margaret Beaufort, descendante de la maison de Lancastre. Après la victoire des York dans la guerre des Deux-Roses, il passe quatorze ans en exil en Bretagne puis en France. En août 1485, il débarque au pays de Galles et bat Richard III, tué à la bataille de Bosworth. Couronné roi, il épouse en 1486 Élisabeth d'York, unissant les deux maisons rivales. Il écrase les prétendants Lambert Simnel en 1487 et Perkin Warbeck, exécuté en 1499. Gestionnaire rigoureux, il restaure les finances royales, soumet la noblesse par des amendes et des cautions, et évite les guerres coûteuses. Il marie sa fille Marguerite au roi d'Écosse et négocie l'union de son fils Arthur avec Catherine d'Aragon. Il meurt en 1509 au palais de Richmond, laissant un trésor bien rempli à son fils Henri VIII.",
+    "en": "Born at Pembroke Castle in Wales in 1457, Henry Tudor was the posthumous son of Edmund Tudor and Margaret Beaufort, a descendant of the House of Lancaster. After the Yorkist victories in the Wars of the Roses, he spent fourteen years in exile in Brittany and France. In August 1485 he landed in Wales and defeated Richard III, who was killed at the Battle of Bosworth. Crowned king, he married Elizabeth of York in 1486, joining the two rival houses. He crushed the pretenders Lambert Simnel in 1487 and Perkin Warbeck, executed in 1499. A careful manager, he rebuilt royal finances, kept the nobility in check with fines and bonds, and avoided costly wars. He married his daughter Margaret to the King of Scots and arranged for his son Arthur to wed Catherine of Aragon. He died at Richmond Palace in 1509, leaving a full treasury to his son Henry VIII."
+  },
+  "highlights": {
+    "fr": [
+      "1485 : bat Richard III à Bosworth et fonde la dynastie Tudor",
+      "1486 : épouse Élisabeth d'York, réunissant Lancastre et York",
+      "1487 : écrase le prétendant Lambert Simnel à Stoke",
+      "1503 : marie sa fille Marguerite à Jacques IV d'Écosse",
+      "Laisse à sa mort en 1509 un trésor royal excédentaire"
+    ],
+    "en": [
+      "1485: defeated Richard III at Bosworth, founding the Tudor dynasty",
+      "1486: married Elizabeth of York, uniting Lancaster and York",
+      "1487: crushed the pretender Lambert Simnel at Stoke",
+      "1503: married his daughter Margaret to James IV of Scotland",
+      "Left a full royal treasury at his death in 1509"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a mis fin à la guerre des Deux-Roses et fondé la dynastie Tudor, qui régnera sur l'Angleterre jusqu'en 1603.",
+    "en": "He ended the Wars of the Roses and founded the Tudor dynasty, which ruled England until 1603."
   }
 }

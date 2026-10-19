@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Alfredo Stroessner naît en novembre 1912 à Encarnación, d’un père immigré allemand, et entre jeune dans l’armée, où il se distingue pendant la guerre du Chaco contre la Bolivie entre 1932 et 1935. Devenu commandant en chef, il prend le pouvoir par un coup d’État en mai 1954 et se fait ensuite réélire sept fois lors de scrutins sans véritable opposition. Il gouverne avec le Parti colorado et sous un état de siège presque permanent, qui autorise les arrestations sans jugement. Sa police politique pratique la torture à grande échelle : la commission Vérité et Justice a recensé près de 20 000 détentions arbitraires et plusieurs centaines d’exécutions et de disparitions. Le Paraguay participe à l’opération Condor, qui coordonne la répression des dictatures sud-américaines, et accueille des fugitifs comme le criminel nazi Josef Mengele et l’ancien dictateur nicaraguayen Somoza. Le régime persécute aussi les Indiens Aché, victimes de chasses à l’homme et de déportations dans les années 1960 et 1970. Sur le plan économique, il signe avec le Brésil en 1973 le traité du barrage d’Itaipú, tandis que la corruption et la contrebande enrichissent ses proches. Renversé le 3 février 1989 par le général Andrés Rodríguez, il s’exile au Brésil et meurt à Brasilia en août 2006.",
+    "en": "Alfredo Stroessner was born in November 1912 in Encarnación to a German immigrant father, joined the army young and made his name in the Chaco War against Bolivia between 1932 and 1935. Having risen to commander-in-chief, he seized power in a coup in May 1954 and then had himself re-elected seven times in polls without real opposition. He ruled through the Colorado Party under an almost permanent state of siege that allowed arrests without trial. His political police used torture on a mass scale: the Truth and Justice Commission documented nearly 20,000 arbitrary detentions and several hundred executions and disappearances. Paraguay took part in Operation Condor, which coordinated repression among South American dictatorships, and sheltered fugitives such as the Nazi war criminal Josef Mengele and Nicaragua's deposed dictator Somoza. The regime also persecuted the Aché people, who were hunted and forcibly removed in the 1960s and 1970s. On the economic side he signed the 1973 Itaipú dam treaty with Brazil, while corruption and smuggling enriched his inner circle. Overthrown on 3 February 1989 by General Andrés Rodríguez, he fled to Brazil and died in Brasília in August 2006."
+  },
+  "highlights": {
+    "fr": [
+      "Prend le pouvoir par un coup d’État en mai 1954",
+      "Gouverne le Paraguay pendant 35 ans, jusqu’en 1989",
+      "Près de 20 000 détentions arbitraires sous son régime",
+      "Signe le traité du barrage d’Itaipú avec le Brésil en 1973",
+      "Renversé par le général Andrés Rodríguez le 3 février 1989"
+    ],
+    "en": [
+      "Seized power in a coup in May 1954",
+      "Ruled Paraguay for 35 years, until 1989",
+      "Nearly 20,000 arbitrary detentions under his rule",
+      "Signed the Itaipú dam treaty with Brazil in 1973",
+      "Overthrown by General Andrés Rodríguez on 3 February 1989"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa dictature, l’une des plus longues du XXe siècle en Amérique latine, est documentée par les « archives de la terreur » découvertes à Asunción en 1992.",
+    "en": "His dictatorship, among the longest in twentieth-century Latin America, is documented by the Archives of Terror uncovered in Asunción in 1992."
   }
 }

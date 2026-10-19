@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Pedro Castillo naît en octobre 1969 dans un hameau de la province de Chota, dans la région andine de Cajamarca, au sein d’une famille de paysans. Instituteur dans une école rurale pendant plus de vingt ans, il participe aussi aux rondes paysannes, des patrouilles d’autodéfense villageoises. Il se fait connaître en 2017 en dirigeant une longue grève nationale des enseignants. Candidat du parti de gauche radicale Pérou libre en 2021, il crée la surprise au premier tour puis bat Keiko Fujimori au second, en juin, avec une avance d’environ 44 000 voix. Investi le 28 juillet 2021, il voit défiler plusieurs présidents du Conseil et des dizaines de ministres, tandis que des enquêtes pour corruption visent son entourage. Il survit à deux procédures de destitution, mais le 7 décembre 2022, il annonce la dissolution du Congrès et un gouvernement d’exception. Lâché par ses ministres et par l’armée, il est destitué par le Congrès le jour même, puis arrêté alors qu’il se rendait à l’ambassade du Mexique. Placé en détention, il est condamné en novembre 2025 à plus de onze ans de prison pour complot en vue d’une rébellion.",
+    "en": "Pedro Castillo was born in October 1969 in a hamlet of Chota province, in the Andean region of Cajamarca, into a farming family. A rural primary-school teacher for more than twenty years, he also took part in the rondas campesinas, village self-defence patrols. He came to national attention in 2017 by leading a long nationwide teachers' strike. Running for the hard-left Free Peru party in 2021, he surprised everyone in the first round and then beat Keiko Fujimori in the June runoff by roughly 44,000 votes. Sworn in on 28 July 2021, he went through several prime ministers and dozens of ministers while corruption inquiries closed in on his circle. He survived two impeachment attempts, but on 7 December 2022 he announced that he was dissolving Congress and ruling by emergency decree. Abandoned by his ministers and the military, he was removed by Congress that same day and arrested on his way to the Mexican embassy. Held in custody, he was sentenced in November 2025 to more than eleven years in prison for conspiracy to commit rebellion."
+  },
+  "highlights": {
+    "fr": [
+      "Dirige la grève nationale des enseignants péruviens en 2017",
+      "Élu président en juin 2021 avec environ 44 000 voix d’avance",
+      "Tente de dissoudre le Congrès le 7 décembre 2022",
+      "Destitué et arrêté le jour même de sa tentative"
+    ],
+    "en": [
+      "Led Peru's national teachers' strike in 2017",
+      "Elected president in June 2021 by about 44,000 votes",
+      "Tried to dissolve Congress on 7 December 2022",
+      "Removed and arrested the same day as his attempt"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier président issu de la paysannerie andine, il a suscité de grands espoirs dans le Pérou rural, mais sa tentative d’autocoup a mis fin à son mandat en quelques heures.",
+    "en": "The first president to come from the Andean peasantry, he raised high hopes in rural Peru, but his self-coup attempt ended his term within hours."
   }
 }

@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "João Goulart, surnommé « Jango », naît en 1918 à São Borja, dans le Rio Grande do Sul, dans une famille d’éleveurs voisine de celle de Getúlio Vargas, dont il devient le protégé. Figure du Parti travailliste brésilien, il est nommé ministre du Travail en 1953, mais doit démissionner en 1954 après avoir proposé de doubler le salaire minimum, ce qui inquiète les militaires. Élu vice-président en 1955 aux côtés de Juscelino Kubitschek, puis réélu à ce poste en 1960 avec Jânio Quadros, il préside aussi le Sénat. Lorsque Quadros démissionne en août 1961, alors que Goulart est en voyage en Chine, une partie de l’armée s’oppose à son investiture. Un compromis instaure un régime parlementaire qui limite ses pouvoirs, jusqu’à ce qu’un plébiscite rétablisse le régime présidentiel en janvier 1963. Il défend alors des « réformes de base », dont une réforme agraire, et les annonce lors d’un grand rassemblement à Rio le 13 mars 1964. Le coup d’État militaire du 31 mars au 1er avril 1964, soutenu par les États-Unis, le renverse et ouvre vingt et un ans de dictature. Exilé en Uruguay puis en Argentine, il meurt en décembre 1976 dans son domaine de la province de Corrientes, officiellement d’une crise cardiaque.",
+    "en": "João Goulart, known as Jango, was born in 1918 in São Borja, Rio Grande do Sul, to a ranching family that were neighbours of Getúlio Vargas, who took him under his wing. A leading figure of the Brazilian Labour Party, he became labour minister in 1953 but had to resign in 1954 after proposing to double the minimum wage, which alarmed the military. Elected vice president in 1955 alongside Juscelino Kubitschek, and again in 1960 with Jânio Quadros, he also presided over the Senate. When Quadros resigned in August 1961, while Goulart was on a trip to China, part of the army tried to block his inauguration. A compromise set up a parliamentary system that curbed his powers, until a plebiscite restored presidential rule in January 1963. He then championed basic reforms, including land reform, and announced them at a huge rally in Rio on 13 March 1964. The military coup of 31 March to 1 April 1964, backed by the United States, ousted him and opened twenty-one years of dictatorship. Exiled to Uruguay and then Argentina, he died in December 1976 on his estate in Corrientes province, officially of a heart attack."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre du Travail du Brésil en 1953-1954",
+      "Deux fois élu vice-président, en 1955 et en 1960",
+      "Président du Brésil de 1961 à 1964",
+      "Retrouve les pleins pouvoirs présidentiels par le plébiscite de 1963",
+      "Renversé par le coup d’État militaire de 1964"
+    ],
+    "en": [
+      "Brazil's labour minister in 1953–1954",
+      "Twice elected vice president, in 1955 and 1960",
+      "President of Brazil from 1961 to 1964",
+      "Regained full presidential powers through the 1963 plebiscite",
+      "Overthrown by the 1964 military coup"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier président élu avant la dictature, il est aujourd’hui réhabilité par l’État brésilien, et les soupçons d’empoisonnement autour de sa mort n’ont jamais été confirmés.",
+    "en": "The last elected president before the dictatorship, he has since been rehabilitated by the Brazilian state, and suspicions that he was poisoned have never been confirmed."
   }
 }

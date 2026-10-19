@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1950 à Vadnagar, au Gujarat, dans une famille modeste où il aide son père à vendre du thé, Narendra Modi rejoint jeune l'organisation nationaliste hindoue RSS. Permanent du mouvement, il passe au parti BJP dans les années 1980 et en devient un organisateur de premier plan. Nommé ministre en chef du Gujarat en octobre 2001, il est en poste lors des émeutes antimusulmanes de 2002, qui font plus d'un millier de morts, et sa gestion lui vaut d'être un temps interdit de visa par les États-Unis. Un tribunal d'enquête soutenu par la Cour suprême ne retient finalement aucune charge contre lui, et il bâtit sa réputation sur la croissance économique de l'État. En 2014, il mène le BJP à une majorité absolue à la Lok Sabha et devient Premier ministre de l'Inde. Il démonétise brutalement les grosses coupures en 2016, met en place une taxe unique sur les biens et services en 2017 et supprime en 2019 l'autonomie du Cachemire. Réélu en 2019, il obtient en 2024 un troisième mandat, mais doit désormais gouverner avec des alliés faute de majorité absolue.",
+    "en": "Born in 1950 in Vadnagar, Gujarat, into a modest family where he helped his father sell tea, Narendra Modi joined the Hindu nationalist RSS as a young man. A full-time organiser for the movement, he moved to the BJP in the 1980s and became one of its leading strategists. Appointed chief minister of Gujarat in October 2001, he was in office during the 2002 anti-Muslim riots that killed more than a thousand people, and his handling of them led the United States to deny him a visa for years. A Supreme Court-appointed investigation team ultimately found no case against him, and he built his reputation on the state's economic growth. In 2014 he led the BJP to an outright majority in the Lok Sabha and became prime minister of India. He abruptly withdrew high-value banknotes in 2016, introduced a nationwide goods and services tax in 2017 and revoked Kashmir's autonomy in 2019. Re-elected in 2019, he won a third term in 2024, though without an outright majority, forcing him to govern with allies."
+  },
+  "highlights": {
+    "fr": [
+      "Ministre en chef du Gujarat de 2001 à 2014",
+      "Mène le BJP à la majorité absolue en 2014 et devient Premier ministre",
+      "Démonétise les billets de 500 et 1 000 roupies en 2016",
+      "Supprime l'autonomie constitutionnelle du Cachemire en 2019",
+      "Obtient un troisième mandat en 2024"
+    ],
+    "en": [
+      "Chief minister of Gujarat from 2001 to 2014",
+      "Led the BJP to an outright majority in 2014 and became prime minister",
+      "Withdrew 500 and 1,000 rupee notes in 2016",
+      "Revoked Kashmir's constitutional autonomy in 2019",
+      "Won a third term in 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a placé le nationalisme hindou au centre de la vie politique indienne et fait de l'Inde une puissance qui pèse davantage sur la scène mondiale.",
+    "en": "He has put Hindu nationalism at the centre of Indian politics and made India a weightier player on the world stage."
   }
 }

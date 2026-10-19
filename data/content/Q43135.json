@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1957 à Nambour, dans le Queensland, Kevin Rudd grandit dans une ferme et perd son père à onze ans. Il étudie le chinois à l'Université nationale australienne, puis entre dans la diplomatie, avec des postes à Stockholm et à Pékin. Il dirige ensuite le cabinet du Premier ministre travailliste du Queensland, Wayne Goss. Élu député de Griffith en 1998, il prend la tête du Parti travailliste fin 2006 et bat John Howard aux élections de novembre 2007. Premier acte de son gouvernement, il ratifie le protocole de Kyoto. Le 13 février 2008, il présente au Parlement les excuses nationales aux « générations volées », ces enfants aborigènes arrachés à leurs familles. Face à la crise financière, son plan de relance permet à l'Australie d'éviter la récession. Mais l'échec de son marché carbone et le bras de fer avec les compagnies minières l'affaiblissent : en juin 2010, Julia Gillard le renverse. Ministre des Affaires étrangères de 2010 à 2012, il reprend le pouvoir en juin 2013, puis perd les élections de septembre face à Tony Abbott. Il quitte le Parlement, dirige l'Asia Society à New York et devient en 2023 ambassadeur d'Australie aux États-Unis.",
+    "en": "Born in 1957 in Nambour, Queensland, Kevin Rudd grew up on a farm and lost his father at eleven. He studied Chinese at the Australian National University and joined the diplomatic service, with postings in Stockholm and Beijing. He then served as chief of staff to Queensland's Labor premier, Wayne Goss. Elected member for Griffith in 1998, he became Labor leader in late 2006 and defeated John Howard in the November 2007 election. His government's first act was to ratify the Kyoto Protocol. On 13 February 2008 he delivered in parliament the National Apology to the Stolen Generations, the Aboriginal children taken from their families. During the global financial crisis, his stimulus package helped Australia avoid recession. But the collapse of his emissions trading scheme and a fight with mining companies weakened him, and in June 2010 Julia Gillard ousted him. Foreign minister from 2010 to 2012, he regained the leadership in June 2013 only to lose the September election to Tony Abbott. He left parliament, led the Asia Society in New York and in 2023 became Australia's ambassador to the United States."
+  },
+  "highlights": {
+    "fr": [
+      "Remporte les élections de novembre 2007 face à John Howard",
+      "Ratifie le protocole de Kyoto dès décembre 2007",
+      "Prononce les excuses nationales aux générations volées le 13 février 2008",
+      "Revient brièvement au pouvoir en 2013"
+    ],
+    "en": [
+      "Defeated John Howard in the November 2007 election",
+      "Ratified the Kyoto Protocol in December 2007",
+      "Delivered the National Apology to the Stolen Generations on 13 February 2008",
+      "Briefly returned as prime minister in 2013"
+    ]
+  },
+  "legacy": {
+    "fr": "Les excuses de 2008 restent un moment fondateur de la réconciliation avec les Aborigènes, tandis que les luttes fratricides de son parti ont terni son bilan.",
+    "en": "The 2008 Apology remains a landmark in reconciliation with Indigenous Australians, while his party's bitter infighting clouded his record."
   }
 }

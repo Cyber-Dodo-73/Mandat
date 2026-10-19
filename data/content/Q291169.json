@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1949 à Chippenham, dans le Wiltshire, et élevé dans le Shropshire, Jeremy Corbyn quitte l'école sans diplôme universitaire et passe deux ans comme volontaire en Jamaïque. Il devient ensuite permanent syndical, puis conseiller municipal de Haringey, à Londres, à partir de 1974. Élu député travailliste d'Islington North en 1983, il y est réélu sans interruption et vote très souvent contre la direction de son parti. Il milite contre l'apartheid, pour le désarmement nucléaire et contre la guerre d'Irak de 2003, et préside la coalition Stop the War de 2011 à 2015. À la surprise générale, il est élu chef du Parti travailliste en septembre 2015 avec près de 60 % des voix des adhérents, puis réélu en 2016 après une motion de défiance de ses députés. Aux élections de 2017, le parti gagne une trentaine de sièges et prive les conservateurs de leur majorité. Sa direction est cependant mise en cause pour sa gestion de l'antisémitisme au sein du parti, et les élections de décembre 2019 se soldent par la pire défaite travailliste depuis 1935. Il quitte la direction en 2020, est suspendu du groupe la même année, puis est réélu député en indépendant en 2024 et lance en 2025 un nouveau parti de gauche.",
+    "en": "Born in 1949 in Chippenham, Wiltshire, and raised in Shropshire, Jeremy Corbyn never completed a degree and spent two years as a volunteer in Jamaica. He then worked as a trade union organiser and sat on Haringey council in London from 1974. Elected Labour MP for Islington North in 1983, he has held the seat ever since and often voted against his own party's leadership. He campaigned against apartheid, for nuclear disarmament and against the 2003 Iraq war, and chaired the Stop the War Coalition from 2011 to 2015. To widespread surprise he was elected Labour leader in September 2015 with nearly 60% of the members' vote, and was re-elected in 2016 after his MPs passed a no-confidence motion. At the 2017 election the party gained around thirty seats and cost the Conservatives their majority. His leadership was, however, criticised over its handling of antisemitism within the party, and the December 2019 election brought Labour's worst defeat since 1935. He stepped down as leader in 2020, was suspended from the parliamentary party that same year, won his seat back as an independent in 2024 and in 2025 launched a new left-wing party."
+  },
+  "highlights": {
+    "fr": [
+      "Député d'Islington North sans interruption depuis 1983",
+      "Préside la coalition Stop the War de 2011 à 2015",
+      "Chef du Parti travailliste et de l'opposition de 2015 à 2020",
+      "Prive les conservateurs de leur majorité aux élections de 2017",
+      "Réélu député en candidat indépendant en 2024"
+    ],
+    "en": [
+      "MP for Islington North continuously since 1983",
+      "Chaired the Stop the War Coalition from 2011 to 2015",
+      "Leader of the Labour Party and the Opposition from 2015 to 2020",
+      "Deprived the Conservatives of their majority at the 2017 election",
+      "Re-elected as an independent MP in 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a ramené un programme socialiste au cœur du travaillisme et attiré des centaines de milliers d'adhérents, mais reste une figure très clivante de la politique britannique.",
+    "en": "He brought a socialist programme back to the heart of Labour and drew in hundreds of thousands of members, but remains a deeply divisive figure in British politics."
   }
 }

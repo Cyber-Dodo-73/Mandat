@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1946 à New Haven, fils aîné du futur président George H. W. Bush, George Walker Bush grandit au Texas, étudie à Yale puis obtient un MBA à Harvard en 1975. Il travaille dans le pétrole au Texas, puis devient copropriétaire de l'équipe de baseball des Texas Rangers. Élu gouverneur du Texas en 1994, il est réélu largement en 1998. En 2000, il remporte la présidence face à Al Gore après un recomptage contesté en Floride, tranché par la Cour suprême, tout en étant minoritaire en voix. Les attentats du 11 septembre 2001 transforment sa présidence : il lance la guerre en Afghanistan, puis en mars 2003 l'invasion de l'Irak au nom d'armes de destruction massive qui ne seront jamais trouvées. Réélu en 2004, il voit sa popularité chuter avec l'enlisement irakien, la gestion de l'ouragan Katrina en 2005 et la crise financière de 2008. Il quitte la Maison-Blanche en janvier 2009 et se consacre depuis à la peinture et à sa fondation.",
+    "en": "Born in New Haven in 1946, the eldest son of future president George H. W. Bush, George Walker Bush grew up in Texas, studied at Yale and earned a Harvard MBA in 1975. He worked in the Texas oil business and later became co-owner of the Texas Rangers baseball team. Elected governor of Texas in 1994, he was comfortably re-elected in 1998. In 2000 he won the presidency over Al Gore after a disputed Florida recount settled by the Supreme Court, while losing the popular vote. The attacks of 11 September 2001 transformed his presidency: he launched the war in Afghanistan and, in March 2003, the invasion of Iraq on the grounds of weapons of mass destruction that were never found. Re-elected in 2004, he saw his popularity collapse amid the Iraq quagmire, the response to Hurricane Katrina in 2005 and the 2008 financial crisis. He left the White House in January 2009 and has since devoted himself to painting and his foundation."
+  },
+  "highlights": {
+    "fr": [
+      "Gouverneur du Texas de 1995 à 2000",
+      "Élu président en 2000 après le recomptage contesté de Floride",
+      "Lance la guerre en Afghanistan après le 11 septembre 2001",
+      "Ordonne l'invasion de l'Irak en mars 2003",
+      "Crée en 2003 le plan PEPFAR de lutte contre le sida en Afrique"
+    ],
+    "en": [
+      "Governor of Texas from 1995 to 2000",
+      "Elected president in 2000 after the disputed Florida recount",
+      "Launched the war in Afghanistan after 11 September 2001",
+      "Ordered the invasion of Iraq in March 2003",
+      "Created the PEPFAR programme against AIDS in Africa in 2003"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa présidence reste définie par la « guerre contre le terrorisme » et l'invasion de l'Irak, dont les conséquences pèsent encore sur le Moyen-Orient.",
+    "en": "His presidency remains defined by the war on terror and the invasion of Iraq, whose consequences still weigh on the Middle East."
   }
 }

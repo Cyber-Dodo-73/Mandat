@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Guayaquil en 1955, cadet d'une famille nombreuse, Guillermo Lasso commence à travailler adolescent et fait carrière dans la finance jusqu'à diriger la Banque de Guayaquil. Il occupe brièvement en 1999 des fonctions publiques au moment de la grave crise bancaire équatorienne, puis fonde le mouvement de centre droit CREO. Candidat à la présidence en 2013 puis en 2017, il est battu par Rafael Correa puis par Lenín Moreno. En avril 2021, il remporte le second tour face au candidat corréiste Andrés Arauz. Son gouvernement mène une campagne de vaccination rapide contre le Covid-19, mais se heurte à des manifestations indigènes en 2022, à une Assemblée hostile et à une explosion de la violence liée au narcotrafic, notamment dans les prisons. Visé en 2023 par une procédure de destitution pour malversation, il dissout l'Assemblée en mai grâce à la clause dite de « mort croisée ». Il ne se présente pas aux élections anticipées et quitte le pouvoir en novembre 2023.",
+    "en": "Born in Guayaquil in 1955, the youngest of a large family, Guillermo Lasso began working as a teenager and built a career in finance, eventually running Banco de Guayaquil. He briefly held public posts in 1999 during Ecuador's severe banking crisis, then founded the centre-right CREO movement. He ran for president in 2013 and 2017, losing first to Rafael Correa and then to Lenín Moreno. In April 2021 he won the runoff against the Correa-backed candidate Andrés Arauz. His government ran a fast Covid-19 vaccination drive but faced Indigenous protests in 2022, a hostile National Assembly and a surge in drug-related violence, especially in prisons. Facing impeachment over alleged embezzlement in 2023, he dissolved the Assembly in May using the so-called 'mutual death' clause. He did not run in the snap elections and left office in November 2023."
+  },
+  "highlights": {
+    "fr": [
+      "Ancien dirigeant de la Banque de Guayaquil, fondateur du mouvement CREO",
+      "Élu président de l'Équateur en avril 2021 à sa troisième tentative",
+      "Campagne de vaccination massive contre le Covid-19 en 2021",
+      "Dissout l'Assemblée nationale en mai 2023 par la « mort croisée »"
+    ],
+    "en": [
+      "Former head of Banco de Guayaquil and founder of the CREO movement",
+      "Elected president of Ecuador in April 2021 on his third attempt",
+      "Mass Covid-19 vaccination campaign in 2021",
+      "Dissolved the National Assembly in May 2023 via 'mutual death'"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste le premier président équatorien à avoir utilisé la « mort croisée », un mandat écourté dans un pays de plus en plus gagné par l'insécurité.",
+    "en": "He remains the first Ecuadorian president to invoke 'mutual death', ending a shortened term in a country increasingly gripped by insecurity."
   }
 }

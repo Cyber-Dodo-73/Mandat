@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1951 dans un village du gouvernorat de Charqiya, dans le delta du Nil, Mohamed Morsi étudie l'ingénierie à l'université du Caire. Il obtient en 1982 un doctorat à l'université de Californie du Sud et enseigne un temps aux États-Unis avant de rentrer à l'université de Zagazig. Membre des Frères musulmans, il siège au Parlement comme indépendant de 2000 à 2005 et est emprisonné à plusieurs reprises, dont pendant la révolte de janvier 2011. Président du Parti de la liberté et de la justice, il remplace au pied levé le candidat disqualifié de la confrérie et remporte le second tour de juin 2012 avec environ 52 % des voix, devenant le premier président démocratiquement élu d'Égypte. En novembre 2012, un décret qui soustrait ses décisions au contrôle des juges déclenche de violentes manifestations, suivies d'une Constitution adoptée à la hâte. Crise économique et polarisation culminent le 30 juin 2013 avec des millions de manifestants. Le 3 juillet, l'armée du général al-Sissi le destitue et l'emprisonne. Condamné dans plusieurs procès et détenu à l'isolement, il s'effondre et meurt en pleine audience au Caire en juin 2019.",
+    "en": "Born in 1951 in a village in Sharqia governorate, in the Nile Delta, Mohamed Morsi studied engineering at Cairo University. He earned a doctorate from the University of Southern California in 1982 and taught for a while in the United States before returning to Zagazig University. A member of the Muslim Brotherhood, he sat in parliament as an independent from 2000 to 2005 and was jailed several times, including during the January 2011 uprising. As head of the Freedom and Justice Party he stepped in for the Brotherhood's disqualified candidate and won the June 2012 runoff with about 52% of the vote, becoming Egypt's first democratically elected president. In November 2012 a decree shielding his decisions from judicial review set off violent protests, followed by a hastily adopted constitution. Economic crisis and polarisation peaked on 30 June 2013 with millions in the streets. On 3 July General el-Sisi's army removed and imprisoned him. Convicted in several trials and held in solitary confinement, he collapsed and died in a Cairo courtroom in June 2019."
+  },
+  "highlights": {
+    "fr": [
+      "1982 : docteur en ingénierie de l'université de Californie du Sud",
+      "2012 : premier président démocratiquement élu d'Égypte",
+      "Novembre 2012 : décret élargissant ses pouvoirs",
+      "3 juillet 2013 : renversé par l'armée",
+      "2019 : meurt lors d'une audience de son procès"
+    ],
+    "en": [
+      "1982: engineering doctorate from the University of Southern California",
+      "2012: Egypt's first democratically elected president",
+      "November 2012: decree expanding his powers",
+      "3 July 2013: overthrown by the army",
+      "2019: dies during a court hearing"
+    ]
+  },
+  "legacy": {
+    "fr": "Seul président librement élu de l'histoire égyptienne, il symbolise l'échec de la transition démocratique née du printemps arabe.",
+    "en": "The only freely elected president in Egypt's history, he symbolises the failure of the democratic transition born of the Arab Spring."
   }
 }

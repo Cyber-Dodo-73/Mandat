@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Lahore en 1952 dans une famille pachtoune aisée, Imran Khan étudie à l'Aitchison College puis la philosophie, la politique et l'économie à Oxford. Joueur de cricket d'exception, il est désigné joueur de l'année par Wisden en 1983 et mène, comme capitaine, le Pakistan à sa première Coupe du monde en 1992. Il consacre ensuite sa notoriété à la philanthropie, en ouvrant à Lahore en 1994 un hôpital anticancéreux gratuit pour les plus pauvres. En 1996, il fonde le Mouvement du Pakistan pour la justice (PTI), qui reste longtemps marginal ; il n'obtient qu'un siège de député en 2002. Sa campagne contre la corruption et les dynasties politiques séduit la jeunesse urbaine, et le PTI arrive en tête des législatives de 2018. Devenu Premier ministre en août 2018, il promet un « nouveau Pakistan » mais affronte une grave crise économique et des relations tendues avec Washington. Après sa brouille avec l'armée, il est renversé en avril 2022 par une motion de censure, une première dans l'histoire du pays. Blessé par balle lors d'une marche en novembre 2022, il est arrêté en 2023 et emprisonné depuis août 2023, condamné dans plusieurs affaires qu'il dénonce comme politiques.",
+    "en": "Born in Lahore in 1952 into a well-off Pashtun family, Imran Khan studied at Aitchison College and then read philosophy, politics and economics at Oxford. An outstanding cricketer, he was named a Wisden Cricketer of the Year in 1983 and captained Pakistan to its first World Cup title in 1992. He then turned his fame to philanthropy, opening a free cancer hospital for the poor in Lahore in 1994. In 1996 he founded Pakistan Tehreek-e-Insaf (PTI), which long remained marginal; he won just one seat in parliament in 2002. His campaign against corruption and political dynasties won over young urban voters, and the PTI came first in the 2018 election. Sworn in as prime minister in August 2018, he promised a new Pakistan but faced a severe economic crisis and strained relations with Washington. After falling out with the army, he was ousted by a no-confidence vote in April 2022, the first Pakistani leader removed that way. Shot and wounded during a protest march in November 2022, he was arrested in 2023 and has been in prison since August 2023, convicted in several cases he denounces as politically motivated."
+  },
+  "highlights": {
+    "fr": [
+      "Mène le Pakistan à la victoire en Coupe du monde de cricket en 1992",
+      "Ouvre en 1994 un hôpital anticancéreux gratuit à Lahore",
+      "Fonde le parti PTI en 1996",
+      "Premier ministre du Pakistan d'août 2018 à avril 2022",
+      "Premier chef du gouvernement renversé par une motion de censure, en 2022"
+    ],
+    "en": [
+      "Captained Pakistan to Cricket World Cup victory in 1992",
+      "Opened a free cancer hospital in Lahore in 1994",
+      "Founded the PTI party in 1996",
+      "Prime minister of Pakistan from August 2018 to April 2022",
+      "First Pakistani premier ousted by a no-confidence vote, in 2022"
+    ]
+  },
+  "legacy": {
+    "fr": "Même emprisonné, il reste l'homme politique le plus populaire du Pakistan et le symbole d'un bras de fer inédit entre un dirigeant civil et l'armée.",
+    "en": "Even behind bars he remains Pakistan's most popular politician and the symbol of an unprecedented showdown between a civilian leader and the army."
   }
 }

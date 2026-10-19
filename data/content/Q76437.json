@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1891 à Grünau, près de Berlin, Karl Dönitz entre dans la marine impériale en 1910. Pendant la Première Guerre mondiale, il sert sur le croiseur Breslau en Méditerranée, puis commande un sous-marin, coulé en 1918, ce qui lui vaut d'être fait prisonnier par les Britanniques. En 1935, le régime nazi lui confie la nouvelle arme sous-marine, pour laquelle il développe la tactique des « meutes ». Pendant la bataille de l'Atlantique, ses U-Boote coulent près de 3 000 navires alliés et tuent des dizaines de milliers de marins, tandis qu'environ trois quarts des sous-mariniers allemands périssent. En 1942, après l'affaire du Laconia, il interdit à ses équipages de secourir les naufragés. Nommé grand amiral et commandant en chef de la marine en janvier 1943, nazi convaincu, il tient des discours antisémites et exige la poursuite d'une guerre perdue. Désigné par Hitler comme son successeur, il devient président du Reich le 30 avril 1945 et autorise la capitulation sans condition le 7 mai. Condamné à Nuremberg pour crimes contre la paix et crimes de guerre, il purge dix ans à Spandau et meurt à Aumühle en 1980.",
+    "en": "Born in Grünau, near Berlin, in 1891, Karl Dönitz joined the imperial navy in 1910. During the First World War he served on the cruiser Breslau in the Mediterranean and then commanded a submarine, which was sunk in 1918, leaving him a British prisoner. In 1935 the Nazi regime put him in charge of its new submarine arm, for which he developed 'wolfpack' tactics. In the Battle of the Atlantic his U-boats sank close to 3,000 Allied ships and killed tens of thousands of sailors, while roughly three quarters of German submariners died. In 1942, after the Laconia affair, he forbade his crews to rescue survivors. Made grand admiral and commander-in-chief of the navy in January 1943, he was a committed Nazi who gave antisemitic speeches and demanded that a lost war be fought on. Named by Hitler as his successor, he became Reich President on 30 April 1945 and authorised unconditional surrender on 7 May. Convicted at Nuremberg of crimes against peace and war crimes, he served ten years in Spandau and died in Aumühle in 1980."
+  },
+  "highlights": {
+    "fr": [
+      "1935 : prend la tête de l'arme sous-marine allemande",
+      "1942 : ordonne de ne plus secourir les naufragés",
+      "1943 : commandant en chef de la marine nazie",
+      "1945 : successeur d'Hitler, il autorise la capitulation",
+      "1946 : condamné à dix ans de prison à Nuremberg"
+    ],
+    "en": [
+      "1935: takes command of Germany's submarine arm",
+      "1942: orders crews to stop rescuing shipwrecked survivors",
+      "1943: commander-in-chief of the Nazi navy",
+      "1945: Hitler's successor, he authorises the surrender",
+      "1946: sentenced to ten years in prison at Nuremberg"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier chef de l'État nazi, il a longtemps entretenu après sa libération le mythe d'une marine « apolitique », démenti par les historiens.",
+    "en": "The last head of the Nazi state, after his release he long cultivated the myth of an 'apolitical' navy, a claim historians have refuted."
   }
 }

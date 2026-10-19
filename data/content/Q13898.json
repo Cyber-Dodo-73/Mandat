@@ -32,5 +32,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né à York en 1570 dans une famille protestante, Guy Fawkes perd son père enfant ; sa mère se remarie avec un catholique, et il se convertit au catholicisme. En 1592, il part pour les Pays-Bas espagnols et combat pendant une dizaine d'années dans l'armée espagnole contre les Provinces-Unies, se faisant appeler Guido. En 1603, il se rend en Espagne pour réclamer un soutien à un soulèvement des catholiques anglais, sans succès. L'année suivante, il rejoint le groupe de conjurés réuni autour de Robert Catesby, décidé à tuer le roi Jacques Ier. Leur projet consiste à faire exploser la Chambre des lords lors de l'ouverture du Parlement, et ils entreposent une trentaine de barils de poudre dans une cave située sous la salle. Une lettre anonyme adressée fin octobre 1605 à Lord Monteagle met les autorités en alerte. Dans la nuit du 4 au 5 novembre, Fawkes est arrêté près de la poudre sous le nom de John Johnson, puis torturé à la Tour de Londres avec l'accord du roi jusqu'à livrer les noms de ses complices. Jugé en janvier 1606, il est condamné à mort pour haute trahison et meurt le 31 janvier à Westminster, la nuque brisée en tombant de l'échafaud avant d'être écartelé.",
+    "en": "Born in York in 1570 into a Protestant family, Guy Fawkes lost his father as a child; his mother remarried a Catholic, and he converted to Catholicism. In 1592 he left for the Spanish Netherlands and spent about a decade fighting in the Spanish army against the Dutch Republic, calling himself Guido. In 1603 he travelled to Spain to seek support for a rising of English Catholics, without success. The next year he joined the group of conspirators gathered around Robert Catesby, who were bent on killing King James I. Their plan was to blow up the House of Lords at the State Opening of Parliament, and they stored some thirty-six barrels of gunpowder in an undercroft beneath the chamber. An anonymous letter sent to Lord Monteagle in late October 1605 alerted the authorities. On the night of 4–5 November Fawkes was arrested beside the powder under the name John Johnson, then tortured in the Tower of London with the king's permission until he named his accomplices. Tried in January 1606, he was sentenced to death for high treason and died at Westminster on 31 January, breaking his neck in a fall from the scaffold before he could be quartered."
+  },
+  "highlights": {
+    "fr": [
+      "Combat dans l'armée espagnole aux Pays-Bas à partir de 1592",
+      "Rejoint en 1604 les conjurés de Robert Catesby",
+      "Arrêté le 5 novembre 1605 sous la Chambre des lords, près de la poudre",
+      "Exécuté pour haute trahison à Westminster le 31 janvier 1606"
+    ],
+    "en": [
+      "Fought in the Spanish army in the Netherlands from 1592",
+      "Joined Robert Catesby's conspirators in 1604",
+      "Arrested under the House of Lords beside the powder on 5 November 1605",
+      "Executed for high treason at Westminster on 31 January 1606"
+    ]
+  },
+  "legacy": {
+    "fr": "L'échec de la Conspiration des poudres est encore fêté chaque 5 novembre au Royaume-Uni, et son visage stylisé est devenu un symbole de contestation.",
+    "en": "The failure of the Gunpowder Plot is still marked every 5 November in Britain, and a stylised mask of his face has become a protest symbol."
   }
 }

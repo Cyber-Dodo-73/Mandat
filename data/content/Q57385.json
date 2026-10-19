@@ -36,5 +36,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Teodoro Obiang Nguema Mbasogo naît en 1942 à Acoacán, dans la province de Wele-Nzas, en Guinée espagnole. Formé à l'académie militaire de Saragosse, en Espagne, il fait carrière dans l'armée après l'indépendance de 1968, sous la présidence de son oncle Francisco Macías Nguema. Il occupe des postes sensibles du régime, dont le commandement de la sinistre prison de Black Beach, alors que la dictature de Macías tue ou pousse à l'exil une large part de la population. Le 3 août 1979, il renverse son oncle ; jugé par un tribunal militaire, Macías est fusillé en septembre. Obiang fait adopter une Constitution en 1982, crée son parti, le PDGE, en 1987 et autorise le multipartisme en 1991, mais il est réélu avec des scores dépassant souvent 95 %. Les découvertes pétrolières des années 1990, comme le champ de Zafiro, transforment l'économie sans réduire la pauvreté de la majorité. Les organisations de défense des droits humains dénoncent torture, détentions arbitraires et répression des opposants. En 2004, un complot de mercenaires visant à le renverser est déjoué. Son fils Teodorin, vice-président depuis 2016, a été condamné en France pour blanchiment dans l'affaire des biens mal acquis.",
+    "en": "Teodoro Obiang Nguema Mbasogo was born in 1942 in Acoacán, in Wele-Nzas Province, in what was then Spanish Guinea. Trained at the military academy in Zaragoza, Spain, he made his career in the army after independence in 1968, under the presidency of his uncle Francisco Macías Nguema. He held sensitive posts in that regime, including command of the notorious Black Beach prison, while Macías's dictatorship killed or drove into exile a large share of the population. On 3 August 1979 he overthrew his uncle; tried by a military court, Macías was shot that September. Obiang introduced a constitution in 1982, founded his PDGE party in 1987 and allowed multiparty politics in 1991, yet kept winning re-election with tallies often above 95 percent. Oil discoveries in the 1990s, such as the Zafiro field, transformed the economy without lifting most people out of poverty. Human rights groups have documented torture, arbitrary detention and the persecution of opponents. In 2004 a mercenary plot to topple him was foiled. His son Teodorin, vice-president since 2016, was convicted of money laundering in France in the ill-gotten gains case."
+  },
+  "highlights": {
+    "fr": [
+      "Renverse son oncle Francisco Macías Nguema le 3 août 1979",
+      "Fonde le Parti démocratique de Guinée équatoriale (PDGE) en 1987",
+      "Ministre de la Défense de 1993 à 2004 en plus de la présidence",
+      "Plus long règne d'un chef d'État non monarque en exercice au monde"
+    ],
+    "en": [
+      "Overthrew his uncle Francisco Macías Nguema on 3 August 1979",
+      "Founded the Democratic Party of Equatorial Guinea (PDGE) in 1987",
+      "Also served as defence minister from 1993 to 2004",
+      "The world's longest-serving non-royal head of state still in office"
+    ]
+  },
+  "legacy": {
+    "fr": "Son règne illustre la « malédiction du pétrole » : une rente immense captée par un clan familial dans l'un des pays les plus inégalitaires d'Afrique.",
+    "en": "His rule is a textbook case of the oil curse: vast revenues captured by one family in one of Africa's most unequal countries."
   }
 }

@@ -32,5 +32,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1942 dans l'actuel Cap-Oriental, fils du militant communiste Govan Mbeki, Thabo Mbeki s'engage très jeune dans l'ANC. En 1962, le mouvement l'envoie à l'étranger ; il obtient un master d'économie à l'université du Sussex en 1966, puis passe près de trois décennies en exil, de Londres à Lusaka. Devenu le principal diplomate de l'ANC, il noue dans les années 1980 les premiers contacts discrets avec des Sud-Africains blancs. Rentré en 1990, il est nommé vice-président de Nelson Mandela en 1994 et lui succède en juin 1999. Président jusqu'en 2008, il défend une « renaissance africaine », contribue à la création de l'Union africaine en 2002 et préside le Commonwealth de 1999 à 2002. Sa politique économique libérale favorise la croissance, mais ses doutes publics sur le lien entre VIH et sida retardent la distribution des antirétroviraux, au prix de centaines de milliers de vies selon des études ultérieures. Sa « diplomatie discrète » envers le Zimbabwe de Robert Mugabe est aussi critiquée. Battu par Jacob Zuma à la tête de l'ANC en décembre 2007, il est rappelé par son parti et démissionne en septembre 2008. Il s'investit ensuite comme médiateur de l'Union africaine, notamment au Soudan.",
+    "en": "Born in 1942 in what is now the Eastern Cape, the son of communist activist Govan Mbeki, Thabo Mbeki joined the ANC as a teenager. In 1962 the movement sent him abroad; he earned a master's in economics at the University of Sussex in 1966 and went on to spend nearly three decades in exile, from London to Lusaka. As the ANC's chief diplomat, he opened the first quiet channels to white South Africans in the 1980s. Back home in 1990, he became Nelson Mandela's deputy president in 1994 and succeeded him in June 1999. As president until 2008, he promoted an \"African Renaissance\", helped found the African Union in 2002 and chaired the Commonwealth from 1999 to 2002. His market-friendly economic policy brought growth, but his public doubts about the link between HIV and AIDS held back antiretroviral treatment, costing hundreds of thousands of lives according to later studies. His \"quiet diplomacy\" towards Robert Mugabe's Zimbabwe also drew fire. Defeated by Jacob Zuma for the ANC leadership in December 2007, he was recalled by his party and resigned in September 2008. He later worked as an African Union mediator, notably on Sudan."
+  },
+  "highlights": {
+    "fr": [
+      "Diplomate en chef de l'ANC pendant près de trente ans d'exil",
+      "Vice-président de Nelson Mandela de 1994 à 1999",
+      "Président de l'Afrique du Sud de 1999 à 2008",
+      "Contribue à fonder l'Union africaine en 2002"
+    ],
+    "en": [
+      "Served as the ANC's chief diplomat during nearly 30 years of exile",
+      "Deputy president to Nelson Mandela from 1994 to 1999",
+      "President of South Africa from 1999 to 2008",
+      "Helped launch the African Union in 2002"
+    ]
+  },
+  "legacy": {
+    "fr": "Architecte d'une diplomatie panafricaine ambitieuse, il reste indissociable de sa gestion désastreuse de l'épidémie de sida.",
+    "en": "The architect of an ambitious pan-African diplomacy, he remains inseparable from his disastrous handling of the AIDS epidemic."
   }
 }

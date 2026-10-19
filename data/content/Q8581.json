@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Salah ad-Din Yusuf ibn Ayyub, dit Saladin, naît vers 1138 à Tikrit, dans une famille kurde au service des princes turcs de la région. Il fait ses armes auprès de son oncle Chirkouh, général de Nur ad-Din, le maître d'Alep et de Damas, lors de trois expéditions en Égypte entre 1164 et 1169. À la mort de son oncle en 1169, il devient vizir du calife fatimide du Caire, puis, en 1171, abolit ce califat chiite et rétablit l'allégeance au calife abbasside sunnite de Bagdad. Après la disparition de Nur ad-Din en 1174, il s'empare de Damas et réunit peu à peu l'Égypte, la Syrie et une partie de la Mésopotamie sous son autorité, fondant la dynastie ayyoubide. Le 4 juillet 1187, il écrase l'armée du royaume latin de Jérusalem à Hattin, en Galilée, puis prend Jérusalem le 2 octobre en laissant les habitants racheter leur liberté. Cette reconquête provoque la troisième croisade, menée notamment par Richard Cœur de Lion. Il perd Acre en 1191 et est battu à Arsuf, mais conserve Jérusalem ; la paix de Jaffa, en 1192, laisse aux croisés une bande côtière. Épuisé, il meurt à Damas en mars 1193.",
+    "en": "Salah ad-Din Yusuf ibn Ayyub, known as Saladin, was born around 1138 in Tikrit, into a Kurdish family serving the region's Turkish princes. He learned his trade under his uncle Shirkuh, a general of Nur ad-Din, ruler of Aleppo and Damascus, on three expeditions to Egypt between 1164 and 1169. When his uncle died in 1169 he became vizier to the Fatimid caliph in Cairo, and in 1171 he abolished that Shiite caliphate and restored allegiance to the Sunni Abbasid caliph of Baghdad. After Nur ad-Din's death in 1174 he seized Damascus and gradually brought Egypt, Syria and part of Mesopotamia under his rule, founding the Ayyubid dynasty. On 4 July 1187 he destroyed the army of the Latin Kingdom of Jerusalem at Hattin in Galilee, then took Jerusalem on 2 October, letting its inhabitants buy their freedom. The reconquest triggered the Third Crusade, led among others by Richard the Lionheart. He lost Acre in 1191 and was beaten at Arsuf but kept Jerusalem; the 1192 Treaty of Jaffa left the crusaders a coastal strip. Worn out, he died in Damascus in March 1193."
+  },
+  "highlights": {
+    "fr": [
+      "Devient vizir de l'Égypte fatimide en 1169",
+      "Abolit le califat fatimide en 1171 et rattache l'Égypte aux Abbassides",
+      "Écrase l'armée croisée à Hattin le 4 juillet 1187",
+      "Reprend Jérusalem aux croisés le 2 octobre 1187",
+      "Signe la paix de Jaffa avec Richard Cœur de Lion en 1192"
+    ],
+    "en": [
+      "Became vizier of Fatimid Egypt in 1169",
+      "Abolished the Fatimid caliphate in 1171, bringing Egypt back to the Abbasids",
+      "Crushed the crusader army at Hattin on 4 July 1187",
+      "Retook Jerusalem from the crusaders on 2 October 1187",
+      "Signed the Treaty of Jaffa with Richard the Lionheart in 1192"
+    ]
+  },
+  "legacy": {
+    "fr": "Fondateur de la dynastie ayyoubide, il est resté un héros du monde musulman, tandis que l'Europe médiévale elle-même a célébré sa générosité chevaleresque.",
+    "en": "Founder of the Ayyubid dynasty, he remains a hero of the Muslim world, while medieval Europe itself celebrated his chivalrous generosity."
   }
 }

@@ -31,5 +31,29 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Née Golda Mabovitch en 1898 à Kiev, dans l'Empire russe, elle émigre avec sa famille en 1906 à Milwaukee, aux États-Unis, où elle devient institutrice et militante du sionisme travailliste. En 1921, elle s'installe en Palestine mandataire avec son mari Morris Meyerson et vit d'abord au kibboutz de Merhavia. Elle gravit les échelons de la Histadrout, le syndicat juif, puis dirige en 1946 le département politique de l'Agence juive après l'arrestation de ses chefs par les Britanniques. Début 1948, elle collecte aux États-Unis des dizaines de millions de dollars pour l'armement, puis signe la déclaration d'indépendance d'Israël le 14 mai 1948. Première ambassadrice d'Israël en Union soviétique, elle devient ensuite ministre du Travail de 1949 à 1956, chargée du logement des immigrants, puis ministre des Affaires étrangères de 1956 à 1966, hébraïsant alors son nom en Meir. En mars 1969, à la mort de Levi Eshkol, elle devient Première ministre, l'une des premières femmes au monde à ce poste. Après le massacre des athlètes israéliens aux Jeux de Munich en 1972, elle ordonne la traque des responsables. L'attaque surprise égyptienne et syrienne du 6 octobre 1973 ouvre la guerre du Kippour, qui coûte la vie à plus de 2 500 soldats israéliens ; critiquée, elle démissionne en 1974 et meurt à Jérusalem en 1978.",
+    "en": "Born Golda Mabovitch in 1898 in Kyiv, in the Russian Empire, she emigrated with her family to Milwaukee in 1906, where she became a teacher and a Labour Zionist activist. In 1921 she moved to Mandatory Palestine with her husband Morris Meyerson, living first on the Merhavia kibbutz. She rose through the Histadrut, the Jewish labour federation, and in 1946 took over the Jewish Agency's political department after the British arrested its leaders. In early 1948 she raised tens of millions of dollars in the United States for weapons, and on 14 May 1948 she signed Israel's declaration of independence. Israel's first envoy to the Soviet Union, she then served as labour minister from 1949 to 1956, in charge of housing immigrants, and as foreign minister from 1956 to 1966, when she Hebraised her name to Meir. In March 1969, after Levi Eshkol's death, she became prime minister, one of the first women in the world to hold the office. After the massacre of Israeli athletes at the 1972 Munich Olympics, she ordered the hunt for those responsible. The surprise Egyptian and Syrian attack of 6 October 1973 opened the Yom Kippur War, which killed more than 2,500 Israeli soldiers; under fire, she resigned in 1974 and died in Jerusalem in 1978."
+  },
+  "highlights": {
+    "fr": [
+      "Signataire de la déclaration d'indépendance d'Israël le 14 mai 1948",
+      "Ministre du Travail de 1949 à 1956",
+      "Ministre des Affaires étrangères de 1956 à 1966",
+      "Première ministre d'Israël de 1969 à 1974",
+      "Dirige le pays pendant la guerre du Kippour en octobre 1973"
+    ],
+    "en": [
+      "Signed Israel's declaration of independence on 14 May 1948",
+      "Labour minister from 1949 to 1956",
+      "Foreign minister from 1956 to 1966",
+      "Prime Minister of Israel from 1969 to 1974",
+      "Led the country through the Yom Kippur War in October 1973"
+    ]
+  },
+  "legacy": {
+    "fr": "Première et seule femme à avoir dirigé le gouvernement israélien, elle reste aussi associée à l'impréparation face à l'attaque de 1973.",
+    "en": "The first and only woman to lead Israel's government, she also remains associated with the lack of readiness for the 1973 attack."
   }
 }

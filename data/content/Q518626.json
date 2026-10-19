@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Lenín Moreno naît en mars 1953 à Nuevo Rocafuerte, dans l’Amazonie équatorienne, et travaille dans l’administration et le tourisme. En 1998, il est gravement blessé par balle lors d’une tentative de vol et reste paraplégique, ce qui l’amène à militer pour les droits des personnes handicapées. Vice-président de Rafael Correa de 2007 à 2013, il lance un vaste programme de recensement et d’aide aux handicapés, puis devient envoyé spécial de l’ONU pour le handicap. Candidat d’Alliance PAIS, il remporte la présidentielle d’avril 2017, mais rompt rapidement avec Correa et fait rétablir en 2018 la limitation des mandats par référendum. En 2019, il retire l’asile accordé à Julian Assange dans l’ambassade équatorienne à Londres et conclut un accord avec le FMI. La suppression des subventions aux carburants, en octobre 2019, déclenche onze jours de soulèvement mené par les organisations indigènes, qui l’obligent à transférer son gouvernement à Guayaquil puis à abroger le décret. En 2020, la pandémie frappe durement le pays, en particulier Guayaquil. Il quitte le pouvoir en mai 2021, très impopulaire, au profit de Guillermo Lasso.",
+    "en": "Lenín Moreno was born in March 1953 in Nuevo Rocafuerte, in Ecuador's Amazon region, and worked in public administration and tourism. In 1998 he was shot during an attempted robbery and left paraplegic, which led him to campaign for disability rights. As Rafael Correa's vice president from 2007 to 2013, he launched a major programme to identify and support disabled people, then became the UN special envoy on disability. Running for Alianza PAIS, he won the April 2017 presidential election but quickly broke with Correa and restored presidential term limits by referendum in 2018. In 2019 he withdrew the asylum granted to Julian Assange in Ecuador's London embassy and signed an agreement with the IMF. Scrapping fuel subsidies in October 2019 set off eleven days of unrest led by Indigenous organisations, forcing him to move the government to Guayaquil and then repeal the decree. In 2020 the pandemic hit the country hard, especially Guayaquil. He left office in May 2021, deeply unpopular, handing over to Guillermo Lasso."
+  },
+  "highlights": {
+    "fr": [
+      "Vice-président de l’Équateur de 2007 à 2013",
+      "Envoyé spécial de l’ONU pour le handicap à partir de 2013",
+      "Élu président en avril 2017",
+      "Fait rétablir la limitation des mandats par référendum en 2018",
+      "Retire l’asile de Julian Assange en avril 2019"
+    ],
+    "en": [
+      "Vice President of Ecuador from 2007 to 2013",
+      "UN special envoy on disability from 2013",
+      "Elected president in April 2017",
+      "Restored presidential term limits by referendum in 2018",
+      "Withdrew Julian Assange's asylum in April 2019"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier chef d’État en fauteuil roulant de la région, il a rompu avec l’héritage de Correa, mais son mandat reste associé à l’austérité et à la crise de 2019.",
+    "en": "The region's first head of state to use a wheelchair, he broke with Correa's legacy, but his term remains tied to austerity and the 2019 unrest."
   }
 }

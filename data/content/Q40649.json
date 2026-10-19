@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1953 près de La Plata, dans la province de Buenos Aires, Cristina Fernández étudie le droit et milite dans la jeunesse péroniste, où elle rencontre Néstor Kirchner, qu'elle épouse en 1975. Le couple s'installe en Patagonie, à Río Gallegos, où elle entre au Parlement de la province de Santa Cruz en 1989. Sénatrice puis députée nationale à partir de 1995, elle devient première dame quand son mari accède à la présidence en 2003. Élue présidente en 2007, première femme élue à la tête de l'Argentine, elle affronte dès 2008 un long conflit avec les agriculteurs sur les taxes à l'exportation. Elle renationalise les retraites, Aerolíneas Argentinas puis la compagnie pétrolière YPF en 2012, et fait légaliser le mariage homosexuel en 2010. Veuve en octobre 2010, elle est réélue en 2011 avec 54 % des voix, mais l'inflation, le contrôle des changes et la manipulation des statistiques officielles minent son second mandat. Vice-présidente d'Alberto Fernández de 2019 à 2023, elle échappe à une tentative d'assassinat en 2022. Condamnée la même année pour administration frauduleuse, elle voit sa peine confirmée par la Cour suprême en 2025 et est assignée à résidence.",
+    "en": "Born near La Plata, Buenos Aires Province, in 1953, Cristina Fernández studied law and was active in the Peronist youth, where she met Néstor Kirchner, whom she married in 1975. The couple moved to Río Gallegos in Patagonia, where she entered the Santa Cruz provincial legislature in 1989. A national senator and then deputy from 1995, she became First Lady when her husband won the presidency in 2003. Elected president in 2007, the first woman voted in to lead Argentina, she faced a long clash with farmers over export taxes from 2008. She renationalised pensions, Aerolíneas Argentinas and then the oil company YPF in 2012, and legalised same-sex marriage in 2010. Widowed in October 2010, she was re-elected in 2011 with 54% of the vote, but inflation, currency controls and the manipulation of official statistics eroded her second term. Vice president under Alberto Fernández from 2019 to 2023, she survived an assassination attempt in 2022. Convicted that year of fraudulent administration, she saw her sentence upheld by the Supreme Court in 2025 and was placed under house arrest."
+  },
+  "highlights": {
+    "fr": [
+      "2007 : première femme élue présidente de l'Argentine",
+      "2010 : légalisation du mariage homosexuel",
+      "2012 : renationalise la compagnie pétrolière YPF",
+      "2019 : devient vice-présidente",
+      "2025 : sa condamnation pour fraude est confirmée"
+    ],
+    "en": [
+      "2007: first woman elected president of Argentina",
+      "2010: same-sex marriage is legalised",
+      "2012: renationalises the oil company YPF",
+      "2019: becomes vice president",
+      "2025: her fraud conviction is upheld"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure dominante du péronisme du XXIe siècle, elle polarise l'Argentine entre ses fidèles et ceux qui voient en elle le symbole de la corruption.",
+    "en": "The dominant figure of 21st-century Peronism, she splits Argentina between loyal supporters and those who see her as a symbol of corruption."
   }
 }

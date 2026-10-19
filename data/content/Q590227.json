@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1894 à White Lodge, dans le parc de Richmond, Édouard est le fils aîné du futur George V et devient prince de Galles en 1910, à l'avènement de son père. Pendant la Première Guerre mondiale, il sert comme officier d'état-major en France et reçoit la Military Cross, même si on lui interdit de combattre en première ligne. Dans les années 1920, ses tournées dans l'Empire et son allure moderne font de lui une vedette internationale. Il devient roi en janvier 1936 sous le nom d'Édouard VIII, mais son projet d'épouser l'Américaine Wallis Simpson, deux fois divorcée, provoque une crise avec le gouvernement et l'Église. Plutôt que de renoncer à elle, il abdique le 11 décembre 1936, après moins d'un an de règne et sans avoir été couronné. Devenu duc de Windsor, il épouse Wallis en France en 1937 et rend visite à Hitler en Allemagne la même année, ce qui alimente les soupçons de sympathies nazies. Nommé gouverneur des Bahamas pendant la guerre, il passe ensuite le reste de sa vie en exil doré à Paris, où il meurt en 1972.",
+    "en": "Born in 1894 at White Lodge in Richmond Park, Edward was the eldest son of the future George V and became Prince of Wales in 1910 when his father took the throne. During the First World War he served as a staff officer in France and received the Military Cross, though he was kept away from the front line. In the 1920s his tours of the Empire and modern style made him an international celebrity. He became king as Edward VIII in January 1936, but his plan to marry the twice-divorced American Wallis Simpson set off a crisis with the government and the Church. Rather than give her up, he abdicated on 11 December 1936, less than a year into his reign and before any coronation. As Duke of Windsor he married Wallis in France in 1937 and visited Hitler in Germany that same year, fuelling suspicions of Nazi sympathies. Made governor of the Bahamas during the war, he spent the rest of his life in gilded exile in Paris, where he died in 1972."
+  },
+  "highlights": {
+    "fr": [
+      "Prince de Galles à partir de 1910",
+      "Reçoit la Military Cross pendant la Première Guerre mondiale",
+      "Roi de janvier à décembre 1936, sans jamais être couronné",
+      "Abdique le 11 décembre 1936 pour épouser Wallis Simpson",
+      "Gouverneur des Bahamas de 1940 à 1945"
+    ],
+    "en": [
+      "Prince of Wales from 1910",
+      "Received the Military Cross in the First World War",
+      "King from January to December 1936, never crowned",
+      "Abdicated on 11 December 1936 to marry Wallis Simpson",
+      "Governor of the Bahamas from 1940 to 1945"
+    ]
+  },
+  "legacy": {
+    "fr": "Son abdication reste la plus grave crise de la monarchie britannique au XXe siècle et a placé sur le trône la lignée de George VI et d'Elizabeth II.",
+    "en": "His abdication remains the British monarchy's gravest crisis of the 20th century and put the line of George VI and Elizabeth II on the throne."
   }
 }

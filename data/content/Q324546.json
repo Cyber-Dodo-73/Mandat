@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né à Miami en 1971 de parents cubains arrivés aux États-Unis dans les années 1950, Marco Rubio étudie à l'université de Floride puis le droit à l'université de Miami. Élu à la Chambre des représentants de Floride en 2000, il en devient le président de 2006 à 2008. En 2010, porté par le Tea Party, il remporte un siège de sénateur fédéral face au gouverneur Charlie Crist. Il participe en 2013 au « groupe des huit » qui rédige une réforme de l'immigration, adoptée au Sénat mais bloquée à la Chambre. Candidat à l'investiture républicaine en 2016, il abandonne après avoir perdu la primaire de sa propre Floride face à Donald Trump. Réélu sénateur en 2016 et 2022, il se fait connaître par sa ligne dure envers Cuba, le Venezuela et la Chine. En janvier 2025, il devient secrétaire d'État de Donald Trump, assure aussi l'intérim de l'agence USAID, largement démantelée, puis cumule en mai les fonctions de conseiller à la sécurité nationale. La même année, il fait partie des responsables présents dans une conversation de messagerie sur des frappes au Yémen, révélée par un journaliste ajouté par erreur.",
+    "en": "Born in Miami in 1971 to Cuban parents who had arrived in the United States in the 1950s, Marco Rubio studied at the University of Florida and then law at the University of Miami. Elected to the Florida House of Representatives in 2000, he served as its speaker from 2006 to 2008. In 2010, riding the Tea Party wave, he won a US Senate seat against Governor Charlie Crist. In 2013 he joined the bipartisan 'Gang of Eight' that drafted an immigration overhaul, which passed the Senate but stalled in the House. He sought the Republican presidential nomination in 2016 and dropped out after losing his home state of Florida to Donald Trump. Re-elected to the Senate in 2016 and 2022, he became known for a hard line on Cuba, Venezuela and China. In January 2025 he became Donald Trump's Secretary of State, also took temporary charge of the largely dismantled USAID, and in May added the post of national security adviser. That year he was among the officials in a messaging chat about strikes in Yemen that was exposed by a journalist added by mistake."
+  },
+  "highlights": {
+    "fr": [
+      "2006 : président de la Chambre des représentants de Floride",
+      "2010 : élu sénateur fédéral de Floride",
+      "2016 : candidat à l'investiture républicaine",
+      "2025 : secrétaire d'État puis aussi conseiller à la sécurité nationale"
+    ],
+    "en": [
+      "2006: Speaker of the Florida House of Representatives",
+      "2010: elected US senator for Florida",
+      "2016: runs for the Republican presidential nomination",
+      "2025: Secretary of State, later also national security adviser"
+    ]
+  },
+  "legacy": {
+    "fr": "Premier Américain d'origine hispanique à diriger la diplomatie des États-Unis, il concentre en 2025 un pouvoir sur la politique étrangère sans équivalent depuis Henry Kissinger.",
+    "en": "The first Hispanic American to lead US diplomacy, he gathered in 2025 a grip on foreign policy unmatched since Henry Kissinger."
   }
 }

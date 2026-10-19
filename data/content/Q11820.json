@@ -30,5 +30,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1782 à Kinderhook, dans le comté de Columbia, dans une famille d'origine néerlandaise, Martin Van Buren est le premier président né après l'indépendance. Avocat, il entre au Sénat de l'État de New York en 1813 et y est procureur général de 1815 à 1819. Il bâtit à Albany une machine politique très organisée, surnommée l'Albany Regency. Sénateur des États-Unis de 1821 à 1828, il rassemble autour d'Andrew Jackson la coalition qui donnera naissance au Parti démocrate. Élu gouverneur de New York, il démissionne au bout de quelques semaines en 1829 pour devenir le secrétaire d'État de Jackson, poste qu'il quitte en 1831. Vice-président de 1833 à 1837, il remporte la présidentielle de 1836. Dès 1837, une grave panique financière plonge le pays dans la dépression, et il fait adopter en 1840 un Trésor indépendant des banques. Son mandat voit aussi la déportation forcée des Cherokees en 1838, la « piste des larmes », au cours de laquelle des milliers de personnes meurent. Battu par Harrison en 1840, il se présente encore en 1848 pour le Free Soil Party, opposé à l'extension de l'esclavage, puis meurt à Kinderhook en 1862.",
+    "en": "Born in 1782 in Kinderhook, Columbia County, into a Dutch-speaking family, Martin Van Buren was the first president born after independence. A lawyer, he entered the New York State Senate in 1813 and served as the state's attorney general from 1815 to 1819. In Albany he built a tightly organised political machine known as the Albany Regency. As a US senator from 1821 to 1828, he pulled together around Andrew Jackson the coalition that became the Democratic Party. Elected governor of New York, he resigned after a few weeks in 1829 to become Jackson's Secretary of State, a post he left in 1831. Vice president from 1833 to 1837, he won the presidential election of 1836. In 1837 a severe financial panic threw the country into depression, and in 1840 he secured an independent Treasury separate from the banks. His term also saw the forced removal of the Cherokee in 1838, the “Trail of Tears”, during which thousands died. Beaten by Harrison in 1840, he ran again in 1848 for the Free Soil Party, which opposed the spread of slavery, and he died in Kinderhook in 1862."
+  },
+  "highlights": {
+    "fr": [
+      "Organise la coalition jacksonienne qui devient le Parti démocrate",
+      "Secrétaire d'État de 1829 à 1831, vice-président de 1833 à 1837",
+      "8e président des États-Unis, de 1837 à 1841",
+      "Crée le Trésor indépendant en 1840",
+      "Candidat du Free Soil Party contre l'extension de l'esclavage en 1848"
+    ],
+    "en": [
+      "Built the Jacksonian coalition that became the Democratic Party",
+      "Secretary of State 1829–1831, vice president 1833–1837",
+      "8th President of the United States, 1837–1841",
+      "Created the Independent Treasury in 1840",
+      "Free Soil candidate against the spread of slavery in 1848"
+    ]
+  },
+  "legacy": {
+    "fr": "Il est souvent présenté comme l'inventeur du parti politique moderne aux États-Unis, mais son mandat reste assombri par la crise de 1837 et la piste des larmes.",
+    "en": "He is often credited with inventing the modern American political party, but his term is overshadowed by the Panic of 1837 and the Trail of Tears."
   }
 }

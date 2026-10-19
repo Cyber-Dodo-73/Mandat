@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1946 dans le quartier new-yorkais du Queens, Donald Trump est le fils d'un promoteur immobilier dont il reprend l'entreprise dans les années 1970. Il bâtit à Manhattan, à Atlantic City et dans le golf une marque à son nom, traverse plusieurs faillites de casinos et devient une célébrité nationale grâce à l'émission de télé-réalité The Apprentice à partir de 2004. Candidat républicain sans expérience politique, il remporte l'élection présidentielle de 2016 contre Hillary Clinton grâce au collège électoral, tout en étant minoritaire en voix. Son premier mandat, de 2017 à 2021, est marqué par une forte baisse d'impôts, la nomination de trois juges à la Cour suprême, une guerre commerciale avec la Chine et deux procédures de destitution dont il sort acquitté par le Sénat. Battu par Joe Biden en 2020, il conteste le résultat sans preuve, et ses partisans envahissent le Capitole le 6 janvier 2021. Poursuivi dans plusieurs affaires, il est reconnu coupable à New York en 2024 de falsification de documents comptables. Il remporte pourtant l'élection de novembre 2024 face à Kamala Harris et retrouve la Maison-Blanche en janvier 2025, devenant le second président à exercer deux mandats non consécutifs.",
+    "en": "Born in Queens, New York, in 1946, Donald Trump took over his father's real estate business in the 1970s. He turned his name into a brand across Manhattan towers, Atlantic City casinos and golf resorts, survived several casino bankruptcies and became a household name through the reality show The Apprentice from 2004. Running as a Republican with no political experience, he won the 2016 presidential election against Hillary Clinton through the Electoral College while losing the popular vote. His first term, from 2017 to 2021, brought a large tax cut, three Supreme Court appointments, a trade war with China and two impeachments, both ending in acquittal by the Senate. After losing to Joe Biden in 2020, he disputed the result without evidence, and his supporters stormed the Capitol on 6 January 2021. Facing several prosecutions, he was convicted in New York in 2024 of falsifying business records. He nonetheless defeated Kamala Harris in November 2024 and returned to the White House in January 2025, the second president to serve two non-consecutive terms."
+  },
+  "highlights": {
+    "fr": [
+      "Élu président en 2016 sans avoir jamais exercé de mandat électif",
+      "Nomme trois juges à la Cour suprême entre 2017 et 2020",
+      "Deux fois mis en accusation par la Chambre (2019, 2021), acquitté les deux fois",
+      "Condamné en 2024 à New York pour falsification de documents comptables",
+      "Réélu en 2024, de retour à la Maison-Blanche en janvier 2025"
+    ],
+    "en": [
+      "Elected president in 2016 without ever having held elected office",
+      "Appointed three Supreme Court justices between 2017 and 2020",
+      "Impeached twice by the House (2019, 2021), acquitted both times",
+      "Convicted in New York in 2024 of falsifying business records",
+      "Re-elected in 2024, back in the White House in January 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a profondément remodelé le Parti républicain autour de sa personne et d'un nationalisme protectionniste, et reste l'une des figures les plus clivantes de l'histoire américaine.",
+    "en": "He reshaped the Republican Party around himself and a protectionist nationalism, and remains one of the most polarising figures in American history."
   }
 }

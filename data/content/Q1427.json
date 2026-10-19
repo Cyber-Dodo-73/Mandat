@@ -32,5 +32,29 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Publius Aelius Hadrianus naît en 76, sans doute à Italica, en Hispanie, dans une famille alliée à celle du futur empereur Trajan, qui devient son tuteur à la mort de son père. Il épouse en 100 Vibia Sabina, petite-nièce de Trajan, sert dans les guerres daciques et devient archonte d'Athènes en 112. Gouverneur de Syrie en 117, il est proclamé empereur à la mort de Trajan en août, sur la foi d'une adoption que l'impératrice Plotine aurait recueillie sur son lit de mort. Il renonce aussitôt aux conquêtes en Mésopotamie et en Arménie, et quatre anciens consuls hostiles sont exécutés en 118. Pendant une grande partie de son règne, il parcourt les provinces et fait bâtir à partir de 122 en Bretagne le mur qui porte son nom. Passionné de culture grecque, il fait reconstruire le Panthéon de Rome, élève la villa de Tibur et fonde la ville d'Antinoé en Égypte après la noyade de son favori Antinoüs dans le Nil en 130. Sa décision de rebâtir Jérusalem en colonie romaine, Aelia Capitolina, déclenche la révolte juive de Bar Kokhba de 132 à 135, écrasée au prix de centaines de milliers de morts selon l'historien Dion Cassius ; la Judée est rebaptisée Syrie-Palestine. Après la mort de son premier héritier, il adopte Antonin en 138 et meurt à Baïes en juillet de la même année.",
+    "en": "Publius Aelius Hadrianus was born in 76, probably at Italica in Hispania, into a family linked to that of the future emperor Trajan, who became his guardian when his father died. In 100 he married Vibia Sabina, Trajan's great-niece, served in the Dacian wars and became archon of Athens in 112. Governor of Syria in 117, he was proclaimed emperor when Trajan died that August, on the strength of an adoption the empress Plotina said had been made on his deathbed. He promptly gave up the conquests in Mesopotamia and Armenia, and four hostile former consuls were put to death in 118. For much of his reign he toured the provinces, and from 122 he had the wall that bears his name built across Britain. A devotee of Greek culture, he rebuilt the Pantheon in Rome, raised his villa at Tibur and founded the city of Antinoopolis in Egypt after his favourite Antinous drowned in the Nile in 130. His decision to rebuild Jerusalem as a Roman colony, Aelia Capitolina, set off the Bar Kokhba Jewish revolt of 132 to 135, crushed at the cost of hundreds of thousands of lives according to the historian Cassius Dio; Judaea was renamed Syria Palaestina. After his first heir died, he adopted Antoninus in 138 and died at Baiae in July that year."
+  },
+  "highlights": {
+    "fr": [
+      "Empereur romain de 117 à 138",
+      "Abandonne les conquêtes de Trajan en Mésopotamie dès 117",
+      "Construction du mur d'Hadrien en Bretagne à partir de 122",
+      "Reconstruction du Panthéon de Rome",
+      "Écrase la révolte de Bar Kokhba en Judée, de 132 à 135"
+    ],
+    "en": [
+      "Roman emperor from 117 to 138",
+      "Gave up Trajan's conquests in Mesopotamia in 117",
+      "Began Hadrian's Wall in Britain in 122",
+      "Rebuilt the Pantheon in Rome",
+      "Crushed the Bar Kokhba revolt in Judaea, 132–135"
+    ]
+  },
+  "legacy": {
+    "fr": "Le mur d'Hadrien, le Panthéon et son mausolée devenu le château Saint-Ange témoignent encore de son règne. Dans la mémoire juive, il reste l'empereur de la répression de 135.",
+    "en": "Hadrian's Wall, the Pantheon and his mausoleum, now Castel Sant'Angelo, still bear witness to his reign. In Jewish memory he remains the emperor of the repression of 135."
   }
 }

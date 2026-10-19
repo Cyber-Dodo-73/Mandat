@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Carlos Menem naît en juillet 1930 à Anillaco, dans la province de La Rioja, de parents immigrés syriens, et obtient son diplôme de droit à Córdoba en 1955. Militant péroniste, il est élu gouverneur de La Rioja en 1973, puis emprisonné par la junte militaire après le coup d’État de 1976. Réélu gouverneur après le retour de la démocratie, il remporte la présidentielle de 1989 en pleine hyperinflation et prend ses fonctions en juillet, avant le terme prévu. Rompant avec la tradition péroniste, il privatise les grandes entreprises publiques, dont YPF et Aerolíneas Argentinas, et instaure en 1991 la convertibilité, qui fixe le peso à parité avec le dollar et met fin à l’inflation. En 1989 et 1990, il gracie les chefs de la dictature condamnés en 1985, ce qui provoque une vive indignation. Son mandat est endeuillé par les attentats contre l’ambassade d’Israël en 1992 et contre l’AMIA en 1994, qui fait 85 morts. Après une réforme constitutionnelle qui autorise sa réélection, il est réélu en 1995, mais le chômage grimpe et la dette s’alourdit. Condamné plus tard pour un trafic d’armes vers la Croatie et l’Équateur, il siège comme sénateur de La Rioja de 2005 à sa mort, à Buenos Aires, en février 2021.",
+    "en": "Carlos Menem was born in July 1930 in Anillaco, La Rioja province, to Syrian immigrant parents and graduated in law from Córdoba in 1955. A Peronist activist, he was elected governor of La Rioja in 1973 and jailed by the military junta after the 1976 coup. Re-elected governor once democracy returned, he won the 1989 presidential election amid hyperinflation and took office early, in July. Breaking with Peronist tradition, he privatised major state companies, including YPF and Aerolíneas Argentinas, and in 1991 introduced convertibility, pegging the peso to the dollar and ending inflation. In 1989 and 1990 he pardoned the dictatorship's leaders convicted in 1985, causing widespread outrage. His term was scarred by the bombings of the Israeli embassy in 1992 and of the AMIA centre in 1994, which killed 85 people. After a constitutional reform allowed him to run again, he was re-elected in 1995, but unemployment rose and debt mounted. Later convicted over arms smuggling to Croatia and Ecuador, he sat as a senator for La Rioja from 2005 until his death in Buenos Aires in February 2021."
+  },
+  "highlights": {
+    "fr": [
+      "Élu président de l’Argentine en 1989 en pleine hyperinflation",
+      "Instaure la parité peso-dollar en 1991",
+      "Privatise YPF, Aerolíneas Argentinas et les télécommunications",
+      "Gracie les chefs de la junte en 1989-1990",
+      "Réélu en 1995 après la réforme constitutionnelle de 1994"
+    ],
+    "en": [
+      "Elected president of Argentina in 1989 amid hyperinflation",
+      "Pegged the peso to the dollar in 1991",
+      "Privatised YPF, Aerolíneas Argentinas and the phone company",
+      "Pardoned the junta leaders in 1989–1990",
+      "Re-elected in 1995 after the 1994 constitutional reform"
+    ]
+  },
+  "legacy": {
+    "fr": "Son tournant libéral a vaincu l’hyperinflation mais laissé un pays endetté et vulnérable, et beaucoup lui imputent en partie l’effondrement de 2001.",
+    "en": "His free-market turn beat hyperinflation but left a debt-laden, fragile country, and many hold it partly responsible for the 2001 collapse."
   }
 }

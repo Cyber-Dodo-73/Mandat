@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1954 à Sabaneta, dans l'État de Barinas, fils d'instituteurs, Hugo Chávez sort en 1975 de l'Académie militaire du Venezuela et devient officier parachutiste. Au sein de l'armée, il fonde un mouvement clandestin se réclamant de Simón Bolívar. Le 4 février 1992, il mène une tentative de coup d'État contre le président Carlos Andrés Pérez, qui échoue mais le rend populaire après une brève allocution télévisée. Libéré en 1994, il se lance dans la politique électorale et remporte la présidentielle de décembre 1998 sur un programme de rupture avec les partis traditionnels. Il fait adopter une nouvelle Constitution en 1999 et finance par la rente pétrolière des programmes sociaux qui réduisent la pauvreté. En avril 2002, un coup d'État l'écarte deux jours avant qu'il ne revienne au pouvoir, puis il remporte un référendum révocatoire en 2004 et concentre peu à peu les pouvoirs, au détriment de l'opposition et de la presse indépendante. Réélu en 2006 et en 2012, il meurt d'un cancer à Caracas en mars 2013.",
+    "en": "Born in 1954 in Sabaneta, Barinas state, to schoolteacher parents, Hugo Chávez graduated from Venezuela's military academy in 1975 and became a paratrooper officer. Within the army he founded a clandestine movement invoking Simón Bolívar. On 4 February 1992 he led a coup attempt against President Carlos Andrés Pérez that failed but made him popular after a brief televised statement. Released in 1994, he turned to electoral politics and won the December 1998 presidential election on a pledge to break with the traditional parties. He pushed through a new constitution in 1999 and used oil revenue to fund social programmes that reduced poverty. In April 2002 a coup removed him for two days before he returned to power, and after winning a recall referendum in 2004 he steadily concentrated power at the expense of the opposition and the independent press. Re-elected in 2006 and 2012, he died of cancer in Caracas in March 2013."
+  },
+  "highlights": {
+    "fr": [
+      "Mène une tentative de coup d'État le 4 février 1992",
+      "Élu président du Venezuela en décembre 1998",
+      "Fait adopter une nouvelle Constitution en 1999",
+      "Revient au pouvoir deux jours après le coup d'État d'avril 2002",
+      "Remporte le référendum révocatoire de 2004"
+    ],
+    "en": [
+      "Led a coup attempt on 4 February 1992",
+      "Elected president of Venezuela in December 1998",
+      "Pushed through a new constitution in 1999",
+      "Returned to power two days after the April 2002 coup",
+      "Won the 2004 recall referendum"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure de proue de la gauche latino-américaine des années 2000, il a laissé un système politique centré sur la rente pétrolière, dont la fragilité a éclaté après sa mort.",
+    "en": "A standard-bearer of the Latin American left in the 2000s, he left a political system built on oil revenue whose fragility became clear after his death."
   }
 }

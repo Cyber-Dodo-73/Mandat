@@ -31,5 +31,29 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1599 à Huntingdon dans une famille de petite noblesse, Oliver Cromwell étudie brièvement à Cambridge et mène une vie de propriétaire modeste, marquée vers 1630 par une conversion puritaine fervente. Député de Huntingdon en 1628, puis de Cambridge dans les parlements de 1640, il se range parmi les adversaires les plus résolus de Charles Ier. Lorsque la guerre civile éclate en 1642, cet officier sans expérience forme une cavalerie redoutable, les « Côtes de fer », qui pèse lourd dans la victoire de Marston Moor en 1644. Lieutenant-général de la New Model Army, il contribue au triomphe de Naseby en 1645 et à la défaite définitive des royalistes. En janvier 1649, il figure parmi les signataires de l'arrêt de mort du roi, décapité à Whitehall. La même année, sa campagne d'Irlande s'accompagne des massacres de Drogheda et de Wexford, où des milliers de soldats et de civils sont tués, puis il écrase les Écossais à Dunbar en 1650 et à Worcester en 1651. En 1653, il chasse le Parlement croupion et devient lord-protecteur d'Angleterre, d'Écosse et d'Irlande, refusant la couronne qu'on lui offre en 1657. Il meurt à Whitehall le 3 septembre 1658 ; à la Restauration, son corps est exhumé et décapité symboliquement.",
+    "en": "Born in Huntingdon in 1599 into a minor gentry family, Oliver Cromwell studied briefly at Cambridge and lived as a modest landowner until a fervent Puritan conversion around 1630. Elected for Huntingdon in 1628 and for Cambridge in the parliaments of 1640, he became one of Charles I's most determined opponents. When civil war broke out in 1642, this untrained officer raised a formidable cavalry, the Ironsides, which proved decisive at Marston Moor in 1644. As lieutenant-general of the New Model Army he helped win the battle of Naseby in 1645 and complete the royalists' defeat. In January 1649 he was among the signatories of the death warrant of the king, who was beheaded at Whitehall. His Irish campaign that year included the massacres at Drogheda and Wexford, where thousands of soldiers and civilians were killed, and he then crushed the Scots at Dunbar in 1650 and Worcester in 1651. In 1653 he expelled the Rump Parliament and became Lord Protector of England, Scotland and Ireland, turning down the crown when it was offered in 1657. He died at Whitehall on 3 September 1658; after the Restoration his body was dug up and ritually beheaded."
+  },
+  "highlights": {
+    "fr": [
+      "Forme la cavalerie des « Côtes de fer », victorieuse à Marston Moor en 1644",
+      "Contribue à la victoire décisive de Naseby en 1645",
+      "Signe en 1649 l'arrêt de mort de Charles Ier",
+      "Mène en 1649 une campagne d'Irlande marquée par les massacres de Drogheda",
+      "Devient lord-protecteur en 1653 et refuse la couronne en 1657"
+    ],
+    "en": [
+      "Raised the Ironsides cavalry that won at Marston Moor in 1644",
+      "Helped secure the decisive victory at Naseby in 1645",
+      "Signed Charles I's death warrant in 1649",
+      "Led a 1649 Irish campaign marked by the Drogheda massacre",
+      "Became Lord Protector in 1653 and refused the crown in 1657"
+    ]
+  },
+  "legacy": {
+    "fr": "Héros de la cause parlementaire pour les uns, dictateur militaire et bourreau de l'Irlande pour les autres, il reste la figure la plus controversée de l'histoire britannique.",
+    "en": "A champion of parliament to some, a military dictator and the scourge of Ireland to others, he remains one of the most divisive figures in British history."
   }
 }

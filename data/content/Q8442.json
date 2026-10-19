@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1815 à Schönhausen, dans une famille de hobereaux prussiens, Otto von Bismarck étudie le droit à Göttingen puis s'ennuie dans l'administration judiciaire avant de gérer les terres familiales. Élu à la Diète prussienne à la fin des années 1840, il s'impose comme un conservateur intransigeant, puis représente la Prusse à la Diète de Francfort, à Saint-Pétersbourg et à Paris. Nommé ministre-président de Prusse en 1862 en pleine crise budgétaire, il gouverne contre le Parlement et annonce que les grandes questions se régleront « par le fer et le sang ». Trois guerres courtes, contre le Danemark en 1864, l'Autriche en 1866 et la France en 1870-1871, lui permettent d'unifier l'Allemagne sous la couronne prussienne. L'Empire allemand est proclamé à Versailles en janvier 1871 et il en devient le premier chancelier. Il mène ensuite le Kulturkampf contre l'Église catholique, fait voter des lois antisocialistes en 1878, mais crée aussi les premières assurances sociales obligatoires dans les années 1880. En diplomatie, il tisse un réseau d'alliances destiné à isoler la France et préside le congrès de Berlin en 1878. En désaccord avec le jeune Guillaume II, il est contraint à la démission en 1890 et meurt en 1898 à Friedrichsruh, près d'Aumühle.",
+    "en": "Born in 1815 at Schönhausen into a family of Prussian landed gentry, Otto von Bismarck studied law at Göttingen, found the judicial service dull and went home to run the family estates. Elected to the Prussian assembly in the late 1840s, he made his name as a hardline conservative, then served as Prussia's envoy to the Frankfurt Diet, Saint Petersburg and Paris. Appointed Prussian minister-president in 1862 amid a budget standoff, he governed over the head of parliament and declared that the great questions of the day would be settled by \"iron and blood\". Three short wars, against Denmark in 1864, Austria in 1866 and France in 1870–71, let him unify Germany under the Prussian crown. The German Empire was proclaimed at Versailles in January 1871 and he became its first chancellor. At home he waged the Kulturkampf against the Catholic Church and passed anti-socialist laws in 1878, yet also introduced the first compulsory social insurance schemes in the 1880s. Abroad he built a web of alliances meant to keep France isolated and chaired the Congress of Berlin in 1878. After clashing with the young Wilhelm II he was forced to resign in 1890, and he died in 1898 at Friedrichsruh, near Aumühle."
+  },
+  "highlights": {
+    "fr": [
+      "1862 : nommé ministre-président de Prusse en pleine crise constitutionnelle",
+      "1864-1871 : trois guerres victorieuses qui mènent à l'unification allemande",
+      "1871 : premier chancelier de l'Empire allemand proclamé à Versailles",
+      "1883-1889 : lois sur l'assurance maladie, accidents et vieillesse",
+      "1890 : poussé à la démission par l'empereur Guillaume II"
+    ],
+    "en": [
+      "1862: appointed Prussian minister-president during a constitutional crisis",
+      "1864–1871: three victorious wars that led to German unification",
+      "1871: first chancellor of the German Empire, proclaimed at Versailles",
+      "1883–1889: laws on health, accident and old-age insurance",
+      "1890: forced to resign by Emperor Wilhelm II"
+    ]
+  },
+  "legacy": {
+    "fr": "Il reste l'artisan de l'unité allemande et le père d'un État social pionnier, mais aussi le symbole d'une politique de force menée au mépris du Parlement.",
+    "en": "He remains the architect of German unity and the founder of a pioneering welfare state, but also a byword for power politics conducted over the head of parliament."
   }
 }

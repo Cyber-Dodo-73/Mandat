@@ -31,5 +31,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1964 à Sandpoint, dans l'Idaho, Sarah Palin grandit en Alaska, où sa famille s'installe quand elle est bébé. Après être passée par plusieurs établissements, elle obtient en 1987 un diplôme de journalisme à l'université de l'Idaho et travaille un temps comme journaliste sportive. Conseillère municipale de Wasilla en 1992, elle en est la maire de 1996 à 2002. En 2006, elle bat le gouverneur républicain sortant aux primaires puis devient la première femme et la plus jeune personne élue gouverneure de l'Alaska. En août 2008, John McCain la choisit comme colistière, faisant d'elle la première femme sur un ticket présidentiel républicain. Ses discours enflamment la base conservatrice, mais des entretiens télévisés difficiles alimentent les doutes sur sa préparation, et le ticket est battu par Barack Obama. Elle démissionne de son poste de gouverneure en juillet 2009, avant la fin de son mandat. Commentatrice télévisée et figure du Tea Party, elle tente un retour en 2022 pour le siège de l'Alaska à la Chambre, mais est battue par la démocrate Mary Peltola.",
+    "en": "Born in Sandpoint, Idaho, in 1964, Sarah Palin grew up in Alaska, where her family moved when she was a baby. After passing through several colleges, she earned a journalism degree from the University of Idaho in 1987 and worked for a while as a sports reporter. A Wasilla city councillor from 1992, she was the town's mayor from 1996 to 2002. In 2006 she beat the sitting Republican governor in the primary and went on to become Alaska's first woman and youngest governor. In August 2008 John McCain picked her as his running mate, making her the first woman on a Republican presidential ticket. Her speeches thrilled the conservative base, but shaky television interviews fed doubts about her readiness, and the ticket lost to Barack Obama. She resigned as governor in July 2009, well before her term ended. A television commentator and Tea Party figure, she attempted a comeback in 2022 for Alaska's House seat but lost to the Democrat Mary Peltola."
+  },
+  "highlights": {
+    "fr": [
+      "1996 : élue maire de Wasilla, en Alaska",
+      "2006 : première femme gouverneure de l'Alaska",
+      "2008 : première femme colistière d'un candidat républicain",
+      "2022 : battue dans sa tentative d'entrer à la Chambre"
+    ],
+    "en": [
+      "1996: elected mayor of Wasilla, Alaska",
+      "2006: becomes Alaska's first female governor",
+      "2008: first woman running mate on a Republican ticket",
+      "2022: loses her bid for Alaska's House seat"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa campagne de 2008 a annoncé le populisme anti-élites qui allait transformer le Parti républicain dans la décennie suivante.",
+    "en": "Her 2008 campaign foreshadowed the anti-elite populism that would reshape the Republican Party over the following decade."
   }
 }

@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né Malcolm Little en 1925 à Omaha, dans le Nebraska, il grandit dans le Michigan, où son père, pasteur militant, meurt en 1931 et où sa mère est internée quelques années plus tard. Tombé dans la petite délinquance à Boston et à Harlem, il est condamné en 1946 pour cambriolage et passe six ans en prison. Il y découvre la Nation of Islam d'Elijah Muhammad et abandonne son nom de famille, hérité selon lui des propriétaires d'esclaves, pour un « X ». Libéré en 1952, il devient le porte-parole le plus brillant du mouvement, prônant la fierté noire, l'autodéfense et la séparation raciale, à rebours de la non-violence de Martin Luther King. Ses rapports avec Elijah Muhammad se dégradent et il rompt avec la Nation of Islam en mars 1964. Son pèlerinage à La Mecque la même année l'amène à rejeter le séparatisme racial et à fonder l'Organisation de l'unité afro-américaine. Menacé par ses anciens coreligionnaires, il est abattu le 21 février 1965 lors d'un meeting à l'Audubon Ballroom de Manhattan. Son autobiographie, écrite avec Alex Haley et publiée après sa mort, devient un classique.",
+    "en": "Born Malcolm Little in 1925 in Omaha, Nebraska, he grew up in Michigan, where his father, an activist preacher, died in 1931 and his mother was committed to a mental hospital a few years later. Drifting into petty crime in Boston and Harlem, he was convicted of burglary in 1946 and spent six years in prison. There he discovered Elijah Muhammad's Nation of Islam and dropped his surname, which he saw as a slaveholder's legacy, in favour of an \"X\". Released in 1952, he became the movement's most compelling spokesman, preaching Black pride, self-defence and racial separation in contrast with Martin Luther King's non-violence. His relationship with Elijah Muhammad soured and he broke with the Nation of Islam in March 1964. A pilgrimage to Mecca that year led him to reject racial separatism and to found the Organization of Afro-American Unity. Under threat from his former brethren, he was shot dead on 21 February 1965 while speaking at the Audubon Ballroom in Manhattan. His autobiography, written with Alex Haley and published after his death, became a classic."
+  },
+  "highlights": {
+    "fr": [
+      "Emprisonné de 1946 à 1952, il y rejoint la Nation of Islam",
+      "Porte-parole national de la Nation of Islam dans les années 1950",
+      "Quitte la Nation of Islam en mars 1964 et fait le pèlerinage à La Mecque",
+      "Fonde l'Organisation de l'unité afro-américaine (1964)",
+      "Assassiné à Manhattan le 21 février 1965"
+    ],
+    "en": [
+      "Imprisoned from 1946 to 1952, where he joined the Nation of Islam",
+      "National spokesman for the Nation of Islam in the 1950s",
+      "Left the Nation of Islam in March 1964 and made the pilgrimage to Mecca",
+      "Founded the Organization of Afro-American Unity (1964)",
+      "Assassinated in Manhattan on 21 February 1965"
+    ]
+  },
+  "legacy": {
+    "fr": "Figure majeure de la conscience noire américaine, il a inspiré le Black Power et reste un symbole de dignité et de radicalité face au racisme.",
+    "en": "A towering figure of Black consciousness in America, he inspired the Black Power movement and remains a symbol of dignity and defiance against racism."
   }
 }

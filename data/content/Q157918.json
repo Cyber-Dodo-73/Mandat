@@ -32,5 +32,27 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Fils de Ramsès Ier, un officier issu du delta oriental devenu pharaon, Séthi Ier naît vers 1323 av. J.-C. à Avaris, selon la tradition retenue. Il sert d'abord comme vizir et chef militaire, puis succède à son père vers 1290 av. J.-C., deuxième roi de la XIXe dynastie. Dès le début de son règne, il mène des campagnes en Canaan et en Syrie pour restaurer l'autorité égyptienne affaiblie après l'époque amarnienne, et affronte les Hittites près de Qadesh. Il combat aussi les tribus libyennes à l'ouest. Les reliefs de la salle hypostyle de Karnak, qu'il fait largement décorer, illustrent ces guerres. À Abydos, il bâtit un temple dédié à Osiris, célèbre pour sa liste royale gravée qui énumère ses prédécesseurs. Sa tombe de la Vallée des Rois, découverte en 1817, est l'une des plus longues et des plus richement décorées. Il associe son fils Ramsès II au pouvoir et meurt vers 1279 av. J.-C. ; sa momie, bien conservée, a été retrouvée dans la cachette de Deir el-Bahari.",
+    "en": "The son of Ramesses I, an officer from the eastern Delta who had become pharaoh, Seti I was born around 1323 BC, traditionally placed at Avaris. He first served as vizier and military commander, then succeeded his father around 1290 BC as the second king of the Nineteenth Dynasty. Early in his reign he campaigned in Canaan and Syria to restore Egyptian authority weakened after the Amarna period, and clashed with the Hittites near Kadesh. He also fought Libyan tribes to the west. Reliefs in the hypostyle hall at Karnak, which he largely decorated, depict these wars. At Abydos he built a temple to Osiris, famous for its carved king list naming his predecessors. His tomb in the Valley of the Kings, found in 1817, is among the longest and most richly decorated. He associated his son Ramesses II with the throne and died around 1279 BC; his well-preserved mummy was found in the Deir el-Bahari cache."
+  },
+  "highlights": {
+    "fr": [
+      "Campagnes en Canaan et en Syrie, prise de Qadesh",
+      "Repousse les tribus libyennes à l'ouest de l'Égypte",
+      "Temple d'Abydos et sa célèbre liste royale",
+      "Tombe KV17, l'une des plus belles de la Vallée des Rois"
+    ],
+    "en": [
+      "Campaigns in Canaan and Syria, taking Kadesh",
+      "Drove back Libyan tribes west of Egypt",
+      "Abydos temple with its famous king list",
+      "Tomb KV17, among the finest in the Valley of the Kings"
+    ]
+  },
+  "legacy": {
+    "fr": "Souvent éclipsé par son fils Ramsès II, il a pourtant relancé la puissance égyptienne et laissé certains des reliefs les plus raffinés de l'art pharaonique.",
+    "en": "Often overshadowed by his son Ramesses II, he nonetheless revived Egyptian power and left some of the most refined reliefs in pharaonic art."
   }
 }

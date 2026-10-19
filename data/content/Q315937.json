@@ -32,5 +32,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "José Gabriel Condorcanqui naît en mars 1738 dans la région de Tinta, au sud de Cuzco, et revendique une descendance directe de Túpac Amaru, dernier souverain inca exécuté par les Espagnols en 1572. Instruit au collège des fils de caciques de Cuzco, il hérite de charges de chef indigène et fait fortune comme muletier, ce qui lui permet de voir de près les abus subis par les Indiens. Il multiplie en vain les démarches légales contre le travail forcé dans les mines et la vente forcée de marchandises imposée par les corregidors. Le 4 novembre 1780, il fait arrêter le corregidor Antonio de Arriaga, qu’il fait exécuter quelques jours plus tard à Tungasuca, et prend le nom de Túpac Amaru II. Ses troupes remportent la bataille de Sangarará le 18 novembre, mais échouent à prendre Cuzco au début de 1781. Trahi, il est capturé en avril avec sa femme, Micaela Bastidas, qui joue un rôle central dans l’organisation de la révolte. Le 18 mai 1781, sur la grand-place de Cuzco, il est contraint d’assister à l’exécution de sa femme et de son fils, puis il est écartelé et décapité. La rébellion se poursuit sous d’autres chefs et fait, avec la répression, des dizaines de milliers de morts.",
+    "en": "José Gabriel Condorcanqui was born in March 1738 in the Tinta area south of Cuzco and claimed direct descent from Túpac Amaru, the last Inca ruler, executed by the Spanish in 1572. Educated at Cuzco's college for the sons of Indigenous chiefs, he inherited the post of local chief and prospered as a muleteer, which let him see at first hand the abuses inflicted on Indigenous people. He petitioned repeatedly and in vain against forced labour in the mines and the compulsory sale of goods imposed by the corregidores. On 4 November 1780 he seized the corregidor Antonio de Arriaga, had him executed days later at Tungasuca and took the name Túpac Amaru II. His forces won the Battle of Sangarará on 18 November but failed to take Cuzco in early 1781. Betrayed, he was captured in April along with his wife, Micaela Bastidas, who had played a central role in organising the revolt. On 18 May 1781, in Cuzco's main square, he was forced to watch the execution of his wife and son before being drawn by horses and beheaded. The rebellion carried on under other leaders and, with the repression, cost tens of thousands of lives."
+  },
+  "highlights": {
+    "fr": [
+      "Lance la rébellion en faisant arrêter le corregidor Arriaga le 4 novembre 1780",
+      "Remporte la bataille de Sangarará le 18 novembre 1780",
+      "Assiège Cuzco au début de l’année 1781",
+      "Exécuté sur la grand-place de Cuzco le 18 mai 1781"
+    ],
+    "en": [
+      "Launched the revolt by seizing corregidor Arriaga on 4 November 1780",
+      "Won the Battle of Sangarará on 18 November 1780",
+      "Besieged Cuzco in early 1781",
+      "Executed in Cuzco's main square on 18 May 1781"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa révolte, la plus vaste de l’Amérique espagnole coloniale, a fait de lui un symbole de la résistance indigène et un héros national au Pérou.",
+    "en": "His revolt, the largest in colonial Spanish America, made him a symbol of Indigenous resistance and a national hero in Peru."
   }
 }

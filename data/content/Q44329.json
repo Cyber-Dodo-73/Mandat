@@ -32,5 +32,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Bachar el-Assad naît en 1965, fils de Hafez el-Assad, qui dirige la Syrie à partir de 1970. Il étudie la médecine à l'université de Damas puis l'ophtalmologie à Londres, avant d'être rappelé en 1994 à la mort de son frère aîné Bassel, héritier désigné, et formé dans l'armée. À la mort de son père en juin 2000, la Constitution est amendée pour abaisser l'âge minimal et il est élu président lors d'un référendum sans adversaire. Le bref « printemps de Damas » est vite étouffé, et le régime reste fondé sur les services de sécurité et le parti Baas. En 2011, il répond aux manifestations pacifiques par une répression armée qui dégénère en guerre civile. Son régime bombarde des zones civiles, recourt aux armes chimiques, notamment dans la Ghouta en août 2013, et fait disparaître des dizaines de milliers de détenus, torturés dans ses prisons. Le conflit fait plusieurs centaines de milliers de morts et des millions de réfugiés. Sauvé à partir de 2015 par l'intervention russe et le soutien iranien, il s'effondre en décembre 2024 face à une offensive rebelle éclair ; il s'enfuit à Moscou le 8 décembre.",
+    "en": "Bashar al-Assad was born in 1965, son of Hafez al-Assad, who ruled Syria from 1970. He studied medicine at Damascus University and then ophthalmology in London, until he was called home in 1994 after the death of his elder brother Bassel, the designated heir, and groomed through the army. When his father died in June 2000, the constitution was amended to lower the minimum age and he was elected president in an unopposed referendum. A brief Damascus Spring was quickly stifled, and the regime stayed rooted in the security services and the Baath Party. In 2011 he met peaceful protests with armed repression that spiralled into civil war. His forces bombed civilian areas, used chemical weapons, notably in Ghouta in August 2013, and made tens of thousands of detainees disappear, tortured in his prisons. The war killed several hundred thousand people and displaced millions. Rescued from 2015 by Russian intervention and Iranian support, his regime collapsed in December 2024 before a lightning rebel offensive, and he fled to Moscow on 8 December."
+  },
+  "highlights": {
+    "fr": [
+      "Succède à son père à la présidence syrienne en juillet 2000",
+      "Réprime dans le sang le soulèvement de 2011, qui tourne à la guerre civile",
+      "Son armée tue des centaines de civils au sarin dans la Ghouta en août 2013",
+      "Renversé par une offensive rebelle, il fuit à Moscou le 8 décembre 2024"
+    ],
+    "en": [
+      "Succeeded his father as Syria's president in July 2000",
+      "Bloodily crushed the 2011 uprising, which became a civil war",
+      "His forces killed hundreds of civilians with sarin in Ghouta in August 2013",
+      "Toppled by a rebel offensive, he fled to Moscow on 8 December 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Son nom reste attaché à l'une des guerres les plus meurtrières du siècle, aux armes chimiques et aux prisons de la torture révélées après sa chute.",
+    "en": "His name is bound to one of the century's deadliest wars, to chemical attacks and to the torture prisons exposed after his fall."
   }
 }

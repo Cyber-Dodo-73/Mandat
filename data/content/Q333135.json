@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Chan Santokhi naît en février 1959 à Lelydorp, au Suriname, dans une famille d’origine indienne, et se forme à l’école de police des Pays-Bas avant de faire carrière dans la police surinamaise, dont il devient commissaire en chef. Ministre de la Justice et de la Police de 2005 à 2010, il fait avancer le procès des meurtres de décembre 1982, dans lequel Desi Bouterse est le principal accusé, et mène une lutte active contre le trafic de drogue. Élu à l’Assemblée nationale en 2010, il prend l’année suivante la tête du Parti de la réforme progressiste, principale formation de l’opposition. Après la victoire de son parti aux élections de mai 2020, il est élu président par le Parlement et prend ses fonctions en juillet 2020. Il hérite d’une économie en crise, conclut un programme d’ajustement avec le FMI et restructure la dette, au prix d’une forte inflation qui provoque des manifestations, dont l’envahissement du Parlement en février 2023. Son gouvernement prépare aussi l’arrivée des revenus du pétrole offshore découvert au large du pays. Battu aux élections de mai 2025, il quitte la présidence en juillet. Il meurt à Paramaribo en 2026.",
+    "en": "Chan Santokhi was born in February 1959 in Lelydorp, Suriname, into a family of Indian descent, trained at the police academy in the Netherlands and built a career in Suriname's police force, rising to chief commissioner. As justice and police minister from 2005 to 2010, he pushed forward the trial over the December 1982 murders, in which Desi Bouterse was the main defendant, and took an active stance against drug trafficking. Elected to the National Assembly in 2010, he became leader of the Progressive Reform Party, the main opposition force, the following year. After his party won the May 2020 election, parliament elected him president and he took office in July 2020. He inherited an economy in crisis, agreed an adjustment programme with the IMF and restructured the debt, at the cost of high inflation that fuelled protests, including the storming of parliament in February 2023. His government also prepared for revenue from offshore oil discovered off the coast. Defeated in the May 2025 election, he left the presidency in July. He died in Paramaribo in 2026."
+  },
+  "highlights": {
+    "fr": [
+      "Commissaire en chef de la police du Suriname",
+      "Ministre de la Justice et de la Police de 2005 à 2010",
+      "Prend la tête du Parti de la réforme progressiste en 2011",
+      "Président du Suriname de 2020 à 2025"
+    ],
+    "en": [
+      "Chief commissioner of Suriname's police",
+      "Minister of Justice and Police from 2005 to 2010",
+      "Became leader of the Progressive Reform Party in 2011",
+      "President of Suriname from 2020 to 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Ancien policier devenu chef de l’État, il reste associé à la poursuite judiciaire des crimes de la dictature et à une difficile remise en ordre des finances publiques.",
+    "en": "A former police chief turned head of state, he is associated with the prosecution of the dictatorship's crimes and a painful repair of public finances."
   }
 }

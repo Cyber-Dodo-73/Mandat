@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Alexandria Ocasio-Cortez naît en 1989 dans le Bronx, à New York, d'un père né dans le Bronx et d'une mère portoricaine, et grandit en partie à Yorktown Heights, en banlieue. Diplômée de l'université de Boston en 2011 en économie et relations internationales, elle travaille ensuite dans une association éducative et comme serveuse et barmaid à Manhattan. En 2016, elle s'engage comme organisatrice dans la campagne de Bernie Sanders, dont elle partage les idées socialistes démocrates. En juin 2018, elle crée la surprise en battant à la primaire démocrate Joe Crowley, un cacique du parti, dans la 14e circonscription de New York. Élue en novembre à 29 ans, elle devient alors la plus jeune femme jamais élue au Congrès. Dès février 2019, elle présente avec le sénateur Ed Markey la résolution du Green New Deal, un vaste plan climatique et social. Figure du petit groupe progressiste surnommé « the Squad », elle est réélue en 2020, 2022 et 2024. En 2025, elle parcourt le pays aux côtés de Sanders lors de la tournée « Fighting Oligarchy ».",
+    "en": "Alexandria Ocasio-Cortez was born in 1989 in the Bronx, New York, to a Bronx-born father and a Puerto Rican mother, and grew up partly in suburban Yorktown Heights. After earning a degree in economics and international relations from Boston University in 2011, she worked for an education nonprofit and as a waitress and bartender in Manhattan. In 2016 she became an organizer for Bernie Sanders's campaign, sharing his democratic socialist outlook. In June 2018 she stunned the party by defeating Joe Crowley, a senior Democrat, in the primary for New York's 14th district. Elected that November at 29, she became the youngest woman ever elected to Congress at the time. In February 2019 she introduced, with Senator Ed Markey, the Green New Deal resolution, a sweeping climate and social plan. A leading member of the progressive bloc nicknamed the Squad, she was re-elected in 2020, 2022 and 2024. In 2025 she toured the country alongside Sanders on the Fighting Oligarchy tour."
+  },
+  "highlights": {
+    "fr": [
+      "Bat le cacique démocrate Joe Crowley à la primaire de juin 2018",
+      "Plus jeune femme élue au Congrès, à 29 ans, en novembre 2018",
+      "Présente la résolution du Green New Deal en février 2019",
+      "Réélue dans la 14e circonscription de New York en 2020, 2022 et 2024",
+      "Coanime la tournée « Fighting Oligarchy » avec Bernie Sanders en 2025"
+    ],
+    "en": [
+      "Beat senior Democrat Joe Crowley in the June 2018 primary",
+      "Youngest woman elected to Congress, at 29, in November 2018",
+      "Introduced the Green New Deal resolution in February 2019",
+      "Re-elected in New York's 14th district in 2020, 2022 and 2024",
+      "Co-led the Fighting Oligarchy tour with Bernie Sanders in 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle incarne une nouvelle génération de la gauche américaine, très présente sur les réseaux sociaux, qui a fait entrer le climat et les inégalités au cœur du débat démocrate.",
+    "en": "She embodies a new, social-media-savvy generation of the American left that pushed climate and inequality to the centre of Democratic debate."
   }
 }

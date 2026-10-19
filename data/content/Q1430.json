@@ -29,5 +29,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Marc Aurèle naît à Rome en 121 dans une famille sénatoriale d'origine hispanique et attire très jeune l'attention de l'empereur Hadrien. En 138, celui-ci impose à son successeur Antonin le Pieux de l'adopter ; Marc épouse ensuite sa fille Faustine et se forme pendant plus de vingt ans au gouvernement, tout en s'initiant à la philosophie stoïcienne. À la mort d'Antonin en 161, il devient empereur et partage d'emblée le pouvoir avec son frère adoptif Lucius Verus, une première à Rome. Une guerre contre les Parthes est gagnée en 166, mais les troupes de retour d'Orient répandent une épidémie, la peste antonine, qui frappe durement l'Empire. Dès 168, les Marcomans et d'autres peuples franchissent le Danube ; seul empereur après la mort de Verus en 169, Marc Aurèle passe l'essentiel de ses dernières années sur ce front. En 175, il réprime l'usurpation d'Avidius Cassius en Orient, puis associe son fils Commode au trône. C'est pendant ces campagnes qu'il rédige en grec ses Pensées, carnet de réflexions morales. Il meurt en mars 180 près du Danube, à Vindobona ou à Sirmium selon les sources, et Commode lui succède.",
+    "en": "Marcus Aurelius was born in Rome in 121 to a senatorial family of Spanish origin and caught Emperor Hadrian's eye as a boy. In 138 Hadrian made his heir Antoninus Pius adopt him; Marcus later married Antoninus's daughter Faustina and spent more than twenty years learning to govern while studying Stoic philosophy. On Antoninus's death in 161 he became emperor and at once shared power with his adoptive brother Lucius Verus, a first in Rome. A war against Parthia was won by 166, but troops returning from the East spread an epidemic, the Antonine Plague, which hit the empire hard. From 168 the Marcomanni and other peoples crossed the Danube; sole ruler after Verus died in 169, Marcus spent most of his remaining years on that front. In 175 he put down the usurpation of Avidius Cassius in the East, then made his son Commodus co-emperor. During these campaigns he wrote, in Greek, the Meditations, a private notebook of moral reflections. He died in March 180 near the Danube, at Vindobona or Sirmium depending on the source, and Commodus succeeded him."
+  },
+  "highlights": {
+    "fr": [
+      "Empereur romain de 161 à 180",
+      "Partage le pouvoir avec Lucius Verus, premier duo d'empereurs égaux",
+      "Mène les guerres marcomanes sur le Danube à partir de 168",
+      "Rédige les Pensées, classique de la philosophie stoïcienne"
+    ],
+    "en": [
+      "Roman emperor from 161 to 180",
+      "Shared power with Lucius Verus, Rome's first pair of equal emperors",
+      "Fought the Marcomannic Wars on the Danube from 168",
+      "Wrote the Meditations, a classic of Stoic philosophy"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernier des « cinq bons empereurs », il incarne l'idéal du souverain philosophe, et ses Pensées sont encore lues partout dans le monde.",
+    "en": "The last of the Five Good Emperors, he embodies the ideal of the philosopher-king, and his Meditations are still widely read today."
   }
 }

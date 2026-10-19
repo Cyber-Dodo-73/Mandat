@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "William Ruto naît en décembre 1966 à Sambut, dans le comté d’Uasin Gishu, et vend des poulets au bord de la route avant d’étudier la botanique à l’université de Nairobi. Il entre en politique en 1992 au sein d’un mouvement de jeunesse soutenant Daniel arap Moi, puis devient député d’Eldoret Nord en 1997 et brièvement ministre de l’Intérieur en 2002. Rallié à Raila Odinga en 2007, il est ensuite accusé d’avoir attisé les violences post-électorales de 2007-2008, qui font plus d’un millier de morts et des centaines de milliers de déplacés. Ministre de l’Agriculture puis de l’Enseignement supérieur dans le gouvernement de coalition, il est inculpé par la Cour pénale internationale en 2011. Allié à Uhuru Kenyatta, il devient vice-président en 2013, et la CPI abandonne les poursuites en 2016 faute de preuves suffisantes, dans un dossier miné par la défection de témoins. Brouillé avec Kenyatta après le rapprochement de celui-ci avec Odinga, il remporte la présidentielle d’août 2022 avec environ 50,5 % des voix. En 2024, son projet de loi de finances déclenche une vague de manifestations menée par la jeunesse, marquée par l’envahissement du Parlement et des dizaines de morts, qui l’oblige à retirer le texte et à renvoyer son gouvernement.",
+    "en": "William Ruto was born in December 1966 in Sambut, Uasin Gishu County, sold chickens by the roadside as a boy and went on to study botany at the University of Nairobi. He entered politics in 1992 through a youth lobby backing Daniel arap Moi, won the Eldoret North seat in 1997 and briefly served as home affairs minister in 2002. Having switched to Raila Odinga's camp in 2007, he was later accused of stoking the 2007–2008 post-election violence, which left more than a thousand dead and hundreds of thousands displaced. He served as agriculture and then higher education minister in the coalition government, and the International Criminal Court charged him in 2011. Teaming up with Uhuru Kenyatta, he became deputy president in 2013; the ICC dropped the case in 2016 for lack of sufficient evidence, after many witnesses withdrew. After falling out with Kenyatta over his rapprochement with Odinga, Ruto won the August 2022 presidential election with about 50.5% of the vote. In 2024 his finance bill sparked youth-led protests in which parliament was stormed and dozens were killed, forcing him to withdraw the bill and dismiss his cabinet."
+  },
+  "highlights": {
+    "fr": [
+      "Élu député d’Eldoret Nord en 1997",
+      "Vice-président du Kenya de 2013 à 2022",
+      "Poursuites de la CPI pour crimes contre l’humanité abandonnées en 2016",
+      "Élu président en août 2022 avec environ 50,5 % des voix",
+      "Retire sa loi de finances après les manifestations meurtrières de juin 2024"
+    ],
+    "en": [
+      "Elected MP for Eldoret North in 1997",
+      "Deputy President of Kenya from 2013 to 2022",
+      "ICC crimes-against-humanity case against him dropped in 2016",
+      "Elected president in August 2022 with about 50.5% of the vote",
+      "Withdrew his finance bill after deadly protests in June 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Il incarne l’ascension d’un homme parti de rien jusqu’au sommet de l’État kényan, mais sa présidence reste associée à la crise du coût de la vie et à la répression des manifestations de 2024.",
+    "en": "He embodies a rise from roadside poverty to the top of the Kenyan state, yet his presidency remains tied to the cost-of-living crisis and the crackdown on the 2024 protests."
   }
 }

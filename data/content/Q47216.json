@@ -32,5 +32,27 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1954 à Birmingham, en Alabama, dans une ville alors ségréguée, Condoleezza Rice perd en 1963 une amie d'enfance, Denise McNair, dans l'attentat raciste contre l'église baptiste de la 16e Rue. Pianiste de bon niveau, elle se tourne vers les relations internationales à l'université de Denver, où elle obtient sa licence à 19 ans puis un doctorat consacré à l'armée tchécoslovaque. Elle enseigne à Stanford à partir de 1981 et se spécialise dans l'Union soviétique. De 1989 à 1991, elle conseille George H. W. Bush sur l'URSS et l'Europe de l'Est au Conseil de sécurité nationale, pendant la réunification allemande. Revenue à Stanford, elle en est la provost, numéro deux de l'université, de 1993 à 1999. En 2001, George W. Bush en fait la première femme conseillère à la sécurité nationale ; elle est à ce poste lors des attentats du 11 septembre et défend l'invasion de l'Irak en 2003. Secrétaire d'État de 2005 à 2009, première Afro-Américaine à diriger la diplomatie américaine, elle négocie le cessez-le-feu de la guerre du Liban en 2006 et réunit la conférence d'Annapolis sur le conflit israélo-palestinien en 2007. Elle retourne ensuite à Stanford, dont elle dirige depuis 2020 la Hoover Institution.",
+    "en": "Born in 1954 in Birmingham, Alabama, then a segregated city, Condoleezza Rice lost a childhood friend, Denise McNair, in the 1963 racist bombing of the 16th Street Baptist Church. An accomplished pianist, she turned to international relations at the University of Denver, earning her bachelor's degree at 19 and later a doctorate on the Czechoslovak military. She taught at Stanford from 1981, specialising in the Soviet Union. From 1989 to 1991 she advised George H. W. Bush on the USSR and Eastern Europe at the National Security Council, during German reunification. Back at Stanford, she served as provost, the university's second-ranking officer, from 1993 to 1999. In 2001 George W. Bush made her the first woman national security adviser; she held the post during the 9/11 attacks and argued for the 2003 invasion of Iraq. As Secretary of State from 2005 to 2009, the first African American woman to lead US diplomacy, she negotiated the ceasefire in the 2006 Lebanon war and convened the 2007 Annapolis conference on the Israeli–Palestinian conflict. She later returned to Stanford, where she has directed the Hoover Institution since 2020."
+  },
+  "highlights": {
+    "fr": [
+      "Conseillère sur l'URSS au Conseil de sécurité nationale de 1989 à 1991",
+      "Provost de l'université Stanford de 1993 à 1999",
+      "Première femme conseillère à la sécurité nationale, de 2001 à 2005",
+      "Secrétaire d'État des États-Unis de 2005 à 2009"
+    ],
+    "en": [
+      "Soviet affairs adviser at the National Security Council, 1989–1991",
+      "Provost of Stanford University from 1993 to 1999",
+      "First woman national security adviser, 2001–2005",
+      "US Secretary of State from 2005 to 2009"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle reste une figure pionnière de la diplomatie américaine, dont le bilan est indissociable de la guerre d'Irak.",
+    "en": "She remains a pioneering figure in American diplomacy whose record is inseparable from the Iraq war."
   }
 }

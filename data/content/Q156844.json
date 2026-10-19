@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Getúlio Vargas naît en avril 1882 à São Borja, dans le Rio Grande do Sul, et fait son droit à Porto Alegre avant de devenir député fédéral en 1923, ministre des Finances en 1926 puis gouverneur de son État en 1928. Battu à la présidentielle de 1930, il prend la tête d’une révolution qui renverse l’ancienne république oligarchique et s’installe au pouvoir en novembre. Il réprime la révolte constitutionnaliste de São Paulo en 1932, se fait élire par l’Assemblée constituante en 1934, puis instaure par un coup d’État en novembre 1937 l’Estado Novo, régime autoritaire inspiré des modèles corporatistes européens. Sous la censure et la police politique, il crée le salaire minimum en 1940, réunit le droit du travail en 1943 et lance la sidérurgie nationale à Volta Redonda. Après avoir hésité entre l’Axe et les Alliés, il déclare la guerre à l’Allemagne en 1942 et envoie un corps expéditionnaire en Italie. Les militaires le déposent en octobre 1945, mais il revient comme sénateur puis remporte l’élection de 1950. Durant ce second mandat, il fonde Petrobras en 1953, mais l’attentat contre le journaliste Carlos Lacerda, en août 1954, imputé à sa garde, provoque une crise et l’armée exige son départ. Le 24 août 1954, il se tire une balle dans le cœur au palais du Catete, à Rio de Janeiro, laissant une lettre-testament.",
+    "en": "Getúlio Vargas was born in April 1882 in São Borja, Rio Grande do Sul, studied law in Porto Alegre and became a federal deputy in 1923, finance minister in 1926 and governor of his state in 1928. Defeated in the 1930 presidential election, he led a revolution that toppled the old oligarchic republic and took power that November. He crushed São Paulo's constitutionalist revolt in 1932, was elected by a constituent assembly in 1934, and in November 1937 staged a coup that created the Estado Novo, an authoritarian regime modelled on European corporatism. Ruling with censorship and a political police, he introduced the minimum wage in 1940, consolidated labour law in 1943 and launched a national steel industry at Volta Redonda. After wavering between the Axis and the Allies, he declared war on Germany in 1942 and sent an expeditionary force to Italy. The military removed him in October 1945, but he returned as a senator and won the 1950 election. In his second term he founded Petrobras in 1953, until an August 1954 attack on the journalist Carlos Lacerda, blamed on his bodyguard, triggered a crisis and the army demanded he step down. On 24 August 1954 he shot himself in the heart at the Catete Palace in Rio de Janeiro, leaving a farewell letter."
+  },
+  "highlights": {
+    "fr": [
+      "Prend le pouvoir par la révolution de 1930",
+      "Instaure la dictature de l’Estado Novo en novembre 1937",
+      "Crée le salaire minimum (1940) et le code du travail (1943)",
+      "Envoie des troupes brésiliennes combattre en Italie en 1944",
+      "Fonde la compagnie pétrolière Petrobras en 1953"
+    ],
+    "en": [
+      "Seized power through the 1930 revolution",
+      "Imposed the Estado Novo dictatorship in November 1937",
+      "Created the minimum wage (1940) and a labour code (1943)",
+      "Sent Brazilian troops to fight in Italy in 1944",
+      "Founded the oil company Petrobras in 1953"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé « le père des pauvres » par ses partisans et dictateur pour ses adversaires, il a façonné l’État brésilien moderne, ses lois sociales et son nationalisme économique.",
+    "en": "Hailed by supporters as the father of the poor and remembered by opponents as a dictator, he shaped the modern Brazilian state, its labour laws and its economic nationalism."
   }
 }

@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1964 à Oakland, en Californie, d'une mère chercheuse venue d'Inde et d'un père économiste jamaïcain, Kamala Harris étudie à l'université Howard puis le droit à San Francisco. Elle commence sa carrière en 1990 comme procureure adjointe dans le comté d'Alameda. Élue procureure de San Francisco en 2003, elle prend ses fonctions l'année suivante, puis devient en 2011 la première femme et la première personne noire procureure générale de Californie. En 2016, elle est élue au Sénat fédéral, où elle se fait remarquer par ses interrogatoires lors des auditions. Après une primaire présidentielle abandonnée en 2019, elle est choisie par Joe Biden comme colistière et devient en janvier 2021 la première femme vice-présidente des États-Unis. Lorsque Biden renonce à se représenter en juillet 2024, elle prend la tête du ticket démocrate à quelques mois du scrutin. Elle est battue par Donald Trump en novembre 2024 et quitte la vice-présidence en janvier 2025.",
+    "en": "Born in Oakland, California, in 1964 to a research scientist from India and a Jamaican economist father, Kamala Harris studied at Howard University and then law in San Francisco. She began her career in 1990 as a deputy district attorney in Alameda County. Elected San Francisco district attorney in 2003, she took office the following year, and in 2011 became California's first female and first Black attorney general. In 2016 she won a US Senate seat, where she drew attention for her sharp questioning in confirmation hearings. After an abandoned presidential primary run in 2019, she was picked by Joe Biden as his running mate and in January 2021 became the first woman to serve as US vice president. When Biden ended his re-election bid in July 2024, she took over the Democratic ticket with only months to go. She lost to Donald Trump in November 2024 and left the vice presidency in January 2025."
+  },
+  "highlights": {
+    "fr": [
+      "Procureure de San Francisco de 2004 à 2011",
+      "Première femme procureure générale de Californie, en 2011",
+      "Élue sénatrice de Californie en 2016",
+      "Première femme vice-présidente des États-Unis, en 2021",
+      "Candidate démocrate à la présidentielle de 2024, battue par Donald Trump"
+    ],
+    "en": [
+      "San Francisco district attorney from 2004 to 2011",
+      "California's first female attorney general, in 2011",
+      "Elected senator for California in 2016",
+      "First woman vice president of the United States, in 2021",
+      "Democratic presidential nominee in 2024, defeated by Donald Trump"
+    ]
+  },
+  "legacy": {
+    "fr": "Elle reste la première femme, la première Afro-Américaine et la première personne d'origine sud-asiatique à avoir été vice-présidente des États-Unis.",
+    "en": "She remains the first woman, first African American and first person of South Asian descent to have served as US vice president."
   }
 }

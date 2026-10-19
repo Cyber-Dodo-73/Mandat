@@ -32,5 +32,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Simón Bolívar naît le 24 juillet 1783 à Caracas dans une riche famille créole et se retrouve orphelin dès l'enfance. Formé notamment par le pédagogue Simón Rodríguez, il voyage en Europe, perd sa jeune épouse en 1803 et fait le serment, à Rome en 1805, de libérer l'Amérique du joug espagnol. Il rejoint le mouvement indépendantiste en 1810, mais la première république vénézuélienne s'effondre en 1812. Depuis la Nouvelle-Grenade, il mène en 1813 la Campagne admirable jusqu'à Caracas, où il reçoit le titre de Libertador, avant d'être de nouveau chassé en 1814. Exilé en Jamaïque puis aidé par la république d'Haïti, il revient, réunit le congrès d'Angostura en 1819, franchit les Andes et l'emporte à Boyacá. Président de la Grande Colombie, il remporte Carabobo en 1821 et, avec Sucre, libère l'Équateur puis le Pérou, où la victoire d'Ayacucho en 1824 met fin à la domination espagnole en Amérique du Sud. La Bolivie, créée en 1825, prend son nom. Mais son rêve d'union se heurte aux rivalités régionales : il échappe à un attentat à Bogotá en 1828, renonce au pouvoir en 1830 et meurt de la tuberculose à Santa Marta le 17 décembre de la même année.",
+    "en": "Simón Bolívar was born on 24 July 1783 in Caracas into a wealthy creole family and was orphaned as a child. Taught in part by the educator Simón Rodríguez, he travelled in Europe, lost his young wife in 1803 and vowed in Rome in 1805 to free the Americas from Spanish rule. He joined the independence movement in 1810, but Venezuela's first republic collapsed in 1812. From New Granada he led the Admirable Campaign of 1813 all the way to Caracas, where he was hailed as the Liberator, only to be driven out again in 1814. Exiled to Jamaica and later helped by the republic of Haiti, he returned, convened the Congress of Angostura in 1819, crossed the Andes and won at Boyacá. As president of Gran Colombia he triumphed at Carabobo in 1821 and, with Sucre, liberated Ecuador and then Peru, where the victory of Ayacucho in 1824 ended Spanish power in South America. Bolivia, founded in 1825, was named after him. But his dream of union foundered on regional rivalries: he survived an assassination attempt in Bogotá in 1828, gave up power in 1830 and died of tuberculosis in Santa Marta on 17 December that year."
+  },
+  "highlights": {
+    "fr": [
+      "1813 : Campagne admirable, proclamé Libertador à Caracas",
+      "1819 : franchit les Andes et gagne la bataille de Boyacá",
+      "1821 : victoire de Carabobo, président de la Grande Colombie",
+      "1824 : la victoire d'Ayacucho met fin à l'empire espagnol en Amérique du Sud",
+      "1825 : la Bolivie est fondée et baptisée en son honneur"
+    ],
+    "en": [
+      "1813: led the Admirable Campaign and was hailed as Liberator in Caracas",
+      "1819: crossed the Andes and won the Battle of Boyacá",
+      "1821: victory at Carabobo; president of Gran Colombia",
+      "1824: victory at Ayacucho ended Spain's empire in South America",
+      "1825: Bolivia was founded and named in his honour"
+    ]
+  },
+  "legacy": {
+    "fr": "Libérateur de six pays actuels, Bolívar est le héros national du Venezuela et une référence invoquée par tous les camps politiques d'Amérique latine.",
+    "en": "Liberator of six present-day nations, Bolívar is Venezuela's national hero and a figure invoked across Latin America's political spectrum."
   }
 }

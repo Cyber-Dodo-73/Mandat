@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Slobodan Milošević naît en 1941 à Požarevac, en Serbie occupée, et ses deux parents se suicident, son père en 1962 et sa mère en 1972. Diplômé en droit à Belgrade en 1964, il dirige une entreprise publique de gaz puis une grande banque, tout en montant dans la Ligue des communistes grâce à son mentor Ivan Stambolić. En 1987, après un discours aux Serbes du Kosovo, il évince Stambolić et prend le contrôle du parti serbe. Il abolit en 1989 l'autonomie du Kosovo et de la Voïvodine et devient président de la Serbie. Lors de l'éclatement de la Yougoslavie, il arme et soutient les forces serbes en Croatie à partir de 1991, puis en Bosnie de 1992 à 1995, des guerres marquées par le nettoyage ethnique, le siège de Sarajevo et le génocide de Srebrenica, où environ 8 000 hommes et garçons musulmans sont tués en juillet 1995. La guerre de Bosnie fait environ 100 000 morts. Signataire des accords de Dayton en novembre 1995, il devient président de la Yougoslavie en 1997. En 1998-1999, ses forces mènent au Kosovo une campagne qui chasse quelque 800 000 Albanais et tue des milliers de civils, jusqu'aux bombardements de l'OTAN. Inculpé par le Tribunal pénal international pour l'ex-Yougoslavie en mai 1999, il est renversé le 5 octobre 2000 et livré à La Haye en juin 2001. Jugé notamment pour génocide, il meurt d'une crise cardiaque dans sa cellule en mars 2006, avant le verdict.",
+    "en": "Slobodan Milošević was born in 1941 in Požarevac, in occupied Serbia, and both his parents took their own lives, his father in 1962 and his mother in 1972. After graduating in law in Belgrade in 1964, he ran a state gas company and then a major bank while rising through the League of Communists with the help of his mentor Ivan Stambolić. In 1987, after a speech to Kosovo's Serbs, he ousted Stambolić and seized control of the Serbian party. In 1989 he abolished the autonomy of Kosovo and Vojvodina and became President of Serbia. As Yugoslavia broke apart, he armed and backed Serb forces in Croatia from 1991 and in Bosnia from 1992 to 1995, wars marked by ethnic cleansing, the siege of Sarajevo and the Srebrenica genocide, in which about 8,000 Muslim men and boys were killed in July 1995. The Bosnian war left around 100,000 dead. A signatory of the Dayton Accords in November 1995, he became President of Yugoslavia in 1997. In 1998–1999 his forces waged a campaign in Kosovo that drove out some 800,000 Albanians and killed thousands of civilians, until NATO's bombing. Indicted by the International Criminal Tribunal for the former Yugoslavia in May 1999, he was overthrown on 5 October 2000 and handed to The Hague in June 2001. On trial for crimes including genocide, he died of a heart attack in his cell in March 2006, before a verdict."
+  },
+  "highlights": {
+    "fr": [
+      "Supprime l'autonomie du Kosovo et de la Voïvodine en 1989",
+      "Soutient les forces serbes dans les guerres de Croatie et de Bosnie",
+      "Guerre de Bosnie : environ 100 000 morts, génocide de Srebrenica",
+      "Environ 800 000 Albanais chassés du Kosovo en 1998-1999",
+      "Premier chef d'État en exercice inculpé par le TPIY, en 1999"
+    ],
+    "en": [
+      "Abolished the autonomy of Kosovo and Vojvodina in 1989",
+      "Backed Serb forces in the wars in Croatia and Bosnia",
+      "Bosnian war: about 100,000 dead and the Srebrenica genocide",
+      "About 800,000 Albanians driven from Kosovo in 1998–1999",
+      "First sitting head of state indicted by the ICTY, in 1999"
+    ]
+  },
+  "legacy": {
+    "fr": "Son nationalisme a alimenté les guerres les plus meurtrières d'Europe depuis 1945. Son procès inachevé reste un jalon de la justice pénale internationale.",
+    "en": "His nationalism fuelled Europe's deadliest wars since 1945. His unfinished trial remains a milestone in international criminal justice."
   }
 }

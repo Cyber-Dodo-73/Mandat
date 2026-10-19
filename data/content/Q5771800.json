@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Claudia Sheinbaum naît en 1962 à Mexico, dans une famille de scientifiques d'origine juive engagés à gauche. Militante étudiante à l'Université nationale autonome du Mexique, elle y étudie la physique puis obtient un doctorat en ingénierie énergétique, après des recherches menées au laboratoire Lawrence Berkeley, en Californie. Spécialiste de l'énergie, elle contribue aux travaux du GIEC sur l'atténuation du changement climatique. De 2000 à 2006, elle est secrétaire à l'Environnement de la ville de Mexico sous Andrés Manuel López Obrador, puis dirige l'arrondissement de Tlalpan à partir de 2015. Élue cheffe du gouvernement de Mexico en 2018, elle affronte la pandémie de Covid-19 et l'effondrement d'un pont de la ligne 12 du métro en mai 2021, qui fait 26 morts. Désignée candidate du parti Morena en 2023, elle remporte la présidentielle du 2 juin 2024 avec près de 60 % des voix. Le 1er octobre 2024, elle devient la première femme présidente du Mexique. Elle poursuit la réforme judiciaire de son prédécesseur, avec l'élection des juges au suffrage populaire en 2025, et négocie avec l'administration Trump sur les droits de douane, la sécurité et les migrations.",
+    "en": "Claudia Sheinbaum was born in Mexico City in 1962 into a left-leaning family of scientists of Jewish descent. A student activist at the National Autonomous University of Mexico, she studied physics there and then earned a doctorate in energy engineering, after research at the Lawrence Berkeley laboratory in California. An energy specialist, she contributed to the IPCC's work on climate change mitigation. From 2000 to 2006 she was Mexico City's environment secretary under Andrés Manuel López Obrador, and from 2015 she ran the Tlalpan borough. Elected head of government of Mexico City in 2018, she dealt with the Covid-19 pandemic and the collapse of a Metro Line 12 overpass in May 2021, which killed 26 people. Chosen as the Morena party's candidate in 2023, she won the presidential election of 2 June 2024 with nearly 60% of the vote. On 1 October 2024 she became Mexico's first female president. She has carried on her predecessor's judicial reform, with judges elected by popular vote in 2025, and negotiated with the Trump administration over tariffs, security and migration."
+  },
+  "highlights": {
+    "fr": [
+      "Doctorat en ingénierie énergétique à l'UNAM",
+      "Contributrice aux rapports du GIEC",
+      "Cheffe du gouvernement de Mexico de 2018 à 2023",
+      "Élue présidente le 2 juin 2024 avec près de 60 % des voix",
+      "Première femme présidente du Mexique, le 1er octobre 2024"
+    ],
+    "en": [
+      "Doctorate in energy engineering from UNAM",
+      "Contributor to IPCC reports",
+      "Head of government of Mexico City from 2018 to 2023",
+      "Elected president on 2 June 2024 with nearly 60% of the vote",
+      "Mexico's first female president, from 1 October 2024"
+    ]
+  },
+  "legacy": {
+    "fr": "Première femme à diriger le Mexique, elle incarne la continuité du mouvement de López Obrador, avec un profil de scientifique.",
+    "en": "The first woman to lead Mexico, she embodies the continuity of López Obrador's movement with a scientist's profile."
   }
 }

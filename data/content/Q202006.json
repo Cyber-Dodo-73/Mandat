@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1937 à Abeokuta, dans le sud-ouest yoruba du Nigeria, Olusegun Obasanjo s'engage dans l'armée en 1958 et se forme notamment en Grande-Bretagne. Pendant la guerre du Biafra, il commande la division qui reçoit la reddition des sécessionnistes en janvier 1970. Après le coup d'État de 1975, il devient l'adjoint du général Murtala Mohammed, puis lui succède à la tête de la junte lorsque celui-ci est assassiné en février 1976. Il organise une transition et remet le pouvoir au président civil Shehu Shagari en 1979, devenant le premier dirigeant militaire nigérian à le faire volontairement. Critique du dictateur Sani Abacha, il est arrêté en 1995 et condamné pour un complot présumé. Libéré en 1998 après la mort d'Abacha, il remporte la présidentielle de 1999 qui rétablit la démocratie. Réélu en 2003, il lance une lutte anticorruption et obtient en 2005 un important allègement de la dette, mais échoue en 2006 à faire modifier la Constitution pour briguer un troisième mandat. Il quitte le pouvoir en 2007.",
+    "en": "Born in 1937 in Abeokuta, in Nigeria's Yoruba south-west, Olusegun Obasanjo joined the army in 1958 and trained partly in Britain. During the Biafran war he commanded the division that took the secessionists' surrender in January 1970. After the 1975 coup he became deputy to General Murtala Mohammed, and succeeded him as head of the junta when Murtala was assassinated in February 1976. He organised a transition and handed power to the civilian president Shehu Shagari in 1979, the first Nigerian military ruler to do so voluntarily. A critic of the dictator Sani Abacha, he was arrested in 1995 and convicted over an alleged coup plot. Freed in 1998 after Abacha's death, he won the 1999 election that restored democracy. Re-elected in 2003, he launched an anti-corruption drive and secured major debt relief in 2005, but failed in 2006 to change the constitution to seek a third term. He left office in 2007."
+  },
+  "highlights": {
+    "fr": [
+      "Reçoit la reddition du Biafra en janvier 1970",
+      "Chef de l'État militaire de 1976 à 1979",
+      "Remet volontairement le pouvoir aux civils en 1979",
+      "Élu président en 1999 lors du retour à la démocratie",
+      "Obtient en 2005 un vaste allègement de la dette nigériane"
+    ],
+    "en": [
+      "Took Biafra's surrender in January 1970",
+      "Military head of state from 1976 to 1979",
+      "Voluntarily handed power to civilians in 1979",
+      "Elected president in 1999 as democracy returned",
+      "Secured sweeping relief of Nigeria's debt in 2005"
+    ]
+  },
+  "legacy": {
+    "fr": "Seul Nigérian à avoir dirigé le pays à la fois comme militaire et comme civil élu, il reste un médiateur influent sur la scène africaine.",
+    "en": "The only Nigerian to have led the country both as a military ruler and as an elected civilian, he remains an influential mediator across Africa."
   }
 }

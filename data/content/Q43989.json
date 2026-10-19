@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1869 à Pokrovskoïe, un village de Sibérie occidentale, Grigori Raspoutine est un paysan sans instruction qui se transforme en pèlerin errant, parcourant monastères et lieux saints. Sa réputation de guérisseur et d'homme de Dieu lui ouvre les salons de Saint-Pétersbourg, où il est présenté à Nicolas II et à l'impératrice Alexandra en 1905. Le couple impérial le croit capable de soulager le tsarévitch Alexis, atteint d'hémophilie, et il devient un familier du palais. Ses beuveries et ses frasques nourrissent rapidement scandales et rumeurs, que la presse et la Douma exploitent contre la monarchie. En 1914, il survit de justesse à un coup de couteau porté par une femme dans son village natal. Quand le tsar part diriger l'armée en 1915, l'impératrice gouverne de fait à Petrograd et l'on prête à Raspoutine une influence sur la nomination des ministres, ce qui discrédite davantage le régime en pleine guerre. Dans la nuit du 29 au 30 décembre 1916, un groupe d'aristocrates mené par le prince Félix Ioussoupov l'attire dans son palais et l'assassine ; son corps est repêché dans la Neva gelée. Deux mois plus tard, la révolution de Février emporte la dynastie qu'ils avaient voulu sauver.",
+    "en": "Born in 1869 in Pokrovskoye, a village in western Siberia, Grigori Rasputin was an unschooled peasant who reinvented himself as a wandering pilgrim, travelling between monasteries and holy sites. His name as a healer and man of God opened the drawing rooms of Saint Petersburg to him, and in 1905 he was introduced to Nicholas II and Empress Alexandra. The imperial couple believed he could ease the suffering of their haemophiliac son Alexei, and he became a regular presence at court. His drinking and debauchery soon fuelled scandals that the press and the Duma turned against the monarchy. In 1914 he narrowly survived a stabbing by a woman in his home village. Once the tsar left to command the army in 1915, the empress effectively ran affairs in Petrograd, and Rasputin was widely believed to sway ministerial appointments, further discrediting the regime in the middle of the war. On the night of 29–30 December 1916, a group of aristocrats led by Prince Felix Yusupov lured him to his palace and killed him; his body was later pulled from the frozen river. Two months later the February Revolution swept away the dynasty his killers had hoped to save."
+  },
+  "highlights": {
+    "fr": [
+      "1905 : introduit auprès de Nicolas II et d'Alexandra à Saint-Pétersbourg",
+      "Gagne la confiance du couple impérial en apaisant le tsarévitch hémophile Alexis",
+      "1914 : survit à une tentative d'assassinat au couteau à Pokrovskoïe",
+      "1915-1916 : soupçonné de peser sur le choix des ministres pendant la guerre",
+      "Décembre 1916 : assassiné au palais Ioussoupov par des conspirateurs aristocrates"
+    ],
+    "en": [
+      "1905: introduced to Nicholas II and Alexandra in Saint Petersburg",
+      "Won the imperial couple's trust by easing the suffering of the haemophiliac heir Alexei",
+      "1914: survived a knife attack in his home village of Pokrovskoye",
+      "1915–1916: suspected of steering ministerial appointments during the war",
+      "December 1916: murdered at the Yusupov Palace by aristocratic conspirators"
+    ]
+  },
+  "legacy": {
+    "fr": "Raspoutine reste le symbole d'une cour impériale coupée de son pays, et sa légende de « moine fou » alimente encore livres et films.",
+    "en": "Rasputin remains the emblem of an imperial court cut off from its country, and the legend of the mad monk still feeds books and films."
   }
 }

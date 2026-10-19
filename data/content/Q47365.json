@@ -30,5 +30,27 @@
         "value": "charisma"
       }
     }
+  },
+  "story": {
+    "fr": "Marie-Antoinette naît en 1755 à la Hofburg de Vienne, quinzième enfant de l'impératrice Marie-Thérèse. Pour sceller l'alliance entre l'Autriche et la France, elle épouse en 1770, à quatorze ans, le dauphin, futur Louis XVI, et devient reine en 1774. À Versailles, ses dépenses, son goût pour le Petit Trianon et son entourage de favoris alimentent les pamphlets, tandis qu'on la soupçonne de servir les intérêts autrichiens. L'affaire du collier, en 1785, une escroquerie dont elle est pourtant la victime, ruine sa réputation. Quand la Révolution éclate en 1789, elle pousse le roi à résister et la famille royale est ramenée de force de Versailles à Paris en octobre. La fuite manquée de juin 1791, arrêtée à Varennes, puis ses contacts secrets avec les cours étrangères la rendent suspecte de trahison. Après la chute de la monarchie en août 1792, elle est emprisonnée au Temple, puis à la Conciergerie après l'exécution de son mari. Jugée par le Tribunal révolutionnaire, elle est guillotinée place de la Révolution, l'actuelle place de la Concorde, le 16 octobre 1793.",
+    "en": "Marie Antoinette was born in 1755 at Vienna's Hofburg, the fifteenth child of Empress Maria Theresa. To seal the alliance between Austria and France she married the dauphin, the future Louis XVI, in 1770 at the age of fourteen, and became queen in 1774. At Versailles her spending, her love of the Petit Trianon and her circle of favourites fed a stream of pamphlets, while many suspected her of serving Austrian interests. The 1785 Diamond Necklace affair, a fraud in which she was in fact the victim, wrecked her reputation. When the Revolution broke out in 1789 she urged the king to resist, and in October the royal family was forced from Versailles to Paris. The failed escape of June 1791, stopped at Varennes, and her secret contacts with foreign courts made her a suspected traitor. After the monarchy fell in August 1792 she was held in the Temple, then in the Conciergerie after her husband's execution. Tried by the Revolutionary Tribunal, she was guillotined on what is now the Place de la Concorde on 16 October 1793."
+  },
+  "highlights": {
+    "fr": [
+      "Épouse en 1770 le dauphin Louis pour sceller l'alliance franco-autrichienne",
+      "Reine de France et de Navarre de 1774 à 1792",
+      "Arrêtée avec la famille royale à Varennes en juin 1791",
+      "Guillotinée à Paris le 16 octobre 1793"
+    ],
+    "en": [
+      "Married the dauphin Louis in 1770 to seal the Franco-Austrian alliance",
+      "Queen of France and Navarre from 1774 to 1792",
+      "Caught with the royal family at Varennes in June 1791",
+      "Guillotined in Paris on 16 October 1793"
+    ]
+  },
+  "legacy": {
+    "fr": "Longtemps caricaturée en symbole de l'insouciance de l'Ancien Régime, elle est aujourd'hui vue aussi comme la cible d'une propagande largement mensongère.",
+    "en": "Long caricatured as the emblem of the old regime's indifference, she is now also seen as the target of largely false propaganda."
   }
 }

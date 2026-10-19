@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Pierre Elliott Trudeau naît en 1919 à Montréal d'un père homme d'affaires francophone et d'une mère d'ascendance écossaise. Formé en droit à Montréal, puis à Harvard, à Paris et à Londres, il s'oppose au régime de Maurice Duplessis, soutient les grévistes de l'amiante en 1949 et cofonde la revue Cité libre. Élu député libéral de Mont-Royal en 1965, il devient ministre de la Justice en 1967 et fait dépénaliser l'homosexualité et assouplir le divorce. Élu chef du Parti libéral en avril 1968, il devient Premier ministre et remporte les élections de juin dans une vague d'enthousiasme surnommée la trudeaumanie. Il fait adopter la Loi sur les langues officielles en 1969 et, lors de la crise d'Octobre 1970, recourt à la Loi sur les mesures de guerre après l'enlèvement d'un diplomate britannique et du ministre Pierre Laporte, assassiné par le FLQ. Battu par Joe Clark en 1979, il revient au pouvoir dès février 1980 et s'engage contre la souveraineté lors du référendum québécois de mai, remporté par le non. Le 17 avril 1982, il obtient le rapatriement de la Constitution, assortie de la Charte canadienne des droits et libertés, sans l'accord du Québec. Il quitte la vie politique en juin 1984 et meurt à Montréal en septembre 2000.",
+    "en": "Pierre Elliott Trudeau was born in Montreal in 1919 to a French-speaking businessman and a mother of Scottish descent. Trained in law in Montreal and then at Harvard, in Paris and in London, he opposed Maurice Duplessis's regime, backed the 1949 asbestos strikers and co-founded the magazine Cité libre. Elected Liberal MP for Mount Royal in 1965, he became justice minister in 1967 and decriminalised homosexuality and eased divorce. Chosen as Liberal leader in April 1968, he became prime minister and won that June's election on a wave of excitement dubbed Trudeaumania. He passed the Official Languages Act in 1969 and, in the October Crisis of 1970, invoked the War Measures Act after the FLQ kidnapped a British diplomat and the minister Pierre Laporte, who was murdered. Defeated by Joe Clark in 1979, he was back in power by February 1980 and campaigned against sovereignty in Quebec's referendum that May, which the No side won. On 17 April 1982 he secured the patriation of the constitution with the Canadian Charter of Rights and Freedoms, without Quebec's consent. He left politics in June 1984 and died in Montreal in September 2000."
+  },
+  "highlights": {
+    "fr": [
+      "Premier ministre du Canada de 1968 à 1979, puis de 1980 à 1984",
+      "Loi sur les langues officielles en 1969",
+      "Loi sur les mesures de guerre pendant la crise d'Octobre 1970",
+      "Victoire du non au référendum québécois de 1980",
+      "Rapatriement de la Constitution et Charte des droits le 17 avril 1982"
+    ],
+    "en": [
+      "Prime Minister of Canada 1968–1979 and 1980–1984",
+      "Official Languages Act in 1969",
+      "Invoked the War Measures Act in the 1970 October Crisis",
+      "No side won the 1980 Quebec referendum",
+      "Patriated the constitution with a Charter of Rights on 17 April 1982"
+    ]
+  },
+  "legacy": {
+    "fr": "La Charte des droits et libertés et le bilinguisme officiel restent au cœur de l'identité canadienne. Au Québec, le rapatriement de 1982 sans son accord demeure une blessure politique.",
+    "en": "The Charter of Rights and Freedoms and official bilingualism remain central to Canadian identity. In Quebec, the 1982 patriation without its consent is still a political wound."
   }
 }

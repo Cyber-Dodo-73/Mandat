@@ -32,5 +32,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Antonio José de Sucre naît en février 1795 à Cumaná, dans l’est du Venezuela, et rejoint dès 1810, à quinze ans, les armées indépendantistes, où il sert d’abord comme officier du génie. Remarqué par Simón Bolívar, il devient son lieutenant le plus fidèle et remporte le 24 mai 1822 la bataille de Pichincha, qui libère Quito. Envoyé au Pérou, il reçoit en 1823 du Congrès de Lima l’autorité militaire suprême, puis prépare la campagne finale contre les dernières armées royalistes. Le 9 décembre 1824, à Ayacucho, il bat le vice-roi José de La Serna et obtient la capitulation de l’armée espagnole, scellant l’indépendance de l’Amérique du Sud. Dans le Haut-Pérou, il convoque l’assemblée qui proclame en août 1825 l’indépendance d’une nouvelle république, baptisée Bolivie en l’honneur de Bolívar, et en devient le président. Blessé lors d’une mutinerie à Chuquisaca en avril 1828, il renonce au pouvoir et quitte le pays. Rappelé lors de la guerre entre la Grande-Colombie et le Pérou, il l’emporte à Tarqui en février 1829. Le 4 juin 1830, alors qu’il rentre à Quito, il est assassiné dans une embuscade dans la forêt de Berruecos, dans le sud de l’actuelle Colombie.",
+    "en": "Antonio José de Sucre was born in February 1795 in Cumaná, eastern Venezuela, and joined the independence armies in 1810, aged fifteen, first serving as an engineering officer. Noticed by Simón Bolívar, he became his most loyal lieutenant and won the Battle of Pichincha on 24 May 1822, which freed Quito. Sent to Peru, he was given supreme military authority by the Lima Congress in 1823 and prepared the final campaign against the last royalist armies. On 9 December 1824 at Ayacucho he defeated Viceroy José de La Serna and secured the surrender of the Spanish army, sealing South America's independence. In Upper Peru he convened the assembly that declared the independence of a new republic in August 1825, named Bolivia in Bolívar's honour, and became its president. Wounded during a mutiny in Chuquisaca in April 1828, he gave up power and left the country. Recalled during the war between Gran Colombia and Peru, he won at Tarqui in February 1829. On 4 June 1830, on his way home to Quito, he was killed in an ambush in the Berruecos forest in what is now southern Colombia."
+  },
+  "highlights": {
+    "fr": [
+      "Libère Quito à la bataille de Pichincha le 24 mai 1822",
+      "Remporte la bataille décisive d’Ayacucho le 9 décembre 1824",
+      "Premier président de la Bolivie, indépendante depuis août 1825",
+      "Bat l’armée péruvienne à Tarqui en février 1829"
+    ],
+    "en": [
+      "Freed Quito at the Battle of Pichincha on 24 May 1822",
+      "Won the decisive Battle of Ayacucho on 9 December 1824",
+      "First president of Bolivia, independent since August 1825",
+      "Defeated the Peruvian army at Tarqui in February 1829"
+    ]
+  },
+  "legacy": {
+    "fr": "Surnommé le « Grand Maréchal d’Ayacucho », il est honoré dans plusieurs pays andins, et la capitale constitutionnelle de la Bolivie porte son nom.",
+    "en": "Known as the Grand Marshal of Ayacucho, he is honoured across several Andean countries, and Bolivia's constitutional capital bears his name."
   }
 }

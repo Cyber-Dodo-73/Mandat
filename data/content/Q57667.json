@@ -32,5 +32,29 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Desi Bouterse naît en octobre 1945 dans le district de Wanica, au Suriname, et sert comme sous-officier dans l’armée néerlandaise avant l’indépendance de 1975. Le 25 février 1980, il participe au « coup d’État des sergents » et devient l’homme fort du pays à la tête d’un conseil militaire. Le 8 décembre 1982, quinze opposants, avocats, journalistes, universitaires et syndicalistes, sont exécutés au fort Zeelandia, à Paramaribo. Pendant la guerre intérieure contre les rebelles marrons, l’armée massacre en 1986 au moins trente-neuf habitants du village de Moiwana, en majorité des femmes et des enfants. Après un retour des civils en 1987, il renverse à nouveau le gouvernement en 1990. En 1999, la justice néerlandaise le condamne par contumace à onze ans de prison pour trafic de cocaïne. Ayant fondé son propre parti, le NDP, il est élu président par le Parlement en 2010, réélu en 2015, et fait voter en 2012 une loi d’amnistie couvrant les meurtres de décembre. Condamné en 2019 à vingt ans de prison pour ces meurtres, peine confirmée en appel en décembre 2023, il refuse de se présenter en prison et meurt en fuite en décembre 2024.",
+    "en": "Desi Bouterse was born in October 1945 in Wanica district, Suriname, and served as a non-commissioned officer in the Dutch army before independence in 1975. On 25 February 1980 he took part in the Sergeants' Coup and became the country's strongman at the head of a military council. On 8 December 1982 fifteen opponents, among them lawyers, journalists, academics and trade unionists, were executed at Fort Zeelandia in Paramaribo. During the interior war against Maroon rebels, the army massacred at least thirty-nine residents of Moiwana village in 1986, most of them women and children. After a return to civilian rule in 1987, he overthrew the government again in 1990. In 1999 a Dutch court sentenced him in absentia to eleven years in prison for cocaine trafficking. Having founded his own party, the NDP, he was elected president by parliament in 2010, re-elected in 2015, and in 2012 pushed through an amnesty law covering the December murders. Sentenced in 2019 to twenty years for those killings, a verdict upheld on appeal in December 2023, he refused to report to prison and died a fugitive in December 2024."
+  },
+  "highlights": {
+    "fr": [
+      "Mène le « coup d’État des sergents » le 25 février 1980",
+      "Régime responsable des meurtres de décembre 1982 (15 opposants exécutés)",
+      "Condamné aux Pays-Bas pour trafic de cocaïne en 1999",
+      "Président du Suriname de 2010 à 2020",
+      "Condamné à 20 ans de prison pour les meurtres de décembre, peine confirmée en 2023"
+    ],
+    "en": [
+      "Led the Sergeants' Coup on 25 February 1980",
+      "His regime carried out the December murders of 1982 (15 executed)",
+      "Convicted of cocaine trafficking in the Netherlands in 1999",
+      "President of Suriname from 2010 to 2020",
+      "Sentenced to 20 years for the December murders, upheld in 2023"
+    ]
+  },
+  "legacy": {
+    "fr": "Resté populaire auprès d’une partie des Surinamais, il incarne pour beaucoup d’autres l’impunité des crimes de la dictature militaire, finalement sanctionnés par la justice.",
+    "en": "Still popular with part of Suriname's electorate, he stands for many others as the face of the military regime's impunity, finally punished by the courts."
   }
 }

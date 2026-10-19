@@ -32,5 +32,29 @@
         "value": "contemporary"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Santiago en 1951, fille d'un général de l'armée de l'air, Michelle Bachelet commence des études de médecine à l'université du Chili. Après le coup d'État de 1973, son père, fidèle à Salvador Allende, est arrêté et meurt en détention en 1974. En 1975, elle est elle-même détenue et torturée avec sa mère au centre de Villa Grimaldi, avant de s'exiler en Australie puis en Allemagne de l'Est, où elle poursuit ses études à Leipzig et à Berlin. Rentrée en 1979, elle devient pédiatre et travaille auprès d'enfants de victimes de la dictature. Ministre de la Santé en 2000, puis de la Défense en 2002 — une première pour une femme en Amérique latine —, elle remporte la présidentielle de 2006 et devient la première femme à diriger le Chili. Son premier mandat est marqué par une réforme des retraites et une gestion prudente de la manne du cuivre ; elle quitte le pouvoir en 2010 avec une popularité très élevée. Première directrice d'ONU Femmes, elle revient à la présidence en 2014 et mène des réformes fiscale et éducative, ainsi que la dépénalisation partielle de l'avortement en 2017. De 2018 à 2022, elle est haute-commissaire des Nations unies aux droits de l'homme, poste où son rapport tardif sur le Xinjiang suscite la controverse.",
+    "en": "Born in Santiago in 1951, the daughter of an air force general, Michelle Bachelet began studying medicine at the University of Chile. After the 1973 coup her father, loyal to Salvador Allende, was arrested and died in custody in 1974. In 1975 she and her mother were themselves held and tortured at the Villa Grimaldi detention centre before she went into exile in Australia and then East Germany, where she continued her studies in Leipzig and Berlin. Back in Chile in 1979, she became a paediatrician and worked with the children of the dictatorship's victims. Health minister in 2000 and defence minister in 2002, the first woman in Latin America to hold that post, she won the 2006 presidential election to become Chile's first female president. Her first term brought a pension reform and careful management of the copper windfall, and she left office in 2010 with sky-high approval ratings. After serving as the first head of UN Women, she returned to the presidency in 2014, passing tax and education reforms and, in 2017, a partial decriminalisation of abortion. From 2018 to 2022 she was UN High Commissioner for Human Rights, where her delayed report on Xinjiang stirred controversy."
+  },
+  "highlights": {
+    "fr": [
+      "Première femme ministre de la Défense d'Amérique latine en 2002",
+      "Première femme présidente du Chili, de 2006 à 2010",
+      "Première directrice exécutive d'ONU Femmes en 2010",
+      "Réélue présidente pour 2014-2018",
+      "Haute-commissaire de l'ONU aux droits de l'homme de 2018 à 2022"
+    ],
+    "en": [
+      "Became Latin America's first female defence minister in 2002",
+      "Chile's first female president, from 2006 to 2010",
+      "First executive director of UN Women in 2010",
+      "Re-elected president for 2014–2018",
+      "UN High Commissioner for Human Rights from 2018 to 2022"
+    ]
+  },
+  "legacy": {
+    "fr": "Ancienne victime de la dictature devenue deux fois présidente, elle symbolise la réconciliation démocratique du Chili et l'accès des femmes au pouvoir.",
+    "en": "A former victim of the dictatorship who twice became president, she symbolises Chile's democratic reconciliation and women's rise to power."
   }
 }

@@ -32,5 +32,27 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Née à Alexandrie vers 69 av. J.-C., Cléopâtre VII appartient à la dynastie macédonienne des Ptolémées qui gouverne l'Égypte depuis la mort d'Alexandre le Grand. Elle monte sur le trône vers 51 av. J.-C. avec son jeune frère Ptolémée XIII, mais un conflit de cour la contraint à l'exil. Elle s'allie à Jules César, venu à Alexandrie en 48 av. J.-C., qui l'aide à reprendre le pouvoir lors d'une guerre civile où son frère trouve la mort. De leur liaison naît un fils, Césarion, et elle séjourne à Rome jusqu'à l'assassinat de César en 44 av. J.-C. Elle se lie ensuite à Marc Antoine, maître de l'Orient romain, à qui elle donne trois enfants et dont elle soutient les ambitions contre Octavien. Leur flotte est vaincue à la bataille d'Actium en 31 av. J.-C., puis Octavien entre dans Alexandrie l'année suivante. Après le suicide d'Antoine, Cléopâtre se donne la mort en 30 av. J.-C., et l'Égypte devient une province romaine.",
+    "en": "Born in Alexandria around 69 BC, Cleopatra VII belonged to the Macedonian Ptolemaic dynasty that had ruled Egypt since the death of Alexander the Great. She came to the throne around 51 BC alongside her young brother Ptolemy XIII, but a court struggle drove her into exile. She allied with Julius Caesar, who arrived in Alexandria in 48 BC and helped her regain power in a civil war in which her brother died. Their relationship produced a son, Caesarion, and she stayed in Rome until Caesar's assassination in 44 BC. She then joined forces with Mark Antony, master of the Roman East, bore him three children and backed his ambitions against Octavian. Their fleet was defeated at the battle of Actium in 31 BC, and Octavian entered Alexandria the following year. After Antony's suicide, Cleopatra took her own life in 30 BC, and Egypt became a Roman province."
+  },
+  "highlights": {
+    "fr": [
+      "Reine d'Égypte de 51 à 30 av. J.-C., dernière souveraine de la dynastie lagide",
+      "Reprend le trône en 47 av. J.-C. avec l'appui de Jules César",
+      "Alliée de Marc Antoine contre Octavien dans la guerre civile romaine",
+      "Vaincue à Actium en 31 av. J.-C., elle se suicide l'année suivante"
+    ],
+    "en": [
+      "Queen of Egypt from 51 to 30 BC, last ruler of the Ptolemaic dynasty",
+      "Regained her throne in 47 BC with Julius Caesar's backing",
+      "Allied with Mark Antony against Octavian in Rome's civil war",
+      "Defeated at Actium in 31 BC, she took her own life the next year"
+    ]
+  },
+  "legacy": {
+    "fr": "Dernière reine de l'Égypte indépendante, elle est devenue une figure mythique de la littérature, de la peinture et du cinéma.",
+    "en": "The last queen of independent Egypt, she became a mythical figure in literature, painting and film."
   }
 }

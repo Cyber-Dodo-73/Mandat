@@ -32,5 +32,27 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1986 à Punta Arenas, à l'extrême sud du Chili, dans une famille d'origine croate, Gabriel Boric part étudier le droit à l'université du Chili à Santiago. Figure du grand mouvement étudiant de 2011 pour une éducation gratuite, il est élu à la tête de la fédération étudiante de son université pour 2012. En 2013, il remporte comme indépendant un siège de député dans sa région natale de Magallanes, où il est réélu en 2017. Lors de l'explosion sociale d'octobre 2019, il signe l'accord transpartisan qui ouvre la voie à une nouvelle Constitution, un geste qui lui vaut des critiques dans son propre camp. Candidat de la gauche, il bat le communiste Daniel Jadue à la primaire, puis l'ultraconservateur José Antonio Kast au second tour de décembre 2021, avec près de 56 % des voix. Investi en mars 2022 à 36 ans, il devient le plus jeune président de l'histoire du pays. En septembre 2022, le projet de Constitution qu'il soutenait est largement rejeté par référendum, un revers majeur. Son mandat est marqué par la loi réduisant la semaine de travail à 40 heures, une réforme des retraites adoptée en 2025 et une hausse de l'insécurité au cœur du débat public. Il achève son mandat en mars 2026.",
+    "en": "Born in 1986 in Punta Arenas, at Chile's southern tip, into a family of Croatian descent, Gabriel Boric moved to Santiago to study law at the University of Chile. A prominent figure in the 2011 student movement for free education, he was elected head of his university's student federation for 2012. In 2013 he won a seat in Congress as an independent for his home region of Magallanes and was re-elected in 2017. During the social uprising of October 2019, he signed the cross-party deal that opened the way to a new constitution, a move that earned him criticism on his own side. As the left's candidate he beat the communist Daniel Jadue in the primary, then the hard-right José Antonio Kast in the December 2021 run-off with nearly 56% of the vote. Sworn in in March 2022 at 36, he became the youngest president in Chilean history. In September 2022 the draft constitution he backed was heavily defeated in a referendum, a major setback. His term saw a law cutting the working week to 40 hours, a pension reform passed in 2025 and rising concern over crime at the centre of public debate. He completed his term in March 2026."
+  },
+  "highlights": {
+    "fr": [
+      "Dirige la fédération étudiante de l'université du Chili en 2012",
+      "Député de Magallanes de 2014 à 2022",
+      "Remporte la présidentielle de décembre 2021 avec près de 56 % des voix",
+      "Plus jeune président de l'histoire du Chili, investi à 36 ans en 2022"
+    ],
+    "en": [
+      "Led the University of Chile student federation in 2012",
+      "Member of Congress for Magallanes from 2014 to 2022",
+      "Won the December 2021 presidential run-off with nearly 56% of the vote",
+      "Became Chile's youngest president, sworn in at 36 in 2022"
+    ]
+  },
+  "legacy": {
+    "fr": "Représentant d'une nouvelle génération de gauche née des luttes étudiantes, il reste associé à l'échec du projet constitutionnel de 2022.",
+    "en": "A leader of a new left-wing generation born of student protest, he remains tied to the failure of the 2022 constitutional project."
   }
 }

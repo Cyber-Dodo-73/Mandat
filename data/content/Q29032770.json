@@ -30,5 +30,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Félix Tshisekedi naît en juin 1963 à Kinshasa, fils d’Étienne Tshisekedi, figure historique de l’opposition au régime de Mobutu. Sa famille étant persécutée, il part en Belgique au milieu des années 1980, où il milite au sein de l’Union pour la démocratie et le progrès social tout en exerçant divers emplois. Élu député en 2011, il ne siège pas, conformément à la ligne du parti qui conteste la réélection de Joseph Kabila. Après la mort de son père en 2017, il prend la présidence de l’UDPS en 2018 et se présente à la présidentielle de décembre. Proclamé vainqueur devant Martin Fayulu, malgré des résultats contestés par l’Église catholique, il est investi en janvier 2019, première alternance pacifique du pays depuis l’indépendance. D’abord lié à Kabila par un accord de coalition, il rompt avec lui fin 2020 et forme une nouvelle majorité, puis préside l’Union africaine en 2021. Réélu en décembre 2023 avec plus de 70 % des voix, il fait face à la reprise de l’offensive du M23 soutenu par le Rwanda, qui s’empare de Goma en janvier 2025. En juin 2025, son gouvernement signe à Washington un accord de paix avec Kigali.",
+    "en": "Félix Tshisekedi was born in June 1963 in Kinshasa, the son of Étienne Tshisekedi, the veteran opponent of Mobutu's regime. With his family under pressure, he moved to Belgium in the mid-1980s, where he worked various jobs while campaigning for the Union for Democracy and Social Progress. Elected to parliament in 2011, he refused to take his seat, in line with the party's rejection of Joseph Kabila's re-election. After his father died in 2017, he became UDPS leader in 2018 and ran in that December's presidential election. Declared the winner over Martin Fayulu despite results disputed by the Catholic Church, he was sworn in in January 2019, the country's first peaceful handover since independence. Initially bound to Kabila by a coalition deal, he broke with him in late 2020 and built a new majority, then chaired the African Union in 2021. Re-elected in December 2023 with more than 70% of the vote, he faced a renewed offensive by the Rwanda-backed M23, which seized Goma in January 2025. In June 2025 his government signed a peace agreement with Kigali in Washington."
+  },
+  "highlights": {
+    "fr": [
+      "Prend la tête de l’UDPS en 2018",
+      "Investi président en janvier 2019, première alternance pacifique du pays",
+      "Président de l’Union africaine en 2021",
+      "Réélu en décembre 2023 avec plus de 70 % des voix",
+      "Signe un accord de paix avec le Rwanda à Washington en juin 2025"
+    ],
+    "en": [
+      "Became UDPS leader in 2018",
+      "Sworn in as president in January 2019, the first peaceful handover",
+      "Chaired the African Union in 2021",
+      "Re-elected in December 2023 with over 70% of the vote",
+      "Signed a peace deal with Rwanda in Washington in June 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Héritier politique de son père, il a incarné la première alternance pacifique au Congo, mais son pouvoir reste marqué par des élections contestées et la guerre dans l’Est.",
+    "en": "His father's political heir, he embodied Congo's first peaceful transfer of power, but his rule remains shadowed by disputed elections and war in the east."
   }
 }

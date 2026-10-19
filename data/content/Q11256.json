@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1926 à Birán, dans l'est de Cuba, fils d'un riche planteur d'origine espagnole, Fidel Castro étudie chez les jésuites puis le droit à l'université de La Havane. Après le coup d'État de Fulgencio Batista en 1952, il mène le 26 juillet 1953 l'attaque ratée de la caserne de la Moncada, qui lui vaut la prison puis l'exil au Mexique. Revenu en 1956 à bord du yacht Granma, il mène la guérilla depuis la Sierra Maestra et entre en vainqueur à La Havane en janvier 1959. Premier ministre, il nationalise les entreprises, y compris américaines, fait exécuter plusieurs centaines d'opposants et repousse en avril 1961 le débarquement de la baie des Cochons organisé par la CIA. Allié à l'URSS, il accepte des missiles nucléaires soviétiques, à l'origine de la crise d'octobre 1962. À la tête d'un régime de parti unique, il développe l'éducation et la santé, mais emprisonne des milliers de dissidents, tandis que des centaines de milliers de Cubains fuient, comme lors de l'exode de Mariel en 1980. Président à partir de 1976, il cède le pouvoir à son frère Raúl en 2006 pour raisons de santé, officiellement en 2008, et meurt à La Havane en novembre 2016.",
+    "en": "Born in 1926 in Birán, eastern Cuba, the son of a wealthy Spanish-born planter, Fidel Castro was educated by Jesuits and studied law at the University of Havana. After Fulgencio Batista's 1952 coup, he led a failed attack on the Moncada barracks on 26 July 1953, which landed him in prison and then in exile in Mexico. Returning in 1956 aboard the yacht Granma, he waged a guerrilla war from the Sierra Maestra and entered Havana victorious in January 1959. As prime minister he nationalised businesses, including American ones, had several hundred opponents executed and repelled the CIA-organised Bay of Pigs landing in April 1961. Allied with the Soviet Union, he accepted Soviet nuclear missiles, sparking the October 1962 crisis. Leading a one-party state, he expanded education and health care but jailed thousands of dissidents, while hundreds of thousands of Cubans fled, as in the 1980 Mariel exodus. President from 1976, he handed power to his brother Raúl in 2006 on health grounds, formally in 2008, and died in Havana in November 2016."
+  },
+  "highlights": {
+    "fr": [
+      "Attaque la caserne de la Moncada le 26 juillet 1953",
+      "Renverse Batista et prend le pouvoir en janvier 1959",
+      "Repousse le débarquement de la baie des Cochons en avril 1961",
+      "Au cœur de la crise des missiles d'octobre 1962",
+      "Dirige Cuba près d'un demi-siècle, jusqu'en 2008"
+    ],
+    "en": [
+      "Attacked the Moncada barracks on 26 July 1953",
+      "Overthrew Batista and took power in January 1959",
+      "Repelled the Bay of Pigs landing in April 1961",
+      "At the heart of the Cuban missile crisis of October 1962",
+      "Ruled Cuba for nearly half a century, until 2008"
+    ]
+  },
+  "legacy": {
+    "fr": "Symbole de défi face aux États-Unis pour une partie de la gauche mondiale, il a laissé à Cuba un régime de parti unique et une économie durablement en crise.",
+    "en": "A symbol of defiance against the United States for part of the global left, he left Cuba a one-party state and a chronically struggling economy."
   }
 }

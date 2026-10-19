@@ -30,5 +30,27 @@
         "value": "different"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1952 à Bangkok, Maha Vajiralongkorn est le seul fils du roi Bhumibol Adulyadej et de la reine Sirikit. Il fait sa scolarité en Angleterre puis en Australie, où il suit la formation de l'académie militaire de Duntroon et obtient un diplôme de l'université de Nouvelle-Galles du Sud en 1976. Désigné prince héritier en 1972, il mène une carrière d'officier et de pilote militaire, tandis que sa vie privée, marquée par trois mariages et autant de divorces, alimente les rumeurs dans un pays où la critique de la famille royale est un délit. À la mort de son père en octobre 2016, il demande un temps de deuil avant d'accepter le trône en décembre, devenant le dixième roi de la dynastie Chakri. Dès 2017, il obtient la modification de la nouvelle constitution pour renforcer ses prérogatives, puis prend directement le contrôle des biens de la Couronne et de certaines unités militaires. Il épouse en mai 2019 Suthida Tidjai, devenue reine, quelques jours avant d'être couronné selon les rites traditionnels. En 2020, de grandes manifestations étudiantes réclament une réforme de la monarchie, et de nombreux militants sont ensuite poursuivis au titre de la loi sur le crime de lèse-majesté.",
+    "en": "Born in Bangkok in 1952, Maha Vajiralongkorn is the only son of King Bhumibol Adulyadej and Queen Sirikit. He was schooled in England and then Australia, where he trained at the Duntroon military college and earned a degree from the University of New South Wales in 1976. Named crown prince in 1972, he pursued a career as an army officer and military pilot, while his private life, with three marriages ending in divorce, fuelled rumours in a country where criticising the royal family is a crime. When his father died in October 2016, he asked for a period of mourning before accepting the throne in December, becoming the tenth king of the Chakri dynasty. In 2017 he obtained changes to the new constitution that strengthened his prerogatives, and he then took direct control of the Crown's assets and of certain army units. In May 2019 he married Suthida Tidjai, who became queen, a few days before his coronation in traditional rites. In 2020 large student-led protests called for reform of the monarchy, and many activists were later prosecuted under the lese-majesty law."
+  },
+  "highlights": {
+    "fr": [
+      "Prince héritier de Thaïlande de 1972 à 2016",
+      "Roi de Thaïlande depuis décembre 2016, dixième de la dynastie Chakri",
+      "Obtient en 2017 des changements constitutionnels sur ses prérogatives",
+      "Couronné en mai 2019 sous le nom de Rama X"
+    ],
+    "en": [
+      "Crown Prince of Thailand from 1972 to 2016",
+      "King of Thailand since December 2016, tenth of the Chakri dynasty",
+      "Secured constitutional changes to his powers in 2017",
+      "Crowned as Rama X in May 2019"
+    ]
+  },
+  "legacy": {
+    "fr": "Son règne se caractérise par une concentration accrue des pouvoirs et des richesses entre les mains du palais, et par une contestation inédite de la monarchie en 2020.",
+    "en": "His reign is marked by a greater concentration of power and wealth in the palace's hands, and by unprecedented challenges to the monarchy in 2020."
   }
 }

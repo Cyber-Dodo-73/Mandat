@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1822 à Delaware, dans l'Ohio, Rutherford Birchard Hayes étudie le droit à Harvard et devient avocat à Cincinnati, où il défend des esclaves en fuite. Pendant la guerre de Sécession, il est blessé à plusieurs reprises et termine major général honoraire. Élu au Congrès en 1864 sans faire campagne, il siège jusqu'en 1867, puis devient gouverneur de l'Ohio de 1868 à 1872 et à nouveau en 1876. Candidat républicain à la présidence cette année-là, il obtient moins de voix que le démocrate Samuel Tilden, mais les résultats contestés de trois États du Sud sont attribués à son camp par une commission électorale. Le compromis tacite de 1877 qui lui ouvre la Maison-Blanche entraîne le retrait des troupes fédérales du Sud et la fin de la Reconstruction, abandonnant les Noirs à la domination des démocrates blancs. La même année, il envoie l'armée contre la grande grève des chemins de fer. Il engage une réforme de la fonction publique contre le clientélisme. Fidèle à sa promesse, il ne se représente pas en 1880 et meurt à Fremont en 1893.",
+    "en": "Born in Delaware, Ohio, in 1822, Rutherford Birchard Hayes studied law at Harvard and practised in Cincinnati, where he defended fugitive slaves. During the Civil War he was wounded several times and ended as a brevet major general. Elected to Congress in 1864 without campaigning, he served until 1867 and was then governor of Ohio from 1868 to 1872 and again in 1876. As Republican presidential candidate that year he won fewer votes than the Democrat Samuel Tilden, but an electoral commission awarded his side the disputed results of three Southern states. The informal Compromise of 1877 that put him in the White House brought the withdrawal of federal troops from the South and the end of Reconstruction, leaving Black citizens at the mercy of white Democratic rule. That same year he sent the army against the Great Railroad Strike. He pushed civil service reform against patronage. True to his word, he did not seek re-election in 1880 and died in Fremont in 1893."
+  },
+  "highlights": {
+    "fr": [
+      "1868 : élu gouverneur de l'Ohio",
+      "1877 : investi après l'élection contestée face à Samuel Tilden",
+      "1877 : retire les troupes fédérales du Sud, fin de la Reconstruction",
+      "1877 : envoie l'armée contre la grande grève des chemins de fer"
+    ],
+    "en": [
+      "1868: elected governor of Ohio",
+      "1877: inaugurated after the disputed election against Samuel Tilden",
+      "1877: pulls federal troops from the South, ending Reconstruction",
+      "1877: sends the army against the Great Railroad Strike"
+    ]
+  },
+  "legacy": {
+    "fr": "Président honnête mais mal élu, il reste lié au compromis qui a mis fin à la Reconstruction et ouvert l'ère de la ségrégation dans le Sud.",
+    "en": "An honest president with a contested mandate, he is linked to the bargain that ended Reconstruction and opened the era of segregation in the South."
   }
 }

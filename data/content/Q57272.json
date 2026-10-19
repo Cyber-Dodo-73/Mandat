@@ -32,5 +32,27 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "Paul Biya naît en 1933 à Mvomeka'a, dans le sud du Cameroun, alors sous tutelle française. Formé chez les missionnaires catholiques, il étudie le droit et les sciences politiques à Paris avant de rentrer au pays au début des années 1960. Il gravit les échelons de l'administration du président Ahmadou Ahidjo, jusqu'à devenir secrétaire général de la présidence puis Premier ministre en 1975. En novembre 1982, Ahidjo démissionne et lui cède le pouvoir conformément à la Constitution. Les relations entre les deux hommes se dégradent vite, et une tentative de coup d'État menée en 1984 par des proches d'Ahidjo est écrasée. Biya instaure le multipartisme en 1990 mais remporte toutes les présidentielles suivantes, souvent contestées par l'opposition et des observateurs. En 2008, il fait supprimer la limitation du nombre de mandats, malgré des émeutes réprimées. Depuis 2016, la crise des régions anglophones dégénère en conflit armé, tandis que le Nord affronte Boko Haram. Souvent absent du pays pour de longs séjours à l'étranger, il est déclaré vainqueur en 2025, à 92 ans, d'un nouveau scrutin dont l'opposition rejette les résultats.",
+    "en": "Paul Biya was born in 1933 in Mvomeka'a, in southern Cameroon, then under French administration. Schooled by Catholic missionaries, he studied law and political science in Paris before returning home in the early 1960s. He rose through the administration of President Ahmadou Ahidjo, becoming secretary-general of the presidency and then prime minister in 1975. In November 1982 Ahidjo resigned and, as the constitution provided, handed him the presidency. Relations between the two men soon soured, and a 1984 coup attempt by Ahidjo loyalists was crushed. Biya allowed multiparty politics in 1990 but won every presidential election that followed, often amid complaints of fraud from the opposition and observers. In 2008 he had presidential term limits abolished despite riots that were put down by force. Since 2016 the crisis in the English-speaking regions has turned into armed conflict, while the far north has battled Boko Haram. Known for long stays abroad, he was declared the winner of yet another election in 2025, at 92, a result the opposition rejected."
+  },
+  "highlights": {
+    "fr": [
+      "Premier ministre du Cameroun de 1975 à 1982",
+      "Président du Cameroun depuis novembre 1982",
+      "Fait supprimer la limitation des mandats présidentiels en 2008",
+      "Réélu en 2025 à 92 ans, résultat contesté par l'opposition"
+    ],
+    "en": [
+      "Prime Minister of Cameroon from 1975 to 1982",
+      "President of Cameroon since November 1982",
+      "Had presidential term limits abolished in 2008",
+      "Re-elected in 2025 at 92, a result disputed by the opposition"
+    ]
+  },
+  "legacy": {
+    "fr": "Parmi les chefs d'État les plus anciens et les plus longtemps au pouvoir au monde, il incarne une stabilité de façade sur fond de conflits internes et de succession incertaine.",
+    "en": "One of the world's oldest and longest-serving heads of state, he embodies surface stability amid internal conflicts and an uncertain succession."
   }
 }

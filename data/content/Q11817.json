@@ -31,5 +31,27 @@
         "kind": "behind"
       }
     }
+  },
+  "story": {
+    "fr": "Andrew Jackson naît en 1767 dans la région frontalière des Carolines, de parents immigrés irlandais, et perd toute sa famille pendant la guerre d'indépendance. Devenu avocat et planteur dans le Tennessee, il siège brièvement à la Chambre des représentants puis au Sénat à la fin des années 1790, et possède des dizaines d'esclaves. Général de milice, il mène une campagne meurtrière contre les Creeks en 1814 puis remporte la bataille de La Nouvelle-Orléans contre les Britanniques en janvier 1815, qui fait de lui un héros national. Il envahit ensuite la Floride espagnole en 1818 lors d'une guerre contre les Séminoles. Arrivé en tête en 1824 mais écarté par la Chambre des représentants, il prend sa revanche en 1828 et devient le premier président issu de la frontière de l'Ouest. Il signe en 1830 l'Indian Removal Act, qui conduit à la déportation forcée de dizaines de milliers d'Amérindiens, dont la « Piste des larmes » des Cherokees, où des milliers de personnes meurent. Il combat aussi la Banque des États-Unis et défend l'Union face à la crise de la nullification en Caroline du Sud. Après deux mandats, il se retire en 1837 dans sa plantation de l'Hermitage, près de Nashville, où il meurt en 1845.",
+    "en": "Andrew Jackson was born in 1767 in the frontier country between the Carolinas to Irish immigrant parents, and lost his entire family during the War of Independence. Becoming a lawyer and planter in Tennessee, he sat briefly in the House and then the Senate in the late 1790s, and owned dozens of enslaved people. As a militia general he waged a deadly campaign against the Creeks in 1814 and won the Battle of New Orleans against the British in January 1815, which made him a national hero. In 1818 he invaded Spanish Florida during a war against the Seminoles. He won the most votes in 1824 but was passed over by the House of Representatives, then took his revenge in 1828 to become the first president from the western frontier. In 1830 he signed the Indian Removal Act, which led to the forced expulsion of tens of thousands of Native Americans, including the Cherokee Trail of Tears, on which thousands died. He also waged war on the Bank of the United States and defended the Union during South Carolina's nullification crisis. After two terms he retired in 1837 to his Hermitage plantation near Nashville, where he died in 1845."
+  },
+  "highlights": {
+    "fr": [
+      "Vainqueur de la bataille de La Nouvelle-Orléans en janvier 1815",
+      "Élu 7e président des États-Unis en 1828, réélu en 1832",
+      "Signe l'Indian Removal Act en 1830, ouvrant la voie à la Piste des larmes",
+      "Bloque le renouvellement de la Banque des États-Unis (1832)"
+    ],
+    "en": [
+      "Won the Battle of New Orleans in January 1815",
+      "Elected 7th president of the United States in 1828, re-elected in 1832",
+      "Signed the Indian Removal Act in 1830, paving the way for the Trail of Tears",
+      "Blocked the renewal of the Bank of the United States (1832)"
+    ]
+  },
+  "legacy": {
+    "fr": "Champion autoproclamé de l'homme ordinaire, il a façonné le Parti démocrate, mais il reste indissociable de l'esclavage et de la déportation des peuples amérindiens.",
+    "en": "A self-styled champion of the common man, he shaped the Democratic Party, but his name remains bound up with slavery and the expulsion of Native American peoples."
   }
 }

@@ -32,5 +32,27 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1806 dans le village zapotèque de Guelatao, dans l'État d'Oaxaca, Benito Juárez perd ses parents en bas âge et garde des moutons. À douze ans, il gagne la ville d'Oaxaca sans parler espagnol, étudie au séminaire puis à l'Institut des sciences et des arts, et devient avocat. Gouverneur d'Oaxaca de 1847 à 1852, il est exilé à La Nouvelle-Orléans par le dictateur Santa Anna en 1853. Revenu avec la révolution d'Ayutla, il devient ministre de la Justice et fait adopter en 1855 la loi Juárez, qui supprime les privilèges judiciaires du clergé et de l'armée. Président de la Cour suprême en 1857, il assume la présidence en janvier 1858 lorsque les conservateurs se soulèvent. Pendant la guerre de Réforme, il gouverne depuis Veracruz et promulgue en 1859 les lois de Réforme, qui nationalisent les biens de l'Église et séparent l'Église de l'État. En 1861, la suspension du paiement de la dette sert de prétexte à l'intervention française, qui installe Maximilien de Habsbourg sur un trône impérial. Juárez mène une résistance itinérante jusqu'à la frontière nord. En 1867, Maximilien est capturé à Querétaro et fusillé. Réélu en 1867 puis en 1871, Juárez meurt en fonctions à Mexico le 18 juillet 1872.",
+    "en": "Born in 1806 in the Zapotec village of Guelatao, in Oaxaca, Benito Juárez was orphaned young and worked as a shepherd. At twelve he walked to the city of Oaxaca speaking no Spanish, studied at the seminary and then at the Institute of Sciences and Arts, and became a lawyer. Governor of Oaxaca from 1847 to 1852, he was exiled to New Orleans by the dictator Santa Anna in 1853. Returning with the Ayutla revolution, he became justice minister and in 1855 passed the Juárez Law abolishing the special courts of the clergy and the army. Chief justice of the Supreme Court in 1857, he took over the presidency in January 1858 when conservatives rose in revolt. During the Reform War he governed from Veracruz and in 1859 issued the Reform Laws, which nationalised church property and separated church and state. In 1861 his suspension of foreign debt payments gave France a pretext to intervene and install Maximilian of Habsburg on an imperial throne. Juárez led a government on the move all the way to the northern border. In 1867 Maximilian was captured at Querétaro and shot. Re-elected in 1867 and 1871, Juárez died in office in Mexico City on 18 July 1872."
+  },
+  "highlights": {
+    "fr": [
+      "Premier président autochtone du Mexique, d'origine zapotèque",
+      "Promulgue en 1859 les lois de Réforme séparant l'Église et l'État",
+      "Résiste à l'intervention française de 1862 à 1867",
+      "Fait juger et fusiller l'empereur Maximilien en 1867"
+    ],
+    "en": [
+      "Mexico's first Indigenous president, of Zapotec origin",
+      "Issued the 1859 Reform Laws separating church and state",
+      "Resisted the French intervention from 1862 to 1867",
+      "Had Emperor Maximilian tried and shot in 1867"
+    ]
+  },
+  "legacy": {
+    "fr": "Considéré comme le père du Mexique laïque et républicain, il est l'un des héros nationaux les plus célébrés du pays ; son anniversaire est un jour férié.",
+    "en": "Regarded as the father of secular, republican Mexico, he is one of the country's most celebrated national heroes, and his birthday is a public holiday."
   }
 }

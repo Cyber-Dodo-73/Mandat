@@ -35,5 +35,27 @@
         "kind": "always"
       }
     }
+  },
+  "story": {
+    "fr": "Jeanine Áñez naît en juin 1967 à San Joaquín, dans le département amazonien du Beni, et exerce comme avocate et présentatrice de télévision à Trinidad. Elle siège à l’Assemblée constituante de 2006-2007, puis devient sénatrice du Beni en 2010 dans les rangs de l’opposition de droite à Evo Morales. Après l’élection contestée d’octobre 2019, des manifestations massives et la pression de l’armée poussent Morales à démissionner le 10 novembre, suivi de ses successeurs constitutionnels. Deuxième vice-présidente du Sénat, Áñez se proclame présidente par intérim le 12 novembre, lors d’une séance sans quorum, Bible à la main. Quelques jours plus tard, les forces de sécurité tirent sur des manifestants partisans de Morales à Sacaba et à Senkata, faisant une vingtaine de morts. Les élections, repoussées par la pandémie, se tiennent en octobre 2020 après le retrait de sa candidature, et elles sont remportées par Luis Arce, candidat du parti de Morales. Arrêtée en mars 2021, elle est condamnée en 2022 à dix ans de prison pour la manière dont elle avait accédé au pouvoir. Sa condamnation est annulée par la Cour suprême en novembre 2025, après l’alternance politique, et elle est libérée.",
+    "en": "Jeanine Áñez was born in June 1967 in San Joaquín, in the Amazonian department of Beni, and worked as a lawyer and television presenter in Trinidad. She sat in the 2006–2007 constituent assembly, then became a senator for Beni in 2010 as part of the right-wing opposition to Evo Morales. After the disputed October 2019 election, mass protests and pressure from the army led Morales to resign on 10 November, followed by his constitutional successors. As second vice president of the Senate, Áñez declared herself interim president on 12 November at a session without a quorum, holding a Bible. Days later, security forces opened fire on pro-Morales protesters at Sacaba and Senkata, killing about twenty people. The elections, delayed by the pandemic, were held in October 2020 after she withdrew her candidacy, and were won by Luis Arce of Morales's party. Arrested in March 2021, she was sentenced in 2022 to ten years in prison over the way she had taken power. The Supreme Court overturned her conviction in November 2025, after a change of government, and she was released."
+  },
+  "highlights": {
+    "fr": [
+      "Sénatrice du Beni de 2010 à 2019",
+      "Se proclame présidente par intérim de la Bolivie le 12 novembre 2019",
+      "Organise les élections d’octobre 2020 après avoir retiré sa candidature",
+      "Condamnée en 2022 à dix ans de prison, peine annulée en 2025"
+    ],
+    "en": [
+      "Senator for Beni from 2010 to 2019",
+      "Declared herself interim president of Bolivia on 12 November 2019",
+      "Held the October 2020 election after dropping her own bid",
+      "Sentenced to ten years in 2022, a conviction overturned in 2025"
+    ]
+  },
+  "legacy": {
+    "fr": "Son intérim reste au cœur d’un débat bolivien non tranché entre ceux qui y voient une transition légale et ceux qui dénoncent un coup d’État, entaché par les morts de Sacaba et Senkata.",
+    "en": "Her interim presidency remains at the heart of an unsettled Bolivian dispute between those who see a lawful transition and those who call it a coup, stained by the Sacaba and Senkata killings."
   }
 }

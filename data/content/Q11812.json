@@ -32,5 +32,29 @@
         "value": "modern"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1743 dans le comté d'Albemarle, en Virginie, fils d'un planteur, Thomas Jefferson étudie au College of William & Mary puis devient avocat et député à l'assemblée de Virginie. Délégué au Congrès continental, il rédige en 1776, à 33 ans, l'essentiel de la Déclaration d'indépendance, qui proclame que tous les hommes sont créés égaux. Gouverneur de Virginie de 1779 à 1781, pendant l'invasion britannique, il est aussi l'auteur d'une loi sur la liberté religieuse adoptée en 1786. Ministre plénipotentiaire en France de 1785 à 1789, il assiste aux débuts de la Révolution, puis devient le premier secrétaire d'État de George Washington. Opposé à Alexander Hamilton, il fonde avec James Madison le Parti républicain-démocrate, est vice-président de John Adams puis remporte la présidentielle de 1800. En 1803, il achète la Louisiane à la France, doublant la superficie du pays, et envoie l'expédition Lewis et Clark jusqu'au Pacifique. Propriétaire de plus de six cents esclaves au cours de sa vie, dont Sally Hemings, mère de plusieurs de ses enfants, il fonde l'université de Virginie et meurt à Monticello le 4 juillet 1826.",
+    "en": "Born in 1743 in Albemarle County, Virginia, the son of a planter, Thomas Jefferson studied at the College of William & Mary, then became a lawyer and a member of Virginia's assembly. As a delegate to the Continental Congress he drafted most of the Declaration of Independence in 1776, aged 33, proclaiming that all men are created equal. Governor of Virginia from 1779 to 1781, during the British invasion, he also wrote the statute on religious freedom passed in 1786. Minister to France from 1785 to 1789, he witnessed the start of the Revolution, then became George Washington's first secretary of state. Opposed to Alexander Hamilton, he founded the Democratic-Republican Party with James Madison, served as John Adams's vice president and won the presidency in 1800. In 1803 he bought Louisiana from France, doubling the country's size, and sent the Lewis and Clark expedition to the Pacific. An owner of more than six hundred enslaved people over his lifetime, including Sally Hemings, mother of several of his children, he founded the University of Virginia and died at Monticello on 4 July 1826."
+  },
+  "highlights": {
+    "fr": [
+      "Rédige la Déclaration d'indépendance en 1776",
+      "Auteur de la loi de Virginie sur la liberté religieuse, adoptée en 1786",
+      "Premier secrétaire d'État des États-Unis (1790-1793)",
+      "Achète la Louisiane à la France en 1803",
+      "Fonde l'université de Virginie en 1819"
+    ],
+    "en": [
+      "Drafted the Declaration of Independence in 1776",
+      "Wrote Virginia's statute on religious freedom, passed in 1786",
+      "First US secretary of state (1790–1793)",
+      "Bought Louisiana from France in 1803",
+      "Founded the University of Virginia in 1819"
+    ]
+  },
+  "legacy": {
+    "fr": "Ses principes d'égalité et de liberté ont fondé l'idéal américain, mais sa condition de propriétaire d'esclaves en fait une figure aux contradictions vivement débattues.",
+    "en": "His principles of equality and liberty shaped the American ideal, but his ownership of slaves makes him a figure whose contradictions are hotly debated."
   }
 }

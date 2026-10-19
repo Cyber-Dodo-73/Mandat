@@ -32,5 +32,27 @@
         "value": 2
       }
     }
+  },
+  "story": {
+    "fr": "Né à Pau en 1553, fils de Jeanne d'Albret et d'Antoine de Bourbon, Henri est élevé dans la foi protestante. Devenu roi de Navarre en 1572, il épouse Marguerite de Valois quelques jours avant le massacre de la Saint-Barthélemy, auquel il n'échappe qu'en abjurant et en restant captif à la cour. Évadé en 1576, il reprend la tête du parti huguenot pendant les guerres de Religion. La mort du duc d'Anjou en 1584 fait de lui l'héritier du trône, ce que la Ligue catholique refuse avec acharnement. À l'assassinat d'Henri III en 1589, il devient roi de France mais doit conquérir son royaume les armes à la main, notamment à Arques et à Ivry. Sa conversion au catholicisme en 1593, suivie du sacre à Chartres et de l'entrée dans Paris en 1594, retourne l'opinion. En 1598, l'édit de Nantes accorde aux protestants la liberté de culte et des places de sûreté, tandis que la paix de Vervins clôt la guerre avec l'Espagne. Avec Sully, il assainit les finances et relance l'agriculture et les routes. Il est poignardé à Paris par François Ravaillac le 14 mai 1610.",
+    "en": "Born in Pau in 1553 to Jeanne d'Albret and Antoine de Bourbon, Henry was raised a Protestant. He became King of Navarre in 1572 and married Margaret of Valois days before the St Bartholomew's Day massacre, which he survived only by renouncing his faith and living as a virtual prisoner at court. After escaping in 1576 he led the Huguenot cause through the Wars of Religion. The death of the Duke of Anjou in 1584 made him heir to the throne, a prospect the Catholic League fought bitterly. When Henry III was murdered in 1589 he became King of France, yet he had to win his kingdom on the battlefield, at Arques and Ivry among others. His conversion to Catholicism in 1593, his coronation at Chartres and his entry into Paris in 1594 swung opinion his way. The Edict of Nantes of 1598 granted Protestants freedom of worship and fortified towns, while the Peace of Vervins ended the war with Spain. With his minister Sully he restored the royal finances and invested in farming and roads. He was stabbed to death in Paris by François Ravaillac on 14 May 1610."
+  },
+  "highlights": {
+    "fr": [
+      "1572 : roi de Navarre, il survit au massacre de la Saint-Barthélemy",
+      "1589 : premier Bourbon sur le trône de France",
+      "1593 : se convertit au catholicisme pour rallier le royaume",
+      "1598 : signe l'édit de Nantes et la paix de Vervins"
+    ],
+    "en": [
+      "1572: King of Navarre, he survives the St Bartholomew's Day massacre",
+      "1589: becomes the first Bourbon king of France",
+      "1593: converts to Catholicism to win over the kingdom",
+      "1598: signs the Edict of Nantes and the Peace of Vervins"
+    ]
+  },
+  "legacy": {
+    "fr": "Fondateur de la dynastie des Bourbons, il reste dans la mémoire française le « bon roi Henri » qui a mis fin à trente ans de guerres de Religion.",
+    "en": "Founder of the Bourbon dynasty, he is remembered in France as 'good King Henry', the monarch who ended three decades of religious war."
   }
 }

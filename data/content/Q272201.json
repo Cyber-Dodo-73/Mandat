@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Née à Oxford en 1975 dans une famille de gauche, Liz Truss grandit notamment à Leeds et étudie la philosophie, la politique et l'économie à Oxford, où elle milite d'abord chez les libéraux-démocrates. Ralliée aux conservateurs, elle travaille chez Shell et dans les télécommunications avant d'être élue députée du South West Norfolk en 2010. David Cameron la nomme ministre de l'Environnement en 2014, puis Theresa May lui confie la Justice en 2016 et le poste de secrétaire en chef au Trésor en 2017. Sous Boris Johnson, elle multiplie les accords commerciaux post-Brexit, cumule le ministère des Femmes et de l'Égalité et devient ministre des Affaires étrangères en 2021. Elle remporte la course à la succession de Johnson et entre à Downing Street le 6 septembre 2022, deux jours avant la mort d'Élisabeth II. Le 23 septembre, son ministre Kwasi Kwarteng présente un « mini-budget » de baisses d'impôts non financées qui fait plonger la livre et oblige la Banque d'Angleterre à intervenir. Après le limogeage de Kwarteng et l'abandon de la plupart des mesures, elle annonce sa démission le 20 octobre. Son mandat de 49 jours est le plus court de l'histoire britannique, et elle perd son siège de députée aux élections de juillet 2024.",
+    "en": "Born in Oxford in 1975 to left-leaning parents, Liz Truss grew up partly in Leeds and read philosophy, politics and economics at Oxford, where she was first active among the Liberal Democrats. After switching to the Conservatives, she worked for Shell and in telecoms before winning South West Norfolk in 2010. David Cameron made her environment secretary in 2014, and Theresa May gave her the justice brief in 2016 and the post of Chief Secretary to the Treasury in 2017. Under Boris Johnson she signed a string of post-Brexit trade deals, added the women and equalities brief and became foreign secretary in 2021. She won the race to succeed Johnson and entered Downing Street on 6 September 2022, two days before the death of Elizabeth II. On 23 September her chancellor Kwasi Kwarteng unveiled a mini-budget of unfunded tax cuts that sent the pound tumbling and forced the Bank of England to step in. After sacking Kwarteng and reversing most of the package, she announced her resignation on 20 October. Her 49 days in office made hers the shortest premiership in British history, and she lost her seat at the July 2024 general election."
+  },
+  "highlights": {
+    "fr": [
+      "Élue députée du South West Norfolk en 2010",
+      "Ministre des Affaires étrangères de 2021 à 2022",
+      "Devient Première ministre le 6 septembre 2022",
+      "Son « mini-budget » du 23 septembre 2022 provoque une crise financière",
+      "Démissionne après 49 jours, le plus court mandat de l'histoire du pays"
+    ],
+    "en": [
+      "Elected MP for South West Norfolk in 2010",
+      "Foreign secretary from 2021 to 2022",
+      "Became prime minister on 6 September 2022",
+      "Her mini-budget of 23 September 2022 triggered a market crisis",
+      "Resigned after 49 days, the shortest premiership in British history"
+    ]
+  },
+  "legacy": {
+    "fr": "Son passage éclair à Downing Street est devenu une leçon de prudence budgétaire, souvent citée pour illustrer la sanction rapide des marchés financiers.",
+    "en": "Her brief spell in Downing Street has become a cautionary tale in fiscal policy, often cited to show how quickly financial markets can punish a government."
   }
 }

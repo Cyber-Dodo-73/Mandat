@@ -32,5 +32,29 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "George III naît en 1738 à Londres, petit-fils du roi George II, et devient héritier du trône à la mort de son père Frédéric en 1751. Monté sur le trône en 1760 à vingt-deux ans, il est le premier souverain de la maison de Hanovre né en Angleterre et ayant l'anglais pour langue maternelle. Il épouse l'année suivante Charlotte de Mecklembourg-Strelitz, qui lui donne quinze enfants. Le traité de Paris de 1763 conclut victorieusement la guerre de Sept Ans, mais les taxes imposées ensuite aux colonies d'Amérique déclenchent une révolte qu'il s'obstine à combattre. Les treize colonies proclament leur indépendance en 1776 et Londres doit la reconnaître en 1783. La même année, il appelle au pouvoir William Pitt le Jeune, qui gouvernera près de vingt ans. Frappé en 1788 d'une première grave crise de maladie mentale, il voit naître en 1801 le Royaume-Uni de Grande-Bretagne et d'Irlande, tout en bloquant l'émancipation des catholiques. Pendant les guerres contre la France révolutionnaire puis napoléonienne, sa santé se dégrade, et la régence est confiée en 1811 à son fils, le futur George IV. Aveugle et coupé du monde, il meurt au château de Windsor en janvier 1820, après près de soixante ans de règne.",
+    "en": "George III was born in London in 1738, a grandson of King George II, and became heir to the throne when his father Frederick died in 1751. King from 1760 at twenty-two, he was the first Hanoverian king born in England and raised with English as his first language. The following year he married Charlotte of Mecklenburg-Strelitz, who bore him fifteen children. The 1763 Treaty of Paris ended the Seven Years' War in victory, but the taxes then imposed on the American colonies sparked a revolt he insisted on fighting. The thirteen colonies declared independence in 1776, and Britain had to recognize it in 1783. That same year he called William Pitt the Younger to power, who would lead the government for nearly two decades. Struck by his first serious bout of mental illness in 1788, he saw the United Kingdom of Great Britain and Ireland created in 1801 while blocking Catholic emancipation. During the wars against revolutionary and Napoleonic France his health declined, and in 1811 the regency passed to his son, the future George IV. Blind and isolated, he died at Windsor Castle in January 1820 after almost sixty years on the throne."
+  },
+  "highlights": {
+    "fr": [
+      "Remporte la guerre de Sept Ans, close par le traité de Paris de 1763",
+      "Perd les treize colonies américaines, indépendantes en 1783",
+      "Règne lors de la naissance du Royaume-Uni de Grande-Bretagne et d'Irlande en 1801",
+      "Devient roi de Hanovre en 1814",
+      "Règne 59 ans, le plus long règne d'un roi britannique"
+    ],
+    "en": [
+      "Won the Seven Years' War, ended by the 1763 Treaty of Paris",
+      "Lost the thirteen American colonies, independent in 1783",
+      "Reigned as the United Kingdom of Great Britain and Ireland was formed in 1801",
+      "Became King of Hanover in 1814",
+      "Reigned 59 years, the longest of any British king"
+    ]
+  },
+  "legacy": {
+    "fr": "Les Américains se souviennent de lui comme du tyran de la Déclaration d'indépendance ; en Grande-Bretagne, son règne évoque surtout l'essor de l'Empire et la tragédie de sa maladie.",
+    "en": "Americans remember him as the tyrant of the Declaration of Independence; in Britain his reign recalls above all the rise of the empire and the tragedy of his illness."
   }
 }

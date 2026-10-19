@@ -32,5 +32,29 @@
         "value": "strategy"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Ajaccio en 1769, un an après le rattachement de la Corse à la France, Napoléon Bonaparte est formé dans les écoles militaires du royaume, dont l'École militaire de Paris. Jeune officier d'artillerie sous la Révolution, il se distingue au siège de Toulon en 1793, puis remporte une série de victoires lors de la campagne d'Italie de 1796-1797 avant de mener l'expédition d'Égypte. Le coup d'État du 18 Brumaire, en novembre 1799, fait de lui le Premier consul et le véritable maître du pays. Il réorganise l'État, avec le Code civil de 1804, les préfets, la Banque de France et le Concordat, puis se fait sacrer empereur des Français le 2 décembre 1804 et se proclame roi d'Italie l'année suivante. Victorieux à Austerlitz en 1805 et à Iéna en 1806, il domine une grande partie du continent, mais s'enlise en Espagne et perd l'essentiel de la Grande Armée lors de la campagne de Russie de 1812. Contraint d'abdiquer en 1814 et exilé à l'île d'Elbe, il reprend le pouvoir pendant les Cent-Jours en 1815, avant d'être définitivement battu à Waterloo. Déporté par les Britanniques à Sainte-Hélène, il y meurt en 1821.",
+    "en": "Born in Ajaccio in 1769, a year after Corsica passed to France, Napoleon Bonaparte was trained in the kingdom's military schools, including the École Militaire in Paris. A young artillery officer during the Revolution, he made his name at the siege of Toulon in 1793, then won a string of victories in the Italian campaign of 1796–1797 before leading the expedition to Egypt. The coup of 18 Brumaire in November 1799 made him First Consul and the real master of France. He rebuilt the state with the 1804 Civil Code, prefects, the Bank of France and the Concordat, then crowned himself Emperor of the French on 2 December 1804 and King of Italy the following year. Victorious at Austerlitz in 1805 and Jena in 1806, he dominated much of the continent, but became bogged down in Spain and lost most of the Grande Armée in the 1812 Russian campaign. Forced to abdicate in 1814 and exiled to Elba, he seized power again for the Hundred Days in 1815 before his final defeat at Waterloo. Deported by the British to Saint Helena, he died there in 1821."
+  },
+  "highlights": {
+    "fr": [
+      "Prend le pouvoir par le coup d'État du 18 Brumaire en 1799",
+      "Promulgue le Code civil en 1804",
+      "Sacré empereur des Français le 2 décembre 1804",
+      "Remporte la bataille d'Austerlitz en décembre 1805",
+      "Vaincu à Waterloo en juin 1815, exilé à Sainte-Hélène"
+    ],
+    "en": [
+      "Seized power in the coup of 18 Brumaire in 1799",
+      "Enacted the Civil Code in 1804",
+      "Crowned Emperor of the French on 2 December 1804",
+      "Won the battle of Austerlitz in December 1805",
+      "Defeated at Waterloo in June 1815 and exiled to Saint Helena"
+    ]
+  },
+  "legacy": {
+    "fr": "Ses institutions, du Code civil aux préfectures, structurent encore la France, tandis que ses guerres ont fait des centaines de milliers de morts et redessiné l'Europe.",
+    "en": "His institutions, from the Civil Code to the prefect system, still shape France, while his wars killed hundreds of thousands and redrew the map of Europe."
   }
 }

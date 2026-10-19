@@ -32,5 +32,29 @@
         "value": 1
       }
     }
+  },
+  "story": {
+    "fr": "Idi Amin naît vers 1925 en Ouganda, alors protectorat britannique, et s'engage en 1946 dans les King's African Rifles, où il sert notamment au Kenya contre la révolte des Mau Mau. Champion de boxe de l'armée, il fait partie des rares officiers africains promus avant l'indépendance de 1962. Proche du Premier ministre Milton Obote, il devient chef de l'armée, puis renverse celui-ci par un coup d'État le 25 janvier 1971, pendant un voyage d'Obote à l'étranger. Il instaure une dictature militaire : opposants, militaires soupçonnés de déloyauté et groupes ethniques entiers comme les Acholi et les Lango sont massacrés, et le nombre de morts sous son régime est estimé entre 100 000 et 300 000, voire davantage. En août 1972, il expulse en quelques semaines des dizaines de milliers d'Ougandais d'origine sud-asiatique, ruinant l'économie. En 1976, il soutient les pirates de l'air détenant des otages à l'aéroport d'Entebbe, libérés par un raid israélien, et se proclame président à vie. Son invasion de la région tanzanienne de la Kagera, fin 1978, provoque une contre-offensive tanzanienne appuyée par des exilés ougandais, qui prend Kampala en avril 1979. Réfugié en Libye puis en Arabie saoudite, il y meurt en août 2003 sans avoir jamais été jugé.",
+    "en": "Idi Amin was born around 1925 in Uganda, then a British protectorate, and enlisted in 1946 in the King's African Rifles, serving in Kenya against the Mau Mau uprising. An army boxing champion, he was one of the few African officers promoted before independence in 1962. A close ally of Prime Minister Milton Obote, he rose to command the army, then overthrew Obote in a coup on 25 January 1971 while he was abroad. He imposed a military dictatorship in which opponents, soldiers suspected of disloyalty and whole ethnic groups such as the Acholi and Lango were massacred; estimates of those killed under his rule range from 100,000 to 300,000 or more. In August 1972 he expelled tens of thousands of Ugandans of South Asian origin within weeks, wrecking the economy. In 1976 he backed the hijackers holding hostages at Entebbe airport, who were freed by an Israeli raid, and declared himself president for life. His invasion of Tanzania's Kagera region in late 1978 brought a Tanzanian counteroffensive, joined by Ugandan exiles, that captured Kampala in April 1979. He fled to Libya and then Saudi Arabia, where he died in August 2003, never having faced trial."
+  },
+  "highlights": {
+    "fr": [
+      "25 janvier 1971 : renverse Milton Obote par un coup d'État militaire",
+      "1971-1979 : régime de terreur, de 100 000 à 300 000 morts estimés",
+      "Août 1972 : expulse des dizaines de milliers d'Ougandais d'origine asiatique",
+      "1976 : soutient la prise d'otages d'Entebbe et se proclame président à vie",
+      "Avril 1979 : chassé du pouvoir par l'armée tanzanienne et des exilés"
+    ],
+    "en": [
+      "25 January 1971: overthrew Milton Obote in a military coup",
+      "1971–1979: reign of terror with an estimated 100,000 to 300,000 killed",
+      "August 1972: expelled tens of thousands of Ugandans of Asian origin",
+      "1976: backed the Entebbe hostage-takers and declared himself president for life",
+      "April 1979: driven from power by Tanzanian troops and Ugandan exiles"
+    ]
+  },
+  "legacy": {
+    "fr": "Idi Amin reste l'une des figures les plus sanglantes des dictatures africaines post-coloniales ; l'Ouganda a mis des décennies à se relever de son règne.",
+    "en": "Idi Amin remains one of the bloodiest figures of post-colonial African dictatorship; Uganda took decades to recover from his rule."
   }
 }

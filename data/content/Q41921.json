@@ -31,5 +31,27 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1913 à Tuskegee, en Alabama, Rosa Louise McCauley grandit à Pine Level, près de Montgomery, dans le Sud ségrégationniste. En 1932, elle épouse Raymond Parks, barbier et militant, et termine ses études secondaires l'année suivante. À partir de 1943, elle est secrétaire de la section de Montgomery de la NAACP et enquête sur des violences visant des Noirs. Durant l'été 1955, elle suit une formation au militantisme à la Highlander Folk School, dans le Tennessee. Le 1er décembre 1955, elle refuse de céder sa place à un passager blanc dans un bus de Montgomery et elle est arrêtée. Son arrestation déclenche un boycott des bus mené par Martin Luther King Jr., qui dure 381 jours. En novembre 1956, la Cour suprême confirme que la ségrégation dans les bus de l'Alabama est inconstitutionnelle. Licenciée et menacée, elle s'installe à Detroit en 1957, où elle travaille de 1965 à 1988 pour le représentant John Conyers. Elle reçoit la médaille présidentielle de la liberté en 1996 et la médaille d'or du Congrès en 1999, puis meurt à Detroit en 2005.",
+    "en": "Born in 1913 in Tuskegee, Alabama, Rosa Louise McCauley grew up in Pine Level near Montgomery in the segregated South. In 1932 she married Raymond Parks, a barber and activist, and finished high school the following year. From 1943 she served as secretary of the Montgomery branch of the NAACP, investigating violence against Black residents. In the summer of 1955 she attended activist training at the Highlander Folk School in Tennessee. On 1 December 1955 she refused to give up her seat to a white passenger on a Montgomery bus and was arrested. Her arrest set off a bus boycott led by Martin Luther King Jr. that lasted 381 days. In November 1956 the Supreme Court upheld the ruling that bus segregation in Alabama was unconstitutional. Fired from her job and facing threats, she moved to Detroit in 1957 and worked there for Congressman John Conyers from 1965 to 1988. She received the Presidential Medal of Freedom in 1996 and the Congressional Gold Medal in 1999, and she died in Detroit in 2005."
+  },
+  "highlights": {
+    "fr": [
+      "Secrétaire de la NAACP de Montgomery à partir de 1943",
+      "Refuse de céder sa place dans un bus le 1er décembre 1955",
+      "Déclenche le boycott des bus de Montgomery, long de 381 jours",
+      "Médaille présidentielle de la liberté en 1996, médaille d'or du Congrès en 1999"
+    ],
+    "en": [
+      "Secretary of the Montgomery NAACP from 1943",
+      "Refused to give up her bus seat on 1 December 1955",
+      "Sparked the 381-day Montgomery bus boycott",
+      "Presidential Medal of Freedom in 1996, Congressional Gold Medal in 1999"
+    ]
+  },
+  "legacy": {
+    "fr": "Son geste est devenu l'un des symboles du mouvement des droits civiques ; à sa mort, elle a été la première femme exposée en hommage dans la rotonde du Capitole.",
+    "en": "Her act became one of the emblems of the civil rights movement; on her death she became the first woman to lie in honor in the Capitol Rotunda."
   }
 }

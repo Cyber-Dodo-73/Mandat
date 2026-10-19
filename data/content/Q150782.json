@@ -36,5 +36,27 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "Née en 1837 à Munich, Élisabeth est la fille du duc Maximilien en Bavière et grandit librement au château de Possenhofen, au bord du lac de Starnberg. En 1853, son cousin l'empereur François-Joseph, venu rencontrer sa sœur aînée Hélène, la choisit à sa place, et elle l'épouse à Vienne en avril 1854, à seize ans. À la cour, l'étiquette et l'autorité de sa belle-mère, l'archiduchesse Sophie, qui prend en charge ses enfants, la font souffrir ; sa première fille meurt en 1857. Après la naissance de l'héritier Rodolphe en 1858, elle tombe malade et multiplie les séjours loin de Vienne, à Madère et à Corfou. Passionnée par la Hongrie, dont elle apprend la langue, elle soutient le compromis de 1867 et est couronnée reine de Hongrie à Budapest en juin de la même année. Elle mène ensuite une vie itinérante, se consacre à l'équitation, à la poésie et à un culte rigoureux de sa silhouette, et fait construire l'Achilleion à Corfou. Le suicide de son fils Rodolphe à Mayerling en janvier 1889 la plonge dans un deuil qu'elle ne quittera plus. Le 10 septembre 1898, à Genève, l'anarchiste italien Luigi Lucheni la poignarde avec une lime affûtée, et elle meurt quelques heures plus tard.",
+    "en": "Born in Munich in 1837, Elisabeth was the daughter of Duke Maximilian in Bavaria and grew up freely at Possenhofen Castle on Lake Starnberg. In 1853 her cousin, Emperor Franz Joseph, who had come to meet her elder sister Helene, chose her instead, and she married him in Vienna in April 1854, aged sixteen. At court, the etiquette and the authority of her mother-in-law, Archduchess Sophie, who took charge of her children, made her miserable; her first daughter died in 1857. After the birth of the heir, Rudolf, in 1858, she fell ill and spent long spells away from Vienna, in Madeira and Corfu. Devoted to Hungary, whose language she learned, she supported the Compromise of 1867 and was crowned Queen of Hungary in Budapest in June that year. She then led a restless, travelling life, devoted to riding, poetry and a strict regime to keep her figure, and had the Achilleion built on Corfu. The suicide of her son Rudolf at Mayerling in January 1889 plunged her into a mourning she never left. On 10 September 1898 in Geneva, the Italian anarchist Luigi Lucheni stabbed her with a sharpened file, and she died a few hours later."
+  },
+  "highlights": {
+    "fr": [
+      "Épouse l'empereur François-Joseph à Vienne en 1854, à 16 ans",
+      "Soutient le compromis austro-hongrois de 1867",
+      "Couronnée reine de Hongrie à Budapest en juin 1867",
+      "Assassinée à Genève le 10 septembre 1898"
+    ],
+    "en": [
+      "Married Emperor Franz Joseph in Vienna in 1854, aged 16",
+      "Supported the Austro-Hungarian Compromise of 1867",
+      "Crowned Queen of Hungary in Budapest in June 1867",
+      "Assassinated in Geneva on 10 September 1898"
+    ]
+  },
+  "legacy": {
+    "fr": "Popularisée sous le nom de « Sissi » par les films des années 1950, elle est devenue une figure romantique dont l'image dépasse largement son rôle politique.",
+    "en": "Popularised as “Sissi” by 1950s films, she became a romantic figure whose image far outweighs her political role."
   }
 }

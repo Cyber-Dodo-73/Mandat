@@ -36,5 +36,27 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Né à Alexandrie en 47 av. J.-C., Ptolémée César, surnommé Césarion, est le fils de Cléopâtre VII, qui le présente comme l'enfant de Jules César. Le dictateur romain ne le reconnaît jamais officiellement, mais la reine l'emmène avec elle à Rome, où elle séjourne jusqu'à l'assassinat de César en mars 44 av. J.-C. De retour en Égypte, Cléopâtre écarte son frère et co-régent Ptolémée XIV, qui meurt peu après, et associe au trône son fils de trois ans sous le nom de Ptolémée XV. Mère et fils apparaissent ensemble sur les reliefs du temple de Dendérah, où Césarion est figuré en pharaon accomplissant les rites. En 34 av. J.-C., lors des « donations d'Alexandrie », Marc Antoine le proclame « roi des rois » et véritable fils de César, ce qui fait de lui une menace directe pour Octavien, fils adoptif de César. Après la défaite d'Actium en 31 av. J.-C. et l'entrée d'Octavien dans Alexandrie en 30 av. J.-C., Cléopâtre se donne la mort et tente de mettre son fils à l'abri en l'envoyant vers les ports de la mer Rouge. Le jeune homme, âgé de 17 ans, est rattrapé ou attiré à Alexandrie, puis exécuté sur ordre d'Octavien. L'Égypte devient alors une province romaine.",
+    "en": "Born in Alexandria in 47 BC, Ptolemy Caesar, nicknamed Caesarion, was the son of Cleopatra VII, who presented him as Julius Caesar's child. The Roman dictator never formally acknowledged him, but the queen took him to Rome, where she stayed until Caesar's assassination in March 44 BC. Back in Egypt, Cleopatra set aside her brother and co-ruler Ptolemy XIV, who died soon after, and made her three-year-old son her partner on the throne as Ptolemy XV. Mother and son appear together on the reliefs of the temple of Dendera, where Caesarion is shown as a pharaoh performing the rites. In 34 BC, at the \"Donations of Alexandria\", Mark Antony proclaimed him \"King of Kings\" and Caesar's true son, which made him a direct threat to Octavian, Caesar's adopted heir. After the defeat at Actium in 31 BC and Octavian's entry into Alexandria in 30 BC, Cleopatra took her own life and tried to save her son by sending him towards the Red Sea ports. The 17-year-old was caught or lured back to Alexandria and put to death on Octavian's orders. Egypt then became a Roman province."
+  },
+  "highlights": {
+    "fr": [
+      "Associé au trône d'Égypte par sa mère en 44 av. J.-C.",
+      "Représenté en pharaon sur les murs du temple de Dendérah",
+      "Proclamé « roi des rois » par Marc Antoine en 34 av. J.-C.",
+      "Dernier souverain de la dynastie lagide, exécuté en 30 av. J.-C."
+    ],
+    "en": [
+      "Made co-ruler of Egypt by his mother in 44 BC",
+      "Depicted as pharaoh on the walls of the Dendera temple",
+      "Proclaimed \"King of Kings\" by Mark Antony in 34 BC",
+      "Last ruler of the Ptolemaic dynasty, executed in 30 BC"
+    ]
+  },
+  "legacy": {
+    "fr": "Sa mort a mis fin à trois siècles de règne ptolémaïque et à l'indépendance de l'Égypte pharaonique.",
+    "en": "His death ended three centuries of Ptolemaic rule and the independence of pharaonic Egypt."
   }
 }

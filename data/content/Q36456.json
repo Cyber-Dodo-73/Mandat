@@ -32,5 +32,29 @@
         "value": "antiquity"
       }
     }
+  },
+  "story": {
+    "fr": "Hannibal Barca naît en 247 avant notre ère à Carthage, fils du général Hamilcar, qui l'emmène enfant en Hispanie où Carthage bâtit un nouvel empire ; la tradition rapporte qu'il y jure une haine éternelle à Rome. À vingt-six ans, en 221, l'armée le choisit pour chef après l'assassinat de son beau-frère Hasdrubal. Son siège de Sagonte, cité alliée de Rome, déclenche en 218 la deuxième guerre punique. La même année, il franchit les Pyrénées puis les Alpes avec des dizaines de milliers d'hommes et des éléphants, et bat les Romains à la Trébie. Il leur inflige ensuite la défaite du lac Trasimène en 217, puis l'écrasante victoire de Cannes en 216, où des dizaines de milliers de légionnaires périssent encerclés. Mais, faute de renforts et de machines de siège, il reste quinze ans en Italie sans jamais prendre Rome. Rappelé en Afrique, il est vaincu par Scipion à Zama en 202. Devenu suffète de Carthage, il réforme les finances, puis doit s'exiler en 195 auprès du roi séleucide Antiochos III, avant de trouver refuge en Bithynie. Vers 183, sur le point d'être livré aux Romains, il s'empoisonne à Libyssa, près de l'actuelle Gebze.",
+    "en": "Hannibal Barca was born in 247 BCE in Carthage, the son of the general Hamilcar, who took him as a boy to Iberia, where Carthage was building a new empire; tradition says he swore eternal hatred of Rome there. In 221, aged twenty-six, the army chose him as its commander after his brother-in-law Hasdrubal was assassinated. His siege of Saguntum, a city allied to Rome, triggered the Second Punic War in 218. That same year he crossed the Pyrenees and then the Alps with tens of thousands of men and war elephants, and defeated the Romans at the Trebia. He went on to rout them at Lake Trasimene in 217 and won a crushing victory at Cannae in 216, where tens of thousands of encircled legionaries were killed. Yet, lacking reinforcements and siege equipment, he spent fifteen years in Italy without ever taking Rome. Recalled to Africa, he was beaten by Scipio at Zama in 202. As a chief magistrate of Carthage he reformed its finances, but was forced into exile in 195, first with the Seleucid king Antiochus III and later in Bithynia. Around 183, about to be handed over to the Romans, he took poison at Libyssa, near modern Gebze."
+  },
+  "highlights": {
+    "fr": [
+      "218 av. J.-C. : franchit les Alpes avec son armée et ses éléphants",
+      "216 av. J.-C. : écrase l'armée romaine à Cannes par un encerclement resté célèbre",
+      "Tient quinze ans en Italie face à Rome sans prendre la ville",
+      "202 av. J.-C. : vaincu par Scipion l'Africain à Zama",
+      "Vers 183 av. J.-C. : s'empoisonne en exil pour ne pas être livré à Rome"
+    ],
+    "en": [
+      "218 BCE: crossed the Alps with his army and war elephants",
+      "216 BCE: annihilated a Roman army at Cannae in a famous encirclement",
+      "Held out in Italy against Rome for fifteen years without taking the city",
+      "202 BCE: defeated by Scipio Africanus at Zama",
+      "c. 183 BCE: took poison in exile rather than be surrendered to Rome"
+    ]
+  },
+  "legacy": {
+    "fr": "La bataille de Cannes est encore enseignée dans les écoles militaires, et Hannibal reste l'archétype du stratège audacieux vaincu par la durée.",
+    "en": "Cannae is still taught in military academies, and Hannibal remains the archetype of the daring strategist worn down by a longer war."
   }
 }

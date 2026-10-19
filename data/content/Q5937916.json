@@ -32,5 +32,29 @@
         "value": 3
       }
     }
+  },
+  "story": {
+    "fr": "José Antonio Kast naît en janvier 1966 à Santiago, dernier des enfants d’un couple d’immigrés allemands installés au Chili après la Seconde Guerre mondiale. Son frère aîné Miguel est ministre et président de la Banque centrale sous la dictature d’Augusto Pinochet, dont José Antonio défend l’héritage. Avocat formé à l’Université pontificale catholique, il milite dans le courant conservateur du gremialismo et entre à la Chambre des députés en 2002 sous les couleurs de l’UDI. Il siège seize ans, quitte son parti en 2016 et obtient près de 8 % des voix à la présidentielle de 2017 comme candidat indépendant. En 2019, il fonde le Parti républicain, sur une ligne très conservatrice et sécuritaire. Au second tour de 2021, il est battu par Gabriel Boric avec environ 44 % des voix, puis son parti domine en 2023 le conseil chargé de rédiger un nouveau projet de Constitution, rejeté par référendum. En décembre 2025, il remporte largement le second tour face à la communiste Jeannette Jara, en promettant fermeté contre la criminalité et l’immigration irrégulière. Il prend ses fonctions de président de la République en mars 2026.",
+    "en": "José Antonio Kast was born in January 1966 in Santiago, the youngest child of German immigrants who settled in Chile after the Second World War. His elder brother Miguel served as a minister and central bank governor under Augusto Pinochet's dictatorship, whose legacy José Antonio has defended. A lawyer trained at the Pontifical Catholic University, he was active in the conservative gremialista movement and entered the Chamber of Deputies in 2002 for the UDI. He sat for sixteen years, left his party in 2016 and took nearly 8% of the vote as an independent in the 2017 presidential race. In 2019 he founded the Republican Party on a hard-line conservative, law-and-order platform. He lost the 2021 runoff to Gabriel Boric with about 44% of the vote, and in 2023 his party dominated the council that drafted a new constitution, which voters then rejected. In December 2025 he won the runoff comfortably against the communist Jeannette Jara, promising a tough stance on crime and irregular immigration. He took office as president in March 2026."
+  },
+  "highlights": {
+    "fr": [
+      "Député du Chili de 2002 à 2018",
+      "Fonde le Parti républicain en 2019",
+      "Battu par Gabriel Boric au second tour de 2021",
+      "Élu président en décembre 2025 face à Jeannette Jara",
+      "Prend ses fonctions en mars 2026"
+    ],
+    "en": [
+      "Member of Chile's Chamber of Deputies from 2002 to 2018",
+      "Founded the Republican Party in 2019",
+      "Lost the 2021 runoff to Gabriel Boric",
+      "Elected president in December 2025 against Jeannette Jara",
+      "Took office in March 2026"
+    ]
+  },
+  "legacy": {
+    "fr": "Son élection marque le retour au pouvoir d’une droite dure au Chili, plus de trois décennies après la fin de la dictature dont il revendique en partie l’héritage.",
+    "en": "His election marks the return of a hard right to power in Chile, more than three decades after the end of the dictatorship whose legacy he partly embraces."
   }
 }

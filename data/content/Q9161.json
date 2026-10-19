@@ -31,5 +31,29 @@
         "kind": "opponentRarityHigher"
       }
     }
+  },
+  "story": {
+    "fr": "Né en 1892 à Kumrovec, en Croatie alors austro-hongroise, Josip Broz devient serrurier et ouvrier métallurgiste avant d'être mobilisé dans l'armée austro-hongroise. Blessé et capturé par les Russes en 1915, il vit la révolution en Russie et rentre en 1920 dans le nouveau royaume yougoslave, où il milite au Parti communiste interdit. Emprisonné de 1928 à 1934, il travaille ensuite pour le Komintern sous le nom de Tito et prend la tête du parti en 1937. Après l'invasion de 1941, ses partisans mènent la plus importante guérilla d'Europe occupée contre les forces de l'Axe et les tchetniks ; il est fait maréchal en 1943. Victorieux en 1945, il instaure un régime à parti unique, et ses troupes exécutent des dizaines de milliers de prisonniers et de civils liés aux forces vaincues, notamment après Bleiburg. En 1948, il rompt avec Staline, est exclu du Kominform et envoie des milliers de partisans supposés de Moscou au camp de Goli Otok. Il développe un socialisme autogestionnaire, devient président en 1953 et fonde en 1961 à Belgrade le Mouvement des non-alignés avec Nehru et Nasser. La Constitution de 1974 fait de lui un président à vie, et il meurt à Ljubljana le 4 mai 1980.",
+    "en": "Born in 1892 in Kumrovec, in Croatia, then part of Austria-Hungary, Josip Broz trained as a locksmith and metalworker before being called up into the Austro-Hungarian army. Wounded and captured by the Russians in 1915, he lived through the revolution in Russia and returned in 1920 to the new Yugoslav kingdom, where he joined the outlawed Communist Party. Jailed from 1928 to 1934, he then worked for the Comintern under the name Tito and took over the party in 1937. After the Axis invasion of 1941, his Partisans waged occupied Europe's largest guerrilla war against German, Italian and Chetnik forces, and he was made a marshal in 1943. Victorious in 1945, he set up a one-party regime, and his forces executed tens of thousands of prisoners and civilians tied to the defeated side, notably after Bleiburg. In 1948 he broke with Stalin, was expelled from the Cominform and sent thousands of suspected Moscow loyalists to the Goli Otok prison camp. He developed workers' self-management socialism, became president in 1953 and in 1961 co-founded the Non-Aligned Movement in Belgrade with Nehru and Nasser. The 1974 constitution made him president for life, and he died in Ljubljana on 4 May 1980."
+  },
+  "highlights": {
+    "fr": [
+      "Dirige le Parti communiste yougoslave à partir de 1937",
+      "Mène la résistance des partisans contre l'Axe de 1941 à 1945",
+      "Rompt avec Staline en 1948",
+      "Cofonde le Mouvement des non-alignés à Belgrade en 1961",
+      "Président de la Yougoslavie de 1953 à sa mort en 1980"
+    ],
+    "en": [
+      "Led the Yugoslav Communist Party from 1937",
+      "Led the Partisan resistance against the Axis from 1941 to 1945",
+      "Broke with Stalin in 1948",
+      "Co-founded the Non-Aligned Movement in Belgrade in 1961",
+      "President of Yugoslavia from 1953 until his death in 1980"
+    ]
+  },
+  "legacy": {
+    "fr": "Il a tenu ensemble une Yougoslavie multinationale et lui a donné un rôle mondial, mais le système qu'il incarnait n'a pas survécu à sa disparition et s'est effondré dans les guerres des années 1990.",
+    "en": "He held a multinational Yugoslavia together and gave it a global role, but the system he embodied did not outlive him and collapsed in the wars of the 1990s."
   }
 }
