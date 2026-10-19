@@ -41,9 +41,9 @@ const config: ExpoConfig = {
   web: {
     favicon: './assets/favicon.png',
   },
+  owner: 'dodolereporter',
   extra: {
-    // Set by `eas init` (copy the printed id into EAS_PROJECT_ID, see mobile/README.md).
-    eas: { projectId: process.env.EAS_PROJECT_ID },
+    eas: { projectId: '9c376721-0de1-493c-b62a-86922eb1490f' },
   },
   plugins: [
     ['expo-sensors', { motionPermission: 'MANDAT uses motion to tilt cards and boosters.' }],

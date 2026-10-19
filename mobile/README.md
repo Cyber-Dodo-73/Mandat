@@ -10,7 +10,7 @@ Expo SDK 58 app (expo-router, TypeScript strict), run as an EAS **development bu
    (`https://mandat.cyber-dodo.fr`). To hit a local API from the phone, set
    `EXPO_PUBLIC_API_URL` to your PC's **LAN IP** (`hostname -I`), e.g. `http://192.168.1.42:8080`.
 3. Link the project to EAS once: `npm exec -- eas-cli@latest init`, then put the printed id in
-   `EAS_PROJECT_ID` (the config is dynamic, so `eas init` cannot write it itself).
+
 4. Build and install the dev client on the iPhone (cloud build, no Mac needed):
    `npm exec -- eas-cli@latest build --profile development --platform ios`, then
    `npm exec -- eas-cli@latest submit --profile development --platform ios` and install it from TestFlight.
