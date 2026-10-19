@@ -1,3 +1,5 @@
+import { useQueryClient } from '@tanstack/react-query';
+import { useCallback } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { Caption, Text } from '@/components/ui';
@@ -5,6 +7,7 @@ import { useCountdown } from '@/hooks/useCountdown';
 import { formatCountdown, useTranslation } from '@/i18n';
 import { spacing, useTheme } from '@/theme';
 
+import { packsQueryKey } from './queries';
 import type { FreePackState } from './types';
 
 const PIP = 12;
@@ -13,7 +16,10 @@ const PIP = 12;
 export function FreePackTimer({ state }: { state: FreePackState }) {
   const { t } = useTranslation();
   const { colors } = useTheme();
-  const secondsLeft = useCountdown(state.nextFreePackAt);
+  const queryClient = useQueryClient();
+  // When the timer runs out, ask the server for the new stock instead of showing 00:00:00.
+  const refresh = useCallback(() => void queryClient.invalidateQueries({ queryKey: packsQueryKey }), [queryClient]);
+  const secondsLeft = useCountdown(state.nextFreePackAt, refresh);
 
   return (
     <View style={styles.row}>
