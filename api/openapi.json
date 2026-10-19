@@ -189,7 +189,7 @@
     },
     "/api/v1/auth/register" : {
       "post" : {
-        "operationId" : "register",
+        "operationId" : "register_1",
         "requestBody" : {
           "content" : {
             "application/json" : {
@@ -952,6 +952,106 @@
         } ],
         "summary" : "Level, XP, streak, resets and wallet of the player",
         "tags" : [ "Progression" ]
+      }
+    },
+    "/api/v1/push/devices" : {
+      "post" : {
+        "operationId" : "register",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/RegisterDeviceRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "204" : {
+            "description" : "No Content"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Register or refresh this device's Expo push token",
+        "tags" : [ "Push notifications" ]
+      }
+    },
+    "/api/v1/push/devices/{token}" : {
+      "delete" : {
+        "operationId" : "unregister",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "token",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "204" : {
+            "description" : "No Content"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Unregister a push token (sign out, notifications turned off)",
+        "tags" : [ "Push notifications" ]
+      }
+    },
+    "/api/v1/push/preferences" : {
+      "get" : {
+        "operationId" : "preferences",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/PushPreferencesDto"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Push notification categories the player receives",
+        "tags" : [ "Push notifications" ]
+      },
+      "patch" : {
+        "operationId" : "updatePreferences",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/PushPreferencesPatch"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/PushPreferencesDto"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Turn push categories on or off (marketing is off until explicitly turned on)",
+        "tags" : [ "Push notifications" ]
       }
     },
     "/api/v1/quiz/sessions" : {
@@ -2466,6 +2566,47 @@
         },
         "required" : [ "achievements", "avatarId", "bannerId", "friend", "friendCode", "nickname", "showcase", "stats" ]
       },
+      "PushPreferencesDto" : {
+        "type" : "object",
+        "properties" : {
+          "boosterReady" : {
+            "type" : "boolean"
+          },
+          "events" : {
+            "type" : "boolean"
+          },
+          "friends" : {
+            "type" : "boolean"
+          },
+          "marketing" : {
+            "type" : "boolean"
+          },
+          "streak" : {
+            "type" : "boolean"
+          }
+        },
+        "required" : [ "boosterReady", "events", "friends", "marketing", "streak" ]
+      },
+      "PushPreferencesPatch" : {
+        "type" : "object",
+        "properties" : {
+          "boosterReady" : {
+            "type" : [ "boolean", "null" ]
+          },
+          "events" : {
+            "type" : [ "boolean", "null" ]
+          },
+          "friends" : {
+            "type" : [ "boolean", "null" ]
+          },
+          "marketing" : {
+            "type" : [ "boolean", "null" ]
+          },
+          "streak" : {
+            "type" : [ "boolean", "null" ]
+          }
+        }
+      },
       "QuestionDto" : {
         "type" : "object",
         "properties" : {
@@ -2629,6 +2770,28 @@
           }
         },
         "required" : [ "refreshToken" ]
+      },
+      "RegisterDeviceRequest" : {
+        "type" : "object",
+        "properties" : {
+          "locale" : {
+            "type" : [ "string", "null" ],
+            "description" : "App language, used for the notification texts (fr or en)",
+            "pattern" : "^(fr|en)$"
+          },
+          "platform" : {
+            "type" : "string",
+            "minLength" : 1,
+            "pattern" : "^(ios|android)$"
+          },
+          "token" : {
+            "type" : "string",
+            "maxLength" : 255,
+            "minLength" : 0,
+            "pattern" : "^Expo(nent)?PushToken\\[[A-Za-z0-9_\\-]{10,200}]$"
+          }
+        },
+        "required" : [ "platform", "token" ]
       },
       "RegisterRequest" : {
         "type" : "object",

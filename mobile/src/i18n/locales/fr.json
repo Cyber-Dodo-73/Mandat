@@ -369,7 +369,16 @@
     "haptics": "Vibrations",
     "notifications": {
       "label": "Notifications",
-      "hint": "Booster prêt, série en danger. Une par jour au maximum."
+      "hint": "Booster prêt, série en danger, amis. Deux par jour au maximum, jamais entre 22 h et 9 h.",
+      "categoriesTitle": "Recevoir",
+      "categories": {
+        "boosterReady": "Booster gratuit prêt",
+        "streak": "Série en danger",
+        "friends": "Demandes d'amis",
+        "events": "Récompenses à récupérer",
+        "marketing": "Nouveautés et offres"
+      },
+      "marketingHint": "Désactivé par défaut. Jamais plus d'une fois par jour."
     },
     "reduceMotion": {
       "label": "Réduire les animations",

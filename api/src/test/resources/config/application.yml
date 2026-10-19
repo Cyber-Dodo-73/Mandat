@@ -18,3 +18,6 @@ mandat:
   catalog:
     location: classpath:catalog/cards.test.json
     first-pack-rules-location: classpath:catalog/no-first-pack-rules.json
+  push:
+    # Tests call the push jobs directly with a fixed clock and a fake Expo client.
+    jobs-enabled: false

@@ -116,7 +116,7 @@ export interface paths {
         get?: never;
         put?: never;
         /** Create an account with email and password */
-        post: operations["register"];
+        post: operations["register_1"];
         delete?: never;
         options?: never;
         head?: never;
@@ -527,6 +527,58 @@ export interface paths {
         options?: never;
         head?: never;
         patch?: never;
+        trace?: never;
+    };
+    "/api/v1/push/devices": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Register or refresh this device's Expo push token */
+        post: operations["register"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/push/devices/{token}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        post?: never;
+        /** Unregister a push token (sign out, notifications turned off) */
+        delete: operations["unregister"];
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/push/preferences": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Push notification categories the player receives */
+        get: operations["preferences"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        /** Turn push categories on or off (marketing is off until explicitly turned on) */
+        patch: operations["updatePreferences"];
         trace?: never;
     };
     "/api/v1/quiz/sessions": {
@@ -1189,6 +1241,20 @@ export interface components {
             stats: components["schemas"]["ProfileStats"];
             titleId?: string | null;
         };
+        PushPreferencesDto: {
+            boosterReady: boolean;
+            events: boolean;
+            friends: boolean;
+            marketing: boolean;
+            streak: boolean;
+        };
+        PushPreferencesPatch: {
+            boosterReady?: boolean | null;
+            events?: boolean | null;
+            friends?: boolean | null;
+            marketing?: boolean | null;
+            streak?: boolean | null;
+        };
         QuestionDto: {
             /** Format: int32 */
             index: number;
@@ -1259,6 +1325,12 @@ export interface components {
         };
         RefreshRequest: {
             refreshToken: string;
+        };
+        RegisterDeviceRequest: {
+            /** @description App language, used for the notification texts (fr or en) */
+            locale?: string | null;
+            platform: string;
+            token: string;
         };
         RegisterRequest: {
             deviceLabel?: string | null;
@@ -1538,7 +1610,7 @@ export interface operations {
             };
         };
     };
-    register: {
+    register_1: {
         parameters: {
             query?: never;
             header?: never;
@@ -2131,6 +2203,92 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["ProgressionResponse"];
+                };
+            };
+        };
+    };
+    register: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["RegisterDeviceRequest"];
+            };
+        };
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+        };
+    };
+    unregister: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                token: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description No Content */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+        };
+    };
+    preferences: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PushPreferencesDto"];
+                };
+            };
+        };
+    };
+    updatePreferences: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["PushPreferencesPatch"];
+            };
+        };
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PushPreferencesDto"];
                 };
             };
         };

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { AppState, StyleSheet, View } from 'react-native';
 
 import { useProgressionQuery } from '@/features/player/queries';
+import { useNotificationTapRouting, usePushSync } from '@/features/push/usePushSync';
 
 import { useCelebrations } from './celebrations';
 import { LevelUpOverlay } from './LevelUpOverlay';
@@ -12,9 +13,12 @@ import { useNotificationSync } from './useNotificationSync';
 
 /**
  * Signed-in overlay layer: level-up and reward celebrations, the "welcome back" recap,
- * and the local reminders kept in sync with the server.
+ * server push registration, notification taps, and the local reminders kept in sync with the
+ * server (fallback when server pushes are not available).
  */
 export function ProgressionHost() {
+  usePushSync();
+  useNotificationTapRouting();
   useNotificationSync();
   useLevelWatcher();
   const [showReturn, setShowReturn] = useState(() => shouldShowReturnRecap(readLastActiveAt(), Date.now()));

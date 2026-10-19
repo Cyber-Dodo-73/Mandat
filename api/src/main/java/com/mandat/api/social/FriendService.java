@@ -1,6 +1,8 @@
 package com.mandat.api.social;
 
 import com.mandat.api.common.error.ApiException;
+import com.mandat.api.common.events.FriendAcceptedEvent;
+import com.mandat.api.common.events.FriendRequestedEvent;
 import com.mandat.api.common.error.ErrorCode;
 import com.mandat.api.social.FriendshipRepository.FriendRow;
 import com.mandat.api.social.FriendshipRepository.Link;
@@ -16,6 +18,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -33,11 +36,13 @@ public class FriendService {
     private final FriendshipRepository friendships;
     private final PlayerLookup players;
     private final Clock clock;
+    private final ApplicationEventPublisher events;
 
-    FriendService(FriendshipRepository friendships, PlayerLookup players, Clock clock) {
+    FriendService(FriendshipRepository friendships, PlayerLookup players, Clock clock, ApplicationEventPublisher events) {
         this.friendships = friendships;
         this.players = players;
         this.clock = clock;
+        this.events = events;
     }
 
     @Transactional(readOnly = true)
@@ -66,6 +71,9 @@ public class FriendService {
             result = friendships.insertRequest(userId, target.getId(), now)
                     ? FriendRequestResult.REQUESTED
                     : FriendRequestResult.UNCHANGED;
+            if (result == FriendRequestResult.REQUESTED) {
+                events.publishEvent(new FriendRequestedEvent(userId, target.getId(), now));
+            }
         } else if (existing.get().status() == Status.pending && existing.get().addresseeId().equals(userId)) {
             accept(existing.get(), now);
             result = FriendRequestResult.ACCEPTED;
@@ -100,6 +108,7 @@ public class FriendService {
         requireRoomForFriend(link.requesterId());
         requireRoomForFriend(link.addresseeId());
         friendships.accept(link.requesterId(), link.addresseeId(), now);
+        events.publishEvent(new FriendAcceptedEvent(link.requesterId(), link.addresseeId(), now));
     }
 
     private void requireRoomForFriend(UUID userId) {
