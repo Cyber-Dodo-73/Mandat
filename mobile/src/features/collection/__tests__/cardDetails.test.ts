@@ -1,4 +1,4 @@
-import { allCards } from '@/data/catalog';
+import { allCards, getCardHistory } from '@/data/catalog';
 import type { Card } from '@/types/card';
 
 import { cardDetails, highlightIcon, timelineSpan } from '../cardDetails';
@@ -46,7 +46,8 @@ describe('cardDetails', () => {
   });
 
   it('has history for every card of the season, with matching highlight counts', () => {
-    for (const card of allCards) {
+    for (const base of allCards) {
+      const card = { ...base, ...getCardHistory(base.id) };
       const fr = cardDetails(card, 'fr');
       const en = cardDetails(card, 'en');
       expect(fr.story).not.toBeNull();

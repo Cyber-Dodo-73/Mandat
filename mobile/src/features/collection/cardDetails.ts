@@ -1,5 +1,5 @@
 import type { IconName } from '@/components/ui';
-import { getCard } from '@/data/catalog';
+import { getCard, getCardHistory } from '@/data/catalog';
 import { useLanguage, useTranslation, type Language } from '@/i18n';
 import type { Card, TimelineEntry, TimelineKind } from '@/types/card';
 
@@ -74,14 +74,14 @@ export function cardDetails(card: Card, language: Language, formatYear: YearForm
 
 /**
  * Single access point to a card's long-form content (bio, story, highlights, legacy, timeline).
- * Reads the bundled catalog synchronously today; a lazily-loaded store can replace the body
- * without touching the screens.
+ * The bio comes from the light catalog index; the rest from the lazily evaluated history chunks.
  */
 export function useCardDetails(cardId: string): CardDetails | null {
   const { t } = useTranslation();
   const language = useLanguage();
-  const card = getCard(cardId);
-  if (!card) return null;
+  const base = getCard(cardId);
+  if (!base) return null;
+  const card: Card = { ...base, ...getCardHistory(cardId) };
   const formatYear: YearFormatter = (year) => (year < 0 ? t('card.yearBC', { year: -year }) : String(year));
   return cardDetails(card, language, formatYear);
 }
