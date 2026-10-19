@@ -20,7 +20,8 @@
     },
     "preview": {
       "extends": "base",
-      "distribution": "internal"
+      "distribution": "store",
+      "autoIncrement": true
     },
     "production": {
       "extends": "base",
@@ -29,6 +30,7 @@
   },
   "submit": {
     "development": {},
-    "production": {}
+    "production": {},
+    "preview": {}
   }
 }
