@@ -61,7 +61,8 @@ describe('authMiddleware', () => {
 
     const response = await authMiddleware.onResponse?.({ ...params(request, '/api/v1/packs'), response: unauthorized });
 
-    expect(response).toBe(unauthorized);
+    // undefined = response left untouched (openapi-fetch keeps the original 401).
+    expect(response).toBeUndefined();
     expect(fetchMock).not.toHaveBeenCalled();
   });
 });

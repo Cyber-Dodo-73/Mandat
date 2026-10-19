@@ -20,7 +20,21 @@ export async function plainFetch(request: Request): Promise<Response> {
   request.headers.forEach((value, key) => {
     headers[key] = value;
   });
-  return fetch(request.url, { method: request.method, headers, body: body || undefined });
+  const response = await fetch(request.url, { method: request.method, headers, body: body || undefined });
+  return asGlobalResponse(response);
+}
+
+const NO_BODY_STATUSES = new Set([101, 204, 205, 304]);
+
+/**
+ * Expo's native fetch resolves to its own Response class, which fails openapi-fetch's
+ * `instanceof Response` check on middleware results. Rebuild a global Response when needed.
+ */
+export async function asGlobalResponse(response: Response): Promise<Response> {
+  const candidate: unknown = response;
+  if (candidate instanceof Response) return candidate;
+  const body = NO_BODY_STATUSES.has(response.status) ? null : await response.text();
+  return new Response(body, { status: response.status, statusText: response.statusText, headers: response.headers });
 }
 
 /** Untouched copies of authenticated requests, replayed once after a token refresh. */
@@ -41,11 +55,12 @@ export const authMiddleware: Middleware = {
   },
 
   async onResponse({ request, response, schemaPath }) {
-    if (response.status !== 401 || schemaPath.startsWith(AUTH_PATHS)) return response;
+    // Returning nothing keeps the response untouched (openapi-fetch rejects foreign Response classes).
+    if (response.status !== 401 || schemaPath.startsWith(AUTH_PATHS)) return undefined;
     const original = replayable.get(request);
-    if (!original) return response;
+    if (!original) return undefined;
     const accessToken = await refreshAccessToken();
-    if (!accessToken) return response;
+    if (!accessToken) return undefined;
     const retry = new Request(original);
     retry.headers.set('Authorization', `Bearer ${accessToken}`);
     return plainFetch(retry);
