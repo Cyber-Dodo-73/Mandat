@@ -988,6 +988,11 @@ export interface components {
              */
             percent: number;
         };
+        FirstPackSlotDto: {
+            rarities: ("common" | "uncommon" | "rare" | "epic" | "legendary" | "mythic")[];
+            /** @description 1-based slot numbers */
+            slots: number[];
+        };
         FreePacksDto: {
             /** Format: int32 */
             available: number;
@@ -1083,10 +1088,37 @@ export interface components {
             /** @enum {string} */
             visibility: "public" | "private";
         };
+        /** @description Extra guarantees for a new player's first boosters, on top of the regular odds and pity */
+        NewPlayerGuaranteesDto: {
+            /**
+             * @description Minimum finish of the first booster's best card
+             * @enum {string}
+             */
+            firstPackBestFinishAtLeast: "standard" | "holo" | "full_art" | "gold";
+            /**
+             * Format: int32
+             * @description Distinct continents among the first booster's cards
+             */
+            firstPackDistinctContinents: number;
+            firstPackExcludesSensitive: boolean;
+            /**
+             * Format: int32
+             * @description Minimum distinct eras among the first booster's cards
+             */
+            firstPackMinDistinctEras: number;
+            /** @description Composition of the very first booster, in slot order (slot 5 holds the best card) */
+            firstPackSlots: components["schemas"]["FirstPackSlotDto"][];
+            /**
+             * Format: int32
+             * @description A legendary or better is guaranteed within the player's first N boosters
+             */
+            legendaryWithinFirstPacks: number;
+        };
         OddsResponse: {
             /** @description Themed booster: a rarity without any card of the continent is drawn from the whole season */
             continentFallback: boolean;
             finishes: components["schemas"]["FinishOddsDto"][];
+            newPlayerGuarantees: components["schemas"]["NewPlayerGuaranteesDto"];
             packId: string;
             pity: components["schemas"]["PityRulesDto"];
             slots: components["schemas"]["SlotOddsDto"][];
@@ -1153,6 +1185,11 @@ export interface components {
             epicGuaranteedIn: number;
             /** Format: int32 */
             legendaryGuaranteedIn: number;
+            /**
+             * Format: int32
+             * @description New-player guarantee: boosters left until a legendary or better is guaranteed (1 = the next one); null once the player pulled one or opened enough boosters
+             */
+            newPlayerLegendaryIn?: number | null;
             /** Format: int32 */
             packsSinceEpic: number;
             /** Format: int32 */
