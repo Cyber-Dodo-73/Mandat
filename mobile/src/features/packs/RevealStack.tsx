@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { StyleSheet, useWindowDimensions, View } from 'react-native';
 import Animated, { Easing, useAnimatedStyle, useSharedValue, withSpring, withTiming } from 'react-native-reanimated';
 import { scheduleOnRN } from 'react-native-worklets';
@@ -23,6 +23,11 @@ import type { DrawnCard } from './types';
 /** Face-down cards visible under the top one. */
 const PILE_DEPTH = 3;
 const FLY_MS = 320;
+/**
+ * Watchdog: if the stack hasn't moved for this long (an animation stalled, a tap was lost, the
+ * app came back from the background mid-reveal…), a button jumps straight to the five cards.
+ */
+export const STALL_MS = 9000;
 
 type RevealStackProps = {
   cards: readonly DrawnCard[];
@@ -58,7 +63,25 @@ export function RevealStack({ cards, cardWidth, onDone }: RevealStackProps) {
   const [flow, setFlow] = useState(() => initialRevealFlow(count));
   const flowRef = useRef(flow);
   const [leaving, setLeaving] = useState<Leaving[]>([]);
+  // Key of the stack position the watchdog fired on: any progress makes it stale again.
+  const [stalledAt, setStalledAt] = useState<string | null>(null);
+  const progressKey = `${flow.index}-${flow.top}-${flow.phase}`;
+  const stalled = stalledAt === progressKey;
   const doneTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const finished = useRef(false);
+
+  const finish = useCallback(() => {
+    if (finished.current) return;
+    finished.current = true;
+    onDone();
+  }, [onDone]);
+
+  // Any progress re-arms the watchdog.
+  useEffect(() => {
+    if (flow.phase === 'summary') return undefined;
+    const timer = setTimeout(() => setStalledAt(progressKey), STALL_MS);
+    return () => clearTimeout(timer);
+  }, [flow.phase, progressKey]);
 
   useEffect(
     () => () => {
@@ -79,11 +102,16 @@ export function RevealStack({ cards, cardWidth, onDone }: RevealStackProps) {
       haptics.tap();
       playSound('card_slide');
       if (state.phase === 'summary') {
-        doneTimer.current = setTimeout(onDone, reduceMotion ? 0 : FLY_MS * 0.6);
+        doneTimer.current = setTimeout(finish, reduceMotion ? 0 : FLY_MS * 0.6);
       }
     },
-    [count, onDone, ordered, reduceMotion],
+    [count, finish, ordered, reduceMotion],
   );
+
+  // Stable: an inline callback would restart every flying card's animation on each render.
+  const removeLeaving = useCallback((key: string) => {
+    setLeaving((list) => list.filter((entry) => entry.key !== key));
+  }, []);
 
   // Stack entrance: the pile slides up out of the torn pack.
   const entrance = useSharedValue(reduceMotion ? 1 : 0);
@@ -175,15 +203,19 @@ export function RevealStack({ cards, cardWidth, onDone }: RevealStackProps) {
         {leaving.map((item) => (
           <FlyingCard
             key={item.key}
+            id={item.key}
             drawn={item.drawn}
             width={cardWidth}
             direction={item.direction}
             reduceMotion={reduceMotion}
-            onGone={() => setLeaving((list) => list.filter((entry) => entry.key !== item.key))}
+            onGone={removeLeaving}
           />
         ))}
       </Animated.View>
       <View style={styles.footer}>
+        {stalled ? (
+          <Button3D label={t('packOpening.showAll')} variant="secondary" icon="albums" onPress={finish} />
+        ) : null}
         <View style={[styles.hint, { backgroundColor: colors.surfaceRaised, borderColor: colors.border }]}>
           <Icon name={flow.top === 'revealed' ? 'arrow-forward-circle' : 'hand-left'} size={18} tone="brand" />
           <Text variant="caption" color={colors.text} style={styles.hintLabel}>
@@ -222,30 +254,34 @@ function RevealProgress({ current, total, label }: { current: number; total: num
 }
 
 type FlyingCardProps = {
+  id: string;
   drawn: DrawnCard;
   width: number;
   direction: 1 | -1;
   reduceMotion: boolean;
-  onGone: () => void;
+  onGone: (id: string) => void;
 };
 
 /** The face-up card leaving the stack; purely visual, never touchable. */
-function FlyingCard({ drawn, width, direction, reduceMotion, onGone }: FlyingCardProps) {
+const FlyingCard = memo(function FlyingCard({ id, drawn, width, direction, reduceMotion, onGone }: FlyingCardProps) {
   const { width: screenWidth } = useWindowDimensions();
   const card = getCard(drawn.cardId);
   const progress = useSharedValue(0);
 
   useEffect(() => {
     if (reduceMotion) {
-      onGone();
-      return;
+      onGone(id);
+      return undefined;
     }
     progress.set(
-      withTiming(1, { duration: FLY_MS, easing: Easing.in(Easing.cubic) }, (finished) => {
-        if (finished) scheduleOnRN(onGone);
+      withTiming(1, { duration: FLY_MS, easing: Easing.in(Easing.cubic) }, (done) => {
+        if (done) scheduleOnRN(onGone, id);
       }),
     );
-  }, [onGone, progress, reduceMotion]);
+    // An interrupted animation (app backgrounded) never reports "finished": remove the card anyway.
+    const fallback = setTimeout(() => onGone(id), FLY_MS + 400);
+    return () => clearTimeout(fallback);
+  }, [id, onGone, progress, reduceMotion]);
 
   const style = useAnimatedStyle(() => ({
     opacity: 1 - progress.get() * 0.4,
@@ -259,10 +295,18 @@ function FlyingCard({ drawn, width, direction, reduceMotion, onGone }: FlyingCar
   if (!card) return null;
   return (
     <Animated.View pointerEvents="none" style={[styles.flying, style]}>
-      <TradingCard card={card} finish={drawn.finish as CardFinish} width={width} size="hero" interactive={false} gyro={false} />
+      <TradingCard
+        card={card}
+        finish={drawn.finish as CardFinish}
+        width={width}
+        size="hero"
+        interactive={false}
+        gyro={false}
+        effects={false}
+      />
     </Animated.View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   root: { flex: 1, gap: spacing.sm },
@@ -296,5 +340,5 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
   hintLabel: { flexShrink: 1 },
-  footer: { minHeight: 40, justifyContent: 'center', paddingHorizontal: spacing.lg },
+  footer: { minHeight: 40, justifyContent: 'center', gap: spacing.sm, paddingHorizontal: spacing.lg },
 });

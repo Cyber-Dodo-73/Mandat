@@ -175,7 +175,10 @@
     "cardsReady": "Tes 5 cartes sont prêtes",
     "reveal": "Révéler mes cartes",
     "next_one": "Carte suivante (encore {{count}})",
-    "next_other": "Carte suivante (encore {{count}})"
+    "next_other": "Carte suivante (encore {{count}})",
+    "openWithoutTear": "Ouvrir le booster",
+    "showAll": "Voir mes 5 cartes",
+    "openCardHint": "Ouvre la fiche de la carte"
   },
   "play": {
     "title": "Jouer",
@@ -576,7 +579,8 @@
       "back": "Dos de carte",
       "silhouette": "Silhouette",
       "finishes": "Finitions"
-    }
+    },
+    "perfOverlay": "Compteur FPS (dev)"
   },
   "auth": {
     "welcome": {

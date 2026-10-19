@@ -175,7 +175,10 @@
     "cardsReady": "Your 5 cards are ready",
     "reveal": "Reveal my cards",
     "next_one": "Next card ({{count}} left)",
-    "next_other": "Next card ({{count}} left)"
+    "next_other": "Next card ({{count}} left)",
+    "openWithoutTear": "Open the pack",
+    "showAll": "See my 5 cards",
+    "openCardHint": "Opens the card details"
   },
   "play": {
     "title": "Play",
@@ -576,7 +579,8 @@
       "back": "Card back",
       "silhouette": "Silhouette",
       "finishes": "Finishes"
-    }
+    },
+    "perfOverlay": "FPS meter (dev)"
   },
   "auth": {
     "welcome": {

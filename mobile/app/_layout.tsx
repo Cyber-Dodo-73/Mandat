@@ -10,6 +10,7 @@ import { initI18n } from '@/i18n';
 import { initSounds } from '@/lib/sounds';
 import { useTheme } from '@/theme';
 import { appFonts } from '@/theme/fonts';
+import { PerfOverlay } from '@/features/dev/PerfOverlay';
 
 initI18n();
 
@@ -41,6 +42,7 @@ function RootStack() {
           <Stack.Screen name="(auth)" />
         </Stack.Protected>
       </Stack>
+      <PerfOverlay />
     </>
   );
 }

@@ -103,6 +103,8 @@ export function CardReveal({
   const [area, setArea] = useState<{ width: number; height: number } | null>(null);
   const [phase, setPhase] = useState<Phase>('idle');
   const [badgeVisible, setBadgeVisible] = useState(false);
+  // The face's animated foil only runs once it is shown: while face down it would cost every frame for nothing.
+  const [faceUp, setFaceUp] = useState(false);
   const phaseRef = useRef<Phase>('idle');
   const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
 
@@ -144,6 +146,7 @@ export function CardReveal({
       clearTimers();
       phaseRef.current = 'done';
       setPhase('done');
+      setFaceUp(true);
       cancelAnimation(shake);
       shake.set(0);
       if (skipped) {
@@ -228,6 +231,7 @@ export function CardReveal({
 
     // 3. The card faces up: haptics, sound and effects of the rarity.
     at(suspenseMs + flipMs * 0.5, () => {
+      setFaceUp(true);
       haptics[timeline.haptic]();
       if (timeline.sound !== 'flip') playSound(timeline.sound);
       if (reduceMotion) return;
@@ -331,7 +335,15 @@ export function CardReveal({
               height={metrics.height}
               back={<CardBack size={size} width={metrics.width} glow={glow} />}
               front={
-                <TradingCard card={card} finish={finish} size={size} width={metrics.width} interactive={phase === 'done'} />
+                <TradingCard
+                  card={card}
+                  finish={finish}
+                  size={size}
+                  width={metrics.width}
+                  interactive={phase === 'done'}
+                  gyro={phase === 'done'}
+                  effects={faceUp}
+                />
               }
             />
             {beat ? (

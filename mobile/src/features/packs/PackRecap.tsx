@@ -3,7 +3,7 @@ import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native'
 
 import { TradingCard } from '@/components/cards';
 import { OfflineNotice } from '@/components/navigation/OfflineNotice';
-import { Badge, Button3D, Caption, Icon, Text } from '@/components/ui';
+import { Badge, Button3D, Caption, Icon, PressableScale, Text } from '@/components/ui';
 import { getCard } from '@/data/catalog';
 import { useIsOnline } from '@/hooks/useIsOnline';
 import { useTranslation } from '@/i18n';
@@ -35,7 +35,14 @@ export function PackRecap({ result, onOpenAnother }: PackRecapProps) {
           {result.cards.map((drawn, index) => {
             const card = getCard(drawn.cardId);
             return (
-              <View key={`${drawn.cardId}-${index}`} style={{ width: cardWidth }}>
+              <PressableScale
+                key={`${drawn.cardId}-${index}`}
+                accessibilityRole="button"
+                accessibilityHint={t('packOpening.openCardHint')}
+                disabled={!card}
+                onPress={() => router.push({ pathname: '/card/[id]', params: { id: drawn.cardId, finish: drawn.finish } })}
+                style={{ width: cardWidth }}
+              >
                 {card ? <TradingCard card={card} finish={drawn.finish} width={cardWidth} size="grid" /> : null}
                 {drawn.isNew ? (
                   <View style={styles.badge}>
@@ -44,7 +51,7 @@ export function PackRecap({ result, onOpenAnother }: PackRecapProps) {
                 ) : drawn.influenceGained > 0 ? (
                   <Caption align="center">{t('packOpening.duplicate', { amount: drawn.influenceGained })}</Caption>
                 ) : null}
-              </View>
+              </PressableScale>
             );
           })}
         </View>

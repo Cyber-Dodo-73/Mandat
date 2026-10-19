@@ -24,6 +24,8 @@ export function ProgressionHost() {
   const [showReturn, setShowReturn] = useState(() => shouldShowReturnRecap(readLastActiveAt(), Date.now()));
   const queue = useCelebrations((state) => state.queue);
   const dismiss = useCelebrations((state) => state.dismiss);
+  // Held while a pack is being opened: a level-up must never cover the cards being revealed.
+  const held = useCelebrations((state) => state.holds > 0);
 
   useEffect(() => {
     writeLastActiveAt(Date.now());
@@ -35,7 +37,7 @@ export function ProgressionHost() {
   }, []);
 
   // One celebration at a time, in order: the next one waits until the current one is done.
-  const current = queue[0];
+  const current = held ? undefined : queue[0];
   const toast = current?.type === 'reward' ? current : undefined;
   const levelUp = current?.type === 'levelUp' ? current : undefined;
 
@@ -45,7 +47,7 @@ export function ProgressionHost() {
       {levelUp ? (
         <LevelUpOverlay key={levelUp.id} level={levelUp.level} rewards={levelUp.rewards} onDone={() => dismiss(levelUp.id)} />
       ) : null}
-      <ReturnRecapSheet visible={showReturn && !current} onClose={() => setShowReturn(false)} />
+      <ReturnRecapSheet visible={showReturn && !current && !held} onClose={() => setShowReturn(false)} />
     </View>
   );
 }

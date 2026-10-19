@@ -8,6 +8,13 @@ export type Celebration =
 
 type CelebrationState = {
   queue: Celebration[];
+  /**
+   * Screens that must not be covered (pack opening): while > 0 celebrations stay queued and
+   * show up once the last hold is released.
+   */
+  holds: number;
+  hold: () => void;
+  release: () => void;
   /** Highest level already celebrated: a level-up seen twice (claim + level watcher) shows once. */
   topLevel: number;
   push: (celebration: DistributiveOmit<Celebration, 'id'>) => void;
@@ -21,6 +28,9 @@ let nextId = 1;
 /** Celebrations waiting to be shown, oldest first. The host shows strictly one at a time. */
 export const useCelebrations = create<CelebrationState>((set) => ({
   queue: [],
+  holds: 0,
+  hold: () => set((state) => ({ holds: state.holds + 1 })),
+  release: () => set((state) => ({ holds: Math.max(0, state.holds - 1) })),
   topLevel: 0,
   push: (celebration) =>
     set((state) => {

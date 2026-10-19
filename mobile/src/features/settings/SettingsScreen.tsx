@@ -23,6 +23,7 @@ import { spacing } from '@/theme';
 
 import { AccountSection } from './AccountSection';
 import { useSettingsStore, type ThemePreference } from './store';
+import { usePerfOverlay } from '@/features/dev/PerfOverlay';
 
 const THEMES: readonly ThemePreference[] = ['system', 'dark', 'light'];
 
@@ -153,6 +154,7 @@ export function SettingsScreen() {
             />
           </PressableScale>
         </Card>
+        {__DEV__ ? <PerfOverlayToggle /> : null}
         {__DEV__ ? (
           <Button3D
             label={t('dev.cards.open')}
@@ -171,3 +173,18 @@ export function SettingsScreen() {
 const styles = StyleSheet.create({
   section: { gap: spacing.sm },
 });
+
+/** Dev builds only: JS/UI frame-rate meter, to report lag with numbers. */
+function PerfOverlayToggle() {
+  const { t } = useTranslation();
+  const enabled = usePerfOverlay((state) => state.enabled);
+  const setEnabled = usePerfOverlay((state) => state.setEnabled);
+  return (
+    <SettingRow
+      icon="speedometer-outline"
+      label={t('dev.perfOverlay')}
+      control={<Toggle accessibilityLabel={t('dev.perfOverlay')} value={enabled} onValueChange={setEnabled} />}
+    />
+  );
+}
+

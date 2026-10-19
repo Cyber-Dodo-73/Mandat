@@ -33,6 +33,11 @@ export type TradingCardProps = {
   interactive?: boolean;
   /** Follow the phone's orientation. Defaults to true for large and hero cards. */
   gyro?: boolean;
+  /**
+   * Animated foil, frame shine and aura (large and hero cards). Off for cards that are face down,
+   * flying away or otherwise not looked at: they keep the same static look, without the per-frame cost.
+   */
+  effects?: boolean;
   style?: StyleProp<ViewStyle>;
 };
 
@@ -49,6 +54,7 @@ export const TradingCard = memo(function TradingCard({
   width,
   interactive,
   gyro,
+  effects = true,
   style,
 }: TradingCardProps) {
   const finish = isFinishAvailable(card.rarity, requestedFinish) ? requestedFinish : 'standard';
@@ -60,10 +66,10 @@ export const TradingCard = memo(function TradingCard({
   const { gesture, style: tiltStyle, tilt } = useTilt({
     width: metrics.width,
     pan: interactive ?? isLarge,
-    gyro: gyro ?? isLarge,
+    gyro: (gyro ?? isLarge) && effects,
     reduceMotion,
   });
-  const live = isLarge && !reduceMotion;
+  const live = isLarge && !reduceMotion && effects;
   const text = useCardText(card);
   const layout = cardLayout(metrics, finish);
   const { t } = useTranslation();

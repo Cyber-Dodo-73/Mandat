@@ -1,6 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import * as Crypto from 'expo-crypto';
-import { useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 
 import { meQueryKey, progressionQueryKey } from '@/features/player/queries';
 
@@ -32,6 +32,7 @@ export function usePackOddsQuery(packId: string | undefined, enabled: boolean) {
 export function useOpenPackAttempt(packId: string) {
   const queryClient = useQueryClient();
   const [idempotencyKey] = useState(() => Crypto.randomUUID());
+  const pendingSync = useRef(false);
 
   const mutation = useMutation<PackOpenResult, Error, void>({
     mutationKey: ['packs', packId, 'open', idempotencyKey],
@@ -41,11 +42,21 @@ export function useOpenPackAttempt(packId: string) {
       queryClient.setQueryData<PacksView>(packsQueryKey, (previous) =>
         previous ? { ...previous, freePacks: result.freePacks, bonusPacks: result.bonusPacks, pity: result.pity } : previous,
       );
-      for (const queryKey of [collectionQueryKey, progressionQueryKey, meQueryKey]) {
-        void queryClient.invalidateQueries({ queryKey });
-      }
+      // Collection, progression and /me are refreshed once the cards have been revealed (see
+      // syncAfterReveal): refetching them now re-renders the tabs under the modal mid-animation,
+      // and a level-up would pop its overlay over the cards being revealed.
+      pendingSync.current = true;
     },
   });
 
-  return { ...mutation, idempotencyKey, open: () => mutation.mutate() };
+  /** Refreshes what the opening changed. Idempotent: only the first call after a success runs. */
+  const syncAfterReveal = useCallback(() => {
+    if (!pendingSync.current) return;
+    pendingSync.current = false;
+    for (const queryKey of [collectionQueryKey, progressionQueryKey, meQueryKey]) {
+      void queryClient.invalidateQueries({ queryKey });
+    }
+  }, [queryClient]);
+
+  return { ...mutation, idempotencyKey, open: () => mutation.mutate(), syncAfterReveal };
 }
