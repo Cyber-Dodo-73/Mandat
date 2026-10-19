@@ -28,6 +28,12 @@ Rule: do not target Expo Go again; native libraries are fine as long as they are
 - **Card finishes** (user request 2026-10-19, not in the brief): each drawn card gets a finish rolled server-side —
   `holo` 8% (any rarity), `full_art` 3% (rare+, slot 5), `gold` 0.3% (any), else `standard`. The collection
   counts card + finish pairs; odds screens show finish odds. Legendary/mythic get a premium animated frame in every finish.
+- **Real portraits** (user decision 2026-10-19; the brief asked for procedural visuals in v1): cards show the
+  Wikimedia Commons image of the person (Wikidata P18), bundled in the app as WebP (`mobile/assets/portraits/`,
+  ~20 MB, offline). License, author and source of each photo are in `data/portraits.manifest.json` and shown in
+  Settings → Photo credits and on the card detail screen (required by CC BY / CC BY-SA). Cards without a photo keep
+  the procedural artwork. Sensitive figures are displayed desaturated and muted (no color, no foil glamour).
+  Regenerate with `npm run build -- portraits` then `portraits-web` (scripts/build-cards) and `npm run sync:cards` (mobile).
 - **Sensitive figures** keep their rarity but are never "Figure of the day" and never used in onboarding.
 - **Body font**: Figtree instead of Inter (the brief only suggested Inter; the project design rules exclude it).
   Titles stay in Bricolage Grotesque.

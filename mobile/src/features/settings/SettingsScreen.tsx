@@ -8,6 +8,8 @@ import {
   Button3D,
   Caption,
   Card,
+  Icon,
+  PressableScale,
   SectionHeader,
   SegmentedControl,
   SettingRow,
@@ -136,6 +138,18 @@ export function SettingsScreen() {
         <SectionHeader title={t('settings.sections.about')} />
         <Card>
           <SettingRow icon="document-text-outline" label={t('settings.legal')} hint={t('common.comingSoon')} />
+          <PressableScale
+            accessibilityRole="button"
+            accessibilityHint={t('credits.openHint')}
+            onPress={() => router.push('/credits')}
+          >
+            <SettingRow
+              icon="camera-outline"
+              label={t('credits.title')}
+              hint={t('credits.settingsHint')}
+              control={<Icon name="chevron-forward" tone="textMuted" />}
+            />
+          </PressableScale>
         </Card>
         {__DEV__ ? (
           <Button3D

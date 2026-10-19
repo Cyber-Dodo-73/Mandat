@@ -304,5 +304,24 @@
   "offline": {
     "banner": "Hors ligne. Ta collection reste consultable ; l'ouverture de boosters reviendra avec le réseau.",
     "packOpening": "Pas de connexion. Ton booster t'attend : reconnecte-toi pour l'ouvrir."
+  },
+  "credits": {
+    "title": "Crédits photos",
+    "settingsHint": "Auteurs et licences des portraits",
+    "openHint": "Ouvre la liste des auteurs et licences des photos",
+    "intro": "Les {{count}} portraits des cartes viennent de Wikimedia Commons. Voici leurs auteurs et leurs licences.",
+    "searchLabel": "Rechercher",
+    "searchPlaceholder": "Nom, photographe ou licence",
+    "sections": {
+      "attribution": "Sous licence",
+      "publicDomain": "Domaine public"
+    },
+    "source": "Source",
+    "openSource": "Ouvre la page de la photo sur Wikimedia Commons",
+    "openLicense": "Ouvre le texte de la licence",
+    "unknownAuthor": "Auteur inconnu",
+    "unknownLicense": "licence inconnue",
+    "line": "Photo : {{artist}}, {{license}}",
+    "empty": "Aucun crédit ne correspond à cette recherche."
   }
 }

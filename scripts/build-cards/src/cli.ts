@@ -1,6 +1,7 @@
 import { PATHS } from './config.ts';
 import { build, fetchRaw } from './pipeline.ts';
 import { portraits } from './portraits.ts';
+import { portraitsWeb } from './portraitsWeb.ts';
 import { report } from './report.ts';
 
 const USAGE = `Usage: npm run build -- <command> [options]
@@ -11,7 +12,8 @@ Commands:
   report    Print distribution, top 40 and sensitive cards from data/candidates.season1.json
   all       build then report
   portraits Download Wikidata (P18) portraits from Commons into data/portraits/ and write
-            data/portraits.manifest.json with license metadata (not used by the app)
+            data/portraits.manifest.json with license metadata
+  portraits-web  Resize data/portraits/ into the WebP files bundled by the app (mobile/assets/portraits/)
 
 Options:
   --allow-missing-content   Emit placeholder content for cards without data/content/<QID>.json
@@ -47,6 +49,9 @@ async function main(): Promise<void> {
       break;
     case 'portraits':
       await portraits();
+      break;
+    case 'portraits-web':
+      await portraitsWeb();
       break;
     case 'all':
       await build(options);

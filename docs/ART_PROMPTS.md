@@ -217,10 +217,13 @@ transparent background, no text, no numbers.
 
 ## 7. Illustrations des cartes (optionnel, après la v1)
 
-Aujourd'hui chaque carte a un **visuel procédural** (couleurs du drapeau, monogramme, motif d'époque).
-Le champ `artwork` du catalogue permet de le remplacer carte par carte.
+Depuis le 19/10/2026, 499 cartes affichent la **photo Wikimedia Commons** de la personne (licences et auteurs
+dans `data/portraits.manifest.json`, crédits dans l'app ; une seule carte sans photo garde le visuel procédural).
+Des illustrations générées peuvent remplacer une photo carte par carte (même nom de fichier dans
+`mobile/assets/portraits/<cardId>.webp`, puis `npm run sync:cards`). Les photos sources (`data/portraits/`,
+hors git) servent alors de référence.
 
-- **Fichier** : `data/artwork/<cardId>.webp` (ex. `s1-042.webp`), 1024×1434 (ratio 63:88), WebP qualité 85
+- **Fichier** : `mobile/assets/portraits/<cardId>.webp` (ex. `s1-042.webp`), 600×800 max, WebP qualité 78 (remplace la photo)
 - **Recommandations** :
   - style **illustré** (gravure, affiche, peinture), jamais photo-réaliste ;
   - **ne pas illustrer les cartes `sensitive`** : garder leur visuel procédural sobre (règle du brief) ;

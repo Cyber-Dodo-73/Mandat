@@ -36,7 +36,7 @@ export type TradingCardProps = {
 };
 
 /**
- * A MANDAT trading card. Layers, bottom to top: rarity frame, procedural artwork,
+ * A MANDAT trading card. Layers, bottom to top: rarity frame, portrait (or procedural artwork),
  * printed text, foil. Card text never scales with the system font size: the card is a
  * fixed-size object, read through its accessibility label instead.
  */
@@ -150,7 +150,14 @@ function CardFace({ card, finish, metrics, text }: FaceProps & { finish: CardFin
       ) : null}
 
       <View style={{ width: artWidth, height: artHeight - inset, borderRadius: artRadius, overflow: 'hidden' }}>
-        <CardArtwork card={card} name={text.name} width={artWidth} height={artHeight - inset} gold={finish === 'gold'} />
+        <CardArtwork
+          card={card}
+          name={text.name}
+          width={artWidth}
+          height={artHeight - inset}
+          gold={finish === 'gold'}
+          engraved={detail === 'full'}
+        />
         {detail === 'full' ? (
           <Text allowFontScaling={false} style={[styles.lifespan, { fontSize: 11 * unit, right: 8 * unit, top: 6 * unit }]}>
             {text.lifespan}
@@ -200,7 +207,14 @@ function FullArtFace({ card, metrics, text }: FaceProps) {
   return (
     <View style={[StyleSheet.absoluteFill, { padding: frame }]}>
       <View style={{ width: innerWidth, height: innerHeight, borderRadius: innerRadius, overflow: 'hidden' }}>
-        <CardArtwork card={card} name={text.name} width={innerWidth} height={innerHeight} fullBleed />
+        <CardArtwork
+          card={card}
+          name={text.name}
+          width={innerWidth}
+          height={innerHeight}
+          fullBleed
+          engraved={detail === 'full'}
+        />
         {detail === 'full' ? (
           <View style={[styles.fullArtTop, { padding: pad }]}>
             <FlagChip country={card.country} continent={card.continent} height={13 * unit} />

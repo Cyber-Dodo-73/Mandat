@@ -1,10 +1,21 @@
 import { useLocalSearchParams } from 'expo-router';
-import { StyleSheet, View } from 'react-native';
+import { Linking, StyleSheet, View } from 'react-native';
 
 import { CARD_WIDTHS, GOLD, isFinishAvailable, RarityPips, TradingCard } from '@/components/cards';
 import { ScreenHeader } from '@/components/navigation/ScreenHeader';
-import { Body, Caption, EmptyState, Heading, ProgressBar, ScreenContainer, Card as Surface, Text } from '@/components/ui';
+import {
+  Body,
+  Caption,
+  EmptyState,
+  Heading,
+  PressableScale,
+  ProgressBar,
+  ScreenContainer,
+  Card as Surface,
+  Text,
+} from '@/components/ui';
 import { getCard } from '@/data/catalog';
+import { portraitCreditFor } from '@/features/credits/credits';
 import { useTranslation } from '@/i18n';
 import { spacing } from '@/theme';
 import { rarityStyles } from '@/theme/rarity';
@@ -35,6 +46,26 @@ function parseFinish(card: Card, value: string | undefined): CardFinish {
   return isFinishAvailable(card.rarity, finish) ? finish : 'standard';
 }
 
+/** Attribution of the portrait, as its license requires; opens the Commons page. */
+function PhotoCredit({ cardId }: { cardId: string }) {
+  const { t } = useTranslation();
+  const credit = portraitCreditFor(cardId);
+  if (!credit) return null;
+  const label = t('credits.line', {
+    artist: credit.artist ?? t('credits.unknownAuthor'),
+    license: credit.license ?? t('credits.unknownLicense'),
+  });
+  const source = credit.sourcePage;
+  if (!source) return <Caption align="center" numberOfLines={2}>{label}</Caption>;
+  return (
+    <PressableScale accessibilityRole="link" accessibilityHint={t('credits.openSource')} onPress={() => void Linking.openURL(source)}>
+      <Caption align="center" numberOfLines={2}>
+        {label}
+      </Caption>
+    </PressableScale>
+  );
+}
+
 function CardDetail({ card, finish }: { card: Card; finish: CardFinish }) {
   const { t } = useTranslation();
   const text = useCardText(card);
@@ -47,6 +78,7 @@ function CardDetail({ card, finish }: { card: Card; finish: CardFinish }) {
       <View style={styles.hero}>
         <TradingCard card={card} finish={finish} size="hero" width={CARD_WIDTHS.hero} />
         <Caption align="center">{t('card.dragHint')}</Caption>
+        <PhotoCredit cardId={card.id} />
       </View>
 
       <View style={styles.identity}>

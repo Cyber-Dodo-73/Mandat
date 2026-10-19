@@ -71,7 +71,8 @@
     "check:i18n": "tsx scripts/check-i18n.ts",
     "api:gen": "npm exec --yes -- openapi-typescript@7.13.0 ../api/openapi.json -o src/lib/api/schema.d.ts",
     "start:tunnel": "expo start --dev-client --tunnel",
-    "sync:cards": "tsx scripts/sync-cards.ts"
+    "sync:cards": "tsx scripts/sync-cards.ts && tsx scripts/sync-portraits.ts",
+    "sync:portraits": "tsx scripts/sync-portraits.ts"
   },
   "private": true
 }

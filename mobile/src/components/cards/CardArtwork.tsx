@@ -11,12 +11,14 @@ import {
 } from '@shopify/react-native-skia';
 import { memo, useMemo } from 'react';
 
+import { portraits } from '@/data/portraits';
 import { monogram as monogramOf } from '@/features/collection/cardText';
 import type { Card } from '@/types/card';
 
 import { eraMotifPath, engravingPaths, guillochePath } from './engraving';
 import { flagPalette } from './flagColors';
 import { useMonogramFont } from './monogramFont';
+import { PortraitArtwork } from './PortraitArtwork';
 
 /** Desaturates and darkens sensitive cards: sober, no heroic color. */
 const SOBER_MATRIX = [
@@ -55,6 +57,8 @@ type CardArtworkProps = {
   fullBleed?: boolean;
   /** Gold prints: gold-tinted artwork. */
   gold?: boolean;
+  /** Large cards: engraved overlay on top of a portrait (thumbs stay a plain image). */
+  engraved?: boolean;
 };
 
 function colorMatrixFor(sensitive: boolean, gold: boolean): number[] | null {
@@ -63,10 +67,29 @@ function colorMatrixFor(sensitive: boolean, gold: boolean): number[] | null {
 }
 
 /**
- * Procedural portrait stand-in: flag-colored gradient, banknote guilloché, era frieze and
- * a large engraved monogram. Replaced by `card.artwork` once real illustrations exist.
+ * Card illustration: the bundled portrait when the card has one, otherwise the procedural
+ * stand-in (flag-colored gradient, banknote guilloché, era frieze, engraved monogram).
  */
-export const CardArtwork = memo(function CardArtwork({ card, name, width, height, fullBleed = false, gold = false }: CardArtworkProps) {
+export const CardArtwork = memo(function CardArtwork(props: CardArtworkProps) {
+  const source = portraits[props.card.id];
+  if (source) {
+    const { card, width, height, fullBleed, gold, engraved } = props;
+    return (
+      <PortraitArtwork
+        card={card}
+        source={source}
+        width={width}
+        height={height}
+        fullBleed={fullBleed}
+        gold={gold}
+        engraved={engraved}
+      />
+    );
+  }
+  return <ProceduralArtwork {...props} />;
+});
+
+const ProceduralArtwork = memo(function ProceduralArtwork({ card, name, width, height, fullBleed = false, gold = false }: CardArtworkProps) {
   const palette = flagPalette(card.country, card.continent);
   const paths = engravingPaths(card.era, width, height);
   const extra = useMemo(() => {

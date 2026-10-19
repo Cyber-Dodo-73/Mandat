@@ -304,5 +304,24 @@
   "offline": {
     "banner": "Offline. Your collection is still here; opening boosters comes back with the network.",
     "packOpening": "No connection. Your booster will wait: reconnect to open it."
+  },
+  "credits": {
+    "title": "Photo credits",
+    "settingsHint": "Authors and licenses of the portraits",
+    "openHint": "Opens the list of photo authors and licenses",
+    "intro": "The {{count}} card portraits come from Wikimedia Commons. Here are their authors and licenses.",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Name, photographer or license",
+    "sections": {
+      "attribution": "Licensed",
+      "publicDomain": "Public domain"
+    },
+    "source": "Source",
+    "openSource": "Opens the photo page on Wikimedia Commons",
+    "openLicense": "Opens the license text",
+    "unknownAuthor": "Unknown author",
+    "unknownLicense": "unknown license",
+    "line": "Photo: {{artist}}, {{license}}",
+    "empty": "No credit matches this search."
   }
 }

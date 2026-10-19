@@ -14,6 +14,7 @@ export const PATHS = {
   cardsOut: path.resolve(here, '../../../data/cards.season1.json'),
   portraitsDir: path.resolve(here, '../../../data/portraits'),
   portraitsManifest: path.resolve(here, '../../../data/portraits.manifest.json'),
+  portraitsWeb: path.resolve(here, '../../../mobile/assets/portraits'),
   historicStates: path.resolve(here, '../../../data/historic-states.json'),
   sensitive: path.resolve(here, '../../../data/sensitive.json'),
   exclusions: path.resolve(here, '../../../data/exclusions.json'),
@@ -23,6 +24,9 @@ export const PATHS = {
 };
 
 export const USER_AGENT = 'MANDAT-build-cards/0.1 (contact: dodolereporter@gmail.com)';
+
+/** App-sized portraits: fit inside this box, WebP quality below (see portraits-web). */
+export const PORTRAIT_WEB = { maxWidth: 600, maxHeight: 800, quality: 78 } as const;
 
 export const SEASON = 1;
 export const CARD_COUNT = 500;

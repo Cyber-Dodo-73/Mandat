@@ -28,6 +28,7 @@ function RootStack() {
           <Stack.Screen name="pack-opening" options={{ presentation: 'fullScreenModal', animation: 'fade' }} />
           <Stack.Screen name="user/[id]" />
           <Stack.Screen name="settings" />
+          <Stack.Screen name="credits" />
           <Stack.Screen name="dev/cards" />
         </Stack.Protected>
         <Stack.Protected guard={!signedIn}>
