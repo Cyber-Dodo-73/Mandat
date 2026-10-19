@@ -1,6 +1,7 @@
 package com.mandat.api.common.security;
 
+import java.io.Serializable;
 import java.util.UUID;
 
 /** Principal of an authenticated request; controllers read it with {@code @AuthenticationPrincipal}. */
-public record AuthenticatedUser(UUID id) {}
+public record AuthenticatedUser(UUID id) implements Serializable {}

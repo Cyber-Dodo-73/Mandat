@@ -1,0 +1,105 @@
+# Nickname moderation list (FR + EN). Read by NicknamePolicy.
+# Entries are compared against a normalized "skeleton" of the nickname: lowercase, accents removed,
+# leetspeak decoded (0→o, 1→i, 3→e, 4→a, 5→s, 7→t, 8→b, @→a, $→s...), separators removed and
+# repeated letters collapsed ("Hiiiitl3r" → "hitler"). Write entries in plain lowercase letters.
+#
+# [substring] blocks the entry anywhere in the nickname: only unambiguous terms belong here.
+# [exact]     blocks the whole nickname only (short or ambiguous words, avoids false positives).
+# [codes]     matched on the raw lowercase nickname with separators removed (numeric hate codes).
+
+[substring]
+# Extremism, nazism, terrorism
+hitler
+adolf
+nazi
+neonazi
+heil
+siegheil
+fuhrer
+fuehrer
+himmler
+goebbels
+gestapo
+waffen
+totenkopf
+swastika
+svastika
+croixgammee
+kukluxklan
+whitepower
+whitepride
+aryen
+holocaust
+shoah
+genocide
+daesh
+alqaida
+alqaeda
+djihadist
+jihadist
+terroris
+# Slurs and insults (EN)
+nigger
+nigga
+faggot
+fuck
+shit
+bitch
+cunt
+whore
+slut
+retard
+pedophil
+pedo
+# Slurs and insults (FR)
+negre
+bougnoul
+youpin
+pede
+tapette
+gouine
+encule
+connard
+conasse
+connasse
+salope
+putain
+batard
+# Impersonation of staff / the game
+admin
+moderat
+mandatofficial
+officiel
+official
+
+[exact]
+ss
+sa
+kkk
+fag
+fdp
+pd
+pute
+rape
+rapist
+viol
+nique
+niquer
+dick
+cock
+pussy
+tits
+merde
+con
+cul
+bite
+staff
+support
+mandat
+
+[codes]
+1488
+14/88
+hh88
+88hh
+14words

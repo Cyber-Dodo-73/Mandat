@@ -1,5 +1,6 @@
 package com.mandat.api.common.error;
 
+import com.mandat.api.common.ratelimit.RateLimitExceededException;
 import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,6 +27,13 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
     ResponseEntity<ProblemDetail> handleApiException(ApiException ex) {
         ErrorCode errorCode = ex.errorCode();
         return ResponseEntity.status(errorCode.status()).body(Problems.of(errorCode, ex.getMessage()));
+    }
+
+    @ExceptionHandler(RateLimitExceededException.class)
+    ResponseEntity<ProblemDetail> handleRateLimited(RateLimitExceededException ex) {
+        return ResponseEntity.status(ex.errorCode().status())
+                .header(HttpHeaders.RETRY_AFTER, Long.toString(ex.retryAfter().toSeconds()))
+                .body(Problems.of(ex.errorCode(), ex.getMessage()));
     }
 
     // Also reached from the security filter chain through ProblemDetailSecurityHandler.
