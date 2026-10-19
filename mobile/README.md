@@ -64,5 +64,6 @@ Server pushes go through the Expo push service (no Firebase SDK in the app).
 | `npm run lint` | ESLint (expo config) |
 | `npm test` | Jest |
 | `npm run check:i18n` | Fails if FR and EN keys differ |
+| `npm run check:worklets` | Fails if a UI-thread callback (animated style, gesture, `withTiming` callback, `'worklet'` function) calls a non-worklet function; Jest runs worklets on JS and cannot catch these release crashes |
 | `npm run api:gen` | Regenerates the typed API client from `../api/openapi.json` |
 | `npm run sync:cards` | Copies `../data/cards.season1.json` into the app |

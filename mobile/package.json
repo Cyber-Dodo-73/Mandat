@@ -73,6 +73,7 @@
     "typecheck": "tsc --noEmit",
     "test": "jest",
     "check:i18n": "tsx scripts/check-i18n.ts",
+    "check:worklets": "tsx scripts/check-worklets.ts",
     "api:gen": "npm exec --yes -- openapi-typescript@7.13.0 ../api/openapi.json -o src/lib/api/schema.d.ts",
     "start:tunnel": "expo start --dev-client --tunnel",
     "sync:cards": "tsx scripts/sync-cards.ts && tsx scripts/sync-portraits.ts && tsx scripts/sync-cosmetics.ts",
