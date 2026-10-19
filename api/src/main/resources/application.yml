@@ -76,6 +76,11 @@ mandat:
     google:
       # OAuth client ids (iOS, Android, web), comma-separated. Empty disables Google sign-in.
       client-ids: ${MANDAT_GOOGLE_CLIENT_IDS:}
+  push:
+    # Expo push service. The access token is optional (only needed with "enhanced push security").
+    enabled: ${MANDAT_PUSH_ENABLED:true}
+    expo-access-token: ${MANDAT_EXPO_ACCESS_TOKEN:}
+    jobs-enabled: ${MANDAT_PUSH_JOBS_ENABLED:true}
   rate-limit:
     policies:
       auth-register-ip: { capacity: 5, period: PT1H }
