@@ -9,8 +9,8 @@ public final class QuizRules {
     public static final int LIVES = 3;
     public static final Duration SESSION_TTL = Duration.ofMinutes(30);
 
-    public static final int INFLUENCE_PER_CORRECT = 2;
-    public static final int PERFECT_BONUS_INFLUENCE = 10;
+    public static final int INFLUENCE_PER_CORRECT = 1;
+    public static final int PERFECT_BONUS_INFLUENCE = 5;
     /** A bonus booster every N perfect quizzes. */
     public static final int PERFECT_QUIZZES_PER_BOOSTER = 5;
 

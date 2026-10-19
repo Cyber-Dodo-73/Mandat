@@ -39,11 +39,11 @@ class XpCurveTest {
     void levelRewards() {
         LevelRewardCatalog catalog = new LevelRewardCatalog();
         assertThat(catalog.rewardFor(1)).isEqualTo(Reward.NONE);
-        assertThat(catalog.rewardFor(3)).isEqualTo(Reward.influence(50));
+        assertThat(catalog.rewardFor(3)).isEqualTo(Reward.influence(20));
         assertThat(catalog.rewardFor(2).bonusPacks()).isEqualTo(1);
 
         Reward level10 = catalog.rewardFor(10);
-        assertThat(level10.influence()).isEqualTo(50);
+        assertThat(level10.influence()).isEqualTo(20);
         assertThat(level10.bonusPacks()).isEqualTo(1);
         assertThat(level10.unlocks()).containsExactly(
                 new Unlock(Unlock.Kind.avatar, "avatar.level_10"),

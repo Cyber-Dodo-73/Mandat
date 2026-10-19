@@ -446,6 +446,28 @@
         "tags" : [ "Duels" ]
       }
     },
+    "/api/v1/economy" : {
+      "get" : {
+        "operationId" : "economy",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/EconomyResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Craft costs, recycle values and duplicate bonuses per rarity and finish",
+        "tags" : [ "Collection" ]
+      }
+    },
     "/api/v1/friends" : {
       "get" : {
         "operationId" : "friends",
@@ -556,6 +578,28 @@
         } ],
         "summary" : "Accept a friend request received from this player",
         "tags" : [ "Social" ]
+      }
+    },
+    "/api/v1/limits" : {
+      "get" : {
+        "operationId" : "limits",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/LimitsResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Rewards left today (quizzes, duel wins) and the crafting allowance",
+        "tags" : [ "Collection" ]
       }
     },
     "/api/v1/me" : {
@@ -1766,6 +1810,29 @@
         },
         "required" : [ "commonCards", "friendCode", "theyHaveYouDont", "youHaveTheyDont" ]
       },
+      "CraftAllowanceDto" : {
+        "type" : "object",
+        "properties" : {
+          "available" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "intervalHours" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "max" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "nextAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "description" : "When the next craft is earned; null when the stock is full"
+          }
+        },
+        "required" : [ "available", "intervalHours", "max" ]
+      },
       "CraftResponse" : {
         "type" : "object",
         "properties" : {
@@ -1806,6 +1873,24 @@
           }
         },
         "required" : [ "cardIds", "difficulty" ]
+      },
+      "DailyCapDto" : {
+        "type" : "object",
+        "properties" : {
+          "perDay" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "remaining" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "used" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "perDay", "remaining", "used" ]
       },
       "DrawnCardDto" : {
         "type" : "object",
@@ -1922,12 +2007,42 @@
       "DuelRewardDto" : {
         "type" : "object",
         "properties" : {
+          "capped" : {
+            "type" : "boolean",
+            "description" : "True when the daily cap of rewarded duel wins was already reached"
+          },
           "influence" : {
             "type" : "integer",
             "format" : "int32"
           }
         },
-        "required" : [ "influence" ]
+        "required" : [ "capped", "influence" ]
+      },
+      "EconomyResponse" : {
+        "type" : "object",
+        "properties" : {
+          "craftFinish" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "finishes" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/FinishMultiplierDto"
+            }
+          },
+          "keptCopiesWhenRecycling" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "rarities" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/RarityValuesDto"
+            }
+          }
+        },
+        "required" : [ "craftFinish", "finishes", "keptCopiesWhenRecycling", "rarities" ]
       },
       "EffectConditionDto" : {
         "type" : "object",
@@ -1942,6 +2057,20 @@
           }
         },
         "required" : [ "kind" ]
+      },
+      "FinishMultiplierDto" : {
+        "type" : "object",
+        "properties" : {
+          "finish" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "multiplier" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "finish", "multiplier" ]
       },
       "FinishOddsDto" : {
         "type" : "object",
@@ -2059,6 +2188,26 @@
           }
         },
         "required" : [ "friends", "incoming", "maxFriends", "outgoing" ]
+      },
+      "LimitsResponse" : {
+        "type" : "object",
+        "properties" : {
+          "crafts" : {
+            "$ref" : "#/components/schemas/CraftAllowanceDto"
+          },
+          "dailyResetAt" : {
+            "type" : "string",
+            "format" : "date-time",
+            "description" : "Start of the player's next local day, when daily caps reset"
+          },
+          "duelWinRewards" : {
+            "$ref" : "#/components/schemas/DailyCapDto"
+          },
+          "quizRewards" : {
+            "$ref" : "#/components/schemas/DailyCapDto"
+          }
+        },
+        "required" : [ "crafts", "dailyResetAt", "duelWinRewards", "quizRewards" ]
       },
       "LocalizedText" : {
         "type" : "object",
@@ -2718,12 +2867,16 @@
           "perfect" : {
             "type" : "boolean"
           },
+          "rewardCapped" : {
+            "type" : "boolean",
+            "description" : "True when the daily reward cap was already reached: no Influence nor booster progress"
+          },
           "totalQuestions" : {
             "type" : "integer",
             "format" : "int32"
           }
         },
-        "required" : [ "bonusPack", "correctAnswers", "influence", "perfect", "totalQuestions" ]
+        "required" : [ "bonusPack", "correctAnswers", "influence", "perfect", "rewardCapped", "totalQuestions" ]
       },
       "QuizSessionResponse" : {
         "type" : "object",
@@ -2783,6 +2936,28 @@
           }
         },
         "required" : [ "percent", "rarity" ]
+      },
+      "RarityValuesDto" : {
+        "type" : "object",
+        "properties" : {
+          "craftCost" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "duplicateBonus" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "rarity" : {
+            "type" : "string",
+            "enum" : [ "common", "uncommon", "rare", "epic", "legendary", "mythic" ]
+          },
+          "recycleValue" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "craftCost", "duplicateBonus", "rarity", "recycleValue" ]
       },
       "RecycleRequest" : {
         "type" : "object",

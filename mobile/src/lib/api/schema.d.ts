@@ -251,6 +251,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/economy": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Craft costs, recycle values and duplicate bonuses per rarity and finish */
+        get: operations["economy"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/friends": {
         parameters: {
             query?: never;
@@ -297,6 +314,23 @@ export interface paths {
         put?: never;
         /** Accept a friend request received from this player */
         post: operations["accept"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/v1/limits": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Rewards left today (quizzes, duel wins) and the crafting allowance */
+        get: operations["limits"];
+        put?: never;
+        post?: never;
         delete?: never;
         options?: never;
         head?: never;
@@ -899,6 +933,19 @@ export interface components {
             theyHaveYouDont: components["schemas"]["CompareEntry"][];
             youHaveTheyDont: components["schemas"]["CompareEntry"][];
         };
+        CraftAllowanceDto: {
+            /** Format: int32 */
+            available: number;
+            /** Format: int32 */
+            intervalHours: number;
+            /** Format: int32 */
+            max: number;
+            /**
+             * Format: date-time
+             * @description When the next craft is earned; null when the stock is full
+             */
+            nextAt?: string | null;
+        };
         CraftResponse: {
             cardId: string;
             /** @enum {string} */
@@ -913,6 +960,14 @@ export interface components {
             cardIds: string[];
             /** @enum {string} */
             difficulty: "easy" | "normal" | "hard";
+        };
+        DailyCapDto: {
+            /** Format: int32 */
+            perDay: number;
+            /** Format: int32 */
+            remaining: number;
+            /** Format: int32 */
+            used: number;
         };
         DrawnCardDto: {
             cardId: string;
@@ -963,14 +1018,30 @@ export interface components {
             winner?: "player" | "ai" | "draw" | null;
         };
         DuelRewardDto: {
+            /** @description True when the daily cap of rewarded duel wins was already reached */
+            capped: boolean;
             /** Format: int32 */
             influence: number;
+        };
+        EconomyResponse: {
+            /** @enum {string} */
+            craftFinish: "standard" | "holo" | "full_art" | "gold";
+            finishes: components["schemas"]["FinishMultiplierDto"][];
+            /** Format: int32 */
+            keptCopiesWhenRecycling: number;
+            rarities: components["schemas"]["RarityValuesDto"][];
         };
         EffectConditionDto: {
             /** @enum {string} */
             kind: "always" | "opponentContinent" | "opponentEra" | "roundDomain" | "round" | "behind" | "opponentRarityHigher";
             /** @description same|different, an era, a stat, or a round number as text */
             value?: string | null;
+        };
+        FinishMultiplierDto: {
+            /** @enum {string} */
+            finish: "standard" | "holo" | "full_art" | "gold";
+            /** Format: int32 */
+            multiplier: number;
         };
         FinishOddsDto: {
             /** @enum {string} */
@@ -1021,6 +1092,16 @@ export interface components {
             maxFriends: number;
             /** @description Requests I sent, not answered yet */
             outgoing: components["schemas"]["FriendDto"][];
+        };
+        LimitsResponse: {
+            crafts: components["schemas"]["CraftAllowanceDto"];
+            /**
+             * Format: date-time
+             * @description Start of the player's next local day, when daily caps reset
+             */
+            dailyResetAt: string;
+            duelWinRewards: components["schemas"]["DailyCapDto"];
+            quizRewards: components["schemas"]["DailyCapDto"];
         };
         LocalizedText: {
             en: string;
@@ -1310,6 +1391,8 @@ export interface components {
             /** Format: int32 */
             influence: number;
             perfect: boolean;
+            /** @description True when the daily reward cap was already reached: no Influence nor booster progress */
+            rewardCapped: boolean;
             /** Format: int32 */
             totalQuestions: number;
         };
@@ -1339,6 +1422,16 @@ export interface components {
             percent: number;
             /** @enum {string} */
             rarity: "common" | "uncommon" | "rare" | "epic" | "legendary" | "mythic";
+        };
+        RarityValuesDto: {
+            /** Format: int32 */
+            craftCost: number;
+            /** Format: int32 */
+            duplicateBonus: number;
+            /** @enum {string} */
+            rarity: "common" | "uncommon" | "rare" | "epic" | "legendary" | "mythic";
+            /** Format: int32 */
+            recycleValue: number;
         };
         RecycleRequest: {
             /** @enum {string} */
@@ -1833,6 +1926,26 @@ export interface operations {
             };
         };
     };
+    economy: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EconomyResponse"];
+                };
+            };
+        };
+    };
     friends: {
         parameters: {
             query?: never;
@@ -1917,6 +2030,26 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["FriendsResponse"];
+                };
+            };
+        };
+    };
+    limits: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["LimitsResponse"];
                 };
             };
         };

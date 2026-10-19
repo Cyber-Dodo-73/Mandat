@@ -18,7 +18,7 @@ d'activer les paiements.
 | D4 | **Monnaie premium** | Une seule monnaie achetable, les **Sceaux**, qui ne sert qu'aux cosmétiques. Le prix en € est toujours affiché à côté. L'Influence reste gagnée en jeu, jamais achetable. |
 | D5 | **Belgique et Pays-Bas** | Ouvrir l'app, mais **dans ces vitrines, la Réserve Premium donne de l'Influence et un craft gratuit au lieu de boosters** (aucun objet aléatoire lié à un paiement). Le pays se lit dans la vitrine App Store, pas dans l'IP. Les cotes restent affichées partout. |
 | D6 | **Pubs récompensées** | **Non** en v1/v1.2. Mauvais fit pour la marque (figures politiques à côté de pubs arbitraires), consentement RGPD/ATT, revenus faibles à notre volume. On réévaluera en v2 pour l'Afrique francophone seulement. |
-| D7 | **Réglage de l'économie** | Appliquer le scénario `tuned` : saisons de **14 semaines**, passe à **400 XP/palier** (aujourd'hui il est fini en 21 jours), craft épique/légendaire/mythique à **600/1 500/4 000**. Résultat : un F2P assidu finit le set en ~5 mois, un Premium assidu dans la saison (~94 jours). |
+| D7 | **Réglage de l'économie** | **Craft : appliqué le 19/10/2026** (§3.5) : « 10 doublons = 1 carte », quota de **1 craft toutes les 48 h** (stock 3), plafonds **3 quiz et 5 victoires en duel récompensés par jour**, autres sources réduites. Résultat : ~0,5 craft/j pour tous les profils, set complet en ~9 mois (F2P assidu) et ~4,3 mois (Premium assidu). **Reste à décider** : saisons de 14 semaines et passe à 400 XP/palier (scénario `tuned`, le passe se finit aujourd'hui en 21 jours). |
 | D8 | **Paiements** | **RevenueCat** (`react-native-purchases`), avec webhooks vers l'API Spring et une table `entitlements` côté serveur, qui reste la source de vérité. Gratuit jusqu'à 2 500 $/mois de revenu suivi, puis 1 %. |
 | D9 | **Échanges entre amis** | Oui en v1.2, mais **seulement entre amis** depuis au moins 7 jours, rareté égale, jusqu'à épique, avec un coût en Influence. Aucun lien avec l'argent : on reste hors du régime JONUM et on limite le farming. |
 | D10 | **Marketing payant** | Pas de pubs Meta ou Google montrant des personnalités politiques réelles. Ces plateformes ont arrêté les pubs politiques dans l'UE (règlement TTPA, oct. 2025), donc on risque le rejet. Les visuels de campagne montrent le jeu, des figures historiques non controversées, ou les cartes floutées. |
@@ -297,6 +297,65 @@ Autres réglages à prévoir (non simulés) :
 - **Saison 2** : +150 à 200 cartes. Garder le booster de la saison en cours comme standard, et la saison 1 dans un booster « Archives » au choix.
 - **Booster thématique choisi** (continent) : il accélère la complétion d'un continent ; le modèle suppose des boosters standard.
 - **Recyclage de finitions** : x2, x4 et x10 rendent un or recyclé très rentable (4 000 Influence pour un mythique or). C'est voulu, mais il faut surveiller l'inflation d'Influence en v1.2 via les KPI (section 6).
+
+### 3.5 Économie de craft : appliquée le 19/10/2026 (scénario `rebalanced`)
+
+**Demande** : on obtient trop d'Influence. Un F2P actif devait pouvoir fabriquer **au plus ~1 carte tous les 2 jours en moyenne**.
+**Contrainte** (revue TCG, `docs/TCG_REVIEW.md` §3.4) : garder un ratio lisible, « **10 doublons d'une rareté = 1 carte de cette rareté** ». Les doublons ne doivent jamais devenir sans valeur.
+
+**Mesure de départ** (`current`, le joueur fabrique dès qu'il peut) : un F2P assidu gagne **400 Influence/j** pour un craft moyen à 136. Il pourrait donc fabriquer **2,9 cartes/jour**, presque toutes des communes. Avec quiz et duels illimités (profil « acharné » : 6 quiz et 12 duels par jour), il monte à **715/j**, dont 139 de quiz et 158 de duels.
+
+**Pourquoi le ratio 1:10 ne suffit pas seul.** Un F2P assidu tire ~14 cartes par jour, dont ~8–9 doublons. Avec 1:10, le recyclage seul finance déjà **~0,9 craft par jour** de la même rareté. Même en coupant toutes les autres sources (variante `ratio10_min_faucets`), on reste à **1,15 craft/j**. Avec un ratio 1:20 (`ratio20`), c'est encore **1,25**. Grille 1:10 et sources coupées sans plafond de craft (`rebalanced_no_allowance`) : **1,57 craft/j**. Le rythme visé ne peut donc pas venir du seul prix : il passe par un **quota de fabrication côté serveur**. C'est la règle qu'on peut expliquer au joueur.
+
+**Ce qui est livré (API = source unique, exposée par `GET /api/v1/economy` et `GET /api/v1/limits`)** :
+
+| Rareté | Craft | Recyclage (standard) | Bonus doublon (fixe) |
+|---|---|---|---|
+| Commune | 100 | 10 | 2 |
+| Peu commune | 200 | 20 | 4 |
+| Rare | 500 | 50 | 10 |
+| Épique | 1 200 | 120 | 25 |
+| Légendaire | 3 000 | 300 | 60 |
+| Mythique | 8 000 | 800 | 150 |
+
+- **Multiplicateurs de finition sur le recyclage seulement** : holo ×2, full art ×4, **or ×5** (au lieu de ×10). Le bonus doublon à l'ouverture est fixe.
+- **Quota de fabrication** : **1 craft gagné toutes les 48 h, stock max 3**, 1 au départ. C'est minuté comme les boosters : on ne cumule pas au-delà du stock. Erreur `craft_limit_reached` (409), compte à rebours dans l'app.
+- **Plafonds quotidiens** (jour local du joueur) : **3 quiz récompensés** et **5 victoires en duel récompensées**. Au-delà, le jeu continue et rapporte de l'XP, mais plus d'Influence ni de progression vers le booster des quiz parfaits. L'app reçoit `rewardCapped` / `capped` et le reste du jour via `/limits`.
+- **Autres sources réduites** :
+
+| Source | Avant | Après |
+|---|---|---|
+| Niveau | 50 | 20 |
+| Missions | 20 à 200 | ×0,3, arrondi à 5 (5 à 60) |
+| Succès | 25 à 400 par palier | ×0,4 (10 à 160) |
+| Paliers Influence du passe | 50 + 10 × (palier/10) | 20 + 5 × (palier/10) |
+| Quiz | 2/bonne réponse + 10 si parfait | 1 + 5 |
+| Duel | 10/20/35, nul 5, défaite 3 | 4/6/10, nul 2, défaite 1 |
+
+- **Aucun effet rétroactif** : les soldes d'Influence et les collections existants ne changent pas. Seuls les gains et coûts à venir suivent la nouvelle grille.
+
+**Résultats** (80 parties par profil, horizon 730 j, saison de 91 j, `python3 scripts/economy/simulate.py --scenario rebalanced --runs 80`) :
+
+| Profil | Influence/j avant → après | **Crafts/j avant → après** | Craft moyen | % set J91 | **Set 500 (médiane)** avant → après |
+|---|---|---|---|---|---|
+| F2P occasionnel | 271 → 278 | 2,43 → **0,50** | 538 | 87 % | 184 → **324 j** |
+| F2P assidu | 400 → 370 | 2,89 → **0,51** | 709 | 90 % | 132 → **268 j** |
+| F2P acharné (6 quiz, 12 duels/j) | 715 → 475 | 3,34 → **0,51** | 904 | 93 % | 86 → **226 j** |
+| Premium occasionnel | 494 → 646 | 2,61 → **0,50** | 1 249 | 97 % | 99 → **160 j** |
+| Premium assidu | 635 → 771 | 2,87 → **0,50** | 1 488 | 98 % | 82 → **130 j** |
+
+*« Avant » : crafts/j mesurés en fabriquant dès que possible, et set complet avec la meilleure stratégie de craft. « Après » : le quota décide du rythme, et le joueur garde ses crafts pour la carte la plus rare qu'il peut se payer.*
+
+Sources d'Influence par jour pour un F2P assidu, saison 1 : recyclage 229, bonus doublons 52, missions 28, passe 13, niveaux 8, succès 16, quiz 11, duels 12. Le recyclage représente 62 % du total.
+
+Effets :
+
+- **Le craft devient un choix** : on fabrique une rare ou une épique tous les 2 jours (23 et 17 crafts par saison pour un F2P assidu), presque plus jamais de communes. Les communes et peu communes viennent des boosters.
+- **Les doublons gardent leur valeur** : « 10 doublons = 1 carte » se lit tel quel. Le joueur accumule de l'Influence plus vite qu'il ne peut la dépenser, donc il a toujours de quoi fabriquer quand le quota se libère.
+- **La fin de collection ralentit** : set complet en ~9 mois pour un F2P assidu (au lieu de ~4,3), ~4,3 mois pour un Premium assidu. Le % de set à la fin de la saison 1 reste élevé (87 à 98 %), car ce sont les boosters qui le portent.
+- **Le farming est borné** : l'« acharné » ne gagne plus que ~30 % de plus qu'un assidu, contre ~80 % avant.
+
+**À surveiller / suite** : l'Influence s'accumule sans autre usage que le craft. Les puits proposés par la revue TCG (§3.4 : améliorer une finition, crafter une finition holo, relancer une mission) deviennent prioritaires en v1.2, avec le KPI « Influence moyenne non dépensée ». La promesse « Premium finit la saison » ne tient plus : le Premium garde ×1,75 de boosters et 98 % du set à J91, mais le set complet demande ~130 j. À décider : avantage de quota Premium (par exemple stock 4) ou non.
 
 ---
 

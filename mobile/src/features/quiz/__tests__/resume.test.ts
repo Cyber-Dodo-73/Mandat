@@ -39,7 +39,7 @@ describe('quiz resume', () => {
       explanation: '',
       finished: true,
       lives: 0,
-      result: { bonusPack: false, correctAnswers: 2, influence: 4, perfect: false, totalQuestions: 10 },
+      result: { bonusPack: false, correctAnswers: 2, influence: 4, perfect: false, rewardCapped: false, totalQuestions: 10 },
     };
     const next = applyAnswer(session({}), answer);
     expect(next).toMatchObject({ answeredCount: 4, lives: 0, status: 'completed', correctCount: 2 });

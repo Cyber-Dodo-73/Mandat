@@ -41,5 +41,9 @@ public final class DuelDtos {
             @Schema(nullable = true, description = "Granted when the duel finishes") DuelRewardDto reward,
             Instant createdAt) {}
 
-    public record DuelRewardDto(int influence) {}
+    public record DuelRewardDto(
+            int influence,
+            @io.swagger.v3.oas.annotations.media.Schema(
+                    description = "True when the daily cap of rewarded duel wins was already reached")
+                    boolean capped) {}
 }

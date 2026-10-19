@@ -137,6 +137,38 @@ class DuelApiTest {
     }
 
     @Test
+    void duelInfluenceStopsAfterTheDailyCapOfRewardedWins() throws Exception {
+        UUID user = newUser(jdbc);
+        give(user, TEAM);
+        String state = create(user, TEAM, "normal").andExpect(status().isCreated())
+                .andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
+        UUID duel = UUID.fromString(JsonPath.read(state, "$.id"));
+        // Five wins already rewarded today (same server day as this duel).
+        for (int i = 0; i < com.mandat.api.economy.RewardLimits.DUEL_WIN_REWARDS_PER_DAY; i++) {
+            jdbc.sql("""
+                            insert into duels (id, user_id, difficulty, status, player_cards, ai_cards, winner,
+                                created_at, finished_at, rewarded, reward_influence)
+                            select :id, user_id, 'normal', 'finished', player_cards, ai_cards, 'player',
+                                created_at, created_at, true, 6
+                            from duels where id = :duel
+                            """)
+                    .param("id", UUID.randomUUID()).param("duel", duel).update();
+        }
+        int played = 0;
+        while ("active".equals(JsonPath.read(state, "$.status"))) {
+            state = round(user, duel, TEAM.get(played++)).andExpect(status().isOk())
+                    .andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
+        }
+        assertThat((Integer) JsonPath.read(state, "$.reward.influence")).isZero();
+        assertThat((Boolean) JsonPath.read(state, "$.reward.capped")).isTrue();
+        assertThat(ledger(jdbc, user, "influence", WalletSource.DUEL_REWARD)).isZero();
+        // The stored reward is what a later read returns.
+        mockMvc.perform(get("/api/v1/duels/{id}", duel).with(as(user)))
+                .andExpect(jsonPath("$.reward.influence").value(0))
+                .andExpect(jsonPath("$.reward.capped").value(true));
+    }
+
+    @Test
     void startingANewDuelAbandonsThePreviousOne() throws Exception {
         UUID user = newUser(jdbc);
         give(user, TEAM);

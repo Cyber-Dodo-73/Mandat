@@ -13,6 +13,7 @@ import com.mandat.api.common.events.CardCraftedEvent;
 import com.mandat.api.common.events.CardsRecycledEvent;
 import com.mandat.api.common.wallet.WalletService;
 import com.mandat.api.common.wallet.WalletSource;
+import com.mandat.api.economy.CraftAllowanceService;
 import java.sql.Timestamp;
 import java.time.Clock;
 import java.time.Instant;
@@ -37,6 +38,7 @@ public class CollectionService {
     private final ApplicationEventPublisher events;
     private final JdbcClient jdbc;
     private final Clock clock;
+    private final CraftAllowanceService craftAllowance;
 
     public CollectionService(
             CollectionItemRepository repository,
@@ -44,13 +46,15 @@ public class CollectionService {
             WalletService walletService,
             ApplicationEventPublisher events,
             JdbcClient jdbc,
-            Clock clock) {
+            Clock clock,
+            CraftAllowanceService craftAllowance) {
         this.repository = repository;
         this.catalogService = catalogService;
         this.walletService = walletService;
         this.events = events;
         this.jdbc = jdbc;
         this.clock = clock;
+        this.craftAllowance = craftAllowance;
     }
 
     @Transactional(readOnly = true)
@@ -152,6 +156,11 @@ public class CollectionService {
             throw new ApiException(ErrorCode.CARD_ALREADY_OWNED);
         }
         int cost = EconomyRules.CRAFT_COST.get(card.getRarity());
+        if (walletService.balance(userId).influence() < cost) {
+            throw new ApiException(ErrorCode.INSUFFICIENT_INFLUENCE);
+        }
+        // Pace: about one craft every two days (RewardLimits); rolled back with the craft on failure.
+        craftAllowance.consume(userId, clock.instant());
         walletService.spendInfluence(userId, cost, WalletSource.CRAFT);
         addAll(userId, List.of(new Grant(cardId, CardFinish.STANDARD)));
         events.publishEvent(new CardCraftedEvent(userId, cardId, cost, clock.instant()));

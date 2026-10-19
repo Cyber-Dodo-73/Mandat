@@ -19,6 +19,7 @@ export const API_ERROR_CODES = [
   'pack_locked',
   'idempotency_key_reused',
   'idempotency_key_required',
+  'craft_limit_reached',
   'card_not_owned',
   'not_enough_duplicates',
   'card_already_owned',

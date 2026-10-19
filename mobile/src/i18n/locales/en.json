@@ -97,6 +97,10 @@
       "medieval": "Middle Ages",
       "modern": "Modern",
       "contemporary": "Contemporary"
+    },
+    "craftAllowance": {
+      "available": "Crafts available: {{available}}/{{max}}",
+      "next": "Next craft in {{time}}"
     }
   },
   "packs": {
@@ -460,7 +464,8 @@
     "quiz_session_expired": "This quiz has expired. Start a new one.",
     "quiz_answer_out_of_order": "This question has already been answered.",
     "duel_finished": "This duel is over.",
-    "duel_card_unavailable": "This card is no longer in your hand."
+    "duel_card_unavailable": "This card is no longer in your hand.",
+    "craft_limit_reached": "No craft available right now: a new one arrives every 48 h."
   },
   "notFound": {
     "title": "Page not found",
@@ -870,7 +875,8 @@
       "bonusPackTitle": "Bonus booster earned",
       "bonusPackBody": "It's waiting on the home screen.",
       "retry": "Play again",
-      "done": "Done"
+      "done": "Done",
+      "rewardCapped": "Daily cap reached: this quiz still gives XP, but no more Influence. Come back tomorrow!"
     }
   },
   "duel": {
@@ -932,7 +938,8 @@
       "influence": "+{{amount}} Influence",
       "xp": "XP added",
       "again": "Play again",
-      "done": "Done"
+      "done": "Done",
+      "rewardCapped": "Daily cap reached (5 rewarded wins): this duel no longer gives Influence."
     }
   },
   "ftue": {

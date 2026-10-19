@@ -80,25 +80,49 @@ class QuizApiTest {
     void perfectQuizGrantsInfluenceAndEveryFifthABonusBooster() throws Exception {
         UUID user = newUser(jdbc);
         for (int quiz = 1; quiz <= 5; quiz++) {
-            UUID session = sessionId(start(user, "fr"));
-            List<List<String>> answers = correctAnswers(session);
-            String last = null;
-            for (int i = 0; i < 10; i++) {
-                last = answer(user, session, i, answers.get(i)).andExpect(status().isOk())
-                        .andExpect(jsonPath("$.correct").value(true))
-                        .andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
-            }
+            String last = playPerfectQuiz(user);
+            // One quiz per day, so the daily reward cap never applies here.
+            jdbc.sql("update quiz_sessions set completed_at = completed_at - interval '1 day' where user_id = :id")
+                    .param("id", user).update();
             assertThat((Boolean) JsonPath.read(last, "$.finished")).isTrue();
             assertThat((Boolean) JsonPath.read(last, "$.result.perfect")).isTrue();
-            assertThat((Integer) JsonPath.read(last, "$.result.influence")).isEqualTo(30);
+            assertThat((Integer) JsonPath.read(last, "$.result.influence")).isEqualTo(QuizRules.influence(10, true));
             assertThat((Boolean) JsonPath.read(last, "$.result.bonusPack")).isEqualTo(quiz == 5);
         }
-        assertThat(ledger(jdbc, user, "influence", WalletSource.QUIZ_REWARD)).isEqualTo(5 * 30);
+        assertThat(ledger(jdbc, user, "influence", WalletSource.QUIZ_REWARD)).isEqualTo(5 * QuizRules.influence(10, true));
         assertThat(ledger(jdbc, user, "bonus_packs", WalletSource.QUIZ_REWARD)).isEqualTo(1);
         // The completion event reached progression.
         Integer perfectQuizzes = jdbc.sql("select perfect_quizzes from player_stats where user_id = :id")
                 .param("id", user).query(Integer.class).optional().orElse(null);
         assertThat(perfectQuizzes).isEqualTo(5);
+    }
+
+    @Test
+    void quizRewardsAreCappedPerDay() throws Exception {
+        UUID user = newUser(jdbc);
+        for (int quiz = 1; quiz <= com.mandat.api.economy.RewardLimits.QUIZ_REWARDS_PER_DAY + 1; quiz++) {
+            String last = playPerfectQuiz(user);
+            boolean capped = quiz > com.mandat.api.economy.RewardLimits.QUIZ_REWARDS_PER_DAY;
+            assertThat((Boolean) JsonPath.read(last, "$.result.rewardCapped")).as("quiz " + quiz).isEqualTo(capped);
+            assertThat((Integer) JsonPath.read(last, "$.result.influence")).as("quiz " + quiz)
+                    .isEqualTo(capped ? 0 : QuizRules.influence(10, true));
+        }
+        // A capped quiz does not count towards the perfect-quiz bonus booster either.
+        Integer perfectCount = jdbc.sql("select perfect_count from quiz_player_stats where user_id = :id")
+                .param("id", user).query(Integer.class).single();
+        assertThat(perfectCount).isEqualTo(com.mandat.api.economy.RewardLimits.QUIZ_REWARDS_PER_DAY);
+    }
+
+    private String playPerfectQuiz(UUID user) throws Exception {
+        UUID session = sessionId(start(user, "fr"));
+        List<List<String>> answers = correctAnswers(session);
+        String last = null;
+        for (int i = 0; i < 10; i++) {
+            last = answer(user, session, i, answers.get(i)).andExpect(status().isOk())
+                    .andExpect(jsonPath("$.correct").value(true))
+                    .andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
+        }
+        return last;
     }
 
     @Test

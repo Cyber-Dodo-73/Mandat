@@ -48,6 +48,11 @@ export function QuizEnd({ result, onRetry }: QuizEndProps) {
         ) : null}
         <Badge label={t('quiz.end.xp')} />
       </View>
+      {result.rewardCapped ? (
+        <Body tone="muted" align="center">
+          {t('quiz.end.rewardCapped')}
+        </Body>
+      ) : null}
 
       {result.bonusPack ? (
         <Card raised style={[styles.bonus, { borderColor: colors.accent }]}>

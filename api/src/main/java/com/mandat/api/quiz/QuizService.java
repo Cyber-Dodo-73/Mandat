@@ -8,6 +8,7 @@ import com.mandat.api.common.error.ErrorCode;
 import com.mandat.api.common.events.QuizCompletedEvent;
 import com.mandat.api.common.wallet.WalletService;
 import com.mandat.api.common.wallet.WalletSource;
+import com.mandat.api.economy.DailyRewardLimits;
 import com.mandat.api.quiz.dto.QuizDtos.AnswerResponse;
 import com.mandat.api.quiz.dto.QuizDtos.QuestionDto;
 import com.mandat.api.quiz.dto.QuizDtos.QuizResultDto;
@@ -46,6 +47,7 @@ public class QuizService {
     private final RandomGenerator random;
     private final JsonMapper jsonMapper;
     private final Clock clock;
+    private final DailyRewardLimits dailyLimits;
 
     public QuizService(
             JdbcClient jdbc,
@@ -55,7 +57,8 @@ public class QuizService {
             ApplicationEventPublisher events,
             RandomGenerator random,
             JsonMapper jsonMapper,
-            Clock clock) {
+            Clock clock,
+            DailyRewardLimits dailyLimits) {
         this.jdbc = jdbc;
         this.catalog = catalog;
         this.catalogProperties = catalogProperties;
@@ -64,6 +67,7 @@ public class QuizService {
         this.random = random;
         this.jsonMapper = jsonMapper;
         this.clock = clock;
+        this.dailyLimits = dailyLimits;
     }
 
     @Transactional
@@ -161,12 +165,14 @@ public class QuizService {
 
     private QuizResultDto complete(UUID userId, UUID sessionId, int correct, int total, Instant now) {
         boolean perfect = correct == total;
-        int influence = QuizRules.influence(correct, perfect);
+        // Daily cap (RewardLimits): beyond it the quiz still counts for XP, not for Influence nor the booster.
+        boolean rewarded = dailyLimits.quizRewardAvailable(userId, now);
+        int influence = rewarded ? QuizRules.influence(correct, perfect) : 0;
         if (influence > 0) {
             wallet.addInfluence(userId, influence, WalletSource.QUIZ_REWARD);
         }
         boolean bonusPack = false;
-        if (perfect) {
+        if (perfect && rewarded) {
             int perfectCount = jdbc.sql("""
                             insert into quiz_player_stats (user_id, perfect_count) values (:userId, 1)
                             on conflict (user_id) do update set perfect_count = quiz_player_stats.perfect_count + 1
@@ -180,13 +186,18 @@ public class QuizService {
                 bonusPack = true;
             }
         }
-        jdbc.sql("update quiz_sessions set reward_influence = :influence, reward_bonus_pack = :bonusPack where id = :id")
+        jdbc.sql("""
+                        update quiz_sessions set reward_influence = :influence, reward_bonus_pack = :bonusPack,
+                            rewarded = :rewarded
+                        where id = :id
+                        """)
                 .param("influence", influence)
                 .param("bonusPack", bonusPack)
+                .param("rewarded", rewarded)
                 .param("id", sessionId)
                 .update();
         events.publishEvent(new QuizCompletedEvent(userId, sessionId, correct, total, now));
-        return new QuizResultDto(correct, total, perfect, influence, bonusPack);
+        return new QuizResultDto(correct, total, perfect, influence, bonusPack, !rewarded);
     }
 
     private AnswerResponse replay(Session session, int questionIndex) {
@@ -215,13 +226,13 @@ public class QuizService {
         }
         int total = session.questions().size();
         return new QuizResultDto(session.correctCount(), total, session.correctCount() == total,
-                session.rewardInfluence(), Boolean.TRUE.equals(session.rewardBonusPack()));
+                session.rewardInfluence(), Boolean.TRUE.equals(session.rewardBonusPack()), !session.rewarded());
     }
 
     private Session session(UUID userId, UUID sessionId, boolean forUpdate) {
         return jdbc.sql("""
                         select id, status, lives, answered_count, correct_count, expires_at, questions::text as questions,
-                            reward_influence, reward_bonus_pack
+                            reward_influence, reward_bonus_pack, rewarded
                         from quiz_sessions where id = :id and user_id = :userId
                         """ + (forUpdate ? " for update" : ""))
                 .param("id", sessionId)
@@ -245,7 +256,8 @@ public class QuizService {
                 rs.getTimestamp("expires_at").toInstant(),
                 jsonMapper.readValue(rs.getString("questions"), QUESTIONS),
                 influence,
-                bonusPack);
+                bonusPack,
+                rs.getBoolean("rewarded"));
     }
 
     private record Session(
@@ -257,5 +269,6 @@ public class QuizService {
             Instant expiresAt,
             List<QuizQuestion> questions,
             Integer rewardInfluence,
-            Boolean rewardBonusPack) {}
+            Boolean rewardBonusPack,
+            boolean rewarded) {}
 }

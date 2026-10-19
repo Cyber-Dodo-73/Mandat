@@ -11,7 +11,7 @@ import {
   toggleValue,
   type OwnedItem,
 } from '../collectionModel';
-import { craftCostPreview, recyclePreview } from '../economy';
+import { FALLBACK_RULES, craftCostPreview, recyclePreview, type EconomyRules } from '../economy';
 
 function card(partial: Partial<Card> & Pick<Card, 'id' | 'number'>): Card {
   return {
@@ -124,9 +124,16 @@ describe('filter helpers and economy preview', () => {
     expect(toggleValue(['a', 'b'], 'a')).toEqual(['b']);
   });
 
-  it('mirrors the API economy rules', () => {
-    expect(recyclePreview('rare', 'holo', 2)).toBe(100);
-    expect(recyclePreview('mythic', 'gold', 1)).toBe(4000);
-    expect(craftCostPreview('epic')).toBe(500);
+  it('previews recycling and crafting from the server rules', () => {
+    // 10 duplicates of a rarity = 1 craft of that rarity; finish multipliers on recycling only.
+    expect(recyclePreview(FALLBACK_RULES, 'rare', 'holo', 2)).toBe(200);
+    expect(recyclePreview(FALLBACK_RULES, 'mythic', 'gold', 1)).toBe(4000);
+    expect(craftCostPreview(FALLBACK_RULES, 'epic')).toBe(1200);
+    expect(recyclePreview(FALLBACK_RULES, 'common', 'standard', 10)).toBe(craftCostPreview(FALLBACK_RULES, 'common'));
+    const server: EconomyRules = {
+      ...FALLBACK_RULES,
+      rarities: FALLBACK_RULES.rarities.map((r) => (r.rarity === 'epic' ? { ...r, craftCost: 999 } : r)),
+    };
+    expect(craftCostPreview(server, 'epic')).toBe(999);
   });
 });

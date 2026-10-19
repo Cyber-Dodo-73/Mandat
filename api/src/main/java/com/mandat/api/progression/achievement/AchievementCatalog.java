@@ -124,12 +124,12 @@ public class AchievementCatalog {
     /** Reward ladder: tier 0 is a small pat on the back, tier 5 includes boosters. */
     static Reward tierReward(int tier) {
         return switch (tier) {
-            case 0 -> Reward.xp(25).plus(Reward.influence(25));
-            case 1 -> Reward.xp(50).plus(Reward.influence(50));
-            case 2 -> Reward.xp(100).plus(Reward.influence(100));
-            case 3 -> Reward.xp(150).plus(Reward.influence(150)).plus(Reward.packs(1));
-            case 4 -> Reward.xp(250).plus(Reward.influence(250)).plus(Reward.packs(1));
-            default -> Reward.xp(400).plus(Reward.influence(400)).plus(Reward.packs(2));
+            case 0 -> Reward.xp(25).plus(Reward.influence(10));
+            case 1 -> Reward.xp(50).plus(Reward.influence(20));
+            case 2 -> Reward.xp(100).plus(Reward.influence(40));
+            case 3 -> Reward.xp(150).plus(Reward.influence(60)).plus(Reward.packs(1));
+            case 4 -> Reward.xp(250).plus(Reward.influence(100)).plus(Reward.packs(1));
+            default -> Reward.xp(400).plus(Reward.influence(160)).plus(Reward.packs(2));
         };
     }
 
