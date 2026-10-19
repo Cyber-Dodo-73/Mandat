@@ -469,8 +469,8 @@ export const portraits: Readonly<Record<string, ImageSourcePropType>> = {
   's1-452': require('../../assets/portraits/s1-452.webp'),
   's1-453': require('../../assets/portraits/s1-453.webp'),
   's1-454': require('../../assets/portraits/s1-454.webp'),
-  's1-455': require('../../assets/portraits/s1-455.webp'),
   's1-456': require('../../assets/portraits/s1-456.webp'),
+  's1-457': require('../../assets/portraits/s1-457.webp'),
   's1-458': require('../../assets/portraits/s1-458.webp'),
   's1-459': require('../../assets/portraits/s1-459.webp'),
   's1-460': require('../../assets/portraits/s1-460.webp'),
@@ -889,16 +889,6 @@ export const portraitCredits: readonly PortraitCredit[] = [
   },
   {
     "cardId": "s1-038",
-    "name": "Volodymyr Zelenskyy",
-    "artist": "Press Service of the President of Ukraine",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:New_Year%27s_Eve_from_President_of_Ukraine_Volodymyr_Zelensky_(31-12-2025)_(cropped).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-039",
     "name": "Edward VIII",
     "artist": "Attributed to Angelo Laviosa / Formerly attributed to Vincenzo Laviosa",
     "license": "Public domain",
@@ -908,14 +898,24 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
+    "cardId": "s1-039",
+    "name": "Nicolás Maduro",
+    "artist": "Ricardo Stuckert",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nicol%C3%A1s_Maduro_in_2023_(cropped).jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
     "cardId": "s1-040",
-    "name": "Saddam Hussein",
-    "artist": "Unknown author",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Saddam_Hussein_at_trial,_July_2004.JPEG",
-    "attributionRequired": false,
-    "publicDomain": true
+    "name": "Hugo Chávez",
+    "artist": "Roberto Stuckert Filho",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Hugo_Ch%C3%A1vez_in_Bras%C3%ADlia_2011_(3x4_cropped)_(2).jpg",
+    "attributionRequired": true,
+    "publicDomain": false
   },
   {
     "cardId": "s1-041",
@@ -1039,6 +1039,26 @@ export const portraitCredits: readonly PortraitCredit[] = [
   },
   {
     "cardId": "s1-053",
+    "name": "Volodymyr Zelenskyy",
+    "artist": "Press Service of the President of Ukraine",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:New_Year%27s_Eve_from_President_of_Ukraine_Volodymyr_Zelensky_(31-12-2025)_(cropped).jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-054",
+    "name": "Saddam Hussein",
+    "artist": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Saddam_Hussein_at_trial,_July_2004.JPEG",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-055",
     "name": "Benjamin Netanyahu",
     "artist": "Avi Ohayon",
     "license": "CC BY-SA 3.0",
@@ -1048,7 +1068,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-054",
+    "cardId": "s1-056",
     "name": "Jawaharlal Nehru",
     "artist": "Keystone View Company/FPG",
     "license": "Public domain",
@@ -1058,7 +1078,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-055",
+    "cardId": "s1-057",
     "name": "Elizabeth I of England",
     "artist": "Attributed to William Segar / Attributed to George Gower / Formerly attributed to Nicholas Hilliard",
     "license": "Public domain",
@@ -1068,7 +1088,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-056",
+    "cardId": "s1-058",
     "name": "Angela Merkel",
     "artist": "EU2017EE Estonian Presidency",
     "license": "CC BY 2.0",
@@ -1078,7 +1098,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-057",
+    "cardId": "s1-059",
     "name": "Indira Gandhi",
     "artist": "Prime Minister's Office",
     "license": "GODL-India",
@@ -1088,7 +1108,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-058",
+    "cardId": "s1-060",
     "name": "Muammar Gaddafi",
     "artist": "Hamza Turkia, © European Union, 2010",
     "license": "CC BY 4.0",
@@ -1098,7 +1118,17 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-059",
+    "cardId": "s1-061",
+    "name": "Joan of Arc",
+    "artist": "Clément de Fauquembergue",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Contemporaine_afb_jeanne_d_arc.png",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-062",
     "name": "George V",
     "artist": "Bassano Ltd",
     "license": "Public domain",
@@ -1108,7 +1138,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-060",
+    "cardId": "s1-063",
     "name": "Mary, Queen of Scots",
     "artist": "Unidentified painter",
     "license": "Public domain",
@@ -1118,7 +1148,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-061",
+    "cardId": "s1-064",
     "name": "Catherine II of Russia",
     "artist": "After Alexander Roslin",
     "license": "Public domain",
@@ -1128,7 +1158,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-062",
+    "cardId": "s1-065",
     "name": "Rishi Sunak",
     "artist": "Prime Minister's Office",
     "license": "OGL 3",
@@ -1138,7 +1168,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-063",
+    "cardId": "s1-066",
     "name": "Ali Khamenei",
     "artist": "khamenei.ir",
     "license": "CC BY 4.0",
@@ -1148,7 +1178,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-064",
+    "cardId": "s1-067",
     "name": "Charlemagne",
     "artist": "Charlemagne. Autorité émettrice de monnaie indéterminé. Atelier monétaire. Émetteur",
     "license": "Public domain",
@@ -1158,7 +1188,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-065",
+    "cardId": "s1-068",
     "name": "B. R. Ambedkar",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -1168,7 +1198,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-066",
+    "cardId": "s1-069",
     "name": "Mustafa Kemal Atatürk",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -1178,7 +1208,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-067",
+    "cardId": "s1-070",
     "name": "Marie Antoinette",
     "artist": "Élisabeth Louise Vigée Le Brun",
     "license": "Public domain",
@@ -1188,7 +1218,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-068",
+    "cardId": "s1-071",
     "name": "Edward VII",
     "artist": "W. & D. Downey",
     "license": "Public domain",
@@ -1198,7 +1228,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-069",
+    "cardId": "s1-072",
     "name": "Marcus Aurelius",
     "artist": "Marie-Lan Nguyen (2011)",
     "license": "CC BY 2.5",
@@ -1208,7 +1238,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-070",
+    "cardId": "s1-073",
     "name": "A. P. J. Abdul Kalam",
     "artist": "Government of India",
     "license": "GODL-India",
@@ -1218,7 +1248,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-071",
+    "cardId": "s1-074",
     "name": "Malala Yousafzai",
     "artist": "Adam Chitayat",
     "license": "CC BY-SA 4.0",
@@ -1228,7 +1258,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-072",
+    "cardId": "s1-075",
     "name": "Bashar al-Assad",
     "artist": "khamenei.ir",
     "license": "CC BY 4.0",
@@ -1238,7 +1268,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-073",
+    "cardId": "s1-076",
     "name": "Charles de Gaulle",
     "artist": "The National Archives UK",
     "license": "No restrictions",
@@ -1248,7 +1278,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-074",
+    "cardId": "s1-077",
     "name": "Otto von Bismarck",
     "artist": "Jacques Pilartz",
     "license": "Public domain",
@@ -1258,7 +1288,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-075",
+    "cardId": "s1-078",
     "name": "Theresa May",
     "artist": "Roger Harris",
     "license": "CC BY 3.0",
@@ -1268,7 +1298,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-076",
+    "cardId": "s1-079",
     "name": "Leon Trotsky",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -1278,7 +1308,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-077",
+    "cardId": "s1-080",
     "name": "Nikita Khrushchev",
     "artist": "TASS / distributed by Associated Press",
     "license": "Public domain",
@@ -1288,7 +1318,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-078",
+    "cardId": "s1-081",
     "name": "Akbar",
     "artist": "1605 artist",
     "license": "Public domain",
@@ -1298,7 +1328,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-079",
+    "cardId": "s1-082",
     "name": "Tony Blair",
     "artist": "Pavel Golovkin",
     "license": "CC BY 4.0",
@@ -1308,7 +1338,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-080",
+    "cardId": "s1-083",
     "name": "Ashoka",
     "artist": "Photo Dharma from Sadao, Thailand",
     "license": "CC BY 2.0",
@@ -1318,7 +1348,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-081",
+    "cardId": "s1-084",
     "name": "Keir Starmer",
     "artist": "Prime Minister's Office",
     "license": "OGL 3",
@@ -1328,7 +1358,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-082",
+    "cardId": "s1-085",
     "name": "Henry VIII of England",
     "artist": "Hans Holbein the Younger",
     "license": "Public domain",
@@ -1338,7 +1368,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-083",
+    "cardId": "s1-086",
     "name": "Louis XIV of France",
     "artist": "Hyacinthe Rigaud",
     "license": "Public domain",
@@ -1348,7 +1378,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-084",
+    "cardId": "s1-087",
     "name": "Recep Tayyip Erdoğan",
     "artist": "PRESIDENT OF UKRAINE VOLODYMYR ZELENSKYY Official website",
     "license": "CC BY 4.0",
@@ -1358,7 +1388,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-085",
+    "cardId": "s1-088",
     "name": "David Cameron",
     "artist": "Lauren Hurley / No 10 Downing Street",
     "license": "OGL 3",
@@ -1368,7 +1398,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-086",
+    "cardId": "s1-089",
     "name": "Hirohito",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -1378,7 +1408,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-087",
+    "cardId": "s1-090",
     "name": "Grigori Rasputin",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -1388,7 +1418,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-088",
+    "cardId": "s1-091",
     "name": "Joseph Goebbels",
     "artist": "Heinrich Hoffmann",
     "license": "CC BY-SA 3.0 de",
@@ -1398,7 +1428,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-089",
+    "cardId": "s1-092",
     "name": "Charles I of England",
     "artist": "Anthony van Dyck",
     "license": "Public domain",
@@ -1408,112 +1438,82 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-090",
-    "name": "Cicero",
-    "artist": "José Luiz",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-091",
-    "name": "Anne, Princess Royal",
-    "artist": "UK Home Office",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Anne,_Princess_Royal_in_2025_(cropped).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-092",
-    "name": "Nero",
-    "artist": "Jastrow",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nero_Palatino_Inv618.jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
     "cardId": "s1-093",
-    "name": "Peter the Great",
-    "artist": "Attributed to Jean-Marc Nattier",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Inconnu_d%27apr%C3%A8s_J.-M._Nattier,_Portrait_de_Pierre_Ier_(mus%C3%A9e_de_l%E2%80%99Ermitage).jpg",
-    "attributionRequired": false,
-    "publicDomain": true
+    "name": "Tutankhamun",
+    "artist": "en:User:MykReeve",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Tutanchamun_Maske.jpg",
+    "attributionRequired": true,
+    "publicDomain": false
   },
   {
     "cardId": "s1-094",
-    "name": "Saladin",
-    "artist": "Classical Numismatic Group (CNG)",
-    "license": "CC BY-SA 2.5",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._AH_564-589_(1169-1193_CE)_%C3%86_Dirham_(30.1mm,_13.28_g,_6h)._Without_mint-name._Dated_AH_586_(AD_1190-91)._Sultan_sitting_facing,_cross-legged,_on_high-backed_throne_(obverse).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
+    "name": "Hannibal",
+    "artist": "Fratelli Alinari",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mommsen_p265.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
   },
   {
     "cardId": "s1-095",
-    "name": "Boris Yeltsin",
-    "artist": "Presidential Press and Information Office",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_%D0%95%D0%BB%D1%8C%D1%86%D0%B8%D0%BD-1_(cropped)_(cropped).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
+    "name": "Idi Amin",
+    "artist": "Bernard Gotfryd",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Idi_Amin_at_UN_(United_Nations,_New_York)_gtfy.00132_(cropped).jpg",
+    "attributionRequired": false,
+    "publicDomain": true
   },
   {
     "cardId": "s1-096",
-    "name": "Nicolás Maduro",
-    "artist": "Ricardo Stuckert",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nicol%C3%A1s_Maduro_in_2023_(cropped).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
+    "name": "Simón Bolívar",
+    "artist": "Ricardo Acevedo Bernal",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Sim%C3%B3n_Bol%C3%ADvar_by_Acevedo_Bernal,_1922.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
   },
   {
     "cardId": "s1-097",
-    "name": "Hugo Chávez",
-    "artist": "Roberto Stuckert Filho",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Hugo_Ch%C3%A1vez_in_Bras%C3%ADlia_2011_(3x4_cropped)_(2).jpg",
+    "name": "Jair Bolsonaro",
+    "artist": "Palácio do Planalto from Brasilia, Brasil",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:31_01_2022_Jair_Bolsonaro_(51853892252).jpg",
     "attributionRequired": true,
     "publicDomain": false
   },
   {
     "cardId": "s1-098",
-    "name": "Aung San Suu Kyi",
-    "artist": "Cabinet Public Relations Office of the Cabinet Secretariat",
+    "name": "Jacinda Ardern",
+    "artist": "New Zealand Government, Office of the Governor-General",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_(1).jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Jacinda_Ardern_-_Waitangi_2022_(cropped).jpg",
     "attributionRequired": true,
     "publicDomain": false
   },
   {
     "cardId": "s1-099",
-    "name": "Qin Shi Huang",
-    "artist": "Unknown artist",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Qinshihuang.jpg",
-    "attributionRequired": false,
-    "publicDomain": true
+    "name": "Augusto Pinochet",
+    "artist": "Ministerio de Relaciones Exteriores de Chile",
+    "license": "CC BY 2.0 cl",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/cl/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Augusto_Pinochet_foto_oficial_(cropped)(2).jpg",
+    "attributionRequired": true,
+    "publicDomain": false
   },
   {
     "cardId": "s1-100",
-    "name": "Constantine the Great",
-    "artist": "unknown",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:0_Constantinus_I_-_Palazzo_dei_Conservatori_(2).JPG",
+    "name": "Luiz Inácio Lula da Silva",
+    "artist": "Palácio do Planalto from Brasilia, Brasil",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_(estreita).jpg",
     "attributionRequired": true,
     "publicDomain": false
   },
@@ -1719,6 +1719,46 @@ export const portraitCredits: readonly PortraitCredit[] = [
   },
   {
     "cardId": "s1-121",
+    "name": "Cicero",
+    "artist": "José Luiz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-122",
+    "name": "Anne, Princess Royal",
+    "artist": "UK Home Office",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Anne,_Princess_Royal_in_2025_(cropped).jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-123",
+    "name": "Nero",
+    "artist": "Jastrow",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nero_Palatino_Inv618.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-124",
+    "name": "Peter the Great",
+    "artist": "Attributed to Jean-Marc Nattier",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Inconnu_d%27apr%C3%A8s_J.-M._Nattier,_Portrait_de_Pierre_Ier_(mus%C3%A9e_de_l%E2%80%99Ermitage).jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-125",
     "name": "George III of Great Britain",
     "artist": "Allan Ramsay",
     "license": "Public domain",
@@ -1728,7 +1768,57 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-122",
+    "cardId": "s1-126",
+    "name": "Saladin",
+    "artist": "Classical Numismatic Group (CNG)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._AH_564-589_(1169-1193_CE)_%C3%86_Dirham_(30.1mm,_13.28_g,_6h)._Without_mint-name._Dated_AH_586_(AD_1190-91)._Sultan_sitting_facing,_cross-legged,_on_high-backed_throne_(obverse).jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-127",
+    "name": "Boris Yeltsin",
+    "artist": "Presidential Press and Information Office",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_%D0%95%D0%BB%D1%8C%D1%86%D0%B8%D0%BD-1_(cropped)_(cropped).jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-128",
+    "name": "Aung San Suu Kyi",
+    "artist": "Cabinet Public Relations Office of the Cabinet Secretariat",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_(1).jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-129",
+    "name": "Qin Shi Huang",
+    "artist": "Unknown artist",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Qinshihuang.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-130",
+    "name": "Constantine the Great",
+    "artist": "unknown",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:0_Constantinus_I_-_Palazzo_dei_Conservatori_(2).JPG",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-131",
     "name": "Anne of Great Britain",
     "artist": "Michael Dahl",
     "license": "Public domain",
@@ -1738,7 +1828,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-123",
+    "cardId": "s1-132",
     "name": "Caligula",
     "artist": "J. Paul Getty Museum",
     "license": "CC0",
@@ -1748,7 +1838,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-124",
+    "cardId": "s1-133",
     "name": "James VI and I",
     "artist": "John de Critz",
     "license": "Public domain",
@@ -1758,7 +1848,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-125",
+    "cardId": "s1-134",
     "name": "Shinzō Abe",
     "artist": "Prime Minister of Japan Official",
     "license": "CC BY 4.0",
@@ -1768,7 +1858,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-126",
+    "cardId": "s1-135",
     "name": "Pol Pot",
     "artist": "Unknown author",
     "license": "Attribution",
@@ -1778,7 +1868,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-127",
+    "cardId": "s1-136",
     "name": "Oliver Cromwell",
     "artist": "G. Schouten engraver",
     "license": "Public domain",
@@ -1788,7 +1878,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-128",
+    "cardId": "s1-137",
     "name": "Dmitry Medvedev",
     "artist": "Russian Government",
     "license": "CC BY 4.0",
@@ -1798,7 +1888,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-129",
+    "cardId": "s1-138",
     "name": "Ruhollah Khomeini",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -1808,7 +1898,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-130",
+    "cardId": "s1-139",
     "name": "Naruhito",
     "artist": "Presidencia de Guatemala",
     "license": "Public domain",
@@ -1818,7 +1908,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-131",
+    "cardId": "s1-140",
     "name": "Francis Bacon",
     "artist": "Paul van Somer I / Formerly attributed to Frans Pourbus the Younger",
     "license": "Public domain",
@@ -1828,7 +1918,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-132",
+    "cardId": "s1-141",
     "name": "Suleiman the Magnificent",
     "artist": "16th century artist",
     "license": "Public domain",
@@ -1838,7 +1928,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-133",
+    "cardId": "s1-142",
     "name": "Liz Truss",
     "artist": "Prime Minister's Office",
     "license": "OGL 3",
@@ -1848,17 +1938,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-134",
-    "name": "Tutankhamun",
-    "artist": "en:User:MykReeve",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Tutanchamun_Maske.jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-135",
+    "cardId": "s1-143",
     "name": "William the Conqueror",
     "artist": "Myrabella",
     "license": "Public domain",
@@ -1868,7 +1948,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-136",
+    "cardId": "s1-144",
     "name": "Imran Khan",
     "artist": "Imran Khan",
     "license": "CC BY 3.0",
@@ -1878,7 +1958,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-137",
+    "cardId": "s1-145",
     "name": "Hermann Göring",
     "artist": "Robert Röhr",
     "license": "Public domain",
@@ -1888,7 +1968,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-138",
+    "cardId": "s1-146",
     "name": "Alfred the Great",
     "artist": "CNG - Classical Numismatic Group",
     "license": "CC BY-SA 2.5",
@@ -1898,7 +1978,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-139",
+    "cardId": "s1-147",
     "name": "Kim Jong-un",
     "artist": "Владимир Смирнов / ТАСС",
     "license": "CC BY 4.0",
@@ -1908,7 +1988,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-140",
+    "cardId": "s1-148",
     "name": "Francisco Franco",
     "artist": "Unknown author",
     "license": "CC0",
@@ -1918,7 +1998,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-141",
+    "cardId": "s1-149",
     "name": "Charles II of England",
     "artist": "Peter Lely",
     "license": "Public domain",
@@ -1928,17 +2008,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-142",
-    "name": "Hannibal",
-    "artist": "Fratelli Alinari",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mommsen_p265.jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-143",
+    "cardId": "s1-150",
     "name": "Cyrus the Great",
     "artist": "Charles Francis Horne Clarence Cook",
     "license": "Public domain",
@@ -1948,7 +2018,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-144",
+    "cardId": "s1-151",
     "name": "Chiang Kai-shek",
     "artist": "Unknown photographer",
     "license": "Attribution",
@@ -1958,27 +2028,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-145",
-    "name": "Idi Amin",
-    "artist": "Bernard Gotfryd",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Idi_Amin_at_UN_(United_Nations,_New_York)_gtfy.00132_(cropped).jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-146",
-    "name": "Simón Bolívar",
-    "artist": "Ricardo Acevedo Bernal",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Sim%C3%B3n_Bol%C3%ADvar_by_Acevedo_Bernal,_1922.jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-147",
+    "cardId": "s1-152",
     "name": "Ho Chi Minh",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -1988,7 +2038,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-148",
+    "cardId": "s1-153",
     "name": "Mohammad Reza Pahlavi",
     "artist": "Ghazarians",
     "license": "Public domain",
@@ -1998,7 +2048,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-149",
+    "cardId": "s1-154",
     "name": "Yasser Arafat",
     "artist": "Gideon Markowiz",
     "license": "CC BY 4.0",
@@ -2008,7 +2058,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-150",
+    "cardId": "s1-155",
     "name": "Nicolas Sarkozy",
     "artist": "European People's Party",
     "license": "CC BY 2.0",
@@ -2018,7 +2068,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-151",
+    "cardId": "s1-156",
     "name": "Robert Mugabe",
     "artist": "Government of Zimbabwe, taken by Joseph Nyadzayo as Presidential Photographer",
     "license": "Public domain",
@@ -2028,17 +2078,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-152",
-    "name": "Jair Bolsonaro",
-    "artist": "Palácio do Planalto from Brasilia, Brasil",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:31_01_2022_Jair_Bolsonaro_(51853892252).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-153",
+    "cardId": "s1-157",
     "name": "Henry VII of England",
     "artist": "anonymous",
     "license": "Public domain",
@@ -2048,7 +2088,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-154",
+    "cardId": "s1-158",
     "name": "Vlad the Impaler",
     "artist": "Anonymous",
     "license": "Public domain",
@@ -2058,7 +2098,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-155",
+    "cardId": "s1-159",
     "name": "Leonid Brezhnev",
     "artist": "Vladimir Musaelyan",
     "license": "CC0",
@@ -2068,7 +2108,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-156",
+    "cardId": "s1-160",
     "name": "Alexei Navalny",
     "artist": "Navalny's Team",
     "license": "CC BY 3.0",
@@ -2078,7 +2118,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-157",
+    "cardId": "s1-161",
     "name": "Benazir Bhutto",
     "artist": "Oliver Mark",
     "license": "CC BY-SA 4.0",
@@ -2088,7 +2128,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-158",
+    "cardId": "s1-162",
     "name": "Manmohan Singh",
     "artist": "Prime Minister's Office",
     "license": "GODL-India",
@@ -2098,7 +2138,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-159",
+    "cardId": "s1-163",
     "name": "Giorgia Meloni",
     "artist": "Governo Italiano",
     "license": "CC BY 3.0 it",
@@ -2108,7 +2148,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-160",
+    "cardId": "s1-164",
     "name": "Ferdinand Marcos",
     "artist": "derivative work: Bluemask (talk) Ferdinand_Marcos_and_George_Shultz_DA-SC-84-05877.JPEG: Spec. 4 Dino Bartomucci",
     "license": "CC BY-SA 3.0",
@@ -2118,7 +2158,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-161",
+    "cardId": "s1-165",
     "name": "Silvio Berlusconi",
     "artist": "European People’s Party",
     "license": "CC BY 2.0",
@@ -2128,7 +2168,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-162",
+    "cardId": "s1-166",
     "name": "François Hollande",
     "artist": "Web Summit",
     "license": "CC BY 2.0",
@@ -2138,7 +2178,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-163",
+    "cardId": "s1-167",
     "name": "Alexander Lukashenka",
     "artist": "Пресс-служба Раиса Республики Татарстан",
     "license": "CC BY 4.0",
@@ -2148,7 +2188,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-164",
+    "cardId": "s1-168",
     "name": "Rodrigo Duterte",
     "artist": "Government of the Philippines",
     "license": "Public domain",
@@ -2158,7 +2198,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-165",
+    "cardId": "s1-169",
     "name": "Henry V of England",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -2168,7 +2208,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-166",
+    "cardId": "s1-170",
     "name": "Napoleon III",
     "artist": "Mayer & Peirson, France",
     "license": "Public domain",
@@ -2178,7 +2218,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-167",
+    "cardId": "s1-171",
     "name": "Akihito",
     "artist": "Malacañang Photo Bureau",
     "license": "Public domain",
@@ -2188,7 +2228,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-168",
+    "cardId": "s1-172",
     "name": "Adolf Eichmann",
     "artist": "Author and location unknown. Bettina Stangneth's caption for the image says: \"Unknown photographer, undated (1941), AKG Images, 4217270\".[3] The Bayerische Staatsbibliothek (Bavarian State Library) website used to attribute the image to Heinrich Hoffmann (1885–1957) (\"image: hoff-895; negative: Hoffmann 8841\"), a German photographer who was known as Hitler's personal photographer. The library obtained the negative and a copy of the image as part of a collection purchased from Hoffmann's son in 1993. Following an inquiry from a Wikipedian in 2014, the library checked the negative and confirmed \"with certainty\" that this is not one of Hoffmann's images. His negatives were made of glass and had identifying numbers etched onto them. The library said they cannot determine the authorship of the Eichmann negative.",
     "license": "Public domain",
@@ -2198,7 +2238,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-169",
+    "cardId": "s1-173",
     "name": "Anthony Eden",
     "artist": "Walter Stoneman",
     "license": "Public domain",
@@ -2208,7 +2248,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-170",
+    "cardId": "s1-174",
     "name": "Rajiv Gandhi",
     "artist": "Bart Molendijk / Anefo",
     "license": "CC BY-SA 3.0 nl",
@@ -2218,7 +2258,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-171",
+    "cardId": "s1-175",
     "name": "Richard the Lionheart",
     "artist": "Matthew Paris",
     "license": "Public domain",
@@ -2228,7 +2268,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-172",
+    "cardId": "s1-176",
     "name": "Catherine of Aragon",
     "artist": "Lucas Horenbout",
     "license": "Public domain",
@@ -2238,17 +2278,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-173",
-    "name": "Jacinda Ardern",
-    "artist": "New Zealand Government, Office of the Governor-General",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Jacinda_Ardern_-_Waitangi_2022_(cropped).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-174",
+    "cardId": "s1-177",
     "name": "Haile Selassie I",
     "artist": "unknown; according to [1] and [2] an official portrait of which b/w copies were distributed by the Ethiopian government",
     "license": "Public domain",
@@ -2258,7 +2288,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-175",
+    "cardId": "s1-178",
     "name": "Mohammad Ali Jinnah",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -2268,7 +2298,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-176",
+    "cardId": "s1-179",
     "name": "Charles V",
     "artist": "Attributed to Titian",
     "license": "Public domain",
@@ -2278,17 +2308,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-177",
-    "name": "Augusto Pinochet",
-    "artist": "Ministerio de Relaciones Exteriores de Chile",
-    "license": "CC BY 2.0 cl",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/cl/deed.en",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Augusto_Pinochet_foto_oficial_(cropped)(2).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-178",
+    "cardId": "s1-180",
     "name": "Maximilien Robespierre",
     "artist": "Unidentified painter",
     "license": "CC0",
@@ -2298,7 +2318,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-179",
+    "cardId": "s1-181",
     "name": "Deng Xiaoping",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -2308,7 +2328,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-180",
+    "cardId": "s1-182",
     "name": "Mahathir Mohamad",
     "artist": "kremlin.ru",
     "license": "CC BY 4.0",
@@ -2318,7 +2338,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-181",
+    "cardId": "s1-183",
     "name": "Thomas More",
     "artist": "Hans Holbein the Younger",
     "license": "Public domain",
@@ -2328,7 +2348,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-182",
+    "cardId": "s1-184",
     "name": "Atal Bihari Vajpayee",
     "artist": "Government of India",
     "license": "GODL-India",
@@ -2338,7 +2358,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-183",
+    "cardId": "s1-185",
     "name": "Bhumibol Adulyadej",
     "artist": "Harry Pot / Anefo",
     "license": "CC0",
@@ -2348,7 +2368,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-184",
+    "cardId": "s1-186",
     "name": "Friedrich Engels",
     "artist": "William Hall (1826–ca. 1898) (cropped and sepia tone removed)",
     "license": "Public domain",
@@ -2358,7 +2378,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-185",
+    "cardId": "s1-187",
     "name": "Louis XVI of France",
     "artist": "Joseph-Siffred Duplessis / Formerly attributed to Antoine-François Callet",
     "license": "Public domain",
@@ -2368,7 +2388,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-186",
+    "cardId": "s1-188",
     "name": "Salman bin Abdulaziz Al Saud",
     "artist": "Saudi Press Agency (SPA)",
     "license": "CC BY-SA 4.0",
@@ -2378,7 +2398,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-187",
+    "cardId": "s1-189",
     "name": "Josip Broz Tito",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -2388,7 +2408,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-188",
+    "cardId": "s1-190",
     "name": "Attila",
     "artist": "Julio Strozza",
     "license": "Public domain",
@@ -2398,7 +2418,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-189",
+    "cardId": "s1-191",
     "name": "Gordon Brown",
     "artist": "Unknown photographer",
     "license": "OGL 3",
@@ -2408,7 +2428,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-190",
+    "cardId": "s1-192",
     "name": "Kofi Annan",
     "artist": "US Mission in Geneva",
     "license": "Public domain",
@@ -2418,7 +2438,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-191",
+    "cardId": "s1-193",
     "name": "George IV of the United Kingdom",
     "artist": "Thomas Lawrence",
     "license": "Public domain",
@@ -2428,7 +2448,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-192",
+    "cardId": "s1-194",
     "name": "Kublai Khan",
     "artist": "Araniko",
     "license": "Public domain",
@@ -2438,7 +2458,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-193",
+    "cardId": "s1-195",
     "name": "Subhas Chandra Bose",
     "artist": "Unknown (Netaji Research Bureau, Calcutta)",
     "license": "Public domain",
@@ -2448,7 +2468,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-194",
+    "cardId": "s1-196",
     "name": "Sun Yat-sen",
     "artist": "上海波尔照相馆",
     "license": "Public domain",
@@ -2458,7 +2478,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-195",
+    "cardId": "s1-197",
     "name": "Ivan the Terrible",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -2468,7 +2488,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-196",
+    "cardId": "s1-198",
     "name": "Archduke Franz Ferdinand of Austria",
     "artist": "Ferdinand Schmutzer",
     "license": "Public domain",
@@ -2478,7 +2498,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-197",
+    "cardId": "s1-199",
     "name": "Abu Bakr al-Baghdadi",
     "artist": "U.S Army",
     "license": "Public domain",
@@ -2488,7 +2508,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-198",
+    "cardId": "s1-200",
     "name": "Neville Chamberlain",
     "artist": "Lafayette Ltd",
     "license": "Public domain",
@@ -2496,26 +2516,6 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Right_Honourable_Neville_Chamberlain._Wellcome_M0003096.jpg",
     "attributionRequired": false,
     "publicDomain": true
-  },
-  {
-    "cardId": "s1-199",
-    "name": "Luiz Inácio Lula da Silva",
-    "artist": "Palácio do Planalto from Brasilia, Brasil",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_(estreita).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-200",
-    "name": "Nicolae Ceaușescu",
-    "artist": "unknown",
-    "license": "Attribution",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nicolae_Ceau%C8%99escu.jpg",
-    "attributionRequired": true,
-    "publicDomain": false
   },
   {
     "cardId": "s1-201",
@@ -2759,6 +2759,26 @@ export const portraitCredits: readonly PortraitCredit[] = [
   },
   {
     "cardId": "s1-225",
+    "name": "Eva Perón",
+    "artist": "Pinélides Fusco",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Evita_(cropped2).JPG",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-226",
+    "name": "Nicolae Ceaușescu",
+    "artist": "unknown",
+    "license": "Attribution",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nicolae_Ceau%C8%99escu.jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-227",
     "name": "Rosa Luxemburg",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -2768,7 +2788,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-226",
+    "cardId": "s1-228",
     "name": "Tiberius",
     "artist": "Didier Descouens",
     "license": "Public domain",
@@ -2778,7 +2798,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-227",
+    "cardId": "s1-229",
     "name": "William Wallace",
     "artist": null,
     "license": "Public domain",
@@ -2788,7 +2808,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-228",
+    "cardId": "s1-230",
     "name": "Aurangzeb",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -2798,7 +2818,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-229",
+    "cardId": "s1-231",
     "name": "Richard III of England",
     "artist": "anonymous",
     "license": "Public domain",
@@ -2808,7 +2828,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-230",
+    "cardId": "s1-232",
     "name": "Philip II of Spain",
     "artist": "Sofonisba Anguissola",
     "license": "Public domain",
@@ -2818,7 +2838,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-231",
+    "cardId": "s1-233",
     "name": "George II of Great Britain",
     "artist": "John Shackleton",
     "license": "Public domain",
@@ -2828,7 +2848,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-232",
+    "cardId": "s1-234",
     "name": "Rama X of Thailand",
     "artist": "The Public Relations Department (กรมประชาสัมพันธ์)",
     "license": "CC BY 3.0 th",
@@ -2838,7 +2858,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-233",
+    "cardId": "s1-235",
     "name": "Harold Wilson",
     "artist": "Eric Koch for Anefo",
     "license": "CC0",
@@ -2848,7 +2868,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-234",
+    "cardId": "s1-236",
     "name": "Babur",
     "artist": "c.1650",
     "license": "Public domain",
@@ -2858,7 +2878,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-235",
+    "cardId": "s1-237",
     "name": "William IV",
     "artist": "Martin Archer Shee",
     "license": "Public domain",
@@ -2868,7 +2888,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-236",
+    "cardId": "s1-238",
     "name": "George I of Great Britain",
     "artist": "Workshop of Godfrey Kneller",
     "license": "Public domain",
@@ -2878,7 +2898,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-237",
+    "cardId": "s1-239",
     "name": "Empress Elisabeth of Austria",
     "artist": "Emil Rabending",
     "license": "Public domain",
@@ -2888,7 +2908,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-238",
+    "cardId": "s1-240",
     "name": "Ramesses II",
     "artist": "Unknown artist",
     "license": "CC BY-SA 4.0",
@@ -2898,7 +2918,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-239",
+    "cardId": "s1-241",
     "name": "Mohammed bin Salman",
     "artist": "وكالة الأنباء السعودية",
     "license": "CC BY-SA 4.0",
@@ -2908,7 +2928,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-240",
+    "cardId": "s1-242",
     "name": "Lee Kuan Yew",
     "artist": "Robert D. Ward",
     "license": "Public domain",
@@ -2918,7 +2938,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-241",
+    "cardId": "s1-243",
     "name": "Shah Jahan",
     "artist": "Bichitr",
     "license": "Public domain",
@@ -2928,7 +2948,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-242",
+    "cardId": "s1-244",
     "name": "Golda Meir",
     "artist": "Talmoryair (talk) after Marion S. Trikosko",
     "license": "Public domain",
@@ -2938,7 +2958,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-243",
+    "cardId": "s1-245",
     "name": "Guy Fawkes",
     "artist": "Crispijn van de Passe the Elder",
     "license": "Public domain",
@@ -2948,7 +2968,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-244",
+    "cardId": "s1-246",
     "name": "John Major",
     "artist": "Sharon Farmer",
     "license": "Public domain",
@@ -2958,7 +2978,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-245",
+    "cardId": "s1-247",
     "name": "Lady Jane Grey",
     "artist": "Unidentified painter",
     "license": "Public domain",
@@ -2968,7 +2988,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-246",
+    "cardId": "s1-248",
     "name": "Jeremy Corbyn",
     "artist": "Jessica Taylor",
     "license": "CC BY 3.0",
@@ -2978,7 +2998,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-247",
+    "cardId": "s1-249",
     "name": "John, King of England",
     "artist": "This file has been provided by the British Library from its digital collections. Links to the British Library's website may be broken as the library recovers from a October 2023 cyber attack, and will be updated once material becomes accessible online. For more information on the attack see: https://www.bl.uk/about/cyber-attack Catalogue entry: Cotton MS Claudius D II",
     "license": "CC0",
@@ -2988,7 +3008,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-248",
+    "cardId": "s1-250",
     "name": "Gamal Abdel Nasser",
     "artist": "Press",
     "license": "Public domain",
@@ -2998,7 +3018,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-249",
+    "cardId": "s1-251",
     "name": "Shivaji",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -3008,7 +3028,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-250",
+    "cardId": "s1-252",
     "name": "Catherine de' Medici",
     "artist": "Attributed to Germain Le Mannier",
     "license": "Public domain",
@@ -3018,7 +3038,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-251",
+    "cardId": "s1-253",
     "name": "Marine Le Pen",
     "artist": "Vox España",
     "license": "CC0",
@@ -3028,7 +3048,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-252",
+    "cardId": "s1-254",
     "name": "William III of England",
     "artist": "Godfrey Kneller",
     "license": "Public domain",
@@ -3038,7 +3058,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-253",
+    "cardId": "s1-255",
     "name": "Mark Antony",
     "artist": "Commons member Amadscientist created the file from the book by William Smith, Abel Hendy Jones Greenidge, Andrew Dickson White",
     "license": "Public domain",
@@ -3048,7 +3068,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-254",
+    "cardId": "s1-256",
     "name": "Ban Ki-moon",
     "artist": "World Economic Forum",
     "license": "CC BY-SA 2.0",
@@ -3058,7 +3078,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-255",
+    "cardId": "s1-257",
     "name": "Ursula von der Leyen",
     "artist": "European People's Party",
     "license": "CC BY 2.0",
@@ -3068,7 +3088,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-256",
+    "cardId": "s1-258",
     "name": "Commodus",
     "artist": "Marie-Lan Nguyen (2006)",
     "license": "Public domain",
@@ -3078,7 +3098,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-257",
+    "cardId": "s1-259",
     "name": "T. E. Lawrence",
     "artist": "Harris & Ewing",
     "license": "Public domain",
@@ -3088,7 +3108,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-258",
+    "cardId": "s1-260",
     "name": "Pierre Trudeau",
     "artist": "United Press International",
     "license": "Public domain",
@@ -3098,7 +3118,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-259",
+    "cardId": "s1-261",
     "name": "Frederick II of Prussia",
     "artist": "Anton Graff",
     "license": "Public domain",
@@ -3108,7 +3128,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-260",
+    "cardId": "s1-262",
     "name": "Mahmoud Ahmadinejad",
     "artist": "Majid Haghdoust",
     "license": "CC BY 4.0",
@@ -3118,7 +3138,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-261",
+    "cardId": "s1-263",
     "name": "Mohammed bin Rashid Al Maktoum",
     "artist": "http://www.president.gov.ua/",
     "license": "CC BY 4.0",
@@ -3128,7 +3148,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-262",
+    "cardId": "s1-264",
     "name": "Sonia Gandhi",
     "artist": "U.S. Department of State",
     "license": "Public domain",
@@ -3138,7 +3158,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-263",
+    "cardId": "s1-265",
     "name": "Hu Jintao",
     "artist": "Pete Souza",
     "license": "Public domain",
@@ -3148,7 +3168,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-264",
+    "cardId": "s1-266",
     "name": "James II of England",
     "artist": "Godfrey Kneller",
     "license": "Public domain",
@@ -3158,7 +3178,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-265",
+    "cardId": "s1-267",
     "name": "Mark Carney",
     "artist": "Bryan Berlin",
     "license": "CC BY-SA 4.0",
@@ -3168,7 +3188,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-266",
+    "cardId": "s1-268",
     "name": "Sheikh Hasina",
     "artist": "Press Information Department",
     "license": "Public domain",
@@ -3178,7 +3198,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-267",
+    "cardId": "s1-269",
     "name": "Robert I of Scotland",
     "artist": "S.A.Farabi",
     "license": "CC BY-SA 4.0",
@@ -3188,7 +3208,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-268",
+    "cardId": "s1-270",
     "name": "Nigel Farage",
     "artist": "Laurie Noble",
     "license": "CC BY 3.0",
@@ -3198,7 +3218,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-269",
+    "cardId": "s1-271",
     "name": "Leopold II of Belgium",
     "artist": "London Stereoscopic and Photographic Company",
     "license": "Public domain",
@@ -3208,7 +3228,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-270",
+    "cardId": "s1-272",
     "name": "Henry VI of England",
     "artist": "Poems and Romances (Shrewsbury book), illuminated by the MASTER OF JOHN TALBOT",
     "license": "Public domain",
@@ -3218,7 +3238,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-271",
+    "cardId": "s1-273",
     "name": "Viktor Orbán",
     "artist": "The White House",
     "license": "Public domain",
@@ -3228,7 +3248,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-272",
+    "cardId": "s1-274",
     "name": "Benjamin Disraeli",
     "artist": "Cornelius Jabez Hughes",
     "license": "Public domain",
@@ -3238,7 +3258,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-273",
+    "cardId": "s1-275",
     "name": "Paul von Hindenburg",
     "artist": "Codexbox1",
     "license": "CC BY-SA 4.0",
@@ -3248,7 +3268,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-274",
+    "cardId": "s1-276",
     "name": "Rudolf Hess",
     "artist": "Unknown author",
     "license": "CC BY-SA 3.0 de",
@@ -3258,7 +3278,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-275",
+    "cardId": "s1-277",
     "name": "Pontius Pilatus",
     "artist": "Georges Reverdy",
     "license": "Public domain",
@@ -3268,7 +3288,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-276",
+    "cardId": "s1-278",
     "name": "George Weah",
     "artist": "File:George Weah in 2019 (cropped).jpg: U.S. Embassy in Monrovia, Liberia derivative work: Boros.i",
     "license": "Public domain",
@@ -3278,7 +3298,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-277",
+    "cardId": "s1-279",
     "name": "Henry II of England",
     "artist": "one or more third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical reproduction thereof. This may be due to recognition of the \"sweat of the brow\" doctrine, allowing works to be eligible for protection through skill and labour, and not purely by originality as is the case in the United States (where this website is hosted). These claims may or may not be valid in all jurisdictions. As such, use of this image in the jurisdiction of the claimant or other countries may be regarded as copyright infringement. Please see Commons:When to use the PD-Art tag for more information.",
     "license": "Public domain",
@@ -3288,7 +3308,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-278",
+    "cardId": "s1-280",
     "name": "Felipe VI of Spain",
     "artist": "Saeima",
     "license": "CC BY-SA 2.0",
@@ -3298,7 +3318,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-279",
+    "cardId": "s1-281",
     "name": "Kwame Nkrumah",
     "artist": "The National Archives UK - Flickr account",
     "license": "OGL v1.0",
@@ -3308,7 +3328,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-280",
+    "cardId": "s1-282",
     "name": "Edward VI of England",
     "artist": "Attributed to William Scrots (active 1537-1553) [1]",
     "license": "Public domain",
@@ -3318,7 +3338,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-281",
+    "cardId": "s1-283",
     "name": "Alexander II of Russia",
     "artist": "Attributed to W. & D. Downey",
     "license": "Public domain",
@@ -3328,7 +3348,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-282",
+    "cardId": "s1-284",
     "name": "Duke of Wellington",
     "artist": "Thomas Lawrence",
     "license": "Public domain",
@@ -3338,7 +3358,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-283",
+    "cardId": "s1-285",
     "name": "Hadrian",
     "artist": "Marie-Lan Nguyen",
     "license": "Public domain",
@@ -3348,7 +3368,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-284",
+    "cardId": "s1-286",
     "name": "Nefertiti",
     "artist": "Miguel Hermoso Cuesta",
     "license": "CC BY-SA 3.0",
@@ -3358,7 +3378,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-285",
+    "cardId": "s1-287",
     "name": "David Ben-Gurion",
     "artist": "Fritz Cohen",
     "license": "Public domain",
@@ -3368,7 +3388,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-286",
+    "cardId": "s1-288",
     "name": "Raúl Castro",
     "artist": "[1]",
     "license": "CC BY 2.0",
@@ -3378,7 +3398,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-287",
+    "cardId": "s1-289",
     "name": "Georgy Zhukov",
     "artist": "Министерство обороны Российской Федерации",
     "license": "CC BY 4.0",
@@ -3388,7 +3408,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-288",
+    "cardId": "s1-290",
     "name": "Lech Wałęsa",
     "artist": "MEDEF",
     "license": "CC BY-SA 2.0",
@@ -3398,7 +3418,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-289",
+    "cardId": "s1-291",
     "name": "Claudius",
     "artist": "Coyau",
     "license": "CC BY-SA 3.0",
@@ -3408,7 +3428,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-290",
+    "cardId": "s1-292",
     "name": "Claudia Sheinbaum",
     "artist": "Bryan Berlin",
     "license": "CC BY-SA 4.0",
@@ -3418,7 +3438,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-291",
+    "cardId": "s1-293",
     "name": "Jacques Chirac",
     "artist": "Christian Lambiotte",
     "license": "CC BY 4.0",
@@ -3428,7 +3448,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-292",
+    "cardId": "s1-294",
     "name": "José Rizal",
     "artist": "unknown author",
     "license": "Public domain",
@@ -3438,7 +3458,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-293",
+    "cardId": "s1-295",
     "name": "Desmond Tutu",
     "artist": "Benny Gool",
     "license": "Public domain",
@@ -3448,7 +3468,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-294",
+    "cardId": "s1-296",
     "name": "Giuseppe Garibaldi",
     "artist": "In album: Cartes-de-visite portraits of U.S. Army officers, children, and others, p. 15, right.",
     "license": "Public domain",
@@ -3458,7 +3478,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-295",
+    "cardId": "s1-297",
     "name": "Hosni Mubarak",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -3468,7 +3488,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-296",
+    "cardId": "s1-298",
     "name": "Sarvepalli Radhakrishnan",
     "artist": "White House",
     "license": "Public domain",
@@ -3478,7 +3498,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-297",
+    "cardId": "s1-299",
     "name": "Anwar Sadat",
     "artist": "Press",
     "license": "Public domain",
@@ -3488,7 +3508,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-298",
+    "cardId": "s1-300",
     "name": "Rahul Gandhi",
     "artist": "Himanshu Arya Khowal",
     "license": "CC BY 4.0",
@@ -3498,7 +3518,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-299",
+    "cardId": "s1-301",
     "name": "António Guterres",
     "artist": "U.S. Department of State from United States",
     "license": "Public domain",
@@ -3508,7 +3528,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-300",
+    "cardId": "s1-302",
     "name": "Kim Il-sung",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -3518,7 +3538,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-301",
+    "cardId": "s1-303",
     "name": "Osman I",
     "artist": "Ottoman miniature painting",
     "license": "Public domain",
@@ -3528,7 +3548,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-302",
+    "cardId": "s1-304",
     "name": "Horatio Nelson",
     "artist": "Lemuel Francis Abbott",
     "license": "Public domain",
@@ -3538,7 +3558,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-303",
+    "cardId": "s1-305",
     "name": "Droupadi Murmu",
     "artist": "President's Secretariat",
     "license": "GODL-India",
@@ -3548,7 +3568,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-304",
+    "cardId": "s1-306",
     "name": "Harold Macmillan",
     "artist": "Unknown photographer",
     "license": "Public domain",
@@ -3558,7 +3578,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-305",
+    "cardId": "s1-307",
     "name": "Trajan",
     "artist": "Unknown artist",
     "license": "Public domain",
@@ -3568,7 +3588,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-306",
+    "cardId": "s1-308",
     "name": "Slobodan Milošević",
     "artist": "Associated Press (AP) Agency / SCANPIX",
     "license": "CC BY-SA 2.5",
@@ -3578,7 +3598,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-307",
+    "cardId": "s1-309",
     "name": "Justinian I",
     "artist": "Petar Milošević",
     "license": "CC BY-SA 4.0",
@@ -3588,7 +3608,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-308",
+    "cardId": "s1-310",
     "name": "Clement Attlee",
     "artist": "Presumably Yousuf Karsh",
     "license": "Public domain",
@@ -3598,7 +3618,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-309",
+    "cardId": "s1-311",
     "name": "Alexander I of Russia",
     "artist": "Alexander Molinari",
     "license": "Public domain",
@@ -3608,7 +3628,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-310",
+    "cardId": "s1-312",
     "name": "Pervez Musharraf",
     "artist": "World Economic Forum",
     "license": "CC BY-SA 2.0",
@@ -3618,7 +3638,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-311",
+    "cardId": "s1-313",
     "name": "Isabella I of Castile",
     "artist": null,
     "license": "Public domain",
@@ -3628,7 +3648,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-312",
+    "cardId": "s1-314",
     "name": "Yuri Andropov",
     "artist": "TASS",
     "license": "Public domain",
@@ -3638,7 +3658,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-313",
+    "cardId": "s1-315",
     "name": "Amal Clooney",
     "artist": "Raph_PH",
     "license": "CC BY 4.0",
@@ -3648,7 +3668,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-314",
+    "cardId": "s1-316",
     "name": "Henry IV of France",
     "artist": "Frans Pourbus the Younger",
     "license": "Public domain",
@@ -3658,7 +3678,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-315",
+    "cardId": "s1-317",
     "name": "Hassanal Bolkiah",
     "artist": "Cancillería del Perú",
     "license": "CC BY-SA 2.0",
@@ -3668,7 +3688,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-316",
+    "cardId": "s1-318",
     "name": "Akhenaten",
     "artist": null,
     "license": "CC BY-SA 2.5",
@@ -3678,7 +3698,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-317",
+    "cardId": "s1-319",
     "name": "Patrice Lumumba",
     "artist": "Harry Pot for Anefo )",
     "license": "CC BY 4.0",
@@ -3688,32 +3708,12 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-318",
+    "cardId": "s1-320",
     "name": "William Alexander of the Netherlands",
     "artist": "Sander Perquin",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Koning_Willem-Alexander_(2026).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-319",
-    "name": "Puyi",
-    "artist": "Unknown author",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%BA%A5%E4%BB%AA.jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-320",
-    "name": "Sanna Marin",
-    "artist": "Rami Kurth, valtioneuvoston kanslia - FinnishGovernment",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Eurooppa-neuvosto_23.%E2%80%9324.3.2023_(52766857233)_(cropped).jpg",
     "attributionRequired": true,
     "publicDomain": false
   },
@@ -3939,6 +3939,26 @@ export const portraitCredits: readonly PortraitCredit[] = [
   },
   {
     "cardId": "s1-343",
+    "name": "Puyi",
+    "artist": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%BA%A5%E4%BB%AA.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-344",
+    "name": "Sanna Marin",
+    "artist": "Rami Kurth, valtioneuvoston kanslia - FinnishGovernment",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Eurooppa-neuvosto_23.%E2%80%9324.3.2023_(52766857233)_(cropped).jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-345",
     "name": "Karl Dönitz",
     "artist": null,
     "license": "Public domain",
@@ -3948,57 +3968,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-344",
-    "name": "Viktor Yanukovych",
-    "artist": "Administration of the President of Ukraine",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Viktor_Yanukovych_official_portrait.jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-345",
-    "name": "Alexander III of Russia",
-    "artist": "Sergey Lvovich Levitsky",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Tsar_Alexander_III_c._1885.jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
     "cardId": "s1-346",
-    "name": "Chandragupta Maurya",
-    "artist": "आशीष भटनागर at Hindi Wikipedia",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandragupt_maurya_Birla_mandir_6_dec_2009_(31)_(cropped).JPG",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-347",
-    "name": "Xerxes I",
-    "artist": "Darafsh",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Iran_Darafsh_(784).JPG",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-348",
-    "name": "Dan Quayle",
-    "artist": "U.S. Department of Defense",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Dan_Quayle.jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-349",
     "name": "Andy Burnham",
     "artist": "Prime Minister's Office",
     "license": "OGL 3",
@@ -4008,127 +3978,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-350",
-    "name": "Mehmed II",
-    "artist": "16th century artist",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mehmed_II._Semailname_(Millet_Library,_Ali_Em%C3%AEr%C3%AE_Collection,_History,_MS_no._1216).jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-351",
-    "name": "Petro Poroshenko",
-    "artist": "http://www.president.gov.ua/",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Petro_Poroshenko.jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-352",
-    "name": "Ram Nath Kovind",
-    "artist": "The Rashtrapati Bhavan",
-    "license": "GODL-India",
-    "licenseUrl": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ram_Nath_Kovind_official_portrait.jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-353",
-    "name": "Juan Carlos I of Spain",
-    "artist": "Irekia",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Rey_Juan_Carlos_2013.jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-354",
-    "name": "Yitzhak Rabin",
-    "artist": "Yaakov Saar",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Flickr_-_Israel_Defense_Forces_-_Life_of_Lt._Gen._Yitzhak_Rabin,_7th_IDF_Chief_of_Staff_in_photos_(11).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-355",
-    "name": "Peter III of Russia",
-    "artist": "Lucas Conrad Pfandzelt",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Coronation_portrait_of_Peter_III_of_Russia_-1761.JPG",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-356",
-    "name": "Nayib Bukele",
-    "artist": "The White House",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nayib_Bukele_in_the_White_House,_2025_(cropped).jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-357",
-    "name": "Stephen Harper",
-    "artist": "World Economic Forum / Remy Steinegger",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Stephen_Harper_by_Remy_Steinegger_Infobox.jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-358",
-    "name": "Charles II of Spain",
-    "artist": "Juan Carreño de Miranda",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Rey_Carlos_II.jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-359",
-    "name": "Lavrentiy Beria",
-    "artist": "Unknown, presumed official",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Lavrentiy_Beria_portrait_2.jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-360",
-    "name": "Ramzan Kadyrov",
-    "artist": "tatarstan.ru",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ramzan_Kadyrov_May_2024.jpg",
-    "attributionRequired": true,
-    "publicDomain": false
-  },
-  {
-    "cardId": "s1-361",
-    "name": "Donald Rumsfeld",
-    "artist": "Scott Davis, U.S. Army",
-    "license": "Public domain",
-    "licenseUrl": null,
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Rumsfeld1.jpg",
-    "attributionRequired": false,
-    "publicDomain": true
-  },
-  {
-    "cardId": "s1-362",
+    "cardId": "s1-347",
     "name": "Cyril Ramaphosa",
     "artist": "Ricardo Stuckert",
     "license": "CC BY 4.0",
@@ -4138,7 +3988,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-363",
+    "cardId": "s1-348",
     "name": "Jacob Zuma",
     "artist": "Presidential Press and Information Office / Пресс-служба Президента России",
     "license": "CC BY 4.0",
@@ -4148,7 +3998,17 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-364",
+    "cardId": "s1-349",
+    "name": "Sukarno",
+    "artist": "Onbekend/Anonymous",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Presiden_Sukarno.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-350",
     "name": "Javier Milei",
     "artist": "Quirinale",
     "license": "Attribution",
@@ -4158,7 +4018,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-365",
+    "cardId": "s1-351",
     "name": "Salvador Allende",
     "artist": "Bernard Gotfryd",
     "license": "Public domain",
@@ -4168,7 +4028,27 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-366",
+    "cardId": "s1-352",
+    "name": "Konrad Adenauer",
+    "artist": "Katherine Young (1906–1993)",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F078072-0004,_Konrad_Adenauer.jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-353",
+    "name": "Nicholas II",
+    "artist": "Boissonnas & Eggler",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Nicolas_II_de_russie.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-354",
     "name": "Dilma Rousseff",
     "artist": "Vice-Presidência da República",
     "license": "CC BY 2.0",
@@ -4178,7 +4058,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-367",
+    "cardId": "s1-355",
     "name": "Abdel Fattah el-Sisi",
     "artist": "Ministry of Communications and Information Technology in Egypt",
     "license": "CC BY 4.0",
@@ -4188,7 +4068,17 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-368",
+    "cardId": "s1-356",
+    "name": "François Mitterrand",
+    "artist": "Comet Photo AG (Zürich)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:President_Fran%C3%A7ois_Mitterrand_in_1983.jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-357",
     "name": "Julia Gillard",
     "artist": "Dilma Rousseff",
     "license": "CC BY-SA 2.0",
@@ -4198,7 +4088,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-369",
+    "cardId": "s1-358",
     "name": "Scott Morrison",
     "artist": "Department of Prime Minister and Cabinet",
     "license": "CC BY 3.0 au",
@@ -4208,7 +4098,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-370",
+    "cardId": "s1-359",
     "name": "Anthony Albanese",
     "artist": "Australian Government",
     "license": "CC BY 4.0",
@@ -4218,7 +4108,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-371",
+    "cardId": "s1-360",
     "name": "Shaka Zulu",
     "artist": "James King",
     "license": "Public domain",
@@ -4228,7 +4118,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-372",
+    "cardId": "s1-361",
     "name": "Mohammed VI of Morocco",
     "artist": "UN Climate Change",
     "license": "CC BY 2.0",
@@ -4238,7 +4128,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-373",
+    "cardId": "s1-362",
     "name": "Muhammadu Buhari",
     "artist": "Bayo Omoboriowo",
     "license": "CC BY-SA 4.0",
@@ -4248,7 +4138,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-374",
+    "cardId": "s1-363",
     "name": "Thomas Sankara",
     "artist": "The Militant/ Ernest Harsch",
     "license": "Public domain",
@@ -4258,7 +4148,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-375",
+    "cardId": "s1-364",
     "name": "Juan Perón",
     "artist": "Unknown author.",
     "license": "Public domain",
@@ -4268,7 +4158,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-376",
+    "cardId": "s1-365",
     "name": "Evo Morales",
     "artist": "EneasMx",
     "license": "CC BY-SA 4.0",
@@ -4278,7 +4168,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-377",
+    "cardId": "s1-366",
     "name": "Paul Kagame",
     "artist": "Saeima",
     "license": "CC BY-SA 2.0",
@@ -4288,7 +4178,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-378",
+    "cardId": "s1-367",
     "name": "Mohamed Morsi",
     "artist": "Wilson Dias/ABr",
     "license": "CC BY 3.0 br",
@@ -4298,7 +4188,17 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-379",
+    "cardId": "s1-368",
+    "name": "Pancho Villa",
+    "artist": "Bain News Service, publisher. Photographer is unknown.",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Pancho_Villa_bandolier_(cropped).jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-369",
     "name": "Cristina Fernández de Kirchner",
     "artist": "Víctor Bugge",
     "license": "CC BY 2.0",
@@ -4308,7 +4208,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-380",
+    "cardId": "s1-370",
     "name": "Mobutu Sese Seko",
     "artist": "Frank Hall",
     "license": "Public domain",
@@ -4318,7 +4218,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-381",
+    "cardId": "s1-371",
     "name": "Hatshepsut",
     "artist": "Keith Schengili-Roberts",
     "license": "CC BY-SA 2.5",
@@ -4328,7 +4228,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-382",
+    "cardId": "s1-372",
     "name": "José Mujica",
     "artist": "Palácio do Planalto from Brasilia, Brasil",
     "license": "CC BY 2.0",
@@ -4338,7 +4238,27 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-383",
+    "cardId": "s1-373",
+    "name": "Cardinal Richelieu",
+    "artist": "Philippe de Champaigne",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Cardinal_de_Richelieu.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-374",
+    "name": "Zhou Enlai",
+    "artist": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Zhou_Enlai_MeiyuanXincun17_Nanjing_1946.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-375",
     "name": "Ellen Johnson Sirleaf",
     "artist": "U.S. Institute of Peace",
     "license": "CC BY 2.0",
@@ -4348,7 +4268,17 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-384",
+    "cardId": "s1-376",
+    "name": "Emiliano Zapata",
+    "artist": "Agustín Casasola",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Emiliano_Zapata4.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-377",
     "name": "Yoweri Museveni",
     "artist": "U.S. Department of State",
     "license": "Public domain",
@@ -4358,7 +4288,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-385",
+    "cardId": "s1-378",
     "name": "Malcolm Turnbull",
     "artist": "Commonwealth of Australia",
     "license": "CC BY 4.0",
@@ -4368,7 +4298,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-386",
+    "cardId": "s1-379",
     "name": "Alberto Fujimori",
     "artist": "Christian Lambiotte / European Communities, 1991 / EC - Audiovisual Service",
     "license": "CC BY 4.0",
@@ -4378,7 +4308,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-387",
+    "cardId": "s1-380",
     "name": "Thabo Mbeki",
     "artist": "Antônio Milena/ABr",
     "license": "Attribution",
@@ -4388,7 +4318,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-388",
+    "cardId": "s1-381",
     "name": "F. W. de Klerk",
     "artist": "Walter Rutishauser, Photographer",
     "license": "CC BY-SA 4.0",
@@ -4398,7 +4328,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-389",
+    "cardId": "s1-382",
     "name": "Steve Biko",
     "artist": "Cape Argus",
     "license": "Public domain",
@@ -4408,7 +4338,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-390",
+    "cardId": "s1-383",
     "name": "Rafael Correa",
     "artist": "Wilfredor",
     "license": "CC0",
@@ -4418,7 +4348,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-391",
+    "cardId": "s1-384",
     "name": "Tony Abbott",
     "artist": "MystifyMe Concert Photography (Troy)",
     "license": "CC BY 2.0",
@@ -4428,7 +4358,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-392",
+    "cardId": "s1-385",
     "name": "Kevin Rudd",
     "artist": "Department of Foreign Affairs and Trade",
     "license": "CC BY 4.0",
@@ -4438,7 +4368,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-393",
+    "cardId": "s1-386",
     "name": "Omar al-Bashir",
     "artist": "U.S. Navy photo by Mass Communication Specialist 2nd Class Jesse B. Awalt",
     "license": "Public domain",
@@ -4448,7 +4378,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-394",
+    "cardId": "s1-387",
     "name": "Ibrahim Traoré",
     "artist": "Bamjo226",
     "license": "CC0",
@@ -4458,7 +4388,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-395",
+    "cardId": "s1-388",
     "name": "Abiy Ahmed",
     "artist": "Ethiopia Prime Minister's Office",
     "license": "Public domain",
@@ -4468,7 +4398,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-396",
+    "cardId": "s1-389",
     "name": "María Corina Machado",
     "artist": "Kevin Payravi",
     "license": "CC BY-SA 4.0",
@@ -4478,7 +4408,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-397",
+    "cardId": "s1-390",
     "name": "Michelle Bachelet",
     "artist": "Government of Chile",
     "license": "CC BY 3.0 cl",
@@ -4488,7 +4418,17 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-398",
+    "cardId": "s1-391",
+    "name": "Benito Juárez",
+    "artist": null,
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Benito_Juarez_(cropped).jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-392",
     "name": "Gabriel Boric",
     "artist": "Gobierno de Chile",
     "license": "CC BY 3.0 cl",
@@ -4498,7 +4438,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-399",
+    "cardId": "s1-393",
     "name": "Mswati III",
     "artist": "Cabinet Public Relations Office of the Cabinet Secretariat",
     "license": "CC BY 4.0",
@@ -4508,7 +4448,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-400",
+    "cardId": "s1-394",
     "name": "Caesarion",
     "artist": "Sdwelch1031",
     "license": "CC0",
@@ -4518,7 +4458,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-401",
+    "cardId": "s1-395",
     "name": "John Howard",
     "artist": "© Commonwealth of Australia 2011",
     "license": "CC BY-SA 3.0",
@@ -4528,7 +4468,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-402",
+    "cardId": "s1-396",
     "name": "Jomo Kenyatta",
     "artist": "Pridan Moshe",
     "license": "Public domain",
@@ -4538,7 +4478,17 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-403",
+    "cardId": "s1-397",
+    "name": "Toussaint Louverture",
+    "artist": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:G%C3%A9n%C3%A9ral_Toussaint_Louverture.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-398",
     "name": "Juan Guaidó",
     "artist": "Leo Alvarez",
     "license": "CC BY-SA 4.0",
@@ -4548,7 +4498,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-404",
+    "cardId": "s1-399",
     "name": "Khufu",
     "artist": "Jon Bodsworth",
     "license": "Copyrighted free use",
@@ -4558,7 +4508,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-405",
+    "cardId": "s1-400",
     "name": "Paul Biya",
     "artist": "United States Department of State Africa U.S.-Africa Leaders Summit: Photos and Videos",
     "license": "Public domain",
@@ -4568,7 +4518,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-406",
+    "cardId": "s1-401",
     "name": "Pedro II of Brazil",
     "artist": "Alphonse Liébert",
     "license": "Public domain",
@@ -4578,7 +4528,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-407",
+    "cardId": "s1-402",
     "name": "Boutros Boutros-Ghali",
     "artist": "EC - Audiovisual Service",
     "license": "CC BY 4.0",
@@ -4588,7 +4538,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-408",
+    "cardId": "s1-403",
     "name": "Emmerson Mnangagwa",
     "artist": "Government of Zimbabwe",
     "license": "Public domain",
@@ -4598,7 +4548,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-409",
+    "cardId": "s1-404",
     "name": "Mauricio Macri",
     "artist": "Casa Rosada (Argentina Presidency of the Nation)",
     "license": "CC BY 2.5 ar",
@@ -4608,7 +4558,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-410",
+    "cardId": "s1-405",
     "name": "Teodoro Obiang",
     "artist": "U.S. Department of State",
     "license": "Public domain",
@@ -4618,7 +4568,17 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-411",
+    "cardId": "s1-406",
+    "name": "Georges Danton",
+    "artist": "anonymous",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Anonyme_-_Portrait_de_Georges_Danton_(1759-1794),_orateur_et_homme_politique_-_P712_-_Mus%C3%A9e_Carnavalet_-_2.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-407",
     "name": "Gustavo Petro",
     "artist": "Fotografía oficial de la Presidencia de Colombia",
     "license": "CC0",
@@ -4628,7 +4588,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-412",
+    "cardId": "s1-408",
     "name": "Bola Tinubu",
     "artist": "Nosa Asemota",
     "license": "CC BY-SA 4.0",
@@ -4638,7 +4598,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-413",
+    "cardId": "s1-409",
     "name": "Michel Temer",
     "artist": "Beto Barata/PR",
     "license": "CC BY 2.0",
@@ -4648,7 +4608,17 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-414",
+    "cardId": "s1-410",
+    "name": "Georges Clemenceau",
+    "artist": "Paul Nadar",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Georges_Clemenceau_par_Nadar.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-411",
     "name": "Juan Manuel Santos",
     "artist": "File:Luiz Inacio Lula da Silva and Juan Manuel Santos.jpg: Image Luiz Inacio Lula da Silva and Juan Manuel Santos (Wilson Dias/ABr) derivative work: Coronades (talk)",
     "license": "CC BY 3.0 br",
@@ -4658,7 +4628,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-415",
+    "cardId": "s1-412",
     "name": "Julius Nyerere",
     "artist": "Rob Mieremet / Anefo",
     "license": "CC0",
@@ -4668,7 +4638,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-416",
+    "cardId": "s1-413",
     "name": "Sebastián Piñera",
     "artist": "Marcelo Segura Millar",
     "license": "CC BY 3.0 cl",
@@ -4678,7 +4648,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-417",
+    "cardId": "s1-414",
     "name": "Guillermo Lasso",
     "artist": "Presidencia de la República del Ecuador",
     "license": "Public domain",
@@ -4688,7 +4658,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-418",
+    "cardId": "s1-415",
     "name": "Joseph Kabila",
     "artist": "U.S. Department of State from United States",
     "license": "Public domain",
@@ -4698,7 +4668,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-419",
+    "cardId": "s1-416",
     "name": "Thutmose III",
     "artist": "Husky",
     "license": "Public domain",
@@ -4708,7 +4678,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-420",
+    "cardId": "s1-417",
     "name": "Alberto Fernández",
     "artist": "Casa Rosada",
     "license": "CC BY 2.5 ar",
@@ -4718,7 +4688,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-421",
+    "cardId": "s1-418",
     "name": "Kamehameha I",
     "artist": "Louis Choris",
     "license": "Public domain",
@@ -4728,7 +4698,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-422",
+    "cardId": "s1-419",
     "name": "Uhuru Kenyatta",
     "artist": "Office of the Prime Minister - Ethiopia",
     "license": "Public domain",
@@ -4738,7 +4708,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-423",
+    "cardId": "s1-420",
     "name": "Olusegun Obasanjo",
     "artist": "Helene C. Stikkel",
     "license": "Public domain",
@@ -4748,7 +4718,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-424",
+    "cardId": "s1-421",
     "name": "Charles Taylor",
     "artist": "Plymouth County Sheriff's Office",
     "license": "Public domain",
@@ -4758,7 +4728,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-425",
+    "cardId": "s1-422",
     "name": "José de San Martín",
     "artist": "The exact author is disputed. Some sources attribute it to Jean Baptiste Madou, others to the art teacher of San Martin's daughter, and others suspect it to be the work of many different people.",
     "license": "Public domain",
@@ -4768,7 +4738,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-426",
+    "cardId": "s1-423",
     "name": "Abdelaziz Bouteflika",
     "artist": "Unknown author and Vikoula5",
     "license": "CC BY-SA 3.0",
@@ -4778,7 +4748,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-427",
+    "cardId": "s1-424",
     "name": "Nana Akufo-Addo",
     "artist": "DFID - UK Department for International Development Graham Carlow",
     "license": "CC BY 2.0",
@@ -4788,7 +4758,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-428",
+    "cardId": "s1-425",
     "name": "Seti I",
     "artist": "Osama Shukir Muhammed Amin FRCP(Glasg)",
     "license": "CC BY-SA 4.0",
@@ -4798,7 +4768,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-429",
+    "cardId": "s1-426",
     "name": "Keiko Fujimori",
     "artist": "Ministerio de la Producción",
     "license": "Public domain",
@@ -4808,7 +4778,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-430",
+    "cardId": "s1-427",
     "name": "Farouk I of Egypt",
     "artist": "https://www.pinterest.com/pin/316026098829010795/",
     "license": "Public domain",
@@ -4818,7 +4788,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-431",
+    "cardId": "s1-428",
     "name": "Liliʻuokalani",
     "artist": "James J. Williams / Adam Cuerden",
     "license": "Public domain",
@@ -4828,7 +4798,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-432",
+    "cardId": "s1-429",
     "name": "Goodluck Jonathan",
     "artist": "World Economic Forum",
     "license": "CC BY-SA 2.0",
@@ -4838,7 +4808,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-433",
+    "cardId": "s1-430",
     "name": "Narmer",
     "artist": "Keith Schengili-Roberts",
     "license": "CC BY-SA 3.0",
@@ -4848,7 +4818,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-434",
+    "cardId": "s1-431",
     "name": "John Magufuli",
     "artist": "Issa Michuzi / issamichuzi.blogspot.co.uk",
     "license": "CC BY-SA 2.0",
@@ -4858,7 +4828,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-435",
+    "cardId": "s1-432",
     "name": "Bob Hawke",
     "artist": "© Commonwealth of Australia 2011",
     "license": "CC BY-SA 3.0 au",
@@ -4868,7 +4838,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-436",
+    "cardId": "s1-433",
     "name": "Ian Smith",
     "artist": "Colin Weyer, photographer",
     "license": "CC BY-SA 3.0",
@@ -4878,7 +4848,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-437",
+    "cardId": "s1-434",
     "name": "Zine El Abidine Ben Ali",
     "artist": "No mention",
     "license": "CC BY 2.0",
@@ -4888,7 +4858,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-438",
+    "cardId": "s1-435",
     "name": "Idriss Déby",
     "artist": "Office of the White House (Amanda Lucidon)",
     "license": "Public domain",
@@ -4898,7 +4868,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-439",
+    "cardId": "s1-436",
     "name": "Mengistu Haile Mariam",
     "artist": "N/A",
     "license": "Public domain",
@@ -4908,7 +4878,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-440",
+    "cardId": "s1-437",
     "name": "Delcy Rodríguez",
     "artist": "Presidency of Venezuela",
     "license": "Public domain",
@@ -4918,7 +4888,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-441",
+    "cardId": "s1-438",
     "name": "Isaias Afwerki",
     "artist": "Foreign Affairsng",
     "license": "CC BY-SA 2.0",
@@ -4928,7 +4898,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-442",
+    "cardId": "s1-439",
     "name": "José Eduardo dos Santos",
     "artist": "Ricardo Stuckert/PR",
     "license": "CC BY 3.0 br",
@@ -4938,7 +4908,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-443",
+    "cardId": "s1-440",
     "name": "Néstor Kirchner",
     "artist": "Casa Rosada - Gobierno de la Nación",
     "license": "CC BY 2.5 ar",
@@ -4948,7 +4918,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-444",
+    "cardId": "s1-441",
     "name": "Jorge Rafael Videla",
     "artist": "Unknown author",
     "license": "Public domain",
@@ -4958,7 +4928,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-445",
+    "cardId": "s1-442",
     "name": "William Ruto",
     "artist": "Presidenza della Repubblica",
     "license": "Attribution",
@@ -4968,7 +4938,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-446",
+    "cardId": "s1-443",
     "name": "Getúlio Vargas",
     "artist": "Governo do Brasil",
     "license": "Public domain",
@@ -4978,7 +4948,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-447",
+    "cardId": "s1-444",
     "name": "Seretse Khama",
     "artist": "European Communities Director: Allan Watson Architect: Jean Polak,Jean Gilson,Lucien De Vestel,André Polak",
     "license": "CC BY 4.0",
@@ -4988,7 +4958,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-448",
+    "cardId": "s1-445",
     "name": "Harold Holt",
     "artist": "Frank Wolfe, White House Photo Office",
     "license": "Public domain",
@@ -4998,7 +4968,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-449",
+    "cardId": "s1-446",
     "name": "Sayyid Qutb",
     "artist": "The original uploader was أحمد.غامدي.24 at Arabic Wikipedia.",
     "license": "Public domain",
@@ -5008,7 +4978,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-450",
+    "cardId": "s1-447",
     "name": "Gough Whitlam",
     "artist": "Australian Conservation Foundation",
     "license": "CC BY-SA 4.0",
@@ -5018,7 +4988,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-451",
+    "cardId": "s1-448",
     "name": "Félix Tshisekedi",
     "artist": "U.S. Department of State",
     "license": "Public domain",
@@ -5028,7 +4998,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-452",
+    "cardId": "s1-449",
     "name": "Isabel Martínez de Perón",
     "artist": "Archivo General de la Nación",
     "license": "Public domain",
@@ -5038,7 +5008,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-453",
+    "cardId": "s1-450",
     "name": "Milton Obote",
     "artist": "Warren K. Leffler",
     "license": "Public domain",
@@ -5048,7 +5018,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-454",
+    "cardId": "s1-451",
     "name": "Atahualpa",
     "artist": "anonymous",
     "license": "Public domain",
@@ -5058,7 +5028,17 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-455",
+    "cardId": "s1-452",
+    "name": "Lafayette",
+    "artist": "Joseph-Désiré Court",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Gilbert_du_Motier_Marquis_de_Lafayette.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-453",
     "name": "Yahya Jammeh",
     "artist": "Office of the White House (Amanda Lucidon)",
     "license": "Public domain",
@@ -5068,7 +5048,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-456",
+    "cardId": "s1-454",
     "name": "John Key",
     "artist": "US Embassy NZ",
     "license": "CC BY 4.0",
@@ -5078,7 +5058,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-458",
+    "cardId": "s1-456",
     "name": "Nefertari",
     "artist": "Martin Doudoroff",
     "license": "CC BY 2.0",
@@ -5088,7 +5068,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-459",
+    "cardId": "s1-457",
     "name": "Helen Clark",
     "artist": "Global Commission on Drug Policy",
     "license": "CC BY-SA 4.0",
@@ -5098,7 +5078,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-460",
+    "cardId": "s1-458",
     "name": "Kenneth Kaunda",
     "artist": "Unknown photographer",
     "license": "Public domain",
@@ -5108,7 +5088,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-461",
+    "cardId": "s1-459",
     "name": "César Gaviria",
     "artist": "Marcello Casal Jr./ABr",
     "license": "CC BY 3.0 br",
@@ -5118,7 +5098,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-462",
+    "cardId": "s1-460",
     "name": "Carlos Menem",
     "artist": "Víctor Bugge",
     "license": "CC BY 2.0",
@@ -5128,7 +5108,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-463",
+    "cardId": "s1-461",
     "name": "Dina Boluarte",
     "artist": "World Intellectual Property Organization",
     "license": "CC BY 2.0",
@@ -5138,7 +5118,17 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-464",
+    "cardId": "s1-462",
+    "name": "Léopold Sédar Senghor",
+    "artist": "Bundesarchiv_B_145_Bild-F011981-0003,_Frankfurt-Main,_Staatspräsident_von_Senegal.jpg: Steiner, Egon derivative work: RoyFocker 12 (talk)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:L%C3%A9opold_S%C3%A9dar_Senghor.jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-463",
     "name": "Pedro Castillo",
     "artist": "Galería del Ministerio de Defensa del Perú",
     "license": "CC BY 2.0",
@@ -5148,7 +5138,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-465",
+    "cardId": "s1-464",
     "name": "Jeanine Áñez",
     "artist": "Ministry of Communication",
     "license": "CC BY 2.0",
@@ -5158,12 +5148,22 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-466",
+    "cardId": "s1-465",
     "name": "Alfredo Stroessner",
     "artist": "Frank Scherschel",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Alfredo_Stroessner_at_desk_(cropped).jpg",
+    "attributionRequired": true,
+    "publicDomain": false
+  },
+  {
+    "cardId": "s1-466",
+    "name": "Simone Veil",
+    "artist": "Marie-Lan Nguyen (User:Jastrow)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Simone_Veil,_gymnase_Japy_2008_02_27_n3_ret.jpg",
     "attributionRequired": true,
     "publicDomain": false
   },
@@ -5289,6 +5289,16 @@ export const portraitCredits: readonly PortraitCredit[] = [
   },
   {
     "cardId": "s1-479",
+    "name": "Jean Jaurès",
+    "artist": "Nadar",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Jean_Jaur%C3%A8s,_1904,_par_Nadar.jpg",
+    "attributionRequired": false,
+    "publicDomain": true
+  },
+  {
+    "cardId": "s1-480",
     "name": "John VI of Portugal",
     "artist": "Henri-François Riesener",
     "license": "Public domain",
@@ -5298,7 +5308,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-480",
+    "cardId": "s1-481",
     "name": "Fernando Henrique Cardoso",
     "artist": "Governo do Estado de São Paulo",
     "license": "CC BY 2.0",
@@ -5308,7 +5318,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-481",
+    "cardId": "s1-482",
     "name": "Irfaan Ali",
     "artist": "U.S. Department of State",
     "license": "Public domain",
@@ -5318,7 +5328,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-482",
+    "cardId": "s1-483",
     "name": "Desi Bouterse",
     "artist": "Cabinet of the President of the Republic of Suriname",
     "license": "Copyrighted free use",
@@ -5328,7 +5338,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-483",
+    "cardId": "s1-484",
     "name": "Juscelino Kubitschek",
     "artist": "Governo do Brasil",
     "license": "Public domain",
@@ -5338,7 +5348,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-484",
+    "cardId": "s1-485",
     "name": "Pachacuti",
     "artist": "Online Collection of Brooklyn Museum; Photo: Brooklyn Museum, 1995.29.10_PS6.jpg",
     "license": "Public domain",
@@ -5348,7 +5358,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-485",
+    "cardId": "s1-486",
     "name": "João Goulart",
     "artist": "Brazilian Government. Donated to the United States Government.",
     "license": "Public domain",
@@ -5358,7 +5368,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-486",
+    "cardId": "s1-487",
     "name": "Raúl Alfonsín",
     "artist": "Roosewelt Pinheiro",
     "license": "CC BY 3.0 br",
@@ -5368,7 +5378,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-487",
+    "cardId": "s1-488",
     "name": "Martín Vizcarra",
     "artist": "Galería del Ministerio de Relaciones Exteriores",
     "license": "CC BY 2.0",
@@ -5378,7 +5388,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-488",
+    "cardId": "s1-489",
     "name": "Ollanta Humala",
     "artist": "Ministerio de Relaciones Exteriores de Perú",
     "license": "CC BY-SA 4.0",
@@ -5388,7 +5398,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-489",
+    "cardId": "s1-490",
     "name": "Francisco de Miranda",
     "artist": "Martin Tovar y Tovar",
     "license": "Public domain",
@@ -5398,7 +5408,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-490",
+    "cardId": "s1-491",
     "name": "Chan Santokhi",
     "artist": "Cabinet of the President of the Republic of Suriname",
     "license": "Copyrighted free use",
@@ -5408,7 +5418,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-491",
+    "cardId": "s1-492",
     "name": "Antonio José de Sucre",
     "artist": "Martín Tovar y Tovar (1827 - 1902)",
     "license": "Public domain",
@@ -5418,7 +5428,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-492",
+    "cardId": "s1-493",
     "name": "Fernando Collor",
     "artist": "Ubirajara Dettimar/Presidência da República",
     "license": "CC BY-SA 2.0",
@@ -5428,7 +5438,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-493",
+    "cardId": "s1-494",
     "name": "Luis Lacalle Pou",
     "artist": "Gastón Britos (agencia FocoUy) para Presidencia de la República Oriental del Uruguay; fotografía oficial",
     "license": "CC BY-SA 4.0",
@@ -5438,7 +5448,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-494",
+    "cardId": "s1-495",
     "name": "Fernando de la Rúa",
     "artist": "Unknown author",
     "license": "CC BY 2.0",
@@ -5448,7 +5458,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": false
   },
   {
-    "cardId": "s1-495",
+    "cardId": "s1-496",
     "name": "Abimael Guzmán",
     "artist": "altemark",
     "license": "Public domain",
@@ -5458,7 +5468,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-496",
+    "cardId": "s1-497",
     "name": "Juan Manuel de Rosas",
     "artist": "Cayetano Descalzi",
     "license": "Public domain",
@@ -5468,7 +5478,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-497",
+    "cardId": "s1-498",
     "name": "Iván Duque",
     "artist": "The White House from Washington, DC",
     "license": "Public domain",
@@ -5478,7 +5488,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-498",
+    "cardId": "s1-499",
     "name": "Abelardo de la Espriella",
     "artist": "Abelardo de la Espriella",
     "license": "CC0",
@@ -5488,7 +5498,7 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "publicDomain": true
   },
   {
-    "cardId": "s1-499",
+    "cardId": "s1-500",
     "name": "Francisco Solano López",
     "artist": "Aurelio García (1846–1869)",
     "license": "Public domain",
@@ -5496,15 +5506,5 @@ export const portraitCredits: readonly PortraitCredit[] = [
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Solano_Lopez_1866_by_Garcia.jpg",
     "attributionRequired": false,
     "publicDomain": true
-  },
-  {
-    "cardId": "s1-500",
-    "name": "Horacio Cartes",
-    "artist": "總統府",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:08.16_%E5%89%AF%E7%B8%BD%E7%B5%B1%E7%89%B9%E4%BD%BF%E5%9C%98%E5%87%BA%E5%B8%AD%E5%B7%B4%E6%8B%89%E5%85%B1%E5%92%8C%E5%9C%8B%E6%96%B0%E4%BB%BB%E7%B8%BD%E7%B5%B1%E8%B2%9D%E5%B0%BC%E4%BA%9E%E5%B0%B1%E8%81%B7%E5%85%B8%E7%A6%AE%E5%8F%8A%E7%9B%B8%E9%97%9C%E6%85%B6%E7%A5%9D%E6%B4%BB%E5%8B%95_(5)_(cropped).jpg",
-    "attributionRequired": true,
-    "publicDomain": false
   }
 ];

@@ -20,8 +20,8 @@
       "en": "Juche"
     },
     "description": {
-      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient d'un autre continent.",
-      "en": "-2 Diplomacy to the opposing card if the opposing card is from a different continent."
+      "fr": "−2 en Diplomatie pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "−2 Diplomacy to the opposing card if the opposing card is from a different continent."
     },
     "effect": {
       "type": "malus",

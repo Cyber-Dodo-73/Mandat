@@ -24,8 +24,8 @@
       "en": "Deccan Campaigns"
     },
     "description": {
-      "fr": "-2 en Stratégie pour la carte adverse si la carte adverse vient du même continent.",
-      "en": "The opposing card gets -2 Strategy if the opposing card is from the same continent."
+      "fr": "−2 en Stratégie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "The opposing card gets −2 Strategy if the opposing card is from the same continent."
     },
     "effect": {
       "type": "malus",

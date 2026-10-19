@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q40933",
+  "name": {
+    "fr": "Eva Perón",
+    "en": "Eva Perón"
+  },
+  "role": {
+    "fr": "Première dame de l'Argentine",
+    "en": "First Lady of Argentina"
+  },
+  "bio": {
+    "fr": "Actrice devenue l'épouse de Juan Perón, elle est Première dame de l'Argentine de 1946 à sa mort. Sa fondation sociale la rend très populaire auprès des ouvriers, et elle pèse de tout son poids pour le droit de vote des femmes, obtenu en 1947. Sa mort d'un cancer à 33 ans, en 1952, fait d'« Evita » une figure quasi légendaire.",
+    "en": "An actress who married Juan Perón, she was First Lady of Argentina from 1946 until her death. Her social foundation made her hugely popular with workers, and she campaigned hard for women's suffrage, won in 1947. Her death from cancer at 33, in 1952, turned \"Evita\" into an almost legendary figure."
+  },
+  "stats": {
+    "influence": 7,
+    "diplomacy": 6,
+    "charisma": 10,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Les descamisados",
+      "en": "The Descamisados"
+    },
+    "description": {
+      "fr": "+2 en Charisme quand le domaine de la manche est le Charisme.",
+      "en": "+2 Charisma when the round domain is Charisma."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "roundDomain",
+        "value": "charisma"
+      }
+    }
+  }
+}

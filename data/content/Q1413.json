@@ -20,8 +20,8 @@
       "en": "Rome Ablaze"
     },
     "description": {
-      "fr": "-1 à la carte adverse dans le domaine de la manche.",
-      "en": "-1 to the opposing card in the round's domain."
+      "fr": "−1 à la carte adverse dans le domaine de la manche.",
+      "en": "−1 to the opposing card in the round's domain."
     },
     "effect": {
       "type": "malus",

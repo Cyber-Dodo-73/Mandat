@@ -20,8 +20,8 @@
       "en": "People's War"
     },
     "description": {
-      "fr": "-2 en Diplomatie pour la carte adverse lors de la manche 1.",
-      "en": "-2 Diplomacy to the opposing card in round 1."
+      "fr": "−2 en Diplomatie pour la carte adverse lors de la manche 1.",
+      "en": "−2 Diplomacy to the opposing card in round 1."
     },
     "effect": {
       "type": "malus",

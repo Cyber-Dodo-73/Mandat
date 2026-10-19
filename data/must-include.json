@@ -1,0 +1,22 @@
+{
+  "_comment": "Documented false negatives of the selection: major political figures the fame metric (English Wikipedia pageviews + language editions) under-ranks, mostly national icons of the French-speaking launch market, or that the Wikidata category queries / occupation filter miss. They are always selected (taking the place of the lowest merit picks, never of continent-quota picks) and override exclusions; their rarity is still assigned purely by fame rank. Keep this list short and justified.",
+  "Q2038": { "name": "François Mitterrand", "reason": "President of France 1981–1995; under-ranked by English pageviews." },
+  "Q171730": { "name": "Georges Clemenceau", "reason": "French Prime Minister who led France to victory in 1918." },
+  "Q298180": { "name": "Simone Veil", "reason": "Minister who legalised abortion in France, first elected President of the European Parliament." },
+  "Q12688": { "name": "Jean Jaurès", "reason": "Founder of French socialism, assassinated in 1914." },
+  "Q26702": { "name": "Cardinal de Richelieu", "reason": "Chief minister of Louis XIII, architect of the absolutist French state." },
+  "Q184623": { "name": "Georges Danton", "reason": "Leading figure of the French Revolution." },
+  "Q186652": { "name": "Lafayette", "reason": "Hero of the American and French revolutions." },
+  "Q7226": { "name": "Joan of Arc", "reason": "War leader of the Hundred Years' War; no political office, so the category queries miss her." },
+  "Q205783": { "name": "Toussaint Louverture", "reason": "Leader of the Haitian Revolution." },
+  "Q154545": { "name": "Léopold Sédar Senghor", "reason": "First President of Senegal." },
+  "Q182276": { "name": "Benito Juárez", "reason": "President of Mexico, symbol of the Reform." },
+  "Q41718": { "name": "Emiliano Zapata", "reason": "Leader of the Mexican Revolution." },
+  "Q192278": { "name": "Pancho Villa", "reason": "Leader of the Mexican Revolution." },
+  "Q17410": { "name": "Zhou Enlai", "reason": "First Premier of the People's Republic of China." },
+  "Q2492": { "name": "Konrad Adenauer", "reason": "First Chancellor of West Germany, founder of European integration." },
+  "Q76127": { "name": "Sukarno", "reason": "Founding President of Indonesia." },
+  "Q40933": { "name": "Eva Perón", "reason": "First Lady and political leader of Argentina; the actor occupation wrongly excludes her." },
+  "Q40787": { "name": "Nicholas II", "reason": "Last Emperor of Russia." },
+  "Q269909": { "name": "Andy Burnham", "reason": "Sitting Prime Minister of the United Kingdom (since July 2026); too recent for the long pageview window." }
+}

@@ -20,8 +20,8 @@
       "en": "Power Grab"
     },
     "description": {
-      "fr": "-2 en Influence pour la carte adverse au round 1.",
-      "en": "-2 Influence to the opposing card in round 1."
+      "fr": "−2 en Influence pour la carte adverse à la manche 1.",
+      "en": "−2 Influence to the opposing card in round 1."
     },
     "effect": {
       "type": "malus",

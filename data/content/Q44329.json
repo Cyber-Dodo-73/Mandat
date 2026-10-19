@@ -20,8 +20,8 @@
       "en": "War of Attrition"
     },
     "description": {
-      "fr": "-2 en Stratégie à la carte adverse lors de la troisième manche.",
-      "en": "-2 Strategy to the opposing card in the third round."
+      "fr": "−2 en Stratégie à la carte adverse lors de la troisième manche.",
+      "en": "−2 Strategy to the opposing card in the third round."
     },
     "effect": {
       "type": "malus",

@@ -20,8 +20,8 @@
       "en": "Trafalgar"
     },
     "description": {
-      "fr": "-2 à la carte adverse dans le domaine du round au round 2.",
-      "en": "-2 to the opposing card in the round's domain in round 2."
+      "fr": "−2 à la carte adverse dans le domaine de la manche à la manche 2.",
+      "en": "−2 to the opposing card in the round's domain in round 2."
     },
     "effect": {
       "type": "malus",

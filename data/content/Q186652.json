@@ -1,0 +1,38 @@
+{
+  "wikidataId": "Q186652",
+  "name": {
+    "fr": "La Fayette",
+    "en": "Lafayette"
+  },
+  "role": {
+    "fr": "Général et député français",
+    "en": "French general and deputy"
+  },
+  "bio": {
+    "fr": "Jeune aristocrate, il part combattre aux côtés des insurgés américains et devient général dans l'armée de George Washington. Pendant la Révolution française, il présente un projet de Déclaration des droits de l'homme et commande la Garde nationale. Député libéral sous la Restauration, il joue un rôle central dans la révolution de 1830.",
+    "en": "A young aristocrat, he went to fight alongside the American rebels and became a general in George Washington's army. During the French Revolution he presented a draft Declaration of the Rights of Man and commanded the National Guard. A liberal deputy under the Restoration, he played a central role in the 1830 revolution."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 8,
+    "charisma": 7,
+    "strategy": 6
+  },
+  "ability": {
+    "name": {
+      "fr": "Héros des deux mondes",
+      "en": "Hero of Two Worlds"
+    },
+    "description": {
+      "fr": "Remporte les égalités si la carte adverse vient d'un autre continent.",
+      "en": "Wins ties if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "tieBreaker",
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

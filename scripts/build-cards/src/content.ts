@@ -97,10 +97,100 @@ export function validateContent(value: unknown, expectedQid: string, sensitive: 
     errors.push(...validateEffect(value.ability.effect));
   }
 
-  const known = new Set(['wikidataId', 'name', 'role', 'bio', 'stats', 'ability']);
+  errors.push(...validateLongForm(value));
+
+  const known = new Set(['wikidataId', 'name', 'role', 'bio', 'stats', 'ability', 'story', 'highlights', 'legacy']);
   const unknown = Object.keys(value).filter((k) => !known.has(k));
   if (unknown.length > 0) errors.push(`unknown keys: ${unknown.join(', ')}`);
   return errors;
+}
+
+export const STORY_SENTENCES = { min: 6, max: 10 } as const;
+export const STORY_LENGTH = { min: 600, max: 1600 } as const;
+export const HIGHLIGHTS_COUNT = { min: 3, max: 5 } as const;
+export const HIGHLIGHT_MAX = 140;
+export const LEGACY_SENTENCES = { min: 1, max: 2 } as const;
+export const LEGACY_MAX = 320;
+
+/** Optional long-form fields (story, highlights, legacy): validated only when present. */
+export function validateLongForm(value: Record<string, unknown>): string[] {
+  const errors: string[] = [];
+  if (value.story !== undefined && checkLocalized(value.story, 'story', errors)) {
+    for (const lang of ['fr', 'en'] as const) {
+      const text = value.story[lang];
+      const sentences = countSentences(text);
+      if (sentences < STORY_SENTENCES.min || sentences > STORY_SENTENCES.max) {
+        errors.push(`story.${lang}: ${sentences} sentences, expected ${STORY_SENTENCES.min}–${STORY_SENTENCES.max}`);
+      }
+      if (text.length < STORY_LENGTH.min || text.length > STORY_LENGTH.max) {
+        errors.push(`story.${lang}: ${text.length} chars, expected ${STORY_LENGTH.min}–${STORY_LENGTH.max}`);
+      }
+    }
+  }
+  if (value.highlights !== undefined) {
+    const h = value.highlights;
+    if (!isRecord(h) || !Array.isArray(h.fr) || !Array.isArray(h.en)) {
+      errors.push('highlights: expected { fr: string[], en: string[] }');
+    } else {
+      for (const lang of ['fr', 'en'] as const) {
+        const list = h[lang] as unknown[];
+        if (list.length < HIGHLIGHTS_COUNT.min || list.length > HIGHLIGHTS_COUNT.max) {
+          errors.push(`highlights.${lang}: ${list.length} items, expected ${HIGHLIGHTS_COUNT.min}–${HIGHLIGHTS_COUNT.max}`);
+        }
+        list.forEach((item, i) => {
+          if (typeof item !== 'string' || !item.trim()) errors.push(`highlights.${lang}[${i}]: required non-empty string`);
+          else if (item.length > HIGHLIGHT_MAX) errors.push(`highlights.${lang}[${i}]: ${item.length} chars > ${HIGHLIGHT_MAX}`);
+        });
+      }
+      if ((h.fr as unknown[]).length !== (h.en as unknown[]).length) errors.push('highlights: fr and en must have the same number of items');
+    }
+  }
+  if (value.legacy !== undefined && checkLocalized(value.legacy, 'legacy', errors, LEGACY_MAX)) {
+    for (const lang of ['fr', 'en'] as const) {
+      const sentences = countSentences(value.legacy[lang]);
+      if (sentences < LEGACY_SENTENCES.min || sentences > LEGACY_SENTENCES.max) {
+        errors.push(`legacy.${lang}: ${sentences} sentences, expected ${LEGACY_SENTENCES.min}–${LEGACY_SENTENCES.max}`);
+      }
+    }
+  }
+  return errors;
+}
+
+/** Card facts an ability condition depends on. */
+export type AbilityContext = { rarity: Rarity; era: string; continent: string };
+
+/**
+ * Problems that make an ability unable to ever trigger, or its text inconsistent:
+ * - "opponentRarityHigher" on a mythic (nothing is rarer);
+ * - a bonus/malus on one stat gated by "roundDomain" on another stat (an effect only counts
+ *   when its stat is the round's domain, so it could never apply);
+ * - French text saying "round" (the game says "manche") or using a hyphen as a minus sign.
+ */
+export function abilityIssues(ability: unknown, ctx: AbilityContext): string[] {
+  if (!isRecord(ability) || !isRecord(ability.effect)) return [];
+  const issues: string[] = [];
+  const effect = ability.effect;
+  const condition = isRecord(effect.condition) ? effect.condition : {};
+  if (condition.kind === 'opponentRarityHigher' && ctx.rarity === 'mythic') {
+    issues.push('ability.effect: "opponentRarityHigher" can never trigger on a mythic card');
+  }
+  if (
+    condition.kind === 'roundDomain' &&
+    effect.type !== 'tieBreaker' &&
+    effect.stat !== 'any' &&
+    effect.stat !== condition.value
+  ) {
+    issues.push(`ability.effect: a ${String(effect.type)} on ${String(effect.stat)} gated by round domain ${String(condition.value)} can never apply`);
+  }
+  const description = isRecord(ability.description) ? ability.description : {};
+  if (typeof description.fr === 'string') {
+    if (/\bround\b/i.test(description.fr)) issues.push('ability.description.fr: use "manche", not "round"');
+    if (/(^|[\s(])-\d/.test(description.fr)) issues.push('ability.description.fr: use the minus sign "−" before numbers');
+  }
+  if (typeof description.en === 'string' && /(^|[\s(])-\d/.test(description.en)) {
+    issues.push('ability.description.en: use the minus sign "−" before numbers');
+  }
+  return issues;
 }
 
 export const statTotal = (stats: Stats) => STAT_KEYS.reduce((sum, key) => sum + stats[key], 0);

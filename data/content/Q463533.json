@@ -20,8 +20,8 @@
       "en": "Spending Cap"
     },
     "description": {
-      "fr": "-2 en Charisme pour la carte adverse si vous avez perdu plus de manches que l'adversaire.",
-      "en": "-2 Charisma to the opposing card if you have lost more rounds than your opponent."
+      "fr": "−2 en Charisme pour la carte adverse si vous avez perdu plus de manches que l'adversaire.",
+      "en": "−2 Charisma to the opposing card if you have lost more rounds than your opponent."
     },
     "effect": {
       "type": "malus",

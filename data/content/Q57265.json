@@ -20,8 +20,8 @@
       "en": "The 1989 Coup"
     },
     "description": {
-      "fr": "-2 en Charisme pour la carte adverse si la carte adverse vient d'un autre continent.",
-      "en": "-2 Charisma to the opposing card if the opposing card is from a different continent."
+      "fr": "−2 en Charisme pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "−2 Charisma to the opposing card if the opposing card is from a different continent."
     },
     "effect": {
       "type": "malus",

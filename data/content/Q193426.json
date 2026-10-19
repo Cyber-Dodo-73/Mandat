@@ -20,8 +20,8 @@
       "en": "Just Say No"
     },
     "description": {
-      "fr": "-2 en Charisme pour la carte adverse si la carte adverse vient du même continent.",
-      "en": "Opposing card gets -2 Charisma if the opposing card is from the same continent."
+      "fr": "−2 en Charisme pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "Opposing card gets −2 Charisma if the opposing card is from the same continent."
     },
     "effect": {
       "type": "malus",

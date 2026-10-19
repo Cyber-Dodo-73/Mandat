@@ -20,8 +20,8 @@
       "en": "Economic Model"
     },
     "description": {
-      "fr": "-1 en Influence pour la carte adverse si la carte adverse vient du même continent.",
-      "en": "-1 Influence to the opposing card if the opposing card is from the same continent."
+      "fr": "−1 en Influence pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "−1 Influence to the opposing card if the opposing card is from the same continent."
     },
     "effect": {
       "type": "malus",

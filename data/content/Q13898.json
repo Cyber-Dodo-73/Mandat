@@ -20,8 +20,8 @@
       "en": "Fifth of November"
     },
     "description": {
-      "fr": "-2 dans le domaine de la manche pour la carte adverse lors de la 3e manche.",
-      "en": "The opposing card gets -2 in the round's domain in the third round."
+      "fr": "−2 dans le domaine de la manche pour la carte adverse lors de la 3e manche.",
+      "en": "The opposing card gets −2 in the round's domain in the third round."
     },
     "effect": {
       "type": "malus",

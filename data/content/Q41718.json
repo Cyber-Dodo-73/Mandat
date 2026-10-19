@@ -1,0 +1,35 @@
+{
+  "wikidataId": "Q41718",
+  "role": {
+    "fr": "Chef de la Révolution mexicaine",
+    "en": "Leader of the Mexican Revolution"
+  },
+  "bio": {
+    "fr": "Paysan de l'État de Morelos, il prend la tête en 1910 d'une armée de paysans qui réclame le retour des terres aux villages. Son plan d'Ayala, publié en 1911, résume ce combat sous la devise « Terre et liberté ». Il est tué dans une embuscade tendue par des troupes gouvernementales en 1919.",
+    "en": "A farmer from the state of Morelos, he led a peasant army from 1910 that demanded the return of land to the villages. His Plan of Ayala, issued in 1911, summed up that fight under the motto \"Land and Liberty\". He was killed in an ambush laid by government troops in 1919."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 7,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Terre et liberté",
+      "en": "Land and Liberty"
+    },
+    "description": {
+      "fr": "+2 en Charisme si la carte adverse est plus rare.",
+      "en": "+2 Charisma if the opposing card is rarer."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentRarityHigher"
+      }
+    }
+  }
+}

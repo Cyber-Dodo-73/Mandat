@@ -1,0 +1,40 @@
+{
+  "wikidataId": "Q192278",
+  "name": {
+    "fr": "Pancho Villa",
+    "en": "Pancho Villa"
+  },
+  "role": {
+    "fr": "Général de la Révolution mexicaine",
+    "en": "General of the Mexican Revolution"
+  },
+  "bio": {
+    "fr": "Ancien bandit du nord du Mexique, il prend les armes en 1910 et commande la redoutée Division du Nord pendant la Révolution mexicaine. Brièvement gouverneur de Chihuahua, il attaque en 1916 la ville américaine de Columbus, ce qui déclenche une expédition des États-Unis contre lui. Il est assassiné en 1923.",
+    "en": "A former outlaw from northern Mexico, he took up arms in 1910 and led the feared Division of the North during the Mexican Revolution. Briefly governor of Chihuahua, he raided the US town of Columbus in 1916, prompting an American expedition against him. He was assassinated in 1923."
+  },
+  "stats": {
+    "influence": 3,
+    "diplomacy": 1,
+    "charisma": 5,
+    "strategy": 5
+  },
+  "ability": {
+    "name": {
+      "fr": "Division du Nord",
+      "en": "Division of the North"
+    },
+    "description": {
+      "fr": "+2 en Stratégie à la manche 1.",
+      "en": "+2 Strategy in round 1."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 1
+      }
+    }
+  }
+}

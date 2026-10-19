@@ -1,0 +1,380 @@
+[
+ {
+  "number": 61,
+  "id": "s1-061",
+  "wikidataId": "Q7226",
+  "name": {
+   "en": "Joan of Arc",
+   "fr": "Jeanne d'Arc"
+  },
+  "role": {
+   "fr": "Personnalité politique",
+   "en": "Politician"
+  },
+  "rarity": "epic",
+  "country": "FR",
+  "continent": "europe",
+  "era": "medieval",
+  "birthYear": 1412,
+  "deathYear": 1431,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 225,
+  "id": "s1-225",
+  "wikidataId": "Q40933",
+  "name": {
+   "en": "Eva Perón",
+   "fr": "Eva Perón"
+  },
+  "role": {
+   "fr": "Président ou présidente",
+   "en": "President"
+  },
+  "rarity": "uncommon",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1919,
+  "deathYear": 1952,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 349,
+  "id": "s1-349",
+  "wikidataId": "Q76127",
+  "name": {
+   "en": "Sukarno",
+   "fr": "Soekarno"
+  },
+  "role": {
+   "fr": "Président d'Indonésie",
+   "en": "President of Indonesia"
+  },
+  "rarity": "common",
+  "country": "ID",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1901,
+  "deathYear": 1970,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 352,
+  "id": "s1-352",
+  "wikidataId": "Q2492",
+  "name": {
+   "en": "Konrad Adenauer",
+   "fr": "Konrad Adenauer"
+  },
+  "role": {
+   "fr": "Chancelier fédéral",
+   "en": "Federal Chancellor of Germany"
+  },
+  "rarity": "common",
+  "country": "DE",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1876,
+  "deathYear": 1967,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 353,
+  "id": "s1-353",
+  "wikidataId": "Q40787",
+  "name": {
+   "en": "Nicholas II of Russia",
+   "fr": "Nicolas II de Russie"
+  },
+  "role": {
+   "fr": "Empereur de toutes les Russies",
+   "en": "Emperor of all the Russias"
+  },
+  "rarity": "common",
+  "country": "RU",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1868,
+  "deathYear": 1918,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 356,
+  "id": "s1-356",
+  "wikidataId": "Q2038",
+  "name": {
+   "en": "François Mitterrand",
+   "fr": "François Mitterrand"
+  },
+  "role": {
+   "fr": "Président de la République française",
+   "en": "President of the French Republic"
+  },
+  "rarity": "common",
+  "country": "FR",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1916,
+  "deathYear": 1996,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 368,
+  "id": "s1-368",
+  "wikidataId": "Q192278",
+  "name": {
+   "en": "Pancho Villa",
+   "fr": "Pancho Villa"
+  },
+  "role": {
+   "fr": "Gouverneur de Chihuahua",
+   "en": "Governor of Chihuahua"
+  },
+  "rarity": "common",
+  "country": "MX",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1878,
+  "deathYear": 1923,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 373,
+  "id": "s1-373",
+  "wikidataId": "Q26702",
+  "name": {
+   "en": "Armand-Jean du Plessis, duc de Richelieu",
+   "fr": "Armand Jean du Plessis de Richelieu"
+  },
+  "role": {
+   "fr": "Cardinal",
+   "en": "Cardinal"
+  },
+  "rarity": "common",
+  "country": "FR",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1585,
+  "deathYear": 1642,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 374,
+  "id": "s1-374",
+  "wikidataId": "Q17410",
+  "name": {
+   "en": "Zhou Enlai",
+   "fr": "Zhou Enlai"
+  },
+  "role": {
+   "fr": "Premier ministre de la République populaire de Chine",
+   "en": "Premier of the People's Republic of China"
+  },
+  "rarity": "common",
+  "country": "CN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1898,
+  "deathYear": 1976,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 376,
+  "id": "s1-376",
+  "wikidataId": "Q41718",
+  "name": {
+   "en": "Emiliano Zapata",
+   "fr": "Emiliano Zapata"
+  },
+  "role": {
+   "fr": "Révolutionnaire",
+   "en": "Revolutionary"
+  },
+  "rarity": "common",
+  "country": "MX",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1879,
+  "deathYear": 1919,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 391,
+  "id": "s1-391",
+  "wikidataId": "Q182276",
+  "name": {
+   "en": "Benito Juárez",
+   "fr": "Benito Juárez"
+  },
+  "role": {
+   "fr": "Président des États-Unis mexicains",
+   "en": "President of Mexico"
+  },
+  "rarity": "common",
+  "country": "MX",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1806,
+  "deathYear": 1872,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 397,
+  "id": "s1-397",
+  "wikidataId": "Q205783",
+  "name": {
+   "en": "Toussaint Louverture",
+   "fr": "Toussaint Louverture"
+  },
+  "role": {
+   "fr": "Révolutionnaire",
+   "en": "Revolutionary"
+  },
+  "rarity": "common",
+  "country": "HT",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1743,
+  "deathYear": 1803,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 406,
+  "id": "s1-406",
+  "wikidataId": "Q184623",
+  "name": {
+   "en": "Georges Danton",
+   "fr": "Georges Jacques Danton"
+  },
+  "role": {
+   "fr": "Garde des Sceaux, ministre de la Justice",
+   "en": "Minister of Justice"
+  },
+  "rarity": "common",
+  "country": "FR",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1759,
+  "deathYear": 1794,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 410,
+  "id": "s1-410",
+  "wikidataId": "Q171730",
+  "name": {
+   "en": "Georges Clemenceau",
+   "fr": "Georges Clemenceau"
+  },
+  "role": {
+   "fr": "Président du Conseil",
+   "en": "President of the Council"
+  },
+  "rarity": "common",
+  "country": "FR",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1841,
+  "deathYear": 1929,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 452,
+  "id": "s1-452",
+  "wikidataId": "Q186652",
+  "name": {
+   "en": "Gilbert du Motier, Marquis de Lafayette",
+   "fr": "Gilbert du Motier de La Fayette"
+  },
+  "role": {
+   "fr": "Député français",
+   "en": "Member of the French National Assembly"
+  },
+  "rarity": "common",
+  "country": "FR",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1757,
+  "deathYear": 1834,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 462,
+  "id": "s1-462",
+  "wikidataId": "Q154545",
+  "name": {
+   "en": "Léopold Sédar Senghor",
+   "fr": "Léopold Sédar Senghor"
+  },
+  "role": {
+   "fr": "Président de la république du Sénégal",
+   "en": "President of Senegal"
+  },
+  "rarity": "common",
+  "country": "SN",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1906,
+  "deathYear": 2001,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 466,
+  "id": "s1-466",
+  "wikidataId": "Q298180",
+  "name": {
+   "en": "Simone Veil",
+   "fr": "Simone Veil"
+  },
+  "role": {
+   "fr": "Président du Parlement européen",
+   "en": "President of the European Parliament"
+  },
+  "rarity": "common",
+  "country": "FR",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1927,
+  "deathYear": 2017,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 479,
+  "id": "s1-479",
+  "wikidataId": "Q12688",
+  "name": {
+   "en": "Jean Jaurès",
+   "fr": "Jean Jaurès"
+  },
+  "role": {
+   "fr": "Président ou présidente",
+   "en": "President"
+  },
+  "rarity": "common",
+  "country": "FR",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1859,
+  "deathYear": 1914,
+  "sensitive": false,
+  "statTotal": 29
+ }
+]

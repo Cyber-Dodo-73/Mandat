@@ -20,8 +20,8 @@
       "en": "Going Viral"
     },
     "description": {
-      "fr": "-2 en Charisme à la carte adverse si la carte adverse est de l'époque contemporaine.",
-      "en": "-2 Charisma to the opposing card if the opposing card is from the contemporary era."
+      "fr": "−2 en Charisme à la carte adverse si la carte adverse est de l'époque contemporaine.",
+      "en": "−2 Charisma to the opposing card if the opposing card is from the contemporary era."
     },
     "effect": {
       "type": "malus",

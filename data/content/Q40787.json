@@ -1,0 +1,39 @@
+{
+  "wikidataId": "Q40787",
+  "name": {
+    "fr": "Nicolas II",
+    "en": "Nicholas II"
+  },
+  "role": {
+    "fr": "Empereur de Russie",
+    "en": "Emperor of Russia"
+  },
+  "bio": {
+    "fr": "Dernier tsar de Russie, il règne de 1894 à 1917 sur un empire ébranlé par la défaite contre le Japon et la révolution de 1905. La guerre de 1914 et les pénuries aboutissent à la révolution de février 1917, qui le contraint à abdiquer. Il est exécuté avec sa famille par les bolcheviks à Iekaterinbourg en juillet 1918.",
+    "en": "The last tsar of Russia, he reigned from 1894 to 1917 over an empire shaken by defeat against Japan and the 1905 revolution. The war of 1914 and widespread shortages led to the February Revolution of 1917, which forced him to abdicate. He was executed with his family by the Bolsheviks in Yekaterinburg in July 1918."
+  },
+  "stats": {
+    "influence": 5,
+    "diplomacy": 3,
+    "charisma": 2,
+    "strategy": 4
+  },
+  "ability": {
+    "name": {
+      "fr": "Autocrate",
+      "en": "Autocrat"
+    },
+    "description": {
+      "fr": "+1 en Influence.",
+      "en": "+1 Influence."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "influence",
+      "amount": 1,
+      "condition": {
+        "kind": "always"
+      }
+    }
+  }
+}

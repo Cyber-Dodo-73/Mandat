@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q184623",
+  "role": {
+    "fr": "Ministre de la Justice de la République française",
+    "en": "Minister of Justice of the French Republic"
+  },
+  "bio": {
+    "fr": "Avocat et tribun de la Révolution française, il contribue à la chute de la monarchie en août 1792 et devient ministre de la Justice. Membre du premier Comité de salut public, il pousse à la levée en masse pour défendre la République. Accusé de corruption et de modération, il est guillotiné en avril 1794.",
+    "en": "A lawyer and orator of the French Revolution, he helped bring down the monarchy in August 1792 and became Minister of Justice. A member of the first Committee of Public Safety, he pushed for the mass levy to defend the Republic. Accused of corruption and moderation, he was guillotined in April 1794."
+  },
+  "stats": {
+    "influence": 4,
+    "diplomacy": 3,
+    "charisma": 8,
+    "strategy": 3
+  },
+  "ability": {
+    "name": {
+      "fr": "De l'audace",
+      "en": "Audacity"
+    },
+    "description": {
+      "fr": "+2 en Charisme à la manche 2.",
+      "en": "+2 Charisma in round 2."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "charisma",
+      "amount": 2,
+      "condition": {
+        "kind": "round",
+        "value": 2
+      }
+    }
+  }
+}

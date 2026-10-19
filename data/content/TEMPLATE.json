@@ -32,5 +32,25 @@
         "value": "same"
       }
     }
+  },
+  "story": {
+    "fr": "(Optionnel) 6 à 10 phrases, 600 à 1600 caractères : l'histoire de la personne, dans l'ordre chronologique, factuelle et rédigée de façon originale. Elle s'appuie sur la frise chronologique de la carte. Chaque phrase apporte un fait daté ou vérifiable. On évite les adjectifs élogieux et les jugements. On cite les événements clés, les fonctions occupées et les décisions marquantes. Pour une figure sensible, les crimes sont nommés avec leur ampleur. La dernière phrase peut évoquer la fin de sa vie ou de sa carrière.",
+    "en": "(Optional) 6 to 10 sentences, 600 to 1600 characters: the person's history, in chronological order, factual and written in original wording. It relies on the card's timeline. Every sentence brings a dated or verifiable fact. Avoid praising adjectives and judgements. Name key events, offices held and defining decisions. For a sensitive figure, crimes are named with their scale. The last sentence can cover the end of their life or career."
+  },
+  "highlights": {
+    "fr": [
+      "(Optionnel) Premier président élu au suffrage universel, en 1994",
+      "Prix Nobel de la paix en 1993",
+      "27 années de prison, de 1962 à 1990"
+    ],
+    "en": [
+      "(Optional) First president elected by universal suffrage, in 1994",
+      "Nobel Peace Prize in 1993",
+      "27 years in prison, from 1962 to 1990"
+    ]
+  },
+  "legacy": {
+    "fr": "(Optionnel) Une ou deux phrases sur ce qui reste de la personne aujourd'hui.",
+    "en": "(Optional) One or two sentences on what remains of them today."
   }
 }

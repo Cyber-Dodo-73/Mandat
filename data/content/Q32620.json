@@ -20,8 +20,8 @@
       "en": "Intelligence Brief"
     },
     "description": {
-      "fr": "-2 en Stratégie pour la carte adverse lors de la 2e manche.",
-      "en": "The opposing card gets -2 Strategy in the second round."
+      "fr": "−2 en Stratégie pour la carte adverse lors de la 2e manche.",
+      "en": "The opposing card gets −2 Strategy in the second round."
     },
     "effect": {
       "type": "malus",

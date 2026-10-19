@@ -20,8 +20,8 @@
       "en": "Monetary Backstop"
     },
     "description": {
-      "fr": "-2 en Influence pour la carte adverse si la carte adverse est plus rare.",
-      "en": "-2 Influence to the opposing card if the opposing card is rarer."
+      "fr": "−2 en Influence pour la carte adverse si la carte adverse est plus rare.",
+      "en": "−2 Influence to the opposing card if the opposing card is rarer."
     },
     "effect": {
       "type": "malus",

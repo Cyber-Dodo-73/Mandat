@@ -1,8 +1,18 @@
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { CARD_COUNT, CONTINENT_QUOTAS, COUNTRY_CAPS, FAME_WEIGHTS, PATHS, RARITY_TIERS, SEASON } from './config.ts';
-import { placeholderContent, validateCatalogBalance, validateContent } from './content.ts';
+import {
+  CARD_COUNT,
+  CONTINENT_QUOTAS,
+  CONTINENT_TOP_TIER_MINIMUMS,
+  COUNTRY_CAPS,
+  FAME_WEIGHTS,
+  PATHS,
+  RARITY_TIERS,
+  SEASON,
+} from './config.ts';
+import { abilityIssues, placeholderContent, validateCatalogBalance, validateContent } from './content.ts';
+import { fetchTimelines, validateTimeline } from './timeline.ts';
 import { eraOf } from './era.ts';
 import { checkFirstPack, FIRST_PACK_RULES } from './firstPack.ts';
 import { continentOfIso, type HistoricStateOverride, isSovereignPlace, type Place, resolveCandidatePlace, resolvePlace } from './geo.ts';
@@ -10,7 +20,17 @@ import { fetchPageviews, pageviewWindow } from './pageviews.ts';
 import { type Exclusions, exclusionReason } from './politics.ts';
 import { scoreCandidates } from './score.ts';
 import { selectCards } from './select.ts';
-import type { Candidate, Card, Continent, CardContent, Localized, RankedCandidate, ResolvedCandidate, ScoredCandidate } from './types.ts';
+import type {
+  Candidate,
+  Card,
+  Continent,
+  CardContent,
+  Localized,
+  RankedCandidate,
+  ResolvedCandidate,
+  ScoredCandidate,
+  TimelineEntry,
+} from './types.ts';
 import { fetchCandidateDetails, fetchCategoryMembers, fetchPlaceFacts, type PlaceFacts } from './wikidata.ts';
 
 type SensitiveEntry = { wikidataId: string; name: string; reason: string };
@@ -79,6 +99,8 @@ export function resolveCandidates(
   historicStates: Readonly<Record<string, HistoricStateOverride>>,
   exclusions: Exclusions,
   countryOverrides: Readonly<Record<string, CountryOverride>> = {},
+  /** Must-include figures: never dropped by the scope rules. */
+  forced: ReadonlySet<string> = new Set(),
 ): { resolved: ResolvedCandidate[]; dropped: Dropped[] } {
   const cache = new Map<string, Place | null>();
   const resolve = (qid: string) => {
@@ -90,7 +112,7 @@ export function resolveCandidates(
   const dropped: Dropped[] = [];
   for (const c of candidates) {
     const drop = (reason: string) => dropped.push({ qid: c.qid, name: c.name.en, reason });
-    const excluded = exclusionReason(c, exclusions, isSovereign);
+    const excluded = forced.has(c.qid) ? null : exclusionReason(c, exclusions, isSovereign);
     if (excluded) {
       drop(excluded);
       continue;
@@ -126,6 +148,7 @@ export async function mergeCards(
   ranked: readonly RankedCandidate[],
   sensitiveQids: ReadonlySet<string>,
   allowMissingContent: boolean,
+  timelines: ReadonlyMap<string, TimelineEntry[]> = new Map(),
 ): Promise<{ cards: Card[]; missing: string[]; errors: string[] }> {
   const cards: Card[] = [];
   const missing: string[] = [];
@@ -138,10 +161,15 @@ export async function mergeCards(
       missing.push(c.qid);
       content = placeholderContent(c.qid);
     } else {
-      const problems = validateContent(raw, c.qid, sensitive);
+      const problems = [
+        ...validateContent(raw, c.qid, sensitive),
+        ...abilityIssues((raw as { ability?: unknown }).ability, { rarity: c.rarity, era: c.era, continent: c.continent }),
+      ];
       errors.push(...problems.map((p) => `data/content/${c.qid}.json (${c.name.en}): ${p}`));
       content = raw as CardContent;
     }
+    const timeline = timelines.get(c.qid) ?? [];
+    errors.push(...validateTimeline(timeline).map((p) => `${c.qid} (${c.name.en}): ${p}`));
     cards.push({
       id: `s${SEASON}-${String(c.number).padStart(3, '0')}`,
       wikidataId: c.qid,
@@ -159,6 +187,10 @@ export async function mergeCards(
       bio: content.bio,
       stats: content.stats,
       ability: content.ability,
+      ...(content.story ? { story: content.story } : {}),
+      ...(content.highlights ? { highlights: content.highlights } : {}),
+      ...(content.legacy ? { legacy: content.legacy } : {}),
+      timeline,
       sensitive,
     });
   }
@@ -184,15 +216,44 @@ export async function build(options: BuildOptions): Promise<void> {
   const countryOverrides = await readJson<Record<string, CountryOverride>>(PATHS.countryOverrides);
   const sensitiveList = await readJson<SensitiveEntry[]>(PATHS.sensitive);
   const sensitiveQids = new Set(sensitiveList.map((s) => s.wikidataId));
+  const mustIncludeList = await readJson<Record<string, unknown>>(PATHS.mustInclude).catch(() => ({}));
+  const mustInclude = new Set(Object.keys(mustIncludeList).filter((k) => /^Q\d+$/.test(k)));
 
-  const { resolved, dropped } = resolveCandidates(candidates, places, historicStates, exclusions, countryOverrides);
+  // Must-include figures the category queries never surfaced: fetch them like the others.
+  const absent = [...mustInclude].filter((qid) => !candidates.some((c) => c.qid === qid));
+  if (absent.length > 0) {
+    console.log(`Fetching ${absent.length} must-include figure(s) missing from the category queries…`);
+    const extra = await fetchCandidateDetails(new Map(absent.map((qid) => [qid, new Set(['must_include'])])));
+    const placeQids = extra.flatMap((c) => [
+      ...c.citizenshipQids,
+      ...(c.birthCountryQid ? [c.birthCountryQid] : []),
+      ...c.positions.flatMap((p) => (p.jurisdictionQid ? [p.jurisdictionQid] : [])),
+    ]);
+    for (const [qid, facts] of await fetchPlaceFacts(placeQids.filter((q) => !places.has(q)))) places.set(qid, facts);
+    candidates.push(...extra);
+  }
+
+  const { resolved, dropped } = resolveCandidates(candidates, places, historicStates, exclusions, countryOverrides, mustInclude);
   console.log(`Resolved ${resolved.length} candidates, dropped ${dropped.length}.`);
 
   console.log('Fetching pageviews…');
   const pageviews = await fetchPageviews(resolved, options.asOf, progress('articles'));
   const scored: ScoredCandidate[] = scoreCandidates(resolved, pageviews);
-  const { cards: ranked, warnings, pushes } = selectCards(scored, CONTINENT_QUOTAS, CARD_COUNT, RARITY_TIERS, COUNTRY_CAPS);
+  const {
+    cards: ranked,
+    warnings,
+    pushes,
+    promotions,
+  } = selectCards(scored, CONTINENT_QUOTAS, CARD_COUNT, RARITY_TIERS, COUNTRY_CAPS, {
+    mustInclude,
+    continentMinimums: CONTINENT_TOP_TIER_MINIMUMS,
+  });
   for (const w of warnings) console.warn(`WARN ${w}`);
+
+  console.log('Fetching Wikidata timelines…');
+  const timelines = await fetchTimelines(
+    ranked.map((c) => ({ qid: c.qid, home: [...c.citizenshipQids, ...(c.birthCountryQid ? [c.birthCountryQid] : [])] })),
+  );
 
   const rankedByQid = new Map(ranked.map((r) => [r.qid, r]));
   await writeJson(PATHS.candidatesOut, {
@@ -202,8 +263,10 @@ export async function build(options: BuildOptions): Promise<void> {
     weights: FAME_WEIGHTS,
     quotas: CONTINENT_QUOTAS,
     countryCaps: COUNTRY_CAPS,
+    continentMinimums: CONTINENT_TOP_TIER_MINIMUMS,
     warnings,
     capPushes: pushes,
+    continentPromotions: promotions,
     pool: scored.map((c, index) => ({
       poolRank: index + 1,
       qid: c.qid,
@@ -223,11 +286,12 @@ export async function build(options: BuildOptions): Promise<void> {
       role: rankedByQid.has(c.qid) ? draftRole(c) : null,
       rarity: rankedByQid.get(c.qid)?.rarity ?? null,
       viaQuota: rankedByQid.get(c.qid)?.viaQuota ?? false,
+      mustInclude: rankedByQid.get(c.qid)?.mustInclude ?? false,
     })),
     dropped,
   });
 
-  const { cards, missing, errors } = await mergeCards(ranked, sensitiveQids, options.allowMissingContent);
+  const { cards, missing, errors } = await mergeCards(ranked, sensitiveQids, options.allowMissingContent, timelines);
   const firstPack = checkFirstPack(cards);
   errors.push(...firstPack.errors.map((e) => `firstPackRules: ${e}`));
   await writeJson(PATHS.firstPackRules, FIRST_PACK_RULES);
@@ -240,7 +304,9 @@ export async function build(options: BuildOptions): Promise<void> {
   if (missing.length > 0) console.warn(`WARN ${missing.length}/${cards.length} cards use placeholder content.`);
   if (errors.length > 0) {
     for (const e of errors.slice(0, 50)) console.error(`ERROR ${e}`);
-    if (errors.length > 50) console.error(`… and ${errors.length - 50} more errors`);
+    const errorsFile = path.join(PATHS.cache, 'build-errors.txt');
+    await writeFile(errorsFile, `${errors.join('\n')}\n`);
+    if (errors.length > 50) console.error(`… and ${errors.length - 50} more errors (full list in ${errorsFile})`);
     throw new Error(`Content validation failed with ${errors.length} error(s); cards.season1.json not written.`);
   }
   // Content hash: lets the API seed idempotently and the app detect catalog changes.

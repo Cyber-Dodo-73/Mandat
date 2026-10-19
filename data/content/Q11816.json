@@ -20,8 +20,8 @@
       "en": "Monroe Doctrine"
     },
     "description": {
-      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient d'un autre continent.",
-      "en": "The opposing card gets -2 Diplomacy if the opposing card is from another continent."
+      "fr": "−2 en Diplomatie pour la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "The opposing card gets −2 Diplomacy if the opposing card is from another continent."
     },
     "effect": {
       "type": "malus",

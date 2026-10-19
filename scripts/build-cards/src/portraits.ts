@@ -359,26 +359,27 @@ async function fetchCommonsInfo(titles: readonly string[]): Promise<Map<string, 
   return out;
 }
 
-async function existingLocalFile(cardId: string): Promise<string | null> {
+/** Local files are keyed by Wikidata QID, which is stable when cards are renumbered. */
+async function existingLocalFile(qid: string): Promise<string | null> {
   let names: string[];
   try {
     names = await readdir(PATHS.portraitsDir);
   } catch {
     return null;
   }
-  const name = names.find((n) => n.startsWith(`${cardId}.`));
+  const name = names.find((n) => n.startsWith(`${qid}.`));
   return name ? path.join(PATHS.portraitsDir, name) : null;
 }
 
-/** Downloads the thumbnail unless a file for the card already exists (the file is the cache). */
-async function download(cardId: string, url: string): Promise<{ file: string; bytes: number; size: { width: number; height: number } | null }> {
-  const existing = await existingLocalFile(cardId);
+/** Downloads the thumbnail unless a file for the person already exists (the file is the cache). */
+async function download(qid: string, url: string): Promise<{ file: string; bytes: number; size: { width: number; height: number } | null }> {
+  const existing = await existingLocalFile(qid);
   if (existing) {
     const buf = await readFile(existing);
     return { file: existing, bytes: buf.length, size: imageSize(buf) };
   }
   const { body, contentType } = await getBinary('upload', url);
-  const file = path.join(PATHS.portraitsDir, `${cardId}.${extensionFor(contentType, url)}`);
+  const file = path.join(PATHS.portraitsDir, `${qid}.${extensionFor(contentType, url)}`);
   await writeFile(file, body);
   return { file, bytes: body.length, size: imageSize(body) };
 }
@@ -437,7 +438,7 @@ export async function portraits(): Promise<void> {
       let { width, height } = facts;
       if (facts.thumbUrl) {
         try {
-          const result = await download(card.id, facts.thumbUrl);
+          const result = await download(card.wikidataId, facts.thumbUrl);
           totalBytes += result.bytes;
           localFile = path.relative(PATHS.root, result.file).split(path.sep).join('/');
           if (result.size) ({ width, height } = result.size);

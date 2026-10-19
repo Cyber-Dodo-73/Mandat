@@ -20,8 +20,8 @@
       "en": "Plunder"
     },
     "description": {
-      "fr": "-1 en Influence pour la carte adverse.",
-      "en": "-1 Influence to the opposing card."
+      "fr": "−1 en Influence pour la carte adverse.",
+      "en": "−1 Influence to the opposing card."
     },
     "effect": {
       "type": "malus",

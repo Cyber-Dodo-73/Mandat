@@ -20,8 +20,8 @@
       "en": "Blood Diamonds"
     },
     "description": {
-      "fr": "-2 en Diplomatie pour la carte adverse si la carte adverse vient du même continent.",
-      "en": "-2 Diplomacy to the opposing card if the opposing card is from the same continent."
+      "fr": "−2 en Diplomatie pour la carte adverse si la carte adverse vient du même continent.",
+      "en": "−2 Diplomacy to the opposing card if the opposing card is from the same continent."
     },
     "effect": {
       "type": "malus",

@@ -1,0 +1,36 @@
+{
+  "wikidataId": "Q205783",
+  "role": {
+    "fr": "Gouverneur de Saint-Domingue",
+    "en": "Governor of Saint-Domingue"
+  },
+  "bio": {
+    "fr": "Ancien esclave affranchi, il devient le principal chef de la révolte des esclaves de Saint-Domingue, déclenchée en 1791. Il fait de la colonie française un territoire autonome dont il se proclame gouverneur à vie en 1801. Capturé par l'expédition envoyée par Napoléon Bonaparte, il meurt en captivité dans le Jura en 1803, un an avant l'indépendance d'Haïti.",
+    "en": "A freed former slave, he became the main leader of the slave revolt that broke out in Saint-Domingue in 1791. He turned the French colony into a self-governing territory and declared himself governor for life in 1801. Captured by the expedition Napoleon Bonaparte sent, he died in captivity in the Jura in 1803, a year before Haiti's independence."
+  },
+  "stats": {
+    "influence": 6,
+    "diplomacy": 5,
+    "charisma": 7,
+    "strategy": 7
+  },
+  "ability": {
+    "name": {
+      "fr": "Libérateur",
+      "en": "Liberator"
+    },
+    "description": {
+      "fr": "+2 en Stratégie si la carte adverse vient d'un autre continent.",
+      "en": "+2 Strategy if the opposing card is from another continent."
+    },
+    "effect": {
+      "type": "bonus",
+      "stat": "strategy",
+      "amount": 2,
+      "condition": {
+        "kind": "opponentContinent",
+        "value": "different"
+      }
+    }
+  }
+}

@@ -20,8 +20,8 @@
       "en": "The Gavel"
     },
     "description": {
-      "fr": "-2 en Influence à la carte adverse lors de la deuxième manche.",
-      "en": "-2 Influence to the opposing card in the second round."
+      "fr": "−2 en Influence à la carte adverse lors de la deuxième manche.",
+      "en": "−2 Influence to the opposing card in the second round."
     },
     "effect": {
       "type": "malus",

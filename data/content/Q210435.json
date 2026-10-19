@@ -20,8 +20,8 @@
       "en": "Secret Files"
     },
     "description": {
-      "fr": "-3 en Influence pour la carte adverse si la carte adverse est plus rare.",
-      "en": "Opposing card gets -3 Influence if the opposing card is rarer."
+      "fr": "−3 en Influence pour la carte adverse si la carte adverse est plus rare.",
+      "en": "Opposing card gets −3 Influence if the opposing card is rarer."
     },
     "effect": {
       "type": "malus",

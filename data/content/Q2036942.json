@@ -20,8 +20,8 @@
       "en": "Filibuster"
     },
     "description": {
-      "fr": "-2 en Diplomatie pour la carte adverse lors des manches de Diplomatie.",
-      "en": "Opposing card gets -2 Diplomacy in Diplomacy rounds."
+      "fr": "−2 en Diplomatie pour la carte adverse lors des manches de Diplomatie.",
+      "en": "Opposing card gets −2 Diplomacy in Diplomacy rounds."
     },
     "effect": {
       "type": "malus",

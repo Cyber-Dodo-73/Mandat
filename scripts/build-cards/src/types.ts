@@ -86,7 +86,25 @@ export type RankedCandidate = ScoredCandidate & {
   rarity: Rarity;
   /** True when the card was pulled in by a continent quota rather than by merit. */
   viaQuota: boolean;
+  /** True when the card comes from data/must-include.json (documented false negative). */
+  mustInclude: boolean;
 };
+
+export const TIMELINE_KINDS = ['birth', 'death', 'office', 'award', 'event', 'education'] as const;
+export type TimelineKind = (typeof TIMELINE_KINDS)[number];
+/** One dated fact from Wikidata (P569/P19, P570/P20, P39, P166, P1344, P69). */
+export type TimelineEntry = {
+  /** Historical year (no year 0: 1 BCE = -1). */
+  year: number;
+  endYear?: number;
+  kind: TimelineKind;
+  label: Localized;
+  /** Wikidata item the fact is about (the office, award, event, school or place). */
+  wikidataId: string;
+};
+
+/** Optional long-form content (written later, validated when present). */
+export type Highlights = { fr: string[]; en: string[] };
 
 /** Hand-written per-card content, stored in data/content/<wikidataId>.json. */
 export type CardContent = {
@@ -97,6 +115,12 @@ export type CardContent = {
   bio: Localized;
   stats: Stats;
   ability: Ability;
+  /** Long-form story, 6–10 sentences, 600–1600 characters per language. */
+  story?: Localized;
+  /** 3–5 short facts ("what they achieved"), same count in both languages. */
+  highlights?: Highlights;
+  /** 1–2 sentences on their legacy. */
+  legacy?: Localized;
 };
 
 export type Card = {
@@ -116,6 +140,11 @@ export type Card = {
   bio: Localized;
   stats: Stats;
   ability: Ability;
+  story?: Localized;
+  highlights?: Highlights;
+  legacy?: Localized;
+  /** Dated facts from Wikidata, chronological, at most TIMELINE_MAX entries. */
+  timeline: TimelineEntry[];
   sensitive: boolean;
   artwork?: string;
 };

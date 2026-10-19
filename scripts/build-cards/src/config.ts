@@ -19,6 +19,7 @@ export const PATHS = {
   sensitive: path.resolve(here, '../../../data/sensitive.json'),
   exclusions: path.resolve(here, '../../../data/exclusions.json'),
   countryOverrides: path.resolve(here, '../../../data/country-overrides.json'),
+  mustInclude: path.resolve(here, '../../../data/must-include.json'),
   firstPackRules: path.resolve(here, '../../../data/firstPackRules.json'),
   firstPackReport: path.resolve(here, '../.cache/firstPack.report.json'),
 };
@@ -75,6 +76,25 @@ export const PAGEVIEW_CONCURRENCY = 4;
  * same country (ISO) in a tier. A card over the cap is pushed to the next tier, keeping its
  * rank order. Fractions are of the tier size, rounded down.
  */
+/**
+ * Per-continent top-tier minimums, enforced after the country caps: without them South
+ * America and Oceania had no legendary or mythic and Africa a single epic, because the fame
+ * metric favours Europe and North America. The best-ranked figure of the continent is promoted
+ * and the tiers in between give up their lowest-ranked card (see enforceContinentMinimums).
+ */
+export const CONTINENT_TOP_TIER_MINIMUMS: ReadonlyArray<{ continent: Continent; atLeast: Rarity; count: number }> = [
+  { continent: 'africa', atLeast: 'legendary', count: 2 },
+  { continent: 'asia', atLeast: 'legendary', count: 2 },
+  { continent: 'south_america', atLeast: 'legendary', count: 2 },
+  { continent: 'africa', atLeast: 'epic', count: 6 },
+  { continent: 'asia', atLeast: 'epic', count: 6 },
+  { continent: 'south_america', atLeast: 'epic', count: 6 },
+  { continent: 'oceania', atLeast: 'epic', count: 1 },
+];
+
+/** Maximum entries kept in a card's Wikidata timeline (birth and death always included). */
+export const TIMELINE_MAX = 12;
+
 export const COUNTRY_CAPS: Record<Rarity, { max: number } | { fraction: number }> = {
   mythic: { max: 2 },
   legendary: { max: 6 },

@@ -20,8 +20,8 @@
       "en": "Pendleton Act"
     },
     "description": {
-      "fr": "-1 en Influence pour la carte adverse.",
-      "en": "The opposing card gets -1 Influence."
+      "fr": "−1 en Influence pour la carte adverse.",
+      "en": "The opposing card gets −1 Influence."
     },
     "effect": {
       "type": "malus",

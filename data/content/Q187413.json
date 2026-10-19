@@ -24,8 +24,8 @@
       "en": "Democratic Security"
     },
     "description": {
-      "fr": "-2 en Stratégie pour la carte adverse si vous êtes mené au score.",
-      "en": "-2 Strategy to the opposing card when you are behind in rounds."
+      "fr": "−2 en Stratégie pour la carte adverse si vous êtes mené au score.",
+      "en": "−2 Strategy to the opposing card when you are behind in rounds."
     },
     "effect": {
       "type": "malus",

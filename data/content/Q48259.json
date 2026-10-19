@@ -20,8 +20,8 @@
       "en": "Behind the Curtain"
     },
     "description": {
-      "fr": "-2 en Influence à la carte adverse si la carte adverse vient d'un autre continent.",
-      "en": "-2 Influence to the opposing card if the opposing card is from another continent."
+      "fr": "−2 en Influence à la carte adverse si la carte adverse vient d'un autre continent.",
+      "en": "−2 Influence to the opposing card if the opposing card is from another continent."
     },
     "effect": {
       "type": "malus",
