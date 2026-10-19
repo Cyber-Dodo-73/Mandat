@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class LevelRewardCatalog {
 
-    static final int INFLUENCE_PER_LEVEL = 50;
+    static final int INFLUENCE_PER_LEVEL = 20;
 
     private static final Map<Integer, String> TITLES = Map.of(
             15, "title.rising_statesman",

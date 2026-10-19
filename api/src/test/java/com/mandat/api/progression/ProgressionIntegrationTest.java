@@ -87,10 +87,10 @@ class ProgressionIntegrationTest {
 
         assertThat(grant.level()).isEqualTo(3);
         assertThat(grant.levelsGained()).containsExactly(2, 3);
-        // Level 2: 50 Influence + 1 booster; level 3: 50 Influence.
-        assertThat(grant.levelRewards().influence()).isEqualTo(100);
+        // Level 2: 20 Influence + 1 booster; level 3: 20 Influence.
+        assertThat(grant.levelRewards().influence()).isEqualTo(40);
         assertThat(grant.levelRewards().bonusPacks()).isEqualTo(1);
-        assertThat(balance(user)).isEqualTo(new WalletService.Balance(100, 1));
+        assertThat(balance(user)).isEqualTo(new WalletService.Balance(40, 1));
         assertThat(levelProvider.levelOf(user)).isEqualTo(3);
 
         mockMvc.perform(get("/api/v1/progression").with(as(user)))
@@ -100,7 +100,7 @@ class ProgressionIntegrationTest {
                 .andExpect(jsonPath("$.xpIntoLevel").value(10))
                 .andExpect(jsonPath("$.xpForNextLevel").value(200))
                 .andExpect(jsonPath("$.seasonXp").value(260))
-                .andExpect(jsonPath("$.influence").value(100))
+                .andExpect(jsonPath("$.influence").value(40))
                 .andExpect(jsonPath("$.bonusPacks").value(1))
                 .andExpect(jsonPath("$.timezone").value("Europe/Paris"))
                 .andExpect(jsonPath("$.dailyResetAt").value("2026-10-19T22:00:00Z"))
@@ -285,8 +285,8 @@ class ProgressionIntegrationTest {
         List<Integer> packs10 = JsonPath.read(body, "$.achievements[?(@.id == 'packs_10')].progress");
         assertThat(packs10).containsExactly(1);
         assertThat((Integer) JsonPath.read(body, "$.unlockedCount")).isEqualTo(4);
-        // packs_1 (25) + quiz_1 (25) + quiz_perfect_1 (50) + duel_win_1 (25) Influence at least.
-        assertThat(balance(user).influence()).isGreaterThanOrEqualTo(125);
+        // packs_1 (10) + quiz_1 (10) + quiz_perfect_1 (20) + duel_win_1 (10) Influence at least.
+        assertThat(balance(user).influence()).isGreaterThanOrEqualTo(50);
     }
 
     @Test
@@ -331,8 +331,8 @@ class ProgressionIntegrationTest {
         int influenceBefore = balance(user).influence();
         mockMvc.perform(post("/api/v1/season-pass/1/claim").with(as(user)))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.reward.influence").value(50));
-        assertThat(balance(user).influence()).isEqualTo(influenceBefore + 50);
+                .andExpect(jsonPath("$.reward.influence").value(20));
+        assertThat(balance(user).influence()).isEqualTo(influenceBefore + 20);
 
         mockMvc.perform(post("/api/v1/season-pass/1/claim").with(as(user)))
                 .andExpect(status().isConflict())

@@ -446,6 +446,28 @@
         "tags" : [ "Duels" ]
       }
     },
+    "/api/v1/economy" : {
+      "get" : {
+        "operationId" : "economy",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/EconomyResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Craft costs, recycle values and duplicate bonuses per rarity and finish",
+        "tags" : [ "Collection" ]
+      }
+    },
     "/api/v1/friends" : {
       "get" : {
         "operationId" : "friends",
@@ -1929,6 +1951,32 @@
         },
         "required" : [ "influence" ]
       },
+      "EconomyResponse" : {
+        "type" : "object",
+        "properties" : {
+          "craftFinish" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "finishes" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/FinishMultiplierDto"
+            }
+          },
+          "keptCopiesWhenRecycling" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "rarities" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/RarityValuesDto"
+            }
+          }
+        },
+        "required" : [ "craftFinish", "finishes", "keptCopiesWhenRecycling", "rarities" ]
+      },
       "EffectConditionDto" : {
         "type" : "object",
         "properties" : {
@@ -1942,6 +1990,20 @@
           }
         },
         "required" : [ "kind" ]
+      },
+      "FinishMultiplierDto" : {
+        "type" : "object",
+        "properties" : {
+          "finish" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "multiplier" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "finish", "multiplier" ]
       },
       "FinishOddsDto" : {
         "type" : "object",
@@ -2717,6 +2779,28 @@
           }
         },
         "required" : [ "percent", "rarity" ]
+      },
+      "RarityValuesDto" : {
+        "type" : "object",
+        "properties" : {
+          "craftCost" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "duplicateBonus" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "rarity" : {
+            "type" : "string",
+            "enum" : [ "common", "uncommon", "rare", "epic", "legendary", "mythic" ]
+          },
+          "recycleValue" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "craftCost", "duplicateBonus", "rarity", "recycleValue" ]
       },
       "RecycleRequest" : {
         "type" : "object",

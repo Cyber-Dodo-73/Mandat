@@ -49,6 +49,13 @@ WEEKLY_POOL = [
 ] + [("NEW_CARDS_CONTINENT", 300, 0, 1)] * CONTINENTS
 
 
+def mission_inf(rules, value):
+    """MissionCatalog Influence after scaling: rounded to 5, at least 5 (0 stays 0)."""
+    if value == 0 or rules.mission_inf_mult == 1.0:
+        return value
+    return max(5, 5 * round(value * rules.mission_inf_mult / 5))
+
+
 def assign(pool, rng, n=3):
     """MissionAssigner: shuffle, keep the first template of each distinct type."""
     shuffled = pool[:]
@@ -81,6 +88,15 @@ class Rules:
     achievement_packs: int = 31
     achievement_influence: int = 5000
     achievement_days: int = 120
+    # Influence faucets (defaults = API on 2026-10-19)
+    level_influence: int = 50                 # LevelRewardCatalog.INFLUENCE_PER_LEVEL
+    mission_inf_mult: float = 1.0             # scales every mission Influence reward of MissionCatalog
+    pass_inf_base: int = 50                   # SeasonPassCatalog: base + step * (tier // 10)
+    pass_inf_step: int = 10
+    quiz_inf_correct: int = 2                 # QuizRules
+    quiz_inf_perfect: int = 10
+    duel_inf_win: int = 20                    # DuelRules, NORMAL difficulty
+    duel_inf_loss: int = 3
 
 
 @dataclass(frozen=True)
@@ -122,10 +138,16 @@ def sim_run(counts, rules: Rules, prof: Profile, rng: random.Random, days: int, 
     inf_earned = 0
     src = {}
 
+    cur_day = [0]
+    src_season = {}
+    crafts_season = []  # (rarity, cost) of crafts during the first season
+
     def earn(k, v):
         nonlocal influence, inf_earned
         influence += v; inf_earned += v
         src[k] = src.get(k, 0) + v
+        if cur_day[0] <= rules.season_days:
+            src_season[k] = src_season.get(k, 0) + v
     done_day = {r: None for r in RARITIES}
     full_day = None
     snap = {}
@@ -143,7 +165,7 @@ def sim_run(counts, rules: Rules, prof: Profile, rng: random.Random, days: int, 
         season_xp += x
         while level < rules.max_level and xp_total >= level_xp(level + 1):
             level += 1
-            earn("niveaux", 50)
+            earn("niveaux", rules.level_influence)
             if level % 2 == 0:
                 bonus_packs += 1
         new_tier = min(rules.pass_tiers, season_xp // rules.xp_per_tier)
@@ -157,7 +179,7 @@ def sim_run(counts, rules: Rules, prof: Profile, rng: random.Random, days: int, 
             elif t % 5 == 0:
                 bonus_packs += 1
             else:
-                earn("passe saison", 50 + 10 * (t // 10))
+                earn("passe saison", rules.pass_inf_base + rules.pass_inf_step * (t // 10))
             if prof.premium:  # premium track spread evenly over the tiers
                 bonus_packs_f = prof.premium_track_packs / rules.pass_tiers
                 gain_fraction_pack(bonus_packs_f)
@@ -252,6 +274,8 @@ def sim_run(counts, rules: Rules, prof: Profile, rng: random.Random, days: int, 
                         owned.add(c)
                         pairs[(c, "standard")] = pairs.get((c, "standard"), 0) + 1
                         crafted += 1
+                        if cur_day[0] <= rules.season_days:
+                            crafts_season.append((r, craft_cost[r]))
                         break
                     if policy == "rarest":
                         return crafted  # save up for the rarest missing card
@@ -271,7 +295,6 @@ def sim_run(counts, rules: Rules, prof: Profile, rng: random.Random, days: int, 
     p_active = prof.active_days_per_week / 7
     weekly = []
     weekly_progress = {}
-    cur_day = [0]
     for day in range(1, days + 1):
         cur_day[0] = day
         if (day - 1) % rules.season_days == 0:
@@ -319,7 +342,7 @@ def sim_run(counts, rules: Rules, prof: Profile, rng: random.Random, days: int, 
             perfect = rng.random() < prof.perfect_rate
             correct = 10 if perfect else rng.randint(4, 9)
             xp += 30 + (20 if perfect else 0)
-            earn("quiz", correct * 2 + (10 if perfect else 0))
+            earn("quiz", correct * rules.quiz_inf_correct + (rules.quiz_inf_perfect if perfect else 0))
             if perfect:
                 perfects += 1
                 perfect_count += 1
@@ -331,7 +354,7 @@ def sim_run(counts, rules: Rules, prof: Profile, rng: random.Random, days: int, 
             win = rng.random() < prof.duel_win_rate
             wins += win
             xp += 15 + (25 if win else 0)
-            earn("duels", 20 if win else 3)
+            earn("duels", rules.duel_inf_win if win else rules.duel_inf_loss)
         # missions
         missing_total = total - len(owned)
         daily = assign(DAILY_POOL, rng)
@@ -343,7 +366,7 @@ def sim_run(counts, rules: Rules, prof: Profile, rng: random.Random, days: int, 
             if t[0] in ("WIN_DUEL",) and wins == 0:
                 continue
             if rng.random() < prof.daily_mission_rate:
-                xp += t[1]; earn("missions", t[2])
+                xp += t[1]; earn("missions", mission_inf(rules, t[2]))
         for t in weekly:
             key = id(t)
             if weekly_progress.get(key):
@@ -353,7 +376,7 @@ def sim_run(counts, rules: Rules, prof: Profile, rng: random.Random, days: int, 
             # spread the weekly completion chance over the active days of the week
             if rng.random() < prof.weekly_mission_rate / max(1, prof.active_days_per_week):
                 weekly_progress[key] = True
-                xp += t[1]; earn("missions", t[2]); bonus_packs += t[3]
+                xp += t[1]; earn("missions", mission_inf(rules, t[2])); bonus_packs += t[3]
         gain_xp(xp)
         crafted2 = craft()  # spend Influence from quiz/duel/missions too
         # milestones
@@ -374,6 +397,7 @@ def sim_run(counts, rules: Rules, prof: Profile, rng: random.Random, days: int, 
         "done": done_day, "full": full_day, "snap": snap, "packs91": packs_by_day.get(91, packs_opened),
         "packs365": packs_by_day.get(365, packs_opened), "level": level, "inf": inf_earned,
         "finishes": finishes_owned, "src": src, "pass": pass_done_day,
+        "src_season": src_season, "crafts_season": crafts_season,
     }
 
 
@@ -411,7 +435,38 @@ TUNED = Rules(
     # while assiduous Premium players still complete the set inside the season
     craft_cost={"common": 40, "uncommon": 80, "rare": 200, "epic": 600, "legendary": 1500, "mythic": 4000},
 )
-SCENARIOS = {"current": CURRENT, "tuned": TUNED}
+def rebalanced(**overrides):
+    """Crafting ≈ 1 card every 2 days for an active free player (user request, 2026-10-19).
+
+    Purchasing power was ~6× too high: ~400 Influence/day for ~140 per craft. The biggest faucets
+    are cut (recycling stays the main source) and a craft costs about two days of income, rarer
+    cards more. Season length and pass XP are left as shipped (91 days, 200 XP per tier).
+    These are the values the API ships since 2026-10-19 (EconomyRules, MissionCatalog,
+    AchievementCatalog, LevelRewardCatalog, SeasonPassCatalog, QuizRules, DuelRules).
+    """
+    base = dict(
+        craft_cost={"common": 250, "uncommon": 350, "rare": 700, "epic": 1500, "legendary": 3500, "mythic": 9000},
+        recycle={"common": 3, "uncommon": 6, "rare": 15, "epic": 40, "legendary": 100, "mythic": 300},
+        dup_bonus={"common": 0, "uncommon": 1, "rare": 2, "epic": 5, "legendary": 12, "mythic": 30},
+        level_influence=20,
+        mission_inf_mult=0.3,
+        pass_inf_base=20,
+        pass_inf_step=5,
+        quiz_inf_correct=1,
+        quiz_inf_perfect=5,
+        duel_inf_win=6,
+        duel_inf_loss=1,
+        achievement_influence=2000,
+    )
+    base.update(overrides)
+    return Rules(**base)
+
+
+REBALANCED = rebalanced()
+SCENARIOS = {"current": CURRENT, "tuned": TUNED, "rebalanced": REBALANCED}
+# "ratio" = craft as soon as affordable, best value first (what an impatient player does: max crafts);
+# "rarest" = save up for the rarest missing card. By default the faster set completion is reported.
+POLICIES = ("ratio", "rarest")
 
 
 def load_counts():
@@ -434,7 +489,7 @@ def run_scenario(name, rules, counts, runs, seed, days):
     rows = []
     for prof in PROFILES:
         best = None
-        for policy in ("ratio", "rarest"):
+        for policy in POLICIES:
             rng = random.Random(seed)
             res = [sim_run(counts, rules, prof, rng, days, policy) for _ in range(runs)]
             m = med([r["full"] for r in res])
@@ -466,6 +521,18 @@ def run_scenario(name, rules, counts, runs, seed, days):
         print(f"| {prof.name} | {fz['holo']:.0f} / 500 | {fz['full_art']:.0f} / 320 | {fz['gold']:.1f} / 500 | "
               f"{statistics.mean(r['inf'] for r in res):,.0f} |")
     keys = ["recyclage", "bonus doublons", "missions", "passe saison", "niveaux", "succès", "quiz", "duels", "premium"]
+    sd = rules.season_days
+    print(f"\nÉconomie de craft sur la saison 1 ({sd} j) : Influence gagnée par jour et fabrications :\n")
+    print("| Profil | Influence/j | " + " | ".join(keys) + " | Crafts/j | Coût moyen d'un craft | Crafts par rareté (C/PC/R/É/L/M) |")
+    print("|---|---|" + "---|" * len(keys) + "---|---|---|")
+    for prof, policy, res in rows:
+        per = {k: statistics.mean(r["src_season"].get(k, 0) for r in res) / sd for k in keys}
+        crafts = [c for r in res for c in r["crafts_season"]]
+        cpd = len(crafts) / len(res) / sd
+        avg = statistics.mean(c[1] for c in crafts) if crafts else 0
+        by = [sum(1 for c in crafts if c[0] == rr) / len(res) for rr in RARITIES]
+        print(f"| {prof.name} | {sum(per.values()):.0f} | " + " | ".join(f"{per[k]:.0f}" for k in keys) +
+              f" | **{cpd:.2f}** | {avg:.0f} | " + " / ".join(f"{b:.0f}" for b in by) + " |")
     print("\nSources d'Influence (part du total gagné sur l'horizon) :\n")
     print("| Profil | " + " | ".join(keys) + " |")
     print("|---|" + "---|" * len(keys))
@@ -481,7 +548,12 @@ def main():
     ap.add_argument("--seed", type=int, default=2026)
     ap.add_argument("--days", type=int, default=730)
     ap.add_argument("--scenario", choices=list(SCENARIOS) + ["all"], default="all")
+    ap.add_argument("--profiles", default="all", help="comma-separated profile names subset, e.g. 'F2P assidu'")
+    ap.add_argument("--policy", choices=["best", "ratio", "rarest"], default="best")
     args = ap.parse_args()
+    global POLICIES
+    if args.policy != "best":
+        POLICIES = (args.policy,)
     counts = load_counts()
     print(f"Catalogue : {counts} ({sum(counts.values())} cartes). {args.runs} parties simulées par profil, "
           f"horizon {args.days} j, graine {args.seed}.")

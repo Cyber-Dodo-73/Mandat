@@ -58,6 +58,6 @@ public class SeasonPassCatalog {
         if (tier % 5 == 0) {
             return Reward.packs(1);
         }
-        return Reward.influence(50 + 10 * (tier / 10));
+        return Reward.influence(20 + 5 * (tier / 10));
     }
 }

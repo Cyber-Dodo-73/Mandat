@@ -251,6 +251,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/v1/economy": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Craft costs, recycle values and duplicate bonuses per rarity and finish */
+        get: operations["economy"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/v1/friends": {
         parameters: {
             query?: never;
@@ -966,11 +983,25 @@ export interface components {
             /** Format: int32 */
             influence: number;
         };
+        EconomyResponse: {
+            /** @enum {string} */
+            craftFinish: "standard" | "holo" | "full_art" | "gold";
+            finishes: components["schemas"]["FinishMultiplierDto"][];
+            /** Format: int32 */
+            keptCopiesWhenRecycling: number;
+            rarities: components["schemas"]["RarityValuesDto"][];
+        };
         EffectConditionDto: {
             /** @enum {string} */
             kind: "always" | "opponentContinent" | "opponentEra" | "roundDomain" | "round" | "behind" | "opponentRarityHigher";
             /** @description same|different, an era, a stat, or a round number as text */
             value?: string | null;
+        };
+        FinishMultiplierDto: {
+            /** @enum {string} */
+            finish: "standard" | "holo" | "full_art" | "gold";
+            /** Format: int32 */
+            multiplier: number;
         };
         FinishOddsDto: {
             /** @enum {string} */
@@ -1302,6 +1333,16 @@ export interface components {
             percent: number;
             /** @enum {string} */
             rarity: "common" | "uncommon" | "rare" | "epic" | "legendary" | "mythic";
+        };
+        RarityValuesDto: {
+            /** Format: int32 */
+            craftCost: number;
+            /** Format: int32 */
+            duplicateBonus: number;
+            /** @enum {string} */
+            rarity: "common" | "uncommon" | "rare" | "epic" | "legendary" | "mythic";
+            /** Format: int32 */
+            recycleValue: number;
         };
         RecycleRequest: {
             /** @enum {string} */
@@ -1792,6 +1833,26 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["DuelResponse"];
+                };
+            };
+        };
+    };
+    economy: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description OK */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["EconomyResponse"];
                 };
             };
         };

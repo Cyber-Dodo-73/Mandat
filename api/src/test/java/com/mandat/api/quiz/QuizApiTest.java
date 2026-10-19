@@ -90,10 +90,10 @@ class QuizApiTest {
             }
             assertThat((Boolean) JsonPath.read(last, "$.finished")).isTrue();
             assertThat((Boolean) JsonPath.read(last, "$.result.perfect")).isTrue();
-            assertThat((Integer) JsonPath.read(last, "$.result.influence")).isEqualTo(30);
+            assertThat((Integer) JsonPath.read(last, "$.result.influence")).isEqualTo(QuizRules.influence(10, true));
             assertThat((Boolean) JsonPath.read(last, "$.result.bonusPack")).isEqualTo(quiz == 5);
         }
-        assertThat(ledger(jdbc, user, "influence", WalletSource.QUIZ_REWARD)).isEqualTo(5 * 30);
+        assertThat(ledger(jdbc, user, "influence", WalletSource.QUIZ_REWARD)).isEqualTo(5 * QuizRules.influence(10, true));
         assertThat(ledger(jdbc, user, "bonus_packs", WalletSource.QUIZ_REWARD)).isEqualTo(1);
         // The completion event reached progression.
         Integer perfectQuizzes = jdbc.sql("select perfect_quizzes from player_stats where user_id = :id")

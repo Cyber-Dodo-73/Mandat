@@ -15,12 +15,12 @@ public final class DuelRules {
     public static int influence(Difficulty difficulty, Winner winner) {
         return switch (winner) {
             case PLAYER -> switch (difficulty) {
-                case EASY -> 10;
-                case NORMAL -> 20;
-                case HARD -> 35;
+                case EASY -> 4;
+                case NORMAL -> 6;
+                case HARD -> 10;
             };
-            case DRAW -> 5;
-            case AI -> 3;
+            case DRAW -> 2;
+            case AI -> 1;
         };
     }
 }
