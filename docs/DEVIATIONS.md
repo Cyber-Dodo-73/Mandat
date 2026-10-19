@@ -25,6 +25,12 @@ without an Expo Go-compatible fallback, and must be listed in this table.
 - **Continent quotas**: Africa, Asia, Europe, North America, South America ≥ 15% each, Oceania ≥ 3%
   (the brief's 15% for every inhabited continent was mathematically impossible). Quotas only drive
   the selection of the 500 figures; rarity stays strictly rank-based.
+- **Fame score** (user decision 2026-10-19): the brief's 24-month window and 70/30 weights made the mythic tier
+  mostly current US politicians. Now: English Wikipedia pageviews over the full API history (2015-07 →),
+  `fameScore = 0.4·log10(pageviews) + 0.6·log10(sitelinks)`, plus per-rarity country caps (max 2 mythic and
+  6 legendary per country, max 20% of any other tier; overflow is pushed to the next tier).
+- **First booster** (onboarding): server-side composition rules in `data/firstPackRules.json` — 1 epic+,
+  2 rare/uncommon, 2 common, 5 distinct continents, ≥ 3 eras, never sensitive.
 - **Sensitive figures** keep their rarity but are never "Figure of the day" and never used in onboarding.
 - **Body font**: Figtree instead of Inter (the brief only suggested Inter; the project design rules exclude it).
   Titles stay in Bricolage Grotesque.
