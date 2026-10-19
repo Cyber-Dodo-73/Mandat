@@ -28,6 +28,15 @@ public final class DrawOdds {
     /** At least one legendary or better every N boosters. */
     public static final int LEGENDARY_PITY_PACKS = 40;
 
+    /**
+     * New-player guarantee, independent from the 40-booster pity: a player who has not pulled a
+     * legendary or better in their first boosters gets one in this booster at the latest.
+     */
+    public static final int NEW_PLAYER_LEGENDARY_WITHIN_PACKS = 3;
+
+    /** The onboarding booster's best card (epic or better, slot 5) is at least this finish. */
+    public static final CardFinish FIRST_PACK_BEST_FINISH = CardFinish.HOLO;
+
     /** Per drawn card, any rarity, any slot. */
     public static final double GOLD_CHANCE = 0.003;
 

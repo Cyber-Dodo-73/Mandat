@@ -84,7 +84,8 @@ class PackApiTest {
                 .andExpect(jsonPath("$.freePacks.nextAt").value(nullValue()))
                 .andExpect(jsonPath("$.bonusPacks").value(0))
                 .andExpect(jsonPath("$.pity.epicGuaranteedIn").value(10))
-                .andExpect(jsonPath("$.pity.legendaryGuaranteedIn").value(40));
+                .andExpect(jsonPath("$.pity.legendaryGuaranteedIn").value(40))
+                .andExpect(jsonPath("$.pity.newPlayerLegendaryIn").value(3));
     }
 
     @Test
@@ -101,7 +102,13 @@ class PackApiTest {
                 .andExpect(jsonPath("$.finishes[1].finish").value("full_art"))
                 .andExpect(jsonPath("$.finishes[1].guaranteedSlotOnly").value(true))
                 .andExpect(jsonPath("$.pity.epicEveryPacks").value(10))
-                .andExpect(jsonPath("$.continentFallback").value(false));
+                .andExpect(jsonPath("$.continentFallback").value(false))
+                .andExpect(jsonPath("$.newPlayerGuarantees.legendaryWithinFirstPacks").value(3))
+                .andExpect(jsonPath("$.newPlayerGuarantees.firstPackBestFinishAtLeast").value("holo"))
+                .andExpect(jsonPath("$.newPlayerGuarantees.firstPackSlots[0].rarities[0]").value("common"))
+                .andExpect(jsonPath("$.newPlayerGuarantees.firstPackSlots[2].slots[0]").value(5))
+                .andExpect(jsonPath("$.newPlayerGuarantees.firstPackSlots[2].rarities[0]").value("epic"))
+                .andExpect(jsonPath("$.newPlayerGuarantees.firstPackExcludesSensitive").value(true));
     }
 
     @Test
@@ -119,6 +126,7 @@ class PackApiTest {
                 .andExpect(jsonPath("$.cards", hasSize(5)))
                 .andExpect(jsonPath("$.cards[0].rarity").value("common"))
                 .andExpect(jsonPath("$.cards[4].slot").value(5))
+                .andExpect(jsonPath("$.cards[4].finish").value(org.hamcrest.Matchers.not("standard")))
                 .andExpect(jsonPath("$.freePacks.available").value(1))
                 .andExpect(jsonPath("$.pity.packsSinceEpic").value(0));
 
@@ -134,6 +142,28 @@ class PackApiTest {
         open(STANDARD, "second")
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.firstPack").value(false));
+    }
+
+    @Test
+    void newPlayersGetALegendaryWithinTheirFirstThreeBoosters() throws Exception {
+        for (int player = 0; player < 8; player++) {
+            UUID fresh = newUser(jdbc);
+            jdbc.sql("update users set bonus_packs = 1 where id = :id").param("id", fresh).update();
+            boolean legendary = false;
+            for (int pack = 0; pack < 3; pack++) {
+                String body = body(mockMvc.perform(post("/api/v1/packs/" + STANDARD + "/open")
+                                .with(as(fresh))
+                                .header("Idempotency-Key", "np-" + player + "-" + pack))
+                        .andExpect(status().isOk()));
+                List<String> rarities = JsonPath.read(body, "$.cards[*].rarity");
+                legendary |= rarities.contains("legendary") || rarities.contains("mythic");
+                if (pack == 2) {
+                    Integer left = JsonPath.read(body, "$.pity.newPlayerLegendaryIn");
+                    assertThat(left).isNull();
+                }
+            }
+            assertThat(legendary).as("player %d pulled a legendary+ in 3 boosters", player).isTrue();
+        }
     }
 
     @Test

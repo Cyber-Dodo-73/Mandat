@@ -6,6 +6,7 @@ import com.mandat.api.card.Era;
 import com.mandat.api.card.Rarity;
 import com.mandat.api.pack.draw.PackDraw.DrawnCard;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.List;
@@ -34,11 +35,19 @@ public class DrawEngine {
 
     /** Regular booster: slots 1-4 from {@link DrawOdds#REGULAR_SLOT}, slot 5 guaranteed rare+ with pity. */
     public PackDraw draw(CardPool pool, PityCounters pity) {
+        return draw(pool, pity, null);
+    }
+
+    /**
+     * Regular booster with an extra minimum for slot 5 (e.g. the new-player guarantee); the higher of
+     * that minimum and the pity's applies.
+     */
+    public PackDraw draw(CardPool pool, PityCounters pity, Rarity extraMinimum) {
         List<DrawnCard> cards = new ArrayList<>(DrawOdds.CARDS_PER_PACK);
         for (int slot = 0; slot < DrawOdds.CARDS_PER_PACK - 1; slot++) {
             cards.add(drawCard(pool, pickRarity(DrawOdds.REGULAR_SLOT), false));
         }
-        Rarity forced = pity.forcedMinimum();
+        Rarity forced = higher(pity.forcedMinimum(), extraMinimum);
         Map<Rarity, Double> lastSlot = forced == null ? DrawOdds.GUARANTEED_SLOT : DrawOdds.guaranteedSlotAtLeast(forced);
         cards.add(drawCard(pool, pickRarity(lastSlot), true));
         return new PackDraw(List.copyOf(cards), pity.after(rarities(cards)));
@@ -46,7 +55,9 @@ public class DrawEngine {
 
     /**
      * Onboarding booster: rarities per {@link FirstPackRules} slot group, cards spread over distinct
-     * continents and eras, sensitive figures excluded. Falls back to a regular draw if the catalog
+     * continents and eras, sensitive figures excluded. Whatever the group order in the rules file, the
+     * cards are laid out by ascending rarity so the best one (epic or better) is slot 5, and that card
+     * is at least {@link DrawOdds#FIRST_PACK_BEST_FINISH}. Falls back to a regular draw if the catalog
      * cannot satisfy the rules.
      */
     public PackDraw drawFirstPack(CardPool pool, FirstPackRules rules, PityCounters pity) {
@@ -64,9 +75,8 @@ public class DrawEngine {
         List<DrawnCard> cards = new ArrayList<>(rules.cardCount());
         Set<Continent> continents = EnumSet.noneOf(Continent.class);
         Set<Era> eras = EnumSet.noneOf(Era.class);
-        int slotIndex = 0;
         for (FirstPackRules.SlotGroup group : rules.slots()) {
-            for (int i = 0; i < group.count(); i++, slotIndex++) {
+            for (int i = 0; i < group.count(); i++) {
                 Rarity rarity = pickRarity(groupWeights(group));
                 boolean needNewContinent = continents.size() < rules.distinctContinents();
                 List<DrawCard> candidates = pool.cards(rarity).stream()
@@ -80,11 +90,35 @@ public class DrawEngine {
                 DrawCard card = candidates.get(random.nextInt(candidates.size()));
                 continents.add(card.continent());
                 eras.add(card.era());
-                boolean lastSlot = slotIndex == rules.cardCount() - 1;
-                cards.add(new DrawnCard(card, rollFinish(rarity, lastSlot)));
+                cards.add(new DrawnCard(card, CardFinish.STANDARD));
             }
         }
-        return eras.size() >= rules.minDistinctEras() ? cards : null;
+        if (eras.size() < rules.minDistinctEras()) {
+            return null;
+        }
+        // Stable sort: the best card ends in slot 5 and finishes are rolled for the final layout.
+        cards.sort(Comparator.comparing(drawn -> drawn.card().rarity()));
+        List<DrawnCard> laidOut = new ArrayList<>(cards.size());
+        for (int slot = 0; slot < cards.size(); slot++) {
+            DrawCard card = cards.get(slot).card();
+            boolean lastSlot = slot == cards.size() - 1;
+            CardFinish finish = rollFinish(card.rarity(), lastSlot);
+            if (lastSlot && card.rarity().isAtLeast(Rarity.EPIC) && finish == CardFinish.STANDARD) {
+                finish = DrawOdds.FIRST_PACK_BEST_FINISH;
+            }
+            laidOut.add(new DrawnCard(card, finish));
+        }
+        return laidOut;
+    }
+
+    private static Rarity higher(Rarity a, Rarity b) {
+        if (a == null) {
+            return b;
+        }
+        if (b == null) {
+            return a;
+        }
+        return a.isAtLeast(b) ? a : b;
     }
 
     /** Within a first-pack group, rarities keep their relative weights from the regular odds. */

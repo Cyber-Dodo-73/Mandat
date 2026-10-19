@@ -20,11 +20,14 @@ import com.mandat.api.pack.draw.CardPool;
 import com.mandat.api.pack.draw.DrawCard;
 import com.mandat.api.pack.draw.DrawEngine;
 import com.mandat.api.pack.draw.DrawOdds;
+import com.mandat.api.pack.draw.FirstPackRules;
 import com.mandat.api.pack.draw.FirstPackRulesLoader;
 import com.mandat.api.pack.draw.PackDraw;
 import com.mandat.api.pack.draw.PityCounters;
 import com.mandat.api.pack.dto.PackDtos.DrawnCardDto;
 import com.mandat.api.pack.dto.PackDtos.FinishOddsDto;
+import com.mandat.api.pack.dto.PackDtos.FirstPackSlotDto;
+import com.mandat.api.pack.dto.PackDtos.NewPlayerGuaranteesDto;
 import com.mandat.api.pack.dto.PackDtos.FreePacksDto;
 import com.mandat.api.pack.dto.PackDtos.OddsResponse;
 import com.mandat.api.pack.dto.PackDtos.OpenPackResponse;
@@ -39,6 +42,7 @@ import java.time.Clock;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -112,7 +116,7 @@ public class PackService {
                 .map(pack -> new PackDto(pack.id(), pack.continent(), pack.requiredLevel(), level >= pack.requiredLevel()))
                 .toList();
         return new PacksResponse(
-                packs, freePacks(state, now), walletService.balance(userId).bonusPacks(), pity(state.pity()));
+                packs, freePacks(state, now), walletService.balance(userId).bonusPacks(), pity(state));
     }
 
     public OddsResponse odds(String packId) {
@@ -128,7 +132,8 @@ public class PackService {
                         new SlotOddsDto(List.of(5), rarityOdds(DrawOdds.GUARANTEED_SLOT))),
                 finishes,
                 new PityRulesDto(DrawOdds.EPIC_PITY_PACKS, DrawOdds.LEGENDARY_PITY_PACKS),
-                pack.continent() != null);
+                pack.continent() != null,
+                newPlayerGuarantees(firstPackRules.rules()));
     }
 
     @Transactional
@@ -154,7 +159,7 @@ public class PackService {
         CardPool pool = pool(pack);
         PackDraw draw = firstPack
                 ? drawEngine.drawFirstPack(pool, firstPackRules.rules(), state.pity())
-                : drawEngine.draw(pool, state.pity());
+                : drawEngine.draw(pool, state.pity(), state.pity().newPlayerMinimum(state.getPacksOpened()));
 
         List<Added> added = collectionService.addAll(userId, draw.cards().stream()
                 .map(drawn -> new Grant(drawn.card().id(), drawn.finish()))
@@ -183,7 +188,7 @@ public class PackService {
                 now));
 
         OpenPackResponse response = new OpenPackResponse(
-                UUID.randomUUID(), packId, cards, influence, firstPack, pity(state.pity()),
+                UUID.randomUUID(), packId, cards, influence, firstPack, pity(state),
                 freePacks(state, now), walletService.balance(userId).bonusPacks(), now);
         openingRepository.save(new PackOpening(
                 response.openingId(), userId, packId, idempotencyKey, jsonMapper.writeValueAsString(response), now));
@@ -245,12 +250,38 @@ public class PackService {
                 FreePackTimer.INTERVAL.toSeconds());
     }
 
-    private static PityDto pity(PityCounters pity) {
+    private static PityDto pity(PackState state) {
+        PityCounters pity = state.pity();
         return new PityDto(
                 pity.packsSinceEpic(),
                 DrawOdds.EPIC_PITY_PACKS - pity.packsSinceEpic(),
                 pity.packsSinceLegendary(),
-                DrawOdds.LEGENDARY_PITY_PACKS - pity.packsSinceLegendary());
+                DrawOdds.LEGENDARY_PITY_PACKS - pity.packsSinceLegendary(),
+                pity.newPlayerLegendaryIn(state.getPacksOpened()));
+    }
+
+    /** Published first-boosters guarantees, built from the same rules the engine applies. */
+    private static NewPlayerGuaranteesDto newPlayerGuarantees(FirstPackRules rules) {
+        // Groups laid out by ascending rarity, as the engine does with the drawn cards.
+        List<FirstPackRules.SlotGroup> groups = rules.slots().stream()
+                .sorted(Comparator.comparing(group -> group.rarities().stream().min(Comparator.naturalOrder()).orElseThrow()))
+                .toList();
+        List<FirstPackSlotDto> slots = new ArrayList<>(groups.size());
+        int next = 1;
+        for (FirstPackRules.SlotGroup group : groups) {
+            List<Integer> numbers = new ArrayList<>(group.count());
+            for (int i = 0; i < group.count(); i++) {
+                numbers.add(next++);
+            }
+            slots.add(new FirstPackSlotDto(numbers, group.rarities().stream().sorted().toList()));
+        }
+        return new NewPlayerGuaranteesDto(
+                slots,
+                DrawOdds.FIRST_PACK_BEST_FINISH,
+                rules.distinctContinents(),
+                rules.minDistinctEras(),
+                rules.excludeSensitive(),
+                DrawOdds.NEW_PLAYER_LEGENDARY_WITHIN_PACKS);
     }
 
     private static List<RarityOddsDto> rarityOdds(Map<Rarity, Double> weights) {

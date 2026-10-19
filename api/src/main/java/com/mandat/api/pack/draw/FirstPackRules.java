@@ -6,8 +6,8 @@ import java.util.List;
 
 /**
  * Composition of the onboarding booster (the player's very first one), loaded from
- * {@code data/firstPackRules.json} when present. Slot groups are filled in order, so the best group
- * goes last like a regular booster's slot 5.
+ * {@code data/firstPackRules.json} when present. Group order doesn't matter: the engine lays the
+ * cards out by ascending rarity, so the best one is always slot 5 like a regular booster's.
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record FirstPackRules(

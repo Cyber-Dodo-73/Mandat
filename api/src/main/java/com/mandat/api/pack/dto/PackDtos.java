@@ -32,7 +32,10 @@ public final class PackDtos {
             @Schema(description = "Boosters left until an epic or better is guaranteed (1 = the next one)")
             int epicGuaranteedIn,
             int packsSinceLegendary,
-            int legendaryGuaranteedIn) {}
+            int legendaryGuaranteedIn,
+            @Schema(nullable = true, description = "New-player guarantee: boosters left until a legendary or better is "
+                    + "guaranteed (1 = the next one); null once the player pulled one or opened enough boosters")
+            Integer newPlayerLegendaryIn) {}
 
     public record OddsResponse(
             String packId,
@@ -40,7 +43,21 @@ public final class PackDtos {
             List<FinishOddsDto> finishes,
             PityRulesDto pity,
             @Schema(description = "Themed booster: a rarity without any card of the continent is drawn from the whole season")
-            boolean continentFallback) {}
+            boolean continentFallback,
+            NewPlayerGuaranteesDto newPlayerGuarantees) {}
+
+    @Schema(description = "Extra guarantees for a new player's first boosters, on top of the regular odds and pity")
+    public record NewPlayerGuaranteesDto(
+            @Schema(description = "Composition of the very first booster, in slot order (slot 5 holds the best card)")
+            List<FirstPackSlotDto> firstPackSlots,
+            @Schema(description = "Minimum finish of the first booster's best card") CardFinish firstPackBestFinishAtLeast,
+            @Schema(description = "Distinct continents among the first booster's cards") int firstPackDistinctContinents,
+            @Schema(description = "Minimum distinct eras among the first booster's cards") int firstPackMinDistinctEras,
+            boolean firstPackExcludesSensitive,
+            @Schema(description = "A legendary or better is guaranteed within the player's first N boosters")
+            int legendaryWithinFirstPacks) {}
+
+    public record FirstPackSlotDto(@Schema(description = "1-based slot numbers") List<Integer> slots, List<Rarity> rarities) {}
 
     public record SlotOddsDto(@Schema(description = "1-based slot numbers") List<Integer> slots, List<RarityOddsDto> rarities) {}
 
