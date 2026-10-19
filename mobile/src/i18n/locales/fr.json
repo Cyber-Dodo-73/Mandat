@@ -26,7 +26,10 @@
   "collection": {
     "title": "Collection",
     "subtitle": "500 figures à réunir dans la saison 1",
-    "empty": "Ta collection est vide pour l'instant. Ouvre ton premier booster pour commencer."
+    "empty": "Ta collection est vide pour l'instant. Ouvre ton premier booster pour commencer.",
+    "progress": "{{owned}} cartes sur {{total}}",
+    "copies_one": "{{count}} exemplaire",
+    "copies_other": "{{count}} exemplaires"
   },
   "packs": {
     "seasonLabel": "Saison {{season}}",
@@ -67,9 +70,14 @@
         "epic": "Épique",
         "legendary": "Légendaire",
         "mythic": "Mythique"
-      }
+      },
+      "finishesTitle": "Finitions (par carte)",
+      "finishMinRarity": "{{rarity}} ou mieux",
+      "finishSlot5": "carte 5 uniquement",
+      "continentFallback": "Quand ce continent n'a pas de carte d'une rareté, elle est tirée dans toute la saison."
     },
-    "loadError": "Impossible de charger les boosters."
+    "bonusPacks_one": "+ {{count}} booster bonus",
+    "bonusPacks_other": "+ {{count}} boosters bonus"
   },
   "packOpening": {
     "title": "Ouverture",
@@ -79,7 +87,19 @@
     "error": "L'ouverture a échoué. Ton booster n'a pas été utilisé.",
     "cardsReady": "Tes 5 cartes sont prêtes",
     "influence": "+{{amount}} Influence grâce aux doublons",
-    "done": "Terminer"
+    "done": "Terminer",
+    "reveal": "Révéler mes cartes",
+    "progress": "Carte {{current}} sur {{total}}",
+    "next_one": "Carte suivante (encore {{count}})",
+    "next_other": "Carte suivante (encore {{count}})",
+    "seeAll": "Voir mes 5 cartes",
+    "unknownCard": "Cette carte arrive avec la prochaine mise à jour de l'app. Elle est bien dans ta collection.",
+    "recapTitle_zero": "Pas de nouvelle carte cette fois",
+    "recapTitle_one": "{{count}} nouvelle carte",
+    "recapTitle_other": "{{count}} nouvelles cartes",
+    "duplicate": "Doublon, +{{amount}} Influence",
+    "openAnother_one": "Ouvrir un autre ({{count}} restant)",
+    "openAnother_other": "Ouvrir un autre ({{count}} restants)"
   },
   "play": {
     "title": "Jouer",
@@ -109,8 +129,10 @@
     "stats": "Statistiques",
     "ability": "Capacité",
     "copies": "Exemplaires",
-    "copiesPending": "Ta collection se synchronise avec le serveur dans une prochaine phase.",
-    "dragHint": "Fais glisser la carte ou incline ton téléphone pour voir les reflets."
+    "dragHint": "Fais glisser la carte ou incline ton téléphone pour voir les reflets.",
+    "notOwned": "Tu n'as pas encore cette carte.",
+    "copiesOfFinish_one": "{{finish}} : {{count}} exemplaire",
+    "copiesOfFinish_other": "{{finish}} : {{count}} exemplaires"
   },
   "user": {
     "title": "Joueur",
@@ -148,11 +170,49 @@
     },
     "account": "Compte",
     "legal": "Mentions légales",
-    "version": "Version {{version}}"
+    "version": "Version {{version}}",
+    "accountInfo": {
+      "friendCode": "Code ami : {{code}}",
+      "logout": "Me déconnecter",
+      "delete": {
+        "button": "Supprimer mon compte",
+        "title": "Supprimer ton compte ?",
+        "body": "Ta collection, ta progression et ton profil seront effacés définitivement. Cette action est irréversible.",
+        "confirm": "Supprimer définitivement",
+        "cancel": "Garder mon compte"
+      }
+    }
   },
   "errors": {
     "generic": "Une erreur est survenue. Réessaie dans un instant.",
-    "network": "Pas de connexion. Vérifie ton réseau."
+    "network": "Pas de connexion. Vérifie ton réseau.",
+    "validation_failed": "Certaines informations ne sont pas valides. Vérifie le formulaire.",
+    "malformed_request": "La requête est mal formée. Mets l'app à jour puis réessaie.",
+    "unauthorized": "Ta session a expiré. Reconnecte-toi.",
+    "forbidden": "Tu n'as pas accès à cette action.",
+    "not_found": "Cet élément n'existe plus.",
+    "method_not_allowed": "Cette action n'est pas disponible. Mets l'app à jour.",
+    "conflict": "Cette action est en conflit avec une autre. Réessaie.",
+    "rate_limited": "Trop de tentatives. Patiente un instant avant de réessayer.",
+    "invalid_credentials": "Email ou mot de passe incorrect.",
+    "invalid_refresh_token": "Ta session a expiré. Reconnecte-toi.",
+    "invalid_social_token": "La connexion a été refusée par le fournisseur. Réessaie.",
+    "email_taken": "Un compte existe déjà avec cet email. Connecte-toi plutôt.",
+    "nickname_taken": "Ce pseudo est déjà pris. Choisis-en un autre.",
+    "nickname_forbidden": "Ce pseudo n'est pas autorisé. Choisis-en un autre.",
+    "insufficient_influence": "Tu n'as pas assez d'Influence.",
+    "no_pack_available": "Aucun booster disponible pour l'instant. Reviens quand le prochain est prêt.",
+    "pack_locked": "Ce booster se débloque à un niveau supérieur.",
+    "idempotency_key_reused": "Cette ouverture a déjà été utilisée pour un autre booster.",
+    "idempotency_key_required": "L'ouverture n'a pas pu être identifiée. Mets l'app à jour.",
+    "card_not_owned": "Tu ne possèdes pas cette carte.",
+    "not_enough_duplicates": "Tu n'as pas assez de doublons de cette carte.",
+    "card_already_owned": "Tu possèdes déjà cette carte.",
+    "reward_not_claimable": "Cette récompense n'est pas encore disponible.",
+    "reward_already_claimed": "Tu as déjà récupéré cette récompense.",
+    "mission_expired": "Cette mission est terminée.",
+    "season_tier_not_found": "Ce palier n'existe pas.",
+    "internal_error": "Le serveur a rencontré un problème. Réessaie dans un instant."
   },
   "notFound": {
     "title": "Page introuvable",
@@ -210,5 +270,39 @@
       "silhouette": "Silhouette",
       "finishes": "Finitions"
     }
+  },
+  "auth": {
+    "welcome": {
+      "pitch": "Les figures qui ont fait l'histoire, à collectionner. Un booster gratuit toutes les 12 heures.",
+      "create": "Créer mon compte",
+      "login": "J'ai déjà un compte"
+    },
+    "login": {
+      "title": "Connexion",
+      "intro": "Retrouve ta collection là où tu l'as laissée.",
+      "submit": "Me connecter"
+    },
+    "register": {
+      "title": "Créer un compte",
+      "intro": "Ton pseudo sera visible par les autres joueurs. Ton email reste privé.",
+      "submit": "Créer mon compte"
+    },
+    "fields": {
+      "email": "Email",
+      "emailInvalid": "Saisis une adresse email valide.",
+      "password": "Mot de passe",
+      "passwordHint_one": "Au moins {{count}} caractère.",
+      "passwordHint_other": "Au moins {{count}} caractères.",
+      "passwordInvalid_one": "Le mot de passe doit faire au moins {{count}} caractère.",
+      "passwordInvalid_other": "Le mot de passe doit faire au moins {{count}} caractères.",
+      "nickname": "Pseudo",
+      "nicknameHint": "3 à 20 caractères : lettres, chiffres, point, tiret, tiret bas.",
+      "nicknameInvalid": "Le pseudo doit faire 3 à 20 caractères : lettres, chiffres, point, tiret ou tiret bas."
+    },
+    "google": "Continuer avec Google"
+  },
+  "offline": {
+    "banner": "Hors ligne. Ta collection reste consultable ; l'ouverture de boosters reviendra avec le réseau.",
+    "packOpening": "Pas de connexion. Ton booster t'attend : reconnecte-toi pour l'ouvrir."
   }
 }

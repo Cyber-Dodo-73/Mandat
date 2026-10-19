@@ -7,7 +7,28 @@ import { Icon, PressableScale, Text } from '@/components/ui';
 import { formatNumber, useLanguage, useTranslation } from '@/i18n';
 import { fontFamilies, radius, spacing, useTheme } from '@/theme';
 
-import type { HubProgress } from './mockProgress';
+import type { Progression } from '@/features/player/queries';
+
+/** What the hub shows of the player's progress (from `GET /progression`). */
+export type HubProgress = {
+  level: number;
+  xp: number;
+  xpForNextLevel: number;
+  streakDays: number;
+  influence: number;
+};
+
+export function toHubProgress(progression: Progression | undefined): HubProgress {
+  if (!progression) return { level: 1, xp: 0, xpForNextLevel: 1, streakDays: 0, influence: 0 };
+  return {
+    level: progression.level,
+    xp: progression.xpIntoLevel,
+    // Max level: the ring stays full.
+    xpForNextLevel: progression.xpForNextLevel ?? Math.max(1, progression.xpIntoLevel),
+    streakDays: progression.currentStreak,
+    influence: progression.influence,
+  };
+}
 
 const AVATAR = 46;
 const RING_WIDTH = 4;
@@ -19,7 +40,7 @@ export function TopBar({ progress }: TopBarProps) {
   const { t } = useTranslation();
   const language = useLanguage();
   const { colors } = useTheme();
-  const ratio = Math.min(1, progress.xp / progress.xpForNextLevel);
+  const ratio = Math.min(1, progress.xp / Math.max(1, progress.xpForNextLevel));
 
   return (
     <View style={styles.bar}>

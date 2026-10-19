@@ -26,7 +26,10 @@
   "collection": {
     "title": "Collection",
     "subtitle": "500 figures to collect in season 1",
-    "empty": "Your collection is empty for now. Open your first pack to get started."
+    "empty": "Your collection is empty for now. Open your first pack to get started.",
+    "progress": "{{owned}} of {{total}} cards",
+    "copies_one": "{{count}} copy",
+    "copies_other": "{{count}} copies"
   },
   "packs": {
     "seasonLabel": "Season {{season}}",
@@ -67,9 +70,14 @@
         "epic": "Epic",
         "legendary": "Legendary",
         "mythic": "Mythic"
-      }
+      },
+      "finishesTitle": "Finishes (per card)",
+      "finishMinRarity": "{{rarity}} or better",
+      "finishSlot5": "card 5 only",
+      "continentFallback": "When this continent has no card of a rarity, it is drawn from the whole season."
     },
-    "loadError": "Couldn't load the packs."
+    "bonusPacks_one": "+ {{count}} bonus booster",
+    "bonusPacks_other": "+ {{count}} bonus boosters"
   },
   "packOpening": {
     "title": "Opening",
@@ -79,7 +87,19 @@
     "error": "Opening failed. Your pack was not used.",
     "cardsReady": "Your 5 cards are ready",
     "influence": "+{{amount}} Influence from duplicates",
-    "done": "Done"
+    "done": "Done",
+    "reveal": "Reveal my cards",
+    "progress": "Card {{current}} of {{total}}",
+    "next_one": "Next card ({{count}} left)",
+    "next_other": "Next card ({{count}} left)",
+    "seeAll": "See my 5 cards",
+    "unknownCard": "This card arrives with the next app update. It is already in your collection.",
+    "recapTitle_zero": "No new card this time",
+    "recapTitle_one": "{{count}} new card",
+    "recapTitle_other": "{{count}} new cards",
+    "duplicate": "Duplicate, +{{amount}} Influence",
+    "openAnother_one": "Open another ({{count}} left)",
+    "openAnother_other": "Open another ({{count}} left)"
   },
   "play": {
     "title": "Play",
@@ -109,8 +129,10 @@
     "stats": "Stats",
     "ability": "Ability",
     "copies": "Copies",
-    "copiesPending": "Your collection syncs with the server in a later phase.",
-    "dragHint": "Drag the card or tilt your phone to see the foil."
+    "dragHint": "Drag the card or tilt your phone to see the foil.",
+    "notOwned": "You don't own this card yet.",
+    "copiesOfFinish_one": "{{finish}}: {{count}} copy",
+    "copiesOfFinish_other": "{{finish}}: {{count}} copies"
   },
   "user": {
     "title": "Player",
@@ -148,11 +170,49 @@
     },
     "account": "Account",
     "legal": "Legal notice",
-    "version": "Version {{version}}"
+    "version": "Version {{version}}",
+    "accountInfo": {
+      "friendCode": "Friend code: {{code}}",
+      "logout": "Sign out",
+      "delete": {
+        "button": "Delete my account",
+        "title": "Delete your account?",
+        "body": "Your collection, progress and profile will be erased for good. This can't be undone.",
+        "confirm": "Delete for good",
+        "cancel": "Keep my account"
+      }
+    }
   },
   "errors": {
     "generic": "Something went wrong. Please try again in a moment.",
-    "network": "No connection. Check your network."
+    "network": "No connection. Check your network.",
+    "validation_failed": "Some details are not valid. Check the form.",
+    "malformed_request": "The request is malformed. Update the app and try again.",
+    "unauthorized": "Your session expired. Sign in again.",
+    "forbidden": "You can't do that.",
+    "not_found": "This item no longer exists.",
+    "method_not_allowed": "This action isn't available. Update the app.",
+    "conflict": "This action conflicts with another one. Try again.",
+    "rate_limited": "Too many attempts. Wait a moment before trying again.",
+    "invalid_credentials": "Wrong email or password.",
+    "invalid_refresh_token": "Your session expired. Sign in again.",
+    "invalid_social_token": "The provider refused the sign-in. Try again.",
+    "email_taken": "An account already uses this email. Sign in instead.",
+    "nickname_taken": "This nickname is taken. Pick another one.",
+    "nickname_forbidden": "This nickname isn't allowed. Pick another one.",
+    "insufficient_influence": "You don't have enough Influence.",
+    "no_pack_available": "No booster available right now. Come back when the next one is ready.",
+    "pack_locked": "This booster unlocks at a higher level.",
+    "idempotency_key_reused": "This opening was already used for another booster.",
+    "idempotency_key_required": "The opening couldn't be identified. Update the app.",
+    "card_not_owned": "You don't own this card.",
+    "not_enough_duplicates": "You don't have enough duplicates of this card.",
+    "card_already_owned": "You already own this card.",
+    "reward_not_claimable": "This reward isn't available yet.",
+    "reward_already_claimed": "You already claimed this reward.",
+    "mission_expired": "This mission is over.",
+    "season_tier_not_found": "This tier doesn't exist.",
+    "internal_error": "The server ran into a problem. Try again in a moment."
   },
   "notFound": {
     "title": "Page not found",
@@ -210,5 +270,39 @@
       "silhouette": "Silhouette",
       "finishes": "Finishes"
     }
+  },
+  "auth": {
+    "welcome": {
+      "pitch": "The figures who shaped history, ready to collect. A free booster every 12 hours.",
+      "create": "Create my account",
+      "login": "I already have an account"
+    },
+    "login": {
+      "title": "Sign in",
+      "intro": "Pick up your collection where you left it.",
+      "submit": "Sign in"
+    },
+    "register": {
+      "title": "Create an account",
+      "intro": "Other players will see your nickname. Your email stays private.",
+      "submit": "Create my account"
+    },
+    "fields": {
+      "email": "Email",
+      "emailInvalid": "Enter a valid email address.",
+      "password": "Password",
+      "passwordHint_one": "At least {{count}} character.",
+      "passwordHint_other": "At least {{count}} characters.",
+      "passwordInvalid_one": "The password needs at least {{count}} character.",
+      "passwordInvalid_other": "The password needs at least {{count}} characters.",
+      "nickname": "Nickname",
+      "nicknameHint": "3 to 20 characters: letters, digits, dot, dash, underscore.",
+      "nicknameInvalid": "Nicknames have 3 to 20 characters: letters, digits, dot, dash or underscore."
+    },
+    "google": "Continue with Google"
+  },
+  "offline": {
+    "banner": "Offline. Your collection is still here; opening boosters comes back with the network.",
+    "packOpening": "No connection. Your booster will wait: reconnect to open it."
   }
 }

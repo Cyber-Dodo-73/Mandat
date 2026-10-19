@@ -11,6 +11,7 @@ import { rarityStyles } from '@/theme/rarity';
 import { CARD_FINISHES, STAT_KEYS, type Card, type CardFinish } from '@/types/card';
 
 import { useCardText } from './cardText';
+import { useOwnedCopies } from './queries';
 
 export function CardDetailScreen() {
   const { id, finish } = useLocalSearchParams<{ id: string; finish?: string }>();
@@ -99,9 +100,24 @@ function CardDetail({ card, finish }: { card: Card; finish: CardFinish }) {
 
       <Surface>
         <Heading>{t('card.copies')}</Heading>
-        <Caption>{t('card.copiesPending')}</Caption>
+        <OwnedCopies cardId={card.id} />
       </Surface>
     </ScreenContainer>
+  );
+}
+
+function OwnedCopies({ cardId }: { cardId: string }) {
+  const { t } = useTranslation();
+  const copies = useOwnedCopies(cardId);
+  if (copies.length === 0) return <Caption>{t('card.notOwned')}</Caption>;
+  return (
+    <>
+      {copies.map((copy) => (
+        <Body key={copy.finish}>
+          {t('card.copiesOfFinish', { count: copy.quantity, finish: t(`cards.finish.${copy.finish}`) })}
+        </Body>
+      ))}
+    </>
   );
 }
 

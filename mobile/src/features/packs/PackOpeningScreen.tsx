@@ -1,5 +1,4 @@
 import { Canvas, RadialGradient, Rect } from '@shopify/react-native-skia';
-import { useQueryClient } from '@tanstack/react-query';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, StyleSheet, useWindowDimensions, View } from 'react-native';
@@ -16,19 +15,24 @@ import Animated, {
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { scheduleOnRN, scheduleOnUI } from 'react-native-worklets';
 
-import { Booster3D, BOOSTER_RATIO, boosterGeometry, CardFanStage, useDeviceTilt } from '@/components/pack';
+import { CardBack } from '@/components/cards';
+import { OfflineNotice } from '@/components/navigation/OfflineNotice';
+import { Booster3D, BOOSTER_RATIO, boosterGeometry, CardFanStage, useDeviceTilt, type CardSlotRenderer } from '@/components/pack';
 import { Body, Button3D, Caption, Heading, Icon, PressableScale } from '@/components/ui';
 import { APP_NAME } from '@/constants/app';
+import { useIsOnline } from '@/hooks/useIsOnline';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
+import { errorMessageKey } from '@/lib/api';
 import { haptics } from '@/lib/haptics';
 import { playSound } from '@/lib/sounds';
 import { spacing, useTheme } from '@/theme';
 import { instant, springs } from '@/theme/motion';
 import { packPalettes, type PackTheme } from '@/theme/packs';
 
-import { packsQueryKey, useOpenPackMutation } from './queries';
-import type { PacksResponse } from './types';
+import { PackRecap } from './PackRecap';
+import { useOpenPackAttempt } from './queries';
+import { RevealSequence } from './RevealSequence';
 
 /** Share of the pack width the finger must cover to tear the strip off. */
 const TEAR_DISTANCE = 0.8;
@@ -43,7 +47,8 @@ const CARDS_DELAY_MS = 850;
 const MODE_TILT = 0;
 const MODE_TEAR = 1;
 
-type Phase = 'ready' | 'cards';
+/** ready: tear the pack; fan: the cards leave it; reveal: one by one; recap: all five. */
+type Phase = 'ready' | 'fan' | 'reveal' | 'recap';
 
 const PACK_THEMES: readonly PackTheme[] = ['standard', 'africa', 'asia', 'europe', 'north_america', 'south_america', 'oceania'];
 
@@ -53,35 +58,35 @@ const clampUnit = (value: number) => {
 };
 
 export function PackOpeningScreen() {
+  const params = useLocalSearchParams<{ packId?: string; theme?: string }>();
+  const packId = params.packId ?? 's1-standard';
+  const theme = PACK_THEMES.find((candidate) => candidate === params.theme) ?? 'standard';
+  // Each round is a new opening attempt, with its own idempotency key.
+  const [round, setRound] = useState(0);
+  return <PackOpeningRound key={round} packId={packId} theme={theme} onOpenAnother={() => setRound((value) => value + 1)} />;
+}
+
+type PackOpeningRoundProps = { packId: string; theme: PackTheme; onOpenAnother: () => void };
+
+function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProps) {
   const { t } = useTranslation();
   const { colors } = useTheme();
   const insets = useSafeAreaInsets();
   const { width: screenWidth, height: screenHeight } = useWindowDimensions();
   const reduceMotion = useReduceMotion();
-  const queryClient = useQueryClient();
-  const params = useLocalSearchParams<{ packId?: string; theme?: string }>();
-  const packId = params.packId ?? 's1-standard';
-  const theme = PACK_THEMES.find((candidate) => candidate === params.theme) ?? 'standard';
+  const online = useIsOnline();
   const palette = packPalettes[theme];
 
-  const opening = useOpenPackMutation();
-  const { mutate } = opening;
+  const attempt = useOpenPackAttempt(packId);
+  const { mutate, isIdle } = attempt;
   const [phase, setPhase] = useState<Phase>('ready');
-  const result = opening.data;
+  const result = attempt.data;
   const canTear = Boolean(result) && phase === 'ready';
 
   // The opening request starts with the screen: the pack floats while the server draws.
   useEffect(() => {
-    mutate(packId);
-  }, [mutate, packId]);
-
-  useEffect(() => {
-    if (!result) return;
-    // Mirror the server's new stock and pity in the hub cache.
-    queryClient.setQueryData<PacksResponse>(packsQueryKey, (previous) =>
-      previous ? { ...previous, freePacks: result.freePacks, pity: result.pity } : previous,
-    );
-  }, [queryClient, result]);
+    if (online && isIdle) mutate();
+  }, [isIdle, mutate, online]);
 
   const packWidth = Math.round(Math.min(screenWidth * 0.64, (screenHeight * 0.5) / BOOSTER_RATIO, 280));
   const geometry = useMemo(() => boosterGeometry(packWidth), [packWidth]);
@@ -107,7 +112,7 @@ export function PackOpeningScreen() {
   const onTorn = () => {
     playSound('tear');
     haptics.flipRare();
-    setTimeout(() => setPhase('cards'), reduceMotion ? 0 : CARDS_DELAY_MS);
+    setTimeout(() => setPhase('fan'), reduceMotion ? 0 : CARDS_DELAY_MS);
   };
 
   const finishTear = () => {
@@ -220,11 +225,15 @@ export function PackOpeningScreen() {
           </View>
 
           <View style={styles.footer}>
-            {opening.isError ? (
+            {attempt.isError ? (
               <>
-                <Body align="center">{t('packOpening.error')}</Body>
-                <Button3D label={t('common.retry')} variant="secondary" onPress={() => mutate(packId)} />
+                <Body align="center">{t(errorMessageKey(attempt.error))}</Body>
+                <Caption align="center">{t('packOpening.error')}</Caption>
+                {/* Same idempotency key: a request that did reach the server returns the same cards. */}
+                <Button3D label={t('common.retry')} variant="secondary" disabled={!online} onPress={() => mutate()} />
               </>
+            ) : !online && !result ? (
+              <OfflineNotice message={t('offline.packOpening')} />
             ) : result ? (
               <Body tone="muted" align="center">
                 {t('packOpening.tearHint')}
@@ -237,25 +246,35 @@ export function PackOpeningScreen() {
             )}
           </View>
         </>
-      ) : result ? (
+      ) : result && phase === 'fan' ? (
         <>
           <View style={styles.stage}>
-            <CardFanStage cards={result.cards} cardWidth={Math.round(Math.min(screenWidth * 0.3, 132))} />
+            <CardFanStage cards={result.cards} cardWidth={Math.round(Math.min(screenWidth * 0.3, 132))} renderCard={renderFanCard} />
           </View>
           <View style={styles.footer}>
             <Heading align="center">{t('packOpening.cardsReady')}</Heading>
-            {result.influenceGained > 0 ? (
-              <Caption align="center">{t('packOpening.influence', { amount: result.influenceGained })}</Caption>
-            ) : null}
             <View style={styles.cta}>
-              <Button3D label={t('packOpening.done')} size="lg" fullWidth onPress={() => router.back()} />
+              <Button3D label={t('packOpening.reveal')} icon="sparkles" size="lg" fullWidth onPress={() => setPhase('reveal')} />
             </View>
           </View>
         </>
+      ) : result && phase === 'reveal' ? (
+        <RevealSequence
+          cards={result.cards}
+          cardWidth={Math.round(Math.min(screenWidth * 0.72, 300))}
+          onDone={() => setPhase('recap')}
+        />
+      ) : result && phase === 'recap' ? (
+        <PackRecap result={result} onOpenAnother={onOpenAnother} />
       ) : null}
     </View>
   );
 }
+
+/** Face-down backs in the fan; the last one glows with its rarity (the suspense). */
+const renderFanCard: CardSlotRenderer = ({ card, isLast, width }) => (
+  <CardBack width={width} size="grid" glow={isLast ? card.rarity : undefined} />
+);
 
 const styles = StyleSheet.create({
   root: { flex: 1 },

@@ -8,6 +8,10 @@ const SPLASH_BACKGROUND = '#0B0F1A';
 const IS_DEV_VARIANT = process.env.APP_VARIANT === 'development';
 const bundleId = IS_DEV_VARIANT ? `${BUNDLE_ID}.dev` : BUNDLE_ID;
 
+/** Google sign-in on iOS redirects to the reversed client id, which must be a registered URL scheme. */
+const googleIosClientId = process.env.EXPO_PUBLIC_GOOGLE_IOS_CLIENT_ID;
+const googleIosScheme = googleIosClientId ? googleIosClientId.split('.').reverse().join('.') : null;
+
 const config: ExpoConfig = {
   name: IS_DEV_VARIANT ? `${APP_NAME} Dev` : APP_NAME,
   slug: APP_SLUG,
@@ -21,6 +25,8 @@ const config: ExpoConfig = {
     bundleIdentifier: bundleId,
     supportsTablet: false,
     config: { usesNonExemptEncryption: false },
+    usesAppleSignIn: true,
+    ...(googleIosScheme ? { infoPlist: { CFBundleURLTypes: [{ CFBundleURLSchemes: [googleIosScheme] }] } } : {}),
   },
   android: {
     package: bundleId,
@@ -48,6 +54,8 @@ const config: ExpoConfig = {
     'expo-font',
     'expo-localization',
     'expo-secure-store',
+    'expo-apple-authentication',
+    'expo-web-browser',
     'expo-notifications',
     [
       'expo-splash-screen',

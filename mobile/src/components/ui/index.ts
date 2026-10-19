@@ -15,4 +15,6 @@ export { SettingRow } from './SettingRow';
 export { Sheet } from './Sheet';
 export { Body, Caption, Heading, Text, Title } from './Text';
 export type { TextProps, TextTone } from './Text';
+export { TextField } from './TextField';
+export type { TextFieldProps } from './TextField';
 export { Toggle } from './Toggle';

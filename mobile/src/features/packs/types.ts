@@ -1,9 +1,11 @@
-import type { Rarity } from '@/theme/rarity';
+import type { components } from '@/lib/api';
 import type { PackTheme } from '@/theme/packs';
+import type { Rarity } from '@/theme/rarity';
+import type { CardFinish } from '@/types/card';
 
 /**
- * Client-side shapes of the pack endpoints. Phase 5 replaces these with the types
- * generated from the API spec (`GET /packs`, `GET /packs/{id}/odds`, `POST /packs/{id}/open`).
+ * UI shapes of the pack screens, adapted from the API responses in adapters.ts.
+ * The server decides everything here: draws, timers, stock and pity.
  */
 export type Continent = Exclude<PackTheme, 'standard'>;
 
@@ -20,12 +22,26 @@ export type PackSummary = {
 export type SlotOdds = {
   /** 1-based slot positions sharing these rates. */
   slots: readonly number[];
+  /** Probability of each rarity, as a fraction (0.65 = 65 %). */
   rates: Partial<Record<Rarity, number>>;
+};
+
+export type FinishOdds = {
+  finish: CardFinish;
+  /** Probability per drawn card, as a fraction. */
+  rate: number;
+  /** Lowest rarity that can get this finish; null for every rarity. */
+  minRarity: Rarity | null;
+  /** Only rolled on the guaranteed slot (slot 5). */
+  guaranteedSlotOnly: boolean;
 };
 
 export type PackOdds = {
   slots: readonly SlotOdds[];
+  finishes: readonly FinishOdds[];
   pity: { epicEvery: number; legendaryEvery: number };
+  /** Themed pack missing some rarities: those are drawn from the whole season. */
+  continentFallback: boolean;
 };
 
 export type FreePackState = {
@@ -37,21 +53,22 @@ export type FreePackState = {
 
 export type PityCounters = { packsSinceEpic: number; packsSinceLegendary: number };
 
-export type PacksResponse = {
-  season: number;
+export type PacksView = {
   packs: readonly PackSummary[];
   freePacks: FreePackState;
+  /** Boosters won as rewards, opened once the free stock is empty. */
+  bonusPacks: number;
   pity: PityCounters;
-  odds: PackOdds;
 };
 
 export type DrawnCard = {
   cardId: string;
   rarity: Rarity;
+  finish: CardFinish;
   /** First copy in the collection: shows the "new" badge. */
   isNew: boolean;
   /** Influence credited for a duplicate, 0 for a new card. */
-  duplicateInfluence: number;
+  influenceGained: number;
 };
 
 export type PackOpenResult = {
@@ -62,4 +79,9 @@ export type PackOpenResult = {
   influenceGained: number;
   pity: PityCounters;
   freePacks: FreePackState;
+  bonusPacks: number;
 };
+
+export type ApiPacksResponse = components['schemas']['PacksResponse'];
+export type ApiOddsResponse = components['schemas']['OddsResponse'];
+export type ApiOpenPackResponse = components['schemas']['OpenPackResponse'];

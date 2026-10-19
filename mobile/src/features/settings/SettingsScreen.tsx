@@ -18,6 +18,7 @@ import {
 import { SUPPORTED_LANGUAGES, useTranslation, type Language } from '@/i18n';
 import { spacing } from '@/theme';
 
+import { AccountSection } from './AccountSection';
 import { useSettingsStore, type ThemePreference } from './store';
 
 const THEMES: readonly ThemePreference[] = ['system', 'dark', 'light'];
@@ -129,14 +130,11 @@ export function SettingsScreen() {
         </Card>
       </View>
 
+      <AccountSection />
+
       <View style={styles.section}>
         <SectionHeader title={t('settings.sections.about')} />
         <Card>
-          <SettingRow
-            icon="person-circle-outline"
-            label={t('settings.account')}
-            hint={t('common.comingSoon')}
-          />
           <SettingRow icon="document-text-outline" label={t('settings.legal')} hint={t('common.comingSoon')} />
         </Card>
         {__DEV__ ? (
