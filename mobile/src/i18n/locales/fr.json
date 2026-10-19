@@ -151,13 +151,20 @@
   },
   "play": {
     "title": "Jouer",
+    "offline": "Le quiz et le duel ont besoin d'une connexion.",
+    "resume": "Reprendre",
+    "resumeHint": "Une partie est en cours",
     "quiz": {
       "title": "Quiz",
-      "description": "10 questions sur les figures de ta collection."
+      "description": "10 questions sur les figures de l'histoire, 3 vies.",
+      "towardsBonus": "Quiz parfaits : {{current}}/{{total}} avant le prochain booster bonus",
+      "bonusRule": "Un booster bonus tous les {{count}} quiz parfaits"
     },
     "duel": {
       "title": "Duel",
-      "description": "3 cartes contre l'IA, meilleur des 3 manches."
+      "description": "3 cartes contre l'IA, au meilleur des 3 manches.",
+      "wins_one": "{{value}} victoire en duel",
+      "wins_other": "{{value}} victoires en duel"
     }
   },
   "profile": {
@@ -284,7 +291,12 @@
     "reward_already_claimed": "Tu as déjà récupéré cette récompense.",
     "mission_expired": "Cette mission est terminée.",
     "season_tier_not_found": "Ce palier n'existe pas.",
-    "internal_error": "Le serveur a rencontré un problème. Réessaie dans un instant."
+    "internal_error": "Le serveur a rencontré un problème. Réessaie dans un instant.",
+    "quiz_session_finished": "Ce quiz est terminé. Lance-en un nouveau.",
+    "quiz_session_expired": "Ce quiz a expiré. Lance-en un nouveau.",
+    "quiz_answer_out_of_order": "Cette question a déjà reçu une réponse.",
+    "duel_finished": "Ce duel est terminé.",
+    "duel_card_unavailable": "Cette carte n'est plus dans ta main."
   },
   "notFound": {
     "title": "Page introuvable",
@@ -550,6 +562,108 @@
       "title": "Ne rate pas tes boosters",
       "body": "Un rappel quand ton booster gratuit est prêt ou que ta série est en danger. Une notification par jour au maximum.",
       "cta": "Activer les rappels"
+    }
+  },
+  "quiz": {
+    "preparing": "Préparation des questions…",
+    "offline": "Le quiz a besoin d'une connexion pour être corrigé.",
+    "quit": "Quitter le quiz",
+    "progressA11y": "Question {{current}} sur {{total}}",
+    "livesA11y_one": "{{count}} vie restante",
+    "livesA11y_other": "{{count}} vies restantes",
+    "check": "Valider",
+    "continue": "Continuer",
+    "seeResults": "Voir le résultat",
+    "type": {
+      "whoRole": "Qui a occupé ce poste ?",
+      "whoBio": "De qui parle-t-on ?",
+      "whichCountry": "Quel pays ?",
+      "oldest": "Qui est né le plus tôt ?",
+      "chronology": "Remets dans l'ordre"
+    },
+    "order": {
+      "hint": "Fais glisser les figures, de la plus ancienne à la plus récente.",
+      "rowA11y": "Position {{position}} : {{label}}",
+      "moveUp": "Monter",
+      "moveDown": "Descendre"
+    },
+    "feedback": {
+      "correct": "Bonne réponse !",
+      "wrong": "Pas tout à fait"
+    },
+    "end": {
+      "scoreA11y": "{{correct}} bonnes réponses sur {{total}}",
+      "perfect": "Sans faute !",
+      "good": "Bien joué",
+      "keepGoing": "Continue, ça rentre",
+      "influence": "+{{amount}} Influence",
+      "xp": "XP ajoutée",
+      "bonusPackTitle": "Booster bonus gagné",
+      "bonusPackBody": "Il t'attend sur l'accueil.",
+      "retry": "Rejouer",
+      "done": "Terminer"
+    }
+  },
+  "duel": {
+    "offline": "Le duel a besoin d'une connexion.",
+    "quit": "Quitter le duel",
+    "round": "Manche {{round}}/{{total}}",
+    "you": "Toi",
+    "ai": "IA",
+    "versus": "contre",
+    "aiTeam": "Équipe de l'IA",
+    "yourHand": "Ta main",
+    "domain": "Domaine de la manche",
+    "domainA11y": "Domaine de la manche : {{domain}}",
+    "scoreA11y": "Score : toi {{player}}, IA {{ai}}",
+    "valueA11y": "Valeur {{base}}, après capacités {{value}}",
+    "anyStat": "le domaine",
+    "pickCard": "Choisis une carte",
+    "playFaceDown": "Jouer face cachée",
+    "nextRound": "Manche suivante",
+    "seeResult": "Voir le résultat",
+    "effect": {
+      "change": "{{delta}} en {{stat}}",
+      "tieBreaker": "Gagne les égalités"
+    },
+    "verdict": {
+      "player": "Manche gagnée",
+      "ai": "Manche perdue",
+      "draw": "Égalité"
+    },
+    "tieRule": {
+      "tieBreaker": "Égalité tranchée par une capacité",
+      "underdog": "Égalité : la carte la moins rare l'emporte",
+      "draw": "Égalité parfaite, personne ne marque"
+    },
+    "difficulty": {
+      "easy": "Facile",
+      "normal": "Normal",
+      "hard": "Difficile"
+    },
+    "difficultyHint": {
+      "easy": "L'IA joue au hasard avec une équipe plus faible.",
+      "normal": "L'IA joue sa meilleure carte dans le domaine annoncé.",
+      "hard": "L'IA anticipe tes cartes et garde ses atouts."
+    },
+    "setup": {
+      "title": "Prépare ton équipe",
+      "resume": "Reprendre le duel en cours",
+      "teamA11y": "{{count}} cartes choisies sur {{total}}",
+      "difficulty": "Difficulté",
+      "search": "Rechercher une carte",
+      "notEnoughCards": "Il te faut au moins {{count}} cartes pour jouer. Ouvre des boosters !",
+      "picked": "{{count}}/{{total}} cartes",
+      "start": "Lancer le duel"
+    },
+    "end": {
+      "player": "Victoire",
+      "ai": "Défaite",
+      "draw": "Match nul",
+      "influence": "+{{amount}} Influence",
+      "xp": "XP ajoutée",
+      "again": "Rejouer",
+      "done": "Terminer"
     }
   }
 }

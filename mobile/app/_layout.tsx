@@ -29,6 +29,9 @@ function RootStack() {
           <Stack.Screen name="user/[id]" />
           <Stack.Screen name="settings" />
           <Stack.Screen name="credits" />
+          <Stack.Screen name="quiz/index" options={{ presentation: 'fullScreenModal', gestureEnabled: false }} />
+          <Stack.Screen name="duel/index" />
+          <Stack.Screen name="duel/[id]" options={{ presentation: 'fullScreenModal', gestureEnabled: false }} />
           <Stack.Screen name="dev/cards" />
         </Stack.Protected>
         <Stack.Protected guard={!signedIn}>
