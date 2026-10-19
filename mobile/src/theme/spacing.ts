@@ -9,14 +9,14 @@ export const spacing = {
 } as const;
 
 /** Single corner radius used across every surface of the app. */
-export const radius = 20;
+export const radius = 14;
 
 /** Height of the bottom "edge" that gives 3D buttons their depth. */
-export const buttonDepth = 6;
+export const buttonDepth = 4;
 
 export const shadow = {
-  shadowOffset: { width: 0, height: 6 },
-  shadowOpacity: 0.18,
-  shadowRadius: 14,
-  elevation: 4,
+  shadowOffset: { width: 0, height: 4 },
+  shadowOpacity: 0.22,
+  shadowRadius: 12,
+  elevation: 3,
 } as const;

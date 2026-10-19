@@ -104,12 +104,14 @@ export function filterEntries(
     if (filters.continents.length > 0 && !filters.continents.includes(card.continent)) return false;
     if (filters.eras.length > 0 && !filters.eras.includes(card.era)) return false;
     if (filters.finishes.length > 0 && !finishes.some((finish) => filters.finishes.includes(finish))) return false;
+    // Missing cards stay a mystery: a name search never reveals who is still to be found.
+    if (query && !owned) return false;
     return matchesQuery(card, query);
   });
 }
 
 /**
- * Owned first (the default: the collection opens on what you have); collector number ascending;
+ * Owned first; collector number ascending (the default: the binder is browsed in order);
  * rarity from mythic down; obtained = newest first, missing cards last. Every order falls back
  * to the collector number so it stays stable.
  */

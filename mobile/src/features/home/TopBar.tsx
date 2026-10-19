@@ -44,7 +44,7 @@ export function toHubProgress(progression: Progression | undefined): HubProgress
 const AVATAR = 44;
 const RING_WIDTH = 4;
 const PILL_HEIGHT = 38;
-const PILL_DEPTH = 3;
+const PILL_DEPTH = 1;
 
 type TopBarProps = { progress: HubProgress };
 
@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
     height: PILL_HEIGHT,
     paddingHorizontal: spacing.sm,
     borderRadius: PILL_HEIGHT / 2,
-    borderWidth: 1.5,
+    borderWidth: 1,
     borderBottomWidth: PILL_DEPTH,
   },
   pillValue: { fontFamily: fontFamilies.displayHeavy, fontSize: 18, lineHeight: 22 },

@@ -38,7 +38,7 @@ export function SegmentedControl<T extends string>({
             accessibilityState={{ selected }}
             onPress={() => onChange(option.value)}
             containerStyle={styles.segmentTarget}
-            style={[styles.segment, selected ? { backgroundColor: colors.brand, borderBottomColor: colors.brandEdge } : null]}
+            style={[styles.segment, selected ? { backgroundColor: colors.brand } : null]}
           >
             <Text variant="label" color={selected ? colors.onBrand : colors.textMuted} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>
               {option.label}
@@ -56,8 +56,6 @@ const styles = StyleSheet.create({
   segmentTarget: { flexGrow: 1, flexBasis: 0, minWidth: 0 },
   segment: {
     minHeight: 44,
-    borderBottomWidth: 4,
-    borderBottomColor: 'transparent',
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: radius,
