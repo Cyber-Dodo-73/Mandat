@@ -3,22 +3,16 @@
 Every place where the implementation knowingly differs from the original MANDAT brief.
 Review this file before the first public release.
 
-## Temporary: Expo Go compatibility (revert before the first release)
+## Resolved: Expo Go period (2026-10-19)
 
-During development the app runs in a custom Expo Go installed through TestFlight (`eas go`),
-because the dev machine is Linux (no Xcode) and testing happens on an iPhone.
-Expo Go only ships its own bundled native modules, so the brief's dev-client setup was relaxed.
+The app briefly ran in a custom Expo Go (`eas go`) and needed compromises (expo-sqlite instead of MMKV,
+pinned Reanimated/Worklets). That Expo Go binary was an early SDK 58 build whose native libraries
+(Skia 2.11, Screens 4.28, RN 0.88.0-rc.1…) did not match the published SDK 58 packages, and froze the app.
+Everything was reverted: the project now uses an EAS **development build** (`expo-dev-client`) as the
+brief specifies, MMKV is back, and all SDK 58 versions are the official ones.
 
-| # | Brief | Current (Expo Go) | To restore for release |
-|---|---|---|---|
-| 1 | `react-native-mmkv` for fast local persistence | `expo-sqlite/kv-store` behind `mobile/src/lib/storage.ts` | Reinstall `react-native-mmkv`, swap the implementation inside `storage.ts` only (same `getItem`/`setItem`/`removeItem` interface). The React Query persister must keep going through `storage.ts`. |
-| 2 | `expo-dev-client` dev build as the default workflow | `npm start` runs `expo start --go` | Make `npm start` run `expo start --dev-client`; build with `eas build --profile development` / `production`. |
-| 3 | Sign in with Google (native) | Phase 3 must use a flow that works in Expo Go | Switch to the native Google Sign-In module in the dev/production build. Sign in with Apple (`expo-apple-authentication`) is unaffected. |
-| 4 | Notifications | Local notifications only (remote push is not available in Expo Go) | v1 only needs local notifications; nothing to restore unless remote push is added. |
-| 5 | Reanimated / Worklets at the SDK versions (4.7.1 / 0.13.0) | Pinned to `react-native-reanimated@4.6.0` + `react-native-worklets@0.12.2`, the native versions compiled into the Expo Go 58.0.4 binary that `eas go` repackages. Kept by `expo.install.exclude` and peer `overrides` in `mobile/package.json`; `mobile/jest.resolver.js` ports the Jest resolver those versions lack | Remove the pins, overrides, `install.exclude` and `jest.resolver.js`; `npx expo install --fix`; set `resolver: 'react-native-reanimated/jest/resolver'` back in `jest.config.js`. |
-
-Rule for all future phases: any native library that Expo Go does not bundle must not be added
-without an Expo Go-compatible fallback, and must be listed in this table.
+Rule: do not target Expo Go again; native libraries are fine as long as they are added through `expo install`
+(then rebuild the dev client).
 
 ## Permanent (validated or technical)
 

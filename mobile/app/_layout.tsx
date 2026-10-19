@@ -11,6 +11,7 @@ import { useTheme } from '@/theme';
 import { appFonts } from '@/theme/fonts';
 
 initI18n();
+
 void SplashScreen.preventAutoHideAsync();
 
 function RootStack() {

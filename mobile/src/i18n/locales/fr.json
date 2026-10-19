@@ -181,7 +181,13 @@
     "newBadge": "Nouveau",
     "backA11y": "Carte face cachée",
     "revealHint": "Touche ou glisse pour retourner la carte",
-    "silhouetteA11y": "Carte {{number}}, pas encore obtenue"
+    "silhouetteA11y": "Carte {{number}}, pas encore obtenue",
+    "finish": {
+      "standard": "Standard",
+      "holo": "Holo",
+      "full_art": "Pleine illustration",
+      "gold": "Or"
+    }
   },
   "rarity": {
     "common": "Commune",
@@ -201,7 +207,8 @@
       "firstTime": "Première fois (non passable)",
       "replay": "Rejouer",
       "back": "Dos de carte",
-      "silhouette": "Silhouette"
+      "silhouette": "Silhouette",
+      "finishes": "Finitions"
     }
   }
 }

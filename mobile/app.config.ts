@@ -4,21 +4,26 @@ import { APP_NAME, APP_SCHEME, APP_SLUG, BUNDLE_ID } from './src/constants/app.t
 
 const SPLASH_BACKGROUND = '#0B0F1A';
 
+/** Dev-client builds install next to the release app under their own bundle id. */
+const IS_DEV_VARIANT = process.env.APP_VARIANT === 'development';
+const bundleId = IS_DEV_VARIANT ? `${BUNDLE_ID}.dev` : BUNDLE_ID;
+
 const config: ExpoConfig = {
-  name: APP_NAME,
+  name: IS_DEV_VARIANT ? `${APP_NAME} Dev` : APP_NAME,
   slug: APP_SLUG,
-  scheme: APP_SCHEME,
+  scheme: IS_DEV_VARIANT ? `${APP_SCHEME}-dev` : APP_SCHEME,
   version: '0.1.0',
   orientation: 'portrait',
   icon: './assets/icon.png',
   userInterfaceStyle: 'automatic',
   backgroundColor: SPLASH_BACKGROUND,
   ios: {
-    bundleIdentifier: BUNDLE_ID,
+    bundleIdentifier: bundleId,
     supportsTablet: false,
+    config: { usesNonExemptEncryption: false },
   },
   android: {
-    package: BUNDLE_ID,
+    package: bundleId,
     adaptiveIcon: {
       backgroundColor: SPLASH_BACKGROUND,
       foregroundImage: './assets/android-icon-foreground.png',
@@ -30,7 +35,12 @@ const config: ExpoConfig = {
   web: {
     favicon: './assets/favicon.png',
   },
+  extra: {
+    // Set by `eas init` (copy the printed id into EAS_PROJECT_ID, see mobile/README.md).
+    eas: { projectId: process.env.EAS_PROJECT_ID },
+  },
   plugins: [
+    ['expo-sensors', { motionPermission: 'MANDAT uses motion to tilt cards and boosters.' }],
     'expo-router',
     'expo-dev-client',
     'expo-audio',

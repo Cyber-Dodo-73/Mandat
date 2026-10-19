@@ -181,7 +181,13 @@
     "newBadge": "New",
     "backA11y": "Face-down card",
     "revealHint": "Tap or swipe to flip the card",
-    "silhouetteA11y": "Card {{number}}, not collected yet"
+    "silhouetteA11y": "Card {{number}}, not collected yet",
+    "finish": {
+      "standard": "Standard",
+      "holo": "Holo",
+      "full_art": "Full art",
+      "gold": "Gold"
+    }
   },
   "rarity": {
     "common": "Common",
@@ -201,7 +207,8 @@
       "firstTime": "First time (not skippable)",
       "replay": "Replay",
       "back": "Card back",
-      "silhouette": "Silhouette"
+      "silhouette": "Silhouette",
+      "finishes": "Finishes"
     }
   }
 }

@@ -14,3 +14,7 @@ mandat:
       auth-login-account: { capacity: 10000, period: PT1M }
       auth-refresh-ip: { capacity: 10000, period: PT1M }
       auth-social-ip: { capacity: 10000, period: PT1M }
+  # Tests always use the small fixture catalog, never the real data/ files.
+  catalog:
+    location: classpath:catalog/cards.test.json
+    first-pack-rules-location: classpath:catalog/no-first-pack-rules.json

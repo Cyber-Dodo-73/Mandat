@@ -25,7 +25,6 @@
     "expo-secure-store": "~58.0.2",
     "expo-sensors": "~58.0.4",
     "expo-splash-screen": "~58.0.10",
-    "expo-sqlite": "~58.0.13",
     "expo-status-bar": "~58.0.3",
     "expo-system-ui": "~58.0.6",
     "i18next": "^26.5.2",
@@ -36,10 +35,12 @@
     "react-i18next": "^17.1.0",
     "react-native": "0.88.0",
     "react-native-gesture-handler": "~3.3.0",
-    "react-native-reanimated": "4.6.0",
+    "react-native-mmkv": "^4.3.2",
+    "react-native-nitro-modules": "^0.37.1",
+    "react-native-reanimated": "4.7.1",
     "react-native-safe-area-context": "~5.10.1",
     "react-native-screens": "~4.30.0",
-    "react-native-worklets": "0.12.2",
+    "react-native-worklets": "0.13.0",
     "zustand": "^5.0.15"
   },
   "devDependencies": {
@@ -54,7 +55,7 @@
     "typescript": "~6.0.3"
   },
   "scripts": {
-    "start": "expo start --go",
+    "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "lint": "expo lint",
@@ -62,28 +63,8 @@
     "test": "jest",
     "check:i18n": "tsx scripts/check-i18n.ts",
     "api:gen": "npm exec --yes -- openapi-typescript@7.13.0 ../api/openapi.json -o src/lib/api/schema.d.ts",
-    "start:tunnel": "expo start --go --tunnel",
-    "start:dev-client": "expo start --dev-client",
+    "start:tunnel": "expo start --dev-client --tunnel",
     "sync:cards": "tsx scripts/sync-cards.ts"
   },
-  "private": true,
-  "expo": {
-    "install": {
-      "exclude": [
-        "react-native-worklets",
-        "react-native-reanimated"
-      ]
-    }
-  },
-  "overrides": {
-    "react-native-reanimated": {
-      "react-native": "$react-native"
-    },
-    "react-native-worklets": {
-      "react-native": "$react-native"
-    },
-    "expo-modules-core": {
-      "react-native-worklets": "$react-native-worklets"
-    }
-  }
+  "private": true
 }

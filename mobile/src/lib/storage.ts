@@ -1,10 +1,9 @@
-import { Storage } from 'expo-sqlite/kv-store';
+import { createMMKV } from 'react-native-mmkv';
 import type { StateStorage } from 'zustand/middleware';
 
 /**
- * Synchronous key-value storage backed by expo-sqlite (bundled in Expo Go).
- * Everything persisted on device goes through this module, so the backend can
- * be swapped without touching stores or the React Query persister.
+ * Synchronous key-value storage backed by MMKV. Everything persisted on device
+ * goes through this module (zustand stores, React Query persister).
  */
 export type KeyValueStorage = {
   getItem: (key: string) => string | null;
@@ -12,11 +11,13 @@ export type KeyValueStorage = {
   removeItem: (key: string) => void;
 };
 
+const mmkv = createMMKV({ id: 'mandat' });
+
 export const storage: KeyValueStorage = {
-  getItem: (key) => Storage.getItemSync(key),
-  setItem: (key, value) => Storage.setItemSync(key, value),
+  getItem: (key) => mmkv.getString(key) ?? null,
+  setItem: (key, value) => mmkv.set(key, value),
   removeItem: (key) => {
-    Storage.removeItemSync(key);
+    mmkv.remove(key);
   },
 };
 

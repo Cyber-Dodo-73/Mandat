@@ -28,6 +28,8 @@ public enum ErrorCode {
     IDEMPOTENCY_KEY_REUSED("idempotency_key_reused", HttpStatus.UNPROCESSABLE_CONTENT),
     CARD_NOT_OWNED("card_not_owned", HttpStatus.CONFLICT),
     NOT_ENOUGH_DUPLICATES("not_enough_duplicates", HttpStatus.CONFLICT),
+    CARD_ALREADY_OWNED("card_already_owned", HttpStatus.CONFLICT),
+    IDEMPOTENCY_KEY_REQUIRED("idempotency_key_required", HttpStatus.BAD_REQUEST),
 
     // progression
     REWARD_NOT_CLAIMABLE("reward_not_claimable", HttpStatus.CONFLICT),
