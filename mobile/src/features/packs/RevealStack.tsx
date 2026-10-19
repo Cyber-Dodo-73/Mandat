@@ -6,6 +6,7 @@ import { scheduleOnRN } from 'react-native-worklets';
 import { CardBack, CardReveal, TradingCard } from '@/components/cards';
 import { Body, Button3D, Caption } from '@/components/ui';
 import { getCard } from '@/data/catalog';
+import { ftueCardRevealed } from '@/features/ftue';
 import { useReduceMotion } from '@/hooks/useReduceMotion';
 import { useTranslation } from '@/i18n';
 import { haptics } from '@/lib/haptics';
@@ -144,6 +145,7 @@ export function RevealStack({ cards, cardWidth, onDone }: RevealStackProps) {
               }}
               onRevealed={() => {
                 markSeen(top.rarity);
+                ftueCardRevealed(rarityRank(top.rarity));
                 dispatch({ type: 'revealed' });
               }}
               onRevealedTap={(direction) => dispatch({ type: 'tap', skippable: true }, direction)}

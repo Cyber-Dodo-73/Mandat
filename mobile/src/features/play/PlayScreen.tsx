@@ -5,6 +5,7 @@ import { StyleSheet, View } from 'react-native';
 import { OfflineNotice } from '@/components/navigation/OfflineNotice';
 import { Badge, Body, Caption, Heading, Icon, PressableScale, ScreenContainer, Title, type IconName } from '@/components/ui';
 import { activeDuel } from '@/features/duel/api';
+import { useFtueAnchor } from '@/features/ftue';
 import { useAchievementsQuery } from '@/features/progression/queries';
 import { activeQuiz } from '@/features/quiz/api';
 import { useIsOnline } from '@/hooks/useIsOnline';
@@ -20,6 +21,7 @@ export function PlayScreen() {
   const achievements = useAchievementsQuery();
   const stats = playStats(achievements.data);
   const [resumable, setResumable] = useState({ quiz: false, duel: false });
+  const quizAnchor = useFtueAnchor('play.quiz');
 
   // Resume hints come from ids stored on the device; refreshed whenever the tab shows.
   useFocusEffect(
@@ -41,15 +43,17 @@ export function PlayScreen() {
     <ScreenContainer>
       <Title>{t('play.title')}</Title>
       {!online ? <OfflineNotice message={t('play.offline')} /> : null}
-      <ModeTile
-        icon="help-buoy"
-        title={t('play.quiz.title')}
-        description={t('play.quiz.description')}
-        stat={quizStat}
-        resume={resumable.quiz}
-        disabled={!online}
-        onPress={() => router.push('/quiz')}
-      />
+      <View ref={quizAnchor}>
+        <ModeTile
+          icon="help-buoy"
+          title={t('play.quiz.title')}
+          description={t('play.quiz.description')}
+          stat={quizStat}
+          resume={resumable.quiz}
+          disabled={!online}
+          onPress={() => router.push('/quiz')}
+        />
+      </View>
       <ModeTile
         icon="shield-half"
         title={t('play.duel.title')}

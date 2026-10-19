@@ -41,6 +41,8 @@ import { spacing, useTheme } from '@/theme';
 import { instant, springs } from '@/theme/motion';
 import { packPalettes, type PackTheme } from '@/theme/packs';
 
+import { FtueLayer, ftueEvent, useFtueAnchor } from '@/features/ftue';
+
 import { PackRecap } from './PackRecap';
 import { useOpenPackAttempt } from './queries';
 import { RevealStack } from './RevealStack';
@@ -83,6 +85,7 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
   const attempt = useOpenPackAttempt(packId);
   const { mutate, isIdle } = attempt;
   const [phase, setPhase] = useState<Phase>('ready');
+  const boosterAnchor = useFtueAnchor('pack.booster');
   const result = attempt.data;
   const canTear = Boolean(result) && phase === 'ready';
 
@@ -129,6 +132,7 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
   };
 
   const onTorn = () => {
+    ftueEvent('packTorn');
     playSound('tear');
     haptics.flipRare();
     setTimeout(() => setPhase('stack'), reduceMotion ? 0 : STACK_DELAY_MS);
@@ -222,7 +226,7 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
         <>
           <GestureDetector gesture={blade}>
             <View style={styles.stage}>
-              <Animated.View style={dropStyle} onLayout={onPackLayout}>
+              <Animated.View ref={boosterAnchor} style={dropStyle} onLayout={onPackLayout}>
                 <View
                   accessible={canTear}
                   accessibilityRole="button"
@@ -277,10 +281,18 @@ function PackOpeningRound({ packId, theme, onOpenAnother }: PackOpeningRoundProp
           </View>
         </>
       ) : result && phase === 'stack' ? (
-        <RevealStack cards={result.cards} cardWidth={Math.round(Math.min(screenWidth * 0.74, 300))} onDone={() => setPhase('recap')} />
+        <RevealStack
+          cards={result.cards}
+          cardWidth={Math.round(Math.min(screenWidth * 0.74, 300))}
+          onDone={() => {
+            ftueEvent('packRevealed');
+            setPhase('recap');
+          }}
+        />
       ) : result && phase === 'recap' ? (
         <PackRecap result={result} onOpenAnother={onOpenAnother} />
       ) : null}
+      <FtueLayer scope="pack" />
     </View>
   );
 }

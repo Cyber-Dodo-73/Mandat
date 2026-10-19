@@ -8,6 +8,7 @@ import { CardSilhouette, TradingCard } from '@/components/cards';
 import { OfflineNotice } from '@/components/navigation/OfflineNotice';
 import { Caption, EmptyState, Icon, PressableScale, Text, Title } from '@/components/ui';
 import { allCards } from '@/data/catalog';
+import { useFtueAnchor } from '@/features/ftue';
 import { useIsOnline } from '@/hooks/useIsOnline';
 import { formatPercent, useLanguage, useTranslation } from '@/i18n';
 import { errorMessageKey } from '@/lib/api';
@@ -176,11 +177,12 @@ const GridCell = memo(function GridCell({ entry, width }: { entry: CollectionEnt
 
 /** Season completion: a big global figure, then a bar per continent and per era. */
 function ProgressLedger({ progress }: { progress: ReturnType<typeof collectionProgress> }) {
+  const ftueAnchor = useFtueAnchor('collection.progress');
   const { t } = useTranslation();
   const language = useLanguage();
   const { colors } = useTheme();
   return (
-    <View style={[styles.ledger, { backgroundColor: colors.surface, borderColor: colors.border }]}>
+    <View ref={ftueAnchor} style={[styles.ledger, { backgroundColor: colors.surface, borderColor: colors.border }]}>
       <View style={styles.ledgerTop}>
         <Text style={[styles.bigPercent, { color: colors.text }]} allowFontScaling={false}>
           {formatPercent(progress.global.ratio, language)}

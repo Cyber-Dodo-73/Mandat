@@ -4,6 +4,7 @@ import { ActivityIndicator, StyleSheet, View } from 'react-native';
 import Animated, { FadeInDown } from 'react-native-reanimated';
 
 import { Body, Button3D, Caption, Card, Heading, Icon, ProgressBar, Text } from '@/components/ui';
+import { useFtueAnchor, type FtueAnchorId } from '@/features/ftue';
 import { useSettingsStore } from '@/features/settings/store';
 import type { Mission } from '@/features/progression/api';
 import { loose, missionLabel } from '@/features/progression/labels';
@@ -38,14 +39,25 @@ export function MissionsPanel() {
   return (
     <View style={styles.panel}>
       <ReminderOptIn />
-      <MissionGroup title={t('missions.daily')} resetAt={missions.data.dailyResetAt} missions={missions.data.daily} />
+      <MissionGroup ftueAnchor="missions.daily" title={t('missions.daily')} resetAt={missions.data.dailyResetAt} missions={missions.data.daily} />
       <MissionGroup title={t('missions.weekly')} resetAt={missions.data.weeklyResetAt} missions={missions.data.weekly} />
     </View>
   );
 }
 
-function MissionGroup({ title, resetAt, missions }: { title: string; resetAt: string; missions: readonly Mission[] }) {
+function MissionGroup({
+  title,
+  resetAt,
+  missions,
+  ftueAnchor = null,
+}: {
+  title: string;
+  resetAt: string;
+  missions: readonly Mission[];
+  ftueAnchor?: FtueAnchorId | null;
+}) {
   const { t } = useTranslation();
+  const anchor = useFtueAnchor(ftueAnchor);
   const queryClient = useQueryClient();
   // At the reset the server hands out new missions: fetch them instead of showing 00:00:00.
   const refresh = useCallback(() => void queryClient.invalidateQueries({ queryKey: missionsQueryKey }), [queryClient]);
@@ -57,7 +69,7 @@ function MissionGroup({ title, resetAt, missions }: { title: string; resetAt: st
       : t('missions.resetIn', { time: formatCountdown(secondsLeft) });
 
   return (
-    <View style={styles.group}>
+    <View ref={anchor} style={styles.group}>
       <View style={styles.groupHeader}>
         <Heading style={styles.flex}>{title}</Heading>
         <Caption>{resetText}</Caption>
