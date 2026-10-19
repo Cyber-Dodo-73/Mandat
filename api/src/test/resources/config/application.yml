@@ -1,0 +1,16 @@
+# Test overrides (classpath:/config/ takes precedence over the main application.yml).
+mandat:
+  jwt:
+    secret: test-secret-for-integration-tests-only-0123456789
+  auth:
+    apple:
+      client-ids: fr.cyberdodo.mandat
+    google:
+      client-ids: test-google-client.apps.googleusercontent.com
+  rate-limit:
+    policies:
+      auth-register-ip: { capacity: 10000, period: PT1H }
+      auth-login-ip: { capacity: 10000, period: PT1M }
+      auth-login-account: { capacity: 10000, period: PT1M }
+      auth-refresh-ip: { capacity: 10000, period: PT1M }
+      auth-social-ip: { capacity: 10000, period: PT1M }

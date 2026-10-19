@@ -1,5 +1,6 @@
 package com.mandat.api.progression;
 
+import com.mandat.api.support.TestUsers;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.authentication;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -356,9 +357,7 @@ class ProgressionIntegrationTest {
     // --- Helpers --------------------------------------------------------------------------------
 
     private UUID newUser(String timezone) {
-        UUID id = UUID.randomUUID();
-        jdbc.sql("insert into users (id, timezone) values (:id, :tz)").param("id", id).param("tz", timezone).update();
-        return id;
+        return TestUsers.create(jdbc, UUID.randomUUID(), timezone);
     }
 
     /** Finds a user id whose deterministic daily assignment (for START's day) contains a matching template. */
@@ -366,8 +365,7 @@ class ProgressionIntegrationTest {
         while (true) {
             UUID candidate = UUID.randomUUID();
             if (MissionAssigner.assign(missionCatalog.pool(Period.daily), candidate, "D:2026-10-19").stream().anyMatch(wanted)) {
-                jdbc.sql("insert into users (id, timezone) values (:id, :tz)").param("id", candidate).param("tz", timezone).update();
-                return candidate;
+                return TestUsers.create(jdbc, candidate, timezone);
             }
         }
     }
@@ -376,8 +374,7 @@ class ProgressionIntegrationTest {
         while (true) {
             UUID candidate = UUID.randomUUID();
             if (MissionAssigner.assign(missionCatalog.pool(Period.weekly), candidate, "W:2026-W43").stream().anyMatch(wanted)) {
-                jdbc.sql("insert into users (id, timezone) values (:id, :tz)").param("id", candidate).param("tz", timezone).update();
-                return candidate;
+                return TestUsers.create(jdbc, candidate, timezone);
             }
         }
     }

@@ -14,6 +14,12 @@
     "description" : "Free season pass",
     "name" : "Season pass"
   }, {
+    "description" : "Sign-up, sign-in and token lifecycle",
+    "name" : "Auth"
+  }, {
+    "description" : "The authenticated player's account, settings and summary",
+    "name" : "Me"
+  }, {
     "description" : "Achievements and their progress",
     "name" : "Achievements"
   }, {
@@ -41,6 +47,240 @@
         } ],
         "summary" : "Every achievement with the player's progress",
         "tags" : [ "Achievements" ]
+      }
+    },
+    "/api/v1/auth/apple" : {
+      "post" : {
+        "operationId" : "signInWithApple",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/SocialLoginRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/AuthResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "summary" : "Sign in (or sign up) with an Apple ID token",
+        "tags" : [ "Auth" ]
+      }
+    },
+    "/api/v1/auth/google" : {
+      "post" : {
+        "operationId" : "signInWithGoogle",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/SocialLoginRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/AuthResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "summary" : "Sign in (or sign up) with a Google ID token",
+        "tags" : [ "Auth" ]
+      }
+    },
+    "/api/v1/auth/login" : {
+      "post" : {
+        "operationId" : "login",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/LoginRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/AuthResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "summary" : "Sign in with email and password",
+        "tags" : [ "Auth" ]
+      }
+    },
+    "/api/v1/auth/logout" : {
+      "post" : {
+        "operationId" : "logout",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/LogoutRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "204" : {
+            "description" : "No Content"
+          }
+        },
+        "summary" : "Revoke the refresh token family of this device",
+        "tags" : [ "Auth" ]
+      }
+    },
+    "/api/v1/auth/refresh" : {
+      "post" : {
+        "operationId" : "refreshTokens",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/RefreshRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/AuthResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "summary" : "Exchange a refresh token for new tokens (rotation; reusing a token revokes its family)",
+        "tags" : [ "Auth" ]
+      }
+    },
+    "/api/v1/auth/register" : {
+      "post" : {
+        "operationId" : "register",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/RegisterRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "201" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/AuthResponse"
+                }
+              }
+            },
+            "description" : "Created"
+          }
+        },
+        "summary" : "Create an account with email and password",
+        "tags" : [ "Auth" ]
+      }
+    },
+    "/api/v1/me" : {
+      "delete" : {
+        "operationId" : "deleteMe",
+        "responses" : {
+          "204" : {
+            "description" : "No Content"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Permanently delete the account and all its data",
+        "tags" : [ "Me" ]
+      },
+      "get" : {
+        "operationId" : "getMe",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/MeResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Account, settings, wallet and the sections of other domains",
+        "tags" : [ "Me" ]
+      }
+    },
+    "/api/v1/me/settings" : {
+      "patch" : {
+        "operationId" : "updateMySettings",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/UpdateSettingsRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/SettingsDto"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Partially update the player's settings",
+        "tags" : [ "Me" ]
       }
     },
     "/api/v1/meta" : {
@@ -193,6 +433,40 @@
   },
   "components" : {
     "schemas" : {
+      "Account" : {
+        "type" : "object",
+        "properties" : {
+          "createdAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "email" : {
+            "type" : [ "string", "null" ]
+          },
+          "friendCode" : {
+            "type" : "string"
+          },
+          "hasPassword" : {
+            "type" : "boolean"
+          },
+          "id" : {
+            "type" : "string",
+            "format" : "uuid"
+          },
+          "linkedProviders" : {
+            "type" : "array",
+            "description" : "Linked social providers",
+            "enum" : [ "APPLE", "GOOGLE" ],
+            "items" : {
+              "type" : "string"
+            }
+          },
+          "nickname" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "createdAt", "friendCode", "hasPassword", "id", "linkedProviders", "nickname" ]
+      },
       "AchievementDto" : {
         "type" : "object",
         "properties" : {
@@ -247,6 +521,38 @@
         },
         "required" : [ "achievements", "totalCount", "unlockedCount" ]
       },
+      "AuthResponse" : {
+        "type" : "object",
+        "properties" : {
+          "accessToken" : {
+            "type" : "string"
+          },
+          "accessTokenExpiresAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "newUser" : {
+            "type" : "boolean",
+            "description" : "True when this request created the account (e.g. first social sign-in)"
+          },
+          "refreshToken" : {
+            "type" : "string"
+          },
+          "refreshTokenExpiresAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "tokenType" : {
+            "type" : "string",
+            "enum" : [ "Bearer" ]
+          },
+          "userId" : {
+            "type" : "string",
+            "format" : "uuid"
+          }
+        },
+        "required" : [ "accessToken", "accessTokenExpiresAt", "newUser", "refreshToken", "refreshTokenExpiresAt", "tokenType", "userId" ]
+      },
       "ClaimResponse" : {
         "type" : "object",
         "properties" : {
@@ -273,6 +579,62 @@
           }
         },
         "required" : [ "level", "levelRewards", "levelsGained", "reward", "totalXp" ]
+      },
+      "LoginRequest" : {
+        "type" : "object",
+        "properties" : {
+          "deviceLabel" : {
+            "type" : [ "string", "null" ],
+            "maxLength" : 64,
+            "minLength" : 0
+          },
+          "email" : {
+            "type" : "string",
+            "maxLength" : 254,
+            "minLength" : 0
+          },
+          "password" : {
+            "type" : "string",
+            "maxLength" : 128,
+            "minLength" : 0
+          }
+        },
+        "required" : [ "email", "password" ]
+      },
+      "LogoutRequest" : {
+        "type" : "object",
+        "properties" : {
+          "refreshToken" : {
+            "type" : "string",
+            "maxLength" : 128,
+            "minLength" : 0
+          }
+        },
+        "required" : [ "refreshToken" ]
+      },
+      "MeResponse" : {
+        "type" : "object",
+        "properties" : {
+          "account" : {
+            "$ref" : "#/components/schemas/Account"
+          },
+          "sections" : {
+            "type" : "object",
+            "additionalProperties" : { },
+            "description" : "Sections added by other domains (progression, packs...), keyed by MeContributor#key"
+          },
+          "serverTime" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "settings" : {
+            "$ref" : "#/components/schemas/SettingsDto"
+          },
+          "wallet" : {
+            "$ref" : "#/components/schemas/Wallet"
+          }
+        },
+        "required" : [ "account", "sections", "serverTime", "settings", "wallet" ]
       },
       "MetaResponse" : {
         "type" : "object",
@@ -428,6 +790,55 @@
         },
         "required" : [ "bestStreak", "bonusPacks", "currentStreak", "dailyResetAt", "freezeAvailable", "influence", "level", "seasonXp", "streakActiveToday", "timezone", "totalXp", "unlocks", "weeklyResetAt", "xpIntoLevel" ]
       },
+      "RefreshRequest" : {
+        "type" : "object",
+        "properties" : {
+          "refreshToken" : {
+            "type" : "string",
+            "maxLength" : 128,
+            "minLength" : 0
+          }
+        },
+        "required" : [ "refreshToken" ]
+      },
+      "RegisterRequest" : {
+        "type" : "object",
+        "properties" : {
+          "deviceLabel" : {
+            "type" : [ "string", "null" ],
+            "maxLength" : 64,
+            "minLength" : 0
+          },
+          "email" : {
+            "type" : "string",
+            "format" : "email",
+            "maxLength" : 254,
+            "minLength" : 0
+          },
+          "language" : {
+            "type" : [ "string", "null" ],
+            "enum" : [ "fr", "en" ],
+            "pattern" : "fr|en"
+          },
+          "nickname" : {
+            "type" : "string",
+            "minLength" : 1,
+            "pattern" : "^[\\p{L}\\p{N}_.\\-]{3,20}$"
+          },
+          "password" : {
+            "type" : "string",
+            "maxLength" : 128,
+            "minLength" : 8
+          },
+          "timezone" : {
+            "type" : [ "string", "null" ],
+            "example" : "Europe/Paris",
+            "maxLength" : 64,
+            "minLength" : 0
+          }
+        },
+        "required" : [ "email", "nickname", "password" ]
+      },
       "RewardDto" : {
         "type" : "object",
         "properties" : {
@@ -479,6 +890,69 @@
         },
         "required" : [ "currentTier", "seasonId", "seasonXp", "tiers", "xpPerTier" ]
       },
+      "SettingsDto" : {
+        "type" : "object",
+        "properties" : {
+          "haptics" : {
+            "type" : "boolean"
+          },
+          "language" : {
+            "type" : "string"
+          },
+          "notifications" : {
+            "type" : "boolean"
+          },
+          "reduceMotion" : {
+            "type" : "string",
+            "enum" : [ "SYSTEM", "ON", "OFF" ]
+          },
+          "sound" : {
+            "type" : "boolean"
+          },
+          "timezone" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "haptics", "language", "notifications", "reduceMotion", "sound", "timezone" ]
+      },
+      "SocialLoginRequest" : {
+        "type" : "object",
+        "properties" : {
+          "deviceLabel" : {
+            "type" : [ "string", "null" ],
+            "maxLength" : 64,
+            "minLength" : 0
+          },
+          "idToken" : {
+            "type" : "string",
+            "maxLength" : 8192,
+            "minLength" : 0
+          },
+          "language" : {
+            "type" : [ "string", "null" ],
+            "enum" : [ "fr", "en" ],
+            "pattern" : "fr|en"
+          },
+          "nickname" : {
+            "type" : [ "string", "null" ],
+            "description" : "Wished nickname for a new account",
+            "pattern" : "^[\\p{L}\\p{N}_.\\-]{3,20}$"
+          },
+          "nonce" : {
+            "type" : [ "string", "null" ],
+            "description" : "Raw nonce used for this sign-in, if any",
+            "maxLength" : 256,
+            "minLength" : 0
+          },
+          "timezone" : {
+            "type" : [ "string", "null" ],
+            "example" : "Europe/Paris",
+            "maxLength" : 64,
+            "minLength" : 0
+          }
+        },
+        "required" : [ "idToken" ]
+      },
       "TierDto" : {
         "type" : "object",
         "properties" : {
@@ -513,6 +987,49 @@
           }
         },
         "required" : [ "itemId", "kind" ]
+      },
+      "UpdateSettingsRequest" : {
+        "type" : "object",
+        "properties" : {
+          "haptics" : {
+            "type" : [ "boolean", "null" ]
+          },
+          "language" : {
+            "type" : [ "string", "null" ],
+            "enum" : [ "fr", "en" ],
+            "pattern" : "fr|en"
+          },
+          "notifications" : {
+            "type" : [ "boolean", "null" ]
+          },
+          "reduceMotion" : {
+            "type" : [ "string", "null" ],
+            "enum" : [ "SYSTEM", "ON", "OFF" ]
+          },
+          "sound" : {
+            "type" : [ "boolean", "null" ]
+          },
+          "timezone" : {
+            "type" : [ "string", "null" ],
+            "example" : "Europe/Paris",
+            "maxLength" : 64,
+            "minLength" : 0
+          }
+        }
+      },
+      "Wallet" : {
+        "type" : "object",
+        "properties" : {
+          "bonusPacks" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "influence" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "bonusPacks", "influence" ]
       }
     },
     "securitySchemes" : {
