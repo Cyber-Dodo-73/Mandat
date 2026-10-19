@@ -1,7 +1,28 @@
 import { RARITIES, rarityStyles } from '@/theme/rarity';
 
 import { availableFinishes, isFinishAvailable } from '../finishes';
-import { revealTimeline } from '../revealConfig';
+import { revealTimeline, suspenseTicks } from '../revealConfig';
+
+describe('suspense before the flip', () => {
+  it('holds rare and better cards longer, the rarer the longer', () => {
+    const holds = (['rare', 'epic', 'legendary', 'mythic'] as const).map((rarity) => revealTimeline(rarity).suspenseMs);
+    expect(holds[0]).toBeGreaterThanOrEqual(400);
+    for (let i = 1; i < holds.length; i += 1) expect(holds[i]).toBeGreaterThan(holds[i - 1] ?? 0);
+  });
+
+  it('builds accelerating haptic ticks for rare and up only', () => {
+    expect(revealTimeline('common').suspenseTicksMs).toEqual([]);
+    expect(revealTimeline('uncommon').suspenseTicksMs).toEqual([]);
+    const ticks = suspenseTicks(1200, 5);
+    const gaps = ticks.slice(1).map((tick, index) => tick - (ticks[index] ?? 0));
+    for (let i = 1; i < gaps.length; i += 1) expect(gaps[i]).toBeLessThanOrEqual(gaps[i - 1] ?? 0);
+    expect(Math.max(...ticks)).toBeLessThan(1200);
+  });
+
+  it('drops the ticks with reduce motion', () => {
+    expect(revealTimeline('mythic', { reduceMotion: true }).suspenseTicksMs).toEqual([]);
+  });
+});
 
 describe('reveal timeline', () => {
   it('grows longer and more dramatic with rarity', () => {

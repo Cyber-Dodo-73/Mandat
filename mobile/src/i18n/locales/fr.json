@@ -130,16 +130,15 @@
   "packOpening": {
     "title": "Ouverture",
     "preparing": "Préparation du booster…",
-    "tearHint": "Glisse le doigt sur le haut du booster pour le déchirer",
+    "tearHint": "Tranche le haut du booster d'un geste du doigt, comme une lame",
     "tearAction": "Déchirer le booster",
     "error": "L'ouverture a échoué. Ton booster n'a pas été utilisé.",
-    "cardsReady": "Tes 5 cartes sont prêtes",
     "influence": "+{{amount}} Influence grâce aux doublons",
     "done": "Terminer",
-    "reveal": "Révéler mes cartes",
     "progress": "Carte {{current}} sur {{total}}",
-    "next_one": "Carte suivante (encore {{count}})",
-    "next_other": "Carte suivante (encore {{count}})",
+    "tapToReveal": "Touche la carte pour la retourner",
+    "tapToNext": "Touche ou glisse la carte pour passer à la suivante",
+    "nextCard": "Carte suivante",
     "seeAll": "Voir mes 5 cartes",
     "unknownCard": "Cette carte arrive avec la prochaine mise à jour de l'app. Elle est bien dans ta collection.",
     "recapTitle_zero": "Pas de nouvelle carte cette fois",
@@ -328,6 +327,13 @@
   },
   "cards": {
     "a11yLabel": "{{name}}, carte {{rarity}}. {{role}}",
+    "readability": "Lisibilité",
+    "size": {
+      "thumb": "Mini",
+      "grid": "Grille",
+      "large": "Grande",
+      "hero": "Héros"
+    },
     "statsShort": {
       "influence": "INF",
       "diplomacy": "DIP",
