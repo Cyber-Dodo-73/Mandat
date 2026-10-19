@@ -1,0 +1,1325 @@
+[
+ {
+  "number": 316,
+  "id": "s1-316",
+  "wikidataId": "Q81794",
+  "name": {
+   "en": "Akhenaten",
+   "fr": "Akhenaton"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "uncommon",
+  "country": "EG",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -1401,
+  "deathYear": -1336,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 317,
+  "id": "s1-317",
+  "wikidataId": "Q161672",
+  "name": {
+   "en": "Patrice Lumumba",
+   "fr": "Patrice Lumumba"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de la République démocratique du Congo",
+   "en": "Prime Minister of the Democratic Republic of the Congo"
+  },
+  "rarity": "uncommon",
+  "country": "CD",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1925,
+  "deathYear": 1961,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 318,
+  "id": "s1-318",
+  "wikidataId": "Q154952",
+  "name": {
+   "en": "William Alexander of the Netherlands",
+   "fr": "Willem-Alexander des Pays-Bas"
+  },
+  "currentRole": {
+   "fr": "Prince d'Orange",
+   "en": "Prince of Orange"
+  },
+  "rarity": "uncommon",
+  "country": "NL",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1967,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 319,
+  "id": "s1-319",
+  "wikidataId": "Q185152",
+  "name": {
+   "en": "Puyi",
+   "fr": "Puyi"
+  },
+  "currentRole": {
+   "fr": "Empereur de Chine",
+   "en": "Emperor of China"
+  },
+  "rarity": "uncommon",
+  "country": "CN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1906,
+  "deathYear": 1967,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 320,
+  "id": "s1-320",
+  "wikidataId": "Q16986436",
+  "name": {
+   "en": "Sanna Marin",
+   "fr": "Sanna Marin"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de Finlande",
+   "en": "Prime Minister of Finland"
+  },
+  "rarity": "uncommon",
+  "country": "FI",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1985,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 321,
+  "id": "s1-321",
+  "wikidataId": "Q22316",
+  "name": {
+   "en": "John Kerry",
+   "fr": "John Kerry"
+  },
+  "currentRole": {
+   "fr": "Secrétaire d'État des États-Unis",
+   "en": "United States Secretary of State"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1943,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 322,
+  "id": "s1-322",
+  "wikidataId": "Q11891",
+  "name": {
+   "en": "James K. Polk",
+   "fr": "James Knox Polk"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1795,
+  "deathYear": 1849,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 323,
+  "id": "s1-323",
+  "wikidataId": "Q11815",
+  "name": {
+   "en": "James Monroe",
+   "fr": "James Monroe"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1758,
+  "deathYear": 1831,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 324,
+  "id": "s1-324",
+  "wikidataId": "Q324546",
+  "name": {
+   "en": "Marco Rubio",
+   "fr": "Marco Rubio"
+  },
+  "currentRole": {
+   "fr": "Secrétaire d'État des États-Unis",
+   "en": "United States Secretary of State"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1971,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 325,
+  "id": "s1-325",
+  "wikidataId": "Q215562",
+  "name": {
+   "en": "Frederick Douglass",
+   "fr": "Frederick Douglass"
+  },
+  "currentRole": {
+   "fr": "Ambassadeur",
+   "en": "Ambassador"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1818,
+  "deathYear": 1895,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 326,
+  "id": "s1-326",
+  "wikidataId": "Q35678",
+  "name": {
+   "en": "Benjamin Harrison",
+   "fr": "Benjamin Harrison"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1833,
+  "deathYear": 1901,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 327,
+  "id": "s1-327",
+  "wikidataId": "Q43144",
+  "name": {
+   "en": "Sarah Palin",
+   "fr": "Sarah Palin"
+  },
+  "currentRole": {
+   "fr": "Gouverneur de l'Alaska",
+   "en": "Governor of Alaska"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1964,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 328,
+  "id": "s1-328",
+  "wikidataId": "Q2036942",
+  "name": {
+   "en": "Ted Cruz",
+   "fr": "Ted Cruz"
+  },
+  "currentRole": {
+   "fr": "Directeur ou directrice",
+   "en": "Director"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1970,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 329,
+  "id": "s1-329",
+  "wikidataId": "Q12312",
+  "name": {
+   "en": "Franklin Pierce",
+   "fr": "Franklin Pierce"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1804,
+  "deathYear": 1869,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 330,
+  "id": "s1-330",
+  "wikidataId": "Q12306",
+  "name": {
+   "en": "Millard Fillmore",
+   "fr": "Millard Fillmore"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1800,
+  "deathYear": 1874,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 331,
+  "id": "s1-331",
+  "wikidataId": "Q35686",
+  "name": {
+   "en": "Rutherford B. Hayes",
+   "fr": "Rutherford Birchard Hayes"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1822,
+  "deathYear": 1893,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 332,
+  "id": "s1-332",
+  "wikidataId": "Q179090",
+  "name": {
+   "en": "Aaron Burr",
+   "fr": "Aaron Burr"
+  },
+  "currentRole": {
+   "fr": "Vice-président des États-Unis",
+   "en": "Vice President of the United States"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1756,
+  "deathYear": 1836,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 333,
+  "id": "s1-333",
+  "wikidataId": "Q193426",
+  "name": {
+   "en": "Nancy Reagan",
+   "fr": "Nancy Reagan"
+  },
+  "currentRole": {
+   "fr": "Première dame des États-Unis",
+   "en": "First Lady of the United States"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1921,
+  "deathYear": 2016,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 334,
+  "id": "s1-334",
+  "wikidataId": "Q150851",
+  "name": {
+   "en": "Colin Powell",
+   "fr": "Colin Powell"
+  },
+  "currentRole": {
+   "fr": "Secrétaire d'État des États-Unis",
+   "en": "United States Secretary of State"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1937,
+  "deathYear": 2021,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 335,
+  "id": "s1-335",
+  "wikidataId": "Q134549",
+  "name": {
+   "en": "Ted Kennedy",
+   "fr": "Edward Moore Kennedy"
+  },
+  "currentRole": {
+   "fr": "Procureur de district",
+   "en": "District attorney"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1932,
+  "deathYear": 2009,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 336,
+  "id": "s1-336",
+  "wikidataId": "Q7173106",
+  "name": {
+   "en": "Pete Buttigieg",
+   "fr": "Pete Buttigieg"
+  },
+  "currentRole": {
+   "fr": "Secrétaire aux Transports des États-Unis",
+   "en": "United States Secretary of Transportation"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1982,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 337,
+  "id": "s1-337",
+  "wikidataId": "Q162269",
+  "name": {
+   "en": "Jefferson Davis",
+   "fr": "Jefferson Davis"
+  },
+  "currentRole": {
+   "fr": "Secrétaire à la Guerre des États-Unis",
+   "en": "United States Secretary of War"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1808,
+  "deathYear": 1889,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 338,
+  "id": "s1-338",
+  "wikidataId": "Q174438",
+  "name": {
+   "en": "Madeleine Albright",
+   "fr": "Madeleine Albright"
+  },
+  "currentRole": {
+   "fr": "Secrétaire d'État des États-Unis",
+   "en": "United States Secretary of State"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1937,
+  "deathYear": 2022,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 339,
+  "id": "s1-339",
+  "wikidataId": "Q2434360",
+  "name": {
+   "en": "Tim Walz",
+   "fr": "Tim Walz"
+  },
+  "currentRole": {
+   "fr": "Gouverneur du Minnesota",
+   "en": "Governor of Minnesota"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1964,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 340,
+  "id": "s1-340",
+  "wikidataId": "Q473239",
+  "name": {
+   "en": "Mike Pompeo",
+   "fr": "Mike Pompeo"
+  },
+  "currentRole": {
+   "fr": "Secrétaire d'État des États-Unis",
+   "en": "United States Secretary of State"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1963,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 341,
+  "id": "s1-341",
+  "wikidataId": "Q190628",
+  "name": {
+   "en": "Barbara Bush",
+   "fr": "Barbara Bush"
+  },
+  "currentRole": {
+   "fr": "Première dame des États-Unis",
+   "en": "First Lady of the United States"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1925,
+  "deathYear": 2018,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 342,
+  "id": "s1-342",
+  "wikidataId": "Q210435",
+  "name": {
+   "en": "J. Edgar Hoover",
+   "fr": "J. Edgar Hoover"
+  },
+  "currentRole": {
+   "fr": "Directeur du Federal Bureau of Investigation",
+   "en": "Director of the Federal Bureau of Investigation"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1895,
+  "deathYear": 1972,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 343,
+  "id": "s1-343",
+  "wikidataId": "Q76437",
+  "name": {
+   "en": "Karl Dönitz",
+   "fr": "Karl Dönitz"
+  },
+  "currentRole": {
+   "fr": "Président du Reich",
+   "en": "President of Germany"
+  },
+  "rarity": "common",
+  "country": "DE",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1891,
+  "deathYear": 1980,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 344,
+  "id": "s1-344",
+  "wikidataId": "Q1459658",
+  "name": {
+   "en": "Viktor Yanukovych",
+   "fr": "Viktor Ianoukovytch"
+  },
+  "currentRole": {
+   "fr": "Président de l'Ukraine",
+   "en": "President of Ukraine"
+  },
+  "rarity": "common",
+  "country": "UA",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1950,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 345,
+  "id": "s1-345",
+  "wikidataId": "Q120180",
+  "name": {
+   "en": "Alexander III of Russia",
+   "fr": "Alexandre III"
+  },
+  "currentRole": {
+   "fr": "Empereur de toutes les Russies",
+   "en": "Emperor of all the Russias"
+  },
+  "rarity": "common",
+  "country": "RU",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1845,
+  "deathYear": 1894,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 346,
+  "id": "s1-346",
+  "wikidataId": "Q188541",
+  "name": {
+   "en": "Chandragupta Maurya",
+   "fr": "Chandragupta Maurya"
+  },
+  "currentRole": {
+   "fr": "Empereur maurya",
+   "en": "Mauryan Emperor"
+  },
+  "rarity": "common",
+  "country": "IN",
+  "continent": "asia",
+  "era": "antiquity",
+  "birthYear": -340,
+  "deathYear": -297,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 347,
+  "id": "s1-347",
+  "wikidataId": "Q129165",
+  "name": {
+   "en": "Xerxes I",
+   "fr": "Xerxès Ier"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "common",
+  "country": "IR",
+  "continent": "asia",
+  "era": "antiquity",
+  "birthYear": -519,
+  "deathYear": -465,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 348,
+  "id": "s1-348",
+  "wikidataId": "Q49214",
+  "name": {
+   "en": "Dan Quayle",
+   "fr": "Dan Quayle"
+  },
+  "currentRole": {
+   "fr": "Vice-président des États-Unis",
+   "en": "Vice President of the United States"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1947,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 349,
+  "id": "s1-349",
+  "wikidataId": "Q269909",
+  "name": {
+   "en": "Andy Burnham",
+   "fr": "Andy Burnham"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Royaume-Uni",
+   "en": "Prime Minister of the United Kingdom"
+  },
+  "rarity": "common",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1970,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 350,
+  "id": "s1-350",
+  "wikidataId": "Q34503",
+  "name": {
+   "en": "Mehmed II",
+   "fr": "Mehmed II"
+  },
+  "currentRole": {
+   "fr": "Sultan de l'Empire ottoman",
+   "en": "Sultan of the Ottoman Empire"
+  },
+  "rarity": "common",
+  "country": "TR",
+  "continent": "asia",
+  "era": "medieval",
+  "birthYear": 1432,
+  "deathYear": 1481,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 351,
+  "id": "s1-351",
+  "wikidataId": "Q58077",
+  "name": {
+   "en": "Petro Poroshenko",
+   "fr": "Petro Porochenko"
+  },
+  "currentRole": {
+   "fr": "Président de l'Ukraine",
+   "en": "President of Ukraine"
+  },
+  "rarity": "common",
+  "country": "UA",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1965,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 352,
+  "id": "s1-352",
+  "wikidataId": "Q16845347",
+  "name": {
+   "en": "Ram Nath Kovind",
+   "fr": "Ram Nath Kovind"
+  },
+  "currentRole": {
+   "fr": "Président de l'Inde",
+   "en": "President of India"
+  },
+  "rarity": "common",
+  "country": "IN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1945,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 353,
+  "id": "s1-353",
+  "wikidataId": "Q19943",
+  "name": {
+   "en": "Juan Carlos I of Spain",
+   "fr": "Juan Carlos Ier d'Espagne"
+  },
+  "currentRole": {
+   "fr": "Roi ou reine d'Espagne",
+   "en": "Monarch of Spain"
+  },
+  "rarity": "common",
+  "country": "ES",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1938,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 354,
+  "id": "s1-354",
+  "wikidataId": "Q34060",
+  "name": {
+   "en": "Yitzhak Rabin",
+   "fr": "Yitzhak Rabin"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Israël",
+   "en": "Prime Minister of Israel"
+  },
+  "rarity": "common",
+  "country": "IL",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1922,
+  "deathYear": 1995,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 355,
+  "id": "s1-355",
+  "wikidataId": "Q151789",
+  "name": {
+   "en": "Peter III of Russia",
+   "fr": "Pierre III"
+  },
+  "currentRole": {
+   "fr": "Empereur de toutes les Russies",
+   "en": "Emperor of all the Russias"
+  },
+  "rarity": "common",
+  "country": "RU",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1728,
+  "deathYear": 1762,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 356,
+  "id": "s1-356",
+  "wikidataId": "Q17712353",
+  "name": {
+   "en": "Nayib Bukele",
+   "fr": "Nayib Bukele"
+  },
+  "currentRole": {
+   "fr": "Président de la république du Salvador",
+   "en": "President of El Salvador"
+  },
+  "rarity": "common",
+  "country": "SV",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1981,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 357,
+  "id": "s1-357",
+  "wikidataId": "Q206",
+  "name": {
+   "en": "Stephen Harper",
+   "fr": "Stephen Harper"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Canada",
+   "en": "Prime Minister of Canada"
+  },
+  "rarity": "common",
+  "country": "CA",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1959,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 358,
+  "id": "s1-358",
+  "wikidataId": "Q36174",
+  "name": {
+   "en": "Charles II of Spain",
+   "fr": "Charles II d'Espagne"
+  },
+  "currentRole": {
+   "fr": "Prince des Asturies",
+   "en": "Prince of Asturias"
+  },
+  "rarity": "common",
+  "country": "ES",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1661,
+  "deathYear": 1700,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 359,
+  "id": "s1-359",
+  "wikidataId": "Q141829",
+  "name": {
+   "en": "Lavrentiy Beria",
+   "fr": "Lavrenti Beria"
+  },
+  "currentRole": {
+   "fr": "Premier vice-Premier ministre de l'Union soviétique",
+   "en": "First Deputy Chairman of the Council of Ministers of the USSR"
+  },
+  "rarity": "common",
+  "country": "RU",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1899,
+  "deathYear": 1953,
+  "sensitive": true,
+  "statTotal": 18
+ },
+ {
+  "number": 360,
+  "id": "s1-360",
+  "wikidataId": "Q217115",
+  "name": {
+   "en": "Ramzan Kadyrov",
+   "fr": "Ramzan Kadyrov"
+  },
+  "currentRole": {
+   "fr": "Chef de la république tchétchène",
+   "en": "Head of the Chechen Republic"
+  },
+  "rarity": "common",
+  "country": "RU",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1976,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 361,
+  "id": "s1-361",
+  "wikidataId": "Q184650",
+  "name": {
+   "en": "Donald Rumsfeld",
+   "fr": "Donald Rumsfeld"
+  },
+  "currentRole": {
+   "fr": "Directeur général ou directrice générale",
+   "en": "Chief executive officer"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1932,
+  "deathYear": 2021,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 362,
+  "id": "s1-362",
+  "wikidataId": "Q1148669",
+  "name": {
+   "en": "Cyril Ramaphosa",
+   "fr": "Cyril Ramaphosa"
+  },
+  "currentRole": {
+   "fr": "Président de l'Afrique du Sud",
+   "en": "President of South Africa"
+  },
+  "rarity": "common",
+  "country": "ZA",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1952,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 363,
+  "id": "s1-363",
+  "wikidataId": "Q57282",
+  "name": {
+   "en": "Jacob Zuma",
+   "fr": "Jacob Zuma"
+  },
+  "currentRole": {
+   "fr": "Vice-président",
+   "en": "Vice president"
+  },
+  "rarity": "common",
+  "country": "ZA",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1942,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 364,
+  "id": "s1-364",
+  "wikidataId": "Q52395487",
+  "name": {
+   "en": "Javier Milei",
+   "fr": "Javier Milei"
+  },
+  "currentRole": {
+   "fr": "Président de l'Argentine",
+   "en": "President of Argentina"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1970,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 365,
+  "id": "s1-365",
+  "wikidataId": "Q440",
+  "name": {
+   "en": "Salvador Allende",
+   "fr": "Salvador Allende"
+  },
+  "currentRole": {
+   "fr": "Secrétaire général ou secrétaire générale",
+   "en": "General secretary"
+  },
+  "rarity": "common",
+  "country": "CL",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1908,
+  "deathYear": 1973,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 366,
+  "id": "s1-366",
+  "wikidataId": "Q40722",
+  "name": {
+   "en": "Dilma Rousseff",
+   "fr": "Dilma Rousseff"
+  },
+  "currentRole": {
+   "fr": "Président du Brésil",
+   "en": "President of Brazil"
+  },
+  "rarity": "common",
+  "country": "BR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1947,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 367,
+  "id": "s1-367",
+  "wikidataId": "Q307871",
+  "name": {
+   "en": "Abdel Fattah el-Sisi",
+   "fr": "Abdel Fattah al-Sissi"
+  },
+  "currentRole": {
+   "fr": "Président de la République arabe d'Égypte",
+   "en": "President of Egypt"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1954,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 368,
+  "id": "s1-368",
+  "wikidataId": "Q41563",
+  "name": {
+   "en": "Julia Gillard",
+   "fr": "Julia Gillard"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Australie",
+   "en": "Prime Minister of Australia"
+  },
+  "rarity": "common",
+  "country": "AU",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1961,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 369,
+  "id": "s1-369",
+  "wikidataId": "Q7436908",
+  "name": {
+   "en": "Scott Morrison",
+   "fr": "Scott Morrison"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Australie",
+   "en": "Prime Minister of Australia"
+  },
+  "rarity": "common",
+  "country": "AU",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1968,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 370,
+  "id": "s1-370",
+  "wikidataId": "Q335697",
+  "name": {
+   "en": "Anthony Albanese",
+   "fr": "Anthony Albanese"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Australie",
+   "en": "Prime Minister of Australia"
+  },
+  "rarity": "common",
+  "country": "AU",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1963,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 371,
+  "id": "s1-371",
+  "wikidataId": "Q27695",
+  "name": {
+   "en": "Shaka Zulu",
+   "fr": "Chaka"
+  },
+  "currentRole": {
+   "fr": "Roi",
+   "en": "King"
+  },
+  "rarity": "common",
+  "country": "ZA",
+  "continent": "africa",
+  "era": "modern",
+  "birthYear": 1786,
+  "deathYear": 1828,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 372,
+  "id": "s1-372",
+  "wikidataId": "Q57553",
+  "name": {
+   "en": "Mohammed VI of Morocco",
+   "fr": "Mohammed VI"
+  },
+  "currentRole": {
+   "fr": "Roi du Maroc",
+   "en": "King of Morocco"
+  },
+  "rarity": "common",
+  "country": "MA",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1963,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 373,
+  "id": "s1-373",
+  "wikidataId": "Q361567",
+  "name": {
+   "en": "Muhammadu Buhari",
+   "fr": "Muhammadu Buhari"
+  },
+  "currentRole": {
+   "fr": "Président du Nigeria",
+   "en": "President of Nigeria"
+  },
+  "rarity": "common",
+  "country": "NG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1942,
+  "deathYear": 2025,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 374,
+  "id": "s1-374",
+  "wikidataId": "Q202155",
+  "name": {
+   "en": "Thomas Sankara",
+   "fr": "Thomas Sankara"
+  },
+  "currentRole": {
+   "fr": "Président ou présidente",
+   "en": "President"
+  },
+  "rarity": "common",
+  "country": "BF",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1949,
+  "deathYear": 1987,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 375,
+  "id": "s1-375",
+  "wikidataId": "Q93330",
+  "name": {
+   "en": "Juan Perón",
+   "fr": "Juan Perón"
+  },
+  "currentRole": {
+   "fr": "Président de l'Argentine",
+   "en": "President of Argentina"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1895,
+  "deathYear": 1974,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 376,
+  "id": "s1-376",
+  "wikidataId": "Q42410",
+  "name": {
+   "en": "Evo Morales",
+   "fr": "Evo Morales"
+  },
+  "currentRole": {
+   "fr": "Président de la Bolivie",
+   "en": "President of Bolivia"
+  },
+  "rarity": "common",
+  "country": "BO",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1959,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 377,
+  "id": "s1-377",
+  "wikidataId": "Q1231345",
+  "name": {
+   "en": "Paul Kagame",
+   "fr": "Paul Kagame"
+  },
+  "currentRole": {
+   "fr": "Président de la République du Rwanda",
+   "en": "President of Rwanda"
+  },
+  "rarity": "common",
+  "country": "RW",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1957,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 378,
+  "id": "s1-378",
+  "wikidataId": "Q4631",
+  "name": {
+   "en": "Mohamed Morsi",
+   "fr": "Mohamed Morsi"
+  },
+  "currentRole": {
+   "fr": "Président de la République arabe d'Égypte",
+   "en": "President of Egypt"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1951,
+  "deathYear": 2019,
+  "sensitive": false,
+  "statTotal": 20
+ }
+]

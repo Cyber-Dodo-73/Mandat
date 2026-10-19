@@ -94,6 +94,7 @@ export function validateContent(value: unknown, expectedQid: string, sensitive: 
   } else {
     checkLocalized(value.ability.name, 'ability.name', errors, ABILITY_NAME_MAX);
     checkLocalized(value.ability.description, 'ability.description', errors, ABILITY_DESCRIPTION_MAX);
+    errors.push(...validateEffect(value.ability.effect));
   }
 
   const known = new Set(['wikidataId', 'name', 'role', 'bio', 'stats', 'ability']);
@@ -137,6 +138,47 @@ export function spearman(xs: readonly number[], ys: readonly number[]): number {
   return vx === 0 || vy === 0 ? 0 : cov / Math.sqrt(vx * vy);
 }
 
+const EFFECT_TYPES = ['bonus', 'malus', 'tieBreaker'] as const;
+const EFFECT_STATS = [...STAT_KEYS, 'any'] as const;
+const ERAS = ['antiquity', 'medieval', 'modern', 'contemporary'] as const;
+const CONDITION_VALUES: Record<string, ReadonlyArray<string | number> | null> = {
+  always: null,
+  opponentContinent: ['same', 'different'],
+  opponentEra: ERAS,
+  roundDomain: STAT_KEYS,
+  round: [1, 2, 3],
+  behind: null,
+  opponentRarityHigher: null,
+};
+
+/** Machine-readable ability effect used by the duel engine (see data/content/GUIDELINES.md). */
+export function validateEffect(effect: unknown): string[] {
+  const errors: string[] = [];
+  if (!isRecord(effect)) return ['ability.effect: expected an object'];
+  const type = effect.type;
+  if (!(EFFECT_TYPES as readonly unknown[]).includes(type)) errors.push(`ability.effect.type: expected one of ${EFFECT_TYPES.join(', ')}`);
+  if (type !== 'tieBreaker') {
+    if (!(EFFECT_STATS as readonly unknown[]).includes(effect.stat)) errors.push(`ability.effect.stat: expected one of ${EFFECT_STATS.join(', ')}`);
+    if (typeof effect.amount !== 'number' || !Number.isInteger(effect.amount) || effect.amount < 1 || effect.amount > 3) {
+      errors.push('ability.effect.amount: expected an integer 1–3');
+    }
+  }
+  const condition = effect.condition;
+  if (!isRecord(condition) || typeof condition.kind !== 'string' || !(condition.kind in CONDITION_VALUES)) {
+    errors.push(`ability.effect.condition.kind: expected one of ${Object.keys(CONDITION_VALUES).join(', ')}`);
+  } else {
+    const allowed = CONDITION_VALUES[condition.kind];
+    if (allowed === null && condition.value !== undefined) errors.push(`ability.effect.condition: "${condition.kind}" takes no value`);
+    if (allowed !== null && allowed !== undefined && !allowed.includes(condition.value as string | number)) {
+      errors.push(`ability.effect.condition.value: expected one of ${allowed.join(', ')}`);
+    }
+    if (condition.kind === 'always' && type !== 'tieBreaker' && effect.amount !== 1) {
+      errors.push('ability.effect.amount: an unconditional effect is limited to 1');
+    }
+  }
+  return errors;
+}
+
 /** Cross-card checks: power must not follow rarity, sensitive cards never have the best stats. */
 export function validateCatalogBalance(
   cards: ReadonlyArray<{ wikidataId: string; rarity: Rarity; stats: Stats; sensitive: boolean }>,
@@ -171,6 +213,7 @@ export function placeholderContent(qid: string): CardContent {
     ability: {
       name: { fr: 'À définir', en: 'To be defined' },
       description: { fr: 'Capacité à rédiger.', en: 'Ability to be written.' },
+      effect: { type: 'tieBreaker', condition: { kind: 'behind' } },
     },
   };
 }

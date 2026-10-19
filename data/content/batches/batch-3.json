@@ -1,0 +1,1325 @@
+[
+ {
+  "number": 127,
+  "id": "s1-127",
+  "wikidataId": "Q44279",
+  "name": {
+   "en": "Oliver Cromwell",
+   "fr": "Oliver Cromwell"
+  },
+  "currentRole": {
+   "fr": "Lord-protecteur",
+   "en": "Lord Protector"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1599,
+  "deathYear": 1658,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 128,
+  "id": "s1-128",
+  "wikidataId": "Q23530",
+  "name": {
+   "en": "Dmitry Medvedev",
+   "fr": "Dmitri Medvedev"
+  },
+  "currentRole": {
+   "fr": "Président de la fédération de Russie",
+   "en": "President of Russia"
+  },
+  "rarity": "rare",
+  "country": "RU",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1965,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 129,
+  "id": "s1-129",
+  "wikidataId": "Q38823",
+  "name": {
+   "en": "Ruhollah Khomeini",
+   "fr": "Rouhollah Khomeini"
+  },
+  "currentRole": {
+   "fr": "Guide de la Révolution",
+   "en": "Supreme Leader of Iran"
+  },
+  "rarity": "rare",
+  "country": "IR",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1900,
+  "deathYear": 1989,
+  "sensitive": true,
+  "statTotal": 22
+ },
+ {
+  "number": 130,
+  "id": "s1-130",
+  "wikidataId": "Q217096",
+  "name": {
+   "en": "Naruhito",
+   "fr": "Naruhito"
+  },
+  "currentRole": {
+   "fr": "Empereur du Japon",
+   "en": "Emperor of Japan"
+  },
+  "rarity": "rare",
+  "country": "JP",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1960,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 131,
+  "id": "s1-131",
+  "wikidataId": "Q37388",
+  "name": {
+   "en": "Francis Bacon",
+   "fr": "Francis Bacon"
+  },
+  "currentRole": {
+   "fr": "Lord chancelier",
+   "en": "Lord Chancellor"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1561,
+  "deathYear": 1626,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 132,
+  "id": "s1-132",
+  "wikidataId": "Q8474",
+  "name": {
+   "en": "Suleiman the Magnificent",
+   "fr": "Soliman le Magnifique"
+  },
+  "currentRole": {
+   "fr": "Calife",
+   "en": "Caliph"
+  },
+  "rarity": "rare",
+  "country": "TR",
+  "continent": "asia",
+  "era": "modern",
+  "birthYear": 1494,
+  "deathYear": 1566,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 133,
+  "id": "s1-133",
+  "wikidataId": "Q272201",
+  "name": {
+   "en": "Liz Truss",
+   "fr": "Liz Truss"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Royaume-Uni",
+   "en": "Prime Minister of the United Kingdom"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1975,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 134,
+  "id": "s1-134",
+  "wikidataId": "Q12154",
+  "name": {
+   "en": "Tutankhamun",
+   "fr": "Toutânkhamon"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "rare",
+  "country": "EG",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -1343,
+  "deathYear": -1324,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 135,
+  "id": "s1-135",
+  "wikidataId": "Q37594",
+  "name": {
+   "en": "William the Conqueror",
+   "fr": "Guillaume le Conquérant"
+  },
+  "currentRole": {
+   "fr": "Duc de Normandie",
+   "en": "Duke of Normandy"
+  },
+  "rarity": "rare",
+  "country": "FR",
+  "continent": "europe",
+  "era": "medieval",
+  "birthYear": 1028,
+  "deathYear": 1087,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 136,
+  "id": "s1-136",
+  "wikidataId": "Q155164",
+  "name": {
+   "en": "Imran Khan",
+   "fr": "Imran Khan"
+  },
+  "currentRole": {
+   "fr": "Chancelier",
+   "en": "Chancellor"
+  },
+  "rarity": "rare",
+  "country": "PK",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1952,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 137,
+  "id": "s1-137",
+  "wikidataId": "Q47906",
+  "name": {
+   "en": "Hermann Göring",
+   "fr": "Hermann Göring"
+  },
+  "currentRole": {
+   "fr": "Parlementaire",
+   "en": "Member of parliament"
+  },
+  "rarity": "rare",
+  "country": "DE",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1893,
+  "deathYear": 1946,
+  "sensitive": true,
+  "statTotal": 17
+ },
+ {
+  "number": 138,
+  "id": "s1-138",
+  "wikidataId": "Q83476",
+  "name": {
+   "en": "Alfred the Great",
+   "fr": "Alfred le Grand"
+  },
+  "currentRole": {
+   "fr": "Monarque d'Angleterre",
+   "en": "Monarch of England"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "medieval",
+  "birthYear": 849,
+  "deathYear": 899,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 139,
+  "id": "s1-139",
+  "wikidataId": "Q56226",
+  "name": {
+   "en": "Kim Jong-un",
+   "fr": "Kim Jong-un"
+  },
+  "currentRole": {
+   "fr": "Secrétaire général du parti du travail de Corée",
+   "en": "General Secretary of the Workers' Party of Korea"
+  },
+  "rarity": "rare",
+  "country": "KP",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1984,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 140,
+  "id": "s1-140",
+  "wikidataId": "Q29179",
+  "name": {
+   "en": "Francisco Franco",
+   "fr": "Francisco Franco"
+  },
+  "currentRole": {
+   "fr": "Commandant en chef",
+   "en": "Commander-in-chief"
+  },
+  "rarity": "rare",
+  "country": "ES",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1892,
+  "deathYear": 1975,
+  "sensitive": true,
+  "statTotal": 20
+ },
+ {
+  "number": 141,
+  "id": "s1-141",
+  "wikidataId": "Q122553",
+  "name": {
+   "en": "Charles II of England",
+   "fr": "Charles II d'Angleterre"
+  },
+  "currentRole": {
+   "fr": "Lord-grand-amiral",
+   "en": "Lord High Admiral"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1630,
+  "deathYear": 1685,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 142,
+  "id": "s1-142",
+  "wikidataId": "Q36456",
+  "name": {
+   "en": "Hannibal",
+   "fr": "Hannibal Barca"
+  },
+  "currentRole": {
+   "fr": "Personnalité politique",
+   "en": "Politician"
+  },
+  "rarity": "rare",
+  "country": "TN",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -247,
+  "deathYear": -183,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 143,
+  "id": "s1-143",
+  "wikidataId": "Q8423",
+  "name": {
+   "en": "Cyrus the Great",
+   "fr": "Cyrus II"
+  },
+  "currentRole": {
+   "fr": "Roi des rois",
+   "en": "King of Kings"
+  },
+  "rarity": "rare",
+  "country": "IR",
+  "continent": "asia",
+  "era": "antiquity",
+  "birthYear": -600,
+  "deathYear": -530,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 144,
+  "id": "s1-144",
+  "wikidataId": "Q16574",
+  "name": {
+   "en": "Chiang Kai-shek",
+   "fr": "Tchang Kaï-chek"
+  },
+  "currentRole": {
+   "fr": "Président de la république de Chine",
+   "en": "President of the Republic of China"
+  },
+  "rarity": "rare",
+  "country": "TW",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1887,
+  "deathYear": 1975,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 145,
+  "id": "s1-145",
+  "wikidataId": "Q48231",
+  "name": {
+   "en": "Idi Amin",
+   "fr": "Idi Amin Dada"
+  },
+  "currentRole": {
+   "fr": "Président de l'Ouganda",
+   "en": "President of Uganda"
+  },
+  "rarity": "rare",
+  "country": "UG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1925,
+  "deathYear": 2003,
+  "sensitive": true,
+  "statTotal": 17
+ },
+ {
+  "number": 146,
+  "id": "s1-146",
+  "wikidataId": "Q8605",
+  "name": {
+   "en": "Simón Bolívar",
+   "fr": "Simón Bolívar"
+  },
+  "currentRole": {
+   "fr": "Président ou présidente",
+   "en": "President"
+  },
+  "rarity": "rare",
+  "country": "VE",
+  "continent": "south_america",
+  "era": "modern",
+  "birthYear": 1783,
+  "deathYear": 1830,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 147,
+  "id": "s1-147",
+  "wikidataId": "Q36014",
+  "name": {
+   "en": "Ho Chi Minh",
+   "fr": "Hô Chi Minh"
+  },
+  "currentRole": {
+   "fr": "Président du Viêt Nam",
+   "en": "President of Vietnam"
+  },
+  "rarity": "rare",
+  "country": "VN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1890,
+  "deathYear": 1969,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 148,
+  "id": "s1-148",
+  "wikidataId": "Q128245",
+  "name": {
+   "en": "Mohammad Reza I of Iran",
+   "fr": "Mohammad Reza Pahlavi"
+  },
+  "currentRole": {
+   "fr": "Chah",
+   "en": "Shah"
+  },
+  "rarity": "rare",
+  "country": "IR",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1919,
+  "deathYear": 1980,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 149,
+  "id": "s1-149",
+  "wikidataId": "Q34211",
+  "name": {
+   "en": "Yasser Arafat",
+   "fr": "Yasser Arafat"
+  },
+  "currentRole": {
+   "fr": "Président de l'État de Palestine",
+   "en": "President of the State of Palestine"
+  },
+  "rarity": "rare",
+  "country": "PS",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1929,
+  "deathYear": 2004,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 150,
+  "id": "s1-150",
+  "wikidataId": "Q329",
+  "name": {
+   "en": "Nicolas Sarkozy",
+   "fr": "Nicolas Sarkozy"
+  },
+  "currentRole": {
+   "fr": "Président de la République française",
+   "en": "President of the French Republic"
+  },
+  "rarity": "rare",
+  "country": "FR",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1955,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 151,
+  "id": "s1-151",
+  "wikidataId": "Q10707",
+  "name": {
+   "en": "Robert Mugabe",
+   "fr": "Robert Mugabe"
+  },
+  "currentRole": {
+   "fr": "Président du Zimbabwe",
+   "en": "President of Zimbabwe"
+  },
+  "rarity": "rare",
+  "country": "ZW",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1924,
+  "deathYear": 2019,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 152,
+  "id": "s1-152",
+  "wikidataId": "Q10304982",
+  "name": {
+   "en": "Jair Bolsonaro",
+   "fr": "Jair Bolsonaro"
+  },
+  "currentRole": {
+   "fr": "Président du Brésil",
+   "en": "President of Brazil"
+  },
+  "rarity": "rare",
+  "country": "BR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1955,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 153,
+  "id": "s1-153",
+  "wikidataId": "Q675493",
+  "name": {
+   "en": "Henry VII of England",
+   "fr": "Henri VII"
+  },
+  "currentRole": {
+   "fr": "Seigneur d'Irlande",
+   "en": "Lord of Ireland"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1457,
+  "deathYear": 1509,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 154,
+  "id": "s1-154",
+  "wikidataId": "Q43715",
+  "name": {
+   "en": "Vlad the Impaler",
+   "fr": "Vlad III l'Empaleur"
+  },
+  "currentRole": {
+   "fr": "Monarque",
+   "en": "Monarch"
+  },
+  "rarity": "rare",
+  "country": "RO",
+  "continent": "europe",
+  "era": "medieval",
+  "birthYear": 1431,
+  "deathYear": 1476,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 155,
+  "id": "s1-155",
+  "wikidataId": "Q765165",
+  "name": {
+   "en": "Leonid Brezhnev",
+   "fr": "Léonid Brejnev"
+  },
+  "currentRole": {
+   "fr": "Secrétaire général du parti communiste de l'Union soviétique",
+   "en": "General Secretary of the Communist Party of the Soviet Union"
+  },
+  "rarity": "rare",
+  "country": "RU",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1906,
+  "deathYear": 1982,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 156,
+  "id": "s1-156",
+  "wikidataId": "Q155979",
+  "name": {
+   "en": "Alexei Navalny",
+   "fr": "Alexeï Navalny"
+  },
+  "currentRole": {
+   "fr": "Chef de la Russie du futur",
+   "en": "Leader of Russia of the Future"
+  },
+  "rarity": "rare",
+  "country": "RU",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1976,
+  "deathYear": 2024,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 157,
+  "id": "s1-157",
+  "wikidataId": "Q34413",
+  "name": {
+   "en": "Benazir Bhutto",
+   "fr": "Benazir Bhutto"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Pakistan",
+   "en": "Prime Minister of Pakistan"
+  },
+  "rarity": "rare",
+  "country": "PK",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1953,
+  "deathYear": 2007,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 158,
+  "id": "s1-158",
+  "wikidataId": "Q41914",
+  "name": {
+   "en": "Manmohan Singh",
+   "fr": "Manmohan Singh"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de l'Inde",
+   "en": "Prime Minister of India"
+  },
+  "rarity": "rare",
+  "country": "IN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1932,
+  "deathYear": 2024,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 159,
+  "id": "s1-159",
+  "wikidataId": "Q451791",
+  "name": {
+   "en": "Giorgia Meloni",
+   "fr": "Giorgia Meloni"
+  },
+  "currentRole": {
+   "fr": "Président du Conseil des ministres",
+   "en": "Prime Minister of Italy"
+  },
+  "rarity": "rare",
+  "country": "IT",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1977,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 160,
+  "id": "s1-160",
+  "wikidataId": "Q1463",
+  "name": {
+   "en": "Ferdinand Marcos",
+   "fr": "Ferdinand E. E. Marcos"
+  },
+  "currentRole": {
+   "fr": "Président de la République des Philippines",
+   "en": "President of the Philippines"
+  },
+  "rarity": "rare",
+  "country": "PH",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1917,
+  "deathYear": 1989,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 161,
+  "id": "s1-161",
+  "wikidataId": "Q11860",
+  "name": {
+   "en": "Silvio Berlusconi",
+   "fr": "Silvio Berlusconi"
+  },
+  "currentRole": {
+   "fr": "Président du Conseil des ministres",
+   "en": "Prime Minister of Italy"
+  },
+  "rarity": "rare",
+  "country": "IT",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1936,
+  "deathYear": 2023,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 162,
+  "id": "s1-162",
+  "wikidataId": "Q157",
+  "name": {
+   "en": "François Hollande",
+   "fr": "François Hollande"
+  },
+  "currentRole": {
+   "fr": "Président de la République française",
+   "en": "President of the French Republic"
+  },
+  "rarity": "rare",
+  "country": "FR",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1954,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 163,
+  "id": "s1-163",
+  "wikidataId": "Q2866",
+  "name": {
+   "en": "Alexander Lukashenka",
+   "fr": "Alexandre Loukachenko"
+  },
+  "currentRole": {
+   "fr": "Président de la république de Biélorussie",
+   "en": "President of Belarus"
+  },
+  "rarity": "rare",
+  "country": "BY",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1954,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 164,
+  "id": "s1-164",
+  "wikidataId": "Q457786",
+  "name": {
+   "en": "Rodrigo Duterte",
+   "fr": "Rodrigo Duterte"
+  },
+  "currentRole": {
+   "fr": "Président de la République des Philippines",
+   "en": "President of the Philippines"
+  },
+  "rarity": "rare",
+  "country": "PH",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1945,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 165,
+  "id": "s1-165",
+  "wikidataId": "Q131581",
+  "name": {
+   "en": "Henry V of England",
+   "fr": "Henri V"
+  },
+  "currentRole": {
+   "fr": "Gouverneur des Cinq-Ports",
+   "en": "Lord Warden of the Cinque Ports"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "medieval",
+  "birthYear": 1386,
+  "deathYear": 1422,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 166,
+  "id": "s1-166",
+  "wikidataId": "Q7721",
+  "name": {
+   "en": "Napoleon III",
+   "fr": "Napoléon III"
+  },
+  "currentRole": {
+   "fr": "Président de la République française",
+   "en": "President of the French Republic"
+  },
+  "rarity": "rare",
+  "country": "FR",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1808,
+  "deathYear": 1873,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 167,
+  "id": "s1-167",
+  "wikidataId": "Q37979",
+  "name": {
+   "en": "Akihito",
+   "fr": "Akihito"
+  },
+  "currentRole": {
+   "fr": "Empereur du Japon",
+   "en": "Emperor of Japan"
+  },
+  "rarity": "rare",
+  "country": "JP",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1933,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 168,
+  "id": "s1-168",
+  "wikidataId": "Q28085",
+  "name": {
+   "en": "Adolf Eichmann",
+   "fr": "Adolf Eichmann"
+  },
+  "currentRole": {
+   "fr": "Lieutenant-colonel",
+   "en": "Lieutenant Colonel"
+  },
+  "rarity": "rare",
+  "country": "DE",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1906,
+  "deathYear": 1962,
+  "sensitive": true,
+  "statTotal": 21
+ },
+ {
+  "number": 169,
+  "id": "s1-169",
+  "wikidataId": "Q128995",
+  "name": {
+   "en": "Anthony Eden",
+   "fr": "Anthony Eden"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Royaume-Uni",
+   "en": "Prime Minister of the United Kingdom"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1897,
+  "deathYear": 1977,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 170,
+  "id": "s1-170",
+  "wikidataId": "Q4593",
+  "name": {
+   "en": "Rajiv Gandhi",
+   "fr": "Rajiv Gandhi"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de l'Inde",
+   "en": "Prime Minister of India"
+  },
+  "rarity": "rare",
+  "country": "IN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1944,
+  "deathYear": 1991,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 171,
+  "id": "s1-171",
+  "wikidataId": "Q42305",
+  "name": {
+   "en": "Richard I of England",
+   "fr": "Richard Cœur de Lion"
+  },
+  "currentRole": {
+   "fr": "Roi",
+   "en": "King"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "medieval",
+  "birthYear": 1157,
+  "deathYear": 1199,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 172,
+  "id": "s1-172",
+  "wikidataId": "Q162819",
+  "name": {
+   "en": "Catherine of Aragon",
+   "fr": "Catherine d'Aragon"
+  },
+  "currentRole": {
+   "fr": "Ambassadeur d'Espagne auprès du royaume d'Angleterre",
+   "en": "Ambassador of the Kingdom of Spain to the Kingdom of England"
+  },
+  "rarity": "rare",
+  "country": "ES",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1485,
+  "deathYear": 1536,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 173,
+  "id": "s1-173",
+  "wikidataId": "Q3606816",
+  "name": {
+   "en": "Jacinda Ardern",
+   "fr": "Jacinda Ardern"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de Nouvelle-Zélande",
+   "en": "Prime Minister of New Zealand"
+  },
+  "rarity": "rare",
+  "country": "NZ",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1980,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 174,
+  "id": "s1-174",
+  "wikidataId": "Q41178",
+  "name": {
+   "en": "Haile Selassie I",
+   "fr": "Haïlé Sélassié Ier"
+  },
+  "currentRole": {
+   "fr": "Empereur d’Éthiopie",
+   "en": "Emperor of Ethiopia"
+  },
+  "rarity": "rare",
+  "country": "ET",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1892,
+  "deathYear": 1975,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 175,
+  "id": "s1-175",
+  "wikidataId": "Q160554",
+  "name": {
+   "en": "Mohammad Ali Jinnah",
+   "fr": "Muhammad Ali Jinnah"
+  },
+  "currentRole": {
+   "fr": "Gouverneur-général du Pakistan",
+   "en": "Governor-General of Pakistan"
+  },
+  "rarity": "rare",
+  "country": "PK",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1876,
+  "deathYear": 1948,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 176,
+  "id": "s1-176",
+  "wikidataId": "Q32500",
+  "name": {
+   "en": "Charles V",
+   "fr": "Charles Quint"
+  },
+  "currentRole": {
+   "fr": "Empereur romain germanique",
+   "en": "Holy Roman Emperor"
+  },
+  "rarity": "rare",
+  "country": "DE",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1500,
+  "deathYear": 1558,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 177,
+  "id": "s1-177",
+  "wikidataId": "Q368",
+  "name": {
+   "en": "Augusto Pinochet",
+   "fr": "Augusto Pinochet"
+  },
+  "currentRole": {
+   "fr": "Président du Chili",
+   "en": "President of Chile"
+  },
+  "rarity": "rare",
+  "country": "CL",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1915,
+  "deathYear": 2006,
+  "sensitive": true,
+  "statTotal": 17
+ },
+ {
+  "number": 178,
+  "id": "s1-178",
+  "wikidataId": "Q44197",
+  "name": {
+   "en": "Maximilien Robespierre",
+   "fr": "Maximilien de Robespierre"
+  },
+  "currentRole": {
+   "fr": "Député français",
+   "en": "Member of the French National Assembly"
+  },
+  "rarity": "rare",
+  "country": "FR",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1758,
+  "deathYear": 1794,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 179,
+  "id": "s1-179",
+  "wikidataId": "Q16977",
+  "name": {
+   "en": "Deng Xiaoping",
+   "fr": "Deng Xiaoping"
+  },
+  "currentRole": {
+   "fr": "Paramount leader of the People's Republic of China",
+   "en": "Paramount leader of the People's Republic of China"
+  },
+  "rarity": "rare",
+  "country": "CN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1904,
+  "deathYear": 1997,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 180,
+  "id": "s1-180",
+  "wikidataId": "Q181383",
+  "name": {
+   "en": "Mahathir Mohamad",
+   "fr": "Mahathir Mohamad"
+  },
+  "currentRole": {
+   "fr": "Premier ministre malaisien",
+   "en": "Prime Minister of Malaysia"
+  },
+  "rarity": "rare",
+  "country": "MY",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1925,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 181,
+  "id": "s1-181",
+  "wikidataId": "Q42544",
+  "name": {
+   "en": "Thomas More",
+   "fr": "Thomas More"
+  },
+  "currentRole": {
+   "fr": "Lord chancelier",
+   "en": "Lord Chancellor"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1478,
+  "deathYear": 1535,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 182,
+  "id": "s1-182",
+  "wikidataId": "Q233289",
+  "name": {
+   "en": "Atal Bihari Vajpayee",
+   "fr": "Atal Bihari Vajpayee"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de l'Inde",
+   "en": "Prime Minister of India"
+  },
+  "rarity": "rare",
+  "country": "IN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1924,
+  "deathYear": 2018,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 183,
+  "id": "s1-183",
+  "wikidataId": "Q855252",
+  "name": {
+   "en": "Bhumibol Adulyadej",
+   "fr": "Rama IX"
+  },
+  "currentRole": {
+   "fr": "Roi de Thaïlande",
+   "en": "King of Thailand"
+  },
+  "rarity": "rare",
+  "country": "TH",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1927,
+  "deathYear": 2016,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 184,
+  "id": "s1-184",
+  "wikidataId": "Q34787",
+  "name": {
+   "en": "Friedrich Engels",
+   "fr": "Friedrich Engels"
+  },
+  "currentRole": {
+   "fr": "Révolutionnaire",
+   "en": "Revolutionary"
+  },
+  "rarity": "rare",
+  "country": "DE",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1820,
+  "deathYear": 1895,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 185,
+  "id": "s1-185",
+  "wikidataId": "Q7732",
+  "name": {
+   "en": "Louis XVI of France",
+   "fr": "Louis XVI"
+  },
+  "currentRole": {
+   "fr": "Roi des Français",
+   "en": "King of the French"
+  },
+  "rarity": "rare",
+  "country": "FR",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1754,
+  "deathYear": 1793,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 186,
+  "id": "s1-186",
+  "wikidataId": "Q367825",
+  "name": {
+   "en": "Salman bin Abdulaziz Al Saud",
+   "fr": "Salmane ben Abdelaziz Al Saoud"
+  },
+  "currentRole": {
+   "fr": "Roi d'Arabie saoudite",
+   "en": "King of Saudi Arabia"
+  },
+  "rarity": "rare",
+  "country": "SA",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1935,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 187,
+  "id": "s1-187",
+  "wikidataId": "Q9161",
+  "name": {
+   "en": "Josip Broz Tito",
+   "fr": "Josip Broz Tito"
+  },
+  "currentRole": {
+   "fr": "Président de la République fédérale de Yougoslavie",
+   "en": "President of Yugoslavia"
+  },
+  "rarity": "rare",
+  "country": "RS",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1892,
+  "deathYear": 1980,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 188,
+  "id": "s1-188",
+  "wikidataId": "Q36724",
+  "name": {
+   "en": "Attila",
+   "fr": "Attila"
+  },
+  "currentRole": {
+   "fr": "Roi des Huns",
+   "en": "King of the Huns"
+  },
+  "rarity": "rare",
+  "country": "HU",
+  "continent": "europe",
+  "era": "medieval",
+  "birthYear": 500,
+  "deathYear": 453,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 189,
+  "id": "s1-189",
+  "wikidataId": "Q10648",
+  "name": {
+   "en": "Gordon Brown",
+   "fr": "Gordon Brown"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Royaume-Uni",
+   "en": "Prime Minister of the United Kingdom"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1951,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 25
+ }
+]

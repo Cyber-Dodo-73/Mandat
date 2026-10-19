@@ -1,0 +1,1325 @@
+[
+ {
+  "number": 190,
+  "id": "s1-190",
+  "wikidataId": "Q1254",
+  "name": {
+   "en": "Kofi Annan",
+   "fr": "Kofi Annan"
+  },
+  "currentRole": {
+   "fr": "Secrétaire général des Nations unies",
+   "en": "United Nations Secretary-General"
+  },
+  "rarity": "rare",
+  "country": "GH",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1938,
+  "deathYear": 2018,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 191,
+  "id": "s1-191",
+  "wikidataId": "Q130586",
+  "name": {
+   "en": "George IV of the United Kingdom",
+   "fr": "George IV"
+  },
+  "currentRole": {
+   "fr": "King of Hanover",
+   "en": "King of Hanover"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1762,
+  "deathYear": 1830,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 192,
+  "id": "s1-192",
+  "wikidataId": "Q7523",
+  "name": {
+   "en": "Kublai Khan",
+   "fr": "Kubilai Khan"
+  },
+  "currentRole": {
+   "fr": "Empereur de Chine",
+   "en": "Emperor of China"
+  },
+  "rarity": "rare",
+  "country": "CN",
+  "continent": "asia",
+  "era": "medieval",
+  "birthYear": 1215,
+  "deathYear": 1294,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 193,
+  "id": "s1-193",
+  "wikidataId": "Q2153",
+  "name": {
+   "en": "Subhas Chandra Bose",
+   "fr": "Subhas Chandra Bose"
+  },
+  "currentRole": {
+   "fr": "Commandant en chef",
+   "en": "Commander-in-chief"
+  },
+  "rarity": "rare",
+  "country": "IN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1897,
+  "deathYear": 1945,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 194,
+  "id": "s1-194",
+  "wikidataId": "Q8573",
+  "name": {
+   "en": "Sun Yat-sen",
+   "fr": "Sun Yat-sen"
+  },
+  "currentRole": {
+   "fr": "Président ou présidente",
+   "en": "President"
+  },
+  "rarity": "rare",
+  "country": "CN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1866,
+  "deathYear": 1925,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 195,
+  "id": "s1-195",
+  "wikidataId": "Q7996",
+  "name": {
+   "en": "Ivan the Terrible",
+   "fr": "Ivan IV"
+  },
+  "currentRole": {
+   "fr": "Tsar de Russie",
+   "en": "Tsar of All Russia"
+  },
+  "rarity": "rare",
+  "country": "RU",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1530,
+  "deathYear": 1584,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 196,
+  "id": "s1-196",
+  "wikidataId": "Q43063",
+  "name": {
+   "en": "Archduke Franz Ferdinand of Austria",
+   "fr": "François-Ferdinand d'Autriche"
+  },
+  "currentRole": {
+   "fr": "Monarque",
+   "en": "Monarch"
+  },
+  "rarity": "rare",
+  "country": "AT",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1863,
+  "deathYear": 1914,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 197,
+  "id": "s1-197",
+  "wikidataId": "Q2821724",
+  "name": {
+   "en": "Abu Bakr al-Baghdadi",
+   "fr": "Abou Bakr al-Baghdadi"
+  },
+  "currentRole": {
+   "fr": "Caliph of the Islamic State",
+   "en": "Caliph of the Islamic State"
+  },
+  "rarity": "rare",
+  "country": "IQ",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1971,
+  "deathYear": 2019,
+  "sensitive": true,
+  "statTotal": 15
+ },
+ {
+  "number": 198,
+  "id": "s1-198",
+  "wikidataId": "Q10664",
+  "name": {
+   "en": "Neville Chamberlain",
+   "fr": "Neville Chamberlain"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Royaume-Uni",
+   "en": "Prime Minister of the United Kingdom"
+  },
+  "rarity": "rare",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1869,
+  "deathYear": 1940,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 199,
+  "id": "s1-199",
+  "wikidataId": "Q37181",
+  "name": {
+   "en": "Luiz Inácio Lula da Silva",
+   "fr": "Luiz Inácio Lula da Silva"
+  },
+  "currentRole": {
+   "fr": "Président du Brésil",
+   "en": "President of Brazil"
+  },
+  "rarity": "rare",
+  "country": "BR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1945,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 200,
+  "id": "s1-200",
+  "wikidataId": "Q80504",
+  "name": {
+   "en": "Nicolae Ceaușescu",
+   "fr": "Nicolae Ceaușescu"
+  },
+  "currentRole": {
+   "fr": "Président de la Roumanie",
+   "en": "President of Romania"
+  },
+  "rarity": "rare",
+  "country": "RO",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1918,
+  "deathYear": 1989,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 201,
+  "id": "s1-201",
+  "wikidataId": "Q25310",
+  "name": {
+   "en": "Robert F. Kennedy",
+   "fr": "Robert Francis Kennedy"
+  },
+  "currentRole": {
+   "fr": "Procureur général des États-Unis",
+   "en": "United States Attorney General"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1925,
+  "deathYear": 1968,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 202,
+  "id": "s1-202",
+  "wikidataId": "Q11813",
+  "name": {
+   "en": "James Madison",
+   "fr": "James Madison"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1751,
+  "deathYear": 1836,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 203,
+  "id": "s1-203",
+  "wikidataId": "Q41921",
+  "name": {
+   "en": "Rosa Parks",
+   "fr": "Rosa Parks"
+  },
+  "currentRole": {
+   "fr": "Militant des droits civiques",
+   "en": "Civil rights activist"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1913,
+  "deathYear": 2005,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 204,
+  "id": "s1-204",
+  "wikidataId": "Q35171",
+  "name": {
+   "en": "Grover Cleveland",
+   "fr": "Grover Cleveland"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1837,
+  "deathYear": 1908,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 205,
+  "id": "s1-205",
+  "wikidataId": "Q36023",
+  "name": {
+   "en": "Calvin Coolidge",
+   "fr": "Calvin Coolidge"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1872,
+  "deathYear": 1933,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 206,
+  "id": "s1-206",
+  "wikidataId": "Q11816",
+  "name": {
+   "en": "John Quincy Adams",
+   "fr": "John Quincy Adams"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1767,
+  "deathYear": 1848,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 207,
+  "id": "s1-207",
+  "wikidataId": "Q28935729",
+  "name": {
+   "en": "JD Vance",
+   "fr": "JD Vance"
+  },
+  "currentRole": {
+   "fr": "Vice-président des États-Unis",
+   "en": "Vice President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1984,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 208,
+  "id": "s1-208",
+  "wikidataId": "Q35041",
+  "name": {
+   "en": "William McKinley",
+   "fr": "William McKinley"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1843,
+  "deathYear": 1901,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 209,
+  "id": "s1-209",
+  "wikidataId": "Q19673",
+  "name": {
+   "en": "Al Gore",
+   "fr": "Al Gore"
+  },
+  "currentRole": {
+   "fr": "Vice-président des États-Unis",
+   "en": "Vice President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1948,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 210,
+  "id": "s1-210",
+  "wikidataId": "Q83396",
+  "name": {
+   "en": "Eleanor Roosevelt",
+   "fr": "Eleanor Roosevelt"
+  },
+  "currentRole": {
+   "fr": "Assemblée générale des Nations unies",
+   "en": "United Nations General Assembly"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1884,
+  "deathYear": 1962,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 211,
+  "id": "s1-211",
+  "wikidataId": "Q8612",
+  "name": {
+   "en": "Andrew Johnson",
+   "fr": "Andrew Johnson"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1808,
+  "deathYear": 1875,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 212,
+  "id": "s1-212",
+  "wikidataId": "Q35286",
+  "name": {
+   "en": "Warren G. Harding",
+   "fr": "Warren Gamaliel Harding"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1865,
+  "deathYear": 1923,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 213,
+  "id": "s1-213",
+  "wikidataId": "Q35648",
+  "name": {
+   "en": "William Howard Taft",
+   "fr": "William Howard Taft"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1857,
+  "deathYear": 1930,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 214,
+  "id": "s1-214",
+  "wikidataId": "Q11869",
+  "name": {
+   "en": "William Henry Harrison",
+   "fr": "William Henry Harrison"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1773,
+  "deathYear": 1841,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 215,
+  "id": "s1-215",
+  "wikidataId": "Q28034971",
+  "name": {
+   "en": "Zohran Mamdani",
+   "fr": "Zohran Mamdani"
+  },
+  "currentRole": {
+   "fr": "Maire de New York",
+   "en": "Mayor of New York City"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1991,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 216,
+  "id": "s1-216",
+  "wikidataId": "Q32620",
+  "name": {
+   "en": "Tulsi Gabbard",
+   "fr": "Tulsi Gabbard"
+  },
+  "currentRole": {
+   "fr": "Conseiller municipal",
+   "en": "Council member"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1981,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 217,
+  "id": "s1-217",
+  "wikidataId": "Q12325",
+  "name": {
+   "en": "James Buchanan",
+   "fr": "James Buchanan"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1791,
+  "deathYear": 1868,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 218,
+  "id": "s1-218",
+  "wikidataId": "Q11881",
+  "name": {
+   "en": "John Tyler",
+   "fr": "John Tyler"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1790,
+  "deathYear": 1862,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 219,
+  "id": "s1-219",
+  "wikidataId": "Q11820",
+  "name": {
+   "en": "Martin Van Buren",
+   "fr": "Martin Van Buren"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1782,
+  "deathYear": 1862,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 220,
+  "id": "s1-220",
+  "wikidataId": "Q235349",
+  "name": {
+   "en": "Jill Biden",
+   "fr": "Jill Biden"
+  },
+  "currentRole": {
+   "fr": "Première dame des États-Unis",
+   "en": "First Lady of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1951,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 221,
+  "id": "s1-221",
+  "wikidataId": "Q11896",
+  "name": {
+   "en": "Zachary Taylor",
+   "fr": "Zachary Taylor"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1784,
+  "deathYear": 1850,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 222,
+  "id": "s1-222",
+  "wikidataId": "Q35498",
+  "name": {
+   "en": "Chester A. Arthur",
+   "fr": "Chester Alan Arthur"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1829,
+  "deathYear": 1886,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 223,
+  "id": "s1-223",
+  "wikidataId": "Q47216",
+  "name": {
+   "en": "Condoleezza Rice",
+   "fr": "Condoleezza Rice"
+  },
+  "currentRole": {
+   "fr": "Secrétaire d'État des États-Unis",
+   "en": "United States Secretary of State"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1954,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 224,
+  "id": "s1-224",
+  "wikidataId": "Q355522",
+  "name": {
+   "en": "Mitch McConnell",
+   "fr": "Mitch McConnell"
+  },
+  "currentRole": {
+   "fr": "Sénateur des États-Unis",
+   "en": "United States senator"
+  },
+  "rarity": "uncommon",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1942,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 225,
+  "id": "s1-225",
+  "wikidataId": "Q7231",
+  "name": {
+   "en": "Rosa Luxemburg",
+   "fr": "Rosa Luxemburg"
+  },
+  "currentRole": {
+   "fr": "Révolutionnaire",
+   "en": "Revolutionary"
+  },
+  "rarity": "uncommon",
+  "country": "DE",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1871,
+  "deathYear": 1919,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 226,
+  "id": "s1-226",
+  "wikidataId": "Q1407",
+  "name": {
+   "en": "Tiberius",
+   "fr": "Tibère"
+  },
+  "currentRole": {
+   "fr": "Consul",
+   "en": "Roman consul"
+  },
+  "rarity": "uncommon",
+  "country": "IT",
+  "continent": "europe",
+  "era": "antiquity",
+  "birthYear": -42,
+  "deathYear": 37,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 227,
+  "id": "s1-227",
+  "wikidataId": "Q82457",
+  "name": {
+   "en": "William Wallace",
+   "fr": "William Wallace"
+  },
+  "currentRole": {
+   "fr": "Gardien de l'Écosse",
+   "en": "Guardian of Scotland"
+  },
+  "rarity": "uncommon",
+  "country": "GB",
+  "continent": "europe",
+  "era": "medieval",
+  "birthYear": 1270,
+  "deathYear": 1305,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 228,
+  "id": "s1-228",
+  "wikidataId": "Q485547",
+  "name": {
+   "en": "Aurangzeb",
+   "fr": "Aurangzeb Alamgir Ier"
+  },
+  "currentRole": {
+   "fr": "Empereur moghol",
+   "en": "Mughal emperor"
+  },
+  "rarity": "uncommon",
+  "country": "IN",
+  "continent": "asia",
+  "era": "modern",
+  "birthYear": 1618,
+  "deathYear": 1707,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 229,
+  "id": "s1-229",
+  "wikidataId": "Q133028",
+  "name": {
+   "en": "Richard III of England",
+   "fr": "Richard III"
+  },
+  "currentRole": {
+   "fr": "Duc de Gloucester",
+   "en": "Duke of Gloucester"
+  },
+  "rarity": "uncommon",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1452,
+  "deathYear": 1485,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 230,
+  "id": "s1-230",
+  "wikidataId": "Q34417",
+  "name": {
+   "en": "Philip II of Spain",
+   "fr": "Philippe II"
+  },
+  "currentRole": {
+   "fr": "Monarque",
+   "en": "Monarch"
+  },
+  "rarity": "uncommon",
+  "country": "ES",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1527,
+  "deathYear": 1598,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 231,
+  "id": "s1-231",
+  "wikidataId": "Q131981",
+  "name": {
+   "en": "George II of Great Britain",
+   "fr": "Georges II"
+  },
+  "currentRole": {
+   "fr": "Prince-électeur",
+   "en": "Prince-Elector"
+  },
+  "rarity": "uncommon",
+  "country": "DE",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1683,
+  "deathYear": 1760,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 232,
+  "id": "s1-232",
+  "wikidataId": "Q548733",
+  "name": {
+   "en": "Rama X of Thailand",
+   "fr": "Rama X"
+  },
+  "currentRole": {
+   "fr": "Prince héritier de Thaïlande",
+   "en": "Crown Prince of Thailand"
+  },
+  "rarity": "uncommon",
+  "country": "TH",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1952,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 233,
+  "id": "s1-233",
+  "wikidataId": "Q128956",
+  "name": {
+   "en": "Harold Wilson",
+   "fr": "Harold Wilson"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Royaume-Uni",
+   "en": "Prime Minister of the United Kingdom"
+  },
+  "rarity": "uncommon",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1916,
+  "deathYear": 1995,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 234,
+  "id": "s1-234",
+  "wikidataId": "Q797848",
+  "name": {
+   "en": "Babur",
+   "fr": "Bābur"
+  },
+  "currentRole": {
+   "fr": "Empereur moghol",
+   "en": "Mughal emperor"
+  },
+  "rarity": "uncommon",
+  "country": "IN",
+  "continent": "asia",
+  "era": "modern",
+  "birthYear": 1483,
+  "deathYear": 1531,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 235,
+  "id": "s1-235",
+  "wikidataId": "Q130822",
+  "name": {
+   "en": "William IV",
+   "fr": "Guillaume IV"
+  },
+  "currentRole": {
+   "fr": "Lord-grand-amiral",
+   "en": "Lord High Admiral"
+  },
+  "rarity": "uncommon",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1765,
+  "deathYear": 1837,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 236,
+  "id": "s1-236",
+  "wikidataId": "Q130805",
+  "name": {
+   "en": "George I of Great Britain",
+   "fr": "George Ier"
+  },
+  "currentRole": {
+   "fr": "Prince",
+   "en": "Prince"
+  },
+  "rarity": "uncommon",
+  "country": "DE",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1660,
+  "deathYear": 1727,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 237,
+  "id": "s1-237",
+  "wikidataId": "Q150782",
+  "name": {
+   "en": "Empress Elisabeth of Austria",
+   "fr": "Élisabeth de Wittelsbach"
+  },
+  "currentRole": {
+   "fr": "Consort de Hongrie",
+   "en": "Consort of Hungary"
+  },
+  "rarity": "uncommon",
+  "country": "AT",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1837,
+  "deathYear": 1898,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 238,
+  "id": "s1-238",
+  "wikidataId": "Q1523",
+  "name": {
+   "en": "Ramesses II",
+   "fr": "Ramsès II"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "uncommon",
+  "country": "EG",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -1303,
+  "deathYear": -1213,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 239,
+  "id": "s1-239",
+  "wikidataId": "Q6892571",
+  "name": {
+   "en": "Mohammed bin Salman Al Saud",
+   "fr": "Mohammed ben Salmane ben Abdelaziz Al Saoud"
+  },
+  "currentRole": {
+   "fr": "Prince héritier d'Arabie saoudite",
+   "en": "Crown Prince of Saudi Arabia"
+  },
+  "rarity": "uncommon",
+  "country": "SA",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1985,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 240,
+  "id": "s1-240",
+  "wikidataId": "Q131248",
+  "name": {
+   "en": "Kuan Yew Lee",
+   "fr": "Lee Kuan Yew"
+  },
+  "currentRole": {
+   "fr": "Premier ou première ministre",
+   "en": "Prime minister"
+  },
+  "rarity": "uncommon",
+  "country": "SG",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1923,
+  "deathYear": 2015,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 241,
+  "id": "s1-241",
+  "wikidataId": "Q83672",
+  "name": {
+   "en": "Shah Jahan",
+   "fr": "Shâh Jahân"
+  },
+  "currentRole": {
+   "fr": "Empereur moghol",
+   "en": "Mughal emperor"
+  },
+  "rarity": "uncommon",
+  "country": "IN",
+  "continent": "asia",
+  "era": "modern",
+  "birthYear": 1592,
+  "deathYear": 1666,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 242,
+  "id": "s1-242",
+  "wikidataId": "Q42992",
+  "name": {
+   "en": "Golda Meir",
+   "fr": "Golda Meir"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Israël",
+   "en": "Prime Minister of Israel"
+  },
+  "rarity": "uncommon",
+  "country": "IL",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1898,
+  "deathYear": 1978,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 243,
+  "id": "s1-243",
+  "wikidataId": "Q13898",
+  "name": {
+   "en": "Guy Fawkes",
+   "fr": "Guy Fawkes"
+  },
+  "currentRole": {
+   "fr": "Personnalité politique",
+   "en": "Politician"
+  },
+  "rarity": "uncommon",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1570,
+  "deathYear": 1606,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 244,
+  "id": "s1-244",
+  "wikidataId": "Q9559",
+  "name": {
+   "en": "John Major",
+   "fr": "John Major"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Royaume-Uni",
+   "en": "Prime Minister of the United Kingdom"
+  },
+  "rarity": "uncommon",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1943,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 245,
+  "id": "s1-245",
+  "wikidataId": "Q162356",
+  "name": {
+   "en": "Lady Jane Grey",
+   "fr": "Jeanne Grey"
+  },
+  "currentRole": {
+   "fr": "Monarque d'Angleterre",
+   "en": "Monarch of England"
+  },
+  "rarity": "uncommon",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1537,
+  "deathYear": 1554,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 246,
+  "id": "s1-246",
+  "wikidataId": "Q291169",
+  "name": {
+   "en": "Jeremy Corbyn",
+   "fr": "Jeremy Corbyn"
+  },
+  "currentRole": {
+   "fr": "Chef de l'opposition officielle",
+   "en": "Leader of the Opposition"
+  },
+  "rarity": "uncommon",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1949,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 247,
+  "id": "s1-247",
+  "wikidataId": "Q129308",
+  "name": {
+   "en": "John, King of England",
+   "fr": "Jean sans Terre"
+  },
+  "currentRole": {
+   "fr": "Duc de Normandie",
+   "en": "Duke of Normandy"
+  },
+  "rarity": "uncommon",
+  "country": "GB",
+  "continent": "europe",
+  "era": "medieval",
+  "birthYear": 1166,
+  "deathYear": 1216,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 248,
+  "id": "s1-248",
+  "wikidataId": "Q39524",
+  "name": {
+   "en": "Gamal Abdel Nasser",
+   "fr": "Gamal Abdel Nasser"
+  },
+  "currentRole": {
+   "fr": "Premier ou première ministre",
+   "en": "Prime minister"
+  },
+  "rarity": "uncommon",
+  "country": "EG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1918,
+  "deathYear": 1970,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 249,
+  "id": "s1-249",
+  "wikidataId": "Q239505",
+  "name": {
+   "en": "Shivaji",
+   "fr": "Shivaji"
+  },
+  "currentRole": {
+   "fr": "Chhatrapati",
+   "en": "Chatrapati"
+  },
+  "rarity": "uncommon",
+  "country": "IN",
+  "continent": "asia",
+  "era": "modern",
+  "birthYear": 1627,
+  "deathYear": 1680,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 250,
+  "id": "s1-250",
+  "wikidataId": "Q131552",
+  "name": {
+   "en": "Catherine de' Medici",
+   "fr": "Catherine de Médicis"
+  },
+  "currentRole": {
+   "fr": "Régent",
+   "en": "Regent"
+  },
+  "rarity": "uncommon",
+  "country": "FR",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1519,
+  "deathYear": 1589,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 251,
+  "id": "s1-251",
+  "wikidataId": "Q12927",
+  "name": {
+   "en": "Marine Le Pen",
+   "fr": "Marine Le Pen"
+  },
+  "currentRole": {
+   "fr": "Député européen",
+   "en": "Member of the European Parliament"
+  },
+  "rarity": "uncommon",
+  "country": "FR",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1968,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 252,
+  "id": "s1-252",
+  "wikidataId": "Q129987",
+  "name": {
+   "en": "William III of England",
+   "fr": "Guillaume III d'Orange-Nassau"
+  },
+  "currentRole": {
+   "fr": "Stathouder",
+   "en": "Stadtholder"
+  },
+  "rarity": "uncommon",
+  "country": "NL",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1650,
+  "deathYear": 1702,
+  "sensitive": false,
+  "statTotal": 25
+ }
+]

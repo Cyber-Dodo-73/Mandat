@@ -1,0 +1,1325 @@
+[
+ {
+  "number": 1,
+  "id": "s1-001",
+  "wikidataId": "Q22686",
+  "name": {
+   "en": "Donald Trump",
+   "fr": "Donald Trump"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "mythic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1946,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 2,
+  "id": "s1-002",
+  "wikidataId": "Q9682",
+  "name": {
+   "en": "Elizabeth II",
+   "fr": "Élisabeth II"
+  },
+  "currentRole": {
+   "fr": "Chef du Commonwealth",
+   "en": "Head of the Commonwealth"
+  },
+  "rarity": "mythic",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1926,
+  "deathYear": 2022,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 3,
+  "id": "s1-003",
+  "wikidataId": "Q76",
+  "name": {
+   "en": "Barack Obama",
+   "fr": "Barack Obama"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "mythic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1961,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 4,
+  "id": "s1-004",
+  "wikidataId": "Q635",
+  "name": {
+   "en": "Cleopatra",
+   "fr": "Cléopâtre"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "mythic",
+  "country": "EG",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -69,
+  "deathYear": -30,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 5,
+  "id": "s1-005",
+  "wikidataId": "Q352",
+  "name": {
+   "en": "Adolf Hitler",
+   "fr": "Adolf Hitler"
+  },
+  "currentRole": {
+   "fr": "Président du Reich",
+   "en": "President of Germany"
+  },
+  "rarity": "mythic",
+  "country": "DE",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1889,
+  "deathYear": 1945,
+  "sensitive": true,
+  "statTotal": 17
+ },
+ {
+  "number": 6,
+  "id": "s1-006",
+  "wikidataId": "Q7747",
+  "name": {
+   "en": "Vladimir Putin",
+   "fr": "Vladimir Poutine"
+  },
+  "currentRole": {
+   "fr": "Président de la fédération de Russie",
+   "en": "President of Russia"
+  },
+  "rarity": "mythic",
+  "country": "RU",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1952,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 7,
+  "id": "s1-007",
+  "wikidataId": "Q1001",
+  "name": {
+   "en": "Mahatma Gandhi",
+   "fr": "Mohandas Karamchand Gandhi"
+  },
+  "currentRole": {
+   "fr": "Militant des droits civiques",
+   "en": "Civil rights activist"
+  },
+  "rarity": "mythic",
+  "country": "IN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1869,
+  "deathYear": 1948,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 8,
+  "id": "s1-008",
+  "wikidataId": "Q8016",
+  "name": {
+   "en": "Winston Churchill",
+   "fr": "Winston Churchill"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Royaume-Uni",
+   "en": "Prime Minister of the United Kingdom"
+  },
+  "rarity": "mythic",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1874,
+  "deathYear": 1965,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 9,
+  "id": "s1-009",
+  "wikidataId": "Q517",
+  "name": {
+   "en": "Napoleon",
+   "fr": "Napoléon Ier"
+  },
+  "currentRole": {
+   "fr": "Monarque d'Italie",
+   "en": "Monarch of Italy"
+  },
+  "rarity": "mythic",
+  "country": "FR",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1769,
+  "deathYear": 1821,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 10,
+  "id": "s1-010",
+  "wikidataId": "Q855",
+  "name": {
+   "en": "Joseph Stalin",
+   "fr": "Joseph Staline"
+  },
+  "currentRole": {
+   "fr": "Secrétaire général du parti communiste de l'Union soviétique",
+   "en": "General Secretary of the Communist Party of the Soviet Union"
+  },
+  "rarity": "mythic",
+  "country": "RU",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1878,
+  "deathYear": 1953,
+  "sensitive": true,
+  "statTotal": 22
+ },
+ {
+  "number": 11,
+  "id": "s1-011",
+  "wikidataId": "Q6279",
+  "name": {
+   "en": "Joe Biden",
+   "fr": "Joe Biden"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "legendary",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1942,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 12,
+  "id": "s1-012",
+  "wikidataId": "Q9960",
+  "name": {
+   "en": "Ronald Reagan",
+   "fr": "Ronald Reagan"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "legendary",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1911,
+  "deathYear": 2004,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 13,
+  "id": "s1-013",
+  "wikidataId": "Q91",
+  "name": {
+   "en": "Abraham Lincoln",
+   "fr": "Abraham Lincoln"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "legendary",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1809,
+  "deathYear": 1865,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 14,
+  "id": "s1-014",
+  "wikidataId": "Q9696",
+  "name": {
+   "en": "John F. Kennedy",
+   "fr": "John Fitzgerald Kennedy"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "legendary",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1917,
+  "deathYear": 1963,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 15,
+  "id": "s1-015",
+  "wikidataId": "Q10853588",
+  "name": {
+   "en": "Kamala Harris",
+   "fr": "Kamala Harris"
+  },
+  "currentRole": {
+   "fr": "Vice-président des États-Unis",
+   "en": "Vice President of the United States"
+  },
+  "rarity": "legendary",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1964,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 16,
+  "id": "s1-016",
+  "wikidataId": "Q207",
+  "name": {
+   "en": "George W. Bush",
+   "fr": "George W. Bush"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "legendary",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1946,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 17,
+  "id": "s1-017",
+  "wikidataId": "Q9439",
+  "name": {
+   "en": "Victoria",
+   "fr": "Victoria"
+  },
+  "currentRole": {
+   "fr": "Empereur des Indes",
+   "en": "Emperor of India"
+  },
+  "rarity": "legendary",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1819,
+  "deathYear": 1901,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 18,
+  "id": "s1-018",
+  "wikidataId": "Q8023",
+  "name": {
+   "en": "Nelson Mandela",
+   "fr": "Nelson Mandela"
+  },
+  "currentRole": {
+   "fr": "Président de l'Afrique du Sud",
+   "en": "President of South Africa"
+  },
+  "rarity": "legendary",
+  "country": "ZA",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1918,
+  "deathYear": 2013,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 19,
+  "id": "s1-019",
+  "wikidataId": "Q8409",
+  "name": {
+   "en": "Alexander the Great",
+   "fr": "Alexandre le Grand"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "legendary",
+  "country": "GR",
+  "continent": "europe",
+  "era": "antiquity",
+  "birthYear": -356,
+  "deathYear": -323,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 20,
+  "id": "s1-020",
+  "wikidataId": "Q1048",
+  "name": {
+   "en": "Julius Caesar",
+   "fr": "Jules César"
+  },
+  "currentRole": {
+   "fr": "Consul",
+   "en": "Roman consul"
+  },
+  "rarity": "legendary",
+  "country": "IT",
+  "continent": "europe",
+  "era": "antiquity",
+  "birthYear": -100,
+  "deathYear": -44,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 21,
+  "id": "s1-021",
+  "wikidataId": "Q9061",
+  "name": {
+   "en": "Karl Marx",
+   "fr": "Karl Marx"
+  },
+  "currentRole": {
+   "fr": "Révolutionnaire",
+   "en": "Revolutionary"
+  },
+  "rarity": "legendary",
+  "country": "DE",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1818,
+  "deathYear": 1883,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 22,
+  "id": "s1-022",
+  "wikidataId": "Q1394",
+  "name": {
+   "en": "Vladimir Lenin",
+   "fr": "Lénine"
+  },
+  "currentRole": {
+   "fr": "Président du Conseil des commissaires du peuple",
+   "en": "Chairman of the Council of People's Commissars"
+  },
+  "rarity": "legendary",
+  "country": "RU",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1870,
+  "deathYear": 1924,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 23,
+  "id": "s1-023",
+  "wikidataId": "Q7416",
+  "name": {
+   "en": "Margaret Thatcher",
+   "fr": "Margaret Thatcher"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Royaume-Uni",
+   "en": "Prime Minister of the United Kingdom"
+  },
+  "rarity": "legendary",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1925,
+  "deathYear": 2013,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 24,
+  "id": "s1-024",
+  "wikidataId": "Q1058",
+  "name": {
+   "en": "Narendra Modi",
+   "fr": "Narendra Modi"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de l'Inde",
+   "en": "Prime Minister of India"
+  },
+  "rarity": "legendary",
+  "country": "IN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1950,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 25,
+  "id": "s1-025",
+  "wikidataId": "Q5809",
+  "name": {
+   "en": "Che Guevara",
+   "fr": "Che Guevara"
+  },
+  "currentRole": {
+   "fr": "Ministre de l'Industrie",
+   "en": "Minister of Industry of Cuba"
+  },
+  "rarity": "legendary",
+  "country": "CU",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1928,
+  "deathYear": 1967,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 26,
+  "id": "s1-026",
+  "wikidataId": "Q720",
+  "name": {
+   "en": "Genghis Khan",
+   "fr": "Gengis Khan"
+  },
+  "currentRole": {
+   "fr": "Khagan de l'empire mongol",
+   "en": "Khagan of the Mongol Empire"
+  },
+  "rarity": "legendary",
+  "country": "MN",
+  "continent": "asia",
+  "era": "medieval",
+  "birthYear": 1162,
+  "deathYear": 1227,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 27,
+  "id": "s1-027",
+  "wikidataId": "Q280856",
+  "name": {
+   "en": "George VI",
+   "fr": "George VI"
+  },
+  "currentRole": {
+   "fr": "Empereur",
+   "en": "Emperor"
+  },
+  "rarity": "legendary",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1895,
+  "deathYear": 1952,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 28,
+  "id": "s1-028",
+  "wikidataId": "Q43274",
+  "name": {
+   "en": "Charles III",
+   "fr": "Charles III"
+  },
+  "currentRole": {
+   "fr": "Monarque du Royaume-Uni",
+   "en": "Monarch of the United Kingdom"
+  },
+  "rarity": "legendary",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1948,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 29,
+  "id": "s1-029",
+  "wikidataId": "Q5816",
+  "name": {
+   "en": "Mao Zedong",
+   "fr": "Mao Zedong"
+  },
+  "currentRole": {
+   "fr": "Président de la République populaire de Chine",
+   "en": "President of the People's Republic of China"
+  },
+  "rarity": "legendary",
+  "country": "CN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1893,
+  "deathYear": 1976,
+  "sensitive": true,
+  "statTotal": 20
+ },
+ {
+  "number": 30,
+  "id": "s1-030",
+  "wikidataId": "Q3052772",
+  "name": {
+   "en": "Emmanuel Macron",
+   "fr": "Emmanuel Macron"
+  },
+  "currentRole": {
+   "fr": "Président de la République française",
+   "en": "President of the French Republic"
+  },
+  "rarity": "legendary",
+  "country": "FR",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1977,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 31,
+  "id": "s1-031",
+  "wikidataId": "Q1405",
+  "name": {
+   "en": "Augustus",
+   "fr": "Auguste"
+  },
+  "currentRole": {
+   "fr": "Consul",
+   "en": "Roman consul"
+  },
+  "rarity": "legendary",
+  "country": "IT",
+  "continent": "europe",
+  "era": "antiquity",
+  "birthYear": -63,
+  "deathYear": 14,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 32,
+  "id": "s1-032",
+  "wikidataId": "Q23559",
+  "name": {
+   "en": "Benito Mussolini",
+   "fr": "Benito Mussolini"
+  },
+  "currentRole": {
+   "fr": "Premier ou première ministre",
+   "en": "Prime minister"
+  },
+  "rarity": "legendary",
+  "country": "IT",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1883,
+  "deathYear": 1945,
+  "sensitive": true,
+  "statTotal": 17
+ },
+ {
+  "number": 33,
+  "id": "s1-033",
+  "wikidataId": "Q180589",
+  "name": {
+   "en": "Boris Johnson",
+   "fr": "Boris Johnson"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Royaume-Uni",
+   "en": "Prime Minister of the United Kingdom"
+  },
+  "rarity": "legendary",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1964,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 34,
+  "id": "s1-034",
+  "wikidataId": "Q11256",
+  "name": {
+   "en": "Fidel Castro",
+   "fr": "Fidel Castro"
+  },
+  "currentRole": {
+   "fr": "Président de la république de Cuba",
+   "en": "President of Cuba"
+  },
+  "rarity": "legendary",
+  "country": "CU",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1926,
+  "deathYear": 2016,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 35,
+  "id": "s1-035",
+  "wikidataId": "Q15031",
+  "name": {
+   "en": "Xi Jinping",
+   "fr": "Xi Jinping"
+  },
+  "currentRole": {
+   "fr": "Président de la République populaire de Chine",
+   "en": "President of the People's Republic of China"
+  },
+  "rarity": "legendary",
+  "country": "CN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1953,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 36,
+  "id": "s1-036",
+  "wikidataId": "Q3099714",
+  "name": {
+   "en": "Justin Trudeau",
+   "fr": "Justin Trudeau"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Canada",
+   "en": "Prime Minister of Canada"
+  },
+  "rarity": "legendary",
+  "country": "CA",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1971,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 37,
+  "id": "s1-037",
+  "wikidataId": "Q30487",
+  "name": {
+   "en": "Mikhail Gorbachev",
+   "fr": "Mikhaïl Gorbatchev"
+  },
+  "currentRole": {
+   "fr": "Secrétaire général du parti communiste de l'Union soviétique",
+   "en": "General Secretary of the Communist Party of the Soviet Union"
+  },
+  "rarity": "legendary",
+  "country": "RU",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1931,
+  "deathYear": 2022,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 38,
+  "id": "s1-038",
+  "wikidataId": "Q3874799",
+  "name": {
+   "en": "Volodymyr Zelenskyy",
+   "fr": "Volodymyr Zelensky"
+  },
+  "currentRole": {
+   "fr": "Président de l'Ukraine",
+   "en": "President of Ukraine"
+  },
+  "rarity": "legendary",
+  "country": "UA",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1978,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 39,
+  "id": "s1-039",
+  "wikidataId": "Q590227",
+  "name": {
+   "en": "Edward VIII",
+   "fr": "Édouard VIII"
+  },
+  "currentRole": {
+   "fr": "Prince de Galles",
+   "en": "Prince of Wales"
+  },
+  "rarity": "legendary",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1894,
+  "deathYear": 1972,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 40,
+  "id": "s1-040",
+  "wikidataId": "Q1316",
+  "name": {
+   "en": "Saddam Hussein",
+   "fr": "Saddam Hussein"
+  },
+  "currentRole": {
+   "fr": "Président de l'Irak",
+   "en": "President of Iraq"
+  },
+  "rarity": "legendary",
+  "country": "IQ",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1937,
+  "deathYear": 2006,
+  "sensitive": true,
+  "statTotal": 16
+ },
+ {
+  "number": 41,
+  "id": "s1-041",
+  "wikidataId": "Q23",
+  "name": {
+   "en": "George Washington",
+   "fr": "George Washington"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1732,
+  "deathYear": 1799,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 42,
+  "id": "s1-042",
+  "wikidataId": "Q8007",
+  "name": {
+   "en": "Franklin Delano Roosevelt",
+   "fr": "Franklin Delano Roosevelt"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1882,
+  "deathYear": 1945,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 43,
+  "id": "s1-043",
+  "wikidataId": "Q8027",
+  "name": {
+   "en": "Martin Luther King Jr.",
+   "fr": "Martin Luther King"
+  },
+  "currentRole": {
+   "fr": "Militant des droits civiques",
+   "en": "Civil rights activist"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1929,
+  "deathYear": 1968,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 44,
+  "id": "s1-044",
+  "wikidataId": "Q23685",
+  "name": {
+   "en": "Jimmy Carter",
+   "fr": "Jimmy Carter"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1924,
+  "deathYear": 2024,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 45,
+  "id": "s1-045",
+  "wikidataId": "Q1124",
+  "name": {
+   "en": "Bill Clinton",
+   "fr": "Bill Clinton"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1946,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 46,
+  "id": "s1-046",
+  "wikidataId": "Q23505",
+  "name": {
+   "en": "George H. W. Bush",
+   "fr": "George H. W. Bush"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1924,
+  "deathYear": 2018,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 47,
+  "id": "s1-047",
+  "wikidataId": "Q9588",
+  "name": {
+   "en": "Richard Nixon",
+   "fr": "Richard Nixon"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1913,
+  "deathYear": 1994,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 48,
+  "id": "s1-048",
+  "wikidataId": "Q6294",
+  "name": {
+   "en": "Hillary Clinton",
+   "fr": "Hillary Clinton"
+  },
+  "currentRole": {
+   "fr": "Secrétaire d'État des États-Unis",
+   "en": "United States Secretary of State"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1947,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 49,
+  "id": "s1-049",
+  "wikidataId": "Q33866",
+  "name": {
+   "en": "Theodore Roosevelt",
+   "fr": "Theodore Roosevelt"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1858,
+  "deathYear": 1919,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 50,
+  "id": "s1-050",
+  "wikidataId": "Q11812",
+  "name": {
+   "en": "Thomas Jefferson",
+   "fr": "Thomas Jefferson"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1743,
+  "deathYear": 1826,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 51,
+  "id": "s1-051",
+  "wikidataId": "Q34969",
+  "name": {
+   "en": "Benjamin Franklin",
+   "fr": "Benjamin Franklin"
+  },
+  "currentRole": {
+   "fr": "Postmaster General des États-Unis",
+   "en": "United States Postmaster General"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "modern",
+  "birthYear": 1706,
+  "deathYear": 1790,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 52,
+  "id": "s1-052",
+  "wikidataId": "Q9916",
+  "name": {
+   "en": "Dwight D. Eisenhower",
+   "fr": "Dwight David Eisenhower"
+  },
+  "currentRole": {
+   "fr": "Président des États-Unis",
+   "en": "President of the United States"
+  },
+  "rarity": "epic",
+  "country": "US",
+  "continent": "north_america",
+  "era": "contemporary",
+  "birthYear": 1890,
+  "deathYear": 1969,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 53,
+  "id": "s1-053",
+  "wikidataId": "Q43723",
+  "name": {
+   "en": "Benjamin Netanyahu",
+   "fr": "Benjamin Netanyahou"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Israël",
+   "en": "Prime Minister of Israel"
+  },
+  "rarity": "epic",
+  "country": "IL",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1949,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 54,
+  "id": "s1-054",
+  "wikidataId": "Q1047",
+  "name": {
+   "en": "Jawaharlal Nehru",
+   "fr": "Jawaharlal Nehru"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de l'Inde",
+   "en": "Prime Minister of India"
+  },
+  "rarity": "epic",
+  "country": "IN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1889,
+  "deathYear": 1964,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 55,
+  "id": "s1-055",
+  "wikidataId": "Q7207",
+  "name": {
+   "en": "Elizabeth I of England",
+   "fr": "Élisabeth Ire"
+  },
+  "currentRole": {
+   "fr": "Monarque d'Angleterre",
+   "en": "Monarch of England"
+  },
+  "rarity": "epic",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1533,
+  "deathYear": 1603,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 56,
+  "id": "s1-056",
+  "wikidataId": "Q567",
+  "name": {
+   "en": "Angela Merkel",
+   "fr": "Angela Merkel"
+  },
+  "currentRole": {
+   "fr": "Chancelier fédéral",
+   "en": "Federal Chancellor of Germany"
+  },
+  "rarity": "epic",
+  "country": "DE",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1954,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 57,
+  "id": "s1-057",
+  "wikidataId": "Q1149",
+  "name": {
+   "en": "Indira Gandhi",
+   "fr": "Indira Gandhi"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de l'Inde",
+   "en": "Prime Minister of India"
+  },
+  "rarity": "epic",
+  "country": "IN",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1917,
+  "deathYear": 1984,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 58,
+  "id": "s1-058",
+  "wikidataId": "Q19878",
+  "name": {
+   "en": "Muammar Gaddafi",
+   "fr": "Mouammar Kadhafi"
+  },
+  "currentRole": {
+   "fr": "Président de l'Union africaine",
+   "en": "Chairperson of the African Union"
+  },
+  "rarity": "epic",
+  "country": "LY",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1942,
+  "deathYear": 2011,
+  "sensitive": true,
+  "statTotal": 21
+ },
+ {
+  "number": 59,
+  "id": "s1-059",
+  "wikidataId": "Q269412",
+  "name": {
+   "en": "George V",
+   "fr": "George V"
+  },
+  "currentRole": {
+   "fr": "Monarque",
+   "en": "Monarch"
+  },
+  "rarity": "epic",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1865,
+  "deathYear": 1936,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 60,
+  "id": "s1-060",
+  "wikidataId": "Q131412",
+  "name": {
+   "en": "Mary, Queen of Scots",
+   "fr": "Marie Stuart"
+  },
+  "currentRole": {
+   "fr": "Roi d'Écosse",
+   "en": "Monarch of Scotland"
+  },
+  "rarity": "epic",
+  "country": "GB",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1542,
+  "deathYear": 1587,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 61,
+  "id": "s1-061",
+  "wikidataId": "Q36450",
+  "name": {
+   "en": "Catherine II of Russia",
+   "fr": "Catherine II de Russie"
+  },
+  "currentRole": {
+   "fr": "Empereur de toutes les Russies",
+   "en": "Emperor of all the Russias"
+  },
+  "rarity": "epic",
+  "country": "RU",
+  "continent": "europe",
+  "era": "modern",
+  "birthYear": 1729,
+  "deathYear": 1796,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 62,
+  "id": "s1-062",
+  "wikidataId": "Q20055561",
+  "name": {
+   "en": "Rishi Sunak",
+   "fr": "Rishi Sunak"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Royaume-Uni",
+   "en": "Prime Minister of the United Kingdom"
+  },
+  "rarity": "epic",
+  "country": "GB",
+  "continent": "europe",
+  "era": "contemporary",
+  "birthYear": 1980,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 63,
+  "id": "s1-063",
+  "wikidataId": "Q57336",
+  "name": {
+   "en": "Ali Khamenei",
+   "fr": "Ali Khamenei"
+  },
+  "currentRole": {
+   "fr": "Guide de la Révolution",
+   "en": "Supreme Leader of Iran"
+  },
+  "rarity": "epic",
+  "country": "IR",
+  "continent": "asia",
+  "era": "contemporary",
+  "birthYear": 1939,
+  "deathYear": 2026,
+  "sensitive": false,
+  "statTotal": 26
+ }
+]

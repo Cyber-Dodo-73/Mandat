@@ -1,0 +1,1325 @@
+[
+ {
+  "number": 379,
+  "id": "s1-379",
+  "wikidataId": "Q40649",
+  "name": {
+   "en": "Cristina Fernández de Kirchner",
+   "fr": "Cristina Fernández de Kirchner"
+  },
+  "currentRole": {
+   "fr": "Président de l'Argentine",
+   "en": "President of Argentina"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1953,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 380,
+  "id": "s1-380",
+  "wikidataId": "Q164535",
+  "name": {
+   "en": "Mobutu Sese Seko",
+   "fr": "Mobutu Sese Seko"
+  },
+  "currentRole": {
+   "fr": "Président de la République démocratique du Congo",
+   "en": "President of the Democratic Republic of the Congo"
+  },
+  "rarity": "common",
+  "country": "CD",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1930,
+  "deathYear": 1997,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 381,
+  "id": "s1-381",
+  "wikidataId": "Q129234",
+  "name": {
+   "en": "Hatshepsut",
+   "fr": "Hatchepsout"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -1507,
+  "deathYear": -1458,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 382,
+  "id": "s1-382",
+  "wikidataId": "Q9094",
+  "name": {
+   "en": "José Mujica",
+   "fr": "José Mujica"
+  },
+  "currentRole": {
+   "fr": "Président de l'Uruguay",
+   "en": "President of Uruguay"
+  },
+  "rarity": "common",
+  "country": "UY",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1935,
+  "deathYear": 2025,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 383,
+  "id": "s1-383",
+  "wikidataId": "Q43179",
+  "name": {
+   "en": "Ellen Johnson Sirleaf",
+   "fr": "Ellen Johnson Sirleaf"
+  },
+  "currentRole": {
+   "fr": "Président de la république du Liberia",
+   "en": "President of Liberia"
+  },
+  "rarity": "common",
+  "country": "LR",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1938,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 384,
+  "id": "s1-384",
+  "wikidataId": "Q57274",
+  "name": {
+   "en": "Yoweri Museveni",
+   "fr": "Yoweri Museveni"
+  },
+  "currentRole": {
+   "fr": "Président de l'Ouganda",
+   "en": "President of Uganda"
+  },
+  "rarity": "common",
+  "country": "UG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1944,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 385,
+  "id": "s1-385",
+  "wikidataId": "Q927550",
+  "name": {
+   "en": "Malcolm Turnbull",
+   "fr": "Malcolm Turnbull"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Australie",
+   "en": "Prime Minister of Australia"
+  },
+  "rarity": "common",
+  "country": "AU",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1954,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 386,
+  "id": "s1-386",
+  "wikidataId": "Q133040",
+  "name": {
+   "en": "Alberto Fujimori",
+   "fr": "Alberto Fujimori"
+  },
+  "currentRole": {
+   "fr": "Président du Pérou",
+   "en": "President of Peru"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1938,
+  "deathYear": 2024,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 387,
+  "id": "s1-387",
+  "wikidataId": "Q101547",
+  "name": {
+   "en": "Thabo Mbeki",
+   "fr": "Thabo Mbeki"
+  },
+  "currentRole": {
+   "fr": "Président de l'Afrique du Sud",
+   "en": "President of South Africa"
+  },
+  "rarity": "common",
+  "country": "ZA",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1942,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 388,
+  "id": "s1-388",
+  "wikidataId": "Q151813",
+  "name": {
+   "en": "F. W. de Klerk",
+   "fr": "Frederik de Klerk"
+  },
+  "currentRole": {
+   "fr": "Vice-président de l'Afrique du Sud",
+   "en": "Deputy President of South Africa"
+  },
+  "rarity": "common",
+  "country": "ZA",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1936,
+  "deathYear": 2021,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 389,
+  "id": "s1-389",
+  "wikidataId": "Q214473",
+  "name": {
+   "en": "Steve Biko",
+   "fr": "Steve Biko"
+  },
+  "currentRole": {
+   "fr": "Militant des droits civiques",
+   "en": "Civil rights activist"
+  },
+  "rarity": "common",
+  "country": "ZA",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1946,
+  "deathYear": 1977,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 390,
+  "id": "s1-390",
+  "wikidataId": "Q19581",
+  "name": {
+   "en": "Rafael Correa",
+   "fr": "Rafael Correa"
+  },
+  "currentRole": {
+   "fr": "Président de l'Équateur",
+   "en": "President of Ecuador"
+  },
+  "rarity": "common",
+  "country": "EC",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1963,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 391,
+  "id": "s1-391",
+  "wikidataId": "Q348577",
+  "name": {
+   "en": "Tony Abbott",
+   "fr": "Tony Abbott"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Australie",
+   "en": "Prime Minister of Australia"
+  },
+  "rarity": "common",
+  "country": "AU",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1957,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 392,
+  "id": "s1-392",
+  "wikidataId": "Q43135",
+  "name": {
+   "en": "Kevin Rudd",
+   "fr": "Kevin Rudd"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Australie",
+   "en": "Prime Minister of Australia"
+  },
+  "rarity": "common",
+  "country": "AU",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1957,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 393,
+  "id": "s1-393",
+  "wikidataId": "Q57265",
+  "name": {
+   "en": "Omar al-Bashir",
+   "fr": "Omar el-Béchir"
+  },
+  "currentRole": {
+   "fr": "Président du Soudan",
+   "en": "President of Sudan"
+  },
+  "rarity": "common",
+  "country": "SD",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1944,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 394,
+  "id": "s1-394",
+  "wikidataId": "Q114341246",
+  "name": {
+   "en": "Ibrahim Traoré",
+   "fr": "Ibrahim Traoré"
+  },
+  "currentRole": {
+   "fr": "Président du Burkina Faso",
+   "en": "President of Burkina Faso"
+  },
+  "rarity": "common",
+  "country": "BF",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1988,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 395,
+  "id": "s1-395",
+  "wikidataId": "Q50365049",
+  "name": {
+   "en": "Abiy Ahmed",
+   "fr": "Abiy Ahmed"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Éthiopie",
+   "en": "Prime Minister of Ethiopia"
+  },
+  "rarity": "common",
+  "country": "ET",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1976,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 396,
+  "id": "s1-396",
+  "wikidataId": "Q439564",
+  "name": {
+   "en": "María Corina Machado",
+   "fr": "María Corina Machado"
+  },
+  "currentRole": {
+   "fr": "Député",
+   "en": "Member of the National Assembly of Venezuela"
+  },
+  "rarity": "common",
+  "country": "VE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1967,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 397,
+  "id": "s1-397",
+  "wikidataId": "Q320",
+  "name": {
+   "en": "Michelle Bachelet",
+   "fr": "Michelle Bachelet"
+  },
+  "currentRole": {
+   "fr": "Haut-commissaire des Nations unies aux droits de l'homme",
+   "en": "United Nations High Commissioner for Human Rights"
+  },
+  "rarity": "common",
+  "country": "CL",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1951,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 398,
+  "id": "s1-398",
+  "wikidataId": "Q16297876",
+  "name": {
+   "en": "Gabriel Boric",
+   "fr": "Gabriel Boric"
+  },
+  "currentRole": {
+   "fr": "Président du Chili",
+   "en": "President of Chile"
+  },
+  "rarity": "common",
+  "country": "CL",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1986,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 399,
+  "id": "s1-399",
+  "wikidataId": "Q57340",
+  "name": {
+   "en": "Mswati III",
+   "fr": "Mswati III"
+  },
+  "currentRole": {
+   "fr": "King of Swaziland",
+   "en": "King of Swaziland"
+  },
+  "rarity": "common",
+  "country": "SZ",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1968,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 400,
+  "id": "s1-400",
+  "wikidataId": "Q39589",
+  "name": {
+   "en": "Caesarion",
+   "fr": "Ptolémée XV"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -47,
+  "deathYear": -30,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 401,
+  "id": "s1-401",
+  "wikidataId": "Q51330",
+  "name": {
+   "en": "John Howard",
+   "fr": "John Howard"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Australie",
+   "en": "Prime Minister of Australia"
+  },
+  "rarity": "common",
+  "country": "AU",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1939,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 402,
+  "id": "s1-402",
+  "wikidataId": "Q173563",
+  "name": {
+   "en": "Jomo Kenyatta",
+   "fr": "Jomo Kenyatta"
+  },
+  "currentRole": {
+   "fr": "Président du Kenya",
+   "en": "President of Kenya"
+  },
+  "rarity": "common",
+  "country": "KE",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1893,
+  "deathYear": 1978,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 403,
+  "id": "s1-403",
+  "wikidataId": "Q58833335",
+  "name": {
+   "en": "Juan Guaidó",
+   "fr": "Juan Guaidó"
+  },
+  "currentRole": {
+   "fr": "Président du Venezuela",
+   "en": "President of Venezuela"
+  },
+  "rarity": "common",
+  "country": "VE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1983,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 404,
+  "id": "s1-404",
+  "wikidataId": "Q161904",
+  "name": {
+   "en": "Khufu",
+   "fr": "Khéops"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -2701,
+  "deathYear": -2566,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 405,
+  "id": "s1-405",
+  "wikidataId": "Q57272",
+  "name": {
+   "en": "Paul Biya",
+   "fr": "Paul Biya"
+  },
+  "currentRole": {
+   "fr": "Premier ministre du Cameroun",
+   "en": "Prime Minister of Cameroon"
+  },
+  "rarity": "common",
+  "country": "CM",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1933,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 406,
+  "id": "s1-406",
+  "wikidataId": "Q156774",
+  "name": {
+   "en": "Pedro II of Brazil",
+   "fr": "Pierre II du Brésil"
+  },
+  "currentRole": {
+   "fr": "Emperor of Brazil",
+   "en": "Emperor of Brazil"
+  },
+  "rarity": "common",
+  "country": "BR",
+  "continent": "south_america",
+  "era": "modern",
+  "birthYear": 1825,
+  "deathYear": 1891,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 407,
+  "id": "s1-407",
+  "wikidataId": "Q1257",
+  "name": {
+   "en": "Boutros Boutros-Ghali",
+   "fr": "Boutros Boutros-Ghali"
+  },
+  "currentRole": {
+   "fr": "Secrétaire général des Nations unies",
+   "en": "United Nations Secretary-General"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1922,
+  "deathYear": 2016,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 408,
+  "id": "s1-408",
+  "wikidataId": "Q510523",
+  "name": {
+   "en": "Emmerson Mnangagwa",
+   "fr": "Emmerson Mnangagwa"
+  },
+  "currentRole": {
+   "fr": "Président du Zimbabwe",
+   "en": "President of Zimbabwe"
+  },
+  "rarity": "common",
+  "country": "ZW",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1942,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 409,
+  "id": "s1-409",
+  "wikidataId": "Q561837",
+  "name": {
+   "en": "Mauricio Macri",
+   "fr": "Mauricio Macri"
+  },
+  "currentRole": {
+   "fr": "Président de l'Argentine",
+   "en": "President of Argentina"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1959,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 410,
+  "id": "s1-410",
+  "wikidataId": "Q57385",
+  "name": {
+   "en": "Teodoro Obiang",
+   "fr": "Teodoro Obiang Nguema Mbasogo"
+  },
+  "currentRole": {
+   "fr": "Président de l'Union africaine",
+   "en": "Chairperson of the African Union"
+  },
+  "rarity": "common",
+  "country": "GQ",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1942,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 411,
+  "id": "s1-411",
+  "wikidataId": "Q704022",
+  "name": {
+   "en": "Gustavo Petro",
+   "fr": "Gustavo Petro"
+  },
+  "currentRole": {
+   "fr": "Président de Colombie",
+   "en": "President of Colombia"
+  },
+  "rarity": "common",
+  "country": "CO",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1960,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 412,
+  "id": "s1-412",
+  "wikidataId": "Q3510872",
+  "name": {
+   "en": "Bola Tinubu",
+   "fr": "Bola Tinubu"
+  },
+  "currentRole": {
+   "fr": "Président du Nigeria",
+   "en": "President of Nigeria"
+  },
+  "rarity": "common",
+  "country": "NG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1952,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 413,
+  "id": "s1-413",
+  "wikidataId": "Q463533",
+  "name": {
+   "en": "Michel Temer",
+   "fr": "Michel Temer"
+  },
+  "currentRole": {
+   "fr": "Président du Brésil",
+   "en": "President of Brazil"
+  },
+  "rarity": "common",
+  "country": "BR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1940,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 414,
+  "id": "s1-414",
+  "wikidataId": "Q57311",
+  "name": {
+   "en": "Juan Manuel Santos",
+   "fr": "Juan Manuel Santos"
+  },
+  "currentRole": {
+   "fr": "Président de Colombie",
+   "en": "President of Colombia"
+  },
+  "rarity": "common",
+  "country": "CO",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1951,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 415,
+  "id": "s1-415",
+  "wikidataId": "Q186525",
+  "name": {
+   "en": "Julius Nyerere",
+   "fr": "Julius Nyerere"
+  },
+  "currentRole": {
+   "fr": "Président ou présidente",
+   "en": "President"
+  },
+  "rarity": "common",
+  "country": "TZ",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1922,
+  "deathYear": 1999,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 416,
+  "id": "s1-416",
+  "wikidataId": "Q306",
+  "name": {
+   "en": "Sebastián Piñera",
+   "fr": "Sebastián Piñera"
+  },
+  "currentRole": {
+   "fr": "Président du Chili",
+   "en": "President of Chile"
+  },
+  "rarity": "common",
+  "country": "CL",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1949,
+  "deathYear": 2024,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 417,
+  "id": "s1-417",
+  "wikidataId": "Q4414537",
+  "name": {
+   "en": "Guillermo Lasso",
+   "fr": "Guillermo Lasso"
+  },
+  "currentRole": {
+   "fr": "Président de l'Équateur",
+   "en": "President of Ecuador"
+  },
+  "rarity": "common",
+  "country": "EC",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1955,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 418,
+  "id": "s1-418",
+  "wikidataId": "Q57416",
+  "name": {
+   "en": "Joseph Kabila",
+   "fr": "Joseph Kabila"
+  },
+  "currentRole": {
+   "fr": "Président de la République démocratique du Congo",
+   "en": "President of the Democratic Republic of the Congo"
+  },
+  "rarity": "common",
+  "country": "CD",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1971,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 419,
+  "id": "s1-419",
+  "wikidataId": "Q157899",
+  "name": {
+   "en": "Thutmose III",
+   "fr": "Thoutmôsis III"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -1481,
+  "deathYear": -1425,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 420,
+  "id": "s1-420",
+  "wikidataId": "Q2642828",
+  "name": {
+   "en": "Alberto Fernández",
+   "fr": "Alberto Fernández"
+  },
+  "currentRole": {
+   "fr": "Président de l'Argentine",
+   "en": "President of Argentina"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1959,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 421,
+  "id": "s1-421",
+  "wikidataId": "Q214910",
+  "name": {
+   "en": "Kamehameha I",
+   "fr": "Kamehameha Ier"
+  },
+  "currentRole": {
+   "fr": "Empereur",
+   "en": "Emperor"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "oceania",
+  "era": "modern",
+  "birthYear": 1800,
+  "deathYear": 1819,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 422,
+  "id": "s1-422",
+  "wikidataId": "Q196070",
+  "name": {
+   "en": "Uhuru Kenyatta",
+   "fr": "Uhuru Kenyatta"
+  },
+  "currentRole": {
+   "fr": "Président du Kenya",
+   "en": "President of Kenya"
+  },
+  "rarity": "common",
+  "country": "KE",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1961,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 423,
+  "id": "s1-423",
+  "wikidataId": "Q202006",
+  "name": {
+   "en": "Olusegun Obasanjo",
+   "fr": "Olusegun Obasanjo"
+  },
+  "currentRole": {
+   "fr": "Président du Nigeria",
+   "en": "President of Nigeria"
+  },
+  "rarity": "common",
+  "country": "NG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1937,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 424,
+  "id": "s1-424",
+  "wikidataId": "Q49090",
+  "name": {
+   "en": "Charles Taylor",
+   "fr": "Charles Taylor"
+  },
+  "currentRole": {
+   "fr": "Président de la république du Liberia",
+   "en": "President of Liberia"
+  },
+  "rarity": "common",
+  "country": "LR",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1948,
+  "deathYear": null,
+  "sensitive": true,
+  "statTotal": 14
+ },
+ {
+  "number": 425,
+  "id": "s1-425",
+  "wikidataId": "Q134160",
+  "name": {
+   "en": "José de San Martín",
+   "fr": "José de San Martín"
+  },
+  "currentRole": {
+   "fr": "Président du Pérou",
+   "en": "President of Peru"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "modern",
+  "birthYear": 1778,
+  "deathYear": 1850,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 426,
+  "id": "s1-426",
+  "wikidataId": "Q57308",
+  "name": {
+   "en": "Abd al-Aziz Boutafliqa",
+   "fr": "Abd el-Aziz Bouteflika"
+  },
+  "currentRole": {
+   "fr": "Président de l'Assemblée générale des Nations unies",
+   "en": "President of the United Nations General Assembly"
+  },
+  "rarity": "common",
+  "country": "DZ",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1937,
+  "deathYear": 2021,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 427,
+  "id": "s1-427",
+  "wikidataId": "Q718601",
+  "name": {
+   "en": "Nana Akufo-Addo",
+   "fr": "Nana Addo Dankwa Akufo-Addo"
+  },
+  "currentRole": {
+   "fr": "Président ou présidente",
+   "en": "Chairperson"
+  },
+  "rarity": "common",
+  "country": "GH",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1944,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 428,
+  "id": "s1-428",
+  "wikidataId": "Q157918",
+  "name": {
+   "en": "Seti I",
+   "fr": "Séthi Ier"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -1323,
+  "deathYear": -1279,
+  "sensitive": false,
+  "statTotal": 23
+ },
+ {
+  "number": 429,
+  "id": "s1-429",
+  "wikidataId": "Q235137",
+  "name": {
+   "en": "Keiko Fujimori",
+   "fr": "Keiko Fujimori"
+  },
+  "currentRole": {
+   "fr": "Président du Pérou",
+   "en": "President of Peru"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1975,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 430,
+  "id": "s1-430",
+  "wikidataId": "Q213001",
+  "name": {
+   "en": "Farouk I of Egypt",
+   "fr": "Farouk Ier d'Égypte"
+  },
+  "currentRole": {
+   "fr": "Roi d'Égypte",
+   "en": "King of Egypt"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1920,
+  "deathYear": 1965,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 431,
+  "id": "s1-431",
+  "wikidataId": "Q107288",
+  "name": {
+   "en": "Liliʻuokalani",
+   "fr": "Liliuokalani"
+  },
+  "currentRole": {
+   "fr": "Monarque",
+   "en": "Monarch"
+  },
+  "rarity": "common",
+  "country": "US",
+  "continent": "oceania",
+  "era": "modern",
+  "birthYear": 1838,
+  "deathYear": 1917,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 432,
+  "id": "s1-432",
+  "wikidataId": "Q57380",
+  "name": {
+   "en": "Goodluck Jonathan",
+   "fr": "Goodluck Jonathan"
+  },
+  "currentRole": {
+   "fr": "Président du Nigeria",
+   "en": "President of Nigeria"
+  },
+  "rarity": "common",
+  "country": "NG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1957,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 433,
+  "id": "s1-433",
+  "wikidataId": "Q189582",
+  "name": {
+   "en": "Narmer",
+   "fr": "Narmer"
+  },
+  "currentRole": {
+   "fr": "Pharaon",
+   "en": "Pharaoh"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -3201,
+  "deathYear": -3050,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 434,
+  "id": "s1-434",
+  "wikidataId": "Q5018756",
+  "name": {
+   "en": "John Magufuli",
+   "fr": "John Magufuli"
+  },
+  "currentRole": {
+   "fr": "Président ou présidente",
+   "en": "President"
+  },
+  "rarity": "common",
+  "country": "TZ",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1959,
+  "deathYear": 2021,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 435,
+  "id": "s1-435",
+  "wikidataId": "Q269372",
+  "name": {
+   "en": "Bob Hawke",
+   "fr": "Bob Hawke"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Australie",
+   "en": "Prime Minister of Australia"
+  },
+  "rarity": "common",
+  "country": "AU",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1929,
+  "deathYear": 2019,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 436,
+  "id": "s1-436",
+  "wikidataId": "Q313424",
+  "name": {
+   "en": "Ian Douglas Smith",
+   "fr": "Ian Smith"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de Rhodésie",
+   "en": "Prime Minister of Rhodesia"
+  },
+  "rarity": "common",
+  "country": "ZW",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1919,
+  "deathYear": 2007,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 437,
+  "id": "s1-437",
+  "wikidataId": "Q204487",
+  "name": {
+   "en": "Zine El Abidine Ben Ali",
+   "fr": "Zine el-Abidine Ben Ali"
+  },
+  "currentRole": {
+   "fr": "Chef du gouvernement tunisien",
+   "en": "Prime Minister of Tunisia"
+  },
+  "rarity": "common",
+  "country": "TN",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1936,
+  "deathYear": 2019,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 438,
+  "id": "s1-438",
+  "wikidataId": "Q57350",
+  "name": {
+   "en": "Idriss Déby",
+   "fr": "Idriss Déby"
+  },
+  "currentRole": {
+   "fr": "Président de l'Union africaine",
+   "en": "Chairperson of the African Union"
+  },
+  "rarity": "common",
+  "country": "TD",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1952,
+  "deathYear": 2021,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 439,
+  "id": "s1-439",
+  "wikidataId": "Q192512",
+  "name": {
+   "en": "Mengistu Haile Mariam",
+   "fr": "Mengistu Haïlé Mariam"
+  },
+  "currentRole": {
+   "fr": "Président de la République démocratique fédérale d'Éthiopie",
+   "en": "President of Ethiopia"
+  },
+  "rarity": "common",
+  "country": "ET",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1937,
+  "deathYear": null,
+  "sensitive": true,
+  "statTotal": 14
+ },
+ {
+  "number": 440,
+  "id": "s1-440",
+  "wikidataId": "Q15081116",
+  "name": {
+   "en": "Delcy Rodriguez",
+   "fr": "Delcy Rodríguez"
+  },
+  "currentRole": {
+   "fr": "Président ou présidente",
+   "en": "President"
+  },
+  "rarity": "common",
+  "country": "VE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1969,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 441,
+  "id": "s1-441",
+  "wikidataId": "Q57348",
+  "name": {
+   "en": "Isaias Afwerki",
+   "fr": "Issayas Afewerki"
+  },
+  "currentRole": {
+   "fr": "Présidents d'Érythrée",
+   "en": "President of Eritrea"
+  },
+  "rarity": "common",
+  "country": "ER",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1946,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 14
+ }
+]

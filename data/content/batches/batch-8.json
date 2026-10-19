@@ -1,0 +1,1241 @@
+[
+ {
+  "number": 442,
+  "id": "s1-442",
+  "wikidataId": "Q57313",
+  "name": {
+   "en": "José Eduardo dos Santos",
+   "fr": "José Eduardo dos Santos"
+  },
+  "currentRole": {
+   "fr": "Président de la République d'Angola",
+   "en": "President of Angola"
+  },
+  "rarity": "common",
+  "country": "AO",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1942,
+  "deathYear": 2022,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 443,
+  "id": "s1-443",
+  "wikidataId": "Q170899",
+  "name": {
+   "en": "Néstor Kirchner",
+   "fr": "Néstor Kirchner"
+  },
+  "currentRole": {
+   "fr": "Président de l'Argentine",
+   "en": "President of Argentina"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1950,
+  "deathYear": 2010,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 444,
+  "id": "s1-444",
+  "wikidataId": "Q75853",
+  "name": {
+   "en": "Jorge Rafael Videla",
+   "fr": "Jorge Rafael Videla"
+  },
+  "currentRole": {
+   "fr": "Commandant en chef",
+   "en": "Commander-in-chief"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1925,
+  "deathYear": 2013,
+  "sensitive": true,
+  "statTotal": 20
+ },
+ {
+  "number": 445,
+  "id": "s1-445",
+  "wikidataId": "Q195725",
+  "name": {
+   "en": "William Ruto",
+   "fr": "William Ruto"
+  },
+  "currentRole": {
+   "fr": "Président du Kenya",
+   "en": "President of Kenya"
+  },
+  "rarity": "common",
+  "country": "KE",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1966,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 446,
+  "id": "s1-446",
+  "wikidataId": "Q156844",
+  "name": {
+   "en": "Getúlio Vargas",
+   "fr": "Getúlio Vargas"
+  },
+  "currentRole": {
+   "fr": "Président du Brésil",
+   "en": "President of Brazil"
+  },
+  "rarity": "common",
+  "country": "BR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1882,
+  "deathYear": 1954,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 447,
+  "id": "s1-447",
+  "wikidataId": "Q219962",
+  "name": {
+   "en": "Seretse Khama",
+   "fr": "Seretse Khama"
+  },
+  "currentRole": {
+   "fr": "Président de la république du Botswana",
+   "en": "President of Botswana"
+  },
+  "rarity": "common",
+  "country": "BW",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1921,
+  "deathYear": 1980,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 448,
+  "id": "s1-448",
+  "wikidataId": "Q312722",
+  "name": {
+   "en": "Harold Holt",
+   "fr": "Harold Holt"
+  },
+  "currentRole": {
+   "fr": "Premier ministre d'Australie",
+   "en": "Prime Minister of Australia"
+  },
+  "rarity": "common",
+  "country": "AU",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1908,
+  "deathYear": 1967,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 449,
+  "id": "s1-449",
+  "wikidataId": "Q211379",
+  "name": {
+   "en": "Sayyid Qutb",
+   "fr": "Sayyid Qutb"
+  },
+  "currentRole": {
+   "fr": "Révolutionnaire",
+   "en": "Revolutionary"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1906,
+  "deathYear": 1966,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 450,
+  "id": "s1-450",
+  "wikidataId": "Q23333",
+  "name": {
+   "en": "Gough Whitlam",
+   "fr": "Gough Whitlam"
+  },
+  "currentRole": {
+   "fr": "Ambassadeur",
+   "en": "Ambassador"
+  },
+  "rarity": "common",
+  "country": "AU",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1916,
+  "deathYear": 2014,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 451,
+  "id": "s1-451",
+  "wikidataId": "Q29032770",
+  "name": {
+   "en": "Félix Tshisekedi",
+   "fr": "Félix Tshisekedi"
+  },
+  "currentRole": {
+   "fr": "Président de la République démocratique du Congo",
+   "en": "President of the Democratic Republic of the Congo"
+  },
+  "rarity": "common",
+  "country": "CD",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1963,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 452,
+  "id": "s1-452",
+  "wikidataId": "Q191014",
+  "name": {
+   "en": "Isabel Martínez de Perón",
+   "fr": "Isabel Martínez de Perón"
+  },
+  "currentRole": {
+   "fr": "Président de l'Argentine",
+   "en": "President of Argentina"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1931,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 21
+ },
+ {
+  "number": 453,
+  "id": "s1-453",
+  "wikidataId": "Q210069",
+  "name": {
+   "en": "Milton Obote",
+   "fr": "Milton Obote"
+  },
+  "currentRole": {
+   "fr": "Président de l'Ouganda",
+   "en": "President of Uganda"
+  },
+  "rarity": "common",
+  "country": "UG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1925,
+  "deathYear": 2005,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 454,
+  "id": "s1-454",
+  "wikidataId": "Q179577",
+  "name": {
+   "en": "Atahualpa",
+   "fr": "Atahualpa"
+  },
+  "currentRole": {
+   "fr": "Sapa Inca",
+   "en": "Sapa Inca"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "modern",
+  "birthYear": 1500,
+  "deathYear": 1533,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 455,
+  "id": "s1-455",
+  "wikidataId": "Q57356",
+  "name": {
+   "en": "Yahya Jammeh",
+   "fr": "Yahya Jammeh"
+  },
+  "currentRole": {
+   "fr": "Président de la république de Gambie",
+   "en": "President of the Gambia"
+  },
+  "rarity": "common",
+  "country": "GM",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1965,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 456,
+  "id": "s1-456",
+  "wikidataId": "Q57783",
+  "name": {
+   "en": "John Key",
+   "fr": "John Key"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de Nouvelle-Zélande",
+   "en": "Prime Minister of New Zealand"
+  },
+  "rarity": "common",
+  "country": "NZ",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1961,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 457,
+  "id": "s1-457",
+  "wikidataId": "Q207942",
+  "name": {
+   "en": "Sani Abacha",
+   "fr": "Sani Abacha"
+  },
+  "currentRole": {
+   "fr": "Président du Nigeria",
+   "en": "President of Nigeria"
+  },
+  "rarity": "common",
+  "country": "NG",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1943,
+  "deathYear": 1998,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 458,
+  "id": "s1-458",
+  "wikidataId": "Q210535",
+  "name": {
+   "en": "Nefertari",
+   "fr": "Néfertari"
+  },
+  "currentRole": {
+   "fr": "Divine adoratrice d'Amon",
+   "en": "God's Wife of Amun"
+  },
+  "rarity": "common",
+  "country": "EG",
+  "continent": "africa",
+  "era": "antiquity",
+  "birthYear": -1290,
+  "deathYear": -1255,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 459,
+  "id": "s1-459",
+  "wikidataId": "Q180383",
+  "name": {
+   "en": "Helen Clark",
+   "fr": "Helen Clark"
+  },
+  "currentRole": {
+   "fr": "Premier ministre de Nouvelle-Zélande",
+   "en": "Prime Minister of New Zealand"
+  },
+  "rarity": "common",
+  "country": "NZ",
+  "continent": "oceania",
+  "era": "contemporary",
+  "birthYear": 1950,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 460,
+  "id": "s1-460",
+  "wikidataId": "Q105480",
+  "name": {
+   "en": "Kenneth Kaunda",
+   "fr": "Kenneth Kaunda"
+  },
+  "currentRole": {
+   "fr": "Président de la république de Zambie",
+   "en": "President of Zambia"
+  },
+  "rarity": "common",
+  "country": "ZM",
+  "continent": "africa",
+  "era": "contemporary",
+  "birthYear": 1924,
+  "deathYear": 2021,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 461,
+  "id": "s1-461",
+  "wikidataId": "Q332020",
+  "name": {
+   "en": "César Gaviria",
+   "fr": "César Gaviria"
+  },
+  "currentRole": {
+   "fr": "Président de Colombie",
+   "en": "President of Colombia"
+  },
+  "rarity": "common",
+  "country": "CO",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1947,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 462,
+  "id": "s1-462",
+  "wikidataId": "Q185107",
+  "name": {
+   "en": "Carlos Menem",
+   "fr": "Carlos Menem"
+  },
+  "currentRole": {
+   "fr": "Président de l'Argentine",
+   "en": "President of Argentina"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1930,
+  "deathYear": 2021,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 463,
+  "id": "s1-463",
+  "wikidataId": "Q106474688",
+  "name": {
+   "en": "Dina Boluarte",
+   "fr": "Dina Boluarte"
+  },
+  "currentRole": {
+   "fr": "Président du Pérou",
+   "en": "President of Peru"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1962,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 464,
+  "id": "s1-464",
+  "wikidataId": "Q103838608",
+  "name": {
+   "en": "Pedro Castillo",
+   "fr": "Pedro Castillo"
+  },
+  "currentRole": {
+   "fr": "Président du Pérou",
+   "en": "President of Peru"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1969,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 465,
+  "id": "s1-465",
+  "wikidataId": "Q16581287",
+  "name": {
+   "en": "Jeanine Áñez",
+   "fr": "Jeanine Añez"
+  },
+  "currentRole": {
+   "fr": "Président de la Bolivie",
+   "en": "President of Bolivia"
+  },
+  "rarity": "common",
+  "country": "BO",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1967,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 466,
+  "id": "s1-466",
+  "wikidataId": "Q152534",
+  "name": {
+   "en": "Alfredo Stroessner",
+   "fr": "Alfredo Stroessner"
+  },
+  "currentRole": {
+   "fr": "Président du Paraguay",
+   "en": "President of Paraguay"
+  },
+  "rarity": "common",
+  "country": "PY",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1912,
+  "deathYear": 2006,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 467,
+  "id": "s1-467",
+  "wikidataId": "Q112075625",
+  "name": {
+   "en": "Daniel Noboa",
+   "fr": "Daniel Noboa"
+  },
+  "currentRole": {
+   "fr": "Président de l'Équateur",
+   "en": "President of Ecuador"
+  },
+  "rarity": "common",
+  "country": "EC",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1987,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 468,
+  "id": "s1-468",
+  "wikidataId": "Q16149892",
+  "name": {
+   "en": "Luis Arce",
+   "fr": "Luis Arce"
+  },
+  "currentRole": {
+   "fr": "Président de la Bolivie",
+   "en": "President of Bolivia"
+  },
+  "rarity": "common",
+  "country": "BO",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1963,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 469,
+  "id": "s1-469",
+  "wikidataId": "Q1259",
+  "name": {
+   "en": "Javier Pérez de Cuéllar",
+   "fr": "Javier Pérez de Cuéllar"
+  },
+  "currentRole": {
+   "fr": "Secrétaire général des Nations unies",
+   "en": "United Nations Secretary-General"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1920,
+  "deathYear": 2020,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 470,
+  "id": "s1-470",
+  "wikidataId": "Q381027",
+  "name": {
+   "en": "Pedro Pablo Kuczynski",
+   "fr": "Pedro Pablo Kuczynski"
+  },
+  "currentRole": {
+   "fr": "Président du Pérou",
+   "en": "President of Peru"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1938,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 471,
+  "id": "s1-471",
+  "wikidataId": "Q124993",
+  "name": {
+   "en": "Leopoldo Galtieri",
+   "fr": "Leopoldo Galtieri"
+  },
+  "currentRole": {
+   "fr": "Président de l'Argentine",
+   "en": "President of Argentina"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1926,
+  "deathYear": 2003,
+  "sensitive": false,
+  "statTotal": 30
+ },
+ {
+  "number": 472,
+  "id": "s1-472",
+  "wikidataId": "Q28930",
+  "name": {
+   "en": "Bernardo O'Higgins",
+   "fr": "Bernardo O'Higgins"
+  },
+  "currentRole": {
+   "fr": "Directeur suprême du Chili",
+   "en": "Supreme Director of Chile"
+  },
+  "rarity": "common",
+  "country": "CL",
+  "continent": "south_america",
+  "era": "modern",
+  "birthYear": 1778,
+  "deathYear": 1842,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 473,
+  "id": "s1-473",
+  "wikidataId": "Q518626",
+  "name": {
+   "en": "Lenín Moreno",
+   "fr": "Lenín Moreno"
+  },
+  "currentRole": {
+   "fr": "Président de l'Équateur",
+   "en": "President of Ecuador"
+  },
+  "rarity": "common",
+  "country": "EC",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1953,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 474,
+  "id": "s1-474",
+  "wikidataId": "Q167211",
+  "name": {
+   "en": "Alan García",
+   "fr": "Alan García"
+  },
+  "currentRole": {
+   "fr": "Président du Pérou",
+   "en": "President of Peru"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1949,
+  "deathYear": 2019,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 475,
+  "id": "s1-475",
+  "wikidataId": "Q5937916",
+  "name": {
+   "en": "José Antonio Kast",
+   "fr": "José Antonio Kast"
+  },
+  "currentRole": {
+   "fr": "Président du Chili",
+   "en": "President of Chile"
+  },
+  "rarity": "common",
+  "country": "CL",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1966,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 476,
+  "id": "s1-476",
+  "wikidataId": "Q315937",
+  "name": {
+   "en": "Túpac Amaru II",
+   "fr": "Túpac Amaru II"
+  },
+  "currentRole": {
+   "fr": "Révolutionnaire",
+   "en": "Revolutionary"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "modern",
+  "birthYear": 1738,
+  "deathYear": 1781,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 477,
+  "id": "s1-477",
+  "wikidataId": "Q9099",
+  "name": {
+   "en": "Tabaré Vázquez",
+   "fr": "Tabaré Vázquez"
+  },
+  "currentRole": {
+   "fr": "Président de l'Uruguay",
+   "en": "President of Uruguay"
+  },
+  "rarity": "common",
+  "country": "UY",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1940,
+  "deathYear": 2020,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 478,
+  "id": "s1-478",
+  "wikidataId": "Q187413",
+  "name": {
+   "en": "Álvaro Uribe Vélez",
+   "fr": "Álvaro Uribe"
+  },
+  "currentRole": {
+   "fr": "Président de Colombie",
+   "en": "President of Colombia"
+  },
+  "rarity": "common",
+  "country": "CO",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1952,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 479,
+  "id": "s1-479",
+  "wikidataId": "Q676301",
+  "name": {
+   "en": "John VI of Portugal",
+   "fr": "Jean VI de Portugal"
+  },
+  "currentRole": {
+   "fr": "Roi du Royaume-Uni du Portugal, du Brésil et de l'Algarve",
+   "en": "King of the United Kingdom of Portugal, Brazil and the Algarve"
+  },
+  "rarity": "common",
+  "country": "BR",
+  "continent": "south_america",
+  "era": "modern",
+  "birthYear": 1767,
+  "deathYear": 1826,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 480,
+  "id": "s1-480",
+  "wikidataId": "Q230578",
+  "name": {
+   "en": "Fernando Henrique Cardoso",
+   "fr": "Fernando Henrique Cardoso"
+  },
+  "currentRole": {
+   "fr": "Président du Brésil",
+   "en": "President of Brazil"
+  },
+  "rarity": "common",
+  "country": "BR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1931,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 24
+ },
+ {
+  "number": 481,
+  "id": "s1-481",
+  "wikidataId": "Q64840184",
+  "name": {
+   "en": "Irfaan Ali",
+   "fr": "Irfaan Ali"
+  },
+  "currentRole": {
+   "fr": "Président de la république coopérative du Guyana",
+   "en": "President of Guyana"
+  },
+  "rarity": "common",
+  "country": "GY",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1980,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 482,
+  "id": "s1-482",
+  "wikidataId": "Q57667",
+  "name": {
+   "en": "Desi Bouterse",
+   "fr": "Desi Bouterse"
+  },
+  "currentRole": {
+   "fr": "Président du Suriname",
+   "en": "President of Suriname"
+  },
+  "rarity": "common",
+  "country": "SR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1945,
+  "deathYear": 2024,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 483,
+  "id": "s1-483",
+  "wikidataId": "Q155824",
+  "name": {
+   "en": "Juscelino Kubitschek",
+   "fr": "Juscelino Kubitschek"
+  },
+  "currentRole": {
+   "fr": "Président du Brésil",
+   "en": "President of Brazil"
+  },
+  "rarity": "common",
+  "country": "BR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1902,
+  "deathYear": 1976,
+  "sensitive": false,
+  "statTotal": 25
+ },
+ {
+  "number": 484,
+  "id": "s1-484",
+  "wikidataId": "Q213758",
+  "name": {
+   "en": "Pachacútec",
+   "fr": "Pachacutec"
+  },
+  "currentRole": {
+   "fr": "Sapa Inca",
+   "en": "Sapa Inca"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "medieval",
+  "birthYear": 1391,
+  "deathYear": 1471,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 485,
+  "id": "s1-485",
+  "wikidataId": "Q34982",
+  "name": {
+   "en": "João Goulart",
+   "fr": "João Goulart"
+  },
+  "currentRole": {
+   "fr": "Président du Brésil",
+   "en": "President of Brazil"
+  },
+  "rarity": "common",
+  "country": "BR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1918,
+  "deathYear": 1976,
+  "sensitive": false,
+  "statTotal": 27
+ },
+ {
+  "number": 486,
+  "id": "s1-486",
+  "wikidataId": "Q193062",
+  "name": {
+   "en": "Raúl Alfonsín",
+   "fr": "Raúl Alfonsín"
+  },
+  "currentRole": {
+   "fr": "Président de l'Argentine",
+   "en": "President of Argentina"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1927,
+  "deathYear": 2009,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 487,
+  "id": "s1-487",
+  "wikidataId": "Q24030720",
+  "name": {
+   "en": "Martín Vizcarra",
+   "fr": "Martín Vizcarra"
+  },
+  "currentRole": {
+   "fr": "Président du Pérou",
+   "en": "President of Peru"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1963,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 28
+ },
+ {
+  "number": 488,
+  "id": "s1-488",
+  "wikidataId": "Q57254",
+  "name": {
+   "en": "Ollanta Humala",
+   "fr": "Ollanta Humala"
+  },
+  "currentRole": {
+   "fr": "Président du Pérou",
+   "en": "President of Peru"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1962,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 19
+ },
+ {
+  "number": 489,
+  "id": "s1-489",
+  "wikidataId": "Q311447",
+  "name": {
+   "en": "Francisco de Miranda",
+   "fr": "Francisco de Miranda"
+  },
+  "currentRole": {
+   "fr": "Président du Venezuela",
+   "en": "President of Venezuela"
+  },
+  "rarity": "common",
+  "country": "VE",
+  "continent": "south_america",
+  "era": "modern",
+  "birthYear": 1750,
+  "deathYear": 1816,
+  "sensitive": false,
+  "statTotal": 17
+ },
+ {
+  "number": 490,
+  "id": "s1-490",
+  "wikidataId": "Q333135",
+  "name": {
+   "en": "Chan Santokhi",
+   "fr": "Chan Santokhi"
+  },
+  "currentRole": {
+   "fr": "Président du Suriname",
+   "en": "President of Suriname"
+  },
+  "rarity": "common",
+  "country": "SR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1959,
+  "deathYear": 2026,
+  "sensitive": false,
+  "statTotal": 22
+ },
+ {
+  "number": 491,
+  "id": "s1-491",
+  "wikidataId": "Q189779",
+  "name": {
+   "en": "Antonio José de Sucre",
+   "fr": "Antonio José de Sucre"
+  },
+  "currentRole": {
+   "fr": "Président du Pérou",
+   "en": "President of Peru"
+  },
+  "rarity": "common",
+  "country": "CO",
+  "continent": "south_america",
+  "era": "modern",
+  "birthYear": 1795,
+  "deathYear": 1830,
+  "sensitive": false,
+  "statTotal": 15
+ },
+ {
+  "number": 492,
+  "id": "s1-492",
+  "wikidataId": "Q236503",
+  "name": {
+   "en": "Fernando Collor",
+   "fr": "Fernando Collor de Mello"
+  },
+  "currentRole": {
+   "fr": "Président du Brésil",
+   "en": "President of Brazil"
+  },
+  "rarity": "common",
+  "country": "BR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1949,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 493,
+  "id": "s1-493",
+  "wikidataId": "Q6800406",
+  "name": {
+   "en": "Luis Lacalle Pou",
+   "fr": "Luis Alberto Lacalle Pou"
+  },
+  "currentRole": {
+   "fr": "Président de l'Uruguay",
+   "en": "President of Uruguay"
+  },
+  "rarity": "common",
+  "country": "UY",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1973,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 20
+ },
+ {
+  "number": 494,
+  "id": "s1-494",
+  "wikidataId": "Q295007",
+  "name": {
+   "en": "Fernando de la Rúa",
+   "fr": "Fernando de la Rúa"
+  },
+  "currentRole": {
+   "fr": "Président de l'Argentine",
+   "en": "President of Argentina"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1937,
+  "deathYear": 2019,
+  "sensitive": false,
+  "statTotal": 29
+ },
+ {
+  "number": 495,
+  "id": "s1-495",
+  "wikidataId": "Q321322",
+  "name": {
+   "en": "Abimael Guzmán",
+   "fr": "Abimael Guzmán"
+  },
+  "currentRole": {
+   "fr": "Secrétaire général ou secrétaire générale",
+   "en": "General secretary"
+  },
+  "rarity": "common",
+  "country": "PE",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1934,
+  "deathYear": 2021,
+  "sensitive": true,
+  "statTotal": 20
+ },
+ {
+  "number": 496,
+  "id": "s1-496",
+  "wikidataId": "Q311436",
+  "name": {
+   "en": "Juan Manuel de Rosas meow",
+   "fr": "Juan Manuel de Rosas"
+  },
+  "currentRole": {
+   "fr": "Gouverneur de la province de Buenos Aires",
+   "en": "Governor of Buenos Aires Province"
+  },
+  "rarity": "common",
+  "country": "AR",
+  "continent": "south_america",
+  "era": "modern",
+  "birthYear": 1793,
+  "deathYear": 1877,
+  "sensitive": false,
+  "statTotal": 18
+ },
+ {
+  "number": 497,
+  "id": "s1-497",
+  "wikidataId": "Q17478000",
+  "name": {
+   "en": "Iván Duque",
+   "fr": "Iván Duque"
+  },
+  "currentRole": {
+   "fr": "Président de Colombie",
+   "en": "President of Colombia"
+  },
+  "rarity": "common",
+  "country": "CO",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1976,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 14
+ },
+ {
+  "number": 498,
+  "id": "s1-498",
+  "wikidataId": "Q137204778",
+  "name": {
+   "en": "Abelardo de la Espriella",
+   "fr": "Abelardo de la Espriella"
+  },
+  "currentRole": {
+   "fr": "Président de Colombie",
+   "en": "President of Colombia"
+  },
+  "rarity": "common",
+  "country": "CO",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1978,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 16
+ },
+ {
+  "number": 499,
+  "id": "s1-499",
+  "wikidataId": "Q37677",
+  "name": {
+   "en": "Francisco Solano López",
+   "fr": "Francisco Solano López"
+  },
+  "currentRole": {
+   "fr": "Président du Paraguay",
+   "en": "President of Paraguay"
+  },
+  "rarity": "common",
+  "country": "PY",
+  "continent": "south_america",
+  "era": "modern",
+  "birthYear": 1826,
+  "deathYear": 1870,
+  "sensitive": false,
+  "statTotal": 26
+ },
+ {
+  "number": 500,
+  "id": "s1-500",
+  "wikidataId": "Q5901842",
+  "name": {
+   "en": "Horacio Cartes",
+   "fr": "Horacio Cartes"
+  },
+  "currentRole": {
+   "fr": "Président du Paraguay",
+   "en": "President of Paraguay"
+  },
+  "rarity": "common",
+  "country": "PY",
+  "continent": "south_america",
+  "era": "contemporary",
+  "birthYear": 1956,
+  "deathYear": null,
+  "sensitive": false,
+  "statTotal": 24
+ }
+]

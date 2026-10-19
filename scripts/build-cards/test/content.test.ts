@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { countSentences, spearman, validateCatalogBalance, validateContent } from '../src/content.ts';
+import { countSentences, spearman, validateCatalogBalance, validateContent, validateEffect } from '../src/content.ts';
 import type { Rarity, Stats } from '../src/types.ts';
 
 const valid = {
@@ -12,6 +12,7 @@ const valid = {
   ability: {
     name: { fr: 'Réconciliation', en: 'Reconciliation' },
     description: { fr: '+2 en Diplomatie face à une carte du même continent.', en: '+2 Diplomacy against a card from the same continent.' },
+    effect: { type: 'bonus', stat: 'diplomacy', amount: 2, condition: { kind: 'opponentContinent', value: 'same' } },
   },
 };
 
@@ -93,5 +94,19 @@ describe('spearman', () => {
   it('is 1 for identical orderings and -1 for reversed', () => {
     expect(spearman([1, 2, 3], [10, 20, 30])).toBeCloseTo(1);
     expect(spearman([1, 2, 3], [30, 20, 10])).toBeCloseTo(-1);
+  });
+});
+
+describe('validateEffect', () => {
+  it('accepts a conditional bonus and a tie breaker', () => {
+    expect(validateEffect({ type: 'bonus', stat: 'any', amount: 3, condition: { kind: 'round', value: 3 } })).toEqual([]);
+    expect(validateEffect({ type: 'tieBreaker', condition: { kind: 'behind' } })).toEqual([]);
+  });
+
+  it('rejects unknown conditions, bad amounts and strong unconditional effects', () => {
+    expect(validateEffect({ type: 'bonus', stat: 'charisma', amount: 2, condition: { kind: 'always' } })).toHaveLength(1);
+    expect(validateEffect({ type: 'malus', stat: 'strategy', amount: 4, condition: { kind: 'behind' } })).toHaveLength(1);
+    expect(validateEffect({ type: 'bonus', stat: 'diplomacy', amount: 1, condition: { kind: 'weather' } })).toHaveLength(1);
+    expect(validateEffect({ type: 'bonus', stat: 'diplomacy', amount: 1, condition: { kind: 'opponentEra', value: 'future' } })).toHaveLength(1);
   });
 });

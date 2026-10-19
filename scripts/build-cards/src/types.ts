@@ -24,7 +24,18 @@ export type Stats = {
   strategy: number;
 };
 
-export type Ability = { name: Localized; description: Localized };
+export type StatKey = 'influence' | 'diplomacy' | 'charisma' | 'strategy';
+export type EffectCondition =
+  | { kind: 'always' | 'behind' | 'opponentRarityHigher' }
+  | { kind: 'opponentContinent'; value: 'same' | 'different' }
+  | { kind: 'opponentEra'; value: 'antiquity' | 'medieval' | 'modern' | 'contemporary' }
+  | { kind: 'roundDomain'; value: StatKey }
+  | { kind: 'round'; value: 1 | 2 | 3 };
+/** Machine-readable duel effect (see data/content/GUIDELINES.md). */
+export type AbilityEffect =
+  | { type: 'bonus' | 'malus'; stat: StatKey | 'any'; amount: 1 | 2 | 3; condition: EffectCondition }
+  | { type: 'tieBreaker'; condition: EffectCondition };
+export type Ability = { name: Localized; description: Localized; effect: AbilityEffect };
 
 /** A held position, ranked by the position's own notoriety (sitelinks). */
 export type Position = {
