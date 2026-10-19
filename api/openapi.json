@@ -9,6 +9,130 @@
     "name" : "Meta"
   } ],
   "paths" : {
+    "/api/v1/cards" : {
+      "get" : {
+        "description" : "Cacheable: the ETag is the catalog content hash, send If-None-Match to get a 304.",
+        "operationId" : "catalog",
+        "parameters" : [ {
+          "in" : "query",
+          "name" : "season",
+          "required" : false,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/CatalogResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Season card catalog",
+        "tags" : [ "Cards" ]
+      }
+    },
+    "/api/v1/collection" : {
+      "get" : {
+        "operationId" : "collection",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/CollectionResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Owned cards, one entry per card and finish",
+        "tags" : [ "Collection" ]
+      }
+    },
+    "/api/v1/collection/{cardId}/craft" : {
+      "post" : {
+        "operationId" : "craft",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "cardId",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/CraftResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Craft a missing card (standard finish) with Influence",
+        "tags" : [ "Collection" ]
+      }
+    },
+    "/api/v1/collection/{cardId}/recycle" : {
+      "post" : {
+        "operationId" : "recycle",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "cardId",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/RecycleRequest"
+              }
+            }
+          },
+          "required" : true
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/RecycleResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Recycle duplicate copies into Influence (always keeps one copy of the finish)",
+        "tags" : [ "Collection" ]
+      }
+    },
     "/api/v1/meta" : {
       "get" : {
         "operationId" : "getMeta",
@@ -27,10 +151,362 @@
         "summary" : "API name, version and authoritative server time",
         "tags" : [ "Meta" ]
       }
+    },
+    "/api/v1/packs" : {
+      "get" : {
+        "operationId" : "packs",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/PacksResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Boosters of the season, free booster stock and timer, pity counters",
+        "tags" : [ "Packs" ]
+      }
+    },
+    "/api/v1/packs/{packId}/odds" : {
+      "get" : {
+        "operationId" : "odds",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "packId",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/OddsResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Exact odds of a booster (rarity per slot, finishes, pity rules)",
+        "tags" : [ "Packs" ]
+      }
+    },
+    "/api/v1/packs/{packId}/open" : {
+      "post" : {
+        "description" : "Idempotent: replaying the same Idempotency-Key returns the same result without opening another booster.",
+        "operationId" : "open",
+        "parameters" : [ {
+          "in" : "path",
+          "name" : "packId",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "description" : "Client-generated unique key (UUID recommended), max 128 characters",
+          "in" : "header",
+          "name" : "Idempotency-Key",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/OpenPackResponse"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "security" : [ {
+          "bearerAuth" : [ ]
+        } ],
+        "summary" : "Open a booster (server-side draw)",
+        "tags" : [ "Packs" ]
+      }
     }
   },
   "components" : {
     "schemas" : {
+      "CardAbilityDto" : {
+        "type" : "object",
+        "properties" : {
+          "description" : {
+            "$ref" : "#/components/schemas/LocalizedText"
+          },
+          "name" : {
+            "$ref" : "#/components/schemas/LocalizedText"
+          }
+        },
+        "required" : [ "description", "name" ]
+      },
+      "CardDto" : {
+        "type" : "object",
+        "properties" : {
+          "ability" : {
+            "$ref" : "#/components/schemas/CardAbilityDto"
+          },
+          "active" : {
+            "type" : "boolean",
+            "description" : "False when the card was removed from the catalog file; owned copies stay valid"
+          },
+          "artwork" : {
+            "type" : [ "string", "null" ]
+          },
+          "bio" : {
+            "$ref" : "#/components/schemas/LocalizedText"
+          },
+          "birthYear" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32"
+          },
+          "continent" : {
+            "type" : "string",
+            "enum" : [ "africa", "asia", "europe", "north_america", "south_america", "oceania" ]
+          },
+          "country" : {
+            "type" : "string",
+            "description" : "ISO 3166-1 alpha-2 code"
+          },
+          "deathYear" : {
+            "type" : [ "integer", "null" ],
+            "format" : "int32"
+          },
+          "era" : {
+            "type" : "string",
+            "enum" : [ "antiquity", "medieval", "modern", "contemporary" ]
+          },
+          "fameScore" : {
+            "type" : "number",
+            "format" : "double"
+          },
+          "id" : {
+            "type" : "string"
+          },
+          "isLiving" : {
+            "type" : "boolean"
+          },
+          "name" : {
+            "$ref" : "#/components/schemas/LocalizedText"
+          },
+          "number" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "rarity" : {
+            "type" : "string",
+            "enum" : [ "common", "uncommon", "rare", "epic", "legendary", "mythic" ]
+          },
+          "role" : {
+            "$ref" : "#/components/schemas/LocalizedText"
+          },
+          "sensitive" : {
+            "type" : "boolean"
+          },
+          "stats" : {
+            "$ref" : "#/components/schemas/CardStatsDto"
+          },
+          "wikidataId" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "ability", "active", "bio", "continent", "country", "era", "fameScore", "id", "isLiving", "name", "number", "rarity", "role", "sensitive", "stats", "wikidataId" ]
+      },
+      "CardStatsDto" : {
+        "type" : "object",
+        "properties" : {
+          "charisma" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "diplomacy" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "influence" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "strategy" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "charisma", "diplomacy", "influence", "strategy" ]
+      },
+      "CatalogResponse" : {
+        "type" : "object",
+        "properties" : {
+          "cards" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/CardDto"
+            }
+          },
+          "season" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "version" : {
+            "type" : "string",
+            "description" : "Content hash of the seeded catalog file, also sent as the ETag"
+          }
+        },
+        "required" : [ "cards", "season", "version" ]
+      },
+      "CollectionResponse" : {
+        "type" : "object",
+        "properties" : {
+          "distinctCards" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Distinct catalog cards owned, any finish"
+          },
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/OwnedCardDto"
+            }
+          },
+          "totalCopies" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "distinctCards", "items", "totalCopies" ]
+      },
+      "CraftResponse" : {
+        "type" : "object",
+        "properties" : {
+          "cardId" : {
+            "type" : "string"
+          },
+          "finish" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "influenceBalance" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "influenceSpent" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "cardId", "finish", "influenceBalance", "influenceSpent" ]
+      },
+      "DrawnCardDto" : {
+        "type" : "object",
+        "properties" : {
+          "cardId" : {
+            "type" : "string"
+          },
+          "finish" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "influenceGained" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "isNew" : {
+            "type" : "boolean",
+            "description" : "The player owned no copy of this card before"
+          },
+          "isNewFinish" : {
+            "type" : "boolean",
+            "description" : "The player owned no copy of this card in this finish before"
+          },
+          "rarity" : {
+            "type" : "string",
+            "enum" : [ "common", "uncommon", "rare", "epic", "legendary", "mythic" ]
+          },
+          "slot" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "1-based slot, 5 is the guaranteed rare-or-better slot"
+          }
+        },
+        "required" : [ "cardId", "finish", "influenceGained", "isNew", "isNewFinish", "rarity", "slot" ]
+      },
+      "FinishOddsDto" : {
+        "type" : "object",
+        "properties" : {
+          "finish" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "guaranteedSlotOnly" : {
+            "type" : "boolean",
+            "description" : "Only the guaranteed slot (5) can roll this finish"
+          },
+          "minRarity" : {
+            "type" : [ "string", "null" ],
+            "description" : "Minimum rarity eligible for this finish",
+            "enum" : [ "common", "uncommon", "rare", "epic", "legendary", "mythic" ]
+          },
+          "percent" : {
+            "type" : "number",
+            "format" : "double",
+            "description" : "Percent, per drawn card"
+          }
+        },
+        "required" : [ "finish", "guaranteedSlotOnly", "percent" ]
+      },
+      "FreePacksDto" : {
+        "type" : "object",
+        "properties" : {
+          "available" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "intervalSeconds" : {
+            "type" : "integer",
+            "format" : "int64"
+          },
+          "max" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "nextAt" : {
+            "type" : [ "string", "null" ],
+            "format" : "date-time",
+            "description" : "Server time of the next free booster; null when the stock is full"
+          }
+        },
+        "required" : [ "available", "intervalSeconds", "max" ]
+      },
+      "LocalizedText" : {
+        "type" : "object",
+        "properties" : {
+          "en" : {
+            "type" : "string"
+          },
+          "fr" : {
+            "type" : "string"
+          }
+        },
+        "required" : [ "en", "fr" ]
+      },
       "MetaResponse" : {
         "type" : "object",
         "properties" : {
@@ -46,6 +522,257 @@
           }
         },
         "required" : [ "apiVersion", "appName", "serverTime" ]
+      },
+      "OddsResponse" : {
+        "type" : "object",
+        "properties" : {
+          "continentFallback" : {
+            "type" : "boolean",
+            "description" : "Themed booster: a rarity without any card of the continent is drawn from the whole season"
+          },
+          "finishes" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/FinishOddsDto"
+            }
+          },
+          "packId" : {
+            "type" : "string"
+          },
+          "pity" : {
+            "$ref" : "#/components/schemas/PityRulesDto"
+          },
+          "slots" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/SlotOddsDto"
+            }
+          }
+        },
+        "required" : [ "continentFallback", "finishes", "packId", "pity", "slots" ]
+      },
+      "OpenPackResponse" : {
+        "type" : "object",
+        "properties" : {
+          "bonusPacks" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "cards" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/DrawnCardDto"
+            }
+          },
+          "firstPack" : {
+            "type" : "boolean"
+          },
+          "freePacks" : {
+            "$ref" : "#/components/schemas/FreePacksDto"
+          },
+          "influenceGained" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Influence granted for duplicates in this booster"
+          },
+          "openedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "openingId" : {
+            "type" : "string",
+            "format" : "uuid"
+          },
+          "packId" : {
+            "type" : "string"
+          },
+          "pity" : {
+            "$ref" : "#/components/schemas/PityDto"
+          }
+        },
+        "required" : [ "bonusPacks", "cards", "firstPack", "freePacks", "influenceGained", "openedAt", "openingId", "packId", "pity" ]
+      },
+      "OwnedCardDto" : {
+        "type" : "object",
+        "properties" : {
+          "cardId" : {
+            "type" : "string"
+          },
+          "finish" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "firstObtainedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "lastObtainedAt" : {
+            "type" : "string",
+            "format" : "date-time"
+          },
+          "quantity" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "cardId", "finish", "firstObtainedAt", "lastObtainedAt", "quantity" ]
+      },
+      "PackDto" : {
+        "type" : "object",
+        "properties" : {
+          "continent" : {
+            "type" : [ "string", "null" ],
+            "description" : "Null for the standard booster",
+            "enum" : [ "africa", "asia", "europe", "north_america", "south_america", "oceania" ]
+          },
+          "id" : {
+            "type" : "string"
+          },
+          "requiredLevel" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "unlocked" : {
+            "type" : "boolean"
+          }
+        },
+        "required" : [ "id", "requiredLevel", "unlocked" ]
+      },
+      "PacksResponse" : {
+        "type" : "object",
+        "properties" : {
+          "bonusPacks" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "freePacks" : {
+            "$ref" : "#/components/schemas/FreePacksDto"
+          },
+          "packs" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/PackDto"
+            }
+          },
+          "pity" : {
+            "$ref" : "#/components/schemas/PityDto"
+          }
+        },
+        "required" : [ "bonusPacks", "freePacks", "packs", "pity" ]
+      },
+      "PityDto" : {
+        "type" : "object",
+        "properties" : {
+          "epicGuaranteedIn" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Boosters left until an epic or better is guaranteed (1 = the next one)"
+          },
+          "legendaryGuaranteedIn" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "packsSinceEpic" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "packsSinceLegendary" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "epicGuaranteedIn", "legendaryGuaranteedIn", "packsSinceEpic", "packsSinceLegendary" ]
+      },
+      "PityRulesDto" : {
+        "type" : "object",
+        "properties" : {
+          "epicEveryPacks" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "legendaryEveryPacks" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "epicEveryPacks", "legendaryEveryPacks" ]
+      },
+      "RarityOddsDto" : {
+        "type" : "object",
+        "properties" : {
+          "percent" : {
+            "type" : "number",
+            "format" : "double",
+            "description" : "Percent"
+          },
+          "rarity" : {
+            "type" : "string",
+            "enum" : [ "common", "uncommon", "rare", "epic", "legendary", "mythic" ]
+          }
+        },
+        "required" : [ "percent", "rarity" ]
+      },
+      "RecycleRequest" : {
+        "type" : "object",
+        "properties" : {
+          "finish" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "quantity" : {
+            "type" : "integer",
+            "format" : "int32",
+            "description" : "Copies to recycle; at least one copy of this finish is always kept",
+            "maximum" : 999,
+            "minimum" : 1
+          }
+        },
+        "required" : [ "finish" ]
+      },
+      "RecycleResponse" : {
+        "type" : "object",
+        "properties" : {
+          "cardId" : {
+            "type" : "string"
+          },
+          "finish" : {
+            "type" : "string",
+            "enum" : [ "standard", "holo", "full_art", "gold" ]
+          },
+          "influenceBalance" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "influenceGained" : {
+            "type" : "integer",
+            "format" : "int32"
+          },
+          "remainingQuantity" : {
+            "type" : "integer",
+            "format" : "int32"
+          }
+        },
+        "required" : [ "cardId", "finish", "influenceBalance", "influenceGained", "remainingQuantity" ]
+      },
+      "SlotOddsDto" : {
+        "type" : "object",
+        "properties" : {
+          "rarities" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/components/schemas/RarityOddsDto"
+            }
+          },
+          "slots" : {
+            "type" : "array",
+            "description" : "1-based slot numbers",
+            "items" : {
+              "type" : "integer",
+              "format" : "int32"
+            }
+          }
+        },
+        "required" : [ "rarities", "slots" ]
       }
     },
     "securitySchemes" : {

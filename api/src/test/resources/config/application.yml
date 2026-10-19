@@ -1,0 +1,6 @@
+# Loaded in addition to the main application.yml (classpath:/config/ has higher precedence):
+# tests always use the small fixture catalog, never the real data/ files.
+mandat:
+  catalog:
+    location: classpath:catalog/cards.test.json
+    first-pack-rules-location: classpath:catalog/no-first-pack-rules.json
