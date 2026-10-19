@@ -161,7 +161,133 @@
     "settingsButton": "Réglages",
     "showcase": {
       "title": "Vitrine",
-      "empty": "Choisis jusqu'à 6 cartes à exposer ici."
+      "empty": "Choisis jusqu'à 6 cartes à exposer ici.",
+      "count_one": "{{count}}/6 carte",
+      "count_other": "{{count}}/6 cartes",
+      "add": "Ajouter",
+      "full": "Ta vitrine est pleine : retire une carte pour en ajouter une autre.",
+      "reorderHint": "Maintiens une carte puis fais-la glisser pour changer l'ordre.",
+      "cardLabel": "{{name}}, dans la vitrine"
+    },
+    "friendCode": "Code ami",
+    "offline": "Hors ligne : ton profil s'affiche tel qu'enregistré, les modifications reviennent avec le réseau.",
+    "favorite": {
+      "title": "Carte favorite",
+      "empty": "Choisir une favorite",
+      "none": "Aucune carte favorite",
+      "hint": "Choisis la carte mise en avant en haut de ton profil."
+    },
+    "actions": {
+      "editShowcase": "Modifier la vitrine",
+      "copyCode": "Copier le code",
+      "copied": "Code ami copié.",
+      "shareLink": "Inviter",
+      "shareMessage": "Ajoute-moi sur MANDAT : je suis {{nickname}}.",
+      "shareImage": "Partager mon profil"
+    },
+    "stats": {
+      "title": "Statistiques",
+      "collection_one": "{{count}} carte sur {{total}}",
+      "collection_other": "{{count}} cartes sur {{total}}",
+      "level": "Niveau",
+      "packs": "Boosters ouverts",
+      "bestStreak": "Meilleure série",
+      "legendary": "Légendaires",
+      "mythic": "Mythiques",
+      "duelWins": "Duels gagnés"
+    },
+    "badges": {
+      "title": "Succès",
+      "count": "{{unlocked}}/{{total}}",
+      "none": "Aucun succès pour l'instant.",
+      "showAll": "Voir tous les succès",
+      "showLess": "Voir moins",
+      "unlocked": "{{family}}, palier {{threshold}}, débloqué",
+      "locked": "{{family}}, palier {{threshold}}, {{percent}} %",
+      "families": {
+        "packs": "Boosters ouverts",
+        "collection": "Collection",
+        "continent": "Continent",
+        "era": "Époque",
+        "rarity_rare": "Cartes rares",
+        "rarity_epic": "Cartes épiques",
+        "rarity_legendary": "Cartes légendaires",
+        "rarity_mythic": "Cartes mythiques",
+        "finish_holo": "Finitions holo",
+        "finish_full_art": "Finitions full art",
+        "finish_gold": "Finitions or",
+        "streak": "Série",
+        "level": "Niveau",
+        "quiz": "Quiz terminés",
+        "quiz_perfect": "Quiz parfaits",
+        "duel": "Duels gagnés",
+        "recycle": "Recyclage",
+        "craft": "Fabrication"
+      }
+    },
+    "visibility": {
+      "label": "Profil privé",
+      "privateHint": "Seuls tes amis voient ta vitrine et tes statistiques.",
+      "publicHint": "Tout joueur qui a ton code ami peut voir ton profil."
+    },
+    "picker": {
+      "avatar": "Choisir un avatar",
+      "banner": "Choisir une bannière",
+      "title": "Choisir un titre",
+      "avatarOption": "Avatar",
+      "bannerOption": "Bannière",
+      "noTitle": "Aucun titre",
+      "avatarHint": "Change ton avatar.",
+      "bannerHint": "Change ta bannière.",
+      "unlockMore": "Monte de niveau, termine des succès et avance dans le pass de saison pour en débloquer d'autres."
+    },
+    "cardPicker": {
+      "showcaseTitle": "Vitrine ({{count}}/{{max}})",
+      "favoriteTitle": "Carte favorite",
+      "search": "Rechercher une carte",
+      "empty": "Ouvre des boosters pour remplir ta collection.",
+      "showcaseHint": "Chaque finition compte comme une carte différente.",
+      "clearFavorite": "Retirer la favorite"
+    },
+    "cardActions": {
+      "addToShowcase": "Ajouter à la vitrine",
+      "removeFromShowcase": "Retirer de la vitrine",
+      "addedToShowcase": "Ajoutée à ta vitrine.",
+      "removedFromShowcase": "Retirée de ta vitrine.",
+      "setFavorite": "Mettre en favorite",
+      "favorite": "Ta favorite",
+      "favoriteSet": "C'est ta nouvelle carte favorite.",
+      "favoriteCleared": "Carte favorite retirée."
+    },
+    "nickname": {
+      "open": "Changer de pseudo",
+      "title": "Changer de pseudo",
+      "label": "Nouveau pseudo",
+      "rule": "Le premier changement est libre, ensuite un changement tous les 30 jours.",
+      "cooldown": "Prochain changement possible le {{date}}.",
+      "save": "Enregistrer",
+      "done": "Tu t'appelles maintenant {{nickname}}."
+    },
+    "titles": {
+      "rising_statesman": "Homme ou femme d'État en devenir",
+      "head_of_state": "Chef d'État",
+      "world_leader": "Dirigeant mondial",
+      "living_legend": "Légende vivante",
+      "diplomat": "Diplomate",
+      "strategist": "Stratège",
+      "great_collector": "Grand collectionneur",
+      "golden_touch": "Toucher d'or",
+      "unwavering": "Inébranlable",
+      "expert": "Expert de {{continent}}",
+      "seasonChampion": "Champion de la saison {{season}}"
+    },
+    "continents": {
+      "africa": "l'Afrique",
+      "asia": "l'Asie",
+      "europe": "l'Europe",
+      "north_america": "l'Amérique du Nord",
+      "south_america": "l'Amérique du Sud",
+      "oceania": "l'Océanie"
     }
   },
   "card": {
@@ -203,8 +329,7 @@
     }
   },
   "user": {
-    "title": "Joueur",
-    "placeholder": "Les profils publics arrivent dans une prochaine phase."
+    "title": "Joueur"
   },
   "settings": {
     "title": "Réglages",
@@ -280,7 +405,12 @@
     "reward_already_claimed": "Tu as déjà récupéré cette récompense.",
     "mission_expired": "Cette mission est terminée.",
     "season_tier_not_found": "Ce palier n'existe pas.",
-    "internal_error": "Le serveur a rencontré un problème. Réessaie dans un instant."
+    "internal_error": "Le serveur a rencontré un problème. Réessaie dans un instant.",
+    "profile_private": "Ce profil est privé.",
+    "cosmetic_locked": "Tu n'as pas encore débloqué cet élément.",
+    "nickname_change_too_soon": "Tu as changé de pseudo récemment. Réessaie plus tard.",
+    "friend_limit_reached": "Limite d'amis ou de demandes atteinte.",
+    "cannot_target_self": "Tu ne peux pas faire ça sur ton propre profil."
   },
   "notFound": {
     "title": "Page introuvable",
@@ -392,5 +522,79 @@
     "unknownLicense": "licence inconnue",
     "line": "Photo : {{artist}}, {{license}}",
     "empty": "Aucun crédit ne correspond à cette recherche."
+  },
+  "friends": {
+    "title": "Amis",
+    "open": "Amis",
+    "openWithRequests_one": "Amis, {{count}} demande reçue",
+    "openWithRequests_other": "Amis, {{count}} demandes reçues",
+    "add": {
+      "title": "Ajouter un ami",
+      "label": "Code ami",
+      "hint": "8 caractères, par exemple ABCD 2345.",
+      "button": "Ajouter"
+    },
+    "added": {
+      "requested": "Demande envoyée.",
+      "accepted": "Vous êtes maintenant amis.",
+      "unchanged": "C'est déjà fait."
+    },
+    "incoming_one": "{{count}} demande reçue",
+    "incoming_other": "{{count}} demandes reçues",
+    "outgoing": "Demandes envoyées",
+    "list": "Mes amis",
+    "count": "{{count}}/{{max}}",
+    "empty": "Pas encore d'amis. Partage ton code ami pour commencer.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "cancel": "Annuler",
+    "pending": "En attente",
+    "openProfile": "Voir le profil de {{nickname}}",
+    "remove": {
+      "button": "Options pour {{nickname}}",
+      "title": "Retirer {{nickname}} ?",
+      "body": "Vous ne verrez plus vos profils privés respectifs. Tu pourras le réinviter plus tard.",
+      "confirm": "Retirer de mes amis",
+      "cancel": "Garder"
+    }
+  },
+  "social": {
+    "friend": "Ami",
+    "notFound": "Aucun joueur ne correspond à ce code.",
+    "private": {
+      "title": "Profil privé",
+      "body": "Ce joueur partage son profil avec ses amis uniquement. Envoie-lui une demande."
+    },
+    "showcaseEmpty": "{{nickname}} n'a encore rien exposé.",
+    "tabs": {
+      "label": "Affichage",
+      "profile": "Profil",
+      "compare": "Comparer"
+    },
+    "compare": {
+      "common_one": "{{count}} carte en commun",
+      "common_other": "{{count}} cartes en commun",
+      "theyHave": "{{nickname}} les a, pas toi ({{count}})",
+      "youHave": "Tu les as, pas {{nickname}} ({{count}})",
+      "nothing": "Rien ici.",
+      "showAll": "Voir les {{count}} cartes",
+      "showLess": "Voir moins"
+    }
+  },
+  "report": {
+    "open": "Signaler le profil de {{nickname}}",
+    "title": "Signaler {{nickname}}",
+    "intro": "Ton signalement reste confidentiel. L'équipe de modération l'examinera.",
+    "reasons": {
+      "offensive_nickname": "Pseudo offensant",
+      "inappropriate_profile": "Profil inapproprié",
+      "cheating": "Triche",
+      "harassment": "Harcèlement",
+      "other": "Autre"
+    },
+    "noteLabel": "Précisions (facultatif)",
+    "noteHint": "{{max}} caractères maximum, jamais affichés publiquement.",
+    "send": "Envoyer le signalement",
+    "sent": "Merci, ton signalement a été envoyé."
   }
 }

@@ -4,6 +4,7 @@ import { StyleSheet, View } from 'react-native';
 import { Body, Button3D, Caption, Card, SectionHeader, SettingRow, Sheet } from '@/components/ui';
 import { deleteAccount, logout } from '@/features/auth/api';
 import { useMeQuery } from '@/features/player/queries';
+import { NicknameSheet } from '@/features/profile/NicknameSheet';
 import { useTranslation } from '@/i18n';
 import { errorMessageKey } from '@/lib/api';
 import { haptics } from '@/lib/haptics';
@@ -14,6 +15,7 @@ export function AccountSection() {
   const { t } = useTranslation();
   const me = useMeQuery();
   const [confirmVisible, setConfirmVisible] = useState(false);
+  const [nicknameVisible, setNicknameVisible] = useState(false);
   const [busy, setBusy] = useState<'logout' | 'delete' | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -42,6 +44,15 @@ export function AccountSection() {
         />
         {account?.email ? <SettingRow icon="mail-outline" label={account.email} /> : null}
         <Button3D
+          label={t('profile.nickname.open')}
+          icon="create-outline"
+          variant="secondary"
+          size="sm"
+          fullWidth
+          disabled={!account || busy !== null}
+          onPress={() => setNicknameVisible(true)}
+        />
+        <Button3D
           label={t('settings.accountInfo.logout')}
           icon="log-out-outline"
           variant="secondary"
@@ -58,6 +69,10 @@ export function AccountSection() {
           onPress={() => setConfirmVisible(true)}
         />
       </Card>
+
+      {account ? (
+        <NicknameSheet visible={nicknameVisible} current={account.nickname} onClose={() => setNicknameVisible(false)} />
+      ) : null}
 
       <Sheet
         visible={confirmVisible}

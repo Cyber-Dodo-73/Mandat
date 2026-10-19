@@ -161,7 +161,133 @@
     "settingsButton": "Settings",
     "showcase": {
       "title": "Showcase",
-      "empty": "Pick up to 6 cards to display here."
+      "empty": "Pick up to 6 cards to display here.",
+      "count_one": "{{count}}/6 card",
+      "count_other": "{{count}}/6 cards",
+      "add": "Add",
+      "full": "Your showcase is full: remove a card to add another.",
+      "reorderHint": "Hold a card, then drag it to change the order.",
+      "cardLabel": "{{name}}, in the showcase"
+    },
+    "friendCode": "Friend code",
+    "offline": "Offline: your profile shows as last saved; editing comes back with the network.",
+    "favorite": {
+      "title": "Favorite card",
+      "empty": "Pick a favorite",
+      "none": "No favorite card",
+      "hint": "Choose the card featured at the top of your profile."
+    },
+    "actions": {
+      "editShowcase": "Edit showcase",
+      "copyCode": "Copy code",
+      "copied": "Friend code copied.",
+      "shareLink": "Invite",
+      "shareMessage": "Add me on MANDAT: I'm {{nickname}}.",
+      "shareImage": "Share my profile"
+    },
+    "stats": {
+      "title": "Stats",
+      "collection_one": "{{count}} card out of {{total}}",
+      "collection_other": "{{count}} cards out of {{total}}",
+      "level": "Level",
+      "packs": "Boosters opened",
+      "bestStreak": "Best streak",
+      "legendary": "Legendaries",
+      "mythic": "Mythics",
+      "duelWins": "Duels won"
+    },
+    "badges": {
+      "title": "Achievements",
+      "count": "{{unlocked}}/{{total}}",
+      "none": "No achievements yet.",
+      "showAll": "See all achievements",
+      "showLess": "See less",
+      "unlocked": "{{family}}, tier {{threshold}}, unlocked",
+      "locked": "{{family}}, tier {{threshold}}, {{percent}}%",
+      "families": {
+        "packs": "Boosters opened",
+        "collection": "Collection",
+        "continent": "Continent",
+        "era": "Era",
+        "rarity_rare": "Rare cards",
+        "rarity_epic": "Epic cards",
+        "rarity_legendary": "Legendary cards",
+        "rarity_mythic": "Mythic cards",
+        "finish_holo": "Holo finishes",
+        "finish_full_art": "Full art finishes",
+        "finish_gold": "Gold finishes",
+        "streak": "Streak",
+        "level": "Level",
+        "quiz": "Quizzes finished",
+        "quiz_perfect": "Perfect quizzes",
+        "duel": "Duels won",
+        "recycle": "Recycling",
+        "craft": "Crafting"
+      }
+    },
+    "visibility": {
+      "label": "Private profile",
+      "privateHint": "Only your friends see your showcase and stats.",
+      "publicHint": "Any player with your friend code can see your profile."
+    },
+    "picker": {
+      "avatar": "Pick an avatar",
+      "banner": "Pick a banner",
+      "title": "Pick a title",
+      "avatarOption": "Avatar",
+      "bannerOption": "Banner",
+      "noTitle": "No title",
+      "avatarHint": "Changes your avatar.",
+      "bannerHint": "Changes your banner.",
+      "unlockMore": "Level up, complete achievements and climb the season pass to unlock more."
+    },
+    "cardPicker": {
+      "showcaseTitle": "Showcase ({{count}}/{{max}})",
+      "favoriteTitle": "Favorite card",
+      "search": "Search a card",
+      "empty": "Open boosters to fill your collection.",
+      "showcaseHint": "Each finish counts as a separate card.",
+      "clearFavorite": "Remove favorite"
+    },
+    "cardActions": {
+      "addToShowcase": "Add to showcase",
+      "removeFromShowcase": "Remove from showcase",
+      "addedToShowcase": "Added to your showcase.",
+      "removedFromShowcase": "Removed from your showcase.",
+      "setFavorite": "Set as favorite",
+      "favorite": "Your favorite",
+      "favoriteSet": "This is your new favorite card.",
+      "favoriteCleared": "Favorite card removed."
+    },
+    "nickname": {
+      "open": "Change nickname",
+      "title": "Change nickname",
+      "label": "New nickname",
+      "rule": "The first change is free, then one change every 30 days.",
+      "cooldown": "Next change possible on {{date}}.",
+      "save": "Save",
+      "done": "You're now {{nickname}}."
+    },
+    "titles": {
+      "rising_statesman": "Rising statesman",
+      "head_of_state": "Head of state",
+      "world_leader": "World leader",
+      "living_legend": "Living legend",
+      "diplomat": "Diplomat",
+      "strategist": "Strategist",
+      "great_collector": "Great collector",
+      "golden_touch": "Golden touch",
+      "unwavering": "Unwavering",
+      "expert": "{{continent}} expert",
+      "seasonChampion": "Season {{season}} champion"
+    },
+    "continents": {
+      "africa": "Africa",
+      "asia": "Asia",
+      "europe": "Europe",
+      "north_america": "North America",
+      "south_america": "South America",
+      "oceania": "Oceania"
     }
   },
   "card": {
@@ -203,8 +329,7 @@
     }
   },
   "user": {
-    "title": "Player",
-    "placeholder": "Public profiles arrive in an upcoming phase."
+    "title": "Player"
   },
   "settings": {
     "title": "Settings",
@@ -280,7 +405,12 @@
     "reward_already_claimed": "You already claimed this reward.",
     "mission_expired": "This mission is over.",
     "season_tier_not_found": "This tier doesn't exist.",
-    "internal_error": "The server ran into a problem. Try again in a moment."
+    "internal_error": "The server ran into a problem. Try again in a moment.",
+    "profile_private": "This profile is private.",
+    "cosmetic_locked": "You haven't unlocked this yet.",
+    "nickname_change_too_soon": "You changed your nickname recently. Try again later.",
+    "friend_limit_reached": "Friend or request limit reached.",
+    "cannot_target_self": "You can't do that on your own profile."
   },
   "notFound": {
     "title": "Page not found",
@@ -392,5 +522,79 @@
     "unknownLicense": "unknown license",
     "line": "Photo: {{artist}}, {{license}}",
     "empty": "No credit matches this search."
+  },
+  "friends": {
+    "title": "Friends",
+    "open": "Friends",
+    "openWithRequests_one": "Friends, {{count}} request received",
+    "openWithRequests_other": "Friends, {{count}} requests received",
+    "add": {
+      "title": "Add a friend",
+      "label": "Friend code",
+      "hint": "8 characters, for example ABCD 2345.",
+      "button": "Add"
+    },
+    "added": {
+      "requested": "Request sent.",
+      "accepted": "You're now friends.",
+      "unchanged": "Already done."
+    },
+    "incoming_one": "{{count}} request received",
+    "incoming_other": "{{count}} requests received",
+    "outgoing": "Requests sent",
+    "list": "My friends",
+    "count": "{{count}}/{{max}}",
+    "empty": "No friends yet. Share your friend code to get started.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "cancel": "Cancel",
+    "pending": "Pending",
+    "openProfile": "See {{nickname}}'s profile",
+    "remove": {
+      "button": "Options for {{nickname}}",
+      "title": "Remove {{nickname}}?",
+      "body": "You won't see each other's private profiles anymore. You can invite them again later.",
+      "confirm": "Remove from friends",
+      "cancel": "Keep"
+    }
+  },
+  "social": {
+    "friend": "Friend",
+    "notFound": "No player matches this code.",
+    "private": {
+      "title": "Private profile",
+      "body": "This player only shares their profile with friends. Send them a request."
+    },
+    "showcaseEmpty": "{{nickname}} hasn't displayed anything yet.",
+    "tabs": {
+      "label": "View",
+      "profile": "Profile",
+      "compare": "Compare"
+    },
+    "compare": {
+      "common_one": "{{count}} card in common",
+      "common_other": "{{count}} cards in common",
+      "theyHave": "{{nickname}} has them, you don't ({{count}})",
+      "youHave": "You have them, {{nickname}} doesn't ({{count}})",
+      "nothing": "Nothing here.",
+      "showAll": "See all {{count}} cards",
+      "showLess": "See less"
+    }
+  },
+  "report": {
+    "open": "Report {{nickname}}'s profile",
+    "title": "Report {{nickname}}",
+    "intro": "Your report stays confidential. The moderation team will review it.",
+    "reasons": {
+      "offensive_nickname": "Offensive nickname",
+      "inappropriate_profile": "Inappropriate profile",
+      "cheating": "Cheating",
+      "harassment": "Harassment",
+      "other": "Other"
+    },
+    "noteLabel": "Details (optional)",
+    "noteHint": "Up to {{max}} characters, never shown publicly.",
+    "send": "Send report",
+    "sent": "Thanks, your report was sent."
   }
 }
