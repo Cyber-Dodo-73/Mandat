@@ -17,7 +17,9 @@ const MAX_ROTATION = 14;
 /** Phone rotation (radians) that maps to full tilt. */
 const GYRO_RANGE = 0.45;
 /** Low-pass filter weight for gyroscope readings: lower is smoother. */
-const GYRO_SMOOTHING = 0.18;
+const GYRO_SMOOTHING = 0.3;
+/** Sensor sampling period. Every sample crosses the bridge to JS: 30 Hz keeps the thread free. */
+const GYRO_INTERVAL_MS = 33;
 
 const SPRING_BACK = { damping: 14, stiffness: 140, mass: 0.8 };
 
@@ -58,7 +60,7 @@ export function useTilt({ width, pan, gyro, reduceMotion }: UseTiltOptions): Til
     let active = true;
     void DeviceMotion.isAvailableAsync().then((available) => {
       if (!available || !active) return;
-      DeviceMotion.setUpdateInterval(16);
+      DeviceMotion.setUpdateInterval(GYRO_INTERVAL_MS);
       subscription = DeviceMotion.addListener(({ rotation }) => {
         if (!rotation) return;
         // The orientation when the card appears is "flat": tilt is measured from there.

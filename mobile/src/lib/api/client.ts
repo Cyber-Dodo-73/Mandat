@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import createClient, { type Middleware } from 'openapi-fetch';
 
-import { API_URL } from './config';
+import { API_URL, REQUEST_TIMEOUT_MS } from './config';
 import { refreshAccessToken } from './refresh';
 import type { paths } from './schema';
 import { tokenStore } from './tokens';
@@ -20,8 +20,23 @@ export async function plainFetch(request: Request): Promise<Response> {
   request.headers.forEach((value, key) => {
     headers[key] = value;
   });
-  const response = await fetch(request.url, { method: request.method, headers, body: body || undefined });
-  return asGlobalResponse(response);
+  // Bounded wait: a call that never answers is reported as a network failure, like a dropped one.
+  const abort = new AbortController();
+  const timer = setTimeout(() => abort.abort(), REQUEST_TIMEOUT_MS);
+  try {
+    const response = await fetch(request.url, {
+      method: request.method,
+      headers,
+      body: body || undefined,
+      signal: abort.signal,
+    });
+    return await asGlobalResponse(response);
+  } catch (cause) {
+    if (abort.signal.aborted) throw new TypeError('Network request timed out');
+    throw cause;
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 const NO_BODY_STATUSES = new Set([101, 204, 205, 304]);

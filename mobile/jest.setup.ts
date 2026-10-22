@@ -16,3 +16,14 @@ jest.mock('react-native-mmkv', () => ({
 
 // NetInfo needs its native module: use the mock shipped with the package.
 jest.mock('@react-native-community/netinfo', () => require('@react-native-community/netinfo/jest/netinfo-mock.js'));
+
+// Sentry needs its native module: keep the public surface used by the app as no-ops.
+jest.mock('@sentry/react-native', () => ({
+  init: jest.fn(),
+  wrap: (component: unknown) => component,
+  wrapExpoRouterErrorBoundary: (component: unknown) => component,
+  expoRouterIntegration: jest.fn(() => ({ name: 'ExpoRouter' })),
+  setUser: jest.fn(),
+  addBreadcrumb: jest.fn(),
+  captureException: jest.fn(),
+}));

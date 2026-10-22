@@ -38,16 +38,33 @@ class RefreshToken {
     @Column(name = "revoked_at")
     private Instant revokedAt;
 
+    /** Token this one was issued in exchange of (null for the first of a family). */
+    @Column(name = "parent_id", updatable = false)
+    private UUID parentId;
+
+    /** Set when this already-used token was accepted again under the rotation grace. */
+    @Column(name = "reused_at")
+    private Instant reusedAt;
+
     protected RefreshToken() {}
 
     RefreshToken(UUID userId, UUID familyId, byte[] tokenHash, String deviceLabel, Instant createdAt,
-            Instant expiresAt) {
+            Instant expiresAt, UUID parentId) {
         this.userId = userId;
         this.familyId = familyId;
         this.tokenHash = tokenHash;
         this.deviceLabel = deviceLabel;
         this.createdAt = createdAt;
         this.expiresAt = expiresAt;
+        this.parentId = parentId;
+    }
+
+    UUID getId() {
+        return id;
+    }
+
+    UUID getParentId() {
+        return parentId;
     }
 
     UUID getUserId() {
@@ -72,5 +89,9 @@ class RefreshToken {
 
     void revoke(Instant now) {
         this.revokedAt = now;
+    }
+
+    void markReused(Instant now) {
+        this.reusedAt = now;
     }
 }

@@ -47,7 +47,6 @@ export function HomeScreen() {
   // so it never overlaps them, from iPhone SE to Pro Max (room kept for the tilt and the float).
   const packWidth = Math.floor(Math.min(width * 0.58, (stage.height * 0.84) / BOOSTER_RATIO, 250));
   const data = packs.data;
-  const secondsLeft = useCountdown(data?.freePacks.nextFreePackAt ?? null);
   const active = data?.packs[activeIndex];
   // Free stock first, then bonus boosters won as rewards: the server applies the same order.
   const packsLeft = (data?.freePacks.stock ?? 0) + (data?.bonusPacks ?? 0);
@@ -124,11 +123,7 @@ export function HomeScreen() {
                   onPress={() => router.push('/quiz')}
                 />
                 <View style={styles.secondaryRow}>
-                  <Caption align="center" style={styles.flex}>
-                    {data.freePacks.nextFreePackAt
-                      ? t('packs.waitButton', { time: formatCountdown(secondsLeft) })
-                      : t('home.noPack.hint')}
-                  </Caption>
+                  <WaitHint nextFreePackAt={data.freePacks.nextFreePackAt ?? null} />
                   <Button3D
                     label={t('home.noPack.missions')}
                     variant="secondary"
@@ -164,6 +159,20 @@ export function HomeScreen() {
         </View>
       ) : null}
     </View>
+  );
+}
+
+/**
+ * "Next booster in…" line. Ticking every second is confined here: the hub above (Skia glow,
+ * carousel, top bar) must not re-render with the clock.
+ */
+function WaitHint({ nextFreePackAt }: { nextFreePackAt: string | null }) {
+  const { t } = useTranslation();
+  const secondsLeft = useCountdown(nextFreePackAt);
+  return (
+    <Caption align="center" style={styles.flex}>
+      {nextFreePackAt ? t('packs.waitButton', { time: formatCountdown(secondsLeft) }) : t('home.noPack.hint')}
+    </Caption>
   );
 }
 

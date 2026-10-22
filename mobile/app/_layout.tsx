@@ -1,23 +1,36 @@
 import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
+import { Stack, usePathname } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 
+import { AppErrorScreen } from '@/components/navigation/AppErrorScreen';
 import { AppProviders } from '@/components/navigation/AppProviders';
 import { useSessionStore } from '@/features/auth/session';
 import { initI18n } from '@/i18n';
+import { installCrashJournal, setCurrentScreen } from '@/lib/crashJournal';
+import { initMonitoring, wrapRoot } from '@/lib/monitoring';
 import { initSounds } from '@/lib/sounds';
 import { useTheme } from '@/theme';
 import { appFonts } from '@/theme/fonts';
 import { PerfOverlay } from '@/features/dev/PerfOverlay';
 
 initI18n();
+// First thing: every JS error from here on is reported and journaled before the app goes down.
+initMonitoring();
+installCrashJournal();
 
 void SplashScreen.preventAutoHideAsync();
 
+/** Any render error below the root lands on a recoverable screen instead of a silent restart. */
+export const ErrorBoundary = AppErrorScreen;
+
 function RootStack() {
   const { scheme, colors } = useTheme();
+  const pathname = usePathname();
+  useEffect(() => {
+    setCurrentScreen(pathname);
+  }, [pathname]);
   const signedIn = useSessionStore((state) => state.status === 'signedIn');
   return (
     <>
@@ -47,7 +60,7 @@ function RootStack() {
   );
 }
 
-export default function RootLayout() {
+function RootLayout() {
   const [fontsLoaded, fontError] = useFonts(appFonts);
   const sessionKnown = useSessionStore((state) => state.status !== 'loading');
   // The splash stays up until fonts are in and we know whether a session exists.
@@ -73,3 +86,5 @@ export default function RootLayout() {
     </AppProviders>
   );
 }
+
+export default wrapRoot(RootLayout);

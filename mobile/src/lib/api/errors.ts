@@ -1,3 +1,5 @@
+import { addBreadcrumb } from '@/lib/crashJournal';
+
 /** Stable codes of the API `ProblemDetail#code`, mirrored by the `errors.*` i18n keys. */
 export const API_ERROR_CODES = [
   'validation_failed',
@@ -136,12 +138,23 @@ export async function unwrap<T>(call: Promise<FetchResult<T>>): Promise<T> {
   try {
     result = await call;
   } catch (cause) {
-    throw toTransportError(cause);
+    const error = toTransportError(cause);
+    addBreadcrumb(`api ${error.code}: ${error.message}`);
+    throw error;
   }
   if (!result.response.ok || result.error !== undefined) {
-    throw problemToError(result.response.status, result.error);
+    const error = problemToError(result.response.status, result.error);
+    addBreadcrumb(`api ${result.response.status} ${error.code} ${pathOf(result.response.url)}`);
+    throw error;
   }
   return result.data as T;
+}
+
+/** Path only: no query string, no host (breadcrumbs stay free of tokens and ids). */
+function pathOf(url: string | undefined): string {
+  if (!url) return '';
+  const path = url.replace(/^[a-z]+:\/\/[^/]+/i, '').split('?')[0] ?? '';
+  return path.replace(/[0-9a-f]{8}-[0-9a-f-]{27}/gi, ':id');
 }
 
 /** User-facing message for an error: translated text, plus the technical detail when unexpected. */

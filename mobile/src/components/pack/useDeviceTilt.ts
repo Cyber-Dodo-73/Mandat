@@ -8,10 +8,11 @@ import { springs } from '@/theme/motion';
 /** Phone rotation (radians) that maps to a full tilt of 1. */
 const FULL_TILT_RAD = 0.35;
 /** Low-pass factor applied to each sample: lower is smoother but laggier. */
-const SMOOTHING = 0.18;
+const SMOOTHING = 0.3;
 /** How fast the neutral pose follows the way the phone is held. */
-const RECENTER = 0.012;
-const UPDATE_INTERVAL_MS = 16;
+const RECENTER = 0.024;
+/** Every sample crosses the bridge to JS: 30 Hz keeps the thread free for the UI. */
+const UPDATE_INTERVAL_MS = 33;
 
 const clamp = (value: number) => Math.max(-1, Math.min(1, value));
 

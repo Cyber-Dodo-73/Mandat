@@ -459,6 +459,15 @@
       "empty": "No blocked players.",
       "unblock": "Unblock",
       "unblockA11y": "Unblock {{nickname}}"
+    },
+    "diagnostics": {
+      "title": "Diagnostics",
+      "journal": "Incident log",
+      "none": "No incident recorded.",
+      "lastIncident": "Last incident: {{date}}",
+      "hint": "Copy this report and send it to support: it contains no personal data.",
+      "copy": "Copy report",
+      "clear": "Clear log"
     }
   },
   "errors": {
@@ -514,7 +523,12 @@
     "friend_already_active": "Your friend already played today.",
     "account_banned": "This account is suspended. Contact support if you think this is a mistake.",
     "terms_not_accepted": "Accept the terms of use to continue.",
-    "invalid_reset_token": "This link is invalid or expired. Ask for a new one."
+    "invalid_reset_token": "This link is invalid or expired. Ask for a new one.",
+    "crash": {
+      "title": "Oops, the app stumbled",
+      "body": "An unexpected error occurred. Details were saved under Settings > Diagnostics.",
+      "retry": "Resume"
+    }
   },
   "notFound": {
     "title": "Page not found",

@@ -2,6 +2,7 @@ package com.mandat.api.auth;
 
 import jakarta.persistence.LockModeType;
 import java.time.Instant;
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -19,6 +20,13 @@ interface RefreshTokenRepository extends JpaRepository<RefreshToken, UUID> {
 
     @Query("select t from RefreshToken t where t.tokenHash = :hash")
     Optional<RefreshToken> findByHash(@Param("hash") byte[] hash);
+
+    /** The tokens of a family that were never presented (normally exactly one: the latest issued). */
+    @Lock(LockModeType.PESSIMISTIC_WRITE)
+    @Query("select t from RefreshToken t where t.familyId = :familyId and t.revokedAt is null")
+    List<RefreshToken> findLiveInFamilyForUpdate(@Param("familyId") UUID familyId);
+
+    long countByFamilyIdAndReusedAtIsNotNull(UUID familyId);
 
     @Modifying
     @Query("update RefreshToken t set t.revokedAt = :now where t.familyId = :familyId and t.revokedAt is null")

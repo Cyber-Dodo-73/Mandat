@@ -18,6 +18,7 @@ import {
   type IconName,
   type SegmentOption,
 } from '@/components/ui';
+import { DiagnosticsSection } from '@/features/diagnostics/DiagnosticsSection';
 import { openLegalPage, type LegalPage } from '@/features/legal/links';
 import { NotificationPreferences } from '@/features/push/NotificationPreferences';
 import { SUPPORTED_LANGUAGES, useLanguage, useTranslation, type Language } from '@/i18n';
@@ -149,6 +150,8 @@ export function SettingsScreen() {
       <AccountSection />
 
       <BlockedPlayersSection />
+
+      <DiagnosticsSection />
 
       <View style={styles.section}>
         <SectionHeader title={t('settings.sections.about')} />

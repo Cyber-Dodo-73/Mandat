@@ -12,6 +12,18 @@ const bundleId = IS_DEV_VARIANT ? `${BUNDLE_ID}.dev` : BUNDLE_ID;
 const googleIosClientId = process.env.EXPO_PUBLIC_GOOGLE_IOS_CLIENT_ID;
 const googleIosScheme = googleIosClientId ? googleIosClientId.split('.').reverse().join('.') : null;
 
+/**
+ * Sentry source-map and debug-symbol upload at build time. Only wired when the Sentry project is
+ * named (EAS env SENTRY_ORG, SENTRY_PROJECT, plus the SENTRY_AUTH_TOKEN secret): without them the
+ * upload step would fail release builds. Runtime reporting only needs EXPO_PUBLIC_SENTRY_DSN.
+ */
+const sentryOrg = process.env.SENTRY_ORG;
+const sentryProject = process.env.SENTRY_PROJECT;
+const sentryPlugin: NonNullable<ExpoConfig['plugins']> =
+  sentryOrg && sentryProject
+    ? [['@sentry/react-native/expo', { organization: sentryOrg, project: sentryProject, url: 'https://sentry.io/' }]]
+    : [];
+
 /** Data the app collects, all linked to the account and used for app functionality only; no tracking. */
 const collected = (type: string) => ({
   NSPrivacyCollectedDataType: type,
@@ -77,6 +89,7 @@ const config: ExpoConfig = {
     'expo-router',
     // The dev launcher only belongs to development builds; release builds leave it out.
     ...(IS_DEV_VARIANT ? ['expo-dev-client'] : []),
+    ...sentryPlugin,
     'expo-audio',
     'expo-image',
     'expo-font',

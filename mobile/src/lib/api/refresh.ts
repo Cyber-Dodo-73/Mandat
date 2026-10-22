@@ -1,4 +1,4 @@
-import { API_URL } from './config';
+import { API_URL, REQUEST_TIMEOUT_MS } from './config';
 import { ApiError, NETWORK_ERROR, problemToError } from './errors';
 import type { components } from './schema';
 import { notifySessionExpired, tokenStore } from './tokens';
@@ -27,15 +27,22 @@ async function runRefresh(): Promise<string | null> {
   const tokens = tokenStore.get();
   if (!tokens) return null;
 
+  // A refresh that hangs on a bad connection must fail fast: the session is kept and the
+  // next request tries again (the server forgives a rotation whose answer never arrived).
+  const abort = new AbortController();
+  const timer = setTimeout(() => abort.abort(), REQUEST_TIMEOUT_MS);
   let response: Response;
   try {
     response = await fetch(`${API_URL}${REFRESH_PATH}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
       body: JSON.stringify({ refreshToken: tokens.refreshToken }),
+      signal: abort.signal,
     });
   } catch {
     throw new ApiError(0, NETWORK_ERROR);
+  } finally {
+    clearTimeout(timer);
   }
 
   if (!response.ok) {

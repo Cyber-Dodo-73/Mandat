@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 
 import { clearQueryCache, onSessionExpired, tokenStore, type components } from '@/lib/api';
+import { setMonitoringUser } from '@/lib/monitoring';
 
 type AuthResponse = components['schemas']['AuthResponse'];
 
@@ -25,11 +26,13 @@ export const useSessionStore = create<SessionState>()((set) => ({
   },
   signIn: async (auth) => {
     await tokenStore.save({ accessToken: auth.accessToken, refreshToken: auth.refreshToken });
+    setMonitoringUser(auth.userId);
     set({ status: 'signedIn', isNewPlayer: auth.newUser });
   },
   clear: async () => {
     await tokenStore.clear();
     clearQueryCache();
+    setMonitoringUser(null);
     set({ status: 'signedOut', isNewPlayer: false });
   },
 }));
@@ -37,5 +40,6 @@ export const useSessionStore = create<SessionState>()((set) => ({
 // The refresh token was rejected (expired, revoked, reused): back to the welcome screen.
 onSessionExpired(() => {
   clearQueryCache();
+  setMonitoringUser(null);
   useSessionStore.setState({ status: 'signedOut', isNewPlayer: false });
 });

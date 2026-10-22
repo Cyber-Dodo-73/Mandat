@@ -152,11 +152,63 @@ class AuthFlowTests {
         String secondRefresh = JsonPath.read(second, "$.refreshToken");
         assertThat(secondRefresh).isNotEqualTo(firstRefresh);
 
-        // Replaying the used token is treated as theft: the whole family dies.
-        refresh(firstRefresh).andExpect(status().isUnauthorized())
-                .andExpect(jsonPath("$.code").value("invalid_refresh_token"));
+        // The client lost the rotation response: replaying the used token while its successor was
+        // never presented is forgiven once, and the lost successor dies instead.
+        String third = refresh(firstRefresh).andExpect(status().isOk()).andReturn().getResponse()
+                .getContentAsString(StandardCharsets.UTF_8);
+        String thirdRefresh = JsonPath.read(third, "$.refreshToken");
+        assertThat(thirdRefresh).isNotIn(firstRefresh, secondRefresh);
         refresh(secondRefresh).andExpect(status().isUnauthorized())
                 .andExpect(jsonPath("$.code").value("invalid_refresh_token"));
+
+        // That replay revoked the family: nothing in it works any more, grace included.
+        refresh(thirdRefresh).andExpect(status().isUnauthorized())
+                .andExpect(jsonPath("$.code").value("invalid_refresh_token"));
+        refresh(firstRefresh).andExpect(status().isUnauthorized())
+                .andExpect(jsonPath("$.code").value("invalid_refresh_token"));
+    }
+
+    @Test
+    void replayingAUsedTokenAfterItsSuccessorWasUsedRevokesTheFamily() throws Exception {
+        String first = register(uniqueEmail(), uniqueNickname()).andReturn().getResponse()
+                .getContentAsString(StandardCharsets.UTF_8);
+        String firstRefresh = JsonPath.read(first, "$.refreshToken");
+        String second = refresh(firstRefresh).andExpect(status().isOk()).andReturn().getResponse()
+                .getContentAsString(StandardCharsets.UTF_8);
+        String secondRefresh = JsonPath.read(second, "$.refreshToken");
+        String third = refresh(secondRefresh).andExpect(status().isOk()).andReturn().getResponse()
+                .getContentAsString(StandardCharsets.UTF_8);
+        String thirdRefresh = JsonPath.read(third, "$.refreshToken");
+
+        // The chain moved on with the second token: whoever still holds the first one is not the
+        // client that continued. Theft: the whole family dies.
+        refresh(firstRefresh).andExpect(status().isUnauthorized())
+                .andExpect(jsonPath("$.code").value("invalid_refresh_token"));
+        refresh(thirdRefresh).andExpect(status().isUnauthorized())
+                .andExpect(jsonPath("$.code").value("invalid_refresh_token"));
+    }
+
+    @Test
+    void rotationGraceIsLimitedPerFamily() throws Exception {
+        String body = register(uniqueEmail(), uniqueNickname()).andReturn().getResponse()
+                .getContentAsString(StandardCharsets.UTF_8);
+        String held = rotate(JsonPath.read(body, "$.refreshToken"));
+        rotate(held);
+        for (int i = 0; i < RefreshTokenService.MAX_GRACE_USES; i++) {
+            // Every rotation response is "lost": the client presents the token it still holds,
+            // which the grace accepts once per token...
+            held = rotate(held);
+            rotate(held);
+        }
+        // ...until the family has used up its grace: the next replay is theft.
+        refresh(held).andExpect(status().isUnauthorized())
+                .andExpect(jsonPath("$.code").value("invalid_refresh_token"));
+    }
+
+    private String rotate(String refreshToken) throws Exception {
+        String body = refresh(refreshToken).andExpect(status().isOk()).andReturn().getResponse()
+                .getContentAsString(StandardCharsets.UTF_8);
+        return JsonPath.read(body, "$.refreshToken");
     }
 
     @Test

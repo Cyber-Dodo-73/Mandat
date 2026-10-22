@@ -459,6 +459,15 @@
       "empty": "Aucun joueur bloqué.",
       "unblock": "Débloquer",
       "unblockA11y": "Débloquer {{nickname}}"
+    },
+    "diagnostics": {
+      "title": "Diagnostic",
+      "journal": "Journal des incidents",
+      "none": "Aucun incident enregistré.",
+      "lastIncident": "Dernier incident : {{date}}",
+      "hint": "Copie ce rapport et envoie-le au support : il ne contient aucune donnée personnelle.",
+      "copy": "Copier le rapport",
+      "clear": "Effacer le journal"
     }
   },
   "errors": {
@@ -514,7 +523,12 @@
     "friend_already_active": "Ton ami a déjà joué aujourd’hui.",
     "account_banned": "Ce compte est suspendu. Contacte l'assistance si tu penses qu'il s'agit d'une erreur.",
     "terms_not_accepted": "Accepte les conditions d'utilisation pour continuer.",
-    "invalid_reset_token": "Ce lien est invalide ou expiré. Redemande-en un."
+    "invalid_reset_token": "Ce lien est invalide ou expiré. Redemande-en un.",
+    "crash": {
+      "title": "Oups, l'app a trébuché",
+      "body": "Une erreur inattendue s'est produite. Le détail a été enregistré dans Réglages > Diagnostic.",
+      "retry": "Reprendre"
+    }
   },
   "notFound": {
     "title": "Page introuvable",
