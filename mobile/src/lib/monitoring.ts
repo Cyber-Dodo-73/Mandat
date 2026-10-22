@@ -44,6 +44,11 @@ export function captureMonitoringError(error: unknown, context?: Record<string, 
   Sentry.captureException(error, context ? { extra: context } : undefined);
 }
 
+export function captureMonitoringMessage(message: string, level: 'info' | 'warning' | 'error'): void {
+  if (!monitoringEnabled) return;
+  Sentry.captureMessage(message, level);
+}
+
 /** Wraps the root component so Sentry sees app start, touch events and the navigation tree. */
 export function wrapRoot<P extends Record<string, unknown>>(component: React.ComponentType<P>): React.ComponentType<P> {
   return monitoringEnabled ? Sentry.wrap(component) : component;

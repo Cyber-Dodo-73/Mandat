@@ -1,7 +1,7 @@
 import Constants from 'expo-constants';
-import { Platform } from 'react-native';
+import { AppState, Platform } from 'react-native';
 
-import { addMonitoringBreadcrumb } from './monitoring';
+import { addMonitoringBreadcrumb, captureMonitoringMessage } from './monitoring';
 import { storage } from './storage';
 
 /**
@@ -11,7 +11,8 @@ import { storage } from './storage';
  * the Diagnostics screen after the restart. No network, no third party.
  */
 
-export type CrashKind = 'fatal' | 'render' | 'rejection';
+/** `memory`: iOS warned that the app uses too much RAM (the step before the watchdog kills it). */
+export type CrashKind = 'fatal' | 'render' | 'rejection' | 'memory';
 
 export type CrashEntry = {
   kind: CrashKind;
@@ -107,6 +108,12 @@ export function installCrashJournal(): void {
       previous(error, isFatal);
     });
   }
+  // iOS sends this before killing the app for memory: journaled with the screen in use, so an
+  // OOM termination (which leaves no trace of its own) can be traced back to a screen.
+  AppState.addEventListener('memoryWarning', () => {
+    recordCrash(new Error(`Memory warning on ${currentScreen ?? 'unknown screen'}`), 'memory');
+    captureMonitoringMessage(`Memory warning on ${currentScreen ?? 'unknown screen'}`, 'warning');
+  });
   const hermes = (globalThis as { HermesInternal?: RejectionTracker }).HermesInternal;
   hermes?.enablePromiseRejectionTracker?.({
     allRejections: true,
