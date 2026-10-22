@@ -57,6 +57,9 @@ services:
       MANDAT_OPERATOR_ADDRESS: ${MANDAT_OPERATOR_ADDRESS:-}
       MANDAT_CONTACT_EMAIL: ${MANDAT_CONTACT_EMAIL:-contact@cyber-dodo.fr}
       MANDAT_HOSTING_PROVIDER: ${MANDAT_HOSTING_PROVIDER:-}
+      # Sentry error reporting; empty keeps it off.
+      SENTRY_DSN: ${SENTRY_DSN:-}
+      SENTRY_ENVIRONMENT: ${SENTRY_ENVIRONMENT:-production}
     expose:
       - "8080"
     networks:

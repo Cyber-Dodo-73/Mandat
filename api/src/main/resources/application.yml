@@ -53,6 +53,20 @@ logging:
     format:
       console: ecs
 
+sentry:
+  # Empty DSN: the SDK stays off. Set SENTRY_DSN (project "mandat-api" in Sentry) to report.
+  dsn: ${SENTRY_DSN:}
+  environment: ${SENTRY_ENVIRONMENT:production}
+  release: ${SENTRY_RELEASE:}
+  # No IP, no headers with personal data; user id only, for support matching.
+  send-default-pii: false
+  traces-sample-rate: ${SENTRY_TRACES_SAMPLE_RATE:0.1}
+  # Slack-style summary of every 5xx and uncaught exception; 4xx are answers, not errors.
+  exception-resolver-order: -2147483647
+  logging:
+    minimum-event-level: error
+    minimum-breadcrumb-level: info
+
 springdoc:
   api-docs:
     enabled: ${MANDAT_API_DOCS_ENABLED:true}

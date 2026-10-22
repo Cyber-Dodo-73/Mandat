@@ -31,6 +31,10 @@ dependencies {
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:3.1.1")
     implementation("com.bucket4j:bucket4j_jdk17-core:8.21.0")
     implementation("com.github.ben-manes.caffeine:caffeine")
+    // Error reporting (Sentry). Inactive until SENTRY_DSN is set; ERROR logs and unhandled
+    // exceptions then become events, with the request route attached.
+    implementation("io.sentry:sentry-spring-boot-4-starter:8.61.1")
+    implementation("io.sentry:sentry-logback:8.61.1")
     // Argon2 password hashing (Spring Security's Argon2PasswordEncoder relies on Bouncy Castle).
     implementation("org.bouncycastle:bcprov-jdk18on:1.86")
     runtimeOnly("org.postgresql:postgresql")
