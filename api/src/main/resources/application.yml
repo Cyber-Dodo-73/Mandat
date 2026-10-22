@@ -61,8 +61,14 @@ sentry:
   # No IP, no headers with personal data; user id only, for support matching.
   send-default-pii: false
   traces-sample-rate: ${SENTRY_TRACES_SAMPLE_RATE:0.1}
-  # Slack-style summary of every 5xx and uncaught exception; 4xx are answers, not errors.
-  exception-resolver-order: -2147483647
+  # Business errors (ApiException: bad credentials, invalid token, 4xx) are answers, not
+  # incidents: only exceptions nobody handled reach Sentry, plus the ERROR log written for
+  # every 500 by GlobalExceptionHandler (stack trace attached by the Logback integration).
+  ignored-exceptions-for-type:
+    - com.mandat.api.common.error.ApiException
+    - com.mandat.api.common.ratelimit.RateLimitExceededException
+    - org.springframework.security.core.AuthenticationException
+    - org.springframework.security.access.AccessDeniedException
   logging:
     minimum-event-level: error
     minimum-breadcrumb-level: info
