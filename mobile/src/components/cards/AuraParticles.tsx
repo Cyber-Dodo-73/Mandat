@@ -1,4 +1,4 @@
-import { Canvas, createPicture, Picture, Skia } from '@shopify/react-native-skia';
+import { Canvas, Circle } from '@shopify/react-native-skia';
 import { memo, useEffect, useMemo } from 'react';
 import {
   cancelAnimation,
@@ -7,6 +7,7 @@ import {
   useSharedValue,
   withRepeat,
   withTiming,
+  type SharedValue,
 } from 'react-native-reanimated';
 
 type AuraParticlesProps = {
@@ -24,6 +25,10 @@ const CYCLE_MS = 5200;
 /**
  * Subtle floating motes around premium cards (legendary, mythic, gold) in large sizes:
  * each mote rises along the card edge, fades in and out, then loops with its own phase.
+ *
+ * Every mote is a Skia node driven by plain numeric derived values: nothing is allocated per
+ * frame. (Recording a picture per frame on the UI thread created Skia objects that the UI
+ * runtime almost never collects: the app grew by megabytes per minute until iOS killed it.)
  */
 export const AuraParticles = memo(function AuraParticles({ width, height, colors, count = 18 }: AuraParticlesProps) {
   const time = useSharedValue(0);
@@ -36,44 +41,47 @@ export const AuraParticles = memo(function AuraParticles({ width, height, colors
   }, [time]);
 
   const motes = useMemo(() => {
-    const xs: number[] = [];
-    const phases: number[] = [];
-    const sizes: number[] = [];
+    const result: { x: number; phase: number; size: number; color: string }[] = [];
     for (let i = 0; i < count; i += 1) {
       // Golden-ratio spacing keeps the motes evenly spread without randomness.
       const t = (i * 0.618034) % 1;
       // Motes hug the left and right edges, a few float across the top and bottom.
       const side = i % 3;
-      xs.push(side === 0 ? t * AURA_MARGIN : side === 1 ? canvasWidth - t * AURA_MARGIN : AURA_MARGIN + t * width);
-      phases.push((i * 0.37) % 1);
-      sizes.push(1 + ((i * 7) % 5) * 0.4);
+      result.push({
+        x: side === 0 ? t * AURA_MARGIN : side === 1 ? canvasWidth - t * AURA_MARGIN : AURA_MARGIN + t * width,
+        phase: (i * 0.37) % 1,
+        size: 1 + ((i * 7) % 5) * 0.4,
+        color: colors[i % colors.length] ?? '#FFFFFF',
+      });
     }
-    return { xs, phases, sizes };
-  }, [count, canvasWidth, width]);
-
-  const picture = useDerivedValue(() =>
-    createPicture(
-      (canvas) => {
-        const paint = Skia.Paint();
-        for (let i = 0; i < motes.xs.length; i += 1) {
-          const local = (time.get() + (motes.phases[i] ?? 0)) % 1;
-          const y = canvasHeight - local * canvasHeight;
-          const x = (motes.xs[i] ?? 0) + Math.sin(local * Math.PI * 2 + i) * 3;
-          paint.setColor(Skia.Color(colors[i % colors.length] ?? '#FFFFFF'));
-          paint.setAlphaf(Math.sin(local * Math.PI) * 0.75);
-          canvas.drawCircle(x, y, motes.sizes[i] ?? 1.5, paint);
-        }
-      },
-      { width: canvasWidth, height: canvasHeight },
-    ),
-  );
+    return result;
+  }, [colors, count, canvasWidth, width]);
 
   return (
     <Canvas
       style={{ position: 'absolute', left: -AURA_MARGIN, top: -AURA_MARGIN, width: canvasWidth, height: canvasHeight }}
       pointerEvents="none"
     >
-      <Picture picture={picture} />
+      {motes.map((mote, index) => (
+        <Mote key={index} index={index} time={time} canvasHeight={canvasHeight} {...mote} />
+      ))}
     </Canvas>
   );
 });
+
+type MoteProps = {
+  index: number;
+  time: SharedValue<number>;
+  canvasHeight: number;
+  x: number;
+  phase: number;
+  size: number;
+  color: string;
+};
+
+function Mote({ index, time, canvasHeight, x, phase, size, color }: MoteProps) {
+  const cy = useDerivedValue(() => canvasHeight - ((time.get() + phase) % 1) * canvasHeight);
+  const cx = useDerivedValue(() => x + Math.sin(((time.get() + phase) % 1) * Math.PI * 2 + index) * 3);
+  const opacity = useDerivedValue(() => Math.sin(((time.get() + phase) % 1) * Math.PI) * 0.75);
+  return <Circle cx={cx} cy={cy} r={size} color={color} opacity={opacity} />;
+}

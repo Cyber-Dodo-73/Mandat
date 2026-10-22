@@ -1,13 +1,10 @@
 import {
   Canvas,
   Circle,
-  createPicture,
   Fill,
   Group,
   Path,
-  Picture,
   RadialGradient,
-  Skia,
   SweepGradient,
   vec,
 } from '@shopify/react-native-skia';
@@ -137,48 +134,65 @@ type ParticlesProps = {
   height: number;
 };
 
-/** Particle explosion drawn above the card, recorded as one picture per frame on the UI thread. */
+/**
+ * Particle explosion drawn above the card. Each particle is a Skia node fed by numeric derived
+ * values: no Skia object is created per frame (pictures recorded on the UI thread were never
+ * collected and ate the memory of the app).
+ */
 export const RevealParticles = memo(function RevealParticles({ rarity, palette, count, seed, progress, width, height }: ParticlesProps) {
+  const colors = useMemo(() => [...(palette ?? rarityStyles[rarity].gradient), '#FFFFFF'], [palette, rarity]);
   const particles = useMemo(() => {
     const random = seededRandom(seed);
-    const angles: number[] = [];
-    const speeds: number[] = [];
-    const sizes: number[] = [];
+    const result: { angle: number; speed: number; size: number; color: string }[] = [];
     for (let i = 0; i < count; i += 1) {
-      angles.push(random() * Math.PI * 2);
-      speeds.push(0.3 + random() * 0.7);
-      sizes.push(1.5 + random() * 3.5);
+      result.push({
+        angle: random() * Math.PI * 2,
+        speed: 0.3 + random() * 0.7,
+        size: 1.5 + random() * 3.5,
+        color: colors[i % colors.length] ?? '#FFFFFF',
+      });
     }
-    return { angles, speeds, sizes };
-  }, [count, seed]);
-  const colors = useMemo(() => [...(palette ?? rarityStyles[rarity].gradient), '#FFFFFF'], [palette, rarity]);
-
-  const picture = useDerivedValue(() =>
-    createPicture(
-      (canvas) => {
-        const p = progress.get();
-        if (p <= 0 || p >= 1) return;
-        const eased = 1 - (1 - p) * (1 - p);
-        const reach = Math.max(width, height) * 0.62;
-        const paint = Skia.Paint();
-        for (let i = 0; i < particles.angles.length; i += 1) {
-          const angle = particles.angles[i] ?? 0;
-          const distance = (particles.speeds[i] ?? 0) * reach * eased;
-          const x = width / 2 + Math.cos(angle) * distance;
-          const y = height / 2 + Math.sin(angle) * distance + p * p * height * 0.18;
-          paint.setColor(Skia.Color(colors[i % colors.length] ?? '#FFFFFF'));
-          paint.setAlphaf(Math.max(0, 1 - p));
-          canvas.drawCircle(x, y, (particles.sizes[i] ?? 2) * (1 - p * 0.4), paint);
-        }
-      },
-      { width, height },
-    ),
-  );
+    return result;
+  }, [colors, count, seed]);
 
   if (count === 0) return null;
+  const reach = Math.max(width, height) * 0.62;
   return (
     <Canvas style={[StyleSheet.absoluteFill, { width, height }]} pointerEvents="none">
-      <Picture picture={picture} />
+      {particles.map((particle, index) => (
+        <RevealParticle key={index} progress={progress} width={width} height={height} reach={reach} {...particle} />
+      ))}
     </Canvas>
   );
 });
+
+type RevealParticleProps = {
+  progress: SharedValue<number>;
+  width: number;
+  height: number;
+  reach: number;
+  angle: number;
+  speed: number;
+  size: number;
+  color: string;
+};
+
+function RevealParticle({ progress, width, height, reach, angle, speed, size, color }: RevealParticleProps) {
+  const cx = useDerivedValue(() => {
+    const p = progress.get();
+    const eased = 1 - (1 - p) * (1 - p);
+    return width / 2 + Math.cos(angle) * speed * reach * eased;
+  });
+  const cy = useDerivedValue(() => {
+    const p = progress.get();
+    const eased = 1 - (1 - p) * (1 - p);
+    return height / 2 + Math.sin(angle) * speed * reach * eased + p * p * height * 0.18;
+  });
+  const r = useDerivedValue(() => size * (1 - progress.get() * 0.4));
+  // Invisible before the burst starts and once it is over.
+  const opacity = useDerivedValue(() => {
+    const p = progress.get();
+    return p <= 0 || p >= 1 ? 0 : Math.max(0, 1 - p);
+  });
+  return <Circle cx={cx} cy={cy} r={r} color={color} opacity={opacity} />;
+}
